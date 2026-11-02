@@ -478,6 +478,505 @@
         { "word": "天気[てんき]", "de": "das Wetter" },
         { "word": "天[てん]ぷら", "de": "Tempura (frittiertes Gemüse oder Fisch)" },
         { "word": "天国[てんごく]", "de": "das Paradies; der Himmel" }
+      ] },
+    { "char": "見", "de": "sehen; schauen; zeigen", "on": ["ケン"], "kun": ["み.る", "み.える", "み.せる"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "見[み]る", "de": "sehen; ansehen" },
+        { "word": "見[み]せる", "de": "zeigen" },
+        { "word": "見物[けんぶつ]", "de": "die Besichtigung" }
+      ] },
+    { "char": "聞", "de": "hören; fragen", "on": ["ブン", "モン"], "kun": ["き.く", "き.こえる"], "strokes": 14,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "聞[き]く", "de": "hören; fragen" },
+        { "word": "新聞[しんぶん]", "de": "die Zeitung" }
+      ] },
+    { "char": "読", "de": "lesen", "on": ["ドク", "トク", "トウ"], "kun": ["よ.む"], "strokes": 14,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "読[よ]む", "de": "lesen" },
+        { "word": "読書[どくしょ]", "de": "das Lesen (als Hobby)" }
+      ] },
+    { "char": "書", "de": "schreiben; Schrift; Buch", "on": ["ショ"], "kun": ["か.く"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "書[か]く", "de": "schreiben" },
+        { "word": "図書館[としょかん]", "de": "die Bibliothek" },
+        { "word": "辞書[じしょ]", "de": "das Wörterbuch" }
+      ] },
+    { "char": "話", "de": "sprechen; Gespräch; Geschichte", "on": ["ワ"], "kun": ["はな.す", "はなし"], "strokes": 13,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "話[はな]す", "de": "sprechen" },
+        { "word": "電話[でんわ]", "de": "das Telefon" },
+        { "word": "話[はなし]", "de": "die Geschichte; das Gespräch" }
+      ] },
+    { "char": "買", "de": "kaufen", "on": ["バイ"], "kun": ["か.う"], "strokes": 12,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "買[か]う", "de": "kaufen" },
+        { "word": "買[か]い物[もの]", "de": "das Einkaufen" }
+      ] },
+    { "char": "友", "de": "Freund; Freundschaft", "on": ["ユウ"], "kun": ["とも"], "strokes": 4,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "友[とも]だち", "de": "Freund/in" },
+        { "word": "友人[ゆうじん]", "de": "Freund/in (förmlich)" }
+      ] },
+    { "char": "週", "de": "Woche", "on": ["シュウ"], "kun": [], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-01",
+      "examples": [
+        { "word": "今週[こんしゅう]", "de": "diese Woche" },
+        { "word": "先週[せんしゅう]", "de": "letzte Woche" },
+        { "word": "週末[しゅうまつ]", "de": "das Wochenende" }
+      ] },
+    { "char": "会", "de": "treffen; Versammlung; Gesellschaft", "on": ["カイ", "エ"], "kun": ["あ.う"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "会[あ]う", "de": "treffen" },
+        { "word": "会社[かいしゃ]", "de": "die Firma" },
+        { "word": "会議[かいぎ]", "de": "die Besprechung" }
+      ] },
+    { "char": "社", "de": "Firma; Gesellschaft; Schrein", "on": ["シャ", "ジャ"], "kun": ["やしろ"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "会社[かいしゃ]", "de": "die Firma" },
+        { "word": "社長[しゃちょう]", "de": "der Firmenchef; die Firmenchefin" },
+        { "word": "神社[じんじゃ]", "de": "der Shintō-Schrein" }
+      ] },
+    { "char": "仕", "de": "dienen; tun", "on": ["シ", "ジ"], "kun": ["つか.える"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "仕事[しごと]", "de": "die Arbeit" },
+        { "word": "仕方[しかた]", "de": "die Art und Weise" }
+      ] },
+    { "char": "事", "de": "Sache; Angelegenheit", "on": ["ジ", "ズ"], "kun": ["こと"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "仕事[しごと]", "de": "die Arbeit" },
+        { "word": "大事[だいじ]", "de": "wichtig" },
+        { "word": "事務所[じむしょ]", "de": "das Büro" }
+      ] },
+    { "char": "働", "de": "arbeiten", "on": ["ドウ"], "kun": ["はたら.く"], "strokes": 13,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "働[はたら]く", "de": "arbeiten" },
+        { "word": "働[はたら]き方[かた]", "de": "die Arbeitsweise" }
+      ] },
+    { "char": "員", "de": "Mitglied; Mitarbeiter", "on": ["イン"], "kun": [], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "会社員[かいしゃいん]", "de": "Angestellte/r" },
+        { "word": "店員[てんいん]", "de": "Verkäufer/in" },
+        { "word": "駅員[えきいん]", "de": "Bahnhofsangestellte/r" }
+      ] },
+    { "char": "先", "de": "vorher; voraus; Spitze", "on": ["セン"], "kun": ["さき", "ま.ず"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "先生[せんせい]", "de": "Lehrer/in" },
+        { "word": "先週[せんしゅう]", "de": "letzte Woche" },
+        { "word": "お先[さき]に", "de": "vor den anderen; zuerst" }
+      ] },
+    { "char": "校", "de": "Schule", "on": ["コウ", "キョウ"], "kun": [], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-02",
+      "examples": [
+        { "word": "学校[がっこう]", "de": "die Schule" },
+        { "word": "高校[こうこう]", "de": "die Oberschule" },
+        { "word": "校長[こうちょう]", "de": "Schulleiter/in" }
+      ] },
+    { "char": "目", "de": "Auge; -te (Reihenfolge)", "on": ["モク", "ボク"], "kun": ["め", "ま"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "目[め]", "de": "das Auge" },
+        { "word": "二[ふた]つ目[め]", "de": "der/die/das Zweite" },
+        { "word": "目的[もくてき]", "de": "das Ziel; der Zweck" }
+      ] },
+    { "char": "耳", "de": "Ohr", "on": ["ジ"], "kun": ["みみ"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "耳[みみ]", "de": "das Ohr" },
+        { "word": "耳鼻科[じびか]", "de": "die HNO-Praxis" }
+      ] },
+    { "char": "手", "de": "Hand", "on": ["シュ", "ズ"], "kun": ["て", "た"], "strokes": 4,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "手[て]", "de": "die Hand" },
+        { "word": "上手[じょうず]", "de": "gut (in etwas)" },
+        { "word": "手紙[てがみ]", "de": "der Brief" }
+      ] },
+    { "char": "足", "de": "Fuß; Bein; genügen", "on": ["ソク"], "kun": ["あし", "た.りる", "た.る", "た.す"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "足[あし]", "de": "der Fuß; das Bein" },
+        { "word": "足[た]りる", "de": "reichen; genug sein" }
+      ] },
+    { "char": "体", "de": "Körper", "on": ["タイ", "テイ"], "kun": ["からだ"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "体[からだ]", "de": "der Körper" },
+        { "word": "体重[たいじゅう]", "de": "das Körpergewicht" },
+        { "word": "体育[たいいく]", "de": "der Sportunterricht" }
+      ] },
+    { "char": "病", "de": "krank; Krankheit", "on": ["ビョウ", "ヘイ"], "kun": ["や.む", "やまい"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "病気[びょうき]", "de": "die Krankheit; krank" },
+        { "word": "病院[びょういん]", "de": "das Krankenhaus" }
+      ] },
+    { "char": "院", "de": "Institution; Anstalt", "on": ["イン"], "kun": [], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "病院[びょういん]", "de": "das Krankenhaus" },
+        { "word": "入院[にゅういん]", "de": "die stationäre Aufnahme" },
+        { "word": "大学院[だいがくいん]", "de": "das Masterstudium" }
+      ] },
+    { "char": "医", "de": "Arzt; Medizin; heilen", "on": ["イ"], "kun": [], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-03",
+      "examples": [
+        { "word": "医者[いしゃ]", "de": "der Arzt; die Ärztin" },
+        { "word": "歯医者[はいしゃ]", "de": "der Zahnarzt; die Zahnärztin" },
+        { "word": "医学[いがく]", "de": "die Medizin (Fach)" }
+      ] },
+    { "char": "雨", "de": "Regen", "on": ["ウ"], "kun": ["あめ", "あま"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "雨[あめ]", "de": "der Regen" },
+        { "word": "大雨[おおあめ]", "de": "der starke Regen" },
+        { "word": "梅雨[つゆ]", "de": "die Regenzeit" }
+      ] },
+    { "char": "雪", "de": "Schnee", "on": ["セツ"], "kun": ["ゆき"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "雪[ゆき]", "de": "der Schnee" },
+        { "word": "大雪[おおゆき]", "de": "der starke Schneefall" }
+      ] },
+    { "char": "風", "de": "Wind; Stil; Art", "on": ["フウ", "フ"], "kun": ["かぜ", "かざ"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "風[かぜ]", "de": "der Wind" },
+        { "word": "台風[たいふう]", "de": "der Taifun" },
+        { "word": "お風呂[ふろ]", "de": "das Bad; die Badewanne" }
+      ] },
+    { "char": "春", "de": "Frühling", "on": ["シュン"], "kun": ["はる"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "春[はる]", "de": "der Frühling" },
+        { "word": "春休[はるやす]み", "de": "die Frühlingsferien" }
+      ] },
+    { "char": "夏", "de": "Sommer", "on": ["カ", "ゲ"], "kun": ["なつ"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "夏[なつ]", "de": "der Sommer" },
+        { "word": "夏休[なつやす]み", "de": "die Sommerferien" }
+      ] },
+    { "char": "秋", "de": "Herbst", "on": ["シュウ"], "kun": ["あき"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "秋[あき]", "de": "der Herbst" },
+        { "word": "春夏秋冬[しゅんかしゅうとう]", "de": "die vier Jahreszeiten" }
+      ] },
+    { "char": "冬", "de": "Winter", "on": ["トウ"], "kun": ["ふゆ"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-04",
+      "examples": [
+        { "word": "冬[ふゆ]", "de": "der Winter" },
+        { "word": "冬休[ふゆやす]み", "de": "die Winterferien" }
+      ] },
+    { "char": "花", "de": "Blume; Blüte", "on": ["カ"], "kun": ["はな"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "花[はな]", "de": "die Blume; die Blüte" },
+        { "word": "花見[はなみ]", "de": "das Kirschblütenfest" },
+        { "word": "花火[はなび]", "de": "das Feuerwerk" }
+      ] },
+    { "char": "楽", "de": "Freude; Musik; bequem", "on": ["ガク", "ラク"], "kun": ["たの.しい", "たの.しむ"], "strokes": 13,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "楽[たの]しい", "de": "macht Spaß; schön" },
+        { "word": "音楽[おんがく]", "de": "die Musik" },
+        { "word": "楽[らく]", "de": "bequem; leicht" }
+      ] },
+    { "char": "歌", "de": "Lied; singen", "on": ["カ"], "kun": ["うた", "うた.う"], "strokes": 14,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "歌[うた]", "de": "das Lied" },
+        { "word": "歌[うた]う", "de": "singen" },
+        { "word": "歌手[かしゅ]", "de": "Sänger/in" }
+      ] },
+    { "char": "音", "de": "Klang; Ton; Geräusch", "on": ["オン", "イン"], "kun": ["おと", "ね"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "音[おと]", "de": "der Klang; das Geräusch" },
+        { "word": "音楽[おんがく]", "de": "die Musik" },
+        { "word": "発音[はつおん]", "de": "die Aussprache" }
+      ] },
+    { "char": "写", "de": "abbilden; abschreiben", "on": ["シャ"], "kun": ["うつ.す", "うつ.る"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "写真[しゃしん]", "de": "das Foto" },
+        { "word": "写[うつ]す", "de": "abschreiben; abbilden" }
+      ] },
+    { "char": "真", "de": "wahr; echt; genau", "on": ["シン"], "kun": ["ま", "まこと"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-05",
+      "examples": [
+        { "word": "写真[しゃしん]", "de": "das Foto" },
+        { "word": "真[ま]ん中[なか]", "de": "die genaue Mitte" },
+        { "word": "真[ま]っ白[しろ]", "de": "schneeweiß" }
+      ] },
+    { "char": "店", "de": "Laden; Geschäft", "on": ["テン"], "kun": ["みせ"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "店[みせ]", "de": "das Geschäft; der Laden" },
+        { "word": "喫[きっ]茶店[さてん]", "de": "das Café" },
+        { "word": "店員[てんいん]", "de": "Verkäufer/in; Bedienung" }
+      ] },
+    { "char": "肉", "de": "Fleisch", "on": ["ニク"], "kun": [], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "肉[にく]", "de": "das Fleisch" },
+        { "word": "牛[ぎゅう]肉[にく]", "de": "das Rindfleisch" },
+        { "word": "とり肉[にく]", "de": "das Hähnchenfleisch" }
+      ] },
+    { "char": "魚", "de": "Fisch", "on": ["ギョ"], "kun": ["さかな", "うお"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "魚[さかな]", "de": "der Fisch" },
+        { "word": "焼[や]き魚[ざかな]", "de": "gegrillter Fisch" },
+        { "word": "金[きん]魚[ぎょ]", "de": "der Goldfisch" }
+      ] },
+    { "char": "茶", "de": "Tee", "on": ["チャ", "サ"], "kun": [], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "お茶[ちゃ]", "de": "der (grüne) Tee" },
+        { "word": "麦[むぎ]茶[ちゃ]", "de": "der Gerstentee" },
+        { "word": "喫[きっ]茶店[さてん]", "de": "das Café" }
+      ] },
+    { "char": "飯", "de": "gekochter Reis; Mahlzeit", "on": ["ハン"], "kun": ["めし"], "strokes": 12,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "ご飯[はん]", "de": "der (gekochte) Reis; das Essen" },
+        { "word": "朝[あさ]ご飯[はん]", "de": "das Frühstück" },
+        { "word": "晩[ばん]ご飯[はん]", "de": "das Abendessen" }
+      ] },
+    { "char": "料", "de": "Gebühr; Zutat; Material", "on": ["リョウ"], "kun": [], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "料理[りょうり]", "de": "das Kochen; das Gericht" },
+        { "word": "無[む]料[りょう]", "de": "kostenlos" },
+        { "word": "料金[りょうきん]", "de": "die Gebühr; der Preis" }
+      ] },
+    { "char": "理", "de": "Vernunft; Grund; Ordnung", "on": ["リ"], "kun": [], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-06",
+      "examples": [
+        { "word": "料理[りょうり]", "de": "das Kochen; das Gericht" },
+        { "word": "日本料理[にほんりょうり]", "de": "die japanische Küche" },
+        { "word": "理[り]由[ゆう]", "de": "der Grund" }
+      ] },
+    { "char": "旅", "de": "Reise", "on": ["リョ"], "kun": ["たび"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "旅行[りょこう]", "de": "die Reise" },
+        { "word": "旅[りょ]館[かん]", "de": "das Ryokan (japanisches Gasthaus)" },
+        { "word": "旅行会社[りょこうがいしゃ]", "de": "das Reisebüro" }
+      ] },
+    { "char": "国", "de": "Land; Staat", "on": ["コク"], "kun": ["くに"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "国[くに]", "de": "das Land" },
+        { "word": "外国[がいこく]", "de": "das Ausland" },
+        { "word": "中国[ちゅうごく]", "de": "China" }
+      ] },
+    { "char": "山", "de": "Berg", "on": ["サン"], "kun": ["やま"], "strokes": 3,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "山[やま]", "de": "der Berg" },
+        { "word": "富[ふ]士[じ]山[さん]", "de": "der Fuji" },
+        { "word": "火山[かざん]", "de": "der Vulkan" }
+      ] },
+    { "char": "海", "de": "Meer", "on": ["カイ"], "kun": ["うみ"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "海[うみ]", "de": "das Meer" },
+        { "word": "海外[かいがい]", "de": "das Ausland (Übersee)" },
+        { "word": "北海[ほっかい]道[どう]", "de": "Hokkaido" }
+      ] },
+    { "char": "東", "de": "Osten", "on": ["トウ"], "kun": ["ひがし"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "東[ひがし]", "de": "der Osten" },
+        { "word": "東[とう]京[きょう]", "de": "Tokio" },
+        { "word": "東口[ひがしぐち]", "de": "der Ostausgang" }
+      ] },
+    { "char": "西", "de": "Westen", "on": ["セイ", "サイ"], "kun": ["にし"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "西[にし]", "de": "der Westen" },
+        { "word": "関[かん]西[さい]", "de": "Kansai (Gegend um Osaka und Kyoto)" },
+        { "word": "西口[にしぐち]", "de": "der Westausgang" }
+      ] },
+    { "char": "南", "de": "Süden", "on": ["ナン"], "kun": ["みなみ"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "南[みなみ]", "de": "der Süden" },
+        { "word": "南口[みなみぐち]", "de": "der Südausgang" },
+        { "word": "南西[なんせい]", "de": "der Südwesten" }
+      ] },
+    { "char": "北", "de": "Norden", "on": ["ホク"], "kun": ["きた"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-07",
+      "examples": [
+        { "word": "北[きた]", "de": "der Norden" },
+        { "word": "北海[ほっかい]道[どう]", "de": "Hokkaido" },
+        { "word": "北口[きたぐち]", "de": "der Nordausgang" }
+      ] },
+    { "char": "白", "de": "weiß", "on": ["ハク", "ビャク"], "kun": ["しろ", "しろ.い"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "白[しろ]い", "de": "weiß" },
+        { "word": "面[おも]白[しろ]い", "de": "interessant; lustig" },
+        { "word": "白[しろ]ワイン", "de": "der Weißwein" }
+      ] },
+    { "char": "黒", "de": "schwarz", "on": ["コク"], "kun": ["くろ", "くろ.い"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "黒[くろ]い", "de": "schwarz" },
+        { "word": "白黒[しろくろ]", "de": "schwarz-weiß" },
+        { "word": "黒[こく]板[ばん]", "de": "die Tafel" }
+      ] },
+    { "char": "赤", "de": "rot", "on": ["セキ"], "kun": ["あか", "あか.い"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "赤[あか]い", "de": "rot" },
+        { "word": "赤[あか]ちゃん", "de": "das Baby" },
+        { "word": "赤[あか]ワイン", "de": "der Rotwein" }
+      ] },
+    { "char": "青", "de": "blau; grün (bei Ampeln und Pflanzen)", "on": ["セイ"], "kun": ["あお", "あお.い"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "青[あお]い", "de": "blau" },
+        { "word": "青[あお]空[ぞら]", "de": "der blaue Himmel" },
+        { "word": "青[あお]信[しん]号[ごう]", "de": "die grüne Ampel" }
+      ] },
+    { "char": "色", "de": "Farbe", "on": ["ショク", "シキ"], "kun": ["いろ"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "色[いろ]", "de": "die Farbe" },
+        { "word": "茶色[ちゃいろ]", "de": "braun" },
+        { "word": "景[け]色[しき]", "de": "die Aussicht; die Landschaft" }
+      ] },
+    { "char": "明", "de": "hell; klar", "on": ["メイ", "ミョウ"], "kun": ["あか.るい", "あ.かり", "あき.らか", "あ.ける"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "明[あか]るい", "de": "hell; fröhlich" },
+        { "word": "明日[あした]", "de": "morgen" },
+        { "word": "説[せつ]明[めい]", "de": "die Erklärung" }
+      ] },
+    { "char": "多", "de": "viel; zahlreich", "on": ["タ"], "kun": ["おお.い"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "多[おお]い", "de": "viel; zahlreich" },
+        { "word": "多分[たぶん]", "de": "wahrscheinlich; vielleicht" }
+      ] },
+    { "char": "少", "de": "wenig; ein bisschen", "on": ["ショウ"], "kun": ["すく.ない", "すこ.し"], "strokes": 4,
+      "level": "A2", "lesson": "ja-a2-08",
+      "examples": [
+        { "word": "少[すこ]し", "de": "ein bisschen" },
+        { "word": "少[すく]ない", "de": "wenig" },
+        { "word": "少々[しょうしょう]", "de": "ein wenig; einen Moment (sehr höflich)" }
+      ] },
+    { "char": "家", "de": "Haus; Familie", "on": ["カ", "ケ"], "kun": ["いえ", "や", "うち"], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "家[いえ]", "de": "das Haus" },
+        { "word": "家族[かぞく]", "de": "die Familie" },
+        { "word": "実[じっ]家[か]", "de": "das Elternhaus" }
+      ] },
+    { "char": "族", "de": "Familie; Stamm; Gruppe", "on": ["ゾク"], "kun": [], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "家族[かぞく]", "de": "die Familie" },
+        { "word": "ご家族[かぞく]", "de": "die Familie (von anderen, höflich)" },
+        { "word": "家族旅行[かぞくりょこう]", "de": "die Familienreise" }
+      ] },
+    { "char": "兄", "de": "älterer Bruder", "on": ["ケイ", "キョウ"], "kun": ["あに"], "strokes": 5,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "兄[あに]", "de": "(mein) älterer Bruder" },
+        { "word": "お兄[にい]さん", "de": "älterer Bruder (von anderen)" },
+        { "word": "兄弟[きょうだい]", "de": "die Geschwister" }
+      ] },
+    { "char": "弟", "de": "jüngerer Bruder", "on": ["テイ", "ダイ", "デ"], "kun": ["おとうと"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "弟[おとうと]", "de": "(mein) jüngerer Bruder" },
+        { "word": "弟[おとうと]さん", "de": "jüngerer Bruder (von anderen)" },
+        { "word": "兄弟[きょうだい]", "de": "die Geschwister" }
+      ] },
+    { "char": "姉", "de": "ältere Schwester", "on": ["シ"], "kun": ["あね"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "姉[あね]", "de": "(meine) ältere Schwester" },
+        { "word": "お姉[ねえ]さん", "de": "ältere Schwester (von anderen)" },
+        { "word": "姉妹[しまい]", "de": "die Schwestern" }
+      ] },
+    { "char": "妹", "de": "jüngere Schwester", "on": ["マイ"], "kun": ["いもうと"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "妹[いもうと]", "de": "(meine) jüngere Schwester" },
+        { "word": "妹[いもうと]さん", "de": "jüngere Schwester (von anderen)" },
+        { "word": "姉妹[しまい]", "de": "die Schwestern" }
+      ] },
+    { "char": "住", "de": "wohnen", "on": ["ジュウ"], "kun": ["す.む", "す.まう"], "strokes": 7,
+      "level": "A2", "lesson": "ja-a2-09",
+      "examples": [
+        { "word": "住[す]む", "de": "wohnen" },
+        { "word": "住[す]んで い ます", "de": "wohnt (Zustand)" },
+        { "word": "住[じゅう]所[しょ]", "de": "die Adresse" }
+      ] },
+    { "char": "思", "de": "denken; meinen", "on": ["シ"], "kun": ["おも.う"], "strokes": 9,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "思[おも]う", "de": "denken; meinen" },
+        { "word": "思[おも]い出[で]", "de": "die Erinnerung" },
+        { "word": "思[おも]い出[だ]す", "de": "sich erinnern" }
+      ] },
+    { "char": "考", "de": "überlegen; nachdenken", "on": ["コウ"], "kun": ["かんが.える"], "strokes": 6,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "考[かんが]える", "de": "überlegen; nachdenken" },
+        { "word": "考[かんが]え", "de": "die Idee; der Gedanke" }
+      ] },
+    { "char": "始", "de": "anfangen; Anfang", "on": ["シ"], "kun": ["はじ.める", "はじ.まる"], "strokes": 8,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "始[はじ]まる", "de": "anfangen (etwas fängt an)" },
+        { "word": "始[はじ]める", "de": "anfangen (mit etwas)" },
+        { "word": "始[し]発[はつ]", "de": "der erste Zug (am Morgen)" }
+      ] },
+    { "char": "終", "de": "enden; Ende", "on": ["シュウ"], "kun": ["お.わる", "お.える"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "終[お]わる", "de": "enden" },
+        { "word": "終[お]わり", "de": "das Ende" },
+        { "word": "終電[しゅうでん]", "de": "der letzte Zug (am Abend)" }
+      ] },
+    { "char": "習", "de": "lernen; üben", "on": ["シュウ"], "kun": ["なら.う"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "習[なら]う", "de": "lernen (bei jemandem)" },
+        { "word": "練[れん]習[しゅう]", "de": "die Übung; das Training" },
+        { "word": "復[ふく]習[しゅう]", "de": "die Wiederholung" }
+      ] },
+    { "char": "勉", "de": "sich anstrengen; fleißig sein", "on": ["ベン"], "kun": [], "strokes": 10,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "勉強[べんきょう]", "de": "das Lernen" },
+        { "word": "勉強[べんきょう] する", "de": "lernen" }
+      ] },
+    { "char": "強", "de": "stark", "on": ["キョウ", "ゴウ"], "kun": ["つよ.い", "し.いる"], "strokes": 11,
+      "level": "A2", "lesson": "ja-a2-10",
+      "examples": [
+        { "word": "強[つよ]い", "de": "stark" },
+        { "word": "勉強[べんきょう]", "de": "das Lernen" }
       ] }
   ]
 }

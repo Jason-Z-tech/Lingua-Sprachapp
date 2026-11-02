@@ -17,7 +17,6 @@
   "vocab": [
     { "id": "kami", "word": "かみ", "de": "das Haar; die Haare", "pos": "noun", "example": { "text": "ソフィー さん は かみ が 長[なが]い です。", "de": "Sophie hat lange Haare." }, "note": "Kanji: 髪. Gleich klingt かみ (Papier, 紙) – der Satz zeigt, was gemeint ist." },
     { "id": "se", "word": "せ", "de": "die Körpergröße", "pos": "noun", "example": { "text": "けん さん は せ が 高[たか]い です。", "de": "Ken ist groß." }, "note": "Kanji: 背 (eigentlich „Rücken“). せが たかい = groß sein, せが ひくい = klein sein." },
-    { "id": "kao", "word": "顔[かお]", "de": "das Gesicht", "pos": "noun", "example": { "text": "あの 人[ひと] は 顔[かお] が 小[ちい]さい です ね。", "de": "Die Person dort hat ein kleines Gesicht." }, "note": "かおが ちいさい ist in Japan ein Kompliment." },
     { "id": "hige", "word": "ひげ", "de": "der Bart", "pos": "noun", "example": { "text": "父[ちち] は ひげ が あり ます。", "de": "Mein Vater hat einen Bart." } },
     { "id": "kinpatsu", "word": "金[きん]髪[ぱつ]", "de": "blondes Haar; blond", "pos": "noun", "example": { "text": "ルーカス さん は 金[きん]髪[ぱつ] です。", "de": "Lukas ist blond." }, "note": "Wörtlich „goldenes Haar“." },
     { "id": "chairo", "word": "茶色[ちゃいろ]", "de": "braun; das Braun", "pos": "noun", "example": { "text": "茶色[ちゃいろ] の くつ を 買[か]い ました。", "de": "Ich habe braune Schuhe gekauft." }, "note": "Wörtlich „Teefarbe“. Vor einem Nomen: ちゃいろの くつ." },
@@ -32,7 +31,6 @@
     { "id": "wakai", "word": "若[わか]い", "de": "jung", "pos": "adj", "example": { "text": "あの 先生[せんせい] は 若[わか]くて おもしろい です。", "de": "Der Lehrer dort ist jung und lustig.", "focus": "若[わか]くて" } },
     { "id": "ooi", "word": "多[おお]い", "de": "viel; zahlreich", "pos": "adj", "example": { "text": "東[とう]京[きょう] は 人[ひと] が 多[おお]い です。", "de": "In Tokio gibt es viele Menschen." }, "note": "おおい steht meist am Satzende: 人が おおいです. Vor einem Nomen sagt man lieber たくさんの 人." },
     { "id": "sukunai", "word": "少[すく]ない", "de": "wenig; wenige", "pos": "adj", "example": { "text": "今年[ことし] は 雪[ゆき] が 少[すく]ない です。", "de": "Dieses Jahr gibt es wenig Schnee." }, "note": "Das Kanji kennst du aus すこし (ein bisschen)." },
-    { "id": "takusan", "word": "たくさん", "de": "viel; viele", "pos": "adv", "example": { "text": "駅[えき] の 前[まえ] に 人[ひと] が たくさん い ます。", "de": "Vor dem Bahnhof sind viele Leute." }, "note": "Steht vor dem Verb (たくさん たべます) oder mit の vor einem Nomen (たくさんの 人)." },
     { "id": "futotte", "word": "太[ふと]って い ます", "de": "dick sein; mollig sein", "pos": "verb", "forms": "Wörterbuchform ふとる (zunehmen)", "example": { "text": "うち の ねこ は ちょっと 太[ふと]って い ます。", "de": "Unsere Katze ist ein bisschen dick." }, "note": "Für den Zustand sagt man immer ふとって います." },
     { "id": "yasete", "word": "やせて い ます", "de": "schlank sein; dünn sein", "pos": "verb", "forms": "Wörterbuchform やせる (abnehmen)", "example": { "text": "父[ちち] は せ が 高[たか]くて、 やせて い ます。", "de": "Mein Vater ist groß und schlank." } },
     { "id": "nite", "word": "似[に]て い ます", "de": "ähnlich sein; ähnlich sehen", "pos": "verb", "forms": "Wörterbuchform にる", "example": { "text": "私[わたし] は 母[はは] に 似[に]て い ます。", "de": "Ich sehe meiner Mutter ähnlich." }, "note": "Wem man ähnlich ist, markiert に." },

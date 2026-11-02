@@ -1,0 +1,152 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-10",
+  "lang": "ja",
+  "level": "A2",
+  "number": 10,
+  "title": "これから の 予定[よてい]",
+  "title_de": "Pläne",
+  "topic": "Über die Zukunft sprechen",
+  "goals": [
+    "Du kannst die Volitionalform bilden (いこう, たべよう, しよう) und damit unter Freunden Vorschläge machen.",
+    "Du kannst mit 〜と おもって います und 〜つもりです sagen, was du vorhast.",
+    "Du kannst mit 〜よていです feste Pläne und Termine nennen.",
+    "Du kannst mit 〜かもしれません ausdrücken, dass etwas vielleicht passiert."
+  ],
+  "kanji": ["思", "考", "始", "終", "習", "勉", "強"],
+  "vocab": [
+    { "id": "omoimasu", "word": "思[おも]い ます", "de": "denken; meinen; glauben", "pos": "verb", "forms": "Wörterbuchform おもう · て-Form おもって · た-Form おもった", "example": { "text": "この 本[ほん] は おもしろい と 思[おも]い ます。", "de": "Ich finde dieses Buch interessant." }, "note": "Was man denkt, steht vor と: 〜と おもいます = Ich denke / finde, dass …" },
+    { "id": "kangaemasu", "word": "考[かんが]え ます", "de": "überlegen; nachdenken", "pos": "verb", "forms": "Wörterbuchform かんがえる · て-Form かんがえて · た-Form かんがえた", "example": { "text": "将[しょう]来[らい] の こと を 考[かんが]えて い ます。", "de": "Ich denke über meine Zukunft nach.", "focus": "考[かんが]えて" }, "note": "かんがえ = die Idee: いい かんがえですね! (Gute Idee!)" },
+    { "id": "hajimemasu", "word": "始[はじ]め ます", "de": "anfangen (mit etwas); beginnen", "pos": "verb", "forms": "Wörterbuchform はじめる · て-Form はじめて · た-Form はじめた", "example": { "text": "来月[らいげつ] から ヨガ を 始[はじ]め ます。", "de": "Ab nächstem Monat fange ich mit Yoga an." }, "note": "はじめます: Jemand fängt etwas an (を). はじまります: Etwas fängt an (が) – じゅぎょうが はじまります." },
+    { "id": "naraimasu", "word": "習[なら]い ます", "de": "lernen (bei jemandem); Unterricht nehmen", "pos": "verb", "forms": "Wörterbuchform ならう · て-Form ならって · た-Form ならった", "example": { "text": "友[とも]だち に ギター を 習[なら]って い ます。", "de": "Ich lerne bei einem Freund Gitarre.", "focus": "習[なら]って" }, "note": "Bei wem man lernt, markiert に. べんきょうします ist eher „selbst lernen, studieren“." },
+    { "id": "renshuu", "word": "練[れん]習[しゅう]", "de": "die Übung; das Training", "pos": "noun", "example": { "text": "毎日[まいにち] 漢字[かんじ] を 練[れん]習[しゅう] し ます。", "de": "Ich übe jeden Tag Kanji." }, "note": "れんしゅうします = üben, trainieren." },
+    { "id": "fukushuu", "word": "復[ふく]習[しゅう]", "de": "die Wiederholung (des Lernstoffs)", "pos": "noun", "example": { "text": "寝[ね]る まえ に 今日[きょう] の 復[ふく]習[しゅう] を し ます。", "de": "Vor dem Schlafen wiederhole ich den Stoff von heute." }, "note": "Das Gegenstück: よしゅう – die Vorbereitung auf den Unterricht." },
+    { "id": "yotei", "word": "予定[よてい]", "de": "der Plan; der Termin", "pos": "noun", "example": { "text": "週[しゅう]末[まつ] の 予定[よてい] は？", "de": "Was hast du am Wochenende vor?" } },
+    { "id": "tsumori", "word": "つもり", "de": "die Absicht", "pos": "noun", "example": { "text": "来年[らいねん] 日本[にほん] へ 行[い]く つもり です。", "de": "Ich habe vor, nächstes Jahr nach Japan zu fahren." } },
+    { "id": "keikaku", "word": "計画[けいかく]", "de": "der Plan (größer, langfristig)", "pos": "noun", "example": { "text": "夏[なつ]休[やす]み の 計画[けいかく] は もう あり ます か。", "de": "Hast du schon Pläne für die Sommerferien?" } },
+    { "id": "shourai", "word": "将[しょう]来[らい]", "de": "die Zukunft", "pos": "noun", "example": { "text": "将[しょう]来[らい] は 先生[せんせい] に なり たい です。", "de": "Später möchte ich Lehrerin werden." } },
+    { "id": "ryuugaku", "word": "留[りゅう]学[がく]", "de": "das Auslandsstudium", "pos": "noun", "example": { "text": "アンナ さん は 東[とう]京[きょう] に 留[りゅう]学[がく] して い ます。", "de": "Anna studiert gerade in Tokio (als Austauschstudentin)." }, "note": "りゅうがくします = im Ausland studieren. りゅうがくせい = Austauschstudent/in." },
+    { "id": "shuushoku", "word": "就職[しゅうしょく]", "de": "der Berufseinstieg; der Antritt einer Stelle", "pos": "noun", "example": { "text": "卒業[そつぎょう] した あと で、 銀[ぎん]行[こう] に 就職[しゅうしょく] し ます。", "de": "Nach dem Abschluss fange ich bei einer Bank an." }, "note": "しゅうしょくします = eine feste Stelle antreten. Die Firma markiert に." },
+    { "id": "shiken", "word": "試験[しけん]", "de": "die Prüfung", "pos": "noun", "example": { "text": "来週[らいしゅう] 日本[にほん]語[ご] の 試験[しけん] が あり ます。", "de": "Nächste Woche habe ich eine Japanischprüfung." } },
+    { "id": "ukemasu", "word": "受[う]け ます", "de": "(eine Prüfung) machen; ablegen", "pos": "verb", "forms": "Wörterbuchform うける · て-Form うけて · た-Form うけた", "example": { "text": "十二月[じゅうにがつ] に 試験[しけん] を 受[う]け ます。", "de": "Im Dezember mache ich die Prüfung." } },
+    { "id": "goukaku", "word": "合格[ごうかく]", "de": "das Bestehen (einer Prüfung)", "pos": "noun", "example": { "text": "試験[しけん] に 合格[ごうかく] し ました！", "de": "Ich habe die Prüfung bestanden!" }, "note": "ごうかくします = bestehen. Die Prüfung markiert に." },
+    { "id": "daigakuin", "word": "大学院[だいがくいん]", "de": "das Master- oder Doktorstudium", "pos": "noun", "example": { "text": "大学院[だいがくいん] で もっと 勉強[べんきょう] し たい です。", "de": "Ich möchte nach dem Bachelor weiterstudieren." } },
+    { "id": "tsuzukemasu", "word": "続[つづ]け ます", "de": "weitermachen; fortsetzen", "pos": "verb", "forms": "Wörterbuchform つづける · て-Form つづけて · た-Form つづけた", "example": { "text": "ドイツ に 帰[かえ]って も、 日本[にほん]語[ご] の 勉強[べんきょう] を 続[つづ]け ます。", "de": "Auch wenn ich nach Deutschland zurückgehe, lerne ich weiter Japanisch." }, "note": "〜ても (Lektion 6 ohne いい) heißt „auch wenn“." },
+    { "id": "yamemasu", "word": "やめ ます", "de": "aufhören (mit); kündigen", "pos": "verb", "forms": "Wörterbuchform やめる · て-Form やめて · た-Form やめた", "example": { "text": "来月[らいげつ] から たばこ を やめ ます。", "de": "Ab nächstem Monat höre ich mit dem Rauchen auf." }, "note": "Auch für den Job: しごとを やめます = kündigen." },
+    { "id": "tamemasu", "word": "ため ます", "de": "(Geld) sparen", "pos": "verb", "forms": "Wörterbuchform ためる · て-Form ためて · た-Form ためた", "example": { "text": "お金[かね] を ためて、 車[くるま] を 買[か]い たい です。", "de": "Ich möchte Geld sparen und ein Auto kaufen.", "focus": "ためて" } },
+    { "id": "itsuka", "word": "いつか", "de": "irgendwann; eines Tages", "pos": "adv", "example": { "text": "いつか 北海[ほっかい]道[どう] に 住[す]み たい です。", "de": "Irgendwann möchte ich auf Hokkaido wohnen." } },
+    { "id": "sorosoro", "word": "そろそろ", "de": "bald; langsam (es wird Zeit)", "pos": "adv", "example": { "text": "もう 十一時[じゅういちじ] です ね。 そろそろ 帰[かえ]り ましょう。", "de": "Es ist schon elf. Lass uns langsam nach Hause gehen." } },
+    { "id": "korekara", "word": "これから", "de": "von jetzt an; gleich", "pos": "adv", "example": { "text": "これから 毎日[まいにち] 練[れん]習[しゅう] し ます。", "de": "Von jetzt an übe ich jeden Tag." } },
+    { "id": "raigetsu", "word": "来月[らいげつ]", "de": "nächsten Monat", "pos": "noun", "example": { "text": "来月[らいげつ] 引[ひ]っ越[こ]す 予定[よてい] です。", "de": "Nächsten Monat ziehe ich um." }, "note": "Genau wie らいしゅう und らいねん – mit 来 (nächste/r)." },
+    { "id": "nengo", "word": "〜年[ねん]後[ご]", "alt": ["年[ねん]後[ご]"], "de": "in … Jahren; … Jahre später", "pos": "other", "example": { "text": "三[さん]年[ねん]後[ご] に 大学[だいがく] を 卒業[そつぎょう] し ます。", "de": "In drei Jahren mache ich meinen Uni-Abschluss.", "focus": "年[ねん]後[ご]" }, "note": "Genauso: 〜かげつご (in … Monaten), 〜しゅうかんご (in … Wochen)." },
+    { "id": "tabun", "word": "多分[たぶん]", "de": "wahrscheinlich; vielleicht", "pos": "adv", "example": { "text": "多分[たぶん] あした は 雨[あめ] でしょう。", "de": "Morgen regnet es wahrscheinlich." }, "note": "Meist in Kana geschrieben: たぶん. Passt gut zu でしょう und かもしれません." },
+    { "id": "shuuden", "word": "終電[しゅうでん]", "de": "der letzte Zug (am Abend)", "pos": "noun", "example": { "text": "終電[しゅうでん] は 十二時[じゅうにじ] です。", "de": "Der letzte Zug fährt um zwölf." }, "note": "Wörtlich „End-Bahn“. Danach fährt bis zum Morgen keine Bahn mehr!" },
+    { "id": "owari", "word": "終[お]わり", "de": "das Ende", "pos": "noun", "example": { "text": "三月[さんがつ] の 終[お]わり に ドイツ へ 帰[かえ]り ます。", "de": "Ende März fahre ich nach Deutschland zurück." }, "note": "Vom Verb おわります (enden). 〜の おわりに = am Ende von …" },
+    { "id": "ganbarimasu", "word": "がんばり ます", "de": "sich anstrengen; sein Bestes geben", "pos": "verb", "forms": "Wörterbuchform がんばる · て-Form がんばって · た-Form がんばった", "example": { "text": "試験[しけん]、 がんばって ください！", "de": "Viel Erfolg bei der Prüfung!", "focus": "がんばって" }, "note": "がんばって! = Viel Erfolg! Halte durch! – das hörst du in Japan ständig." },
+    { "id": "sagashimasu", "word": "探[さが]し ます", "de": "suchen", "pos": "verb", "forms": "Wörterbuchform さがす · て-Form さがして · た-Form さがした", "example": { "text": "日本[にほん] で 仕事[しごと] を 探[さが]し ます。", "de": "Ich suche in Japan eine Arbeit." } },
+    { "id": "shakaijin", "word": "社会人[しゃかいじん]", "de": "Berufstätige/r", "pos": "noun", "example": { "text": "弟[おとうと] は 来年[らいねん] から 社会人[しゃかいじん] です。", "de": "Mein kleiner Bruder ist ab nächstem Jahr berufstätig." }, "note": "Wörtlich „Gesellschaftsmensch“: jemand, der nach Schule oder Uni arbeitet." },
+    { "id": "kimarimasu", "word": "きまり ます", "de": "feststehen; entschieden werden", "pos": "verb", "forms": "Wörterbuchform きまる · た-Form きまった", "example": { "text": "旅行[りょこう] の 予定[よてい] が きまり ました。", "de": "Der Reiseplan steht fest.", "focus": "きまり ました" }, "note": "Gegenstück zu きめます (Lektion 6): Man entscheidet etwas (を きめます) – etwas wird entschieden (が きまります)." }
+  ],
+  "grammar": [
+    {
+      "id": "volitional",
+      "title": "Lass uns …! – die Volitionalform (いこう, たべよう)",
+      "blocks": [
+        { "type": "p", "text": "Die Volitionalform drückt einen Willen aus. Unter Freunden ist sie ein lockerer Vorschlag: いこう! = Lass uns gehen! Sie ist die einfache Form von 〜ましょう aus Lektion 5 (いきましょう). Mit か wird daraus eine Frage: いこうか / いきましょうか = Sollen wir gehen?" },
+        { "type": "p", "text": "Gruppe 1: Der i-Laut vor ます wird zum o-Laut, dazu kommt う (いきます → いこう). Gruppe 2: ます weg, よう dran (たべます → たべよう). Gruppe 3: します → しよう, きます → こよう." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "Wörterbuchform", "Volitionalform"], "rows": [["1", "行[い]き ます", "行[い]く", "行[い]こう"], ["1", "飲[の]み ます", "飲[の]む", "飲[の]もう"], ["1", "帰[かえ]り ます", "帰[かえ]る", "帰[かえ]ろう"], ["1", "買[か]い ます", "買[か]う", "買[か]おう"], ["1", "話[はな]し ます", "話[はな]す", "話[はな]そう"], ["2", "食[た]べ ます", "食[た]べる", "食[た]べよう"], ["2", "始[はじ]め ます", "始[はじ]める", "始[はじ]めよう"], ["3", "し ます", "する", "しよう"], ["3", "来[き] ます", "来[く]る", "来[こ]よう"]] },
+        { "type": "tip", "text": "Von der Wörterbuchform aus geht es auch: Bei Gruppe 1 wird der letzte Laut zum o-Laut + う (く → こう, む → もう, る → ろう, う → おう, す → そう). Bei Gruppe 2 wird る zu よう." },
+        { "type": "examples", "items": [{ "text": "いっしょに 晩[ばん]ご飯[はん] を 食[た]べよう！", "de": "Lass uns zusammen zu Abend essen!" }, { "text": "そろそろ 帰[かえ]ろう か。", "de": "Sollen wir langsam nach Hause gehen?" }, { "text": "じゃあ、 勉強[べんきょう] を 始[はじ]め ましょう。", "de": "Also, fangen wir mit dem Lernen an." }, { "text": "週[しゅう]末[まつ]、 海[うみ] へ 行[い]き ましょう か。", "de": "Wollen wir am Wochenende ans Meer fahren?" }] },
+        { "type": "tip", "text": "Vergleiche mit 〜ませんか (A1): いきませんか ist eine vorsichtige Einladung („Hättest du Lust …?“). いきましょう / いこう ist ein direkter Vorschlag, wenn man schon weiß, dass der andere auch will." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "いっしょに 映画[えいが] を ___！", "answers": ["見[み]よう", "見[み] ましょう"], "de": "Lass uns zusammen einen Film anschauen!" },
+        { "type": "cloze", "text": "そろそろ ___ か。", "answers": ["帰[かえ]ろう", "帰[かえ]り ましょう"], "de": "Sollen wir langsam nach Hause gehen?" },
+        { "type": "cloze", "text": "週[しゅう]末[まつ]、 海[うみ] へ ___！", "answers": ["行[い]こう", "行[い]き ましょう"], "de": "Lass uns am Wochenende ans Meer fahren!" },
+        { "type": "cloze", "text": "さあ、 勉強[べんきょう] を ___。", "answers": ["始[はじ]めよう", "始[はじ]め ましょう"], "de": "Los, fangen wir mit dem Lernen an.", "hint": "はじめる → Volitionalform" },
+        { "type": "order", "de": "Lass uns zusammen Kaffee trinken!", "answer": "いっしょに コーヒー を 飲[の]もう！", "distractors": ["飲[の]み"] },
+        { "type": "translate", "de": "Lass uns morgen Tennis spielen!", "answers": ["あした は テニス を しよう。", "あした は テニス を し ましょう。", "あした テニス を しよう。", "あした テニス を し ましょう。"] }
+      ]
+    },
+    {
+      "id": "plaene",
+      "title": "Pläne: 〜と 思って います, 〜つもりです, 〜予定です",
+      "blocks": [
+        { "type": "p", "text": "Volitionalform + と おもって います = „Ich habe vor …, ich denke daran, …“. So erzählst du von Plänen, die noch nicht ganz fest sind. (Mit おもいます statt おもって います klingt es eher wie ein Entschluss in diesem Moment.)" },
+        { "type": "examples", "items": [{ "text": "来年[らいねん]、 日本[にほん] で 仕事[しごと] を 探[さが]そう と 思[おも]って い ます。", "de": "Ich habe vor, nächstes Jahr in Japan eine Arbeit zu suchen." }, { "text": "夏[なつ]休[やす]み に 北海[ほっかい]道[どう] へ 行[い]こう と 思[おも]って い ます。", "de": "Ich denke daran, in den Sommerferien nach Hokkaido zu fahren." }] },
+        { "type": "p", "text": "Wörterbuchform + つもりです = „Ich habe die Absicht …“ – ein fester Entschluss. Verneint: Wörterbuchform in der ない-Form + つもりです („Ich habe vor, nicht … zu …“)." },
+        { "type": "examples", "items": [{ "text": "来年[らいねん] ドイツ へ 留[りゅう]学[がく] する つもり です。", "de": "Ich habe vor, nächstes Jahr in Deutschland zu studieren." }, { "text": "今年[ことし] は お酒[さけ] を 飲[の]まない つもり です。", "de": "Dieses Jahr will ich keinen Alkohol trinken." }] },
+        { "type": "p", "text": "Wörterbuchform oder Nomen + の + よていです = „Es ist geplant …“. Das passt für Termine und feste Pläne, oft auch für Dinge, die andere festgelegt haben (Fahrplan, Kalender)." },
+        { "type": "examples", "items": [{ "text": "会[かい]議[ぎ] は 三時[さんじ] に 始[はじ]まる 予定[よてい] です。", "de": "Die Besprechung soll um drei anfangen." }, { "text": "電車[でんしゃ] は 十時[じゅうじ] に 着[つ]く 予定[よてい] です。", "de": "Der Zug soll um zehn ankommen." }, { "text": "来月[らいげつ] は 旅行[りょこう] の 予定[よてい] です。", "de": "Nächsten Monat ist eine Reise geplant." }] },
+        { "type": "table", "head": ["Ausdruck", "Wie fest?", "Beispiel"], "rows": [["〜よう と 思[おも]って い ます", "Idee, Vorhaben", "行[い]こう と 思[おも]って い ます。"], ["〜つもり です", "feste Absicht", "行[い]く つもり です。"], ["〜予定[よてい] です", "geplant, Termin", "行[い]く 予定[よてい] です。"]] },
+        { "type": "tip", "text": "Nach den Plänen von Vorgesetzten oder Fremden fragt man besser nicht mit つもりですか – das klingt zu direkt. Höflicher: 〜よていですか oder einfach 〜ますか." },
+        { "type": "tip", "text": "Mit den neuen Kanji kannst du jetzt 始 und 終 lesen: じゅぎょうが はじまります / おわります (der Unterricht fängt an / endet – が). Wenn DU etwas anfängst, heißt es はじめます (を): べんきょうを はじめます." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "来年[らいねん] 日本[にほん] へ 行[い]こう と ___ い ます。", "answers": ["思[おも]って"], "de": "Ich habe vor, nächstes Jahr nach Japan zu fahren." },
+        { "type": "cloze", "text": "夏[なつ] に 引[ひ]っ越[こ]す ___ です。", "answers": ["つもり", "予定[よてい]"], "de": "Ich habe vor, im Sommer umzuziehen." },
+        { "type": "cloze", "text": "飛[ひ]行[こう]機[き] は 八時[はちじ] に 着[つ]く ___ です。", "answers": ["予定[よてい]"], "de": "Das Flugzeug soll um acht ankommen." },
+        { "type": "cloze", "text": "今年[ことし] は たばこ を すわ___ つもり です。", "answers": ["ない"], "de": "Dieses Jahr habe ich vor, nicht zu rauchen." },
+        { "type": "order", "de": "Ich habe vor, nächstes Jahr in Deutschland zu studieren.", "answer": "来年[らいねん] ドイツ で 勉強[べんきょう] する つもり です。", "distractors": ["し"] },
+        { "type": "translate", "de": "Ich denke daran, Klavier zu lernen.", "answers": ["ピアノ を 習[なら]おう と 思[おも]って い ます。", "ピアノ を 勉強[べんきょう] しよう と 思[おも]って い ます。"] },
+        { "type": "translate", "de": "Was hast du am Wochenende vor?", "answers": ["週[しゅう]末[まつ] は 何[なに] を する つもり です か。", "週[しゅう]末[まつ] は 何[なに] を する 予定[よてい] です か。", "週[しゅう]末[まつ] の 予定[よてい] は 何[なん] です か。", "週[しゅう]末[まつ] は 何[なに] を し ます か。"] }
+      ]
+    },
+    {
+      "id": "kamoshiremasen",
+      "title": "Vielleicht: 〜かもしれません",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜かもしれません sagst du, dass etwas vielleicht so ist oder passiert – du bist dir nur etwa zur Hälfte sicher. Davor steht die einfache Form: Verben in der Wörterbuchform, ない-Form oder た-Form, い-Adjektive unverändert, Nomen und な-Adjektive direkt (ohne です)." },
+        { "type": "table", "head": ["Wortart", "Beispiel", "Deutsch"], "rows": [["Verb", "雨[あめ] が 降[ふ]る かもしれません。", "Es regnet vielleicht."], ["Verb (ない-Form)", "けん さん は 来[こ]ない かもしれません。", "Ken kommt vielleicht nicht."], ["Verb (た-Form)", "終電[しゅうでん] は もう 出[で]た かもしれません。", "Der letzte Zug ist vielleicht schon weg."], ["い-Adjektiv", "あした は 寒[さむ]い かもしれません。", "Morgen ist es vielleicht kalt."], ["な-Adjektiv", "あした は ひま かもしれません。", "Morgen habe ich vielleicht Zeit."], ["Nomen", "あの 人[ひと] は 先生[せんせい] かもしれません。", "Die Person dort ist vielleicht Lehrer/in."]] },
+        { "type": "tip", "text": "Vergleiche: 〜でしょう (Lektion 4) = „wahrscheinlich“ (ziemlich sicher). 〜かもしれません = „vielleicht“ (unsicher). たぶん passt zu beiden: たぶん あめでしょう." },
+        { "type": "tip", "text": "Locker unter Freunden sagt man nur かも: あした あめ かも. (Vielleicht regnet es morgen.)" },
+        { "type": "examples", "items": [{ "text": "あした は 雪[ゆき] かもしれません。", "de": "Morgen schneit es vielleicht." }, { "text": "来年[らいねん] は 日本[にほん] に 住[す]む かもしれません。", "de": "Nächstes Jahr wohne ich vielleicht in Japan." }, { "text": "この 試験[しけん] は むずかしい かもしれません。", "de": "Diese Prüfung ist vielleicht schwer." }, { "text": "大学院[だいがくいん] に 行[い]かない かもしれません。", "de": "Vielleicht mache ich doch keinen Master." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あした は 雨[あめ] ___。", "answers": ["かもしれません"], "de": "Morgen regnet es vielleicht." },
+        { "type": "cloze", "text": "けん さん は 今日[きょう] 来[こ]___ かもしれません。", "answers": ["ない"], "de": "Ken kommt heute vielleicht nicht." },
+        { "type": "cloze", "text": "この レストラン は 高[たか]い ___。", "answers": ["かもしれません"], "de": "Dieses Restaurant ist vielleicht teuer." },
+        { "type": "order", "de": "Vielleicht ziehe ich nächstes Jahr um.", "answer": "来年[らいねん] 引[ひ]っ越[こ]す かもしれません。", "distractors": ["引[ひ]っ越[こ]し"] },
+        { "type": "translate", "de": "Vielleicht komme ich morgen nicht.", "answers": ["私[わたし] は あした は 来[こ]ない かもしれません。", "私[わたし] は あした は 行[い]かない かもしれません。", "私[わたし] は あした 来[こ]ない かもしれません。", "私[わたし] は あした 行[い]かない かもしれません。", "あした は 来[こ]ない かもしれません。", "あした は 行[い]かない かもしれません。", "あした 来[こ]ない かもしれません。", "あした 行[い]かない かもしれません。"] },
+        { "type": "translate", "de": "Das ist vielleicht Sophie.", "answers": ["あれ は ソフィー さん かもしれません。", "あの 人[ひと] は ソフィー さん かもしれません。", "ソフィー さん かもしれません。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "将[しょう]来[らい] の 計画[けいかく]",
+    "title_de": "Pläne für die Zukunft",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん の 留[りゅう]学[がく] は いつ 終[お]わり ます か。", "de": "Wann endet eigentlich dein Auslandsstudium, Anna?" },
+      { "speaker": "アンナ", "text": "三月[さんがつ] の 終[お]わり です。 だから、 今[いま] これから の こと を 考[かんが]えて い ます。", "de": "Ende März. Deshalb denke ich gerade darüber nach, wie es weitergeht." },
+      { "speaker": "けん", "text": "ドイツ に 帰[かえ]る つもり です か。", "de": "Hast du vor, nach Deutschland zurückzugehen?" },
+      { "speaker": "アンナ", "text": "まだ わかり ません。 日本[にほん] で 仕事[しごと] を 探[さが]そう と 思[おも]って い ます。 でも、 大学院[だいがくいん] に 行[い]く かもしれません。", "de": "Ich weiß es noch nicht. Ich überlege, in Japan eine Arbeit zu suchen. Aber vielleicht mache ich auch einen Master." },
+      { "speaker": "けん", "text": "そう です か。 じつ は、 私[わたし] も 大[おお]きい 計画[けいかく] が あり ます。", "de": "Ach so. Ich habe übrigens auch einen großen Plan." },
+      { "speaker": "アンナ", "text": "え、 何[なん] です か。", "de": "Oh, was denn?" },
+      { "speaker": "けん", "text": "来年[らいねん] の 九月[くがつ] から 一年[いちねん]、 ドイツ に 留[りゅう]学[がく] する 予定[よてい] です。 会社[かいしゃ] の 留[りゅう]学[がく] です。", "de": "Ab September nächsten Jahres gehe ich für ein Jahr zum Studium nach Deutschland. Über meine Firma." },
+      { "speaker": "アンナ", "text": "すごい！ だから 毎[まい]晩[ばん] ドイツ語[ご] を 勉強[べんきょう] して い ました ね。", "de": "Wahnsinn! Deshalb hast du also jeden Abend Deutsch gelernt!" },
+      { "speaker": "けん", "text": "はい。 でも、 まだ 下手[へた] です から、 もっと 練[れん]習[しゅう] しよう と 思[おも]って い ます。", "de": "Ja. Aber ich bin noch nicht gut, deshalb will ich mehr üben." },
+      { "speaker": "アンナ", "text": "じゃあ、 毎週[まいしゅう] いっしょに 練[れん]習[しゅう] しよう よ！ 水[すい]曜日[ようび] は どう？", "de": "Dann lass uns jede Woche zusammen üben! Wie wär’s mit Mittwoch?" },
+      { "speaker": "けん", "text": "いい 考[かんが]え です ね！ ありがとう。", "de": "Gute Idee! Danke." },
+      { "speaker": "アンナ", "text": "ドイツ で は どこ に 住[す]む つもり です か。", "de": "Wo willst du in Deutschland wohnen?" },
+      { "speaker": "けん", "text": "ミュンヘン です。 大学[だいがく] は 十月[じゅうがつ] に 始[はじ]まり ます から、 九月[くがつ] は ドイツ語[ご] の 学校[がっこう] に 行[い]き ます。", "de": "In München. Die Uni fängt im Oktober an, deshalb gehe ich im September auf eine Sprachschule." },
+      { "speaker": "アンナ", "text": "ミュンヘン？ 私[わたし] の 町[まち] です よ！ 九月[くがつ] は 私[わたし] も ミュンヘン に いる かもしれません。", "de": "München? Das ist meine Stadt! Im September bin ich vielleicht auch in München." },
+      { "speaker": "けん", "text": "本[ほん]当[とう] です か。 じゃあ、 いっしょに ビール を 飲[の]もう！", "de": "Wirklich? Dann lass uns zusammen ein Bier trinken!" },
+      { "speaker": "アンナ", "text": "いい です ね。 楽[たの]しみ です！", "de": "Gern. Ich freue mich darauf!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["予定[よてい]", "der Plan; der Termin"], ["将[しょう]来[らい]", "die Zukunft"], ["試験[しけん]", "die Prüfung"], ["留[りゅう]学[がく]", "das Auslandsstudium"], ["合格[ごうかく]", "das Bestehen (einer Prüfung)"], ["終電[しゅうでん]", "der letzte Zug"]] },
+    { "type": "match", "pairs": [["始[はじ]め ます", "anfangen (etwas)"], ["続[つづ]け ます", "weitermachen"], ["やめ ます", "aufhören"], ["習[なら]い ます", "lernen (bei jemandem)"], ["考[かんが]え ます", "überlegen"]] },
+    { "type": "translate", "de": "Ich habe vor, nächstes Jahr die Prüfung zu machen.", "answers": ["私[わたし] は 来年[らいねん] 試験[しけん] を 受[う]ける つもり です。", "私[わたし] は 来年[らいねん] 試験[しけん] を 受[う]けよう と 思[おも]って い ます。", "私[わたし] は 来年[らいねん] その 試験[しけん] を 受[う]ける つもり です。", "私[わたし] は 来年[らいねん] その 試験[しけん] を 受[う]けよう と 思[おも]って い ます。", "来年[らいねん] 試験[しけん] を 受[う]ける つもり です。", "来年[らいねん] 試験[しけん] を 受[う]けよう と 思[おも]って い ます。", "来年[らいねん] その 試験[しけん] を 受[う]ける つもり です。", "来年[らいねん] その 試験[しけん] を 受[う]けよう と 思[おも]って い ます。"] },
+    { "type": "translate", "de": "Wann fängt der Unterricht an?", "answers": ["じゅぎょう は 何時[なんじ] に 始[はじ]まり ます か。", "じゅぎょう は いつ 始[はじ]まり ます か。", "じゅぎょう は 何時[なんじ] から です か。"] },
+    { "type": "translate", "de": "Ich möchte Geld sparen und nach Okinawa fahren.", "answers": ["私[わたし] は お金[かね] を ためて、 沖縄[おきなわ] へ 行[い]き たい です。", "私[わたし] は お金[かね] を ためて、 沖縄[おきなわ] に 行[い]き たい です。", "お金[かね] を ためて、 沖縄[おきなわ] へ 行[い]き たい です。", "お金[かね] を ためて、 沖縄[おきなわ] に 行[い]き たい です。"] },
+    { "type": "translate", "de": "Vielleicht schneit es morgen.", "answers": ["あした は 雪[ゆき] かもしれません。", "あした 雪[ゆき] かもしれません。", "あした は 雪[ゆき] が 降[ふ]る かもしれません。", "あした は 雪[ゆき] が ふる かもしれません。", "あした 雪[ゆき] が 降[ふ]る かもしれません。", "あした 雪[ゆき] が ふる かもしれません。"] },
+    { "type": "order", "de": "Von jetzt an will ich jeden Tag üben.", "answer": "これから 毎日[まいにち] 練[れん]習[しゅう] する つもり です。", "distractors": ["し"] },
+    { "type": "order", "de": "Wann endet die Arbeit?", "answer": "仕事[しごと] は 何時[なんじ] に 終[お]わり ます か。", "distractors": ["始[はじ]まり"] },
+    { "type": "cloze", "text": "将[しょう]来[らい] は 日本[にほん] で 働[はたら]こう と ___ い ます。", "answers": ["思[おも]って"], "de": "Ich habe vor, später in Japan zu arbeiten." },
+    { "type": "cloze", "text": "来月[らいげつ] から ヨガ を ___ つもり です。", "answers": ["始[はじ]める"], "de": "Ab nächstem Monat will ich mit Yoga anfangen.", "hint": "はじめます → Wörterbuchform" },
+    { "type": "listen", "text": "そろそろ 終電[しゅうでん] です よ。 帰[かえ]り ましょう。", "de": "Gleich fährt der letzte Zug. Lass uns gehen." },
+    { "type": "listen", "text": "三[さん]年[ねん]後[ご] に は 自[じ]分[ぶん] の 店[みせ] を 始[はじ]め たい です。", "de": "In drei Jahren möchte ich meinen eigenen Laden aufmachen." },
+    { "type": "listen", "text": "夏[なつ]休[やす]み は 家族[かぞく] と 旅行[りょこう] する 予定[よてい] です。", "de": "In den Sommerferien verreise ich mit meiner Familie." }
+  ]
+}

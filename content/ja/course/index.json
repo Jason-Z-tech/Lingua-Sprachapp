@@ -89,35 +89,35 @@
           "file": "a2-01.json",
           "title_de": "Was hast du gemacht?",
           "topic": "Von gestern und vom Wochenende erzählen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-02",
           "file": "a2-02.json",
           "title_de": "Arbeit und Beruf",
           "topic": "Berufe und Arbeitsalltag",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-03",
           "file": "a2-03.json",
           "title_de": "Gesundheit",
           "topic": "Körper, Beschwerden und beim Arzt",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-04",
           "file": "a2-04.json",
           "title_de": "Wetter und Jahreszeiten",
           "topic": "Über das Wetter sprechen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-05",
           "file": "a2-05.json",
           "title_de": "Feste und Einladungen",
           "topic": "Einladen, zusagen und absagen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-06",
