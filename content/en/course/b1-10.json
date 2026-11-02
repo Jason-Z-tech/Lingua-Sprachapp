@@ -153,7 +153,7 @@
     { "type": "translate", "de": "Ich kann mir kein neues Auto leisten.", "answers": ["I can't afford a new car.", "I cannot afford a new car."] },
     { "type": "cloze", "text": "I hope all your dreams come ___.", "answers": ["true"], "de": "Ich hoffe, alle deine Träume gehen in Erfüllung." },
     { "type": "cloze", "text": "My dad wants to ___ when he's sixty-five.", "answers": ["retire"], "de": "Mein Vater will mit fünfundsechzig in Rente gehen." },
-    { "type": "cloze", "text": "Carlos got a ___ at work. Now he's a manager.", "answers": ["promotion"], "de": "Carlos wurde in der Arbeit befördert. Jetzt ist er Teamleiter." },
+    { "type": "cloze", "text": "Carlos got a ___ at work. Now he's a manager.", "answers": ["promotion"], "de": "Carlos wurde bei der Arbeit befördert. Jetzt ist er Teamleiter." },
     { "type": "cloze", "text": "___, I'll find a new apartment soon.", "answers": ["Hopefully"], "de": "Hoffentlich finde ich bald eine neue Wohnung." },
     { "type": "order", "de": "Mein Ziel ist es, mein eigenes Café zu eröffnen.", "answer": "My goal is to open my own café.", "distractors": ["opening"] },
     { "type": "order", "de": "Ich wünschte, ich hätte mehr Zeit für meine Familie.", "answer": "I wish I had more time for my family.", "distractors": ["have"] },
