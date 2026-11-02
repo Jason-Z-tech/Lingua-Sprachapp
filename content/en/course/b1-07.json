@@ -1,0 +1,166 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-07",
+  "lang": "en",
+  "level": "B1",
+  "number": 7,
+  "title": "Movies, Music and Books",
+  "title_de": "Kultur",
+  "topic": "Musik, Film und Bücher",
+  "goals": [
+    "Du kannst über Filme, Serien, Musik und Bücher sprechen und sagen, was dir gefällt und warum.",
+    "Du kannst Vorlieben ausdrücken: I prefer books to movies. I'd rather stay home.",
+    "Du kannst etwas empfehlen und die -ing-Form als Subjekt benutzen: Reading relaxes me. It's worth seeing. You should check out …",
+    "Du kannst mit So do I. und Neither do I. zustimmen."
+  ],
+  "vocab": [
+    { "id": "culture", "word": "culture", "plural": "cultures", "de": "die Kultur", "pos": "noun", "example": { "text": "I love learning about other cultures.", "de": "Ich lerne gern andere Kulturen kennen.", "focus": "cultures" } },
+    { "id": "plot", "word": "plot", "plural": "plots", "de": "die Handlung", "pos": "noun", "example": { "text": "The actors are great, but the plot is a bit boring.", "de": "Die Schauspieler sind toll, aber die Handlung ist ein bisschen langweilig." } },
+    { "id": "character", "word": "character", "plural": "characters", "de": "die Figur; die Person (in einer Geschichte); der Charakter", "pos": "noun", "example": { "text": "Who's your favorite character in the series?", "de": "Wer ist deine Lieblingsfigur in der Serie?" }, "note": "Gesprochen mit k am Anfang: [ˈkærəktər]." },
+    { "id": "actor", "word": "actor", "alt": ["actress"], "plural": "actors", "de": "der Schauspieler; die Schauspielerin", "pos": "noun", "example": { "text": "He's my favorite actor.", "de": "Er ist mein Lieblingsschauspieler." }, "note": "Für Frauen gibt es auch actress. Heute sagen viele aber für alle actor." },
+    { "id": "director", "word": "director", "plural": "directors", "de": "der Regisseur; die Regisseurin; der Direktor", "pos": "noun", "example": { "text": "The director of this movie is from Mexico.", "de": "Der Regisseur dieses Films kommt aus Mexiko." } },
+    { "id": "scene", "word": "scene", "plural": "scenes", "de": "die Szene", "pos": "noun", "example": { "text": "The last scene was so sad.", "de": "Die letzte Szene war so traurig." }, "note": "Das c spricht man nicht: [siːn]." },
+    { "id": "ending", "word": "ending", "plural": "endings", "de": "das Ende; der Schluss", "pos": "noun", "example": { "text": "I didn't like the ending at all.", "de": "Das Ende hat mir überhaupt nicht gefallen." }, "note": "Ein Happy End heißt auf Englisch a happy ending." },
+    { "id": "review", "word": "review", "plural": "reviews", "de": "die Kritik; die Rezension; die Bewertung", "pos": "noun", "example": { "text": "The movie got great reviews.", "de": "Der Film hat tolle Kritiken bekommen.", "focus": "reviews" }, "note": "Auch für Bewertungen im Internet: Read the reviews before you book the hotel." },
+    { "id": "series", "word": "series", "plural": "series", "de": "die Serie", "pos": "noun", "example": { "text": "I'm watching a great new series.", "de": "Ich schaue gerade eine tolle neue Serie." }, "note": "Die Mehrzahl ist gleich: two series. Für Fernsehserien sagt man in den USA auch oft show: a TV show." },
+    { "id": "episode", "word": "episode", "plural": "episodes", "de": "die Folge", "pos": "noun", "example": { "text": "Let's watch one more episode!", "de": "Lass uns noch eine Folge schauen!" } },
+    { "id": "documentary", "word": "documentary", "plural": "documentaries", "de": "der Dokumentarfilm; die Doku", "pos": "noun", "example": { "text": "We watched a documentary about the ocean.", "de": "Wir haben eine Doku über das Meer geschaut." } },
+    { "id": "comedy", "word": "comedy", "plural": "comedies", "de": "die Komödie", "pos": "noun", "example": { "text": "Let's watch a comedy tonight. I want to laugh.", "de": "Lass uns heute Abend eine Komödie schauen. Ich will lachen." }, "note": "a romantic comedy = eine romantische Komödie (kurz: rom-com)." },
+    { "id": "horror-movie", "word": "horror movie", "plural": "horror movies", "de": "der Horrorfilm", "pos": "noun", "example": { "text": "I never watch horror movies alone.", "de": "Ich schaue nie allein Horrorfilme.", "focus": "horror movies" } },
+    { "id": "subtitles", "word": "subtitles", "de": "die Untertitel", "pos": "noun", "example": { "text": "I watch English movies with subtitles.", "de": "Ich schaue englische Filme mit Untertiteln." }, "note": "Meist in der Mehrzahl. Mit englischen Untertiteln zu schauen, ist ein super Training!" },
+    { "id": "dubbed", "word": "dubbed", "de": "synchronisiert", "pos": "adj", "example": { "text": "In Germany, most movies are dubbed.", "de": "In Deutschland sind die meisten Filme synchronisiert." }, "note": "In den USA sind synchronisierte Filme selten – ausländische Filme laufen dort fast immer mit Untertiteln." },
+    { "id": "song", "word": "song", "plural": "songs", "de": "das Lied; der Song", "pos": "noun", "example": { "text": "This song always makes me happy.", "de": "Dieses Lied macht mich immer glücklich." } },
+    { "id": "lyrics", "word": "lyrics", "de": "der Liedtext; der Songtext", "pos": "noun", "example": { "text": "I love the music, but I don't understand the lyrics.", "de": "Ich liebe die Musik, aber ich verstehe den Text nicht." }, "note": "lyrics steht fast immer in der Mehrzahl: The lyrics are beautiful." },
+    { "id": "singer", "word": "singer", "plural": "singers", "de": "der Sänger; die Sängerin", "pos": "noun", "example": { "text": "She's an amazing singer.", "de": "Sie ist eine großartige Sängerin." } },
+    { "id": "band", "word": "band", "plural": "bands", "de": "die Band; die Musikgruppe", "pos": "noun", "example": { "text": "My brother plays the guitar in a band.", "de": "Mein Bruder spielt Gitarre in einer Band." } },
+    { "id": "album", "word": "album", "plural": "albums", "de": "das Album", "pos": "noun", "example": { "text": "I listened to their new album three times yesterday.", "de": "Ich habe ihr neues Album gestern dreimal gehört." } },
+    { "id": "classical-music", "word": "classical music", "de": "die klassische Musik", "pos": "noun", "example": { "text": "My grandfather listens to classical music every evening.", "de": "Mein Großvater hört jeden Abend klassische Musik." } },
+    { "id": "come-out", "word": "come out", "de": "erscheinen; herauskommen", "pos": "verb", "forms": "came out", "example": { "text": "When does the new album come out?", "de": "Wann erscheint das neue Album?" }, "note": "Für Filme, Bücher, Musik und Spiele: The movie comes out in June." },
+    { "id": "novel", "word": "novel", "plural": "novels", "de": "der Roman", "pos": "noun", "example": { "text": "I'm reading a novel by a Japanese author.", "de": "Ich lese gerade einen Roman von einem japanischen Autor." }, "note": "Falscher Freund: novel ist ein Roman, keine Novelle." },
+    { "id": "author", "word": "author", "plural": "authors", "de": "der Autor; die Autorin; der Schriftsteller; die Schriftstellerin", "pos": "noun", "example": { "text": "Who's your favorite author?", "de": "Wer ist dein Lieblingsautor?" } },
+    { "id": "art", "word": "art", "de": "die Kunst", "pos": "noun", "example": { "text": "I'm not really interested in modern art.", "de": "Ich interessiere mich nicht besonders für moderne Kunst." } },
+    { "id": "artist", "word": "artist", "plural": "artists", "de": "der Künstler; die Künstlerin", "pos": "noun", "example": { "text": "My cousin is an artist. She paints pictures of New York.", "de": "Meine Cousine ist Künstlerin. Sie malt Bilder von New York." } },
+    { "id": "painting", "word": "painting", "plural": "paintings", "de": "das Gemälde; das Bild", "pos": "noun", "example": { "text": "This painting is very famous.", "de": "Dieses Gemälde ist sehr berühmt." } },
+    { "id": "exhibition", "word": "exhibition", "plural": "exhibitions", "de": "die Ausstellung", "pos": "noun", "example": { "text": "There's a new exhibition at the museum.", "de": "Im Museum gibt es eine neue Ausstellung." } },
+    { "id": "theater", "word": "theater", "alt": ["theatre"], "plural": "theaters", "de": "das Theater", "pos": "noun", "example": { "text": "We went to the theater to see a musical.", "de": "Wir sind ins Theater gegangen, um ein Musical zu sehen." }, "note": "Amerikanisch: theater, britisch: theatre. In den USA heißt auch das Kino oft einfach theater (kurz für movie theater)." },
+    { "id": "audience", "word": "audience", "de": "das Publikum; die Zuschauer; die Zuhörer", "pos": "noun", "example": { "text": "The audience loved the show.", "de": "Das Publikum war von der Show begeistert." } },
+    { "id": "fan", "word": "fan", "plural": "fans", "de": "der Fan", "pos": "noun", "example": { "text": "I'm a big fan of jazz.", "de": "Ich bin ein großer Jazzfan." } },
+    { "id": "would-rather", "word": "would rather", "de": "lieber (tun) würde; lieber wollen", "pos": "phrase", "example": { "text": "I'd rather stay home tonight.", "de": "Ich würde heute Abend lieber zu Hause bleiben.", "focus": "I'd rather" }, "note": "Kurzform: I'd rather. Danach kommt die Grundform ohne to." },
+    { "id": "prefer", "word": "prefer", "de": "lieber mögen; vorziehen", "pos": "verb", "forms": "preferred", "example": { "text": "I prefer books to movies.", "de": "Ich mag Bücher lieber als Filme." }, "note": "prefer A to B = A lieber mögen als B. Betonung auf der zweiten Silbe: pre-FER." },
+    { "id": "worth", "word": "worth", "de": "wert", "pos": "adj", "example": { "text": "The movie is long, but it's really worth seeing.", "de": "Der Film ist lang, aber es lohnt sich wirklich, ihn anzuschauen." }, "note": "be worth + -ing = es lohnt sich, … zu … It's worth it. = Es lohnt sich." },
+    { "id": "recommendation", "word": "recommendation", "plural": "recommendations", "de": "die Empfehlung", "pos": "noun", "example": { "text": "Thanks for the recommendation! I loved the book.", "de": "Danke für die Empfehlung! Ich fand das Buch super." } },
+    { "id": "so-do-i", "word": "so do I", "alt": ["me too"], "de": "ich auch", "pos": "phrase", "example": { "text": "I love jazz. – So do I!", "de": "Ich liebe Jazz. – Ich auch!" }, "note": "Antwort auf einen bejahten Satz. Umgangssprachlich auch: Me too." },
+    { "id": "neither-do-i", "word": "neither do I", "alt": ["me neither", "nor do I"], "de": "ich auch nicht", "pos": "phrase", "example": { "text": "I don't like horror movies. – Neither do I.", "de": "Ich mag keine Horrorfilme. – Ich auch nicht." }, "note": "Antwort auf einen verneinten Satz. Umgangssprachlich auch: Me neither." },
+    { "id": "scary", "word": "scary", "de": "gruselig; unheimlich; beängstigend", "pos": "adj", "example": { "text": "The movie was so scary that I couldn't sleep.", "de": "Der Film war so gruselig, dass ich nicht schlafen konnte." }, "note": "scary = macht Angst (wie boring); scared (A2) = hat Angst (wie bored)." },
+    { "id": "romantic", "word": "romantic", "de": "romantisch", "pos": "adj", "example": { "text": "It's a romantic story about two chefs in Paris.", "de": "Es ist eine romantische Geschichte über zwei Köche in Paris." } },
+    { "id": "relaxing", "word": "relaxing", "de": "entspannend", "pos": "adj", "example": { "text": "Listening to music is very relaxing.", "de": "Musik zu hören ist sehr entspannend." } }
+  ],
+  "grammar": [
+    {
+      "id": "would-rather-prefer",
+      "title": "would rather und prefer: sagen, was du lieber magst",
+      "blocks": [
+        { "type": "p", "text": "Für das deutsche „lieber“ gibt es im Englischen kein eigenes Wort. Du hast zwei Möglichkeiten: Mit prefer (lieber mögen, vorziehen) sprichst du über allgemeine Vorlieben. Mit would rather (würde lieber) sagst du, was du in einer bestimmten Situation lieber tun möchtest." },
+        { "type": "table", "head": ["Ausdruck", "danach", "Beispiel", "Deutsch"], "rows": [["prefer A to B", "Nomen", "I prefer books to movies.", "Ich mag Bücher lieber als Filme."], ["prefer … to …", "-ing-Form", "I prefer reading to watching TV.", "Ich lese lieber, als fernzusehen."], ["would prefer to", "to + Grundform", "I'd prefer to stay home tonight.", "Ich würde heute Abend lieber zu Hause bleiben."], ["would rather … than …", "Grundform ohne to", "I'd rather walk than take the bus.", "Ich gehe lieber zu Fuß, als den Bus zu nehmen."]] },
+        { "type": "tip", "text": "Das „als“ ist bei beiden verschieden: Bei prefer heißt es to – I prefer tea to coffee. Bei would rather heißt es than – I'd rather have tea than coffee." },
+        { "type": "tip", "text": "Nach would rather kommt die Grundform ohne to: I'd rather stay. (nicht: I'd rather to stay.) I'd ist hier die Kurzform von I would." },
+        { "type": "p", "text": "Verneinung und Frage: I'd rather not go out tonight. (Ich würde heute Abend lieber nicht ausgehen.) Would you rather watch a movie or go to a concert? (Würdest du lieber einen Film schauen oder auf ein Konzert gehen?)" },
+        { "type": "examples", "items": [{ "text": "Do you prefer comedies or horror movies?", "de": "Magst du lieber Komödien oder Horrorfilme?" }, { "text": "I prefer listening to music to watching TV.", "de": "Ich höre lieber Musik, als fernzusehen." }, { "text": "I'd rather read the book than watch the movie.", "de": "Ich würde lieber das Buch lesen, als den Film zu schauen." }, { "text": "Would you rather go to the theater or to a museum?", "de": "Würdest du lieber ins Theater oder ins Museum gehen?" }, { "text": "I'm tired. I'd rather not go out tonight.", "de": "Ich bin müde. Ich würde heute Abend lieber nicht ausgehen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I prefer jazz ___ rock music.", "answers": ["to"], "de": "Ich mag Jazz lieber als Rockmusik." },
+        { "type": "cloze", "text": "I'd rather stay home ___ go out tonight.", "answers": ["than"], "de": "Ich würde heute Abend lieber zu Hause bleiben, als auszugehen." },
+        { "type": "cloze", "text": "Would you rather watch a movie ___ go to a concert?", "answers": ["or"], "de": "Würdest du lieber einen Film schauen oder auf ein Konzert gehen?" },
+        { "type": "cloze", "text": "I'd ___ not watch a horror movie tonight.", "answers": ["rather"], "de": "Ich würde heute Abend lieber keinen Horrorfilm schauen." },
+        { "type": "cloze", "text": "I'd prefer ___ see the movie in English.", "answers": ["to"], "de": "Ich würde den Film lieber auf Englisch sehen." },
+        { "type": "cloze", "text": "She prefers ___ to watching TV.", "answers": ["reading"], "de": "Sie liest lieber, als fernzusehen.", "hint": "read" },
+        { "type": "translate", "de": "Ich würde lieber zu Hause bleiben.", "answers": ["I'd rather stay home.", "I'd rather stay at home.", "I would rather stay home.", "I would rather stay at home.", "I'd prefer to stay home.", "I'd prefer to stay at home.", "I would prefer to stay home.", "I would prefer to stay at home."] },
+        { "type": "translate", "de": "Ich mag Bücher lieber als Filme.", "answers": ["I prefer books to movies.", "I like books more than movies.", "I like books better than movies.", "I prefer books over movies.", "I prefer books to films."] },
+        { "type": "order", "de": "Ich gehe lieber zu Fuß, als den Bus zu nehmen.", "answer": "I'd rather walk than take the bus.", "distractors": ["to"] }
+      ]
+    },
+    {
+      "id": "gerund-subject-recommend",
+      "title": "Reading relaxes me: -ing-Formen als Subjekt – und Empfehlungen",
+      "blocks": [
+        { "type": "p", "text": "Im Deutschen kann ein Verb als Nomen am Satzanfang stehen: „Lesen entspannt mich.“ Im Englischen nimmst du dafür die -ing-Form (das gerund). Sie steht wie ein Nomen am Satzanfang, und das Verb danach steht in der Einzahl – wie nach he, she, it." },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["Reading relaxes me.", "Lesen entspannt mich."], ["Watching horror movies scares me.", "Horrorfilme machen mir Angst."], ["Learning lyrics helps you learn a language.", "Liedtexte zu lernen hilft beim Sprachenlernen."], ["Going to the theater is expensive in New York.", "Ins Theater zu gehen ist in New York teuer."]] },
+        { "type": "tip", "text": "Das Verb steht in der Einzahl, auch wenn danach ein Nomen in der Mehrzahl kommt: Watching movies is fun. (nicht: are fun) Denn das Subjekt ist das „Schauen“, nicht die Filme." },
+        { "type": "p", "text": "Wenn du etwas empfehlen willst, helfen dir diese Ausdrücke:" },
+        { "type": "table", "head": ["Ausdruck", "Beispiel", "Deutsch"], "rows": [["be worth + -ing", "The museum is worth visiting.", "Das Museum ist einen Besuch wert."], ["It's (not) worth it.", "The movie is long, but it's worth it.", "Der Film ist lang, aber er lohnt sich."], ["You should check out …", "You should check out this band.", "Hör dir unbedingt mal diese Band an."], ["I'd recommend + -ing / Nomen", "I'd recommend reading the book first.", "Ich würde empfehlen, zuerst das Buch zu lesen."], ["You'll love it!", "Watch the first episode. You'll love it!", "Schau die erste Folge. Sie wird dir gefallen!"], ["Don't miss it!", "The exhibition ends on Sunday. Don't miss it!", "Die Ausstellung endet am Sonntag. Lass sie dir nicht entgehen!"]] },
+        { "type": "tip", "text": "check out kennst du aus dem Hotel (auschecken). Umgangssprachlich heißt es auch „sich etwas ansehen, anhören, ausprobieren“ – sehr häufig in Empfehlungen: Check out this song! Bei einem Pronomen steht es in der Mitte: Check it out!" },
+        { "type": "examples", "items": [{ "text": "Singing in a band is a lot of fun.", "de": "In einer Band zu singen macht viel Spaß." }, { "text": "Watching movies with subtitles is a great way to learn English.", "de": "Filme mit Untertiteln zu schauen ist eine tolle Art, Englisch zu lernen." }, { "text": "The new exhibition is definitely worth seeing.", "de": "Die neue Ausstellung ist auf jeden Fall sehenswert." }, { "text": "You should check out their new album. You'll love it!", "de": "Hör dir unbedingt ihr neues Album an. Es wird dir gefallen!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ books relaxes me.", "answers": ["Reading"], "de": "Bücher zu lesen entspannt mich.", "hint": "read" },
+        { "type": "cloze", "text": "Watching movies in English ___ a great way to learn.", "answers": ["is"], "de": "Filme auf Englisch zu schauen ist eine tolle Art zu lernen." },
+        { "type": "cloze", "text": "The exhibition is worth ___.", "answers": ["seeing", "visiting"], "de": "Die Ausstellung ist sehenswert.", "hint": "see" },
+        { "type": "cloze", "text": "You should check ___ their new album.", "answers": ["out"], "de": "Hör dir unbedingt ihr neues Album an." },
+        { "type": "cloze", "text": "I'd recommend ___ the book before you watch the movie.", "answers": ["reading"], "de": "Ich würde empfehlen, das Buch zu lesen, bevor du den Film schaust.", "hint": "read" },
+        { "type": "translate", "de": "Lesen entspannt mich.", "answers": ["Reading relaxes me.", "Reading is relaxing for me."] },
+        { "type": "translate", "de": "Der Film lohnt sich.", "answers": ["The movie is worth it.", "The film is worth it.", "The movie is worth seeing.", "The movie is worth watching.", "The film is worth seeing.", "The film is worth watching."] },
+        { "type": "order", "de": "In einer Band zu singen macht viel Spaß.", "answer": "Singing in a band is a lot of fun.", "distractors": ["are", "Sing"] }
+      ]
+    },
+    {
+      "id": "so-neither",
+      "title": "So do I. Neither do I.: zustimmen mit ich auch / ich auch nicht",
+      "blocks": [
+        { "type": "p", "text": "Wenn etwas auch für dich gilt, antwortest du im Alltag oft kurz mit Me too. (Ich auch.) oder Me neither. (Ich auch nicht.). Genauso häufig und etwas eleganter sind So … I. und Neither … I. Dafür nimmst du das Hilfsverb aus dem Satz deines Gesprächspartners." },
+        { "type": "table", "head": ["Jemand sagt …", "Du sagst …", "Hilfsverb"], "rows": [["I love jazz.", "So do I.", "do (present simple)"], ["I don't like horror movies.", "Neither do I.", "do"], ["She liked the ending.", "So did I.", "did (simple past)"], ["I'm a big fan.", "So am I.", "am (be)"], ["I can't sing.", "Neither can I.", "can"], ["I've never read that novel.", "Neither have I.", "have (present perfect)"], ["I'd rather stay home.", "So would I.", "would"]] },
+        { "type": "tip", "text": "So steht nach bejahten Sätzen, neither nach verneinten. Danach kommen erst das Hilfsverb und dann das Subjekt: So do I. (nicht: So I do.) Neither ist schon die Verneinung – also Neither do I. (nicht: Neither don't I.)" },
+        { "type": "p", "text": "Siehst du es anders, antwortest du mit Subjekt + Hilfsverb: I love jazz. – Oh, I don't. (Ich nicht.) / I don't like horror movies. – Really? I do! (Echt? Ich schon!)" },
+        { "type": "tip", "text": "Neither sprechen die meisten Amerikaner [ˈniːðər] aus, manche auch [ˈnaɪðər]. Beides ist richtig." },
+        { "type": "examples", "items": [{ "text": "I'm reading a great novel right now. – So am I!", "de": "Ich lese gerade einen tollen Roman. – Ich auch!" }, { "text": "I didn't understand the plot. – Neither did I.", "de": "Ich habe die Handlung nicht verstanden. – Ich auch nicht." }, { "text": "I've seen all the episodes. – So have I.", "de": "Ich habe alle Folgen gesehen. – Ich auch." }, { "text": "I don't like dubbed movies. – Really? I do.", "de": "Ich mag keine synchronisierten Filme. – Echt? Ich schon." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I love this song. – So ___ I!", "answers": ["do"], "de": "Ich liebe dieses Lied. – Ich auch!" },
+        { "type": "cloze", "text": "I don't understand the lyrics. – Neither ___ I.", "answers": ["do"], "de": "Ich verstehe den Text nicht. – Ich auch nicht." },
+        { "type": "cloze", "text": "I saw that movie last week. – So ___ I!", "answers": ["did"], "de": "Ich habe den Film letzte Woche gesehen. – Ich auch!" },
+        { "type": "cloze", "text": "I'm a big fan of their music. – So ___ I.", "answers": ["am"], "de": "Ich bin ein großer Fan ihrer Musik. – Ich auch." },
+        { "type": "cloze", "text": "I haven't read the book. – ___ have I.", "answers": ["Neither", "Nor"], "de": "Ich habe das Buch nicht gelesen. – Ich auch nicht." },
+        { "type": "cloze", "text": "I can't dance. – Neither ___ I.", "answers": ["can"], "de": "Ich kann nicht tanzen. – Ich auch nicht." },
+        { "type": "translate", "de": "„I love classical music.“ – Ich auch!", "answers": ["So do I!", "Me too!"] },
+        { "type": "choice", "prompt": "Jemand sagt: „I didn't like the ending.“ Dir hat es auch nicht gefallen. Was sagst du?", "options": ["Neither did I.", "So did I.", "Neither didn't I."], "answer": 0, "explain": "Auf einen verneinten Satz antwortest du mit neither. Das Hilfsverb ist did (simple past), und neither ist schon die Verneinung." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "What Should We Watch?",
+    "title_de": "Was schauen wir?",
+    "lines": [
+      { "speaker": "Carlos", "text": "So, what do you want to do tonight? There's a new movie at the theater on Fifth Avenue.", "de": "Und, was willst du heute Abend machen? Im Kino auf der Fifth Avenue läuft ein neuer Film." },
+      { "speaker": "Lena", "text": "The one by the famous director from Mexico? I read a review this morning. It says the plot is a bit boring.", "de": "Der von dem berühmten Regisseur aus Mexiko? Ich habe heute Morgen eine Kritik gelesen. Da steht, die Handlung ist ein bisschen langweilig." },
+      { "speaker": "Carlos", "text": "Really? My coworker saw it, and he loved it. He thinks it's worth seeing.", "de": "Echt? Mein Kollege hat ihn gesehen und fand ihn super. Er findet, er ist sehenswert." },
+      { "speaker": "Lena", "text": "Hmm. Honestly, I'd rather stay home tonight. Going out on Fridays is so expensive.", "de": "Hm. Ehrlich gesagt würde ich heute Abend lieber zu Hause bleiben. Freitags auszugehen ist so teuer." },
+      { "speaker": "Carlos", "text": "So would I, actually. Should we watch something here?", "de": "Ich eigentlich auch. Sollen wir hier etwas schauen?" },
+      { "speaker": "Lena", "text": "Sure! Have you seen the new series about two chefs in Paris? It's a romantic comedy.", "de": "Klar! Hast du die neue Serie über zwei Köche in Paris gesehen? Das ist eine romantische Komödie." },
+      { "speaker": "Carlos", "text": "No, I haven't. You know me – I usually prefer documentaries to comedies.", "de": "Nein. Du kennst mich – normalerweise mag ich Dokus lieber als Komödien." },
+      { "speaker": "Lena", "text": "I know. But you should check it out. The characters are really funny, and each episode is only thirty minutes long.", "de": "Ich weiß. Aber du solltest sie dir mal ansehen. Die Figuren sind echt witzig, und jede Folge ist nur dreißig Minuten lang." },
+      { "speaker": "Carlos", "text": "OK, one episode. Can we watch it in French with English subtitles?", "de": "Okay, eine Folge. Können wir sie auf Französisch mit englischen Untertiteln schauen?" },
+      { "speaker": "Lena", "text": "Good idea. I don't like dubbed movies.", "de": "Gute Idee. Ich mag keine synchronisierten Filme." },
+      { "speaker": "Carlos", "text": "Neither do I. The voices always sound wrong.", "de": "Ich auch nicht. Die Stimmen klingen immer falsch." },
+      { "speaker": "Lena", "text": "And after that, we could listen to the new album by Carmen Ríos. She's an amazing singer.", "de": "Und danach könnten wir das neue Album von Carmen Ríos hören. Sie ist eine großartige Sängerin." },
+      { "speaker": "Carlos", "text": "Oh, I love her! Listening to her songs always relaxes me.", "de": "Oh, die liebe ich! Ihre Lieder zu hören entspannt mich immer." },
+      { "speaker": "Lena", "text": "Me too. And her lyrics are so beautiful. Thanks to her, I'm learning a lot of Spanish!", "de": "Mich auch. Und ihre Texte sind so schön. Dank ihr lerne ich viel Spanisch!" },
+      { "speaker": "Carlos", "text": "Perfect. Then it's a plan: one episode, one album and a pizza.", "de": "Perfekt. Dann ist das abgemacht: eine Folge, ein Album und eine Pizza." },
+      { "speaker": "Lena", "text": "I'd rather have two episodes. But OK!", "de": "Mir wären zwei Folgen lieber. Aber okay!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["plot", "Handlung"], ["lyrics", "Liedtext"], ["review", "Kritik"], ["novel", "Roman"], ["subtitles", "Untertitel"], ["audience", "Publikum"]] },
+    { "type": "match", "pairs": [["actor", "Schauspieler/in"], ["director", "Regisseur/in"], ["author", "Autor/in"], ["singer", "Sänger/in"], ["artist", "Künstler/in"]] },
+    { "type": "translate", "de": "Ich schaue lieber Dokumentarfilme als Komödien.", "answers": ["I prefer documentaries to comedies.", "I prefer watching documentaries to watching comedies.", "I prefer watching documentaries to comedies.", "I like documentaries more than comedies.", "I like documentaries better than comedies.", "I'd rather watch documentaries than comedies.", "I would rather watch documentaries than comedies."] },
+    { "type": "translate", "de": "Das Ende war traurig.", "answers": ["The ending was sad."] },
+    { "type": "translate", "de": "Du solltest dir diese Band mal anhören.", "answers": ["You should check out this band.", "You should check this band out.", "You should listen to this band."] },
+    { "type": "translate", "de": "Ich mag keine Horrorfilme. – Ich auch nicht.", "answers": ["I don't like horror movies. Neither do I.", "I don't like horror movies. Me neither.", "I don't like horror movies. Nor do I.", "I do not like horror movies. Neither do I.", "I do not like horror movies. Me neither.", "I do not like horror movies. Nor do I."] },
+    { "type": "cloze", "text": "Their new album comes ___ next month.", "answers": ["out"], "de": "Ihr neues Album erscheint nächsten Monat." },
+    { "type": "cloze", "text": "There's a new ___ of modern art at the museum.", "answers": ["exhibition"], "de": "Im Museum gibt es eine neue Ausstellung moderner Kunst." },
+    { "type": "cloze", "text": "Who's your favorite ___ in the series?", "answers": ["character"], "de": "Wer ist deine Lieblingsfigur in der Serie?" },
+    { "type": "cloze", "text": "Thanks for the ___! The book was great.", "answers": ["recommendation"], "de": "Danke für die Empfehlung! Das Buch war toll." },
+    { "type": "order", "de": "Musik zu hören entspannt mich.", "answer": "Listening to music relaxes me.", "distractors": ["Listen"] },
+    { "type": "order", "de": "Der Film hat tolle Kritiken bekommen.", "answer": "The movie got great reviews.", "distractors": ["review"] },
+    { "type": "listen", "text": "I'd rather read the book than watch the movie.", "de": "Ich würde lieber das Buch lesen, als den Film zu schauen." },
+    { "type": "listen", "text": "The new exhibition at the museum is definitely worth seeing.", "de": "Die neue Ausstellung im Museum ist auf jeden Fall sehenswert." }
+  ]
+}
