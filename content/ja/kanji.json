@@ -1214,6 +1214,242 @@
         { "word": "漢字[かんじ]", "de": "das Kanji" },
         { "word": "文字[もじ]", "de": "das Schriftzeichen" },
         { "word": "字[じ]", "de": "die Schrift; die Handschrift" }
+      ] },
+    { "char": "業", "de": "Geschäft; Branche; Arbeit", "on": ["ギョウ", "ゴウ"], "kun": ["わざ"], "strokes": 13,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "授[じゅ]業[ぎょう]", "de": "der Unterricht" },
+        { "word": "卒[そつ]業[ぎょう]", "de": "der (Schul-)Abschluss" },
+        { "word": "営[えい]業[ぎょう]", "de": "der Vertrieb" }
+      ] },
+    { "char": "経", "de": "durchlaufen; vergehen; Wirtschaft", "on": ["ケイ", "キョウ"], "kun": ["へ.る"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "経験[けいけん]", "de": "die Erfahrung" },
+        { "word": "経[けい]済[ざい]", "de": "die Wirtschaft" }
+      ] },
+    { "char": "特", "de": "besonders", "on": ["トク"], "kun": [], "strokes": 10,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "特[とく]に", "de": "besonders; vor allem" },
+        { "word": "特[とく]別[べつ]", "de": "besonders; speziell" },
+        { "word": "特[とっ]急[きゅう]", "de": "der Expresszug" }
+      ] },
+    { "char": "有", "de": "haben; vorhanden sein", "on": ["ユウ", "ウ"], "kun": ["あ.る"], "strokes": 6,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "有名[ゆうめい]", "de": "berühmt" },
+        { "word": "有料[ゆうりょう]", "de": "kostenpflichtig" }
+      ] },
+    { "char": "力", "de": "Kraft; Stärke", "on": ["リョク", "リキ"], "kun": ["ちから"], "strokes": 2,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "力[ちから]", "de": "die Kraft" },
+        { "word": "能[のう]力[りょく]", "de": "die Fähigkeit" },
+        { "word": "努[ど]力[りょく]", "de": "die Anstrengung" }
+      ] },
+    { "char": "作", "de": "machen; herstellen; Werk", "on": ["サク", "サ"], "kun": ["つく.る"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "作[つく]る", "de": "machen; herstellen" },
+        { "word": "作文[さくぶん]", "de": "der Aufsatz" },
+        { "word": "作家[さっか]", "de": "Schriftsteller/in" }
+      ] },
+    { "char": "持", "de": "halten; haben; tragen", "on": ["ジ"], "kun": ["も.つ"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-06",
+      "examples": [
+        { "word": "持[も]つ", "de": "halten; haben" },
+        { "word": "持[も]ち物[もの]", "de": "die Sachen, die man dabeihat" },
+        { "word": "気持[きも]ち", "de": "das Gefühl" }
+      ] },
+    { "char": "映", "de": "widerspiegeln; projizieren", "on": ["エイ"], "kun": ["うつ.る", "うつ.す", "は.える"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "映画[えいが]", "de": "der Film" },
+        { "word": "映画館[えいがかん]", "de": "das Kino" },
+        { "word": "映[うつ]る", "de": "sich spiegeln; zu sehen sein" }
+      ] },
+    { "char": "館", "de": "Gebäude; Halle", "on": ["カン"], "kun": ["やかた"], "strokes": 16,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "映画館[えいがかん]", "de": "das Kino" },
+        { "word": "図書館[としょかん]", "de": "die Bibliothek" },
+        { "word": "美術館[びじゅつかん]", "de": "das Kunstmuseum" }
+      ] },
+    { "char": "美", "de": "Schönheit; schön", "on": ["ビ", "ミ"], "kun": ["うつく.しい"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "美[うつく]しい", "de": "schön; wunderschön" },
+        { "word": "美術[びじゅつ]", "de": "die bildende Kunst" },
+        { "word": "美術館[びじゅつかん]", "de": "das Kunstmuseum" }
+      ] },
+    { "char": "術", "de": "Kunst; Technik; Methode", "on": ["ジュツ"], "kun": [], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "美術[びじゅつ]", "de": "die bildende Kunst" },
+        { "word": "芸[げい]術[じゅつ]", "de": "die Kunst" },
+        { "word": "技[ぎ]術[じゅつ]", "de": "die Technik" }
+      ] },
+    { "char": "物", "de": "Ding; Sache", "on": ["ブツ", "モツ"], "kun": ["もの"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "食[た]べ物[もの]", "de": "das Essen" },
+        { "word": "買[か]い物[もの]", "de": "das Einkaufen" },
+        { "word": "博[はく]物館[ぶつかん]", "de": "das Museum" }
+      ] },
+    { "char": "図", "de": "Zeichnung; Plan; Karte", "on": ["ズ", "ト"], "kun": ["はか.る"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "地図[ちず]", "de": "die (Land-)Karte" },
+        { "word": "図書館[としょかん]", "de": "die Bibliothek" },
+        { "word": "図[ず]", "de": "die Abbildung; die Grafik" }
+      ] },
+    { "char": "洋", "de": "Ozean; westlich", "on": ["ヨウ"], "kun": [], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-07",
+      "examples": [
+        { "word": "西洋[せいよう]", "de": "der Westen" },
+        { "word": "洋[よう]服[ふく]", "de": "die (westliche) Kleidung" },
+        { "word": "洋食[ようしょく]", "de": "westliches Essen" }
+      ] },
+    { "char": "走", "de": "laufen; rennen", "on": ["ソウ"], "kun": ["はし.る"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "走[はし]る", "de": "laufen; rennen" },
+        { "word": "走[はし]り出[だ]す", "de": "loslaufen" }
+      ] },
+    { "char": "歩", "de": "gehen; Schritt", "on": ["ホ", "ブ", "フ"], "kun": ["ある.く", "あゆ.む"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "歩[ある]く", "de": "(zu Fuß) gehen" },
+        { "word": "散[さん]歩[ぽ]", "de": "der Spaziergang" },
+        { "word": "歩[ほ]道[どう]", "de": "der Gehweg" }
+      ] },
+    { "char": "急", "de": "eilig; plötzlich", "on": ["キュウ"], "kun": ["いそ.ぐ"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "急[いそ]ぐ", "de": "sich beeilen" },
+        { "word": "急[きゅう]に", "de": "plötzlich" },
+        { "word": "特急[とっきゅう]", "de": "der Expresszug" }
+      ] },
+    { "char": "止", "de": "anhalten; stoppen", "on": ["シ"], "kun": ["と.まる", "と.める"], "strokes": 4,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "止[と]まる", "de": "anhalten (etwas hält an)" },
+        { "word": "止[と]める", "de": "anhalten; abstellen" },
+        { "word": "中止[ちゅうし]", "de": "die Absage" }
+      ] },
+    { "char": "起", "de": "aufstehen; wecken; entstehen", "on": ["キ"], "kun": ["お.きる", "お.こす", "お.こる"], "strokes": 10,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "起[お]きる", "de": "aufstehen" },
+        { "word": "起[お]こす", "de": "wecken" },
+        { "word": "起[お]こる", "de": "passieren" }
+      ] },
+    { "char": "着", "de": "ankommen; anziehen", "on": ["チャク", "ジャク"], "kun": ["き.る", "き.せる", "つ.く", "つ.ける"], "strokes": 12,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "着[き]る", "de": "anziehen" },
+        { "word": "着[つ]く", "de": "ankommen" },
+        { "word": "着物[きもの]", "de": "der Kimono" }
+      ] },
+    { "char": "転", "de": "rollen; sich drehen; umfallen", "on": ["テン"], "kun": ["ころ.ぶ", "ころ.がる", "ころ.げる"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-08",
+      "examples": [
+        { "word": "自転車[じてんしゃ]", "de": "das Fahrrad" },
+        { "word": "運[うん]転[てん]", "de": "das Fahren (Auto)" },
+        { "word": "転[ころ]ぶ", "de": "hinfallen" }
+      ] },
+    { "char": "同", "de": "gleich; derselbe", "on": ["ドウ"], "kun": ["おな.じ"], "strokes": 6,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "同[おな]じ", "de": "gleich; derselbe" },
+        { "word": "同時[どうじ]に", "de": "gleichzeitig" }
+      ] },
+    { "char": "主", "de": "Haupt-; Herr; Besitzer", "on": ["シュ", "ス"], "kun": ["ぬし", "おも"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "主[おも]な", "de": "hauptsächlich; Haupt-" },
+        { "word": "ご主人[しゅじん]", "de": "Ihr/sein Ehemann (höflich)" },
+        { "word": "主[しゅ]婦[ふ]", "de": "die Hausfrau" }
+      ] },
+    { "char": "公", "de": "öffentlich", "on": ["コウ"], "kun": ["おおやけ"], "strokes": 4,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "公[こう]園[えん]", "de": "der Park" },
+        { "word": "公民館[こうみんかん]", "de": "das Gemeindezentrum" },
+        { "word": "公[こう]務[む]員[いん]", "de": "Beamter; Beamtin" }
+      ] },
+    { "char": "町", "de": "Stadt; Stadtviertel", "on": ["チョウ"], "kun": ["まち"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "町[まち]", "de": "die Stadt" },
+        { "word": "下町[したまち]", "de": "die Altstadt" }
+      ] },
+    { "char": "市", "de": "Stadt; Markt", "on": ["シ"], "kun": ["いち"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "市[し]役[やく]所[しょ]", "de": "das Rathaus" },
+        { "word": "市民[しみん]", "de": "Bürger/in" },
+        { "word": "市[いち]場[ば]", "de": "der Markt" }
+      ] },
+    { "char": "民", "de": "Volk", "on": ["ミン"], "kun": ["たみ"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "市民[しみん]", "de": "Bürger/in" },
+        { "word": "国民[こくみん]", "de": "das Volk" },
+        { "word": "住民[じゅうみん]", "de": "Bewohner/in" }
+      ] },
+    { "char": "代", "de": "Zeitalter; ersetzen; Gebühr", "on": ["ダイ", "タイ"], "kun": ["か.わる", "か.える", "よ", "しろ"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-09",
+      "examples": [
+        { "word": "時代[じだい]", "de": "die Epoche" },
+        { "word": "代[か]わり", "de": "der Ersatz; statt" },
+        { "word": "電気代[でんきだい]", "de": "die Stromkosten" }
+      ] },
+    { "char": "夢", "de": "Traum", "on": ["ム"], "kun": ["ゆめ"], "strokes": 13,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "夢[ゆめ]", "de": "der Traum" },
+        { "word": "夢中[むちゅう]", "de": "ganz vertieft; begeistert" }
+      ] },
+    { "char": "将", "de": "Anführer; künftig", "on": ["ショウ"], "kun": [], "strokes": 10,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "将来[しょうらい]", "de": "die Zukunft" },
+        { "word": "将[しょう]棋[ぎ]", "de": "Shōgi (japanisches Schach)" }
+      ] },
+    { "char": "未", "de": "noch nicht", "on": ["ミ"], "kun": ["いま.だ"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "未来[みらい]", "de": "die (ferne) Zukunft" },
+        { "word": "未[み]成[せい]年[ねん]", "de": "minderjährig" }
+      ] },
+    { "char": "希", "de": "hoffen; selten", "on": ["キ"], "kun": [], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "希望[きぼう]", "de": "der Wunsch; die Hoffnung" },
+        { "word": "希望[きぼう]者[しゃ]", "de": "Interessent/in" }
+      ] },
+    { "char": "望", "de": "hoffen; wünschen; Aussicht", "on": ["ボウ", "モウ"], "kun": ["のぞ.む"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "希望[きぼう]", "de": "der Wunsch; die Hoffnung" },
+        { "word": "望[のぞ]む", "de": "sich wünschen" },
+        { "word": "望[のぞ]み", "de": "der Wunsch" }
+      ] },
+    { "char": "決", "de": "entscheiden", "on": ["ケツ"], "kun": ["き.める", "き.まる"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "決[き]める", "de": "entscheiden" },
+        { "word": "決心[けっしん]", "de": "der Entschluss" },
+        { "word": "決[けっ]して", "de": "niemals" }
+      ] },
+    { "char": "心", "de": "Herz; Geist", "on": ["シン"], "kun": ["こころ"], "strokes": 4,
+      "level": "B1", "lesson": "ja-b1-10",
+      "examples": [
+        { "word": "心[こころ]", "de": "das Herz; die Seele" },
+        { "word": "安心[あんしん]", "de": "die Erleichterung" },
+        { "word": "心[しん]配[ぱい]", "de": "die Sorge" }
       ] }
   ]
 }
