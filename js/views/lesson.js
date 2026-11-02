@@ -175,7 +175,7 @@ export async function lessonView(main, { params, navigate }) {
           el(
             'p',
             { class: 'small muted' },
-            `${lesson.vocab.length} Vokabeln · ${lesson.grammar.length} Grammatikthema${lesson.grammar.length === 1 ? '' : 'en'} · Dialog · Übungen · Test`,
+            `${lesson.vocab.length} Vokabeln · ${lesson.grammar.length} ${lesson.grammar.length === 1 ? 'Grammatikthema' : 'Grammatikthemen'} · Dialog · Übungen · Test`,
           ),
           lang === 'ja' && lesson.kanji && lesson.kanji.length
             ? el('p', null, 'Neue Kanji: ', el('span', { lang: 'ja', class: 'kanji-inline' }, lesson.kanji.join(' ')))
