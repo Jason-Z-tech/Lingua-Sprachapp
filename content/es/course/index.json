@@ -201,35 +201,35 @@
           "file": "b1-06.json",
           "title_de": "Bewerbung",
           "topic": "Lebenslauf und Vorstellungsgespräch",
-          "available": false
+          "available": true
         },
         {
           "id": "es-b1-07",
           "file": "b1-07.json",
           "title_de": "Kultur",
           "topic": "Musik, Film und Bücher",
-          "available": false
+          "available": true
         },
         {
           "id": "es-b1-08",
           "file": "b1-08.json",
           "title_de": "Erlebnisse",
           "topic": "Von einer Reise erzählen",
-          "available": false
+          "available": true
         },
         {
           "id": "es-b1-09",
           "file": "b1-09.json",
           "title_de": "Gesellschaft",
           "topic": "Alltag und Zusammenhalt",
-          "available": false
+          "available": true
         },
         {
           "id": "es-b1-10",
           "file": "b1-10.json",
           "title_de": "Ziele",
           "topic": "Träume und Wünsche",
-          "available": false
+          "available": true
         }
       ]
     }
