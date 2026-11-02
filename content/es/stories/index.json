@@ -1,0 +1,203 @@
+{
+  "formatVersion": 1,
+  "lang": "es",
+  "stories": [
+    {
+      "id": "es-st-a1-01",
+      "file": "a1-01.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Un café en Madrid",
+      "title_de": "Ein Café in Madrid",
+      "topics": [
+        "essen",
+        "alltag"
+      ],
+      "summary_de": "Ana aus Berlin bestellt in einem kleinen Café in Madrid und lernt den Kellner Luis kennen.",
+      "words": 83
+    },
+    {
+      "id": "es-st-a1-02",
+      "file": "a1-02.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "En la estación de tren",
+      "title_de": "Am Bahnhof",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Jonas aus Hamburg kauft am Bahnhof in Madrid eine Fahrkarte nach Toledo und fragt nach Preis, Uhrzeit und Gleis.",
+      "words": 124
+    },
+    {
+      "id": "es-st-a1-03",
+      "file": "a1-03.json",
+      "level": "A1",
+      "type": "story",
+      "title": "La familia de Pablo",
+      "title_de": "Pablos Familie",
+      "topics": [
+        "alltag"
+      ],
+      "summary_de": "Der zehnjährige Pablo aus Sevilla stellt seine Eltern, seine Geschwister, seine Oma und die beiden Haustiere der Familie vor.",
+      "words": 157
+    },
+    {
+      "id": "es-st-a1-04",
+      "file": "a1-04.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Sábado de fútbol",
+      "title_de": "Fußballsamstag",
+      "topics": [
+        "sport"
+      ],
+      "summary_de": "Diego spielt am Samstag mit seiner Mannschaft in Valencia ein spannendes Fußballspiel, schießt ein Tor und feiert danach mit seinen Freunden.",
+      "words": 157
+    },
+    {
+      "id": "es-st-a1-05",
+      "file": "a1-05.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Un paseo por el parque",
+      "title_de": "Ein Spaziergang im Park",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Laura geht am Sonntagmorgen mit ihrem kleinen Hund Rocky in den Park, bis es anfängt zu regnen und beide nach Hause laufen.",
+      "words": 154
+    },
+    {
+      "id": "es-st-a1-06",
+      "file": "a1-06.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "¿Qué música te gusta?",
+      "title_de": "Welche Musik magst du?",
+      "topics": [
+        "musik"
+      ],
+      "summary_de": "Sara und Marcos erzählen sich, welche Musik sie mögen, was sie spielen und singen, und verabreden sich für ein Rockkonzert am Samstag.",
+      "words": 121
+    },
+    {
+      "id": "es-st-a2-01",
+      "file": "a2-01.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Mi primer día de trabajo",
+      "title_de": "Mein erster Arbeitstag",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Julia erzählt von ihrem ersten Tag in einem Reisebüro in Barcelona: von der netten Chefin, den neuen Kollegen, dem Mittagessen und einer deutschen Kundin.",
+      "words": 247
+    },
+    {
+      "id": "es-st-a2-02",
+      "file": "a2-02.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Una noche en el cine",
+      "title_de": "Ein Kinoabend",
+      "topics": [
+        "filme"
+      ],
+      "summary_de": "Carlos und Irene sehen sich einen Science-Fiction-Film an, erleben eine Panne im Kino und haben danach in der Bar ganz unterschiedliche Meinungen über den Film.",
+      "words": 205
+    },
+    {
+      "id": "es-st-a2-03",
+      "file": "a2-03.json",
+      "level": "A2",
+      "type": "dialog",
+      "title": "En el médico",
+      "title_de": "Beim Arzt",
+      "topics": [
+        "gesundheit"
+      ],
+      "summary_de": "Marta hat Halsschmerzen und Fieber, geht zur Ärztin und holt danach in der Apotheke einen Hustensaft.",
+      "words": 193
+    },
+    {
+      "id": "es-st-a2-04",
+      "file": "a2-04.json",
+      "level": "A2",
+      "type": "story",
+      "title": "El móvil perdido",
+      "title_de": "Das verlorene Handy",
+      "topics": [
+        "technik"
+      ],
+      "summary_de": "Javier verliert in Sevilla sein Handy, findet es mit Hilfe seiner Freundin Lucía im Café wieder und sichert danach seine Fotos.",
+      "words": 205
+    },
+    {
+      "id": "es-st-a2-05",
+      "file": "a2-05.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Mis primeras Fallas",
+      "title_de": "Meine ersten Fallas",
+      "topics": [
+        "kultur"
+      ],
+      "summary_de": "Eine Austauschstudentin erlebt in Valencia zum ersten Mal die Fallas — mit riesigen Figuren, lauten Knallkörpern und dem großen Feuer am Ende.",
+      "words": 211
+    },
+    {
+      "id": "es-st-b1-01",
+      "file": "b1-01.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Un viaje con sorpresas",
+      "title_de": "Eine Reise mit Überraschungen",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Auf dem Weg nach Asturien bleibt das Auto zweier Freundinnen liegen, und ausgerechnet das ungeplante Wochenende in einem kleinen Dorf wird zum schönsten Teil der Reise.",
+      "words": 329
+    },
+    {
+      "id": "es-st-b1-02",
+      "file": "b1-02.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Un pueblo más verde",
+      "title_de": "Ein grünerer Ort",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Ein spanischer Ort startet ein Umweltprojekt mit Bäumen, Recycling und einem Gemeinschaftsgarten, und drei Einwohner erzählen, was sie davon halten.",
+      "words": 314
+    },
+    {
+      "id": "es-st-b1-03",
+      "file": "b1-03.json",
+      "level": "B1",
+      "type": "dialog",
+      "title": "¿Cuánto tiempo delante de la pantalla?",
+      "title_de": "Wie viel Zeit vor dem Bildschirm?",
+      "topics": [
+        "spiele",
+        "technik"
+      ],
+      "summary_de": "Nuria und Sergio sprechen über Videospiele und Bildschirmzeit, begründen ihre Meinungen und verabreden sich am Ende zu einem Spieleabend ohne Bildschirm.",
+      "words": 311
+    },
+    {
+      "id": "es-st-b1-04",
+      "file": "b1-04.json",
+      "level": "B1",
+      "type": "story",
+      "title": "¿En casa o en la oficina?",
+      "title_de": "Zu Hause oder im Büro?",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Marina arbeitet von zu Hause, ihr Kollege Óscar lieber im Büro — beide erklären Vor- und Nachteile, bis ihre Firma ein Hybridmodell einführt.",
+      "words": 330
+    }
+  ]
+}

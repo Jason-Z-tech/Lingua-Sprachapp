@@ -1,0 +1,203 @@
+{
+  "formatVersion": 1,
+  "lang": "en",
+  "stories": [
+    {
+      "id": "en-st-a1-01",
+      "file": "a1-01.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Breakfast in Chicago",
+      "title_de": "Frühstück in Chicago",
+      "topics": [
+        "essen",
+        "alltag"
+      ],
+      "summary_de": "Lena aus Berlin frühstückt in einem kleinen Café in Chicago und plaudert mit dem Kellner Mike.",
+      "words": 120
+    },
+    {
+      "id": "en-st-a1-02",
+      "file": "a1-02.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "A Ticket to Boston",
+      "title_de": "Eine Fahrkarte nach Boston",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Anna kauft am Bahnhof eine Fahrkarte nach Boston und fragt nach Abfahrt, Preis und Gleis.",
+      "words": 110
+    },
+    {
+      "id": "en-st-a1-03",
+      "file": "a1-03.json",
+      "level": "A1",
+      "type": "story",
+      "title": "My Family",
+      "title_de": "Meine Familie",
+      "topics": [
+        "alltag"
+      ],
+      "summary_de": "Die sechzehnjährige Emily aus Denver stellt ihre Eltern, ihre Geschwister, ihre Oma und ihre zwei Haustiere vor.",
+      "words": 146
+    },
+    {
+      "id": "en-st-a1-04",
+      "file": "a1-04.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Soccer on Saturday",
+      "title_de": "Fußball am Samstag",
+      "topics": [
+        "sport"
+      ],
+      "summary_de": "Carlos spielt am Samstag mit seiner Mannschaft im Park Fußball, schießt ein Tor und feiert danach mit seinen Freunden.",
+      "words": 138
+    },
+    {
+      "id": "en-st-a1-05",
+      "file": "a1-05.json",
+      "level": "A1",
+      "type": "story",
+      "title": "A Walk in the Park",
+      "title_de": "Ein Spaziergang im Park",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Sarah geht an einem Herbstsonntag mit ihrem Hund Buddy in den Park, bis es anfängt zu regnen.",
+      "words": 147
+    },
+    {
+      "id": "en-st-a1-06",
+      "file": "a1-06.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "What Music Do You Like?",
+      "title_de": "Welche Musik magst du?",
+      "topics": [
+        "musik"
+      ],
+      "summary_de": "Mia und Jordan sprechen über ihre Lieblingsmusik und Instrumente und verabreden sich für ein kostenloses Konzert im Park.",
+      "words": 123
+    },
+    {
+      "id": "en-st-a2-01",
+      "file": "a2-01.json",
+      "level": "A2",
+      "type": "story",
+      "title": "My First Day",
+      "title_de": "Mein erster Tag",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Eine Grafikdesignerin erzählt von ihrem ersten Arbeitstag bei einer kleinen Firma in Seattle – mit netten Kollegen, Tacos und einem fehlenden Passwort.",
+      "words": 251
+    },
+    {
+      "id": "en-st-a2-02",
+      "file": "a2-02.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Movie Night",
+      "title_de": "Filmabend",
+      "topics": [
+        "filme"
+      ],
+      "summary_de": "Beim monatlichen Filmabend zeigt der Erzähler seinen Freunden einen Horrorfilm, über den danach alle sehr verschiedene Meinungen haben.",
+      "words": 241
+    },
+    {
+      "id": "en-st-a2-03",
+      "file": "a2-03.json",
+      "level": "A2",
+      "type": "dialog",
+      "title": "At the Doctor's Office",
+      "title_de": "In der Arztpraxis",
+      "topics": [
+        "gesundheit"
+      ],
+      "summary_de": "Mia hat Halsschmerzen und Fieber, geht zur Ärztin und kauft danach in der Apotheke Tabletten und Hustenbonbons.",
+      "words": 261
+    },
+    {
+      "id": "en-st-a2-04",
+      "file": "a2-04.json",
+      "level": "A2",
+      "type": "story",
+      "title": "The Lost Phone",
+      "title_de": "Das verlorene Handy",
+      "topics": [
+        "technik"
+      ],
+      "summary_de": "Jake verliert in der Stadt sein Handy, findet es mit Carlos' Laptop auf einer Karte wieder und holt es in der Pizzeria ab.",
+      "words": 222
+    },
+    {
+      "id": "en-st-a2-05",
+      "file": "a2-05.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Lena's First Thanksgiving",
+      "title_de": "Lenas erstes Thanksgiving",
+      "topics": [
+        "kultur"
+      ],
+      "summary_de": "Die deutsche Austauschschülerin Lena feiert in Ohio mit ihrer Gastfamilie zum ersten Mal Thanksgiving und lernt Truthahn, Football und Black Friday kennen.",
+      "words": 248
+    },
+    {
+      "id": "en-st-b1-01",
+      "file": "b1-01.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Nothing Went as Planned",
+      "title_de": "Nichts lief nach Plan",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Auf einer Autoreise zum Grand Canyon bleiben zwei Schwestern mit leerer Batterie in einem winzigen Ort hängen und entdecken dadurch eine wunderschöne Schlucht, die in keinem Reiseführer steht.",
+      "words": 347
+    },
+    {
+      "id": "en-st-b1-02",
+      "file": "b1-02.json",
+      "level": "B1",
+      "type": "story",
+      "title": "A Greener Millbrook",
+      "title_de": "Ein grüneres Millbrook",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Schülerinnen und Schüler in einer Kleinstadt in Oregon starten ein Umweltprojekt mit Radwegen, Bäumen und einem Gemeinschaftsgarten, und die Einwohner haben dazu ganz unterschiedliche Meinungen.",
+      "words": 330
+    },
+    {
+      "id": "en-st-b1-03",
+      "file": "b1-03.json",
+      "level": "B1",
+      "type": "dialog",
+      "title": "Just One More Game",
+      "title_de": "Nur noch ein Spiel",
+      "topics": [
+        "spiele",
+        "technik"
+      ],
+      "summary_de": "Noah und Lily diskutieren über Videospiele und Bildschirmzeit, nennen Vor- und Nachteile und schließen am Ende einen Kompromiss.",
+      "words": 352
+    },
+    {
+      "id": "en-st-b1-04",
+      "file": "b1-04.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Home or Office?",
+      "title_de": "Zu Hause oder im Büro?",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Sarah muss nach Jahren im Homeoffice wieder an drei Tagen ins Büro, wägt mit ihrem Kollegen David Vor- und Nachteile ab und findet eine Mischung am besten.",
+      "words": 357
+    }
+  ]
+}

@@ -184,6 +184,13 @@ test('Zusammenfassung kombiniert Test und eigene Markierungen', () => {
   // ein häufiges Wort als "Lernen" markieren -> -1
   profile.words.the = { status: 'learning' };
   assert.equal(vocabularySummary(profile, frequencies.en).estimate, 500);
+  // ... sobald das Abrufen über Tage sitzt, zählt es wieder
+  profile.cards['recall:the'] = { fsrs: { state: 2 } };
+  assert.equal(vocabularySummary(profile, frequencies.en).estimate, 501);
+  // Wendung außerhalb der Liste, erst erkannt -> halb
+  profile.words['buenos días'] = { status: 'learning' };
+  profile.cards['recognize:buenos días'] = { fsrs: { state: 2 } };
+  assert.equal(vocabularySummary(profile, frequencies.en).estimate, 502);
 });
 
 test('Übersprungener Test = Start bei null', () => {

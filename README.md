@@ -10,11 +10,15 @@ Zielsprachen: **Englisch, Spanisch, Italienisch, Japanisch** (inkl. Hiragana, Ka
 Die App ist eine reine statische Website (HTML, CSS, JavaScript-Module) ohne Build-Schritt,
 ohne Server, ohne Konto. Der Lernstand bleibt im Browser.
 
-> **Stand:** in Entwicklung, Etappe 2 von 11 fertig.
+> **Stand:** in Entwicklung, Etappen 1–4 von 11 fertig (Inhalte werden laufend ergänzt).
 > - Etappe 1: Grundgerüst, Speicherung, mehrere Sprachen, Einstufungstest
 > - Etappe 2: Kurs mit Lektionen (Vokabeln, Grammatik, Dialog, Übungen, Test),
 >   die ersten zwei A1-Lektionen in allen vier Sprachen, kompletter Kana-Kurs
 >   (Hiragana und Katakana) mit Strichfolge und Nachzeichnen
+> - Etappe 3: Lesen & Hören – Bibliothek mit Geschichten und Dialogen (A1–B1), jedes Wort
+>   antippbar, „Kenne ich“ / „Lernen“ (Wort wird mit seinem Satz gespeichert), Vorlesen mit Tempo
+> - Etappe 4: Wiederholen mit FSRS (ts-fsrs) – Erkennen, Abrufen (Satz mit Lücke), Hören,
+>   Kana- und Kanji-Karten, Tageslimit für neue Wörter, Statistik
 >
 > Ein ausführliches README mit Anleitung für GitHub Pages und den API-Schlüssel folgt zum Schluss.
 
@@ -47,6 +51,9 @@ npm test
 | `js/course/` | Kursreihenfolge, Fortschritt, Übungen aus Lektionsinhalten |
 | `js/ja/` | Strichfolge und Nachzeichnen für Kana und Kanji |
 | `js/speech/` | Vorlesen (Sprachausgabe des Browsers) |
+| `js/read/` | Lesen: Wörter nachschlagen, Bekanntheit und passende Texte |
+| `js/srs/` | Wiederholen: FSRS-Planung, Karten, Warteschlange |
+| `vendor/ts-fsrs/` | FSRS-Bibliothek, lokal eingebunden (MIT) |
 | `js/views/` | Ansichten (Start, Einstieg, Fortschritt, Einstellungen …) |
 | `js/ui/` | DOM-Bausteine (ohne innerHTML), Symbole, Dialoge |
 | `content/` | Inhalte pro Sprache, Format siehe [`content/FORMAT.md`](content/FORMAT.md) |
@@ -56,6 +63,8 @@ npm test
 ## Quellen und Lizenzen
 
 - Programmcode: MIT-Lizenz, siehe [LICENSE](LICENSE).
+- Wiederholungsplanung: [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2
+  (MIT), lokal in `vendor/ts-fsrs/`.
 - Häufigkeitslisten (`content/*/frequency.json`): erzeugt aus
   [wordfreq](https://github.com/rspeer/wordfreq) von Robyn Speer u. a.,
   Daten unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -123,3 +123,24 @@ export async function loadStrokes() {
     return { strokes: {} };
   }
 }
+
+// ---------- Lesen ----------
+
+export async function loadStoriesIndex(code) {
+  try {
+    return await loadJson(`${code}/stories/index.json`);
+  } catch {
+    return { formatVersion: 1, lang: code, stories: [] };
+  }
+}
+
+export function loadStory(code, file) {
+  return loadJson(`${code}/stories/${file}`);
+}
+
+/** Alle verfügbaren Lektionen einer Sprache (für Querverweise, z. B. "Im Kurs"). */
+export async function loadAvailableLessons(code) {
+  const index = await loadCourseIndex(code);
+  const metas = index.levels.flatMap((level) => level.lessons.filter((l) => l.available));
+  return Promise.all(metas.map((m) => loadLesson(code, m.file)));
+}

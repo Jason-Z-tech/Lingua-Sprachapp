@@ -67,6 +67,7 @@ function addLessonWords(lang, lesson) {
         ...(existing || {}),
         status: 'learning',
         word: fullWord(v),
+        lemma: v.word,
         de: v.de,
         lesson: lesson.id,
         vocabId: v.id,

@@ -2,7 +2,7 @@
 
 Alle Inhalte liegen als JSON-Dateien in `content/`. Die App lädt sie direkt –
 es gibt keinen Build-Schritt. Diese Beschreibung wächst mit den Etappen
-(Geschichten und Sprech-Szenarien folgen).
+(Sprech-Szenarien folgen).
 
 Nach jeder Änderung prüft `npm test`, ob alle Dateien zum Format passen.
 
@@ -15,9 +15,12 @@ content/
 └── <sprachcode>/         # z. B. en, es, it, ja
     ├── meta.json         # Infos zur Sprache
     ├── frequency.json    # Häufigkeitsliste (wird erzeugt, siehe unten)
-    └── course/
-        ├── index.json    # Kursübersicht: A1, A2, B1 mit je 10 Lektionen
-        └── a1-01.json …  # eine Datei pro Lektion
+    ├── course/
+    │   ├── index.json    # Kursübersicht: A1, A2, B1 mit je 10 Lektionen
+    │   └── a1-01.json …  # eine Datei pro Lektion
+    └── stories/
+        ├── index.json    # wird erzeugt: node tools/build-story-index.mjs
+        └── a1-01.json …  # Geschichten und Lese-Dialoge
 content/ja/
     ├── kana.json         # Kana-Kurs (Hiragana, Katakana)
     ├── kanji.json        # Kanji mit Bedeutung, Lesungen, Beispielen
@@ -237,6 +240,50 @@ Jedes Kanji wird in genau einer Lektion eingeführt (Feld `kanji` der Lektion).
 
 Übungswörter dürfen nur Zeichen benutzen, die in dieser oder einer früheren Kana-Lektion
 derselben Schrift vorkamen (der Test prüft das).
+
+## Geschichten und Lese-Dialoge `stories/a1-01.json`
+
+Vollständiges Beispiel: [`es/stories/a1-01.json`](es/stories/a1-01.json).
+Dateiname = Stufe + Nummer (`a1-01.json` … `b1-04.json`), die `id` ist `<sprache>-st-<dateiname>`.
+
+```json
+{
+  "formatVersion": 1,
+  "id": "es-st-a1-01",
+  "lang": "es",
+  "level": "A1",
+  "type": "story",
+  "title": "Un café en Madrid",
+  "title_de": "Ein Café in Madrid",
+  "topics": ["essen", "alltag"],
+  "summary_de": "Ana bestellt in einem Café …",
+  "sentences": [
+    { "text": "Es lunes por la mañana.", "de": "Es ist Montagmorgen." },
+    { "text": "El camarero se llama Luis.", "de": "Der Kellner heißt Luis.", "break": true }
+  ],
+  "glossary": {
+    "es": { "lemma": "ser", "de": "ist", "pos": "verb" },
+    "luis": { "lemma": "Luis", "de": "Luis (Name)", "pos": "name" }
+  }
+}
+```
+
+| Feld | Bedeutung |
+| --- | --- |
+| `type` | `story` oder `dialog` (bei Dialogen hat jeder Satz ein `speaker`) |
+| `topics` | Themen aus der Interessenliste: `alltag`, `reisen`, `essen`, `sport`, `technik`, `musik`, `filme`, `natur`, `arbeit`, `kultur`, `gesundheit`, `spiele` |
+| `sentences[].break` | `true` = mit diesem Satz beginnt ein neuer Absatz |
+| `sentences[].gloss` | optional: Bedeutungen nur für diesen Satz (gleiches Format wie `glossary`), wenn ein Wort hier etwas anderes bedeutet |
+| `glossary` | **jede Wortform**, die im Text vorkommt, klein geschrieben als Schlüssel; `lemma` = Grundform, `de` = Bedeutung im Text, `pos` wie bei Vokabeln, zusätzlich `name` für Namen |
+
+Länge: A1 60–220 Wörter, A2 120–350, B1 200–550. Der Test zählt die Wörter und meldet
+jede Wortform, die im `glossary` fehlt.
+
+Japanisch: Texte in Furigana-Schreibweise. Schlüssel im `glossary` ist das Wort so, wie es
+im Text steht, ohne Lesung und ohne Satzzeichen (`"学生"`, `"です"`, `"は"`); `lemma` ist die
+Wörterbuchform in Furigana-Schreibweise (`"食[た]べる"`).
+
+Nach dem Hinzufügen von Geschichten: `node tools/build-story-index.mjs` erzeugt die `index.json`.
 
 ## Eine neue Sprache hinzufügen
 

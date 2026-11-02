@@ -12,6 +12,9 @@ import { courseView } from './views/course.js';
 import { homeView } from './views/home.js';
 import { kanaView } from './views/kana.js';
 import { lessonView } from './views/lesson.js';
+import { libraryView } from './views/library.js';
+import { readerView } from './views/reader.js';
+import { reviewView } from './views/review.js';
 import { onboardingView } from './views/onboarding.js';
 import { placementView } from './views/placement-route.js';
 import { placeholderView } from './views/placeholder.js';
@@ -33,8 +36,8 @@ const ROUTES = {
   kurs: { view: courseView, title: 'Kurs' },
   lektion: { view: lessonView, title: 'Lektion', nav: 'kurs' },
   kana: { view: kanaView, title: 'Kana', nav: 'kurs' },
-  lesen: { view: placeholderView('lesen'), title: 'Lesen' },
-  wiederholen: { view: placeholderView('wiederholen'), title: 'Wiederholen' },
+  lesen: { view: (main, ctx) => (ctx.params[0] ? readerView(main, ctx) : libraryView(main, ctx)), title: 'Lesen' },
+  wiederholen: { view: reviewView, title: 'Wiederholen' },
   sprechen: { view: placeholderView('sprechen'), title: 'Sprechen' },
   fortschritt: { view: progressView, title: 'Fortschritt' },
   einstellungen: { view: settingsView, title: 'Einstellungen', public: true },

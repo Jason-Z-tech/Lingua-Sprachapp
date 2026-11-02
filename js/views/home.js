@@ -8,6 +8,8 @@ import { knowledgeSentences, pageHead } from './common.js';
 import { loadCourseContext } from '../course/context.js';
 import { lessonProgress, recommended } from '../course/progress.js';
 import { itemHref, itemTitle } from './course.js';
+import { dueSummary } from '../srs/cards.js';
+import { syncCards } from './review.js';
 
 export async function homeView(main, { navigate }) {
   const state = getState();
@@ -87,6 +89,22 @@ export async function homeView(main, { navigate }) {
 
   // --- Als Nächstes ---
   const cc = await loadCourseContext(profile.code);
+  if (cc) syncCards(cc);
+  const due = dueSummary(getProfile(), { newLimit: state.settings.newPerDay });
+  const reviewCard =
+    due.total > 0
+      ? el(
+          'section',
+          { class: 'card stack' },
+          el('h2', null, 'Wiederholen'),
+          due.dueNow + due.newToday > 0
+            ? [
+                el('p', null, `Heute dran: ${due.dueNow} Wiederholung${due.dueNow === 1 ? '' : 'en'}${due.newToday ? ` und ${due.newToday} neue Karte${due.newToday === 1 ? '' : 'n'}` : ''}.`),
+                el('a', { class: 'btn btn-primary', href: '#/wiederholen' }, icon('review'), 'Jetzt wiederholen'),
+              ]
+            : el('p', { class: 'muted' }, 'Für heute ist alles wiederholt.'),
+        )
+      : null;
   const rec = cc ? recommended(profile, cc.seq) : null;
   let nextCard;
   if (rec && !rec.waiting) {
@@ -125,6 +143,7 @@ export async function homeView(main, { navigate }) {
       'div',
       { class: 'stack' },
       el('section', { class: 'card stack' }, el('h2', null, 'Dein Stand'), ...standContent),
+      reviewCard,
       nextCard,
       el(
         'section',
