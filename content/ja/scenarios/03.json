@@ -1,0 +1,98 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-03",
+  "lang": "ja",
+  "level": "A1",
+  "title": "セーター を 買[か]う",
+  "title_de": "Einen Pullover kaufen",
+  "setting_de": "Es ist kalt geworden, und du brauchst einen warmen Pullover. Du gehst in ein Kleidergeschäft in Osaka, und eine Verkäuferin kommt auf dich zu.",
+  "partner": "店員[てんいん]",
+  "steps": [
+    {
+      "partner": "いらっしゃいませ。 何[なに] か おさがし です か。",
+      "de": "Herzlich willkommen! Suchen Sie etwas Bestimmtes?",
+      "hint_de": "Sag, dass du einen Pullover suchst.",
+      "replies": [
+        { "text": "はい、 セーター を さがして い ます。", "de": "Ja, ich suche einen Pullover." },
+        { "text": "すみません、 セーター は あり ます か。", "de": "Entschuldigung, haben Sie Pullover?" },
+        { "text": "あたたかい セーター が ほしい です。", "de": "Ich hätte gern einen warmen Pullover." }
+      ]
+    },
+    {
+      "partner": "セーター は こちら です。 どんな いろ が いい です か。",
+      "de": "Die Pullover sind hier. Welche Farbe hätten Sie gern?",
+      "hint_de": "Sag, welche Farbe du möchtest.",
+      "replies": [
+        { "text": "白[しろ]い の が いい です。", "de": "Ich hätte gern einen weißen." },
+        { "text": "くろい の は あり ます か。", "de": "Haben Sie auch einen schwarzen?" },
+        { "text": "あおい の が いい です。", "de": "Ein blauer wäre schön." }
+      ]
+    },
+    {
+      "partner": "では、 こちら は いかが です か。 大[おお]きい の と 小[ちい]さい の が あり ます。",
+      "de": "Wie wäre es dann mit diesem hier? Den gibt es groß und klein.",
+      "hint_de": "Sag, welche Größe du möchtest.",
+      "replies": [
+        { "text": "大[おお]きい の を 見[み]せて ください。", "de": "Zeigen Sie mir bitte den großen." },
+        { "text": "小[ちい]さい の を おねがいします。", "de": "Den kleinen, bitte." }
+      ]
+    },
+    {
+      "partner": "はい、 どうぞ。 とても あたたかい です よ。",
+      "de": "Bitte schön. Der ist sehr warm.",
+      "hint_de": "Frag nach dem Preis.",
+      "replies": [
+        { "text": "これ は いくら です か。", "de": "Wie viel kostet der?" },
+        { "text": "いい です ね。 いくら です か。", "de": "Der ist schön. Was kostet er?" }
+      ]
+    },
+    {
+      "partner": "三千八百円[さんぜんはっぴゃくえん] です。",
+      "de": "Er kostet 3.800 Yen.",
+      "hint_de": "Sag, dass du ihn nimmst – oder gleich zwei.",
+      "replies": [
+        { "text": "じゃあ、 これ を ください。", "de": "Dann nehme ich ihn." },
+        { "text": "じゃあ、 二[に]まい ください。", "de": "Dann nehme ich zwei." },
+        { "text": "ちょっと 高[たか]い です ね。 でも、 これ に し ます。", "de": "Ein bisschen teuer. Aber ich nehme ihn." }
+      ]
+    },
+    {
+      "partner": "ありがとうございます。 ふくろ は いり ます か。",
+      "de": "Vielen Dank. Brauchen Sie eine Tüte?",
+      "hint_de": "Sag, ob du eine Tüte möchtest.",
+      "replies": [
+        { "text": "はい、 おねがいします。", "de": "Ja, bitte." },
+        { "text": "いいえ、 だいじょうぶ です。", "de": "Nein, nicht nötig." },
+        { "text": "いいえ、 けっこう です。", "de": "Nein, danke." }
+      ]
+    },
+    {
+      "partner": "かしこまり ました。 おしはらい は げんきん です か、 カード です か。",
+      "de": "Sehr gern. Zahlen Sie bar oder mit Karte?",
+      "hint_de": "Sag, wie du bezahlst.",
+      "replies": [
+        { "text": "カード で おねがいします。", "de": "Mit Karte, bitte." },
+        { "text": "げんきん で おねがいします。", "de": "Bar, bitte." }
+      ]
+    },
+    {
+      "partner": "ありがとうございました。 また おこし ください。",
+      "de": "Vielen Dank! Beehren Sie uns bald wieder.",
+      "hint_de": "Bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "ありがとうございました。", "de": "Vielen Dank." },
+        { "text": "どうも。 また 来[き] ます。", "de": "Danke. Ich komme wieder." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "〜 を さがして い ます", "de": "ich suche …" },
+    { "text": "どんな いろ", "de": "welche Farbe?" },
+    { "text": "白[しろ]い の", "de": "ein weißer / eine weiße (の ersetzt das Nomen)" },
+    { "text": "見[み]せて ください", "de": "Zeigen Sie mir bitte …" },
+    { "text": "いくら です か", "de": "Wie viel kostet das?" },
+    { "text": "二[に]まい", "de": "zwei Stück (Zählwort まい für Kleidung, Papier, Tickets)" },
+    { "text": "これ に し ます", "de": "Ich nehme das." },
+    { "text": "ふくろ", "de": "die Tüte" }
+  ]
+}

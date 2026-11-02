@@ -10,8 +10,12 @@ import { fullWord, posLabel } from '../course/exercises.js';
 import { displayStatus, fitLabel, glossFor, storyCoverage, tokenizeStory, wordKey } from '../read/reading.js';
 import { isKanji, plainText } from '../lang/text.js';
 import { speak, stopSpeaking, ttsSupported } from '../speech/tts.js';
-import { getProfile, update } from '../store/state.js';
+import { speakButton } from './session.js';
+import { getProfile, getState, update } from '../store/state.js';
 import { errorCard, pageHead } from './common.js';
+import { AiError, callClaude, hasKey } from '../ai/client.js';
+import { explainRequest } from '../ai/prompts.js';
+import { ensureJapaneseTokens } from '../ai/validate.js';
 
 const RATES = [0.6, 0.75, 0.9, 1, 1.15];
 
@@ -35,11 +39,12 @@ export async function readerView(main, { params, navigate }) {
   const lang = cc.lang;
   const [index, meta, frequency] = await Promise.all([loadStoriesIndex(lang), loadMeta(lang), loadFrequency(lang)]);
   const entry = index.stories.find((s) => s.id === id);
-  if (!entry) {
+  const custom = cc.profile.lessons && cc.profile.lessons[id];
+  if (!entry && !custom) {
     mount(main, pageHead({ title: 'Text nicht gefunden' }), errorCard('Diesen Text gibt es nicht (mehr).'), el('a', { class: 'btn', href: '#/lesen' }, 'Zur Bibliothek'));
     return;
   }
-  const story = await loadStory(lang, entry.file);
+  const story = entry ? await loadStory(lang, entry.file) : custom;
   const lessons = await loadAvailableLessons(lang).catch(() => []);
   const courseVocab = new Map();
   for (const lesson of lessons) {
@@ -162,7 +167,16 @@ export async function readerView(main, { params, navigate }) {
     sheet.hidden = false;
     const p = profile();
     if (!info) {
-      mount(sheet, el('div', { class: 'sheet-inner' }, el('p', null, `„${token.text}“ – für dieses Wort gibt es noch keine Erklärung.`), closeButton()));
+      mount(
+        sheet,
+        el(
+          'div',
+          { class: 'sheet-inner' },
+          el('div', { class: 'row-between' }, el('span', { class: 'sheet-word', lang }, token.text), closeButton()),
+          el('p', { class: 'muted' }, 'Für dieses Wort gibt es noch keine Erklärung.'),
+          aiExplain(token, null, sentence),
+        ),
+      );
       return;
     }
     const key = wordKey(info.lemma, lang);
@@ -253,8 +267,68 @@ export async function readerView(main, { params, navigate }) {
           : null,
         el('div', { class: 'sheet-sentence small' }, el('span', { class: 'muted' }, 'Satz: '), sentence.de),
         isName ? null : el('div', { class: 'row' }, learnBtn, knownBtn),
+        isName ? null : aiExplain(token, info, sentence),
       ),
     );
+  }
+
+  /** "Mit KI erklären" über das kleine Modell (nur mit Schlüssel). */
+  function aiExplain(token, info, sentence) {
+    if (!hasKey()) return null;
+    const out = el('div', { class: 'sheet-ai', 'aria-live': 'polite' });
+    const btn = el(
+      'button',
+      {
+        type: 'button',
+        class: 'btn btn-quiet btn-small',
+        on: {
+          click: async () => {
+            btn.disabled = true;
+            mount(out, el('span', { class: 'small muted typing-dots' }, 'Frage Claude'));
+            try {
+              const r = explainRequest({
+                lang,
+                langName: cc.langName,
+                word: token.text,
+                lemma: info ? plainText(info.lemma, lang) : null,
+                sentence: plainText(sentence.text, lang),
+                sentenceDe: sentence.de,
+                level: profile().level,
+              });
+              const res = await callClaude({
+                purpose: 'small',
+                model: getState().settings.ai.modelSmall,
+                system: r.system,
+                messages: [{ role: 'user', content: r.user }],
+                schema: r.schema,
+                maxTokens: 4000,
+                effort: 'low',
+              });
+              const data = res.json || {};
+              mount(
+                out,
+                el('p', { class: 'small' }, String(data.explanation_de || '')),
+                el(
+                  'ul',
+                  { class: 'examples small' },
+                  (Array.isArray(data.examples) ? data.examples : []).slice(0, 3).map((ex) => {
+                    const text = lang === 'ja' ? ensureJapaneseTokens(ex.text) : String(ex.text || '');
+                    return el('li', null, el('div', { class: 'row' }, tt(text), speakButton(text, ctx)), el('div', { class: 'muted' }, String(ex.de || '')));
+                  }),
+                ),
+                el('p', { class: 'small faint' }, 'Von KI erzeugt – kann Fehler enthalten.'),
+              );
+            } catch (err) {
+              mount(out, el('p', { class: 'small error-text' }, err instanceof AiError ? err.message : err.message));
+              btn.disabled = false;
+            }
+          },
+        },
+      },
+      icon('sparkle'),
+      'Mit KI erklären',
+    );
+    return el('div', { class: 'stack-sm' }, btn, out);
   }
 
   function closeButton() {

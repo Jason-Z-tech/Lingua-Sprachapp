@@ -1,0 +1,91 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-06",
+  "lang": "ja",
+  "level": "A2",
+  "title": "びょういん で",
+  "title_de": "Beim Arzt",
+  "setting_de": "Du fühlst dich seit ein paar Tagen krank und gehst in Japan in eine kleine Arztpraxis. Die Ärztin fragt, was dir fehlt.",
+  "partner": "おいしゃさん",
+  "steps": [
+    {
+      "partner": "こんにちは。 今日[きょう] は どう し ました か。",
+      "de": "Guten Tag. Was führt Sie heute zu mir?",
+      "hint_de": "Beschreib deine Beschwerden.",
+      "replies": [
+        { "text": "あたま が いたい です。", "de": "Ich habe Kopfschmerzen." },
+        { "text": "のど が いたくて、 せき も 出[で] ます。", "de": "Mein Hals tut weh, und ich habe auch Husten." },
+        { "text": "あたま と のど が いたい です。", "de": "Mir tun Kopf und Hals weh." }
+      ]
+    },
+    {
+      "partner": "そう です か。 いつ から です か。",
+      "de": "Verstehe. Seit wann haben Sie das?",
+      "hint_de": "Sag, seit wann du die Beschwerden hast.",
+      "replies": [
+        { "text": "きのう から です。", "de": "Seit gestern." },
+        { "text": "三日[みっか] 前[まえ] から です。", "de": "Seit drei Tagen." },
+        { "text": "けさ から です。", "de": "Seit heute Morgen." }
+      ]
+    },
+    {
+      "partner": "ねつ は あり ます か。",
+      "de": "Haben Sie Fieber?",
+      "hint_de": "Sag, ob du Fieber hast.",
+      "replies": [
+        { "text": "はい、 三十八[さんじゅうはち]ど あり ます。", "de": "Ja, ich habe 38 Grad." },
+        { "text": "はい、 少[すこ]し あり ます。", "de": "Ja, ein bisschen." },
+        { "text": "いいえ、 ありません。", "de": "Nein, habe ich nicht." }
+      ]
+    },
+    {
+      "partner": "わかり ました。 かぜ です ね。 くすり の アレルギー は あり ます か。",
+      "de": "Gut. Das ist eine Erkältung. Haben Sie eine Allergie gegen Medikamente?",
+      "hint_de": "Sag, ob du eine Allergie hast.",
+      "replies": [
+        { "text": "いいえ、 ありません。", "de": "Nein, keine." },
+        { "text": "いいえ、 とくに ありません。", "de": "Nein, keine besondere." },
+        { "text": "はい、 ペニシリン の アレルギー が あり ます。", "de": "Ja, ich bin allergisch gegen Penicillin." }
+      ]
+    },
+    {
+      "partner": "そう です か。 では、 かぜ の くすり を 出[だ]し ます ね。",
+      "de": "In Ordnung. Dann verschreibe ich Ihnen ein Mittel gegen die Erkältung.",
+      "hint_de": "Frag, wann oder wie oft du die Medizin nehmen sollst.",
+      "replies": [
+        { "text": "いつ 飲[の]み ます か。", "de": "Wann nehme ich sie?" },
+        { "text": "一日[いちにち] 何[なん]かい 飲[の]み ます か。", "de": "Wie oft am Tag nehme ich sie?" },
+        { "text": "ごはん の 後[あと] に 飲[の]み ます か。", "de": "Nehme ich sie nach dem Essen?" }
+      ]
+    },
+    {
+      "partner": "一日[いちにち] 三[さん]かい、 ごはん の 後[あと] に 飲[の]んで ください。",
+      "de": "Nehmen Sie sie dreimal täglich nach dem Essen.",
+      "hint_de": "Frag, ob du morgen zur Arbeit oder zur Uni gehen darfst.",
+      "replies": [
+        { "text": "あした 会社[かいしゃ] に 行[い]って も いい です か。", "de": "Darf ich morgen zur Arbeit gehen?" },
+        { "text": "あした 大学[だいがく] に 行[い]って も いい です か。", "de": "Darf ich morgen zur Uni gehen?" },
+        { "text": "スポーツ を して も いい です か。", "de": "Darf ich Sport machen?" }
+      ]
+    },
+    {
+      "partner": "いいえ、 三日[みっか] ぐらい うち で ゆっくり 休[やす]んで ください。 おだいじに。",
+      "de": "Nein, ruhen Sie sich etwa drei Tage zu Hause gut aus. Gute Besserung!",
+      "hint_de": "Bedank dich und verabschiede dich höflich.",
+      "replies": [
+        { "text": "わかり ました。 ありがとうございました。", "de": "Verstanden. Vielen Dank." },
+        { "text": "ありがとうございました。 しつれいします。", "de": "Vielen Dank. Auf Wiedersehen." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "どう し ました か", "de": "Was fehlt Ihnen? (wörtlich: Was ist passiert?)" },
+    { "text": "〜 が いたい です", "de": "… tut weh" },
+    { "text": "せき が 出[で] ます", "de": "ich habe Husten" },
+    { "text": "ねつ が あり ます", "de": "ich habe Fieber" },
+    { "text": "〜 から です", "de": "seit …" },
+    { "text": "くすり を 飲[の]み ます", "de": "Medizin nehmen (wörtlich: trinken)" },
+    { "text": "〜て も いい です か", "de": "Darf ich …?" },
+    { "text": "おだいじに", "de": "Gute Besserung!" }
+  ]
+}

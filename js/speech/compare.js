@@ -16,6 +16,55 @@ const TENS = {
   it: { 30: 'trenta', 40: 'quaranta', 50: 'cinquanta', 60: 'sessanta', 70: 'settanta', 80: 'ottanta', 90: 'novanta', 100: 'cento' },
 };
 const KANJI_DIGITS = ['〇', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+const JA_DIGIT = ['', 'いち', 'に', 'さん', 'よん', 'ご', 'ろく', 'なな', 'はち', 'きゅう'];
+const JA_HUNDREDS = { 1: 'ひゃく', 3: 'さんびゃく', 6: 'ろっぴゃく', 8: 'はっぴゃく' };
+const JA_THOUSANDS = { 1: 'せん', 3: 'さんぜん', 8: 'はっせん' };
+
+/** Zahl als japanische Lesung in Hiragana (0–99 999). */
+export function japaneseNumberReading(n) {
+  if (n === 0) return 'ぜろ';
+  let out = '';
+  const man = Math.floor(n / 10000);
+  if (man) out += `${japaneseNumberReading(man)}まん`;
+  const rest = n % 10000;
+  const th = Math.floor(rest / 1000);
+  const hu = Math.floor((rest % 1000) / 100);
+  const te = Math.floor((rest % 100) / 10);
+  const on = rest % 10;
+  if (th) out += JA_THOUSANDS[th] || `${JA_DIGIT[th]}せん`;
+  if (hu) out += JA_HUNDREDS[hu] || `${JA_DIGIT[hu]}ひゃく`;
+  if (te) out += `${te > 1 ? JA_DIGIT[te] : ''}じゅう`;
+  if (on) out += JA_DIGIT[on];
+  return out;
+}
+
+/**
+ * Erkannten japanischen Text möglichst ganz in Kana umwandeln:
+ * Kanji-Wörter über eine Lesungstabelle (längste Treffer zuerst), Ziffern als Zahlwort.
+ */
+export function japaneseToKana(text, readings = {}) {
+  const src = kataToHira(String(text)).replace(/\d+/g, (d) => japaneseNumberReading(Number(d)));
+  let out = '';
+  let i = 0;
+  while (i < src.length) {
+    let hit = null;
+    for (let len = Math.min(6, src.length - i); len >= 1; len--) {
+      const piece = src.slice(i, i + len);
+      if (readings[piece]) {
+        hit = { len, reading: readings[piece] };
+        break;
+      }
+    }
+    if (hit) {
+      out += hit.reading;
+      i += hit.len;
+    } else {
+      out += src[i];
+      i += 1;
+    }
+  }
+  return out;
+}
 
 function numberWord(n, lang) {
   if (NUMBERS[lang] && n <= 20) return NUMBERS[lang][n];
@@ -85,17 +134,18 @@ function jaNormalize(text) {
  * recognized: was erkannt wurde; target: Zieltext (Japanisch in Furigana-Schreibweise)
  * Rückgabe: { score, words: [{ text, ok }], extra: [Wörter, die zusätzlich gesagt wurden] }
  */
-export function compareSpeech(recognized, target, lang) {
+export function compareSpeech(recognized, target, lang, { readings = null } = {}) {
   if (lang === 'ja') {
     const said = jaNormalize(recognized);
+    const saidKana = jaNormalize(japaneseToKana(normalizeAnswer(recognized, 'ja'), readings || {}));
     const tokens = parseRuby(target);
     const surface = jaNormalize(plainText(target, 'ja'));
     const reading = jaNormalize(tokens.map((t) => t.reading).join(''));
-    const score = Math.max(charSimilarity(said, surface), charSimilarity(said, reading));
+    const score = Math.max(charSimilarity(said, surface), charSimilarity(said, reading), charSimilarity(saidKana, reading));
     const words = tokens
       .map((t) => ({ text: t.surface, forms: [jaNormalize(t.surface), jaNormalize(t.reading)].filter(Boolean) }))
       .filter((t) => t.forms.length)
-      .map((t) => ({ text: t.text, ok: t.forms.some((f) => said.includes(f)) }));
+      .map((t) => ({ text: t.text, ok: t.forms.some((f) => said.includes(f) || saidKana.includes(f)) }));
     return { score: Math.round(score * 100) / 100, words, extra: [] };
   }
   const targetWords = speechWords(target, lang);
@@ -125,11 +175,11 @@ export function compareSpeech(recognized, target, lang) {
  * Bester Treffer über mehrere Erkennungs-Alternativen und mehrere Antwortvorschläge.
  * Rückgabe: { replyIndex, transcript, result }
  */
-export function bestMatch(transcripts, replies, lang) {
+export function bestMatch(transcripts, replies, lang, opts = {}) {
   let best = null;
   for (const transcript of transcripts.filter(Boolean)) {
     replies.forEach((reply, replyIndex) => {
-      const result = compareSpeech(transcript, reply, lang);
+      const result = compareSpeech(transcript, reply, lang, opts);
       if (!best || result.score > best.result.score) best = { replyIndex, transcript, result };
     });
   }

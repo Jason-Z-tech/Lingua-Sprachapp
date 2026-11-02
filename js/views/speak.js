@@ -5,7 +5,7 @@ import { el, formatPercent, mount } from '../ui/dom.js';
 import { icon } from '../ui/icons.js';
 import { confirmDialog, toast } from '../ui/feedback.js';
 import { targetText } from '../ui/target-text.js';
-import { loadScenario, loadScenariosIndex } from '../content/loader.js';
+import { loadFrequency, loadScenario, loadScenariosIndex } from '../content/loader.js';
 import { loadCourseContext, sessionContext } from '../course/context.js';
 import { bestMatch, feedbackFor } from '../speech/compare.js';
 import { recognize, recorderSupported, startRecording, sttSupported } from '../speech/stt.js';
@@ -15,6 +15,8 @@ import { attachKanaInput } from '../lang/romaji.js';
 import { getProfile, getState, update } from '../store/state.js';
 import { errorCard, pageHead } from './common.js';
 import { speakButton } from './session.js';
+import { chatView } from './chat.js';
+import { hasKey } from '../ai/client.js';
 
 /** Einmalige Einwilligung: Spracherkennung kann über Server des Browser-Herstellers laufen. */
 async function ensureConsent() {
@@ -35,6 +37,7 @@ async function ensureConsent() {
 }
 
 export async function speakView(main, ctx) {
+  if (ctx.params[0] === 'ki') return chatView(main, ctx);
   if (ctx.params[0]) return scenarioView(main, ctx);
   const cc = await loadCourseContext();
   if (!cc) {
@@ -64,6 +67,13 @@ export async function speakView(main, ctx) {
       'div',
       { class: 'stack' },
       support,
+      el(
+        'a',
+        { class: 'story-card chat-card', href: '#/sprechen/ki' },
+        el('div', { class: 'row' }, el('span', { class: 'badge badge-accent' }, 'KI'), hasKey() ? null : el('span', { class: 'badge' }, 'braucht API-Schlüssel')),
+        el('div', { class: 'story-title' }, 'Freies Gespräch'),
+        el('p', { class: 'small' }, 'Unterhalte dich frei mit Claude – auf deinem Niveau, mit kurzen Korrekturen nach jeder Nachricht.'),
+      ),
       index.scenarios.length
         ? el(
             'div',
@@ -100,6 +110,7 @@ async function scenarioView(main, { params, navigate }) {
     return;
   }
   const scenario = await loadScenario(lang, entry.file);
+  const readings = lang === 'ja' ? (await loadFrequency('ja')).readings : null;
   let ctx = sessionContext(cc);
   const tt = (text, opts = {}) => targetText(text, lang, { furigana: ctx.furigana, knownKanji: ctx.knownKanji, ...opts });
   const rate = () => getState().settings.ttsRate;
@@ -125,7 +136,7 @@ async function scenarioView(main, { params, navigate }) {
     const node = el(
       'li',
       { class: ['chat-bubble', `from-${who}`] },
-      el('div', { class: 'chat-who small' }, who === 'partner' ? scenario.partner : 'Du'),
+      el('div', { class: 'chat-who small' }, who === 'partner' ? tt(scenario.partner, { furigana: 'all' }) : 'Du'),
       el('div', { class: 'row' }, tt(text), who === 'partner' ? speakButton(text, ctx) : null),
       de && who === 'partner'
         ? el(
@@ -323,7 +334,7 @@ async function scenarioView(main, { params, navigate }) {
 
   function showResult(step, transcripts, local, target, typed = false) {
     const replies = step.replies.map((r) => r.text);
-    const best = bestMatch(transcripts, replies, lang);
+    const best = bestMatch(transcripts, replies, lang, { readings });
     const fb = feedbackFor(best.result.score);
     const reply = step.replies[best.replyIndex];
     mount(

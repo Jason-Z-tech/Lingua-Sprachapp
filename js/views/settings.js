@@ -12,7 +12,8 @@ import {
   update,
 } from '../store/state.js';
 import * as db from '../store/db.js';
-import { clearSecrets } from '../store/secrets.js';
+import { clearSecrets, getSecret, setSecret } from '../store/secrets.js';
+import { AiError, MODEL_SUGGESTIONS, testKey } from '../ai/client.js';
 import { LEVELS, LEVEL_INFO } from '../store/schema.js';
 import { languageName, pageHead } from './common.js';
 
@@ -121,6 +122,154 @@ export async function settingsView(main, { rerender }) {
         ),
       )
     : null;
+
+  // --- KI ---
+  function keyField({ name, label, purpose, modelOf }) {
+    const input = el('input', {
+      type: 'password',
+      class: 'key-input',
+      autocomplete: 'off',
+      spellcheck: 'false',
+      placeholder: 'sk-ant-…',
+      'aria-label': label,
+      value: getSecret(name),
+    });
+    const status = el('p', { class: 'small', 'aria-live': 'polite' });
+    const show = el(
+      'button',
+      {
+        type: 'button',
+        class: 'btn btn-quiet',
+        on: {
+          click: () => {
+            input.type = input.type === 'password' ? 'text' : 'password';
+            show.textContent = input.type === 'password' ? 'Anzeigen' : 'Verbergen';
+          },
+        },
+      },
+      'Anzeigen',
+    );
+    const save = () => {
+      const value = input.value.trim();
+      if (value && !/^sk-ant-/.test(value)) {
+        status.textContent = 'Hinweis: Anthropic-Schlüssel beginnen normalerweise mit „sk-ant-“.';
+      }
+      setSecret(name, value);
+    };
+    input.addEventListener('change', save);
+    const testBtn = el(
+      'button',
+      {
+        type: 'button',
+        class: 'btn',
+        on: {
+          click: async () => {
+            save();
+            if (!input.value.trim()) {
+              status.textContent = name === 'apiKeySmall' ? 'Kein zweiter Schlüssel – es wird der erste benutzt.' : 'Bitte zuerst einen Schlüssel eintragen.';
+              return;
+            }
+            testBtn.disabled = true;
+            status.className = 'small';
+            status.textContent = 'Teste …';
+            try {
+              const res = await testKey({ purpose, model: modelOf() });
+              status.className = 'small ok-text';
+              status.textContent = `✓ Funktioniert (Modell ${res.model}).`;
+            } catch (err) {
+              status.className = 'small error-text';
+              status.textContent = err instanceof AiError ? err.message : `Fehler: ${err.message}`;
+            } finally {
+              testBtn.disabled = false;
+            }
+          },
+        },
+      },
+      'Schlüssel testen',
+    );
+    const remove = el(
+      'button',
+      {
+        type: 'button',
+        class: 'btn btn-quiet',
+        on: {
+          click: () => {
+            input.value = '';
+            setSecret(name, '');
+            status.className = 'small';
+            status.textContent = 'Schlüssel entfernt.';
+          },
+        },
+      },
+      'Entfernen',
+    );
+    return el('div', { class: 'field' }, el('label', null, label), el('div', { class: 'row key-row' }, input, show), el('div', { class: 'row' }, testBtn, remove), status);
+  }
+
+  const modelList = el('datalist', { id: 'model-suggestions' }, MODEL_SUGGESTIONS.map((m) => el('option', { value: m })));
+  function modelField(key, label, hint) {
+    const input = el('input', {
+      type: 'text',
+      class: 'model-input',
+      list: 'model-suggestions',
+      spellcheck: 'false',
+      autocomplete: 'off',
+      value: state.settings.ai[key],
+      'aria-label': label,
+      disabled: readOnly,
+    });
+    input.addEventListener('change', () => {
+      const value = input.value.trim() || (key === 'modelMain' ? 'claude-sonnet-5-5' : 'claude-haiku-5-5');
+      input.value = value;
+      update((s) => {
+        s.settings.ai[key] = value;
+      }, 'ai-model');
+      toast('Modell gespeichert.');
+    });
+    return el('div', { class: 'field' }, el('label', null, label), input, el('span', { class: 'small faint' }, hint));
+  }
+
+  const aiSection = section(
+    'KI (optional)',
+    el(
+      'p',
+      { class: 'muted' },
+      'Mit einem eigenen Anthropic-API-Schlüssel schreibt Claude Geschichten passend zu deinem Wortschatz, ist dein Gesprächspartner und erklärt einzelne Wörter. Ohne Schlüssel gibt es den Kopier-Modus: Lingua erstellt einen fertigen Prompt für ChatGPT oder Claude.',
+    ),
+    el(
+      'div',
+      { class: 'notice notice-info' },
+      el(
+        'p',
+        null,
+        'Der Schlüssel liegt nur in diesem Browser auf diesem Gerät. Er wird nie in Sync-Code, Datei oder Sicherungen übernommen und nur direkt an api.anthropic.com gesendet. Auf geteilten Computern besser nicht speichern.',
+      ),
+    ),
+    keyField({ name: 'apiKey', label: 'API-Schlüssel', purpose: 'main', modelOf: () => getState().settings.ai.modelMain }),
+    modelList,
+    modelField('modelMain', 'Modell für Gespräche & Geschichten', 'Standard: claude-sonnet-5-5. Du kannst jeden Modellnamen eintragen, auch neuere.'),
+    modelField('modelSmall', 'Modell für Kleinigkeiten (Worterklärungen, Beispielsätze)', 'Standard: claude-haiku-5-5 – schnell und günstig.'),
+    el(
+      'details',
+      { class: 'advanced' },
+      el('summary', null, 'Erweitert: zweiter Schlüssel für Kleinigkeiten'),
+      el('p', { class: 'small muted' }, 'Wenn du Worterklärungen über einen anderen Schlüssel (z. B. ein anderes Projekt mit eigenem Limit) abrechnen willst. Leer = der erste Schlüssel wird benutzt.'),
+      keyField({ name: 'apiKeySmall', label: 'Zweiter API-Schlüssel', purpose: 'small', modelOf: () => getState().settings.ai.modelSmall }),
+    ),
+    el(
+      'details',
+      { class: 'advanced' },
+      el('summary', null, 'So bekommst du einen Schlüssel'),
+      el(
+        'ol',
+        { class: 'bullets small' },
+        el('li', null, 'Öffne console.anthropic.com und melde dich an (oder registriere dich).'),
+        el('li', null, 'Lade unter „Billing“ etwas Guthaben auf – für Lingua reichen wenige Euro sehr lange.'),
+        el('li', null, 'Unter „API Keys“ einen neuen Schlüssel erstellen und kopieren (er beginnt mit „sk-ant-“).'),
+        el('li', null, 'Hier einfügen und „Schlüssel testen“ drücken.'),
+      ),
+    ),
+  );
 
   // --- Sprachen ---
   const profiles = Object.values(state.langs).sort((a, b) => a.addedAt.localeCompare(b.addedAt));
@@ -299,6 +448,7 @@ export async function settingsView(main, { rerender }) {
           'Vorlesen nutzt die Stimmen deines Geräts. Manche Browser (z. B. Chrome mit „Google“-Stimmen) schicken den Text dafür an einen Server – Lingua bevorzugt Stimmen, die direkt auf dem Gerät laufen.',
         ),
       ),
+      aiSection,
       section(
         'Sprachen',
         profiles.length

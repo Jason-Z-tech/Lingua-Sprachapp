@@ -11,9 +11,14 @@ function ensureToastRegion() {
   return toastRegion;
 }
 
+const MAX_TOASTS = 2;
+
 export function toast(message, { type = 'info', duration = 3500 } = {}) {
   const region = ensureToastRegion();
-  const node = el('div', { class: ['toast', type === 'error' && 'toast-error'] }, message);
+  // gleiche Meldung nicht doppelt, höchstens zwei auf einmal; Antippen schließt sie
+  for (const old of [...region.children]) if (old.textContent === message) old.remove();
+  while (region.children.length >= MAX_TOASTS) region.firstElementChild.remove();
+  const node = el('div', { class: ['toast', type === 'error' && 'toast-error'], on: { click: () => node.remove() } }, message);
   region.appendChild(node);
   setTimeout(() => node.remove(), duration);
 }

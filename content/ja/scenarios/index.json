@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "lang": "ja",
+  "scenarios": [
+    {
+      "id": "ja-sc-01",
+      "file": "01.json",
+      "level": "A1",
+      "title": "カフェ で",
+      "title_de": "Im Café",
+      "setting_de": "Du bist in einem kleinen Café in Tokio. Die Bedienung begrüßt dich an der Tür – bestell etwas zu trinken und zu essen und bezahle zum Schluss.",
+      "steps": 7
+    },
+    {
+      "id": "ja-sc-02",
+      "file": "02.json",
+      "level": "A1",
+      "title": "道[みち] を 聞[き]く",
+      "title_de": "Nach dem Weg fragen",
+      "setting_de": "Du willst in einer japanischen Stadt ins Kunstmuseum, findest es aber nicht. Eine Frau merkt, dass du etwas suchst, und spricht dich an.",
+      "steps": 6
+    },
+    {
+      "id": "ja-sc-03",
+      "file": "03.json",
+      "level": "A1",
+      "title": "セーター を 買[か]う",
+      "title_de": "Einen Pullover kaufen",
+      "setting_de": "Es ist kalt geworden, und du brauchst einen warmen Pullover. Du gehst in ein Kleidergeschäft in Osaka, und eine Verkäuferin kommt auf dich zu.",
+      "steps": 8
+    },
+    {
+      "id": "ja-sc-04",
+      "file": "04.json",
+      "level": "A1",
+      "title": "ホテル の チェックイン",
+      "title_de": "Im Hotel einchecken",
+      "setting_de": "Du kommst abends in deinem Hotel in Kyoto an. An der Rezeption checkst du ein und fragst nach dem Frühstück.",
+      "steps": 7
+    },
+    {
+      "id": "ja-sc-05",
+      "file": "05.json",
+      "level": "A1",
+      "title": "はじめまして",
+      "title_de": "Jemanden kennenlernen",
+      "setting_de": "Du triffst Yui zum ersten Mal zu einem Sprachtandem in einem Café. Sie lernt Deutsch, du lernst Japanisch – ihr stellt euch einander vor.",
+      "steps": 7
+    },
+    {
+      "id": "ja-sc-06",
+      "file": "06.json",
+      "level": "A2",
+      "title": "びょういん で",
+      "title_de": "Beim Arzt",
+      "setting_de": "Du fühlst dich seit ein paar Tagen krank und gehst in Japan in eine kleine Arztpraxis. Die Ärztin fragt, was dir fehlt.",
+      "steps": 7
+    }
+  ]
+}

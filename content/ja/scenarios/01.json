@@ -1,0 +1,89 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-01",
+  "lang": "ja",
+  "level": "A1",
+  "title": "カフェ で",
+  "title_de": "Im Café",
+  "setting_de": "Du bist in einem kleinen Café in Tokio. Die Bedienung begrüßt dich an der Tür – bestell etwas zu trinken und zu essen und bezahle zum Schluss.",
+  "partner": "店員[てんいん]",
+  "steps": [
+    {
+      "partner": "いらっしゃいませ。 何名[なんめい]さま です か。",
+      "de": "Herzlich willkommen! Wie viele Personen sind Sie?",
+      "hint_de": "Sag, wie viele Personen ihr seid.",
+      "replies": [
+        { "text": "一人[ひとり] です。", "de": "Ich bin allein." },
+        { "text": "二人[ふたり] です。", "de": "Wir sind zu zweit." }
+      ]
+    },
+    {
+      "partner": "では、 こちら へ どうぞ。 お飲[の]みもの は 何[なに] に し ます か。",
+      "de": "Dann hier entlang, bitte. Was möchten Sie trinken?",
+      "hint_de": "Bestell ein Getränk.",
+      "replies": [
+        { "text": "コーヒー を おねがいします。", "de": "Einen Kaffee, bitte." },
+        { "text": "こうちゃ を ください。", "de": "Einen schwarzen Tee, bitte." },
+        { "text": "オレンジジュース を おねがいします。", "de": "Einen Orangensaft, bitte." }
+      ]
+    },
+    {
+      "partner": "かしこまり ました。 食[た]べもの は いかが です か。",
+      "de": "Sehr gern. Möchten Sie auch etwas essen?",
+      "hint_de": "Sag, was du essen möchtest – oder dass du nichts möchtest.",
+      "replies": [
+        { "text": "はい、 チーズケーキ を ください。", "de": "Ja, ein Stück Käsekuchen, bitte." },
+        { "text": "サンドイッチ を おねがいします。", "de": "Ein Sandwich, bitte." },
+        { "text": "いいえ、 けっこう です。", "de": "Nein, danke." }
+      ]
+    },
+    {
+      "partner": "おまたせ し ました。 どうぞ、 ごゆっくり。",
+      "de": "Danke fürs Warten. Bitte schön, lassen Sie es sich schmecken.",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "ありがとうございます。", "de": "Danke schön." },
+        { "text": "どうも ありがとうございます。", "de": "Vielen Dank." }
+      ]
+    },
+    {
+      "partner": "ほか に 何[なに] か いかが です か。",
+      "de": "Darf es sonst noch etwas sein?",
+      "hint_de": "Sag, dass du nichts mehr möchtest, und bitte um die Rechnung.",
+      "replies": [
+        { "text": "いいえ、 けっこう です。 おかいけい を おねがいします。", "de": "Nein, danke. Die Rechnung, bitte." },
+        { "text": "すみません、 おかいけい おねがいします。", "de": "Entschuldigung, ich möchte bitte bezahlen." },
+        { "text": "いいえ。 いくら です か。", "de": "Nein, danke. Was macht das?" }
+      ]
+    },
+    {
+      "partner": "はい。 ぜんぶ で 千二百円[せんにひゃくえん] です。",
+      "de": "Gern. Das macht zusammen 1.200 Yen.",
+      "hint_de": "Frag, ob du mit Karte zahlen kannst – oder sag, wie du zahlst.",
+      "replies": [
+        { "text": "カード で いい です か。", "de": "Kann ich mit Karte zahlen?" },
+        { "text": "カード で おねがいします。", "de": "Mit Karte, bitte." },
+        { "text": "げんきん で おねがいします。", "de": "Bar, bitte." }
+      ]
+    },
+    {
+      "partner": "はい、 かしこまり ました。 ありがとうございました！",
+      "de": "Ja, sehr gern. Vielen Dank!",
+      "hint_de": "Bedank dich fürs Essen und verabschiede dich.",
+      "replies": [
+        { "text": "ごちそうさまでした。", "de": "Danke, es hat sehr gut geschmeckt." },
+        { "text": "ありがとうございました。 また 来[き] ます。", "de": "Vielen Dank. Ich komme wieder." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "いらっしゃいませ", "de": "Herzlich willkommen! (im Geschäft, im Lokal)" },
+    { "text": "何名[なんめい]さま です か", "de": "Wie viele Personen sind Sie? (sehr höflich)" },
+    { "text": "〜 を ください", "de": "… bitte; ich hätte gern …" },
+    { "text": "〜 を おねがいします", "de": "… bitte (höflich bestellen)" },
+    { "text": "いいえ、 けっこう です", "de": "Nein, danke." },
+    { "text": "おかいけい", "de": "die Rechnung; das Bezahlen" },
+    { "text": "げんきん", "de": "das Bargeld" },
+    { "text": "ごちそうさまでした", "de": "Danke für das Essen (nach dem Essen oder beim Gehen)" }
+  ]
+}

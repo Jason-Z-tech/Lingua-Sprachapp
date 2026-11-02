@@ -1,0 +1,79 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-02",
+  "lang": "ja",
+  "level": "A1",
+  "title": "道[みち] を 聞[き]く",
+  "title_de": "Nach dem Weg fragen",
+  "setting_de": "Du willst in einer japanischen Stadt ins Kunstmuseum, findest es aber nicht. Eine Frau merkt, dass du etwas suchst, und spricht dich an.",
+  "partner": "女[おんな] の 人[ひと]",
+  "steps": [
+    {
+      "partner": "あの、 だいじょうぶ です か。 何[なに] か おさがし です か。",
+      "de": "Entschuldigung, alles in Ordnung? Suchen Sie etwas?",
+      "hint_de": "Frag nach dem Kunstmuseum.",
+      "replies": [
+        { "text": "はい。 びじゅつかん は どこ です か。", "de": "Ja. Wo ist das Kunstmuseum?" },
+        { "text": "すみません、 びじゅつかん を さがして い ます。", "de": "Entschuldigung, ich suche das Kunstmuseum." },
+        { "text": "びじゅつかん に 行[い]き たい です。", "de": "Ich möchte zum Kunstmuseum." }
+      ]
+    },
+    {
+      "partner": "びじゅつかん です か。 ここ から ちょっと とおい です よ。 電車[でんしゃ] で 一駅[ひとえき] です。",
+      "de": "Zum Kunstmuseum? Das ist ein Stück weit von hier. Mit dem Zug ist es eine Station.",
+      "hint_de": "Frag, wo der Bahnhof ist.",
+      "replies": [
+        { "text": "そう です か。 駅[えき] は どこ です か。", "de": "Ach so. Wo ist der Bahnhof?" },
+        { "text": "駅[えき] は この ちかく です か。", "de": "Ist der Bahnhof hier in der Nähe?" },
+        { "text": "すみません、 駅[えき] まで どう 行[い]き ます か。", "de": "Entschuldigung, wie komme ich zum Bahnhof?" }
+      ]
+    },
+    {
+      "partner": "駅[えき] は この 道[みち] を まっすぐ 行[い]って、 二[ふた]つ目[め] の しんごう を 右[みぎ] です。",
+      "de": "Zum Bahnhof gehen Sie diese Straße geradeaus und an der zweiten Ampel rechts.",
+      "hint_de": "Wiederhol zur Sicherheit, was du verstanden hast – oder bitte darum, es noch einmal zu hören.",
+      "replies": [
+        { "text": "まっすぐ 行[い]って、 二[ふた]つ目[め] を 右[みぎ] です ね。", "de": "Geradeaus und an der zweiten rechts, richtig?" },
+        { "text": "すみません、 もう 一度[いちど] おねがいします。", "de": "Entschuldigung, noch einmal, bitte." },
+        { "text": "しんごう を 右[みぎ] です か。", "de": "An der Ampel rechts?" }
+      ]
+    },
+    {
+      "partner": "はい。 まっすぐ 行[い]って、 二[ふた]つ目[め] の しんごう を 右[みぎ] です。",
+      "de": "Ja: geradeaus und an der zweiten Ampel rechts.",
+      "hint_de": "Frag, wie lange man zu Fuß braucht.",
+      "replies": [
+        { "text": "あるいて 何分[なんぷん] ぐらい です か。", "de": "Wie viele Minuten sind es ungefähr zu Fuß?" },
+        { "text": "ここ から とおい です か。", "de": "Ist es weit von hier?" }
+      ]
+    },
+    {
+      "partner": "あるいて 五分[ごふん] ぐらい です よ。",
+      "de": "Zu Fuß sind es ungefähr fünf Minuten.",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "わかり ました。 ありがとうございます。", "de": "Verstanden. Vielen Dank." },
+        { "text": "どうも ありがとうございます。 たすかり ました。", "de": "Vielen Dank, Sie haben mir sehr geholfen." }
+      ]
+    },
+    {
+      "partner": "いいえ、 どういたしまして。 お気[き] を つけて。",
+      "de": "Gern geschehen. Kommen Sie gut an!",
+      "hint_de": "Verabschiede dich höflich.",
+      "replies": [
+        { "text": "はい。 しつれいします。", "de": "Ja. Auf Wiedersehen." },
+        { "text": "ありがとうございました。 さようなら。", "de": "Vielen Dank. Auf Wiedersehen." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "〜 は どこ です か", "de": "Wo ist …?" },
+    { "text": "びじゅつかん", "de": "das Kunstmuseum" },
+    { "text": "まっすぐ", "de": "geradeaus" },
+    { "text": "右[みぎ] に まがり ます", "de": "rechts abbiegen" },
+    { "text": "二[ふた]つ目[め] の しんごう", "de": "die zweite Ampel" },
+    { "text": "あるいて 五分[ごふん]", "de": "fünf Minuten zu Fuß" },
+    { "text": "もう 一度[いちど] おねがいします", "de": "Noch einmal, bitte." },
+    { "text": "たすかり ました", "de": "Sie haben mir sehr geholfen. (wörtlich: Ich bin gerettet.)" }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-05",
+  "lang": "ja",
+  "level": "A1",
+  "title": "はじめまして",
+  "title_de": "Jemanden kennenlernen",
+  "setting_de": "Du triffst Yui zum ersten Mal zu einem Sprachtandem in einem Café. Sie lernt Deutsch, du lernst Japanisch – ihr stellt euch einander vor.",
+  "partner": "ゆい",
+  "steps": [
+    {
+      "partner": "はじめまして。 ゆい です。 よろしく おねがいします。",
+      "de": "Hallo, freut mich! Ich bin Yui. Schön, dich kennenzulernen.",
+      "hint_de": "Stell dich mit deinem Namen vor.",
+      "replies": [
+        { "text": "はじめまして。 アンナ です。 よろしく おねがいします。", "de": "Freut mich! Ich bin Anna. Schön, dich kennenzulernen." },
+        { "text": "はじめまして。 ルーカス です。 こちら こそ、 よろしく おねがいします。", "de": "Freut mich! Ich bin Lukas. Ganz meinerseits." },
+        { "text": "アンナ です。 どうぞ よろしく。", "de": "Ich bin Anna. Sehr erfreut." }
+      ]
+    },
+    {
+      "partner": "どうぞ、 すわって ください。 どこ から 来[き] ました か。",
+      "de": "Setz dich doch! Woher kommst du?",
+      "hint_de": "Sag, woher du kommst.",
+      "replies": [
+        { "text": "ドイツ から 来[き] ました。", "de": "Ich komme aus Deutschland." },
+        { "text": "オーストリア から 来[き] ました。", "de": "Ich komme aus Österreich." },
+        { "text": "スイス の チューリッヒ 出身[しゅっしん] です。", "de": "Ich bin aus Zürich in der Schweiz." }
+      ]
+    },
+    {
+      "partner": "そう です か。 私[わたし] は 大学[だいがく] で ドイツ語[ご] を べんきょう して い ます。 学生[がくせい] です か。",
+      "de": "Ach so! Ich lerne an der Uni Deutsch. Studierst du?",
+      "hint_de": "Sag, ob du studierst oder was du beruflich machst.",
+      "replies": [
+        { "text": "はい、 私[わたし] も 大学生[だいがくせい] です。", "de": "Ja, ich studiere auch." },
+        { "text": "いいえ、 会社員[かいしゃいん] です。", "de": "Nein, ich arbeite in einer Firma." },
+        { "text": "いいえ、 学生[がくせい] じゃ ありません。 先生[せんせい] です。", "de": "Nein, ich bin kein Student. Ich bin Lehrer." }
+      ]
+    },
+    {
+      "partner": "そう です か。 日本語[にほんご] が 上手[じょうず] です ね！",
+      "de": "Ach so! Du sprichst aber gut Japanisch!",
+      "hint_de": "Reagier bescheiden auf das Kompliment – so ist es in Japan üblich.",
+      "replies": [
+        { "text": "いいえ、 まだ まだ です。", "de": "Ach was, ich lerne noch." },
+        { "text": "ありがとうございます。 でも、 まだ 少[すこ]し だけ です。", "de": "Danke! Aber ich kann erst ein bisschen." }
+      ]
+    },
+    {
+      "partner": "ほんとう です よ。 ところで、 しゅみ は 何[なん] です か。",
+      "de": "Doch, wirklich! Sag mal, was sind deine Hobbys?",
+      "hint_de": "Erzähl von deinem Hobby.",
+      "replies": [
+        { "text": "しゅみ は りょうり です。", "de": "Mein Hobby ist Kochen." },
+        { "text": "サッカー が すき です。", "de": "Ich mag Fußball." },
+        { "text": "アニメ と マンガ が 大[だい]すき です。", "de": "Ich liebe Anime und Manga." }
+      ]
+    },
+    {
+      "partner": "へえ、 いい です ね！ 来週[らいしゅう] も また 会[あ]い ません か。",
+      "de": "Oh, cool! Wollen wir uns nächste Woche wieder treffen?",
+      "hint_de": "Nimm die Einladung an.",
+      "replies": [
+        { "text": "はい、 ぜひ！", "de": "Ja, sehr gern!" },
+        { "text": "いい です ね。 また 会[あ]い ましょう。", "de": "Gute Idee. Lass uns wieder treffen." },
+        { "text": "はい、 来週[らいしゅう] も おねがいします。", "de": "Ja, nächste Woche gern wieder." }
+      ]
+    },
+    {
+      "partner": "じゃあ、 また 来週[らいしゅう]。 今日[きょう] は ありがとうございました。",
+      "de": "Dann bis nächste Woche! Danke für heute.",
+      "hint_de": "Bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "こちら こそ、 ありがとうございました。", "de": "Ich danke dir auch!" },
+        { "text": "じゃあ また。 さようなら。", "de": "Bis dann. Tschüss!" },
+        { "text": "また 来週[らいしゅう]！", "de": "Bis nächste Woche!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "はじめまして", "de": "Freut mich! (beim ersten Treffen)" },
+    { "text": "よろしく おねがいします", "de": "Schön, dich kennenzulernen. (wörtlich: Ich bitte um dein Wohlwollen.)" },
+    { "text": "こちら こそ", "de": "ganz meinerseits; gleichfalls" },
+    { "text": "〜 から 来[き] ました", "de": "ich komme aus …" },
+    { "text": "しゅみ", "de": "das Hobby" },
+    { "text": "上手[じょうず] です ね", "de": "Du kannst das aber gut!" },
+    { "text": "まだ まだ です", "de": "Ach was, ich lerne noch. (bescheidene Antwort auf ein Lob)" },
+    { "text": "また 会[あ]い ましょう", "de": "Lass uns wieder treffen." }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "formatVersion": 1,
+  "id": "ja-sc-04",
+  "lang": "ja",
+  "level": "A1",
+  "title": "ホテル の チェックイン",
+  "title_de": "Im Hotel einchecken",
+  "setting_de": "Du kommst abends in deinem Hotel in Kyoto an. An der Rezeption checkst du ein und fragst nach dem Frühstück.",
+  "partner": "フロント",
+  "steps": [
+    {
+      "partner": "こんばんは。 いらっしゃいませ。 チェックイン です か。",
+      "de": "Guten Abend und herzlich willkommen! Möchten Sie einchecken?",
+      "hint_de": "Sag, dass du einchecken möchtest und reserviert hast.",
+      "replies": [
+        { "text": "はい、 チェックイン を おねがいします。", "de": "Ja, ich möchte bitte einchecken." },
+        { "text": "はい。 よやく が あり ます。", "de": "Ja. Ich habe eine Reservierung." },
+        { "text": "こんばんは。 よやく して い ます。", "de": "Guten Abend. Ich habe reserviert." }
+      ]
+    },
+    {
+      "partner": "ありがとうございます。 お名前[なまえ] を おねがいします。",
+      "de": "Danke schön. Ihr Name, bitte?",
+      "hint_de": "Sag deinen Namen – hier: Schmidt.",
+      "replies": [
+        { "text": "シュミット です。", "de": "Schmidt." },
+        { "text": "シュミット と もうし ます。", "de": "Mein Name ist Schmidt." },
+        { "text": "ミア・シュミット です。", "de": "Ich bin Mia Schmidt." }
+      ]
+    },
+    {
+      "partner": "シュミット さま です ね。 今日[きょう] から 三[さん]ぱく です ね。",
+      "de": "Schmidt, sehr gut. Drei Nächte ab heute, richtig?",
+      "hint_de": "Bestätige die Reservierung.",
+      "replies": [
+        { "text": "はい、 そう です。", "de": "Ja, genau." },
+        { "text": "はい、 三[さん]ぱく です。", "de": "Ja, drei Nächte." },
+        { "text": "はい、 おねがいします。", "de": "Ja, bitte." }
+      ]
+    },
+    {
+      "partner": "では、 パスポート を おねがいします。",
+      "de": "Dann bräuchte ich bitte Ihren Reisepass.",
+      "hint_de": "Gib deinen Pass.",
+      "replies": [
+        { "text": "はい、 どうぞ。", "de": "Ja, bitte schön." },
+        { "text": "はい、 これ です。", "de": "Ja, hier ist er." }
+      ]
+    },
+    {
+      "partner": "ありがとうございます。 おへや は 七[なな]かい です。 こちら が かぎ です。",
+      "de": "Vielen Dank. Ihr Zimmer ist im siebten Stock. Hier ist der Schlüssel.",
+      "hint_de": "Frag nach dem Frühstück.",
+      "replies": [
+        { "text": "あさごはん は 何時[なんじ] から です か。", "de": "Ab wann gibt es Frühstück?" },
+        { "text": "あさごはん は 何時[なんじ] まで です か。", "de": "Bis wann gibt es Frühstück?" },
+        { "text": "あさごはん は どこ で 食[た]べ ます か。", "de": "Wo isst man hier Frühstück?" }
+      ]
+    },
+    {
+      "partner": "あさごはん は 一[いっ]かい の レストラン です。 六時[ろくじ] 半[はん] から 九時[くじ] まで です。",
+      "de": "Frühstück gibt es im Restaurant im Erdgeschoss, von halb sieben bis neun Uhr.",
+      "hint_de": "Frag, wo der Aufzug ist.",
+      "replies": [
+        { "text": "エレベーター は どこ です か。", "de": "Wo ist der Aufzug?" },
+        { "text": "すみません、 エレベーター は どちら です か。", "de": "Entschuldigung, wo ist bitte der Aufzug?" }
+      ]
+    },
+    {
+      "partner": "あちら です。 どうぞ ごゆっくり。",
+      "de": "Dort drüben. Einen angenehmen Aufenthalt!",
+      "hint_de": "Bedank dich und wünsch eine gute Nacht.",
+      "replies": [
+        { "text": "ありがとうございます。 おやすみなさい。", "de": "Vielen Dank. Gute Nacht." },
+        { "text": "わかり ました。 ありがとうございます。", "de": "Alles klar. Vielen Dank." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "よやく", "de": "die Reservierung" },
+    { "text": "〜 と もうし ます", "de": "ich heiße … (sehr höflich)" },
+    { "text": "〜 さま", "de": "Herr/Frau … (sehr höflich, hinter dem Namen)" },
+    { "text": "三[さん]ぱく", "de": "drei Übernachtungen" },
+    { "text": "おへや", "de": "das Zimmer (höflich)" },
+    { "text": "かぎ", "de": "der Schlüssel" },
+    { "text": "あさごはん", "de": "das Frühstück" },
+    { "text": "〜 から 〜 まで", "de": "von … bis …" }
+  ]
+}

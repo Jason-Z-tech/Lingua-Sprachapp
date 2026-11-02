@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { bestMatch, compareSpeech, feedbackFor, speechWords } from '../js/speech/compare.js';
+import { bestMatch, compareSpeech, feedbackFor, japaneseNumberReading, japaneseToKana, speechWords } from '../js/speech/compare.js';
 
 test('Genau getroffen = 1', () => {
   const r = compareSpeech('un café con leche por favor', 'Un café con leche, por favor.', 'es');
@@ -45,6 +45,17 @@ test('Japanisch: Kanji oder Kana, Zeichen für Zeichen', () => {
   assert.equal(compareSpeech('駅はどこですか', withKanji, 'ja').score, 1);
   assert.equal(compareSpeech('えきはどこですか', withKanji, 'ja').score, 1);
   assert.equal(compareSpeech('3つください', '三[みっ]つ ください。', 'ja').score, 1, 'Ziffern als Kanji');
+});
+
+test('Japanisch: Kanji und Ziffern der Erkennung werden in Kana verglichen', () => {
+  const readings = { 願い: 'ねがい', 予約: 'よやく', 度: 'ど' };
+  assert.equal(japaneseNumberReading(38), 'さんじゅうはち');
+  assert.equal(japaneseNumberReading(3800), 'さんぜんはっぴゃく');
+  assert.equal(japaneseNumberReading(600), 'ろっぴゃく');
+  assert.equal(japaneseToKana('お願いします', readings), 'おねがいします');
+  assert.equal(compareSpeech('お願いします', 'おねがいします。', 'ja', { readings }).score, 1);
+  assert.equal(compareSpeech('38度です', 'さんじゅうはち ど です。', 'ja', { readings }).score, 1);
+  assert.equal(compareSpeech('予約しました', 'よやく し ました。', 'ja', { readings }).score, 1);
 });
 
 test('Bester Treffer über Alternativen und Antwortvorschläge', () => {

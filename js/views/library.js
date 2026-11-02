@@ -7,6 +7,9 @@ import { loadCourseContext, sessionContext } from '../course/context.js';
 import { fitLabel, rankStories, storyCoverage } from '../read/reading.js';
 import { INTERESTS } from '../store/schema.js';
 import { pageHead } from './common.js';
+import { icon } from '../ui/icons.js';
+import { confirmDialog } from '../ui/feedback.js';
+import { update } from '../store/state.js';
 
 const TYPE_LABEL = { story: 'Geschichte', dialog: 'Dialog' };
 
@@ -88,6 +91,55 @@ export async function libraryView(main, { navigate }) {
     );
   }
 
+  // eigene Texte (KI oder Kopier-Modus)
+  const own = Object.values(cc.profile.lessons || {}).sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
+  const ownSection = el(
+    'section',
+    { class: 'card stack' },
+    el(
+      'div',
+      { class: 'row-between' },
+      el('h2', null, 'Eigene Texte'),
+      el('a', { class: 'btn btn-primary', href: '#/lesen/neu' }, icon('sparkle'), 'Neuen Text erstellen'),
+    ),
+    own.length
+      ? el(
+          'ul',
+          { class: 'list' },
+          own.map((s) =>
+            el(
+              'li',
+              null,
+              el(
+                'a',
+                { href: `#/lesen/${s.id}`, class: 'own-link' },
+                el('span', { class: 'list-title' }, targetText(s.title, lang, { furigana: ctx.furigana, knownKanji: ctx.knownKanji })),
+                el('span', { class: 'small muted' }, ` ${s.level} · ${s.title_de || ''} · ${s.source === 'kopie' ? 'Kopier-Modus' : 'KI'}`),
+              ),
+              el(
+                'button',
+                {
+                  type: 'button',
+                  class: 'btn btn-quiet btn-small',
+                  on: {
+                    click: async (e) => {
+                      const ok = await confirmDialog({ title: 'Text löschen?', message: 'Gelernte Wörter aus diesem Text bleiben in deinem Lernstapel.', confirmLabel: 'Löschen', danger: true });
+                      if (!ok) return;
+                      update((st) => {
+                        delete st.langs[lang].lessons[s.id];
+                      }, 'lessons');
+                      e.target.closest('li').remove();
+                    },
+                  },
+                },
+                'Löschen',
+              ),
+            ),
+          ),
+        )
+      : el('p', { class: 'small muted' }, 'Lass dir einen Text zu einem Thema deiner Wahl schreiben – mit deinem API-Schlüssel oder über den Kopier-Modus in ChatGPT/Claude.'),
+  );
+
   renderFilters();
   renderList();
   mount(
@@ -107,6 +159,7 @@ export async function libraryView(main, { navigate }) {
       ),
       filters,
       list,
+      ownSection,
     ),
   );
 }
