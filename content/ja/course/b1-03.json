@@ -1,0 +1,159 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-03",
+  "lang": "ja",
+  "level": "B1",
+  "number": 3,
+  "title": "自然[しぜん] を 守[まも]ろう",
+  "title_de": "Umwelt",
+  "topic": "Natur, Klima und Umweltschutz",
+  "goals": [
+    "Du kannst mit 〜なければ なりません sagen, was man tun muss, und mit 〜なくても いいです, was nicht nötig ist.",
+    "Du kannst mit 〜ために einen Zweck nennen: しぜんを まもる ために …",
+    "Du kannst mit 〜ように して います erzählen, worauf du im Alltag achtest.",
+    "Du kannst über Natur, Klima, Müll und Umweltschutz sprechen."
+  ],
+  "kanji": ["地", "世", "界", "空", "自", "然", "森"],
+  "vocab": [
+    { "id": "chikyuu", "word": "地[ち]球[きゅう]", "de": "die Erde (Planet)", "pos": "noun", "example": { "text": "地[ち]球[きゅう] は だんだん 暑[あつ]く なって い ます。", "de": "Die Erde wird allmählich wärmer." } },
+    { "id": "shizen", "word": "自然[しぜん]", "de": "die Natur", "pos": "noun", "example": { "text": "長[なが]野[の] に は 自然[しぜん] が たくさん あり ます。", "de": "In Nagano gibt es viel Natur." }, "note": "しぜんの 中で = in der Natur. しぜんに = von selbst, natürlich." },
+    { "id": "mori", "word": "森[もり]", "de": "der Wald", "pos": "noun", "example": { "text": "週[しゅう]末[まつ] は 森[もり] の 中[なか] を 歩[ある]き ました。", "de": "Am Wochenende bin ich durch den Wald gewandert." } },
+    { "id": "kuuki", "word": "空気[くうき]", "de": "die Luft", "pos": "noun", "example": { "text": "山[やま] の 空気[くうき] は おいしい です ね。", "de": "Die Bergluft ist herrlich frisch." }, "note": "くうきが おいしい (wörtlich: „die Luft ist lecker“) = die Luft ist frisch und rein." },
+    { "id": "jibun", "word": "自分[じぶん]", "de": "selbst; sich; eigene(r)", "pos": "noun", "example": { "text": "買[か]い物[もの] に は 自分[じぶん] の ふくろ を 持[も]って 行[い]き ます。", "de": "Zum Einkaufen nehme ich meine eigene Tasche mit." }, "note": "じぶんで = selbst, ohne Hilfe: じぶんで つくりました." },
+    { "id": "sekaijuu", "word": "世界[せかい]中[じゅう]", "de": "auf der ganzen Welt", "pos": "noun", "example": { "text": "この 問題[もんだい] は 世界[せかい]中[じゅう] で 話題[わだい] に なって い ます。", "de": "Über dieses Problem spricht man auf der ganzen Welt." }, "note": "Ebenso: いちにちじゅう (den ganzen Tag), にほんじゅう (in ganz Japan)." },
+    { "id": "kankyou", "word": "環境[かんきょう]", "de": "die Umwelt", "pos": "noun", "example": { "text": "車[くるま] より 電車[でんしゃ] の ほう が 環境[かんきょう] に いい です。", "de": "Der Zug ist besser für die Umwelt als das Auto." } },
+    { "id": "gomi", "word": "ごみ", "de": "der Müll", "pos": "noun", "example": { "text": "ごみ は 朝[あさ] 出[だ]して ください。", "de": "Bring den Müll bitte morgens raus." } },
+    { "id": "moerugomi", "word": "燃[も]える ごみ", "de": "der brennbare Müll", "pos": "phrase", "example": { "text": "燃[も]える ごみ は 火[か]曜日[ようび] と 金[きん]曜日[ようび] です。", "de": "Brennbarer Müll wird dienstags und freitags abgeholt." }, "note": "Das Gegenteil: もえない ごみ (nicht brennbarer Müll). In Japan trennt man den Müll sehr genau." },
+    { "id": "wakemasu", "word": "分[わ]け ます", "de": "trennen; aufteilen", "pos": "verb", "forms": "Wörterbuchform わける · て-Form わけて · ない-Form わけない", "example": { "text": "この 町[まち] で は ごみ を 五[いつ]つ に 分[わ]け ます。", "de": "In dieser Stadt trennt man den Müll in fünf Sorten." } },
+    { "id": "sutemasu", "word": "捨[す]て ます", "de": "wegwerfen", "pos": "verb", "forms": "Wörterbuchform すてる · て-Form すてて · ない-Form すてない", "example": { "text": "ここ に ごみ を 捨[す]て ないで ください。", "de": "Wirf hier bitte keinen Müll weg.", "focus": "捨[す]て ないで" } },
+    { "id": "dashimasu", "word": "出[だ]し ます", "de": "herausnehmen; rausbringen (Müll); abschicken", "pos": "verb", "forms": "Wörterbuchform だす · て-Form だして · ない-Form ださない", "example": { "text": "ちょっと ごみ を 出[だ]して き ます。", "de": "Ich bringe kurz den Müll raus.", "focus": "出[だ]して" }, "note": "でます (A1) = selbst hinausgehen; だします = etwas herausbringen." },
+    { "id": "risaikuru", "word": "リサイクル", "de": "das Recycling", "pos": "noun", "example": { "text": "ペットボトル は リサイクル でき ます。", "de": "PET-Flaschen kann man recyceln." } },
+    { "id": "mamorimasu", "word": "守[まも]り ます", "de": "schützen; einhalten", "pos": "verb", "forms": "Wörterbuchform まもる · て-Form まもって · Volitional まもろう", "example": { "text": "みんな で 森[もり] を 守[まも]り ましょう。", "de": "Lasst uns gemeinsam den Wald schützen.", "focus": "守[まも]り ましょう" }, "note": "Auch: Regeln einhalten – ルールを まもります; ein Versprechen halten – やくそくを まもります." },
+    { "id": "agarimasu", "word": "上[あ]がり ます", "de": "steigen; hochgehen", "pos": "verb", "forms": "Wörterbuchform あがる · て-Form あがって", "example": { "text": "夏[なつ] の 気[き]温[おん] が 毎年[まいとし] 上[あ]がって い ます。", "de": "Die Sommertemperaturen steigen jedes Jahr.", "focus": "上[あ]がって" } },
+    { "id": "sagarimasu", "word": "下[さ]がり ます", "de": "sinken; fallen", "pos": "verb", "forms": "Wörterbuchform さがる · て-Form さがって", "example": { "text": "夜[よる] は 気[き]温[おん] が 下[さ]がり ます。", "de": "Nachts sinkt die Temperatur." } },
+    { "id": "fuemasu", "word": "増[ふ]え ます", "de": "zunehmen; mehr werden", "pos": "verb", "forms": "Wörterbuchform ふえる · て-Form ふえて", "example": { "text": "町[まち] の ごみ が 増[ふ]えて い ます。", "de": "Der Müll in der Stadt nimmt zu.", "focus": "増[ふ]えて" } },
+    { "id": "herashimasu", "word": "減[へ]らし ます", "de": "verringern; reduzieren", "pos": "verb", "forms": "Wörterbuchform へらす · て-Form へらして · ない-Form へらさない", "example": { "text": "プラスチック の ごみ を 減[へ]らし たい です。", "de": "Ich möchte den Plastikmüll reduzieren.", "focus": "減[へ]らし" }, "note": "Von selbst weniger werden: へります." },
+    { "id": "enerugii", "word": "エネルギー", "de": "die Energie", "pos": "noun", "example": { "text": "太陽[たいよう] の エネルギー を 使[つか]い ます。", "de": "Man nutzt die Energie der Sonne." } },
+    { "id": "taiyou", "word": "太陽[たいよう]", "de": "die Sonne", "pos": "noun", "example": { "text": "今日[きょう] は 太陽[たいよう] が 強[つよ]い です。", "de": "Heute brennt die Sonne stark." } },
+    { "id": "purasuchikku", "word": "プラスチック", "de": "das Plastik", "pos": "noun", "example": { "text": "プラスチック の ストロー は 使[つか]い ません。", "de": "Ich benutze keine Plastikstrohhalme." } },
+    { "id": "fukuro", "word": "ふくろ", "de": "die Tüte; der Beutel", "pos": "noun", "example": { "text": "すみません、 ふくろ は いり ません。", "de": "Entschuldigung, ich brauche keine Tüte." }, "note": "Kanji: 袋. Im Konbini hörst du oft: ふくろ、 いりますか? (Brauchen Sie eine Tüte?)" },
+    { "id": "ekobaggu", "word": "エコバッグ", "de": "die Einkaufstasche (zum Mitbringen)", "pos": "noun", "example": { "text": "買[か]い物[もの] の とき は エコバッグ を 持[も]って 行[い]き ます。", "de": "Beim Einkaufen nehme ich eine Einkaufstasche mit." } },
+    { "id": "pettobotoru", "word": "ペットボトル", "de": "die PET-Flasche", "pos": "noun", "example": { "text": "ペットボトル の 水[みず] は あまり 買[か]い ません。", "de": "Wasser in PET-Flaschen kaufe ich kaum." } },
+    { "id": "yogoremasu", "word": "汚[よご]れ ます", "de": "schmutzig werden; verschmutzt werden", "pos": "verb", "forms": "Wörterbuchform よごれる · て-Form よごれて", "example": { "text": "この 川[かわ] の 水[みず] は 汚[よご]れて い ます。", "de": "Das Wasser dieses Flusses ist verschmutzt.", "focus": "汚[よご]れて" } },
+    { "id": "doubutsu", "word": "動[どう]物[ぶつ]", "de": "das Tier", "pos": "noun", "example": { "text": "森[もり] に は いろいろ な 動[どう]物[ぶつ] が い ます。", "de": "Im Wald leben viele verschiedene Tiere." } },
+    { "id": "ki", "word": "木[き]", "de": "der Baum; das Holz", "pos": "noun", "example": { "text": "この 公園[こうえん] に は 大[おお]きい 木[き] が たくさん あり ます。", "de": "In diesem Park gibt es viele große Bäume." } },
+    { "id": "tori", "word": "鳥[とり]", "de": "der Vogel", "pos": "noun", "example": { "text": "朝[あさ]、 鳥[とり] の 声[こえ] が 聞[き]こえ ます。", "de": "Morgens hört man die Vögel singen." }, "note": "とりにく (A2) = Hähnchenfleisch – wörtlich „Vogelfleisch“." },
+    { "id": "mushi", "word": "虫[むし]", "de": "das Insekt; der Käfer", "pos": "noun", "example": { "text": "夏[なつ] の 森[もり] は 虫[むし] が 多[おお]い です。", "de": "Im Sommer gibt es im Wald viele Insekten." } },
+    { "id": "jishin", "word": "地[じ]震[しん]", "de": "das Erdbeben", "pos": "noun", "example": { "text": "日本[にほん] は 地[じ]震[しん] が 多[おお]い です。", "de": "In Japan gibt es viele Erdbeben." }, "note": "Bei じしん liest man 地 als じ, bei ちきゅう als ち." },
+    { "id": "hitsuyou", "word": "必要[ひつよう]", "de": "nötig; notwendig", "pos": "adj", "example": { "text": "水[みず] は 毎日[まいにち] の 生[せい]活[かつ] に 必要[ひつよう] です。", "de": "Wasser ist für das tägliche Leben notwendig." }, "note": "な-Adjektiv: ひつような もの. 〜が ひつようです = man braucht …" },
+    { "id": "gen-in", "word": "原因[げんいん]", "de": "die Ursache", "pos": "noun", "example": { "text": "火事[かじ] の 原因[げんいん] は たばこ でした。", "de": "Die Ursache des Brandes war eine Zigarette." } },
+    { "id": "dekirudake", "word": "できる だけ", "de": "so … wie möglich; möglichst", "pos": "phrase", "example": { "text": "できる だけ 電車[でんしゃ] で 行[い]き ます。", "de": "Ich fahre möglichst mit dem Zug." } },
+    { "id": "narubeku", "word": "なるべく", "de": "möglichst", "pos": "adv", "example": { "text": "なるべく 歩[ある]く ように して い ます。", "de": "Ich versuche, möglichst viel zu Fuß zu gehen." }, "note": "Bedeutet fast dasselbe wie できるだけ, klingt nur etwas weniger stark." },
+    { "id": "kanarazu", "word": "必[かなら]ず", "de": "unbedingt; auf jeden Fall; immer", "pos": "adv", "example": { "text": "出[で]かける 前[まえ] に、 必[かなら]ず 電気[でんき] を 消[け]し ます。", "de": "Bevor ich rausgehe, mache ich immer das Licht aus." } },
+    { "id": "eakon", "word": "エアコン", "de": "die Klimaanlage", "pos": "noun", "example": { "text": "暑[あつ]い ので、 エアコン を つけ ました。", "de": "Weil es heiß war, habe ich die Klimaanlage eingeschaltet." }, "note": "Japanische エアコン können meist auch heizen." },
+    { "id": "setsuyaku", "word": "節約[せつやく] し ます", "de": "sparen (Energie, Wasser, Geld)", "pos": "verb", "forms": "Wörterbuchform せつやくする · て-Form せつやくして", "example": { "text": "水[みず] を 節約[せつやく] し ましょう。", "de": "Lasst uns Wasser sparen.", "focus": "節約[せつやく] し ましょう" }, "note": "ためます (A2) = Geld ansparen; せつやくします = sparsam verbrauchen." },
+    { "id": "abunai", "word": "危[あぶ]ない", "de": "gefährlich", "pos": "adj", "example": { "text": "この 川[かわ] は 深[ふか]くて 危[あぶ]ない です。", "de": "Dieser Fluss ist tief und gefährlich." }, "note": "Als Warnruf: あぶない! (Vorsicht!)" }
+  ],
+  "grammar": [
+    {
+      "id": "nakereba-narimasen",
+      "title": "Müssen und nicht müssen: 〜なければ なりません / 〜なくても いいです",
+      "blocks": [
+        { "type": "p", "text": "„Müssen“ heißt auf Japanisch wörtlich: „Wenn man nicht …, geht es nicht.“ Du nimmst die ない-Form, lässt い weg und hängst ければ なりません an: たべない → たべなければ なりません (muss essen)." },
+        { "type": "table", "head": ["ます-Form", "ない-Form", "müssen", "Deutsch"], "rows": [["分[わ]け ます", "分[わ]けない", "分[わ]けなければ なりません", "muss trennen"], ["出[だ]し ます", "出[だ]さない", "出[だ]さなければ なりません", "muss rausbringen"], ["行[い]き ます", "行[い]かない", "行[い]かなければ なりません", "muss gehen"], ["待[ま]ち ます", "待[ま]たない", "待[ま]たなければ なりません", "muss warten"], ["買[か]い ます", "買[か]わない", "買[か]わなければ なりません", "muss kaufen"], ["し ます", "しない", "しなければ なりません", "muss machen"], ["来[き] ます", "来[こ]ない", "来[こ]なければ なりません", "muss kommen"]] },
+        { "type": "tip", "text": "Statt なりません hörst du auch いけません – die Bedeutung ist gleich. Die einfache Form ist なければ ならない. Unter Freunden kürzt man stark: いかなきゃ oder いかなくちゃ (= ich muss los)." },
+        { "type": "p", "text": "Das Gegenteil – „nicht müssen, nicht nötig sein“ – bildest du mit 〜なくても いいです: ない wird zu なくても, dann folgt いいです. Wörtlich: „Auch wenn man nicht …, ist es gut.“" },
+        { "type": "table", "head": ["ない-Form", "nicht müssen", "Deutsch"], "rows": [["分[わ]けない", "分[わ]けなくても いい です", "muss nicht trennen"], ["来[こ]ない", "来[こ]なくても いい です", "muss nicht kommen"], ["しない", "しなくても いい です", "muss nicht machen"], ["持[も]って 来[こ]ない", "持[も]って 来[こ]なくても いい です", "muss nicht mitbringen"]] },
+        { "type": "tip", "text": "Vorsicht, typischer Fehler für Deutschsprachige: „muss nicht“ ist nicht „darf nicht“! „Du musst nicht kommen“ = こなくても いいです. „Komm bitte nicht“ = こないで ください. „Man darf hier nicht rauchen“ = ここで たばこを すっては いけません." },
+        { "type": "p", "text": "Auf die Frage 〜なければ なりませんか antwortest du mit はい、〜なければ なりません oder いいえ、〜なくても いいです." },
+        { "type": "examples", "items": [{ "text": "日本[にほん] で は ごみ を 分[わ]けなければ なりません。", "de": "In Japan muss man den Müll trennen." }, { "text": "燃[も]える ごみ は 火[か]曜日[ようび] に 出[だ]さなければ なりません。", "de": "Brennbaren Müll muss man am Dienstag rausbringen." }, { "text": "あした は 早[はや]く 起[お]きなければ なりません。", "de": "Morgen muss ich früh aufstehen." }, { "text": "「ふくろ を 持[も]って 来[こ]なければ なりません か。」 「いいえ、 持[も]って 来[こ]なくても いい です よ。」", "de": "„Muss ich eine Tüte mitbringen?“ – „Nein, das musst du nicht.“" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "日本[にほん] で は ごみ を 分[わ]け___ なりません。", "answers": ["なければ"], "de": "In Japan muss man den Müll trennen." },
+        { "type": "cloze", "text": "あした は 早[はや]く ___ なりません。", "answers": ["起[お]きなければ"], "de": "Morgen muss ich früh aufstehen.", "hint": "おきます → müssen" },
+        { "type": "cloze", "text": "日[にち]曜日[ようび] は 会社[かいしゃ] に 来[こ]なくても ___。", "answers": ["いい です"], "de": "Am Sonntag musst du nicht in die Firma kommen." },
+        { "type": "cloze", "text": "今[こん]晩[ばん] レポート を ___ なりません。", "answers": ["書[か]かなければ"], "de": "Heute Abend muss ich eine Hausarbeit schreiben.", "hint": "かきます → müssen" },
+        { "type": "translate", "de": "Du musst keine Tüte mitbringen.", "answers": ["ふくろ を 持[も]って 来[こ]なくても いい です よ。", "ふくろ を 持[も]って 来[こ]なくても いい です。", "ふくろ は 持[も]って 来[こ]なくても いい です よ。", "ふくろ は 持[も]って 来[こ]なくても いい です。"] },
+        { "type": "translate", "de": "Ich muss jeden Tag Japanisch lernen.", "answers": ["私[わたし] は 毎日[まいにち] 日本語[にほんご] を 勉強[べんきょう] しなければ なりません。", "私[わたし] は 毎日[まいにち] 日本語[にほんご] を 勉強[べんきょう] しなければ いけません。", "毎日[まいにち] 日本語[にほんご] を 勉強[べんきょう] しなければ なりません。", "毎日[まいにち] 日本語[にほんご] を 勉強[べんきょう] しなければ いけません。", "私[わたし] は 毎日[まいにち] 日本語[にほんご] の 勉強[べんきょう] を しなければ なりません。", "私[わたし] は 毎日[まいにち] 日本語[にほんご] の 勉強[べんきょう] を しなければ いけません。", "毎日[まいにち] 日本語[にほんご] の 勉強[べんきょう] を しなければ なりません。", "毎日[まいにち] 日本語[にほんご] の 勉強[べんきょう] を しなければ いけません。"] },
+        { "type": "order", "de": "Muss man den Müll trennen?", "answer": "ごみ を 分[わ]けなければ なりません か。", "distractors": ["分[わ]けて"] },
+        { "type": "choice", "prompt": "„Du musst nicht kommen.“ – Welcher Satz passt?", "options": ["来[こ]なくても いい です。", "来[こ]ないで ください。", "来[こ]なければ なりません。"], "answer": 0, "explain": "〜なくても いいです = nicht müssen. 〜ないで ください = bitte nicht (der andere soll nicht kommen). 〜なければ なりません = müssen." }
+      ]
+    },
+    {
+      "id": "tame-ni",
+      "title": "Wozu? – 〜ために (Zweck)",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜ために sagst du, wozu du etwas tust: „um … zu“, „damit“, „für“. Vor ために steht ein Verb in der Wörterbuchform oder ein Nomen mit の." },
+        { "type": "table", "head": ["Zweck", "+ ために", "Handlung"], "rows": [["自然[しぜん] を 守[まも]る", "ために", "ごみ を 減[へ]らし ます。"], ["日本語[にほんご] を 勉強[べんきょう] する", "ために", "日本[にほん] に 来[き] ました。"], ["お金[かね] を ためる", "ために", "アルバイト を して い ます。"], ["環境[かんきょう] の", "ために", "自[じ]転[てん]車[しゃ] に 乗[の]り ます。"], ["家族[かぞく] の", "ために", "毎日[まいにち] 働[はたら]いて い ます。"]] },
+        { "type": "tip", "text": "Bei Verben gilt: Der Zweck ist etwas, das man selbst bewusst tun will, und beide Teile haben dieselbe Person. Mit Potentialform oder わかる passt ために nicht – dafür lernst du später 〜ように." },
+        { "type": "p", "text": "Nomen + の ために heißt auch „für jemanden, zugunsten von“: こどもの ために = für die Kinder, けんこうの ために = für die Gesundheit. Die Frage lautet なんの ために？ (Wozu?)." },
+        { "type": "examples", "items": [{ "text": "健康[けんこう] の ために、 毎[まい]朝[あさ] 歩[ある]いて い ます。", "de": "Für meine Gesundheit gehe ich jeden Morgen spazieren." }, { "text": "地[ち]球[きゅう] の ために、 何[なに] が でき ます か。", "de": "Was können wir für die Erde tun?" }, { "text": "留[りゅう]学[がく] する ために、 お金[かね] を ためて い ます。", "de": "Um im Ausland zu studieren, spare ich Geld." }, { "text": "電気[でんき] を 節約[せつやく] する ために、 エアコン を 消[け]し ました。", "de": "Um Strom zu sparen, habe ich die Klimaanlage ausgeschaltet." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "自然[しぜん] を 守[まも]る ___、 ごみ を 減[へ]らし ましょう。", "answers": ["ために"], "de": "Um die Natur zu schützen, lasst uns den Müll reduzieren." },
+        { "type": "cloze", "text": "健康[けんこう] ___ ために、 野菜[やさい] を たくさん 食[た]べ ます。", "answers": ["の"], "de": "Für meine Gesundheit esse ich viel Gemüse." },
+        { "type": "cloze", "text": "日本[にほん] で 働[はたら]く ために、 日本語[にほんご] を ___ い ます。", "answers": ["勉強[べんきょう] して", "習[なら]って"], "de": "Um in Japan zu arbeiten, lerne ich Japanisch." },
+        { "type": "translate", "de": "Ich spare Geld, um nach Japan zu reisen.", "answers": ["私[わたし] は 日本[にほん] へ 行[い]く ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] へ 行[い]く ために お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 行[い]く ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 行[い]く ために お金[かね] を ためて い ます。", "日本[にほん] へ 行[い]く ために、 お金[かね] を ためて い ます。", "日本[にほん] へ 行[い]く ために お金[かね] を ためて い ます。", "日本[にほん] に 行[い]く ために、 お金[かね] を ためて い ます。", "日本[にほん] に 行[い]く ために お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] へ 旅行[りょこう] する ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] へ 旅行[りょこう] する ために お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] へ 旅行[りょこう] に 行[い]く ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] へ 旅行[りょこう] に 行[い]く ために お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 旅行[りょこう] する ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 旅行[りょこう] する ために お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 旅行[りょこう] に 行[い]く ために、 お金[かね] を ためて い ます。", "私[わたし] は 日本[にほん] に 旅行[りょこう] に 行[い]く ために お金[かね] を ためて い ます。", "日本[にほん] へ 旅行[りょこう] する ために、 お金[かね] を ためて い ます。", "日本[にほん] へ 旅行[りょこう] する ために お金[かね] を ためて い ます。", "日本[にほん] へ 旅行[りょこう] に 行[い]く ために、 お金[かね] を ためて い ます。", "日本[にほん] へ 旅行[りょこう] に 行[い]く ために お金[かね] を ためて い ます。", "日本[にほん] に 旅行[りょこう] する ために、 お金[かね] を ためて い ます。", "日本[にほん] に 旅行[りょこう] する ために お金[かね] を ためて い ます。", "日本[にほん] に 旅行[りょこう] に 行[い]く ために、 お金[かね] を ためて い ます。", "日本[にほん] に 旅行[りょこう] に 行[い]く ために お金[かね] を ためて い ます。"] },
+        { "type": "translate", "de": "Der Umwelt zuliebe fahre ich Fahrrad.", "answers": ["私[わたし] は 環境[かんきょう] の ために、 自[じ]転[てん]車[しゃ] に 乗[の]って い ます。", "私[わたし] は 環境[かんきょう] の ために 自[じ]転[てん]車[しゃ] に 乗[の]って い ます。", "環境[かんきょう] の ために、 自[じ]転[てん]車[しゃ] に 乗[の]って い ます。", "環境[かんきょう] の ために 自[じ]転[てん]車[しゃ] に 乗[の]って い ます。", "私[わたし] は 環境[かんきょう] の ために、 自[じ]転[てん]車[しゃ] に 乗[の]り ます。", "私[わたし] は 環境[かんきょう] の ために 自[じ]転[てん]車[しゃ] に 乗[の]り ます。", "環境[かんきょう] の ために、 自[じ]転[てん]車[しゃ] に 乗[の]り ます。", "環境[かんきょう] の ために 自[じ]転[てん]車[しゃ] に 乗[の]り ます。"] },
+        { "type": "order", "de": "Wozu lernst du Japanisch?", "answer": "何[なん] の ために 日本語[にほんご] を 勉強[べんきょう] して い ます か。", "distractors": ["が"] },
+        { "type": "order", "de": "Um Strom zu sparen, schalte ich das Licht aus.", "answer": "電気[でんき] を 節約[せつやく] する ために、 電気[でんき] を 消[け]し ます。", "distractors": ["し"] }
+      ]
+    },
+    {
+      "id": "you-ni-shite-imasu",
+      "title": "Darauf achten: 〜ように して います",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜ように して います erzählst du von einer Gewohnheit, um die du dich bewusst bemühst: „Ich achte darauf, dass …“, „Ich versuche, (immer) …“. Davor steht die Wörterbuchform – oder die ない-Form, wenn du etwas vermeiden willst." },
+        { "type": "table", "head": ["Form", "Beispiel", "Deutsch"], "rows": [["Wörterbuchform", "毎日[まいにち] 歩[ある]く ように して い ます。", "Ich versuche, jeden Tag zu Fuß zu gehen."], ["Wörterbuchform", "部屋[へや] を 出[で]る とき は、 電気[でんき] を 消[け]す ように して い ます。", "Wenn ich das Zimmer verlasse, achte ich darauf, das Licht auszumachen."], ["ない-Form", "ペットボトル を 買[か]わない ように して い ます。", "Ich versuche, keine PET-Flaschen zu kaufen."], ["ない-Form", "夜[よる] おそく 食[た]べない ように して い ます。", "Ich achte darauf, abends nicht spät zu essen."]] },
+        { "type": "tip", "text": "Es geht um eine Regel, die du dir selbst gibst – nicht um einen einzelnen Versuch. Für eine Bitte an andere gibt es 〜ように して ください: ごみを わける ように して ください (Bitte achtet darauf, den Müll zu trennen). Und ab jetzt: 〜ように します (Ich werde darauf achten)." },
+        { "type": "p", "text": "Zusammen mit なるべく oder できるだけ („möglichst“) klingt es besonders natürlich: できるだけ じてんしゃに のる ように して います." },
+        { "type": "examples", "items": [{ "text": "できる だけ エコバッグ を 使[つか]う ように して い ます。", "de": "Ich versuche, möglichst eine Einkaufstasche zu benutzen." }, { "text": "なるべく エアコン を 使[つか]わない ように して い ます。", "de": "Ich versuche, die Klimaanlage möglichst wenig zu benutzen." }, { "text": "ごみ を 分[わ]ける ように して ください。", "de": "Bitte achtet darauf, den Müll zu trennen." }, { "text": "これから は 早[はや]く 寝[ね]る ように し ます。", "de": "Ab jetzt werde ich darauf achten, früh schlafen zu gehen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "毎日[まいにち] 野菜[やさい] を 食[た]べる ___ して い ます。", "answers": ["ように"], "de": "Ich achte darauf, jeden Tag Gemüse zu essen." },
+        { "type": "cloze", "text": "なるべく 車[くるま] に 乗[の]ら___ ように して い ます。", "answers": ["ない"], "de": "Ich versuche, möglichst nicht Auto zu fahren." },
+        { "type": "cloze", "text": "できる だけ 水[みず] を ___ ように して い ます。", "answers": ["節約[せつやく] する"], "de": "Ich achte darauf, möglichst Wasser zu sparen.", "hint": "せつやくします → Wörterbuchform" },
+        { "type": "cloze", "text": "ごみ を 分[わ]ける ように して ___。", "answers": ["ください"], "de": "Bitte achtet darauf, den Müll zu trennen." },
+        { "type": "translate", "de": "Ich versuche, möglichst keine Plastiktüten zu nehmen.", "answers": ["なるべく プラスチック の ふくろ を もらわない ように して い ます。", "なるべく ふくろ を もらわない ように して い ます。", "できる だけ プラスチック の ふくろ を もらわない ように して い ます。", "できる だけ ふくろ を もらわない ように して い ます。"] },
+        { "type": "translate", "de": "Ich achte darauf, jeden Tag zu Fuß zu gehen.", "answers": ["私[わたし] は 毎日[まいにち] 歩[ある]く ように して い ます。", "毎日[まいにち] 歩[ある]く ように して い ます。"] },
+        { "type": "order", "de": "Ich achte darauf, jeden Tag früh ins Bett zu gehen.", "answer": "毎日[まいにち] 早[はや]く 寝[ね]る ように して い ます。", "distractors": ["寝[ね]て"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "ごみ の 日[ひ]",
+    "title_de": "Der Mülltag",
+    "lines": [
+      { "speaker": "ソフィー", "text": "アンナ さん、 その ペットボトル、 燃[も]える ごみ に 捨[す]て ないで ください！", "de": "Anna, wirf die PET-Flasche bitte nicht in den Brennmüll!" },
+      { "speaker": "アンナ", "text": "え？ 分[わ]けなければ なりません か。", "de": "Was? Muss man die trennen?" },
+      { "speaker": "ソフィー", "text": "はい。 ペットボトル は リサイクル の ごみ です。 水[すい]曜日[ようび] に 出[だ]さなければ なりません。", "de": "Ja. PET-Flaschen sind Recyclingmüll. Die muss man am Mittwoch rausbringen." },
+      { "speaker": "アンナ", "text": "たいへん です ね。 ドイツ で も 分[わ]け ます が、 日本[にほん] の ルール は もっと きびしい と 思[おも]い ます。", "de": "Ganz schön aufwendig. In Deutschland trennt man auch, aber ich finde die Regeln in Japan strenger." },
+      { "speaker": "ソフィー", "text": "そう です ね。 でも、 地[ち]球[きゅう] の ため に は 大[たい]切[せつ] な こと です よ。", "de": "Stimmt. Aber für die Erde ist das wichtig." },
+      { "speaker": "アンナ", "text": "たしかに。 ソフィー さん は 環境[かんきょう] の ために 何[なに] か して い ます か。", "de": "Stimmt. Machst du etwas für die Umwelt, Sophie?" },
+      { "speaker": "ソフィー", "text": "ええ。 なるべく プラスチック を 使[つか]わない ように して い ます。 買[か]い物[もの] に は いつも エコバッグ を 持[も]って 行[い]き ます。", "de": "Ja. Ich versuche, möglichst kein Plastik zu benutzen. Zum Einkaufen nehme ich immer eine Einkaufstasche mit." },
+      { "speaker": "アンナ", "text": "すごい です ね。 私[わたし] は コンビニ で いつも ふくろ を もらい ます。", "de": "Respekt. Ich nehme im Konbini immer eine Tüte." },
+      { "speaker": "ソフィー", "text": "「ふくろ は いり ません」 と 言[い]って ください。 簡単[かんたん] です よ。", "de": "Sag einfach: „Ich brauche keine Tüte.“ Das ist ganz leicht." },
+      { "speaker": "アンナ", "text": "そう です ね。 あした から 言[い]う ように し ます。", "de": "Stimmt. Ab morgen achte ich darauf, das zu sagen." },
+      { "speaker": "ソフィー", "text": "それに、 夏[なつ] は なるべく エアコン を つけない ように して い ます。 電気[でんき] を 節約[せつやく] する ため です。", "de": "Außerdem mache ich im Sommer möglichst nicht die Klimaanlage an – um Strom zu sparen." },
+      { "speaker": "アンナ", "text": "え、 でも 東[とう]京[きょう] の 夏[なつ] は 三十五[さんじゅうご] 度[ど] ぐらい に なり ます よ！", "de": "Was? Aber im Sommer wird es in Tokio etwa 35 Grad!" },
+      { "speaker": "ソフィー", "text": "はは、 暑[あつ]い 日[ひ] は もちろん 使[つか]い ます よ。 体[からだ] の ため に は 必要[ひつよう] です から。", "de": "Haha, an heißen Tagen benutze ich sie natürlich. Für den Körper ist das ja nötig." },
+      { "speaker": "アンナ", "text": "よかった。 じゃあ、 今[こん]度[ど] いっしょ に 森[もり] を 歩[ある]き ません か。 自然[しぜん] の 中[なか] は すずしい です よ。", "de": "Gut. Wollen wir nächstes Mal zusammen im Wald wandern? In der Natur ist es kühl." },
+      { "speaker": "ソフィー", "text": "いい です ね！ 森[もり] は 空気[くうき] が きれい だ し、 静[しず]か だ し、 大[だい]賛成[さんせい] です！", "de": "Gute Idee! Im Wald ist die Luft sauber und es ist ruhig – ich bin voll dafür!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["森[もり]", "der Wald"], ["空気[くうき]", "die Luft"], ["地[ち]球[きゅう]", "die Erde"], ["動[どう]物[ぶつ]", "das Tier"], ["鳥[とり]", "der Vogel"], ["虫[むし]", "das Insekt"]] },
+    { "type": "match", "pairs": [["〜なければ なりません", "müssen"], ["〜なくても いい です", "nicht müssen"], ["〜ために", "um … zu"], ["〜ように して い ます", "darauf achten, dass …"], ["〜ないで ください", "bitte nicht"]] },
+    { "type": "translate", "de": "Morgen muss ich den Müll rausbringen.", "answers": ["私[わたし] は あした は ごみ を 出[だ]さなければ なりません。", "私[わたし] は あした は ごみ を 出[だ]さなければ いけません。", "私[わたし] は あした ごみ を 出[だ]さなければ なりません。", "私[わたし] は あした ごみ を 出[だ]さなければ いけません。", "あした は ごみ を 出[だ]さなければ なりません。", "あした は ごみ を 出[だ]さなければ いけません。", "あした ごみ を 出[だ]さなければ なりません。", "あした ごみ を 出[だ]さなければ いけません。"] },
+    { "type": "translate", "de": "Heute musst du nicht kochen.", "answers": ["今日[きょう] は 料理[りょうり] を しなくても いい です よ。", "今日[きょう] は 料理[りょうり] を しなくても いい です。", "今日[きょう] は 料理[りょうり] しなくても いい です よ。", "今日[きょう] は 料理[りょうり] しなくても いい です。", "今日[きょう] は ご飯[はん] を 作[つく]らなくても いい です よ。", "今日[きょう] は ご飯[はん] を 作[つく]らなくても いい です。"] },
+    { "type": "translate", "de": "Um die Natur zu schützen, müssen wir den Müll reduzieren.", "answers": ["自然[しぜん] を 守[まも]る ために、 私[わたし]たち は ごみ を 減[へ]らさなければ なりません。", "自然[しぜん] を 守[まも]る ために、 私[わたし]たち は ごみ を 減[へ]らさなければ いけません。", "自然[しぜん] を 守[まも]る ために、 ごみ を 減[へ]らさなければ なりません。", "自然[しぜん] を 守[まも]る ために、 ごみ を 減[へ]らさなければ いけません。", "自然[しぜん] を 守[まも]る ために 私[わたし]たち は ごみ を 減[へ]らさなければ なりません。", "自然[しぜん] を 守[まも]る ために 私[わたし]たち は ごみ を 減[へ]らさなければ いけません。", "自然[しぜん] を 守[まも]る ために ごみ を 減[へ]らさなければ なりません。", "自然[しぜん] を 守[まも]る ために ごみ を 減[へ]らさなければ いけません。"] },
+    { "type": "translate", "de": "Ich versuche, möglichst zu Fuß zu gehen.", "answers": ["私[わたし] は なるべく 歩[ある]く ように して い ます。", "私[わたし] は できる だけ 歩[ある]く ように して い ます。", "なるべく 歩[ある]く ように して い ます。", "できる だけ 歩[ある]く ように して い ます。"] },
+    { "type": "order", "de": "Die Temperatur auf der Erde steigt.", "answer": "地[ち]球[きゅう] の 気[き]温[おん] が 上[あ]がって い ます。", "distractors": ["下[さ]がって"] },
+    { "type": "order", "de": "Auf der ganzen Welt nimmt der Plastikmüll zu.", "answer": "世界[せかい]中[じゅう] で プラスチック の ごみ が 増[ふ]えて い ます。", "distractors": ["を"] },
+    { "type": "cloze", "text": "ここ に ごみ を ___ ないで ください。", "answers": ["捨[す]て"], "de": "Wirf hier bitte keinen Müll weg." },
+    { "type": "cloze", "text": "日本[にほん] は ___ が 多[おお]い です。", "answers": ["地[じ]震[しん]"], "de": "In Japan gibt es viele Erdbeben." },
+    { "type": "cloze", "text": "山[やま] の ___ は おいしい です ね。", "answers": ["空気[くうき]"], "de": "Die Bergluft ist herrlich frisch." },
+    { "type": "listen", "text": "森[もり] に は いろいろ な 動[どう]物[ぶつ] や 鳥[とり] が い ます。", "de": "Im Wald leben viele verschiedene Tiere und Vögel." },
+    { "type": "listen", "text": "地[ち]球[きゅう] の ために、 自分[じぶん] で できる こと を 考[かんが]え ましょう。", "de": "Lasst uns überlegen, was wir selbst für die Erde tun können." }
+  ]
+}
