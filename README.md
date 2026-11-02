@@ -10,7 +10,7 @@ Zielsprachen: **Englisch, Spanisch, Italienisch, Japanisch** (inkl. Hiragana, Ka
 Die App ist eine reine statische Website (HTML, CSS, JavaScript-Module) ohne Build-Schritt,
 ohne Server, ohne Konto. Der Lernstand bleibt im Browser.
 
-> **Stand:** in Entwicklung, Etappen 1–4 von 11 fertig (Inhalte werden laufend ergänzt).
+> **Stand:** in Entwicklung, Etappen 1–4 und 6 von 11 fertig, Etappe 5 (A1 komplett) in Arbeit (Inhalte werden laufend ergänzt).
 > - Etappe 1: Grundgerüst, Speicherung, mehrere Sprachen, Einstufungstest
 > - Etappe 2: Kurs mit Lektionen (Vokabeln, Grammatik, Dialog, Übungen, Test),
 >   die ersten zwei A1-Lektionen in allen vier Sprachen, kompletter Kana-Kurs
@@ -19,6 +19,8 @@ ohne Server, ohne Konto. Der Lernstand bleibt im Browser.
 >   antippbar, „Kenne ich“ / „Lernen“ (Wort wird mit seinem Satz gespeichert), Vorlesen mit Tempo
 > - Etappe 4: Wiederholen mit FSRS (ts-fsrs) – Erkennen, Abrufen (Satz mit Lücke), Hören,
 >   Kana- und Kanji-Karten, Tageslimit für neue Wörter, Statistik
+> - Etappe 6: Sichern & Übertragen – Sync-Code (JSON → gzip → base64url, mit Version und
+>   Prüfsumme) und .json-Datei, automatische Sicherung vor jedem Ersetzen, API-Schlüssel nie enthalten
 >
 > Ein ausführliches README mit Anleitung für GitHub Pages und den API-Schlüssel folgt zum Schluss.
 
@@ -53,6 +55,7 @@ npm test
 | `js/speech/` | Vorlesen (Sprachausgabe des Browsers) |
 | `js/read/` | Lesen: Wörter nachschlagen, Bekanntheit und passende Texte |
 | `js/srs/` | Wiederholen: FSRS-Planung, Karten, Warteschlange |
+| `js/sync/` | Sync-Code und Datei-Export/-Import |
 | `vendor/ts-fsrs/` | FSRS-Bibliothek, lokal eingebunden (MIT) |
 | `js/views/` | Ansichten (Start, Einstieg, Fortschritt, Einstellungen …) |
 | `js/ui/` | DOM-Bausteine (ohne innerHTML), Symbole, Dialoge |

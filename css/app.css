@@ -2110,3 +2110,14 @@ rt {
   color: var(--text-faint);
   font-variant-numeric: tabular-nums;
 }
+
+/* Sichern & Übertragen */
+.code-box {
+  width: 100%;
+  min-height: 96px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  word-break: break-all;
+  resize: vertical;
+}

@@ -20,6 +20,7 @@ import { placementView } from './views/placement-route.js';
 import { placeholderView } from './views/placeholder.js';
 import { progressView } from './views/progress.js';
 import { settingsView } from './views/settings.js';
+import { syncView } from './views/sync.js';
 
 const NAV = [
   { route: 'start', label: 'Start', icon: 'home' },
@@ -41,6 +42,7 @@ const ROUTES = {
   sprechen: { view: placeholderView('sprechen'), title: 'Sprechen' },
   fortschritt: { view: progressView, title: 'Fortschritt' },
   einstellungen: { view: settingsView, title: 'Einstellungen', public: true },
+  sichern: { view: syncView, title: 'Sichern & Übertragen', public: true, nav: 'einstellungen' },
 };
 
 const ADD_LANGUAGE = '__add__';
@@ -196,12 +198,16 @@ async function renderView() {
   lastRouteKey = routeKey;
 
   mount(main, el('p', { class: 'loading' }, 'Lädt …'));
+  // Jede Ansicht zeichnet in einen eigenen Container. Angezeigt wird er nur, wenn
+  // inzwischen nicht schon eine neuere Seite aufgerufen wurde (schnelles Klicken).
+  const container = el('div', { class: 'view' });
   try {
-    const cleanup = await route.view(main, { params, navigate, rerender: renderView });
+    const cleanup = await route.view(container, { params, navigate, rerender: renderView });
     if (token !== renderToken) {
       if (typeof cleanup === 'function') cleanup();
       return;
     }
+    if (container.childNodes.length) mount(main, container);
     currentCleanup = typeof cleanup === 'function' ? cleanup : null;
   } catch (err) {
     console.error(err);

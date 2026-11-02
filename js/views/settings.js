@@ -1,6 +1,7 @@
 import { el, formatDate, formatNumber, mount } from '../ui/dom.js';
 import { confirmDialog, toast } from '../ui/feedback.js';
 import { applyTheme, THEMES } from '../ui/theme.js';
+import { icon } from '../ui/icons.js';
 import { loadLanguages } from '../content/loader.js';
 import {
   getState,
@@ -306,6 +307,11 @@ export async function settingsView(main, { rerender }) {
         el('a', { class: 'btn', href: '#/willkommen' }, 'Sprache hinzufügen'),
       ),
       section(
+        'Sichern & Übertragen',
+        el('p', { class: 'muted' }, 'Nimm deinen Lernstand per Sync-Code oder Datei auf ein anderes Gerät mit – ohne Konto. Dein API-Schlüssel wird dabei nie mitgenommen.'),
+        el('a', { class: 'btn btn-primary', href: '#/sichern' }, icon('sync'), 'Sichern & Übertragen'),
+      ),
+      section(
         'Speicher',
         el(
           'p',
@@ -320,7 +326,7 @@ export async function settingsView(main, { rerender }) {
               el(
                 'p',
                 { class: 'small muted' },
-                'Manche Browser löschen Website-Daten, wenn eine Seite länger nicht besucht wurde (Safari z. B. nach 7 Tagen). Diese Anfrage hilft dagegen. Bald kannst du deinen Stand außerdem als Sync-Code oder Datei sichern und auf andere Geräte mitnehmen.',
+                'Manche Browser löschen Website-Daten, wenn eine Seite länger nicht besucht wurde (Safari z. B. nach 7 Tagen). Diese Anfrage hilft dagegen; zusätzlich lohnt sich ab und zu eine Sicherung unter „Sichern & Übertragen“.',
               ),
               persistBtn,
             ),

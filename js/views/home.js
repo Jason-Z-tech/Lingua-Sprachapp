@@ -1,7 +1,7 @@
 import { el, mount } from '../ui/dom.js';
 import { icon } from '../ui/icons.js';
 import { loadFrequency, loadLanguages, loadMeta } from '../content/loader.js';
-import { getProfile, getState, setActiveLanguage } from '../store/state.js';
+import { getProfile, getState, setActiveLanguage, update } from '../store/state.js';
 import { LEVEL_INFO } from '../store/schema.js';
 import { vocabularySummary } from '../lang/vocab.js';
 import { knowledgeSentences, pageHead } from './common.js';
@@ -132,6 +132,40 @@ export async function homeView(main, { navigate }) {
     );
   }
 
+  // --- Erinnerung ans Sichern (ruhig, wegklickbar) ---
+  const wordCount = Object.values(state.langs).reduce((n, p) => n + Object.keys(p.words).length, 0);
+  const lastExport = state.settings.lastExportAt ? new Date(state.settings.lastExportAt) : null;
+  const snoozed = state.settings.backupReminderUntil && new Date(state.settings.backupReminderUntil) > new Date();
+  const backupHint =
+    wordCount >= 20 && !snoozed && (!lastExport || Date.now() - lastExport > 14 * 24 * 3600 * 1000)
+      ? el(
+          'div',
+          { class: 'notice notice-info' },
+          el('p', null, lastExport ? 'Deine letzte Sicherung ist über zwei Wochen her.' : 'Dein Lernstand liegt nur in diesem Browser.', ' Eine Sicherung als Sync-Code oder Datei dauert ein paar Sekunden.'),
+          el(
+            'div',
+            { class: 'row' },
+            el('a', { class: 'btn', href: '#/sichern' }, icon('sync'), 'Jetzt sichern'),
+            el(
+              'button',
+              {
+                type: 'button',
+                class: 'btn btn-quiet',
+                on: {
+                  click: (e) => {
+                    update((s) => {
+                      s.settings.backupReminderUntil = new Date(Date.now() + 7 * 24 * 3600 * 1000).toISOString();
+                    }, 'snooze');
+                    e.target.closest('.notice').remove();
+                  },
+                },
+              },
+              'Später',
+            ),
+          ),
+        )
+      : null;
+
   mount(
     main,
     pageHead({
@@ -142,6 +176,7 @@ export async function homeView(main, { navigate }) {
     el(
       'div',
       { class: 'stack' },
+      backupHint,
       el('section', { class: 'card stack' }, el('h2', null, 'Dein Stand'), ...standContent),
       reviewCard,
       nextCard,
