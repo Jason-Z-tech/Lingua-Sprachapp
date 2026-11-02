@@ -7,7 +7,7 @@
 // Die Dateiliste unten erzeugt `node tools/build-sw.mjs` (ein Test prüft, dass sie stimmt).
 
 /* PRECACHE-START */
-const VERSION = 'c7825807';
+const VERSION = '5dea3cf5';
 const APP_FILES = [
   'assets/apple-touch-icon.png',
   'assets/icon-192.png',

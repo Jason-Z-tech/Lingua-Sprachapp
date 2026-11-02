@@ -60,6 +60,13 @@ export async function speakView(main, ctx) {
             : 'Dein Browser hat weder Spracherkennung noch Aufnahme. Du kannst die Gespräche trotzdem lesen, anhören und die Antworten tippen.',
         ),
       );
+  const chatCard = el(
+    'a',
+    { class: 'story-card chat-card', href: '#/sprechen/ki' },
+    el('div', { class: 'row' }, el('span', { class: 'badge badge-accent' }, 'KI'), hasKey() ? null : el('span', { class: 'badge' }, 'braucht API-Schlüssel')),
+    el('div', { class: 'story-title' }, 'Freies Gespräch'),
+    el('p', { class: 'small' }, 'Unterhalte dich frei mit Claude – auf deinem Niveau, mit kurzen Korrekturen nach jeder Nachricht.'),
+  );
   mount(
     main,
     pageHead({ eyebrow: cc.langName, title: 'Sprechen', intro: 'Alltagsszenen zum Mitreden: Du hörst deinen Gesprächspartner, wählst eine Antwort und sagst sie laut.' }),
@@ -67,13 +74,7 @@ export async function speakView(main, ctx) {
       'div',
       { class: 'stack' },
       support,
-      el(
-        'a',
-        { class: 'story-card chat-card', href: '#/sprechen/ki' },
-        el('div', { class: 'row' }, el('span', { class: 'badge badge-accent' }, 'KI'), hasKey() ? null : el('span', { class: 'badge' }, 'braucht API-Schlüssel')),
-        el('div', { class: 'story-title' }, 'Freies Gespräch'),
-        el('p', { class: 'small' }, 'Unterhalte dich frei mit Claude – auf deinem Niveau, mit kurzen Korrekturen nach jeder Nachricht.'),
-      ),
+      hasKey() ? chatCard : null,
       index.scenarios.length
         ? el(
             'div',
@@ -91,6 +92,7 @@ export async function speakView(main, ctx) {
             }),
           )
         : el('p', { class: 'muted' }, 'Für diese Sprache gibt es noch keine Sprech-Szenarien.'),
+      hasKey() ? null : chatCard, // ohne Schlüssel unten, mit Schlüssel oben
     ),
   );
 }
