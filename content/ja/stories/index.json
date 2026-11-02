@@ -1,0 +1,204 @@
+{
+  "formatVersion": 1,
+  "lang": "ja",
+  "stories": [
+    {
+      "id": "ja-st-a1-01",
+      "file": "a1-01.json",
+      "level": "A1",
+      "type": "story",
+      "title": "東京[とうきょう] の 小[ちい]さい カフェ",
+      "title_de": "Ein kleines Café in Tokio",
+      "topics": [
+        "essen",
+        "alltag"
+      ],
+      "summary_de": "Lena aus Deutschland frühstückt jeden Morgen in einem kleinen Café in Tokio und bestellt beim freundlichen Herrn Yamada das Frühstücksset.",
+      "words": 120
+    },
+    {
+      "id": "ja-st-a1-02",
+      "file": "a1-02.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "駅[えき] で きっぷ を 買[か]い ます",
+      "title_de": "Eine Fahrkarte am Bahnhof",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Max kauft am Bahnhofsschalter eine Shinkansen-Fahrkarte nach Kyoto und fragt nach Abfahrtszeit, Fensterplatz, Preis und Gleis.",
+      "words": 97
+    },
+    {
+      "id": "ja-st-a1-03",
+      "file": "a1-03.json",
+      "level": "A1",
+      "type": "story",
+      "title": "私[わたし] の かぞく",
+      "title_de": "Meine Familie",
+      "topics": [
+        "alltag"
+      ],
+      "summary_de": "Die 16-jährige Yui stellt ihre Eltern, ihren großen Bruder, ihre kleine Schwester und die Katze Momo vor.",
+      "words": 102
+    },
+    {
+      "id": "ja-st-a1-04",
+      "file": "a1-04.json",
+      "level": "A1",
+      "type": "story",
+      "title": "ぼく の しゅうまつ",
+      "title_de": "Mein Wochenende",
+      "topics": [
+        "sport"
+      ],
+      "summary_de": "Der Student Ken verbringt sein Wochenende mit Joggen im Park, Fußball mit Freunden und Schwimmen im Hallenbad.",
+      "words": 100
+    },
+    {
+      "id": "ja-st-a1-05",
+      "file": "a1-05.json",
+      "level": "A1",
+      "type": "story",
+      "title": "ハナ と さんぽ",
+      "title_de": "Spaziergang mit Hana",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Bei schönem Wetter geht die Erzählerin mit ihrem kleinen Hund Hana in den Park, bis plötzlich Regen kommt.",
+      "words": 124
+    },
+    {
+      "id": "ja-st-a1-06",
+      "file": "a1-06.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "どんな おんがく が すき です か",
+      "title_de": "Welche Musik magst du?",
+      "topics": [
+        "musik"
+      ],
+      "summary_de": "Ken und Lena erzählen einander, welche Musik sie mögen und welche Instrumente sie spielen, und verabreden sich zu einem Konzert.",
+      "words": 129
+    },
+    {
+      "id": "ja-st-a2-01",
+      "file": "a2-01.json",
+      "level": "A2",
+      "type": "story",
+      "title": "はじめて の アルバイト",
+      "title_de": "Mein erster Nebenjob",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Der Erzähler jobbt zum ersten Mal in einem Ramen-Restaurant, lernt vom Chef Herrn Yamamoto, verwechselt eine Bestellung und ist am Ende müde, aber zufrieden.",
+      "words": 192
+    },
+    {
+      "id": "ja-st-a2-02",
+      "file": "a2-02.json",
+      "level": "A2",
+      "type": "story",
+      "title": "アニメ の 夜[よる]",
+      "title_de": "Ein Anime-Abend",
+      "topics": [
+        "filme",
+        "spiele"
+      ],
+      "summary_de": "Die Erzählerin schaut mit ihrer Freundin Yui einen Anime-Film, die beiden tauschen ihre Meinungen aus und spielen danach das Spiel zum Film.",
+      "words": 211
+    },
+    {
+      "id": "ja-st-a2-03",
+      "file": "a2-03.json",
+      "level": "A2",
+      "type": "dialog",
+      "title": "かぜ の くすり",
+      "title_de": "Ein Mittel gegen die Erkältung",
+      "topics": [
+        "gesundheit"
+      ],
+      "summary_de": "Mia hat Kopf- und Halsschmerzen und geht zur Ärztin, danach erklärt man ihr in der Apotheke, wie sie das Medikament nehmen soll.",
+      "words": 147
+    },
+    {
+      "id": "ja-st-a2-04",
+      "file": "a2-04.json",
+      "level": "A2",
+      "type": "story",
+      "title": "なくした スマホ",
+      "title_de": "Das verlorene Smartphone",
+      "topics": [
+        "technik"
+      ],
+      "summary_de": "Nach einem Ausflug in die Stadt ist das Smartphone plötzlich weg – zum Glück hilft ein freundlicher Bahnhofsmitarbeiter bei der Suche.",
+      "words": 167
+    },
+    {
+      "id": "ja-st-a2-05",
+      "file": "a2-05.json",
+      "level": "A2",
+      "type": "story",
+      "title": "夏[なつ]まつり",
+      "title_de": "Das Sommerfest",
+      "topics": [
+        "kultur"
+      ],
+      "summary_de": "Anna geht mit ihrer Freundin Yuki im Yukata zu einem japanischen Sommerfest mit Essensständen, Bon-Tanz und Feuerwerk.",
+      "words": 177
+    },
+    {
+      "id": "ja-st-b1-01",
+      "file": "b1-01.json",
+      "level": "B1",
+      "type": "story",
+      "title": "雨[あめ] の 京都[きょうと]",
+      "title_de": "Kyoto im Regen",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Eine Reise nach Kyoto geht von Anfang an schief – verschlafen, Regen, ein geschlossener Tempel –, doch eine freundliche alte Dame macht sie zur schönsten Erinnerung.",
+      "words": 315
+    },
+    {
+      "id": "ja-st-b1-02",
+      "file": "b1-02.json",
+      "level": "B1",
+      "type": "story",
+      "title": "町[まち] を きれい に",
+      "title_de": "Für eine saubere Stadt",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Jemand zieht aus Deutschland in eine japanische Kleinstadt, lernt die strenge Mülltrennung kennen, hilft beim Aufräumen am Fluss und hört dort verschiedene Meinungen zum Umweltschutz.",
+      "words": 320
+    },
+    {
+      "id": "ja-st-b1-03",
+      "file": "b1-03.json",
+      "level": "B1",
+      "type": "dialog",
+      "title": "ゲーム は 一日[いちにち] 何時間[なんじかん]？",
+      "title_de": "Wie viele Stunden am Tag spielen?",
+      "topics": [
+        "spiele",
+        "technik"
+      ],
+      "summary_de": "Sakura und Yuto diskutieren, wie viel Zeit man mit Videospielen und am Bildschirm verbringen sollte, und begründen ihre Meinungen.",
+      "words": 251
+    },
+    {
+      "id": "ja-st-b1-04",
+      "file": "b1-04.json",
+      "level": "B1",
+      "type": "story",
+      "title": "家[いえ] で 働[はたら]く？ 会社[かいしゃ] で 働[はたら]く？",
+      "title_de": "Zu Hause oder im Büro arbeiten?",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Ein Angestellter aus Tokio wägt die Vor- und Nachteile von Homeoffice und Büro ab und findet seine eigene Lösung.",
+      "words": 298
+    }
+  ]
+}
