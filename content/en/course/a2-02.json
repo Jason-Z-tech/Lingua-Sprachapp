@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-02",
+  "lang": "en",
+  "level": "A2",
+  "number": 2,
+  "title": "Work and Jobs",
+  "title_de": "Arbeit und Beruf",
+  "topic": "Berufe und Arbeitsalltag",
+  "goals": [
+    "Du kannst nach dem Beruf fragen und deinen Beruf nennen: What do you do? – I'm a nurse.",
+    "Du kannst sagen, wo und wie du arbeitest: I work for a small company. I work part-time.",
+    "Du kannst present simple und present continuous unterscheiden: I usually work in the office, but this week I'm working from home.",
+    "Du kannst mit have to und don't have to sagen, was du tun musst und was nicht."
+  ],
+  "vocab": [
+    { "id": "job", "word": "job", "plural": "jobs", "de": "die Arbeit; die Stelle; der Beruf", "pos": "noun", "example": { "text": "I love my job.", "de": "Ich liebe meine Arbeit." }, "note": "work (A1) ist die Arbeit allgemein: I go to work. (nicht: I go to job.) job ist die Stelle: a new job, a good job." },
+    { "id": "what-do-you-do", "word": "what do you do?", "de": "Was machst du beruflich?", "pos": "phrase", "example": { "text": "What do you do? – I'm a teacher.", "de": "Was machst du beruflich? – Ich bin Lehrerin." }, "note": "Klingt wie „Was machst du?“, meint aber den Beruf. „Was machst du gerade?“ heißt What are you doing?" },
+    { "id": "teacher", "word": "teacher", "plural": "teachers", "de": "der Lehrer; die Lehrerin", "pos": "noun", "example": { "text": "My mom is a teacher.", "de": "Meine Mutter ist Lehrerin." } },
+    { "id": "student", "word": "student", "plural": "students", "de": "der Schüler, die Schülerin; der Student, die Studentin", "pos": "noun", "example": { "text": "My sister is a student.", "de": "Meine Schwester ist Studentin." }, "note": "In den USA sagt man student für Schüler und für Studenten." },
+    { "id": "nurse", "word": "nurse", "plural": "nurses", "de": "der Krankenpfleger; die Krankenpflegerin", "pos": "noun", "example": { "text": "Yuki is a nurse at a big hospital.", "de": "Yuki ist Krankenpflegerin in einem großen Krankenhaus." } },
+    { "id": "engineer", "word": "engineer", "plural": "engineers", "de": "der Ingenieur; die Ingenieurin", "pos": "noun", "example": { "text": "Her husband is an engineer.", "de": "Ihr Mann ist Ingenieur." }, "note": "Vor einem Vokal steht an: an engineer." },
+    { "id": "programmer", "word": "programmer", "plural": "programmers", "de": "der Programmierer; die Programmiererin", "pos": "noun", "example": { "text": "Carlos is a programmer.", "de": "Carlos ist Programmierer." } },
+    { "id": "chef", "word": "chef", "plural": "chefs", "de": "der Koch; die Köchin", "pos": "noun", "example": { "text": "The chef makes great pizza.", "de": "Der Koch macht tolle Pizza." }, "note": "Falscher Freund: chef ist der Koch im Restaurant. Der Chef im Büro heißt boss." },
+    { "id": "cashier", "word": "cashier", "plural": "cashiers", "de": "der Kassierer; die Kassiererin", "pos": "noun", "example": { "text": "My brother works as a cashier at a supermarket.", "de": "Mein Bruder arbeitet als Kassierer in einem Supermarkt." } },
+    { "id": "police-officer", "word": "police officer", "plural": "police officers", "de": "der Polizist; die Polizistin", "pos": "noun", "example": { "text": "The police officer was very nice.", "de": "Die Polizistin war sehr nett." } },
+    { "id": "lawyer", "word": "lawyer", "plural": "lawyers", "de": "der Anwalt; die Anwältin", "pos": "noun", "example": { "text": "Emma's dad is a lawyer.", "de": "Emmas Vater ist Anwalt." } },
+    { "id": "boss", "word": "boss", "plural": "bosses", "de": "der Chef; die Chefin", "pos": "noun", "example": { "text": "My boss is really nice.", "de": "Mein Chef ist wirklich nett." } },
+    { "id": "coworker", "word": "coworker", "alt": ["colleague", "co-worker"], "plural": "coworkers", "de": "der Kollege; die Kollegin", "pos": "noun", "example": { "text": "I have lunch with my coworkers.", "de": "Ich esse mit meinen Kollegen zu Mittag.", "focus": "coworkers" }, "note": "Auch: colleague. Im Alltag hört man in den USA meistens coworker." },
+    { "id": "office", "word": "office", "plural": "offices", "de": "das Büro", "pos": "noun", "example": { "text": "Our office is downtown.", "de": "Unser Büro ist in der Innenstadt." } },
+    { "id": "company", "word": "company", "plural": "companies", "de": "die Firma; das Unternehmen", "pos": "noun", "example": { "text": "She works for a big company.", "de": "Sie arbeitet für eine große Firma." }, "note": "Man arbeitet for a company (für eine Firma)." },
+    { "id": "factory", "word": "factory", "plural": "factories", "de": "die Fabrik", "pos": "noun", "example": { "text": "My grandfather worked in a factory.", "de": "Mein Großvater hat in einer Fabrik gearbeitet." } },
+    { "id": "meeting", "word": "meeting", "plural": "meetings", "de": "die Besprechung; das Meeting", "pos": "noun", "example": { "text": "I have a meeting at ten.", "de": "Ich habe um zehn eine Besprechung." } },
+    { "id": "project", "word": "project", "plural": "projects", "de": "das Projekt", "pos": "noun", "example": { "text": "It's a big project.", "de": "Das ist ein großes Projekt." } },
+    { "id": "customer", "word": "customer", "plural": "customers", "de": "der Kunde; die Kundin", "pos": "noun", "example": { "text": "The store has a lot of customers on Saturdays.", "de": "Samstags hat der Laden viele Kunden." } },
+    { "id": "email", "word": "email", "alt": ["e-mail"], "plural": "emails", "de": "die E-Mail", "pos": "noun", "example": { "text": "I get a lot of emails.", "de": "Ich bekomme viele E-Mails.", "focus": "emails" } },
+    { "id": "money", "word": "money", "de": "das Geld", "pos": "noun", "example": { "text": "I need money for a new car.", "de": "Ich brauche Geld für ein neues Auto." }, "note": "money ist nicht zählbar: a lot of money, how much money (nicht: many moneys)." },
+    { "id": "earn", "word": "earn", "de": "verdienen", "pos": "verb", "example": { "text": "How much does a teacher earn?", "de": "Wie viel verdient ein Lehrer?" } },
+    { "id": "sell", "word": "sell", "de": "verkaufen", "pos": "verb", "forms": "sold", "example": { "text": "Lisa sells clothes at a store downtown.", "de": "Lisa verkauft Kleidung in einem Laden in der Innenstadt.", "focus": "sells" } },
+    { "id": "fix", "word": "fix", "de": "reparieren", "pos": "verb", "example": { "text": "Can you fix my computer?", "de": "Kannst du meinen Computer reparieren?" } },
+    { "id": "send", "word": "send", "de": "schicken; senden", "pos": "verb", "forms": "sent", "example": { "text": "Can you send me the email?", "de": "Kannst du mir die E-Mail schicken?" } },
+    { "id": "have-to", "word": "have to", "de": "müssen", "pos": "verb", "forms": "I have to, she has to; had to", "example": { "text": "I have to get up at six.", "de": "Ich muss um sechs aufstehen." }, "note": "Verneint: don't have to = nicht müssen, nicht brauchen." },
+    { "id": "work-on", "word": "work on", "de": "an etwas arbeiten", "pos": "verb", "example": { "text": "What are you working on?", "de": "Woran arbeitest du gerade?", "focus": "working on" } },
+    { "id": "work-from-home", "word": "work from home", "de": "von zu Hause arbeiten; im Homeoffice arbeiten", "pos": "phrase", "example": { "text": "On Fridays I work from home.", "de": "Freitags arbeite ich im Homeoffice." }, "note": "„Homeoffice“ ist kein englisches Wort für das Arbeiten zu Hause. Man sagt work from home." },
+    { "id": "at-the-moment", "word": "at the moment", "de": "im Moment; gerade", "pos": "phrase", "example": { "text": "At the moment I'm working on a big project.", "de": "Im Moment arbeite ich an einem großen Projekt." } },
+    { "id": "these-days", "word": "these days", "de": "zurzeit; in letzter Zeit", "pos": "phrase", "example": { "text": "These days I'm working a lot.", "de": "Zurzeit arbeite ich viel." } },
+    { "id": "full-time", "word": "full-time", "alt": ["full time"], "de": "Vollzeit; ganztags", "pos": "adv", "example": { "text": "My dad works full-time.", "de": "Mein Vater arbeitet Vollzeit." } },
+    { "id": "part-time", "word": "part-time", "alt": ["part time"], "de": "Teilzeit", "pos": "adv", "example": { "text": "Lena works part-time in a café.", "de": "Lena arbeitet in Teilzeit in einem Café." }, "note": "Auch als Adjektiv: a part-time job (ein Teilzeitjob)." },
+    { "id": "hard", "word": "hard", "de": "hart; schwer; anstrengend", "pos": "adj", "example": { "text": "Nurses work very hard.", "de": "Pflegekräfte arbeiten sehr hart." }, "note": "Als Adverb: work hard = viel und fleißig arbeiten. a hard job = eine anstrengende Arbeit." },
+    { "id": "easy", "word": "easy", "de": "leicht; einfach", "pos": "adj", "example": { "text": "My job isn't easy.", "de": "Meine Arbeit ist nicht leicht." } },
+    { "id": "busy", "word": "busy", "de": "beschäftigt; viel zu tun haben", "pos": "adj", "example": { "text": "Sorry, I'm really busy today.", "de": "Tut mir leid, ich habe heute wirklich viel zu tun." }, "note": "Auch für Orte: a busy street (eine belebte Straße)." },
+    { "id": "important", "word": "important", "de": "wichtig", "pos": "adj", "example": { "text": "This meeting is very important.", "de": "Diese Besprechung ist sehr wichtig." } },
+    { "id": "uniform", "word": "uniform", "plural": "uniforms", "de": "die Uniform", "pos": "noun", "example": { "text": "Police officers have to wear a uniform.", "de": "Polizisten müssen eine Uniform tragen." } },
+    { "id": "shift", "word": "shift", "plural": "shifts", "de": "die Schicht", "pos": "noun", "example": { "text": "This week Yuki is working the night shift.", "de": "Diese Woche arbeitet Yuki in der Nachtschicht." } },
+    { "id": "break", "word": "break", "plural": "breaks", "de": "die Pause", "pos": "noun", "example": { "text": "We have a lunch break at twelve.", "de": "Um zwölf haben wir Mittagspause." }, "note": "eine Pause machen = take a break." },
+    { "id": "day-off", "word": "day off", "plural": "days off", "de": "der freie Tag", "pos": "noun", "example": { "text": "Tomorrow is my day off.", "de": "Morgen habe ich frei." } },
+    { "id": "retired", "word": "retired", "de": "in Rente; pensioniert", "pos": "adj", "example": { "text": "My grandparents are retired.", "de": "Meine Großeltern sind in Rente." } }
+  ],
+  "grammar": [
+    {
+      "id": "jobs-a-an",
+      "title": "Berufe: I'm a nurse – immer mit a oder an",
+      "blocks": [
+        { "type": "p", "text": "Nach dem Beruf fragst du mit What do you do? (Was machst du beruflich?) oder What's your job? Wichtig für die Antwort: Im Englischen steht vor dem Beruf immer a oder an – im Deutschen nicht." },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["I'm a teacher.", "Ich bin Lehrer/in."], ["She's a nurse.", "Sie ist Krankenpflegerin."], ["He's an engineer.", "Er ist Ingenieur."], ["We're students.", "Wir sind Studenten."], ["They're police officers.", "Sie sind Polizisten."]] },
+        { "type": "tip", "text": "Nicht vergessen: I'm a programmer. (nicht: I'm programmer.) Vor einem Vokal steht an: an engineer, an English teacher. In der Mehrzahl fällt der Artikel weg: They're nurses." },
+        { "type": "p", "text": "Die meisten englischen Berufe haben nur eine Form für Männer und Frauen: a teacher = ein Lehrer oder eine Lehrerin." },
+        { "type": "p", "text": "Wo und wie du arbeitest, sagst du mit diesen Präpositionen:" },
+        { "type": "table", "head": ["Englisch", "Bedeutung", "Beispiel"], "rows": [["work as + Beruf", "arbeiten als", "I work as a cashier."], ["work for + Firma", "arbeiten für, bei", "She works for a big company."], ["work at + Firma, Ort", "arbeiten bei, in", "He works at a bank."], ["work in + Raum, Bereich", "arbeiten in", "I work in an office."]] },
+        { "type": "tip", "text": "„Sie arbeitet bei Google“ heißt She works for Google oder She works at Google – beides ist richtig." },
+        { "type": "examples", "items": [{ "text": "What do you do? – I'm a lawyer.", "de": "Was machst du beruflich? – Ich bin Anwalt." }, { "text": "What does your sister do? – She's a chef.", "de": "Was macht deine Schwester beruflich? – Sie ist Köchin." }, { "text": "My dad works for a small company.", "de": "Mein Vater arbeitet bei einer kleinen Firma." }, { "text": "I don't work. I'm retired.", "de": "Ich arbeite nicht. Ich bin in Rente." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Yuki is ___ nurse.", "answers": ["a"], "de": "Yuki ist Krankenpflegerin." },
+        { "type": "cloze", "text": "Her brother is ___ engineer.", "answers": ["an"], "de": "Ihr Bruder ist Ingenieur." },
+        { "type": "cloze", "text": "What ___ you do? – I'm a programmer.", "answers": ["do"], "de": "Was machst du beruflich? – Ich bin Programmierer." },
+        { "type": "cloze", "text": "What does she ___? – She's a lawyer.", "answers": ["do"], "de": "Was macht sie beruflich? – Sie ist Anwältin." },
+        { "type": "cloze", "text": "I work ___ a cashier at a supermarket.", "answers": ["as"], "de": "Ich arbeite als Kassiererin in einem Supermarkt." },
+        { "type": "cloze", "text": "My mom works ___ a big company.", "answers": ["for", "at"], "de": "Meine Mutter arbeitet bei einer großen Firma." },
+        { "type": "translate", "de": "Ich bin Lehrerin.", "answers": ["I'm a teacher.", "I am a teacher."] },
+        { "type": "translate", "de": "Mein Vater ist Polizist.", "answers": ["My father is a police officer.", "My dad is a police officer.", "My father's a police officer.", "My dad's a police officer.", "My father is a policeman.", "My dad is a policeman."] }
+      ]
+    },
+    {
+      "id": "simple-vs-continuous",
+      "title": "I work … oder I'm working …? present simple und present continuous",
+      "blocks": [
+        { "type": "p", "text": "Beide Zeiten kennst du schon aus A1. Bei der Arbeit brauchst du oft beide: Das present simple beschreibt, was immer oder regelmäßig gilt – deinen Beruf, deinen normalen Arbeitsalltag. Das present continuous beschreibt, was jetzt gerade oder zurzeit passiert – auch wenn es nur für eine Weile so ist." },
+        { "type": "table", "head": ["present simple: immer, regelmäßig", "present continuous: jetzt, zurzeit"], "rows": [["I work in an office.", "This week I'm working from home."], ["Yuki usually works the day shift.", "This month she's working the night shift."], ["We sell clothes.", "At the moment we're selling a lot of jackets."], ["What do you do? (Beruf)", "What are you doing? (gerade)"]] },
+        { "type": "table", "head": ["Satzart", "present simple", "present continuous"], "rows": [["bejaht", "She works.", "She's working."], ["verneint", "She doesn't work.", "She isn't working."], ["Frage", "Does she work?", "Is she working?"]] },
+        { "type": "tip", "text": "Signalwörter für das present simple: always, usually, often, every day, on Mondays. Für das present continuous: now, right now, today, at the moment, this week, these days." },
+        { "type": "tip", "text": "Verben, die einen Zustand beschreiben, stehen fast nie im present continuous: like, love, hate, want, need, know, understand. Also: I need a break. (nicht: I'm needing a break.)" },
+        { "type": "examples", "items": [{ "text": "I usually start at nine, but today I'm starting at eight.", "de": "Normalerweise fange ich um neun an, aber heute fange ich um acht an." }, { "text": "My boss isn't working today. It's her day off.", "de": "Meine Chefin arbeitet heute nicht. Sie hat ihren freien Tag." }, { "text": "These days we're working on a big project.", "de": "Zurzeit arbeiten wir an einem großen Projekt." }, { "text": "Do you usually work on Saturdays?", "de": "Arbeitest du normalerweise samstags?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I usually ___ work at nine.", "answers": ["start"], "de": "Normalerweise fange ich um neun mit der Arbeit an.", "hint": "start" },
+        { "type": "cloze", "text": "This week I'm ___ from home.", "answers": ["working"], "de": "Diese Woche arbeite ich von zu Hause.", "hint": "work" },
+        { "type": "cloze", "text": "Carlos ___ for a small company.", "answers": ["works"], "de": "Carlos arbeitet für eine kleine Firma.", "hint": "work" },
+        { "type": "cloze", "text": "At the moment she ___ working on a new project.", "answers": ["is"], "de": "Im Moment arbeitet sie an einem neuen Projekt." },
+        { "type": "cloze", "text": "What ___ you doing right now?", "answers": ["are"], "de": "Was machst du gerade?" },
+        { "type": "cloze", "text": "Nurses often ___ at night.", "answers": ["work"], "de": "Pflegekräfte arbeiten oft nachts." },
+        { "type": "order", "de": "Zurzeit arbeite ich in der Nachtschicht.", "answer": "These days I'm working the night shift.", "distractors": ["work"] },
+        { "type": "translate", "de": "Sie arbeitet heute nicht.", "answers": ["She isn't working today.", "She's not working today.", "She is not working today.", "Today she isn't working.", "Today she's not working.", "Today she is not working.", "She doesn't work today.", "She does not work today."] },
+        { "type": "choice", "prompt": "Welcher Satz passt zu „Ich brauche eine Pause.“?", "options": ["I need a break.", "I'm needing a break.", "I needing a break."], "answer": 0, "explain": "need beschreibt einen Zustand – deshalb steht es im present simple: I need a break." }
+      ]
+    },
+    {
+      "id": "have-to",
+      "title": "have to und don't have to: müssen und nicht müssen",
+      "blocks": [
+        { "type": "p", "text": "Mit have to sagst du, was du tun musst – oft, weil es eine Regel oder dein Job so verlangt. Bei he, she, it heißt es has to. Danach kommt die Grundform des Verbs." },
+        { "type": "table", "head": ["Person", "bejaht", "verneint", "Frage"], "rows": [["I", "I have to work.", "I don't have to work.", "Do I have to work?"], ["you", "You have to work.", "You don't have to work.", "Do you have to work?"], ["he / she / it", "She has to work.", "She doesn't have to work.", "Does she have to work?"], ["we", "We have to work.", "We don't have to work.", "Do we have to work?"], ["they", "They have to work.", "They don't have to work.", "Do they have to work?"]] },
+        { "type": "tip", "text": "Fragen und Verneinung bildest du wie bei normalen Verben mit do und does: Do you have to wear a uniform? – Yes, I do. / No, I don't." },
+        { "type": "p", "text": "Wichtiger Unterschied zum Deutschen: don't have to heißt „nicht müssen“ – es ist nicht nötig, aber erlaubt. You don't have to come. = Du musst nicht kommen. (Du kannst aber.)" },
+        { "type": "tip", "text": "Nicht verwechseln mit mustn't (must not) – das heißt „nicht dürfen“: You mustn't smoke here. = Du darfst hier nicht rauchen. Für „muss nicht“ nimmst du immer don't have to." },
+        { "type": "p", "text": "In der Vergangenheit wird aus have to und has to einfach had to: Yesterday I had to work late. (Gestern musste ich lange arbeiten.) Frage: Did you have to work? Verneinung: I didn't have to work." },
+        { "type": "examples", "items": [{ "text": "I have to get up at five thirty.", "de": "Ich muss um halb sechs aufstehen." }, { "text": "Does Yuki have to work on the weekend? – Yes, she does.", "de": "Muss Yuki am Wochenende arbeiten? – Ja." }, { "text": "Tomorrow is my day off. I don't have to go to work!", "de": "Morgen habe ich frei. Ich muss nicht zur Arbeit!" }, { "text": "Lena had to work late yesterday.", "de": "Lena musste gestern lange arbeiten." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I ___ to get up early tomorrow.", "answers": ["have"], "de": "Ich muss morgen früh aufstehen." },
+        { "type": "cloze", "text": "Carlos ___ to go to a meeting at ten.", "answers": ["has"], "de": "Carlos muss um zehn zu einer Besprechung." },
+        { "type": "cloze", "text": "You don't ___ to wear a uniform.", "answers": ["have"], "de": "Du musst keine Uniform tragen." },
+        { "type": "cloze", "text": "___ she have to work on Sundays?", "answers": ["Does"], "de": "Muss sie sonntags arbeiten?" },
+        { "type": "cloze", "text": "Yesterday we ___ to work late.", "answers": ["had"], "de": "Gestern mussten wir lange arbeiten." },
+        { "type": "cloze", "text": "It's Saturday! I ___ have to work today.", "answers": ["don't", "do not"], "de": "Es ist Samstag! Ich muss heute nicht arbeiten." },
+        { "type": "translate", "de": "Du musst nicht kommen.", "answers": ["You don't have to come.", "You do not have to come."] },
+        { "type": "order", "de": "Musst du am Wochenende arbeiten?", "answer": "Do you have to work on the weekend?", "distractors": ["Does"] },
+        { "type": "choice", "prompt": "Was bedeutet „You don't have to call me.“?", "options": ["Du musst mich nicht anrufen.", "Du darfst mich nicht anrufen.", "Du kannst mich nicht anrufen."], "answer": 0, "explain": "don't have to = nicht müssen. „Nicht dürfen“ heißt mustn't.", "optionsDe": true }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A Busy Morning",
+    "title_de": "Ein voller Morgen",
+    "lines": [
+      { "speaker": "Lena", "text": "Good morning, Yuki! You're here early today.", "de": "Guten Morgen, Yuki! Du bist heute aber früh hier." },
+      { "speaker": "Yuki", "text": "Hi, Lena! I finished work at seven. This week I'm working the night shift.", "de": "Hallo, Lena! Ich hatte um sieben Feierabend. Diese Woche arbeite ich in der Nachtschicht." },
+      { "speaker": "Lena", "text": "Oh no! Do you often have to work at night?", "de": "Oje! Musst du oft nachts arbeiten?" },
+      { "speaker": "Yuki", "text": "One week a month. Nurses work very hard. But I love my job.", "de": "Eine Woche im Monat. Pflegekräfte arbeiten sehr hart. Aber ich liebe meinen Beruf." },
+      { "speaker": "Carlos", "text": "Hi, you two! Can I have a large coffee to go, please?", "de": "Hallo, ihr zwei! Kann ich bitte einen großen Kaffee zum Mitnehmen haben?" },
+      { "speaker": "Lena", "text": "Sure. Aren't you working from home today? It's Friday.", "de": "Klar. Arbeitest du heute nicht von zu Hause? Es ist doch Freitag." },
+      { "speaker": "Carlos", "text": "I usually work from home on Fridays, but today I have to go to the office. We have an important meeting at nine.", "de": "Normalerweise arbeite ich freitags von zu Hause, aber heute muss ich ins Büro. Wir haben um neun eine wichtige Besprechung." },
+      { "speaker": "Yuki", "text": "What are you working on at the moment?", "de": "Woran arbeitest du im Moment?" },
+      { "speaker": "Carlos", "text": "We're working on a new app for a bank. It's a big project, and I'm really busy these days.", "de": "Wir arbeiten an einer neuen App für eine Bank. Es ist ein großes Projekt, und ich habe zurzeit wirklich viel zu tun." },
+      { "speaker": "Yuki", "text": "And you, Lena? Do you work here full-time?", "de": "Und du, Lena? Arbeitest du hier Vollzeit?" },
+      { "speaker": "Lena", "text": "No, I work part-time. In the evening I study English.", "de": "Nein, ich arbeite Teilzeit. Abends lerne ich Englisch." },
+      { "speaker": "Carlos", "text": "Do you like working in a café?", "de": "Arbeitest du gern in einem Café?" },
+      { "speaker": "Lena", "text": "Yes, the customers are nice, and I don't have to work on the weekend. But I don't earn a lot of money.", "de": "Ja, die Kunden sind nett, und ich muss am Wochenende nicht arbeiten. Aber ich verdiene nicht viel Geld." },
+      { "speaker": "Yuki", "text": "But you have a lot of free time! I don't have a day off this week.", "de": "Aber du hast viel Freizeit! Ich habe diese Woche keinen einzigen freien Tag." },
+      { "speaker": "Carlos", "text": "Oh, it's eight thirty! I have to go. Bye!", "de": "Oh, es ist halb neun! Ich muss los. Tschüss!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["teacher", "Lehrer/in"], ["nurse", "Krankenpfleger/in"], ["lawyer", "Anwalt/Anwältin"], ["chef", "Koch/Köchin"], ["cashier", "Kassierer/in"], ["engineer", "Ingenieur/in"]] },
+    { "type": "match", "pairs": [["boss", "Chef/in"], ["coworker", "Kollege/Kollegin"], ["office", "Büro"], ["company", "Firma"], ["meeting", "Besprechung"], ["day off", "freier Tag"]] },
+    { "type": "translate", "de": "Was machst du beruflich?", "answers": ["What do you do?", "What's your job?", "What is your job?", "What do you do for a living?", "What do you do for work?"] },
+    { "type": "translate", "de": "Ich arbeite Teilzeit in einem Supermarkt.", "answers": ["I work part-time in a supermarket.", "I work part-time at a supermarket.", "I work part time in a supermarket.", "I work part time at a supermarket."] },
+    { "type": "translate", "de": "Morgen muss ich nicht arbeiten.", "answers": ["I don't have to work tomorrow.", "I do not have to work tomorrow.", "Tomorrow I don't have to work.", "Tomorrow I do not have to work."] },
+    { "type": "translate", "de": "Meine Schwester ist Ingenieurin bei einer großen Firma.", "answers": ["My sister is an engineer at a big company.", "My sister is an engineer for a big company.", "My sister's an engineer at a big company.", "My sister's an engineer for a big company.", "My sister is an engineer at a large company.", "My sister is an engineer for a large company.", "My sister works as an engineer at a big company.", "My sister works as an engineer for a big company."] },
+    { "type": "cloze", "text": "Can we meet later? I'm really ___ right now.", "answers": ["busy"], "de": "Können wir uns später treffen? Ich habe gerade viel zu tun." },
+    { "type": "cloze", "text": "We have a lunch ___ at twelve thirty.", "answers": ["break"], "de": "Um halb eins haben wir Mittagspause." },
+    { "type": "cloze", "text": "My grandparents don't work. They're ___.", "answers": ["retired"], "de": "Meine Großeltern arbeiten nicht. Sie sind in Rente." },
+    { "type": "order", "de": "Woran arbeitest du gerade?", "answer": "What are you working on right now?", "distractors": ["do"] },
+    { "type": "order", "de": "Sie muss eine Uniform tragen.", "answer": "She has to wear a uniform.", "distractors": ["have"] },
+    { "type": "listen", "text": "My brother is a chef. He works in a restaurant downtown.", "de": "Mein Bruder ist Koch. Er arbeitet in einem Restaurant in der Innenstadt." },
+    { "type": "listen", "text": "I usually work from home, but this week I'm working in the office.", "de": "Normalerweise arbeite ich von zu Hause, aber diese Woche arbeite ich im Büro." }
+  ]
+}

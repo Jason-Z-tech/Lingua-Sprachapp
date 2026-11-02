@@ -1,0 +1,1383 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-06",
+  "lang": "en",
+  "level": "A2",
+  "number": 6,
+  "title": "At the Restaurant",
+  "title_de": "Im Restaurant",
+  "topic": "Reservieren, bestellen und bezahlen",
+  "goals": [
+    "Du kannst einen Tisch reservieren und im Restaurant höflich bestellen: I'd like …, Could I have …?, I'll have …",
+    "Du kannst mit some und any über Speisen sprechen und weißt, welche Nomen im Englischen nicht zählbar sind.",
+    "Du kannst Mengen angeben: much, many, a lot of, a few, a little.",
+    "Du kannst nach der Rechnung fragen, bezahlen und weißt, wie das mit dem Trinkgeld in den USA läuft."
+  ],
+  "vocab": [
+    {
+      "id": "restaurant",
+      "word": "restaurant",
+      "plural": "restaurants",
+      "de": "das Restaurant",
+      "pos": "noun",
+      "example": {
+        "text": "Let's go to a Mexican restaurant tonight.",
+        "de": "Lass uns heute Abend in ein mexikanisches Restaurant gehen."
+      }
+    },
+    {
+      "id": "reservation",
+      "word": "reservation",
+      "plural": "reservations",
+      "de": "die Reservierung",
+      "pos": "noun",
+      "example": {
+        "text": "I'd like to make a reservation for Friday.",
+        "de": "Ich möchte für Freitag einen Tisch reservieren."
+      },
+      "note": "einen Tisch reservieren = make a reservation. Reserviert haben = have a reservation."
+    },
+    {
+      "id": "a-table-for-two",
+      "word": "a table for two",
+      "de": "ein Tisch für zwei (Personen)",
+      "pos": "phrase",
+      "example": {
+        "text": "A table for two, please.",
+        "de": "Einen Tisch für zwei, bitte."
+      },
+      "note": "Genauso: a table for four. Am Eingang fragt man dich oft: How many people? (Wie viele Personen?)"
+    },
+    {
+      "id": "server",
+      "word": "server",
+      "alt": [
+        "waiter",
+        "waitress"
+      ],
+      "plural": "servers",
+      "de": "die Bedienung; der Kellner; die Kellnerin",
+      "pos": "noun",
+      "example": {
+        "text": "Our server is really friendly.",
+        "de": "Unsere Bedienung ist echt freundlich."
+      },
+      "note": "Im amerikanischen Englisch sagt man meist server – für Männer und Frauen. Auch üblich: waiter (Kellner) und waitress (Kellnerin)."
+    },
+    {
+      "id": "order",
+      "word": "order",
+      "de": "bestellen; die Bestellung",
+      "pos": "verb",
+      "example": {
+        "text": "Are you ready to order?",
+        "de": "Möchten Sie bestellen?"
+      },
+      "note": "Are you ready to order? hörst du in jedem Restaurant – wörtlich: Sind Sie bereit zu bestellen?"
+    },
+    {
+      "id": "could-i-have",
+      "word": "could I have …?",
+      "de": "könnte ich … haben?; ich hätte gern …",
+      "pos": "phrase",
+      "example": {
+        "text": "Could I have the menu, please?",
+        "de": "Könnte ich bitte die Karte haben?"
+      },
+      "note": "Noch etwas höflicher als Can I have …? aus A1."
+    },
+    {
+      "id": "ill-have",
+      "word": "I'll have …",
+      "alt": [
+        "I will have"
+      ],
+      "de": "ich nehme …",
+      "pos": "phrase",
+      "example": {
+        "text": "I'll have the chicken, please.",
+        "de": "Ich nehme das Hähnchen, bitte."
+      },
+      "note": "Typisch amerikanisch beim Bestellen. I'll ist die Kurzform von I will."
+    },
+    {
+      "id": "recommend",
+      "word": "recommend",
+      "de": "empfehlen",
+      "pos": "verb",
+      "example": {
+        "text": "What do you recommend?",
+        "de": "Was empfehlen Sie?"
+      },
+      "note": "Mit zwei m und einem c: recommend."
+    },
+    {
+      "id": "appetizer",
+      "word": "appetizer",
+      "plural": "appetizers",
+      "de": "die Vorspeise",
+      "pos": "noun",
+      "example": {
+        "text": "Would you like an appetizer?",
+        "de": "Möchten Sie eine Vorspeise?"
+      }
+    },
+    {
+      "id": "main-course",
+      "word": "main course",
+      "alt": [
+        "entrée",
+        "entree"
+      ],
+      "plural": "main courses",
+      "de": "das Hauptgericht",
+      "pos": "noun",
+      "example": {
+        "text": "For the main course, I'd like the fish.",
+        "de": "Als Hauptgericht hätte ich gern den Fisch."
+      },
+      "note": "Auf amerikanischen Speisekarten steht oft entrée. Vorsicht: In Frankreich ist entrée die Vorspeise!"
+    },
+    {
+      "id": "dessert",
+      "word": "dessert",
+      "plural": "desserts",
+      "de": "der Nachtisch; das Dessert",
+      "pos": "noun",
+      "example": {
+        "text": "What would you like for dessert?",
+        "de": "Was möchten Sie zum Nachtisch?"
+      },
+      "note": "Betonung auf der zweiten Silbe: des-SERT. Nicht verwechseln mit desert (die Wüste)."
+    },
+    {
+      "id": "soup",
+      "word": "soup",
+      "plural": "soups",
+      "de": "die Suppe",
+      "pos": "noun",
+      "example": {
+        "text": "The soup of the day is tomato soup.",
+        "de": "Die Tagessuppe ist Tomatensuppe."
+      }
+    },
+    {
+      "id": "steak",
+      "word": "steak",
+      "plural": "steaks",
+      "de": "das Steak",
+      "pos": "noun",
+      "example": {
+        "text": "How would you like your steak? – Medium, please.",
+        "de": "Wie hätten Sie Ihr Steak gern? – Medium, bitte."
+      },
+      "note": "rare = blutig, medium = halb durch, well-done = durchgebraten."
+    },
+    {
+      "id": "burger",
+      "word": "burger",
+      "alt": [
+        "hamburger"
+      ],
+      "plural": "burgers",
+      "de": "der Burger; der Hamburger",
+      "pos": "noun",
+      "example": {
+        "text": "A burger and a soda, please.",
+        "de": "Einen Burger und eine Limo, bitte."
+      }
+    },
+    {
+      "id": "fries",
+      "word": "fries",
+      "alt": [
+        "french fries"
+      ],
+      "de": "die Pommes (frites)",
+      "pos": "noun",
+      "example": {
+        "text": "Would you like fries with that?",
+        "de": "Möchten Sie Pommes dazu?"
+      },
+      "note": "Amerikanisch: fries oder french fries. Im britischen Englisch heißen sie chips."
+    },
+    {
+      "id": "chicken",
+      "word": "chicken",
+      "de": "das Hähnchen; das Huhn",
+      "pos": "noun",
+      "example": {
+        "text": "I'll have the chicken with rice.",
+        "de": "Ich nehme das Hähnchen mit Reis."
+      },
+      "note": "Als Essen nicht zählbar: some chicken. Das Tier ist zählbar: a chicken, two chickens."
+    },
+    {
+      "id": "fish",
+      "word": "fish",
+      "de": "der Fisch",
+      "pos": "noun",
+      "example": {
+        "text": "The fish is really good here.",
+        "de": "Der Fisch ist hier echt gut."
+      },
+      "note": "Die Mehrzahl ist meist auch fish: two fish."
+    },
+    {
+      "id": "pasta",
+      "word": "pasta",
+      "de": "die Nudeln; die Pasta",
+      "pos": "noun",
+      "example": {
+        "text": "The kids love pasta.",
+        "de": "Die Kinder lieben Nudeln."
+      },
+      "note": "Nicht zählbar – also nicht „pastas“, sondern some pasta."
+    },
+    {
+      "id": "rice",
+      "word": "rice",
+      "de": "der Reis",
+      "pos": "noun",
+      "example": {
+        "text": "Would you like rice or fries?",
+        "de": "Möchten Sie Reis oder Pommes?"
+      },
+      "note": "Nicht zählbar: some rice."
+    },
+    {
+      "id": "bread",
+      "word": "bread",
+      "de": "das Brot",
+      "pos": "noun",
+      "example": {
+        "text": "Could we have some more bread, please?",
+        "de": "Könnten wir bitte noch etwas Brot haben?"
+      },
+      "note": "Im Englischen nicht zählbar: some bread, a piece of bread – nicht „a bread“. Ein ganzes Brot ist a loaf of bread."
+    },
+    {
+      "id": "cheese",
+      "word": "cheese",
+      "de": "der Käse",
+      "pos": "noun",
+      "example": {
+        "text": "There's a lot of cheese on this pizza.",
+        "de": "Auf dieser Pizza ist viel Käse."
+      },
+      "note": "Nicht zählbar: some cheese."
+    },
+    {
+      "id": "ice-cream",
+      "word": "ice cream",
+      "de": "das Eis (zum Essen)",
+      "pos": "noun",
+      "example": {
+        "text": "I'd like some ice cream for dessert.",
+        "de": "Ich hätte gern etwas Eis zum Nachtisch."
+      },
+      "note": "Gefrorenes Wasser (die Eiswürfel) heißt ice."
+    },
+    {
+      "id": "wine",
+      "word": "wine",
+      "de": "der Wein",
+      "pos": "noun",
+      "example": {
+        "text": "A glass of red wine, please.",
+        "de": "Ein Glas Rotwein, bitte."
+      },
+      "note": "red wine = Rotwein, white wine = Weißwein."
+    },
+    {
+      "id": "beer",
+      "word": "beer",
+      "plural": "beers",
+      "de": "das Bier",
+      "pos": "noun",
+      "example": {
+        "text": "Two beers, please.",
+        "de": "Zwei Bier, bitte."
+      },
+      "note": "In den USA darf man Alkohol erst ab 21 Jahren trinken – oft wird nach dem Ausweis (ID) gefragt."
+    },
+    {
+      "id": "vegetarian",
+      "word": "vegetarian",
+      "de": "vegetarisch; der Vegetarier; die Vegetarierin",
+      "pos": "adj",
+      "example": {
+        "text": "Is the soup vegetarian?",
+        "de": "Ist die Suppe vegetarisch?"
+      },
+      "note": "Auch als Nomen: I'm vegetarian. oder I'm a vegetarian. (Ich bin Vegetarier/in.)"
+    },
+    {
+      "id": "delicious",
+      "word": "delicious",
+      "de": "lecker; köstlich",
+      "pos": "adj",
+      "example": {
+        "text": "Mmm, the pasta is delicious!",
+        "de": "Mmm, die Pasta ist köstlich!"
+      }
+    },
+    {
+      "id": "spicy",
+      "word": "spicy",
+      "de": "scharf (gewürzt)",
+      "pos": "adj",
+      "example": {
+        "text": "Is the chicken spicy?",
+        "de": "Ist das Hähnchen scharf?"
+      },
+      "note": "Auch hot kann „scharf“ heißen. spicy ist eindeutig."
+    },
+    {
+      "id": "full",
+      "word": "full",
+      "de": "satt; voll",
+      "pos": "adj",
+      "example": {
+        "text": "No dessert for me, thanks. I'm full.",
+        "de": "Für mich keinen Nachtisch, danke. Ich bin satt."
+      },
+      "note": "I'm full. = Ich bin satt. Ein Restaurant kann auch full sein (voll)."
+    },
+    {
+      "id": "salt",
+      "word": "salt",
+      "de": "das Salz",
+      "pos": "noun",
+      "example": {
+        "text": "Could you pass the salt, please?",
+        "de": "Könntest du mir bitte das Salz reichen?"
+      },
+      "note": "Salz und Pfeffer heißt salt and pepper – die Reihenfolge ist immer gleich."
+    },
+    {
+      "id": "fork",
+      "word": "fork",
+      "plural": "forks",
+      "de": "die Gabel",
+      "pos": "noun",
+      "example": {
+        "text": "Excuse me, could I have a fork, please?",
+        "de": "Entschuldigung, könnte ich bitte eine Gabel haben?"
+      }
+    },
+    {
+      "id": "knife",
+      "word": "knife",
+      "plural": "knives",
+      "de": "das Messer",
+      "pos": "noun",
+      "example": {
+        "text": "I need a knife for my steak.",
+        "de": "Ich brauche ein Messer für mein Steak."
+      },
+      "note": "Das k am Anfang spricht man nicht: [naɪf]. Mehrzahl: knives."
+    },
+    {
+      "id": "spoon",
+      "word": "spoon",
+      "plural": "spoons",
+      "de": "der Löffel",
+      "pos": "noun",
+      "example": {
+        "text": "I need a spoon for my soup.",
+        "de": "Ich brauche einen Löffel für meine Suppe."
+      }
+    },
+    {
+      "id": "plate",
+      "word": "plate",
+      "plural": "plates",
+      "de": "der Teller",
+      "pos": "noun",
+      "example": {
+        "text": "The plates are really big here.",
+        "de": "Die Teller sind hier echt groß."
+      }
+    },
+    {
+      "id": "napkin",
+      "word": "napkin",
+      "plural": "napkins",
+      "de": "die Serviette",
+      "pos": "noun",
+      "example": {
+        "text": "Could we have some napkins, please?",
+        "de": "Könnten wir bitte ein paar Servietten haben?"
+      }
+    },
+    {
+      "id": "check",
+      "word": "check",
+      "plural": "checks",
+      "de": "die Rechnung (im Restaurant)",
+      "pos": "noun",
+      "example": {
+        "text": "Could we have the check, please?",
+        "de": "Könnten wir bitte die Rechnung haben?"
+      },
+      "note": "Amerikanisch: the check. Britisch: the bill."
+    },
+    {
+      "id": "tip",
+      "word": "tip",
+      "plural": "tips",
+      "de": "das Trinkgeld",
+      "pos": "noun",
+      "example": {
+        "text": "We left a tip of twenty percent.",
+        "de": "Wir haben zwanzig Prozent Trinkgeld gegeben."
+      },
+      "note": "Trinkgeld geben = leave a tip. In den USA sind 15–20 % üblich, denn Servers verdienen oft wenig und leben vom Trinkgeld."
+    },
+    {
+      "id": "pay",
+      "word": "pay",
+      "de": "bezahlen; zahlen",
+      "pos": "verb",
+      "forms": "pay – paid",
+      "example": {
+        "text": "Can I pay by credit card?",
+        "de": "Kann ich mit Kreditkarte bezahlen?"
+      },
+      "note": "Für etwas bezahlen = pay for something: Carlos paid for dinner."
+    },
+    {
+      "id": "credit-card",
+      "word": "credit card",
+      "plural": "credit cards",
+      "de": "die Kreditkarte",
+      "pos": "noun",
+      "example": {
+        "text": "Do you take credit cards?",
+        "de": "Nehmen Sie Kreditkarten?"
+      }
+    },
+    {
+      "id": "cash",
+      "word": "cash",
+      "de": "das Bargeld; bar",
+      "pos": "noun",
+      "example": {
+        "text": "Can I pay in cash?",
+        "de": "Kann ich bar bezahlen?"
+      },
+      "note": "bar bezahlen = pay in cash oder pay cash."
+    },
+    {
+      "id": "much",
+      "word": "much",
+      "de": "viel (bei nicht zählbaren Nomen)",
+      "pos": "other",
+      "example": {
+        "text": "We don't have much time.",
+        "de": "Wir haben nicht viel Zeit."
+      },
+      "note": "Vor allem in Fragen und verneinten Sätzen."
+    },
+    {
+      "id": "many",
+      "word": "many",
+      "de": "viele (bei zählbaren Nomen)",
+      "pos": "other",
+      "example": {
+        "text": "There aren't many people here tonight.",
+        "de": "Heute Abend sind nicht viele Leute hier."
+      },
+      "note": "Vor allem in Fragen und verneinten Sätzen."
+    },
+    {
+      "id": "a-lot-of",
+      "word": "a lot of",
+      "de": "viel; viele",
+      "pos": "phrase",
+      "example": {
+        "text": "There are a lot of people here!",
+        "de": "Hier sind viele Leute!"
+      },
+      "note": "Passt zu zählbaren und nicht zählbaren Nomen – vor allem in positiven Sätzen. Locker auch: lots of."
+    },
+    {
+      "id": "a-few",
+      "word": "a few",
+      "de": "ein paar; einige (bei zählbaren Nomen)",
+      "pos": "phrase",
+      "example": {
+        "text": "Could we have a few more minutes?",
+        "de": "Könnten wir noch ein paar Minuten haben?"
+      },
+      "note": "Bei nicht zählbaren Nomen sagst du a little: a little milk."
+    },
+    {
+      "id": "enjoy-your-meal",
+      "word": "enjoy your meal",
+      "de": "guten Appetit (sagt die Bedienung)",
+      "pos": "phrase",
+      "example": {
+        "text": "Here's your pasta. Enjoy your meal!",
+        "de": "Hier ist Ihre Pasta. Guten Appetit!"
+      },
+      "note": "Oft auch nur: Enjoy! meal heißt Mahlzeit oder Essen."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "polite-ordering",
+      "title": "Höflich bestellen: I'd like …, Could I have …?, I'll have …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Im Café hast du in A1 mit I'd like … und Can I have …? bestellt. Im Restaurant geht es noch etwas höflicher: Could I have …? (Könnte ich … haben?). Typisch amerikanisch ist außerdem I'll have … (Ich nehme …)."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch",
+            "Wie klingt das?"
+          ],
+          "rows": [
+            [
+              "I want the steak.",
+              "Ich will das Steak.",
+              "fordernd – lieber nicht"
+            ],
+            [
+              "Can I have the steak?",
+              "Kann ich das Steak haben?",
+              "freundlich"
+            ],
+            [
+              "I'll have the steak.",
+              "Ich nehme das Steak.",
+              "freundlich, sehr üblich"
+            ],
+            [
+              "I'd like the steak.",
+              "Ich hätte gern das Steak.",
+              "höflich"
+            ],
+            [
+              "Could I have the steak, please?",
+              "Könnte ich bitte das Steak haben?",
+              "sehr höflich"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "could ist eigentlich die Vergangenheit von can. In Bitten heißt es aber „könnte“. Danach steht das Verb immer in der Grundform – ohne to: Could I have …? Could you bring …?"
+        },
+        {
+          "type": "p",
+          "text": "Mit Could you …? bittest du jemanden höflich, etwas für dich zu tun. Mit Could we …? fragst du für euch beide oder alle am Tisch."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "Could you bring us some water, please?",
+              "Könnten Sie uns bitte etwas Wasser bringen?"
+            ],
+            [
+              "Could you pass the salt, please?",
+              "Könntest du mir bitte das Salz reichen?"
+            ],
+            [
+              "Could we have the check, please?",
+              "Könnten wir bitte die Rechnung haben?"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Das fragt die Bedienung – und so kannst du antworten:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Bedienung",
+            "Du"
+          ],
+          "rows": [
+            [
+              "Do you have a reservation?",
+              "Yes, it's under Carlos. / No, we don't."
+            ],
+            [
+              "Are you ready to order?",
+              "Yes, I'd like the soup, please. / Not yet. Could we have a few more minutes?"
+            ],
+            [
+              "What would you like to drink?",
+              "I'll have a glass of red wine, please."
+            ],
+            [
+              "How would you like your steak?",
+              "Medium, please."
+            ],
+            [
+              "Would you like some dessert?",
+              "No, thanks. I'm full."
+            ],
+            [
+              "How is everything?",
+              "It's delicious, thanks!"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Reservieren am Telefon: I'd like to make a reservation for Saturday at seven. – For how many people? – For four, please. Am Eingang sagst du dann: It's under Weber. (Auf den Namen Weber.)"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "I'd like to make a reservation for two.",
+              "de": "Ich möchte einen Tisch für zwei reservieren."
+            },
+            {
+              "text": "Could I have the menu, please?",
+              "de": "Könnte ich bitte die Karte haben?"
+            },
+            {
+              "text": "I'll have the burger with fries.",
+              "de": "Ich nehme den Burger mit Pommes."
+            },
+            {
+              "text": "Could you bring me a spoon, please?",
+              "de": "Könnten Sie mir bitte einen Löffel bringen?"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "___ I have the menu, please?",
+          "answers": [
+            "Could"
+          ],
+          "de": "Könnte ich bitte die Karte haben?",
+          "hint": "könnte"
+        },
+        {
+          "type": "cloze",
+          "text": "I'll ___ the chicken, please.",
+          "answers": [
+            "have"
+          ],
+          "de": "Ich nehme das Hähnchen, bitte."
+        },
+        {
+          "type": "cloze",
+          "text": "Could you ___ us some water, please?",
+          "answers": [
+            "bring"
+          ],
+          "de": "Könnten Sie uns bitte etwas Wasser bringen?",
+          "hint": "bringen"
+        },
+        {
+          "type": "cloze",
+          "text": "I'd like to make a ___ for Friday at eight.",
+          "answers": [
+            "reservation"
+          ],
+          "de": "Ich möchte für Freitag um acht einen Tisch reservieren."
+        },
+        {
+          "type": "translate",
+          "de": "Ich hätte gern die Suppe, bitte.",
+          "answers": [
+            "I'd like the soup, please.",
+            "I'd like the soup.",
+            "I would like the soup, please.",
+            "I would like the soup.",
+            "I'll have the soup, please.",
+            "I'll have the soup.",
+            "I will have the soup, please.",
+            "I will have the soup.",
+            "Could I have the soup, please?",
+            "Could I have the soup?",
+            "Can I have the soup, please?",
+            "Can I have the soup?"
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Könnten wir bitte die Rechnung haben?",
+          "answers": [
+            "Could we have the check, please?",
+            "Could we have the check?",
+            "Could we have the bill, please?",
+            "Could we have the bill?",
+            "Could we get the check, please?",
+            "Could we get the check?",
+            "Could we get the bill, please?",
+            "Could we get the bill?",
+            "Can we have the check, please?",
+            "Can we have the check?",
+            "Can we have the bill, please?",
+            "Can we have the bill?",
+            "Can we get the check, please?",
+            "Can we get the check?",
+            "Can we get the bill, please?",
+            "Can we get the bill?"
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Möchten Sie bestellen?",
+          "answer": "Are you ready to order?",
+          "distractors": [
+            "do"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Was ist am höflichsten?",
+          "options": [
+            "I want the fish.",
+            "Could I have the fish, please?",
+            "Give me the fish."
+          ],
+          "answer": 1,
+          "explain": "Could I have …, please? ist sehr höflich. I want … und Give me … klingen im Restaurant unfreundlich."
+        }
+      ]
+    },
+    {
+      "id": "countable-some-any",
+      "title": "Zählbar oder nicht? some und any im Restaurant",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Erinnerst du dich an A1? Zählbare Nomen haben eine Mehrzahl (a fork – two forks). Nicht zählbare Nomen haben keine Mehrzahl und stehen nicht mit a oder an (bread, rice, water). Auf der Speisekarte findest du viele davon:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "zählbar",
+            "nicht zählbar"
+          ],
+          "rows": [
+            [
+              "a fork – two forks",
+              "bread"
+            ],
+            [
+              "a plate – some plates",
+              "rice"
+            ],
+            [
+              "an appetizer – two appetizers",
+              "pasta"
+            ],
+            [
+              "a burger – three burgers",
+              "cheese"
+            ],
+            [
+              "a napkin – some napkins",
+              "salt"
+            ],
+            [
+              "a dessert – two desserts",
+              "ice cream"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Manche Wörter sind im Deutschen zählbar, im Englischen aber nicht: bread (ein Brot), pasta (die Nudeln), money (das Geld), information (die Informationen). Also nicht „two breads“, sondern two pieces of bread."
+        },
+        {
+          "type": "p",
+          "text": "some steht in positiven Sätzen, any in Fragen und verneinten Sätzen. Aber: Wenn du um etwas bittest oder etwas anbietest, nimmst du auch in der Frage some – denn du erwartest ein Ja."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch",
+            "Regel"
+          ],
+          "rows": [
+            [
+              "We'd like some bread.",
+              "Wir hätten gern Brot.",
+              "positiv → some"
+            ],
+            [
+              "Do you have any vegetarian food?",
+              "Haben Sie vegetarisches Essen?",
+              "echte Frage → any"
+            ],
+            [
+              "Sorry, we don't have any fish today.",
+              "Tut mir leid, heute haben wir keinen Fisch.",
+              "verneint → any"
+            ],
+            [
+              "Would you like some dessert?",
+              "Möchten Sie Nachtisch?",
+              "Angebot → some"
+            ],
+            [
+              "Could I have some more water?",
+              "Könnte ich noch etwas Wasser haben?",
+              "Bitte → some"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Genauso funktionieren something und anything (etwas): I'd like something sweet. (Ich hätte gern etwas Süßes.) – Would you like anything else? (Möchten Sie sonst noch etwas?)"
+        },
+        {
+          "type": "tip",
+          "text": "noch etwas / noch ein paar heißt some more: some more bread, some more napkins."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Could we have some napkins, please?",
+              "de": "Könnten wir bitte ein paar Servietten haben?"
+            },
+            {
+              "text": "Is there any cheese on the pizza?",
+              "de": "Ist Käse auf der Pizza?"
+            },
+            {
+              "text": "We don't have any rice today, sorry.",
+              "de": "Wir haben heute leider keinen Reis."
+            },
+            {
+              "text": "Would you like some bread with your soup?",
+              "de": "Möchten Sie Brot zu Ihrer Suppe?"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Would you like ___ dessert?",
+          "answers": [
+            "some"
+          ],
+          "de": "Möchten Sie Nachtisch?",
+          "hint": "some / any"
+        },
+        {
+          "type": "cloze",
+          "text": "Do you have ___ vegetarian food?",
+          "answers": [
+            "any"
+          ],
+          "de": "Haben Sie vegetarisches Essen?",
+          "hint": "some / any"
+        },
+        {
+          "type": "cloze",
+          "text": "Sorry, we don't have ___ fish today.",
+          "answers": [
+            "any"
+          ],
+          "de": "Tut mir leid, heute haben wir keinen Fisch.",
+          "hint": "some / any"
+        },
+        {
+          "type": "cloze",
+          "text": "Could I have ___ more bread, please?",
+          "answers": [
+            "some"
+          ],
+          "de": "Könnte ich bitte noch etwas Brot haben?",
+          "hint": "some / any"
+        },
+        {
+          "type": "cloze",
+          "text": "Excuse me, could I have ___ fork, please?",
+          "answers": [
+            "a"
+          ],
+          "de": "Entschuldigung, könnte ich bitte eine Gabel haben?",
+          "hint": "a / an / some"
+        },
+        {
+          "type": "cloze",
+          "text": "Would you like ___ appetizer?",
+          "answers": [
+            "an"
+          ],
+          "de": "Möchten Sie eine Vorspeise?",
+          "hint": "a / an / some"
+        },
+        {
+          "type": "translate",
+          "de": "Wir haben keinen Käse.",
+          "answers": [
+            "We don't have any cheese.",
+            "We do not have any cheese.",
+            "We have no cheese.",
+            "We haven't got any cheese.",
+            "We have not got any cheese.",
+            "We've got no cheese."
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": [
+            "Could I have a bread?",
+            "Could I have some bread?",
+            "Could I have breads?"
+          ],
+          "answer": 1,
+          "explain": "bread ist im Englischen nicht zählbar: some bread oder a piece of bread."
+        }
+      ]
+    },
+    {
+      "id": "much-many",
+      "title": "Wie viel? much, many, a lot of, a few, a little",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Für „viel“ und „viele“ hat das Englische verschiedene Wörter. Welches du nimmst, hängt davon ab, ob das Nomen zählbar ist."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Deutsch",
+            "zählbar (Mehrzahl)",
+            "nicht zählbar"
+          ],
+          "rows": [
+            [
+              "viele / viel",
+              "many people",
+              "much time"
+            ],
+            [
+              "viele / viel (Alltag)",
+              "a lot of people",
+              "a lot of time"
+            ],
+            [
+              "ein paar / ein bisschen",
+              "a few minutes",
+              "a little milk"
+            ],
+            [
+              "wie viele? / wie viel?",
+              "How many plates?",
+              "How much bread?"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "much und many stehen vor allem in Fragen und verneinten Sätzen. In positiven Sätzen klingt a lot of natürlicher – und es passt zu beiden Arten von Nomen."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "There are a lot of people here.",
+              "Hier sind viele Leute."
+            ],
+            [
+              "There's a lot of cheese on this pizza.",
+              "Auf dieser Pizza ist viel Käse."
+            ],
+            [
+              "We don't have much time.",
+              "Wir haben nicht viel Zeit."
+            ],
+            [
+              "There aren't many tables.",
+              "Es gibt nicht viele Tische."
+            ],
+            [
+              "How many people? – Four.",
+              "Wie viele Personen? – Vier."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "a little kennst du schon aus A1: I speak a little German. Vor einem Nomen heißt es „ein bisschen, etwas“: a little sugar. Für zählbare Dinge nimmst du a few: a few cookies."
+        },
+        {
+          "type": "tip",
+          "text": "How much …? fragt nach dem Preis (How much is the steak?) – oder vor einem Nomen nach der Menge: How much bread do we need?"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Just a little salt, please.",
+              "de": "Nur ein bisschen Salz, bitte."
+            },
+            {
+              "text": "We need a few more chairs.",
+              "de": "Wir brauchen noch ein paar Stühle."
+            },
+            {
+              "text": "How many glasses do we need?",
+              "de": "Wie viele Gläser brauchen wir?"
+            },
+            {
+              "text": "I don't eat much meat.",
+              "de": "Ich esse nicht viel Fleisch."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "We don't have ___ time. The movie starts at eight.",
+          "answers": [
+            "much"
+          ],
+          "de": "Wir haben nicht viel Zeit. Der Film fängt um acht an.",
+          "hint": "much / many"
+        },
+        {
+          "type": "cloze",
+          "text": "There aren't ___ people in the restaurant tonight.",
+          "answers": [
+            "many"
+          ],
+          "de": "Heute Abend sind nicht viele Leute im Restaurant.",
+          "hint": "much / many"
+        },
+        {
+          "type": "cloze",
+          "text": "How ___ glasses do we need?",
+          "answers": [
+            "many"
+          ],
+          "de": "Wie viele Gläser brauchen wir?",
+          "hint": "much / many"
+        },
+        {
+          "type": "cloze",
+          "text": "Could we have a ___ more minutes, please?",
+          "answers": [
+            "few"
+          ],
+          "de": "Könnten wir bitte noch ein paar Minuten haben?",
+          "hint": "few / little"
+        },
+        {
+          "type": "cloze",
+          "text": "Just a ___ milk in my coffee, please.",
+          "answers": [
+            "little"
+          ],
+          "de": "Nur ein bisschen Milch in meinen Kaffee, bitte.",
+          "hint": "few / little"
+        },
+        {
+          "type": "translate",
+          "de": "Hier sind viele Leute.",
+          "answers": [
+            "There are a lot of people here.",
+            "There are lots of people here.",
+            "There are many people here.",
+            "A lot of people are here.",
+            "Many people are here.",
+            "Lots of people are here."
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "much",
+              "viel (nicht zählbar)"
+            ],
+            [
+              "many",
+              "viele (zählbar)"
+            ],
+            [
+              "a few",
+              "ein paar (zählbar)"
+            ],
+            [
+              "a little",
+              "ein bisschen (nicht zählbar)"
+            ],
+            [
+              "a lot of",
+              "viel oder viele (positive Sätze)"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dinner for Two",
+    "title_de": "Essen zu zweit",
+    "lines": [
+      {
+        "speaker": "Server",
+        "text": "Good evening! Do you have a reservation?",
+        "de": "Guten Abend! Haben Sie reserviert?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Yes, a table for two at seven thirty. It's under Carlos.",
+        "de": "Ja, einen Tisch für zwei um halb acht. Auf den Namen Carlos."
+      },
+      {
+        "speaker": "Server",
+        "text": "This way, please. Here are your menus.",
+        "de": "Hier entlang, bitte. Hier sind Ihre Speisekarten."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Thank you. Wow, there are a lot of people here tonight!",
+        "de": "Danke. Wow, heute Abend sind hier viele Leute!"
+      },
+      {
+        "speaker": "Server",
+        "text": "Yes, it's Friday! What would you like to drink?",
+        "de": "Ja, es ist Freitag! Was möchten Sie trinken?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "I'll have a beer, please. And could we have some water, too?",
+        "de": "Ich nehme ein Bier, bitte. Und könnten wir auch etwas Wasser haben?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "A glass of red wine for me, please.",
+        "de": "Für mich ein Glas Rotwein, bitte."
+      },
+      {
+        "speaker": "Server",
+        "text": "Here you go. Are you ready to order?",
+        "de": "Bitte schön. Möchten Sie bestellen?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes. What do you recommend? I'm vegetarian.",
+        "de": "Ja. Was empfehlen Sie? Ich bin Vegetarierin."
+      },
+      {
+        "speaker": "Server",
+        "text": "The pasta with tomatoes and cheese is delicious. But it's a little spicy.",
+        "de": "Die Pasta mit Tomaten und Käse ist köstlich. Aber sie ist ein bisschen scharf."
+      },
+      {
+        "speaker": "Lena",
+        "text": "That's OK, I love spicy food. I'd like the pasta, please.",
+        "de": "Kein Problem, ich mag scharfes Essen sehr. Ich hätte gern die Pasta, bitte."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "And I'll have the steak with fries. Medium, please.",
+        "de": "Und ich nehme das Steak mit Pommes. Medium, bitte."
+      },
+      {
+        "speaker": "Server",
+        "text": "Would you like some dessert?",
+        "de": "Möchten Sie noch einen Nachtisch?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "No, thanks. I'm full! Could we have the check, please?",
+        "de": "Nein danke. Ich bin satt! Könnten wir bitte die Rechnung haben?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "I'm paying tonight, Lena! Can I pay by credit card?",
+        "de": "Heute Abend zahle ich, Lena! Kann ich mit Kreditkarte bezahlen?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Thanks, Carlos! Then I'll leave the tip. Twenty percent, right?",
+        "de": "Danke, Carlos! Dann gebe ich das Trinkgeld. Zwanzig Prozent, oder?"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "soup",
+          "die Suppe"
+        ],
+        [
+          "chicken",
+          "das Hähnchen"
+        ],
+        [
+          "fries",
+          "die Pommes"
+        ],
+        [
+          "rice",
+          "der Reis"
+        ],
+        [
+          "bread",
+          "das Brot"
+        ],
+        [
+          "dessert",
+          "der Nachtisch"
+        ]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "fork",
+          "die Gabel"
+        ],
+        [
+          "knife",
+          "das Messer"
+        ],
+        [
+          "spoon",
+          "der Löffel"
+        ],
+        [
+          "plate",
+          "der Teller"
+        ],
+        [
+          "napkin",
+          "die Serviette"
+        ],
+        [
+          "check",
+          "die Rechnung"
+        ]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Einen Tisch für vier, bitte.",
+      "answers": [
+        "A table for four, please.",
+        "Table for four, please.",
+        "A table for four.",
+        "We'd like a table for four, please.",
+        "We'd like a table for four.",
+        "We would like a table for four, please.",
+        "We would like a table for four.",
+        "I'd like a table for four, please.",
+        "I'd like a table for four.",
+        "I would like a table for four, please.",
+        "I would like a table for four.",
+        "Could we have a table for four, please?",
+        "Could we have a table for four?",
+        "Can we have a table for four, please?",
+        "Can we have a table for four?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Was empfehlen Sie?",
+      "answers": [
+        "What do you recommend?",
+        "What would you recommend?",
+        "What can you recommend?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Kann ich bar bezahlen?",
+      "answers": [
+        "Can I pay in cash?",
+        "Can I pay cash?",
+        "Can I pay with cash?",
+        "Could I pay in cash?",
+        "Could I pay cash?",
+        "Could I pay with cash?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ist die Suppe vegetarisch?",
+      "answers": [
+        "Is the soup vegetarian?"
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "In the US, people usually leave a ___ of 15 to 20 percent.",
+      "answers": [
+        "tip"
+      ],
+      "de": "In den USA gibt man normalerweise 15 bis 20 Prozent Trinkgeld."
+    },
+    {
+      "type": "cloze",
+      "text": "Here's your steak. Enjoy your ___!",
+      "answers": [
+        "meal"
+      ],
+      "de": "Hier ist Ihr Steak. Guten Appetit!"
+    },
+    {
+      "type": "cloze",
+      "text": "Is the chicken ___? I don't like hot food.",
+      "answers": [
+        "spicy"
+      ],
+      "de": "Ist das Hähnchen scharf? Ich mag kein scharfes Essen."
+    },
+    {
+      "type": "order",
+      "de": "Könntest du mir bitte das Salz reichen?",
+      "answer": "Could you pass the salt, please?"
+    },
+    {
+      "type": "order",
+      "de": "Wir haben nicht viel Zeit.",
+      "answer": "We don't have much time.",
+      "distractors": [
+        "many"
+      ]
+    },
+    {
+      "type": "listen",
+      "text": "I'd like the fish with rice and a glass of white wine, please.",
+      "de": "Ich hätte gern den Fisch mit Reis und ein Glas Weißwein, bitte."
+    },
+    {
+      "type": "listen",
+      "text": "The pasta was delicious, but there wasn't much cheese on it.",
+      "de": "Die Pasta war köstlich, aber es war nicht viel Käse darauf."
+    }
+  ]
+}

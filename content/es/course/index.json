@@ -124,14 +124,14 @@
           "file": "a2-06.json",
           "title_de": "Im Restaurant",
           "topic": "Reservieren, bestellen und bezahlen",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a2-07",
           "file": "a2-07.json",
           "title_de": "Urlaub",
           "topic": "Hotel und Reiseplanung",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a2-08",

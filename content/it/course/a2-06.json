@@ -1,0 +1,813 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-06",
+  "lang": "it",
+  "level": "A2",
+  "number": 6,
+  "title": "Al ristorante",
+  "title_de": "Im Restaurant",
+  "topic": "Reservieren, bestellen und bezahlen",
+  "goals": [
+    "Du kannst im Restaurant einen Tisch reservieren und die Speisekarte verstehen (antipasto, primo, secondo …).",
+    "Du kannst höflich bestellen und um etwas bitten: vorrei, potrei, mi porta …?",
+    "Du benutzt die indirekten Objektpronomen (mi, ti, gli, le …) und ne bei Mengen: Ne vorrei due.",
+    "Du kannst nach der Rechnung fragen und bezahlen."
+  ],
+  "vocab": [
+    {
+      "id": "ristorante",
+      "word": "ristorante",
+      "article": "il",
+      "gender": "m",
+      "plural": "i ristoranti",
+      "de": "das Restaurant",
+      "pos": "noun",
+      "example": { "text": "C'è un buon ristorante qui vicino?", "de": "Gibt es hier in der Nähe ein gutes Restaurant?" }
+    },
+    {
+      "id": "trattoria",
+      "word": "trattoria",
+      "article": "la",
+      "gender": "f",
+      "plural": "le trattorie",
+      "de": "das (einfache) Gasthaus; die Trattoria",
+      "pos": "noun",
+      "example": { "text": "Questa trattoria è piccola, ma si mangia molto bene.", "de": "Diese Trattoria ist klein, aber man isst sehr gut." },
+      "note": "Eine trattoria ist ein einfaches, oft familiengeführtes Lokal mit regionaler Küche – meist günstiger als ein ristorante."
+    },
+    {
+      "id": "pizza",
+      "word": "pizza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le pizze",
+      "de": "die Pizza",
+      "pos": "noun",
+      "example": { "text": "Due pizze margherita, per favore.", "de": "Zwei Pizza Margherita, bitte.", "focus": "pizze" }
+    },
+    {
+      "id": "prenotare",
+      "word": "prenotare",
+      "de": "reservieren; buchen",
+      "pos": "verb",
+      "forms": "prenoto, prenoti, prenota, prenotiamo, prenotate, prenotano",
+      "example": { "text": "Vorrei prenotare un tavolo per quattro persone.", "de": "Ich würde gern einen Tisch für vier Personen reservieren." },
+      "note": "Auch für Hotel und Zug: prenotare una camera, prenotare un biglietto."
+    },
+    {
+      "id": "prenotazione",
+      "word": "prenotazione",
+      "article": "la",
+      "gender": "f",
+      "plural": "le prenotazioni",
+      "de": "die Reservierung; die Buchung",
+      "pos": "noun",
+      "example": { "text": "Ho una prenotazione per due persone.", "de": "Ich habe eine Reservierung für zwei Personen." },
+      "note": "Der Kellner fragt dann: A che nome? = Auf welchen Namen?"
+    },
+    {
+      "id": "persona",
+      "word": "persona",
+      "article": "la",
+      "gender": "f",
+      "plural": "le persone",
+      "de": "die Person; der Mensch",
+      "pos": "noun",
+      "example": { "text": "Un tavolo per tre persone, per favore.", "de": "Einen Tisch für drei Personen, bitte.", "focus": "persone" },
+      "note": "Immer weiblich – auch wenn ein Mann gemeint ist: Marco è una persona molto gentile."
+    },
+    {
+      "id": "menu",
+      "word": "menù",
+      "article": "il",
+      "gender": "m",
+      "plural": "i menù",
+      "de": "die Speisekarte; das Menü",
+      "pos": "noun",
+      "example": { "text": "Scusi, possiamo avere il menù?", "de": "Entschuldigung, können wir die Speisekarte haben?" },
+      "note": "Mit Akzent, in der Mehrzahl gleich. Ein festes Menü zum festen Preis heißt menù fisso."
+    },
+    {
+      "id": "antipasto",
+      "word": "antipasto",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli antipasti",
+      "de": "die Vorspeise",
+      "pos": "noun",
+      "example": { "text": "Come antipasto prendo il prosciutto con il melone.", "de": "Als Vorspeise nehme ich Schinken mit Melone." },
+      "note": "Wörtlich „vor der Mahlzeit“ (il pasto = die Mahlzeit)."
+    },
+    {
+      "id": "primo-piatto",
+      "word": "primo piatto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i primi piatti",
+      "de": "der erste Gang (Pasta, Risotto, Suppe)",
+      "pos": "noun",
+      "example": { "text": "Come primo piatto c'è il risotto.", "de": "Als ersten Gang gibt es Risotto." },
+      "note": "Meistens sagt man nur il primo: Cosa prendi come primo?"
+    },
+    {
+      "id": "secondo-piatto",
+      "word": "secondo piatto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i secondi piatti",
+      "de": "der Hauptgang (Fleisch oder Fisch)",
+      "pos": "noun",
+      "example": { "text": "Come secondo piatto prendo il pesce.", "de": "Als Hauptgang nehme ich den Fisch." },
+      "note": "Kurz: il secondo. Gemüse oder Kartoffeln bestellst du als contorno extra dazu."
+    },
+    {
+      "id": "contorno",
+      "word": "contorno",
+      "article": "il",
+      "gender": "m",
+      "plural": "i contorni",
+      "de": "die Beilage",
+      "pos": "noun",
+      "example": { "text": "Come contorno vorrei le patate.", "de": "Als Beilage hätte ich gern Kartoffeln." },
+      "note": "Salat, Gemüse oder Kartoffeln – das contorno steht auf der Karte extra."
+    },
+    {
+      "id": "dolce",
+      "word": "dolce",
+      "article": "il",
+      "gender": "m",
+      "plural": "i dolci",
+      "de": "der Nachtisch; die Süßspeise",
+      "pos": "noun",
+      "example": { "text": "Prendete anche un dolce?", "de": "Nehmt ihr auch einen Nachtisch?" },
+      "note": "Als Adjektiv heißt dolce „süß“: Il tiramisù è molto dolce."
+    },
+    {
+      "id": "piatto",
+      "word": "piatto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i piatti",
+      "de": "der Teller; das Gericht",
+      "pos": "noun",
+      "example": { "text": "Il piatto del giorno è il pesce.", "de": "Das Tagesgericht ist Fisch." }
+    },
+    {
+      "id": "forchetta",
+      "word": "forchetta",
+      "article": "la",
+      "gender": "f",
+      "plural": "le forchette",
+      "de": "die Gabel",
+      "pos": "noun",
+      "example": { "text": "Scusi, mi porta una forchetta?", "de": "Entschuldigung, bringen Sie mir eine Gabel?" }
+    },
+    {
+      "id": "coltello",
+      "word": "coltello",
+      "article": "il",
+      "gender": "m",
+      "plural": "i coltelli",
+      "de": "das Messer",
+      "pos": "noun",
+      "example": { "text": "Il coltello è sotto il tovagliolo.", "de": "Das Messer liegt unter der Serviette." }
+    },
+    {
+      "id": "cucchiaio",
+      "word": "cucchiaio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cucchiai",
+      "de": "der Löffel",
+      "pos": "noun",
+      "example": { "text": "Ecco i cucchiai per il dolce.", "de": "Hier sind die Löffel für den Nachtisch.", "focus": "cucchiai" },
+      "note": "Ein Teelöffel ist un cucchiaino."
+    },
+    {
+      "id": "tovagliolo",
+      "word": "tovagliolo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i tovaglioli",
+      "de": "die Serviette",
+      "pos": "noun",
+      "example": { "text": "Potrei avere un altro tovagliolo?", "de": "Könnte ich noch eine Serviette haben?" }
+    },
+    {
+      "id": "pasta",
+      "word": "pasta",
+      "article": "la",
+      "gender": "f",
+      "de": "die Nudeln; die Pasta",
+      "pos": "noun",
+      "example": { "text": "In Italia si mangia la pasta come primo.", "de": "In Italien isst man Pasta als ersten Gang." },
+      "note": "Im Singular für die ganze Sorte: la pasta. La pasta fresca = frische Nudeln."
+    },
+    {
+      "id": "zuppa",
+      "word": "zuppa",
+      "article": "la",
+      "gender": "f",
+      "plural": "le zuppe",
+      "de": "die Suppe",
+      "pos": "noun",
+      "example": { "text": "La zuppa di verdure è calda.", "de": "Die Gemüsesuppe ist heiß." }
+    },
+    {
+      "id": "carne",
+      "word": "carne",
+      "article": "la",
+      "gender": "f",
+      "plural": "le carni",
+      "de": "das Fleisch",
+      "pos": "noun",
+      "example": { "text": "Non mangio carne.", "de": "Ich esse kein Fleisch." }
+    },
+    {
+      "id": "pesce",
+      "word": "pesce",
+      "article": "il",
+      "gender": "m",
+      "plural": "i pesci",
+      "de": "der Fisch",
+      "pos": "noun",
+      "example": { "text": "Oggi il pesce è molto buono.", "de": "Heute ist der Fisch sehr gut." }
+    },
+    {
+      "id": "bistecca",
+      "word": "bistecca",
+      "article": "la",
+      "gender": "f",
+      "plural": "le bistecche",
+      "de": "das Steak",
+      "pos": "noun",
+      "example": { "text": "Vorrei una bistecca con le patate.", "de": "Ich hätte gern ein Steak mit Kartoffeln." },
+      "note": "Berühmt ist la bistecca alla fiorentina aus Florenz."
+    },
+    {
+      "id": "insalata",
+      "word": "insalata",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le insalate",
+      "de": "der Salat",
+      "pos": "noun",
+      "example": { "text": "Per me un'insalata mista, grazie.", "de": "Für mich einen gemischten Salat, danke." },
+      "note": "Insalata mista = gemischter Salat."
+    },
+    {
+      "id": "olio",
+      "word": "olio",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli oli",
+      "de": "das Öl",
+      "pos": "noun",
+      "example": { "text": "L'olio d'oliva italiano è molto buono.", "de": "Das italienische Olivenöl ist sehr gut." }
+    },
+    {
+      "id": "sale",
+      "word": "sale",
+      "article": "il",
+      "gender": "m",
+      "de": "das Salz",
+      "pos": "noun",
+      "example": { "text": "La pasta è senza sale!", "de": "Die Nudeln sind ohne Salz!" }
+    },
+    {
+      "id": "ordinare",
+      "word": "ordinare",
+      "de": "bestellen",
+      "pos": "verb",
+      "forms": "ordino, ordini, ordina, ordiniamo, ordinate, ordinano",
+      "example": { "text": "Possiamo ordinare?", "de": "Können wir bestellen?" },
+      "note": "Betonung auf der ersten Silbe: òrdino, òrdina."
+    },
+    {
+      "id": "scegliere",
+      "word": "scegliere",
+      "de": "wählen; aussuchen",
+      "pos": "verb",
+      "forms": "scelgo, scegli, sceglie, scegliamo, scegliete, scelgono",
+      "example": { "text": "Io scelgo la pizza. E tu?", "de": "Ich nehme die Pizza. Und du?", "focus": "scelgo" },
+      "note": "Unregelmäßig. Partizip: scelto – Avete scelto? = Habt ihr gewählt? (So fragt der Kellner.)"
+    },
+    {
+      "id": "assaggiare",
+      "word": "assaggiare",
+      "de": "probieren; kosten (Essen)",
+      "pos": "verb",
+      "forms": "assaggio, assaggi, assaggia, assaggiamo, assaggiate, assaggiano",
+      "example": { "text": "Vuoi assaggiare il mio risotto?", "de": "Willst du mein Risotto probieren?" },
+      "note": "Kleidung probierst du dagegen mit provare an."
+    },
+    {
+      "id": "consigliare",
+      "word": "consigliare",
+      "de": "empfehlen; raten",
+      "pos": "verb",
+      "forms": "consiglio, consigli, consiglia, consigliamo, consigliate, consigliano",
+      "example": { "text": "Cosa mi consiglia?", "de": "Was empfehlen Sie mir?", "focus": "consiglia" },
+      "note": "Mit indirektem Pronomen: Ti consiglio la pasta. = Ich empfehle dir die Pasta."
+    },
+    {
+      "id": "dare",
+      "word": "dare",
+      "de": "geben",
+      "pos": "verb",
+      "forms": "do, dai, dà, diamo, date, danno",
+      "example": { "text": "Mi dai l'olio, per favore?", "de": "Gibst du mir bitte das Öl?", "focus": "dai" },
+      "note": "Unregelmäßig. Lui/lei dà hat einen Akzent – so unterscheidet man es von da (von). Partizip: dato."
+    },
+    {
+      "id": "offrire",
+      "word": "offrire",
+      "de": "anbieten; spendieren; einladen",
+      "pos": "verb",
+      "forms": "offro, offri, offre, offriamo, offrite, offrono",
+      "example": { "text": "Ti offro un caffè.", "de": "Ich lade dich auf einen Kaffee ein.", "focus": "offro" },
+      "note": "Offro io! = Ich lade ein! / Das geht auf mich! Partizip: offerto."
+    },
+    {
+      "id": "conto",
+      "word": "conto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i conti",
+      "de": "die Rechnung",
+      "pos": "noun",
+      "example": { "text": "Il conto, per favore!", "de": "Die Rechnung, bitte!" },
+      "note": "Im Restaurant bekommst du il conto. Das scontrino ist der Kassenbon im bar."
+    },
+    {
+      "id": "coperto",
+      "word": "coperto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i coperti",
+      "de": "das Gedeck (Brot und Service)",
+      "pos": "noun",
+      "example": { "text": "Il coperto costa due euro a persona.", "de": "Das Gedeck kostet zwei Euro pro Person." },
+      "note": "Auf vielen Rechnungen steht ein Betrag für das coperto – das ist normal und kein Trinkgeld."
+    },
+    {
+      "id": "incluso",
+      "word": "incluso",
+      "alt": ["inclusa"],
+      "de": "inbegriffen; inklusive",
+      "pos": "adj",
+      "example": { "text": "Il pane è incluso nel coperto.", "de": "Das Brot ist im Gedeck inbegriffen." },
+      "note": "Weiblich: inclusa – La colazione è inclusa? Genauso üblich: compreso / compresa."
+    },
+    {
+      "id": "mancia",
+      "word": "mancia",
+      "article": "la",
+      "gender": "f",
+      "plural": "le mance",
+      "de": "das Trinkgeld",
+      "pos": "noun",
+      "example": { "text": "Diamo una mancia al cameriere?", "de": "Geben wir dem Kellner Trinkgeld?" },
+      "note": "In Italien ist Trinkgeld keine Pflicht. Oft lässt man ein, zwei Euro auf dem Tisch liegen."
+    },
+    {
+      "id": "fame",
+      "word": "fame",
+      "article": "la",
+      "gender": "f",
+      "de": "der Hunger",
+      "pos": "noun",
+      "example": { "text": "Ho fame! Ordiniamo?", "de": "Ich habe Hunger! Bestellen wir?" },
+      "note": "Avere fame = Hunger haben. Riesenhunger: Ho una fame da lupi! (wörtlich: Hunger wie die Wölfe)"
+    },
+    {
+      "id": "sete",
+      "word": "sete",
+      "article": "la",
+      "gender": "f",
+      "de": "der Durst",
+      "pos": "noun",
+      "example": { "text": "Hai sete? Vuoi dell'acqua?", "de": "Hast du Durst? Willst du Wasser?" },
+      "note": "Avere sete = Durst haben."
+    },
+    {
+      "id": "vegetariano",
+      "word": "vegetariano",
+      "alt": ["vegetariana"],
+      "de": "vegetarisch; Vegetarier(in)",
+      "pos": "adj",
+      "example": { "text": "Sono vegetariana, non mangio carne.", "de": "Ich bin Vegetarierin, ich esse kein Fleisch.", "focus": "vegetariana" }
+    },
+    {
+      "id": "piccante",
+      "word": "piccante",
+      "de": "scharf (gewürzt)",
+      "pos": "adj",
+      "example": { "text": "Questo piatto è piccante?", "de": "Ist dieses Gericht scharf?" },
+      "note": "Gleiche Form für männlich und weiblich: un piatto piccante, una pizza piccante."
+    },
+    {
+      "id": "delizioso",
+      "word": "delizioso",
+      "alt": ["deliziosa"],
+      "de": "köstlich",
+      "pos": "adj",
+      "example": { "text": "Il tiramisù è delizioso!", "de": "Das Tiramisu ist köstlich!" }
+    },
+    {
+      "id": "specialita",
+      "word": "specialità",
+      "article": "la",
+      "gender": "f",
+      "plural": "le specialità",
+      "de": "die Spezialität",
+      "pos": "noun",
+      "example": { "text": "Le tagliatelle al ragù sono la specialità di Bologna.", "de": "Tagliatelle mit Ragù sind die Spezialität von Bologna." },
+      "note": "Mit Akzent, in der Mehrzahl gleich. La specialità della casa = die Spezialität des Hauses."
+    },
+    {
+      "id": "fatto-in-casa",
+      "word": "fatto in casa",
+      "alt": ["fatta in casa", "fatti in casa", "fatte in casa"],
+      "de": "hausgemacht; selbst gemacht",
+      "pos": "phrase",
+      "example": { "text": "La pasta è fatta in casa.", "de": "Die Pasta ist hausgemacht.", "focus": "fatta in casa" },
+      "note": "Fatto passt sich an: il pane fatto in casa, la pasta fatta in casa."
+    },
+    {
+      "id": "buon-appetito",
+      "word": "buon appetito",
+      "de": "guten Appetit",
+      "pos": "phrase",
+      "example": { "text": "Ecco le pizze. Buon appetito!", "de": "Hier sind die Pizzen. Guten Appetit!" },
+      "note": "Die Antwort: Grazie, altrettanto! = Danke, gleichfalls!"
+    },
+    {
+      "id": "ne",
+      "word": "ne",
+      "de": "davon; welche (bei Mengen)",
+      "pos": "pron",
+      "example": { "text": "Quanti caffè? – Ne vorrei due.", "de": "Wie viele Espresso? – Ich hätte gern zwei." },
+      "note": "Ne ersetzt eine Menge: Hai del pane? – Sì, ne ho. Mehr dazu in der Grammatik."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "pronomi-indiretti",
+      "title": "Mir, dir, ihm: die indirekten Objektpronomen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit den indirekten Objektpronomen sagst du, wem etwas gegeben, gebracht oder empfohlen wird – auf Deutsch ist das meistens der Dativ (mir, dir, ihm …). Einige kennst du schon aus mi piace: Mi piace = Es gefällt mir."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "Pronomen", "Deutsch", "Beispiel"],
+          "rows": [
+            ["io", "mi", "mir", "Mi porta il menù?"],
+            ["tu", "ti", "dir", "Ti consiglio la pasta."],
+            ["lui", "gli", "ihm", "Gli porto un caffè."],
+            ["lei", "le", "ihr", "Le offro una pizza."],
+            ["Lei (höflich)", "Le", "Ihnen", "Le consiglio il pesce."],
+            ["noi", "ci", "uns", "Ci porta il conto?"],
+            ["voi", "vi", "euch", "Vi piace la carne?"],
+            ["loro", "gli", "ihnen", "Gli do il menù."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Das Pronomen steht vor dem konjugierten Verb. Bei der Verneinung kommt non davor: Non gli piace il pesce. = Er mag keinen Fisch."
+        },
+        {
+          "type": "tip",
+          "text": "Gli heißt im Alltag „ihm“ und auch „ihnen“: A Marco piace il vino. → Gli piace il vino. A Sara e Marco piace la pizza. → Gli piace la pizza."
+        },
+        {
+          "type": "p",
+          "text": "Mit Modalverben (volere, potere, dovere) steht das Pronomen vor dem Modalverb – oder es wird hinten an den Infinitiv gehängt, der dann sein -e verliert: Mi può portare il sale? = Può portarmi il sale?"
+        },
+        {
+          "type": "tip",
+          "text": "Nicht verwechseln mit den direkten Pronomen aus Lektion 5: Lo vedo. = Ich sehe ihn. Aber: Gli parlo. = Ich spreche mit ihm. Verben wie dare, portare, offrire, consigliare und dire haben oft ein indirektes Objekt: jemandem etwas geben, bringen, sagen."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Scusi, ci porta due bicchieri?", "de": "Entschuldigung, bringen Sie uns zwei Gläser?" },
+            { "text": "Ti offro un gelato.", "de": "Ich spendiere dir ein Eis." },
+            { "text": "A Lena non piace la carne: le porto un'insalata.", "de": "Lena mag kein Fleisch: Ich bringe ihr einen Salat." },
+            { "text": "Signora, Le consiglio il tiramisù.", "de": "Ich empfehle Ihnen das Tiramisu." },
+            { "text": "Marco ha fame: gli do un panino.", "de": "Marco hat Hunger: Ich gebe ihm ein Brötchen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Scusi, ___ porta il menù?",
+          "answers": ["mi"],
+          "de": "Entschuldigung, bringen Sie mir die Speisekarte?",
+          "hint": "mir"
+        },
+        { "type": "cloze", "text": "Sara, ___ consiglio il risotto.", "answers": ["ti"], "de": "Sara, ich empfehle dir das Risotto.", "hint": "dir" },
+        {
+          "type": "cloze",
+          "text": "Marco ha sete: ___ do un bicchiere d'acqua.",
+          "answers": ["gli"],
+          "de": "Marco hat Durst: Ich gebe ihm ein Glas Wasser.",
+          "hint": "ihm"
+        },
+        {
+          "type": "cloze",
+          "text": "Lena è vegetariana: ___ porto un'insalata.",
+          "answers": ["le"],
+          "de": "Lena ist Vegetarierin: Ich bringe ihr einen Salat.",
+          "hint": "ihr"
+        },
+        { "type": "cloze", "text": "Ragazzi, ___ piace la pizza?", "answers": ["vi"], "de": "Leute, schmeckt euch die Pizza?", "hint": "euch" },
+        {
+          "type": "cloze",
+          "text": "Il cameriere ___ porta il conto.",
+          "answers": ["ci"],
+          "de": "Der Kellner bringt uns die Rechnung.",
+          "hint": "uns"
+        },
+        {
+          "type": "translate",
+          "de": "Ich lade dich auf einen Kaffee ein.",
+          "answers": ["Ti offro un caffè.", "Io ti offro un caffè.", "Ti offro io un caffè."]
+        },
+        { "type": "translate", "de": "Ich gebe ihm die Speisekarte.", "answers": ["Gli do il menù.", "Io gli do il menù."] },
+        { "type": "order", "de": "Können Sie mir das Salz geben?", "answer": "Mi può dare il sale?", "distractors": ["ti"] },
+        {
+          "type": "choice",
+          "prompt": "„Ich gebe ihnen (Sara und Marco) die Speisekarte.“ – Welcher Satz ist richtig?",
+          "options": ["Gli do il menù.", "Le do il menù.", "Li do il menù."],
+          "answer": 0,
+          "explain": "Für „ihnen“ (Mehrzahl) benutzt man im Alltag gli. Li ist ein direktes Pronomen (sie, Akkusativ)."
+        }
+      ]
+    },
+    {
+      "id": "chiedere-gentilmente",
+      "title": "Höflich bestellen und bitten: vorrei, potrei, mi porta …?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Im Restaurant klingt es freundlich, wenn du deine Wünsche als Frage formulierst. Vorrei (ich hätte gern) kennst du schon. Genauso praktisch ist potrei (könnte ich …?). Beide sind feste Formen des Konditionals – das ganze Konditional lernst du später."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Vorrei prenotare un tavolo.", "Ich würde gern einen Tisch reservieren."],
+            ["Potrei avere il menù?", "Könnte ich die Speisekarte haben?"],
+            ["Mi porta il conto, per favore?", "Bringen Sie mir bitte die Rechnung?"],
+            ["Mi può portare un po' di pane?", "Können Sie mir etwas Brot bringen?"],
+            ["Ci porta ancora dell'acqua?", "Bringen Sie uns noch etwas Wasser?"],
+            ["Cosa mi consiglia?", "Was empfehlen Sie mir?"],
+            ["Per me … / Prendo …", "Für mich … / Ich nehme …"]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mi porta …? ist einfach die Lei-Form von portare im Präsens. Als Frage klingt sie höflich – wie „Bringen Sie mir …?“. Zu Freunden sagst du: Mi porti …? / Mi dai …?"
+        },
+        {
+          "type": "p",
+          "text": "Die Speisekarte hat eine feste Reihenfolge. Niemand muss alles bestellen – oft nimmt man nur einen primo oder einen secondo mit contorno:"
+        },
+        {
+          "type": "table",
+          "head": ["Gang", "Was ist das?", "Beispiel"],
+          "rows": [
+            ["l'antipasto", "die Vorspeise", "prosciutto e melone, bruschetta"],
+            ["il primo (piatto)", "der erste Gang", "pasta, risotto, zuppa"],
+            ["il secondo (piatto)", "der Hauptgang", "carne o pesce: bistecca, pesce del giorno"],
+            ["il contorno", "die Beilage", "insalata, patate, verdura"],
+            ["il dolce", "der Nachtisch", "tiramisù, gelato, frutta"],
+            ["il caffè", "zum Schluss", "un caffè – kein Cappuccino!"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Die Rechnung kommt in Italien erst, wenn du danach fragst: Il conto, per favore! Oft steht darauf das coperto (Gedeck). Getrennt zahlen ist eher unüblich – meistens teilt man die Summe einfach: Paghiamo alla romana."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Buonasera, vorrei prenotare un tavolo per sabato.", "de": "Guten Abend, ich würde gern einen Tisch für Samstag reservieren." },
+            { "text": "Potrei avere un'altra forchetta?", "de": "Könnte ich noch eine Gabel haben?" },
+            { "text": "Ci porta il conto, per favore?", "de": "Bringen Sie uns bitte die Rechnung?" },
+            { "text": "Come secondo prendo la bistecca con l'insalata.", "de": "Als Hauptgang nehme ich das Steak mit Salat." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "___ prenotare un tavolo per quattro persone.",
+          "answers": ["Vorrei"],
+          "de": "Ich würde gern einen Tisch für vier Personen reservieren."
+        },
+        { "type": "cloze", "text": "___ avere un altro tovagliolo?", "answers": ["Potrei"], "de": "Könnte ich noch eine Serviette haben?" },
+        {
+          "type": "cloze",
+          "text": "Scusi, mi ___ il conto, per favore?",
+          "answers": ["porta"],
+          "de": "Entschuldigung, bringen Sie mir bitte die Rechnung?",
+          "hint": "portare, Lei-Form"
+        },
+        { "type": "cloze", "text": "Come ___ piatto prendo la pasta.", "answers": ["primo"], "de": "Als ersten Gang nehme ich die Pasta." },
+        { "type": "translate", "de": "Was empfehlen Sie mir?", "answers": ["Cosa mi consiglia?", "Che cosa mi consiglia?", "Che mi consiglia?"] },
+        {
+          "type": "match",
+          "pairs": [
+            ["l'antipasto", "die Vorspeise"],
+            ["il primo", "der erste Gang"],
+            ["il secondo", "der Hauptgang"],
+            ["il contorno", "die Beilage"],
+            ["il dolce", "der Nachtisch"]
+          ]
+        },
+        { "type": "order", "de": "Bringen Sie uns bitte noch etwas Wasser?", "answer": "Ci porta ancora dell'acqua, per favore?" }
+      ]
+    },
+    {
+      "id": "ne-partitivo",
+      "title": "Davon: ne bei Mengen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit ne musst du ein Nomen nicht wiederholen, wenn du über eine Menge sprichst. Ne heißt etwa „davon“ – auf Deutsch lassen wir es meistens weg."
+        },
+        {
+          "type": "table",
+          "head": ["Frage", "Antwort mit ne", "Deutsch"],
+          "rows": [
+            ["Quante pizze prendete?", "Ne prendiamo tre.", "Wie viele Pizzen nehmt ihr? – Wir nehmen drei."],
+            ["Vuoi del pane?", "Sì, ne vorrei un pezzo.", "Möchtest du Brot? – Ja, ich hätte gern ein Stück."],
+            ["Quanti fratelli hai?", "Ne ho due.", "Wie viele Geschwister hast du? – Ich habe zwei."],
+            ["Quanti anni ha Sara?", "Ne ha trenta.", "Wie alt ist Sara? – Sie ist dreißig."],
+            ["Hai dell'acqua?", "No, non ne ho.", "Hast du Wasser? – Nein, ich habe keins."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ne steht wie die anderen Pronomen vor dem konjugierten Verb. Danach kommt die Menge: eine Zahl (due, tre), un po', un chilo, un bicchiere … – oder gar nichts (non ne ho)."
+        },
+        { "type": "tip", "text": "Im ganzen Satz gehört ne dazu: Quanti caffè? – Ne prendo due. Ganz kurz geht auch nur: Due, grazie." },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Quanti caffè? – Ne vorrei due, grazie.", "de": "Wie viele Espresso? – Ich hätte gern zwei, danke." },
+            { "text": "Il tiramisù è delizioso! Ne prendo ancora un po'.", "de": "Das Tiramisu ist köstlich! Ich nehme noch ein bisschen." },
+            {
+              "text": "Quante bottiglie di vino ordiniamo? – Ne ordiniamo una.",
+              "de": "Wie viele Flaschen Wein bestellen wir? – Wir bestellen eine."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Quante pizze volete? – ___ vogliamo due.",
+          "answers": ["Ne"],
+          "de": "Wie viele Pizzen wollt ihr? – Wir wollen zwei."
+        },
+        {
+          "type": "cloze",
+          "text": "Vuoi del formaggio? – Sì, ne ___ un po'.",
+          "answers": ["prendo", "vorrei", "voglio"],
+          "de": "Möchtest du Käse? – Ja, ich nehme ein bisschen.",
+          "hint": "prendere"
+        },
+        { "type": "cloze", "text": "Hai fratelli? – Sì, ___ ho tre.", "answers": ["ne"], "de": "Hast du Geschwister? – Ja, ich habe drei." },
+        { "type": "cloze", "text": "Hai del pane? – No, non ___ ho.", "answers": ["ne"], "de": "Hast du Brot? – Nein, ich habe keins." },
+        {
+          "type": "translate",
+          "de": "Ich hätte gern zwei (davon).",
+          "answers": ["Ne vorrei due.", "Ne vorrei due, per favore.", "Io ne vorrei due."]
+        },
+        { "type": "order", "de": "Wir nehmen drei, danke.", "answer": "Ne prendiamo tre, grazie." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Una cena in trattoria",
+    "title_de": "Ein Abendessen in der Trattoria",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "Buonasera! Vorrei prenotare un tavolo per due persone, sabato alle otto.",
+        "de": "Guten Abend! Ich würde gern einen Tisch für zwei Personen reservieren, Samstag um acht."
+      },
+      { "speaker": "Cameriere", "text": "Certo, signora. A che nome?", "de": "Gern. Auf welchen Namen?" },
+      { "speaker": "Lena", "text": "A nome Lena. Grazie, a sabato!", "de": "Auf den Namen Lena. Danke, bis Samstag!" },
+      {
+        "speaker": "Cameriere",
+        "text": "Buonasera, ragazze! Ecco il menù. Cosa vi porto da bere?",
+        "de": "Guten Abend, ihr beiden! Hier ist die Speisekarte. Was darf ich euch zu trinken bringen?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Un'acqua frizzante e due bicchieri di vino rosso, per favore.",
+        "de": "Ein Wasser mit Kohlensäure und zwei Gläser Rotwein, bitte."
+      },
+      { "speaker": "Cameriere", "text": "Perfetto. Avete già scelto?", "de": "Sehr gut. Habt ihr schon gewählt?" },
+      { "speaker": "Lena", "text": "Non ancora. Cosa ci consiglia?", "de": "Noch nicht. Was empfehlen Sie uns?" },
+      {
+        "speaker": "Cameriere",
+        "text": "Le tagliatelle al ragù. La pasta è fatta in casa: è la nostra specialità!",
+        "de": "Die Tagliatelle mit Ragù. Die Pasta ist hausgemacht – das ist unsere Spezialität!"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Allora per me le tagliatelle. E come secondo la bistecca con le patate.",
+        "de": "Dann für mich die Tagliatelle. Und als Hauptgang das Steak mit Kartoffeln."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Io sono vegetariana. Mi porta una zuppa di verdure e un'insalata, per favore?",
+        "de": "Ich bin Vegetarierin. Bringen Sie mir bitte eine Gemüsesuppe und einen Salat?"
+      },
+      {
+        "speaker": "Cameriere",
+        "text": "Allora, vi è piaciuto? Volete un dolce? Il tiramisù è delizioso.",
+        "de": "Na, hat es euch geschmeckt? Möchtet ihr einen Nachtisch? Das Tiramisu ist köstlich."
+      },
+      { "speaker": "Sara", "text": "Sì, grazie, ne prendiamo due. E poi due caffè.", "de": "Ja, danke, wir nehmen zwei. Und danach zwei Espresso." },
+      { "speaker": "Lena", "text": "Scusi, ci porta il conto, per favore?", "de": "Entschuldigung, bringen Sie uns bitte die Rechnung?" },
+      {
+        "speaker": "Cameriere",
+        "text": "Ecco il conto. Sono cinquantadue euro, con il coperto.",
+        "de": "Hier ist die Rechnung. Das macht zweiundfünfzig Euro, mit Gedeck."
+      },
+      { "speaker": "Lena", "text": "Sara, oggi ti offro io la cena!", "de": "Sara, heute lade ich dich zum Abendessen ein!" },
+      { "speaker": "Sara", "text": "Grazie, Lena! Allora dopo ti offro io un gelato!", "de": "Danke, Lena! Dann spendiere ich dir nachher ein Eis!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["la forchetta", "die Gabel"],
+        ["il coltello", "das Messer"],
+        ["il cucchiaio", "der Löffel"],
+        ["il tovagliolo", "die Serviette"],
+        ["il piatto", "der Teller"],
+        ["il bicchiere", "das Glas"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["il conto", "die Rechnung"],
+        ["la mancia", "das Trinkgeld"],
+        ["il coperto", "das Gedeck"],
+        ["la prenotazione", "die Reservierung"],
+        ["il menù", "die Speisekarte"]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich würde gern einen Tisch für zwei Personen reservieren.",
+      "answers": ["Vorrei prenotare un tavolo per due persone.", "Vorrei prenotare un tavolo per due."]
+    },
+    {
+      "type": "translate",
+      "de": "Die Rechnung, bitte!",
+      "answers": ["Il conto, per favore!", "Il conto, per piacere!", "Mi porta il conto, per favore?", "Ci porta il conto, per favore?"]
+    },
+    {
+      "type": "translate",
+      "de": "Ich habe Hunger und Durst.",
+      "answers": ["Ho fame e sete.", "Io ho fame e sete.", "Ho fame e ho sete.", "Io ho fame e ho sete."]
+    },
+    {
+      "type": "translate",
+      "de": "Ich esse kein Fleisch, ich bin Vegetarier.",
+      "answers": [
+        "Non mangio carne, sono vegetariano.",
+        "Non mangio la carne, sono vegetariano.",
+        "Io non mangio carne, sono vegetariano.",
+        "Non mangio carne, sono vegetariana.",
+        "Non mangio la carne, sono vegetariana.",
+        "Io non mangio carne, sono vegetariana.",
+        "Non mangio carne perché sono vegetariano.",
+        "Non mangio carne perché sono vegetariana."
+      ]
+    },
+    { "type": "cloze", "text": "Il coperto costa tre euro a ___.", "answers": ["persona"], "de": "Das Gedeck kostet drei Euro pro Person." },
+    { "type": "cloze", "text": "Questa pizza è ___? – Sì, un po'.", "answers": ["piccante"], "de": "Ist diese Pizza scharf? – Ja, ein bisschen." },
+    { "type": "order", "de": "Was nehmt ihr als ersten Gang?", "answer": "Cosa prendete come primo?" },
+    { "type": "order", "de": "Bringen Sie mir bitte noch ein Glas Wein?", "answer": "Mi porta un altro bicchiere di vino, per favore?" },
+    {
+      "type": "listen",
+      "text": "Per me la zuppa di verdure e poi il pesce con le patate.",
+      "de": "Für mich die Gemüsesuppe und danach den Fisch mit Kartoffeln."
+    },
+    { "type": "listen", "text": "Ecco le pizze, buon appetito!", "de": "Hier sind die Pizzen, guten Appetit!" }
+  ]
+}

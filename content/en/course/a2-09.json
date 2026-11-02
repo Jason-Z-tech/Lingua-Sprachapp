@@ -1,0 +1,1185 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-09",
+  "lang": "en",
+  "level": "A2",
+  "number": 9,
+  "title": "When I Was a Kid",
+  "title_de": "Früher",
+  "topic": "Kindheit und Erinnerungen",
+  "goals": [
+    "Du kannst mit used to erzählen, was du früher regelmäßig gemacht hast – und was heute anders ist.",
+    "Du kannst mit dem past continuous sagen, was gerade im Gange war: I was playing outside.",
+    "Du kannst mit when und while erzählen, was passierte, während etwas anderes lief.",
+    "Du kannst über deine Kindheit und deine Erinnerungen sprechen."
+  ],
+  "vocab": [
+    {
+      "id": "used-to",
+      "word": "used to",
+      "de": "früher (immer); hat früher …",
+      "pos": "phrase",
+      "example": {
+        "text": "I used to live in a small town.",
+        "de": "Früher habe ich in einer Kleinstadt gewohnt."
+      },
+      "note": "Nur für die Vergangenheit. Frage: Did you use to …? Verneint: I didn't use to …"
+    },
+    {
+      "id": "childhood",
+      "word": "childhood",
+      "de": "die Kindheit",
+      "pos": "noun",
+      "example": {
+        "text": "I had a really happy childhood.",
+        "de": "Ich hatte eine wirklich glückliche Kindheit."
+      }
+    },
+    {
+      "id": "when-i-was-a-kid",
+      "word": "when I was a kid",
+      "alt": [
+        "when I was a child"
+      ],
+      "de": "als ich ein Kind war; als Kind",
+      "pos": "phrase",
+      "example": {
+        "text": "When I was a kid, I used to play outside every day.",
+        "de": "Als Kind habe ich jeden Tag draußen gespielt."
+      },
+      "note": "Genauso: when I was little (als ich klein war), when I was ten (als ich zehn war)."
+    },
+    {
+      "id": "little",
+      "word": "little",
+      "de": "klein",
+      "pos": "adj",
+      "example": {
+        "text": "When I was little, I was scared of the dark.",
+        "de": "Als ich klein war, hatte ich Angst im Dunkeln."
+      },
+      "note": "little klingt oft lieb oder persönlich: my little brother (mein kleiner Bruder). a little heißt dagegen „ein bisschen“."
+    },
+    {
+      "id": "grow-up",
+      "word": "grow up",
+      "de": "aufwachsen; erwachsen werden",
+      "pos": "verb",
+      "forms": "grow up – grew up – grown up",
+      "example": {
+        "text": "I grew up in Vienna.",
+        "de": "Ich bin in Wien aufgewachsen.",
+        "focus": "grew up"
+      },
+      "note": "What do you want to be when you grow up? = Was willst du werden, wenn du groß bist?"
+    },
+    {
+      "id": "toy",
+      "word": "toy",
+      "plural": "toys",
+      "de": "das Spielzeug",
+      "pos": "noun",
+      "example": {
+        "text": "My little brother has a lot of toys.",
+        "de": "Mein kleiner Bruder hat viel Spielzeug.",
+        "focus": "toys"
+      },
+      "note": "Zählbar: a toy, two toys. Im Deutschen meist „Spielzeug“ ohne Mehrzahl."
+    },
+    {
+      "id": "doll",
+      "word": "doll",
+      "plural": "dolls",
+      "de": "die Puppe",
+      "pos": "noun",
+      "example": {
+        "text": "My sister used to play with dolls.",
+        "de": "Meine Schwester hat früher mit Puppen gespielt.",
+        "focus": "dolls"
+      }
+    },
+    {
+      "id": "hide-and-seek",
+      "word": "hide-and-seek",
+      "alt": [
+        "hide and seek"
+      ],
+      "de": "das Versteckspiel; Verstecken",
+      "pos": "noun",
+      "example": {
+        "text": "We used to play hide-and-seek in the yard.",
+        "de": "Wir haben früher im Garten Verstecken gespielt."
+      }
+    },
+    {
+      "id": "cartoon",
+      "word": "cartoon",
+      "plural": "cartoons",
+      "de": "der Zeichentrickfilm",
+      "pos": "noun",
+      "example": {
+        "text": "I used to watch cartoons every Saturday morning.",
+        "de": "Ich habe früher jeden Samstagmorgen Zeichentrickfilme geschaut.",
+        "focus": "cartoons"
+      }
+    },
+    {
+      "id": "candy",
+      "word": "candy",
+      "de": "die Süßigkeiten; das Bonbon",
+      "pos": "noun",
+      "example": {
+        "text": "Kids love candy.",
+        "de": "Kinder lieben Süßigkeiten."
+      },
+      "note": "Amerikanisch, meist nicht zählbar: some candy. Im britischen Englisch heißt das sweets."
+    },
+    {
+      "id": "elementary-school",
+      "word": "elementary school",
+      "plural": "elementary schools",
+      "de": "die Grundschule",
+      "pos": "noun",
+      "example": {
+        "text": "My elementary school was right next to our house.",
+        "de": "Meine Grundschule war direkt neben unserem Haus."
+      },
+      "note": "In den USA geht man etwa von 6 bis 11 Jahren auf die elementary school, danach auf die middle school und die high school."
+    },
+    {
+      "id": "classmate",
+      "word": "classmate",
+      "plural": "classmates",
+      "de": "der Mitschüler; die Mitschülerin",
+      "pos": "noun",
+      "example": {
+        "text": "I still meet my old classmates.",
+        "de": "Ich treffe meine alten Mitschüler immer noch.",
+        "focus": "classmates"
+      }
+    },
+    {
+      "id": "homework",
+      "word": "homework",
+      "de": "die Hausaufgaben",
+      "pos": "noun",
+      "example": {
+        "text": "We didn't have much homework.",
+        "de": "Wir hatten nicht viele Hausaufgaben."
+      },
+      "note": "Nicht zählbar: some homework, much homework – nicht „homeworks“. Hausaufgaben machen = do homework."
+    },
+    {
+      "id": "best-friend",
+      "word": "best friend",
+      "plural": "best friends",
+      "de": "der beste Freund; die beste Freundin",
+      "pos": "noun",
+      "example": {
+        "text": "Emma was my best friend in elementary school.",
+        "de": "Emma war in der Grundschule meine beste Freundin."
+      }
+    },
+    {
+      "id": "strict",
+      "word": "strict",
+      "de": "streng",
+      "pos": "adj",
+      "example": {
+        "text": "My parents were very strict.",
+        "de": "Meine Eltern waren sehr streng."
+      }
+    },
+    {
+      "id": "scared",
+      "word": "scared",
+      "de": "ängstlich; erschrocken",
+      "pos": "adj",
+      "example": {
+        "text": "I was scared of dogs when I was little.",
+        "de": "Als ich klein war, hatte ich Angst vor Hunden."
+      },
+      "note": "Angst haben vor = be scared of oder be afraid of."
+    },
+    {
+      "id": "alone",
+      "word": "alone",
+      "de": "allein",
+      "pos": "adj",
+      "example": {
+        "text": "I didn't like being home alone.",
+        "de": "Ich war nicht gern allein zu Hause."
+      }
+    },
+    {
+      "id": "town",
+      "word": "town",
+      "plural": "towns",
+      "de": "die Kleinstadt; die Stadt",
+      "pos": "noun",
+      "example": {
+        "text": "I grew up in a small town in Ohio.",
+        "de": "Ich bin in einer Kleinstadt in Ohio aufgewachsen."
+      },
+      "note": "town ist kleiner als city."
+    },
+    {
+      "id": "village",
+      "word": "village",
+      "plural": "villages",
+      "de": "das Dorf",
+      "pos": "noun",
+      "example": {
+        "text": "My grandparents live in a village.",
+        "de": "Meine Großeltern wohnen in einem Dorf."
+      }
+    },
+    {
+      "id": "countryside",
+      "word": "countryside",
+      "de": "das Land (nicht die Stadt)",
+      "pos": "noun",
+      "example": {
+        "text": "We used to spend the summer in the countryside.",
+        "de": "Den Sommer haben wir früher immer auf dem Land verbracht."
+      },
+      "note": "auf dem Land = in the countryside oder in the country."
+    },
+    {
+      "id": "farm",
+      "word": "farm",
+      "plural": "farms",
+      "de": "der Bauernhof; die Farm",
+      "pos": "noun",
+      "example": {
+        "text": "My uncle has a farm with cows and horses.",
+        "de": "Mein Onkel hat einen Bauernhof mit Kühen und Pferden."
+      }
+    },
+    {
+      "id": "tree",
+      "word": "tree",
+      "plural": "trees",
+      "de": "der Baum",
+      "pos": "noun",
+      "example": {
+        "text": "There was a big tree in front of our house.",
+        "de": "Vor unserem Haus stand ein großer Baum."
+      }
+    },
+    {
+      "id": "climb",
+      "word": "climb",
+      "de": "klettern; steigen",
+      "pos": "verb",
+      "example": {
+        "text": "We used to climb trees in the park.",
+        "de": "Wir sind früher im Park auf Bäume geklettert."
+      },
+      "note": "Das b am Ende spricht man nicht: [klaɪm]."
+    },
+    {
+      "id": "neighborhood",
+      "word": "neighborhood",
+      "alt": [
+        "neighbourhood"
+      ],
+      "plural": "neighborhoods",
+      "de": "die Gegend; das Viertel; die Nachbarschaft",
+      "pos": "noun",
+      "example": {
+        "text": "It was a quiet neighborhood with a lot of kids.",
+        "de": "Es war eine ruhige Gegend mit vielen Kindern."
+      },
+      "note": "Britisch: neighbourhood."
+    },
+    {
+      "id": "neighbor",
+      "word": "neighbor",
+      "alt": [
+        "neighbour"
+      ],
+      "plural": "neighbors",
+      "de": "der Nachbar; die Nachbarin",
+      "pos": "noun",
+      "example": {
+        "text": "Our neighbor used to give us candy.",
+        "de": "Unsere Nachbarin hat uns früher immer Süßigkeiten geschenkt."
+      },
+      "note": "Britisch: neighbour."
+    },
+    {
+      "id": "remember",
+      "word": "remember",
+      "de": "sich erinnern (an)",
+      "pos": "verb",
+      "example": {
+        "text": "Do you remember your first teacher?",
+        "de": "Erinnerst du dich an deine erste Lehrerin?"
+      },
+      "note": "Ohne an und ohne sich: I remember her. (Ich erinnere mich an sie.)"
+    },
+    {
+      "id": "miss",
+      "word": "miss",
+      "de": "vermissen; verpassen",
+      "pos": "verb",
+      "example": {
+        "text": "I miss my old friends.",
+        "de": "Ich vermisse meine alten Freunde."
+      },
+      "note": "miss heißt auch „verpassen“: I missed the bus. (Ich habe den Bus verpasst.)"
+    },
+    {
+      "id": "playground",
+      "word": "playground",
+      "plural": "playgrounds",
+      "de": "der Spielplatz",
+      "pos": "noun",
+      "example": {
+        "text": "There was a playground behind our school.",
+        "de": "Hinter unserer Schule war ein Spielplatz."
+      }
+    },
+    {
+      "id": "fall-off",
+      "word": "fall off",
+      "de": "herunterfallen (von)",
+      "pos": "verb",
+      "forms": "fall off – fell off – fallen off",
+      "example": {
+        "text": "I fell off my bike and hurt my knee.",
+        "de": "Ich bin vom Fahrrad gefallen und habe mir das Knie verletzt.",
+        "focus": "fell off"
+      }
+    },
+    {
+      "id": "suddenly",
+      "word": "suddenly",
+      "de": "plötzlich",
+      "pos": "adv",
+      "example": {
+        "text": "Suddenly, the lights went out.",
+        "de": "Plötzlich ging das Licht aus."
+      }
+    },
+    {
+      "id": "while",
+      "word": "while",
+      "de": "während",
+      "pos": "conj",
+      "example": {
+        "text": "While I was cooking, the phone rang.",
+        "de": "Während ich kochte, klingelte das Telefon."
+      },
+      "note": "Nach while steht meist das past continuous: while I was …"
+    },
+    {
+      "id": "fight",
+      "word": "fight",
+      "de": "sich streiten; kämpfen",
+      "pos": "verb",
+      "forms": "fight – fought – fought",
+      "example": {
+        "text": "My brother and I used to fight a lot.",
+        "de": "Mein Bruder und ich haben uns früher oft gestritten."
+      }
+    },
+    {
+      "id": "share",
+      "word": "share",
+      "de": "teilen",
+      "pos": "verb",
+      "example": {
+        "text": "I had to share a room with my sister.",
+        "de": "Ich musste mir ein Zimmer mit meiner Schwester teilen."
+      }
+    },
+    {
+      "id": "collect",
+      "word": "collect",
+      "de": "sammeln",
+      "pos": "verb",
+      "example": {
+        "text": "I used to collect stamps.",
+        "de": "Ich habe früher Briefmarken gesammelt."
+      }
+    },
+    {
+      "id": "stamp",
+      "word": "stamp",
+      "plural": "stamps",
+      "de": "die Briefmarke",
+      "pos": "noun",
+      "example": {
+        "text": "My grandpa has a lot of old stamps.",
+        "de": "Mein Opa hat viele alte Briefmarken.",
+        "focus": "stamps"
+      }
+    },
+    {
+      "id": "comic-book",
+      "word": "comic book",
+      "plural": "comic books",
+      "de": "das Comicheft; der Comic",
+      "pos": "noun",
+      "example": {
+        "text": "I used to read comic books in bed.",
+        "de": "Ich habe früher im Bett Comics gelesen.",
+        "focus": "comic books"
+      }
+    },
+    {
+      "id": "move",
+      "word": "move",
+      "de": "umziehen; bewegen",
+      "pos": "verb",
+      "example": {
+        "text": "We moved to New York when I was ten.",
+        "de": "Wir sind nach New York gezogen, als ich zehn war.",
+        "focus": "moved"
+      },
+      "note": "umziehen = move. Sich umziehen (Kleidung wechseln) heißt dagegen get changed."
+    },
+    {
+      "id": "back-then",
+      "word": "back then",
+      "de": "damals",
+      "pos": "phrase",
+      "example": {
+        "text": "Back then, we didn't have cell phones.",
+        "de": "Damals hatten wir keine Handys."
+      }
+    },
+    {
+      "id": "anymore",
+      "word": "anymore",
+      "alt": [
+        "any more"
+      ],
+      "de": "nicht mehr (mit not)",
+      "pos": "adv",
+      "example": {
+        "text": "I don't play the piano anymore.",
+        "de": "Ich spiele nicht mehr Klavier."
+      },
+      "note": "Steht mit not am Satzende: I don't live there anymore."
+    },
+    {
+      "id": "still",
+      "word": "still",
+      "de": "(immer) noch",
+      "pos": "adv",
+      "example": {
+        "text": "Do you still live there?",
+        "de": "Wohnst du immer noch dort?"
+      },
+      "note": "Steht vor dem Hauptverb, aber nach be: I'm still tired."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "used-to",
+      "title": "Früher: used to",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit used to + Grundform sagst du, was früher regelmäßig so war – heute aber nicht mehr. Im Deutschen sagst du dafür oft „früher“ oder „immer“."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Satzart",
+            "Englisch",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "positiv",
+              "I used to play soccer.",
+              "Früher habe ich Fußball gespielt."
+            ],
+            [
+              "verneint",
+              "I didn't use to like fish.",
+              "Früher mochte ich keinen Fisch."
+            ],
+            [
+              "Frage",
+              "Did you use to have a pet?",
+              "Hattest du früher ein Haustier?"
+            ],
+            [
+              "Kurzantwort",
+              "Yes, I did. / No, I didn't.",
+              "Ja. / Nein."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "used to ist für alle Personen gleich: I used to, she used to, they used to. Nach did und didn't fällt das -d weg: Did you use to …? I didn't use to …"
+        },
+        {
+          "type": "tip",
+          "text": "used to gibt es nur in der Vergangenheit. Für die Gegenwart nimmst du das simple present, oft mit usually: I usually walk to work."
+        },
+        {
+          "type": "p",
+          "text": "Oft passt auch das simple past. Mit used to betonst du aber: Das war damals eine Gewohnheit – heute ist es anders. Für ein einzelnes Ereignis geht nur das simple past: We moved to Boston in 2010. (Nicht: We used to move …)"
+        },
+        {
+          "type": "tip",
+          "text": "Dazu passen not … anymore (nicht mehr) und still (immer noch): I used to live in Vienna, but I don't live there anymore. – Do you still play tennis?"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "When I was a kid, I used to climb trees.",
+              "de": "Als Kind bin ich immer auf Bäume geklettert."
+            },
+            {
+              "text": "My dad used to read to me every night.",
+              "de": "Mein Vater hat mir früher jeden Abend vorgelesen."
+            },
+            {
+              "text": "We didn't use to have a TV.",
+              "de": "Früher hatten wir keinen Fernseher."
+            },
+            {
+              "text": "Did you use to watch cartoons? – Yes, I did. Every Saturday morning!",
+              "de": "Hast du früher Zeichentrickfilme geschaut? – Ja. Jeden Samstagmorgen!"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "When I was a kid, I ___ to play outside every day.",
+          "answers": [
+            "used"
+          ],
+          "de": "Als Kind habe ich jeden Tag draußen gespielt."
+        },
+        {
+          "type": "cloze",
+          "text": "Did you ___ to have a pet?",
+          "answers": [
+            "use"
+          ],
+          "de": "Hattest du früher ein Haustier?",
+          "hint": "use / used"
+        },
+        {
+          "type": "cloze",
+          "text": "I didn't ___ to like vegetables, but now I love them.",
+          "answers": [
+            "use"
+          ],
+          "de": "Früher mochte ich kein Gemüse, aber jetzt liebe ich es.",
+          "hint": "use / used"
+        },
+        {
+          "type": "cloze",
+          "text": "I used to play the piano, but I don't play ___.",
+          "answers": [
+            "anymore",
+            "any more"
+          ],
+          "de": "Früher habe ich Klavier gespielt, aber jetzt spiele ich nicht mehr."
+        },
+        {
+          "type": "cloze",
+          "text": "Do you ___ live in Vienna? – Yes, I do.",
+          "answers": [
+            "still"
+          ],
+          "de": "Wohnst du immer noch in Wien? – Ja."
+        },
+        {
+          "type": "translate",
+          "de": "Früher hatte ich lange Haare.",
+          "answers": [
+            "I used to have long hair."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Hast du früher Fußball gespielt?",
+          "answers": [
+            "Did you use to play soccer?",
+            "Did you use to play football?"
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Wir sind früher jeden Sommer zelten gegangen.",
+          "answer": "We used to go camping every summer.",
+          "distractors": [
+            "use"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "title": "Das past continuous: I was playing …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem past continuous sagst du, was zu einem bestimmten Zeitpunkt in der Vergangenheit gerade im Gange war. Du bildest es mit was oder were + Verb mit -ing."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Person",
+            "positiv",
+            "verneint",
+            "Frage"
+          ],
+          "rows": [
+            [
+              "I / he / she / it",
+              "I was reading.",
+              "I wasn't reading.",
+              "Was she reading?"
+            ],
+            [
+              "you / we / they",
+              "We were reading.",
+              "We weren't reading.",
+              "Were they reading?"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Es funktioniert wie das present continuous aus A1 – nur mit was oder were statt am, is oder are: I'm reading. → I was reading."
+        },
+        {
+          "type": "p",
+          "text": "Typisch ist eine genaue Zeitangabe in der Vergangenheit:"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "What were you doing at eight o'clock last night? – I was watching TV.",
+              "de": "Was hast du gestern Abend um acht gemacht? – Ich habe ferngesehen."
+            },
+            {
+              "text": "At noon, we were having lunch.",
+              "de": "Um zwölf waren wir gerade beim Mittagessen."
+            },
+            {
+              "text": "It was raining all day.",
+              "de": "Es hat den ganzen Tag geregnet."
+            },
+            {
+              "text": "The kids weren't sleeping. They were reading comic books!",
+              "de": "Die Kinder haben nicht geschlafen. Sie haben Comics gelesen!"
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Im Deutschen gibt es keine eigene Form dafür. Oft hilft „gerade“ oder „beim …“: I was cooking. = Ich war gerade beim Kochen."
+        },
+        {
+          "type": "tip",
+          "text": "Verben wie like, love, know, want und have (besitzen) stehen fast nie in der -ing-Form: I knew him. (Nicht: I was knowing him.)"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "At nine o'clock, I ___ watching cartoons.",
+          "answers": [
+            "was"
+          ],
+          "de": "Um neun Uhr habe ich gerade Zeichentrickfilme geschaut.",
+          "hint": "was / were"
+        },
+        {
+          "type": "cloze",
+          "text": "What ___ you doing at six p.m.?",
+          "answers": [
+            "were"
+          ],
+          "de": "Was hast du um 18 Uhr gemacht?",
+          "hint": "was / were"
+        },
+        {
+          "type": "cloze",
+          "text": "The kids ___ playing in the yard.",
+          "answers": [
+            "were"
+          ],
+          "de": "Die Kinder spielten gerade im Garten.",
+          "hint": "was / were"
+        },
+        {
+          "type": "cloze",
+          "text": "It ___ raining, so we stayed home.",
+          "answers": [
+            "was"
+          ],
+          "de": "Es regnete, also sind wir zu Hause geblieben.",
+          "hint": "was / were"
+        },
+        {
+          "type": "cloze",
+          "text": "We weren't ___ TV. We were doing our homework.",
+          "answers": [
+            "watching"
+          ],
+          "de": "Wir haben nicht ferngesehen. Wir haben Hausaufgaben gemacht.",
+          "hint": "watch"
+        },
+        {
+          "type": "translate",
+          "de": "Was hast du um acht Uhr gemacht?",
+          "answers": [
+            "What were you doing at eight?",
+            "What were you doing at eight o'clock?",
+            "What were you doing at 8?",
+            "What were you doing at 8 o'clock?",
+            "What were you doing at 8:00?",
+            "What did you do at eight?",
+            "What did you do at eight o'clock?",
+            "What did you do at 8?",
+            "What did you do at 8 o'clock?",
+            "What did you do at 8:00?"
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Sie hat gerade ihre Hausaufgaben gemacht.",
+          "answer": "She was doing her homework.",
+          "distractors": [
+            "were"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-while",
+      "title": "when und while: Was passierte, während …?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Oft erzählst du zwei Dinge zusammen: Eine längere Handlung war gerade im Gange (past continuous) – dann passierte plötzlich etwas Kurzes (simple past)."
+        },
+        {
+          "type": "table",
+          "head": [
+            "längere Handlung: past continuous",
+            "kurze Handlung: simple past"
+          ],
+          "rows": [
+            [
+              "I was riding my bike",
+              "when I fell off."
+            ],
+            [
+              "We were playing hide-and-seek",
+              "when it started to rain."
+            ],
+            [
+              "While Mom was cooking,",
+              "the phone rang."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "when (als) steht meist vor der kurzen Handlung, while (während) vor der längeren:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I was walking home when I saw an old friend. (Ich ging gerade nach Hause, als ich einen alten Freund sah.)",
+            "While I was walking home, I saw an old friend. (Während ich nach Hause ging, sah ich einen alten Freund.)"
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Beginnt der Satz mit When oder While, steht nach dem ersten Teil ein Komma: While we were sleeping, the dog ate the cake."
+        },
+        {
+          "type": "tip",
+          "text": "Zwei kurze Handlungen nacheinander stehen beide im simple past: When I saw the dog, I ran home. (Als ich den Hund sah, rannte ich nach Hause.)"
+        },
+        {
+          "type": "tip",
+          "text": "Das deutsche „als“ bei Vergleichen ist than (taller than me) – in Erzählungen ist es when."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "I was doing my homework when you called.",
+              "de": "Ich habe gerade Hausaufgaben gemacht, als du angerufen hast."
+            },
+            {
+              "text": "While Paul was sleeping, I ate his candy.",
+              "de": "Während Paul schlief, habe ich seine Süßigkeiten gegessen."
+            },
+            {
+              "text": "What were you doing when the lights went out?",
+              "de": "Was hast du gerade gemacht, als das Licht ausging?"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "I was riding my bike ___ I fell off.",
+          "answers": [
+            "when"
+          ],
+          "de": "Ich fuhr gerade Fahrrad, als ich herunterfiel.",
+          "hint": "when / while"
+        },
+        {
+          "type": "cloze",
+          "text": "___ we were playing outside, it started to rain.",
+          "answers": [
+            "While"
+          ],
+          "de": "Während wir draußen spielten, fing es an zu regnen.",
+          "hint": "when / while"
+        },
+        {
+          "type": "cloze",
+          "text": "We were watching a movie when the lights suddenly ___ out.",
+          "answers": [
+            "went"
+          ],
+          "de": "Wir schauten gerade einen Film, als plötzlich das Licht ausging.",
+          "hint": "go"
+        },
+        {
+          "type": "cloze",
+          "text": "What were you doing when I ___ you?",
+          "answers": [
+            "called"
+          ],
+          "de": "Was hast du gerade gemacht, als ich dich angerufen habe?",
+          "hint": "call"
+        },
+        {
+          "type": "cloze",
+          "text": "She ___ reading when the phone rang.",
+          "answers": [
+            "was"
+          ],
+          "de": "Sie las gerade, als das Telefon klingelte.",
+          "hint": "was / were"
+        },
+        {
+          "type": "translate",
+          "de": "Als ich klein war, hatte ich Angst vor Hunden.",
+          "answers": [
+            "When I was little, I was scared of dogs.",
+            "When I was little, I was afraid of dogs.",
+            "When I was a kid, I was scared of dogs.",
+            "When I was a kid, I was afraid of dogs.",
+            "When I was a child, I was scared of dogs.",
+            "When I was a child, I was afraid of dogs.",
+            "When I was young, I was scared of dogs.",
+            "When I was young, I was afraid of dogs.",
+            "I was scared of dogs when I was little.",
+            "I was scared of dogs when I was a kid.",
+            "I was scared of dogs when I was a child.",
+            "I was scared of dogs when I was young.",
+            "I was afraid of dogs when I was little.",
+            "I was afraid of dogs when I was a kid.",
+            "I was afraid of dogs when I was a child.",
+            "I was afraid of dogs when I was young."
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Während ich schlief, hat der Hund den Kuchen gegessen.",
+          "answer": "While I was sleeping, the dog ate the cake.",
+          "distractors": [
+            "when"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": [
+            "I was walking home when I was seeing Jake.",
+            "I was walking home when I saw Jake.",
+            "I walked home when I was seeing Jake."
+          ],
+          "answer": 1,
+          "explain": "Die längere Handlung steht im past continuous (was walking), die kurze im simple past (saw)."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Old Photos",
+    "title_de": "Alte Fotos",
+    "lines": [
+      {
+        "speaker": "Carlos",
+        "text": "What's this, Lena? Is that you?",
+        "de": "Was ist das, Lena? Bist du das?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes! That's me when I was six. I grew up in a small village near Salzburg.",
+        "de": "Ja! Das bin ich mit sechs. Ich bin in einem kleinen Dorf bei Salzburg aufgewachsen."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Ha, you look so different! Did you use to live on a farm?",
+        "de": "Ha, du siehst so anders aus! Habt ihr früher auf einem Bauernhof gewohnt?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "No, but my grandparents had a farm. We used to visit them every weekend.",
+        "de": "Nein, aber meine Großeltern hatten einen Bauernhof. Wir haben sie jedes Wochenende besucht."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "That sounds great. What did you use to do there?",
+        "de": "Das klingt toll. Was habt ihr dort immer gemacht?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "My brother Paul and I used to climb trees and play hide-and-seek. And we used to fight a lot!",
+        "de": "Mein Bruder Paul und ich sind auf Bäume geklettert und haben Verstecken gespielt. Und wir haben uns oft gestritten!"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Ha! My sisters and I fought all the time, too. But I grew up in Madrid, so we used to play soccer in the street.",
+        "de": "Ha! Meine Schwestern und ich haben uns auch ständig gestritten. Aber ich bin in Madrid aufgewachsen, deshalb haben wir immer auf der Straße Fußball gespielt."
+      },
+      {
+        "speaker": "Lena",
+        "text": "And this photo is from the day I broke my arm.",
+        "de": "Und dieses Foto ist von dem Tag, an dem ich mir den Arm gebrochen habe."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Oh no! What happened?",
+        "de": "Oh nein! Was ist passiert?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "I was riding my bike to school when suddenly a dog ran into the street. I fell off.",
+        "de": "Ich fuhr gerade mit dem Fahrrad zur Schule, als plötzlich ein Hund auf die Straße lief. Ich bin heruntergefallen."
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Poor you! Were you scared of dogs after that?",
+        "de": "Du Arme! Hattest du danach Angst vor Hunden?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes, I was. But I'm not scared of them anymore. I love Bruno, my grandparents' dog!",
+        "de": "Ja. Aber jetzt habe ich keine Angst mehr vor ihnen. Ich liebe Bruno, den Hund meiner Großeltern!"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "Do you miss your childhood?",
+        "de": "Vermisst du deine Kindheit?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sometimes. Life was easy back then. We didn't have much homework – just toys and candy!",
+        "de": "Manchmal. Damals war das Leben einfach. Wir hatten nicht viele Hausaufgaben – nur Spielzeug und Süßigkeiten!"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "And now you have to work every day!",
+        "de": "Und jetzt musst du jeden Tag arbeiten!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes! But I still love candy. Would you like some?",
+        "de": "Ja! Aber Süßigkeiten liebe ich immer noch. Möchtest du welche?"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "toy",
+          "das Spielzeug"
+        ],
+        [
+          "doll",
+          "die Puppe"
+        ],
+        [
+          "tree",
+          "der Baum"
+        ],
+        [
+          "farm",
+          "der Bauernhof"
+        ],
+        [
+          "village",
+          "das Dorf"
+        ],
+        [
+          "candy",
+          "die Süßigkeiten"
+        ]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "grow up",
+          "aufwachsen"
+        ],
+        [
+          "climb",
+          "klettern"
+        ],
+        [
+          "remember",
+          "sich erinnern"
+        ],
+        [
+          "miss",
+          "vermissen"
+        ],
+        [
+          "collect",
+          "sammeln"
+        ],
+        [
+          "share",
+          "teilen"
+        ]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich bin in einem kleinen Dorf aufgewachsen.",
+      "answers": [
+        "I grew up in a small village.",
+        "I grew up in a little village."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Erinnerst du dich an deine erste Lehrerin?",
+      "answers": [
+        "Do you remember your first teacher?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Damals hatten wir keine Handys.",
+      "answers": [
+        "Back then, we didn't have cell phones.",
+        "Back then, we didn't have cellphones.",
+        "Back then, we didn't have mobile phones.",
+        "Back then, we didn't have phones.",
+        "Back then, we did not have cell phones.",
+        "Back then, we did not have cellphones.",
+        "Back then, we did not have mobile phones.",
+        "Back then, we did not have phones.",
+        "At that time, we didn't have cell phones.",
+        "At that time, we didn't have cellphones.",
+        "At that time, we didn't have mobile phones.",
+        "At that time, we didn't have phones.",
+        "At that time, we did not have cell phones.",
+        "At that time, we did not have cellphones.",
+        "At that time, we did not have mobile phones.",
+        "At that time, we did not have phones.",
+        "We didn't have cell phones back then.",
+        "We didn't have cell phones at that time.",
+        "We didn't have cellphones back then.",
+        "We didn't have cellphones at that time.",
+        "We didn't have mobile phones back then.",
+        "We didn't have mobile phones at that time.",
+        "We didn't have phones back then.",
+        "We didn't have phones at that time.",
+        "We did not have cell phones back then.",
+        "We did not have cell phones at that time.",
+        "We did not have cellphones back then.",
+        "We did not have cellphones at that time.",
+        "We did not have mobile phones back then.",
+        "We did not have mobile phones at that time.",
+        "We did not have phones back then.",
+        "We did not have phones at that time."
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "My brother and I had to ___ a room.",
+      "answers": [
+        "share"
+      ],
+      "de": "Mein Bruder und ich mussten uns ein Zimmer teilen."
+    },
+    {
+      "type": "cloze",
+      "text": "I really ___ my best friend from elementary school.",
+      "answers": [
+        "miss"
+      ],
+      "de": "Ich vermisse meine beste Freundin aus der Grundschule sehr."
+    },
+    {
+      "type": "cloze",
+      "text": "What ___? – I fell off my bike.",
+      "answers": [
+        "happened"
+      ],
+      "de": "Was ist passiert? – Ich bin vom Fahrrad gefallen."
+    },
+    {
+      "type": "cloze",
+      "text": "Do you still live in your old ___? – No, we moved.",
+      "answers": [
+        "neighborhood",
+        "neighbourhood"
+      ],
+      "de": "Wohnst du noch in deiner alten Gegend? – Nein, wir sind umgezogen."
+    },
+    {
+      "type": "order",
+      "de": "Mein Opa war früher sehr streng.",
+      "answer": "My grandpa used to be very strict.",
+      "distractors": [
+        "use"
+      ]
+    },
+    {
+      "type": "order",
+      "de": "Ich habe gerade Hausaufgaben gemacht, als du angerufen hast.",
+      "answer": "I was doing my homework when you called.",
+      "distractors": [
+        "did"
+      ]
+    },
+    {
+      "type": "listen",
+      "text": "When I was a kid, I used to collect stamps and comic books.",
+      "de": "Als Kind habe ich Briefmarken und Comics gesammelt."
+    },
+    {
+      "type": "listen",
+      "text": "We were playing in the yard when it suddenly started to snow.",
+      "de": "Wir spielten gerade im Garten, als es plötzlich anfing zu schneien."
+    }
+  ]
+}

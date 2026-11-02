@@ -1,0 +1,1244 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-08",
+  "lang": "en",
+  "level": "A2",
+  "number": 8,
+  "title": "Describing People",
+  "title_de": "Menschen beschreiben",
+  "topic": "Aussehen und Charakter",
+  "goals": [
+    "Du kannst beschreiben, wie jemand aussieht: He's tall, she has curly hair, he wears glasses.",
+    "Du kannst über den Charakter sprechen und den Unterschied zwischen What does she look like? und What's she like? erklären.",
+    "Du kannst Beschreibungen mit really, pretty und a bit verstärken oder abschwächen.",
+    "Du kannst -ed- und -ing-Adjektive richtig benutzen: bored oder boring."
+  ],
+  "vocab": [
+    {
+      "id": "look-like",
+      "word": "look like",
+      "de": "aussehen (wie)",
+      "pos": "phrase",
+      "example": {
+        "text": "What does your brother look like?",
+        "de": "Wie sieht dein Bruder aus?"
+      },
+      "note": "What does he look like? fragt nach dem Aussehen. In der Antwort steht kein like: He's tall."
+    },
+    {
+      "id": "whats-he-like",
+      "word": "what's he like?",
+      "alt": [
+        "what is he like?"
+      ],
+      "de": "wie ist er so? (Charakter)",
+      "pos": "phrase",
+      "example": {
+        "text": "What's he like? – He's really nice.",
+        "de": "Wie ist er so? – Er ist echt nett."
+      },
+      "note": "Fragt nach dem Charakter. Genauso: What's she like? What are they like?"
+    },
+    {
+      "id": "look",
+      "word": "look",
+      "de": "aussehen (+ Adjektiv); schauen",
+      "pos": "verb",
+      "example": {
+        "text": "You look tired. Are you OK?",
+        "de": "Du siehst müde aus. Alles okay?"
+      },
+      "note": "look + Adjektiv ohne like: You look great! Aber look like + Nomen: He looks like his dad."
+    },
+    {
+      "id": "tall",
+      "word": "tall",
+      "de": "groß (Person)",
+      "pos": "adj",
+      "example": {
+        "text": "Jake is very tall.",
+        "de": "Jake ist sehr groß."
+      },
+      "note": "Bei Menschen sagt man tall, nicht big. big klingt bei Menschen eher nach „kräftig“."
+    },
+    {
+      "id": "short",
+      "word": "short",
+      "de": "klein (Person); kurz",
+      "pos": "adj",
+      "example": {
+        "text": "My sister is short and has short hair.",
+        "de": "Meine Schwester ist klein und hat kurze Haare."
+      }
+    },
+    {
+      "id": "hair",
+      "word": "hair",
+      "de": "das Haar; die Haare",
+      "pos": "noun",
+      "example": {
+        "text": "She has long hair.",
+        "de": "Sie hat lange Haare."
+      },
+      "note": "Nicht zählbar: She has long hair. – nicht „long hairs“ und ohne a."
+    },
+    {
+      "id": "eye",
+      "word": "eye",
+      "plural": "eyes",
+      "de": "das Auge",
+      "pos": "noun",
+      "example": {
+        "text": "He has blue eyes.",
+        "de": "Er hat blaue Augen.",
+        "focus": "eyes"
+      }
+    },
+    {
+      "id": "long",
+      "word": "long",
+      "de": "lang",
+      "pos": "adj",
+      "example": {
+        "text": "Emma has long red hair.",
+        "de": "Emma hat lange rote Haare."
+      }
+    },
+    {
+      "id": "curly",
+      "word": "curly",
+      "de": "lockig",
+      "pos": "adj",
+      "example": {
+        "text": "Sofia has curly hair.",
+        "de": "Sofia hat lockige Haare."
+      },
+      "note": "curly hair = Locken."
+    },
+    {
+      "id": "straight",
+      "word": "straight",
+      "de": "glatt (Haare); gerade",
+      "pos": "adj",
+      "example": {
+        "text": "Yuki has straight black hair.",
+        "de": "Yuki hat glatte schwarze Haare."
+      },
+      "note": "go straight (geradeaus gehen) kennst du schon aus A1."
+    },
+    {
+      "id": "blond",
+      "word": "blond",
+      "alt": [
+        "blonde"
+      ],
+      "de": "blond",
+      "pos": "adj",
+      "example": {
+        "text": "Mia has blond hair, like her mom.",
+        "de": "Mia hat blonde Haare, wie ihre Mutter."
+      },
+      "note": "Bei Frauen schreibt man oft blonde: She's blonde."
+    },
+    {
+      "id": "dark",
+      "word": "dark",
+      "de": "dunkel",
+      "pos": "adj",
+      "example": {
+        "text": "She has dark hair and brown eyes.",
+        "de": "Sie hat dunkle Haare und braune Augen."
+      }
+    },
+    {
+      "id": "beard",
+      "word": "beard",
+      "plural": "beards",
+      "de": "der Bart",
+      "pos": "noun",
+      "example": {
+        "text": "My dad has a gray beard.",
+        "de": "Mein Vater hat einen grauen Bart."
+      },
+      "note": "Ein Schnurrbart heißt mustache."
+    },
+    {
+      "id": "glasses",
+      "word": "glasses",
+      "de": "die Brille",
+      "pos": "noun",
+      "example": {
+        "text": "Lena wears glasses.",
+        "de": "Lena trägt eine Brille."
+      },
+      "note": "Immer Mehrzahl: My glasses are new. (Meine Brille ist neu.) Eine Brille = a pair of glasses."
+    },
+    {
+      "id": "young",
+      "word": "young",
+      "de": "jung",
+      "pos": "adj",
+      "example": {
+        "text": "Our teacher is young and really nice.",
+        "de": "Unser Lehrer ist jung und echt nett."
+      }
+    },
+    {
+      "id": "slim",
+      "word": "slim",
+      "de": "schlank",
+      "pos": "adj",
+      "example": {
+        "text": "He's tall and slim.",
+        "de": "Er ist groß und schlank."
+      },
+      "note": "thin heißt „dünn“ und klingt manchmal negativ. slim ist ein Kompliment."
+    },
+    {
+      "id": "good-looking",
+      "word": "good-looking",
+      "alt": [
+        "good looking"
+      ],
+      "de": "gut aussehend",
+      "pos": "adj",
+      "example": {
+        "text": "Her boyfriend is really good-looking.",
+        "de": "Ihr Freund sieht echt gut aus."
+      }
+    },
+    {
+      "id": "beautiful",
+      "word": "beautiful",
+      "de": "schön; wunderschön",
+      "pos": "adj",
+      "example": {
+        "text": "Your daughter is beautiful!",
+        "de": "Deine Tochter ist wunderschön!"
+      },
+      "note": "Für Männer sagt man eher handsome oder good-looking."
+    },
+    {
+      "id": "pretty",
+      "word": "pretty",
+      "de": "hübsch; ziemlich",
+      "pos": "adj",
+      "example": {
+        "text": "She's pretty, and she's pretty funny, too.",
+        "de": "Sie ist hübsch, und sie ist auch ziemlich lustig."
+      },
+      "note": "Zwei Bedeutungen: als Adjektiv „hübsch“, vor einem Adjektiv „ziemlich“: pretty good (ziemlich gut)."
+    },
+    {
+      "id": "a-bit",
+      "word": "a bit",
+      "de": "ein bisschen; etwas",
+      "pos": "phrase",
+      "example": {
+        "text": "He's a bit shy.",
+        "de": "Er ist ein bisschen schüchtern."
+      },
+      "note": "Meist bei negativen Eigenschaften: a bit lazy, a bit boring."
+    },
+    {
+      "id": "very",
+      "word": "very",
+      "de": "sehr",
+      "pos": "adv",
+      "example": {
+        "text": "My grandma is very kind.",
+        "de": "Meine Oma ist sehr lieb."
+      }
+    },
+    {
+      "id": "friendly",
+      "word": "friendly",
+      "de": "freundlich",
+      "pos": "adj",
+      "example": {
+        "text": "The people here are very friendly.",
+        "de": "Die Leute hier sind sehr freundlich."
+      }
+    },
+    {
+      "id": "funny",
+      "word": "funny",
+      "de": "lustig; witzig",
+      "pos": "adj",
+      "example": {
+        "text": "Carlos is really funny.",
+        "de": "Carlos ist echt witzig."
+      },
+      "note": "Nicht verwechseln: fun = der Spaß, funny = lustig."
+    },
+    {
+      "id": "kind",
+      "word": "kind",
+      "de": "nett; lieb; freundlich",
+      "pos": "adj",
+      "example": {
+        "text": "That's very kind of you!",
+        "de": "Das ist sehr nett von dir!"
+      }
+    },
+    {
+      "id": "shy",
+      "word": "shy",
+      "de": "schüchtern",
+      "pos": "adj",
+      "example": {
+        "text": "Max is a bit shy with new people.",
+        "de": "Max ist bei neuen Leuten ein bisschen schüchtern."
+      }
+    },
+    {
+      "id": "smart",
+      "word": "smart",
+      "de": "klug; schlau",
+      "pos": "adj",
+      "example": {
+        "text": "Yuki is very smart.",
+        "de": "Yuki ist sehr klug."
+      },
+      "note": "Amerikanisch: smart = klug. Im britischen Englisch heißt smart oft „elegant“."
+    },
+    {
+      "id": "lazy",
+      "word": "lazy",
+      "de": "faul",
+      "pos": "adj",
+      "example": {
+        "text": "My brother is a bit lazy.",
+        "de": "Mein Bruder ist ein bisschen faul."
+      }
+    },
+    {
+      "id": "rude",
+      "word": "rude",
+      "de": "unhöflich; frech",
+      "pos": "adj",
+      "example": {
+        "text": "Don't be rude! Say thank you.",
+        "de": "Sei nicht unhöflich! Sag danke."
+      },
+      "note": "Das Gegenteil: polite (höflich)."
+    },
+    {
+      "id": "talkative",
+      "word": "talkative",
+      "de": "gesprächig",
+      "pos": "adj",
+      "example": {
+        "text": "Lena is very talkative. She loves meeting people.",
+        "de": "Lena ist sehr gesprächig. Sie lernt sehr gern Leute kennen."
+      }
+    },
+    {
+      "id": "honest",
+      "word": "honest",
+      "de": "ehrlich",
+      "pos": "adj",
+      "example": {
+        "text": "He's an honest person.",
+        "de": "Er ist ein ehrlicher Mensch."
+      },
+      "note": "Das h spricht man nicht – deshalb an honest person."
+    },
+    {
+      "id": "polite",
+      "word": "polite",
+      "de": "höflich",
+      "pos": "adj",
+      "example": {
+        "text": "Emma is always very polite.",
+        "de": "Emma ist immer sehr höflich."
+      },
+      "note": "Das Gegenteil: rude (unhöflich)."
+    },
+    {
+      "id": "serious",
+      "word": "serious",
+      "de": "ernst; ernsthaft",
+      "pos": "adj",
+      "example": {
+        "text": "My boss is very serious.",
+        "de": "Mein Chef ist sehr ernst."
+      }
+    },
+    {
+      "id": "bored",
+      "word": "bored",
+      "de": "gelangweilt",
+      "pos": "adj",
+      "example": {
+        "text": "I'm bored. Let's do something!",
+        "de": "Mir ist langweilig. Lass uns was machen!"
+      },
+      "note": "Mir ist langweilig = I'm bored. Nicht: I'm boring (Ich bin langweilig)!"
+    },
+    {
+      "id": "boring",
+      "word": "boring",
+      "de": "langweilig",
+      "pos": "adj",
+      "example": {
+        "text": "The movie was really boring.",
+        "de": "Der Film war echt langweilig."
+      }
+    },
+    {
+      "id": "interested",
+      "word": "interested",
+      "de": "interessiert",
+      "pos": "adj",
+      "example": {
+        "text": "Are you interested in art?",
+        "de": "Interessierst du dich für Kunst?"
+      },
+      "note": "Mit in: be interested in = sich interessieren für."
+    },
+    {
+      "id": "interesting",
+      "word": "interesting",
+      "de": "interessant",
+      "pos": "adj",
+      "example": {
+        "text": "Your sister is a very interesting person.",
+        "de": "Deine Schwester ist ein sehr interessanter Mensch."
+      }
+    },
+    {
+      "id": "tired",
+      "word": "tired",
+      "de": "müde",
+      "pos": "adj",
+      "example": {
+        "text": "I'm so tired. I didn't sleep last night.",
+        "de": "Ich bin so müde. Ich habe letzte Nacht nicht geschlafen."
+      }
+    },
+    {
+      "id": "tiring",
+      "word": "tiring",
+      "de": "anstrengend; ermüdend",
+      "pos": "adj",
+      "example": {
+        "text": "The flight was long and tiring.",
+        "de": "Der Flug war lang und anstrengend."
+      }
+    },
+    {
+      "id": "excited",
+      "word": "excited",
+      "de": "aufgeregt; gespannt; begeistert",
+      "pos": "adj",
+      "example": {
+        "text": "We're so excited about our vacation!",
+        "de": "Wir freuen uns so auf unseren Urlaub!"
+      },
+      "note": "excited ist positiv: Vorfreude und Begeisterung. Nervös aufgeregt heißt nervous."
+    },
+    {
+      "id": "exciting",
+      "word": "exciting",
+      "de": "spannend; aufregend",
+      "pos": "adj",
+      "example": {
+        "text": "New York is an exciting city.",
+        "de": "New York ist eine aufregende Stadt."
+      }
+    },
+    {
+      "id": "people",
+      "word": "people",
+      "de": "die Leute; die Menschen",
+      "pos": "noun",
+      "example": {
+        "text": "The people at work are really nice.",
+        "de": "Die Leute auf der Arbeit sind echt nett."
+      },
+      "note": "people ist Mehrzahl: People are … – Eine Person = a person."
+    },
+    {
+      "id": "person",
+      "word": "person",
+      "plural": "people",
+      "de": "die Person; der Mensch",
+      "pos": "noun",
+      "example": {
+        "text": "She's a really kind person.",
+        "de": "Sie ist ein wirklich lieber Mensch."
+      },
+      "note": "Die Mehrzahl ist people (persons nur in Amtssprache)."
+    },
+    {
+      "id": "boyfriend",
+      "word": "boyfriend",
+      "plural": "boyfriends",
+      "de": "der (feste) Freund",
+      "pos": "noun",
+      "example": {
+        "text": "Emma's boyfriend is from Chicago.",
+        "de": "Emmas Freund kommt aus Chicago."
+      },
+      "note": "boyfriend ist der Partner. Ein guter Freund ist a friend."
+    },
+    {
+      "id": "girlfriend",
+      "word": "girlfriend",
+      "plural": "girlfriends",
+      "de": "die (feste) Freundin",
+      "pos": "noun",
+      "example": {
+        "text": "Jake has a new girlfriend.",
+        "de": "Jake hat eine neue Freundin."
+      },
+      "note": "girlfriend ist die Partnerin. Frauen sagen über eine Freundin oft einfach my friend."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "describing-appearance",
+      "title": "Aussehen beschreiben: be, have und wear",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wie jemand aussieht, fragst du mit What does he look like? oder What does she look like? (Wie sieht er/sie aus?). Für die Antwort brauchst du drei Verben:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Verb",
+            "wofür?",
+            "Beispiel",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "be",
+              "Größe, Alter, Figur",
+              "He's tall. She's young.",
+              "Er ist groß. Sie ist jung."
+            ],
+            [
+              "have / has",
+              "Haare, Augen, Bart",
+              "She has long hair. He has a beard.",
+              "Sie hat lange Haare. Er hat einen Bart."
+            ],
+            [
+              "wear",
+              "Brille, Kleidung",
+              "He wears glasses.",
+              "Er trägt eine Brille."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Bei Menschen heißt „groß“ tall, nicht big. „Klein“ ist short."
+        },
+        {
+          "type": "p",
+          "text": "Stehen mehrere Adjektive vor hair, gilt eine feste Reihenfolge: zuerst die Länge, dann die Form, dann die Farbe. Kommas braucht man dabei nicht."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Länge",
+            "Form",
+            "Farbe",
+            "Nomen"
+          ],
+          "rows": [
+            [
+              "long",
+              "curly",
+              "dark",
+              "hair"
+            ],
+            [
+              "short",
+              "straight",
+              "blond",
+              "hair"
+            ],
+            [
+              "long",
+              "straight",
+              "brown",
+              "hair"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "hair ist nicht zählbar: She has long hair. – nicht „long hairs“ und ohne a. Die Augen dagegen sind zählbar: He has blue eyes."
+        },
+        {
+          "type": "tip",
+          "text": "Was jemand gerade anhat, sagst du mit dem present continuous: She's wearing a red jacket. (Sie hat gerade eine rote Jacke an.) He wears glasses. heißt: Er trägt immer eine Brille."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "What does your sister look like? – She's short and has curly red hair.",
+              "de": "Wie sieht deine Schwester aus? – Sie ist klein und hat rote Locken."
+            },
+            {
+              "text": "My grandpa has a white beard and wears glasses.",
+              "de": "Mein Opa hat einen weißen Bart und trägt eine Brille."
+            },
+            {
+              "text": "Jake is tall and good-looking. He has dark hair and brown eyes.",
+              "de": "Jake ist groß und sieht gut aus. Er hat dunkle Haare und braune Augen."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "What does your brother ___ like?",
+          "answers": [
+            "look"
+          ],
+          "de": "Wie sieht dein Bruder aus?"
+        },
+        {
+          "type": "cloze",
+          "text": "She ___ long blond hair.",
+          "answers": [
+            "has"
+          ],
+          "de": "Sie hat lange blonde Haare.",
+          "hint": "be / have / wear"
+        },
+        {
+          "type": "cloze",
+          "text": "My dad ___ glasses.",
+          "answers": [
+            "wears"
+          ],
+          "de": "Mein Vater trägt eine Brille.",
+          "hint": "be / have / wear"
+        },
+        {
+          "type": "cloze",
+          "text": "Jake ___ very tall.",
+          "answers": [
+            "is"
+          ],
+          "de": "Jake ist sehr groß.",
+          "hint": "be / have / wear"
+        },
+        {
+          "type": "order",
+          "de": "Sie hat lange, lockige, dunkle Haare.",
+          "answer": "She has long curly dark hair.",
+          "distractors": [
+            "hairs"
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Er hat blaue Augen und einen Bart.",
+          "answers": [
+            "He has blue eyes and a beard.",
+            "He's got blue eyes and a beard.",
+            "He has got blue eyes and a beard."
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": [
+            "She has a long hair.",
+            "She has long hair.",
+            "She has long hairs."
+          ],
+          "answer": 1,
+          "explain": "hair ist nicht zählbar: kein a und keine Mehrzahl."
+        }
+      ]
+    },
+    {
+      "id": "look-like-be-like-degree",
+      "title": "look like oder be like? Und: very, really, pretty, a bit",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Diese Fragen klingen ähnlich, fragen aber nach ganz Verschiedenem:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Frage",
+            "fragt nach …",
+            "Antwort"
+          ],
+          "rows": [
+            [
+              "What does she look like?",
+              "Aussehen",
+              "She's tall and has dark hair."
+            ],
+            [
+              "What's she like?",
+              "Charakter",
+              "She's really friendly and funny."
+            ],
+            [
+              "How is she?",
+              "Befinden",
+              "She's fine, thanks."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "In den Antworten steht kein like: What's he like? – He's nice. (Nicht: He's like nice.)"
+        },
+        {
+          "type": "p",
+          "text": "Mit look + Adjektiv sagst du, wie jemand gerade wirkt: You look tired. (Du siehst müde aus.) Hier steht kein like! look like + Nomen heißt „aussehen wie“ oder „ähnlich sehen“: Mia looks like her mom."
+        },
+        {
+          "type": "p",
+          "text": "Mit kleinen Wörtern vor dem Adjektiv machst du eine Beschreibung stärker oder schwächer:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch",
+            "Beispiel"
+          ],
+          "rows": [
+            [
+              "really",
+              "echt, wirklich",
+              "She's really funny."
+            ],
+            [
+              "very",
+              "sehr",
+              "He's very smart."
+            ],
+            [
+              "pretty",
+              "ziemlich",
+              "My boss is pretty nice."
+            ],
+            [
+              "a bit",
+              "ein bisschen, etwas",
+              "He's a bit shy."
+            ],
+            [
+              "not very",
+              "nicht besonders",
+              "The movie isn't very interesting."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "a bit benutzt man meist bei negativen Eigenschaften: a bit lazy, a bit shy, a bit boring. Bei positiven klingt pretty natürlicher: pretty smart."
+        },
+        {
+          "type": "tip",
+          "text": "pretty hat zwei Bedeutungen: als Adjektiv „hübsch“ (a pretty dress), vor einem anderen Adjektiv „ziemlich“ (pretty good)."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "What's your new boss like? – She's pretty serious, but she's very kind.",
+              "de": "Wie ist deine neue Chefin so? – Sie ist ziemlich ernst, aber sehr nett."
+            },
+            {
+              "text": "You look great today!",
+              "de": "Du siehst heute toll aus!"
+            },
+            {
+              "text": "Paul looks like his dad.",
+              "de": "Paul sieht seinem Vater ähnlich."
+            },
+            {
+              "text": "My cousin isn't very talkative.",
+              "de": "Mein Cousin ist nicht besonders gesprächig."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "What's your cousin ___? – She's really friendly.",
+          "answers": [
+            "like"
+          ],
+          "de": "Wie ist deine Cousine so? – Sie ist echt freundlich."
+        },
+        {
+          "type": "cloze",
+          "text": "You ___ tired. Did you sleep OK?",
+          "answers": [
+            "look"
+          ],
+          "de": "Du siehst müde aus. Hast du gut geschlafen?"
+        },
+        {
+          "type": "cloze",
+          "text": "He's a ___ shy, but he's really nice.",
+          "answers": [
+            "bit",
+            "little"
+          ],
+          "de": "Er ist ein bisschen schüchtern, aber er ist echt nett."
+        },
+        {
+          "type": "cloze",
+          "text": "Mia looks ___ her mom.",
+          "answers": [
+            "like"
+          ],
+          "de": "Mia sieht ihrer Mutter ähnlich."
+        },
+        {
+          "type": "translate",
+          "de": "Wie ist sie so? – Sie ist ziemlich lustig.",
+          "answers": [
+            "What's she like? – She's pretty funny.",
+            "What's she like? – She's quite funny.",
+            "What's she like? – She's really funny.",
+            "What's she like? – She is pretty funny.",
+            "What's she like? – She is quite funny.",
+            "What's she like? – She is really funny.",
+            "What is she like? – She's pretty funny.",
+            "What is she like? – She's quite funny.",
+            "What is she like? – She's really funny.",
+            "What is she like? – She is pretty funny.",
+            "What is she like? – She is quite funny.",
+            "What is she like? – She is really funny."
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Wie sieht dein Bruder aus?",
+          "answer": "What does your brother look like?",
+          "distractors": [
+            "is"
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "really",
+              "echt"
+            ],
+            [
+              "very",
+              "sehr"
+            ],
+            [
+              "pretty",
+              "ziemlich"
+            ],
+            [
+              "a bit",
+              "ein bisschen"
+            ],
+            [
+              "not very",
+              "nicht besonders"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed-ing-adjectives",
+      "title": "-ed oder -ing? bored oder boring",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Viele Adjektive gibt es mit -ed und mit -ing. Der Unterschied ist wichtig:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "-ed beschreibt, wie sich jemand fühlt: I'm bored. (Mir ist langweilig.)",
+            "-ing beschreibt, wie etwas oder jemand ist – also was das Gefühl auslöst: The movie is boring. (Der Film ist langweilig.)"
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "-ed (Gefühl)",
+            "-ing (Ursache)",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "bored",
+              "boring",
+              "gelangweilt – langweilig"
+            ],
+            [
+              "interested",
+              "interesting",
+              "interessiert – interessant"
+            ],
+            [
+              "tired",
+              "tiring",
+              "müde – anstrengend"
+            ],
+            [
+              "excited",
+              "exciting",
+              "begeistert, gespannt – spannend"
+            ],
+            [
+              "surprised",
+              "surprising",
+              "überrascht – überraschend"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Vorsicht: I'm boring. heißt „Ich bin langweilig.“ – das willst du wahrscheinlich nicht sagen! „Mir ist langweilig“ ist I'm bored."
+        },
+        {
+          "type": "tip",
+          "text": "interested steht mit in: I'm interested in music. (Ich interessiere mich für Musik.) Und excited oft mit about: I'm excited about the trip. (Ich freue mich auf die Reise.)"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "The class was boring, and the students were bored.",
+              "de": "Der Unterricht war langweilig, und die Schüler waren gelangweilt."
+            },
+            {
+              "text": "Hiking is tiring, but I'm never tired after a hike.",
+              "de": "Wandern ist anstrengend, aber nach einer Wanderung bin ich nie müde."
+            },
+            {
+              "text": "It was an exciting game. We were all very excited!",
+              "de": "Es war ein spannendes Spiel. Wir waren alle total begeistert!"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "This movie is really ___. Let's watch something else.",
+          "answers": [
+            "boring"
+          ],
+          "de": "Dieser Film ist echt langweilig. Lass uns was anderes schauen.",
+          "hint": "bored / boring"
+        },
+        {
+          "type": "cloze",
+          "text": "I'm ___. There's nothing to do!",
+          "answers": [
+            "bored"
+          ],
+          "de": "Mir ist langweilig. Es gibt nichts zu tun!",
+          "hint": "bored / boring"
+        },
+        {
+          "type": "cloze",
+          "text": "Are you ___ in history?",
+          "answers": [
+            "interested"
+          ],
+          "de": "Interessierst du dich für Geschichte?",
+          "hint": "interested / interesting"
+        },
+        {
+          "type": "cloze",
+          "text": "The trip was long and ___.",
+          "answers": [
+            "tiring"
+          ],
+          "de": "Die Reise war lang und anstrengend.",
+          "hint": "tired / tiring"
+        },
+        {
+          "type": "cloze",
+          "text": "We're so ___ about our vacation!",
+          "answers": [
+            "excited"
+          ],
+          "de": "Wir freuen uns so auf unseren Urlaub!",
+          "hint": "excited / exciting"
+        },
+        {
+          "type": "translate",
+          "de": "Das Buch ist sehr spannend.",
+          "answers": [
+            "The book is very exciting.",
+            "The book is really exciting.",
+            "This book is very exciting.",
+            "This book is really exciting."
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Dir ist langweilig. Was sagst du?",
+          "options": [
+            "I'm boring.",
+            "I'm bored."
+          ],
+          "answer": 1,
+          "explain": "I'm bored. = Mir ist langweilig. I'm boring. hieße: Ich bin langweilig."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Picking Up Sofia",
+    "title_de": "Sofia abholen",
+    "lines": [
+      {
+        "speaker": "Carlos",
+        "text": "Lena, can you help me? My cousin Sofia is arriving at JFK tonight, but I have to work.",
+        "de": "Lena, kannst du mir helfen? Meine Cousine Sofia kommt heute Abend am Flughafen JFK an, aber ich muss arbeiten."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sure! But I've never met her. What does she look like?",
+        "de": "Klar! Aber ich habe sie noch nie getroffen. Wie sieht sie aus?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "She's pretty tall, and she has long curly dark hair. Oh, and she wears glasses.",
+        "de": "Sie ist ziemlich groß und hat lange, lockige, dunkle Haare. Ach ja, und sie trägt eine Brille."
+      },
+      {
+        "speaker": "Lena",
+        "text": "OK. And what's she like?",
+        "de": "Okay. Und wie ist sie so?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "She's really friendly and funny. But she's a bit shy at first.",
+        "de": "Sie ist echt freundlich und witzig. Aber am Anfang ist sie ein bisschen schüchtern."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Excuse me, are you Sofia?",
+        "de": "Entschuldigung, bist du Sofia?"
+      },
+      {
+        "speaker": "Woman",
+        "text": "No, sorry, I'm not.",
+        "de": "Nein, tut mir leid."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Oh, sorry! … Hi! Are you Sofia? I'm Lena, Carlos's friend.",
+        "de": "Oh, Entschuldigung! … Hallo! Bist du Sofia? Ich bin Lena, eine Freundin von Carlos."
+      },
+      {
+        "speaker": "Sofia",
+        "text": "Yes, I am! Nice to meet you, Lena. Thank you so much for coming!",
+        "de": "Ja! Freut mich, Lena. Vielen Dank, dass du gekommen bist!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "No problem. How was your flight?",
+        "de": "Kein Problem. Wie war dein Flug?"
+      },
+      {
+        "speaker": "Sofia",
+        "text": "Long and really boring! I watched three movies. Now I'm very tired.",
+        "de": "Lang und echt langweilig! Ich habe drei Filme geschaut. Jetzt bin ich sehr müde."
+      },
+      {
+        "speaker": "Lena",
+        "text": "You don't look tired! Are you excited about New York?",
+        "de": "Du siehst gar nicht müde aus! Freust du dich auf New York?"
+      },
+      {
+        "speaker": "Sofia",
+        "text": "Yes, I'm so excited! It's my first time in the US.",
+        "de": "Ja, ich freue mich riesig! Ich bin zum ersten Mal in den USA."
+      },
+      {
+        "speaker": "Lena",
+        "text": "You look a lot like Carlos, you know. You have the same eyes!",
+        "de": "Du siehst Carlos übrigens sehr ähnlich. Ihr habt die gleichen Augen!"
+      },
+      {
+        "speaker": "Sofia",
+        "text": "Everyone says that! But I'm not as lazy as he is.",
+        "de": "Das sagen alle! Aber ich bin nicht so faul wie er."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Ha! That's interesting! Come on, let's get a taxi.",
+        "de": "Ha! Das ist ja interessant! Komm, wir nehmen ein Taxi."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "tall",
+          "groß (Person)"
+        ],
+        [
+          "curly",
+          "lockig"
+        ],
+        [
+          "beard",
+          "der Bart"
+        ],
+        [
+          "glasses",
+          "die Brille"
+        ],
+        [
+          "slim",
+          "schlank"
+        ],
+        [
+          "young",
+          "jung"
+        ]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "shy",
+          "schüchtern"
+        ],
+        [
+          "lazy",
+          "faul"
+        ],
+        [
+          "funny",
+          "lustig"
+        ],
+        [
+          "smart",
+          "klug"
+        ],
+        [
+          "polite",
+          "höflich"
+        ],
+        [
+          "honest",
+          "ehrlich"
+        ]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Wie sieht deine Schwester aus?",
+      "answers": [
+        "What does your sister look like?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Er ist groß und hat kurze, dunkle Haare.",
+      "answers": [
+        "He's tall and he has short dark hair.",
+        "He's tall and has short dark hair.",
+        "He is tall and he has short dark hair.",
+        "He is tall and has short dark hair.",
+        "He's tall and has got short dark hair.",
+        "He is tall and has got short dark hair.",
+        "He's tall with short dark hair.",
+        "He is tall with short dark hair."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Meine Großmutter ist sehr nett.",
+      "answers": [
+        "My grandmother is very kind.",
+        "My grandmother is very nice.",
+        "My grandmother is really kind.",
+        "My grandmother is really nice.",
+        "My grandma is very kind.",
+        "My grandma is very nice.",
+        "My grandma is really kind.",
+        "My grandma is really nice."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich interessiere mich für Musik.",
+      "answers": [
+        "I'm interested in music.",
+        "I am interested in music."
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Sorry, I'm ___. I didn't sleep last night.",
+      "answers": [
+        "tired"
+      ],
+      "de": "Entschuldigung, ich bin müde. Ich habe letzte Nacht nicht geschlafen."
+    },
+    {
+      "type": "cloze",
+      "text": "My ___ are new. Do you like them?",
+      "answers": [
+        "glasses"
+      ],
+      "de": "Meine Brille ist neu. Gefällt sie dir?"
+    },
+    {
+      "type": "cloze",
+      "text": "Emma is very ___. She always says please and thank you.",
+      "answers": [
+        "polite"
+      ],
+      "de": "Emma ist sehr höflich. Sie sagt immer bitte und danke."
+    },
+    {
+      "type": "order",
+      "de": "Mein Bruder ist ein bisschen faul.",
+      "answer": "My brother is a bit lazy."
+    },
+    {
+      "type": "order",
+      "de": "Wie sind deine Eltern so?",
+      "answer": "What are your parents like?",
+      "distractors": [
+        "do"
+      ]
+    },
+    {
+      "type": "listen",
+      "text": "She has short blond hair, and she's wearing a green jacket.",
+      "de": "Sie hat kurze blonde Haare und trägt eine grüne Jacke."
+    },
+    {
+      "type": "listen",
+      "text": "Our new teacher is really interesting, and she's pretty funny, too.",
+      "de": "Unsere neue Lehrerin ist echt interessant, und sie ist auch ziemlich lustig."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-07",
+  "lang": "es",
+  "level": "A2",
+  "number": 7,
+  "title": "De vacaciones",
+  "title_de": "Urlaub",
+  "topic": "Hotel und Reiseplanung",
+  "goals": [
+    "Du kannst mit dem pretérito indefinido erzählen, was du im Urlaub gemacht hast.",
+    "Du kennst die wichtigsten unregelmäßigen Formen: fui, estuve, hice, tuve, pude, vine.",
+    "Du kannst Indefinido (ayer, el año pasado) und Perfecto (hoy, este año) richtig unterscheiden.",
+    "Du kannst im Hotel ein Zimmer buchen und nach Frühstück und Ausstattung fragen."
+  ],
+  "vocab": [
+    { "id": "ayer", "word": "ayer", "de": "gestern", "pos": "adv", "example": { "text": "Ayer fui a la playa.", "de": "Gestern bin ich an den Strand gegangen." } },
+    { "id": "anoche", "word": "anoche", "de": "gestern Abend; letzte Nacht", "pos": "adv", "example": { "text": "Anoche cenamos en el hotel.", "de": "Gestern Abend haben wir im Hotel gegessen." } },
+    { "id": "anteayer", "word": "anteayer", "de": "vorgestern", "pos": "adv", "example": { "text": "Anteayer llegamos a Mallorca.", "de": "Vorgestern sind wir auf Mallorca angekommen." } },
+    { "id": "pasado", "word": "pasado", "alt": ["pasada"], "de": "letzte, letzter, letztes; vergangen", "pos": "adj", "example": { "text": "El año pasado estuve en Italia.", "de": "Letztes Jahr war ich in Italien." }, "note": "la semana pasada, el mes pasado, el lunes pasado. Nicht verwechseln mit pasado mañana (übermorgen)." },
+    { "id": "hace", "word": "hace", "de": "vor (zeitlich)", "pos": "prep", "example": { "text": "Hace dos años estuve en Barcelona.", "de": "Vor zwei Jahren war ich in Barcelona." }, "note": "Eigentlich eine Form von hacer: hace dos años = vor zwei Jahren, hace una semana = vor einer Woche." },
+    { "id": "durante", "word": "durante", "de": "während; lang (Zeitdauer)", "pos": "prep", "example": { "text": "Estuvimos en la isla durante una semana.", "de": "Wir waren eine Woche lang auf der Insel." } },
+    { "id": "ultimo", "word": "último", "alt": ["última"], "de": "letzte, letzter, letztes (in einer Reihe)", "pos": "adj", "example": { "text": "La última vez fui en tren.", "de": "Das letzte Mal bin ich mit dem Zug gefahren.", "focus": "última" }, "note": "el último día = der letzte Tag. Für „letztes Jahr“ sagt man aber el año pasado." },
+    { "id": "vez", "word": "vez", "article": "la", "gender": "f", "plural": "las veces", "de": "das Mal", "pos": "noun", "example": { "text": "Estuve en Sevilla una vez.", "de": "Ich war einmal in Sevilla." }, "note": "una vez = einmal, dos veces = zweimal, a veces = manchmal. Mehrzahl mit c: veces." },
+    { "id": "alojamiento", "word": "alojamiento", "article": "el", "gender": "m", "plural": "los alojamientos", "de": "die Unterkunft", "pos": "noun", "example": { "text": "Ya tenemos alojamiento en Valencia.", "de": "Wir haben schon eine Unterkunft in Valencia." } },
+    { "id": "apartamento", "word": "apartamento", "article": "el", "gender": "m", "plural": "los apartamentos", "de": "die Ferienwohnung; das Apartment", "pos": "noun", "example": { "text": "El verano pasado alquilamos un apartamento.", "de": "Letzten Sommer haben wir eine Ferienwohnung gemietet." } },
+    { "id": "recepcion", "word": "recepción", "article": "la", "gender": "f", "plural": "las recepciones", "de": "die Rezeption", "pos": "noun", "example": { "text": "Las llaves están en la recepción.", "de": "Die Schlüssel sind an der Rezeption." } },
+    { "id": "ascensor", "word": "ascensor", "article": "el", "gender": "m", "plural": "los ascensores", "de": "der Aufzug", "pos": "noun", "example": { "text": "La habitación está en el tercer piso, pero hay ascensor.", "de": "Das Zimmer ist im dritten Stock, aber es gibt einen Aufzug." } },
+    { "id": "desayuno", "word": "desayuno", "article": "el", "gender": "m", "plural": "los desayunos", "de": "das Frühstück", "pos": "noun", "example": { "text": "El desayuno es de ocho a diez.", "de": "Frühstück gibt es von acht bis zehn." } },
+    { "id": "incluido", "word": "incluido", "alt": ["incluida"], "de": "inbegriffen; inklusive", "pos": "adj", "example": { "text": "¿El desayuno está incluido?", "de": "Ist das Frühstück inbegriffen?" } },
+    { "id": "individual", "word": "individual", "de": "Einzel-", "pos": "adj", "example": { "text": "Querría una habitación individual.", "de": "Ich hätte gern ein Einzelzimmer." } },
+    { "id": "doble", "word": "doble", "de": "Doppel-; doppelt", "pos": "adj", "example": { "text": "Una habitación doble para tres noches, por favor.", "de": "Ein Doppelzimmer für drei Nächte, bitte." } },
+    { "id": "vista", "word": "vista", "article": "la", "gender": "f", "plural": "las vistas", "de": "die Aussicht; der Blick", "pos": "noun", "example": { "text": "Tenemos una habitación con vistas al mar.", "de": "Wir haben ein Zimmer mit Meerblick.", "focus": "vistas" }, "note": "Meist in der Mehrzahl: con vistas al mar = mit Meerblick." },
+    { "id": "completo", "word": "completo", "alt": ["completa"], "de": "ausgebucht; voll; vollständig", "pos": "adj", "example": { "text": "Lo siento, el hotel está completo.", "de": "Tut mir leid, das Hotel ist ausgebucht." } },
+    { "id": "mar", "word": "mar", "article": "el", "gender": "m", "plural": "los mares", "de": "das Meer", "pos": "noun", "example": { "text": "El hotel está muy cerca del mar.", "de": "Das Hotel liegt ganz nah am Meer." } },
+    { "id": "costa", "word": "costa", "article": "la", "gender": "f", "plural": "las costas", "de": "die Küste", "pos": "noun", "example": { "text": "Estuvimos una semana en la costa.", "de": "Wir waren eine Woche an der Küste." } },
+    { "id": "isla", "word": "isla", "article": "la", "gender": "f", "plural": "las islas", "de": "die Insel", "pos": "noun", "example": { "text": "Mallorca es una isla muy bonita.", "de": "Mallorca ist eine sehr schöne Insel." } },
+    { "id": "extranjero", "word": "extranjero", "article": "el", "gender": "m", "de": "das Ausland", "pos": "noun", "example": { "text": "Este año vamos de vacaciones al extranjero.", "de": "Dieses Jahr fahren wir ins Ausland in den Urlaub." }, "note": "en el extranjero = im Ausland, al extranjero = ins Ausland. Als Adjektiv heißt extranjero „ausländisch“." },
+    { "id": "turista", "word": "turista", "article": "el", "gender": "m", "plural": "los turistas", "de": "der Tourist; die Touristin", "pos": "noun", "example": { "text": "En verano hay muchos turistas en la isla.", "de": "Im Sommer gibt es viele Touristen auf der Insel.", "focus": "turistas" }, "note": "Endet immer auf -a: el turista, la turista." },
+    { "id": "excursion", "word": "excursión", "article": "la", "gender": "f", "plural": "las excursiones", "de": "der Ausflug", "pos": "noun", "example": { "text": "Hicimos una excursión a un pueblo de la montaña.", "de": "Wir haben einen Ausflug in ein Bergdorf gemacht." } },
+    { "id": "monumento", "word": "monumento", "article": "el", "gender": "m", "plural": "los monumentos", "de": "die Sehenswürdigkeit; das Denkmal", "pos": "noun", "example": { "text": "Por la mañana visitamos los monumentos de la ciudad.", "de": "Am Vormittag haben wir die Sehenswürdigkeiten der Stadt besichtigt.", "focus": "monumentos" } },
+    { "id": "pasaporte", "word": "pasaporte", "article": "el", "gender": "m", "plural": "los pasaportes", "de": "der Reisepass", "pos": "noun", "example": { "text": "¡Olvidé el pasaporte en casa!", "de": "Ich habe meinen Pass zu Hause vergessen!" } },
+    { "id": "equipaje", "word": "equipaje", "article": "el", "gender": "m", "de": "das Gepäck", "pos": "noun", "example": { "text": "Mi equipaje no llegó.", "de": "Mein Gepäck ist nicht angekommen." } },
+    { "id": "vuelo", "word": "vuelo", "article": "el", "gender": "m", "plural": "los vuelos", "de": "der Flug", "pos": "noun", "example": { "text": "El vuelo salió con una hora de retraso.", "de": "Der Flug ist mit einer Stunde Verspätung gestartet." } },
+    { "id": "alquilar", "word": "alquilar", "de": "mieten; vermieten", "pos": "verb", "forms": "alquilo, alquilas, alquila, alquilamos, alquiláis, alquilan", "example": { "text": "Alquilamos unas bicicletas.", "de": "Wir haben Fahrräder gemietet.", "focus": "alquilamos" } },
+    { "id": "quedarse", "word": "quedarse", "de": "bleiben", "pos": "verb", "forms": "me quedo, te quedas, se queda, nos quedamos, os quedáis, se quedan", "example": { "text": "Nos quedamos cinco días en Granada.", "de": "Wir sind fünf Tage in Granada geblieben.", "focus": "nos quedamos" }, "note": "Nicht verwechseln mit quedar (sich verabreden)." },
+    { "id": "conocer", "word": "conocer", "de": "kennenlernen; kennen", "pos": "verb", "forms": "conozco, conoces, conoce, conocemos, conocéis, conocen", "example": { "text": "En Valencia conocí a un amigo de Lucía.", "de": "In Valencia habe ich einen Freund von Lucía kennengelernt.", "focus": "conocí" }, "note": "Bei Personen mit a: conocer a alguien. Auch für Orte: ¿Conoces Sevilla? = Kennst du Sevilla?" },
+    { "id": "banarse", "word": "bañarse", "de": "baden (im Meer, im Pool)", "pos": "verb", "forms": "me baño, te bañas, se baña, nos bañamos, os bañáis, se bañan", "example": { "text": "Por la tarde nos bañamos en el mar.", "de": "Am Nachmittag haben wir im Meer gebadet.", "focus": "nos bañamos" } },
+    { "id": "tomar-el-sol", "word": "tomar el sol", "de": "sich sonnen", "pos": "phrase", "example": { "text": "Anna tomó el sol en la playa.", "de": "Anna hat sich am Strand gesonnt.", "focus": "tomó el sol" } },
+    { "id": "perder", "word": "perder", "de": "verpassen; verlieren", "pos": "verb", "forms": "pierdo, pierdes, pierde, perdemos, perdéis, pierden", "example": { "text": "Ayer perdí el autobús.", "de": "Gestern habe ich den Bus verpasst.", "focus": "perdí" }, "note": "Im Präsens e → ie, im Indefinido regelmäßig: perdí." },
+    { "id": "olvidar", "word": "olvidar", "de": "vergessen", "pos": "verb", "example": { "text": "¿Olvidaste algo?", "de": "Hast du etwas vergessen?", "focus": "olvidaste" } },
+    { "id": "disfrutar", "word": "disfrutar", "de": "genießen", "pos": "verb", "example": { "text": "Disfrutamos mucho de la comida.", "de": "Wir haben das Essen sehr genossen.", "focus": "disfrutamos" }, "note": "disfrutar de algo = etwas genießen." },
+    { "id": "pasarlo-bien", "word": "pasarlo bien", "de": "Spaß haben; eine schöne Zeit haben", "pos": "phrase", "example": { "text": "¿Lo pasaste bien en Mallorca?", "de": "Hattest du eine schöne Zeit auf Mallorca?", "focus": "lo pasaste bien" }, "note": "Lo pasamos muy bien. = Wir hatten viel Spaß. Das Gegenteil: pasarlo mal." },
+    { "id": "precioso", "word": "precioso", "alt": ["preciosa"], "de": "wunderschön", "pos": "adj", "example": { "text": "La isla es preciosa.", "de": "Die Insel ist wunderschön.", "focus": "preciosa" } },
+    { "id": "estupendo", "word": "estupendo", "alt": ["estupenda"], "de": "toll; prima", "pos": "adj", "example": { "text": "Fue un viaje estupendo.", "de": "Es war eine tolle Reise." } }
+  ],
+  "grammar": [
+    {
+      "id": "indefinido-regular",
+      "title": "Das Pretérito indefinido: regelmäßige Verben",
+      "blocks": [
+        { "type": "p", "text": "Mit dem pretérito indefinido erzählst du, was zu einem bestimmten, abgeschlossenen Zeitpunkt in der Vergangenheit passiert ist: gestern, letztes Jahr, im Juli 2019. Es ist die typische Erzählzeit. Auf Deutsch sagt man dafür meist das Perfekt („ich bin gefahren“) oder das Präteritum („ich fuhr“)." },
+        { "type": "table", "head": ["Person", "viajar (-ar)", "comer (-er)", "vivir (-ir)"], "rows": [["yo", "viajé", "comí", "viví"], ["tú", "viajaste", "comiste", "viviste"], ["él / ella / usted", "viajó", "comió", "vivió"], ["nosotros / nosotras", "viajamos", "comimos", "vivimos"], ["vosotros / vosotras", "viajasteis", "comisteis", "vivisteis"], ["ellos / ellas / ustedes", "viajaron", "comieron", "vivieron"]] },
+        { "type": "tip", "text": "Die Verben auf -er und -ir haben dieselben Endungen. Achte auf den Akzent in der ich- und der er-Form: viajé, viajó. Ohne Akzent ist es ein anderes Wort: viajo = ich reise, el viaje = die Reise." },
+        { "type": "tip", "text": "Die wir-Form der Verben auf -ar und -ir sieht genauso aus wie im Präsens: viajamos, vivimos. Was gemeint ist, zeigt die Zeitangabe: Ayer viajamos a Sevilla." },
+        { "type": "p", "text": "Bei Verben auf -car, -gar und -zar ändert sich in der ich-Form die Schreibung, damit die Aussprache gleich bleibt: llegar → llegué, buscar → busqué, cruzar → crucé." },
+        { "type": "tip", "text": "Stiefelverben auf -ar und -er sind im Indefinido ganz regelmäßig: volver → volví, perder → perdí, despertarse → me desperté." },
+        { "type": "examples", "items": [{ "text": "Ayer comí en un restaurante del centro.", "de": "Gestern habe ich in einem Restaurant im Zentrum gegessen." }, { "text": "El verano pasado viajamos a Mallorca.", "de": "Letzten Sommer sind wir nach Mallorca gereist." }, { "text": "¿A qué hora llegaste al hotel?", "de": "Wann bist du im Hotel angekommen?" }, { "text": "Mis padres volvieron el domingo.", "de": "Meine Eltern sind am Sonntag zurückgekommen." }, { "text": "Anoche no salí, me quedé en el hotel.", "de": "Gestern Abend bin ich nicht ausgegangen, ich bin im Hotel geblieben." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Ayer ___ con Lucía en un bar.", "answers": ["cené"], "de": "Gestern habe ich mit Lucía in einer Bar zu Abend gegessen.", "hint": "cenar – yo" },
+        { "type": "cloze", "text": "¿Dónde ___ ayer?", "answers": ["comiste"], "de": "Wo hast du gestern gegessen?", "hint": "comer – tú" },
+        { "type": "cloze", "text": "Anna ___ el sol en la playa.", "answers": ["tomó"], "de": "Anna hat sich am Strand gesonnt.", "hint": "tomar" },
+        { "type": "cloze", "text": "El año pasado ___ en Valencia.", "answers": ["vivimos"], "de": "Letztes Jahr haben wir in Valencia gewohnt.", "hint": "vivir – nosotros" },
+        { "type": "cloze", "text": "¿Vosotros ___ un coche en la isla?", "answers": ["alquilasteis"], "de": "Habt ihr auf der Insel ein Auto gemietet?", "hint": "alquilar" },
+        { "type": "cloze", "text": "Mis amigos ___ el tren de las ocho.", "answers": ["perdieron"], "de": "Meine Freunde haben den Zug um acht verpasst.", "hint": "perder" },
+        { "type": "cloze", "text": "Yo ___ al hotel a las once de la noche.", "answers": ["llegué"], "de": "Ich bin um elf Uhr abends im Hotel angekommen.", "hint": "llegar – yo" },
+        { "type": "translate", "de": "Gestern Abend haben wir im Hotel gegessen.", "answers": ["Anoche cenamos en el hotel.", "Anoche comimos en el hotel.", "Anoche nosotros cenamos en el hotel.", "Cenamos en el hotel anoche.", "Nosotros cenamos en el hotel anoche.", "Ayer por la noche cenamos en el hotel."] },
+        { "type": "order", "de": "Wir sind fünf Tage auf der Insel geblieben.", "answer": "Nos quedamos cinco días en la isla.", "distractors": ["quedan"] }
+      ]
+    },
+    {
+      "id": "indefinido-irregular",
+      "title": "Unregelmäßig: fui, estuve, hice, tuve, pude, vine",
+      "blocks": [
+        { "type": "p", "text": "Einige sehr häufige Verben sind im Indefinido unregelmäßig. Sie haben einen eigenen Stamm, und die ich- und er-Form haben keinen Akzent. Diese sechs brauchst du ständig:" },
+        { "type": "table", "head": ["Person", "ir / ser", "estar", "hacer"], "rows": [["yo", "fui", "estuve", "hice"], ["tú", "fuiste", "estuviste", "hiciste"], ["él / ella / usted", "fue", "estuvo", "hizo"], ["nosotros / nosotras", "fuimos", "estuvimos", "hicimos"], ["vosotros / vosotras", "fuisteis", "estuvisteis", "hicisteis"], ["ellos / ellas / ustedes", "fueron", "estuvieron", "hicieron"]] },
+        { "type": "table", "head": ["Person", "tener", "poder", "venir"], "rows": [["yo", "tuve", "pude", "vine"], ["tú", "tuviste", "pudiste", "viniste"], ["él / ella / usted", "tuvo", "pudo", "vino"], ["nosotros / nosotras", "tuvimos", "pudimos", "vinimos"], ["vosotros / vosotras", "tuvisteis", "pudisteis", "vinisteis"], ["ellos / ellas / ustedes", "tuvieron", "pudieron", "vinieron"]] },
+        { "type": "tip", "text": "Ir und ser haben im Indefinido genau dieselben Formen. Was gemeint ist, zeigt der Satz: Fui a Mallorca. = Ich bin nach Mallorca gefahren. Fue un viaje estupendo. = Es war eine tolle Reise." },
+        { "type": "tip", "text": "Bei hacer heißt die er-Form hizo – mit z statt c. Und vino ist auch der Wein: Mi hermana vino en tren. = Meine Schwester ist mit dem Zug gekommen." },
+        { "type": "p", "text": "Hace + Zeitangabe bedeutet „vor …“: hace dos años = vor zwei Jahren, hace una semana = vor einer Woche. Es kann am Anfang oder am Ende stehen: Hace tres años fui a Italia. = Fui a Italia hace tres años." },
+        { "type": "examples", "items": [{ "text": "El verano pasado fuimos a la costa.", "de": "Letzten Sommer sind wir an die Küste gefahren." }, { "text": "¿Dónde estuviste ayer?", "de": "Wo warst du gestern?" }, { "text": "Hicimos una excursión a la montaña.", "de": "Wir haben einen Ausflug in die Berge gemacht." }, { "text": "Tuvimos un problema con el equipaje.", "de": "Wir hatten ein Problem mit dem Gepäck." }, { "text": "Lo siento, no pude venir a la fiesta.", "de": "Tut mir leid, ich konnte nicht zur Party kommen." }, { "text": "Mi hermana vino a Madrid hace dos semanas.", "de": "Meine Schwester ist vor zwei Wochen nach Madrid gekommen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "El año pasado ___ a Italia.", "answers": ["fui"], "de": "Letztes Jahr bin ich nach Italien gefahren.", "hint": "ir – yo" },
+        { "type": "cloze", "text": "¿Dónde ___ el fin de semana?", "answers": ["estuviste"], "de": "Wo warst du am Wochenende?", "hint": "estar – tú" },
+        { "type": "cloze", "text": "¿Qué ___ vosotros en Granada?", "answers": ["hicisteis"], "de": "Was habt ihr in Granada gemacht?", "hint": "hacer – vosotros" },
+        { "type": "cloze", "text": "Lucía no ___ venir a la excursión.", "answers": ["pudo"], "de": "Lucía konnte nicht zum Ausflug mitkommen.", "hint": "poder" },
+        { "type": "cloze", "text": "El viaje ___ estupendo.", "answers": ["fue"], "de": "Die Reise war toll.", "hint": "ser" },
+        { "type": "cloze", "text": "Mis padres ___ a Madrid hace dos semanas.", "answers": ["vinieron"], "de": "Meine Eltern sind vor zwei Wochen nach Madrid gekommen.", "hint": "venir" },
+        { "type": "cloze", "text": "Ayer ___ que trabajar hasta las diez.", "answers": ["tuve"], "de": "Gestern musste ich bis zehn arbeiten.", "hint": "tener – yo" },
+        { "type": "translate", "de": "Vor zwei Jahren war ich in Sevilla.", "answers": ["Hace dos años estuve en Sevilla.", "Estuve en Sevilla hace dos años.", "Hace dos años yo estuve en Sevilla.", "Yo estuve en Sevilla hace dos años.", "Hace dos años fui a Sevilla.", "Fui a Sevilla hace dos años."] },
+        { "type": "order", "de": "Wir haben einen Ausflug ans Meer gemacht.", "answer": "Hicimos una excursión al mar.", "distractors": ["hizo"] }
+      ]
+    },
+    {
+      "id": "indefinido-perfecto",
+      "title": "Indefinido oder Perfecto?",
+      "blocks": [
+        { "type": "p", "text": "In Spanien unterscheidet man genau: Das pretérito perfecto (he viajado, Lektion 1) benutzt du für einen Zeitraum, der noch nicht vorbei ist – heute, diese Woche, dieses Jahr – oder ganz ohne Zeitangabe. Das Indefinido (viajé) benutzt du für einen abgeschlossenen Zeitraum: gestern, letzte Woche, vor zwei Jahren." },
+        { "type": "table", "head": ["Perfecto: he viajado", "Indefinido: viajé"], "rows": [["hoy – heute", "ayer – gestern"], ["esta mañana – heute Morgen", "anoche – gestern Abend"], ["esta semana – diese Woche", "la semana pasada – letzte Woche"], ["este año – dieses Jahr", "el año pasado – letztes Jahr"], ["ya, todavía no – schon, noch nicht", "hace dos años – vor zwei Jahren"], ["nunca – (bis jetzt) noch nie", "en 2019 – im Jahr 2019"]] },
+        { "type": "tip", "text": "Faustregel: Ist der Zeitraum für dich noch „offen“ (heute, diese Woche), nimm das Perfecto. Ist er „zu“ (gestern, letzte Woche), nimm das Indefinido." },
+        { "type": "tip", "text": "In Lateinamerika und in Teilen Nordspaniens benutzt man auch für heute oft das Indefinido: Hoy me levanté temprano. Du wirst also beides hören." },
+        { "type": "examples", "items": [{ "text": "Este año he viajado mucho.", "de": "Dieses Jahr bin ich viel gereist." }, { "text": "El año pasado viajé muy poco.", "de": "Letztes Jahr bin ich sehr wenig gereist." }, { "text": "Hoy me he levantado a las siete.", "de": "Heute bin ich um sieben aufgestanden." }, { "text": "Ayer me levanté a las nueve.", "de": "Gestern bin ich um neun aufgestanden." }, { "text": "¿Has estado en Mallorca? – Sí, estuve allí hace dos años.", "de": "Warst du schon mal auf Mallorca? – Ja, ich war vor zwei Jahren dort." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hoy ___ en un restaurante muy bonito.", "answers": ["hemos comido"], "de": "Heute haben wir in einem sehr schönen Restaurant gegessen.", "hint": "comer – nosotros" },
+        { "type": "cloze", "text": "Ayer ___ en un restaurante muy bonito.", "answers": ["comimos"], "de": "Gestern haben wir in einem sehr schönen Restaurant gegessen.", "hint": "comer – nosotros" },
+        { "type": "cloze", "text": "Esta semana ___ mucho.", "answers": ["he trabajado"], "de": "Diese Woche habe ich viel gearbeitet.", "hint": "trabajar – yo" },
+        { "type": "cloze", "text": "La semana pasada ___ mucho.", "answers": ["trabajé"], "de": "Letzte Woche habe ich viel gearbeitet.", "hint": "trabajar – yo" },
+        { "type": "cloze", "text": "¿Ya ___ el hotel?", "answers": ["has reservado"], "de": "Hast du das Hotel schon reserviert?", "hint": "reservar – tú" },
+        { "type": "cloze", "text": "Sí, lo ___ anteayer.", "answers": ["reservé"], "de": "Ja, ich habe es vorgestern reserviert.", "hint": "reservar – yo" },
+        { "type": "choice", "prompt": "Welche Form passt? „El año pasado ___ a Mallorca.“", "options": ["he ido", "fui", "voy"], "answer": 1, "explain": "El año pasado ist ein abgeschlossener Zeitraum – also Indefinido: fui." },
+        { "type": "translate", "de": "Heute bin ich früh aufgestanden.", "answers": ["Hoy me he levantado temprano.", "Hoy me he levantado pronto.", "Me he levantado temprano hoy.", "Hoy yo me he levantado temprano."] },
+        { "type": "translate", "de": "Gestern bin ich spät aufgestanden.", "answers": ["Ayer me levanté tarde.", "Me levanté tarde ayer.", "Ayer yo me levanté tarde."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué tal las vacaciones?",
+    "title_de": "Wie war der Urlaub?",
+    "lines": [
+      { "speaker": "Marta", "text": "¡Hola, Jonas! ¿Qué tal las vacaciones? ¿Dónde estuviste?", "de": "Hallo, Jonas! Wie war der Urlaub? Wo warst du?" },
+      { "speaker": "Jonas", "text": "Estuve en Mallorca con mi hermana Anna. Llegamos hace diez días y volvimos anoche.", "de": "Ich war mit meiner Schwester Anna auf Mallorca. Wir sind vor zehn Tagen angekommen und gestern Abend zurückgekommen." },
+      { "speaker": "Marta", "text": "¡Qué bien! ¿Y qué tal el viaje?", "de": "Wie schön! Und wie war die Reise?" },
+      { "speaker": "Jonas", "text": "Bueno, el vuelo salió con dos horas de retraso. Y mi maleta llegó un día más tarde.", "de": "Naja, der Flug ist mit zwei Stunden Verspätung gestartet. Und mein Koffer kam einen Tag später an." },
+      { "speaker": "Marta", "text": "¡Uf! ¿Y el hotel?", "de": "Oje! Und das Hotel?" },
+      { "speaker": "Jonas", "text": "Estupendo. Tuvimos una habitación doble con vistas al mar y con desayuno incluido.", "de": "Toll. Wir hatten ein Doppelzimmer mit Meerblick und mit Frühstück." },
+      { "speaker": "Marta", "text": "¿Y qué hicisteis?", "de": "Und was habt ihr gemacht?" },
+      { "speaker": "Jonas", "text": "El primer día tomamos el sol y nos bañamos en el mar. Después alquilamos bicicletas e hicimos una excursión a un pueblo de la montaña.", "de": "Am ersten Tag haben wir uns gesonnt und im Meer gebadet. Danach haben wir Fahrräder gemietet und einen Ausflug in ein Bergdorf gemacht." },
+      { "speaker": "Marta", "text": "¡Qué bonito! ¿Lo pasasteis bien?", "de": "Wie schön! Hattet ihr eine gute Zeit?" },
+      { "speaker": "Jonas", "text": "¡Sí, muy bien! Anna quiere volver el año que viene. ¿Y tú? ¿Has viajado este verano?", "de": "Ja, sehr! Anna will nächstes Jahr wieder hin. Und du? Bist du diesen Sommer verreist?" },
+      { "speaker": "Marta", "text": "Este verano no he viajado, he trabajado mucho. Pero hace dos años estuve en Mallorca también. ¡Es una isla preciosa!", "de": "Diesen Sommer bin ich nicht verreist, ich habe viel gearbeitet. Aber vor zwei Jahren war ich auch auf Mallorca. Die Insel ist wunderschön!" },
+      { "speaker": "Marta", "text": "Oye, ¿cómo se llama vuestro hotel? Quiero reservar una habitación para septiembre.", "de": "Sag mal, wie heißt euer Hotel? Ich möchte ein Zimmer für September reservieren." },
+      { "speaker": "Jonas", "text": "Se llama Hotel Sol y Mar. Pero tienes que reservar pronto: en verano siempre está completo.", "de": "Es heißt Hotel Sol y Mar. Aber du musst bald reservieren: Im Sommer ist es immer ausgebucht." },
+      { "speaker": "Marta", "text": "Vale, esta noche lo reservo. ¡Gracias, Jonas!", "de": "Okay, heute Abend buche ich es. Danke, Jonas!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["el vuelo", "der Flug"], ["el equipaje", "das Gepäck"], ["el pasaporte", "der Reisepass"], ["la recepción", "die Rezeption"], ["el ascensor", "der Aufzug"]] },
+    { "type": "match", "pairs": [["ayer", "gestern"], ["anoche", "gestern Abend"], ["anteayer", "vorgestern"], ["el año pasado", "letztes Jahr"], ["hace dos años", "vor zwei Jahren"]] },
+    { "type": "translate", "de": "Ich hätte gern ein Doppelzimmer mit Meerblick.", "answers": ["Querría una habitación doble con vistas al mar.", "Quería una habitación doble con vistas al mar.", "Querría una habitación doble con vista al mar.", "Quería una habitación doble con vista al mar."] },
+    { "type": "translate", "de": "Ist das Frühstück inbegriffen?", "answers": ["¿El desayuno está incluido?", "¿Está incluido el desayuno?", "¿Está el desayuno incluido?"] },
+    { "type": "translate", "de": "Letzte Woche war ich in Barcelona.", "answers": ["La semana pasada estuve en Barcelona.", "Estuve en Barcelona la semana pasada.", "La semana pasada yo estuve en Barcelona.", "Yo estuve en Barcelona la semana pasada.", "La semana pasada fui a Barcelona.", "Fui a Barcelona la semana pasada."] },
+    { "type": "translate", "de": "Letzten Sommer haben wir eine Ferienwohnung in der Nähe vom Meer gemietet.", "answers": ["El verano pasado alquilamos un apartamento cerca del mar.", "Alquilamos un apartamento cerca del mar el verano pasado.", "El verano pasado nosotros alquilamos un apartamento cerca del mar.", "Nosotros alquilamos un apartamento cerca del mar el verano pasado."] },
+    { "type": "order", "de": "Wo warst du gestern Abend?", "answer": "¿Dónde estuviste anoche?", "distractors": ["estuve"] },
+    { "type": "order", "de": "Das Hotel ist im Sommer immer ausgebucht.", "answer": "En verano el hotel siempre está completo.", "distractors": ["es"] },
+    { "type": "cloze", "text": "Lo siento, no tenemos habitaciones libres. El hotel está ___.", "answers": ["completo"], "de": "Tut mir leid, wir haben keine freien Zimmer. Das Hotel ist ausgebucht." },
+    { "type": "cloze", "text": "¿Lo ___ bien en Mallorca?", "answers": ["pasaste"], "de": "Hattest du eine schöne Zeit auf Mallorca?", "hint": "pasarlo bien – tú" },
+    { "type": "cloze", "text": "Mallorca es una ___ muy bonita.", "answers": ["isla"], "de": "Mallorca ist eine sehr schöne Insel." },
+    { "type": "listen", "text": "Hace dos años fuimos de vacaciones a la costa.", "de": "Vor zwei Jahren sind wir an die Küste in den Urlaub gefahren." },
+    { "type": "listen", "text": "Querría una habitación individual para dos noches.", "de": "Ich hätte gern ein Einzelzimmer für zwei Nächte." },
+    { "type": "listen", "text": "El vuelo salió tarde y perdí el tren.", "de": "Der Flug ist spät gestartet, und ich habe den Zug verpasst." }
+  ]
+}

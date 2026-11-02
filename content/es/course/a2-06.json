@@ -1,0 +1,171 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-06",
+  "lang": "es",
+  "level": "A2",
+  "number": 6,
+  "title": "En el restaurante",
+  "title_de": "Im Restaurant",
+  "topic": "Reservieren, bestellen und bezahlen",
+  "goals": [
+    "Du kannst einen Tisch reservieren und im Restaurant höflich bestellen.",
+    "Du verstehst das menú del día: primer plato, segundo plato und postre.",
+    "Du kannst mit me, te, le, nos, os, les sagen, wem jemand etwas bringt oder empfiehlt.",
+    "Du kannst nach der Rechnung fragen und bar oder mit Karte bezahlen."
+  ],
+  "vocab": [
+    { "id": "reservar", "word": "reservar", "de": "reservieren", "pos": "verb", "forms": "reservo, reservas, reserva, reservamos, reserváis, reservan", "example": { "text": "Querría reservar una mesa para el sábado.", "de": "Ich würde gern einen Tisch für Samstag reservieren." }, "note": "Regelmäßig wie hablar." },
+    { "id": "reserva", "word": "reserva", "article": "la", "gender": "f", "plural": "las reservas", "de": "die Reservierung", "pos": "noun", "example": { "text": "Tenemos una reserva a nombre de Lucía.", "de": "Wir haben eine Reservierung auf den Namen Lucía." }, "note": "a nombre de … = auf den Namen …" },
+    { "id": "persona", "word": "persona", "article": "la", "gender": "f", "plural": "las personas", "de": "die Person", "pos": "noun", "example": { "text": "Una mesa para dos personas, por favor.", "de": "Einen Tisch für zwei Personen, bitte.", "focus": "personas" }, "note": "Immer weiblich, auch wenn ein Mann gemeint ist: Pablo es una persona muy simpática." },
+    { "id": "terraza", "word": "terraza", "article": "la", "gender": "f", "plural": "las terrazas", "de": "die Terrasse", "pos": "noun", "example": { "text": "En verano comemos en la terraza.", "de": "Im Sommer essen wir auf der Terrasse." } },
+    { "id": "carta", "word": "carta", "article": "la", "gender": "f", "plural": "las cartas", "de": "die Speisekarte; der Brief", "pos": "noun", "example": { "text": "¿Nos trae la carta, por favor?", "de": "Bringen Sie uns bitte die Speisekarte?" }, "note": "Im Restaurant ist la carta die Speisekarte. Mit menú meint man meist ein festes Menü." },
+    { "id": "menu-del-dia", "word": "menú del día", "article": "el", "gender": "m", "plural": "los menús del día", "de": "das Tagesmenü; der Mittagstisch", "pos": "noun", "example": { "text": "El menú del día cuesta catorce euros.", "de": "Das Tagesmenü kostet vierzehn Euro." }, "note": "Mittags bieten viele Restaurants in Spanien ein günstiges menú del día an: zwei Gänge, Nachtisch, Brot und ein Getränk." },
+    { "id": "primer-plato", "word": "primer plato", "article": "el", "gender": "m", "plural": "los primeros platos", "de": "die Vorspeise; der erste Gang", "pos": "noun", "example": { "text": "¿Qué hay de primer plato?", "de": "Was gibt es als Vorspeise?" }, "note": "Kurz sagt man auch: de primero. Primero wird vor einem männlichen Nomen zu primer." },
+    { "id": "segundo-plato", "word": "segundo plato", "article": "el", "gender": "m", "plural": "los segundos platos", "de": "das Hauptgericht; der zweite Gang", "pos": "noun", "example": { "text": "De segundo plato tenemos pollo o pescado.", "de": "Als Hauptgericht haben wir Hähnchen oder Fisch." }, "note": "Kurz: de segundo." },
+    { "id": "plato", "word": "plato", "article": "el", "gender": "m", "plural": "los platos", "de": "der Teller; das Gericht", "pos": "noun", "example": { "text": "La paella es un plato típico de Valencia.", "de": "Paella ist ein typisches Gericht aus Valencia." } },
+    { "id": "postre", "word": "postre", "article": "el", "gender": "m", "plural": "los postres", "de": "der Nachtisch", "pos": "noun", "example": { "text": "¿Qué hay de postre?", "de": "Was gibt es zum Nachtisch?" } },
+    { "id": "bebida", "word": "bebida", "article": "la", "gender": "f", "plural": "las bebidas", "de": "das Getränk", "pos": "noun", "example": { "text": "La bebida está incluida en el menú.", "de": "Das Getränk ist im Menü inbegriffen." } },
+    { "id": "pedir", "word": "pedir", "de": "bestellen; bitten um", "pos": "verb", "forms": "pido, pides, pide, pedimos, pedís, piden", "example": { "text": "Yo pido el pescado.", "de": "Ich nehme den Fisch.", "focus": "pido" }, "note": "e → i: pido, pides … Mehr in der Grammatik." },
+    { "id": "servir", "word": "servir", "de": "servieren; anbieten (Speisen)", "pos": "verb", "forms": "sirvo, sirves, sirve, servimos, servís, sirven", "example": { "text": "En este bar sirven unas tapas muy ricas.", "de": "In dieser Bar gibt es sehr leckere Tapas.", "focus": "sirven" }, "note": "Wie pedir: e → i." },
+    { "id": "traer", "word": "traer", "de": "(mit)bringen", "pos": "verb", "forms": "traigo, traes, trae, traemos, traéis, traen", "example": { "text": "¿Nos trae más pan, por favor?", "de": "Bringen Sie uns bitte noch Brot?", "focus": "trae" }, "note": "Nur die ich-Form ist unregelmäßig: traigo." },
+    { "id": "recomendar", "word": "recomendar", "de": "empfehlen", "pos": "verb", "forms": "recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan", "example": { "text": "¿Qué nos recomienda?", "de": "Was empfehlen Sie uns?", "focus": "recomienda" }, "note": "e → ie wie querer." },
+    { "id": "querria", "word": "querría", "de": "ich hätte gern; ich würde gern", "pos": "phrase", "example": { "text": "Querría una mesa en la terraza.", "de": "Ich hätte gern einen Tisch auf der Terrasse." }, "note": "Eine sehr höfliche Form von querer (wie „ich würde gern“). Genauso höflich ist quería aus A1." },
+    { "id": "podria", "word": "¿podría …?", "de": "könnten Sie …?", "pos": "phrase", "example": { "text": "¿Podría traernos la carta, por favor?", "de": "Könnten Sie uns bitte die Speisekarte bringen?" }, "note": "Danach steht ein Infinitiv. Per du: ¿Podrías …?" },
+    { "id": "pescado", "word": "pescado", "article": "el", "gender": "m", "plural": "los pescados", "de": "der Fisch (als Essen)", "pos": "noun", "example": { "text": "Hoy hay sopa de pescado.", "de": "Heute gibt es Fischsuppe." }, "note": "Der lebende Fisch im Wasser heißt el pez." },
+    { "id": "carne", "word": "carne", "article": "la", "gender": "f", "plural": "las carnes", "de": "das Fleisch", "pos": "noun", "example": { "text": "Marta no come carne.", "de": "Marta isst kein Fleisch." } },
+    { "id": "vegetariano", "word": "vegetariano", "alt": ["vegetariana"], "de": "vegetarisch; Vegetarier, Vegetarierin", "pos": "adj", "example": { "text": "¿Tienen platos vegetarianos?", "de": "Haben Sie vegetarische Gerichte?", "focus": "vegetarianos" } },
+    { "id": "pollo", "word": "pollo", "article": "el", "gender": "m", "plural": "los pollos", "de": "das Hähnchen", "pos": "noun", "example": { "text": "De segundo, el pollo con patatas, por favor.", "de": "Als Hauptgericht das Hähnchen mit Kartoffeln, bitte." } },
+    { "id": "ensalada", "word": "ensalada", "article": "la", "gender": "f", "plural": "las ensaladas", "de": "der Salat", "pos": "noun", "example": { "text": "De primero quiero una ensalada.", "de": "Als Vorspeise möchte ich einen Salat." }, "note": "Gemeint ist das Gericht. Die Salatpflanze heißt la lechuga." },
+    { "id": "sopa", "word": "sopa", "article": "la", "gender": "f", "plural": "las sopas", "de": "die Suppe", "pos": "noun", "example": { "text": "Para la sopa necesito una cuchara.", "de": "Für die Suppe brauche ich einen Löffel." } },
+    { "id": "arroz", "word": "arroz", "article": "el", "gender": "m", "plural": "los arroces", "de": "der Reis", "pos": "noun", "example": { "text": "La paella es un plato de arroz.", "de": "Paella ist ein Reisgericht." } },
+    { "id": "paella", "word": "paella", "article": "la", "gender": "f", "plural": "las paellas", "de": "die Paella (Reispfanne)", "pos": "noun", "example": { "text": "Los domingos comemos paella.", "de": "Sonntags essen wir Paella." }, "note": "Die echte Paella kommt aus Valencia – mit Huhn, Kaninchen und Bohnen. Es gibt sie auch mit Meeresfrüchten oder Gemüse." },
+    { "id": "gazpacho", "word": "gazpacho", "article": "el", "gender": "m", "plural": "los gazpachos", "de": "der Gazpacho (kalte Gemüsesuppe)", "pos": "noun", "example": { "text": "En verano tomamos mucho gazpacho.", "de": "Im Sommer essen wir viel Gazpacho." }, "note": "Eine kalte Suppe aus Tomaten, Gurke, Paprika, Öl und Knoblauch – typisch für Andalusien." },
+    { "id": "helado", "word": "helado", "article": "el", "gender": "m", "plural": "los helados", "de": "das (Speise-)Eis", "pos": "noun", "example": { "text": "De postre, un helado de chocolate.", "de": "Zum Nachtisch ein Schokoladeneis." }, "note": "Gefrorenes Wasser heißt el hielo." },
+    { "id": "flan", "word": "flan", "article": "el", "gender": "m", "plural": "los flanes", "de": "der Karamellpudding", "pos": "noun", "example": { "text": "Marta pide un flan.", "de": "Marta bestellt einen Karamellpudding." } },
+    { "id": "sal", "word": "sal", "article": "la", "gender": "f", "de": "das Salz", "pos": "noun", "example": { "text": "¿Me pasas la sal, por favor?", "de": "Gibst du mir bitte das Salz?" }, "note": "Weiblich: la sal." },
+    { "id": "vaso", "word": "vaso", "article": "el", "gender": "m", "plural": "los vasos", "de": "das (Trink-)Glas", "pos": "noun", "example": { "text": "¿Me trae un vaso de agua?", "de": "Bringen Sie mir ein Glas Wasser?" } },
+    { "id": "copa", "word": "copa", "article": "la", "gender": "f", "plural": "las copas", "de": "das Stielglas; das Glas (Wein)", "pos": "noun", "example": { "text": "Una copa de vino tinto, por favor.", "de": "Ein Glas Rotwein, bitte." }, "note": "Wein trinkt man aus una copa, Wasser aus un vaso." },
+    { "id": "cuchillo", "word": "cuchillo", "article": "el", "gender": "m", "plural": "los cuchillos", "de": "das Messer", "pos": "noun", "example": { "text": "Perdone, no tengo cuchillo.", "de": "Entschuldigung, ich habe kein Messer." } },
+    { "id": "tenedor", "word": "tenedor", "article": "el", "gender": "m", "plural": "los tenedores", "de": "die Gabel", "pos": "noun", "example": { "text": "El tenedor está al lado del plato.", "de": "Die Gabel liegt neben dem Teller." } },
+    { "id": "cuchara", "word": "cuchara", "article": "la", "gender": "f", "plural": "las cucharas", "de": "der Löffel", "pos": "noun", "example": { "text": "¿Me trae una cuchara, por favor?", "de": "Bringen Sie mir bitte einen Löffel?" } },
+    { "id": "pagar", "word": "pagar", "de": "(be)zahlen", "pos": "verb", "forms": "pago, pagas, paga, pagamos, pagáis, pagan", "example": { "text": "Hoy pago yo.", "de": "Heute zahle ich.", "focus": "pago" } },
+    { "id": "tarjeta", "word": "tarjeta", "article": "la", "gender": "f", "plural": "las tarjetas", "de": "die Karte (Bank-, Kreditkarte)", "pos": "noun", "example": { "text": "¿Puedo pagar con tarjeta?", "de": "Kann ich mit Karte zahlen?" } },
+    { "id": "en-efectivo", "word": "en efectivo", "de": "bar", "pos": "phrase", "example": { "text": "¿Paga en efectivo o con tarjeta?", "de": "Zahlen Sie bar oder mit Karte?" } },
+    { "id": "propina", "word": "propina", "article": "la", "gender": "f", "plural": "las propinas", "de": "das Trinkgeld", "pos": "noun", "example": { "text": "La propina es para la camarera.", "de": "Das Trinkgeld ist für die Kellnerin." }, "note": "In Spanien ist Trinkgeld kein Muss. Viele lassen ein paar Münzen auf dem Tisch liegen." },
+    { "id": "dejar", "word": "dejar", "de": "lassen; (da)lassen", "pos": "verb", "forms": "dejo, dejas, deja, dejamos, dejáis, dejan", "example": { "text": "Dejamos cinco euros de propina.", "de": "Wir lassen fünf Euro Trinkgeld da.", "focus": "dejamos" } },
+    { "id": "rico", "word": "rico", "alt": ["rica"], "de": "lecker; reich", "pos": "adj", "example": { "text": "¡Qué rica está la paella!", "de": "Wie lecker die Paella ist!", "focus": "rica" }, "note": "Mit estar = lecker: La sopa está muy rica. Mit ser = reich: Es una familia rica." },
+    { "id": "tipico", "word": "típico", "alt": ["típica"], "de": "typisch", "pos": "adj", "example": { "text": "El gazpacho es un plato típico de Andalucía.", "de": "Gazpacho ist ein typisches Gericht aus Andalusien." } },
+    { "id": "a-la-plancha", "word": "a la plancha", "de": "gegrillt (auf der heißen Platte)", "pos": "phrase", "example": { "text": "Querría el pescado a la plancha.", "de": "Ich hätte gern den gegrillten Fisch." } },
+    { "id": "lleno", "word": "lleno", "alt": ["llena"], "de": "satt; voll", "pos": "adj", "example": { "text": "No quiero postre, gracias. Estoy lleno.", "de": "Ich möchte keinen Nachtisch, danke. Ich bin satt." }, "note": "Eine Frau sagt: Estoy llena. El restaurante está lleno. = Das Restaurant ist voll." },
+    { "id": "que-aproveche", "word": "¡que aproveche!", "de": "guten Appetit!", "pos": "phrase", "example": { "text": "Aquí tienen la paella. ¡Que aproveche!", "de": "Hier ist Ihre Paella. Guten Appetit!" }, "note": "Man sagt es auch zu Fremden, die gerade essen. Ebenso: ¡Buen provecho!" }
+  ],
+  "grammar": [
+    {
+      "id": "pedir",
+      "title": "Bestellen: pedir und servir (e → i)",
+      "blocks": [
+        { "type": "p", "text": "Pedir bedeutet „bestellen“ oder „um etwas bitten“. Es ist ein Stiefelverb wie querer – nur wird hier aus dem e im Stamm ein i (nicht ie). Die Endungen sind die normalen Endungen der Verben auf -ir." },
+        { "type": "table", "head": ["Person", "pedir", "servir"], "rows": [["yo", "pido", "sirvo"], ["tú", "pides", "sirves"], ["él / ella / usted", "pide", "sirve"], ["nosotros / nosotras", "pedimos", "servimos"], ["vosotros / vosotras", "pedís", "servís"], ["ellos / ellas / ustedes", "piden", "sirven"]] },
+        { "type": "tip", "text": "Wie bei querer behalten nur nosotros und vosotros den ursprünglichen Vokal: pedimos, pedís. Genauso funktioniert repetir (wiederholen): repito, repites …" },
+        { "type": "p", "text": "Pedir oder preguntar? Auf Deutsch sagt man manchmal für beides „fragen“. Pedir heißt: um etwas bitten, etwas bestellen (pedir la cuenta, pedir un café). Preguntar heißt: eine Frage stellen (preguntar la hora = nach der Uhrzeit fragen)." },
+        { "type": "tip", "text": "Die Bedienung fragt oft: ¿Qué van a pedir? = Was möchten Sie bestellen? Das ist ir a + Infinitiv aus A1." },
+        { "type": "examples", "items": [{ "text": "¿Qué pides tú?", "de": "Was nimmst du?" }, { "text": "Yo pido el menú del día.", "de": "Ich nehme das Tagesmenü." }, { "text": "Los domingos siempre pedimos paella.", "de": "Sonntags bestellen wir immer Paella." }, { "text": "Jonas pide la cuenta.", "de": "Jonas bittet um die Rechnung." }, { "text": "Aquí sirven un gazpacho muy rico.", "de": "Hier gibt es einen sehr leckeren Gazpacho." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Yo ___ el pescado a la plancha.", "answers": ["pido"], "de": "Ich nehme den gegrillten Fisch.", "hint": "pedir – yo" },
+        { "type": "cloze", "text": "¿Qué ___ tú de postre?", "answers": ["pides"], "de": "Was nimmst du zum Nachtisch?", "hint": "pedir – tú" },
+        { "type": "cloze", "text": "Lucía siempre ___ una ensalada.", "answers": ["pide"], "de": "Lucía bestellt immer einen Salat.", "hint": "pedir" },
+        { "type": "cloze", "text": "Nosotros ___ el menú del día.", "answers": ["pedimos"], "de": "Wir nehmen das Tagesmenü.", "hint": "pedir" },
+        { "type": "cloze", "text": "¿Y vosotros qué ___?", "answers": ["pedís"], "de": "Und was bestellt ihr?", "hint": "pedir – vosotros" },
+        { "type": "cloze", "text": "En este restaurante ___ una paella muy buena.", "answers": ["sirven"], "de": "In diesem Restaurant gibt es eine sehr gute Paella.", "hint": "servir – ellos" },
+        { "type": "translate", "de": "Wir bestellen zwei Bier.", "answers": ["Pedimos dos cervezas.", "Nosotros pedimos dos cervezas.", "Nosotras pedimos dos cervezas."] },
+        { "type": "order", "de": "Was bestellt ihr zum Nachtisch?", "answer": "¿Qué pedís de postre?", "distractors": ["pides"] }
+      ]
+    },
+    {
+      "id": "objeto-indirecto",
+      "title": "Wem? – me, te, le, nos, os, les",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Pronomen sagst du, wem etwas gebracht, empfohlen oder hingestellt wird. Das ist das indirekte Objekt – auf Deutsch meistens der Dativ (mir, dir, ihm …). Du kennst die Pronomen schon von gustar: me gusta, te gusta, le gusta." },
+        { "type": "table", "head": ["Person", "Pronomen", "Deutsch"], "rows": [["yo", "me", "mir"], ["tú", "te", "dir"], ["él / ella / usted", "le", "ihm / ihr / Ihnen"], ["nosotros / nosotras", "nos", "uns"], ["vosotros / vosotras", "os", "euch"], ["ellos / ellas / ustedes", "les", "ihnen / Ihnen (mehrere)"]] },
+        { "type": "p", "text": "Das Pronomen steht direkt vor dem konjugierten Verb: Te traigo la carta. = Ich bringe dir die Speisekarte. Bei der Verneinung kommt no davor: No me trae el vino." },
+        { "type": "p", "text": "Steht ein Infinitiv dabei, darfst du das Pronomen auch hinten anhängen: ¿Me puede traer agua? = ¿Puede traerme agua? Beides ist richtig." },
+        { "type": "tip", "text": "Le und les können mehreres bedeuten (ihm, ihr, Ihnen). Darum sagt man oft dazu, wer gemeint ist: A Marta le recomiendo el flan. Le traigo el vino a usted. Das Pronomen bleibt trotzdem stehen." },
+        { "type": "tip", "text": "Nicht verwechseln mit lo, la, los, las aus Lektion 5: Die sagen, was oder wen (¿El vino? Lo traigo ahora.). Me, te, le … sagen, wem. Wenn beide zusammenkommen, wird le zu se – das lernst du später." },
+        { "type": "examples", "items": [{ "text": "¿Qué nos recomienda?", "de": "Was empfehlen Sie uns?" }, { "text": "Le recomiendo el pescado, señora.", "de": "Ich empfehle Ihnen den Fisch." }, { "text": "¿Me trae la cuenta, por favor?", "de": "Bringen Sie mir bitte die Rechnung?" }, { "text": "Os traigo el pan ahora.", "de": "Ich bringe euch jetzt das Brot." }, { "text": "A mis padres les recomiendo este restaurante.", "de": "Meinen Eltern empfehle ich dieses Restaurant." }, { "text": "¿Te pongo un poco más de vino?", "de": "Soll ich dir noch etwas Wein einschenken?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿___ trae la carta, por favor?", "answers": ["me"], "de": "Bringen Sie mir bitte die Speisekarte?", "hint": "mir" },
+        { "type": "cloze", "text": "Chicos, ¿qué ___ traigo?", "answers": ["os"], "de": "Leute, was darf ich euch bringen?", "hint": "euch" },
+        { "type": "cloze", "text": "___ recomiendo la paella, señora.", "answers": ["le"], "de": "Ich empfehle Ihnen die Paella.", "hint": "Ihnen" },
+        { "type": "cloze", "text": "¿___ trae dos cafés, por favor?", "answers": ["nos"], "de": "Bringen Sie uns bitte zwei Kaffee?", "hint": "uns" },
+        { "type": "cloze", "text": "Marta, ¿___ pongo un poco de agua?", "answers": ["te"], "de": "Marta, soll ich dir etwas Wasser einschenken?", "hint": "dir" },
+        { "type": "cloze", "text": "A mis amigos ___ recomiendo este bar.", "answers": ["les"], "de": "Meinen Freunden empfehle ich diese Bar.", "hint": "ihnen" },
+        { "type": "translate", "de": "Was empfehlen Sie uns?", "answers": ["¿Qué nos recomienda?", "¿Qué nos recomienda usted?", "¿Qué nos recomiendan?", "¿Qué nos recomiendan ustedes?"] },
+        { "type": "translate", "de": "Ich bringe dir einen Kaffee.", "answers": ["Te traigo un café.", "Yo te traigo un café."] },
+        { "type": "order", "de": "Können Sie mir ein Glas Wasser bringen?", "answer": "¿Me puede traer un vaso de agua?", "distractors": ["le"] }
+      ]
+    },
+    {
+      "id": "restaurante-cortesia",
+      "title": "Höflich reservieren, bestellen und bezahlen",
+      "blocks": [
+        { "type": "p", "text": "Im Restaurant sprichst du die Bedienung mit usted an (mehrere Gäste: ustedes). Diese festen Wendungen klingen besonders höflich – lerne sie am besten als Ganzes:" },
+        { "type": "table", "head": ["Situation", "Spanisch", "Deutsch"], "rows": [["reservieren", "Querría reservar una mesa para cuatro personas.", "Ich würde gern einen Tisch für vier Personen reservieren."], ["ankommen", "Tenemos una reserva a nombre de Lucía.", "Wir haben eine Reservierung auf den Namen Lucía."], ["bitten", "¿Podría traernos la carta?", "Könnten Sie uns die Speisekarte bringen?"], ["bestellen", "De primero, querría una sopa.", "Als Vorspeise hätte ich gern eine Suppe."], ["bezahlen", "¿Nos trae la cuenta, por favor?", "Bringen Sie uns bitte die Rechnung?"]] },
+        { "type": "p", "text": "Querría und podría sind Formen des Konditionals – wie „würde“ und „könnte“. Nach ¿podría …? steht ein Infinitiv: ¿Podría repetir, por favor? = Könnten Sie das bitte wiederholen?" },
+        { "type": "p", "text": "Das menú del día hat feste Gänge. Beim Bestellen sagst du einfach de + Gang:" },
+        { "type": "list", "items": ["de primero = als Vorspeise", "de segundo = als Hauptgericht", "de postre = zum Nachtisch", "de beber = zu trinken"] },
+        { "type": "tip", "text": "Die Rechnung kommt in Spanien erst, wenn du danach fragst – sie unaufgefordert zu bringen, gilt als unhöflich. Oft zahlt einer für alle: Hoy os invito yo. = Heute lade ich euch ein." },
+        { "type": "examples", "items": [{ "text": "¿Tienen mesa para dos?", "de": "Haben Sie einen Tisch für zwei?" }, { "text": "De segundo, querría el pollo a la plancha.", "de": "Als Hauptgericht hätte ich gern das gegrillte Hähnchen." }, { "text": "¿Qué hay de postre?", "de": "Was gibt es zum Nachtisch?" }, { "text": "De beber, una botella de agua, por favor.", "de": "Zu trinken eine Flasche Wasser, bitte." }, { "text": "¿Podría traerme otro tenedor?", "de": "Könnten Sie mir noch eine Gabel bringen?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ reservar una mesa para dos personas.", "answers": ["Querría", "Quería"], "de": "Ich würde gern einen Tisch für zwei Personen reservieren.", "hint": "höflich: ich würde gern" },
+        { "type": "cloze", "text": "¿___ traernos la carta, por favor?", "answers": ["Podría"], "de": "Könnten Sie uns bitte die Speisekarte bringen?", "hint": "könnten Sie" },
+        { "type": "cloze", "text": "De ___, una sopa de pescado.", "answers": ["primero"], "de": "Als Vorspeise eine Fischsuppe." },
+        { "type": "cloze", "text": "¿Qué hay de ___? – Flan o helado.", "answers": ["postre"], "de": "Was gibt es zum Nachtisch? – Karamellpudding oder Eis." },
+        { "type": "cloze", "text": "Tenemos una reserva a ___ de Jonas.", "answers": ["nombre"], "de": "Wir haben eine Reservierung auf den Namen Jonas." },
+        { "type": "translate", "de": "Haben Sie einen Tisch für vier Personen?", "answers": ["¿Tienen una mesa para cuatro personas?", "¿Tienen mesa para cuatro personas?", "¿Tiene una mesa para cuatro personas?", "¿Tiene mesa para cuatro personas?", "¿Tienen una mesa para cuatro?", "¿Tienen mesa para cuatro?"] },
+        { "type": "order", "de": "Bringen Sie uns bitte die Rechnung?", "answer": "¿Nos trae la cuenta, por favor?", "distractors": ["me"] },
+        { "type": "listen", "text": "Querría el pollo a la plancha con patatas.", "de": "Ich hätte gern das gegrillte Hähnchen mit Kartoffeln." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Una cena en Madrid",
+    "title_de": "Ein Abendessen in Madrid",
+    "lines": [
+      { "speaker": "Camarera", "text": "Buenas noches. ¿Tienen reserva?", "de": "Guten Abend. Haben Sie reserviert?" },
+      { "speaker": "Lucía", "text": "Sí, una mesa para tres personas a nombre de Lucía.", "de": "Ja, einen Tisch für drei Personen auf den Namen Lucía." },
+      { "speaker": "Camarera", "text": "Muy bien. Su mesa está en la terraza. Aquí tienen la carta.", "de": "Sehr gut. Ihr Tisch ist auf der Terrasse. Hier ist die Speisekarte." },
+      { "speaker": "Marta", "text": "Gracias. ¿Qué nos recomienda?", "de": "Danke. Was empfehlen Sie uns?" },
+      { "speaker": "Camarera", "text": "De primero, les recomiendo el gazpacho. Y de segundo, el pescado a la plancha: ¡está muy rico!", "de": "Als Vorspeise empfehle ich Ihnen den Gazpacho. Und als Hauptgericht den gegrillten Fisch – der ist sehr lecker!" },
+      { "speaker": "Jonas", "text": "Vale, yo pido el gazpacho y el pescado. ¿Y tú, Marta?", "de": "Okay, ich nehme den Gazpacho und den Fisch. Und du, Marta?" },
+      { "speaker": "Marta", "text": "Yo soy vegetariana. ¿Tienen platos vegetarianos?", "de": "Ich bin Vegetarierin. Haben Sie vegetarische Gerichte?" },
+      { "speaker": "Camarera", "text": "Sí, claro. La paella de verduras está muy buena.", "de": "Ja, natürlich. Die Gemüsepaella ist sehr gut." },
+      { "speaker": "Marta", "text": "Perfecto, querría la paella. Y una ensalada para todos, ¿vale?", "de": "Perfekt, ich hätte gern die Paella. Und einen Salat für alle, okay?" },
+      { "speaker": "Lucía", "text": "Para mí, el pollo a la plancha. ¿Y nos trae una botella de vino tinto y agua, por favor?", "de": "Für mich das gegrillte Hähnchen. Und bringen Sie uns bitte eine Flasche Rotwein und Wasser?" },
+      { "speaker": "Camarera", "text": "Aquí tienen. ¡Que aproveche!", "de": "Bitte schön. Guten Appetit!" },
+      { "speaker": "Jonas", "text": "¡Qué rico está el pescado!", "de": "Der Fisch ist wirklich lecker!" },
+      { "speaker": "Camarera", "text": "¿Les pongo algo de postre? Tenemos flan y helado.", "de": "Darf ich Ihnen einen Nachtisch bringen? Wir haben Karamellpudding und Eis." },
+      { "speaker": "Lucía", "text": "No, gracias, estoy llena. ¿Podría traernos la cuenta?", "de": "Nein, danke, ich bin satt. Könnten Sie uns die Rechnung bringen?" },
+      { "speaker": "Camarera", "text": "Claro. ¿Pagan en efectivo o con tarjeta?", "de": "Natürlich. Zahlen Sie bar oder mit Karte?" },
+      { "speaker": "Jonas", "text": "Con tarjeta. ¡Hoy os invito yo, chicas!", "de": "Mit Karte. Heute lade ich euch ein, ihr beiden!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["el primer plato", "die Vorspeise"], ["el segundo plato", "das Hauptgericht"], ["el postre", "der Nachtisch"], ["la bebida", "das Getränk"], ["la carta", "die Speisekarte"]] },
+    { "type": "match", "pairs": [["el cuchillo", "das Messer"], ["el tenedor", "die Gabel"], ["la cuchara", "der Löffel"], ["el vaso", "das Glas"], ["la sal", "das Salz"]] },
+    { "type": "translate", "de": "Ich würde gern einen Tisch für zwei Personen reservieren.", "answers": ["Querría reservar una mesa para dos personas.", "Quería reservar una mesa para dos personas.", "Querría reservar una mesa para dos.", "Quería reservar una mesa para dos."] },
+    { "type": "translate", "de": "Als Hauptgericht bestelle ich das Hähnchen.", "answers": ["De segundo pido el pollo.", "De segundo plato pido el pollo.", "De segundo yo pido el pollo.", "Yo de segundo pido el pollo.", "Pido el pollo de segundo.", "Yo pido el pollo de segundo."] },
+    { "type": "translate", "de": "Der Fisch ist sehr lecker.", "answers": ["El pescado está muy rico.", "El pescado está muy bueno.", "El pescado está riquísimo."] },
+    { "type": "translate", "de": "Kann ich mit Karte zahlen?", "answers": ["¿Puedo pagar con tarjeta?"] },
+    { "type": "order", "de": "Was empfehlen Sie uns zum Nachtisch?", "answer": "¿Qué nos recomienda de postre?", "distractors": ["les"] },
+    { "type": "order", "de": "Bringst du mir ein Glas Wasser?", "answer": "¿Me traes un vaso de agua?", "distractors": ["copa"] },
+    { "type": "cloze", "text": "Gracias, no quiero postre. Estoy ___.", "answers": ["lleno", "llena"], "de": "Danke, ich möchte keinen Nachtisch. Ich bin satt." },
+    { "type": "cloze", "text": "¿Paga con tarjeta o en ___?", "answers": ["efectivo"], "de": "Zahlen Sie mit Karte oder bar?" },
+    { "type": "cloze", "text": "Dejamos tres euros de ___.", "answers": ["propina"], "de": "Wir lassen drei Euro Trinkgeld da." },
+    { "type": "listen", "text": "Una mesa para cuatro personas en la terraza, por favor.", "de": "Einen Tisch für vier Personen auf der Terrasse, bitte." },
+    { "type": "listen", "text": "De primero, una ensalada, y de segundo, la paella.", "de": "Als Vorspeise einen Salat und als Hauptgericht die Paella." },
+    { "type": "listen", "text": "El menú del día cuesta quince euros con bebida y postre.", "de": "Das Tagesmenü kostet fünfzehn Euro mit Getränk und Nachtisch." }
+  ]
+}

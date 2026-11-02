@@ -1,0 +1,1282 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-07",
+  "lang": "en",
+  "level": "A2",
+  "number": 7,
+  "title": "On Vacation",
+  "title_de": "Urlaub",
+  "topic": "Hotel und Reiseplanung",
+  "goals": [
+    "Du kannst mit dem present perfect über Erfahrungen sprechen: Have you ever been to …? I've never …",
+    "Du kannst mit already, yet und just sagen, was schon erledigt ist und was noch nicht.",
+    "Du weißt, wann du das simple past und wann das present perfect benutzt.",
+    "Du kannst ein Hotelzimmer buchen, an der Rezeption einchecken und nach Frühstück und WLAN fragen."
+  ],
+  "vocab": [
+    {
+      "id": "ever",
+      "word": "ever",
+      "de": "je; jemals; schon mal (in Fragen)",
+      "pos": "adv",
+      "example": {
+        "text": "Have you ever been to California?",
+        "de": "Warst du schon mal in Kalifornien?"
+      },
+      "note": "Steht vor allem in Fragen: Have you ever …? = Hast du schon mal …? Im positiven Satz sagt man dafür never: I've never …"
+    },
+    {
+      "id": "have-been-to",
+      "word": "have been to",
+      "de": "in … gewesen sein; schon mal in … sein",
+      "pos": "phrase",
+      "example": {
+        "text": "My parents have been to Canada three times.",
+        "de": "Meine Eltern waren schon dreimal in Kanada."
+      },
+      "note": "I've been to Rome. = Ich war schon mal in Rom (und bin wieder zurück)."
+    },
+    {
+      "id": "already",
+      "word": "already",
+      "de": "schon; bereits",
+      "pos": "adv",
+      "example": {
+        "text": "I've already packed my suitcase.",
+        "de": "Ich habe meinen Koffer schon gepackt."
+      },
+      "note": "Steht meist zwischen have und dem Partizip: I've already …"
+    },
+    {
+      "id": "yet",
+      "word": "yet",
+      "de": "schon (in Fragen); noch nicht (in Verneinungen)",
+      "pos": "adv",
+      "example": {
+        "text": "Have you booked the hotel yet?",
+        "de": "Hast du das Hotel schon gebucht?"
+      },
+      "note": "Steht am Satzende. Not yet. = Noch nicht."
+    },
+    {
+      "id": "just",
+      "word": "just",
+      "de": "gerade (eben); nur",
+      "pos": "adv",
+      "example": {
+        "text": "We've just arrived at the hotel.",
+        "de": "Wir sind gerade im Hotel angekommen."
+      },
+      "note": "just heißt auch „nur“: Just a little milk, please."
+    },
+    {
+      "id": "once",
+      "word": "once",
+      "de": "einmal",
+      "pos": "adv",
+      "example": {
+        "text": "I've been to New Orleans once.",
+        "de": "Ich war einmal in New Orleans."
+      },
+      "note": "once a week = einmal pro Woche."
+    },
+    {
+      "id": "twice",
+      "word": "twice",
+      "de": "zweimal",
+      "pos": "adv",
+      "example": {
+        "text": "We've been to Florida twice.",
+        "de": "Wir waren zweimal in Florida."
+      },
+      "note": "Ab drei sagt man times: three times, four times. Statt twice geht auch two times."
+    },
+    {
+      "id": "so-far",
+      "word": "so far",
+      "de": "bisher; bis jetzt",
+      "pos": "phrase",
+      "example": {
+        "text": "So far, the trip has been great.",
+        "de": "Bis jetzt war die Reise super."
+      },
+      "note": "Steht oft mit dem present perfect."
+    },
+    {
+      "id": "book",
+      "word": "book",
+      "de": "buchen; reservieren",
+      "pos": "verb",
+      "example": {
+        "text": "I've already booked a room.",
+        "de": "Ich habe schon ein Zimmer gebucht.",
+        "focus": "booked"
+      },
+      "note": "Als Nomen heißt book „das Buch“."
+    },
+    {
+      "id": "single-room",
+      "word": "single room",
+      "plural": "single rooms",
+      "de": "das Einzelzimmer",
+      "pos": "noun",
+      "example": {
+        "text": "I'd like a single room for two nights.",
+        "de": "Ich hätte gern ein Einzelzimmer für zwei Nächte."
+      }
+    },
+    {
+      "id": "double-room",
+      "word": "double room",
+      "plural": "double rooms",
+      "de": "das Doppelzimmer",
+      "pos": "noun",
+      "example": {
+        "text": "We booked a double room with a view.",
+        "de": "Wir haben ein Doppelzimmer mit Aussicht gebucht."
+      }
+    },
+    {
+      "id": "front-desk",
+      "word": "front desk",
+      "alt": [
+        "reception"
+      ],
+      "de": "die Rezeption",
+      "pos": "noun",
+      "example": {
+        "text": "Please leave your key at the front desk.",
+        "de": "Bitte gib deinen Schlüssel an der Rezeption ab."
+      },
+      "note": "Amerikanisch: front desk. Britisch: reception."
+    },
+    {
+      "id": "check-in",
+      "word": "check in",
+      "de": "einchecken",
+      "pos": "verb",
+      "example": {
+        "text": "You can check in after 3 p.m.",
+        "de": "Sie können ab 15 Uhr einchecken."
+      },
+      "note": "Simple past: checked in."
+    },
+    {
+      "id": "check-out",
+      "word": "check out",
+      "de": "auschecken",
+      "pos": "verb",
+      "example": {
+        "text": "We have to check out at eleven.",
+        "de": "Wir müssen um elf auschecken."
+      }
+    },
+    {
+      "id": "key",
+      "word": "key",
+      "plural": "keys",
+      "de": "der Schlüssel",
+      "pos": "noun",
+      "example": {
+        "text": "Here's your key. Your room is on the fifth floor.",
+        "de": "Hier ist Ihr Schlüssel. Ihr Zimmer ist im fünften Stock."
+      },
+      "note": "Im Hotel bekommst du oft eine key card (Schlüsselkarte)."
+    },
+    {
+      "id": "elevator",
+      "word": "elevator",
+      "plural": "elevators",
+      "de": "der Aufzug; der Fahrstuhl",
+      "pos": "noun",
+      "example": {
+        "text": "The elevator is on the left.",
+        "de": "Der Aufzug ist links."
+      },
+      "note": "Amerikanisch: elevator. Britisch: lift."
+    },
+    {
+      "id": "view",
+      "word": "view",
+      "plural": "views",
+      "de": "die Aussicht; der Blick",
+      "pos": "noun",
+      "example": {
+        "text": "Our room has an amazing view.",
+        "de": "Unser Zimmer hat eine tolle Aussicht."
+      }
+    },
+    {
+      "id": "included",
+      "word": "included",
+      "de": "inklusive; inbegriffen",
+      "pos": "adj",
+      "example": {
+        "text": "Is breakfast included?",
+        "de": "Ist das Frühstück inklusive?"
+      }
+    },
+    {
+      "id": "wi-fi",
+      "word": "Wi-Fi",
+      "alt": [
+        "wifi",
+        "wi fi"
+      ],
+      "de": "das WLAN",
+      "pos": "noun",
+      "example": {
+        "text": "Is there free Wi-Fi in the room?",
+        "de": "Gibt es im Zimmer kostenloses WLAN?"
+      },
+      "note": "Gesprochen [ˈwaɪfaɪ]. free heißt hier „kostenlos“."
+    },
+    {
+      "id": "passport",
+      "word": "passport",
+      "plural": "passports",
+      "de": "der Reisepass",
+      "pos": "noun",
+      "example": {
+        "text": "Could I see your passport, please?",
+        "de": "Könnte ich bitte Ihren Reisepass sehen?"
+      }
+    },
+    {
+      "id": "luggage",
+      "word": "luggage",
+      "de": "das Gepäck",
+      "pos": "noun",
+      "example": {
+        "text": "We have a lot of luggage.",
+        "de": "Wir haben viel Gepäck."
+      },
+      "note": "Nicht zählbar: some luggage, a piece of luggage. Auch üblich: baggage."
+    },
+    {
+      "id": "backpack",
+      "word": "backpack",
+      "plural": "backpacks",
+      "de": "der Rucksack",
+      "pos": "noun",
+      "example": {
+        "text": "My passport is in my backpack.",
+        "de": "Mein Reisepass ist in meinem Rucksack."
+      }
+    },
+    {
+      "id": "pack",
+      "word": "pack",
+      "de": "packen",
+      "pos": "verb",
+      "example": {
+        "text": "Have you packed yet?",
+        "de": "Hast du schon gepackt?",
+        "focus": "packed"
+      }
+    },
+    {
+      "id": "flight",
+      "word": "flight",
+      "plural": "flights",
+      "de": "der Flug",
+      "pos": "noun",
+      "example": {
+        "text": "Our flight was three hours late.",
+        "de": "Unser Flug hatte drei Stunden Verspätung."
+      }
+    },
+    {
+      "id": "ocean",
+      "word": "ocean",
+      "plural": "oceans",
+      "de": "das Meer; der Ozean",
+      "pos": "noun",
+      "example": {
+        "text": "The hotel is right next to the ocean.",
+        "de": "Das Hotel liegt direkt am Meer."
+      },
+      "note": "In den USA sagt man meist ocean, sonst auch sea."
+    },
+    {
+      "id": "mountain",
+      "word": "mountain",
+      "plural": "mountains",
+      "de": "der Berg",
+      "pos": "noun",
+      "example": {
+        "text": "Have you ever climbed a mountain?",
+        "de": "Bist du schon mal auf einen Berg gestiegen?"
+      },
+      "note": "in die Berge fahren = go to the mountains."
+    },
+    {
+      "id": "national-park",
+      "word": "national park",
+      "plural": "national parks",
+      "de": "der Nationalpark",
+      "pos": "noun",
+      "example": {
+        "text": "Have you ever been to Yellowstone National Park?",
+        "de": "Warst du schon mal im Yellowstone-Nationalpark?"
+      },
+      "note": "Die USA haben über 60 Nationalparks, zum Beispiel Yellowstone und den Grand Canyon."
+    },
+    {
+      "id": "island",
+      "word": "island",
+      "plural": "islands",
+      "de": "die Insel",
+      "pos": "noun",
+      "example": {
+        "text": "Hawaii has eight big islands.",
+        "de": "Hawaii hat acht große Inseln.",
+        "focus": "islands"
+      },
+      "note": "Das s spricht man nicht: [ˈaɪlənd]."
+    },
+    {
+      "id": "abroad",
+      "word": "abroad",
+      "de": "im Ausland; ins Ausland",
+      "pos": "adv",
+      "example": {
+        "text": "Have you ever lived abroad?",
+        "de": "Hast du schon mal im Ausland gelebt?"
+      },
+      "note": "Ohne Präposition: go abroad (ins Ausland gehen), live abroad (im Ausland leben)."
+    },
+    {
+      "id": "tourist",
+      "word": "tourist",
+      "plural": "tourists",
+      "de": "der Tourist; die Touristin",
+      "pos": "noun",
+      "example": {
+        "text": "There are a lot of tourists in New York in the summer.",
+        "de": "Im Sommer gibt es in New York viele Touristen.",
+        "focus": "tourists"
+      }
+    },
+    {
+      "id": "sightseeing",
+      "word": "sightseeing",
+      "de": "die Besichtigung; das Sightseeing",
+      "pos": "noun",
+      "example": {
+        "text": "Let's go sightseeing today.",
+        "de": "Lass uns heute Sehenswürdigkeiten anschauen."
+      },
+      "note": "go sightseeing = Sehenswürdigkeiten besichtigen. Eine Sehenswürdigkeit heißt a sight."
+    },
+    {
+      "id": "tour",
+      "word": "tour",
+      "plural": "tours",
+      "de": "die Führung; die Rundfahrt",
+      "pos": "noun",
+      "example": {
+        "text": "We took a bus tour of the city.",
+        "de": "Wir haben eine Stadtrundfahrt mit dem Bus gemacht."
+      },
+      "note": "eine Führung machen = take a tour."
+    },
+    {
+      "id": "souvenir",
+      "word": "souvenir",
+      "plural": "souvenirs",
+      "de": "das Souvenir; das Andenken",
+      "pos": "noun",
+      "example": {
+        "text": "I bought a souvenir for my mom.",
+        "de": "Ich habe ein Souvenir für meine Mutter gekauft."
+      }
+    },
+    {
+      "id": "postcard",
+      "word": "postcard",
+      "plural": "postcards",
+      "de": "die Postkarte",
+      "pos": "noun",
+      "example": {
+        "text": "Have you written any postcards yet?",
+        "de": "Hast du schon Postkarten geschrieben?",
+        "focus": "postcards"
+      }
+    },
+    {
+      "id": "famous",
+      "word": "famous",
+      "de": "berühmt",
+      "pos": "adj",
+      "example": {
+        "text": "The Golden Gate Bridge is very famous.",
+        "de": "Die Golden Gate Bridge ist sehr berühmt."
+      },
+      "note": "bekannt für = famous for: San Francisco is famous for its bridge."
+    },
+    {
+      "id": "amazing",
+      "word": "amazing",
+      "de": "toll; großartig; unglaublich",
+      "pos": "adj",
+      "example": {
+        "text": "The view from our room is amazing!",
+        "de": "Die Aussicht aus unserem Zimmer ist toll!"
+      }
+    },
+    {
+      "id": "take-a-picture",
+      "word": "take a picture",
+      "alt": [
+        "take a photo"
+      ],
+      "de": "ein Foto machen",
+      "pos": "phrase",
+      "example": {
+        "text": "Could you take a picture of us, please?",
+        "de": "Könnten Sie bitte ein Foto von uns machen?"
+      },
+      "note": "Mit take, nicht mit make! Auch: take a photo."
+    },
+    {
+      "id": "go-camping",
+      "word": "go camping",
+      "de": "zelten (gehen); campen",
+      "pos": "phrase",
+      "forms": "go – went – gone camping",
+      "example": {
+        "text": "We go camping every summer.",
+        "de": "Wir gehen jeden Sommer zelten."
+      }
+    },
+    {
+      "id": "try",
+      "word": "try",
+      "de": "probieren; versuchen",
+      "pos": "verb",
+      "forms": "try – tried – tried",
+      "example": {
+        "text": "Have you ever tried sushi?",
+        "de": "Hast du schon mal Sushi probiert?",
+        "focus": "tried"
+      }
+    },
+    {
+      "id": "rent",
+      "word": "rent",
+      "de": "mieten; leihen",
+      "pos": "verb",
+      "example": {
+        "text": "We rented a car in Florida.",
+        "de": "Wir haben in Florida ein Auto gemietet.",
+        "focus": "rented"
+      },
+      "note": "rent a car = ein Auto mieten, rent a bike = ein Fahrrad leihen. Als Nomen: the rent = die Miete."
+    },
+    {
+      "id": "tent",
+      "word": "tent",
+      "plural": "tents",
+      "de": "das Zelt",
+      "pos": "noun",
+      "example": {
+        "text": "Have you ever slept in a tent?",
+        "de": "Hast du schon mal in einem Zelt geschlafen?"
+      }
+    },
+    {
+      "id": "world",
+      "word": "world",
+      "de": "die Welt",
+      "pos": "noun",
+      "example": {
+        "text": "I'd like to travel around the world.",
+        "de": "Ich würde gern um die Welt reisen."
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "present-perfect-experience",
+      "title": "Das present perfect: Have you ever …? I've been to …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem present perfect sprichst du über Erfahrungen – also darüber, was du in deinem Leben schon (oder noch nie) gemacht hast. Wann genau das war, ist dabei egal."
+        },
+        {
+          "type": "p",
+          "text": "So bildest du es: have oder has + die 3. Form des Verbs (das past participle)."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Person",
+            "positiv",
+            "verneint"
+          ],
+          "rows": [
+            [
+              "I / you / we / they",
+              "I've seen it. (I have seen it.)",
+              "I haven't seen it."
+            ],
+            [
+              "he / she / it",
+              "She's seen it. (She has seen it.)",
+              "She hasn't seen it."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Frage",
+            "Kurzantwort"
+          ],
+          "rows": [
+            [
+              "Have you ever been to Chicago?",
+              "Yes, I have. / No, I haven't."
+            ],
+            [
+              "Has he ever tried sushi?",
+              "Yes, he has. / No, he hasn't."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bei regelmäßigen Verben ist die 3. Form gleich wie das simple past: visit – visited – visited, stay – stayed – stayed. Die unregelmäßigen Verben musst du lernen. Die wichtigsten:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Grundform",
+            "simple past",
+            "past participle",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "be",
+              "was / were",
+              "been",
+              "sein"
+            ],
+            [
+              "go",
+              "went",
+              "gone",
+              "gehen; fahren"
+            ],
+            [
+              "see",
+              "saw",
+              "seen",
+              "sehen"
+            ],
+            [
+              "eat",
+              "ate",
+              "eaten",
+              "essen"
+            ],
+            [
+              "do",
+              "did",
+              "done",
+              "tun; machen"
+            ],
+            [
+              "have",
+              "had",
+              "had",
+              "haben"
+            ],
+            [
+              "fly",
+              "flew",
+              "flown",
+              "fliegen"
+            ],
+            [
+              "take",
+              "took",
+              "taken",
+              "nehmen"
+            ],
+            [
+              "write",
+              "wrote",
+              "written",
+              "schreiben"
+            ],
+            [
+              "lose",
+              "lost",
+              "lost",
+              "verlieren"
+            ],
+            [
+              "forget",
+              "forgot",
+              "forgotten",
+              "vergessen"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "ever steht in Fragen: Have you ever …? = Warst du schon mal …? / Hast du schon mal …? Im positiven Satz steht never: I've never been to Japan. (Nicht: I haven't never …)"
+        },
+        {
+          "type": "tip",
+          "text": "been to oder gone to? I've been to Paris. = Ich war schon mal in Paris (und bin wieder da). She's gone to Paris. = Sie ist nach Paris gefahren (und ist jetzt dort)."
+        },
+        {
+          "type": "tip",
+          "text": "Vorsicht bei 's: Es kann is oder has bedeuten. She's tired. = She is tired. Aber: She's been to Rome. = She has been to Rome."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Have you ever been to New York? – Yes, I have.",
+              "de": "Warst du schon mal in New York? – Ja."
+            },
+            {
+              "text": "I've never flown.",
+              "de": "Ich bin noch nie geflogen."
+            },
+            {
+              "text": "Carlos has been to Mexico twice.",
+              "de": "Carlos war schon zweimal in Mexiko."
+            },
+            {
+              "text": "We haven't seen the ocean.",
+              "de": "Wir haben das Meer noch nicht gesehen."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Have you ___ been to New York?",
+          "answers": [
+            "ever"
+          ],
+          "de": "Warst du schon mal in New York?"
+        },
+        {
+          "type": "cloze",
+          "text": "I've ___ been to Japan, but I'd love to go.",
+          "answers": [
+            "never"
+          ],
+          "de": "Ich war noch nie in Japan, aber ich würde sehr gern hinfahren."
+        },
+        {
+          "type": "cloze",
+          "text": "She has ___ that movie three times.",
+          "answers": [
+            "seen"
+          ],
+          "de": "Sie hat den Film schon dreimal gesehen.",
+          "hint": "see"
+        },
+        {
+          "type": "cloze",
+          "text": "Have you ever ___ sushi?",
+          "answers": [
+            "eaten"
+          ],
+          "de": "Hast du schon mal Sushi gegessen?",
+          "hint": "eat"
+        },
+        {
+          "type": "cloze",
+          "text": "We've ___ to Canada twice.",
+          "answers": [
+            "been"
+          ],
+          "de": "Wir waren schon zweimal in Kanada."
+        },
+        {
+          "type": "translate",
+          "de": "Ich war noch nie in Kalifornien.",
+          "answers": [
+            "I've never been to California.",
+            "I have never been to California.",
+            "I've never been in California.",
+            "I have never been in California."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Bist du schon mal geflogen?",
+          "answers": [
+            "Have you ever flown?",
+            "Have you ever been on a plane?",
+            "Have you ever traveled by plane?",
+            "Have you ever travelled by plane?",
+            "Have you ever flown before?"
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Hat er schon mal in einem Hotel gearbeitet?",
+          "answer": "Has he ever worked in a hotel?",
+          "distractors": [
+            "have"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "already-yet-just",
+      "title": "Schon, noch nicht, gerade: already, yet und just",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem present perfect sagst du auch, was bis jetzt schon passiert ist – oder noch nicht. Dafür gibt es drei kleine Wörter:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Wort",
+            "Deutsch",
+            "Wo?",
+            "Beispiel"
+          ],
+          "rows": [
+            [
+              "already",
+              "schon, bereits",
+              "positiver Satz, vor dem Partizip",
+              "I've already booked the hotel."
+            ],
+            [
+              "yet",
+              "schon? / noch nicht",
+              "Frage und Verneinung, am Satzende",
+              "Have you packed yet? – No, not yet."
+            ],
+            [
+              "just",
+              "gerade (eben)",
+              "positiver Satz, vor dem Partizip",
+              "We've just arrived."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "I've already checked in.",
+              "Ich habe schon eingecheckt."
+            ],
+            [
+              "Have you booked the tickets yet?",
+              "Hast du die Tickets schon gebucht?"
+            ],
+            [
+              "We haven't packed yet.",
+              "Wir haben noch nicht gepackt."
+            ],
+            [
+              "The bus has just left.",
+              "Der Bus ist gerade abgefahren."
+            ],
+            [
+              "Emma has just called.",
+              "Emma hat gerade angerufen."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "„Schon“ in einer Frage heißt meistens yet: Have you eaten yet? (Hast du schon gegessen?) Kurze Antwort: Not yet. (Noch nicht.)"
+        },
+        {
+          "type": "tip",
+          "text": "Im Deutschen heißt es oft „ist … gefahren“ oder „sind … angekommen“. Im Englischen steht immer have oder has: We have arrived. (Wir sind angekommen.)"
+        },
+        {
+          "type": "tip",
+          "text": "Im amerikanischen Alltag hörst du mit just, already und yet oft auch das simple past: I just arrived. Did you eat yet? Beides ist richtig."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Have you found your key yet? – Yes, I've just found it.",
+              "de": "Hast du deinen Schlüssel schon gefunden? – Ja, gerade eben."
+            },
+            {
+              "text": "We've already seen the bridge.",
+              "de": "Wir haben die Brücke schon gesehen."
+            },
+            {
+              "text": "Lena hasn't written any postcards yet.",
+              "de": "Lena hat noch keine Postkarten geschrieben."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Have you booked the hotel ___?",
+          "answers": [
+            "yet"
+          ],
+          "de": "Hast du das Hotel schon gebucht?",
+          "hint": "already / yet / just"
+        },
+        {
+          "type": "cloze",
+          "text": "I've ___ packed my suitcase. We can go!",
+          "answers": [
+            "already"
+          ],
+          "de": "Ich habe meinen Koffer schon gepackt. Wir können los!",
+          "hint": "already / yet / just"
+        },
+        {
+          "type": "cloze",
+          "text": "Look! Our taxi has ___ arrived.",
+          "answers": [
+            "just"
+          ],
+          "de": "Schau! Unser Taxi ist gerade angekommen.",
+          "hint": "already / yet / just"
+        },
+        {
+          "type": "cloze",
+          "text": "We haven't checked in ___.",
+          "answers": [
+            "yet"
+          ],
+          "de": "Wir haben noch nicht eingecheckt.",
+          "hint": "already / yet / just"
+        },
+        {
+          "type": "order",
+          "de": "Ich habe meinen Reisepass schon gefunden.",
+          "answer": "I've already found my passport.",
+          "distractors": [
+            "yet"
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Hast du schon gegessen?",
+          "answers": [
+            "Have you eaten yet?",
+            "Have you already eaten?",
+            "Did you eat yet?",
+            "Did you already eat?"
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Wir sind gerade angekommen.",
+          "answers": [
+            "We've just arrived.",
+            "We have just arrived.",
+            "We just arrived.",
+            "We've just got here.",
+            "We just got here."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-vs-present-perfect",
+      "title": "Simple past oder present perfect?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Beide Zeiten sprechen über die Vergangenheit. Der Unterschied: Beim simple past sagst du, wann es war – die Zeit ist vorbei. Beim present perfect ist der Zeitpunkt egal. Es geht um die Erfahrung oder um das Ergebnis jetzt."
+        },
+        {
+          "type": "table",
+          "head": [
+            "present perfect: Zeit egal",
+            "simple past: Zeit genannt"
+          ],
+          "rows": [
+            [
+              "I've been to Chicago.",
+              "I went to Chicago last summer."
+            ],
+            [
+              "Have you ever tried sushi?",
+              "When did you try it?"
+            ],
+            [
+              "She's lost her key.",
+              "She lost her key yesterday."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Typische Signalwörter:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "present perfect",
+            "simple past"
+          ],
+          "rows": [
+            [
+              "ever, never",
+              "yesterday, last week"
+            ],
+            [
+              "already, yet, just",
+              "two days ago"
+            ],
+            [
+              "so far, once, twice",
+              "in 2019, on Monday"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Oft beginnt ein Gespräch im present perfect (die Erfahrung) und geht im simple past weiter (die Einzelheiten):"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Have you ever been to Florida? – Yes, I have. I went there in 2022.",
+              "de": "Warst du schon mal in Florida? – Ja. Ich war 2022 dort."
+            },
+            {
+              "text": "What did you do there? – We went to the beach every day.",
+              "de": "Was habt ihr dort gemacht? – Wir waren jeden Tag am Strand."
+            },
+            {
+              "text": "Did you like it? – Yes, it was amazing!",
+              "de": "Hat es dir gefallen? – Ja, es war toll!"
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Mit einer Zeitangabe wie yesterday, last year oder ago steht nie das present perfect. Falsch: I have been to Paris last year. Richtig: I went to Paris last year. (oder: I was in Paris last year.)"
+        },
+        {
+          "type": "tip",
+          "text": "Im Deutschen sagst du in beiden Fällen oft „ich bin … gefahren“ oder „ich war …“. Im Englischen musst du dich entscheiden: Ist der Zeitpunkt wichtig und vorbei? Dann simple past."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "I ___ to Miami last summer.",
+          "answers": [
+            "went",
+            "flew"
+          ],
+          "de": "Letzten Sommer bin ich nach Miami gefahren.",
+          "hint": "go"
+        },
+        {
+          "type": "cloze",
+          "text": "___ you ever been to Hawaii?",
+          "answers": [
+            "Have"
+          ],
+          "de": "Warst du schon mal auf Hawaii?"
+        },
+        {
+          "type": "cloze",
+          "text": "We ___ in a great hotel two years ago.",
+          "answers": [
+            "stayed"
+          ],
+          "de": "Vor zwei Jahren haben wir in einem tollen Hotel übernachtet.",
+          "hint": "stay"
+        },
+        {
+          "type": "cloze",
+          "text": "Has Yuki called you yet? – Yes, she ___ me an hour ago.",
+          "answers": [
+            "called"
+          ],
+          "de": "Hat Yuki dich schon angerufen? – Ja, sie hat mich vor einer Stunde angerufen.",
+          "hint": "call"
+        },
+        {
+          "type": "translate",
+          "de": "Ich war letztes Jahr in Kanada.",
+          "answers": [
+            "I was in Canada last year.",
+            "I went to Canada last year.",
+            "Last year I was in Canada.",
+            "Last year I went to Canada."
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Wann bist du in Chicago angekommen?",
+          "answer": "When did you arrive in Chicago?",
+          "distractors": [
+            "have"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": [
+            "I have been to Rome last year.",
+            "I went to Rome last year.",
+            "I have gone to Rome last year."
+          ],
+          "answer": 1,
+          "explain": "last year ist eine abgeschlossene Zeit – deshalb simple past: I went to Rome last year."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Welcome to San Francisco",
+    "title_de": "Willkommen in San Francisco",
+    "lines": [
+      {
+        "speaker": "Receptionist",
+        "text": "Good afternoon! Welcome to the Bay View Hotel. Are you checking in?",
+        "de": "Guten Tag! Willkommen im Bay View Hotel. Möchten Sie einchecken?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Yes, please. I booked a double room for three nights. It's under Lena.",
+        "de": "Ja, bitte. Ich habe ein Doppelzimmer für drei Nächte gebucht. Auf den Namen Lena."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, here it is. Could I see your passport, please?",
+        "de": "Ja, hier ist es. Könnte ich bitte Ihren Reisepass sehen?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sure, here you go. Is breakfast included?",
+        "de": "Klar, bitte schön. Ist das Frühstück inklusive?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, it is. Breakfast is from seven to ten, and the Wi-Fi is free.",
+        "de": "Ja. Frühstück gibt es von sieben bis zehn, und das WLAN ist kostenlos."
+      },
+      {
+        "speaker": "Emma",
+        "text": "Great! Does our room have a view?",
+        "de": "Super! Hat unser Zimmer Aussicht?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Yes, you can see the Golden Gate Bridge. Here are your keys. The elevator is on the left.",
+        "de": "Ja, Sie können die Golden Gate Bridge sehen. Hier sind Ihre Schlüssel. Der Aufzug ist links."
+      },
+      {
+        "speaker": "Emma",
+        "text": "Wow, what an amazing view! Have you ever been to San Francisco, Lena?",
+        "de": "Wow, was für eine tolle Aussicht! Warst du schon mal in San Francisco, Lena?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "No, never. But I've been to Los Angeles. I went there two years ago with my brother.",
+        "de": "Nein, noch nie. Aber ich war schon mal in Los Angeles. Ich war vor zwei Jahren mit meinem Bruder dort."
+      },
+      {
+        "speaker": "Emma",
+        "text": "I've been here once. I came with my parents in 2019.",
+        "de": "Ich war einmal hier. 2019 bin ich mit meinen Eltern hergekommen."
+      },
+      {
+        "speaker": "Lena",
+        "text": "So what do you want to do first? Have you made a plan yet?",
+        "de": "Und was willst du zuerst machen? Hast du schon einen Plan gemacht?"
+      },
+      {
+        "speaker": "Emma",
+        "text": "Yes! I've already booked a tour of Alcatraz Island for tomorrow.",
+        "de": "Ja! Ich habe schon eine Führung auf der Insel Alcatraz für morgen gebucht."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Cool! Then let's go sightseeing today. I want to see the famous cable cars.",
+        "de": "Cool! Dann lass uns heute Sehenswürdigkeiten anschauen. Ich will die berühmten Cable Cars sehen."
+      },
+      {
+        "speaker": "Emma",
+        "text": "Good idea. Oh no! Where's my phone? I think I've lost it!",
+        "de": "Gute Idee. Oh nein! Wo ist mein Handy? Ich glaube, ich habe es verloren!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Relax, Emma. It's in your backpack. You've just put it there!",
+        "de": "Ganz ruhig, Emma. Es ist in deinem Rucksack. Du hast es gerade erst reingesteckt!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "passport",
+          "der Reisepass"
+        ],
+        [
+          "luggage",
+          "das Gepäck"
+        ],
+        [
+          "backpack",
+          "der Rucksack"
+        ],
+        [
+          "key",
+          "der Schlüssel"
+        ],
+        [
+          "elevator",
+          "der Aufzug"
+        ],
+        [
+          "front desk",
+          "die Rezeption"
+        ]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "flight",
+          "der Flug"
+        ],
+        [
+          "mountain",
+          "der Berg"
+        ],
+        [
+          "tent",
+          "das Zelt"
+        ],
+        [
+          "island",
+          "die Insel"
+        ],
+        [
+          "ocean",
+          "das Meer"
+        ],
+        [
+          "view",
+          "die Aussicht"
+        ]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich möchte ein Doppelzimmer für zwei Nächte buchen.",
+      "answers": [
+        "I'd like to book a double room for two nights.",
+        "I would like to book a double room for two nights.",
+        "I want to book a double room for two nights."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ist das Frühstück inklusive?",
+      "answers": [
+        "Is breakfast included?",
+        "Is the breakfast included?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Hast du schon mal im Ausland gelebt?",
+      "answers": [
+        "Have you ever lived abroad?"
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Sie ist noch nie geflogen.",
+      "answers": [
+        "She's never flown.",
+        "She's never been on a plane.",
+        "She's never traveled by plane.",
+        "She's never travelled by plane.",
+        "She has never flown.",
+        "She has never been on a plane.",
+        "She has never traveled by plane.",
+        "She has never travelled by plane."
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "You can ___ in after 3 p.m.",
+      "answers": [
+        "check"
+      ],
+      "de": "Sie können ab 15 Uhr einchecken."
+    },
+    {
+      "type": "cloze",
+      "text": "We have been to Florida ___ – in 2019 and in 2023.",
+      "answers": [
+        "twice"
+      ],
+      "de": "Wir waren zweimal in Florida – 2019 und 2023."
+    },
+    {
+      "type": "cloze",
+      "text": "Oh no, I've ___ my passport!",
+      "answers": [
+        "lost"
+      ],
+      "de": "Oh nein, ich habe meinen Reisepass verloren!",
+      "hint": "lose"
+    },
+    {
+      "type": "order",
+      "de": "Wir haben noch keine Postkarten geschrieben.",
+      "answer": "We haven't written any postcards yet.",
+      "distractors": [
+        "already"
+      ]
+    },
+    {
+      "type": "order",
+      "de": "Bis jetzt war die Reise super.",
+      "answer": "So far, the trip has been great."
+    },
+    {
+      "type": "listen",
+      "text": "Have you ever been to an island? – Yes, I have. I went to Hawaii last year.",
+      "de": "Warst du schon mal auf einer Insel? – Ja. Ich war letztes Jahr auf Hawaii."
+    },
+    {
+      "type": "listen",
+      "text": "We've just checked in, and our room has an amazing view of the ocean.",
+      "de": "Wir haben gerade eingecheckt, und unser Zimmer hat eine tolle Aussicht aufs Meer."
+    }
+  ]
+}

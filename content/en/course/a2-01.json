@@ -1,0 +1,169 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-01",
+  "lang": "en",
+  "level": "A2",
+  "number": 1,
+  "title": "What Did You Do?",
+  "title_de": "Was hast du gemacht?",
+  "topic": "Von gestern und vom Wochenende erzählen",
+  "goals": [
+    "Du kannst mit dem simple past erzählen, was du gestern oder am Wochenende gemacht hast: I visited my aunt. We went to the beach.",
+    "Du kannst die wichtigsten unregelmäßigen Verben benutzen: went, saw, had, did, got, made, bought – und was/were.",
+    "Du kannst mit did fragen und verneinen: Did you have a nice weekend? – No, I didn't go out.",
+    "Du kannst mit yesterday, last weekend und two days ago sagen, wann etwas passiert ist."
+  ],
+  "vocab": [
+    { "id": "yesterday", "word": "yesterday", "de": "gestern", "pos": "adv", "example": { "text": "I worked late yesterday.", "de": "Gestern habe ich lange gearbeitet." }, "note": "yesterday morning = gestern Morgen, yesterday afternoon = gestern Nachmittag. Aber: gestern Abend = last night." },
+    { "id": "today", "word": "today", "de": "heute", "pos": "adv", "example": { "text": "It was cold yesterday, but today it's nice.", "de": "Gestern war es kalt, aber heute ist es schön." } },
+    { "id": "the-day-before-yesterday", "word": "the day before yesterday", "de": "vorgestern", "pos": "phrase", "example": { "text": "I saw Yuki the day before yesterday.", "de": "Ich habe Yuki vorgestern gesehen." } },
+    { "id": "last", "word": "last", "de": "letzte/r/s; vergangene/r/s", "pos": "adj", "example": { "text": "Last week I visited my parents.", "de": "Letzte Woche habe ich meine Eltern besucht." }, "note": "Ohne the und ohne Präposition: last week, last Saturday, last year (nicht: on last Saturday)." },
+    { "id": "last-night", "word": "last night", "de": "gestern Abend; letzte Nacht", "pos": "phrase", "example": { "text": "What did you do last night?", "de": "Was hast du gestern Abend gemacht?" }, "note": "Man sagt last night – nicht yesterday night." },
+    { "id": "ago", "word": "ago", "de": "vor (zeitlich)", "pos": "adv", "example": { "text": "I met Carlos two years ago.", "de": "Ich habe Carlos vor zwei Jahren kennengelernt." }, "note": "ago steht hinter der Zeitspanne: two days ago = vor zwei Tagen, an hour ago = vor einer Stunde." },
+    { "id": "all-day", "word": "all day", "de": "den ganzen Tag", "pos": "phrase", "example": { "text": "I stayed home all day.", "de": "Ich war den ganzen Tag zu Hause." }, "note": "Genauso: all night (die ganze Nacht), all weekend (das ganze Wochenende)." },
+    { "id": "later", "word": "later", "de": "später", "pos": "adv", "example": { "text": "Later we went to a café.", "de": "Später sind wir in ein Café gegangen." } },
+    { "id": "after-that", "word": "after that", "de": "danach", "pos": "phrase", "example": { "text": "We had lunch. After that, we went to the park.", "de": "Wir haben zu Mittag gegessen. Danach sind wir in den Park gegangen." }, "note": "Zum Erzählen: first (zuerst) – then (dann) – after that (danach) – later (später)." },
+    { "id": "because", "word": "because", "de": "weil; denn", "pos": "conj", "example": { "text": "I took a taxi because it was late.", "de": "Ich habe ein Taxi genommen, weil es spät war." }, "note": "Nach because bleibt die normale Wortstellung: because it was late (nicht wie im Deutschen: because it late was)." },
+    { "id": "but", "word": "but", "de": "aber", "pos": "conj", "example": { "text": "The hotel was nice, but it was expensive.", "de": "Das Hotel war schön, aber es war teuer." }, "note": "Vor but steht oft ein Komma, wenn ein ganzer Satz folgt." },
+    { "id": "how-was", "word": "how was …?", "de": "wie war …?", "pos": "phrase", "example": { "text": "How was your weekend?", "de": "Wie war dein Wochenende?" }, "note": "Typische Antworten: It was great! / It was OK. / It was terrible." },
+    { "id": "great", "word": "great", "de": "toll; super; großartig", "pos": "adj", "example": { "text": "It was a great weekend!", "de": "Es war ein tolles Wochenende!" } },
+    { "id": "terrible", "word": "terrible", "de": "schrecklich; furchtbar", "pos": "adj", "example": { "text": "The movie was terrible.", "de": "Der Film war furchtbar." } },
+    { "id": "quiet", "word": "quiet", "de": "ruhig; leise", "pos": "adj", "example": { "text": "I had a quiet weekend at home.", "de": "Ich hatte ein ruhiges Wochenende zu Hause." } },
+    { "id": "happen", "word": "happen", "de": "passieren; geschehen", "pos": "verb", "forms": "happened", "example": { "text": "What happened?", "de": "Was ist passiert?", "focus": "happened" } },
+    { "id": "make", "word": "make", "de": "machen; herstellen; zubereiten", "pos": "verb", "forms": "made", "example": { "text": "I made dinner for my friends.", "de": "Ich habe für meine Freunde Abendessen gekocht.", "focus": "made" }, "note": "make = etwas herstellen (make dinner, make a cake). do = eine Tätigkeit ausführen (do the laundry)." },
+    { "id": "get", "word": "get", "de": "bekommen; holen; besorgen", "pos": "verb", "forms": "got", "example": { "text": "We got coffee and muffins.", "de": "Wir haben uns Kaffee und Muffins geholt.", "focus": "got" }, "note": "get hat viele Bedeutungen. Du kennst schon get up, get dressed und get on. Allein heißt es meist „bekommen“ oder „holen“." },
+    { "id": "spend", "word": "spend", "de": "verbringen; ausgeben", "pos": "verb", "forms": "spent", "example": { "text": "We spent the weekend in Boston.", "de": "Wir haben das Wochenende in Boston verbracht.", "focus": "spent" }, "note": "Auch für Geld: I spent fifty dollars. (Ich habe fünfzig Dollar ausgegeben.)" },
+    { "id": "come-back", "word": "come back", "de": "zurückkommen", "pos": "verb", "forms": "came back", "example": { "text": "Carlos came back on Sunday night.", "de": "Carlos ist am Sonntagabend zurückgekommen.", "focus": "came back" } },
+    { "id": "forget", "word": "forget", "de": "vergessen", "pos": "verb", "forms": "forgot", "example": { "text": "I forgot my bag on the bus.", "de": "Ich habe meine Tasche im Bus vergessen.", "focus": "forgot" } },
+    { "id": "lose", "word": "lose", "de": "verlieren", "pos": "verb", "forms": "lost", "example": { "text": "Jake lost his ticket.", "de": "Jake hat seine Fahrkarte verloren.", "focus": "lost" }, "note": "Aussprache: lose [luːz] – nicht verwechseln mit loose [luːs] (locker)." },
+    { "id": "say", "word": "say", "de": "sagen", "pos": "verb", "forms": "said", "example": { "text": "What did she say?", "de": "Was hat sie gesagt?" }, "note": "Simple past: said – gesprochen [sɛd]." },
+    { "id": "relax", "word": "relax", "de": "sich entspannen; sich ausruhen", "pos": "verb", "example": { "text": "On Sunday I relaxed at home.", "de": "Am Sonntag habe ich mich zu Hause entspannt.", "focus": "relaxed" } },
+    { "id": "clean", "word": "clean", "de": "putzen; sauber machen", "pos": "verb", "example": { "text": "I cleaned the kitchen on Saturday.", "de": "Am Samstag habe ich die Küche geputzt.", "focus": "cleaned" }, "note": "Auch Adjektiv: clean = sauber." },
+    { "id": "laundry", "word": "laundry", "de": "die Wäsche", "pos": "noun", "example": { "text": "I did the laundry yesterday.", "de": "Ich habe gestern Wäsche gewaschen." }, "note": "Wäsche waschen = do the laundry." },
+    { "id": "sleep-in", "word": "sleep in", "de": "ausschlafen", "pos": "verb", "forms": "slept in", "example": { "text": "On Saturday I slept in.", "de": "Am Samstag habe ich ausgeschlafen.", "focus": "slept in" } },
+    { "id": "stay-up", "word": "stay up", "de": "aufbleiben", "pos": "verb", "example": { "text": "We stayed up late.", "de": "Wir sind lange aufgeblieben.", "focus": "stayed up" } },
+    { "id": "go-for-a-walk", "word": "go for a walk", "de": "spazieren gehen", "pos": "phrase", "example": { "text": "We went for a walk in the park.", "de": "Wir sind im Park spazieren gegangen.", "focus": "went for a walk" } },
+    { "id": "go-shopping", "word": "go shopping", "de": "einkaufen gehen; shoppen gehen", "pos": "phrase", "example": { "text": "Lisa went shopping with her sister.", "de": "Lisa war mit ihrer Schwester shoppen.", "focus": "went shopping" } },
+    { "id": "bake", "word": "bake", "de": "backen", "pos": "verb", "example": { "text": "Yuki baked cookies for her friends.", "de": "Yuki hat Kekse für ihre Freunde gebacken.", "focus": "baked" } },
+    { "id": "beach", "word": "beach", "plural": "beaches", "de": "der Strand", "pos": "noun", "example": { "text": "We went to the beach on Sunday.", "de": "Am Sonntag sind wir an den Strand gefahren." }, "note": "an den Strand = to the beach, am Strand = at the beach." },
+    { "id": "lake", "word": "lake", "plural": "lakes", "de": "der See", "pos": "noun", "example": { "text": "We swam in the lake.", "de": "Wir sind im See geschwommen." }, "note": "Achtung: der See = lake, aber die See (das Meer) = the ocean." },
+    { "id": "concert", "word": "concert", "plural": "concerts", "de": "das Konzert", "pos": "noun", "example": { "text": "Did you like the concert?", "de": "Hat dir das Konzert gefallen?" } },
+    { "id": "game", "word": "game", "plural": "games", "de": "das Spiel", "pos": "noun", "example": { "text": "We watched a baseball game on TV.", "de": "Wir haben im Fernsehen ein Baseballspiel angeschaut." }, "note": "Ein Sportspiel heißt game: a soccer game, a baseball game. Auch: video game (A1)." },
+    { "id": "farmers-market", "word": "farmers market", "plural": "farmers markets", "de": "der Bauernmarkt; der Wochenmarkt", "pos": "noun", "example": { "text": "I bought vegetables at the farmers market.", "de": "Ich habe auf dem Bauernmarkt Gemüse gekauft." } },
+    { "id": "brunch", "word": "brunch", "de": "der Brunch", "pos": "noun", "example": { "text": "On Sunday we had brunch at a café.", "de": "Am Sonntag waren wir in einem Café brunchen." }, "note": "breakfast + lunch = brunch – am Wochenende in den USA sehr beliebt." },
+    { "id": "something", "word": "something", "de": "etwas", "pos": "pron", "example": { "text": "Did you do something fun?", "de": "Hast du etwas Schönes gemacht?" }, "note": "In Fragen hört man oft auch anything: Did you do anything fun?" },
+    { "id": "nothing", "word": "nothing", "de": "nichts", "pos": "pron", "example": { "text": "I did nothing on Sunday.", "de": "Am Sonntag habe ich nichts gemacht." }, "note": "nothing ist schon eine Verneinung – also kein didn't dazu. Oder: I didn't do anything." },
+    { "id": "a-lot", "word": "a lot", "de": "viel; sehr", "pos": "phrase", "example": { "text": "We walked a lot.", "de": "Wir sind viel gelaufen." }, "note": "Mit Nomen: a lot of + Nomen – a lot of money (viel Geld)." }
+  ],
+  "grammar": [
+    {
+      "id": "simple-past-regular",
+      "title": "Das simple past: regelmäßige Verben mit -ed",
+      "blocks": [
+        { "type": "p", "text": "Mit dem simple past erzählst du, was in der Vergangenheit passiert und abgeschlossen ist: gestern, letzte Woche, vor zwei Jahren. Im Deutschen sagt man dafür meistens das Perfekt („Ich habe gearbeitet“) – im Englischen nimmt man das simple past: I worked." },
+        { "type": "p", "text": "Bei regelmäßigen Verben hängst du einfach -ed an. Das Schöne: Die Form ist für alle Personen gleich – auch bei he, she, it gibt es kein -s." },
+        { "type": "table", "head": ["Grundform", "simple past", "Deutsch"], "rows": [["work", "I worked", "ich habe gearbeitet"], ["visit", "you visited", "du hast besucht"], ["play", "she played", "sie hat gespielt"], ["watch", "we watched", "wir haben angeschaut"], ["cook", "they cooked", "sie haben gekocht"]] },
+        { "type": "p", "text": "So schreibst du die -ed-Form:" },
+        { "type": "table", "head": ["Regel", "Beispiel"], "rows": [["meistens: -ed anhängen", "work → worked, clean → cleaned"], ["Vokal + y: y bleibt", "play → played, stay → stayed"], ["Verb endet auf -e: nur -d", "live → lived, dance → danced, bake → baked"], ["Konsonant + y: aus y wird -ied", "study → studied, try → tried"], ["kurzer betonter Vokal + ein Konsonant: Konsonant verdoppeln", "stop → stopped, shop → shopped"]] },
+        { "type": "tip", "text": "Aussprache: -ed ist nur nach t und d eine eigene Silbe [ɪd]: visited, waited, needed. Sonst hörst du nur [t] oder [d]: worked [wɜːrkt], cleaned [kliːnd]. Also nicht „work-ed“!" },
+        { "type": "tip", "text": "Das simple past passt immer, wenn ein Zeitpunkt in der Vergangenheit genannt wird oder klar ist: yesterday, last week, two days ago, in 2020." },
+        { "type": "examples", "items": [{ "text": "We watched a movie last night.", "de": "Wir haben gestern Abend einen Film angeschaut." }, { "text": "Lena cleaned the apartment on Saturday.", "de": "Lena hat am Samstag die Wohnung geputzt." }, { "text": "My brother studied all day.", "de": "Mein Bruder hat den ganzen Tag gelernt." }, { "text": "The train arrived late.", "de": "Der Zug ist mit Verspätung angekommen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I ___ my parents last weekend.", "answers": ["visited"], "de": "Letztes Wochenende habe ich meine Eltern besucht.", "hint": "visit" },
+        { "type": "cloze", "text": "We ___ soccer in the park yesterday.", "answers": ["played"], "de": "Wir haben gestern im Park Fußball gespielt.", "hint": "play" },
+        { "type": "cloze", "text": "Carlos ___ in Madrid for five years.", "answers": ["lived"], "de": "Carlos hat fünf Jahre lang in Madrid gewohnt.", "hint": "live" },
+        { "type": "cloze", "text": "My sister ___ English in London.", "answers": ["studied"], "de": "Meine Schwester hat in London Englisch gelernt.", "hint": "study" },
+        { "type": "cloze", "text": "The bus ___ at the corner.", "answers": ["stopped"], "de": "Der Bus hat an der Ecke gehalten.", "hint": "stop" },
+        { "type": "translate", "de": "Ich habe gestern lange gearbeitet.", "answers": ["I worked late yesterday.", "Yesterday I worked late.", "I worked until late yesterday.", "Yesterday I worked until late."] },
+        { "type": "order", "de": "Wir haben am Samstag die Küche geputzt.", "answer": "We cleaned the kitchen on Saturday.", "distractors": ["clean"] },
+        { "type": "choice", "prompt": "Bei welchem Verb spricht man -ed als eigene Silbe [ɪd]?", "options": ["waited", "played", "cooked"], "answer": 0, "explain": "Nur nach t und d wird -ed zur eigenen Silbe: wait → waited [ˈweɪtɪd]. played und cooked haben nur eine Silbe." }
+      ]
+    },
+    {
+      "id": "simple-past-irregular",
+      "title": "Unregelmäßige Verben und was/were",
+      "blocks": [
+        { "type": "p", "text": "Viele häufige Verben sind unregelmäßig: Sie bekommen kein -ed, sondern eine eigene Form. Diese Formen musst du lernen – wie im Deutschen gehen → ging. Auch hier gilt: eine Form für alle Personen." },
+        { "type": "table", "head": ["Grundform", "simple past", "Bedeutung"], "rows": [["go", "went", "gehen, fahren"], ["see", "saw", "sehen"], ["have", "had", "haben"], ["do", "did", "machen, tun"], ["get", "got", "bekommen, holen"], ["make", "made", "machen, herstellen"], ["buy", "bought", "kaufen"], ["come", "came", "kommen"], ["take", "took", "nehmen"], ["eat", "ate", "essen"], ["meet", "met", "treffen, kennenlernen"], ["sleep", "slept", "schlafen"], ["spend", "spent", "verbringen, ausgeben"], ["say", "said", "sagen"], ["forget", "forgot", "vergessen"], ["lose", "lost", "verlieren"]] },
+        { "type": "tip", "text": "Lerne die Verben in kleinen Gruppen, die ähnlich klingen: sleep – slept, meet – met, spend – spent · get – got, forget – forgot, lose – lost · see – saw, eat – ate." },
+        { "type": "p", "text": "Das Verb to be hat im simple past zwei Formen: was bei I, he, she, it und were bei you, we, they." },
+        { "type": "table", "head": ["Person", "bejaht", "verneint", "Frage"], "rows": [["I", "I was", "I wasn't", "Was I …?"], ["you", "you were", "you weren't", "Were you …?"], ["he / she / it", "she was", "she wasn't", "Was she …?"], ["we", "we were", "we weren't", "Were we …?"], ["they", "they were", "they weren't", "Were they …?"]] },
+        { "type": "tip", "text": "Bei was und were brauchst du kein did: Were you at home? – No, I wasn't. (nicht: Did you be …?) Typisch: How was your weekend? – It was great!" },
+        { "type": "examples", "items": [{ "text": "Carlos went to Boston last weekend.", "de": "Carlos ist letztes Wochenende nach Boston gefahren." }, { "text": "I saw Jake at the gym.", "de": "Ich habe Jake im Fitnessstudio gesehen." }, { "text": "Lena bought a new jacket.", "de": "Lena hat eine neue Jacke gekauft." }, { "text": "The museum was great, and the tickets were cheap.", "de": "Das Museum war toll, und die Eintrittskarten waren billig." }, { "text": "I was at home all day.", "de": "Ich war den ganzen Tag zu Hause." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Last Saturday we ___ to a concert.", "answers": ["went"], "de": "Letzten Samstag sind wir in ein Konzert gegangen.", "hint": "go" },
+        { "type": "cloze", "text": "I ___ a great movie last night.", "answers": ["saw"], "de": "Ich habe gestern Abend einen tollen Film gesehen.", "hint": "see" },
+        { "type": "cloze", "text": "Lena ___ a new bag downtown.", "answers": ["bought"], "de": "Lena hat in der Innenstadt eine neue Tasche gekauft.", "hint": "buy" },
+        { "type": "cloze", "text": "We ___ dinner for our parents.", "answers": ["made", "cooked"], "de": "Wir haben für unsere Eltern Abendessen gekocht.", "hint": "make" },
+        { "type": "cloze", "text": "I ___ a coffee and a muffin at the café.", "answers": ["got", "had", "bought"], "de": "Ich habe mir im Café einen Kaffee und einen Muffin geholt.", "hint": "get" },
+        { "type": "cloze", "text": "The tickets ___ expensive.", "answers": ["were"], "de": "Die Karten waren teuer.", "hint": "be" },
+        { "type": "cloze", "text": "How ___ your weekend?", "answers": ["was"], "de": "Wie war dein Wochenende?" },
+        { "type": "match", "pairs": [["went", "ging; fuhr"], ["saw", "sah"], ["had", "hatte"], ["did", "tat; machte"], ["got", "bekam"], ["bought", "kaufte"]] },
+        { "type": "translate", "de": "Gestern habe ich Carlos im Park getroffen.", "answers": ["I met Carlos in the park yesterday.", "Yesterday I met Carlos in the park.", "I saw Carlos in the park yesterday.", "Yesterday I saw Carlos in the park."] }
+      ]
+    },
+    {
+      "id": "simple-past-questions",
+      "title": "Fragen und Verneinung mit did – und wann war das?",
+      "blocks": [
+        { "type": "p", "text": "Fragen und Verneinungen im simple past bildest du mit did – für alle Personen. Das Hauptverb steht dann wieder in der Grundform, genau wie bei do und does im present simple (A1, Lektion 9)." },
+        { "type": "table", "head": ["Satzart", "present simple", "simple past"], "rows": [["bejaht", "She works.", "She worked."], ["Frage", "Does she work?", "Did she work?"], ["verneint", "She doesn't work.", "She didn't work."]] },
+        { "type": "table", "head": ["Frage", "Kurzantwort", "verneint"], "rows": [["Did you go out?", "Yes, I did. / No, I didn't.", "I didn't go out."], ["Did she see the movie?", "Yes, she did. / No, she didn't.", "She didn't see the movie."], ["Did they have fun?", "Yes, they did. / No, they didn't.", "They didn't have fun."]] },
+        { "type": "tip", "text": "Die Vergangenheit steckt nur einmal im Satz – in did. Also: Did you go? (nicht: Did you went?) und I didn't buy it. (nicht: I didn't bought it.)" },
+        { "type": "p", "text": "Fragewörter stehen vor did: What did you do? Where did you go? When did you come back? Who did you meet?" },
+        { "type": "p", "text": "Diese Zeitangaben zeigen die Vergangenheit:" },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["yesterday", "gestern"], ["yesterday morning", "gestern Morgen"], ["last night", "gestern Abend"], ["the day before yesterday", "vorgestern"], ["last weekend", "letztes Wochenende"], ["last Monday", "letzten Montag"], ["last year", "letztes Jahr"], ["two days ago", "vor zwei Tagen"], ["a week ago", "vor einer Woche"]] },
+        { "type": "tip", "text": "ago steht hinter der Zeitspanne: three years ago (vor drei Jahren). Vor last steht keine Präposition: last Friday (nicht: on last Friday)." },
+        { "type": "examples", "items": [{ "text": "Did you have a nice weekend? – Yes, I did, thanks!", "de": "Hattest du ein schönes Wochenende? – Ja, danke!" }, { "text": "Where did you go last weekend? – We went to the lake.", "de": "Wo wart ihr letztes Wochenende? – Wir waren am See." }, { "text": "I didn't go out last night. I stayed home.", "de": "Ich bin gestern Abend nicht ausgegangen. Ich bin zu Hause geblieben." }, { "text": "Jake didn't like the movie.", "de": "Jake hat der Film nicht gefallen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ you go out last night?", "answers": ["Did"], "de": "Bist du gestern Abend ausgegangen?" },
+        { "type": "cloze", "text": "We didn't ___ to the beach.", "answers": ["go"], "de": "Wir sind nicht an den Strand gefahren.", "hint": "went → ?" },
+        { "type": "cloze", "text": "Did you have fun? – Yes, I ___.", "answers": ["did"], "de": "Hattest du Spaß? – Ja." },
+        { "type": "cloze", "text": "Where ___ you buy that jacket?", "answers": ["did"], "de": "Wo hast du diese Jacke gekauft?" },
+        { "type": "cloze", "text": "I met Carlos three years ___.", "answers": ["ago"], "de": "Ich habe Carlos vor drei Jahren kennengelernt." },
+        { "type": "cloze", "text": "What did you do ___ weekend?", "answers": ["last"], "de": "Was hast du letztes Wochenende gemacht?" },
+        { "type": "order", "de": "Hast du Lisa gestern gesehen?", "answer": "Did you see Lisa yesterday?", "distractors": ["saw"] },
+        { "type": "translate", "de": "Ich habe gestern Abend nicht gekocht.", "answers": ["I didn't cook last night.", "I did not cook last night.", "Last night I didn't cook.", "Last night I did not cook.", "I didn't cook yesterday evening.", "I did not cook yesterday evening."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "How Was Your Weekend?",
+    "title_de": "Wie war dein Wochenende?",
+    "lines": [
+      { "speaker": "Lena", "text": "Hi, Carlos! How was your weekend? Did you go to Boston?", "de": "Hallo, Carlos! Wie war dein Wochenende? Bist du nach Boston gefahren?" },
+      { "speaker": "Carlos", "text": "Yes, I did! I took the train on Friday and came back last night.", "de": "Ja! Ich habe am Freitag den Zug genommen und bin gestern Abend zurückgekommen." },
+      { "speaker": "Lena", "text": "Great! What did you do there?", "de": "Super! Was hast du dort gemacht?" },
+      { "speaker": "Carlos", "text": "On Saturday my brother and I went to a museum. After that, we had dinner downtown.", "de": "Am Samstag sind mein Bruder und ich in ein Museum gegangen. Danach haben wir in der Innenstadt zu Abend gegessen." },
+      { "speaker": "Lena", "text": "And did you see the baseball game?", "de": "Und habt ihr das Baseballspiel gesehen?" },
+      { "speaker": "Carlos", "text": "Yes, on Sunday afternoon. It was great! And how was your weekend?", "de": "Ja, am Sonntagnachmittag. Es war super! Und wie war dein Wochenende?" },
+      { "speaker": "Lena", "text": "Oh, it was quiet. On Saturday I slept in, cleaned the apartment, and did the laundry.", "de": "Ach, ruhig. Am Samstag habe ich ausgeschlafen, die Wohnung geputzt und Wäsche gewaschen." },
+      { "speaker": "Carlos", "text": "Oh no! That's not very fun.", "de": "Oje! Das ist ja nicht so lustig." },
+      { "speaker": "Lena", "text": "Ha! But on Sunday I met Yuki. We went to the farmers market and bought vegetables.", "de": "Ha! Aber am Sonntag habe ich Yuki getroffen. Wir sind auf den Bauernmarkt gegangen und haben Gemüse gekauft." },
+      { "speaker": "Carlos", "text": "Nice! Did you cook something?", "de": "Schön! Habt ihr etwas gekocht?" },
+      { "speaker": "Lena", "text": "Yes, I made a salad, and Yuki baked a cake. Later we went for a walk in the park.", "de": "Ja, ich habe einen Salat gemacht, und Yuki hat einen Kuchen gebacken. Später sind wir im Park spazieren gegangen." },
+      { "speaker": "Carlos", "text": "That was a nice weekend, too!", "de": "Das war doch auch ein schönes Wochenende!" },
+      { "speaker": "Lena", "text": "Yes! But then something terrible happened: I lost my phone!", "de": "Ja! Aber dann ist etwas Schreckliches passiert: Ich habe mein Handy verloren!" },
+      { "speaker": "Carlos", "text": "Oh no! What did you do?", "de": "Oh nein! Was hast du gemacht?" },
+      { "speaker": "Lena", "text": "Nothing! Two minutes later, Yuki found it – in her bag!", "de": "Gar nichts! Zwei Minuten später hat Yuki es gefunden – in ihrer Tasche!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["yesterday", "gestern"], ["the day before yesterday", "vorgestern"], ["last night", "gestern Abend"], ["two days ago", "vor zwei Tagen"], ["last week", "letzte Woche"]] },
+    { "type": "match", "pairs": [["sleep in", "ausschlafen"], ["stay up", "aufbleiben"], ["relax", "sich entspannen"], ["clean", "putzen"], ["spend", "verbringen"], ["forget", "vergessen"]] },
+    { "type": "translate", "de": "Wie war dein Wochenende?", "answers": ["How was your weekend?", "How was the weekend?"] },
+    { "type": "translate", "de": "Letzten Samstag habe ich einen Kuchen gebacken.", "answers": ["Last Saturday I baked a cake.", "I baked a cake last Saturday.", "Last Saturday I made a cake.", "I made a cake last Saturday."] },
+    { "type": "translate", "de": "Wir sind nicht an den Strand gefahren, weil es kalt war.", "answers": ["We didn't go to the beach because it was cold.", "We did not go to the beach because it was cold."] },
+    { "type": "translate", "de": "Wo warst du gestern?", "answers": ["Where were you yesterday?"] },
+    { "type": "cloze", "text": "Jake ___ his phone downtown.", "answers": ["lost"], "de": "Jake hat sein Handy in der Innenstadt verloren.", "hint": "lose" },
+    { "type": "cloze", "text": "We ___ two days in Boston.", "answers": ["spent"], "de": "Wir haben zwei Tage in Boston verbracht.", "hint": "spend" },
+    { "type": "cloze", "text": "Ben ___ like the movie. It was terrible.", "answers": ["didn't", "did not"], "de": "Ben hat der Film nicht gefallen. Er war furchtbar." },
+    { "type": "order", "de": "Danach sind wir spazieren gegangen.", "answer": "After that, we went for a walk.", "distractors": ["go"] },
+    { "type": "order", "de": "Hast du etwas Schönes gemacht?", "answer": "Did you do something fun?", "distractors": ["make"] },
+    { "type": "listen", "text": "Last weekend we went to the lake and swam a lot.", "de": "Letztes Wochenende sind wir an den See gefahren und viel geschwommen." },
+    { "type": "listen", "text": "I didn't go out last night. I stayed home and relaxed.", "de": "Ich bin gestern Abend nicht ausgegangen. Ich bin zu Hause geblieben und habe mich entspannt." }
+  ]
+}
