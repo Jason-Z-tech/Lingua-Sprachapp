@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-03",
+  "lang": "es",
+  "level": "B1",
+  "number": 3,
+  "title": "Nuestro planeta",
+  "title_de": "Umwelt",
+  "topic": "Natur, Klima und Umweltschutz",
+  "goals": [
+    "Du kannst über Natur, Klima, Müll und Umweltschutz sprechen.",
+    "Du kannst Hoffnungen ausdrücken: ¡Ojalá llueva! Espero que la gente recicle más.",
+    "Du kannst Tipps und Verbote formulieren: recicla, apaga la luz – no tires, no uses.",
+    "Du kannst mit dem unpersönlichen se sagen, was man tut oder tun darf: se recicla, no se puede."
+  ],
+  "vocab": [
+    { "id": "medio-ambiente", "word": "medio ambiente", "article": "el", "gender": "m", "de": "die Umwelt", "pos": "noun", "example": { "text": "Tenemos que proteger el medio ambiente.", "de": "Wir müssen die Umwelt schützen." } },
+    { "id": "naturaleza", "word": "naturaleza", "article": "la", "gender": "f", "de": "die Natur", "pos": "noun", "example": { "text": "Los fines de semana me gusta pasear por la naturaleza.", "de": "Am Wochenende gehe ich gern in der Natur spazieren." } },
+    { "id": "clima", "word": "clima", "article": "el", "gender": "m", "plural": "los climas", "de": "das Klima", "pos": "noun", "example": { "text": "El clima está cambiando.", "de": "Das Klima verändert sich." }, "note": "Männlich, obwohl es auf -a endet: el clima." },
+    { "id": "cambio-climatico", "word": "cambio climático", "article": "el", "gender": "m", "de": "der Klimawandel", "pos": "noun", "example": { "text": "El cambio climático es un problema de todos.", "de": "Der Klimawandel ist ein Problem, das uns alle angeht." }, "note": "el cambio = die Veränderung (von cambiar)." },
+    { "id": "contaminacion", "word": "contaminación", "article": "la", "gender": "f", "de": "die (Umwelt-)Verschmutzung", "pos": "noun", "example": { "text": "En las ciudades grandes hay mucha contaminación.", "de": "In den großen Städten gibt es viel Luftverschmutzung." } },
+    { "id": "contaminar", "word": "contaminar", "de": "verschmutzen", "pos": "verb", "example": { "text": "Los coches contaminan mucho.", "de": "Autos verschmutzen die Umwelt stark.", "focus": "contaminan" } },
+    { "id": "basura", "word": "basura", "article": "la", "gender": "f", "de": "der Müll", "pos": "noun", "example": { "text": "¿Dónde tiro la basura?", "de": "Wo werfe ich den Müll weg?" }, "note": "Immer Einzahl: la basura." },
+    { "id": "reciclar", "word": "reciclar", "de": "recyceln; (Müll) trennen", "pos": "verb", "example": { "text": "En casa reciclamos el papel y el plástico.", "de": "Zu Hause recyceln wir Papier und Plastik.", "focus": "reciclamos" } },
+    { "id": "tirar", "word": "tirar", "de": "wegwerfen; werfen", "pos": "verb", "example": { "text": "No tires la botella al suelo.", "de": "Wirf die Flasche nicht auf den Boden.", "focus": "tires" }, "note": "tirar la basura = den Müll wegwerfen." },
+    { "id": "apagar", "word": "apagar", "de": "ausschalten; ausmachen", "pos": "verb", "example": { "text": "Apaga la luz, por favor.", "de": "Mach bitte das Licht aus.", "focus": "apaga" }, "note": "Verneint mit gu: ¡No apagues la tele!" },
+    { "id": "encender", "word": "encender", "de": "einschalten; anmachen", "pos": "verb", "forms": "enciendo, enciendes, enciende, encendemos, encendéis, encienden", "example": { "text": "¿Enciendo la luz?", "de": "Soll ich das Licht anmachen?", "focus": "enciendo" }, "note": "e → ie wie querer." },
+    { "id": "gastar", "word": "gastar", "de": "verbrauchen; (Geld) ausgeben", "pos": "verb", "example": { "text": "En verano gastamos mucha agua.", "de": "Im Sommer verbrauchen wir viel Wasser.", "focus": "gastamos" } },
+    { "id": "energia", "word": "energía", "article": "la", "gender": "f", "plural": "las energías", "de": "die Energie", "pos": "noun", "example": { "text": "El sol nos da energía limpia.", "de": "Die Sonne gibt uns saubere Energie." } },
+    { "id": "luz", "word": "luz", "article": "la", "gender": "f", "plural": "las luces", "de": "das Licht; der Strom", "pos": "noun", "example": { "text": "¿Has apagado las luces?", "de": "Hast du die Lichter ausgemacht?", "focus": "luces" }, "note": "Mehrzahl mit c: las luces. Im Alltag heißt la luz auch „der Strom“: pagar la luz = die Stromrechnung bezahlen." },
+    { "id": "plastico", "word": "plástico", "article": "el", "gender": "m", "plural": "los plásticos", "de": "das Plastik; der Kunststoff", "pos": "noun", "example": { "text": "En el mar hay mucho plástico.", "de": "Im Meer ist viel Plastik." } },
+    { "id": "bolsa", "word": "bolsa", "article": "la", "gender": "f", "plural": "las bolsas", "de": "die Tüte; die Tasche", "pos": "noun", "example": { "text": "Siempre llevo mi bolsa al supermercado.", "de": "Ich nehme immer meine eigene Tasche mit in den Supermarkt." } },
+    { "id": "papel", "word": "papel", "article": "el", "gender": "m", "plural": "los papeles", "de": "das Papier", "pos": "noun", "example": { "text": "El papel va al contenedor azul.", "de": "Papier kommt in den blauen Container." } },
+    { "id": "carton", "word": "cartón", "article": "el", "gender": "m", "plural": "los cartones", "de": "der Karton; die Pappe", "pos": "noun", "example": { "text": "El cartón también va al contenedor azul.", "de": "Pappe kommt auch in den blauen Container." } },
+    { "id": "vidrio", "word": "vidrio", "article": "el", "gender": "m", "de": "das Glas (Material)", "pos": "noun", "example": { "text": "Las botellas de vidrio van al contenedor verde.", "de": "Glasflaschen kommen in den grünen Container." }, "note": "Das Trinkglas heißt el vaso." },
+    { "id": "lata", "word": "lata", "article": "la", "gender": "f", "plural": "las latas", "de": "die Dose", "pos": "noun", "example": { "text": "Las latas van al contenedor amarillo.", "de": "Dosen kommen in den gelben Container." } },
+    { "id": "envase", "word": "envase", "article": "el", "gender": "m", "plural": "los envases", "de": "die Verpackung; der Behälter", "pos": "noun", "example": { "text": "Los envases de plástico van al contenedor amarillo.", "de": "Plastikverpackungen kommen in den gelben Container." } },
+    { "id": "contenedor", "word": "contenedor", "article": "el", "gender": "m", "plural": "los contenedores", "de": "der (Müll-)Container; die Mülltonne", "pos": "noun", "example": { "text": "Hay un contenedor de vidrio en la esquina.", "de": "An der Ecke steht ein Glascontainer." }, "note": "In Spanien: azul = Papier und Pappe, amarillo = Plastik und Dosen, verde = Glas, marrón = Bio, gris = Restmüll." },
+    { "id": "proteger", "word": "proteger", "de": "schützen", "pos": "verb", "forms": "protejo, proteges, protege, protegemos, protegéis, protegen", "example": { "text": "Hay que proteger los bosques.", "de": "Man muss die Wälder schützen." }, "note": "ich-Form mit j: protejo – deshalb im subjuntivo: que proteja." },
+    { "id": "evitar", "word": "evitar", "de": "vermeiden", "pos": "verb", "example": { "text": "Intento evitar el plástico.", "de": "Ich versuche, Plastik zu vermeiden." } },
+    { "id": "reducir", "word": "reducir", "de": "verringern; reduzieren", "pos": "verb", "forms": "reduzco, reduces, reduce, reducimos, reducís, reducen", "example": { "text": "Tenemos que reducir la basura.", "de": "Wir müssen den Müll verringern." }, "note": "ich-Form mit zc: reduzco – subjuntivo: que reduzca." },
+    { "id": "reutilizar", "word": "reutilizar", "de": "wiederverwenden", "pos": "verb", "example": { "text": "Reutilizo las bolsas del supermercado.", "de": "Ich verwende die Supermarkttüten wieder.", "focus": "reutilizo" }, "note": "Subjuntivo mit c: que reutilice." },
+    { "id": "salvar", "word": "salvar", "de": "retten", "pos": "verb", "example": { "text": "Todos podemos ayudar a salvar el planeta.", "de": "Wir alle können helfen, den Planeten zu retten." } },
+    { "id": "bosque", "word": "bosque", "article": "el", "gender": "m", "plural": "los bosques", "de": "der Wald", "pos": "noun", "example": { "text": "Detrás del pueblo hay un bosque precioso.", "de": "Hinter dem Dorf liegt ein wunderschöner Wald." } },
+    { "id": "planeta", "word": "planeta", "article": "el", "gender": "m", "plural": "los planetas", "de": "der Planet", "pos": "noun", "example": { "text": "Solo tenemos un planeta.", "de": "Wir haben nur einen Planeten." }, "note": "Männlich: el planeta." },
+    { "id": "aire", "word": "aire", "article": "el", "gender": "m", "de": "die Luft", "pos": "noun", "example": { "text": "En la montaña el aire está muy limpio.", "de": "In den Bergen ist die Luft sehr sauber." } },
+    { "id": "ojala", "word": "ojalá", "de": "hoffentlich", "pos": "interj", "example": { "text": "¡Ojalá llueva pronto!", "de": "Hoffentlich regnet es bald!" }, "note": "Nach ojalá steht immer der subjuntivo. Das Wort kommt aus dem Arabischen." },
+    { "id": "sequia", "word": "sequía", "article": "la", "gender": "f", "plural": "las sequías", "de": "die Dürre; die Trockenheit", "pos": "noun", "example": { "text": "En el sur de España hay sequía.", "de": "Im Süden Spaniens herrscht Dürre." } },
+    { "id": "incendio", "word": "incendio", "article": "el", "gender": "m", "plural": "los incendios", "de": "der Brand", "pos": "noun", "example": { "text": "En verano hay muchos incendios en los bosques.", "de": "Im Sommer gibt es viele Waldbrände.", "focus": "incendios" } },
+    { "id": "ecologico", "word": "ecológico", "alt": [ "ecológica" ], "de": "ökologisch; Bio-", "pos": "adj", "example": { "text": "Compro fruta ecológica en el mercado.", "de": "Ich kaufe Bio-Obst auf dem Markt.", "focus": "ecológica" } },
+    { "id": "sostenible", "word": "sostenible", "de": "nachhaltig", "pos": "adj", "example": { "text": "Viajar en tren es más sostenible que viajar en avión.", "de": "Mit dem Zug zu reisen ist nachhaltiger, als zu fliegen." } },
+    { "id": "transporte-publico", "word": "transporte público", "article": "el", "gender": "m", "de": "die öffentlichen Verkehrsmittel", "pos": "noun", "example": { "text": "En Madrid uso siempre el transporte público.", "de": "In Madrid benutze ich immer die öffentlichen Verkehrsmittel." } },
+    { "id": "grifo", "word": "grifo", "article": "el", "gender": "m", "plural": "los grifos", "de": "der Wasserhahn", "pos": "noun", "example": { "text": "Cierra el grifo, por favor.", "de": "Dreh bitte den Wasserhahn zu." }, "note": "cerrar el grifo = den Wasserhahn zudrehen; abrir el grifo = aufdrehen." },
+    { "id": "ducha", "word": "ducha", "article": "la", "gender": "f", "plural": "las duchas", "de": "die Dusche", "pos": "noun", "example": { "text": "Una ducha corta gasta menos agua que un baño.", "de": "Eine kurze Dusche verbraucht weniger Wasser als ein Bad." }, "note": "Passt zu ducharse (duschen)." },
+    { "id": "de-usar-y-tirar", "word": "de usar y tirar", "de": "Wegwerf-; Einweg-", "pos": "phrase", "example": { "text": "No compres vasos de usar y tirar.", "de": "Kauf keine Einwegbecher." } }
+  ],
+  "grammar": [
+    {
+      "id": "ojala-espero-que", "title": "Hoffen: ojalá und espero que + subjuntivo",
+      "blocks": [
+        { "type": "p", "text": "Wenn du etwas hoffst, weißt du nicht, ob es wirklich passiert – deshalb steht danach der subjuntivo. Ojalá heißt „hoffentlich“ und steht direkt vor dem Satz, mit oder ohne que: Ojalá llueva. = Ojalá que llueva." },
+        { "type": "examples", "items": [ { "text": "¡Ojalá llueva pronto!", "de": "Hoffentlich regnet es bald!" }, { "text": "Ojalá haga buen tiempo el sábado.", "de": "Hoffentlich ist am Samstag schönes Wetter." }, { "text": "Ojalá que no haya incendios este verano.", "de": "Hoffentlich gibt es diesen Sommer keine Brände." } ] },
+        { "type": "p", "text": "Mit esperar (hoffen) gilt dieselbe Regel wie bei querer: Hoffst du etwas für dich selbst, folgt der Infinitiv. Geht es um eine andere Person oder um etwas, das passieren soll, folgt que + subjuntivo." },
+        { "type": "table", "head": [ "gleiche Person: Infinitiv", "andere Person oder Sache: que + subjuntivo" ], "rows": [ [ "Espero llegar pronto.", "Espero que llegues pronto." ], [ "Espero poder ayudar.", "Espero que la gente recicle más." ], [ "Esperamos ver el bosque.", "Esperamos que no haya incendios." ] ] },
+        { "type": "table", "head": [ "Infinitiv", "subjuntivo", "Beispiel" ], "rows": [ [ "llover", "llueva", "¡Ojalá llueva mañana!" ], [ "hacer", "haga", "Ojalá haga sol." ], [ "haber (hay)", "haya", "Espero que haya menos tráfico." ], [ "cambiar", "cambie", "Ojalá cambie el clima." ], [ "reciclar", "recicle", "Espero que todos reciclen." ], [ "proteger", "proteja", "Espero que la ciudad proteja el parque." ], [ "reducir", "reduzca", "Ojalá reduzcamos la basura." ] ] },
+        { "type": "tip", "text": "Kleine Schreibregeln: proteger → proteja (g → j vor a), reducir → reduzca (wie conozco → conozca), apagar → apague (g → gu vor e)." },
+        { "type": "tip", "text": "Als kurze Antwort: ¡Ojalá! = Hoffentlich! / Das wäre schön! – ¿Crees que mañana hará sol? – ¡Ojalá!" }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¡Ojalá ___ pronto!", "answers": [ "llueva" ], "de": "Hoffentlich regnet es bald!", "hint": "llover" },
+        { "type": "cloze", "text": "Ojalá mañana ___ buen tiempo.", "answers": [ "haga" ], "de": "Hoffentlich ist morgen schönes Wetter.", "hint": "hacer" },
+        { "type": "cloze", "text": "Espero que no ___ incendios este verano.", "answers": [ "haya" ], "de": "Ich hoffe, dass es diesen Sommer keine Brände gibt.", "hint": "haber – hay" },
+        { "type": "cloze", "text": "Espero que la gente ___ más.", "answers": [ "recicle" ], "de": "Ich hoffe, dass die Leute mehr recyceln.", "hint": "reciclar" },
+        { "type": "cloze", "text": "Espero ___ a la montaña el fin de semana.", "answers": [ "ir" ], "de": "Ich hoffe, am Wochenende in die Berge zu fahren.", "hint": "ir – ich selbst" },
+        { "type": "cloze", "text": "Esperamos que nuestros hijos ___ en un planeta limpio.", "answers": [ "vivan" ], "de": "Wir hoffen, dass unsere Kinder auf einem sauberen Planeten leben.", "hint": "vivir" },
+        { "type": "translate", "de": "Hoffentlich regnet es morgen nicht.", "answers": [ "Ojalá no llueva mañana.", "Ojalá que no llueva mañana.", "Ojalá mañana no llueva.", "Ojalá que mañana no llueva." ] },
+        { "type": "order", "de": "Ich hoffe, dass du bald kommst.", "answer": "Espero que vengas pronto.", "distractors": [ "vienes" ] }
+      ]
+    },
+    {
+      "id": "imperativo-negativo", "title": "¡Recicla! – ¡No tires! Bejahter und verneinter Imperativ",
+      "blocks": [
+        { "type": "p", "text": "Den bejahten Imperativ für tú kennst du schon: Er ist gleich der él-Form im Präsens – recicla, apaga, usa, cierra. Für den verneinten Imperativ brauchst du den subjuntivo: no + tú-Form des subjuntivo." },
+        { "type": "table", "head": [ "Infinitiv", "bejaht (tú)", "verneint (tú)" ], "rows": [ [ "usar", "¡Usa la bici!", "¡No uses el coche!" ], [ "tirar", "¡Tira la basura al contenedor!", "¡No tires la basura al suelo!" ], [ "comprar", "¡Compra fruta ecológica!", "¡No compres bolsas de plástico!" ], [ "dejar", "¡Deja la bolsa aquí!", "¡No dejes el grifo abierto!" ], [ "apagar", "¡Apaga la luz!", "¡No apagues la radio!" ], [ "encender", "¡Enciende la luz!", "¡No enciendas la tele!" ], [ "coger", "¡Coge el metro!", "¡No cojas el coche!" ] ] },
+        { "type": "p", "text": "Bei unregelmäßigen Verben kommt der verneinte Imperativ wieder von der ich-Form. Die kurzen bejahten Formen musst du extra lernen:" },
+        { "type": "table", "head": [ "Infinitiv", "bejaht (tú)", "verneint (tú)" ], "rows": [ [ "hacer", "haz", "no hagas" ], [ "poner", "pon", "no pongas" ], [ "salir", "sal", "no salgas" ], [ "venir", "ven", "no vengas" ], [ "tener", "ten", "no tengas" ], [ "decir", "di", "no digas" ], [ "ir", "ve", "no vayas" ], [ "ser", "sé", "no seas" ] ] },
+        { "type": "tip", "text": "Pronomen hängen beim bejahten Imperativ hinten an, beim verneinten stehen sie davor: ¡Apágala! – ¡No la apagues! ¡Tíralo! – ¡No lo tires! Achte auf den Akzent bei der bejahten Form." },
+        { "type": "tip", "text": "Für vosotros endet der bejahte Imperativ auf -ad, -ed, -id (reciclad, encended, abrid), der verneinte kommt wieder aus dem subjuntivo (no recicléis, no encendáis). Höflich mit usted nimmst du immer den subjuntivo: ¡Recicle! – ¡No tire! Das kennst du schon aus Wegbeschreibungen: siga, gire, cruce." },
+        { "type": "examples", "items": [ { "text": "¡No tires papeles al suelo!", "de": "Wirf kein Papier auf den Boden!" }, { "text": "Cuando sales de casa, apaga las luces.", "de": "Wenn du aus dem Haus gehst, mach die Lichter aus." }, { "text": "¿El grifo? ¡No lo dejes abierto!", "de": "Der Wasserhahn? Lass ihn nicht laufen!" }, { "text": "No cojas el coche para ir al centro: coge el metro.", "de": "Nimm nicht das Auto, um ins Zentrum zu fahren: Nimm die U-Bahn." }, { "text": "¡No me digas que no reciclas!", "de": "Sag bloß nicht, dass du keinen Müll trennst!" } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¡No ___ la botella al suelo!", "answers": [ "tires" ], "de": "Wirf die Flasche nicht auf den Boden!", "hint": "tirar" },
+        { "type": "cloze", "text": "¡___ la luz cuando sales!", "answers": [ "Apaga" ], "de": "Mach das Licht aus, wenn du rausgehst!", "hint": "apagar – bejaht" },
+        { "type": "cloze", "text": "¡No ___ el grifo abierto!", "answers": [ "dejes" ], "de": "Lass den Wasserhahn nicht laufen!", "hint": "dejar" },
+        { "type": "cloze", "text": "¡No ___ bolsas de plástico!", "answers": [ "compres" ], "de": "Kauf keine Plastiktüten!", "hint": "comprar" },
+        { "type": "cloze", "text": "¡No ___ el coche para ir al centro!", "answers": [ "cojas" ], "de": "Nimm nicht das Auto, um ins Zentrum zu fahren!", "hint": "coger" },
+        { "type": "cloze", "text": "¡No me ___ que no tienes tiempo!", "answers": [ "digas" ], "de": "Sag mir nicht, dass du keine Zeit hast!", "hint": "decir" },
+        { "type": "cloze", "text": "¿La tele? ¡No la ___! Estoy viendo las noticias.", "answers": [ "apagues" ], "de": "Der Fernseher? Mach ihn nicht aus! Ich sehe gerade Nachrichten.", "hint": "apagar" },
+        { "type": "translate", "de": "Benutz keine Plastiktüten!", "answers": [ "¡No uses bolsas de plástico!" ] },
+        { "type": "translate", "de": "Mach das Licht aus!", "answers": [ "¡Apaga la luz!" ] },
+        { "type": "order", "de": "Wirf den Müll nicht auf den Boden.", "answer": "No tires la basura al suelo.", "distractors": [ "tiras" ] }
+      ]
+    },
+    {
+      "id": "se-impersonal", "title": "Was man tut: das unpersönliche se",
+      "blocks": [
+        { "type": "p", "text": "Wenn du allgemein sagen willst, was „man“ tut oder was „gemacht wird“, benutzt du se + Verb in der 3. Person. Steht danach eine Sache in der Mehrzahl, steht auch das Verb in der Mehrzahl." },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "Aquí se recicla el papel.", "Hier wird Papier recycelt." ], [ "En Suiza se reciclan casi todas las botellas.", "In der Schweiz werden fast alle Flaschen recycelt." ], [ "En verano se gasta mucha agua.", "Im Sommer wird viel Wasser verbraucht." ], [ "¿Cómo se dice eso en español?", "Wie sagt man das auf Spanisch?" ], [ "En este barrio se vive muy bien.", "In diesem Viertel lebt es sich sehr gut." ] ] },
+        { "type": "p", "text": "Besonders häufig sind se puede (man kann, man darf), no se puede (man darf nicht) und se debe (man sollte). Danach steht der Infinitiv:" },
+        { "type": "examples", "items": [ { "text": "Se puede ir al centro en bici.", "de": "Man kann mit dem Fahrrad ins Zentrum fahren." }, { "text": "En el parque no se puede hacer fuego.", "de": "Im Park darf man kein Feuer machen." }, { "text": "No se debe tirar basura en el bosque.", "de": "Man sollte im Wald keinen Müll wegwerfen." }, { "text": "¿Se puede reciclar este envase?", "de": "Kann man diese Verpackung recyceln?" }, { "text": "Las latas se pueden reciclar.", "de": "Dosen kann man recyceln." } ] },
+        { "type": "tip", "text": "Die Frage ¿Cómo se dice …? kennst du schon aus dem Unterricht – das ist genau dieses se. Auch auf Schildern siehst du es oft: Se alquila (zu vermieten), Se vende (zu verkaufen), No se puede fumar (Rauchen verboten)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "En España ___ recicla el vidrio en el contenedor verde.", "answers": [ "se" ], "de": "In Spanien wird Glas im grünen Container recycelt." },
+        { "type": "cloze", "text": "En este pueblo se ___ mucho las bicis.", "answers": [ "usan" ], "de": "In diesem Dorf werden die Fahrräder viel benutzt.", "hint": "usar" },
+        { "type": "cloze", "text": "En el bosque no se ___ tirar basura.", "answers": [ "puede" ], "de": "Im Wald darf man keinen Müll wegwerfen.", "hint": "poder" },
+        { "type": "cloze", "text": "¿Cómo se ___ eso en español?", "answers": [ "dice" ], "de": "Wie sagt man das auf Spanisch?", "hint": "decir" },
+        { "type": "cloze", "text": "En Suiza se ___ casi todas las botellas.", "answers": [ "reciclan" ], "de": "In der Schweiz werden fast alle Flaschen recycelt.", "hint": "reciclar" },
+        { "type": "translate", "de": "Hier wird Papier recycelt.", "answers": [ "Aquí se recicla el papel.", "Aquí se recicla papel.", "Se recicla el papel aquí.", "Se recicla papel aquí." ] },
+        { "type": "translate", "de": "Kann man mit dem Bus fahren?", "answers": [ "¿Se puede ir en autobús?" ] },
+        { "type": "order", "de": "Man darf im Wald keinen Müll wegwerfen.", "answer": "No se puede tirar basura en el bosque.", "distractors": [ "puedes" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Un paseo por la sierra",
+    "title_de": "Ein Ausflug in die Berge",
+    "lines": [
+      { "speaker": "Marta", "text": "¡Qué bonito es esto! Y el aire está tan limpio… En Madrid hay demasiada contaminación.", "de": "Wie schön es hier ist! Und die Luft ist so sauber … In Madrid gibt es zu viel Luftverschmutzung." },
+      { "speaker": "Lucía", "text": "Sí, por eso me encanta venir a la sierra. Pero mira el río: casi no tiene agua.", "de": "Ja, deshalb komme ich so gern in die Berge. Aber schau dir den Fluss an: Er hat fast kein Wasser." },
+      { "speaker": "Marta", "text": "Es verdad. ¿No ha llovido este año?", "de": "Stimmt. Hat es dieses Jahr nicht geregnet?" },
+      { "speaker": "Lucía", "text": "Muy poco. Mis padres dicen que en Sevilla hay sequía y que casi nunca llueve. ¡Ojalá llueva pronto!", "de": "Sehr wenig. Meine Eltern sagen, dass in Sevilla Dürre herrscht und es fast nie regnet. Hoffentlich regnet es bald!" },
+      { "speaker": "Marta", "text": "Ojalá. El cambio climático ya no es un problema del futuro, es un problema de hoy.", "de": "Hoffentlich. Der Klimawandel ist kein Problem der Zukunft mehr, er ist ein Problem von heute." },
+      { "speaker": "Lucía", "text": "¡Oye, mira a ese chico! Ha tirado una botella de plástico al suelo.", "de": "Hey, schau dir den Typen da an! Er hat eine Plastikflasche auf den Boden geworfen." },
+      { "speaker": "Marta", "text": "¡Perdona! No tires la botella aquí, por favor. Allí hay un contenedor.", "de": "Entschuldige! Wirf die Flasche bitte nicht hierhin. Da drüben steht ein Container." },
+      { "speaker": "Chico", "text": "Ay, lo siento. Tienes razón.", "de": "Oh, tut mir leid. Du hast recht." },
+      { "speaker": "Lucía", "text": "¡Muy bien, Marta! En Suiza se recicla todo, ¿verdad?", "de": "Sehr gut, Marta! In der Schweiz wird alles recycelt, oder?" },
+      { "speaker": "Marta", "text": "Casi todo. Además, allí las bolsas de basura se pagan, ¡y son bastante caras! Por eso la gente intenta reducir la basura.", "de": "Fast alles. Außerdem muss man dort für die Müllsäcke bezahlen, und die sind ziemlich teuer! Deshalb versuchen die Leute, weniger Müll zu machen." },
+      { "speaker": "Lucía", "text": "Yo también intento hacer algo: voy al trabajo en transporte público y reutilizo las bolsas del supermercado.", "de": "Ich versuche auch, etwas zu tun: Ich fahre mit den öffentlichen Verkehrsmitteln zur Arbeit und verwende die Supermarkttüten wieder." },
+      { "speaker": "Marta", "text": "Eso está muy bien. Y espero que en mi barrio pongan más contenedores, porque solo hay uno para el vidrio.", "de": "Das ist sehr gut. Und ich hoffe, dass sie in meinem Viertel mehr Container aufstellen, denn es gibt nur einen für Glas." },
+      { "speaker": "Lucía", "text": "Bueno, ¿seguimos? Quiero llegar arriba antes de comer.", "de": "Na, gehen wir weiter? Ich will vor dem Mittagessen oben sein." },
+      { "speaker": "Marta", "text": "¡Vale! Pero no te olvides de la botella de agua. ¡Y no la tires! ¡Ja, ja!", "de": "Okay! Aber vergiss die Wasserflasche nicht. Und wirf sie nicht weg! Haha!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "la basura", "der Müll" ], [ "el medio ambiente", "die Umwelt" ], [ "el bosque", "der Wald" ], [ "la sequía", "die Dürre" ], [ "el incendio", "der Brand" ], [ "el vidrio", "das Glas" ] ] },
+    { "type": "match", "pairs": [ [ "reciclar", "recyceln" ], [ "apagar", "ausschalten" ], [ "encender", "einschalten" ], [ "tirar", "wegwerfen" ], [ "proteger", "schützen" ], [ "reducir", "verringern" ] ] },
+    { "type": "translate", "de": "Hoffentlich regnet es bald.", "answers": [ "Ojalá llueva pronto.", "Ojalá que llueva pronto." ] },
+    { "type": "translate", "de": "Ich hoffe, dass die Leute mehr recyceln.", "answers": [ "Espero que la gente recicle más.", "Yo espero que la gente recicle más." ] },
+    { "type": "translate", "de": "Lass den Wasserhahn nicht laufen!", "answers": [ "¡No dejes el grifo abierto!", "¡No dejes abierto el grifo!" ] },
+    { "type": "order", "de": "In Spanien wird Glas im grünen Container recycelt.", "answer": "En España se recicla el vidrio en el contenedor verde." },
+    { "type": "order", "de": "Nimm die öffentlichen Verkehrsmittel!", "answer": "¡Usa el transporte público!", "distractors": [ "uses" ] },
+    { "type": "cloze", "text": "Los coches ___ mucho el aire.", "answers": [ "contaminan" ], "de": "Autos verschmutzen die Luft stark.", "hint": "contaminar" },
+    { "type": "cloze", "text": "Una ducha corta ___ menos agua que un baño.", "answers": [ "gasta" ], "de": "Eine kurze Dusche verbraucht weniger Wasser als ein Bad.", "hint": "gastar" },
+    { "type": "cloze", "text": "Intento ___ el plástico.", "answers": [ "evitar" ], "de": "Ich versuche, Plastik zu vermeiden." },
+    { "type": "listen", "text": "¡Ojalá no haya incendios este verano!", "de": "Hoffentlich gibt es diesen Sommer keine Brände!" },
+    { "type": "listen", "text": "No tires la basura al suelo, por favor.", "de": "Wirf den Müll bitte nicht auf den Boden." },
+    { "type": "listen", "text": "En mi casa se recicla todo.", "de": "Bei mir zu Hause wird alles recycelt." }
+  ]
+}

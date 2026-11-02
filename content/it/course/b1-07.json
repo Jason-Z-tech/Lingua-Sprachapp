@@ -1,0 +1,837 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-07",
+  "lang": "it",
+  "level": "B1",
+  "number": 7,
+  "title": "Libri, film e canzoni",
+  "title_de": "Kultur",
+  "topic": "Musik, Film und Bücher",
+  "goals": [
+    "Du kannst über Filme, Bücher und Musik sprechen: die Handlung erzählen und sagen, was dich interessiert, langweilt oder beeindruckt.",
+    "Du gibst Empfehlungen mit ti consiglio di … und vale la pena …",
+    "Du benutzt Verben wie interessare, dispiacere und mancare und ne für Themen: Cosa ne pensi? Ne parliamo dopo."
+  ],
+  "vocab": [
+    {
+      "id": "cultura",
+      "word": "cultura",
+      "article": "la",
+      "gender": "f",
+      "plural": "le culture",
+      "de": "die Kultur",
+      "pos": "noun",
+      "example": { "text": "Mi interessa molto la cultura italiana.", "de": "Die italienische Kultur interessiert mich sehr." }
+    },
+    {
+      "id": "romanzo",
+      "word": "romanzo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i romanzi",
+      "de": "der Roman",
+      "pos": "noun",
+      "example": { "text": "Sto leggendo un romanzo ambientato a Napoli.", "de": "Ich lese gerade einen Roman, der in Neapel spielt." }
+    },
+    {
+      "id": "trama",
+      "word": "trama",
+      "article": "la",
+      "gender": "f",
+      "plural": "le trame",
+      "de": "die Handlung",
+      "pos": "noun",
+      "example": { "text": "La trama è semplice, ma i personaggi sono bellissimi.", "de": "Die Handlung ist einfach, aber die Figuren sind wunderschön." },
+      "note": "Racconta la trama! = Erzähl, worum es geht!"
+    },
+    {
+      "id": "personaggio",
+      "word": "personaggio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i personaggi",
+      "de": "die Figur (in Buch oder Film); die Persönlichkeit",
+      "pos": "noun",
+      "example": { "text": "Il mio personaggio preferito è la nonna.", "de": "Meine Lieblingsfigur ist die Großmutter." }
+    },
+    {
+      "id": "protagonista",
+      "word": "protagonista",
+      "article": "il",
+      "gender": "m",
+      "plural": "i protagonisti",
+      "de": "die Hauptfigur; der Hauptdarsteller",
+      "pos": "noun",
+      "example": { "text": "Il protagonista del film è un cuoco di Bologna.", "de": "Die Hauptfigur des Films ist ein Koch aus Bologna." },
+      "note": "Für eine Frau: la protagonista (Mehrzahl: le protagoniste)."
+    },
+    {
+      "id": "scrittore",
+      "word": "scrittore",
+      "article": "lo",
+      "gender": "m",
+      "plural": "gli scrittori",
+      "de": "der Schriftsteller",
+      "pos": "noun",
+      "example": { "text": "Italo Calvino è il mio scrittore preferito.", "de": "Italo Calvino ist mein Lieblingsschriftsteller." },
+      "note": "Für eine Frau: la scrittrice."
+    },
+    {
+      "id": "regista",
+      "word": "regista",
+      "article": "il",
+      "gender": "m",
+      "plural": "i registi",
+      "de": "der Regisseur",
+      "pos": "noun",
+      "example": { "text": "Il regista del film è molto giovane.", "de": "Der Regisseur des Films ist sehr jung." },
+      "note": "Für eine Frau: la regista."
+    },
+    {
+      "id": "cantante",
+      "word": "cantante",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cantanti",
+      "de": "der Sänger",
+      "pos": "noun",
+      "example": { "text": "Mia sorella vuole diventare cantante.", "de": "Meine Schwester will Sängerin werden." },
+      "note": "Für eine Frau: la cantante."
+    },
+    {
+      "id": "canzone",
+      "word": "canzone",
+      "article": "la",
+      "gender": "f",
+      "plural": "le canzoni",
+      "de": "das Lied",
+      "pos": "noun",
+      "example": { "text": "Questa canzone mi ricorda l'estate.", "de": "Dieses Lied erinnert mich an den Sommer." }
+    },
+    {
+      "id": "testo",
+      "word": "testo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i testi",
+      "de": "der Text; der Liedtext",
+      "pos": "noun",
+      "example": { "text": "Il testo di questa canzone è molto bello.", "de": "Der Text dieses Liedes ist sehr schön." }
+    },
+    {
+      "id": "gruppo",
+      "word": "gruppo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i gruppi",
+      "de": "die Gruppe; die Band",
+      "pos": "noun",
+      "example": { "text": "Marco suona la chitarra in un gruppo.", "de": "Marco spielt Gitarre in einer Band." }
+    },
+    {
+      "id": "spettacolo",
+      "word": "spettacolo",
+      "article": "lo",
+      "gender": "m",
+      "plural": "gli spettacoli",
+      "de": "die Vorstellung; die Aufführung",
+      "pos": "noun",
+      "example": { "text": "Lo spettacolo comincia alle nove.", "de": "Die Vorstellung beginnt um neun." }
+    },
+    {
+      "id": "pubblico",
+      "word": "pubblico",
+      "article": "il",
+      "gender": "m",
+      "de": "das Publikum",
+      "pos": "noun",
+      "example": {
+        "text": "Alla fine del concerto il pubblico cantava insieme al gruppo.",
+        "de": "Am Ende des Konzerts sang das Publikum mit der Band zusammen."
+      },
+      "note": "Als Adjektiv: pubblico = öffentlich – un parco pubblico."
+    },
+    {
+      "id": "serie",
+      "word": "serie",
+      "article": "la",
+      "gender": "f",
+      "plural": "le serie",
+      "de": "die Serie",
+      "pos": "noun",
+      "example": { "text": "Stasera guardiamo una serie italiana?", "de": "Schauen wir heute Abend eine italienische Serie?" },
+      "note": "In der Mehrzahl gleich: le serie. Una serie TV = eine Fernsehserie."
+    },
+    {
+      "id": "genere",
+      "word": "genere",
+      "article": "il",
+      "gender": "m",
+      "plural": "i generi",
+      "de": "die Art; das Genre",
+      "pos": "noun",
+      "example": { "text": "Che genere di musica ascolti?", "de": "Welche Art von Musik hörst du?" }
+    },
+    {
+      "id": "commedia",
+      "word": "commedia",
+      "article": "la",
+      "gender": "f",
+      "plural": "le commedie",
+      "de": "die Komödie",
+      "pos": "noun",
+      "example": { "text": "Ho visto una commedia molto divertente.", "de": "Ich habe eine sehr lustige Komödie gesehen." }
+    },
+    {
+      "id": "poesia",
+      "word": "poesia",
+      "article": "la",
+      "gender": "f",
+      "plural": "le poesie",
+      "de": "das Gedicht; die Dichtung",
+      "pos": "noun",
+      "example": { "text": "A scuola ho imparato una poesia di Leopardi.", "de": "In der Schule habe ich ein Gedicht von Leopardi gelernt." }
+    },
+    {
+      "id": "arte",
+      "word": "arte",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le arti",
+      "de": "die Kunst",
+      "pos": "noun",
+      "example": { "text": "A Firenze c'è tantissima arte.", "de": "In Florenz gibt es unglaublich viel Kunst." }
+    },
+    {
+      "id": "artista",
+      "word": "artista",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli artisti",
+      "de": "der Künstler; die Künstlerin",
+      "pos": "noun",
+      "example": { "text": "Giulia conosce molti artisti di Bologna.", "de": "Giulia kennt viele Künstler aus Bologna.", "focus": "artisti" },
+      "note": "Gleiche Form für Mann und Frau: l'artista. Mehrzahl: gli artisti / le artiste."
+    },
+    {
+      "id": "opera",
+      "word": "opera",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le opere",
+      "de": "das Werk; die Oper",
+      "pos": "noun",
+      "example": { "text": "Hai mai visto un'opera di Verdi?", "de": "Hast du schon mal eine Oper von Verdi gesehen?" },
+      "note": "Un'opera d'arte = ein Kunstwerk."
+    },
+    {
+      "id": "capolavoro",
+      "word": "capolavoro",
+      "article": "il",
+      "gender": "m",
+      "plural": "i capolavori",
+      "de": "das Meisterwerk",
+      "pos": "noun",
+      "example": { "text": "Questo film è un capolavoro!", "de": "Dieser Film ist ein Meisterwerk!" }
+    },
+    {
+      "id": "recensione",
+      "word": "recensione",
+      "article": "la",
+      "gender": "f",
+      "plural": "le recensioni",
+      "de": "die Kritik; die Rezension",
+      "pos": "noun",
+      "example": { "text": "Sul giornale c'è una bella recensione del film.", "de": "In der Zeitung steht eine gute Kritik über den Film." }
+    },
+    {
+      "id": "successo",
+      "word": "successo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i successi",
+      "de": "der Erfolg",
+      "pos": "noun",
+      "example": { "text": "La canzone ha avuto un grande successo.", "de": "Das Lied war ein großer Erfolg." },
+      "note": "Avere successo = Erfolg haben."
+    },
+    {
+      "id": "premio",
+      "word": "premio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i premi",
+      "de": "der Preis; die Auszeichnung",
+      "pos": "noun",
+      "example": { "text": "Il film ha ricevuto un premio a Venezia.", "de": "Der Film hat in Venedig einen Preis bekommen." }
+    },
+    {
+      "id": "finale",
+      "word": "finale",
+      "article": "il",
+      "gender": "m",
+      "plural": "i finali",
+      "de": "das Ende; der Schluss (einer Geschichte)",
+      "pos": "noun",
+      "example": { "text": "Non mi è piaciuto il finale del film.", "de": "Das Ende des Films hat mir nicht gefallen." },
+      "note": "Für Bücher, Filme, Geschichten. Allgemein „das Ende“: la fine."
+    },
+    {
+      "id": "colonna-sonora",
+      "word": "colonna sonora",
+      "article": "la",
+      "gender": "f",
+      "plural": "le colonne sonore",
+      "de": "die Filmmusik; der Soundtrack",
+      "pos": "noun",
+      "example": { "text": "La colonna sonora del film è di Ennio Morricone.", "de": "Die Filmmusik ist von Ennio Morricone." }
+    },
+    {
+      "id": "interessare",
+      "word": "interessare",
+      "de": "interessieren",
+      "pos": "verb",
+      "forms": "mi interessa, ti interessa, gli / le interessa … mi interessano",
+      "example": { "text": "A Lena interessa molto l'arte.", "de": "Lena interessiert sich sehr für Kunst.", "focus": "interessa" },
+      "note": "Wie piacere: Das, was interessiert, ist das Subjekt. Interessarsi di = sich interessieren für."
+    },
+    {
+      "id": "annoiare",
+      "word": "annoiare",
+      "de": "langweilen",
+      "pos": "verb",
+      "forms": "annoio, annoi, annoia, annoiamo, annoiate, annoiano",
+      "example": { "text": "I film troppo lunghi mi annoiano.", "de": "Zu lange Filme langweilen mich.", "focus": "annoiano" },
+      "note": "Sich langweilen = annoiarsi (kennst du schon)."
+    },
+    {
+      "id": "dispiacere",
+      "word": "dispiacere",
+      "de": "leidtun; etwas ausmachen",
+      "pos": "verb",
+      "forms": "mi dispiace, ti dispiace … (wie piacere)",
+      "example": { "text": "Ti dispiace aspettare un momento?", "de": "Macht es dir etwas aus, einen Moment zu warten?", "focus": "dispiace" },
+      "note": "Passato prossimo mit essere: Mi è dispiaciuto. = Es hat mir leidgetan."
+    },
+    {
+      "id": "mancare",
+      "word": "mancare",
+      "de": "fehlen; vermissen",
+      "pos": "verb",
+      "forms": "mi manca, ti manca … mi mancano",
+      "example": { "text": "A Sara manca molto Napoli.", "de": "Sara vermisst Neapel sehr.", "focus": "manca" },
+      "note": "Umgekehrt als im Deutschen: Mi manchi! = Du fehlst mir! / Ich vermisse dich!"
+    },
+    {
+      "id": "colpire",
+      "word": "colpire",
+      "de": "beeindrucken; treffen",
+      "pos": "verb",
+      "forms": "colpisco, colpisci, colpisce, colpiamo, colpite, colpiscono",
+      "example": { "text": "Mi ha colpito molto la musica del film.", "de": "Die Musik des Films hat mich sehr beeindruckt.", "focus": "colpito" },
+      "note": "Wie finire mit -isc-. Partizip: colpito."
+    },
+    {
+      "id": "ridere",
+      "word": "ridere",
+      "de": "lachen",
+      "pos": "verb",
+      "forms": "rido, ridi, ride, ridiamo, ridete, ridono",
+      "example": { "text": "Abbiamo riso tutta la sera!", "de": "Wir haben den ganzen Abend gelacht!", "focus": "riso" },
+      "note": "Partizip: riso. Far ridere = zum Lachen bringen: Questo film fa ridere."
+    },
+    {
+      "id": "commuoversi",
+      "word": "commuoversi",
+      "de": "gerührt sein",
+      "pos": "verb",
+      "forms": "mi commuovo, ti commuovi, si commuove, ci commuoviamo, vi commuovete, si commuovono",
+      "example": { "text": "Alla fine del film mi sono commossa.", "de": "Am Ende des Films war ich ganz gerührt.", "focus": "commossa" },
+      "note": "Partizip: commosso; passato prossimo mit essere."
+    },
+    {
+      "id": "pubblicare",
+      "word": "pubblicare",
+      "de": "veröffentlichen",
+      "pos": "verb",
+      "forms": "pubblico, pubblichi, pubblica, pubblichiamo, pubblicate, pubblicano",
+      "example": {
+        "text": "Lo scrittore ha pubblicato un nuovo romanzo.",
+        "de": "Der Schriftsteller hat einen neuen Roman veröffentlicht.",
+        "focus": "pubblicato"
+      },
+      "note": "Betonung: pùbblico (ich veröffentliche) – genau wie das Nomen il pùbblico."
+    },
+    {
+      "id": "ambientato",
+      "word": "ambientato",
+      "de": "spielt (in); angesiedelt",
+      "pos": "adj",
+      "example": { "text": "Il film è ambientato a Napoli negli anni Cinquanta.", "de": "Der Film spielt im Neapel der Fünfzigerjahre." }
+    },
+    {
+      "id": "emozionante",
+      "word": "emozionante",
+      "de": "spannend; aufregend; bewegend",
+      "pos": "adj",
+      "example": { "text": "È stato un concerto emozionante.", "de": "Es war ein bewegendes Konzert." }
+    },
+    {
+      "id": "commovente",
+      "word": "commovente",
+      "de": "rührend; ergreifend",
+      "pos": "adj",
+      "example": { "text": "La storia del film è molto commovente.", "de": "Die Geschichte des Films ist sehr rührend." }
+    },
+    {
+      "id": "famoso",
+      "word": "famoso",
+      "de": "berühmt",
+      "pos": "adj",
+      "example": { "text": "Verona è famosa per l'opera all'Arena.", "de": "Verona ist berühmt für die Oper in der Arena.", "focus": "famosa" }
+    },
+    {
+      "id": "classico",
+      "word": "classico",
+      "de": "klassisch",
+      "pos": "adj",
+      "example": { "text": "Mio padre ascolta solo musica classica.", "de": "Mein Vater hört nur klassische Musik.", "focus": "classica" },
+      "note": "Mehrzahl: classici, classiche. Als Nomen: un classico = ein Klassiker."
+    },
+    {
+      "id": "vale-la-pena",
+      "word": "vale la pena",
+      "de": "es lohnt sich",
+      "pos": "phrase",
+      "example": { "text": "Vale la pena vedere questo film.", "de": "Es lohnt sich, diesen Film zu sehen." },
+      "note": "Wörtlich: Es ist die Mühe wert. Vergangenheit: Ne è valsa la pena. = Es hat sich gelohnt."
+    },
+    {
+      "id": "cosa-ne-pensi",
+      "word": "cosa ne pensi?",
+      "de": "Was hältst du davon?",
+      "pos": "phrase",
+      "example": { "text": "Ho finito il libro. E tu cosa ne pensi?", "de": "Ich habe das Buch zu Ende gelesen. Und was hältst du davon?" }
+    },
+    {
+      "id": "dal-vivo",
+      "word": "dal vivo",
+      "de": "live",
+      "pos": "phrase",
+      "example": { "text": "Stasera c'è musica dal vivo in piazza.", "de": "Heute Abend gibt es Livemusik auf dem Platz." }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "consigliare-vale-la-pena",
+      "title": "Empfehlen: ti consiglio di …, vale la pena …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn du jemandem etwas empfiehlst, nimmst du consigliare – das Verb kennst du schon aus dem Restaurant (Cosa mi consiglia?). Die Person steht im Dativ (mi, ti, gli, le …). Empfiehlst du eine Handlung, folgt di + Infinitiv."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Ti consiglio questo libro.", "Ich empfehle dir dieses Buch."],
+            ["Ti consiglio di leggere questo libro.", "Ich rate dir, dieses Buch zu lesen."],
+            ["Gli consiglio di andare al concerto.", "Ich rate ihm, ins Konzert zu gehen."],
+            ["Mi hanno consigliato di vedere la mostra.", "Man hat mir empfohlen, die Ausstellung anzuschauen."],
+            ["Ti consiglierei di prendere subito i biglietti.", "Ich würde dir raten, sofort die Karten zu holen."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Verneint: Ti consiglio di non andare. = Ich rate dir, nicht hinzugehen. Mit dem condizionale (ti consiglierei) klingt der Rat freundlicher."
+        },
+        {
+          "type": "p",
+          "text": "Mit vale la pena (wörtlich: „es ist die Mühe wert“) sagst du, dass sich etwas lohnt. Der Infinitiv folgt direkt oder mit di: vale la pena (di) vedere … In der Vergangenheit sagt man: ne è valsa la pena = es hat sich gelohnt."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Vale la pena vedere questo film al cinema.", "de": "Es lohnt sich, diesen Film im Kino zu sehen." },
+            {
+              "text": "Non vale la pena comprare il biglietto: il gruppo è noioso.",
+              "de": "Es lohnt sich nicht, die Karte zu kaufen: Die Band ist langweilig."
+            },
+            { "text": "Il viaggio è stato lungo, ma ne è valsa la pena.", "de": "Die Reise war lang, aber es hat sich gelohnt." },
+            {
+              "text": "Ti consiglio di leggere il romanzo prima di vedere il film.",
+              "de": "Ich rate dir, den Roman zu lesen, bevor du den Film siehst."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Ti consiglio ___ vedere questo film.", "answers": ["di"], "de": "Ich rate dir, diesen Film zu sehen." },
+        {
+          "type": "cloze",
+          "text": "Giulia, ___ consiglio di ascoltare questa canzone.",
+          "answers": ["ti"],
+          "de": "Giulia, ich empfehle dir, dieses Lied anzuhören."
+        },
+        {
+          "type": "cloze",
+          "text": "Marco va a Verona. ___ consiglio di vedere un'opera all'Arena.",
+          "answers": ["Gli"],
+          "de": "Marco fährt nach Verona. Ich rate ihm, eine Oper in der Arena anzuschauen."
+        },
+        {
+          "type": "cloze",
+          "text": "Non ___ la pena aspettare: il concerto è già finito.",
+          "answers": ["vale"],
+          "de": "Es lohnt sich nicht zu warten: Das Konzert ist schon zu Ende."
+        },
+        {
+          "type": "translate",
+          "de": "Ich rate dir, den Roman zu lesen.",
+          "answers": ["Ti consiglio di leggere il romanzo.", "Io ti consiglio di leggere il romanzo.", "Ti consiglierei di leggere il romanzo."]
+        },
+        {
+          "type": "translate",
+          "de": "Es lohnt sich, diese Ausstellung zu sehen.",
+          "answers": [
+            "Vale la pena vedere questa mostra.",
+            "Vale la pena di vedere questa mostra.",
+            "Vale la pena visitare questa mostra.",
+            "Vale la pena di visitare questa mostra."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Was würdest du mir empfehlen?",
+          "answers": ["Cosa mi consiglieresti?", "Che cosa mi consiglieresti?", "Che mi consiglieresti?"]
+        },
+        { "type": "order", "de": "Das Konzert war teuer, aber es hat sich gelohnt.", "answer": "Il concerto era caro, ma ne è valsa la pena." }
+      ]
+    },
+    {
+      "id": "verbi-come-piacere",
+      "title": "Mi interessa, mi annoia, mi manca: Verben wie piacere",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bei piacere ist das, was gefällt, das Subjekt – die Person steht im Dativ: Mi piace il film. Genauso funktionieren interessare, dispiacere und mancare. Ist das Subjekt Mehrzahl, steht auch das Verb in der Mehrzahl."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Mi interessa l'arte.", "Kunst interessiert mich."],
+            ["Mi interessano i film italiani.", "Italienische Filme interessieren mich."],
+            ["A Marco non interessa la poesia.", "Marco interessiert sich nicht für Gedichte."],
+            ["Ci manca il mare.", "Wir vermissen das Meer."],
+            ["Mi mancano i miei amici.", "Ich vermisse meine Freunde."],
+            ["Ti dispiace se chiudo la finestra?", "Macht es dir etwas aus, wenn ich das Fenster schließe?"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Annoiare und colpire sind etwas anders: Die Person ist direktes Objekt. Bei mi, ti, ci, vi merkst du keinen Unterschied (Questo film mi annoia.), aber in der 3. Person heißt es lo / la: Il calcio la annoia. = Fußball langweilt sie. Bei interessare und dispiacere dagegen gli / le: Il calcio non le interessa."
+        },
+        {
+          "type": "p",
+          "text": "Im passato prossimo stehen piacere, dispiacere und mancare mit essere – das Partizip richtet sich nach dem Subjekt. Annoiare und colpire nehmen avere."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Mi è piaciuta molto la colonna sonora.", "de": "Die Filmmusik hat mir sehr gefallen." },
+            { "text": "A Sara è mancata tanto la sua famiglia.", "de": "Sara hat ihre Familie sehr vermisst." },
+            { "text": "Mi sono mancati i miei amici.", "de": "Ich habe meine Freunde vermisst." },
+            { "text": "Mi è dispiaciuto non venire al concerto.", "de": "Es hat mir leidgetan, nicht zum Konzert zu kommen." },
+            { "text": "Il finale mi ha colpito molto.", "de": "Das Ende hat mich sehr beeindruckt." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Mi ___ molto i film di Fellini.",
+          "answers": ["interessano"],
+          "de": "Die Filme von Fellini interessieren mich sehr.",
+          "hint": "interessare"
+        },
+        { "type": "cloze", "text": "A Lena ___ la sua famiglia.", "answers": ["manca"], "de": "Lena vermisst ihre Familie.", "hint": "mancare" },
+        {
+          "type": "cloze",
+          "text": "Mi ___ i miei amici di Monaco.",
+          "answers": ["mancano"],
+          "de": "Ich vermisse meine Freunde aus München.",
+          "hint": "mancare"
+        },
+        {
+          "type": "cloze",
+          "text": "Ti ___ aspettare un momento?",
+          "answers": ["dispiace"],
+          "de": "Macht es dir etwas aus, einen Moment zu warten?",
+          "hint": "dispiacere"
+        },
+        {
+          "type": "cloze",
+          "text": "Questi film lunghi mi ___.",
+          "answers": ["annoiano"],
+          "de": "Diese langen Filme langweilen mich.",
+          "hint": "annoiare"
+        },
+        {
+          "type": "cloze",
+          "text": "A Giulia è ___ molto il concerto.",
+          "answers": ["piaciuto"],
+          "de": "Das Konzert hat Giulia sehr gefallen.",
+          "hint": "piacere"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["mi interessa", "es interessiert mich"],
+            ["mi annoia", "es langweilt mich"],
+            ["mi dispiace", "es tut mir leid"],
+            ["mi manca", "es fehlt mir"],
+            ["mi colpisce", "es beeindruckt mich"]
+          ]
+        },
+        { "type": "translate", "de": "Ich vermisse dich!", "answers": ["Mi manchi!", "Tu mi manchi!", "Mi manchi tanto!", "Mi manchi molto!"] },
+        {
+          "type": "translate",
+          "de": "Kunst interessiert mich nicht.",
+          "answers": ["Non mi interessa l'arte.", "L'arte non mi interessa.", "A me non interessa l'arte.", "L'arte a me non interessa."]
+        }
+      ]
+    },
+    {
+      "id": "ne-argomenti",
+      "title": "Ne für Themen: Cosa ne pensi?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ne kennst du schon für Mengen (Ne prendo due.). Ne ersetzt aber auch di + Thema: worüber man spricht, was man denkt oder weiß. Im Deutschen sagt man dann „darüber“ oder „davon“."
+        },
+        {
+          "type": "table",
+          "head": ["ohne ne", "mit ne", "Deutsch"],
+          "rows": [
+            ["Parliamo del film dopo.", "Ne parliamo dopo.", "Wir reden später darüber."],
+            ["Cosa pensi del libro?", "Cosa ne pensi?", "Was hältst du davon?"],
+            ["Non so niente del concerto.", "Non ne so niente.", "Ich weiß nichts davon."],
+            ["Ha parlato del viaggio per un'ora.", "Ne ha parlato per un'ora.", "Er hat eine Stunde lang davon erzählt."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ne steht vor dem konjugierten Verb, im passato prossimo also vor avere / essere. An einen Infinitiv wird es angehängt: Vorrei parlarne con te. Mit einem anderen Pronomen wird mi / ti zu me / te: Te ne parlo domani."
+        },
+        {
+          "type": "tip",
+          "text": "Feste Wendungen: Che ne dici? = Was meinst du dazu? Che ne dici di andare al cinema? = Was hältst du davon, ins Kino zu gehen? Non ne posso più! = Ich kann nicht mehr!"
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Ho visto il film ieri. – E cosa ne pensi?", "de": "Ich habe den Film gestern gesehen. – Und was hältst du davon?" },
+            { "text": "Il libro è bellissimo: te ne parlo domani.", "de": "Das Buch ist wunderschön: Ich erzähle dir morgen davon." },
+            { "text": "Vorrei parlarne con Giulia.", "de": "Ich würde gern mit Giulia darüber sprechen." },
+            { "text": "Non ne so niente, mi dispiace.", "de": "Ich weiß nichts davon, tut mir leid." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Ho letto il tuo romanzo. Vuoi sapere cosa ___ penso?",
+          "answers": ["ne"],
+          "de": "Ich habe deinen Roman gelesen. Willst du wissen, was ich davon halte?"
+        },
+        {
+          "type": "cloze",
+          "text": "Adesso non ho tempo, ___ parliamo stasera.",
+          "answers": ["ne"],
+          "de": "Jetzt habe ich keine Zeit, wir reden heute Abend darüber."
+        },
+        {
+          "type": "cloze",
+          "text": "Vorrei ___ con te domani.",
+          "answers": ["parlarne"],
+          "de": "Ich würde gern morgen mit dir darüber sprechen.",
+          "hint": "parlare + ne"
+        },
+        {
+          "type": "cloze",
+          "text": "È una storia lunga: ___ ne parlo domani.",
+          "answers": ["te"],
+          "de": "Das ist eine lange Geschichte: Ich erzähle dir morgen davon."
+        },
+        {
+          "type": "translate",
+          "de": "Was hältst du davon?",
+          "answers": ["Cosa ne pensi?", "Che cosa ne pensi?", "Che ne pensi?", "Tu cosa ne pensi?", "Che ne dici?"]
+        },
+        {
+          "type": "translate",
+          "de": "Ich weiß nichts davon.",
+          "answers": ["Non ne so niente.", "Non ne so nulla.", "Io non ne so niente.", "Io non ne so nulla."]
+        },
+        {
+          "type": "translate",
+          "de": "Was hältst du davon, ins Kino zu gehen?",
+          "answers": [
+            "Che ne dici di andare al cinema?",
+            "Cosa ne dici di andare al cinema?",
+            "Che ne pensi di andare al cinema?",
+            "Cosa ne pensi di andare al cinema?"
+          ]
+        },
+        { "type": "order", "de": "Wir reden später darüber.", "answer": "Ne parliamo più tardi." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dopo il cinema",
+    "title_de": "Nach dem Kino",
+    "lines": [
+      { "speaker": "Giulia", "text": "Allora, ragazzi, cosa ne pensate del film?", "de": "Also, Leute, was haltet ihr von dem Film?" },
+      {
+        "speaker": "Marco",
+        "text": "A me è piaciuto tantissimo! E la colonna sonora è bellissima.",
+        "de": "Mir hat er total gut gefallen! Und die Filmmusik ist wunderschön."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Anche a me. Il finale mi ha colpito molto: mi sono commossa.",
+        "de": "Mir auch. Das Ende hat mich sehr beeindruckt – ich war ganz gerührt."
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Io invece mi sono un po' annoiata. La trama è troppo lenta.",
+        "de": "Ich habe mich dagegen ein bisschen gelangweilt. Die Handlung ist zu langsam."
+      },
+      {
+        "speaker": "Marco",
+        "text": "Lenta? Ma no! E la protagonista è fantastica.",
+        "de": "Langsam? Ach was! Und die Hauptdarstellerin ist fantastisch."
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Questo è vero. Ma vi consiglio di leggere il romanzo: è molto meglio del film.",
+        "de": "Das stimmt. Aber ich rate euch, den Roman zu lesen: Er ist viel besser als der Film."
+      },
+      { "speaker": "Lena", "text": "Ah, c'è anche un romanzo? Chi l'ha scritto?", "de": "Ach, es gibt auch einen Roman? Wer hat ihn geschrieben?" },
+      {
+        "speaker": "Giulia",
+        "text": "Una scrittrice di Napoli. Il libro ha avuto molto successo e ha ricevuto un premio importante.",
+        "de": "Eine Schriftstellerin aus Neapel. Das Buch war sehr erfolgreich und hat einen wichtigen Preis bekommen."
+      },
+      {
+        "speaker": "Marco",
+        "text": "Io leggo poco, ma le storie ambientate a Napoli mi interessano. Me lo porti?",
+        "de": "Ich lese wenig, aber Geschichten, die in Neapel spielen, interessieren mich. Bringst du ihn mir mit?"
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Certo, te lo porto domani. Vale la pena leggerlo in italiano!",
+        "de": "Klar, ich bringe ihn dir morgen. Es lohnt sich, ihn auf Italienisch zu lesen!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sabato c'è anche un concerto in piazza, con musica dal vivo. Venite?",
+        "de": "Am Samstag gibt es auch ein Konzert auf dem Platz, mit Livemusik. Kommt ihr?"
+      },
+      { "speaker": "Marco", "text": "Che gruppo suona?", "de": "Welche Band spielt?" },
+      {
+        "speaker": "Lena",
+        "text": "Un gruppo di Bologna: canta canzoni italiane degli anni Settanta.",
+        "de": "Eine Band aus Bologna – sie singt italienische Lieder aus den Siebzigern."
+      },
+      {
+        "speaker": "Marco",
+        "text": "Che bello! Mi piace molto la musica di quegli anni.",
+        "de": "Wie schön! Ich mag die Musik aus dieser Zeit sehr."
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Mi dispiace, sabato non posso: ho uno spettacolo a teatro con i miei studenti.",
+        "de": "Tut mir leid, am Samstag kann ich nicht: Ich habe eine Theateraufführung mit meinen Schülern."
+      },
+      { "speaker": "Lena", "text": "Peccato! Allora ne parliamo domani.", "de": "Schade! Dann reden wir morgen darüber." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il romanzo", "der Roman"],
+        ["la trama", "die Handlung"],
+        ["la canzone", "das Lied"],
+        ["il regista", "der Regisseur"],
+        ["il capolavoro", "das Meisterwerk"],
+        ["la colonna sonora", "die Filmmusik"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [["emozionante", "spannend"], ["commovente", "rührend"], ["famoso", "berühmt"], ["classico", "klassisch"], ["dal vivo", "live"]]
+    },
+    {
+      "type": "cloze",
+      "text": "Il film è ___ a Bologna negli anni Ottanta.",
+      "answers": ["ambientato"],
+      "de": "Der Film spielt im Bologna der Achtzigerjahre."
+    },
+    {
+      "type": "cloze",
+      "text": "Il suo nuovo romanzo ha avuto un grande ___.",
+      "answers": ["successo"],
+      "de": "Ihr neuer Roman war ein großer Erfolg."
+    },
+    {
+      "type": "cloze",
+      "text": "Abbiamo ___ tutta la sera: la commedia era divertentissima!",
+      "answers": ["riso"],
+      "de": "Wir haben den ganzen Abend gelacht: Die Komödie war superlustig!",
+      "hint": "ridere"
+    },
+    {
+      "type": "cloze",
+      "text": "Sul giornale ho letto una ___ molto positiva del libro.",
+      "answers": ["recensione"],
+      "de": "In der Zeitung habe ich eine sehr positive Kritik über das Buch gelesen."
+    },
+    {
+      "type": "translate",
+      "de": "Welche Art von Musik hörst du?",
+      "answers": ["Che genere di musica ascolti?", "Che tipo di musica ascolti?", "Quale genere di musica ascolti?", "Che genere di musica ascolti tu?"]
+    },
+    { "type": "translate", "de": "Der Film hat mich gelangweilt.", "answers": ["Il film mi ha annoiato.", "Il film mi ha annoiata."] },
+    {
+      "type": "translate",
+      "de": "Es lohnt sich, das Buch zu lesen.",
+      "answers": [
+        "Vale la pena leggere il libro.",
+        "Vale la pena di leggere il libro.",
+        "Vale la pena leggere questo libro.",
+        "Vale la pena di leggere questo libro."
+      ]
+    },
+    { "type": "order", "de": "Das Ende hat mir nicht gefallen.", "answer": "Il finale non mi è piaciuto." },
+    { "type": "order", "de": "Hast du schon mal eine Oper von Verdi gesehen?", "answer": "Hai mai visto un'opera di Verdi?" },
+    {
+      "type": "cloze",
+      "text": "Che ___ dici di andare al cinema stasera?",
+      "answers": ["ne"],
+      "de": "Was hältst du davon, heute Abend ins Kino zu gehen?"
+    },
+    {
+      "type": "listen",
+      "text": "Ti consiglio di andare al concerto: c'è musica dal vivo fino a mezzanotte.",
+      "de": "Ich rate dir, zum Konzert zu gehen: Es gibt Livemusik bis Mitternacht."
+    },
+    {
+      "type": "listen",
+      "text": "Lo scrittore ha pubblicato un nuovo romanzo e mi interessa molto.",
+      "de": "Der Schriftsteller hat einen neuen Roman veröffentlicht, und er interessiert mich sehr."
+    }
+  ]
+}

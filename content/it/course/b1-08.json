@@ -1,0 +1,763 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-08",
+  "lang": "it",
+  "level": "B1",
+  "number": 8,
+  "title": "Che avventura!",
+  "title_de": "Erlebnisse",
+  "topic": "Von einer Reise erzählen",
+  "goals": [
+    "Du kannst zusammenhängend von einer Reise oder einem Erlebnis erzählen – mit passato prossimo, imperfetto und trapassato prossimo.",
+    "Du sagst, was gerade passierte (stavo dormendo) und was beinahe passiert wäre (stavo per partire).",
+    "Du verbindest deine Geschichte mit all'improvviso, nel frattempo, alla fine und reagierst auf Erzählungen: Che fortuna! Che sfortuna! Meno male!"
+  ],
+  "vocab": [
+    {
+      "id": "volo",
+      "word": "volo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i voli",
+      "de": "der Flug",
+      "pos": "noun",
+      "example": { "text": "Il mio volo per Berlino partiva alle sette di mattina.", "de": "Mein Flug nach Berlin ging um sieben Uhr morgens." }
+    },
+    {
+      "id": "avventura",
+      "word": "avventura",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le avventure",
+      "de": "das Abenteuer",
+      "pos": "noun",
+      "example": { "text": "Il viaggio è stato una vera avventura!", "de": "Die Reise war ein echtes Abenteuer!" }
+    },
+    {
+      "id": "imprevisto",
+      "word": "imprevisto",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli imprevisti",
+      "de": "der Zwischenfall; etwas Unvorhergesehenes",
+      "pos": "noun",
+      "example": { "text": "Durante il viaggio abbiamo avuto un piccolo imprevisto.", "de": "Während der Reise hatten wir einen kleinen Zwischenfall." }
+    },
+    {
+      "id": "sciopero",
+      "word": "sciopero",
+      "article": "lo",
+      "gender": "m",
+      "plural": "gli scioperi",
+      "de": "der Streik",
+      "pos": "noun",
+      "example": { "text": "Oggi c'è sciopero dei treni.", "de": "Heute streikt die Bahn." },
+      "note": "Essere in sciopero = streiken. Fare sciopero = in den Streik treten."
+    },
+    {
+      "id": "annullare",
+      "word": "annullare",
+      "de": "absagen; streichen",
+      "pos": "verb",
+      "forms": "annullo, annulli, annulla, annulliamo, annullate, annullano",
+      "example": { "text": "Hanno annullato il mio volo a causa dello sciopero.", "de": "Mein Flug wurde wegen des Streiks gestrichen.", "focus": "annullato" },
+      "note": "Bei Flügen sagt man auch: Il volo è stato cancellato."
+    },
+    {
+      "id": "coincidenza",
+      "word": "coincidenza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le coincidenze",
+      "de": "der Anschluss (Zug, Flug); der Zufall",
+      "pos": "noun",
+      "example": { "text": "Il treno era in ritardo e ho perso la coincidenza.", "de": "Der Zug hatte Verspätung, und ich habe den Anschluss verpasst." },
+      "note": "Che coincidenza! = Was für ein Zufall!"
+    },
+    {
+      "id": "scendere",
+      "word": "scendere",
+      "de": "aussteigen; hinuntergehen",
+      "pos": "verb",
+      "forms": "scendo, scendi, scende, scendiamo, scendete, scendono",
+      "example": { "text": "Sono scesa dal treno a Firenze.", "de": "Ich bin in Florenz aus dem Zug ausgestiegen.", "focus": "scesa" },
+      "note": "Partizip: sceso, mit essere. Das Gegenteil: salire."
+    },
+    {
+      "id": "atterrare",
+      "word": "atterrare",
+      "de": "landen",
+      "pos": "verb",
+      "forms": "atterro, atterri, atterra, atterriamo, atterrate, atterrano",
+      "example": { "text": "L'aereo è atterrato con un'ora di ritardo.", "de": "Das Flugzeug ist mit einer Stunde Verspätung gelandet.", "focus": "atterrato" },
+      "note": "Starten heißt decollare."
+    },
+    {
+      "id": "accompagnare",
+      "word": "accompagnare",
+      "de": "begleiten; bringen",
+      "pos": "verb",
+      "forms": "accompagno, accompagni, accompagna, accompagniamo, accompagnate, accompagnano",
+      "example": { "text": "Jonas mi ha accompagnata all'aeroporto.", "de": "Jonas hat mich zum Flughafen gebracht.", "focus": "accompagnata" }
+    },
+    {
+      "id": "accorgersi",
+      "word": "accorgersi",
+      "de": "bemerken; merken",
+      "pos": "verb",
+      "forms": "mi accorgo, ti accorgi, si accorge, ci accorgiamo, vi accorgete, si accorgono",
+      "example": {
+        "text": "In treno mi sono accorta che non avevo il portafoglio.",
+        "de": "Im Zug habe ich gemerkt, dass ich meine Geldbörse nicht dabeihatte.",
+        "focus": "accorta"
+      },
+      "note": "Mit di: accorgersi di qualcosa. Partizip: accorto, passato prossimo mit essere."
+    },
+    {
+      "id": "capitare",
+      "word": "capitare",
+      "de": "passieren; vorkommen",
+      "pos": "verb",
+      "forms": "capita, capitano (meist 3. Person)",
+      "example": { "text": "Mi è capitata una cosa strana.", "de": "Mir ist etwas Seltsames passiert.", "focus": "capitata" },
+      "note": "Wie succedere mit essere. Capita! = Das kommt vor!"
+    },
+    {
+      "id": "riuscire",
+      "word": "riuscire",
+      "de": "schaffen; gelingen (riuscire a)",
+      "pos": "verb",
+      "forms": "riesco, riesci, riesce, riusciamo, riuscite, riescono",
+      "example": {
+        "text": "Alla fine sono riuscita a prendere l'ultimo treno.",
+        "de": "Am Ende habe ich es geschafft, den letzten Zug zu nehmen.",
+        "focus": "riuscita"
+      },
+      "note": "Mit a + Infinitiv, passato prossimo mit essere. Non ci riesco! = Ich schaffe es nicht!"
+    },
+    {
+      "id": "rubare",
+      "word": "rubare",
+      "de": "stehlen",
+      "pos": "verb",
+      "forms": "rubo, rubi, ruba, rubiamo, rubate, rubano",
+      "example": { "text": "Mi hanno rubato la borsa in metropolitana!", "de": "Man hat mir in der U-Bahn die Tasche gestohlen!", "focus": "rubato" }
+    },
+    {
+      "id": "portafoglio",
+      "word": "portafoglio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i portafogli",
+      "de": "die Geldbörse; das Portemonnaie",
+      "pos": "noun",
+      "example": { "text": "Il portafoglio era nella borsa.", "de": "Die Geldbörse war in der Tasche." }
+    },
+    {
+      "id": "borsa",
+      "word": "borsa",
+      "article": "la",
+      "gender": "f",
+      "plural": "le borse",
+      "de": "die Tasche",
+      "pos": "noun",
+      "example": { "text": "Ho dimenticato la borsa sul treno.", "de": "Ich habe die Tasche im Zug vergessen." }
+    },
+    {
+      "id": "documento",
+      "word": "documento",
+      "article": "il",
+      "gender": "m",
+      "plural": "i documenti",
+      "de": "das Dokument; der Ausweis",
+      "pos": "noun",
+      "example": { "text": "Ho perso tutti i documenti!", "de": "Ich habe alle meine Papiere verloren!", "focus": "documenti" },
+      "note": "I documenti = die Ausweispapiere (Pass, Personalausweis …)."
+    },
+    {
+      "id": "polizia",
+      "word": "polizia",
+      "article": "la",
+      "gender": "f",
+      "de": "die Polizei",
+      "pos": "noun",
+      "example": { "text": "Abbiamo chiamato la polizia.", "de": "Wir haben die Polizei gerufen." }
+    },
+    {
+      "id": "sconosciuto",
+      "word": "sconosciuto",
+      "de": "unbekannt; (als Nomen) der Fremde",
+      "pos": "adj",
+      "example": { "text": "Uno sconosciuto mi ha aiutata con la valigia.", "de": "Ein Unbekannter hat mir mit dem Koffer geholfen." }
+    },
+    {
+      "id": "strano",
+      "word": "strano",
+      "de": "seltsam; komisch",
+      "pos": "adj",
+      "example": { "text": "Che strano! Il treno non è ancora arrivato.", "de": "Komisch! Der Zug ist noch nicht angekommen." }
+    },
+    {
+      "id": "incredibile",
+      "word": "incredibile",
+      "de": "unglaublich",
+      "pos": "adj",
+      "example": { "text": "È una storia incredibile!", "de": "Das ist eine unglaubliche Geschichte!" }
+    },
+    {
+      "id": "indimenticabile",
+      "word": "indimenticabile",
+      "de": "unvergesslich",
+      "pos": "adj",
+      "example": { "text": "È stato un viaggio indimenticabile.", "de": "Es war eine unvergessliche Reise." }
+    },
+    {
+      "id": "preoccupato",
+      "word": "preoccupato",
+      "de": "besorgt",
+      "pos": "adj",
+      "example": { "text": "Mia madre era molto preoccupata.", "de": "Meine Mutter war sehr besorgt.", "focus": "preoccupata" }
+    },
+    {
+      "id": "durante",
+      "word": "durante",
+      "de": "während (+ Nomen)",
+      "pos": "prep",
+      "example": { "text": "Durante il volo ho dormito.", "de": "Während des Flugs habe ich geschlafen." },
+      "note": "Vor einem Nomen: durante il viaggio. Vor einem Satz: mentre – mentre dormivo."
+    },
+    {
+      "id": "a-causa-di",
+      "word": "a causa di",
+      "de": "wegen",
+      "pos": "phrase",
+      "example": { "text": "Siamo arrivati tardi a causa della nebbia.", "de": "Wir sind wegen des Nebels spät angekommen.", "focus": "a causa della" }
+    },
+    {
+      "id": "all-improvviso",
+      "word": "all'improvviso",
+      "de": "plötzlich",
+      "pos": "phrase",
+      "example": {
+        "text": "Stavamo facendo una passeggiata quando all'improvviso ha cominciato a piovere.",
+        "de": "Wir machten gerade einen Spaziergang, als es plötzlich anfing zu regnen."
+      }
+    },
+    {
+      "id": "a-un-certo-punto",
+      "word": "a un certo punto",
+      "de": "irgendwann; auf einmal",
+      "pos": "phrase",
+      "example": { "text": "A un certo punto il treno si è fermato.", "de": "Irgendwann blieb der Zug stehen." }
+    },
+    {
+      "id": "in-quel-momento",
+      "word": "in quel momento",
+      "de": "in dem Moment",
+      "pos": "phrase",
+      "example": { "text": "In quel momento ho visto Jonas.", "de": "In dem Moment habe ich Jonas gesehen." }
+    },
+    {
+      "id": "nel-frattempo",
+      "word": "nel frattempo",
+      "de": "inzwischen; in der Zwischenzeit",
+      "pos": "phrase",
+      "example": { "text": "Nel frattempo Jonas mi aspettava alla stazione.", "de": "Inzwischen wartete Jonas am Bahnhof auf mich." }
+    },
+    {
+      "id": "il-giorno-dopo",
+      "word": "il giorno dopo",
+      "de": "am nächsten Tag",
+      "pos": "phrase",
+      "example": { "text": "Il giorno dopo siamo andati al mare.", "de": "Am nächsten Tag sind wir ans Meer gefahren." }
+    },
+    {
+      "id": "alla-fine",
+      "word": "alla fine",
+      "de": "am Ende; schließlich",
+      "pos": "phrase",
+      "example": { "text": "Alla fine è andato tutto bene.", "de": "Am Ende ist alles gut gegangen." }
+    },
+    {
+      "id": "stare-per",
+      "word": "stare per",
+      "de": "gleich (etwas tun); im Begriff sein",
+      "pos": "phrase",
+      "example": { "text": "Stavo per uscire quando mi ha chiamato Sara.", "de": "Ich wollte gerade gehen, als Sara mich anrief.", "focus": "stavo per" },
+      "note": "Stare per + Infinitiv: Sto per partire. = Ich fahre gleich los."
+    },
+    {
+      "id": "per-fortuna",
+      "word": "per fortuna",
+      "de": "zum Glück; glücklicherweise",
+      "pos": "phrase",
+      "example": { "text": "Per fortuna avevo il passaporto con me.", "de": "Zum Glück hatte ich den Pass dabei." }
+    },
+    {
+      "id": "meno-male",
+      "word": "meno male",
+      "de": "Gott sei Dank; noch mal Glück gehabt",
+      "pos": "phrase",
+      "example": { "text": "Meno male che sei arrivata!", "de": "Gott sei Dank bist du angekommen!" }
+    },
+    {
+      "id": "che-fortuna",
+      "word": "che fortuna!",
+      "de": "So ein Glück!",
+      "pos": "phrase",
+      "example": { "text": "Hai trovato un posto sul treno? Che fortuna!", "de": "Du hast einen Platz im Zug gefunden? So ein Glück!" }
+    },
+    {
+      "id": "che-sfortuna",
+      "word": "che sfortuna!",
+      "de": "So ein Pech!",
+      "pos": "phrase",
+      "example": { "text": "Hai perso il volo? Che sfortuna!", "de": "Du hast den Flug verpasst? So ein Pech!" }
+    },
+    {
+      "id": "che-spavento",
+      "word": "che spavento!",
+      "de": "Was für ein Schreck!",
+      "pos": "phrase",
+      "example": { "text": "Che spavento! Pensavo di aver perso il passaporto.", "de": "Was für ein Schreck! Ich dachte, ich hätte meinen Pass verloren." }
+    },
+    {
+      "id": "davvero",
+      "word": "davvero",
+      "de": "wirklich",
+      "pos": "adv",
+      "example": { "text": "Il viaggio è stato davvero bello.", "de": "Die Reise war wirklich schön." },
+      "note": "Als Frage: Davvero? = Wirklich? Echt?"
+    },
+    {
+      "id": "non-ci-posso-credere",
+      "word": "non ci posso credere!",
+      "de": "Ich kann es nicht glauben!; Unglaublich!",
+      "pos": "phrase",
+      "example": {
+        "text": "Hai incontrato il tuo attore preferito? Non ci posso credere!",
+        "de": "Du hast deinen Lieblingsschauspieler getroffen? Ich kann es nicht glauben!"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "tempi-del-racconto",
+      "title": "Erzählen mit drei Zeiten: passato prossimo, imperfetto, trapassato",
+      "blocks": [
+        { "type": "p", "text": "Wenn du eine Geschichte erzählst, brauchst du drei Vergangenheitszeiten. Jede hat ihre eigene Aufgabe:" },
+        {
+          "type": "table",
+          "head": ["Zeit", "Wofür?", "Beispiel"],
+          "rows": [
+            ["passato prossimo", "Ereignisse: Was ist passiert? Was kam dann?", "Sono partita alle sei. Ho perso il treno."],
+            ["imperfetto", "Hintergrund: Situation, Wetter, Gefühle, Beschreibung", "Era tardi, pioveva ed ero stanca."],
+            ["trapassato prossimo", "Vorvergangenheit: Was war vorher schon passiert?", "Avevo dimenticato il biglietto a casa."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Stell dir einen Film vor: Das imperfetto beschreibt die Kulisse, das passato prossimo zeigt die Handlung, die Schritt für Schritt weitergeht. Mit dem trapassato prossimo springst du kurz zurück."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Era una bella giornata e c'era molta gente all'aeroporto.",
+              "de": "Es war ein schöner Tag, und am Flughafen waren viele Leute."
+            },
+            { "text": "Quando sono arrivata al binario, il treno era già partito.", "de": "Als ich am Gleis ankam, war der Zug schon abgefahren." },
+            { "text": "Ero molto stanca perché non avevo dormito.", "de": "Ich war sehr müde, weil ich nicht geschlafen hatte." },
+            {
+              "text": "Sono scesa dal treno, ho preso un taxi e sono andata in albergo.",
+              "de": "Ich bin aus dem Zug gestiegen, habe ein Taxi genommen und bin ins Hotel gefahren."
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Mentre + imperfetto zeigt etwas, das gerade lief: Mentre aspettavo, ho letto un libro. Quando + passato prossimo zeigt den Moment, in dem etwas passiert: Quando sono arrivata, Jonas mi aspettava già."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Quando sono arrivata alla stazione, il treno era già ___.",
+          "answers": ["partito"],
+          "de": "Als ich am Bahnhof ankam, war der Zug schon abgefahren.",
+          "hint": "partire"
+        },
+        { "type": "cloze", "text": "___ molto freddo e nevicava.", "answers": ["faceva"], "de": "Es war sehr kalt, und es schneite.", "hint": "fare" },
+        {
+          "type": "cloze",
+          "text": "Ieri ___ il portafoglio in metropolitana.",
+          "answers": ["ho perso"],
+          "de": "Gestern habe ich meine Geldbörse in der U-Bahn verloren.",
+          "hint": "perdere"
+        },
+        {
+          "type": "cloze",
+          "text": "Ero preoccupata perché non avevo mai ___ in aereo.",
+          "answers": ["viaggiato", "volato"],
+          "de": "Ich war besorgt, weil ich noch nie geflogen war.",
+          "hint": "viaggiare"
+        },
+        {
+          "type": "cloze",
+          "text": "Mentre ___ la cena, è arrivato Marco.",
+          "answers": ["preparavo", "cucinavo"],
+          "de": "Während ich das Abendessen machte, kam Marco.",
+          "hint": "preparare"
+        },
+        {
+          "type": "choice",
+          "prompt": "Welche Form passt? „Quando sono arrivata, il treno … già partito.“",
+          "options": ["è", "era", "ha"],
+          "answer": 1,
+          "explain": "Trapassato prossimo: Die Abfahrt liegt vor meiner Ankunft. Partire nimmt essere – also era partito."
+        },
+        {
+          "type": "translate",
+          "de": "Als ich ankam, war der Bus schon abgefahren.",
+          "answers": [
+            "Quando sono arrivata, l'autobus era già partito.",
+            "Quando sono arrivato, l'autobus era già partito.",
+            "Quando io sono arrivata, l'autobus era già partito.",
+            "Quando io sono arrivato, l'autobus era già partito."
+          ]
+        },
+        { "type": "order", "de": "Es regnete, und ich hatte keinen Regenschirm.", "answer": "Pioveva e non avevo l'ombrello." }
+      ]
+    },
+    {
+      "id": "stavo-per",
+      "title": "Stavo facendo – stavo per fare",
+      "blocks": [
+        { "type": "p", "text": "Mit stare im imperfetto beschreibst du zwei besondere Situationen in der Vergangenheit:" },
+        {
+          "type": "table",
+          "head": ["Form", "Bedeutung", "Beispiel"],
+          "rows": [
+            ["stavo + Gerundium", "Ich war gerade dabei, etwas zu tun.", "Stavo dormendo."],
+            ["stavo per + Infinitiv", "Ich wollte gerade / war kurz davor, etwas zu tun.", "Stavo per uscire."]
+          ]
+        },
+        {
+          "type": "table",
+          "head": ["Person", "stare (imperfetto)"],
+          "rows": [["io", "stavo"], ["tu", "stavi"], ["lui / lei", "stava"], ["noi", "stavamo"], ["voi", "stavate"], ["loro", "stavano"]]
+        },
+        { "type": "p", "text": "Oft wird diese Handlung von etwas unterbrochen – das Neue steht im passato prossimo:" },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Stavo dormendo quando ha chiamato Jonas.", "de": "Ich schlief gerade, als Jonas anrief." },
+            { "text": "Stavamo mangiando quando è arrivata la polizia.", "de": "Wir waren gerade beim Essen, als die Polizei kam." },
+            {
+              "text": "Stavo per salire sul treno quando mi sono accorta che non avevo il biglietto.",
+              "de": "Ich wollte gerade in den Zug steigen, als ich merkte, dass ich keine Fahrkarte hatte."
+            },
+            { "text": "Il film stava per finire.", "de": "Der Film war fast zu Ende." },
+            { "text": "Sta per piovere: prendi l'ombrello!", "de": "Gleich regnet es: Nimm den Regenschirm mit!" }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Stare per gibt es auch im Präsens: Sto per partire. = Ich fahre gleich los. Das Gerundium kennst du schon: parlando, prendendo, partendo – unregelmäßig sind facendo, dicendo, bevendo."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "___ leggendo quando è arrivato il messaggio di Sara.",
+          "answers": ["stavo"],
+          "de": "Ich las gerade, als Saras Nachricht kam.",
+          "hint": "stare"
+        },
+        {
+          "type": "cloze",
+          "text": "Stavamo ___ la cena quando ha suonato il telefono.",
+          "answers": ["preparando", "cucinando"],
+          "de": "Wir machten gerade das Abendessen, als das Telefon klingelte.",
+          "hint": "preparare"
+        },
+        { "type": "cloze", "text": "Il treno stava ___ partire.", "answers": ["per"], "de": "Der Zug fuhr gleich ab." },
+        {
+          "type": "cloze",
+          "text": "Stavo per ___ di casa quando ha cominciato a piovere.",
+          "answers": ["uscire"],
+          "de": "Ich wollte gerade aus dem Haus gehen, als es anfing zu regnen.",
+          "hint": "uscire"
+        },
+        {
+          "type": "cloze",
+          "text": "Cosa ___ facendo quando ti ho chiamato?",
+          "answers": ["stavi"],
+          "de": "Was hast du gerade gemacht, als ich dich angerufen habe?",
+          "hint": "stare"
+        },
+        {
+          "type": "translate",
+          "de": "Ich schlief gerade, als du angerufen hast.",
+          "answers": [
+            "Stavo dormendo quando hai chiamato.",
+            "Io stavo dormendo quando hai chiamato.",
+            "Stavo dormendo quando mi hai chiamato.",
+            "Io stavo dormendo quando mi hai chiamato.",
+            "Stavo dormendo quando hai telefonato.",
+            "Stavo dormendo quando mi hai telefonato."
+          ]
+        },
+        { "type": "translate", "de": "Wir wollten gerade losfahren.", "answers": ["Stavamo per partire.", "Noi stavamo per partire."] },
+        {
+          "type": "match",
+          "pairs": [
+            ["stavo dormendo", "ich schlief gerade"],
+            ["stavo per dormire", "ich wollte gerade schlafen"],
+            ["sto per partire", "ich fahre gleich los"],
+            ["stavano mangiando", "sie aßen gerade"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connettori-reazioni",
+      "title": "Geschichten verbinden und darauf reagieren",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Wörtern bekommt deine Geschichte einen roten Faden:" },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["prima / all'inizio", "zuerst / am Anfang"],
+            ["poi / dopo", "dann / danach"],
+            ["mentre", "während"],
+            ["all'improvviso / a un certo punto", "plötzlich / irgendwann"],
+            ["in quel momento", "in dem Moment"],
+            ["nel frattempo", "inzwischen"],
+            ["allora / quindi", "also / deshalb"],
+            ["il giorno dopo", "am nächsten Tag"],
+            ["alla fine", "am Ende"]
+          ]
+        },
+        { "type": "p", "text": "Und wenn dir jemand etwas erzählt, zeigst du mit kurzen Reaktionen, dass du zuhörst:" },
+        {
+          "type": "table",
+          "head": ["Reaktion", "Deutsch", "Wann?"],
+          "rows": [
+            ["Che fortuna!", "So ein Glück!", "Etwas Gutes ist passiert."],
+            ["Che sfortuna! / Che peccato!", "So ein Pech! / Wie schade!", "Etwas Schlechtes ist passiert."],
+            ["Meno male!", "Gott sei Dank!", "Es ist doch gut ausgegangen."],
+            ["Che spavento!", "Was für ein Schreck!", "Es war gefährlich oder unheimlich."],
+            ["Davvero? / Non ci posso credere!", "Wirklich? / Unglaublich!", "Du bist überrascht."],
+            ["E poi? Com'è finita?", "Und dann? Wie ist es ausgegangen?", "Du willst mehr hören."]
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "All'inizio era tutto perfetto, ma a un certo punto il treno si è fermato.",
+              "de": "Am Anfang war alles perfekt, aber irgendwann blieb der Zug stehen."
+            },
+            {
+              "text": "Ho perso il portafoglio, ma il giorno dopo la polizia l'ha trovato. – Meno male!",
+              "de": "Ich habe meine Geldbörse verloren, aber am nächsten Tag hat die Polizei sie gefunden. – Gott sei Dank!"
+            },
+            { "text": "Nel frattempo Sara aveva chiamato Jonas.", "de": "Inzwischen hatte Sara Jonas angerufen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Stavamo parlando quando ___ è entrato un cane nel bar.",
+          "answers": ["all'improvviso", "a un certo punto"],
+          "de": "Wir unterhielten uns gerade, als plötzlich ein Hund in die Bar kam."
+        },
+        {
+          "type": "cloze",
+          "text": "Abbiamo aspettato tre ore, ma ___ siamo partiti.",
+          "answers": ["alla fine", "finalmente"],
+          "de": "Wir haben drei Stunden gewartet, aber am Ende sind wir losgefahren."
+        },
+        {
+          "type": "cloze",
+          "text": "Ho trovato un biglietto per il concerto! – Che ___!",
+          "answers": ["fortuna"],
+          "de": "Ich habe eine Karte für das Konzert gefunden! – So ein Glück!"
+        },
+        {
+          "type": "cloze",
+          "text": "Il volo è stato annullato. – Che ___!",
+          "answers": ["sfortuna", "peccato"],
+          "de": "Der Flug wurde gestrichen. – So ein Pech!"
+        },
+        {
+          "type": "cloze",
+          "text": "Ho trovato il passaporto! – ___ male!",
+          "answers": ["meno"],
+          "de": "Ich habe den Pass gefunden! – Gott sei Dank!"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["Che fortuna!", "So ein Glück!"],
+            ["Che sfortuna!", "So ein Pech!"],
+            ["Meno male!", "Gott sei Dank!"],
+            ["Che spavento!", "Was für ein Schreck!"],
+            ["Davvero?", "Wirklich?"]
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Am nächsten Tag sind wir ans Meer gefahren.",
+          "answers": [
+            "Il giorno dopo siamo andati al mare.",
+            "Il giorno dopo siamo andate al mare.",
+            "Siamo andati al mare il giorno dopo.",
+            "Siamo andate al mare il giorno dopo."
+          ]
+        },
+        { "type": "order", "de": "Inzwischen hatte Jonas die Polizei gerufen.", "answer": "Nel frattempo Jonas aveva chiamato la polizia." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Com'è andato il viaggio?",
+    "title_de": "Wie war die Reise?",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "Sara, bentornata! Allora, com'è andato il viaggio a Berlino?",
+        "de": "Sara, willkommen zurück! Na, wie war die Reise nach Berlin?"
+      },
+      { "speaker": "Sara", "text": "Benissimo, ma l'inizio è stato una vera avventura!", "de": "Super, aber der Anfang war ein echtes Abenteuer!" },
+      { "speaker": "Lena", "text": "Davvero? Cos'è successo?", "de": "Wirklich? Was ist passiert?" },
+      {
+        "speaker": "Sara",
+        "text": "Il giorno della partenza c'era sciopero all'aeroporto e hanno annullato il mio volo.",
+        "de": "Am Abreisetag war Streik am Flughafen, und mein Flug wurde gestrichen."
+      },
+      { "speaker": "Lena", "text": "Che sfortuna! E cosa hai fatto?", "de": "So ein Pech! Und was hast du gemacht?" },
+      {
+        "speaker": "Sara",
+        "text": "Ho preso il treno per Monaco. Stavo per scendere quando mi sono accorta che non avevo più il portafoglio!",
+        "de": "Ich habe den Zug nach München genommen. Ich wollte gerade aussteigen, als ich merkte, dass ich meine Geldbörse nicht mehr hatte!"
+      },
+      { "speaker": "Lena", "text": "Che spavento! Te l'avevano rubato?", "de": "Was für ein Schreck! Hatte man sie dir gestohlen?" },
+      {
+        "speaker": "Sara",
+        "text": "No, per fortuna! L'avevo lasciato al mio posto. Un signore l'ha trovato e me l'ha dato.",
+        "de": "Nein, zum Glück nicht! Ich hatte sie auf meinem Platz liegen lassen. Ein Herr hat sie gefunden und mir gegeben."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Meno male! E poi sei riuscita ad arrivare a Berlino?",
+        "de": "Gott sei Dank! Und hast du es dann bis nach Berlin geschafft?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Sì, ma il treno per Berlino era in ritardo e ho perso la coincidenza. Sono arrivata a mezzanotte!",
+        "de": "Ja, aber der Zug nach Berlin hatte Verspätung, und ich habe den Anschluss verpasst. Ich bin um Mitternacht angekommen!"
+      },
+      { "speaker": "Lena", "text": "Povera! E Jonas?", "de": "Du Arme! Und Jonas?" },
+      {
+        "speaker": "Sara",
+        "text": "Nel frattempo Jonas mi aveva aspettato tre ore alla stazione. Quando sono scesa dal treno, stava dormendo sul suo zaino!",
+        "de": "Inzwischen hatte Jonas drei Stunden am Bahnhof auf mich gewartet. Als ich aus dem Zug stieg, schlief er auf seinem Rucksack!"
+      },
+      { "speaker": "Lena", "text": "Non ci posso credere! E poi? Com'è finita?", "de": "Ich glaub's nicht! Und dann? Wie ist es ausgegangen?" },
+      {
+        "speaker": "Sara",
+        "text": "Alla fine è stato un mese indimenticabile: il corso era fantastico e Jonas mi ha fatto vedere tutta la città.",
+        "de": "Am Ende war es ein unvergesslicher Monat: Der Kurs war fantastisch, und Jonas hat mir die ganze Stadt gezeigt."
+      },
+      { "speaker": "Lena", "text": "Che bello! E adesso parli bene il tedesco?", "de": "Wie schön! Und sprichst du jetzt gut Deutsch?" },
+      {
+        "speaker": "Sara",
+        "text": "Diciamo che ci provo… Ma con Jonas ho riso tantissimo!",
+        "de": "Sagen wir, ich bemühe mich … Aber mit Jonas habe ich wahnsinnig viel gelacht!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il volo", "der Flug"],
+        ["lo sciopero", "der Streik"],
+        ["la coincidenza", "der Anschluss"],
+        ["il portafoglio", "die Geldbörse"],
+        ["la borsa", "die Tasche"],
+        ["l'imprevisto", "der Zwischenfall"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["all'improvviso", "plötzlich"],
+        ["alla fine", "am Ende"],
+        ["nel frattempo", "inzwischen"],
+        ["il giorno dopo", "am nächsten Tag"],
+        ["durante", "während"],
+        ["a causa di", "wegen"]
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Hanno ___ il volo a causa della nebbia.",
+      "answers": ["annullato", "cancellato"],
+      "de": "Der Flug wurde wegen des Nebels gestrichen.",
+      "hint": "annullare"
+    },
+    {
+      "type": "cloze",
+      "text": "Mi hanno ___ il portafoglio in autobus.",
+      "answers": ["rubato"],
+      "de": "Man hat mir im Bus die Geldbörse gestohlen.",
+      "hint": "rubare"
+    },
+    {
+      "type": "cloze",
+      "text": "Non sono ___ a dormire durante il volo.",
+      "answers": ["riuscita", "riuscito"],
+      "de": "Ich habe es nicht geschafft, während des Flugs zu schlafen.",
+      "hint": "riuscire"
+    },
+    {
+      "type": "cloze",
+      "text": "Solo in albergo mi sono ___ che avevo perso la chiave.",
+      "answers": ["accorta", "accorto"],
+      "de": "Erst im Hotel habe ich gemerkt, dass ich den Schlüssel verloren hatte.",
+      "hint": "accorgersi"
+    },
+    {
+      "type": "translate",
+      "de": "Mir ist etwas Seltsames passiert.",
+      "answers": ["Mi è capitata una cosa strana.", "Mi è successa una cosa strana.", "Mi è capitato qualcosa di strano.", "Mi è successo qualcosa di strano."]
+    },
+    {
+      "type": "translate",
+      "de": "Es war eine unvergessliche Reise.",
+      "answers": ["È stato un viaggio indimenticabile.", "Era un viaggio indimenticabile."]
+    },
+    {
+      "type": "translate",
+      "de": "Ich wollte gerade aussteigen, als ich Jonas sah.",
+      "answers": ["Stavo per scendere quando ho visto Jonas.", "Io stavo per scendere quando ho visto Jonas."]
+    },
+    { "type": "order", "de": "Am Ende ist alles gut gegangen.", "answer": "Alla fine è andato tutto bene." },
+    { "type": "order", "de": "Das Flugzeug ist mit zwei Stunden Verspätung gelandet.", "answer": "L'aereo è atterrato con due ore di ritardo." },
+    {
+      "type": "listen",
+      "text": "Mentre aspettavo il treno, ho conosciuto una ragazza molto simpatica.",
+      "de": "Während ich auf den Zug wartete, habe ich ein sehr nettes Mädchen kennengelernt."
+    },
+    {
+      "type": "listen",
+      "text": "Per fortuna uno sconosciuto mi ha aiutata a trovare la strada.",
+      "de": "Zum Glück hat mir ein Unbekannter geholfen, den Weg zu finden."
+    }
+  ]
+}
