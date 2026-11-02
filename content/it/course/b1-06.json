@@ -1,0 +1,863 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-06",
+  "lang": "it",
+  "level": "B1",
+  "number": 6,
+  "title": "Il colloquio di lavoro",
+  "title_de": "Bewerbung",
+  "topic": "Lebenslauf und Vorstellungsgespräch",
+  "goals": [
+    "Du kannst eine Bewerbung schreiben und über deinen Lebenslauf sprechen: esperienze, competenze, punti di forza.",
+    "Du bildest den condizionale presente – regelmäßig und mit sarei, avrei, farei, vorrei, potrei, dovrei, andrei.",
+    "Du sprichst höflich und formell mit Lei: Potrebbe …? Le sarei grata …, Cordiali saluti."
+  ],
+  "vocab": [
+    {
+      "id": "colloquio",
+      "word": "colloquio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i colloqui",
+      "de": "das Gespräch; das Vorstellungsgespräch",
+      "pos": "noun",
+      "example": { "text": "Domani ho un colloquio di lavoro in un'agenzia di viaggi.", "de": "Morgen habe ich ein Vorstellungsgespräch in einem Reisebüro." },
+      "note": "Vorstellungsgespräch = il colloquio di lavoro. Fare un colloquio = ein Vorstellungsgespräch haben."
+    },
+    {
+      "id": "agenzia",
+      "word": "agenzia",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le agenzie",
+      "de": "die Agentur (agenzia di viaggi = das Reisebüro)",
+      "pos": "noun",
+      "example": { "text": "Lena vorrebbe lavorare in un'agenzia di viaggi.", "de": "Lena würde gern in einem Reisebüro arbeiten." }
+    },
+    {
+      "id": "curriculum",
+      "word": "curriculum",
+      "article": "il",
+      "gender": "m",
+      "plural": "i curriculum",
+      "de": "der Lebenslauf",
+      "pos": "noun",
+      "example": { "text": "Ti mando il mio curriculum per email.", "de": "Ich schicke dir meinen Lebenslauf per E-Mail." },
+      "note": "Kurz für curriculum vitae, oft nur CV (sprich: tschi-wu). In der Mehrzahl unverändert."
+    },
+    {
+      "id": "candidatura",
+      "word": "candidatura",
+      "article": "la",
+      "gender": "f",
+      "plural": "le candidature",
+      "de": "die Bewerbung",
+      "pos": "noun",
+      "example": { "text": "Ho inviato la mia candidatura lunedì.", "de": "Ich habe meine Bewerbung am Montag abgeschickt." }
+    },
+    {
+      "id": "candidarsi",
+      "word": "candidarsi",
+      "de": "sich bewerben",
+      "pos": "verb",
+      "forms": "mi candido, ti candidi, si candida, ci candidiamo, vi candidate, si candidano",
+      "example": { "text": "Mi candido per un posto in un'agenzia di viaggi.", "de": "Ich bewerbe mich um eine Stelle in einem Reisebüro.", "focus": "candido" },
+      "note": "Sich bewerben um = candidarsi per. Betonung: mi càndido. Passato prossimo mit essere: mi sono candidata."
+    },
+    {
+      "id": "domanda",
+      "word": "domanda",
+      "article": "la",
+      "gender": "f",
+      "plural": "le domande",
+      "de": "die Frage; der Antrag",
+      "pos": "noun",
+      "example": { "text": "Scusi, avrei una domanda.", "de": "Entschuldigung, ich hätte eine Frage." },
+      "note": "Fare domanda (per un lavoro) = sich (um eine Stelle) bewerben. Fare una domanda = eine Frage stellen."
+    },
+    {
+      "id": "annuncio",
+      "word": "annuncio",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli annunci",
+      "de": "die Anzeige; die Stellenanzeige",
+      "pos": "noun",
+      "example": { "text": "Ho letto un annuncio interessante sul giornale.", "de": "Ich habe in der Zeitung eine interessante Anzeige gelesen." },
+      "note": "Stellenanzeige = l'annuncio di lavoro."
+    },
+    {
+      "id": "lettera-di-presentazione",
+      "word": "lettera di presentazione",
+      "article": "la",
+      "gender": "f",
+      "plural": "le lettere di presentazione",
+      "de": "das Anschreiben; das Bewerbungsschreiben",
+      "pos": "noun",
+      "example": {
+        "text": "Con il curriculum devi mandare anche una lettera di presentazione.",
+        "de": "Mit dem Lebenslauf musst du auch ein Anschreiben schicken."
+      },
+      "note": "La lettera allein = der Brief."
+    },
+    {
+      "id": "esperienza",
+      "word": "esperienza",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le esperienze",
+      "de": "die Erfahrung",
+      "pos": "noun",
+      "example": { "text": "Ho due anni di esperienza come commessa.", "de": "Ich habe zwei Jahre Erfahrung als Verkäuferin." },
+      "note": "Im Lebenslauf: esperienze lavorative = Berufserfahrung."
+    },
+    {
+      "id": "competenza",
+      "word": "competenza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le competenze",
+      "de": "die Kompetenz; die Fähigkeit",
+      "pos": "noun",
+      "example": {
+        "text": "Nel curriculum scrivi anche le tue competenze.",
+        "de": "Im Lebenslauf schreibst du auch deine Kompetenzen auf.",
+        "focus": "competenze"
+      },
+      "note": "Competenze linguistiche = Sprachkenntnisse, competenze informatiche = EDV-Kenntnisse."
+    },
+    {
+      "id": "requisito",
+      "word": "requisito",
+      "article": "il",
+      "gender": "m",
+      "plural": "i requisiti",
+      "de": "die Voraussetzung; die Anforderung",
+      "pos": "noun",
+      "example": { "text": "Il tedesco è un requisito importante per questo lavoro.", "de": "Deutsch ist eine wichtige Voraussetzung für diese Arbeit." }
+    },
+    {
+      "id": "posto-di-lavoro",
+      "word": "posto di lavoro",
+      "article": "il",
+      "gender": "m",
+      "plural": "i posti di lavoro",
+      "de": "die Stelle; der Arbeitsplatz",
+      "pos": "noun",
+      "example": { "text": "La nuova azienda offre cento posti di lavoro.", "de": "Die neue Firma bietet hundert Arbeitsplätze.", "focus": "posti di lavoro" },
+      "note": "Oft nur il posto: Cerco un posto come cuoco."
+    },
+    {
+      "id": "contratto",
+      "word": "contratto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i contratti",
+      "de": "der Vertrag",
+      "pos": "noun",
+      "example": { "text": "Lunedì firmo il contratto!", "de": "Am Montag unterschreibe ich den Vertrag!" },
+      "note": "Ein unbefristeter Vertrag = un contratto a tempo indeterminato."
+    },
+    {
+      "id": "firmare",
+      "word": "firmare",
+      "de": "unterschreiben",
+      "pos": "verb",
+      "forms": "firmo, firmi, firma, firmiamo, firmate, firmano",
+      "example": { "text": "Può firmare qui, per favore?", "de": "Können Sie bitte hier unterschreiben?" },
+      "note": "La firma = die Unterschrift."
+    },
+    {
+      "id": "stage",
+      "word": "stage",
+      "article": "lo",
+      "gender": "m",
+      "plural": "gli stage",
+      "de": "das Praktikum",
+      "pos": "noun",
+      "example": { "text": "Ho fatto uno stage di tre mesi in un albergo.", "de": "Ich habe ein dreimonatiges Praktikum in einem Hotel gemacht." },
+      "note": "Aus dem Französischen, gesprochen wie „staasch“. Offiziell sagt man auch il tirocinio."
+    },
+    {
+      "id": "datore-di-lavoro",
+      "word": "datore di lavoro",
+      "article": "il",
+      "gender": "m",
+      "plural": "i datori di lavoro",
+      "de": "der Arbeitgeber",
+      "pos": "noun",
+      "example": { "text": "Il mio datore di lavoro è molto gentile.", "de": "Mein Arbeitgeber ist sehr nett." }
+    },
+    {
+      "id": "dipendente",
+      "word": "dipendente",
+      "article": "il",
+      "gender": "m",
+      "plural": "i dipendenti",
+      "de": "der/die Angestellte; der Mitarbeiter",
+      "pos": "noun",
+      "example": { "text": "L'agenzia ha dodici dipendenti.", "de": "Das Reisebüro hat zwölf Angestellte.", "focus": "dipendenti" },
+      "note": "Für eine Frau: la dipendente. Als Adjektiv: dipendente = abhängig."
+    },
+    {
+      "id": "responsabile",
+      "word": "responsabile",
+      "article": "il",
+      "gender": "m",
+      "plural": "i responsabili",
+      "de": "der/die Verantwortliche; der Leiter",
+      "pos": "noun",
+      "example": { "text": "Il responsabile dell'ufficio si chiama Ferri.", "de": "Der Leiter des Büros heißt Ferri." },
+      "note": "Für eine Frau: la responsabile. Als Adjektiv: verantwortlich – essere responsabile di …"
+    },
+    {
+      "id": "personale",
+      "word": "personale",
+      "article": "il",
+      "gender": "m",
+      "de": "das Personal; die Belegschaft",
+      "pos": "noun",
+      "example": { "text": "Il personale dell'albergo è molto gentile.", "de": "Das Hotelpersonal ist sehr freundlich." },
+      "note": "L'ufficio del personale = die Personalabteilung. Als Adjektiv: personale = persönlich."
+    },
+    {
+      "id": "settore",
+      "word": "settore",
+      "article": "il",
+      "gender": "m",
+      "plural": "i settori",
+      "de": "die Branche; der Bereich",
+      "pos": "noun",
+      "example": { "text": "Lavoro nel settore del turismo.", "de": "Ich arbeite in der Tourismusbranche." }
+    },
+    {
+      "id": "turno",
+      "word": "turno",
+      "article": "il",
+      "gender": "m",
+      "plural": "i turni",
+      "de": "die Schicht",
+      "pos": "noun",
+      "example": { "text": "Sara lavora a turni: questa settimana ha il turno di notte.", "de": "Sara arbeitet Schicht: Diese Woche hat sie Nachtschicht." },
+      "note": "Lavorare a turni = Schicht arbeiten."
+    },
+    {
+      "id": "sede",
+      "word": "sede",
+      "article": "la",
+      "gender": "f",
+      "plural": "le sedi",
+      "de": "der Sitz; die Niederlassung",
+      "pos": "noun",
+      "example": { "text": "La sede dell'azienda è a Milano.", "de": "Der Firmensitz ist in Mailand." }
+    },
+    {
+      "id": "modulo",
+      "word": "modulo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i moduli",
+      "de": "das Formular",
+      "pos": "noun",
+      "example": { "text": "Per candidarti devi compilare un modulo.", "de": "Um dich zu bewerben, musst du ein Formular ausfüllen." }
+    },
+    {
+      "id": "compilare",
+      "word": "compilare",
+      "de": "ausfüllen",
+      "pos": "verb",
+      "forms": "compilo, compili, compila, compiliamo, compilate, compilano",
+      "example": { "text": "Ho compilato il modulo e l'ho firmato.", "de": "Ich habe das Formular ausgefüllt und unterschrieben.", "focus": "compilato" }
+    },
+    {
+      "id": "scadenza",
+      "word": "scadenza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le scadenze",
+      "de": "die Frist; der Ablauf",
+      "pos": "noun",
+      "example": { "text": "La scadenza per le candidature è il 30 novembre.", "de": "Bewerbungsschluss ist der 30. November." },
+      "note": "Auch bei Lebensmitteln: la data di scadenza = das Haltbarkeitsdatum."
+    },
+    {
+      "id": "entro",
+      "word": "entro",
+      "de": "bis (spätestens); innerhalb",
+      "pos": "prep",
+      "example": { "text": "Devo mandare la candidatura entro venerdì.", "de": "Ich muss die Bewerbung bis Freitag abschicken." },
+      "note": "Entro una settimana = innerhalb einer Woche. Fino a = bis (die ganze Zeit über): Lavoro fino alle sei."
+    },
+    {
+      "id": "assumere",
+      "word": "assumere",
+      "de": "einstellen (Personal)",
+      "pos": "verb",
+      "forms": "assumo, assumi, assume, assumiamo, assumete, assumono",
+      "example": { "text": "L'agenzia assume due nuovi dipendenti.", "de": "Das Reisebüro stellt zwei neue Angestellte ein.", "focus": "assume" },
+      "note": "Partizip: assunto – Sono stata assunta! = Ich bin eingestellt worden!"
+    },
+    {
+      "id": "licenziare",
+      "word": "licenziare",
+      "de": "entlassen; kündigen",
+      "pos": "verb",
+      "forms": "licenzio, licenzi, licenzia, licenziamo, licenziate, licenziano",
+      "example": { "text": "L'azienda ha licenziato venti operai.", "de": "Die Firma hat zwanzig Arbeiter entlassen.", "focus": "licenziato" },
+      "note": "Selbst kündigen: licenziarsi – Mi sono licenziato. = Ich habe gekündigt."
+    },
+    {
+      "id": "inviare",
+      "word": "inviare",
+      "de": "schicken; senden",
+      "pos": "verb",
+      "forms": "invio, invii, invia, inviamo, inviate, inviano",
+      "example": { "text": "Le invio il mio curriculum in allegato.", "de": "Ich sende Ihnen meinen Lebenslauf im Anhang.", "focus": "invio" },
+      "note": "Formeller als mandare – typisch für E-Mails und Briefe. In allegato = im Anhang."
+    },
+    {
+      "id": "allegare",
+      "word": "allegare",
+      "de": "beifügen; anhängen",
+      "pos": "verb",
+      "forms": "allego, alleghi, allega, alleghiamo, allegate, allegano",
+      "example": { "text": "Allego il curriculum e una lettera di presentazione.", "de": "Ich füge den Lebenslauf und ein Anschreiben bei.", "focus": "allego" },
+      "note": "Bei -gare kommt ein h dazu: alleghi, alleghiamo."
+    },
+    {
+      "id": "occuparsi",
+      "word": "occuparsi",
+      "de": "sich kümmern (um); zuständig sein (für)",
+      "pos": "verb",
+      "forms": "mi occupo, ti occupi, si occupa, ci occupiamo, vi occupate, si occupano",
+      "example": { "text": "Nell'agenzia mi occupo dei clienti tedeschi.", "de": "Im Reisebüro kümmere ich mich um die deutschen Kunden.", "focus": "occupo" },
+      "note": "Immer mit di: occuparsi di qualcosa. Betonung: mi òccupo."
+    },
+    {
+      "id": "presentarsi",
+      "word": "presentarsi",
+      "de": "sich vorstellen",
+      "pos": "verb",
+      "forms": "mi presento, ti presenti, si presenta, ci presentiamo, vi presentate, si presentano",
+      "example": {
+        "text": "Buongiorno, mi presento: sono Lena e vengo da Monaco.",
+        "de": "Guten Tag, ich stelle mich kurz vor: Ich bin Lena und komme aus München.",
+        "focus": "presento"
+      },
+      "note": "Ohne si: presentare qualcuno = jemanden vorstellen. Ti presento Marco. = Darf ich dir Marco vorstellen?"
+    },
+    {
+      "id": "contattare",
+      "word": "contattare",
+      "de": "kontaktieren; sich melden bei",
+      "pos": "verb",
+      "forms": "contatto, contatti, contatta, contattiamo, contattate, contattano",
+      "example": { "text": "Se hai domande, puoi contattare Giulia.", "de": "Wenn du Fragen hast, kannst du dich bei Giulia melden." }
+    },
+    {
+      "id": "ringraziare",
+      "word": "ringraziare",
+      "de": "danken; sich bedanken",
+      "pos": "verb",
+      "forms": "ringrazio, ringrazi, ringrazia, ringraziamo, ringraziate, ringraziano",
+      "example": { "text": "La ringrazio per il Suo tempo.", "de": "Ich danke Ihnen für Ihre Zeit.", "focus": "ringrazio" },
+      "note": "Mit direktem Objekt: ringraziare qualcuno per qualcosa – also La ringrazio (nicht: Le)."
+    },
+    {
+      "id": "disponibile",
+      "word": "disponibile",
+      "de": "verfügbar; bereit; hilfsbereit",
+      "pos": "adj",
+      "example": { "text": "Sono disponibile anche il fine settimana.", "de": "Ich stehe auch am Wochenende zur Verfügung." },
+      "note": "Essere disponibile a + Infinitiv = bereit sein zu: Sono disponibile a viaggiare."
+    },
+    {
+      "id": "flessibile",
+      "word": "flessibile",
+      "de": "flexibel",
+      "pos": "adj",
+      "example": { "text": "Cerchiamo una persona flessibile e motivata.", "de": "Wir suchen eine flexible und motivierte Person." }
+    },
+    {
+      "id": "motivato",
+      "word": "motivato",
+      "de": "motiviert",
+      "pos": "adj",
+      "example": {
+        "text": "Sono molto motivata e ho tanta voglia di imparare.",
+        "de": "Ich bin sehr motiviert und habe große Lust zu lernen.",
+        "focus": "motivata"
+      }
+    },
+    {
+      "id": "affidabile",
+      "word": "affidabile",
+      "de": "zuverlässig",
+      "pos": "adj",
+      "example": { "text": "Marco è un collega affidabile: arriva sempre in orario.", "de": "Marco ist ein zuverlässiger Kollege: Er kommt immer pünktlich." }
+    },
+    {
+      "id": "preciso",
+      "word": "preciso",
+      "de": "genau; gewissenhaft",
+      "pos": "adj",
+      "example": { "text": "Nel mio lavoro bisogna essere precisi.", "de": "In meinem Beruf muss man genau sein.", "focus": "precisi" },
+      "note": "Bei Uhrzeiten: alle otto precise = Punkt acht Uhr."
+    },
+    {
+      "id": "straniero",
+      "word": "straniero",
+      "de": "fremd; ausländisch",
+      "pos": "adj",
+      "example": { "text": "Parlo tre lingue straniere.", "de": "Ich spreche drei Fremdsprachen.", "focus": "straniere" },
+      "note": "Als Nomen: lo straniero = der Ausländer."
+    },
+    {
+      "id": "grato",
+      "word": "grato",
+      "de": "dankbar",
+      "pos": "adj",
+      "example": { "text": "Le sarei grata per una risposta.", "de": "Ich wäre Ihnen für eine Antwort dankbar.", "focus": "grata" },
+      "note": "Eine Frau sagt grata, ein Mann grato. Le sarei grato/grata … ist eine typische höfliche Formel in E-Mails."
+    },
+    {
+      "id": "punto-di-forza",
+      "word": "punto di forza",
+      "article": "il",
+      "gender": "m",
+      "plural": "i punti di forza",
+      "de": "die Stärke",
+      "pos": "noun",
+      "example": { "text": "Il mio punto di forza è la pazienza.", "de": "Meine Stärke ist die Geduld." },
+      "note": "Das Gegenteil: il punto debole = die Schwäche."
+    },
+    {
+      "id": "lavoro-di-squadra",
+      "word": "lavoro di squadra",
+      "article": "il",
+      "gender": "m",
+      "de": "die Teamarbeit",
+      "pos": "noun",
+      "example": { "text": "Per noi il lavoro di squadra è molto importante.", "de": "Für uns ist Teamarbeit sehr wichtig." },
+      "note": "La squadra = die Mannschaft, das Team."
+    },
+    {
+      "id": "a-tempo-determinato",
+      "word": "a tempo determinato",
+      "de": "befristet",
+      "pos": "phrase",
+      "example": { "text": "Il contratto è a tempo determinato, per un anno.", "de": "Der Vertrag ist befristet, für ein Jahr." },
+      "note": "Unbefristet: a tempo indeterminato. Teilzeit: part-time oder a tempo parziale."
+    },
+    {
+      "id": "cordiali-saluti",
+      "word": "cordiali saluti",
+      "de": "Mit freundlichen Grüßen",
+      "pos": "phrase",
+      "example": { "text": "In attesa di una Sua risposta, Le invio cordiali saluti.", "de": "In Erwartung Ihrer Antwort sende ich Ihnen freundliche Grüße." },
+      "note": "Am Ende einer formellen E-Mail. Am Anfang: Gentile Signora Conti, / Gentile Signor Ferri,"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "condizionale-presente",
+      "title": "Der condizionale presente: Ich würde …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem condizionale presente sagst du, was du tun würdest. Ein paar Formen kennst du schon: vorrei, potrei, dovresti, mi piacerebbe. Jetzt lernst du alle. Wenn du das futuro kannst, ist es leicht: gleicher Stamm, andere Endungen (-ei, -esti, -ebbe, -emmo, -este, -ebbero)."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "parlare", "prendere", "partire"],
+          "rows": [
+            ["io", "parlerei", "prenderei", "partirei"],
+            ["tu", "parleresti", "prenderesti", "partiresti"],
+            ["lui / lei / Lei", "parlerebbe", "prenderebbe", "partirebbe"],
+            ["noi", "parleremmo", "prenderemmo", "partiremmo"],
+            ["voi", "parlereste", "prendereste", "partireste"],
+            ["loro", "parlerebbero", "prenderebbero", "partirebbero"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Achtung bei noi: parleremmo (wir würden sprechen) hat zwei m, parleremo (wir werden sprechen) nur eins. Wie im futuro: cercare → cercherei, pagare → pagherei, cominciare → comincerei, mangiare → mangerei."
+        },
+        { "type": "p", "text": "Die unregelmäßigen Stämme sind dieselben wie im futuro:" },
+        {
+          "type": "table",
+          "head": ["Infinitiv", "io", "lui / lei", "noi"],
+          "rows": [
+            ["essere", "sarei", "sarebbe", "saremmo"],
+            ["avere", "avrei", "avrebbe", "avremmo"],
+            ["fare", "farei", "farebbe", "faremmo"],
+            ["volere", "vorrei", "vorrebbe", "vorremmo"],
+            ["potere", "potrei", "potrebbe", "potremmo"],
+            ["dovere", "dovrei", "dovrebbe", "dovremmo"],
+            ["andare", "andrei", "andrebbe", "andremmo"],
+            ["venire", "verrei", "verrebbe", "verremmo"]
+          ]
+        },
+        { "type": "p", "text": "Wofür brauchst du den condizionale?" },
+        {
+          "type": "list",
+          "items": [
+            "Wünsche: Vorrei lavorare in un'agenzia di viaggi.",
+            "Höfliche Bitten: Potrebbe ripetere, per favore?",
+            "Ratschläge: Dovresti mandare il curriculum. Al tuo posto, farei lo stage. (= An deiner Stelle …)",
+            "Vorstellungen: Sarebbe bello lavorare insieme!"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Mi piacerebbe lavorare nel settore del turismo.", "de": "Ich würde gern in der Tourismusbranche arbeiten." },
+            { "text": "Al tuo posto, accetterei subito il lavoro.", "de": "An deiner Stelle würde ich die Stelle sofort annehmen." },
+            { "text": "Saresti disponibile anche il sabato?", "de": "Hättest du auch samstags Zeit?" },
+            { "text": "Con questo stipendio non potremmo vivere a Bologna.", "de": "Mit diesem Gehalt könnten wir nicht in Bologna leben." },
+            { "text": "I miei genitori sarebbero molto contenti.", "de": "Meine Eltern würden sich sehr freuen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Io ___ volentieri in un'agenzia di viaggi.",
+          "answers": ["lavorerei"],
+          "de": "Ich würde gern in einem Reisebüro arbeiten.",
+          "hint": "lavorare"
+        },
+        {
+          "type": "cloze",
+          "text": "Al tuo posto ___ il contratto.",
+          "answers": ["firmerei"],
+          "de": "An deiner Stelle würde ich den Vertrag unterschreiben.",
+          "hint": "firmare"
+        },
+        {
+          "type": "cloze",
+          "text": "Noi ___ un appuntamento per giovedì.",
+          "answers": ["vorremmo"],
+          "de": "Wir hätten gern einen Termin für Donnerstag.",
+          "hint": "volere"
+        },
+        {
+          "type": "cloze",
+          "text": "Secondo te, Marco ___ un buon insegnante?",
+          "answers": ["sarebbe"],
+          "de": "Wäre Marco deiner Meinung nach ein guter Lehrer?",
+          "hint": "essere"
+        },
+        {
+          "type": "cloze",
+          "text": "Con un lavoro a tempo pieno non ___ tempo per il corso.",
+          "answers": ["avrei"],
+          "de": "Mit einer Vollzeitstelle hätte ich keine Zeit für den Kurs.",
+          "hint": "avere"
+        },
+        {
+          "type": "cloze",
+          "text": "Ragazzi, ___ con me alla festa di Giulia?",
+          "answers": ["verreste"],
+          "de": "Leute, würdet ihr mit mir zu Giulias Party kommen?",
+          "hint": "venire"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["parlerei", "ich würde sprechen"],
+            ["faremmo", "wir würden machen"],
+            ["andresti", "du würdest gehen"],
+            ["avrebbero", "sie würden haben"],
+            ["dovrebbe", "er / sie sollte"],
+            ["sarei", "ich wäre"]
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Ich würde gern im Ausland arbeiten.",
+          "answers": [
+            "Mi piacerebbe lavorare all'estero.",
+            "A me piacerebbe lavorare all'estero.",
+            "Vorrei lavorare all'estero.",
+            "Io vorrei lavorare all'estero.",
+            "Lavorerei volentieri all'estero."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "An deiner Stelle würde ich das Praktikum machen.",
+          "answers": [
+            "Al tuo posto farei lo stage.",
+            "Al posto tuo farei lo stage.",
+            "Al tuo posto io farei lo stage.",
+            "Al posto tuo io farei lo stage.",
+            "Io al tuo posto farei lo stage.",
+            "Io al posto tuo farei lo stage."
+          ]
+        },
+        { "type": "order", "de": "Wir würden gern ein Hotel am Meer buchen.", "answer": "Vorremmo prenotare un albergo al mare." }
+      ]
+    },
+    {
+      "id": "registro-formale",
+      "title": "Formell und höflich: Lei, La, Le und Suo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Im Vorstellungsgespräch, im Büro oder in einer E-Mail an eine Firma sprichst du formell: mit Lei und dem Verb in der 3. Person Singular – für Frauen und Männer. Die Pronomen sind die von lei: La (Akkusativ: Sie), Le (Dativ: Ihnen), Suo / Sua (Ihr). In Briefen und E-Mails schreibt man sie oft groß."
+        },
+        {
+          "type": "table",
+          "head": ["informell (tu)", "formell (Lei)", "Deutsch"],
+          "rows": [
+            ["Come ti chiami?", "Come si chiama?", "Wie heißt du? / Wie heißen Sie?"],
+            ["Ti chiamo domani.", "La chiamo domani.", "Ich rufe dich / Sie morgen an."],
+            ["Ti mando il curriculum.", "Le mando il curriculum.", "Ich schicke dir / Ihnen den Lebenslauf."],
+            ["il tuo curriculum", "il Suo curriculum", "dein / Ihr Lebenslauf"],
+            ["Puoi ripetere?", "Può ripetere?", "Kannst du / Können Sie das wiederholen?"]
+          ]
+        },
+        { "type": "p", "text": "Noch höflicher wird es mit dem condizionale. Diese Formeln brauchst du immer wieder:" },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Potrebbe ripetere, per favore?", "Könnten Sie das bitte wiederholen?"],
+            ["Mi potrebbe dire …? / Potrebbe dirmi …?", "Könnten Sie mir sagen …?"],
+            ["Sarebbe possibile …?", "Wäre es möglich …?"],
+            ["Avrei una domanda.", "Ich hätte eine Frage."],
+            ["Le andrebbe bene giovedì?", "Würde Ihnen Donnerstag passen?"],
+            ["Le sarei grato / grata per una risposta.", "Ich wäre Ihnen für eine Antwort dankbar."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Eine formelle E-Mail beginnt mit Gentile Signora Conti, / Gentile Signor Ferri, und endet mit Cordiali saluti. Schreibst du an eine Firma oder an mehrere Personen, nimmst du voi: Sarei felice di lavorare con voi. Zum Abschied sagst du formell ArrivederLa!"
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Buongiorno, signor Ferri. La ringrazio per l'invito.", "de": "Guten Tag, Herr Ferri. Vielen Dank für die Einladung." },
+            { "text": "Potrebbe mandarmi il contratto per email?", "de": "Könnten Sie mir den Vertrag per E-Mail schicken?" },
+            { "text": "Le andrebbe bene lunedì alle dieci?", "de": "Würde Ihnen Montag um zehn passen?" },
+            { "text": "Il Suo curriculum è molto interessante.", "de": "Ihr Lebenslauf ist sehr interessant." },
+            { "text": "La contatteremo entro venerdì.", "de": "Wir melden uns bis Freitag bei Ihnen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Signora Conti, ___ ripetere, per favore?",
+          "answers": ["potrebbe", "può"],
+          "de": "Frau Conti, könnten Sie das bitte wiederholen?",
+          "hint": "potere"
+        },
+        {
+          "type": "cloze",
+          "text": "Signor Ferri, ___ mando il curriculum oggi.",
+          "answers": ["Le"],
+          "de": "Herr Ferri, ich schicke Ihnen den Lebenslauf heute."
+        },
+        { "type": "cloze", "text": "Signor Ferri, ___ chiamo domani mattina.", "answers": ["La"], "de": "Herr Ferri, ich rufe Sie morgen früh an." },
+        { "type": "cloze", "text": "Buongiorno, signora. Come ___ chiama?", "answers": ["si"], "de": "Guten Tag. Wie heißen Sie?" },
+        {
+          "type": "cloze",
+          "text": "___ una domanda sul contratto.",
+          "answers": ["avrei"],
+          "de": "Ich hätte eine Frage zum Vertrag.",
+          "hint": "avere"
+        },
+        {
+          "type": "choice",
+          "prompt": "Welche Frage ist formell (Lei)?",
+          "options": ["Puoi aspettare un momento?", "Può aspettare un momento?", "Potete aspettare un momento?"],
+          "answer": 1,
+          "explain": "Lei nimmt die 3. Person Singular: può. Puoi ist tu, potete ist voi."
+        },
+        {
+          "type": "translate",
+          "de": "Könnten Sie mir sagen, wo das Büro ist?",
+          "answers": [
+            "Mi potrebbe dire dov'è l'ufficio?",
+            "Potrebbe dirmi dov'è l'ufficio?",
+            "Mi potrebbe dire dove è l'ufficio?",
+            "Potrebbe dirmi dove è l'ufficio?",
+            "Mi potrebbe dire dove si trova l'ufficio?",
+            "Potrebbe dirmi dove si trova l'ufficio?"
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Würde Ihnen Donnerstag passen?",
+          "answers": ["Le andrebbe bene giovedì?", "Giovedì Le andrebbe bene?", "Per Lei andrebbe bene giovedì?"]
+        },
+        {
+          "type": "translate",
+          "de": "Ich schicke Ihnen meinen Lebenslauf im Anhang.",
+          "answers": [
+            "Le invio il mio curriculum in allegato.",
+            "Le mando il mio curriculum in allegato.",
+            "In allegato Le invio il mio curriculum.",
+            "In allegato Le mando il mio curriculum.",
+            "Le invio in allegato il mio curriculum.",
+            "Le mando in allegato il mio curriculum."
+          ]
+        },
+        { "type": "order", "de": "Ich wäre Ihnen für eine Antwort dankbar.", "answer": "Le sarei grata per una risposta." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Il colloquio",
+    "title_de": "Das Vorstellungsgespräch",
+    "lines": [
+      {
+        "speaker": "Signor Ferri",
+        "text": "Buongiorno! Lei è Lena, vero? Si accomodi, prego.",
+        "de": "Guten Tag! Sie sind Lena, nicht wahr? Bitte, nehmen Sie Platz."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Buongiorno, signor Ferri. La ringrazio per l'invito.",
+        "de": "Guten Tag, Herr Ferri. Vielen Dank für die Einladung."
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "Ho letto il Suo curriculum. Mi potrebbe parlare un po' delle Sue esperienze?",
+        "de": "Ich habe Ihren Lebenslauf gelesen. Könnten Sie mir ein bisschen von Ihren Erfahrungen erzählen?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Certo. In Germania ho lavorato due anni come commessa e ho fatto uno stage in un albergo a Monaco.",
+        "de": "Natürlich. In Deutschland habe ich zwei Jahre als Verkäuferin gearbeitet und ein Praktikum in einem Hotel in München gemacht."
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "E perché vorrebbe lavorare in un'agenzia di viaggi?",
+        "de": "Und warum würden Sie gern in einem Reisebüro arbeiten?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Mi piace molto stare con le persone e conosco bene la Germania. Potrei occuparmi dei clienti tedeschi e austriaci.",
+        "de": "Ich bin sehr gern unter Menschen, und ich kenne Deutschland gut. Ich könnte mich um die deutschen und österreichischen Kunden kümmern."
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "Questo per noi è un requisito importante. Che lingue parla?",
+        "de": "Das ist für uns eine wichtige Voraussetzung. Welche Sprachen sprechen Sie?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Il tedesco è la mia lingua madre, poi parlo inglese e italiano.",
+        "de": "Deutsch ist meine Muttersprache, außerdem spreche ich Englisch und Italienisch."
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "Molto bene. E secondo Lei, quali sono i Suoi punti di forza?",
+        "de": "Sehr gut. Und was sind Ihrer Meinung nach Ihre Stärken?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sono precisa e affidabile, e il lavoro di squadra mi piace molto.",
+        "de": "Ich bin gewissenhaft und zuverlässig, und Teamarbeit macht mir viel Spaß."
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "Benissimo. Il posto è a tempo pieno e si lavora anche il sabato mattina. Sarebbe disponibile?",
+        "de": "Sehr schön. Die Stelle ist Vollzeit, und man arbeitet auch samstagvormittags. Wären Sie dazu bereit?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Sì, certo. Avrei una domanda: il contratto sarebbe a tempo determinato?",
+        "de": "Ja, natürlich. Ich hätte eine Frage: Wäre der Vertrag befristet?"
+      },
+      {
+        "speaker": "Signor Ferri",
+        "text": "Sì, per i primi sei mesi. Poi, se tutto va bene, a tempo indeterminato.",
+        "de": "Ja, für die ersten sechs Monate. Danach, wenn alles gut läuft, unbefristet."
+      },
+      { "speaker": "Lena", "text": "Perfetto. E quando potrei sapere qualcosa?", "de": "Perfekt. Und wann könnte ich etwas erfahren?" },
+      {
+        "speaker": "Signor Ferri",
+        "text": "La contatteremo entro venerdì. Grazie per essere venuta!",
+        "de": "Wir melden uns bis Freitag bei Ihnen. Danke, dass Sie gekommen sind!"
+      },
+      { "speaker": "Lena", "text": "Grazie a Lei! ArrivederLa.", "de": "Ich danke Ihnen! Auf Wiedersehen." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il colloquio", "das Vorstellungsgespräch"],
+        ["il curriculum", "der Lebenslauf"],
+        ["la candidatura", "die Bewerbung"],
+        ["il contratto", "der Vertrag"],
+        ["lo stage", "das Praktikum"],
+        ["il turno", "die Schicht"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [["affidabile", "zuverlässig"], ["disponibile", "verfügbar"], ["preciso", "genau"], ["flessibile", "flexibel"], ["motivato", "motiviert"]]
+    },
+    {
+      "type": "cloze",
+      "text": "Ho letto un ___ di lavoro sul giornale.",
+      "answers": ["annuncio"],
+      "de": "Ich habe in der Zeitung eine Stellenanzeige gelesen."
+    },
+    { "type": "cloze", "text": "La ___ per le candidature è il 15 marzo.", "answers": ["scadenza"], "de": "Bewerbungsschluss ist der 15. März." },
+    {
+      "type": "cloze",
+      "text": "Nel nuovo lavoro mi ___ dei clienti stranieri.",
+      "answers": ["occupo"],
+      "de": "In der neuen Stelle kümmere ich mich um die ausländischen Kunden.",
+      "hint": "occuparsi"
+    },
+    {
+      "type": "cloze",
+      "text": "L'azienda ha ___ tre nuovi dipendenti.",
+      "answers": ["assunto"],
+      "de": "Die Firma hat drei neue Angestellte eingestellt.",
+      "hint": "assumere"
+    },
+    {
+      "type": "cloze",
+      "text": "In attesa di una Sua risposta, Le invio ___ saluti.",
+      "answers": ["cordiali"],
+      "de": "In Erwartung Ihrer Antwort sende ich Ihnen freundliche Grüße."
+    },
+    {
+      "type": "translate",
+      "de": "Ich bewerbe mich um die Stelle im Reisebüro.",
+      "answers": [
+        "Mi candido per il posto nell'agenzia di viaggi.",
+        "Mi candido per il posto all'agenzia di viaggi.",
+        "Io mi candido per il posto nell'agenzia di viaggi.",
+        "Mi candido per il posto di lavoro nell'agenzia di viaggi.",
+        "Faccio domanda per il posto nell'agenzia di viaggi."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Könnten Sie mir den Vertrag schicken?",
+      "answers": ["Potrebbe mandarmi il contratto?", "Mi potrebbe mandare il contratto?", "Potrebbe inviarmi il contratto?", "Mi potrebbe inviare il contratto?"]
+    },
+    {
+      "type": "translate",
+      "de": "Ich habe zwei Jahre Erfahrung als Verkäuferin.",
+      "answers": ["Ho due anni di esperienza come commessa.", "Io ho due anni di esperienza come commessa."]
+    },
+    { "type": "order", "de": "Meine Stärke ist die Teamarbeit.", "answer": "Il mio punto di forza è il lavoro di squadra." },
+    { "type": "order", "de": "Wir würden uns freuen, mit Ihnen zu arbeiten.", "answer": "Saremmo felici di lavorare con Lei." },
+    {
+      "type": "listen",
+      "text": "Le invio il mio curriculum e una lettera di presentazione.",
+      "de": "Ich sende Ihnen meinen Lebenslauf und ein Anschreiben."
+    },
+    { "type": "listen", "text": "Sarebbe disponibile a lavorare anche il sabato?", "de": "Wären Sie bereit, auch samstags zu arbeiten?" }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-03",
+  "lang": "en",
+  "level": "B1",
+  "number": 3,
+  "title": "The Environment",
+  "title_de": "Umwelt",
+  "topic": "Natur, Klima und Umweltschutz",
+  "goals": [
+    "Du kannst mit dem Passiv beschreiben, was mit Dingen passiert: Paper is recycled. The park was built in 1870.",
+    "Du kannst sagen, was gerade gemacht wird: A new bike lane is being built.",
+    "Du kennst den Unterschied zwischen must, have to, don't have to und mustn't – und tappst nicht in die „muss nicht“-Falle.",
+    "Du kannst über Umweltprobleme und Lösungen sprechen und deine Meinung dazu sagen."
+  ],
+  "vocab": [
+    { "id": "environment", "word": "environment", "de": "die Umwelt", "pos": "noun", "example": { "text": "We all need to protect the environment.", "de": "Wir alle müssen die Umwelt schützen." }, "note": "Meist mit the: the environment." },
+    { "id": "nature", "word": "nature", "de": "die Natur", "pos": "noun", "example": { "text": "I love being out in nature.", "de": "Ich bin total gern draußen in der Natur." }, "note": "Ohne the: in nature." },
+    { "id": "climate", "word": "climate", "de": "das Klima", "pos": "noun", "example": { "text": "The climate in California is warm and dry.", "de": "Das Klima in Kalifornien ist warm und trocken." } },
+    { "id": "climate-change", "word": "climate change", "de": "der Klimawandel", "pos": "noun", "example": { "text": "Climate change is a big problem for farmers.", "de": "Der Klimawandel ist ein großes Problem für Landwirte." } },
+    { "id": "pollution", "word": "pollution", "de": "die Verschmutzung", "pos": "noun", "example": { "text": "Air pollution is a problem in many big cities.", "de": "Luftverschmutzung ist in vielen Großstädten ein Problem." } },
+    { "id": "air", "word": "air", "de": "die Luft", "pos": "noun", "example": { "text": "The air in the mountains is so clean.", "de": "Die Luft in den Bergen ist so sauber." } },
+    { "id": "forest", "word": "forest", "de": "der Wald", "pos": "noun", "example": { "text": "We went for a walk in the forest.", "de": "Wir sind im Wald spazieren gegangen." }, "note": "Auch: the woods." },
+    { "id": "river", "word": "river", "de": "der Fluss", "pos": "noun", "example": { "text": "You can swim in the river in summer.", "de": "Im Sommer kann man im Fluss schwimmen." } },
+    { "id": "animal", "word": "animal", "de": "das Tier", "pos": "noun", "example": { "text": "What animals live in this forest?", "de": "Welche Tiere leben in diesem Wald?", "focus": "animals" } },
+    { "id": "planet", "word": "planet", "de": "der Planet", "pos": "noun", "example": { "text": "We only have one planet.", "de": "Wir haben nur einen Planeten." } },
+    { "id": "heat-wave", "word": "heat wave", "de": "die Hitzewelle", "pos": "noun", "example": { "text": "There was a terrible heat wave last summer.", "de": "Letzten Sommer gab es eine schreckliche Hitzewelle." } },
+    { "id": "flood", "word": "flood", "de": "die Überschwemmung; das Hochwasser", "pos": "noun", "example": { "text": "The flood destroyed many houses near the river.", "de": "Das Hochwasser hat viele Häuser am Fluss zerstört." } },
+    { "id": "dirty", "word": "dirty", "de": "schmutzig; dreckig", "pos": "adj", "example": { "text": "The beach was really dirty after the weekend.", "de": "Nach dem Wochenende war der Strand richtig dreckig." } },
+    { "id": "recycle", "word": "recycle", "de": "recyceln; wiederverwerten", "pos": "verb", "example": { "text": "Plastic bottles are recycled here.", "de": "Plastikflaschen werden hier recycelt.", "focus": "recycled" }, "note": "Nomen: recycling." },
+    { "id": "separate", "word": "separate", "de": "trennen", "pos": "verb", "example": { "text": "In Austria, people separate their trash.", "de": "In Österreich trennen die Leute ihren Müll." } },
+    { "id": "trash", "word": "trash", "alt": ["garbage"], "de": "der Müll", "pos": "noun", "example": { "text": "Please don't leave your trash on the beach.", "de": "Bitte lass deinen Müll nicht am Strand liegen." }, "note": "Amerikanisch: trash oder garbage. Unzählbar: a lot of trash." },
+    { "id": "throw-away", "word": "throw away", "de": "wegwerfen", "pos": "verb", "forms": "threw, thrown", "example": { "text": "Don't throw away that bottle – it can be recycled!", "de": "Wirf die Flasche nicht weg – die kann man recyceln!" }, "note": "Mit Pronomen: throw it away." },
+    { "id": "plastic", "word": "plastic", "de": "das Plastik", "pos": "noun", "example": { "text": "This bag is made of plastic.", "de": "Diese Tüte ist aus Plastik." }, "note": "be made of … = aus … sein (Material)." },
+    { "id": "paper", "word": "paper", "de": "das Papier", "pos": "noun", "example": { "text": "Old paper is collected every Tuesday.", "de": "Altpapier wird jeden Dienstag abgeholt." } },
+    { "id": "recycling-bin", "word": "recycling bin", "de": "die Recyclingtonne", "pos": "noun", "example": { "text": "Put the bottles in the recycling bin, please.", "de": "Wirf die Flaschen bitte in die Recyclingtonne." } },
+    { "id": "reusable", "word": "reusable", "de": "wiederverwendbar; Mehrweg-", "pos": "adj", "example": { "text": "I always bring a reusable bag when I go shopping.", "de": "Ich nehme immer eine Mehrwegtasche mit, wenn ich einkaufen gehe." } },
+    { "id": "waste", "word": "waste", "de": "verschwenden", "pos": "verb", "example": { "text": "Don't waste water!", "de": "Verschwende kein Wasser!" }, "note": "Auch Nomen: food waste = Lebensmittelabfälle; It's a waste of time. = Das ist Zeitverschwendung." },
+    { "id": "energy", "word": "energy", "de": "die Energie", "pos": "noun", "example": { "text": "Solar energy is clean and cheap.", "de": "Solarenergie ist sauber und günstig." } },
+    { "id": "electricity", "word": "electricity", "de": "der Strom", "pos": "noun", "example": { "text": "Turn off the lights – electricity is expensive!", "de": "Mach das Licht aus – Strom ist teuer!" } },
+    { "id": "solar-panel", "word": "solar panel", "plural": "solar panels", "de": "das Solarmodul; die Solaranlage", "pos": "noun", "example": { "text": "We have solar panels on our house.", "de": "Wir haben eine Solaranlage auf unserem Haus.", "focus": "solar panels" } },
+    { "id": "protect", "word": "protect", "de": "schützen", "pos": "verb", "example": { "text": "This forest is protected.", "de": "Dieser Wald steht unter Naturschutz.", "focus": "protected" } },
+    { "id": "destroy", "word": "destroy", "de": "zerstören", "pos": "verb", "example": { "text": "Too many tourists can destroy a beautiful place.", "de": "Zu viele Touristen können einen schönen Ort zerstören." } },
+    { "id": "cut-down", "word": "cut down", "de": "fällen; abholzen", "pos": "verb", "forms": "cut, cut", "example": { "text": "Thousands of trees are cut down every day.", "de": "Jeden Tag werden Tausende Bäume gefällt." } },
+    { "id": "grow", "word": "grow", "de": "wachsen; anbauen", "pos": "verb", "forms": "grew, grown", "example": { "text": "These tomatoes were grown in our yard.", "de": "Diese Tomaten wurden in unserem Garten angebaut.", "focus": "grown" } },
+    { "id": "produce", "word": "produce", "de": "produzieren; herstellen", "pos": "verb", "example": { "text": "This factory produces solar panels.", "de": "Diese Fabrik stellt Solarmodule her.", "focus": "produces" } },
+    { "id": "cause", "word": "cause", "de": "verursachen", "pos": "verb", "example": { "text": "Cars cause a lot of air pollution.", "de": "Autos verursachen viel Luftverschmutzung." } },
+    { "id": "reduce", "word": "reduce", "de": "reduzieren; verringern", "pos": "verb", "example": { "text": "We want to reduce our plastic trash.", "de": "Wir wollen unseren Plastikmüll reduzieren." } },
+    { "id": "organic", "word": "organic", "de": "bio; Bio-", "pos": "adj", "example": { "text": "I only buy organic vegetables at the farmers market.", "de": "Auf dem Bauernmarkt kaufe ich nur Biogemüse." } },
+    { "id": "local", "word": "local", "de": "aus der Region; örtlich", "pos": "adj", "example": { "text": "Local food is better for the environment.", "de": "Lebensmittel aus der Region sind besser für die Umwelt." } },
+    { "id": "environmentally-friendly", "word": "environmentally friendly", "alt": ["eco-friendly"], "de": "umweltfreundlich", "pos": "adj", "example": { "text": "Trains are more environmentally friendly than planes.", "de": "Züge sind umweltfreundlicher als Flugzeuge." } },
+    { "id": "bike-lane", "word": "bike lane", "de": "der Radweg; die Fahrradspur", "pos": "noun", "example": { "text": "A new bike lane is being built downtown.", "de": "In der Innenstadt wird gerade ein neuer Radweg gebaut." } },
+    { "id": "must", "word": "must", "de": "müssen", "pos": "verb", "example": { "text": "We must do something about climate change.", "de": "Wir müssen etwas gegen den Klimawandel tun." }, "note": "must + Grundform, ohne to. Klingt stark und eher formell; im Alltag oft have to." },
+    { "id": "mustnt", "word": "mustn't", "alt": ["must not"], "de": "nicht dürfen", "pos": "verb", "example": { "text": "You mustn't swim in this river – it's dangerous.", "de": "In diesem Fluss darfst du nicht schwimmen – das ist gefährlich." }, "note": "Achtung: mustn't = darf nicht (Verbot) – nicht „muss nicht“! „muss nicht“ = don't have to." },
+    { "id": "be-allowed-to", "word": "be allowed to", "de": "dürfen", "pos": "phrase", "example": { "text": "You're not allowed to have a barbecue here.", "de": "Hier darf man nicht grillen.", "focus": "allowed to" }, "note": "Frage: Are we allowed to …? (Dürfen wir …?)" }
+  ],
+  "grammar": [
+    {
+      "id": "passive-present",
+      "title": "Das Passiv in der Gegenwart: is recycled, is being built",
+      "blocks": [
+        { "type": "p", "text": "Im Passiv ist wichtig, was mit etwas passiert – nicht, wer es tut. Das ist typisch, wenn man über Umwelt, Regeln und Abläufe spricht: Paper is recycled. (Papier wird recycelt.)" },
+        { "type": "table", "head": ["Bildung", "Beispiel", "Deutsch"], "rows": [["am/is/are + 3. Form", "Paper is recycled.", "Papier wird recycelt."], ["am/is/are + 3. Form", "The bottles are collected on Mondays.", "Die Flaschen werden montags abgeholt."], ["isn't/aren't + 3. Form", "Glass isn't collected here.", "Glas wird hier nicht gesammelt."], ["Is/Are … + 3. Form?", "Is this bag made of plastic?", "Ist diese Tüte aus Plastik?"]] },
+        { "type": "p", "text": "Die 3. Form (past participle) kennst du schon vom present perfect: regelmäßig mit -ed (recycled, collected, protected), unregelmäßig zum Beispiel made, built, grown, thrown, cut, sold, eaten." },
+        { "type": "p", "text": "Passiert etwas genau jetzt oder in diesen Tagen? Dann nimmst du das Passiv im present continuous: am/is/are + being + 3. Form." },
+        { "type": "examples", "items": [{ "text": "A new bike lane is being built downtown.", "de": "In der Innenstadt wird gerade ein neuer Radweg gebaut." }, { "text": "The old trees are being cut down.", "de": "Die alten Bäume werden gerade gefällt." }, { "text": "My bike is being fixed this week.", "de": "Mein Fahrrad wird diese Woche repariert." }] },
+        { "type": "tip", "text": "Das deutsche „werden“ im Passiv ist im Englischen be. Nicht verwechseln mit will (Zukunft): Paper is recycled. (Papier wird recycelt.)" },
+        { "type": "tip", "text": "Wer etwas tut, sagst du mit by: The solar panels are produced by a local company. Oft lässt man by aber weg, weil es egal oder klar ist." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Plastic bottles ___ recycled in this city.", "answers": ["are"], "de": "In dieser Stadt werden Plastikflaschen recycelt." },
+        { "type": "cloze", "text": "Old paper is ___ every Tuesday.", "answers": ["collected", "picked up"], "de": "Altpapier wird jeden Dienstag abgeholt.", "hint": "collect" },
+        { "type": "cloze", "text": "This bag is made ___ paper.", "answers": ["of", "from"], "de": "Diese Tüte ist aus Papier." },
+        { "type": "cloze", "text": "A new bike lane is ___ built on our street.", "answers": ["being"], "de": "In unserer Straße wird gerade ein neuer Radweg gebaut." },
+        { "type": "translate", "de": "Glas wird hier nicht recycelt.", "answers": ["Glass isn't recycled here.", "Glass is not recycled here.", "Here glass isn't recycled.", "Here glass is not recycled.", "Glass doesn't get recycled here.", "Glass does not get recycled here."] },
+        { "type": "translate", "de": "Diese Tomaten werden in Kalifornien angebaut.", "answers": ["These tomatoes are grown in California."] },
+        { "type": "order", "de": "Die Flaschen werden montags abgeholt.", "answer": "The bottles are collected on Mondays.", "distractors": ["were"] }
+      ]
+    },
+    {
+      "id": "passive-past",
+      "title": "Das Passiv in der Vergangenheit: was built, were destroyed",
+      "blocks": [
+        { "type": "p", "text": "Im simple past bildest du das Passiv mit was/were + 3. Form. So erzählst du, was mit Dingen passiert ist – zum Beispiel in den Nachrichten oder bei Sehenswürdigkeiten." },
+        { "type": "table", "head": ["Bildung", "Beispiel", "Deutsch"], "rows": [["was + 3. Form", "The park was built in 1870.", "Der Park wurde 1870 angelegt."], ["were + 3. Form", "Many houses were destroyed by the flood.", "Viele Häuser wurden durch das Hochwasser zerstört."], ["wasn't/weren't + 3. Form", "The trees weren't cut down.", "Die Bäume wurden nicht gefällt."], ["Was/Were … + 3. Form?", "When was this bridge built?", "Wann wurde diese Brücke gebaut?"]] },
+        { "type": "tip", "text": "Bei Bauwerken fragst du so: When was it built? – It was built in 1931. Genauso: Where was it made? (Wo wurde es hergestellt?)" },
+        { "type": "tip", "text": "Aktiv oder Passiv? Aktiv, wenn die handelnde Person wichtig ist: Students planted these trees. Passiv, wenn das Ding im Mittelpunkt steht: These trees were planted last year." },
+        { "type": "examples", "items": [{ "text": "The Empire State Building was built in 1931.", "de": "Das Empire State Building wurde 1931 gebaut." }, { "text": "These trees were planted by students.", "de": "Diese Bäume wurden von Schülern gepflanzt." }, { "text": "The beach was cleaned after the storm.", "de": "Der Strand wurde nach dem Sturm sauber gemacht." }, { "text": "Was anyone hurt in the storm? – No, nobody was hurt.", "de": "Wurde bei dem Sturm jemand verletzt? – Nein, niemand wurde verletzt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "This bridge ___ built more than a hundred years ago.", "answers": ["was"], "de": "Diese Brücke wurde vor mehr als hundert Jahren gebaut." },
+        { "type": "cloze", "text": "Many trees ___ destroyed in the storm.", "answers": ["were"], "de": "Viele Bäume wurden im Sturm zerstört." },
+        { "type": "cloze", "text": "The beach was ___ by a group of students.", "answers": ["cleaned"], "de": "Der Strand wurde von einer Gruppe Schüler sauber gemacht.", "hint": "clean" },
+        { "type": "cloze", "text": "When ___ the park opened?", "answers": ["was"], "de": "Wann wurde der Park eröffnet?" },
+        { "type": "translate", "de": "Viele Häuser wurden durch das Hochwasser zerstört.", "answers": ["Many houses were destroyed by the flood.", "Many houses were destroyed in the flood.", "Many homes were destroyed by the flood.", "Many homes were destroyed in the flood.", "A lot of houses were destroyed by the flood.", "A lot of houses were destroyed in the flood.", "A lot of homes were destroyed by the flood.", "A lot of homes were destroyed in the flood.", "Lots of houses were destroyed by the flood.", "Lots of houses were destroyed in the flood.", "Lots of homes were destroyed by the flood.", "Lots of homes were destroyed in the flood."] },
+        { "type": "order", "de": "Diese Bäume wurden letztes Jahr gepflanzt.", "answer": "These trees were planted last year.", "distractors": ["are"] },
+        { "type": "translate", "de": "Wann wurde das Museum gebaut?", "answers": ["When was the museum built?"] }
+      ]
+    },
+    {
+      "id": "must-have-to",
+      "title": "must, have to, don't have to und mustn't",
+      "blocks": [
+        { "type": "p", "text": "must und have to heißen beide „müssen“. In der Verneinung bedeuten sie aber etwas völlig anderes – und genau da passieren die meisten Fehler." },
+        { "type": "table", "head": ["Form", "Bedeutung", "Beispiel", "Deutsch"], "rows": [["must", "müssen (starke Pflicht, Regel, eigene Überzeugung)", "We must protect the forests.", "Wir müssen die Wälder schützen."], ["have to", "müssen (Pflicht von außen, Alltag)", "I have to separate my trash.", "Ich muss meinen Müll trennen."], ["don't have to", "nicht müssen (nicht nötig)", "You don't have to bring a bag.", "Du musst keine Tüte mitbringen."], ["mustn't", "nicht dürfen (verboten!)", "You mustn't throw trash in the river.", "Du darfst keinen Müll in den Fluss werfen."]] },
+        { "type": "tip", "text": "Die große Falle: „Du musst nicht“ heißt You don't have to. You mustn't heißt „Du darfst nicht“! Merke: mustn't = verboten, don't have to = freiwillig." },
+        { "type": "p", "text": "must gibt es nur in der Gegenwart. Für Vergangenheit und Zukunft nimmst du have to: I had to walk, because there was no bus. – You'll have to wait." },
+        { "type": "tip", "text": "Im amerikanischen Alltag hört man must eher selten. Man sagt meist have to; must steht oft auf Schildern und in Regeln. Für Verbote sagen viele auch: You can't … oder You're not allowed to …" },
+        { "type": "examples", "items": [{ "text": "I had to take the bus because my bike was broken.", "de": "Ich musste den Bus nehmen, weil mein Fahrrad kaputt war." }, { "text": "You don't have to buy a new phone. You can fix the old one.", "de": "Du musst kein neues Handy kaufen. Du kannst das alte reparieren." }, { "text": "You mustn't swim here. It's too dangerous.", "de": "Hier darfst du nicht schwimmen. Es ist zu gefährlich." }, { "text": "Are we allowed to have a barbecue in the park?", "de": "Dürfen wir im Park grillen?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "You ___ smoke here. It's not allowed.", "answers": ["mustn't", "must not", "can't", "cannot"], "de": "Hier darfst du nicht rauchen. Das ist verboten.", "hint": "nicht dürfen" },
+        { "type": "cloze", "text": "It's Saturday, so I don't ___ to get up early.", "answers": ["have"], "de": "Es ist Samstag, also muss ich nicht früh aufstehen." },
+        { "type": "cloze", "text": "Yesterday I ___ to walk home because there was no bus.", "answers": ["had"], "de": "Gestern musste ich nach Hause laufen, weil kein Bus kam." },
+        { "type": "choice", "prompt": "„Du musst nicht mitkommen.“ – Welcher Satz passt?", "options": ["You don't have to come.", "You mustn't come.", "You haven't to come."], "answer": 0, "explain": "„nicht müssen“ = don't have to. You mustn't come hieße „Du darfst nicht mitkommen“." },
+        { "type": "translate", "de": "Hier darf man nicht grillen.", "answers": ["You're not allowed to have a barbecue here.", "You are not allowed to have a barbecue here.", "You're not allowed to barbecue here.", "You are not allowed to barbecue here.", "You're not allowed to grill here.", "You are not allowed to grill here.", "You aren't allowed to have a barbecue here.", "You aren't allowed to barbecue here.", "You aren't allowed to grill here.", "You can't have a barbecue here.", "You cannot have a barbecue here.", "You can't barbecue here.", "You cannot barbecue here.", "You can't grill here.", "You cannot grill here.", "You mustn't have a barbecue here.", "You must not have a barbecue here.", "You mustn't barbecue here.", "You must not barbecue here.", "You mustn't grill here.", "You must not grill here.", "Barbecues aren't allowed here.", "Barbecues are not allowed here.", "Grilling isn't allowed here.", "Grilling is not allowed here."] },
+        { "type": "translate", "de": "Wir müssen etwas gegen den Klimawandel tun.", "answers": ["We must do something about climate change.", "We must do something against climate change.", "We have to do something about climate change.", "We have to do something against climate change.", "We need to do something about climate change.", "We need to do something against climate change."] },
+        { "type": "order", "de": "Du musst keine Tüte mitbringen.", "answer": "You don't have to bring a bag.", "distractors": ["mustn't"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Cleanup Day",
+    "title_de": "Aufräumtag im Park",
+    "lines": [
+      { "speaker": "Yuki", "text": "Thanks for coming, Lena! Today we're picking up trash in the park.", "de": "Danke, dass du gekommen bist, Lena! Heute sammeln wir im Park Müll." },
+      { "speaker": "Lena", "text": "No problem! Wow, there's so much plastic here. Where does it all come from?", "de": "Kein Problem! Wow, hier liegt so viel Plastik. Wo kommt das alles her?" },
+      { "speaker": "Yuki", "text": "Most of it is left here after picnics on the weekend. It's terrible.", "de": "Das meiste wird nach Picknicks am Wochenende hier liegen gelassen. Schrecklich." },
+      { "speaker": "Lena", "text": "And what happens to it after today?", "de": "Und was passiert damit nach heute?" },
+      { "speaker": "Yuki", "text": "The bottles are collected and recycled. The rest goes in the trash.", "de": "Die Flaschen werden gesammelt und recycelt. Der Rest kommt in den Müll." },
+      { "speaker": "Lena", "text": "In Austria, we have to separate everything: paper, plastic, glass … I was so surprised when I moved here.", "de": "In Österreich müssen wir alles trennen: Papier, Plastik, Glas … Ich war so überrascht, als ich hierhergezogen bin." },
+      { "speaker": "Yuki", "text": "Here you don't have to separate as much, but paper and plastic are picked up on different days.", "de": "Hier muss man nicht so viel trennen, aber Papier und Plastik werden an verschiedenen Tagen abgeholt." },
+      { "speaker": "Lena", "text": "Look over there! Are they cutting down those trees?", "de": "Schau mal da drüben! Fällen die etwa die Bäume?" },
+      { "speaker": "Yuki", "text": "No, don't worry. A new bike lane is being built, but the trees are protected. They were planted more than a hundred years ago.", "de": "Nein, keine Sorge. Da wird ein neuer Radweg gebaut, aber die Bäume stehen unter Schutz. Sie wurden vor über hundert Jahren gepflanzt." },
+      { "speaker": "Lena", "text": "Good! You know, I've been thinking about climate change a lot lately. Last summer there was a terrible heat wave in Austria.", "de": "Gut! Weißt du, ich denke in letzter Zeit viel über den Klimawandel nach. Letzten Sommer gab es in Österreich eine schreckliche Hitzewelle." },
+      { "speaker": "Yuki", "text": "Here, too. In my opinion, we must all do something. Small things help, too.", "de": "Hier auch. Meiner Meinung nach müssen wir alle etwas tun. Auch kleine Dinge helfen." },
+      { "speaker": "Lena", "text": "That's true. At the café, we don't use plastic cups anymore. Coffee to go is sold in paper cups now.", "de": "Das stimmt. Im Café benutzen wir keine Plastikbecher mehr. Kaffee zum Mitnehmen wird jetzt in Pappbechern verkauft." },
+      { "speaker": "Yuki", "text": "Great! Oh, wait – you mustn't put glass in that bag. It's only for plastic.", "de": "Super! Oh, warte – du darfst kein Glas in diese Tüte tun. Die ist nur für Plastik." },
+      { "speaker": "Lena", "text": "Oops, sorry! You see? I still have a lot to learn here.", "de": "Ups, sorry! Siehst du? Ich muss hier noch viel lernen." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["environment", "die Umwelt"], ["pollution", "die Verschmutzung"], ["climate change", "der Klimawandel"], ["heat wave", "die Hitzewelle"], ["flood", "das Hochwasser"], ["forest", "der Wald"]] },
+    { "type": "match", "pairs": [["recycle", "recyceln"], ["separate", "trennen"], ["throw away", "wegwerfen"], ["waste", "verschwenden"], ["protect", "schützen"], ["reduce", "reduzieren"]] },
+    { "type": "translate", "de": "Wirf die Flasche nicht weg!", "answers": ["Don't throw away the bottle!", "Do not throw away the bottle!", "Don't throw away that bottle!", "Do not throw away that bottle!", "Don't throw the bottle away!", "Do not throw the bottle away!", "Don't throw that bottle away!", "Do not throw that bottle away!"] },
+    { "type": "translate", "de": "Ich nehme immer eine Mehrwegtasche mit.", "answers": ["I always bring a reusable bag.", "I always take a reusable bag.", "I always bring a reusable bag with me.", "I always take a reusable bag with me."] },
+    { "type": "translate", "de": "Züge sind umweltfreundlicher als Flugzeuge.", "answers": ["Trains are more environmentally friendly than planes.", "Trains are more eco-friendly than planes.", "Trains are better for the environment than planes."] },
+    { "type": "cloze", "text": "Cars ___ a lot of air pollution.", "answers": ["cause", "produce"], "de": "Autos verursachen viel Luftverschmutzung." },
+    { "type": "cloze", "text": "Turn off the lights. Don't waste ___!", "answers": ["electricity", "energy"], "de": "Mach das Licht aus. Verschwende keinen Strom!" },
+    { "type": "cloze", "text": "I only buy ___ vegetables from local farms.", "answers": ["organic"], "de": "Ich kaufe nur Biogemüse von Bauernhöfen aus der Region." },
+    { "type": "order", "de": "In diesem Fluss darfst du nicht schwimmen.", "answer": "You mustn't swim in this river.", "distractors": ["don't", "have"] },
+    { "type": "order", "de": "Diese Solarmodule werden in Ohio hergestellt.", "answer": "These solar panels are produced in Ohio.", "distractors": ["by"] },
+    { "type": "translate", "de": "Dieses Haus wurde 1920 gebaut.", "answers": ["This house was built in 1920."] },
+    { "type": "listen", "text": "Thousands of trees are cut down every day, so we must protect our forests.", "de": "Jeden Tag werden Tausende Bäume gefällt, deshalb müssen wir unsere Wälder schützen." },
+    { "type": "listen", "text": "Last year there was a big flood in our town, and many houses were destroyed.", "de": "Letztes Jahr gab es in unserer Stadt ein großes Hochwasser, und viele Häuser wurden zerstört." }
+  ]
+}

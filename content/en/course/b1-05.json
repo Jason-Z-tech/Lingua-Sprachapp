@@ -1,0 +1,158 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-05",
+  "lang": "en",
+  "level": "B1",
+  "number": 5,
+  "title": "Never Stop Learning",
+  "title_de": "Lernen",
+  "topic": "Schule, Studium und Weiterbildung",
+  "goals": [
+    "Du kannst mit dem past perfect erzählen, was vorher schon passiert war: When I arrived, the class had already started.",
+    "Du weißt, welche Verben -ing und welche to + Grundform brauchen: I enjoy learning. – I decided to study.",
+    "Du kennst den Unterschied zwischen stop doing und stop to do, remember doing und remember to do.",
+    "Du kannst über Schule, Studium, Noten und Weiterbildung sprechen."
+  ],
+  "vocab": [
+    { "id": "subject", "word": "subject", "de": "das Schulfach; das Fach", "pos": "noun", "example": { "text": "What was your favorite subject in school?", "de": "Was war dein Lieblingsfach in der Schule?" } },
+    { "id": "math", "word": "math", "de": "Mathe; die Mathematik", "pos": "noun", "example": { "text": "I was never good at math.", "de": "Ich war nie gut in Mathe." }, "note": "Amerikanisch: math (britisch: maths)." },
+    { "id": "history", "word": "history", "de": "die Geschichte (Fach)", "pos": "noun", "example": { "text": "My brother studies history in Vienna.", "de": "Mein Bruder studiert in Wien Geschichte." } },
+    { "id": "science", "word": "science", "de": "die Naturwissenschaften", "pos": "noun", "example": { "text": "We had science three times a week.", "de": "Wir hatten dreimal pro Woche Naturwissenschaften." } },
+    { "id": "class", "word": "class", "plural": "classes", "de": "der Unterricht; die Unterrichtsstunde; der Kurs", "pos": "noun", "example": { "text": "I have an English class tonight.", "de": "Ich habe heute Abend Englischunterricht." }, "note": "Auch: die Schulklasse. in class = im Unterricht." },
+    { "id": "course", "word": "course", "de": "der Kurs; der Lehrgang", "pos": "noun", "example": { "text": "I'm taking an online course in Spanish.", "de": "Ich mache einen Onlinekurs in Spanisch." }, "note": "take a course = einen Kurs machen." },
+    { "id": "grade", "word": "grade", "de": "die Note; die Klassenstufe", "pos": "noun", "example": { "text": "I got a good grade on my history test.", "de": "Ich habe in meinem Geschichtstest eine gute Note bekommen." }, "note": "In den USA gehen die Noten von A (sehr gut) bis F (ungenügend). Auch: I'm in tenth grade. = Ich bin in der zehnten Klasse." },
+    { "id": "report-card", "word": "report card", "de": "das Zeugnis (Schule)", "pos": "noun", "example": { "text": "My parents were happy with my report card.", "de": "Meine Eltern waren mit meinem Zeugnis zufrieden." } },
+    { "id": "high-school", "word": "high school", "de": "die Highschool; die weiterführende Schule", "pos": "noun", "example": { "text": "I graduated from high school in 2015.", "de": "Ich habe 2015 meinen Highschool-Abschluss gemacht." }, "note": "In den USA besucht man die high school etwa von 14 bis 18 Jahren." },
+    { "id": "university", "word": "university", "de": "die Universität", "pos": "noun", "example": { "text": "She studied at a university in Boston.", "de": "Sie hat an einer Universität in Boston studiert." }, "note": "Im Alltag sagen Amerikaner meist college oder school, auch für Universitäten: Where did you go to school?" },
+    { "id": "professor", "word": "professor", "de": "der Professor / die Professorin; Dozent/in", "pos": "noun", "example": { "text": "My history professor was really funny.", "de": "Mein Geschichtsprofessor war richtig witzig." } },
+    { "id": "lecture", "word": "lecture", "de": "die Vorlesung", "pos": "noun", "example": { "text": "The lecture starts at nine.", "de": "Die Vorlesung fängt um neun an." } },
+    { "id": "semester", "word": "semester", "de": "das Semester", "pos": "noun", "example": { "text": "I'm taking four classes this semester.", "de": "Ich belege dieses Semester vier Kurse." } },
+    { "id": "major", "word": "major", "de": "das Hauptfach", "pos": "noun", "example": { "text": "What's your major? – Psychology.", "de": "Was ist dein Hauptfach? – Psychologie." }, "note": "Auch Verb: She majored in history. (Sie hat Geschichte als Hauptfach studiert.)" },
+    { "id": "bachelors-degree", "word": "bachelor's degree", "de": "der Bachelor(abschluss)", "pos": "noun", "example": { "text": "He has a bachelor's degree in math.", "de": "Er hat einen Bachelor in Mathe." }, "note": "Danach: master's degree = der Master(abschluss)." },
+    { "id": "tuition", "word": "tuition", "de": "die Studiengebühren", "pos": "noun", "example": { "text": "Tuition is very expensive in the US.", "de": "Die Studiengebühren in den USA sind sehr hoch." } },
+    { "id": "scholarship", "word": "scholarship", "de": "das Stipendium", "pos": "noun", "example": { "text": "She got a scholarship, so she doesn't have to pay tuition.", "de": "Sie hat ein Stipendium bekommen und muss deshalb keine Studiengebühren zahlen." } },
+    { "id": "certificate", "word": "certificate", "de": "das Zertifikat; die Bescheinigung", "pos": "noun", "example": { "text": "You get a certificate at the end of the course.", "de": "Am Ende des Kurses bekommst du ein Zertifikat." } },
+    { "id": "education", "word": "education", "de": "die Bildung; die Ausbildung", "pos": "noun", "example": { "text": "A good education is important.", "de": "Eine gute Bildung ist wichtig." }, "note": "Als Studienfach: Lehramt, Pädagogik – She's studying education." },
+    { "id": "knowledge", "word": "knowledge", "de": "das Wissen; die Kenntnisse", "pos": "noun", "example": { "text": "My knowledge of history isn't very good.", "de": "Mein Geschichtswissen ist nicht besonders gut." }, "note": "Unzählbar: no knowledges." },
+    { "id": "vocabulary", "word": "vocabulary", "de": "der Wortschatz; die Vokabeln", "pos": "noun", "example": { "text": "I learn new vocabulary on the subway every morning.", "de": "Ich lerne jeden Morgen in der U-Bahn neue Vokabeln." }, "note": "Unzählbar: a lot of vocabulary. Eine Vokabel = a word." },
+    { "id": "essay", "word": "essay", "de": "der Aufsatz", "pos": "noun", "example": { "text": "I have to write an essay about climate change.", "de": "Ich muss einen Aufsatz über den Klimawandel schreiben." } },
+    { "id": "mistake", "word": "mistake", "de": "der Fehler", "pos": "noun", "example": { "text": "Everyone makes mistakes.", "de": "Jeder macht Fehler.", "focus": "mistakes" }, "note": "make a mistake (nicht: do a mistake)." },
+    { "id": "cheat", "word": "cheat", "de": "schummeln; abschreiben", "pos": "verb", "example": { "text": "He cheated on the test.", "de": "Er hat bei dem Test geschummelt.", "focus": "cheated" } },
+    { "id": "take-notes", "word": "take notes", "de": "Notizen machen; mitschreiben", "pos": "phrase", "example": { "text": "I always take notes in class.", "de": "Ich schreibe im Unterricht immer mit." } },
+    { "id": "memorize", "word": "memorize", "de": "auswendig lernen", "pos": "verb", "example": { "text": "I had to memorize fifty words for the test.", "de": "Ich musste für den Test fünfzig Wörter auswendig lernen." } },
+    { "id": "practice", "word": "practice", "de": "üben", "pos": "verb", "example": { "text": "I practice speaking English every day.", "de": "Ich übe jeden Tag, Englisch zu sprechen." }, "note": "practice + -ing. Amerikanische Schreibweise: practice (Verb und Nomen)." },
+    { "id": "improve", "word": "improve", "de": "verbessern; besser werden", "pos": "verb", "example": { "text": "My English has improved a lot.", "de": "Mein Englisch ist viel besser geworden.", "focus": "improved" } },
+    { "id": "go-over", "word": "go over", "de": "durchgehen; wiederholen", "pos": "verb", "example": { "text": "Let's go over the grammar again before the test.", "de": "Lass uns vor dem Test die Grammatik noch mal durchgehen." } },
+    { "id": "enjoy", "word": "enjoy", "de": "genießen; gern tun", "pos": "verb", "example": { "text": "I really enjoy learning languages.", "de": "Ich lerne wirklich gern Sprachen." }, "note": "enjoy + -ing: I enjoy reading. (nicht: enjoy to read)" },
+    { "id": "avoid", "word": "avoid", "de": "vermeiden", "pos": "verb", "example": { "text": "Try to avoid making the same mistake twice.", "de": "Versuch, denselben Fehler nicht zweimal zu machen." }, "note": "avoid + -ing." },
+    { "id": "keep", "word": "keep", "de": "weiter…; immer wieder …", "pos": "verb", "forms": "kept, kept", "example": { "text": "Keep practicing, and you'll get better!", "de": "Übe weiter, dann wirst du besser!" }, "note": "keep + -ing = weitermachen, immer wieder tun: He keeps forgetting his homework. Auch: behalten." },
+    { "id": "give-up", "word": "give up", "de": "aufgeben", "pos": "verb", "forms": "gave up, given up", "example": { "text": "Don't give up! You can do it.", "de": "Gib nicht auf! Du schaffst das." }, "note": "give up + -ing: She gave up smoking." },
+    { "id": "stop", "word": "stop", "de": "aufhören; anhalten", "pos": "verb", "example": { "text": "I stopped playing the guitar when I was twelve.", "de": "Mit zwölf habe ich aufgehört, Gitarre zu spielen.", "focus": "stopped" } },
+    { "id": "manage", "word": "manage", "de": "schaffen (etwas zu tun)", "pos": "verb", "example": { "text": "I finally managed to finish my essay.", "de": "Ich habe es endlich geschafft, meinen Aufsatz fertig zu schreiben.", "focus": "managed" }, "note": "manage to + Grundform." },
+    { "id": "by-the-time", "word": "by the time", "de": "bis; als (… schon)", "pos": "conj", "example": { "text": "By the time I got to class, the lecture had already started.", "de": "Als ich in den Kurs kam, hatte die Vorlesung schon angefangen." } },
+    { "id": "before", "word": "before", "de": "bevor; vorher", "pos": "conj", "example": { "text": "I had never studied abroad before I came to New York.", "de": "Bevor ich nach New York kam, hatte ich noch nie im Ausland studiert." } },
+    { "id": "evening-class", "word": "evening class", "de": "der Abendkurs", "pos": "noun", "example": { "text": "Lena has been taking an evening class for a year.", "de": "Lena besucht seit einem Jahr einen Abendkurs." } },
+    { "id": "difficult", "word": "difficult", "de": "schwierig; schwer", "pos": "adj", "example": { "text": "Chemistry was the most difficult subject for me.", "de": "Chemie war für mich das schwierigste Fach." } }
+  ],
+  "grammar": [
+    {
+      "id": "past-perfect",
+      "title": "Das past perfect: Was vorher schon passiert war",
+      "blocks": [
+        { "type": "p", "text": "Wenn du von der Vergangenheit erzählst und etwas noch früher passiert ist, benutzt du das past perfect – wie das deutsche Plusquamperfekt („ich hatte gelernt“). Es ist ganz einfach: had + 3. Form, für alle Personen gleich." },
+        { "type": "table", "head": ["Satzart", "Bildung", "Beispiel"], "rows": [["positiv", "had + 3. Form", "I had studied. – I'd studied."], ["verneint", "hadn't + 3. Form", "She hadn't done her homework."], ["Frage", "Had … + 3. Form?", "Had you ever been to New York before?"]] },
+        { "type": "p", "text": "Vergleiche die beiden Sätze:" },
+        { "type": "table", "head": ["Satz", "Was passierte zuerst?"], "rows": [["When I arrived, the class started.", "Ich kam an – dann fing der Kurs an."], ["When I arrived, the class had already started.", "Der Kurs fing an – erst danach kam ich (zu spät!)."]] },
+        { "type": "tip", "text": "Typische Begleiter: already, never, just, before, by the time, after. By the time I got home, everyone had gone to bed. (Als ich nach Hause kam, waren schon alle ins Bett gegangen.)" },
+        { "type": "tip", "text": "Die Kurzform I'd kann had oder would heißen. Folgt die 3. Form, ist es had: I'd studied = I had studied. Folgt die Grundform, ist es would: I'd like = I would like." },
+        { "type": "examples", "items": [{ "text": "I'd never spoken English with anyone before I came to New York.", "de": "Bevor ich nach New York kam, hatte ich noch nie mit jemandem Englisch gesprochen." }, { "text": "She failed the test because she hadn't studied.", "de": "Sie ist durch den Test gefallen, weil sie nicht gelernt hatte." }, { "text": "After we had finished the exam, we went out for pizza.", "de": "Nachdem wir die Prüfung geschrieben hatten, sind wir Pizza essen gegangen." }, { "text": "Had you ever studied abroad before?", "de": "Hattest du vorher schon mal im Ausland studiert?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "When I got to class, the lecture had already ___.", "answers": ["started", "begun"], "de": "Als ich im Kurs ankam, hatte die Vorlesung schon angefangen.", "hint": "start" },
+        { "type": "cloze", "text": "I ___ never been to the US before I moved to New York.", "answers": ["had"], "de": "Bevor ich nach New York gezogen bin, war ich noch nie in den USA gewesen." },
+        { "type": "cloze", "text": "He failed the exam because he hadn't ___ for it.", "answers": ["studied"], "de": "Er ist durch die Prüfung gefallen, weil er nicht dafür gelernt hatte.", "hint": "study" },
+        { "type": "cloze", "text": "By the time we arrived, everyone had ___ home.", "answers": ["gone"], "de": "Als wir ankamen, waren schon alle nach Hause gegangen.", "hint": "go" },
+        { "type": "translate", "de": "Ich hatte meine Hausaufgaben schon gemacht.", "answers": ["I'd already done my homework.", "I had already done my homework.", "I'd already finished my homework.", "I had already finished my homework.", "I'd done my homework already.", "I had done my homework already.", "I'd finished my homework already.", "I had finished my homework already."] },
+        { "type": "order", "de": "Mein Mitbewohner war schon ins Bett gegangen.", "answer": "My roommate had already gone to bed.", "distractors": ["has"] },
+        { "type": "choice", "prompt": "Erst war der Zug weg, dann bist du am Bahnhof angekommen. Welcher Satz passt?", "options": ["When I got to the station, the train had left.", "When I got to the station, the train left.", "When I got to the station, the train has left."], "answer": 0, "explain": "Der Zug fuhr vorher ab – deshalb past perfect: had left. „the train left“ hieße, er fuhr ab, als du ankamst." }
+      ]
+    },
+    {
+      "id": "gerund-infinitive",
+      "title": "-ing oder to? enjoy learning – decide to learn",
+      "blocks": [
+        { "type": "p", "text": "Wenn auf ein Verb ein zweites folgt, steht das zweite entweder in der -ing-Form (Gerundium) oder als to + Grundform. Eine einfache Regel gibt es leider nicht – am besten lernst du die häufigsten Verben in zwei Gruppen." },
+        { "type": "table", "head": ["+ -ing", "+ to + Grundform"], "rows": [["enjoy: I enjoy reading.", "decide: I decided to study."], ["finish: Have you finished writing?", "want: I want to learn Spanish."], ["avoid: Avoid making the same mistakes.", "hope: I hope to pass the exam."], ["keep: He keeps asking questions.", "plan: We're planning to move."], ["practice: I practice speaking every day.", "need: You need to practice more."], ["give up: She gave up smoking.", "learn: I learned to swim at six."], ["spend time: I spend a lot of time studying.", "manage: I managed to finish on time."]] },
+        { "type": "p", "text": "Nach Präpositionen (in, at, about, of, before, after, instead of …) steht immer die -ing-Form: I'm interested in learning Japanese. She's good at explaining things. Before going to bed, I go over my notes." },
+        { "type": "tip", "text": "like, love, hate und start gehen mit beidem: I like reading. = I like to read. Aber would like immer mit to: I'd like to take a course." },
+        { "type": "tip", "text": "Achtung bei promise und agree: Auch sie brauchen to: I promised to help. We agreed to split the bills." },
+        { "type": "examples", "items": [{ "text": "I really enjoy learning new things.", "de": "Ich lerne wirklich gern neue Dinge." }, { "text": "Lena decided to go back to school.", "de": "Lena hat beschlossen, noch einmal zu studieren." }, { "text": "Keep practicing – you're getting better!", "de": "Übe weiter – du wirst immer besser!" }, { "text": "I'm thinking about taking an evening class.", "de": "Ich überlege, einen Abendkurs zu machen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I enjoy ___ new languages.", "answers": ["learning"], "de": "Ich lerne gern neue Sprachen.", "hint": "learn" },
+        { "type": "cloze", "text": "She decided ___ history at college.", "answers": ["to study"], "de": "Sie hat beschlossen, am College Geschichte zu studieren.", "hint": "study" },
+        { "type": "cloze", "text": "Don't give up ___ English!", "answers": ["learning"], "de": "Gib das Englischlernen nicht auf!", "hint": "learn" },
+        { "type": "cloze", "text": "I'm interested in ___ an online course.", "answers": ["taking", "doing"], "de": "Ich habe Interesse daran, einen Onlinekurs zu machen.", "hint": "take" },
+        { "type": "cloze", "text": "We need ___ for the exam.", "answers": ["to study"], "de": "Wir müssen für die Prüfung lernen.", "hint": "study" },
+        { "type": "translate", "de": "Ich habe es geschafft, die Prüfung zu bestehen.", "answers": ["I managed to pass the exam.", "I managed to pass the test."] },
+        { "type": "order", "de": "Er vergisst immer wieder seine Hausaufgaben.", "answer": "He keeps forgetting his homework.", "distractors": ["to"] }
+      ]
+    },
+    {
+      "id": "stop-remember",
+      "title": "stop, remember, forget, try: -ing oder to – mit anderer Bedeutung",
+      "blocks": [
+        { "type": "p", "text": "Bei einigen Verben ändert sich die Bedeutung, je nachdem, ob -ing oder to folgt. Das sind die wichtigsten:" },
+        { "type": "table", "head": ["Verb", "+ -ing", "+ to + Grundform"], "rows": [["stop", "aufhören: I stopped smoking. (Ich habe mit dem Rauchen aufgehört.)", "anhalten, um zu: I stopped to buy coffee. (Ich habe angehalten, um Kaffee zu kaufen.)"], ["remember", "sich erinnern (an Vergangenes): I remember meeting her. (Ich erinnere mich, dass ich sie getroffen habe.)", "daran denken (etwas zu tun): Remember to call me! (Denk daran, mich anzurufen!)"], ["forget", "vergessen (Erlebtes): I'll never forget visiting Rome.", "vergessen (etwas zu tun): I forgot to bring my book."], ["try", "ausprobieren: Try taking notes in class.", "versuchen: I tried to call you, but you didn't answer."]] },
+        { "type": "tip", "text": "Merkhilfe: -ing schaut zurück auf etwas, das schon passiert ist oder schon läuft. to schaut nach vorn auf etwas, das noch kommt." },
+        { "type": "examples", "items": [{ "text": "My dad stopped smoking ten years ago.", "de": "Mein Vater hat vor zehn Jahren mit dem Rauchen aufgehört." }, { "text": "On the way to school, I stopped to get a coffee.", "de": "Auf dem Weg zur Uni habe ich kurz angehalten, um mir einen Kaffee zu holen." }, { "text": "Did you remember to bring your notes?", "de": "Hast du daran gedacht, deine Notizen mitzubringen?" }, { "text": "I remember failing my first math test.", "de": "Ich erinnere mich noch, wie ich bei meinem ersten Mathetest durchgefallen bin." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "My grandfather stopped ___ when he was sixty.", "answers": ["smoking"], "de": "Mein Großvater hat mit sechzig mit dem Rauchen aufgehört.", "hint": "smoke" },
+        { "type": "cloze", "text": "Remember ___ your homework tonight!", "answers": ["to do"], "de": "Denk daran, heute Abend deine Hausaufgaben zu machen!", "hint": "do" },
+        { "type": "cloze", "text": "I forgot ___ my book, so I couldn't do the exercise.", "answers": ["to bring"], "de": "Ich habe vergessen, mein Buch mitzubringen, deshalb konnte ich die Übung nicht machen.", "hint": "bring" },
+        { "type": "cloze", "text": "I'll never forget ___ the Grand Canyon for the first time.", "answers": ["seeing"], "de": "Ich werde nie vergessen, wie ich den Grand Canyon zum ersten Mal gesehen habe.", "hint": "see" },
+        { "type": "choice", "prompt": "„Wir haben angehalten, um etwas zu essen.“ Welcher Satz passt?", "options": ["We stopped to eat something.", "We stopped eating something."], "answer": 0, "explain": "stop to do = anhalten, um etwas zu tun. We stopped eating hieße „Wir haben aufgehört zu essen“." },
+        { "type": "translate", "de": "Denk daran, mich anzurufen!", "answers": ["Remember to call me!", "Don't forget to call me!", "Do not forget to call me!"] },
+        { "type": "translate", "de": "Ich erinnere mich, dass ich sie auf einer Party kennengelernt habe.", "answers": ["I remember meeting her at a party.", "I remember that I met her at a party.", "I remember I met her at a party."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Back to School",
+    "title_de": "Zurück an die Uni",
+    "lines": [
+      { "speaker": "Emma", "text": "Lena! Carlos told me you've decided to go back to school. Is that true?", "de": "Lena! Carlos hat mir erzählt, dass du beschlossen hast, wieder zu studieren. Stimmt das?" },
+      { "speaker": "Lena", "text": "Yes! I'm starting at City College in September. I'm so excited!", "de": "Ja! Im September fange ich am City College an. Ich bin so aufgeregt!" },
+      { "speaker": "Emma", "text": "That's amazing! What are you going to study?", "de": "Das ist ja toll! Was wirst du studieren?" },
+      { "speaker": "Lena", "text": "Education, with English as my major. I want to become a teacher in Austria.", "de": "Lehramt, mit Englisch als Hauptfach. Ich will in Österreich Lehrerin werden." },
+      { "speaker": "Emma", "text": "But your English is already so good! When did you start learning it?", "de": "Aber dein Englisch ist doch schon so gut! Wann hast du angefangen, es zu lernen?" },
+      { "speaker": "Lena", "text": "At school, when I was ten. But I didn't enjoy it at all. Before I came to New York, I'd never really spoken English with anyone.", "de": "In der Schule, mit zehn. Aber es hat mir überhaupt keinen Spaß gemacht. Bevor ich nach New York kam, hatte ich nie wirklich mit jemandem Englisch gesprochen." },
+      { "speaker": "Emma", "text": "Really? I thought you'd studied in Vienna.", "de": "Echt? Ich dachte, du hättest in Wien studiert." },
+      { "speaker": "Lena", "text": "I had started a history degree there, but I gave up after two semesters.", "de": "Ich hatte dort ein Geschichtsstudium angefangen, aber nach zwei Semestern habe ich aufgegeben." },
+      { "speaker": "Emma", "text": "Why? What happened?", "de": "Warum? Was ist passiert?" },
+      { "speaker": "Lena", "text": "The lectures were so boring, and I hated memorizing dates. By the time I decided to stop, I had already missed half of my classes.", "de": "Die Vorlesungen waren so langweilig, und ich habe es gehasst, Jahreszahlen auswendig zu lernen. Als ich beschlossen habe aufzuhören, hatte ich schon die Hälfte meiner Kurse verpasst." },
+      { "speaker": "Emma", "text": "Ha! I know that feeling. I almost failed math in high school because I kept forgetting my homework.", "de": "Ha! Das Gefühl kenne ich. Ich wäre in der Highschool fast in Mathe durchgefallen, weil ich ständig meine Hausaufgaben vergessen habe." },
+      { "speaker": "Lena", "text": "But this time it's different. I've been taking an evening class for a year, and I really enjoy it.", "de": "Aber diesmal ist es anders. Ich besuche seit einem Jahr einen Abendkurs, und der macht mir richtig Spaß." },
+      { "speaker": "Emma", "text": "And how are you going to pay for it? Tuition is so expensive here.", "de": "Und wie willst du das bezahlen? Die Studiengebühren sind hier so hoch." },
+      { "speaker": "Lena", "text": "I got a scholarship! I'd almost stopped hoping, but then the email came last week.", "de": "Ich habe ein Stipendium bekommen! Ich hatte fast schon aufgehört zu hoffen, aber dann kam letzte Woche die E-Mail." },
+      { "speaker": "Emma", "text": "Congratulations! Remember to call me after your first lecture!", "de": "Glückwunsch! Denk daran, mich nach deiner ersten Vorlesung anzurufen!" },
+      { "speaker": "Lena", "text": "I will! And I promise to stop complaining about homework.", "de": "Mach ich! Und ich verspreche, nicht mehr über Hausaufgaben zu jammern." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["subject", "das Schulfach"], ["grade", "die Note"], ["report card", "das Zeugnis"], ["lecture", "die Vorlesung"], ["tuition", "die Studiengebühren"], ["scholarship", "das Stipendium"]] },
+    { "type": "match", "pairs": [["math", "Mathe"], ["history", "Geschichte"], ["science", "Naturwissenschaften"], ["major", "das Hauptfach"], ["essay", "der Aufsatz"], ["mistake", "der Fehler"]] },
+    { "type": "match", "pairs": [["memorize", "auswendig lernen"], ["improve", "verbessern"], ["cheat", "schummeln"], ["avoid", "vermeiden"], ["give up", "aufgeben"], ["take notes", "mitschreiben"]] },
+    { "type": "translate", "de": "Was war dein Lieblingsfach in der Schule?", "answers": ["What was your favorite subject in school?", "What was your favorite subject at school?", "What was your favorite subject in high school?"] },
+    { "type": "translate", "de": "Jeder macht Fehler.", "answers": ["Everyone makes mistakes.", "Everybody makes mistakes."] },
+    { "type": "translate", "de": "Ich mache einen Onlinekurs in Spanisch.", "answers": ["I'm taking an online course in Spanish.", "I am taking an online course in Spanish.", "I'm taking an online class in Spanish.", "I am taking an online class in Spanish.", "I'm doing an online course in Spanish.", "I am doing an online course in Spanish.", "I'm doing an online class in Spanish.", "I am doing an online class in Spanish.", "I'm taking an online Spanish course.", "I am taking an online Spanish course.", "I'm taking an online Spanish class.", "I am taking an online Spanish class.", "I'm doing an online Spanish course.", "I am doing an online Spanish course.", "I'm doing an online Spanish class.", "I am doing an online Spanish class."] },
+    { "type": "cloze", "text": "I got a good ___ on my history test.", "answers": ["grade"], "de": "Ich habe in meinem Geschichtstest eine gute Note bekommen." },
+    { "type": "cloze", "text": "Keep ___, and your English will improve.", "answers": ["practicing"], "de": "Übe weiter, dann wird dein Englisch besser.", "hint": "practice" },
+    { "type": "cloze", "text": "She has a bachelor's ___ in math.", "answers": ["degree"], "de": "Sie hat einen Bachelor in Mathe." },
+    { "type": "order", "de": "Ich hatte vorher noch nie im Ausland studiert.", "answer": "I had never studied abroad before.", "distractors": ["have"] },
+    { "type": "order", "de": "Ich habe beschlossen, einen Abendkurs zu machen.", "answer": "I've decided to take an evening class.", "distractors": ["taking"] },
+    { "type": "listen", "text": "By the time I finished my essay, it was two o'clock in the morning.", "de": "Als ich mit meinem Aufsatz fertig war, war es schon zwei Uhr morgens." },
+    { "type": "listen", "text": "I stopped learning French in high school, but now I'm taking an evening class again.", "de": "In der Highschool habe ich mit Französisch aufgehört, aber jetzt besuche ich wieder einen Abendkurs." }
+  ]
+}

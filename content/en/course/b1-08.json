@@ -1,0 +1,164 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-08",
+  "lang": "en",
+  "level": "B1",
+  "number": 8,
+  "title": "A Trip to Remember",
+  "title_de": "Erlebnisse",
+  "topic": "Von einer Reise erzählen",
+  "goals": [
+    "Du kannst von einer Reise erzählen und dabei simple past, past continuous und past perfect richtig kombinieren.",
+    "Du kannst deine Geschichte mit Verbindungswörtern gliedern: at first, as soon as, eventually, in the end.",
+    "Du kannst auf Geschichten anderer reagieren: No way! That's awful! Lucky you!"
+  ],
+  "vocab": [
+    { "id": "adventure", "word": "adventure", "plural": "adventures", "de": "das Abenteuer", "pos": "noun", "example": { "text": "Our trip to Alaska was a real adventure.", "de": "Unsere Reise nach Alaska war ein echtes Abenteuer." } },
+    { "id": "road-trip", "word": "road trip", "plural": "road trips", "de": "die Autoreise; der Roadtrip", "pos": "noun", "example": { "text": "Last summer we went on a road trip to California.", "de": "Letzten Sommer haben wir einen Roadtrip nach Kalifornien gemacht." }, "note": "Ein Roadtrip quer durch die USA ist für viele Amerikaner ein Traum. go on a road trip = einen Roadtrip machen." },
+    { "id": "journey", "word": "journey", "plural": "journeys", "de": "die Reise; die Fahrt", "pos": "noun", "example": { "text": "The journey from New York to Chicago took twelve hours.", "de": "Die Fahrt von New York nach Chicago hat zwölf Stunden gedauert." }, "note": "journey ist der Weg von A nach B, vor allem ein langer. trip (A1) ist die ganze Reise, auch mit dem Aufenthalt: a business trip, a trip to Paris." },
+    { "id": "highway", "word": "highway", "plural": "highways", "de": "die Fernstraße; die Autobahn", "pos": "noun", "example": { "text": "We drove on the highway for six hours.", "de": "Wir sind sechs Stunden auf dem Highway gefahren." }, "note": "Die großen Autobahnen quer durch die USA heißen interstates. In Kalifornien sagt man oft freeway." },
+    { "id": "gas-station", "word": "gas station", "plural": "gas stations", "de": "die Tankstelle", "pos": "noun", "example": { "text": "Let's stop at the next gas station.", "de": "Lass uns an der nächsten Tankstelle anhalten." }, "note": "gas ist im amerikanischen Englisch das Benzin (kurz für gasoline). Britisch: petrol station." },
+    { "id": "run-out-of", "word": "run out of", "de": "ausgehen; nicht mehr haben", "pos": "verb", "forms": "ran out of, run out of", "example": { "text": "We ran out of gas in the middle of nowhere.", "de": "Mitten im Nirgendwo ist uns das Benzin ausgegangen.", "focus": "ran out of" }, "note": "Die Person ist das Subjekt: We ran out of money. (Uns ist das Geld ausgegangen.)" },
+    { "id": "break-down", "word": "break down", "de": "eine Panne haben; kaputtgehen", "pos": "verb", "forms": "broke down, broken down", "example": { "text": "Our car broke down on the way to the airport.", "de": "Auf dem Weg zum Flughafen hatte unser Auto eine Panne.", "focus": "broke down" } },
+    { "id": "flat-tire", "word": "flat tire", "plural": "flat tires", "de": "der Platten; die Reifenpanne", "pos": "noun", "example": { "text": "We had a flat tire on the highway.", "de": "Wir hatten einen Platten auf dem Highway." }, "note": "Amerikanisch: tire, britisch: tyre. flat heißt auch „flach“." },
+    { "id": "get-lost", "word": "get lost", "de": "sich verirren; sich verlaufen; sich verfahren", "pos": "verb", "forms": "got lost", "example": { "text": "We got lost in the old part of the city.", "de": "Wir haben uns in der Altstadt verlaufen.", "focus": "got lost" }, "note": "Vorsicht: Get lost! allein ist sehr unhöflich – „Hau ab!“." },
+    { "id": "delayed", "word": "delayed", "de": "verspätet", "pos": "adj", "example": { "text": "Our flight was delayed by three hours.", "de": "Unser Flug hatte drei Stunden Verspätung." }, "note": "The flight is delayed. = Der Flug hat Verspätung." },
+    { "id": "cancel", "word": "cancel", "de": "absagen; streichen; stornieren", "pos": "verb", "forms": "canceled", "example": { "text": "The flight was canceled because of the storm.", "de": "Der Flug wurde wegen des Sturms gestrichen.", "focus": "canceled" }, "note": "Amerikanisch: canceled, canceling (mit einem l). Britisch: cancelled." },
+    { "id": "take-off", "word": "take off", "de": "starten; abheben", "pos": "verb", "forms": "took off, taken off", "example": { "text": "The plane took off two hours late.", "de": "Das Flugzeug ist mit zwei Stunden Verspätung gestartet.", "focus": "took off" }, "note": "Auch: etwas ausziehen – take off your shoes." },
+    { "id": "land", "word": "land", "de": "landen", "pos": "verb", "example": { "text": "We landed in Denver at midnight.", "de": "Wir sind um Mitternacht in Denver gelandet.", "focus": "landed" }, "note": "Als Nomen heißt land das Land (der Boden), nicht der Staat – der heißt country." },
+    { "id": "passenger", "word": "passenger", "plural": "passengers", "de": "der Fahrgast; der Passagier; die Passagierin", "pos": "noun", "example": { "text": "All the passengers had to get off the bus.", "de": "Alle Fahrgäste mussten aus dem Bus aussteigen.", "focus": "passengers" } },
+    { "id": "get-stuck", "word": "get stuck", "de": "stecken bleiben; festsitzen", "pos": "verb", "forms": "got stuck", "example": { "text": "We got stuck in traffic for three hours.", "de": "Wir standen drei Stunden im Stau.", "focus": "got stuck" }, "note": "get stuck in traffic = im Stau stehen. Auch: I'm stuck. (Ich komme nicht weiter.)" },
+    { "id": "hostel", "word": "hostel", "plural": "hostels", "de": "das Hostel; die Jugendherberge", "pos": "noun", "example": { "text": "We stayed in a cheap hostel near the beach.", "de": "Wir haben in einem günstigen Hostel in Strandnähe übernachtet." } },
+    { "id": "guide", "word": "guide", "plural": "guides", "de": "der Reiseführer; die Reiseleiterin; der Guide", "pos": "noun", "example": { "text": "Our guide told us a lot about the history of the city.", "de": "Unsere Reiseleiterin hat uns viel über die Geschichte der Stadt erzählt." }, "note": "Ein Reiseführer als Buch heißt guidebook." },
+    { "id": "stranger", "word": "stranger", "plural": "strangers", "de": "der/die Fremde; der/die Unbekannte", "pos": "noun", "example": { "text": "A stranger helped us with our suitcases.", "de": "Ein Unbekannter hat uns mit unseren Koffern geholfen." }, "note": "stranger ist eine unbekannte Person – kein Ausländer. Der heißt foreigner." },
+    { "id": "accident", "word": "accident", "plural": "accidents", "de": "der Unfall", "pos": "noun", "example": { "text": "Luckily, nobody was hurt in the accident.", "de": "Zum Glück wurde bei dem Unfall niemand verletzt." }, "note": "by accident = aus Versehen." },
+    { "id": "steal", "word": "steal", "de": "stehlen", "pos": "verb", "forms": "stole, stolen", "example": { "text": "Someone stole my wallet on the train.", "de": "Jemand hat mir im Zug den Geldbeutel gestohlen.", "focus": "stole" } },
+    { "id": "wallet", "word": "wallet", "plural": "wallets", "de": "der Geldbeutel; die Brieftasche; das Portemonnaie", "pos": "noun", "example": { "text": "I can't find my wallet!", "de": "Ich finde meinen Geldbeutel nicht!" } },
+    { "id": "realize", "word": "realize", "de": "merken; erkennen; feststellen", "pos": "verb", "example": { "text": "At the airport, I realized that I had forgotten my passport.", "de": "Am Flughafen habe ich gemerkt, dass ich meinen Pass vergessen hatte.", "focus": "realized" }, "note": "Falscher Freund: realize heißt nicht „realisieren“ im Sinn von „umsetzen“, sondern „klar werden, merken“." },
+    { "id": "notice", "word": "notice", "de": "bemerken; mitbekommen", "pos": "verb", "example": { "text": "At first I didn't notice that my bag was open.", "de": "Zuerst habe ich nicht bemerkt, dass meine Tasche offen war." } },
+    { "id": "at-first", "word": "at first", "de": "zuerst; anfangs", "pos": "phrase", "example": { "text": "At first I was nervous, but then I started to enjoy the trip.", "de": "Anfangs war ich nervös, aber dann habe ich angefangen, die Reise zu genießen." }, "note": "at first = am Anfang (später änderte sich etwas). first = erstens, als Erstes: First, we went to the beach." },
+    { "id": "as-soon-as", "word": "as soon as", "de": "sobald; gleich als", "pos": "conj", "example": { "text": "As soon as we arrived, it started to rain.", "de": "Gleich als wir ankamen, fing es an zu regnen." } },
+    { "id": "eventually", "word": "eventually", "de": "schließlich; irgendwann (endlich)", "pos": "adv", "example": { "text": "We waited for hours. Eventually a bus came.", "de": "Wir haben stundenlang gewartet. Irgendwann kam schließlich ein Bus." }, "note": "Falscher Freund! eventually heißt nicht „eventuell“. „Eventuell“ heißt maybe oder possibly." },
+    { "id": "in-the-end", "word": "in the end", "de": "am Ende; letztendlich; schließlich", "pos": "phrase", "example": { "text": "In the end, it was the best vacation ever.", "de": "Am Ende war es der beste Urlaub überhaupt." } },
+    { "id": "finally", "word": "finally", "de": "endlich; schließlich; zuletzt", "pos": "adv", "example": { "text": "After ten hours, we finally arrived.", "de": "Nach zehn Stunden sind wir endlich angekommen." } },
+    { "id": "luckily", "word": "luckily", "alt": ["fortunately"], "de": "zum Glück; glücklicherweise", "pos": "adv", "example": { "text": "Luckily, I had some cash with me.", "de": "Zum Glück hatte ich etwas Bargeld dabei." }, "note": "Etwas formeller: fortunately." },
+    { "id": "unfortunately", "word": "unfortunately", "de": "leider; unglücklicherweise", "pos": "adv", "example": { "text": "Unfortunately, it rained every day.", "de": "Leider hat es jeden Tag geregnet." } },
+    { "id": "meanwhile", "word": "meanwhile", "de": "inzwischen; währenddessen; in der Zwischenzeit", "pos": "adv", "example": { "text": "I went to look for help. Meanwhile, my brother stayed with the car.", "de": "Ich bin losgegangen, um Hilfe zu holen. In der Zwischenzeit ist mein Bruder beim Auto geblieben." } },
+    { "id": "after-a-while", "word": "after a while", "de": "nach einer Weile", "pos": "phrase", "example": { "text": "After a while, a police officer came and helped us.", "de": "Nach einer Weile kam ein Polizist und half uns." } },
+    { "id": "no-way", "word": "no way!", "de": "Echt jetzt?; Das gibt's doch nicht!; Auf keinen Fall!", "pos": "phrase", "example": { "text": "No way! You met him at the airport?", "de": "Echt jetzt? Du hast ihn am Flughafen getroffen?" }, "note": "Als Reaktion: große Überraschung. Als Antwort auf eine Bitte heißt es „Auf keinen Fall!“." },
+    { "id": "youre-kidding", "word": "you're kidding!", "alt": ["you're joking!", "you are kidding!"], "de": "Das ist nicht dein Ernst!; Du machst Witze!", "pos": "phrase", "example": { "text": "You're kidding! The hotel was closed?", "de": "Das ist nicht dein Ernst! Das Hotel war geschlossen?" }, "note": "Auch: Are you kidding? / Are you kidding me? kid = Witze machen, auf den Arm nehmen." },
+    { "id": "seriously", "word": "seriously?", "de": "im Ernst?; ernsthaft?", "pos": "phrase", "example": { "text": "Seriously? You drove all night?", "de": "Im Ernst? Du bist die ganze Nacht durchgefahren?" } },
+    { "id": "thats-awful", "word": "that's awful!", "alt": ["how awful!", "that is awful!"], "de": "Wie schrecklich!; Das ist ja furchtbar!", "pos": "phrase", "example": { "text": "Someone stole your passport? That's awful!", "de": "Jemand hat deinen Pass gestohlen? Das ist ja furchtbar!" } },
+    { "id": "what-a-shame", "word": "what a shame!", "alt": ["what a pity!"], "de": "Wie schade!", "pos": "phrase", "example": { "text": "The concert was canceled? What a shame!", "de": "Das Konzert wurde abgesagt? Wie schade!" } },
+    { "id": "lucky-you", "word": "lucky you!", "de": "Du Glückspilz!; Du hast es gut!", "pos": "phrase", "example": { "text": "You got a free room with an ocean view? Lucky you!", "de": "Du hast ein kostenloses Zimmer mit Meerblick bekommen? Du Glückspilz!" } },
+    { "id": "embarrassing", "word": "embarrassing", "de": "peinlich", "pos": "adj", "example": { "text": "I fell asleep on the tour. It was so embarrassing!", "de": "Ich bin bei der Führung eingeschlafen. Das war so peinlich!" }, "note": "Wie bei boring/bored: embarrassing beschreibt die Situation (peinlich), embarrassed die Person (verlegen): I was so embarrassed!" },
+    { "id": "unforgettable", "word": "unforgettable", "de": "unvergesslich", "pos": "adj", "example": { "text": "The view from the mountain was unforgettable.", "de": "Die Aussicht vom Berg war unvergesslich." } }
+  ],
+  "grammar": [
+    {
+      "id": "narrative-tenses",
+      "title": "Erzählzeiten: simple past, past continuous und past perfect zusammen",
+      "blocks": [
+        { "type": "p", "text": "Wenn du eine Geschichte erzählst, brauchst du drei Zeiten. Alle kennst du schon – jetzt kombinierst du sie. Jede hat dabei ihre eigene Aufgabe:" },
+        { "type": "table", "head": ["Zeit", "Aufgabe", "Beispiel"], "rows": [["past continuous: was/were + -ing", "Hintergrund: Was war gerade im Gange?", "The sun was shining, and we were driving along the ocean."], ["simple past", "Handlung: Was ist passiert? Schritt für Schritt", "Suddenly the car stopped. We got out and looked around."], ["past perfect: had + 3. Form", "Vorvergangenheit: Was war schon vorher passiert?", "We had forgotten to buy gas!"]] },
+        { "type": "p", "text": "Zusammen klingt das so: We were driving along the ocean when suddenly the car stopped. We had forgotten to buy gas! (Wir fuhren gerade am Meer entlang, als das Auto plötzlich stehen blieb. Wir hatten vergessen zu tanken!)" },
+        { "type": "tip", "text": "Faustregel: Die Ereignisse der Geschichte stehen im simple past. Das past continuous malt das Bild im Hintergrund. Das past perfect springt einen Schritt zurück in der Zeit." },
+        { "type": "table", "head": ["Satz", "Bedeutung"], "rows": [["When we arrived, the bus left.", "Wir kamen an, und dann fuhr der Bus ab (wir haben ihn noch gesehen)."], ["When we arrived, the bus had left.", "Als wir ankamen, war der Bus schon weg."], ["When we arrived, the bus was leaving.", "Als wir ankamen, fuhr der Bus gerade los."]] },
+        { "type": "tip", "text": "Typisch: Eine längere Handlung im past continuous wird von einer kurzen im simple past unterbrochen. While steht meist vor dem past continuous, when vor dem simple past: While we were waiting, it started to rain. / We were waiting when it started to rain." },
+        { "type": "tip", "text": "Das past perfect brauchst du nur, wenn die Reihenfolge sonst unklar wäre. Mit after und before ist sie oft schon klar: After we ate, we went to the beach. (Auch richtig: After we had eaten …)" },
+        { "type": "examples", "items": [{ "text": "It was raining when we left the hotel.", "de": "Es regnete, als wir aus dem Hotel gingen." }, { "text": "While Jake was sleeping on the beach, someone stole his wallet.", "de": "Während Jake am Strand schlief, stahl jemand seinen Geldbeutel." }, { "text": "When we got to the station, the train had already left.", "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren." }, { "text": "I couldn't pay because I had lost my credit card.", "de": "Ich konnte nicht bezahlen, weil ich meine Kreditkarte verloren hatte." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "We ___ driving along the ocean when the car suddenly stopped.", "answers": ["were"], "de": "Wir fuhren gerade am Meer entlang, als das Auto plötzlich stehen blieb." },
+        { "type": "cloze", "text": "When we got to the station, the train had already ___.", "answers": ["left"], "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren.", "hint": "leave" },
+        { "type": "cloze", "text": "While Jake was sleeping, someone ___ his wallet.", "answers": ["stole"], "de": "Während Jake schlief, hat jemand seinen Geldbeutel gestohlen.", "hint": "steal" },
+        { "type": "cloze", "text": "I couldn't pay because I ___ lost my credit card.", "answers": ["had"], "de": "Ich konnte nicht bezahlen, weil ich meine Kreditkarte verloren hatte." },
+        { "type": "cloze", "text": "It ___ raining when we left the hotel.", "answers": ["was"], "de": "Es regnete, als wir aus dem Hotel gingen." },
+        { "type": "cloze", "text": "At the airport, we ___ that we had forgotten the tickets.", "answers": ["realized", "noticed"], "de": "Am Flughafen haben wir gemerkt, dass wir die Tickets vergessen hatten.", "hint": "merken" },
+        { "type": "translate", "de": "Als wir ankamen, war der Bus schon abgefahren.", "answers": ["When we arrived, the bus had already left.", "When we got there, the bus had already left.", "The bus had already left when we arrived.", "The bus had already left when we got there.", "When we arrived, the bus had left."] },
+        { "type": "translate", "de": "Während wir gewartet haben, hat es angefangen zu regnen.", "answers": ["While we were waiting, it started to rain.", "While we were waiting, it started raining.", "It started to rain while we were waiting.", "It started raining while we were waiting.", "While we were waiting, it began to rain.", "While we were waiting, it began raining."] },
+        { "type": "order", "de": "Ich hatte meinen Pass im Hotel vergessen.", "answer": "I had forgotten my passport at the hotel.", "distractors": ["have", "forget"] }
+      ]
+    },
+    {
+      "id": "story-connectors",
+      "title": "Geschichten gliedern: at first, as soon as, eventually …",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Wörtern hält deine Geschichte zusammen, und der Zuhörer weiß immer, wo er ist. Einige kennst du schon: then, after that, suddenly, while, when." },
+        { "type": "table", "head": ["Wort", "Deutsch", "Beispiel"], "rows": [["at first", "zuerst, anfangs (später änderte sich etwas)", "At first everything was fine."], ["as soon as", "sobald, gleich als", "As soon as we arrived, it started to rain."], ["while", "während", "While we were eating, the lights went out."], ["suddenly", "plötzlich", "Suddenly we heard a loud noise."], ["luckily / unfortunately", "zum Glück / leider", "Luckily, a man stopped to help us."], ["meanwhile", "inzwischen, währenddessen", "Meanwhile, my brother was looking for a gas station."], ["after a while", "nach einer Weile", "After a while, a police officer came."], ["eventually", "schließlich, irgendwann (nach langer Zeit)", "Eventually we found a hotel."], ["finally", "endlich (nach dem Warten); zuletzt", "At midnight we finally got to the hotel."], ["in the end", "am Ende (so ist es ausgegangen)", "In the end, it was the best trip ever."]] },
+        { "type": "tip", "text": "Falscher Freund: eventually heißt „schließlich, irgendwann“ – nicht „eventuell“! Für „eventuell“ sagst du maybe oder possibly." },
+        { "type": "tip", "text": "at first ist nicht dasselbe wie first: First, we went to the beach. Then … (zählt Schritte auf: als Erstes). At first, I didn't like the hostel. (anfangs – später gefiel es mir)." },
+        { "type": "p", "text": "Satzzeichen: Nach Wörtern am Satzanfang wie luckily, unfortunately, meanwhile und in the end steht oft ein Komma. Bei as soon as steht das Komma nach dem ganzen Nebensatz: As soon as we got to the hotel, we went to bed." },
+        { "type": "examples", "items": [{ "text": "At first we didn't notice that we were lost.", "de": "Zuerst haben wir gar nicht gemerkt, dass wir uns verfahren hatten." }, { "text": "As soon as the plane landed, I called my mom.", "de": "Sobald das Flugzeug gelandet war, habe ich meine Mutter angerufen." }, { "text": "Unfortunately, our flight was canceled. Eventually we got a hotel room for the night.", "de": "Leider wurde unser Flug gestrichen. Irgendwann haben wir dann ein Hotelzimmer für die Nacht bekommen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ we got to the hotel, we went to bed. We were so tired!", "answers": ["As soon as"], "de": "Sobald wir im Hotel waren, sind wir ins Bett gegangen. Wir waren so müde!" },
+        { "type": "cloze", "text": "At ___ I was nervous, but then I started to enjoy the trip.", "answers": ["first"], "de": "Anfangs war ich nervös, aber dann habe ich angefangen, die Reise zu genießen." },
+        { "type": "cloze", "text": "We waited for three hours. ___ the bus came.", "answers": ["Eventually", "Finally"], "de": "Wir haben drei Stunden gewartet. Schließlich kam der Bus." },
+        { "type": "cloze", "text": "___, I had my credit card with me, so I could pay.", "answers": ["Luckily", "Fortunately"], "de": "Zum Glück hatte ich meine Kreditkarte dabei, also konnte ich bezahlen." },
+        { "type": "cloze", "text": "We wanted to go to the beach. ___, it rained all day.", "answers": ["Unfortunately"], "de": "Wir wollten an den Strand. Leider hat es den ganzen Tag geregnet." },
+        { "type": "translate", "de": "Leider war das Hotel voll.", "answers": ["Unfortunately, the hotel was full.", "The hotel was full, unfortunately.", "Unfortunately, the hotel was booked up.", "Unfortunately, the hotel was fully booked."] },
+        { "type": "translate", "de": "Am Ende war es eine tolle Reise.", "answers": ["In the end, it was a great trip.", "In the end, it was an amazing trip.", "In the end, it was a wonderful trip.", "It was a great trip in the end.", "It was an amazing trip in the end.", "It was a wonderful trip in the end."] },
+        { "type": "order", "de": "Sobald wir ankamen, fing es an zu regnen.", "answer": "As soon as we arrived, it started to rain.", "distractors": ["while"] },
+        { "type": "choice", "prompt": "Was bedeutet „Eventually we found a hotel.“?", "options": ["Schließlich fanden wir ein Hotel.", "Eventuell fanden wir ein Hotel.", "Zuerst fanden wir ein Hotel."], "answer": 0, "explain": "eventually ist ein falscher Freund: Es heißt „schließlich, irgendwann“ – nicht „eventuell“.", "optionsDe": true }
+      ]
+    },
+    {
+      "id": "reacting",
+      "title": "Auf Geschichten reagieren: No way! That's awful!",
+      "blocks": [
+        { "type": "p", "text": "Gute Zuhörer reagieren auf eine Geschichte. Im Englischen sind kurze Reaktionen besonders wichtig – sie zeigen, dass du zuhörst und mitfühlst. Wer gar nichts sagt, wirkt schnell desinteressiert." },
+        { "type": "table", "head": ["Reaktion", "Deutsch", "wann?"], "rows": [["No way! / You're kidding!", "Echt jetzt? / Das ist nicht dein Ernst!", "Überraschung"], ["Seriously?", "Im Ernst?", "Überraschung, Zweifel"], ["That's awful! / How awful!", "Wie schrecklich!", "schlimme Nachricht"], ["Poor you!", "Du Arme! / Du Armer!", "Mitgefühl"], ["What a shame!", "Wie schade!", "etwas Schönes hat nicht geklappt"], ["Lucky you!", "Du Glückspilz!", "gute Nachricht"], ["That's amazing!", "Das ist ja toll!", "gute Nachricht"], ["How embarrassing!", "Wie peinlich!", "peinliche Situation"], ["And then? / What happened next?", "Und dann? / Wie ging es weiter?", "zum Weitererzählen"]] },
+        { "type": "tip", "text": "What a … und How …: Nach what a steht ein Nomen (What a shame! What a great trip!), nach how nur ein Adjektiv (How awful! How embarrassing!)." },
+        { "type": "tip", "text": "Poor you! ist ehrlich mitfühlend gemeint, nicht ironisch. Und No way! kann auch heißen „Auf keinen Fall!“ – zum Beispiel als Antwort auf Can I borrow your car?" },
+        { "type": "examples", "items": [{ "text": "I lost my passport on the first day. – No way! What did you do?", "de": "Ich habe am ersten Tag meinen Pass verloren. – Echt jetzt? Was hast du gemacht?" }, { "text": "The hotel gave us a free upgrade. – Lucky you!", "de": "Das Hotel hat uns kostenlos ein besseres Zimmer gegeben. – Ihr Glückspilze!" }, { "text": "I fell asleep during the tour. – How embarrassing!", "de": "Ich bin während der Führung eingeschlafen. – Wie peinlich!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "What a ___! The concert was canceled.", "answers": ["shame", "pity"], "de": "Wie schade! Das Konzert wurde abgesagt." },
+        { "type": "cloze", "text": "How ___! Everybody saw you fall?", "answers": ["embarrassing"], "de": "Wie peinlich! Alle haben gesehen, wie du hingefallen bist?" },
+        { "type": "cloze", "text": "Lucky ___! You won a trip to Hawaii?", "answers": ["you"], "de": "Du Glückspilz! Du hast eine Reise nach Hawaii gewonnen?" },
+        { "type": "cloze", "text": "You're ___! You saw a bear?", "answers": ["kidding", "joking"], "de": "Das ist nicht dein Ernst! Du hast einen Bären gesehen?" },
+        { "type": "match", "pairs": [["No way!", "Echt jetzt?"], ["That's awful!", "Wie schrecklich!"], ["What a shame!", "Wie schade!"], ["Lucky you!", "Du Glückspilz!"], ["How embarrassing!", "Wie peinlich!"]] },
+        { "type": "choice", "prompt": "Deine Freundin erzählt: „Someone stole my bag on the subway.“ Was passt?", "options": ["That's awful!", "Lucky you!", "What a great trip!"], "answer": 0, "explain": "Bei einer schlimmen Nachricht zeigst du Mitgefühl: That's awful! oder Poor you!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Jake's Road Trip",
+    "title_de": "Jakes Roadtrip",
+    "lines": [
+      { "speaker": "Yuki", "text": "Jake! You're back! So, how was the road trip to California?", "de": "Jake! Du bist zurück! Und, wie war der Roadtrip nach Kalifornien?" },
+      { "speaker": "Jake", "text": "It was a real adventure! At first, everything went perfectly.", "de": "Das war ein echtes Abenteuer! Anfangs lief alles perfekt." },
+      { "speaker": "Yuki", "text": "At first? What happened?", "de": "Anfangs? Was ist passiert?" },
+      { "speaker": "Jake", "text": "On the third day, we were driving on a highway in Nevada when suddenly the car stopped.", "de": "Am dritten Tag fuhren wir gerade auf einem Highway in Nevada, als das Auto plötzlich stehen blieb." },
+      { "speaker": "Yuki", "text": "No way! Did it break down?", "de": "Echt jetzt? Hattet ihr eine Panne?" },
+      { "speaker": "Jake", "text": "No, we had run out of gas! My brother had forgotten to stop at the last gas station.", "de": "Nein, uns war das Benzin ausgegangen! Mein Bruder hatte vergessen, an der letzten Tankstelle anzuhalten." },
+      { "speaker": "Yuki", "text": "You're kidding! In the middle of nowhere?", "de": "Das ist nicht dein Ernst! Mitten im Nirgendwo?" },
+      { "speaker": "Jake", "text": "Yes! We waited for an hour in the sun. Eventually, a stranger in an old truck stopped and drove us to the next town.", "de": "Ja! Wir haben eine Stunde in der Sonne gewartet. Schließlich hielt ein Fremder in einem alten Pick-up an und fuhr uns in den nächsten Ort." },
+      { "speaker": "Yuki", "text": "Lucky you! And what about the car?", "de": "Glück gehabt! Und was war mit dem Auto?" },
+      { "speaker": "Jake", "text": "As soon as we got to the gas station, he drove us back with some gas. He didn't even want any money.", "de": "Sobald wir an der Tankstelle waren, fuhr er uns mit etwas Benzin zurück. Er wollte nicht mal Geld dafür." },
+      { "speaker": "Yuki", "text": "That's so kind! Did anything else go wrong?", "de": "Wie nett! Ist sonst noch etwas schiefgegangen?" },
+      { "speaker": "Jake", "text": "Unfortunately, yes. In Los Angeles, someone stole my wallet while I was sleeping on the beach.", "de": "Leider ja. In Los Angeles hat mir jemand den Geldbeutel gestohlen, während ich am Strand geschlafen habe." },
+      { "speaker": "Yuki", "text": "Oh no, that's awful! Poor you!", "de": "Oh nein, wie schrecklich! Du Armer!" },
+      { "speaker": "Jake", "text": "Luckily, my brother had some cash. And the hotels were all full, so we stayed in a hostel. At first I hated it, but we met a lot of nice people there.", "de": "Zum Glück hatte mein Bruder etwas Bargeld. Und die Hotels waren alle voll, also haben wir in einem Hostel übernachtet. Anfangs fand ich es furchtbar, aber wir haben dort viele nette Leute kennengelernt." },
+      { "speaker": "Yuki", "text": "So, in the end, was it a good trip?", "de": "Und am Ende – war es eine gute Reise?" },
+      { "speaker": "Jake", "text": "In the end, it was unforgettable! I'd do it again tomorrow. But next time, I'll check the gas myself!", "de": "Am Ende war sie unvergesslich! Ich würde sie morgen wieder machen. Aber nächstes Mal prüfe ich den Tank selbst!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["wallet", "Geldbeutel"], ["gas station", "Tankstelle"], ["flat tire", "Platten"], ["passenger", "Fahrgast"], ["stranger", "Fremde/r"], ["accident", "Unfall"]] },
+    { "type": "match", "pairs": [["at first", "anfangs"], ["eventually", "schließlich"], ["luckily", "zum Glück"], ["unfortunately", "leider"], ["meanwhile", "inzwischen"], ["as soon as", "sobald"]] },
+    { "type": "translate", "de": "Unser Flug hatte drei Stunden Verspätung.", "answers": ["Our flight was delayed by three hours.", "Our flight was delayed for three hours.", "Our flight was delayed three hours.", "Our flight was three hours late."] },
+    { "type": "translate", "de": "Wir haben uns in der Stadt verlaufen.", "answers": ["We got lost in the city.", "We got lost in town.", "We got lost in the town."] },
+    { "type": "translate", "de": "Jemand hat meinen Geldbeutel gestohlen.", "answers": ["Someone stole my wallet.", "Somebody stole my wallet.", "Someone has stolen my wallet.", "Somebody has stolen my wallet.", "Someone's stolen my wallet."] },
+    { "type": "translate", "de": "Uns ist das Benzin ausgegangen.", "answers": ["We ran out of gas.", "We've run out of gas.", "We have run out of gas."] },
+    { "type": "cloze", "text": "Our car broke ___ in the middle of nowhere.", "answers": ["down"], "de": "Unser Auto hatte mitten im Nirgendwo eine Panne." },
+    { "type": "cloze", "text": "The plane took ___ two hours late.", "answers": ["off"], "de": "Das Flugzeug ist mit zwei Stunden Verspätung gestartet." },
+    { "type": "cloze", "text": "On the way to the airport, we got ___ in traffic.", "answers": ["stuck"], "de": "Auf dem Weg zum Flughafen sind wir im Stau stecken geblieben." },
+    { "type": "cloze", "text": "Our flight was ___ because of the storm.", "answers": ["canceled"], "de": "Unser Flug wurde wegen des Sturms gestrichen.", "hint": "cancel" },
+    { "type": "order", "de": "Wir fuhren gerade auf dem Highway, als das Auto plötzlich stehen blieb.", "answer": "We were driving on the highway when the car suddenly stopped.", "distractors": ["drove"] },
+    { "type": "order", "de": "Als wir ankamen, hatte das Konzert schon angefangen.", "answer": "When we arrived, the concert had already started.", "distractors": ["has"] },
+    { "type": "listen", "text": "As soon as we arrived at the hotel, it started to rain.", "de": "Gleich als wir im Hotel ankamen, fing es an zu regnen." },
+    { "type": "listen", "text": "No way! You lost your passport on the first day? That's awful!", "de": "Echt jetzt? Du hast am ersten Tag deinen Pass verloren? Das ist ja furchtbar!" }
+  ]
+}

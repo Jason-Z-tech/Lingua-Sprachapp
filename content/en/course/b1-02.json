@@ -1,0 +1,156 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-02",
+  "lang": "en",
+  "level": "B1",
+  "number": 2,
+  "title": "Media and Technology",
+  "title_de": "Medien und Technik",
+  "topic": "Handy, Internet und Nachrichten",
+  "goals": [
+    "Du kannst mit dem present perfect continuous sagen, wie lange du schon etwas machst: I've been using this app for two years.",
+    "Du weißt, wann du for und wann du since benutzt – beides heißt „seit“.",
+    "Du kannst present perfect simple und continuous unterscheiden: I've written three emails. – I've been writing emails all morning.",
+    "Du kannst über Handy, Apps, soziale Medien und Nachrichten sprechen."
+  ],
+  "vocab": [
+    { "id": "phone", "word": "phone", "alt": ["cell phone", "smartphone"], "de": "das Handy; das Telefon", "pos": "noun", "example": { "text": "I can't find my phone. Can you call me?", "de": "Ich finde mein Handy nicht. Kannst du mich anrufen?" }, "note": "Amerikanisch: phone oder cell phone. Achtung: handy heißt auf Englisch „praktisch“!" },
+    { "id": "app", "word": "app", "plural": "apps", "de": "die App", "pos": "noun", "example": { "text": "I've been using this app for a year.", "de": "Ich benutze diese App seit einem Jahr." } },
+    { "id": "download", "word": "download", "de": "herunterladen", "pos": "verb", "example": { "text": "You can download the app for free.", "de": "Du kannst die App kostenlos herunterladen." } },
+    { "id": "internet", "word": "internet", "de": "das Internet", "pos": "noun", "example": { "text": "I read about it on the internet.", "de": "Ich habe im Internet darüber gelesen." }, "note": "im Internet = on the internet (mit the)." },
+    { "id": "online", "word": "online", "de": "online; im Internet", "pos": "adv", "example": { "text": "I buy most of my clothes online.", "de": "Ich kaufe die meisten meiner Klamotten online." } },
+    { "id": "website", "word": "website", "de": "die Website", "pos": "noun", "example": { "text": "You can find all the times on the museum's website.", "de": "Alle Zeiten findest du auf der Website des Museums." } },
+    { "id": "laptop", "word": "laptop", "de": "der Laptop", "pos": "noun", "example": { "text": "I've been working on my laptop all day.", "de": "Ich arbeite schon den ganzen Tag am Laptop." } },
+    { "id": "device", "word": "device", "plural": "devices", "de": "das Gerät", "pos": "noun", "example": { "text": "How many devices do you have at home?", "de": "Wie viele Geräte hast du zu Hause?", "focus": "devices" } },
+    { "id": "screen", "word": "screen", "de": "der Bildschirm", "pos": "noun", "example": { "text": "The screen on my phone is broken.", "de": "Der Bildschirm von meinem Handy ist kaputt." } },
+    { "id": "screen-time", "word": "screen time", "de": "die Bildschirmzeit", "pos": "noun", "example": { "text": "My screen time is almost five hours a day!", "de": "Meine Bildschirmzeit liegt bei fast fünf Stunden am Tag!" } },
+    { "id": "a-day", "word": "a day", "de": "am Tag; pro Tag", "pos": "phrase", "example": { "text": "I check my email three times a day.", "de": "Ich schaue dreimal am Tag in meine E-Mails." }, "note": "Ohne per: twice a week, once a month, two hours a day." },
+    { "id": "charge", "word": "charge", "de": "aufladen", "pos": "verb", "example": { "text": "I need to charge my phone.", "de": "Ich muss mein Handy aufladen." } },
+    { "id": "battery", "word": "battery", "plural": "batteries", "de": "der Akku; die Batterie", "pos": "noun", "example": { "text": "My battery is low.", "de": "Mein Akku ist fast leer." } },
+    { "id": "password", "word": "password", "de": "das Passwort", "pos": "noun", "example": { "text": "I forgot my password again!", "de": "Ich habe schon wieder mein Passwort vergessen!" } },
+    { "id": "social-media", "word": "social media", "de": "die sozialen Medien", "pos": "noun", "example": { "text": "I've been spending too much time on social media.", "de": "Ich verbringe in letzter Zeit zu viel Zeit in den sozialen Medien." }, "note": "Ohne the: on social media." },
+    { "id": "post", "word": "post", "de": "posten; veröffentlichen", "pos": "verb", "example": { "text": "She posts a photo every day.", "de": "Sie postet jeden Tag ein Foto.", "focus": "posts" }, "note": "Auch Nomen: a post = ein Beitrag." },
+    { "id": "comment", "word": "comment", "de": "kommentieren; der Kommentar", "pos": "verb", "example": { "text": "A lot of people have commented on her video.", "de": "Viele Leute haben ihr Video kommentiert.", "focus": "commented" }, "note": "comment on something = etwas kommentieren." },
+    { "id": "follow", "word": "follow", "de": "folgen", "pos": "verb", "example": { "text": "How many people follow you?", "de": "Wie viele Leute folgen dir?" } },
+    { "id": "message", "word": "message", "de": "die Nachricht (persönlich)", "pos": "noun", "example": { "text": "I sent you a message an hour ago.", "de": "Ich habe dir vor einer Stunde eine Nachricht geschickt." }, "note": "message = Nachricht an eine Person (Chat, SMS). Die Nachrichten im Fernsehen = the news." },
+    { "id": "notification", "word": "notification", "de": "die Benachrichtigung", "pos": "noun", "example": { "text": "I've turned off all my notifications.", "de": "Ich habe alle meine Benachrichtigungen ausgeschaltet.", "focus": "notifications" } },
+    { "id": "turn-off", "word": "turn off", "de": "ausschalten", "pos": "verb", "example": { "text": "Please turn off your phones during the movie.", "de": "Bitte schaltet während des Films eure Handys aus." }, "note": "Gegenteil: turn on (einschalten). Mit Pronomen: turn it off." },
+    { "id": "the-news", "word": "the news", "de": "die Nachrichten", "pos": "noun", "example": { "text": "Did you watch the news last night?", "de": "Hast du gestern Abend die Nachrichten gesehen?" }, "note": "Immer Einzahl: The news is bad today. (nicht: are)" },
+    { "id": "newspaper", "word": "newspaper", "de": "die Zeitung", "pos": "noun", "example": { "text": "My grandfather still reads a newspaper every morning.", "de": "Mein Großvater liest immer noch jeden Morgen Zeitung." } },
+    { "id": "article", "word": "article", "de": "der Artikel", "pos": "noun", "example": { "text": "I read an interesting article about screen time.", "de": "Ich habe einen interessanten Artikel über Bildschirmzeit gelesen." } },
+    { "id": "information", "word": "information", "de": "die Informationen; die Auskunft", "pos": "noun", "example": { "text": "You can find a lot of information online.", "de": "Online findet man viele Informationen." }, "note": "Unzählbar: a lot of information, some information (nicht: informations)." },
+    { "id": "look-up", "word": "look up", "de": "nachschlagen; nachsehen", "pos": "verb", "example": { "text": "I looked up the word on my phone.", "de": "Ich habe das Wort auf meinem Handy nachgeschlagen.", "focus": "looked up" }, "note": "Mit Pronomen: look it up." },
+    { "id": "search", "word": "search", "de": "suchen (im Internet)", "pos": "verb", "example": { "text": "I searched for cheap flights online.", "de": "Ich habe online nach günstigen Flügen gesucht.", "focus": "searched" }, "note": "search for something = nach etwas suchen." },
+    { "id": "delete", "word": "delete", "de": "löschen", "pos": "verb", "example": { "text": "I've deleted all my old photos.", "de": "Ich habe alle meine alten Fotos gelöscht.", "focus": "deleted" } },
+    { "id": "update", "word": "update", "de": "aktualisieren", "pos": "verb", "example": { "text": "You need to update the app.", "de": "Du musst die App aktualisieren." }, "note": "Auch Nomen: an update = ein Update." },
+    { "id": "tv-show", "word": "TV show", "alt": ["show"], "de": "die Fernsehserie; die Sendung", "pos": "noun", "example": { "text": "We've been watching a great TV show this week.", "de": "Wir schauen diese Woche eine tolle Serie." } },
+    { "id": "podcast", "word": "podcast", "de": "der Podcast", "pos": "noun", "example": { "text": "I listen to a podcast on the way to work.", "de": "Auf dem Weg zur Arbeit höre ich einen Podcast." } },
+    { "id": "video-call", "word": "video call", "de": "der Videoanruf", "pos": "noun", "example": { "text": "I have a video call with my parents every Sunday.", "de": "Ich habe jeden Sonntag einen Videoanruf mit meinen Eltern." } },
+    { "id": "addicted", "word": "addicted", "de": "süchtig", "pos": "adj", "example": { "text": "I think I'm addicted to my phone.", "de": "Ich glaube, ich bin süchtig nach meinem Handy." }, "note": "addicted to something = süchtig nach etwas." },
+    { "id": "recently", "word": "recently", "de": "in letzter Zeit; vor Kurzem", "pos": "adv", "example": { "text": "Have you been sleeping well recently?", "de": "Hast du in letzter Zeit gut geschlafen?" } },
+    { "id": "lately", "word": "lately", "de": "in letzter Zeit", "pos": "adv", "example": { "text": "I've been really busy lately.", "de": "Ich habe in letzter Zeit echt viel zu tun." }, "note": "Steht meist am Satzende, oft mit dem present perfect (continuous)." },
+    { "id": "for", "word": "for", "de": "seit (Zeitdauer); für", "pos": "prep", "example": { "text": "I've lived here for three years.", "de": "Ich wohne seit drei Jahren hier." }, "note": "for + Zeitraum: for two hours, for a long time." },
+    { "id": "since", "word": "since", "de": "seit (Zeitpunkt)", "pos": "prep", "example": { "text": "I've been waiting since nine o'clock.", "de": "Ich warte seit neun Uhr." }, "note": "since + Zeitpunkt: since Monday, since 2020, since I was a kid." },
+    { "id": "instead-of", "word": "instead of", "de": "statt; anstatt", "pos": "prep", "example": { "text": "I read a book instead of watching TV.", "de": "Ich lese ein Buch, statt fernzusehen." }, "note": "Nach instead of steht die -ing-Form: instead of going." },
+    { "id": "connection", "word": "connection", "de": "die Verbindung", "pos": "noun", "example": { "text": "Sorry, the connection is really bad.", "de": "Sorry, die Verbindung ist richtig schlecht." } }
+  ],
+  "grammar": [
+    {
+      "id": "present-perfect-continuous",
+      "title": "Das present perfect continuous: I've been using …",
+      "blocks": [
+        { "type": "p", "text": "Mit dem present perfect continuous sagst du, dass etwas in der Vergangenheit angefangen hat und bis jetzt andauert. Im Deutschen benutzt man dafür oft einfach die Gegenwart mit „seit“ oder „schon“: Ich lerne seit zwei Jahren Englisch. – I've been learning English for two years." },
+        { "type": "table", "head": ["Satzart", "Bildung", "Beispiel"], "rows": [["positiv", "have/has + been + Verb-ing", "I've been waiting. – She's been working."], ["verneint", "haven't/hasn't + been + Verb-ing", "He hasn't been sleeping well."], ["Frage", "Have/Has … + been + Verb-ing?", "How long have you been waiting?"]] },
+        { "type": "p", "text": "Du benutzt es vor allem in zwei Situationen:" },
+        { "type": "list", "items": ["Etwas dauert bis jetzt an – oft mit for, since oder How long …?: I've been living in New York since 2023.", "Etwas ist gerade erst vorbei, und man sieht noch das Ergebnis: You look tired. – Yes, I've been working all day."] },
+        { "type": "tip", "text": "Der häufigste Fehler deutschsprachiger Lernender: I learn English since two years. Richtig ist: I've been learning English for two years. Bei „seit“ und „schon“ brauchst du im Englischen fast immer das present perfect!" },
+        { "type": "tip", "text": "Kurzformen beim Sprechen: I've been, you've been, we've been, she's been (= she has been)." },
+        { "type": "examples", "items": [{ "text": "I've been using this app for six months.", "de": "Ich benutze diese App seit sechs Monaten." }, { "text": "How long have you been waiting? – For twenty minutes.", "de": "Wie lange wartest du schon? – Seit zwanzig Minuten." }, { "text": "It's been raining all day.", "de": "Es regnet schon den ganzen Tag." }, { "text": "Jake hasn't been sleeping well lately.", "de": "Jake schläft in letzter Zeit nicht gut." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I've ___ waiting for you for an hour!", "answers": ["been"], "de": "Ich warte schon seit einer Stunde auf dich!" },
+        { "type": "cloze", "text": "How long have you been ___ this app?", "answers": ["using"], "de": "Wie lange benutzt du diese App schon?", "hint": "use" },
+        { "type": "cloze", "text": "She ___ been working on her laptop all morning.", "answers": ["has"], "de": "Sie arbeitet schon den ganzen Vormittag an ihrem Laptop." },
+        { "type": "cloze", "text": "You look tired. – Yes, I've been ___ all day.", "answers": ["working"], "de": "Du siehst müde aus. – Ja, ich habe den ganzen Tag gearbeitet.", "hint": "work" },
+        { "type": "translate", "de": "Ich lerne seit zwei Jahren Englisch.", "answers": ["I've been learning English for two years.", "I have been learning English for two years.", "I've been studying English for two years.", "I have been studying English for two years.", "I've learned English for two years.", "I have learned English for two years.", "I've studied English for two years.", "I have studied English for two years."] },
+        { "type": "translate", "de": "Wie lange wartest du schon?", "answers": ["How long have you been waiting?"] },
+        { "type": "order", "de": "Wir schauen seit drei Stunden fern.", "answer": "We've been watching TV for three hours.", "distractors": ["since"] }
+      ]
+    },
+    {
+      "id": "for-since",
+      "title": "for oder since? – beides heißt „seit“",
+      "blocks": [
+        { "type": "p", "text": "Das deutsche „seit“ hat im Englischen zwei Übersetzungen. Frag dich: Nenne ich eine Zeitdauer (wie lange?) oder einen Zeitpunkt (seit wann?)?" },
+        { "type": "table", "head": ["seit …", "for", "since"], "rows": [["Bedeutung", "Zeitdauer: wie lange?", "Zeitpunkt: seit wann?"], ["Beispiele", "for ten minutes, for two weeks, for a long time, for years", "since Monday, since 2020, since nine o'clock, since last summer"], ["Satz", "I've had this phone for two years.", "I've had this phone since 2024."]] },
+        { "type": "p", "text": "Nach since kann auch ein ganzer Satz im simple past stehen: I've been using social media since I was fourteen." },
+        { "type": "tip", "text": "Merkhilfe: for = for how long (Dauer), since = since when (Startpunkt). „Seit drei Tagen“ ist eine Dauer, also: for three days." },
+        { "type": "tip", "text": "„Seit wann …?“ fragst du meistens mit How long …?: How long have you been living here?" },
+        { "type": "examples", "items": [{ "text": "I've known Carlos for five years.", "de": "Ich kenne Carlos seit fünf Jahren." }, { "text": "We've been friends since college.", "de": "Wir sind seit dem College befreundet." }, { "text": "Lena's been working at the café since last spring.", "de": "Lena arbeitet seit letztem Frühling im Café." }, { "text": "I haven't seen him for a long time.", "de": "Ich habe ihn schon lange nicht mehr gesehen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I've lived in this apartment ___ 2021.", "answers": ["since"], "de": "Ich wohne seit 2021 in dieser Wohnung.", "hint": "for / since" },
+        { "type": "cloze", "text": "We've been waiting ___ twenty minutes.", "answers": ["for"], "de": "Wir warten seit zwanzig Minuten.", "hint": "for / since" },
+        { "type": "cloze", "text": "She's been using social media ___ she was twelve.", "answers": ["since"], "de": "Sie benutzt soziale Medien, seit sie zwölf ist.", "hint": "for / since" },
+        { "type": "cloze", "text": "I haven't had a video call with my parents ___ a long time.", "answers": ["for", "in"], "de": "Ich hatte schon lange keinen Videoanruf mehr mit meinen Eltern." },
+        { "type": "match", "pairs": [["for two hours", "seit zwei Stunden"], ["since Monday", "seit Montag"], ["for a week", "seit einer Woche"], ["since last year", "seit letztem Jahr"], ["for a long time", "seit Langem"], ["since I was a kid", "seit meiner Kindheit"]] },
+        { "type": "translate", "de": "Ich habe dieses Handy seit drei Jahren.", "answers": ["I've had this phone for three years.", "I have had this phone for three years.", "I've had this cell phone for three years.", "I have had this cell phone for three years.", "I've had this smartphone for three years.", "I have had this smartphone for three years."] }
+      ]
+    },
+    {
+      "id": "simple-or-continuous",
+      "title": "I've written oder I've been writing?",
+      "blocks": [
+        { "type": "p", "text": "Present perfect simple und continuous sind sich ähnlich. Der Unterschied liegt im Blick: Geht es um das Ergebnis oder um die Tätigkeit selbst?" },
+        { "type": "table", "head": ["present perfect simple", "present perfect continuous"], "rows": [["Ergebnis: Was ist fertig? Wie viel?", "Tätigkeit: Wie lange? Was hast du die ganze Zeit gemacht?"], ["I've written three emails.", "I've been writing emails all morning."], ["She's read two articles about it.", "She's been reading about it for hours."], ["How many photos have you posted?", "How long have you been posting photos?"]] },
+        { "type": "p", "text": "Manche Verben stehen fast nie in der -ing-Form, weil sie einen Zustand beschreiben und keine Tätigkeit. Mit ihnen nimmst du auch bei „seit“ das present perfect simple:" },
+        { "type": "list", "items": ["know: I've known her for years. (nicht: I've been knowing her)", "have (= besitzen): I've had this laptop since 2022.", "be: We've been friends for a long time.", "außerdem: like, love, want, believe, understand, need"] },
+        { "type": "tip", "text": "Zahlen und Mengen (three emails, two apps, how many …?) passen zum present perfect simple. Zeitdauer (all day, for hours, how long …?) passt zum continuous." },
+        { "type": "examples", "items": [{ "text": "I've been looking for my password for ten minutes!", "de": "Ich suche schon seit zehn Minuten mein Passwort!" }, { "text": "Finally! I've found it.", "de": "Endlich! Ich habe es gefunden." }, { "text": "Jake has deleted three apps this week.", "de": "Jake hat diese Woche drei Apps gelöscht." }, { "text": "He's been trying to spend less time on his phone.", "de": "Er versucht schon länger, weniger Zeit am Handy zu verbringen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I've ___ three messages to Emma today, but she hasn't answered.", "answers": ["sent"], "de": "Ich habe Emma heute drei Nachrichten geschickt, aber sie hat nicht geantwortet.", "hint": "send" },
+        { "type": "cloze", "text": "I've been ___ for my keys for half an hour!", "answers": ["looking"], "de": "Ich suche schon seit einer halben Stunde meine Schlüssel!", "hint": "look" },
+        { "type": "cloze", "text": "I've ___ Yuki since we were kids.", "answers": ["known"], "de": "Ich kenne Yuki seit unserer Kindheit.", "hint": "know" },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["I've known him for ten years.", "I've been knowing him for ten years.", "I know him for ten years."], "answer": 0, "explain": "know beschreibt einen Zustand – deshalb kein -ing. Und bei „seit“ brauchst du das present perfect." },
+        { "type": "translate", "de": "Ich habe heute schon drei Artikel gelesen.", "answers": ["I've already read three articles today.", "I have already read three articles today.", "I've read three articles today already.", "I have read three articles today already.", "I've read three articles already today.", "I have read three articles already today.", "I've read three articles today.", "I have read three articles today."] },
+        { "type": "translate", "de": "Ich arbeite schon den ganzen Tag am Laptop.", "answers": ["I've been working on my laptop all day.", "I have been working on my laptop all day.", "I've been working on the laptop all day.", "I have been working on the laptop all day.", "I've been working on my laptop the whole day.", "I have been working on my laptop the whole day.", "I've been on my laptop all day.", "I have been on my laptop all day."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Too Much Screen Time",
+    "title_de": "Zu viel Bildschirmzeit",
+    "lines": [
+      { "speaker": "Emma", "text": "Hi, Jake! You look tired. Are you OK?", "de": "Hi, Jake! Du siehst müde aus. Alles okay?" },
+      { "speaker": "Jake", "text": "Not really. I've been watching videos on my phone since midnight. I only slept four hours.", "de": "Nicht wirklich. Ich schaue seit Mitternacht Videos auf dem Handy. Ich habe nur vier Stunden geschlafen." },
+      { "speaker": "Emma", "text": "Oh no! How much time do you spend on your phone a day?", "de": "Oh nein! Wie viel Zeit verbringst du am Tag am Handy?" },
+      { "speaker": "Jake", "text": "My screen time is six hours a day. Most of it is social media.", "de": "Meine Bildschirmzeit liegt bei sechs Stunden am Tag. Das meiste davon sind soziale Medien." },
+      { "speaker": "Emma", "text": "Six hours! Don't you think that's too much?", "de": "Sechs Stunden! Findest du nicht, dass das zu viel ist?" },
+      { "speaker": "Jake", "text": "Yes, I do. Actually, I've been trying to use it less since last week. I've already deleted two apps.", "de": "Doch. Eigentlich versuche ich seit letzter Woche, es weniger zu benutzen. Ich habe schon zwei Apps gelöscht." },
+      { "speaker": "Emma", "text": "Good for you! I've been reading books on the subway lately instead of looking at my phone.", "de": "Super! Ich lese in letzter Zeit in der U-Bahn Bücher, statt aufs Handy zu schauen." },
+      { "speaker": "Jake", "text": "Really? But how do you know what's happening in the world?", "de": "Echt? Aber woher weißt du dann, was in der Welt los ist?" },
+      { "speaker": "Emma", "text": "I listen to a news podcast every morning. That's enough information for me.", "de": "Ich höre jeden Morgen einen Nachrichten-Podcast. Das sind genug Informationen für mich." },
+      { "speaker": "Jake", "text": "Maybe I should try that. But it's hard. I get a notification every five minutes!", "de": "Vielleicht sollte ich das auch mal probieren. Aber es ist schwer. Ich bekomme alle fünf Minuten eine Benachrichtigung!" },
+      { "speaker": "Emma", "text": "Then turn off your notifications! I did that a month ago, and I feel much better.", "de": "Dann schalt deine Benachrichtigungen aus! Ich habe das vor einem Monat gemacht, und mir geht es viel besser." },
+      { "speaker": "Jake", "text": "OK, I'll try. Oh, wait – I have a message from Carlos. He's been looking at apartments in Vermont online!", "de": "Okay, ich probier’s. Oh, warte – ich habe eine Nachricht von Carlos. Er schaut sich online Wohnungen in Vermont an!" },
+      { "speaker": "Emma", "text": "Ha! You see? You've been talking about less screen time for five minutes, and now you're on your phone again.", "de": "Ha! Siehst du? Du redest seit fünf Minuten von weniger Bildschirmzeit, und jetzt bist du schon wieder am Handy." },
+      { "speaker": "Jake", "text": "OK, OK. I'm turning it off now. Besides, my battery is low anyway.", "de": "Okay, okay. Ich schalte es jetzt aus. Außerdem ist mein Akku sowieso fast leer." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["download", "herunterladen"], ["delete", "löschen"], ["charge", "aufladen"], ["update", "aktualisieren"], ["follow", "folgen"], ["look up", "nachschlagen"]] },
+    { "type": "match", "pairs": [["message", "die Nachricht"], ["the news", "die Nachrichten"], ["newspaper", "die Zeitung"], ["screen", "der Bildschirm"], ["battery", "der Akku"], ["password", "das Passwort"]] },
+    { "type": "translate", "de": "Ich muss mein Handy aufladen.", "answers": ["I need to charge my phone.", "I need to charge my cell phone.", "I need to charge my smartphone.", "I have to charge my phone.", "I have to charge my cell phone.", "I have to charge my smartphone."] },
+    { "type": "translate", "de": "Hast du gestern Abend die Nachrichten gesehen?", "answers": ["Did you see the news last night?", "Did you watch the news last night?", "Did you see the news yesterday evening?", "Did you watch the news yesterday evening?"] },
+    { "type": "translate", "de": "Ich benutze diese App seit einem Jahr.", "answers": ["I've been using this app for a year.", "I have been using this app for a year.", "I've been using this app for one year.", "I have been using this app for one year.", "I've used this app for a year.", "I have used this app for a year.", "I've used this app for one year.", "I have used this app for one year."] },
+    { "type": "cloze", "text": "There's a lot of ___ on this website.", "answers": ["information"], "de": "Auf dieser Website gibt es viele Informationen." },
+    { "type": "cloze", "text": "Sorry, the ___ is bad. Can you hear me?", "answers": ["connection"], "de": "Sorry, die Verbindung ist schlecht. Kannst du mich hören?" },
+    { "type": "cloze", "text": "I've been really busy ___.", "answers": ["lately", "recently"], "de": "Ich hatte in letzter Zeit echt viel zu tun." },
+    { "type": "order", "de": "Ich verbringe zu viel Zeit in den sozialen Medien.", "answer": "I spend too much time on social media.", "distractors": ["many"] },
+    { "type": "order", "de": "Wie lange benutzt du schon diesen Laptop?", "answer": "How long have you been using this laptop?", "distractors": ["since"] },
+    { "type": "translate", "de": "Ich habe das Wort im Internet nachgeschlagen.", "answers": ["I looked up the word on the internet.", "I looked up the word online.", "I looked the word up on the internet.", "I looked the word up online."] },
+    { "type": "listen", "text": "I've been trying to spend less time on my phone, so I've turned off all my notifications.", "de": "Ich versuche schon länger, weniger Zeit am Handy zu verbringen, deshalb habe ich alle meine Benachrichtigungen ausgeschaltet." },
+    { "type": "listen", "text": "My grandfather doesn't use the internet. He's been reading the same newspaper for fifty years.", "de": "Mein Großvater benutzt das Internet nicht. Er liest seit fünfzig Jahren dieselbe Zeitung." }
+  ]
+}

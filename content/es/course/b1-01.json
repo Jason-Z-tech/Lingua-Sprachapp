@@ -1,0 +1,173 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-01",
+  "lang": "es",
+  "level": "B1",
+  "number": 1,
+  "title": "En mi opinión",
+  "title_de": "Meine Meinung",
+  "topic": "Meinungen äußern und begründen",
+  "goals": [
+    "Du kannst den presente de subjuntivo bilden – regelmäßig (hable, coma, viva) und bei wichtigen unregelmäßigen Verben (sea, vaya, haya, tenga, haga, pueda).",
+    "Du kannst deine Meinung sagen und weißt, wann Indikativ und wann subjuntivo folgt: creo que es … – no creo que sea …",
+    "Du kannst Argumente verbinden und abwägen: por un lado … por otro lado, además, sin embargo, aunque, por eso.",
+    "Du kannst zustimmen und widersprechen: estoy de acuerdo, tienes razón, depende, ¡qué va!"
+  ],
+  "vocab": [
+    { "id": "opinion", "word": "opinión", "article": "la", "gender": "f", "plural": "las opiniones", "de": "die Meinung", "pos": "noun", "example": { "text": "¿Cuál es tu opinión sobre este tema?", "de": "Was ist deine Meinung zu diesem Thema?" }, "note": "Mit Akzent in der Einzahl, ohne in der Mehrzahl: las opiniones." },
+    { "id": "en-mi-opinion", "word": "en mi opinión", "de": "meiner Meinung nach", "pos": "phrase", "example": { "text": "En mi opinión, la vida en el pueblo es más tranquila.", "de": "Meiner Meinung nach ist das Leben auf dem Dorf ruhiger." }, "note": "Kürzer und sehr häufig: Para mí, … (Für mich …)." },
+    { "id": "creer", "word": "creer", "de": "glauben; meinen", "pos": "verb", "forms": "creo, crees, cree, creemos, creéis, creen", "example": { "text": "Creo que tienes razón.", "de": "Ich glaube, du hast recht.", "focus": "creo" }, "note": "Creo que + Indikativ. Verneint: No creo que + subjuntivo." },
+    { "id": "opinar", "word": "opinar", "de": "meinen; der Meinung sein", "pos": "verb", "example": { "text": "¿Tú qué opinas?", "de": "Was meinst du?", "focus": "opinas" }, "note": "¿Qué opinas de …? = Was hältst du von …?" },
+    { "id": "parecer", "word": "parecer", "de": "scheinen; finden (me parece …)", "pos": "verb", "forms": "me parece, te parece, le parece, nos parece, os parece, les parece", "example": { "text": "Me parece que los pisos del centro son muy caros.", "de": "Ich finde, die Wohnungen im Zentrum sind sehr teuer.", "focus": "parece" }, "note": "Funktioniert wie gustar. ¿Qué te parece? = Was hältst du davon? Nicht verwechseln mit parecerse a (ähnlich sehen)." },
+    { "id": "dudar", "word": "dudar", "de": "bezweifeln; zweifeln", "pos": "verb", "example": { "text": "Dudo que Diego venga hoy.", "de": "Ich bezweifle, dass Diego heute kommt.", "focus": "dudo" }, "note": "Nach dudar que steht immer der subjuntivo." },
+    { "id": "estar-de-acuerdo", "word": "estar de acuerdo", "de": "einverstanden sein; derselben Meinung sein", "pos": "phrase", "example": { "text": "Estoy de acuerdo contigo.", "de": "Ich bin deiner Meinung.", "focus": "estoy de acuerdo" }, "note": "Mit jemandem: estar de acuerdo con alguien. Verneint: No estoy de acuerdo. De acuerdo allein heißt „einverstanden, okay“." },
+    { "id": "tener-razon", "word": "tener razón", "de": "recht haben", "pos": "phrase", "example": { "text": "Tienes razón: en Madrid hay mucho tráfico.", "de": "Du hast recht: In Madrid gibt es viel Verkehr.", "focus": "tienes razón" }, "note": "Im Spanischen „hat“ man den Grund: tener razón. Gegenteil: no tener razón." },
+    { "id": "depender", "word": "depender", "de": "abhängen (von)", "pos": "verb", "example": { "text": "¿Es mejor vivir en el centro? – Depende.", "de": "Ist es besser, im Zentrum zu wohnen? – Kommt drauf an.", "focus": "depende" }, "note": "¡Depende! = Kommt drauf an! Mit Präposition de: Depende de ti. = Das hängt von dir ab." },
+    { "id": "por-un-lado", "word": "por un lado", "de": "einerseits", "pos": "phrase", "example": { "text": "Por un lado, el pueblo es muy tranquilo; por otro lado, no hay trabajo.", "de": "Einerseits ist das Dorf sehr ruhig, andererseits gibt es keine Arbeit." } },
+    { "id": "por-otro-lado", "word": "por otro lado", "de": "andererseits", "pos": "phrase", "example": { "text": "Por otro lado, en la ciudad hay más trabajo.", "de": "Andererseits gibt es in der Stadt mehr Arbeit." }, "note": "Oft kürzer: por otro. Por un lado … por otro (lado) … = einerseits … andererseits." },
+    { "id": "sin-embargo", "word": "sin embargo", "de": "jedoch; trotzdem", "pos": "phrase", "example": { "text": "Madrid es una ciudad cara. Sin embargo, me encanta vivir aquí.", "de": "Madrid ist eine teure Stadt. Trotzdem lebe ich sehr gern hier." }, "note": "Steht meist am Satzanfang mit Komma: Sin embargo, …" },
+    { "id": "ademas", "word": "además", "de": "außerdem; zudem", "pos": "adv", "example": { "text": "El piso es bonito y, además, es barato.", "de": "Die Wohnung ist schön und außerdem günstig." } },
+    { "id": "aunque", "word": "aunque", "de": "obwohl", "pos": "conj", "example": { "text": "Aunque vivo en Madrid, prefiero el campo.", "de": "Obwohl ich in Madrid wohne, mag ich das Land lieber." }, "note": "Bei Tatsachen steht danach der Indikativ: Aunque llueve, salgo. (Es regnet wirklich.)" },
+    { "id": "por-eso", "word": "por eso", "de": "deshalb; darum", "pos": "phrase", "example": { "text": "En el pueblo no hay trabajo. Por eso muchos jóvenes van a la ciudad.", "de": "Im Dorf gibt es keine Arbeit. Deshalb gehen viele junge Leute in die Stadt." } },
+    { "id": "en-cambio", "word": "en cambio", "de": "dagegen; hingegen", "pos": "phrase", "example": { "text": "A Lucía le encanta la ciudad. Jonas, en cambio, prefiere el campo.", "de": "Lucía liebt die Stadt. Jonas dagegen mag das Land lieber." } },
+    { "id": "sobre-todo", "word": "sobre todo", "de": "vor allem", "pos": "phrase", "example": { "text": "Me gusta Madrid, sobre todo por la noche.", "de": "Ich mag Madrid, vor allem abends." } },
+    { "id": "es-decir", "word": "es decir", "de": "das heißt", "pos": "phrase", "example": { "text": "Vivo en el centro, es decir, cerca de la Puerta del Sol.", "de": "Ich wohne im Zentrum, das heißt in der Nähe der Puerta del Sol." } },
+    { "id": "estar-a-favor-de", "word": "estar a favor de", "de": "dafür sein; für etwas sein", "pos": "phrase", "example": { "text": "Estoy a favor de más parques en la ciudad.", "de": "Ich bin für mehr Parks in der Stadt.", "focus": "estoy a favor de" }, "note": "Kurz: ¿Estás a favor o en contra? = Bist du dafür oder dagegen?" },
+    { "id": "estar-en-contra-de", "word": "estar en contra de", "de": "dagegen sein; gegen etwas sein", "pos": "phrase", "example": { "text": "Muchos vecinos están en contra de los pisos turísticos.", "de": "Viele Nachbarn sind gegen Ferienwohnungen.", "focus": "están en contra de" } },
+    { "id": "punto-de-vista", "word": "punto de vista", "article": "el", "gender": "m", "plural": "los puntos de vista", "de": "der Standpunkt; die Sichtweise", "pos": "noun", "example": { "text": "Desde mi punto de vista, es una buena idea.", "de": "Aus meiner Sicht ist das eine gute Idee." }, "note": "desde mi punto de vista = aus meiner Sicht." },
+    { "id": "ventaja", "word": "ventaja", "article": "la", "gender": "f", "plural": "las ventajas", "de": "der Vorteil", "pos": "noun", "example": { "text": "Vivir en el centro tiene muchas ventajas.", "de": "Im Zentrum zu wohnen hat viele Vorteile.", "focus": "ventajas" } },
+    { "id": "desventaja", "word": "desventaja", "article": "la", "gender": "f", "plural": "las desventajas", "de": "der Nachteil", "pos": "noun", "example": { "text": "La desventaja es que los pisos son muy caros.", "de": "Der Nachteil ist, dass die Wohnungen sehr teuer sind." }, "note": "Ventajas y desventajas = Vor- und Nachteile." },
+    { "id": "tema", "word": "tema", "article": "el", "gender": "m", "plural": "los temas", "de": "das Thema", "pos": "noun", "example": { "text": "Es un tema muy interesante.", "de": "Das ist ein sehr interessantes Thema." }, "note": "Endet auf -a, ist aber männlich: el tema – wie el problema und el clima." },
+    { "id": "problema", "word": "problema", "article": "el", "gender": "m", "plural": "los problemas", "de": "das Problem", "pos": "noun", "example": { "text": "El tráfico es un problema muy grande en Madrid.", "de": "Der Verkehr ist ein sehr großes Problem in Madrid." }, "note": "Männlich, obwohl es auf -a endet: el problema, un problema." },
+    { "id": "solucion", "word": "solución", "article": "la", "gender": "f", "plural": "las soluciones", "de": "die Lösung", "pos": "noun", "example": { "text": "No creo que sea una buena solución.", "de": "Ich glaube nicht, dass das eine gute Lösung ist." } },
+    { "id": "sobre", "word": "sobre", "de": "über (ein Thema); auf", "pos": "prep", "example": { "text": "Lucía escribe un artículo sobre la vida en Madrid.", "de": "Lucía schreibt einen Artikel über das Leben in Madrid." }, "note": "hablar sobre / de algo = über etwas sprechen. Auch örtlich: sobre la mesa = auf dem Tisch." },
+    { "id": "debate", "word": "debate", "article": "el", "gender": "m", "plural": "los debates", "de": "die Debatte; die Diskussion", "pos": "noun", "example": { "text": "Esta noche hay un debate en la tele.", "de": "Heute Abend gibt es eine Diskussion im Fernsehen." } },
+    { "id": "discutir", "word": "discutir", "de": "diskutieren; (sich) streiten", "pos": "verb", "example": { "text": "Mis amigos y yo discutimos a menudo sobre fútbol.", "de": "Meine Freunde und ich diskutieren oft über Fußball.", "focus": "discutimos" }, "note": "Kann auch „streiten“ heißen: Mis vecinos discuten mucho. = Meine Nachbarn streiten viel." },
+    { "id": "convencer", "word": "convencer", "de": "überzeugen", "pos": "verb", "forms": "convenzo, convences, convence, convencemos, convencéis, convencen", "example": { "text": "No me convence esa idea.", "de": "Diese Idee überzeugt mich nicht.", "focus": "convence" }, "note": "ich-Form mit z: convenzo – deshalb auch im subjuntivo: que convenza." },
+    { "id": "cierto", "word": "cierto", "alt": [ "cierta" ], "de": "wahr; richtig", "pos": "adj", "example": { "text": "Es cierto que el centro es caro.", "de": "Es stimmt, dass das Zentrum teuer ist." }, "note": "Es cierto que + Indikativ. Verneint: No es cierto que + subjuntivo." },
+    { "id": "exacto", "word": "¡exacto!", "de": "genau!", "pos": "interj", "example": { "text": "¿Entonces prefieres vivir en el campo? – ¡Exacto!", "de": "Du willst also lieber auf dem Land leben? – Genau!", "focus": "exacto" } },
+    { "id": "que-va", "word": "¡qué va!", "de": "ach was!; überhaupt nicht!", "pos": "interj", "example": { "text": "¿Es caro vivir en el pueblo? – ¡Qué va! Es muy barato.", "de": "Ist es teuer, auf dem Dorf zu wohnen? – Ach was! Es ist sehr billig.", "focus": "qué va" }, "note": "Umgangssprachlich – ein kräftiges Nein." },
+    { "id": "tranquilidad", "word": "tranquilidad", "article": "la", "gender": "f", "de": "die Ruhe", "pos": "noun", "example": { "text": "En el pueblo hay mucha tranquilidad.", "de": "Im Dorf hat man viel Ruhe." }, "note": "Passt zu tranquilo (ruhig)." },
+    { "id": "trafico", "word": "tráfico", "article": "el", "gender": "m", "de": "der Verkehr", "pos": "noun", "example": { "text": "Por la mañana hay mucho tráfico en el centro.", "de": "Morgens ist im Zentrum viel Verkehr." } },
+    { "id": "ambiente", "word": "ambiente", "article": "el", "gender": "m", "de": "die Atmosphäre; die Stimmung", "pos": "noun", "example": { "text": "Me encanta el ambiente de los bares de Madrid.", "de": "Ich liebe die Stimmung in den Bars von Madrid." }, "note": "El medio ambiente heißt „die Umwelt“ – mehr dazu in Lektion 3." },
+    { "id": "estres", "word": "estrés", "article": "el", "gender": "m", "de": "der Stress", "pos": "noun", "example": { "text": "En la ciudad mucha gente tiene estrés.", "de": "In der Stadt haben viele Leute Stress." } },
+    { "id": "calidad-de-vida", "word": "calidad de vida", "article": "la", "gender": "f", "de": "die Lebensqualität", "pos": "noun", "example": { "text": "Para mí, la calidad de vida es mejor en el campo.", "de": "Für mich ist die Lebensqualität auf dem Land besser." }, "note": "la calidad = die Qualität." },
+    { "id": "comodo", "word": "cómodo", "alt": [ "cómoda" ], "de": "bequem; praktisch", "pos": "adj", "example": { "text": "Con el metro, vivir en Madrid es muy cómodo.", "de": "Mit der U-Bahn ist das Leben in Madrid sehr bequem." } },
+    { "id": "peligroso", "word": "peligroso", "alt": [ "peligrosa" ], "de": "gefährlich", "pos": "adj", "example": { "text": "No creo que este barrio sea peligroso.", "de": "Ich glaube nicht, dass dieses Viertel gefährlich ist." } }
+  ],
+  "grammar": [
+    {
+      "id": "subjuntivo-formas", "title": "Der presente de subjuntivo: so bildest du ihn",
+      "blocks": [
+        { "type": "p", "text": "Bis jetzt hast du fast immer den Indikativ benutzt – die Form für Tatsachen: Diego trabaja en un hospital. Das Spanische hat aber noch einen zweiten Modus, den subjuntivo. Er steht vor allem in Nebensätzen mit que, wenn es nicht um eine sichere Tatsache geht, sondern um Zweifel, Wünsche, Gefühle oder Bewertungen: No creo que Diego trabaje hoy. (Ich glaube nicht, dass Diego heute arbeitet.) Im Deutschen gibt es dafür keine eigene Form – du übersetzt einfach mit dem normalen Präsens." },
+        { "type": "p", "text": "Die Bildung geht in drei Schritten:" },
+        { "type": "list", "items": [ "1. Nimm die ich-Form im Präsens: hablo, como, vivo.", "2. Streich das -o: habl-, com-, viv-.", "3. Hänge die „vertauschten“ Endungen an: -ar-Verben bekommen Endungen mit e, -er- und -ir-Verben Endungen mit a." ] },
+        { "type": "table", "head": [ "Person", "hablar", "comer", "vivir" ], "rows": [ [ "yo", "hable", "coma", "viva" ], [ "tú", "hables", "comas", "vivas" ], [ "él / ella / usted", "hable", "coma", "viva" ], [ "nosotros / nosotras", "hablemos", "comamos", "vivamos" ], [ "vosotros / vosotras", "habléis", "comáis", "viváis" ], [ "ellos / ellas / ustedes", "hablen", "coman", "vivan" ] ] },
+        { "type": "tip", "text": "Merkhilfe: Die Vokale tauschen die Plätze. Im Indikativ hat hablar ein a (hablas), im subjuntivo ein e (hables). Comer und vivir haben im Indikativ ein e (comes, vives), im subjuntivo ein a (comas, vivas). Die yo- und die él-Form sind im subjuntivo immer gleich: que yo hable, que él hable." },
+        { "type": "p", "text": "Weil du von der ich-Form ausgehst, sind viele „unregelmäßige“ Verben im subjuntivo ganz regelmäßig: Was in tengo, hago oder digo steckt, steckt auch im subjuntivo – und zwar in allen Personen." },
+        { "type": "table", "head": [ "Infinitiv", "ich-Form (Präsens)", "subjuntivo" ], "rows": [ [ "tener", "tengo", "tenga, tengas, tenga …" ], [ "hacer", "hago", "haga, hagas, haga …" ], [ "decir", "digo", "diga, digas, diga …" ], [ "salir", "salgo", "salga, salgas, salga …" ], [ "poner", "pongo", "ponga, pongas, ponga …" ], [ "venir", "vengo", "venga, vengas, venga …" ], [ "conocer", "conozco", "conozca, conozcas, conozca …" ], [ "ver", "veo", "vea, veas, vea …" ] ] },
+        { "type": "p", "text": "Verben mit Stammwechsel (o → ue, e → ie) wechseln wie im Präsens – nur nosotros und vosotros behalten den normalen Stamm:" },
+        { "type": "table", "head": [ "Person", "poder (o → ue)", "querer (e → ie)" ], "rows": [ [ "yo", "pueda", "quiera" ], [ "tú", "puedas", "quieras" ], [ "él / ella / usted", "pueda", "quiera" ], [ "nosotros / nosotras", "podamos", "queramos" ], [ "vosotros / vosotras", "podáis", "queráis" ], [ "ellos / ellas / ustedes", "puedan", "quieran" ] ] },
+        { "type": "tip", "text": "Genauso: pensar → piense, volver → vuelva, encontrar → encuentre. Bei pedir und dormir ändert sich der Stamm auch bei nosotros/vosotros: pidamos, durmamos." },
+        { "type": "p", "text": "Einige sehr wichtige Verben sind ganz unregelmäßig. Diese Formen lernst du am besten auswendig – du brauchst sie ständig. Tener, hacer und poder stehen zum Vergleich daneben:" },
+        { "type": "table", "head": [ "Person", "ser", "ir", "haber" ], "rows": [ [ "yo", "sea", "vaya", "haya" ], [ "tú", "seas", "vayas", "hayas" ], [ "él / ella / usted", "sea", "vaya", "haya" ], [ "nosotros / nosotras", "seamos", "vayamos", "hayamos" ], [ "vosotros / vosotras", "seáis", "vayáis", "hayáis" ], [ "ellos / ellas / ustedes", "sean", "vayan", "hayan" ] ] },
+        { "type": "table", "head": [ "Person", "tener", "hacer", "poder" ], "rows": [ [ "yo", "tenga", "haga", "pueda" ], [ "tú", "tengas", "hagas", "puedas" ], [ "él / ella / usted", "tenga", "haga", "pueda" ], [ "nosotros / nosotras", "tengamos", "hagamos", "podamos" ], [ "vosotros / vosotras", "tengáis", "hagáis", "podáis" ], [ "ellos / ellas / ustedes", "tengan", "hagan", "puedan" ] ] },
+        { "type": "tip", "text": "Hay (es gibt) wird im subjuntivo zu haya: No creo que haya mucho tráfico. Außerdem wichtig: estar → esté, estés, esté, estemos, estéis, estén; saber → sepa; dar → dé." },
+        { "type": "tip", "text": "Damit die Aussprache gleich bleibt, ändert sich manchmal die Schreibung: buscar → busque, llegar → llegue, empezar → empiece." },
+        { "type": "examples", "items": [ { "text": "No creo que Jonas tenga tiempo hoy.", "de": "Ich glaube nicht, dass Jonas heute Zeit hat." }, { "text": "Dudo que el piso sea barato.", "de": "Ich bezweifle, dass die Wohnung günstig ist." }, { "text": "No creo que vayamos al cine esta noche.", "de": "Ich glaube nicht, dass wir heute Abend ins Kino gehen." }, { "text": "No creo que haya mucho tráfico ahora.", "de": "Ich glaube nicht, dass jetzt viel Verkehr ist." }, { "text": "Dudo que Marta pueda venir.", "de": "Ich bezweifle, dass Marta kommen kann." }, { "text": "No creo que mis padres vivan en Madrid algún día.", "de": "Ich glaube nicht, dass meine Eltern irgendwann in Madrid wohnen." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "No creo que Lucía ___ hoy.", "answers": [ "trabaje" ], "de": "Ich glaube nicht, dass Lucía heute arbeitet.", "hint": "trabajar" },
+        { "type": "cloze", "text": "Dudo que tú ___ razón.", "answers": [ "tengas" ], "de": "Ich bezweifle, dass du recht hast.", "hint": "tener" },
+        { "type": "cloze", "text": "No creo que el piso ___ caro.", "answers": [ "sea" ], "de": "Ich glaube nicht, dass die Wohnung teuer ist.", "hint": "ser" },
+        { "type": "cloze", "text": "No creo que ___ mucho tráfico a esta hora.", "answers": [ "haya" ], "de": "Ich glaube nicht, dass um diese Uhrzeit viel Verkehr ist.", "hint": "haber – hay" },
+        { "type": "cloze", "text": "Dudo que Diego ___ venir esta noche.", "answers": [ "pueda" ], "de": "Ich bezweifle, dass Diego heute Abend kommen kann.", "hint": "poder" },
+        { "type": "cloze", "text": "No creo que nosotros ___ a la playa mañana.", "answers": [ "vayamos" ], "de": "Ich glaube nicht, dass wir morgen an den Strand fahren.", "hint": "ir" },
+        { "type": "cloze", "text": "No creo que Marta ___ la cena hoy.", "answers": [ "haga" ], "de": "Ich glaube nicht, dass Marta heute das Abendessen macht.", "hint": "hacer" },
+        { "type": "cloze", "text": "Dudo que vosotros ___ mucho café.", "answers": [ "bebáis" ], "de": "Ich bezweifle, dass ihr viel Kaffee trinkt.", "hint": "beber" },
+        { "type": "translate", "de": "Ich glaube nicht, dass das Zentrum gefährlich ist.", "answers": [ "No creo que el centro sea peligroso.", "Yo no creo que el centro sea peligroso.", "No pienso que el centro sea peligroso.", "Yo no pienso que el centro sea peligroso." ] },
+        { "type": "order", "de": "Ich bezweifle, dass sie heute Zeit hat.", "answer": "Dudo que tenga tiempo hoy.", "distractors": [ "tiene" ] }
+      ]
+    },
+    {
+      "id": "creo-que-no-creo-que", "title": "Creo que … oder No creo que …? Indikativ und subjuntivo",
+      "blocks": [
+        { "type": "p", "text": "Wenn du sagst, was du denkst, ist das für dich eine Tatsache. Deshalb steht nach creo que, pienso que, me parece que und estoy seguro de que der Indikativ. Sobald du verneinst oder zweifelst, ist es keine Tatsache mehr – dann kommt der subjuntivo." },
+        { "type": "table", "head": [ "Indikativ: du bist dir sicher", "subjuntivo: Verneinung oder Zweifel" ], "rows": [ [ "Creo que el piso es caro.", "No creo que el piso sea caro." ], [ "Pienso que tienes razón.", "No pienso que tengas razón." ], [ "Me parece que hay mucho tráfico.", "No me parece que haya mucho tráfico." ], [ "Es cierto que el pueblo es tranquilo.", "No es cierto que el pueblo sea tranquilo." ], [ "Es verdad que Marta vive cerca.", "No es verdad que Marta viva cerca." ], [ "Estoy seguro de que Diego viene.", "Dudo que Diego venga." ] ] },
+        { "type": "tip", "text": "Faustregel: Kein no und kein Zweifel → Indikativ. No creo que, no pienso que, no me parece que, no es cierto que, dudo que → subjuntivo." },
+        { "type": "tip", "text": "In Fragen steht meist der Indikativ: ¿Crees que es una buena idea? (Glaubst du, dass es eine gute Idee ist?)" },
+        { "type": "examples", "items": [ { "text": "Creo que vivir en el centro es muy cómodo.", "de": "Ich glaube, im Zentrum zu wohnen ist sehr bequem." }, { "text": "No creo que vivir en un pueblo sea aburrido.", "de": "Ich glaube nicht, dass es langweilig ist, auf dem Dorf zu wohnen." }, { "text": "Pienso que Lucía tiene razón.", "de": "Ich denke, Lucía hat recht." }, { "text": "No pienso que Jonas quiera volver a Viena.", "de": "Ich glaube nicht, dass Jonas nach Wien zurückwill." }, { "text": "Me parece que el tráfico es el problema más grande.", "de": "Ich finde, der Verkehr ist das größte Problem." }, { "text": "Dudo que haya una solución fácil.", "de": "Ich bezweifle, dass es eine einfache Lösung gibt." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Creo que Diego ___ razón.", "answers": [ "tiene" ], "de": "Ich glaube, Diego hat recht.", "hint": "tener" },
+        { "type": "cloze", "text": "No creo que Diego ___ razón.", "answers": [ "tenga" ], "de": "Ich glaube nicht, dass Diego recht hat.", "hint": "tener" },
+        { "type": "cloze", "text": "Pienso que el pueblo ___ muy tranquilo.", "answers": [ "es" ], "de": "Ich denke, das Dorf ist sehr ruhig.", "hint": "ser" },
+        { "type": "cloze", "text": "No pienso que la ciudad ___ peligrosa.", "answers": [ "sea" ], "de": "Ich glaube nicht, dass die Stadt gefährlich ist.", "hint": "ser" },
+        { "type": "cloze", "text": "Me parece que ___ mucho estrés en la ciudad.", "answers": [ "hay" ], "de": "Ich finde, in der Stadt gibt es viel Stress.", "hint": "haber – hay" },
+        { "type": "cloze", "text": "Dudo que Marta ___ al cine con nosotros.", "answers": [ "vaya" ], "de": "Ich bezweifle, dass Marta mit uns ins Kino geht.", "hint": "ir" },
+        { "type": "choice", "prompt": "Welche Form passt? No creo que Jonas ___ en casa.", "options": [ "está", "esté", "estar" ], "answer": 1, "explain": "Nach no creo que steht der subjuntivo: esté." },
+        { "type": "translate", "de": "Ich glaube, dass du recht hast.", "answers": [ "Creo que tienes razón.", "Yo creo que tienes razón.", "Creo que tú tienes razón.", "Pienso que tienes razón.", "Yo pienso que tienes razón." ] },
+        { "type": "translate", "de": "Ich glaube nicht, dass das eine gute Idee ist.", "answers": [ "No creo que sea una buena idea.", "Yo no creo que sea una buena idea.", "No pienso que sea una buena idea.", "Yo no pienso que sea una buena idea.", "No creo que esto sea una buena idea.", "No creo que eso sea una buena idea." ] },
+        { "type": "order", "de": "Ich bezweifle, dass es viel Verkehr gibt.", "answer": "Dudo que haya mucho tráfico.", "distractors": [ "hay" ] }
+      ]
+    },
+    {
+      "id": "argumentar", "title": "Argumentieren: Meinung, Gründe, Zustimmung",
+      "blocks": [
+        { "type": "p", "text": "Eine Meinung überzeugt mehr, wenn du sie einleitest, begründest und auch die Gegenseite nennst. Diese Ausdrücke helfen dir dabei:" },
+        { "type": "table", "head": [ "Wofür?", "Spanisch", "Deutsch" ], "rows": [ [ "Meinung einleiten", "En mi opinión, … / Para mí, … / Desde mi punto de vista, …", "Meiner Meinung nach … / Für mich … / Aus meiner Sicht …" ], [ "abwägen", "Por un lado, … Por otro lado, …", "Einerseits … andererseits …" ], [ "ergänzen", "Además, … / sobre todo …", "Außerdem … / vor allem …" ], [ "Gegensatz", "Sin embargo, … / … en cambio …", "Jedoch … / … dagegen …" ], [ "Einschränkung", "Aunque …", "Obwohl …" ], [ "Grund", "… porque …", "… weil …" ], [ "Folge", "Por eso …", "Deshalb …" ] ] },
+        { "type": "tip", "text": "Nach aunque steht bei Tatsachen der Indikativ: Aunque el piso es pequeño, me gusta. (Die Wohnung ist wirklich klein.)" },
+        { "type": "p", "text": "Und so reagierst du auf die Meinung von anderen:" },
+        { "type": "table", "head": [ "Reaktion", "Spanisch", "Deutsch" ], "rows": [ [ "zustimmen", "Estoy de acuerdo (contigo). / Tienes razón. / ¡Exacto!", "Ich bin deiner Meinung. / Du hast recht. / Genau!" ], [ "teilweise", "Depende. / Sí, pero … / Bueno, en parte sí.", "Kommt drauf an. / Ja, aber … / Na ja, teilweise schon." ], [ "widersprechen", "No estoy de acuerdo. / No tienes razón. / ¡Qué va!", "Ich sehe das anders. / Da hast du nicht recht. / Ach was!" ], [ "nachfragen", "¿Tú qué opinas? / ¿Qué te parece?", "Was meinst du? / Was hältst du davon?" ] ] },
+        { "type": "tip", "text": "Höflich widersprechen: Entiendo tu punto de vista, pero … (Ich verstehe deinen Standpunkt, aber …). Entender heißt „verstehen“ – wie comprender." },
+        { "type": "examples", "items": [ { "text": "Por un lado, el centro es muy cómodo. Por otro lado, hay mucho tráfico.", "de": "Einerseits ist das Zentrum sehr bequem, andererseits gibt es viel Verkehr." }, { "text": "Me gusta mi barrio. Además, está cerca del trabajo.", "de": "Ich mag mein Viertel. Außerdem ist es nah an der Arbeit." }, { "text": "El pueblo es muy bonito. Sin embargo, no hay trabajo.", "de": "Das Dorf ist sehr schön. Allerdings gibt es keine Arbeit." }, { "text": "Aunque Madrid es una ciudad cara, la calidad de vida es buena.", "de": "Obwohl Madrid eine teure Stadt ist, ist die Lebensqualität gut." }, { "text": "Lucía prefiere la ciudad. Marta, en cambio, prefiere la montaña.", "de": "Lucía mag die Stadt lieber. Marta dagegen lieber die Berge." }, { "text": "¿Vivir en el campo? Depende. Para mí, sobre todo es importante tener trabajo.", "de": "Auf dem Land leben? Kommt drauf an. Für mich ist vor allem wichtig, Arbeit zu haben." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Por un lado, el piso es grande. Por otro ___, está lejos del centro.", "answers": [ "lado" ], "de": "Einerseits ist die Wohnung groß, andererseits ist sie weit weg vom Zentrum." },
+        { "type": "cloze", "text": "El barrio es bonito y, ___, es barato.", "answers": [ "además" ], "de": "Das Viertel ist schön und außerdem günstig." },
+        { "type": "cloze", "text": "___ hace frío, vamos a la playa.", "answers": [ "Aunque" ], "de": "Obwohl es kalt ist, gehen wir an den Strand." },
+        { "type": "cloze", "text": "No hay trabajo en el pueblo. Por ___ me voy a la ciudad.", "answers": [ "eso" ], "de": "Im Dorf gibt es keine Arbeit. Deshalb gehe ich in die Stadt." },
+        { "type": "cloze", "text": "Estoy de ___ contigo.", "answers": [ "acuerdo" ], "de": "Ich bin deiner Meinung." },
+        { "type": "cloze", "text": "Tienes ___: el piso es muy caro.", "answers": [ "razón" ], "de": "Du hast recht: Die Wohnung ist sehr teuer." },
+        { "type": "match", "pairs": [ [ "estoy de acuerdo", "ich bin einverstanden" ], [ "tienes razón", "du hast recht" ], [ "depende", "kommt drauf an" ], [ "¡qué va!", "ach was!" ], [ "sin embargo", "jedoch" ], [ "además", "außerdem" ] ] },
+        { "type": "translate", "de": "Einerseits ist die Stadt teuer, andererseits gibt es viel Arbeit.", "answers": [ "Por un lado, la ciudad es cara; por otro lado, hay mucho trabajo.", "Por un lado, la ciudad es cara; por otro, hay mucho trabajo.", "Por un lado la ciudad es cara y por otro lado hay mucho trabajo.", "Por un lado la ciudad es cara y por otro hay mucho trabajo." ] },
+        { "type": "order", "de": "Obwohl es teuer ist, gefällt mir das Viertel.", "answer": "Aunque es caro, me gusta el barrio." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿Ciudad o pueblo?",
+    "title_de": "Stadt oder Dorf?",
+    "lines": [
+      { "speaker": "Lucía", "text": "Chicos, estoy escribiendo un artículo para el periódico sobre la vida en la ciudad y en los pueblos. ¿Vosotros qué opináis?", "de": "Leute, ich schreibe gerade einen Artikel für die Zeitung über das Leben in der Stadt und auf dem Dorf. Was meint ihr?" },
+      { "speaker": "Jonas", "text": "En mi opinión, la ciudad es mucho mejor. Hay trabajo, cines, museos… y con el metro todo es muy cómodo.", "de": "Meiner Meinung nach ist die Stadt viel besser. Es gibt Arbeit, Kinos, Museen … und mit der U-Bahn ist alles sehr bequem." },
+      { "speaker": "Marta", "text": "No estoy de acuerdo. Por un lado, es verdad que hay más trabajo. Por otro lado, hay mucho tráfico y la gente tiene mucho estrés.", "de": "Da bin ich anderer Meinung. Einerseits stimmt es, dass es mehr Arbeit gibt. Andererseits gibt es viel Verkehr, und die Leute haben viel Stress." },
+      { "speaker": "Diego", "text": "Tienes razón, Marta. En el hospital veo a muchas personas con problemas de estrés.", "de": "Da hast du recht, Marta. Im Krankenhaus sehe ich viele Menschen mit Stressproblemen." },
+      { "speaker": "Jonas", "text": "Sí, pero no creo que la vida en un pueblo sea fácil. Hay poco trabajo y el autobús pasa dos veces al día.", "de": "Ja, aber ich glaube nicht, dass das Leben auf dem Dorf einfach ist. Es gibt wenig Arbeit, und der Bus fährt zweimal am Tag." },
+      { "speaker": "Lucía", "text": "¿Y tú, Diego? ¿Qué te parece?", "de": "Und du, Diego? Was hältst du davon?" },
+      { "speaker": "Diego", "text": "Depende. Yo crecí en un pueblo y fui muy feliz allí. Sin embargo, ahora prefiero Madrid, sobre todo por el ambiente.", "de": "Kommt drauf an. Ich bin auf einem Dorf aufgewachsen und war dort sehr glücklich. Aber jetzt mag ich Madrid lieber, vor allem wegen der Stimmung." },
+      { "speaker": "Marta", "text": "Pues yo creo que la calidad de vida es mejor en el campo. Hay tranquilidad, la gente se conoce y los pisos son más baratos.", "de": "Also ich glaube, dass die Lebensqualität auf dem Land besser ist. Man hat Ruhe, die Leute kennen sich, und die Wohnungen sind günstiger." },
+      { "speaker": "Jonas", "text": "¡Qué va! En un pueblo los vecinos lo saben todo de ti.", "de": "Ach was! Auf dem Dorf wissen die Nachbarn alles über dich." },
+      { "speaker": "Diego", "text": "Bueno, eso tiene ventajas y desventajas.", "de": "Na ja, das hat Vor- und Nachteile." },
+      { "speaker": "Lucía", "text": "¡Exacto! Además, muchos jóvenes vuelven a los pueblos porque ahora pueden trabajar desde casa, como Jonas.", "de": "Genau! Außerdem gehen viele junge Leute zurück in die Dörfer, weil sie jetzt von zu Hause aus arbeiten können – wie Jonas." },
+      { "speaker": "Jonas", "text": "Es cierto. Pero aunque trabajo desde casa, no creo que pueda vivir sin el ambiente de Madrid.", "de": "Das stimmt. Aber obwohl ich von zu Hause arbeite, glaube ich nicht, dass ich ohne die Stimmung von Madrid leben kann." },
+      { "speaker": "Marta", "text": "Entonces, Lucía, ¿cuál es tu opinión? ¿Ciudad o pueblo?", "de": "Also, Lucía, was ist deine Meinung? Stadt oder Dorf?" },
+      { "speaker": "Lucía", "text": "Pues dudo que haya una solución para todos. Depende de cada persona… ¡Por eso es un buen tema para un artículo!", "de": "Tja, ich bezweifle, dass es eine Lösung für alle gibt. Es hängt von jedem Einzelnen ab … Deshalb ist es ja ein gutes Thema für einen Artikel!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "la ventaja", "der Vorteil" ], [ "la desventaja", "der Nachteil" ], [ "el tráfico", "der Verkehr" ], [ "la tranquilidad", "die Ruhe" ], [ "el ambiente", "die Stimmung" ], [ "el punto de vista", "der Standpunkt" ] ] },
+    { "type": "match", "pairs": [ [ "por un lado", "einerseits" ], [ "por otro lado", "andererseits" ], [ "en cambio", "dagegen" ], [ "por eso", "deshalb" ], [ "aunque", "obwohl" ], [ "sobre todo", "vor allem" ] ] },
+    { "type": "translate", "de": "Meiner Meinung nach ist das Leben auf dem Dorf ruhiger.", "answers": [ "En mi opinión, la vida en el pueblo es más tranquila.", "En mi opinión, la vida en un pueblo es más tranquila.", "En mi opinión, la vida en los pueblos es más tranquila.", "Para mí, la vida en el pueblo es más tranquila.", "Para mí, la vida en un pueblo es más tranquila.", "En mi opinión, la vida es más tranquila en el pueblo." ] },
+    { "type": "translate", "de": "Ich glaube nicht, dass Marta recht hat.", "answers": [ "No creo que Marta tenga razón.", "Yo no creo que Marta tenga razón.", "No pienso que Marta tenga razón.", "Yo no pienso que Marta tenga razón." ] },
+    { "type": "translate", "de": "Ich bin nicht deiner Meinung.", "answers": [ "No estoy de acuerdo contigo.", "Yo no estoy de acuerdo contigo.", "No estoy de acuerdo." ] },
+    { "type": "order", "de": "Ich glaube nicht, dass es eine einfache Lösung gibt.", "answer": "No creo que haya una solución fácil.", "distractors": [ "hay" ] },
+    { "type": "order", "de": "Obwohl das Zentrum teuer ist, wohne ich gern hier.", "answer": "Aunque el centro es caro, me gusta vivir aquí." },
+    { "type": "cloze", "text": "No creo que el barrio ___ peligroso.", "answers": [ "sea" ], "de": "Ich glaube nicht, dass das Viertel gefährlich ist.", "hint": "ser" },
+    { "type": "cloze", "text": "Creo que en la ciudad la gente ___ mucho estrés.", "answers": [ "tiene" ], "de": "Ich glaube, dass die Leute in der Stadt viel Stress haben.", "hint": "tener" },
+    { "type": "cloze", "text": "¿Es mejor vivir en el centro? – ___ de la persona.", "answers": [ "Depende" ], "de": "Ist es besser, im Zentrum zu wohnen? – Das hängt von der Person ab.", "hint": "depender" },
+    { "type": "listen", "text": "Por un lado, la ciudad es cómoda; por otro lado, hay mucho tráfico.", "de": "Einerseits ist die Stadt bequem, andererseits gibt es viel Verkehr." },
+    { "type": "listen", "text": "Dudo que Diego pueda venir esta noche.", "de": "Ich bezweifle, dass Diego heute Abend kommen kann." },
+    { "type": "listen", "text": "Tienes razón, pero no estoy de acuerdo con todo.", "de": "Du hast recht, aber ich bin nicht mit allem einverstanden." }
+  ]
+}

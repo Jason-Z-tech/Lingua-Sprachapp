@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-04",
+  "lang": "en",
+  "level": "B1",
+  "number": 4,
+  "title": "Living Together",
+  "title_de": "Zusammenleben",
+  "topic": "Wohnen, Nachbarn und Mitbewohner",
+  "goals": [
+    "Du kannst Menschen, Dinge und Orte genauer beschreiben – mit who, which, that, where und whose: the woman who lives upstairs.",
+    "Du kannst über Hausarbeit sprechen und Phrasal Verbs wie clean up, take out, put away und turn down richtig benutzen.",
+    "Du kannst mit make, let und have sagen, wer wen etwas tun lässt: Our landlord lets us have a cat.",
+    "Du kannst mit Mitbewohnern und Nachbarn Regeln aushandeln und dich höflich beschweren."
+  ],
+  "vocab": [
+    { "id": "roommate", "word": "roommate", "de": "der Mitbewohner / die Mitbewohnerin", "pos": "noun", "example": { "text": "My new roommate is from Madrid.", "de": "Meine neue Mitbewohnerin kommt aus Madrid." }, "note": "Amerikanisch: roommate – auch wenn man sich nur die Wohnung teilt, nicht das Zimmer." },
+    { "id": "landlord", "word": "landlord", "de": "der Vermieter / die Vermieterin", "pos": "noun", "example": { "text": "We pay the rent to our landlord on the first of the month.", "de": "Wir zahlen die Miete am Monatsersten an unseren Vermieter." }, "note": "Für Frauen auch landlady." },
+    { "id": "building", "word": "building", "de": "das Gebäude; das Haus", "pos": "noun", "example": { "text": "There are twenty apartments in our building.", "de": "In unserem Haus gibt es zwanzig Wohnungen." }, "note": "apartment building = Mehrfamilienhaus." },
+    { "id": "stairs", "word": "stairs", "de": "die Treppe", "pos": "noun", "example": { "text": "The elevator is broken, so we have to take the stairs.", "de": "Der Aufzug ist kaputt, also müssen wir die Treppe nehmen." }, "note": "Immer Mehrzahl: the stairs." },
+    { "id": "upstairs", "word": "upstairs", "de": "oben; nach oben", "pos": "adv", "example": { "text": "The woman who lives upstairs is a doctor.", "de": "Die Frau, die über uns wohnt, ist Ärztin." }, "note": "Gegenteil: downstairs (unten; nach unten)." },
+    { "id": "next-door", "word": "next door", "de": "nebenan", "pos": "adv", "example": { "text": "The family next door has three kids.", "de": "Die Familie nebenan hat drei Kinder." } },
+    { "id": "basement", "word": "basement", "de": "der Keller", "pos": "noun", "example": { "text": "Our bikes are in the basement.", "de": "Unsere Fahrräder stehen im Keller." } },
+    { "id": "washing-machine", "word": "washing machine", "de": "die Waschmaschine", "pos": "noun", "example": { "text": "The washing machine is in the basement.", "de": "Die Waschmaschine ist im Keller." } },
+    { "id": "dishwasher", "word": "dishwasher", "de": "die Spülmaschine", "pos": "noun", "example": { "text": "Can you put the plates in the dishwasher?", "de": "Kannst du die Teller in die Spülmaschine stellen?" } },
+    { "id": "bill", "word": "bill", "de": "die Rechnung (z. B. für Strom)", "pos": "noun", "example": { "text": "The electricity bill was really high this month.", "de": "Die Stromrechnung war diesen Monat echt hoch." }, "note": "Im Restaurant sagt man in den USA meist check." },
+    { "id": "split", "word": "split", "de": "teilen (Kosten)", "pos": "verb", "forms": "split, split", "example": { "text": "We split the bills fifty-fifty.", "de": "Wir teilen die Rechnungen halbe-halbe." } },
+    { "id": "borrow", "word": "borrow", "de": "sich (etwas) leihen; ausleihen", "pos": "verb", "example": { "text": "Can I borrow your umbrella?", "de": "Kann ich mir deinen Regenschirm leihen?" }, "note": "borrow = sich etwas leihen (nehmen), lend = jemandem etwas leihen (geben)." },
+    { "id": "lend", "word": "lend", "de": "(jemandem etwas) leihen", "pos": "verb", "forms": "lent, lent", "example": { "text": "Can you lend me twenty dollars?", "de": "Kannst du mir zwanzig Dollar leihen?" } },
+    { "id": "chore", "word": "chore", "plural": "chores", "de": "die Hausarbeit; die Pflicht im Haushalt", "pos": "noun", "example": { "text": "Who does the chores in your apartment?", "de": "Wer macht bei euch die Hausarbeit?", "focus": "chores" } },
+    { "id": "clean-up", "word": "clean up", "de": "aufräumen; sauber machen", "pos": "verb", "example": { "text": "We have to clean up after the party.", "de": "Nach der Party müssen wir aufräumen." } },
+    { "id": "take-out", "word": "take out", "de": "rausbringen", "pos": "verb", "example": { "text": "Can you take out the trash today?", "de": "Kannst du heute den Müll rausbringen?" }, "note": "Mit Pronomen: take it out." },
+    { "id": "put-away", "word": "put away", "de": "wegräumen", "pos": "verb", "forms": "put, put", "example": { "text": "Please put away your shoes.", "de": "Räum bitte deine Schuhe weg." } },
+    { "id": "turn-down", "word": "turn down", "de": "leiser stellen; runterdrehen", "pos": "verb", "example": { "text": "Could you turn down the music, please?", "de": "Könntest du die Musik bitte leiser machen?" } },
+    { "id": "turn-up", "word": "turn up", "de": "lauter stellen; aufdrehen", "pos": "verb", "example": { "text": "I love this song! Turn it up!", "de": "Ich liebe dieses Lied! Mach lauter!", "focus": "Turn it up" } },
+    { "id": "pick-up", "word": "pick up", "de": "aufheben", "pos": "verb", "example": { "text": "Can you pick up your clothes from the floor?", "de": "Kannst du deine Klamotten vom Boden aufheben?" }, "note": "Auch: jemanden abholen – I'll pick you up at eight." },
+    { "id": "do-the-dishes", "word": "do the dishes", "alt": ["wash the dishes"], "de": "abwaschen; spülen", "pos": "phrase", "example": { "text": "I cooked, so you do the dishes!", "de": "Ich habe gekocht, also wäschst du ab!" } },
+    { "id": "vacuum", "word": "vacuum", "de": "staubsaugen", "pos": "verb", "example": { "text": "I vacuum the living room every Saturday.", "de": "Ich sauge jeden Samstag das Wohnzimmer." } },
+    { "id": "mess", "word": "mess", "de": "die Unordnung; das Chaos", "pos": "noun", "example": { "text": "Sorry about the mess!", "de": "Entschuldige die Unordnung!" } },
+    { "id": "messy", "word": "messy", "de": "unordentlich", "pos": "adj", "example": { "text": "My brother's room is always messy.", "de": "Das Zimmer meines Bruders ist immer unordentlich." } },
+    { "id": "neat", "word": "neat", "de": "ordentlich", "pos": "adj", "example": { "text": "Lena's room is always neat and clean.", "de": "Lenas Zimmer ist immer ordentlich und sauber." } },
+    { "id": "noise", "word": "noise", "de": "der Lärm", "pos": "noun", "example": { "text": "I can't sleep because of the noise.", "de": "Ich kann wegen des Lärms nicht schlafen." } },
+    { "id": "loud", "word": "loud", "de": "laut", "pos": "adj", "example": { "text": "The music next door is too loud.", "de": "Die Musik nebenan ist zu laut." }, "note": "loud = laut (Geräusch, Stimme, Musik). noisy = laut (voller Lärm: eine Straße, ein Ort)." },
+    { "id": "complain", "word": "complain", "de": "sich beschweren", "pos": "verb", "example": { "text": "Our neighbors complained about the noise.", "de": "Unsere Nachbarn haben sich über den Lärm beschwert.", "focus": "complained" }, "note": "complain about something = sich über etwas beschweren." },
+    { "id": "get-along", "word": "get along", "de": "sich verstehen; gut auskommen", "pos": "verb", "example": { "text": "Do you get along with your roommate?", "de": "Verstehst du dich gut mit deiner Mitbewohnerin?" }, "note": "get along with someone = sich mit jemandem verstehen." },
+    { "id": "annoying", "word": "annoying", "de": "nervig", "pos": "adj", "example": { "text": "It's so annoying when people don't do the dishes.", "de": "Es nervt so, wenn Leute nicht abwaschen." } },
+    { "id": "rule", "word": "rule", "de": "die Regel", "pos": "noun", "example": { "text": "We have a few house rules.", "de": "Wir haben ein paar Hausregeln.", "focus": "rules" } },
+    { "id": "privacy", "word": "privacy", "de": "die Privatsphäre", "pos": "noun", "example": { "text": "I need a little privacy sometimes.", "de": "Ich brauche manchmal ein bisschen Privatsphäre." } },
+    { "id": "knock", "word": "knock", "de": "klopfen; anklopfen", "pos": "verb", "example": { "text": "Please knock before you come into my room.", "de": "Bitte klopf an, bevor du in mein Zimmer kommst." } },
+    { "id": "let", "word": "let", "de": "lassen; erlauben", "pos": "verb", "forms": "let, let", "example": { "text": "My parents never let me stay up late.", "de": "Meine Eltern haben mich nie lange aufbleiben lassen." }, "note": "let + Person + Grundform (ohne to)." },
+    { "id": "which", "word": "which", "de": "der/die/das (für Dinge); welche/r/s", "pos": "pron", "example": { "text": "Where is the book which was on the table?", "de": "Wo ist das Buch, das auf dem Tisch lag?" }, "note": "which für Dinge, who für Personen, that für beides." },
+    { "id": "whose", "word": "whose", "de": "dessen; deren; wessen", "pos": "pron", "example": { "text": "That's the neighbor whose car is always in front of our door.", "de": "Das ist der Nachbar, dessen Auto immer vor unserer Tür steht." }, "note": "Auch als Frage: Whose bag is this? (Wessen Tasche ist das?)" },
+    { "id": "move-in", "word": "move in", "de": "einziehen", "pos": "verb", "example": { "text": "When are you moving in?", "de": "Wann ziehst du ein?", "focus": "moving in" } },
+    { "id": "move-out", "word": "move out", "de": "ausziehen", "pos": "verb", "example": { "text": "Our old roommate moved out last month.", "de": "Unser alter Mitbewohner ist letzten Monat ausgezogen.", "focus": "moved out" } },
+    { "id": "its-your-turn", "word": "it's your turn", "alt": ["it is your turn"], "de": "du bist dran", "pos": "phrase", "example": { "text": "It's your turn to clean the bathroom.", "de": "Du bist dran mit dem Badputzen." }, "note": "Frage: Whose turn is it? (Wer ist dran?)" },
+    { "id": "its-a-deal", "word": "it's a deal", "alt": ["deal", "it is a deal"], "de": "abgemacht", "pos": "phrase", "example": { "text": "You cook and I do the dishes? – It's a deal!", "de": "Du kochst und ich spüle? – Abgemacht!" } }
+  ],
+  "grammar": [
+    {
+      "id": "relative-clauses",
+      "title": "Relativsätze: who, which, that, where, whose",
+      "blocks": [
+        { "type": "p", "text": "Mit einem Relativsatz sagst du genauer, wen oder was du meinst: the woman who lives upstairs (die Frau, die über uns wohnt). Im Englischen gibt es dafür nur wenige Wörter – und sie ändern sich nicht nach Geschlecht oder Fall wie „der, die, das, dem, den“." },
+        { "type": "table", "head": ["Wort", "wofür?", "Beispiel", "Deutsch"], "rows": [["who", "Personen", "The woman who lives upstairs is a doctor.", "Die Frau, die über uns wohnt, ist Ärztin."], ["which", "Dinge, Tiere", "The couch which we bought is too big.", "Das Sofa, das wir gekauft haben, ist zu groß."], ["that", "Personen und Dinge (sehr häufig)", "This is the room that I told you about.", "Das ist das Zimmer, von dem ich dir erzählt habe."], ["where", "Orte", "That's the café where I work.", "Das ist das Café, in dem ich arbeite."], ["whose", "Besitz: dessen, deren", "That's the neighbor whose dog is so loud.", "Das ist der Nachbar, dessen Hund so laut ist."]] },
+        { "type": "tip", "text": "Keine Kommas! Anders als im Deutschen steht vor diesen Relativsätzen kein Komma: the man who lives next door." },
+        { "type": "p", "text": "Ist who/which/that das Objekt des Relativsatzes – folgt also gleich ein neues Subjekt wie I, you oder we –, darfst du es weglassen. Im gesprochenen Englisch ist das sehr häufig:" },
+        { "type": "examples", "items": [{ "text": "The apartment we saw yesterday was too expensive.", "de": "Die Wohnung, die wir gestern gesehen haben, war zu teuer." }, { "text": "Is this the key you were looking for?", "de": "Ist das der Schlüssel, den du gesucht hast?" }, { "text": "The guy I share the kitchen with is really neat.", "de": "Der Typ, mit dem ich mir die Küche teile, ist echt ordentlich." }] },
+        { "type": "tip", "text": "Die Präposition rutscht im Alltag ans Ende: the room (that) I told you about – „das Zimmer, von dem ich dir erzählt habe“. Das klingt viel natürlicher als „about which I told you“." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "The woman ___ lives next door is a teacher.", "answers": ["who", "that"], "de": "Die Frau, die nebenan wohnt, ist Lehrerin." },
+        { "type": "cloze", "text": "This is the park ___ I go running every morning.", "answers": ["where"], "de": "Das ist der Park, in dem ich jeden Morgen joggen gehe." },
+        { "type": "cloze", "text": "I have a friend ___ father is a famous chef.", "answers": ["whose"], "de": "Ich habe einen Freund, dessen Vater ein berühmter Koch ist." },
+        { "type": "cloze", "text": "Where are the keys ___ were on the table?", "answers": ["that", "which"], "de": "Wo sind die Schlüssel, die auf dem Tisch lagen?" },
+        { "type": "translate", "de": "Das ist das Zimmer, von dem ich dir erzählt habe.", "answers": ["This is the room that I told you about.", "This is the room which I told you about.", "This is the room I told you about.", "That's the room that I told you about.", "That is the room that I told you about.", "That's the room which I told you about.", "That is the room which I told you about.", "That's the room I told you about.", "That is the room I told you about.", "This is the room about which I told you."] },
+        { "type": "order", "de": "Der Mann, der über uns wohnt, ist sehr nett.", "answer": "The man who lives upstairs is very nice.", "distractors": ["which"] },
+        { "type": "translate", "de": "Kennst du jemanden, der Spanisch spricht?", "answers": ["Do you know anyone who speaks Spanish?", "Do you know anyone that speaks Spanish?", "Do you know someone who speaks Spanish?", "Do you know someone that speaks Spanish?", "Do you know somebody who speaks Spanish?", "Do you know somebody that speaks Spanish?", "Do you know anybody who speaks Spanish?", "Do you know anybody that speaks Spanish?"] }
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "title": "Phrasal Verbs im Haushalt: clean up, take out, put away …",
+      "blocks": [
+        { "type": "p", "text": "Phrasal Verbs bestehen aus einem Verb und einem kleinen Wort wie up, out, away oder down. Zusammen haben sie oft eine neue Bedeutung – ähnlich wie im Deutschen „aufräumen“ oder „rausbringen“." },
+        { "type": "table", "head": ["Phrasal Verb", "Deutsch", "Beispiel"], "rows": [["clean up", "aufräumen; sauber machen", "Let's clean up the kitchen."], ["take out", "rausbringen", "Can you take out the trash?"], ["put away", "wegräumen", "Put away your clothes, please."], ["pick up", "aufheben", "Pick up your shoes!"], ["turn down / turn up", "leiser / lauter stellen", "Could you turn down the TV?"], ["move in / move out", "einziehen / ausziehen", "She moved in last week."], ["get along (with)", "sich verstehen (mit)", "I get along with my roommate."]] },
+        { "type": "p", "text": "Bei vielen Phrasal Verbs kann das Objekt in die Mitte oder ans Ende: take out the trash = take the trash out. Aber Achtung bei Pronomen (it, them, him …): Das Pronomen muss in die Mitte!" },
+        { "type": "table", "head": ["mit Nomen", "mit Pronomen", "falsch"], "rows": [["Take out the trash. / Take the trash out.", "Take it out.", "Take out it."], ["Turn down the music. / Turn the music down.", "Turn it down.", "Turn down it."], ["Put away your shoes. / Put your shoes away.", "Put them away.", "Put away them."]] },
+        { "type": "tip", "text": "move in, move out und get along haben kein Objekt dazwischen: She moved out. We get along well. Mit Person: get along with someone." },
+        { "type": "examples", "items": [{ "text": "The trash is full. – OK, I'll take it out.", "de": "Der Müll ist voll. – Okay, ich bringe ihn raus." }, { "text": "Your music is too loud. Can you turn it down?", "de": "Deine Musik ist zu laut. Kannst du sie leiser machen?" }, { "text": "We cleaned up the whole apartment before my parents came.", "de": "Wir haben die ganze Wohnung aufgeräumt, bevor meine Eltern kamen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "The trash is full. Can you take it ___?", "answers": ["out"], "de": "Der Müll ist voll. Kannst du ihn rausbringen?" },
+        { "type": "cloze", "text": "Please ___ away your things in the bathroom.", "answers": ["put"], "de": "Räum bitte deine Sachen im Bad weg." },
+        { "type": "cloze", "text": "The music is too loud. Can you turn it ___?", "answers": ["down"], "de": "Die Musik ist zu laut. Kannst du sie leiser machen?" },
+        { "type": "cloze", "text": "My roommate and I get ___ really well.", "answers": ["along"], "de": "Meine Mitbewohnerin und ich verstehen uns richtig gut." },
+        { "type": "order", "de": "Die Teller? Kannst du sie wegräumen?", "answer": "Can you put them away?", "distractors": ["it"] },
+        { "type": "translate", "de": "Wir müssen nach der Party aufräumen.", "answers": ["We have to clean up after the party.", "We need to clean up after the party.", "We must clean up after the party."] },
+        { "type": "translate", "de": "Sie ist letzten Monat ausgezogen.", "answers": ["She moved out last month."] }
+      ]
+    },
+    {
+      "id": "make-let-have",
+      "title": "make, let und have: jemanden etwas tun lassen",
+      "blocks": [
+        { "type": "p", "text": "Das deutsche „lassen“ hat im Englischen mehrere Übersetzungen. Es kommt darauf an, ob jemand etwas erlaubt, verlangt oder in Auftrag gibt." },
+        { "type": "table", "head": ["Verb", "Bedeutung", "Beispiel", "Deutsch"], "rows": [["let + Person + Grundform", "erlauben, lassen", "Our landlord lets us have a cat.", "Unser Vermieter erlaubt uns, eine Katze zu halten."], ["make + Person + Grundform", "zwingen, dazu bringen", "My mom made me clean my room.", "Bei meiner Mutter musste ich mein Zimmer aufräumen."], ["have + Person + Grundform", "beauftragen", "The landlord had someone fix the window.", "Der Vermieter hat jemanden das Fenster reparieren lassen."], ["have + Ding + 3. Form", "etwas machen lassen", "I had my bike fixed.", "Ich habe mein Fahrrad reparieren lassen."]] },
+        { "type": "tip", "text": "Nach make, let und have + Person steht die Grundform ohne to: She made me wait. (nicht: made me to wait)" },
+        { "type": "tip", "text": "let hat drei gleiche Formen: let – let – let. Also: Yesterday my roommate let me use her laptop." },
+        { "type": "tip", "text": "Bekannte Sätze: Let me help you! (Lass mich dir helfen!) – und let's (= let us) kennst du schon: Let's go!" },
+        { "type": "examples", "items": [{ "text": "My parents didn't let me have a pet.", "de": "Meine Eltern haben mir kein Haustier erlaubt." }, { "text": "Our landlord made us pay for the broken window.", "de": "Unser Vermieter hat uns für das kaputte Fenster zahlen lassen." }, { "text": "I'm having my hair cut on Friday.", "de": "Am Freitag lasse ich mir die Haare schneiden." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Yesterday my roommate ___ me borrow her bike.", "answers": ["let"], "de": "Gestern hat mich meine Mitbewohnerin ihr Fahrrad ausleihen lassen." },
+        { "type": "cloze", "text": "When I was a kid, my dad ___ me do the dishes every day.", "answers": ["made"], "de": "Als ich ein Kind war, musste ich bei meinem Vater jeden Tag abwaschen." },
+        { "type": "cloze", "text": "Our landlord doesn't let us ___ pets.", "answers": ["have"], "de": "Unser Vermieter erlaubt uns keine Haustiere." },
+        { "type": "cloze", "text": "I had my phone ___ last week.", "answers": ["fixed", "repaired"], "de": "Ich habe letzte Woche mein Handy reparieren lassen.", "hint": "fix" },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["She made me wait.", "She made me to wait.", "She made me waiting."], "answer": 0, "explain": "Nach make, let und have + Person steht die Grundform ohne to." },
+        { "type": "translate", "de": "Lass mich dir helfen!", "answers": ["Let me help you!"] },
+        { "type": "translate", "de": "Meine Eltern haben mich nie lange aufbleiben lassen.", "answers": ["My parents never let me stay up late.", "My parents didn't ever let me stay up late.", "My parents did not ever let me stay up late.", "My parents didn't let me stay up late.", "My parents did not let me stay up late."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "House Rules",
+    "title_de": "Hausregeln",
+    "lines": [
+      { "speaker": "Lena", "text": "Welcome to your new home, Sofia! This is the room I told you about.", "de": "Willkommen in deinem neuen Zuhause, Sofia! Das ist das Zimmer, von dem ich dir erzählt habe." },
+      { "speaker": "Sofia", "text": "Wow, it's bigger than I thought! Thank you so much for letting me move in.", "de": "Wow, es ist größer, als ich dachte! Vielen Dank, dass ich einziehen darf." },
+      { "speaker": "Lena", "text": "No problem! I'm happy to have a roommate again. The washing machine is in the basement, and the key is in the kitchen.", "de": "Kein Problem! Ich freue mich, wieder eine Mitbewohnerin zu haben. Die Waschmaschine ist im Keller, und der Schlüssel liegt in der Küche." },
+      { "speaker": "Sofia", "text": "OK. And who was the man who said hello on the stairs?", "de": "Okay. Und wer war der Mann, der auf der Treppe Hallo gesagt hat?" },
+      { "speaker": "Lena", "text": "That's Mr. Brown, the neighbor whose dog you met. He's really nice, but he complains when people are loud after ten.", "de": "Das ist Mr. Brown, der Nachbar, dessen Hund du kennengelernt hast. Er ist sehr nett, aber er beschwert sich, wenn es nach zehn laut ist." },
+      { "speaker": "Sofia", "text": "Don't worry, I'll turn down my music at night. What about the chores?", "de": "Keine Sorge, abends mache ich meine Musik leiser. Und wie machen wir das mit der Hausarbeit?" },
+      { "speaker": "Lena", "text": "I usually take out the trash and vacuum on Saturdays. Can you do the dishes and clean the bathroom?", "de": "Ich bringe normalerweise den Müll raus und sauge samstags. Kannst du abwaschen und das Bad putzen?" },
+      { "speaker": "Sofia", "text": "Sure! My mom made me do the dishes every day when I was a kid, so I'm good at it.", "de": "Klar! Bei meiner Mutter musste ich als Kind jeden Tag abwaschen, ich bin also gut darin." },
+      { "speaker": "Lena", "text": "Ha, perfect! And please put away your things in the bathroom. It's small, so it gets messy really fast.", "de": "Ha, perfekt! Und räum bitte deine Sachen im Bad weg. Es ist klein, da wird es ganz schnell unordentlich." },
+      { "speaker": "Sofia", "text": "No problem. Is it OK if friends come over sometimes?", "de": "Kein Problem. Ist es okay, wenn ab und zu Freunde vorbeikommen?" },
+      { "speaker": "Lena", "text": "Of course! Our landlord even lets us have parties. We just have to clean up the next morning.", "de": "Na klar! Unser Vermieter lässt uns sogar Partys feiern. Wir müssen nur am nächsten Morgen aufräumen." },
+      { "speaker": "Sofia", "text": "That's fair. And the bills? Should we split them?", "de": "Das ist fair. Und die Rechnungen? Sollen wir sie teilen?" },
+      { "speaker": "Lena", "text": "Yes, fifty-fifty. Oh, and the kitchen window is broken right now. The landlord is having someone fix it on Friday.", "de": "Ja, halbe-halbe. Ach, und das Küchenfenster ist gerade kaputt. Der Vermieter lässt es am Freitag reparieren." },
+      { "speaker": "Sofia", "text": "Great. You know what? I think we're going to get along really well.", "de": "Super. Weißt du was? Ich glaube, wir werden uns richtig gut verstehen." },
+      { "speaker": "Lena", "text": "Me too! So you do the dishes, and I take out the trash?", "de": "Ich auch! Also du spülst, und ich bringe den Müll raus?" },
+      { "speaker": "Sofia", "text": "It's a deal!", "de": "Abgemacht!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["clean up", "aufräumen"], ["take out", "rausbringen"], ["put away", "wegräumen"], ["turn down", "leiser stellen"], ["move in", "einziehen"], ["get along", "sich verstehen"]] },
+    { "type": "match", "pairs": [["roommate", "der Mitbewohner"], ["landlord", "der Vermieter"], ["basement", "der Keller"], ["stairs", "die Treppe"], ["dishwasher", "die Spülmaschine"], ["washing machine", "die Waschmaschine"]] },
+    { "type": "match", "pairs": [["borrow", "sich etwas leihen"], ["lend", "jemandem etwas leihen"], ["complain", "sich beschweren"], ["knock", "anklopfen"], ["split", "teilen"], ["vacuum", "staubsaugen"]] },
+    { "type": "translate", "de": "Kann ich mir deinen Regenschirm leihen?", "answers": ["Can I borrow your umbrella?", "Could I borrow your umbrella?", "May I borrow your umbrella?"] },
+    { "type": "translate", "de": "Du bist dran mit Abwaschen.", "answers": ["It's your turn to do the dishes.", "It is your turn to do the dishes.", "It's your turn to wash the dishes.", "It is your turn to wash the dishes."] },
+    { "type": "translate", "de": "Entschuldige die Unordnung!", "answers": ["Sorry about the mess!", "Sorry for the mess!", "I'm sorry about the mess!", "I am sorry about the mess!", "I'm sorry for the mess!", "I am sorry for the mess!", "Excuse the mess!"] },
+    { "type": "cloze", "text": "Our neighbors ___ about the noise last night.", "answers": ["complained"], "de": "Unsere Nachbarn haben sich gestern Abend über den Lärm beschwert." },
+    { "type": "cloze", "text": "Can you ___ me twenty dollars until Friday?", "answers": ["lend"], "de": "Kannst du mir bis Freitag zwanzig Dollar leihen?" },
+    { "type": "cloze", "text": "Please ___ before you come into my room.", "answers": ["knock"], "de": "Bitte klopf an, bevor du in mein Zimmer kommst." },
+    { "type": "order", "de": "Das ist das Café, in dem ich arbeite.", "answer": "That's the café where I work.", "distractors": ["who"] },
+    { "type": "order", "de": "Die Familie nebenan hat drei Kinder.", "answer": "The family next door has three kids.", "distractors": ["have"] },
+    { "type": "listen", "text": "The woman who lives upstairs is really nice, but her dog is so loud.", "de": "Die Frau, die über uns wohnt, ist richtig nett, aber ihr Hund ist so laut." },
+    { "type": "listen", "text": "My roommate never puts away her things, and it's so annoying.", "de": "Meine Mitbewohnerin räumt nie ihre Sachen weg, und das nervt so." }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-09",
+  "lang": "en",
+  "level": "B1",
+  "number": 9,
+  "title": "Our Community",
+  "title_de": "Gesellschaft",
+  "topic": "Alltag und Zusammenhalt",
+  "goals": [
+    "Du kannst wiedergeben, was andere gesagt haben, und dabei die Zeiten richtig verschieben: She said that she was tired.",
+    "Du kannst Fragen und Bitten wiedergeben: He asked me if I could help. She told us not to be late.",
+    "Du kannst mit Mengenwörtern über Menschen und Gruppen sprechen: most, few, a few, hardly any, plenty of.",
+    "Du kannst über Nachbarschaft, Ehrenamt und Zusammenhalt in der Gesellschaft sprechen."
+  ],
+  "vocab": [
+    { "id": "society", "word": "society", "de": "die Gesellschaft", "pos": "noun", "example": { "text": "In our society, a lot of older people live alone.", "de": "In unserer Gesellschaft leben viele ältere Menschen allein." }, "note": "Ohne the, wenn die Gesellschaft allgemein gemeint ist: Society is changing." },
+    { "id": "community", "word": "community", "plural": "communities", "de": "die Gemeinschaft; die Gemeinde", "pos": "noun", "example": { "text": "There's a strong sense of community in our neighborhood.", "de": "In unserer Nachbarschaft gibt es einen starken Zusammenhalt." }, "note": "a community center = ein Gemeindezentrum, ein Nachbarschaftstreff." },
+    { "id": "generation", "word": "generation", "plural": "generations", "de": "die Generation", "pos": "noun", "example": { "text": "My parents' generation didn't have smartphones.", "de": "Die Generation meiner Eltern hatte keine Smartphones." } },
+    { "id": "volunteer", "word": "volunteer", "de": "ehrenamtlich arbeiten; sich freiwillig melden; der/die Freiwillige", "pos": "verb", "example": { "text": "I volunteer at a food bank on Saturdays.", "de": "Samstags helfe ich ehrenamtlich bei einer Tafel." }, "note": "Auch als Nomen: We need more volunteers. (Wir brauchen mehr Freiwillige.) Ehrenamt ist in den USA sehr verbreitet." },
+    { "id": "food-bank", "word": "food bank", "plural": "food banks", "de": "die Tafel (Lebensmittelausgabe)", "pos": "noun", "example": { "text": "The food bank gives free food to families who need it.", "de": "Die Tafel gibt kostenlose Lebensmittel an Familien, die sie brauchen." } },
+    { "id": "donate", "word": "donate", "de": "spenden", "pos": "verb", "example": { "text": "We donated our old clothes to a charity.", "de": "Wir haben unsere alten Kleider einer Hilfsorganisation gespendet.", "focus": "donated" }, "note": "Die Spende heißt donation." },
+    { "id": "charity", "word": "charity", "plural": "charities", "de": "die Hilfsorganisation; die Wohltätigkeit", "pos": "noun", "example": { "text": "She works for a charity that helps homeless people.", "de": "Sie arbeitet für eine Hilfsorganisation, die Obdachlosen hilft." }, "note": "for charity = für einen guten Zweck: They're running for charity." },
+    { "id": "homeless", "word": "homeless", "de": "obdachlos", "pos": "adj", "example": { "text": "The city opened a new center for homeless people.", "de": "Die Stadt hat ein neues Zentrum für Obdachlose eröffnet." }, "note": "die Obdachlosen = homeless people oder the homeless." },
+    { "id": "elderly", "word": "elderly", "de": "älter; betagt", "pos": "adj", "example": { "text": "Mr. Garcia helps his elderly neighbors with their groceries.", "de": "Herr Garcia hilft seinen älteren Nachbarn mit den Einkäufen." }, "note": "Höflicher als old: elderly people (ältere Menschen), the elderly (die Senioren)." },
+    { "id": "lonely", "word": "lonely", "de": "einsam", "pos": "adj", "example": { "text": "A lot of elderly people feel lonely.", "de": "Viele ältere Menschen fühlen sich einsam." }, "note": "alone (A2) = allein (ohne andere); lonely = einsam (ein trauriges Gefühl)." },
+    { "id": "poor", "word": "poor", "de": "arm", "pos": "adj", "example": { "text": "The charity helps poor families in the city.", "de": "Die Hilfsorganisation hilft armen Familien in der Stadt." }, "note": "Auch für Mitgefühl: Poor you! (Du Arme/r!) Die Armut heißt poverty." },
+    { "id": "rich", "word": "rich", "de": "reich", "pos": "adj", "example": { "text": "You don't have to be rich to help other people.", "de": "Man muss nicht reich sein, um anderen Menschen zu helfen." }, "note": "Auch: wealthy (wohlhabend)." },
+    { "id": "government", "word": "government", "plural": "governments", "de": "die Regierung", "pos": "noun", "example": { "text": "The government wants to build more schools.", "de": "Die Regierung will mehr Schulen bauen." }, "note": "Das erste n spricht man oft kaum mit: [ˈɡʌvərmənt]." },
+    { "id": "vote", "word": "vote", "de": "wählen (bei einer Wahl); abstimmen; die Stimme", "pos": "verb", "example": { "text": "Did you vote in the last election?", "de": "Hast du bei der letzten Wahl gewählt?" }, "note": "Bei einer Wahl wählen = vote. Etwas auswählen = choose." },
+    { "id": "election", "word": "election", "plural": "elections", "de": "die Wahl", "pos": "noun", "example": { "text": "The next election is in November.", "de": "Die nächste Wahl ist im November." }, "note": "In den USA wird immer an einem Dienstag im November gewählt." },
+    { "id": "law", "word": "law", "plural": "laws", "de": "das Gesetz; das Recht", "pos": "noun", "example": { "text": "There's a new law against smoking in parks.", "de": "Es gibt ein neues Gesetz gegen das Rauchen in Parks." }, "note": "against the law = verboten, gesetzwidrig. Jura studieren = study law." },
+    { "id": "citizen", "word": "citizen", "plural": "citizens", "de": "der Bürger; die Bürgerin; der Staatsbürger; die Staatsbürgerin", "pos": "noun", "example": { "text": "Only citizens can vote in the election.", "de": "Nur Staatsbürger dürfen bei der Wahl wählen.", "focus": "citizens" } },
+    { "id": "immigrant", "word": "immigrant", "plural": "immigrants", "de": "der Einwanderer; die Einwanderin; der Migrant; die Migrantin", "pos": "noun", "example": { "text": "New York has always been a city of immigrants.", "de": "New York war schon immer eine Stadt der Einwanderer.", "focus": "immigrants" } },
+    { "id": "tax", "word": "tax", "plural": "taxes", "de": "die Steuer", "pos": "noun", "example": { "text": "Everybody has to pay taxes.", "de": "Alle müssen Steuern zahlen.", "focus": "taxes" }, "note": "In den USA steht auf Preisschildern meist der Preis ohne sales tax (Umsatzsteuer) – an der Kasse kommt sie noch dazu." },
+    { "id": "support", "word": "support", "de": "unterstützen; die Unterstützung", "pos": "verb", "example": { "text": "My family always supported me.", "de": "Meine Familie hat mich immer unterstützt.", "focus": "supported" }, "note": "Auch als Nomen: Thanks for your support! (Danke für deine Unterstützung!) Fans unterstützen ihr Team: I support the Yankees." },
+    { "id": "equal", "word": "equal", "de": "gleich; gleichberechtigt", "pos": "adj", "example": { "text": "Men and women should get equal pay for the same work.", "de": "Männer und Frauen sollten für die gleiche Arbeit gleich bezahlt werden." }, "note": "equal rights = gleiche Rechte. Die Gleichberechtigung heißt equality." },
+    { "id": "survey", "word": "survey", "plural": "surveys", "de": "die Umfrage", "pos": "noun", "example": { "text": "A new survey shows that most people trust their neighbors.", "de": "Eine neue Umfrage zeigt, dass die meisten Menschen ihren Nachbarn vertrauen." } },
+    { "id": "according-to", "word": "according to", "de": "laut; nach (Angaben von)", "pos": "prep", "example": { "text": "According to the news, the new library will open in May.", "de": "Laut den Nachrichten eröffnet die neue Bibliothek im Mai." } },
+    { "id": "percent", "word": "percent", "de": "das Prozent", "pos": "noun", "example": { "text": "About thirty percent of people in the city live alone.", "de": "Etwa dreißig Prozent der Menschen in der Stadt leben allein." }, "note": "Amerikanisch in einem Wort: percent (britisch auch per cent). Geschrieben: 30 %." },
+    { "id": "trust", "word": "trust", "de": "vertrauen; das Vertrauen", "pos": "verb", "example": { "text": "I trust my neighbors. They have a key to my apartment.", "de": "Ich vertraue meinen Nachbarn. Sie haben einen Schlüssel zu meiner Wohnung." }, "note": "Ohne Präposition: trust someone (nicht: trust to someone)." },
+    { "id": "crime", "word": "crime", "de": "die Kriminalität; das Verbrechen", "pos": "noun", "example": { "text": "There is very little crime in our neighborhood.", "de": "In unserer Gegend gibt es sehr wenig Kriminalität." }, "note": "Als Kriminalität allgemein nicht zählbar. Ein einzelnes Verbrechen ist zählbar: a crime." },
+    { "id": "freedom", "word": "freedom", "de": "die Freiheit", "pos": "noun", "example": { "text": "For many immigrants, America means freedom.", "de": "Für viele Einwanderer bedeutet Amerika Freiheit." }, "note": "Das Adjektiv ist free (frei, auch: kostenlos)." },
+    { "id": "public", "word": "public", "de": "öffentlich", "pos": "adj", "example": { "text": "Public libraries are free for everybody.", "de": "Öffentliche Bibliotheken sind für alle kostenlos." }, "note": "in public = in der Öffentlichkeit." },
+    { "id": "each-other", "word": "each other", "de": "einander; sich (gegenseitig)", "pos": "pron", "example": { "text": "In our building, people help each other.", "de": "In unserem Haus helfen sich die Leute gegenseitig." }, "note": "Sie helfen sich (gegenseitig) = They help each other. (nicht: They help themselves – das hieße „sich selbst“.)" },
+    { "id": "take-care-of", "word": "take care of", "de": "sich kümmern um; aufpassen auf", "pos": "verb", "forms": "took care of, taken care of", "example": { "text": "My sister takes care of our grandmother.", "de": "Meine Schwester kümmert sich um unsere Großmutter.", "focus": "takes care of" }, "note": "Zum Abschied heißt Take care! „Pass auf dich auf!“" },
+    { "id": "ask", "word": "ask", "de": "fragen; bitten", "pos": "verb", "example": { "text": "She asked me if I could help.", "de": "Sie hat mich gefragt, ob ich helfen kann.", "focus": "asked" }, "note": "ask someone to do something = jemanden bitten, etwas zu tun. ask for something = um etwas bitten." },
+    { "id": "whether", "word": "whether", "de": "ob", "pos": "conj", "example": { "text": "He asked me whether I lived in the neighborhood.", "de": "Er hat mich gefragt, ob ich in der Gegend wohne." }, "note": "whether = if (ob), klingt etwas formeller. Gleich ausgesprochen wie weather (das Wetter)." },
+    { "id": "mention", "word": "mention", "de": "erwähnen", "pos": "verb", "example": { "text": "Did she mention the party?", "de": "Hat sie die Party erwähnt?" }, "note": "Auf Danke sagt man auch: Don't mention it. (Nichts zu danken.)" },
+    { "id": "most", "word": "most", "de": "die meisten; am meisten", "pos": "pron", "example": { "text": "Most people in my building work downtown.", "de": "Die meisten Leute in meinem Haus arbeiten in der Innenstadt." }, "note": "Ohne the: Most people … (nicht: The most people …). Vor the, my, these: most of my friends." },
+    { "id": "few", "word": "few", "de": "wenige", "pos": "pron", "example": { "text": "Few people know all their neighbors.", "de": "Wenige Leute kennen alle ihre Nachbarn." }, "note": "few (ohne a) = (zu) wenige – klingt negativ. a few (A2) = ein paar – klingt positiv." },
+    { "id": "several", "word": "several", "de": "mehrere; einige", "pos": "pron", "example": { "text": "Several neighbors came to help us.", "de": "Mehrere Nachbarn kamen, um uns zu helfen." } },
+    { "id": "hardly-any", "word": "hardly any", "de": "kaum (welche); fast kein(e)", "pos": "phrase", "example": { "text": "There are hardly any parks in this part of town.", "de": "In diesem Teil der Stadt gibt es kaum Parks." }, "note": "hardly allein heißt „kaum“: I hardly know her. (Ich kenne sie kaum.)" },
+    { "id": "plenty-of", "word": "plenty of", "de": "jede Menge; mehr als genug; reichlich", "pos": "phrase", "example": { "text": "Don't worry, we have plenty of time.", "de": "Keine Sorge, wir haben jede Menge Zeit." } },
+    { "id": "none", "word": "none", "de": "keine/r/s; niemand", "pos": "pron", "example": { "text": "None of my friends have a car.", "de": "Keiner meiner Freunde hat ein Auto." }, "note": "none of + Mehrzahl: Danach geht das Verb in der Einzahl (has) oder Mehrzahl (have) – beides ist richtig." },
+    { "id": "both", "word": "both", "de": "beide; beides", "pos": "pron", "example": { "text": "Both of my parents volunteer at the community center.", "de": "Meine Eltern helfen beide ehrenamtlich im Gemeindezentrum." }, "note": "both … and … = sowohl … als auch …: both young and old people." }
+  ],
+  "grammar": [
+    {
+      "id": "reported-statements",
+      "title": "Indirekte Rede: She said that … – mit Zeitverschiebung",
+      "blocks": [
+        { "type": "p", "text": "Wenn du erzählst, was jemand gesagt hat, benutzt du die indirekte Rede (reported speech). Im Deutschen nimmst du dafür oft den Konjunktiv: „Sie sagte, sie sei müde.“ Im Englischen gehen stattdessen die Zeiten einen Schritt zurück in die Vergangenheit – das nennt man backshift." },
+        { "type": "table", "head": ["direkte Rede", "indirekte Rede", "Zeitverschiebung"], "rows": [["„I'm tired.“", "She said (that) she was tired.", "present simple → simple past"], ["„I'm working.“", "He said he was working.", "present continuous → past continuous"], ["„We moved here in 1990.“", "They said they had moved there in 1990.", "simple past → past perfect"], ["„I've lived here for years.“", "She said she had lived there for years.", "present perfect → past perfect"], ["„I'll help.“", "He said he would help.", "will → would"], ["„I can come.“", "She said she could come.", "can → could"]] },
+        { "type": "tip", "text": "say oder tell? say steht ohne Person: She said (that) … tell braucht immer eine Person: She told me (that) … (nicht: She said me …). Das that kannst du in beiden Fällen weglassen." },
+        { "type": "p", "text": "Auch Pronomen und Orts- und Zeitangaben passen sich an, wenn du später oder an einem anderen Ort erzählst: I → he/she, my → his/her, here → there, today → that day, tomorrow → the next day." },
+        { "type": "tip", "text": "Wenn etwas immer noch wahr ist, darf die Zeit bleiben: She said she lives in Brooklyn. (Sie wohnt immer noch dort.) Mit backshift liegst du aber nie falsch." },
+        { "type": "p", "text": "Bitten und Aufforderungen gibst du mit ask oder tell + Person + to + Grundform wieder. Verneint steht not vor to:" },
+        { "type": "table", "head": ["direkte Rede", "indirekte Rede"], "rows": [["„Please help me.“", "She asked me to help her."], ["„Call me tomorrow.“", "He told me to call him the next day."], ["„Don't be late!“", "She told us not to be late."]] },
+        { "type": "examples", "items": [{ "text": "Mrs. Lee said that they needed more volunteers.", "de": "Mrs. Lee sagte, dass sie mehr Freiwillige bräuchten." }, { "text": "She told us that they had helped three hundred families.", "de": "Sie erzählte uns, dass sie dreihundert Familien geholfen hätten." }, { "text": "The mayor said the city would open a new library.", "de": "Der Bürgermeister sagte, die Stadt werde eine neue Bibliothek eröffnen." }, { "text": "My neighbor asked me to take care of her cat.", "de": "Meine Nachbarin hat mich gebeten, mich um ihre Katze zu kümmern." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "She said that she ___ busy.", "answers": ["was"], "de": "Sie sagte, sie habe zu tun.", "hint": "direkt: „I'm busy.“" },
+        { "type": "cloze", "text": "He said he ___ call me.", "answers": ["would"], "de": "Er sagte, er würde mich anrufen.", "hint": "direkt: „I'll call you.“" },
+        { "type": "cloze", "text": "They said they ___ help.", "answers": ["could"], "de": "Sie sagten, sie könnten helfen.", "hint": "direkt: „We can help.“" },
+        { "type": "cloze", "text": "Tom said he had never ___.", "answers": ["voted"], "de": "Tom sagte, er habe noch nie gewählt.", "hint": "direkt: „I've never voted.“" },
+        { "type": "cloze", "text": "Mrs. Lee ___ me that the meeting was canceled.", "answers": ["told"], "de": "Mrs. Lee hat mir gesagt, dass das Treffen abgesagt wurde." },
+        { "type": "cloze", "text": "She asked me ___ close the door.", "answers": ["to"], "de": "Sie bat mich, die Tür zu schließen.", "hint": "direkt: „Please close the door.“" },
+        { "type": "cloze", "text": "He told us ___ to park there.", "answers": ["not"], "de": "Er sagte uns, wir sollten dort nicht parken.", "hint": "direkt: „Don't park here!“" },
+        { "type": "translate", "de": "Sie hat gesagt, dass sie müde ist.", "answers": ["She said that she was tired.", "She said that she's tired.", "She said that she is tired.", "She said she was tired.", "She said she's tired.", "She said she is tired."] },
+        { "type": "translate", "de": "Er hat mir gesagt, ich soll warten.", "answers": ["He told me to wait.", "He told me that I should wait.", "He told me I should wait."] },
+        { "type": "order", "de": "Sie sagte, sie würde uns helfen.", "answer": "She said she would help us.", "distractors": ["told", "will"] }
+      ]
+    },
+    {
+      "id": "reported-questions",
+      "title": "Fragen wiedergeben: He asked me if … / where …",
+      "blocks": [
+        { "type": "p", "text": "Auch Fragen kannst du indirekt wiedergeben – meist mit ask. Dabei wird aus der Frage ein normaler Aussagesatz: Das Subjekt steht vor dem Verb, do, does und did fallen weg, und die Zeiten gehen wie bei der indirekten Rede einen Schritt zurück. Am Ende steht kein Fragezeichen." },
+        { "type": "table", "head": ["direkte Frage", "indirekte Frage"], "rows": [["„Are you new here?“", "She asked me if I was new there."], ["„Do you live on this street?“", "He asked me whether I lived on that street."], ["„Where do you work?“", "She asked me where I worked."], ["„What did you do?“", "He asked me what I had done."], ["„Can you help us?“", "They asked if I could help them."], ["„Will you come?“", "She asked whether I would come."]] },
+        { "type": "tip", "text": "Ja/Nein-Fragen gibst du mit if oder whether (= ob) wieder. whether klingt etwas formeller. Bei W-Fragen bleibt das Fragewort: where, what, why, how, when …" },
+        { "type": "tip", "text": "Kein do und keine Umstellung in der indirekten Frage: She asked me where I worked. (nicht: … where did I work.) Genauso höflich im Alltag: Do you know where the station is? (nicht: … where is the station?)" },
+        { "type": "examples", "items": [{ "text": "Mrs. Lee asked me if I could help at the food bank.", "de": "Mrs. Lee hat mich gefragt, ob ich bei der Tafel helfen könnte." }, { "text": "She asked whether you had time, too.", "de": "Sie hat gefragt, ob du auch Zeit hättest." }, { "text": "A man from the city asked us what we needed.", "de": "Ein Mann von der Stadt hat uns gefragt, was wir bräuchten." }, { "text": "I asked her why she had moved to New York.", "de": "Ich habe sie gefragt, warum sie nach New York gezogen sei." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "He asked me ___ I was OK.", "answers": ["if", "whether"], "de": "Er fragte mich, ob es mir gut gehe.", "hint": "direkt: „Are you OK?“" },
+        { "type": "cloze", "text": "She asked me where I ___.", "answers": ["lived"], "de": "Sie fragte mich, wo ich wohne.", "hint": "direkt: „Where do you live?“" },
+        { "type": "cloze", "text": "They asked if I ___ come.", "answers": ["could"], "de": "Sie fragten, ob ich kommen könne.", "hint": "direkt: „Can you come?“" },
+        { "type": "cloze", "text": "He asked me what my name ___.", "answers": ["was"], "de": "Er fragte mich, wie ich heiße.", "hint": "direkt: „What's your name?“" },
+        { "type": "cloze", "text": "She asked me if I ___ voted.", "answers": ["had"], "de": "Sie fragte mich, ob ich gewählt hätte.", "hint": "direkt: „Did you vote?“" },
+        { "type": "translate", "de": "Sie hat mich gefragt, ob ich Zeit habe.", "answers": ["She asked me if I had time.", "She asked me whether I had time.", "She asked if I had time.", "She asked whether I had time.", "She asked me if I had any time.", "She asked me whether I had any time.", "She asked if I had any time.", "She asked whether I had any time.", "She asked me if I have time."] },
+        { "type": "order", "de": "Er hat mich gefragt, wo ich arbeite.", "answer": "He asked me where I worked.", "distractors": ["did", "do"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["She asked me where I lived.", "She asked me where did I live.", "She asked me where do I live."], "answer": 0, "explain": "In der indirekten Frage fällt do/did weg, und das Subjekt steht vor dem Verb: where I lived." }
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "title": "Mengenwörter: most, few, a few, hardly any, plenty of",
+      "blocks": [
+        { "type": "p", "text": "Mit Mengenwörtern sagst du, wie viele oder wie viel. much, many, a lot of, a few und a little kennst du schon aus A2. Hier kommen weitere dazu – sehr nützlich, wenn du über Menschen und Gruppen sprichst oder Umfragen wiedergibst." },
+        { "type": "table", "head": ["Wort", "Deutsch", "Beispiel"], "rows": [["all", "alle; ganz", "All my neighbors are friendly."], ["most", "die meisten", "Most people in my building work downtown."], ["plenty of", "jede Menge, mehr als genug", "There's plenty of food for everybody."], ["several", "mehrere", "Several neighbors helped us."], ["a few / a little", "ein paar / ein bisschen (positiv)", "A few people came to the meeting."], ["few / little", "wenige / wenig (negativ: zu wenig)", "Few young people came to the meeting."], ["hardly any", "kaum (welche)", "There are hardly any parks here."], ["no / none of", "kein / keine/r von", "None of my friends vote."]] },
+        { "type": "tip", "text": "a few ist positiv („ein paar – immerhin“), few ohne a ist negativ („wenige – leider“). I have a few friends here. (Ich habe ein paar Freunde hier.) I have few friends here. (Ich habe hier kaum Freunde.) Dasselbe gilt für a little und little bei unzählbaren Nomen." },
+        { "type": "tip", "text": "Typischer Fehler: „die meisten“ heißt most – ohne the und ohne of: Most people … (nicht: The most people …). Vor the, my, these, them steht most of: most of my friends, most of them. Genauso: some of, all of, none of, a few of, both of." },
+        { "type": "p", "text": "plenty of, hardly any, most und all passen zu zählbaren (people, parks) und unzählbaren Nomen (time, money). several, few und a few stehen nur mit zählbaren Nomen in der Mehrzahl." },
+        { "type": "examples", "items": [{ "text": "Most of the people at the meeting were over sixty.", "de": "Die meisten Leute bei dem Treffen waren über sechzig." }, { "text": "Hardly any young people came.", "de": "Kaum junge Leute sind gekommen." }, { "text": "According to the survey, few people know their neighbors' names.", "de": "Laut der Umfrage kennen wenige Leute die Namen ihrer Nachbarn." }, { "text": "Don't worry, there's plenty of time.", "de": "Keine Sorge, wir haben jede Menge Zeit." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ people in my neighborhood are very friendly.", "answers": ["Most"], "de": "Die meisten Leute in meiner Nachbarschaft sind sehr freundlich." },
+        { "type": "cloze", "text": "Don't worry, we have ___ of time.", "answers": ["plenty"], "de": "Keine Sorge, wir haben jede Menge Zeit." },
+        { "type": "cloze", "text": "There are ___ any stores in my village.", "answers": ["hardly"], "de": "In meinem Dorf gibt es kaum Geschäfte." },
+        { "type": "cloze", "text": "Most ___ my coworkers live in Brooklyn.", "answers": ["of"], "de": "Die meisten meiner Kollegen wohnen in Brooklyn." },
+        { "type": "cloze", "text": "Only a ___ people came to the meeting, but they were very nice.", "answers": ["few"], "de": "Nur ein paar Leute kamen zu dem Treffen, aber sie waren sehr nett." },
+        { "type": "cloze", "text": "___ of my friends has a car. We all take the subway.", "answers": ["None"], "de": "Keiner meiner Freunde hat ein Auto. Wir fahren alle U-Bahn." },
+        { "type": "translate", "de": "Die meisten meiner Nachbarn sind älter.", "answers": ["Most of my neighbors are older.", "Most of my neighbors are elderly.", "Most of my neighbors are old.", "Most of my neighbors are older people."] },
+        { "type": "translate", "de": "Es gibt hier kaum Bäume.", "answers": ["There are hardly any trees here.", "Here there are hardly any trees.", "There are almost no trees here."] },
+        { "type": "choice", "prompt": "Was bedeutet „Few people came.“?", "options": ["Nur wenige Leute kamen.", "Ein paar Leute kamen.", "Viele Leute kamen."], "answer": 0, "explain": "few ohne a ist negativ: (leider) nur wenige. a few hieße „ein paar“.", "optionsDe": true }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The Neighborhood Meeting",
+    "title_de": "Das Nachbarschaftstreffen",
+    "lines": [
+      { "speaker": "Carlos", "text": "Hi, Lena! How was the neighborhood meeting last night?", "de": "Hallo, Lena! Wie war das Nachbarschaftstreffen gestern Abend?" },
+      { "speaker": "Lena", "text": "Interesting! But hardly any young people came. Most of the people there were over sixty.", "de": "Interessant! Aber kaum junge Leute sind gekommen. Die meisten dort waren über sechzig." },
+      { "speaker": "Carlos", "text": "What a shame. So what did they talk about?", "de": "Schade. Und worüber wurde gesprochen?" },
+      { "speaker": "Lena", "text": "First, Mrs. Lee from the community center said that they needed more volunteers for the food bank.", "de": "Zuerst hat Mrs. Lee vom Gemeindezentrum gesagt, dass sie mehr Freiwillige für die Tafel bräuchten." },
+      { "speaker": "Carlos", "text": "The food bank on Pine Street? Is it really that busy?", "de": "Die Tafel in der Pine Street? Ist da wirklich so viel los?" },
+      { "speaker": "Lena", "text": "Yes. She told us that they had helped more than three hundred families last month.", "de": "Ja. Sie hat uns erzählt, dass sie letzten Monat mehr als dreihundert Familien geholfen hätten." },
+      { "speaker": "Carlos", "text": "Wow, I had no idea. What else?", "de": "Wow, das wusste ich gar nicht. Was noch?" },
+      { "speaker": "Lena", "text": "A woman from the city said they would open a new public library next year.", "de": "Eine Frau von der Stadt hat gesagt, dass sie nächstes Jahr eine neue öffentliche Bibliothek eröffnen würden." },
+      { "speaker": "Carlos", "text": "Great! Did anyone mention the rents? They're going up everywhere.", "de": "Super! Hat jemand die Mieten erwähnt? Die steigen überall." },
+      { "speaker": "Lena", "text": "Yes, several people did. One elderly man said he had lived here for forty years, but now the rent was too high for him.", "de": "Ja, mehrere. Ein älterer Mann sagte, er wohne seit vierzig Jahren hier, aber jetzt sei die Miete zu hoch für ihn." },
+      { "speaker": "Carlos", "text": "That's awful. I hope the city does something.", "de": "Das ist ja furchtbar. Ich hoffe, die Stadt unternimmt etwas." },
+      { "speaker": "Lena", "text": "Me too. Oh, and after the meeting, Mrs. Lee asked me if I could help at the food bank.", "de": "Ich auch. Ach, und nach dem Treffen hat Mrs. Lee mich gefragt, ob ich bei der Tafel helfen könnte." },
+      { "speaker": "Carlos", "text": "And what did you tell her?", "de": "Und was hast du ihr gesagt?" },
+      { "speaker": "Lena", "text": "I told her I could come on Saturday mornings. She asked whether you had time, too!", "de": "Ich habe ihr gesagt, dass ich samstagvormittags kommen kann. Sie hat gefragt, ob du auch Zeit hättest!" },
+      { "speaker": "Carlos", "text": "Me? Well, why not? People here always help each other. Tell her I'll be there.", "de": "Ich? Na ja, warum nicht? Die Leute hier helfen sich ja immer gegenseitig. Sag ihr, ich komme." },
+      { "speaker": "Lena", "text": "Great! She said volunteers should be there at eight. So bring plenty of coffee!", "de": "Super! Sie hat gesagt, die Freiwilligen sollen um acht da sein. Also bring jede Menge Kaffee mit!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["society", "Gesellschaft"], ["community", "Gemeinschaft"], ["government", "Regierung"], ["election", "Wahl"], ["law", "Gesetz"], ["tax", "Steuer"]] },
+    { "type": "match", "pairs": [["volunteer", "ehrenamtlich arbeiten"], ["donate", "spenden"], ["vote", "wählen"], ["support", "unterstützen"], ["trust", "vertrauen"], ["mention", "erwähnen"]] },
+    { "type": "translate", "de": "Sie hat gesagt, dass sie samstags ehrenamtlich arbeitet.", "answers": ["She said that she volunteered on Saturdays.", "She said that she volunteers on Saturdays.", "She said she volunteered on Saturdays.", "She said she volunteers on Saturdays."] },
+    { "type": "translate", "de": "Er hat mich gefragt, ob ich wählen gehe.", "answers": ["He asked me if I was going to vote.", "He asked me if I would vote.", "He asked me if I voted.", "He asked me whether I was going to vote.", "He asked me whether I would vote.", "He asked me whether I voted.", "He asked if I was going to vote.", "He asked if I would vote.", "He asked if I voted.", "He asked whether I was going to vote.", "He asked whether I would vote.", "He asked whether I voted."] },
+    { "type": "translate", "de": "Laut einer Umfrage fühlen sich viele ältere Menschen einsam.", "answers": ["According to a survey, many elderly people feel lonely.", "According to a survey, many older people feel lonely.", "According to a survey, many old people feel lonely.", "According to a survey, a lot of elderly people feel lonely.", "According to a survey, a lot of older people feel lonely.", "According to a survey, a lot of old people feel lonely."] },
+    { "type": "cloze", "text": "We ___ old clothes to a charity every year.", "answers": ["donate"], "de": "Wir spenden jedes Jahr alte Kleidung an eine Hilfsorganisation." },
+    { "type": "cloze", "text": "Everybody has to pay ___.", "answers": ["taxes"], "de": "Alle müssen Steuern zahlen." },
+    { "type": "cloze", "text": "In our building, the neighbors help each ___.", "answers": ["other"], "de": "In unserem Haus helfen sich die Nachbarn gegenseitig." },
+    { "type": "cloze", "text": "___ to the survey, most people trust their neighbors.", "answers": ["According"], "de": "Laut der Umfrage vertrauen die meisten Menschen ihren Nachbarn." },
+    { "type": "order", "de": "Sie bat mich, ihr zu helfen.", "answer": "She asked me to help her.", "distractors": ["that", "said"] },
+    { "type": "order", "de": "Meine Eltern helfen beide ehrenamtlich bei der Tafel.", "answer": "Both of my parents volunteer at the food bank.", "distractors": ["All"] },
+    { "type": "order", "de": "Wer kümmert sich um deinen Hund?", "answer": "Who takes care of your dog?", "distractors": ["does"] },
+    { "type": "listen", "text": "Mrs. Lee told us that they needed more volunteers.", "de": "Mrs. Lee hat uns gesagt, dass sie mehr Freiwillige bräuchten." },
+    { "type": "listen", "text": "Most people in our building are friendly, but hardly any of them have time to help.", "de": "Die meisten Leute in unserem Haus sind freundlich, aber kaum jemand von ihnen hat Zeit zu helfen." }
+  ]
+}

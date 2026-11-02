@@ -1,0 +1,163 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-10",
+  "lang": "en",
+  "level": "B1",
+  "number": 10,
+  "title": "Dreams and Goals",
+  "title_de": "Ziele",
+  "topic": "Träume und Wünsche",
+  "goals": [
+    "Du kannst mit I wish … und If only … sagen, was du dir anders wünschst: I wish I had more time.",
+    "Du kannst mit dem future continuous beschreiben, was du in der Zukunft gerade tun wirst: This time next year I'll be living in …",
+    "Du kannst mit will be able to sagen, was du in Zukunft können wirst.",
+    "Du kannst über Ziele, Hoffnungen und Pläne sprechen: I'm hoping to …, I'm planning on …, My goal is to …"
+  ],
+  "vocab": [
+    { "id": "goal", "word": "goal", "plural": "goals", "de": "das Ziel", "pos": "noun", "example": { "text": "My goal is to run a marathon next year.", "de": "Mein Ziel ist es, nächstes Jahr einen Marathon zu laufen." }, "note": "Im Sport auch: das Tor. set a goal = sich ein Ziel setzen, reach a goal = ein Ziel erreichen." },
+    { "id": "wish", "word": "wish", "de": "wünschen; sich wünschen; der Wunsch", "pos": "verb", "example": { "text": "I wish I had more free time.", "de": "Ich wünschte, ich hätte mehr Freizeit." }, "note": "Nach I wish steht die Vergangenheitsform, wenn du dir die Gegenwart anders wünschst. Als Nomen: Make a wish! (Wünsch dir was!)" },
+    { "id": "if-only", "word": "if only", "de": "wenn … doch nur", "pos": "phrase", "example": { "text": "If only I could speak Japanese!", "de": "Wenn ich doch nur Japanisch sprechen könnte!" } },
+    { "id": "achieve", "word": "achieve", "de": "erreichen; schaffen", "pos": "verb", "example": { "text": "You can achieve your goals if you work hard.", "de": "Du kannst deine Ziele erreichen, wenn du hart arbeitest." } },
+    { "id": "succeed", "word": "succeed", "de": "Erfolg haben; es schaffen", "pos": "verb", "example": { "text": "If at first you don't succeed, try again.", "de": "Wenn es beim ersten Mal nicht klappt, versuch es noch einmal." }, "note": "Ein bekanntes englisches Sprichwort. succeed in + -ing: She succeeded in finding a job." },
+    { "id": "success", "word": "success", "de": "der Erfolg", "pos": "noun", "example": { "text": "The party was a big success.", "de": "Die Party war ein großer Erfolg." } },
+    { "id": "successful", "word": "successful", "de": "erfolgreich", "pos": "adj", "example": { "text": "My aunt is a successful lawyer.", "de": "Meine Tante ist eine erfolgreiche Anwältin." } },
+    { "id": "ambitious", "word": "ambitious", "de": "ehrgeizig; ambitioniert", "pos": "adj", "example": { "text": "Yuki is very ambitious. She wants to be a doctor.", "de": "Yuki ist sehr ehrgeizig. Sie will Ärztin werden." } },
+    { "id": "be-able-to", "word": "be able to", "de": "können; in der Lage sein", "pos": "phrase", "forms": "was able to; will be able to", "example": { "text": "Next year I'll be able to speak English fluently.", "de": "Nächstes Jahr werde ich fließend Englisch sprechen können." }, "note": "can hat keine Zukunftsform – deshalb: will be able to (werde … können)." },
+    { "id": "plan-on", "word": "plan on", "de": "vorhaben; planen", "pos": "verb", "example": { "text": "We're planning on staying in New York.", "de": "Wir haben vor, in New York zu bleiben.", "focus": "planning on" }, "note": "Danach die -ing-Form: plan on moving. Gleichbedeutend: plan to move." },
+    { "id": "this-time-next-year", "word": "this time next year", "de": "nächstes Jahr um diese Zeit", "pos": "phrase", "example": { "text": "This time next year I'll be living in Boston.", "de": "Nächstes Jahr um diese Zeit wohne ich in Boston." }, "note": "Genauso: this time tomorrow (morgen um diese Zeit), this time next week." },
+    { "id": "by-then", "word": "by then", "de": "bis dahin; dann (schon)", "pos": "phrase", "example": { "text": "I'll graduate in May. By then I'll be twenty-three.", "de": "Ich mache im Mai meinen Abschluss. Bis dahin bin ich dreiundzwanzig." } },
+    { "id": "in-the-long-run", "word": "in the long run", "de": "auf lange Sicht; langfristig", "pos": "phrase", "example": { "text": "It's hard now, but it will be worth it in the long run.", "de": "Jetzt ist es schwer, aber auf lange Sicht lohnt es sich." } },
+    { "id": "hopefully", "word": "hopefully", "de": "hoffentlich", "pos": "adv", "example": { "text": "Hopefully I'll find a new apartment soon.", "de": "Hoffentlich finde ich bald eine neue Wohnung." } },
+    { "id": "afford", "word": "afford", "de": "sich leisten", "pos": "verb", "example": { "text": "I can't afford a new car right now.", "de": "Ich kann mir im Moment kein neues Auto leisten." }, "note": "Fast immer mit can, can't oder be able to: We can't afford to go on vacation this year." },
+    { "id": "own", "word": "own", "de": "besitzen; eigen", "pos": "verb", "example": { "text": "Someday I'd love to own a little café.", "de": "Eines Tages würde ich gern ein kleines Café besitzen." }, "note": "Als Adjektiv: my own apartment (meine eigene Wohnung), on my own (allein, selbstständig)." },
+    { "id": "business", "word": "business", "plural": "businesses", "de": "das Geschäft; die Firma; das Unternehmen", "pos": "noun", "example": { "text": "My dream is to start my own business.", "de": "Mein Traum ist es, mich selbstständig zu machen." }, "note": "start a business = ein Unternehmen gründen. a business trip = eine Geschäftsreise." },
+    { "id": "promotion", "word": "promotion", "plural": "promotions", "de": "die Beförderung", "pos": "noun", "example": { "text": "Carlos got a promotion last month.", "de": "Carlos wurde letzten Monat befördert." }, "note": "get a promotion = befördert werden. Auch: die Werbeaktion." },
+    { "id": "dream-job", "word": "dream job", "plural": "dream jobs", "de": "der Traumjob", "pos": "noun", "example": { "text": "Working at a big hotel is my dream job.", "de": "In einem großen Hotel zu arbeiten ist mein Traumjob." } },
+    { "id": "retire", "word": "retire", "de": "in Rente gehen; in den Ruhestand gehen", "pos": "verb", "example": { "text": "My dad wants to retire when he's sixty.", "de": "Mein Vater will mit sechzig in Rente gehen." }, "note": "retired (A2) = im Ruhestand sein. Die Rente als Zeit heißt retirement." },
+    { "id": "get-married", "word": "get married", "de": "heiraten", "pos": "verb", "forms": "got married", "example": { "text": "Emma and her boyfriend are getting married next summer.", "de": "Emma und ihr Freund heiraten nächsten Sommer.", "focus": "getting married" }, "note": "be married (A1) = verheiratet sein; get married = heiraten. Jemanden heiraten = marry someone." },
+    { "id": "start-a-family", "word": "start a family", "de": "eine Familie gründen", "pos": "phrase", "example": { "text": "They want to start a family in a few years.", "de": "Sie wollen in ein paar Jahren eine Familie gründen." } },
+    { "id": "settle-down", "word": "settle down", "de": "sesshaft werden; zur Ruhe kommen", "pos": "verb", "example": { "text": "I want to see the world before I settle down.", "de": "Ich will die Welt sehen, bevor ich sesshaft werde." } },
+    { "id": "bucket-list", "word": "bucket list", "plural": "bucket lists", "de": "die Liste der Dinge, die man im Leben unbedingt machen will", "pos": "noun", "example": { "text": "Seeing the Northern Lights is on my bucket list.", "de": "Einmal die Nordlichter zu sehen steht auf meiner Liste der Dinge, die ich im Leben machen will." }, "note": "Kommt von to kick the bucket (umgangssprachlich: sterben) – also alles, was man vorher noch erleben möchte." },
+    { "id": "challenge", "word": "challenge", "plural": "challenges", "de": "die Herausforderung", "pos": "noun", "example": { "text": "Moving to a new country is a big challenge.", "de": "In ein neues Land zu ziehen ist eine große Herausforderung." } },
+    { "id": "opportunity", "word": "opportunity", "plural": "opportunities", "de": "die Gelegenheit; die Chance", "pos": "noun", "example": { "text": "This job is a great opportunity for me.", "de": "Diese Stelle ist eine tolle Chance für mich." } },
+    { "id": "risk", "word": "risk", "plural": "risks", "de": "das Risiko; riskieren", "pos": "noun", "example": { "text": "Starting a business is always a risk.", "de": "Sich selbstständig zu machen ist immer ein Risiko." }, "note": "take a risk = ein Risiko eingehen." },
+    { "id": "effort", "word": "effort", "de": "die Mühe; die Anstrengung", "pos": "noun", "example": { "text": "Learning a language takes a lot of effort.", "de": "Eine Sprache zu lernen kostet viel Mühe." }, "note": "make an effort = sich Mühe geben." },
+    { "id": "progress", "word": "progress", "de": "der Fortschritt", "pos": "noun", "example": { "text": "Your English is great! You've made a lot of progress.", "de": "Dein Englisch ist super! Du hast große Fortschritte gemacht." }, "note": "Nicht zählbar: make progress (Fortschritte machen) – nicht „progresses“." },
+    { "id": "step", "word": "step", "plural": "steps", "de": "der Schritt", "pos": "noun", "example": { "text": "Finding a job is the first step.", "de": "Eine Stelle zu finden ist der erste Schritt." } },
+    { "id": "make-it", "word": "make it", "de": "es schaffen; (rechtzeitig) hinkommen", "pos": "phrase", "forms": "made it", "example": { "text": "It's hard, but I know you'll make it.", "de": "Es ist schwer, aber ich weiß, dass du es schaffst." }, "note": "Auch: rechtzeitig ankommen – We made it! (Wir haben es geschafft!) Sorry, I can't make it tonight. (Ich schaffe es heute Abend nicht.)" },
+    { "id": "keep-going", "word": "keep going", "de": "weitermachen; nicht aufgeben", "pos": "phrase", "example": { "text": "It's hard, but keep going!", "de": "Es ist schwer, aber mach weiter!" }, "note": "keep + -ing = weiter …, immer wieder …: Keep trying! (Versuch es weiter!)" },
+    { "id": "regret", "word": "regret", "de": "bereuen; bedauern", "pos": "verb", "forms": "regretted", "example": { "text": "I don't regret moving to New York.", "de": "Ich bereue nicht, dass ich nach New York gezogen bin." } },
+    { "id": "come-true", "word": "come true", "de": "wahr werden; in Erfüllung gehen", "pos": "verb", "forms": "came true", "example": { "text": "I hope all your dreams come true.", "de": "Ich hoffe, alle deine Träume gehen in Erfüllung." } },
+    { "id": "imagine", "word": "imagine", "de": "sich vorstellen", "pos": "verb", "example": { "text": "Can you imagine living on a boat?", "de": "Kannst du dir vorstellen, auf einem Boot zu leben?" }, "note": "Danach die -ing-Form: imagine living … Sich jemandem vorstellen (mit Namen) heißt dagegen introduce yourself." },
+    { "id": "realistic", "word": "realistic", "de": "realistisch", "pos": "adj", "example": { "text": "Is it realistic to learn Japanese in one year?", "de": "Ist es realistisch, Japanisch in einem Jahr zu lernen?" } },
+    { "id": "i-cant-wait", "word": "I can't wait", "alt": ["I cannot wait"], "de": "ich kann es kaum erwarten", "pos": "phrase", "example": { "text": "I can't wait to see my family again!", "de": "Ich kann es kaum erwarten, meine Familie wiederzusehen!" }, "note": "Danach to + Grundform: I can't wait to go home. Oder for + Nomen: I can't wait for the weekend." }
+  ],
+  "grammar": [
+    {
+      "id": "wish-if-only",
+      "title": "I wish … und If only …: sich die Gegenwart anders wünschen",
+      "blocks": [
+        { "type": "p", "text": "Mit I wish (Ich wünschte) und If only (Wenn … doch nur) sagst du, dass du dir die Gegenwart anders wünschst. Wie im second conditional aus Lektion 6 steht danach die Vergangenheitsform – sie bedeutet aber Gegenwart. Im Deutschen nimmst du dafür den Konjunktiv II." },
+        { "type": "table", "head": ["Englisch", "Deutsch", "In Wirklichkeit …"], "rows": [["I wish I had more time.", "Ich wünschte, ich hätte mehr Zeit.", "Ich habe wenig Zeit."], ["I wish I spoke Japanese.", "Ich wünschte, ich könnte Japanisch.", "Ich spreche kein Japanisch."], ["I wish I were taller.", "Ich wünschte, ich wäre größer.", "Ich bin nicht groß."], ["I wish I could sing.", "Ich wünschte, ich könnte singen.", "Ich kann nicht singen."], ["I wish I didn't have to work today.", "Ich wünschte, ich müsste heute nicht arbeiten.", "Ich muss heute arbeiten."], ["If only you were here!", "Wenn du doch nur hier wärst!", "Du bist nicht hier."]] },
+        { "type": "tip", "text": "Bei be steht auch hier oft were – für alle Personen: I wish I were … If only she were … Im Alltag hört man auch was. Aus can wird could: I wish I could …" },
+        { "type": "tip", "text": "Für Wünsche an die Zukunft, die wirklich wahr werden können, sagst du I hope: I hope I get the job. (nicht: I wish I get the job.) I wish you … mit Nomen geht aber: I wish you good luck! (Ich wünsche dir viel Glück!)" },
+        { "type": "p", "text": "If only ist stärker und gefühlvoller als I wish und steht oft mit Ausrufezeichen: If only I had more money! (Wenn ich doch nur mehr Geld hätte!)" },
+        { "type": "examples", "items": [{ "text": "I wish I lived closer to my family.", "de": "Ich wünschte, ich würde näher bei meiner Familie wohnen." }, { "text": "Lena wishes she spoke better Spanish.", "de": "Lena wünscht sich, sie spräche besser Spanisch." }, { "text": "If only I could afford a bigger apartment!", "de": "Wenn ich mir doch nur eine größere Wohnung leisten könnte!" }, { "text": "I wish it weren't so cold today.", "de": "Ich wünschte, es wäre heute nicht so kalt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I wish I ___ more free time.", "answers": ["had"], "de": "Ich wünschte, ich hätte mehr Freizeit.", "hint": "have" },
+        { "type": "cloze", "text": "If only I ___ speak Spanish!", "answers": ["could"], "de": "Wenn ich doch nur Spanisch sprechen könnte!" },
+        { "type": "cloze", "text": "I wish my apartment ___ bigger.", "answers": ["were", "was"], "de": "Ich wünschte, meine Wohnung wäre größer.", "hint": "be" },
+        { "type": "cloze", "text": "I wish I ___ live so far away from my family.", "answers": ["didn't", "did not"], "de": "Ich wünschte, ich würde nicht so weit weg von meiner Familie wohnen." },
+        { "type": "cloze", "text": "I ___ you get the job!", "answers": ["hope"], "de": "Ich hoffe, du bekommst die Stelle!" },
+        { "type": "translate", "de": "Ich wünschte, ich hätte mehr Geld.", "answers": ["I wish I had more money."] },
+        { "type": "translate", "de": "Wenn ich doch nur fließend Englisch spräche!", "answers": ["If only I spoke fluent English!", "If only I spoke English fluently!", "If only I were fluent in English!", "If only I was fluent in English!", "If only I could speak fluent English!", "If only I could speak English fluently!"] },
+        { "type": "order", "de": "Ich wünschte, du wärst hier.", "answer": "I wish you were here.", "distractors": ["are"] },
+        { "type": "choice", "prompt": "Du hast morgen ein Vorstellungsgespräch. Was sagst du?", "options": ["I hope I get the job.", "I wish I get the job.", "I wish I got the job."], "answer": 0, "explain": "Für einen Wunsch an die Zukunft, der wahr werden kann, nimmst du I hope. I wish + Vergangenheit heißt: Es ist leider nicht so." }
+      ]
+    },
+    {
+      "id": "future-continuous",
+      "title": "This time next year I'll be living …: future continuous und will be able to",
+      "blocks": [
+        { "type": "p", "text": "Mit dem future continuous (will be + -ing) sagst du, was zu einem bestimmten Zeitpunkt in der Zukunft gerade im Gange sein wird. Stell dir vor, du schaust in die Zukunft und siehst dich mitten in einer Tätigkeit. Im Deutschen reicht meist das Präsens." },
+        { "type": "table", "head": ["", "Englisch", "Deutsch"], "rows": [["bejaht", "This time next year I'll be living in Boston.", "Nächstes Jahr um diese Zeit wohne ich in Boston."], ["verneint", "I won't be working on Saturday.", "Am Samstag arbeite ich nicht."], ["Frage", "Will you be using the car tonight?", "Brauchst du heute Abend das Auto?"]] },
+        { "type": "tip", "text": "Vergleich: At eight I'll start work. (Um acht fange ich an – ein Zeitpunkt.) At eight I'll be working. (Um acht bin ich schon mitten in der Arbeit.) Typische Zeitangaben: this time tomorrow, this time next year, in ten years, at eight tomorrow." },
+        { "type": "p", "text": "can hat keine Zukunftsform. Für „werde … können“ nimmst du will be able to + Grundform:" },
+        { "type": "table", "head": ["Zeit", "Englisch", "Deutsch"], "rows": [["Gegenwart", "I can speak English.", "Ich kann Englisch."], ["Zukunft", "Next year I'll be able to speak Japanese.", "Nächstes Jahr werde ich Japanisch können."], ["Zukunft, verneint", "I won't be able to come.", "Ich werde nicht kommen können."], ["Vergangenheit", "I was able to fix it.", "Ich konnte es reparieren."]] },
+        { "type": "tip", "text": "„I will can …“ gibt es nicht! Immer: I will be able to … Auch nach anderen Wörtern wie might, want to oder hope to brauchst du be able to: I hope to be able to help you." },
+        { "type": "examples", "items": [{ "text": "In ten years, Yuki will be working as a doctor.", "de": "In zehn Jahren arbeitet Yuki als Ärztin." }, { "text": "Don't call me at eight. I'll be having dinner.", "de": "Ruf mich nicht um acht an. Da esse ich gerade zu Abend." }, { "text": "If I save money, I'll be able to buy a car next year.", "de": "Wenn ich Geld spare, kann ich mir nächstes Jahr ein Auto kaufen." }, { "text": "Sorry, I won't be able to come to your party.", "de": "Tut mir leid, ich werde nicht zu deiner Party kommen können." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "This time next year I'll be ___ in Boston.", "answers": ["living"], "de": "Nächstes Jahr um diese Zeit wohne ich in Boston.", "hint": "live" },
+        { "type": "cloze", "text": "Don't call at eight. I'll ___ having dinner.", "answers": ["be"], "de": "Ruf nicht um acht an. Da esse ich gerade zu Abend." },
+        { "type": "cloze", "text": "This time tomorrow we'll be ___ to Hawaii.", "answers": ["flying"], "de": "Morgen um diese Zeit fliegen wir nach Hawaii.", "hint": "fly" },
+        { "type": "cloze", "text": "If you practice every day, you'll be ___ to speak English fluently.", "answers": ["able"], "de": "Wenn du jeden Tag übst, wirst du fließend Englisch sprechen können." },
+        { "type": "cloze", "text": "Sorry, I won't be able ___ come to your party.", "answers": ["to"], "de": "Tut mir leid, ich werde nicht zu deiner Party kommen können." },
+        { "type": "cloze", "text": "___ you be using the car tonight?", "answers": ["Will"], "de": "Brauchst du heute Abend das Auto?" },
+        { "type": "translate", "de": "Nächstes Jahr um diese Zeit werde ich in Japan leben.", "answers": ["This time next year I'll be living in Japan.", "This time next year I will be living in Japan.", "I'll be living in Japan this time next year.", "I will be living in Japan this time next year."] },
+        { "type": "translate", "de": "Ich werde nicht kommen können.", "answers": ["I won't be able to come.", "I will not be able to come."] },
+        { "type": "order", "de": "Bald wirst du Englisch sprechen können.", "answer": "Soon you'll be able to speak English.", "distractors": ["can"] }
+      ]
+    },
+    {
+      "id": "hopes-plans",
+      "title": "Hoffnungen und Pläne: I'm hoping to …, I'm planning on …",
+      "blocks": [
+        { "type": "p", "text": "Wenn du über deine Ziele sprichst, klingen diese Ausdrücke natürlich. Achte darauf, was danach kommt: to + Grundform oder die -ing-Form – das kennst du schon aus Lektion 5." },
+        { "type": "table", "head": ["Ausdruck", "danach", "Beispiel", "Deutsch"], "rows": [["I'm hoping to", "Grundform", "I'm hoping to find a new job.", "Ich hoffe, eine neue Stelle zu finden."], ["I'm planning to / on", "Grundform / -ing", "I'm planning on moving to Boston.", "Ich habe vor, nach Boston zu ziehen."], ["I'm thinking of / about", "-ing", "I'm thinking of starting a business.", "Ich überlege, mich selbstständig zu machen."], ["I'd like to / I'd love to", "Grundform", "I'd love to travel around the world.", "Ich würde gern um die Welt reisen."], ["My goal is to", "Grundform", "My goal is to run a marathon.", "Mein Ziel ist es, einen Marathon zu laufen."], ["I'm looking forward to", "-ing / Nomen", "I'm looking forward to seeing you.", "Ich freue mich darauf, dich zu sehen."], ["I can't wait to", "Grundform", "I can't wait to see my family.", "Ich kann es kaum erwarten, meine Familie zu sehen."]] },
+        { "type": "tip", "text": "I'm hoping to … klingt etwas vorsichtiger und freundlicher als I hope to … – beides ist richtig. Genauso: I'm planning to … oder I plan to …" },
+        { "type": "tip", "text": "Bei look forward to ist to eine Präposition, deshalb folgt die -ing-Form: I'm looking forward to meeting you. (nicht: to meet you)" },
+        { "type": "examples", "items": [{ "text": "After college, I'm hoping to work abroad for a year.", "de": "Nach dem Studium hoffe ich, ein Jahr im Ausland zu arbeiten." }, { "text": "We're thinking about buying a house in the country.", "de": "Wir überlegen, ein Haus auf dem Land zu kaufen." }, { "text": "I'm planning on taking a Spanish course in the spring.", "de": "Ich habe vor, im Frühling einen Spanischkurs zu machen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I'm hoping ___ find a job in New York.", "answers": ["to"], "de": "Ich hoffe, eine Stelle in New York zu finden." },
+        { "type": "cloze", "text": "We're planning on ___ a house next year.", "answers": ["buying"], "de": "Wir haben vor, nächstes Jahr ein Haus zu kaufen.", "hint": "buy" },
+        { "type": "cloze", "text": "I'm thinking of ___ Spanish.", "answers": ["learning", "studying"], "de": "Ich überlege, Spanisch zu lernen.", "hint": "learn" },
+        { "type": "cloze", "text": "I'm really looking forward to ___ you!", "answers": ["seeing", "meeting"], "de": "Ich freue mich sehr darauf, dich zu sehen!", "hint": "see" },
+        { "type": "cloze", "text": "My ___ is to run a marathon next year.", "answers": ["goal"], "de": "Mein Ziel ist es, nächstes Jahr einen Marathon zu laufen." },
+        { "type": "cloze", "text": "I can't ___ to see my family again!", "answers": ["wait"], "de": "Ich kann es kaum erwarten, meine Familie wiederzusehen!" },
+        { "type": "translate", "de": "Ich habe vor, nach Kalifornien zu ziehen.", "answers": ["I'm planning to move to California.", "I'm planning on moving to California.", "I am planning to move to California.", "I am planning on moving to California.", "I plan to move to California.", "I'm going to move to California.", "I am going to move to California."] },
+        { "type": "order", "de": "Ich überlege, mir ein neues Auto zu kaufen.", "answer": "I'm thinking of buying a new car.", "distractors": ["buy"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Big Dreams",
+    "title_de": "Große Träume",
+    "lines": [
+      { "speaker": "Yuki", "text": "Only ten minutes until midnight! So, what are your goals for the new year?", "de": "Nur noch zehn Minuten bis Mitternacht! Also, was sind eure Ziele fürs neue Jahr?" },
+      { "speaker": "Carlos", "text": "My goal is to run a marathon. I've been training since October.", "de": "Mein Ziel ist es, einen Marathon zu laufen. Ich trainiere seit Oktober." },
+      { "speaker": "Lena", "text": "A marathon? Wow, I wish I were that ambitious! I'd be happy if I could run five miles.", "de": "Einen Marathon? Wow, ich wünschte, ich wäre so ehrgeizig! Ich wäre froh, wenn ich fünf Meilen laufen könnte." },
+      { "speaker": "Carlos", "text": "You can do it! Just keep going. What about you, Lena?", "de": "Das schaffst du! Einfach dranbleiben. Und du, Lena?" },
+      { "speaker": "Lena", "text": "Well, college is going really well, so I'm hoping to get good grades again. And I'm planning on taking a Spanish course. When you and Sofia speak Spanish, I wish I understood more!", "de": "Na ja, das Studium läuft richtig gut, also hoffe ich, dass ich wieder gute Noten bekomme. Und ich habe vor, einen Spanischkurs zu machen. Wenn du und Sofia Spanisch sprecht, wünschte ich, ich würde mehr verstehen!" },
+      { "speaker": "Carlos", "text": "Ha! We'll practice with you. This time next year, you'll be able to understand everything we say!", "de": "Ha! Wir üben mit dir. Nächstes Jahr um diese Zeit wirst du alles verstehen können, was wir sagen!" },
+      { "speaker": "Lena", "text": "Hopefully! And in three years, I'll be teaching English at a school in Austria.", "de": "Hoffentlich! Und in drei Jahren unterrichte ich Englisch an einer Schule in Österreich." },
+      { "speaker": "Yuki", "text": "You'll be a great teacher. But we'll miss you! I can't imagine New York without you.", "de": "Du wirst eine tolle Lehrerin. Aber wir werden dich vermissen! Ich kann mir New York ohne dich gar nicht vorstellen." },
+      { "speaker": "Carlos", "text": "And you, Yuki? Any big plans?", "de": "Und du, Yuki? Hast du große Pläne?" },
+      { "speaker": "Yuki", "text": "I love working as a nurse, but I've always wanted to be a doctor. I'm thinking of going back to school, too.", "de": "Ich arbeite sehr gern als Krankenpflegerin, aber ich wollte schon immer Ärztin werden. Ich überlege, auch wieder zu studieren." },
+      { "speaker": "Lena", "text": "Really? That's a big step! How long would it take?", "de": "Echt? Das ist ein großer Schritt! Wie lange würde das dauern?" },
+      { "speaker": "Yuki", "text": "About seven years. And I can't afford it right now, so I'll have to save a lot of money first. Sometimes I wish I were younger!", "de": "Ungefähr sieben Jahre. Und im Moment kann ich es mir nicht leisten, ich muss also erst viel Geld sparen. Manchmal wünschte ich, ich wäre jünger!" },
+      { "speaker": "Carlos", "text": "It's never too late, and it will be worth it in the long run. Imagine: in ten years, you'll be working as a doctor at a big hospital!", "de": "Dafür ist es nie zu spät, und auf lange Sicht lohnt es sich. Stell dir vor: In zehn Jahren arbeitest du als Ärztin in einem großen Krankenhaus!" },
+      { "speaker": "Yuki", "text": "I hope so! And what's on your bucket list, Carlos?", "de": "Das hoffe ich! Und was steht auf deiner Liste der Dinge, die du unbedingt mal machen willst, Carlos?" },
+      { "speaker": "Carlos", "text": "Seeing the Northern Lights in Iceland! And someday I'd love to own a little house in the mountains.", "de": "Die Nordlichter in Island sehen! Und eines Tages hätte ich gern ein kleines Haus in den Bergen." },
+      { "speaker": "Lena", "text": "Look, it's almost midnight! Ten, nine, eight … Happy New Year! I hope all our dreams come true!", "de": "Schaut, es ist fast Mitternacht! Zehn, neun, acht … Frohes neues Jahr! Ich hoffe, alle unsere Träume gehen in Erfüllung!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["goal", "Ziel"], ["success", "Erfolg"], ["challenge", "Herausforderung"], ["opportunity", "Gelegenheit"], ["effort", "Mühe"], ["progress", "Fortschritt"]] },
+    { "type": "match", "pairs": [["achieve", "erreichen"], ["make it", "es schaffen"], ["regret", "bereuen"], ["afford", "sich leisten"], ["imagine", "sich vorstellen"], ["retire", "in Rente gehen"]] },
+    { "type": "translate", "de": "Ich wünschte, ich würde näher am Meer wohnen.", "answers": ["I wish I lived closer to the ocean.", "I wish I lived closer to the sea.", "I wish I lived closer to the beach.", "I wish I lived nearer to the ocean.", "I wish I lived nearer to the sea.", "I wish I lived nearer to the beach.", "I wish I lived nearer the ocean.", "I wish I lived nearer the sea.", "I wish I lived nearer the beach."] },
+    { "type": "translate", "de": "Gib nicht auf!", "answers": ["Don't give up!", "Do not give up!"] },
+    { "type": "translate", "de": "Morgen um diese Zeit fliege ich nach Wien.", "answers": ["This time tomorrow I'll be flying to Vienna.", "This time tomorrow I will be flying to Vienna.", "I'll be flying to Vienna this time tomorrow.", "I will be flying to Vienna this time tomorrow."] },
+    { "type": "translate", "de": "Ich kann mir kein neues Auto leisten.", "answers": ["I can't afford a new car.", "I cannot afford a new car."] },
+    { "type": "cloze", "text": "I hope all your dreams come ___.", "answers": ["true"], "de": "Ich hoffe, alle deine Träume gehen in Erfüllung." },
+    { "type": "cloze", "text": "My dad wants to ___ when he's sixty-five.", "answers": ["retire"], "de": "Mein Vater will mit fünfundsechzig in Rente gehen." },
+    { "type": "cloze", "text": "Carlos got a ___ at work. Now he's a manager.", "answers": ["promotion"], "de": "Carlos wurde in der Arbeit befördert. Jetzt ist er Teamleiter." },
+    { "type": "cloze", "text": "___, I'll find a new apartment soon.", "answers": ["Hopefully"], "de": "Hoffentlich finde ich bald eine neue Wohnung." },
+    { "type": "order", "de": "Mein Ziel ist es, mein eigenes Café zu eröffnen.", "answer": "My goal is to open my own café.", "distractors": ["opening"] },
+    { "type": "order", "de": "Ich wünschte, ich hätte mehr Zeit für meine Familie.", "answer": "I wish I had more time for my family.", "distractors": ["have"] },
+    { "type": "listen", "text": "In five years, I'll be living in a small house in the mountains.", "de": "In fünf Jahren wohne ich in einem kleinen Haus in den Bergen." },
+    { "type": "listen", "text": "I'm hoping to get a promotion, and I'm planning on taking a Spanish course.", "de": "Ich hoffe auf eine Beförderung, und ich habe vor, einen Spanischkurs zu machen." }
+  ]
+}

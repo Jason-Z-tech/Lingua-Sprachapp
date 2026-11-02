@@ -75,7 +75,7 @@
         { "type": "cloze", "text": "I'd prefer ___ see the movie in English.", "answers": ["to"], "de": "Ich würde den Film lieber auf Englisch sehen." },
         { "type": "cloze", "text": "She prefers ___ to watching TV.", "answers": ["reading"], "de": "Sie liest lieber, als fernzusehen.", "hint": "read" },
         { "type": "translate", "de": "Ich würde lieber zu Hause bleiben.", "answers": ["I'd rather stay home.", "I'd rather stay at home.", "I would rather stay home.", "I would rather stay at home.", "I'd prefer to stay home.", "I'd prefer to stay at home.", "I would prefer to stay home.", "I would prefer to stay at home."] },
-        { "type": "translate", "de": "Ich mag Bücher lieber als Filme.", "answers": ["I prefer books to movies.", "I like books more than movies.", "I like books better than movies.", "I prefer books over movies.", "I prefer books to films."] },
+        { "type": "translate", "de": "Ich mag Bücher lieber als Filme.", "answers": ["I prefer books to movies.", "I like books more than movies.", "I like books better than movies.", "I prefer books over movies.", "I prefer books to films.", "I like books more than films.", "I prefer reading books to watching movies."] },
         { "type": "order", "de": "Ich gehe lieber zu Fuß, als den Bus zu nehmen.", "answer": "I'd rather walk than take the bus.", "distractors": ["to"] }
       ]
     },
@@ -151,7 +151,7 @@
     { "type": "match", "pairs": [["plot", "Handlung"], ["lyrics", "Liedtext"], ["review", "Kritik"], ["novel", "Roman"], ["subtitles", "Untertitel"], ["audience", "Publikum"]] },
     { "type": "match", "pairs": [["actor", "Schauspieler/in"], ["director", "Regisseur/in"], ["author", "Autor/in"], ["singer", "Sänger/in"], ["artist", "Künstler/in"]] },
     { "type": "translate", "de": "Ich schaue lieber Dokumentarfilme als Komödien.", "answers": ["I prefer documentaries to comedies.", "I prefer watching documentaries to watching comedies.", "I prefer watching documentaries to comedies.", "I like documentaries more than comedies.", "I like documentaries better than comedies.", "I'd rather watch documentaries than comedies.", "I would rather watch documentaries than comedies."] },
-    { "type": "translate", "de": "Das Ende war traurig.", "answers": ["The ending was sad."] },
+    { "type": "translate", "de": "Das Ende war traurig.", "answers": ["The ending was sad.", "The end was sad."] },
     { "type": "translate", "de": "Du solltest dir diese Band mal anhören.", "answers": ["You should check out this band.", "You should check this band out.", "You should listen to this band."] },
     { "type": "translate", "de": "Ich mag keine Horrorfilme. – Ich auch nicht.", "answers": ["I don't like horror movies. Neither do I.", "I don't like horror movies. Me neither.", "I don't like horror movies. Nor do I.", "I do not like horror movies. Neither do I.", "I do not like horror movies. Me neither.", "I do not like horror movies. Nor do I."] },
     { "type": "cloze", "text": "Their new album comes ___ next month.", "answers": ["out"], "de": "Ihr neues Album erscheint nächsten Monat." },

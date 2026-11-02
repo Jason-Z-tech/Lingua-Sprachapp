@@ -1,0 +1,159 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-02",
+  "lang": "es",
+  "level": "B1",
+  "number": 2,
+  "title": "Siempre conectados",
+  "title_de": "Medien und Technik",
+  "topic": "Handy, Internet und Nachrichten",
+  "goals": [
+    "Du kannst über Handy, Internet, Apps, soziale Netzwerke und Nachrichten sprechen.",
+    "Du kannst mit es importante que, es necesario que und es mejor que + subjuntivo sagen, was wichtig oder nötig ist.",
+    "Du kannst mit quiero que und para que + subjuntivo Wünsche und Zwecke ausdrücken.",
+    "Du kannst genau sagen, wie oft und wie viel du etwas benutzt: dos horas al día, por lo menos, demasiado …"
+  ],
+  "vocab": [
+    { "id": "aplicacion", "word": "aplicación", "article": "la", "gender": "f", "plural": "las aplicaciones", "de": "die App; die Anwendung", "pos": "noun", "example": { "text": "Descarga esta aplicación, es muy útil.", "de": "Lade diese App herunter, sie ist sehr nützlich." }, "note": "Umgangssprachlich auch: la app." },
+    { "id": "descargar", "word": "descargar", "de": "herunterladen", "pos": "verb", "example": { "text": "¿Has descargado la aplicación del banco?", "de": "Hast du die App der Bank heruntergeladen?", "focus": "descargado" }, "note": "Subjuntivo mit gu: que descargue, que descargues …" },
+    { "id": "redes-sociales", "word": "redes sociales", "article": "las", "gender": "f", "de": "die sozialen Netzwerke", "pos": "noun", "example": { "text": "Paso demasiado tiempo en las redes sociales.", "de": "Ich verbringe zu viel Zeit in den sozialen Netzwerken." }, "note": "Einzahl: la red social. La red = das Netz." },
+    { "id": "noticia", "word": "noticia", "article": "la", "gender": "f", "plural": "las noticias", "de": "die Nachricht; die Neuigkeit", "pos": "noun", "example": { "text": "¿Has leído la noticia en el periódico?", "de": "Hast du die Nachricht in der Zeitung gelesen?" }, "note": "Las noticias = die Nachrichten (im Fernsehen, Radio). Eine Textnachricht heißt un mensaje." },
+    { "id": "internet", "word": "internet", "gender": "m", "noArticle": true, "de": "das Internet", "pos": "noun", "example": { "text": "Busco información en internet.", "de": "Ich suche Informationen im Internet." }, "note": "Meist ohne Artikel: en internet, por internet." },
+    { "id": "pantalla", "word": "pantalla", "article": "la", "gender": "f", "plural": "las pantallas", "de": "der Bildschirm; das Display", "pos": "noun", "example": { "text": "La pantalla de mi móvil está rota.", "de": "Das Display meines Handys ist kaputt." } },
+    { "id": "contrasena", "word": "contraseña", "article": "la", "gender": "f", "plural": "las contraseñas", "de": "das Passwort", "pos": "noun", "example": { "text": "Es importante que tengas una contraseña segura.", "de": "Es ist wichtig, dass du ein sicheres Passwort hast." } },
+    { "id": "videollamada", "word": "videollamada", "article": "la", "gender": "f", "plural": "las videollamadas", "de": "der Videoanruf", "pos": "noun", "example": { "text": "Los domingos hago una videollamada con mis padres.", "de": "Sonntags mache ich einen Videoanruf mit meinen Eltern." }, "note": "Aus video + llamada (Anruf, von llamar)." },
+    { "id": "conectarse", "word": "conectarse", "de": "sich verbinden; online gehen", "pos": "verb", "example": { "text": "Me conecto a internet todos los días.", "de": "Ich gehe jeden Tag online.", "focus": "me conecto" } },
+    { "id": "wifi", "word": "wifi", "article": "el", "gender": "m", "de": "das WLAN", "pos": "noun", "example": { "text": "¿Tienes la contraseña del wifi?", "de": "Hast du das WLAN-Passwort?" }, "note": "In Spanien hört man auch la wifi." },
+    { "id": "cargar", "word": "cargar", "de": "(auf)laden", "pos": "verb", "example": { "text": "Tengo que cargar el móvil.", "de": "Ich muss das Handy aufladen." }, "note": "Subjuntivo mit gu: que cargue, que cargues …" },
+    { "id": "bateria", "word": "batería", "article": "la", "gender": "f", "plural": "las baterías", "de": "der Akku; die Batterie", "pos": "noun", "example": { "text": "Mi móvil casi no tiene batería.", "de": "Mein Handy hat fast keinen Akku mehr." } },
+    { "id": "funcionar", "word": "funcionar", "de": "funktionieren", "pos": "verb", "example": { "text": "El wifi no funciona.", "de": "Das WLAN funktioniert nicht.", "focus": "funciona" } },
+    { "id": "publicar", "word": "publicar", "de": "veröffentlichen; posten", "pos": "verb", "example": { "text": "Lucía publica sus artículos en internet.", "de": "Lucía veröffentlicht ihre Artikel im Internet.", "focus": "publica" }, "note": "Subjuntivo mit qu: que publique." },
+    { "id": "portatil", "word": "portátil", "article": "el", "gender": "m", "plural": "los portátiles", "de": "der Laptop", "pos": "noun", "example": { "text": "Trabajo con mi portátil desde casa.", "de": "Ich arbeite mit meinem Laptop von zu Hause aus." } },
+    { "id": "tableta", "word": "tableta", "article": "la", "gender": "f", "plural": "las tabletas", "de": "das Tablet", "pos": "noun", "example": { "text": "Mi abuela lee el periódico en la tableta.", "de": "Meine Oma liest die Zeitung auf dem Tablet." } },
+    { "id": "usuario", "word": "usuario", "article": "el", "gender": "m", "plural": "los usuarios", "de": "der Nutzer; der Benutzer", "pos": "noun", "example": { "text": "Esta aplicación tiene muchos usuarios.", "de": "Diese App hat viele Nutzer.", "focus": "usuarios" }, "note": "la usuaria = die Nutzerin." },
+    { "id": "articulo", "word": "artículo", "article": "el", "gender": "m", "plural": "los artículos", "de": "der Artikel", "pos": "noun", "example": { "text": "Lucía ha escrito un artículo sobre las redes sociales.", "de": "Lucía hat einen Artikel über soziale Netzwerke geschrieben." } },
+    { "id": "revista", "word": "revista", "article": "la", "gender": "f", "plural": "las revistas", "de": "die Zeitschrift", "pos": "noun", "example": { "text": "En el tren leo una revista de viajes.", "de": "Im Zug lese ich eine Reisezeitschrift." } },
+    { "id": "radio", "word": "radio", "article": "la", "gender": "f", "plural": "las radios", "de": "das Radio", "pos": "noun", "example": { "text": "Por la mañana escucho la radio en la cocina.", "de": "Morgens höre ich in der Küche Radio." }, "note": "Weiblich: la radio." },
+    { "id": "programa", "word": "programa", "article": "el", "gender": "m", "plural": "los programas", "de": "die Sendung; das Programm", "pos": "noun", "example": { "text": "¿Has visto el programa de anoche?", "de": "Hast du die Sendung von gestern Abend gesehen?" }, "note": "Wie el tema und el problema: männlich, obwohl es auf -a endet." },
+    { "id": "anuncio", "word": "anuncio", "article": "el", "gender": "m", "plural": "los anuncios", "de": "die Werbung; die Anzeige", "pos": "noun", "example": { "text": "En la tele hay demasiados anuncios.", "de": "Im Fernsehen gibt es zu viel Werbung.", "focus": "anuncios" }, "note": "un anuncio = ein Werbespot, eine Anzeige." },
+    { "id": "informarse", "word": "informarse", "de": "sich informieren", "pos": "verb", "example": { "text": "Me informo por la radio y por internet.", "de": "Ich informiere mich über das Radio und das Internet.", "focus": "me informo" } },
+    { "id": "estar-enganchado", "word": "estar enganchado", "alt": [ "estar enganchada" ], "de": "süchtig sein (nach); nicht loskommen (von)", "pos": "phrase", "example": { "text": "Mi hermano está enganchado al móvil.", "de": "Mein Bruder kommt nicht vom Handy los.", "focus": "está enganchado" }, "note": "Umgangssprachlich, mit a: estar enganchado a las series." },
+    { "id": "demasiado", "word": "demasiado", "de": "zu; zu viel", "pos": "adv", "example": { "text": "Usas el móvil demasiado.", "de": "Du benutzt das Handy zu viel." }, "note": "Vor Nomen passt es sich an: demasiada gente, demasiados anuncios." },
+    { "id": "al-dia", "word": "al día", "de": "pro Tag; am Tag", "pos": "phrase", "example": { "text": "Uso el móvil tres horas al día.", "de": "Ich benutze das Handy drei Stunden am Tag." }, "note": "Genauso: a la semana (pro Woche), al mes (pro Monat), al año (pro Jahr)." },
+    { "id": "por-lo-menos", "word": "por lo menos", "de": "mindestens; wenigstens", "pos": "phrase", "example": { "text": "Leo las noticias por lo menos una vez al día.", "de": "Ich lese mindestens einmal am Tag die Nachrichten." }, "note": "Gleichbedeutend: al menos." },
+    { "id": "como-mucho", "word": "como mucho", "de": "höchstens", "pos": "phrase", "example": { "text": "Veo la tele una hora al día, como mucho.", "de": "Ich sehe höchstens eine Stunde am Tag fern." } },
+    { "id": "de-vez-en-cuando", "word": "de vez en cuando", "de": "ab und zu; hin und wieder", "pos": "phrase", "example": { "text": "De vez en cuando escucho la radio.", "de": "Ab und zu höre ich Radio." } },
+    { "id": "mitad", "word": "mitad", "article": "la", "gender": "f", "de": "die Hälfte", "pos": "noun", "example": { "text": "La mitad de mis amigos no ve la tele.", "de": "Die Hälfte meiner Freunde sieht nicht fern." }, "note": "la mitad de + Nomen. Das Verb steht meist in der Einzahl." },
+    { "id": "importante", "word": "importante", "de": "wichtig", "pos": "adj", "example": { "text": "Para mí es importante leer las noticias cada día.", "de": "Für mich ist es wichtig, jeden Tag die Nachrichten zu lesen." }, "note": "Es importante + Infinitiv (allgemein) oder es importante que + subjuntivo (für eine bestimmte Person)." },
+    { "id": "necesario", "word": "necesario", "alt": [ "necesaria" ], "de": "nötig; notwendig", "pos": "adj", "example": { "text": "No es necesario que me llames.", "de": "Du musst mich nicht anrufen." } },
+    { "id": "para-que", "word": "para que", "de": "damit", "pos": "conj", "example": { "text": "Te mando el enlace para que descargues la aplicación.", "de": "Ich schicke dir den Link, damit du die App herunterlädst." }, "note": "Nach para que steht immer der subjuntivo." },
+    { "id": "informacion", "word": "información", "article": "la", "gender": "f", "plural": "las informaciones", "de": "die Information; die Informationen", "pos": "noun", "example": { "text": "En internet hay mucha información.", "de": "Im Internet gibt es viele Informationen." }, "note": "Meist in der Einzahl: mucha información = viele Informationen." },
+    { "id": "enlace", "word": "enlace", "article": "el", "gender": "m", "plural": "los enlaces", "de": "der Link", "pos": "noun", "example": { "text": "Te envío el enlace por mensaje.", "de": "Ich schicke dir den Link per Nachricht." } },
+    { "id": "util", "word": "útil", "de": "nützlich", "pos": "adj", "example": { "text": "Esta aplicación es muy útil para aprender idiomas.", "de": "Diese App ist sehr nützlich zum Sprachenlernen." }, "note": "Gleiche Form für männlich und weiblich. Mehrzahl: útiles." },
+    { "id": "gratis", "word": "gratis", "de": "kostenlos; gratis", "pos": "adj", "example": { "text": "La aplicación es gratis.", "de": "Die App ist kostenlos." }, "note": "Bleibt immer gleich: una aplicación gratis, unos programas gratis." },
+    { "id": "tecnologia", "word": "tecnología", "article": "la", "gender": "f", "plural": "las tecnologías", "de": "die Technik; die Technologie", "pos": "noun", "example": { "text": "Mi abuela no tiene miedo de la tecnología.", "de": "Meine Oma hat keine Angst vor der Technik." } },
+    { "id": "mandar", "word": "mandar", "de": "schicken", "pos": "verb", "example": { "text": "¿Me mandas las fotos de la fiesta?", "de": "Schickst du mir die Fotos von der Party?", "focus": "mandas" }, "note": "Im Alltag oft statt enviar." }
+  ],
+  "grammar": [
+    {
+      "id": "es-importante-que", "title": "Es importante que …: subjuntivo nach Bewertungen",
+      "blocks": [
+        { "type": "p", "text": "Mit Ausdrücken wie es importante, es necesario oder es mejor bewertest du etwas. Gilt das allgemein, für alle, folgt einfach der Infinitiv. Sprichst du von einer bestimmten Person, folgt que + subjuntivo." },
+        { "type": "table", "head": [ "allgemein: Infinitiv", "bestimmte Person: que + subjuntivo" ], "rows": [ [ "Es importante dormir bien.", "Es importante que duermas bien." ], [ "Es necesario cargar el móvil.", "Es necesario que cargues el móvil." ], [ "Es mejor leer un libro.", "Es mejor que leas un libro." ], [ "Es bueno descansar de la pantalla.", "Es bueno que descanses de la pantalla." ], [ "No es necesario venir.", "No es necesario que vengas." ] ] },
+        { "type": "table", "head": [ "Ausdruck", "Deutsch" ], "rows": [ [ "es importante que …", "es ist wichtig, dass …" ], [ "es necesario que …", "es ist nötig, dass …" ], [ "no es necesario que …", "… muss nicht …; es ist nicht nötig, dass …" ], [ "es mejor que …", "es ist besser, wenn …" ], [ "es bueno / es malo que …", "es ist gut / schlecht, dass …" ], [ "es normal que …", "es ist normal, dass …" ] ] },
+        { "type": "tip", "text": "Schreibung im subjuntivo: Aus c wird qu, aus g wird gu, damit die Aussprache gleich bleibt: cargar → que cargues, descargar → que descargue, publicar → que publique, buscar → que busques." },
+        { "type": "tip", "text": "Bei Tatsachen bleibt es beim Indikativ – wie in Lektion 1: Es verdad que / Es cierto que + Indikativ. Es verdad que uso mucho el móvil." },
+        { "type": "examples", "items": [ { "text": "Es importante que los niños no pasen muchas horas delante de la pantalla.", "de": "Es ist wichtig, dass Kinder nicht viele Stunden vor dem Bildschirm verbringen." }, { "text": "Es necesario que cambies la contraseña.", "de": "Du musst das Passwort ändern." }, { "text": "Es mejor que me llames, no me gusta escribir mensajes.", "de": "Ruf mich lieber an, ich schreibe nicht gern Nachrichten." }, { "text": "Es normal que el móvil no funcione sin batería.", "de": "Es ist normal, dass das Handy ohne Akku nicht funktioniert." }, { "text": "No es necesario que compres el billete en la taquilla: puedes comprarlo en la aplicación.", "de": "Du musst die Fahrkarte nicht am Schalter kaufen: Du kannst sie in der App kaufen." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Es importante que ___ una contraseña segura.", "answers": [ "tengas" ], "de": "Es ist wichtig, dass du ein sicheres Passwort hast.", "hint": "tener – tú" },
+        { "type": "cloze", "text": "Es necesario que ___ el móvil antes de salir.", "answers": [ "cargues" ], "de": "Du musst das Handy aufladen, bevor du gehst.", "hint": "cargar – tú" },
+        { "type": "cloze", "text": "Es mejor que los niños ___ libros.", "answers": [ "lean" ], "de": "Es ist besser, wenn die Kinder Bücher lesen.", "hint": "leer" },
+        { "type": "cloze", "text": "No es necesario que me ___ el enlace.", "answers": [ "mandes" ], "de": "Du musst mir den Link nicht schicken.", "hint": "mandar – tú" },
+        { "type": "cloze", "text": "Es importante ___ bien por la noche.", "answers": [ "dormir" ], "de": "Es ist wichtig, nachts gut zu schlafen.", "hint": "dormir – allgemein" },
+        { "type": "cloze", "text": "Es normal que la aplicación no ___ sin internet.", "answers": [ "funcione" ], "de": "Es ist normal, dass die App ohne Internet nicht funktioniert.", "hint": "funcionar" },
+        { "type": "translate", "de": "Es ist besser, wenn du die App herunterlädst.", "answers": [ "Es mejor que descargues la aplicación.", "Es mejor que tú descargues la aplicación.", "Es mejor que descargues la app." ] },
+        { "type": "order", "de": "Es ist wichtig, dass wir uns informieren.", "answer": "Es importante que nos informemos.", "distractors": [ "informamos" ] }
+      ]
+    },
+    {
+      "id": "quiero-que-para-que", "title": "Quiero que … und para que …: Wünsche und Zwecke",
+      "blocks": [
+        { "type": "p", "text": "Willst du selbst etwas tun, steht nach querer einfach der Infinitiv: Quiero descargar la aplicación. Willst du, dass ein anderer etwas tut, brauchst du que + subjuntivo: Quiero que descargues la aplicación. Im Deutschen ist es ähnlich: „Ich will …“ – „Ich will, dass du …“." },
+        { "type": "table", "head": [ "gleiche Person: Infinitiv", "andere Person: que + subjuntivo" ], "rows": [ [ "Quiero ver las noticias.", "Quiero que veas las noticias." ], [ "Prefiero hablar por teléfono.", "Prefiero que me llames por teléfono." ], [ "Necesito cargar el portátil.", "Necesito que me ayudes con el portátil." ], [ "Uso el móvil para leer las noticias.", "Te mando el enlace para que leas el artículo." ] ] },
+        { "type": "p", "text": "Genauso funktionieren para (um … zu) und para que (damit): Ist es dieselbe Person, steht para + Infinitiv. Ist es eine andere Person, steht para que + subjuntivo." },
+        { "type": "tip", "text": "Nach para que steht immer der subjuntivo – egal, welche Zeit im Hauptsatz steht." },
+        { "type": "tip", "text": "So bietest du Hilfe an: ¿Quieres que te ayude? = Soll ich dir helfen? ¿Quieres que te llame? = Soll ich dich anrufen?" },
+        { "type": "examples", "items": [ { "text": "Mi abuela quiere que le enseñe a usar el móvil.", "de": "Meine Oma möchte, dass ich ihr zeige, wie man das Handy benutzt." }, { "text": "Te mando el enlace para que puedas descargar la aplicación.", "de": "Ich schicke dir den Link, damit du die App herunterladen kannst." }, { "text": "Mis padres no quieren que pase tanto tiempo en las redes sociales.", "de": "Meine Eltern wollen nicht, dass ich so viel Zeit in den sozialen Netzwerken verbringe." }, { "text": "¿Quieres que te ayude?", "de": "Soll ich dir helfen?" }, { "text": "Prefiero que me escribas un mensaje.", "de": "Mir ist lieber, du schreibst mir eine Nachricht." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Quiero que ___ a mi fiesta.", "answers": [ "vengas" ], "de": "Ich möchte, dass du zu meiner Party kommst.", "hint": "venir – tú" },
+        { "type": "cloze", "text": "Mi abuela quiere que yo le ___ a usar la tableta.", "answers": [ "enseñe" ], "de": "Meine Oma möchte, dass ich ihr zeige, wie man das Tablet benutzt.", "hint": "enseñar" },
+        { "type": "cloze", "text": "Te mando el enlace para que ___ el artículo.", "answers": [ "leas" ], "de": "Ich schicke dir den Link, damit du den Artikel liest.", "hint": "leer – tú" },
+        { "type": "cloze", "text": "Quiero ___ esta aplicación.", "answers": [ "descargar" ], "de": "Ich will diese App herunterladen.", "hint": "descargar" },
+        { "type": "cloze", "text": "¿Quieres que te ___?", "answers": [ "ayude" ], "de": "Soll ich dir helfen?", "hint": "ayudar – yo" },
+        { "type": "cloze", "text": "Os mando las fotos para que las ___.", "answers": [ "veáis" ], "de": "Ich schicke euch die Fotos, damit ihr sie seht.", "hint": "ver – vosotros" },
+        { "type": "translate", "de": "Meine Eltern wollen, dass ich sie öfter anrufe.", "answers": [ "Mis padres quieren que los llame más a menudo.", "Mis padres quieren que les llame más a menudo.", "Mis padres quieren que los llame más.", "Mis padres quieren que les llame más." ] },
+        { "type": "order", "de": "Soll ich dir mit der App helfen?", "answer": "¿Quieres que te ayude con la aplicación?", "distractors": [ "ayudo" ] }
+      ]
+    },
+    {
+      "id": "frecuencia-cantidad", "title": "Wie oft und wie viel? dos horas al día, demasiado, por lo menos",
+      "blocks": [
+        { "type": "p", "text": "Du kennst schon siempre, a menudo, a veces und nunca. So wirst du genauer:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch", "Beispiel" ], "rows": [ [ "una vez / dos veces al día", "einmal / zweimal am Tag", "Miro el correo dos veces al día." ], [ "tres horas a la semana", "drei Stunden pro Woche", "Veo series tres horas a la semana." ], [ "cada dos días", "alle zwei Tage", "Cargo la tableta cada dos días." ], [ "de vez en cuando", "ab und zu", "De vez en cuando escucho la radio." ], [ "casi siempre", "fast immer", "Casi siempre leo las noticias en el móvil." ], [ "casi nunca", "fast nie", "Casi nunca veo la tele." ] ] },
+        { "type": "p", "text": "Und so sagst du, wie viel:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch", "Beispiel" ], "rows": [ [ "demasiado", "zu; zu viel", "Usas el móvil demasiado." ], [ "demasiado / demasiada / demasiados / demasiadas + Nomen", "zu viel; zu viele", "Hay demasiados anuncios." ], [ "por lo menos", "mindestens", "Duermo por lo menos siete horas." ], [ "como mucho", "höchstens", "Veo la tele una hora, como mucho." ], [ "la mitad (de)", "die Hälfte", "La mitad de mis amigos no tiene tele." ], [ "casi todo / casi nada", "fast alles / fast nichts", "Lo hago casi todo con el móvil." ] ] },
+        { "type": "tip", "text": "Vor einem Nomen passt sich demasiado an: demasiado tiempo, demasiada gente, demasiados mensajes, demasiadas horas. Vor Adjektiven und nach Verben bleibt es gleich: demasiado caro, trabajo demasiado." },
+        { "type": "tip", "text": "¿Cuánto tiempo pasas en …? = Wie viel Zeit verbringst du …? Antwort: Paso dos horas al día en las redes sociales." },
+        { "type": "examples", "items": [ { "text": "¿Cuántas horas al día usas el móvil?", "de": "Wie viele Stunden am Tag benutzt du das Handy?" }, { "text": "Paso por lo menos una hora al día en las redes sociales.", "de": "Ich verbringe mindestens eine Stunde am Tag in den sozialen Netzwerken." }, { "text": "Llamo a mi abuela dos veces a la semana.", "de": "Ich rufe meine Oma zweimal pro Woche an." }, { "text": "En internet hay demasiada información.", "de": "Im Internet gibt es zu viele Informationen." }, { "text": "De vez en cuando compro una revista.", "de": "Ab und zu kaufe ich eine Zeitschrift." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Uso el móvil cuatro horas ___ día.", "answers": [ "al" ], "de": "Ich benutze das Handy vier Stunden am Tag." },
+        { "type": "cloze", "text": "Llamo a mis padres dos veces a la ___.", "answers": [ "semana" ], "de": "Ich rufe meine Eltern zweimal pro Woche an." },
+        { "type": "cloze", "text": "En la tele hay ___ anuncios.", "answers": [ "demasiados" ], "de": "Im Fernsehen gibt es zu viel Werbung.", "hint": "demasiado" },
+        { "type": "cloze", "text": "Duermo por lo ___ siete horas.", "answers": [ "menos" ], "de": "Ich schlafe mindestens sieben Stunden." },
+        { "type": "cloze", "text": "Veo la tele una hora al día, como ___.", "answers": [ "mucho" ], "de": "Ich sehe höchstens eine Stunde am Tag fern." },
+        { "type": "cloze", "text": "La ___ de la clase no lee el periódico.", "answers": [ "mitad" ], "de": "Die Hälfte der Klasse liest keine Zeitung." },
+        { "type": "translate", "de": "Ich lese ab und zu eine Zeitschrift.", "answers": [ "De vez en cuando leo una revista.", "Leo una revista de vez en cuando.", "De vez en cuando yo leo una revista.", "Yo leo una revista de vez en cuando." ] },
+        { "type": "translate", "de": "Wie viel Zeit verbringst du in den sozialen Netzwerken?", "answers": [ "¿Cuánto tiempo pasas en las redes sociales?", "¿Cuánto tiempo pasas tú en las redes sociales?", "¿Tú cuánto tiempo pasas en las redes sociales?" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "La abuela se conecta",
+    "title_de": "Oma geht online",
+    "lines": [
+      { "speaker": "Abuela", "text": "Lucía, hija, quiero que me ayudes con este móvil nuevo. ¡No entiendo nada!", "de": "Lucía, Kind, ich möchte, dass du mir mit diesem neuen Handy hilfst. Ich verstehe gar nichts!" },
+      { "speaker": "Lucía", "text": "Claro, abuela. ¿Qué quieres hacer con él?", "de": "Klar, Oma. Was möchtest du damit machen?" },
+      { "speaker": "Abuela", "text": "Quiero hacer videollamadas contigo y con Pablo para veros más a menudo.", "de": "Ich möchte Videoanrufe mit dir und Pablo machen, um euch öfter zu sehen." },
+      { "speaker": "Lucía", "text": "¡Qué buena idea! Primero es necesario que descarguemos una aplicación. ¿Tienes wifi en casa?", "de": "Was für eine gute Idee! Zuerst müssen wir eine App herunterladen. Hast du zu Hause WLAN?" },
+      { "speaker": "Abuela", "text": "Sí, y la contraseña está aquí, en la mesa.", "de": "Ja, und das Passwort liegt hier auf dem Tisch." },
+      { "speaker": "Lucía", "text": "Perfecto. Ya está: la aplicación es gratis y muy fácil. Mira, para llamar a Pablo, solo tienes que tocar aquí.", "de": "Perfekt. Fertig: Die App ist kostenlos und ganz einfach. Schau, um Pablo anzurufen, musst du nur hier tippen." },
+      { "speaker": "Abuela", "text": "Muy bien. ¿Y cuánto tiempo puedo hablar?", "de": "Sehr gut. Und wie lange kann ich sprechen?" },
+      { "speaker": "Lucía", "text": "Mucho, porque con wifi es gratis. Pero es importante que cargues el móvil todas las noches.", "de": "Lange, denn mit WLAN ist es kostenlos. Aber es ist wichtig, dass du das Handy jeden Abend auflädst." },
+      { "speaker": "Abuela", "text": "Vale. Oye, los jóvenes siempre estáis mirando el móvil. ¿Qué hacéis todo el día?", "de": "Gut. Sag mal, ihr jungen Leute schaut immer aufs Handy. Was macht ihr den ganzen Tag?" },
+      { "speaker": "Lucía", "text": "Pues leemos las noticias, escuchamos música, subimos fotos a las redes sociales… Yo lo uso por lo menos tres horas al día.", "de": "Na ja, wir lesen Nachrichten, hören Musik, laden Fotos in die sozialen Netzwerke hoch … Ich benutze es mindestens drei Stunden am Tag." },
+      { "speaker": "Abuela", "text": "¡Tres horas! Eso es demasiado, hija. Es mejor que leas un buen libro.", "de": "Drei Stunden! Das ist zu viel, Kind. Es ist besser, wenn du ein gutes Buch liest." },
+      { "speaker": "Lucía", "text": "Tienes razón, abuela. Pero también lo necesito para el trabajo: publico mis artículos en internet.", "de": "Da hast du recht, Oma. Aber ich brauche es auch für die Arbeit: Ich veröffentliche meine Artikel im Internet." },
+      { "speaker": "Abuela", "text": "Bueno, bueno. Ahora quiero que me enseñes a mandar fotos a Pablo, para que vea a mis gatos.", "de": "Schon gut, schon gut. Jetzt möchte ich, dass du mir zeigst, wie man Pablo Fotos schickt, damit er meine Katzen sieht." },
+      { "speaker": "Lucía", "text": "¡Ja, ja! Vale. Pero llámame a mí también de vez en cuando, ¿eh?", "de": "Haha! Okay. Aber ruf mich auch ab und zu an, ja?" },
+      { "speaker": "Abuela", "text": "¡Claro que sí! Y tú usa menos el móvil, hija.", "de": "Aber sicher! Und du benutz das Handy weniger, Kind." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "la aplicación", "die App" ], [ "descargar", "herunterladen" ], [ "la contraseña", "das Passwort" ], [ "la pantalla", "der Bildschirm" ], [ "la batería", "der Akku" ], [ "el enlace", "der Link" ] ] },
+    { "type": "match", "pairs": [ [ "al día", "pro Tag" ], [ "por lo menos", "mindestens" ], [ "como mucho", "höchstens" ], [ "de vez en cuando", "ab und zu" ], [ "demasiado", "zu viel" ], [ "la mitad", "die Hälfte" ] ] },
+    { "type": "translate", "de": "Ich möchte, dass du mir hilfst.", "answers": [ "Quiero que me ayudes.", "Yo quiero que me ayudes.", "Quiero que tú me ayudes." ] },
+    { "type": "translate", "de": "Es ist wichtig, dass du das Handy auflädst.", "answers": [ "Es importante que cargues el móvil.", "Es importante que tú cargues el móvil." ] },
+    { "type": "translate", "de": "Ich benutze das Handy mindestens zwei Stunden am Tag.", "answers": [ "Uso el móvil por lo menos dos horas al día.", "Uso el móvil dos horas al día por lo menos.", "Yo uso el móvil por lo menos dos horas al día.", "Uso el móvil al menos dos horas al día.", "Yo uso el móvil al menos dos horas al día." ] },
+    { "type": "order", "de": "Ich schicke dir den Link, damit du die App herunterlädst.", "answer": "Te mando el enlace para que descargues la aplicación.", "distractors": [ "descargas" ] },
+    { "type": "order", "de": "Das WLAN funktioniert nicht.", "answer": "El wifi no funciona." },
+    { "type": "cloze", "text": "Lucía ___ sus artículos en internet.", "answers": [ "publica" ], "de": "Lucía veröffentlicht ihre Artikel im Internet.", "hint": "publicar" },
+    { "type": "cloze", "text": "Mi hermano está ___ a los videojuegos.", "answers": [ "enganchado" ], "de": "Mein Bruder kommt nicht von den Videospielen los." },
+    { "type": "cloze", "text": "Me ___ por la radio y por internet.", "answers": [ "informo" ], "de": "Ich informiere mich über das Radio und das Internet.", "hint": "informarse" },
+    { "type": "listen", "text": "Es mejor que leas un libro.", "de": "Es ist besser, wenn du ein Buch liest." },
+    { "type": "listen", "text": "¿Tienes la contraseña del wifi?", "de": "Hast du das WLAN-Passwort?" },
+    { "type": "listen", "text": "La aplicación es gratis y muy útil.", "de": "Die App ist kostenlos und sehr nützlich." }
+  ]
+}

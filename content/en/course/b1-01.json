@@ -1,0 +1,161 @@
+{
+  "formatVersion": 1,
+  "id": "en-b1-01",
+  "lang": "en",
+  "level": "B1",
+  "number": 1,
+  "title": "In My Opinion",
+  "title_de": "Meine Meinung",
+  "topic": "Meinungen äußern und begründen",
+  "goals": [
+    "Du kannst deine Meinung sagen und begründen: I think …, In my opinion …, As far as I'm concerned …",
+    "Du kannst höflich zustimmen und widersprechen: You're right. You have a point, but … I'm not so sure.",
+    "Du kannst Gedanken mit however, although, on the other hand, besides und so verbinden.",
+    "Du weißt, wann du so und wann du such benutzt: so expensive – such a nice city."
+  ],
+  "vocab": [
+    { "id": "opinion", "word": "opinion", "de": "die Meinung", "pos": "noun", "example": { "text": "What's your opinion about the new café?", "de": "Was hältst du von dem neuen Café?" }, "note": "in my opinion = meiner Meinung nach (nicht: after my opinion)." },
+    { "id": "think", "word": "think", "de": "denken; finden", "pos": "verb", "forms": "thought, thought", "example": { "text": "I think the subway is faster than the bus.", "de": "Ich finde, die U-Bahn ist schneller als der Bus." }, "note": "Verneint: I don't think it's true. (Ich glaube nicht, dass das stimmt.) – nicht: I think it isn't true." },
+    { "id": "believe", "word": "believe", "de": "glauben; für wahr halten", "pos": "verb", "example": { "text": "I believe everyone can learn a second language.", "de": "Ich glaube, jeder kann eine zweite Sprache lernen." }, "note": "Klingt etwas stärker und ernster als think." },
+    { "id": "as-far-as-im-concerned", "word": "as far as I'm concerned", "alt": ["as far as I am concerned"], "de": "was mich betrifft; für mich", "pos": "phrase", "example": { "text": "As far as I'm concerned, New York is the best city in the world.", "de": "Für mich ist New York die beste Stadt der Welt." } },
+    { "id": "agree", "word": "agree", "de": "zustimmen; einer Meinung sein", "pos": "verb", "example": { "text": "I agree with you.", "de": "Ich bin deiner Meinung." }, "note": "Ohne be: I agree (nicht: I am agree). agree with someone = jemandem zustimmen." },
+    { "id": "disagree", "word": "disagree", "de": "anderer Meinung sein; widersprechen", "pos": "verb", "example": { "text": "Sorry, but I disagree.", "de": "Tut mir leid, aber da bin ich anderer Meinung." }, "note": "Höflicher und weicher: I'm not so sure. oder I don't really agree." },
+    { "id": "be-right", "word": "be right", "de": "recht haben", "pos": "phrase", "example": { "text": "You're right, it's too late now.", "de": "Du hast recht, jetzt ist es zu spät.", "focus": "right" }, "note": "Nicht: have right! Gegenteil: be wrong (unrecht haben, sich irren)." },
+    { "id": "wrong", "word": "wrong", "de": "falsch; im Unrecht", "pos": "adj", "example": { "text": "I'm sorry. You were right, and I was wrong.", "de": "Tut mir leid. Du hattest recht, und ich lag falsch." }, "note": "be wrong = sich irren. You're wrong! klingt sehr direkt." },
+    { "id": "true", "word": "true", "de": "wahr; richtig", "pos": "adj", "example": { "text": "Is it true that you're moving to Boston?", "de": "Stimmt es, dass du nach Boston ziehst?" }, "note": "That's true. = Das stimmt." },
+    { "id": "point", "word": "point", "de": "der Punkt; das Argument", "pos": "noun", "example": { "text": "That's a good point.", "de": "Das ist ein gutes Argument." }, "note": "You have a point. = Da ist was dran. I see your point. = Ich verstehe, was du meinst." },
+    { "id": "exactly", "word": "exactly", "de": "genau", "pos": "adv", "example": { "text": "Exactly! That's what I mean.", "de": "Genau! Das meine ich." } },
+    { "id": "it-depends", "word": "it depends", "de": "es kommt darauf an", "pos": "phrase", "example": { "text": "Is New York expensive? – It depends on the neighborhood.", "de": "Ist New York teuer? – Das kommt auf das Viertel an." }, "note": "it depends on … = es hängt ab von … (on, nicht from!)" },
+    { "id": "actually", "word": "actually", "de": "eigentlich; tatsächlich", "pos": "adv", "example": { "text": "Actually, I like the countryside more than the city.", "de": "Eigentlich mag ich das Land lieber als die Stadt." }, "note": "Falscher Freund: actually heißt nicht „aktuell“ (= current)." },
+    { "id": "personally", "word": "personally", "de": "persönlich", "pos": "adv", "example": { "text": "Personally, I don't like big cities.", "de": "Ich persönlich mag keine großen Städte." } },
+    { "id": "honestly", "word": "honestly", "alt": ["to be honest"], "de": "ehrlich gesagt", "pos": "adv", "example": { "text": "Honestly, I don't think it's a good idea.", "de": "Ehrlich gesagt finde ich das keine gute Idee." } },
+    { "id": "completely", "word": "completely", "de": "völlig; ganz", "pos": "adv", "example": { "text": "I completely agree with you.", "de": "Ich stimme dir völlig zu." } },
+    { "id": "mean", "word": "mean", "de": "meinen; bedeuten", "pos": "verb", "forms": "meant, meant", "example": { "text": "What do you mean?", "de": "Was meinst du damit?" }, "note": "What does this word mean? = Was bedeutet dieses Wort? Aber „ich meine (= finde) …“ heißt I think …" },
+    { "id": "reason", "word": "reason", "de": "der Grund", "pos": "noun", "example": { "text": "There are many reasons why I love this city.", "de": "Es gibt viele Gründe, warum ich diese Stadt liebe.", "focus": "reasons" }, "note": "the reason for something; the reason why …" },
+    { "id": "however", "word": "however", "de": "jedoch; allerdings", "pos": "adv", "example": { "text": "The apartment is nice. However, it's very small.", "de": "Die Wohnung ist schön. Sie ist allerdings sehr klein." }, "note": "Steht meist am Satzanfang, mit Komma." },
+    { "id": "although", "word": "although", "de": "obwohl", "pos": "conj", "example": { "text": "Although it's expensive, I love living here.", "de": "Obwohl es teuer ist, wohne ich total gern hier." }, "note": "Normale Wortstellung danach: although it is … (das Verb geht nicht ans Ende)." },
+    { "id": "on-the-one-hand", "word": "on the one hand", "de": "einerseits", "pos": "phrase", "example": { "text": "On the one hand, the city is exciting.", "de": "Einerseits ist die Stadt aufregend." } },
+    { "id": "on-the-other-hand", "word": "on the other hand", "de": "andererseits", "pos": "phrase", "example": { "text": "On the other hand, it's really expensive.", "de": "Andererseits ist sie wirklich teuer." } },
+    { "id": "besides", "word": "besides", "de": "außerdem", "pos": "adv", "example": { "text": "I don't want to go out tonight. Besides, I'm tired.", "de": "Ich will heute Abend nicht ausgehen. Außerdem bin ich müde." }, "note": "besides (mit s) = außerdem. beside (ohne s) = neben." },
+    { "id": "so", "word": "so", "de": "also; deshalb", "pos": "conj", "example": { "text": "It was raining, so we stayed home.", "de": "Es hat geregnet, also sind wir zu Hause geblieben." }, "note": "Falscher Freund: das englische also heißt „auch“. Deutsches „also“ (= deshalb) ist so." },
+    { "id": "such", "word": "such", "de": "so ein/e; solche/r/s", "pos": "other", "example": { "text": "It's such a nice day!", "de": "Es ist so ein schöner Tag!" }, "note": "such a + Adjektiv + Nomen: such a good idea. Der Artikel steht nach such." },
+    { "id": "anyway", "word": "anyway", "de": "trotzdem; sowieso; jedenfalls", "pos": "adv", "example": { "text": "It's raining, but I'm going for a walk anyway.", "de": "Es regnet, aber ich gehe trotzdem spazieren." } },
+    { "id": "advantage", "word": "advantage", "de": "der Vorteil", "pos": "noun", "example": { "text": "One advantage of the city is that you don't need a car.", "de": "Ein Vorteil der Stadt ist, dass man kein Auto braucht." } },
+    { "id": "disadvantage", "word": "disadvantage", "de": "der Nachteil", "pos": "noun", "example": { "text": "The only disadvantage is the price.", "de": "Der einzige Nachteil ist der Preis." } },
+    { "id": "problem", "word": "problem", "de": "das Problem", "pos": "noun", "example": { "text": "The problem is that apartments here are so expensive.", "de": "Das Problem ist, dass die Wohnungen hier so teuer sind." } },
+    { "id": "solution", "word": "solution", "de": "die Lösung", "pos": "noun", "example": { "text": "We need a solution for the traffic downtown.", "de": "Wir brauchen eine Lösung für den Verkehr in der Innenstadt." } },
+    { "id": "discuss", "word": "discuss", "de": "besprechen; diskutieren", "pos": "verb", "example": { "text": "Let's discuss it over coffee.", "de": "Lass uns das bei einem Kaffee besprechen." }, "note": "Ohne about: discuss a problem (nicht: discuss about a problem)." },
+    { "id": "convince", "word": "convince", "de": "überzeugen", "pos": "verb", "example": { "text": "OK, you've convinced me!", "de": "Okay, du hast mich überzeugt!", "focus": "convinced" } },
+    { "id": "life", "word": "life", "plural": "lives", "de": "das Leben", "pos": "noun", "example": { "text": "Life in a small town is very quiet.", "de": "Das Leben in einer Kleinstadt ist sehr ruhig." } },
+    { "id": "noisy", "word": "noisy", "de": "laut (voller Lärm)", "pos": "adj", "example": { "text": "My street is really noisy at night.", "de": "Meine Straße ist nachts richtig laut." } },
+    { "id": "crowded", "word": "crowded", "de": "voll; überfüllt", "pos": "adj", "example": { "text": "The subway is always crowded in the morning.", "de": "Die U-Bahn ist morgens immer total voll." } },
+    { "id": "safe", "word": "safe", "de": "sicher (ohne Gefahr)", "pos": "adj", "example": { "text": "Do you feel safe here at night?", "de": "Fühlst du dich hier nachts sicher?" }, "note": "safe = sicher vor Gefahr. sure = sicher im Sinn von „überzeugt“: I'm not sure." },
+    { "id": "dangerous", "word": "dangerous", "de": "gefährlich", "pos": "adj", "example": { "text": "Riding a bike downtown can be dangerous.", "de": "Radfahren in der Innenstadt kann gefährlich sein." } },
+    { "id": "public-transportation", "word": "public transportation", "de": "die öffentlichen Verkehrsmittel", "pos": "noun", "example": { "text": "Public transportation is cheaper than a car.", "de": "Öffentliche Verkehrsmittel sind günstiger als ein Auto." }, "note": "Amerikanisch; immer Einzahl und ohne a." },
+    { "id": "fair", "word": "fair", "de": "fair; gerecht", "pos": "adj", "example": { "text": "That's not fair!", "de": "Das ist nicht fair!" }, "note": "Fair enough. = Na gut, das ist verständlich." },
+    { "id": "for-example", "word": "for example", "de": "zum Beispiel", "pos": "phrase", "example": { "text": "There's a lot to do here – for example, museums, concerts and parks.", "de": "Hier kann man viel unternehmen – zum Beispiel Museen, Konzerte und Parks." } }
+  ],
+  "grammar": [
+    {
+      "id": "opinions",
+      "title": "Meinungen äußern, zustimmen und widersprechen",
+      "blocks": [
+        { "type": "p", "text": "Auf B1-Niveau sagst du nicht nur, was du magst, sondern auch, was du denkst – und warum. Mit diesen Ausdrücken leitest du deine Meinung ein:" },
+        { "type": "table", "head": ["Ausdruck", "Deutsch", "Beispiel"], "rows": [["I think (that) …", "Ich finde/glaube, (dass) …", "I think the city is too expensive."], ["I believe …", "Ich glaube (fest), …", "I believe everyone can learn a language."], ["In my opinion, …", "Meiner Meinung nach …", "In my opinion, cars are a problem downtown."], ["Personally, I think …", "Ich persönlich finde …", "Personally, I think it's a great idea."], ["As far as I'm concerned, …", "Was mich betrifft, …; Für mich …", "As far as I'm concerned, life here is great."]] },
+        { "type": "p", "text": "Und so reagierst du auf die Meinung von anderen – vom vollen Ja bis zum höflichen Nein:" },
+        { "type": "table", "head": ["Reaktion", "Ausdrücke"], "rows": [["zustimmen", "I agree (with you). / You're right. / Exactly! / That's true."], ["teilweise zustimmen", "You have a point, but … / That's true, but … / I see your point, but …"], ["neutral", "It depends. / I'm not sure."], ["widersprechen", "I'm not so sure. / I don't really agree. / I disagree."], ["nachfragen", "What do you think? / What's your opinion? / What do you mean?"]] },
+        { "type": "tip", "text": "Typischer Fehler: „Ich bin einverstanden / Ich bin deiner Meinung“ heißt I agree – ohne am! Also nicht: I am agree." },
+        { "type": "tip", "text": "Bei think wandert das not nach vorne: I don't think it's a good idea. (Ich finde das keine gute Idee.) Der Satz I think it isn't a good idea klingt ungewohnt." },
+        { "type": "tip", "text": "Direktes Widersprechen wie You're wrong! wirkt im Englischen schnell unhöflich. Weicher klingt: I'm not so sure. oder I see your point, but …" },
+        { "type": "examples", "items": [{ "text": "What do you think about the new café? – I think it's great, but it's a bit expensive.", "de": "Was hältst du von dem neuen Café? – Ich finde es super, aber es ist ein bisschen teuer." }, { "text": "I don't think it's a good idea to drive downtown.", "de": "Ich finde es keine gute Idee, in die Innenstadt zu fahren." }, { "text": "You're right. The subway is much faster.", "de": "Du hast recht. Die U-Bahn ist viel schneller." }, { "text": "That's true, but it's also very crowded.", "de": "Das stimmt, aber sie ist auch sehr voll." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I ___ with you. It's a great idea.", "answers": ["agree"], "de": "Ich bin deiner Meinung. Das ist eine tolle Idee.", "hint": "zustimmen" },
+        { "type": "cloze", "text": "In my ___, the city is too noisy.", "answers": ["opinion"], "de": "Meiner Meinung nach ist die Stadt zu laut." },
+        { "type": "cloze", "text": "As far as I'm ___, life in a small town is boring.", "answers": ["concerned"], "de": "Was mich betrifft, ist das Leben in einer Kleinstadt langweilig." },
+        { "type": "translate", "de": "Ich glaube nicht, dass das stimmt.", "answers": ["I don't think that's true.", "I don't think that is true.", "I do not think that's true.", "I do not think that is true.", "I don't think it's true.", "I don't think it is true.", "I do not think it's true.", "I do not think it is true.", "I don't think that that's true.", "I don't think that that is true.", "I do not think that that's true.", "I do not think that that is true.", "I don't think that it's true.", "I don't think that it is true.", "I do not think that it's true.", "I do not think that it is true.", "I don't believe that's true.", "I don't believe that is true.", "I do not believe that's true.", "I do not believe that is true.", "I don't believe it's true.", "I don't believe it is true.", "I do not believe it's true.", "I do not believe it is true.", "I don't believe that that's true.", "I don't believe that that is true.", "I do not believe that that's true.", "I do not believe that that is true.", "I don't believe that it's true.", "I don't believe that it is true.", "I do not believe that it's true.", "I do not believe that it is true."] },
+        { "type": "translate", "de": "Du hast recht, aber es ist sehr teuer.", "answers": ["You're right, but it's very expensive.", "You're right, but it is very expensive.", "You are right, but it's very expensive.", "You are right, but it is very expensive.", "You're right, but it's really expensive.", "You're right, but it is really expensive.", "You are right, but it's really expensive.", "You are right, but it is really expensive."] },
+        { "type": "order", "de": "Da ist was dran, aber ich bin anderer Meinung.", "answer": "You have a point, but I disagree.", "distractors": ["am"] },
+        { "type": "choice", "prompt": "Jemand sagt: „New York is the best city in the world.“ Du siehst das anders. Was klingt höflich?", "options": ["I'm not so sure.", "You're wrong!", "I am disagree."], "answer": 0, "explain": "„I'm not so sure“ widerspricht höflich. „You're wrong!“ klingt sehr direkt, und „I am disagree“ ist falsch (richtig: I disagree)." }
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": "Gedanken verbinden: however, although, on the other hand, besides, so",
+      "blocks": [
+        { "type": "p", "text": "Wer eine Meinung begründet, verbindet Gedanken: Gegensätze, zusätzliche Argumente und Folgen. Diese Wörter helfen dir dabei:" },
+        { "type": "table", "head": ["Wort", "Deutsch", "Wofür?", "Beispiel"], "rows": [["however", "jedoch; allerdings", "Gegensatz – meist am Satzanfang, mit Komma", "The city is exciting. However, it's very expensive."], ["although", "obwohl", "Gegensatz in einem Satz", "Although it's expensive, I love the city."], ["on the one hand … on the other hand", "einerseits … andererseits", "zwei Seiten abwägen", "On the one hand, it's quiet. On the other hand, it's boring."], ["besides", "außerdem", "noch ein Argument", "I don't have time. Besides, I'm tired."], ["so", "also; deshalb", "Folge", "It was late, so I took a taxi."]] },
+        { "type": "p", "text": "Wichtig: Nach although und so bleibt die normale englische Wortstellung (Subjekt – Verb – Rest). Das Verb rutscht nicht ans Ende wie im Deutschen: although it is expensive – „obwohl es teuer ist“." },
+        { "type": "tip", "text": "Falscher Freund! Das englische also heißt „auch“. Das deutsche „also“ (= deshalb) heißt im Englischen so: It was raining, so we stayed home." },
+        { "type": "tip", "text": "but oder however? but verbindet zwei Satzteile: It's nice, but it's expensive. however beginnt meist einen neuen Satz und klingt etwas formeller: It's nice. However, it's expensive." },
+        { "type": "tip", "text": "although kann vorne oder in der Mitte stehen: Although it was cold, we went out. = We went out, although it was cold." },
+        { "type": "examples", "items": [{ "text": "I'd like to live in the countryside. However, my job is in the city.", "de": "Ich würde gern auf dem Land wohnen. Allerdings ist meine Arbeit in der Stadt." }, { "text": "Although Carlos loves New York, he wants to move.", "de": "Obwohl Carlos New York liebt, will er wegziehen." }, { "text": "The apartment is small. Besides, there's no balcony.", "de": "Die Wohnung ist klein. Außerdem hat sie keinen Balkon." }, { "text": "The subway was crowded, so I walked.", "de": "Die U-Bahn war voll, also bin ich zu Fuß gegangen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ it was raining, we went for a walk.", "answers": ["Although"], "de": "Obwohl es geregnet hat, sind wir spazieren gegangen." },
+        { "type": "cloze", "text": "I was really tired, ___ I went to bed early.", "answers": ["so"], "de": "Ich war richtig müde, also bin ich früh ins Bett gegangen." },
+        { "type": "cloze", "text": "The hotel was nice. ___, it was far from the beach.", "answers": ["However"], "de": "Das Hotel war schön. Allerdings war es weit vom Strand entfernt." },
+        { "type": "cloze", "text": "I don't want to go out. ___, it's too cold.", "answers": ["Besides"], "de": "Ich will nicht ausgehen. Außerdem ist es zu kalt." },
+        { "type": "translate", "de": "Obwohl es teuer ist, wohne ich gern hier.", "answers": ["Although it's expensive, I like living here.", "Although it is expensive, I like living here.", "Although it's expensive, I love living here.", "Although it is expensive, I love living here.", "Although it's expensive, I enjoy living here.", "Although it is expensive, I enjoy living here.", "Even though it's expensive, I like living here.", "Even though it is expensive, I like living here.", "Even though it's expensive, I love living here.", "Even though it is expensive, I love living here.", "Even though it's expensive, I enjoy living here.", "Even though it is expensive, I enjoy living here.", "Although it's expensive, I like to live here.", "Although it is expensive, I like to live here.", "Although it's expensive, I love to live here.", "Although it is expensive, I love to live here.", "Even though it's expensive, I like to live here.", "Even though it is expensive, I like to live here.", "Even though it's expensive, I love to live here.", "Even though it is expensive, I love to live here.", "I like living here, although it's expensive.", "I like living here, although it is expensive.", "I like living here, even though it's expensive.", "I like living here, even though it is expensive.", "I love living here, although it's expensive.", "I love living here, although it is expensive.", "I love living here, even though it's expensive.", "I love living here, even though it is expensive.", "I enjoy living here, although it's expensive.", "I enjoy living here, although it is expensive.", "I enjoy living here, even though it's expensive.", "I enjoy living here, even though it is expensive.", "I like to live here, although it's expensive.", "I like to live here, although it is expensive.", "I like to live here, even though it's expensive.", "I like to live here, even though it is expensive.", "I love to live here, although it's expensive.", "I love to live here, although it is expensive.", "I love to live here, even though it's expensive.", "I love to live here, even though it is expensive."] },
+        { "type": "order", "de": "Einerseits ist es ruhig, andererseits ist es langweilig.", "answer": "On the one hand, it's quiet. On the other hand, it's boring." },
+        { "type": "translate", "de": "Es war spät, also habe ich ein Taxi genommen.", "answers": ["It was late, so I took a taxi.", "It was late, so I took a cab.", "It was late, so I got a taxi.", "It was late, so I got a cab."] }
+      ]
+    },
+    {
+      "id": "so-such",
+      "title": "so oder such? – so teuer, so eine schöne Stadt",
+      "blocks": [
+        { "type": "p", "text": "Das deutsche „so“ vor Adjektiven hat im Englischen zwei Formen. Es kommt darauf an, ob danach ein Nomen folgt." },
+        { "type": "table", "head": ["Form", "Beispiel", "Deutsch"], "rows": [["so + Adjektiv", "The city is so expensive.", "Die Stadt ist so teuer."], ["so + Adverb", "You speak so fast!", "Du sprichst so schnell!"], ["such a/an + Adjektiv + Nomen (Einzahl)", "It's such a nice city.", "Es ist so eine schöne Stadt."], ["such + Adjektiv + Nomen (Mehrzahl)", "They're such nice people.", "Das sind so nette Leute."], ["such + unzählbares Nomen", "We had such good weather.", "Wir hatten so gutes Wetter."], ["so much / so many + Nomen", "There's so much traffic. There are so many people.", "Es gibt so viel Verkehr. Es sind so viele Leute da."]] },
+        { "type": "tip", "text": "Achtung Reihenfolge: such a nice day – der Artikel a steht nach such, genau wie im Deutschen „so ein schöner Tag“. Falsch: a such nice day." },
+        { "type": "p", "text": "Mit so … that und such … that sagst du, was die Folge war:" },
+        { "type": "examples", "items": [{ "text": "It was so noisy that I couldn't sleep.", "de": "Es war so laut, dass ich nicht schlafen konnte." }, { "text": "It was such a good movie that I watched it twice.", "de": "Es war so ein guter Film, dass ich ihn zweimal gesehen habe." }, { "text": "Thank you! You're so kind.", "de": "Danke! Du bist so lieb." }, { "text": "I've never seen so many people in one place!", "de": "Ich habe noch nie so viele Leute an einem Ort gesehen!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "It's ___ a beautiful day!", "answers": ["such"], "de": "Es ist so ein schöner Tag!", "hint": "so / such" },
+        { "type": "cloze", "text": "The subway is ___ crowded today.", "answers": ["so"], "de": "Die U-Bahn ist heute so voll.", "hint": "so / such" },
+        { "type": "cloze", "text": "They're ___ friendly people.", "answers": ["such"], "de": "Das sind so freundliche Leute.", "hint": "so / such" },
+        { "type": "cloze", "text": "There were so ___ people at the concert.", "answers": ["many"], "de": "Beim Konzert waren so viele Leute." },
+        { "type": "cloze", "text": "It was so noisy ___ I couldn't sleep.", "answers": ["that"], "de": "Es war so laut, dass ich nicht schlafen konnte." },
+        { "type": "translate", "de": "Das ist so eine gute Idee!", "answers": ["That's such a good idea!", "That is such a good idea!", "That's such a great idea!", "That is such a great idea!", "It's such a good idea!", "It is such a good idea!", "It's such a great idea!", "It is such a great idea!"] },
+        { "type": "order", "de": "Es war so ein langer Tag, dass ich früh ins Bett gegangen bin.", "answer": "It was such a long day that I went to bed early.", "distractors": ["so"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "City or Country?",
+    "title_de": "Stadt oder Land?",
+    "lines": [
+      { "speaker": "Carlos", "text": "Lena, can I ask you something? I'm thinking about moving out of the city.", "de": "Lena, darf ich dich was fragen? Ich überlege, aus der Stadt wegzuziehen." },
+      { "speaker": "Lena", "text": "Really? Why? I thought you loved New York!", "de": "Echt? Warum? Ich dachte, du liebst New York!" },
+      { "speaker": "Carlos", "text": "I do, but it's so expensive. Besides, the subway is always crowded, and my street is really noisy at night.", "de": "Tu ich ja auch, aber es ist so teuer. Außerdem ist die U-Bahn immer total voll, und meine Straße ist nachts richtig laut." },
+      { "speaker": "Lena", "text": "That's true. However, there's so much to do here. In my opinion, you'll be bored in a small town.", "de": "Das stimmt. Allerdings kann man hier so viel unternehmen. Meiner Meinung nach wirst du dich in einer Kleinstadt langweilen." },
+      { "speaker": "Carlos", "text": "I'm not so sure. My friend Mike lives in a small town in Vermont, and he loves it. Life there is quiet and safe.", "de": "Da bin ich mir nicht so sicher. Mein Freund Mike wohnt in einer Kleinstadt in Vermont, und er findet es toll. Das Leben dort ist ruhig und sicher." },
+      { "speaker": "Lena", "text": "Well, I grew up in a village, so I know what it's like. On the one hand, it's beautiful. On the other hand, there's nothing to do in the evening.", "de": "Na ja, ich bin in einem Dorf aufgewachsen, ich weiß also, wie das ist. Einerseits ist es wunderschön. Andererseits kann man abends nichts unternehmen." },
+      { "speaker": "Carlos", "text": "But I don't go out very often anyway. And I work from home three days a week.", "de": "Aber ich gehe sowieso nicht sehr oft aus. Und ich arbeite drei Tage pro Woche von zu Hause." },
+      { "speaker": "Lena", "text": "OK, you have a point. But what about your friends? You don't have a car, and public transportation in small towns isn't great.", "de": "Okay, da ist was dran. Aber was ist mit deinen Freunden? Du hast kein Auto, und die öffentlichen Verkehrsmittel in Kleinstädten sind nicht so toll." },
+      { "speaker": "Carlos", "text": "Hmm, that's a good point. I didn't think about that.", "de": "Hm, das ist ein gutes Argument. Daran habe ich nicht gedacht." },
+      { "speaker": "Lena", "text": "And honestly, I'll miss you! Who's going to come to the café every morning?", "de": "Und ehrlich gesagt werde ich dich vermissen! Wer kommt denn dann jeden Morgen ins Café?" },
+      { "speaker": "Carlos", "text": "Ha! Although you're right about the car, I still think it's a good idea. Maybe I'll try it for a month first.", "de": "Ha! Obwohl du mit dem Auto recht hast, finde ich die Idee immer noch gut. Vielleicht probiere ich es erst mal einen Monat lang aus." },
+      { "speaker": "Lena", "text": "Actually, that's such a smart idea. If you don't like it, you can come back.", "de": "Eigentlich ist das eine richtig kluge Idee. Wenn es dir nicht gefällt, kannst du ja zurückkommen." },
+      { "speaker": "Carlos", "text": "Exactly! It depends on how I feel after a month.", "de": "Genau! Es kommt darauf an, wie ich mich nach einem Monat fühle." },
+      { "speaker": "Lena", "text": "Fair enough. You've convinced me!", "de": "Na gut. Du hast mich überzeugt!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["agree", "zustimmen"], ["disagree", "anderer Meinung sein"], ["convince", "überzeugen"], ["discuss", "besprechen"], ["mean", "meinen"], ["believe", "glauben"]] },
+    { "type": "match", "pairs": [["advantage", "der Vorteil"], ["disadvantage", "der Nachteil"], ["reason", "der Grund"], ["solution", "die Lösung"], ["opinion", "die Meinung"], ["life", "das Leben"]] },
+    { "type": "match", "pairs": [["noisy", "laut"], ["crowded", "überfüllt"], ["safe", "sicher"], ["dangerous", "gefährlich"], ["true", "wahr"], ["wrong", "falsch"]] },
+    { "type": "translate", "de": "Was hältst du von der neuen Wohnung?", "answers": ["What do you think about the new apartment?", "What do you think of the new apartment?", "What's your opinion about the new apartment?", "What is your opinion about the new apartment?", "What's your opinion of the new apartment?", "What is your opinion of the new apartment?", "What's your opinion on the new apartment?", "What is your opinion on the new apartment?", "How do you like the new apartment?"] },
+    { "type": "translate", "de": "Ehrlich gesagt bin ich nicht deiner Meinung.", "answers": ["Honestly, I don't agree with you.", "Honestly, I do not agree with you.", "To be honest, I don't agree with you.", "To be honest, I do not agree with you.", "Honestly, I disagree with you.", "To be honest, I disagree with you.", "Honestly, I don't agree.", "Honestly, I do not agree.", "To be honest, I don't agree.", "To be honest, I do not agree.", "Honestly, I disagree.", "To be honest, I disagree."] },
+    { "type": "translate", "de": "Das Problem ist, dass es hier keine öffentlichen Verkehrsmittel gibt.", "answers": ["The problem is that there's no public transportation here.", "The problem is that there is no public transportation here.", "The problem is there's no public transportation here.", "The problem is there is no public transportation here.", "The problem is that there isn't any public transportation here.", "The problem is that there is not any public transportation here.", "The problem is there isn't any public transportation here.", "The problem is there is not any public transportation here."] },
+    { "type": "cloze", "text": "It ___ on the weather.", "answers": ["depends"], "de": "Das kommt auf das Wetter an." },
+    { "type": "cloze", "text": "___, I don't like big cities. They're too noisy.", "answers": ["Personally"], "de": "Ich persönlich mag keine großen Städte. Sie sind zu laut." },
+    { "type": "cloze", "text": "One ___ of living downtown is that you don't need a car.", "answers": ["advantage"], "de": "Ein Vorteil, wenn man in der Innenstadt wohnt, ist, dass man kein Auto braucht." },
+    { "type": "order", "de": "Was hältst du von meiner Idee?", "answer": "What do you think about my idea?", "distractors": ["how"] },
+    { "type": "order", "de": "Ich weiß nicht, was du meinst.", "answer": "I don't know what you mean.", "distractors": ["think"] },
+    { "type": "listen", "text": "In my opinion, public transportation is better than a car, because it's cheaper and safer.", "de": "Meiner Meinung nach sind öffentliche Verkehrsmittel besser als ein Auto, weil sie günstiger und sicherer sind." },
+    { "type": "listen", "text": "That's a good point. However, I still think life in the city is more exciting.", "de": "Das ist ein gutes Argument. Trotzdem finde ich das Leben in der Stadt spannender." },
+    { "type": "translate", "de": "Es war so ein schöner Tag, also sind wir an den Strand gegangen.", "answers": ["It was such a nice day, so we went to the beach.", "It was such a beautiful day, so we went to the beach.", "It was such a lovely day, so we went to the beach.", "It was such a great day, so we went to the beach."] }
+  ]
+}
