@@ -2,7 +2,7 @@
 // korrigiert Fehler am Ende jeder Antwort kurz und freundlich.
 //
 // Der Verlauf wird bei jeder Anfrage unverändert mitgeschickt (inklusive der
-// Denk-Blöcke des Modells), so wie die API es für mehrteilige Gespräche verlangt.
+// Denk-Blöcke des Modells) und nur hinten ergänzt – so verlangt es die API.
 
 import { el, mount } from '../ui/dom.js';
 import { icon } from '../ui/icons.js';
@@ -56,9 +56,16 @@ export async function chatView(main, { navigate }) {
   const input = el('textarea', { class: 'chat-input', rows: '2', lang, placeholder: lang === 'ja' ? 'Schreib auf Japanisch (Rōmaji wird zu Kana) …' : `Schreib auf ${cc.langName} …`, 'aria-label': 'Deine Nachricht' });
   const kana = lang === 'ja' ? attachKanaInput(input) : null;
 
+  // Der System-Prompt wird zu Gesprächsbeginn einmal festgelegt und danach nicht mehr
+  // verändert: Die API bindet die Denk-Blöcke an den genauen Gesprächsverlauf.
+  let systemPrompt = null;
+  let chatModel = null;
   function system() {
-    const vocab = vocabularyContext(getProfile(lang));
-    return chatSystem({ lang, langName: cc.langName, level: profile.level, known: vocab.known, interests: profile.interests });
+    if (!systemPrompt) {
+      const vocab = vocabularyContext(getProfile(lang));
+      systemPrompt = chatSystem({ lang, langName: cc.langName, level: profile.level, known: vocab.known, interests: profile.interests });
+    }
+    return systemPrompt;
   }
 
   function addLearnWord(word, de, sentence, sentenceDe) {
@@ -147,7 +154,7 @@ export async function chatView(main, { navigate }) {
     try {
       const res = await callClaude({
         purpose: 'main',
-        model: getState().settings.ai.modelMain,
+        model: chatModel || (chatModel = getState().settings.ai.modelMain),
         system: system(),
         messages,
         schema: CHAT_SCHEMA,
@@ -155,6 +162,7 @@ export async function chatView(main, { navigate }) {
         effort: 'low',
         signal: controller.signal,
       });
+      if (res.history) messages.splice(0, messages.length, ...res.history); // bereinigten Verlauf übernehmen
       messages.push({ role: 'assistant', content: res.content });
       const data = normalizeChat(res.json, lang);
       if (userNode) correctionsFor(userNode, data.corrections);

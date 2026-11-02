@@ -131,3 +131,16 @@ test('Verständliche Fehlermeldungen der API', () => {
   assert.equal(explainError(529, { error: { type: 'overloaded_error' } }, 'm').code, 'overloaded');
   assert.equal(explainError(400, { error: { type: 'invalid_request_error', message: 'messages: bad' } }, 'm').code, 'request');
 });
+
+test('stripThinking entfernt nur Denk-Blöcke', async () => {
+  const { stripThinking } = await import('../js/ai/client.js');
+  const history = [
+    { role: 'user', content: 'Hola' },
+    { role: 'assistant', content: [{ type: 'thinking', thinking: '', signature: 's' }, { type: 'redacted_thinking', data: 'x' }, { type: 'text', text: '{"reply":"¡Hola!"}' }] },
+    { role: 'user', content: '¿Qué tal?' },
+  ];
+  const out = stripThinking(history);
+  assert.deepEqual(out[1].content, [{ type: 'text', text: '{"reply":"¡Hola!"}' }]);
+  assert.equal(out[0].content, 'Hola');
+  assert.equal(history[1].content.length, 3, 'Original bleibt unverändert');
+});

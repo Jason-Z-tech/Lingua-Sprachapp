@@ -99,10 +99,17 @@ async function send({ key, body, beta, signal }) {
   return { response, data };
 }
 
+/** Verlauf ohne Denk-Blöcke (Texte bleiben). */
+export function stripThinking(messages) {
+  return messages.map((m) =>
+    Array.isArray(m.content) ? { ...m, content: m.content.filter((b) => b.type !== 'thinking' && b.type !== 'redacted_thinking') } : m,
+  );
+}
+
 /**
  * Fragt Claude.
  * opts: { purpose: 'main'|'small', model, system, messages, maxTokens, effort, schema, signal }
- * Rückgabe: { content (unverändert, für Gesprächsverläufe), text, json, stopReason, usage, model }
+ * Rückgabe: { content (unverändert, für Gesprächsverläufe), text, json, stopReason, usage, model, history }
  */
 export async function callClaude({ purpose = 'main', model, system, messages, maxTokens = 8000, effort = null, schema = null, signal } = {}) {
   const key = keyFor(purpose);
@@ -113,8 +120,9 @@ export async function callClaude({ purpose = 'main', model, system, messages, ma
   // ein anderes Modell ein ("fallbacks": "default"). Andere Modelle bekommen das nicht mit.
   let fallbacks = model === 'claude-sonnet-5-5';
   let useEffort = effort;
-  for (let attempt = 0; attempt < 3; attempt++) {
-    const body = buildBody({ model, system, messages, maxTokens, effort: useEffort, schema, fallbacks });
+  let history = messages;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const body = buildBody({ model, system, messages: history, maxTokens, effort: useEffort, schema, fallbacks });
     const { response, data } = await send({ key, body, beta: fallbacks ? FALLBACK_BETA : null, signal });
     if (response.ok && data) {
       if (data.stop_reason === 'refusal') {
@@ -131,7 +139,8 @@ export async function callClaude({ purpose = 'main', model, system, messages, ma
           throw new AiError('format', 'Die Antwort war kein gültiges JSON. Bitte noch einmal versuchen.');
         }
       }
-      return { content: data.content, text, json, stopReason: data.stop_reason, usage: data.usage, model: data.model };
+      // history: der tatsächlich gesendete Verlauf, falls er bereinigt werden musste (sonst null)
+      return { content: data.content, text, json, stopReason: data.stop_reason, usage: data.usage, model: data.model, history: history === messages ? null : history };
     }
     const status = response.status;
     const message = data && data.error ? String(data.error.message || '') : '';
@@ -142,6 +151,12 @@ export async function callClaude({ purpose = 'main', model, system, messages, ma
     }
     if (status === 400 && useEffort && /effort/i.test(message)) {
       useEffort = null;
+      continue;
+    }
+    // Denk-Blöcke passen nicht mehr zum Verlauf (z. B. nach einem Modellwechsel):
+    // einmal ohne sie senden – die Antworttexte bleiben erhalten.
+    if (status === 400 && history === messages && /thinking/i.test(message) && /signature|different conversation/i.test(message)) {
+      history = stripThinking(messages);
       continue;
     }
     throw explainError(status, data, model);
