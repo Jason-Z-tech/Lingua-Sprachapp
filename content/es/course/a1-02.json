@@ -42,7 +42,7 @@
       "note": "Vivo en … = Ich wohne in …" },
     { "id": "estudiar", "word": "estudiar", "de": "lernen; studieren", "pos": "verb", "forms": "estudio, estudias, estudia, estudiamos, estudiáis, estudian",
       "example": { "text": "Estudio español.", "de": "Ich lerne Spanisch.", "focus": "estudio" },
-      "note": "Estudio español = Ich lerne Spanisch (z. B. in einem Kurs). Funktioniert genau wie hablar." },
+      "note": "Estudio español = Ich lerne Spanisch (im Kurs, an der Uni). Funktioniert genau wie hablar." },
     { "id": "pais", "word": "país", "article": "el", "gender": "m", "plural": "los países", "de": "das Land", "pos": "noun",
       "example": { "text": "¿De qué país eres?", "de": "Aus welchem Land kommst du?" } },
     { "id": "ciudad", "word": "ciudad", "article": "la", "gender": "f", "plural": "las ciudades", "de": "die Stadt", "pos": "noun",

@@ -69,15 +69,45 @@ function lessonRow(cc, item, navigate) {
         'span',
         { class: 'lesson-text' },
         el('span', { class: 'lesson-title' }, t.title),
-        el('span', { class: 'small muted' }, item.kind === 'kana' ? `${item.meta.chars.length} Zeichen` : item.meta.topic),
+        item.kind === 'kana'
+          ? el('span', { class: 'lesson-chars', lang: 'ja' }, item.meta.chars.slice(0, 8).map((c) => (typeof c === 'string' ? c : c.kana)).join(' '))
+          : el('span', { class: 'small muted' }, item.meta.topic),
       ),
       el(
         'span',
         { class: 'lesson-meta' },
-        el('span', { class: ['badge', s.cls] }, s.label),
-        best !== null && status === 'done' ? el('span', { class: 'small muted' }, `Test ${formatPercent(best)}`) : null,
+        // „Später“ ist der Normalfall und braucht keine eigene Plakette
+        status === 'later' || status === 'skippable'
+          ? null
+          : status === 'recommended'
+            ? el('span', { class: 'path-go', title: s.label }, icon('play'), el('span', { class: 'visually-hidden' }, s.label))
+            : status === 'done' && best !== null
+              ? el('span', { class: 'badge badge-good' }, `Test ${formatPercent(best)}`)
+              : el('span', { class: ['badge', s.cls] }, s.label),
       ),
     ),
+  );
+}
+
+/** Eine Stufe (A1, A2 …) bzw. Schrift als Abschnitt mit Fortschrittsbalken und Lernpfad. */
+function levelSection({ tag, tagLang, title, desc, sum, items }) {
+  const pct = sum.total ? Math.round((sum.done / sum.total) * 100) : 0;
+  return el(
+    'section',
+    { class: 'card stack level-card' },
+    el(
+      'div',
+      { class: 'level-head' },
+      el('span', { class: 'level-tag', lang: tagLang }, tag),
+      el('div', { class: 'level-head-text' }, el('h2', null, title), desc ? el('p', { class: 'small muted' }, desc) : null),
+    ),
+    el(
+      'div',
+      { class: 'level-progress' },
+      el('div', { class: 'progress', role: 'presentation' }, el('span', { style: { '--value': `${pct}%` } })),
+      el('span', { class: 'small muted' }, `${sum.done} von ${sum.total} geschafft`),
+    ),
+    el('ul', { class: 'lesson-list path' }, items),
   );
 }
 
@@ -94,10 +124,11 @@ export async function courseView(main, { navigate }) {
     const t = itemTitle(rec.item);
     nextCard = el(
       'section',
-      { class: 'card next-card' },
-      el('div', { class: 'eyebrow' }, 'Weiter mit'),
-      el('h2', null, `${t.eyebrow}: ${t.title}`),
-      rec.item.kind === 'lesson' ? el('p', { class: 'muted' }, rec.item.meta.topic) : null,
+      { class: 'continue-card next-card' },
+      el('div', { class: 'eyebrow' }, lessonProgress(cc.profile, rec.item.id) ? 'Weiter mit' : 'Als Nächstes'),
+      el('div', { class: 'continue-kicker' }, t.eyebrow),
+      el('h2', null, t.title),
+      rec.item.kind === 'lesson' ? el('p', { class: 'continue-topic' }, rec.item.meta.topic) : null,
       el('a', { class: 'btn btn-primary btn-lg', href: itemHref(rec.item) }, lessonProgress(cc.profile, rec.item.id) ? 'Weitermachen' : 'Starten', icon('arrowRight')),
     );
   } else if (rec && rec.waiting) {
@@ -118,39 +149,13 @@ export async function courseView(main, { navigate }) {
     for (const script of ['hiragana', 'katakana']) {
       const items = cc.seq.filter((s) => s.group === script);
       const sum = groupSummary(cc.profile, cc.seq, script);
-      sections.push(
-        el(
-          'section',
-          { class: 'card stack' },
-          el(
-            'div',
-            { class: 'row-between' },
-            el('h2', null, cc.kana.scripts[script].title),
-            el('span', { class: 'small muted' }, `${sum.done} von ${sum.total} abgeschlossen`),
-          ),
-          el('p', { class: 'small muted' }, cc.kana.scripts[script].description),
-          el('ul', { class: 'lesson-list' }, items.map((item) => lessonRow(cc, item, navigate))),
-        ),
-      );
+      sections.push(levelSection({ tag: script === 'hiragana' ? 'あ' : 'ア', tagLang: 'ja', title: cc.kana.scripts[script].title, sum, items: items.map((item) => lessonRow(cc, item, navigate)) }));
     }
   }
   for (const level of cc.index.levels) {
     const items = cc.seq.filter((s) => s.group === level.id);
     const sum = groupSummary(cc.profile, cc.seq, level.id);
-    sections.push(
-      el(
-        'section',
-        { class: 'card stack' },
-        el(
-          'div',
-          { class: 'row-between' },
-          el('h2', null, level.title),
-          el('span', { class: 'small muted' }, `${sum.done} von ${sum.total} abgeschlossen`),
-        ),
-        el('p', { class: 'small muted' }, level.description),
-        el('ul', { class: 'lesson-list' }, items.map((item) => lessonRow(cc, item, navigate))),
-      ),
-    );
+    sections.push(levelSection({ tag: level.id, title: level.title.replace(/^[A-C]\d\s*–\s*/, ''), desc: level.description, sum, items: items.map((item) => lessonRow(cc, item, navigate)) }));
   }
 
   mount(
@@ -158,10 +163,8 @@ export async function courseView(main, { navigate }) {
     pageHead({
       eyebrow: cc.langName,
       title: 'Kurs',
-      intro: cc.kana
-        ? 'Erst die Schrift, dann Lektion für Lektion von A1 bis B1 – in deinem Tempo.'
-        : 'Lektion für Lektion von A1 bis B1 – in deinem Tempo.',
+      intro: cc.kana ? 'Erst die Schrift, dann A1 bis B1.' : 'Von A1 bis B1 – in deinem Tempo.',
     }),
-    el('div', { class: 'stack' }, nextCard, ...sections),
+    el('div', { class: 'stack' }, rec && !rec.waiting ? null : nextCard, ...sections),
   );
 }

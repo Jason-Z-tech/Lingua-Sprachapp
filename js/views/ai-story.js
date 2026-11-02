@@ -102,7 +102,7 @@ export async function aiStoryView(main, { navigate }) {
       }),
       el('span', null, label),
     );
-  const topicInput = el('input', { type: 'text', placeholder: 'z. B. „ein verregneter Tag am Meer“ (optional)', 'aria-label': 'Eigenes Thema', class: 'wide-input' });
+  const topicInput = el('input', { type: 'text', placeholder: 'Eigenes Thema (optional)', 'aria-label': 'Eigenes Thema', class: 'wide-input' });
   topicInput.addEventListener('input', () => {
     form.topic = topicInput.value.trim();
   });

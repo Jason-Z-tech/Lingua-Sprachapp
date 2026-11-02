@@ -7,7 +7,7 @@
 // Die Dateiliste unten erzeugt `node tools/build-sw.mjs` (ein Test prüft, dass sie stimmt).
 
 /* PRECACHE-START */
-const VERSION = 'e8f9df91';
+const VERSION = 'd9beefd5';
 const APP_FILES = [
   'assets/apple-touch-icon.png',
   'assets/icon-192.png',
@@ -50,6 +50,8 @@ const APP_FILES = [
   'js/ui/dom.js',
   'js/ui/feedback.js',
   'js/ui/icons.js',
+  'js/ui/illustrations.js',
+  'js/ui/lang-badge.js',
   'js/ui/target-text.js',
   'js/ui/theme.js',
   'js/views/ai-story.js',
@@ -72,6 +74,9 @@ const APP_FILES = [
   'js/views/speak.js',
   'js/views/sync.js',
   'manifest.webmanifest',
+  'vendor/fonts/nunito/OFL.txt',
+  'vendor/fonts/nunito/nunito-latin-ext-wght-normal.woff2',
+  'vendor/fonts/nunito/nunito-latin-wght-normal.woff2',
   'vendor/ts-fsrs/LICENSE',
   'vendor/ts-fsrs/index.mjs'
 ];

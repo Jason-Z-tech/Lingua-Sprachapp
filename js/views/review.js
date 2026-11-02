@@ -2,6 +2,7 @@
 
 import { el, formatNumber, formatPercent, mount } from '../ui/dom.js';
 import { icon } from '../ui/icons.js';
+import { doneIllustration } from '../ui/illustrations.js';
 import { targetText } from '../ui/target-text.js';
 import { loadFrequency, loadStrokes } from '../content/loader.js';
 import { loadCourseContext, sessionContext } from '../course/context.js';
@@ -62,20 +63,17 @@ export async function reviewView(main, { navigate }) {
           { class: 'stack' },
           el(
             'section',
-            { class: 'card stack' },
-            el('div', { class: 'stat' }, el('span', { class: 'stat-value' }, s.total ? 'Für heute ist alles wiederholt.' : 'Noch nichts zu wiederholen.')),
+            { class: 'card stack empty-state' },
+            s.total ? doneIllustration() : el('div', { class: 'empty-icon' }, icon('cards')),
+            el('h2', null, s.total ? 'Für heute alles wiederholt!' : 'Noch nichts zu wiederholen'),
             s.total
-              ? el(
-                  'p',
-                  { class: 'muted' },
-                  s.nextDue ? `Die nächste Karte ist ${relativeDay(s.nextDue)} dran. Pausen gehören dazu – das Gedächtnis arbeitet weiter.` : 'Gut gemacht.',
-                )
-              : el('p', { class: 'muted' }, 'Wörter kommen in deinen Lernstapel, wenn du in einer Lektion die Vokabeln übst oder beim Lesen auf „Lernen“ tippst.'),
+              ? el('p', { class: 'muted' }, s.nextDue ? `Die nächste Karte ist ${relativeDay(s.nextDue)} dran.` : 'Gut gemacht.')
+              : el('p', { class: 'muted' }, 'Wörter aus Lektionen und Texten landen hier.'),
             waitingMore
               ? el(
                   'div',
                   { class: 'stack-sm' },
-                  el('p', { class: 'small muted' }, `${formatNumber(s.newWaiting)} neue Karten warten. Pro Tag kommen höchstens ${settings().newPerDay} neue dazu, damit die Wiederholungen nicht überhandnehmen.`),
+                  el('p', { class: 'small muted' }, `${formatNumber(s.newWaiting)} neue Karten warten (höchstens ${settings().newPerDay} pro Tag).`),
                   el(
                     'button',
                     {
@@ -92,7 +90,7 @@ export async function reviewView(main, { navigate }) {
                   ),
                 )
               : null,
-            el('div', { class: 'row' }, el('a', { class: 'btn', href: '#/kurs' }, icon('course'), 'Zum Kurs'), el('a', { class: 'btn', href: '#/lesen' }, icon('read'), 'Etwas lesen')),
+            el('div', { class: 'row row-center' }, el('a', { class: 'btn', href: '#/kurs' }, icon('course'), 'Zum Kurs'), el('a', { class: 'btn', href: '#/lesen' }, icon('read'), 'Etwas lesen')),
           ),
         ),
       );
@@ -102,16 +100,16 @@ export async function reviewView(main, { navigate }) {
     mount(
       body,
       el(
-        'section',
-        { class: 'card stack' },
+        'div',
+        { class: 'stack' },
         el(
           'div',
-          { class: 'grid-2' },
-          el('div', { class: 'stat' }, el('span', { class: 'stat-value' }, formatNumber(s.dueNow)), el('span', { class: 'stat-label' }, 'Wiederholungen fällig')),
-          el('div', { class: 'stat' }, el('span', { class: 'stat-value' }, formatNumber(s.newToday)), el('span', { class: 'stat-label' }, 'neue Karten heute')),
+          { class: 'tiles tiles-2' },
+          el('div', { class: 'tile-stat' }, el('span', { class: 'tile-value' }, formatNumber(s.dueNow)), el('span', { class: 'tile-label' }, 'fällig')),
+          el('div', { class: 'tile-stat' }, el('span', { class: 'tile-value' }, formatNumber(s.newToday)), el('span', { class: 'tile-label' }, 'neue Karten')),
         ),
-        el('p', { class: 'muted' }, `Dauert etwa ${minutes} Minute${minutes === 1 ? '' : 'n'}. Bewerte ehrlich, wie gut du es wusstest – dann kommt jede Karte genau dann wieder, wenn es sich lohnt.`),
-        el('div', { class: 'row' }, el('button', { type: 'button', class: 'btn btn-primary btn-lg', on: { click: start } }, 'Los geht’s', icon('arrowRight'))),
+        el('p', { class: 'fineprint' }, icon('clock'), `etwa ${minutes} Minute${minutes === 1 ? '' : 'n'}`),
+        el('button', { type: 'button', class: 'btn btn-primary btn-lg btn-block', on: { click: start } }, 'Los geht’s', icon('arrowRight')),
       ),
     );
   }

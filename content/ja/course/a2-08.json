@@ -23,7 +23,7 @@
     { "id": "midori", "word": "緑[みどり]", "de": "grün; das Grün", "pos": "noun", "example": { "text": "あの 緑[みどり] の セーター は 高[たか]い です か。", "de": "Ist der grüne Pullover dort teuer?" }, "note": "Eine grüne Ampel nennt man in Japan übrigens あお (blau)!" },
     { "id": "akarui", "word": "明[あか]るい", "de": "fröhlich; hell", "pos": "adj", "example": { "text": "アンナ さん は 明[あか]るい 人[ひと] です。", "de": "Anna ist ein fröhlicher Mensch." }, "note": "あかるい heißt auch „hell“: あかるい へや = ein helles Zimmer." },
     { "id": "kurai", "word": "暗[くら]い", "de": "dunkel; düster", "pos": "adj", "example": { "text": "この 部屋[へや] は ちょっと 暗[くら]い です。", "de": "Dieses Zimmer ist ein bisschen dunkel." } },
-    { "id": "yasashii", "word": "やさしい", "de": "nett; lieb; sanft", "pos": "adj", "example": { "text": "やまだ 先生[せんせい] は やさしい です。", "de": "Frau Yamada ist nett." }, "note": "やさしい heißt auch „leicht, einfach“ (Kanji 易しい), z. B. やさしい しつもん." },
+    { "id": "yasashii", "word": "やさしい", "de": "nett; lieb; sanft", "pos": "adj", "example": { "text": "やまだ 先生[せんせい] は やさしい です。", "de": "Frau Yamada ist nett." }, "note": "やさしい heißt auch „leicht, einfach“ (Kanji 易しい)." },
     { "id": "shinsetsu", "word": "親切[しんせつ]", "de": "hilfsbereit; freundlich", "pos": "adj", "example": { "text": "駅[えき] の 人[ひと] は とても 親切[しんせつ] でした。", "de": "Die Leute am Bahnhof waren sehr hilfsbereit." }, "note": "な-Adjektiv: しんせつな 人." },
     { "id": "majime", "word": "まじめ", "de": "ernsthaft; fleißig; gewissenhaft", "pos": "adj", "example": { "text": "けん さん の 弟[おとうと] さん は まじめ な 学生[がくせい] です。", "de": "Kens kleiner Bruder ist ein fleißiger Student." } },
     { "id": "shizuka", "word": "静[しず]か", "de": "ruhig; still", "pos": "adj", "example": { "text": "図[と]書[しょ]館[かん] は いつも 静[しず]か です。", "de": "In der Bibliothek ist es immer ruhig." } },
@@ -100,7 +100,7 @@
       "blocks": [
         { "type": "p", "text": "Mit 〜そうです sagst du, wie etwas auf dich wirkt – nach dem, was du siehst: „sieht … aus“, „wirkt …“. い-Adjektive verlieren das い, な-Adjektive bekommen einfach そう." },
         { "type": "table", "head": ["Adjektiv", "〜そう", "Deutsch"], "rows": [["おいしい", "おいしそう です", "sieht lecker aus"], ["楽[たの]しい", "楽[たの]しそう です", "scheint Spaß zu machen; wirkt fröhlich"], ["高[たか]い", "高[たか]そう です", "sieht teuer aus"], ["やさしい", "やさしそう です", "wirkt nett"], ["元[げん]気[き]", "元[げん]気[き]そう です", "sieht munter aus"], ["まじめ", "まじめそう です", "wirkt ernsthaft"], ["いい", "よさそう です", "sieht gut aus (Ausnahme!)"]] },
-        { "type": "tip", "text": "Ausnahme: いい → よさそう. Und was man direkt sieht, z. B. Farben (あかい) oder きれい, sagt man ohne そう – dass etwas rot oder schön ist, ist ja kein Eindruck, sondern eine Tatsache." },
+        { "type": "tip", "text": "Ausnahme: いい → よさそう. Und was man direkt sieht – Farben (あかい) oder きれい – sagt man ohne そう – dass etwas rot oder schön ist, ist ja kein Eindruck, sondern eine Tatsache." },
         { "type": "p", "text": "Vor einem Nomen wird そう zu そうな: やさしそうな 人 (ein nett wirkender Mensch), おいしそうな ケーキ (ein lecker aussehender Kuchen)." },
         { "type": "examples", "items": [{ "text": "この ケーキ、 おいしそう です ね！", "de": "Dieser Kuchen sieht lecker aus!" }, { "text": "アンナ さん の お父[とう]さん は やさしそう です ね。", "de": "Annas Vater wirkt nett." }, { "text": "みんな 楽[たの]しそう です。", "de": "Alle scheinen Spaß zu haben." }, { "text": "それ は 高[たか]そう な 時[と]計[けい] です ね。", "de": "Das ist aber eine teuer aussehende Uhr." }, { "text": "けん さん は 今日[きょう] 元[げん]気[き]そう です。", "de": "Ken sieht heute munter aus." }] }
       ],

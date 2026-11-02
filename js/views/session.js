@@ -3,6 +3,7 @@
 
 import { el, formatPercent, mount } from '../ui/dom.js';
 import { icon } from '../ui/icons.js';
+import { doneIllustration, ring } from '../ui/illustrations.js';
 import { targetText } from '../ui/target-text.js';
 import { checkAnswer, checkOrder } from '../lang/answer.js';
 import { attachKanaInput } from '../lang/romaji.js';
@@ -93,7 +94,9 @@ export function runSession(container, ctx, { items, title, requeue = false, onFi
   function cleanup() {
     setKeyHandler(null);
     stopSpeaking();
+    document.body.classList.remove('in-session');
   }
+  document.body.classList.add('in-session');
 
   function finish() {
     cleanup();
@@ -151,7 +154,7 @@ export function runSession(container, ctx, { items, title, requeue = false, onFi
       );
       const nextBtn = el(
         'button',
-        { type: 'button', class: 'btn btn-primary btn-lg', on: { click: next } },
+        { type: 'button', class: 'btn btn-primary btn-lg session-next', on: { click: next } },
         position + 1 >= queue.length ? 'Fertig' : 'Weiter',
         icon('arrowRight'),
       );
@@ -185,12 +188,12 @@ export function runSession(container, ctx, { items, title, requeue = false, onFi
         el(
           'div',
           { class: 'session-top' },
-          el('span', { class: 'small muted' }, `${title ? `${title} · ` : ''}Aufgabe ${Math.min(done + 1, total())} von ${total()}`),
           el(
             'button',
             {
               type: 'button',
-              class: 'btn btn-quiet',
+              class: 'btn btn-icon session-close',
+              title: 'Beenden',
               on: {
                 click: () => {
                   cleanup();
@@ -198,13 +201,14 @@ export function runSession(container, ctx, { items, title, requeue = false, onFi
                 },
               },
             },
-            'Beenden',
+            icon('close'),
+            el('span', { class: 'visually-hidden' }, 'Beenden'),
           ),
+          bar,
+          el('span', { class: 'session-count', 'aria-label': `${title ? `${title}: ` : ''}Aufgabe ${Math.min(done + 1, total())} von ${total()}` }, `${Math.min(done + 1, total())}/${total()}`),
         ),
-        bar,
-        el('section', { class: 'card stack session-card' }, label, body),
-        feedback,
-        actions,
+        el('section', { class: 'stack session-card' }, label, body),
+        el('div', { class: 'session-dock' }, feedback, actions),
       ),
     );
     const focusTarget = container.querySelector('[data-autofocus]');
@@ -301,7 +305,7 @@ function renderTyping(item, env) {
     spellcheck: 'false',
     enterkeyhint: 'done',
     lang: romajiMode ? 'en' : ctx.lang,
-    placeholder: romajiMode ? 'z. B. ka' : ctx.lang === 'ja' ? 'Antwort (Rōmaji wird zu Kana)' : 'Deine Antwort',
+    placeholder: romajiMode ? 'Rōmaji' : ctx.lang === 'ja' ? 'Antwort (Rōmaji wird zu Kana)' : 'Deine Antwort',
     'aria-label': 'Deine Antwort',
     'data-autofocus': '',
   });
@@ -568,15 +572,17 @@ export function renderSummary(container, ctx, { results, title, passScore = null
       { class: 'stack' },
       el(
         'section',
-        { class: 'card stack' },
+        { class: 'card stack summary-card' },
         el('div', { class: 'eyebrow' }, title || 'Ergebnis'),
+        passed === false ? null : doneIllustration(),
+        el('h2', { class: 'summary-title' }, passed === false ? 'Fast geschafft' : score >= 0.9 ? 'Stark gemacht!' : 'Runde geschafft!'),
         el(
           'div',
-          { class: 'stat' },
-          el('span', { class: 'stat-value' }, results.length ? formatPercent(score) : '–'),
+          { class: 'summary-score' },
+          results.length ? ring(score, { label: `${formatPercent(score)} richtig`, size: 96 }) : null,
           el(
             'span',
-            { class: 'stat-label' },
+            { class: 'muted' },
             results.length
               ? `${results.length - wrong.length} von ${results.length} beim ersten Versuch richtig`
               : 'Keine Aufgaben bearbeitet',
@@ -626,9 +632,9 @@ export function renderSummary(container, ctx, { results, title, passScore = null
           : null,
         el(
           'div',
-          { class: 'row' },
+          { class: 'summary-actions' },
           buttons.map((b) =>
-            el('button', { type: 'button', class: ['btn', b.primary && 'btn-primary'], on: { click: b.onClick } }, b.label),
+            el('button', { type: 'button', class: ['btn', b.primary && 'btn-primary btn-lg'], on: { click: b.onClick } }, b.label),
           ),
         ),
       ),

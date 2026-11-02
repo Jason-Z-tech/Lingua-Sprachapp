@@ -84,7 +84,7 @@
     "i": { "lemma": "il", "de": "die (Artikel, Mehrzahl männlich)", "pos": "other" },
     "biglietti": { "lemma": "biglietto", "de": "Karten, Tickets", "pos": "noun" },
     "due": { "lemma": "due", "de": "zwei", "pos": "num" },
-    "bibite": { "lemma": "bibita", "de": "Getränke (meist kalt, z. B. Limonade)", "pos": "noun" },
+    "bibite": { "lemma": "bibita", "de": "Getränke (meist kalt)", "pos": "noun" },
     "una": { "lemma": "una", "de": "eine (Artikel)", "pos": "other" },
     "porzione": { "lemma": "porzione", "de": "Portion", "pos": "noun" },
     "grande": { "lemma": "grande", "de": "groß", "pos": "adj" },

@@ -11,6 +11,10 @@ import { INTERESTS, LEVELS, LEVEL_INFO } from '../store/schema.js';
 import { skippedPlacement } from '../lang/placement.js';
 import { errorCard, pageHead } from './common.js';
 import { renderPlacementResult, runPlacementTest } from './placement-test.js';
+import { langBadge } from '../ui/lang-badge.js';
+import { welcomeIllustration } from '../ui/illustrations.js';
+
+const GREETING = { en: 'Hello!', es: '¡Hola!', it: 'Ciao!', ja: 'こんにちは' };
 
 const KANA_OPTIONS = [
   { value: 'none', title: 'Noch nicht', desc: 'Ich fange mit den Schriftzeichen Hiragana und Katakana an.' },
@@ -94,28 +98,41 @@ export async function onboardingView(main, { params, navigate }) {
     );
   }
 
-  function choiceButton({ selected, onPick, title, desc, native, disabled, lang }) {
+  function choiceButton({ selected, onPick, title, desc, native, disabled, lang, lead = null }) {
     return el(
       'button',
       {
         type: 'button',
-        class: 'choice',
+        class: ['choice', lead && 'choice-row'],
         role: 'radio',
         'aria-checked': selected ? 'true' : 'false',
         disabled,
         on: { click: onPick },
       },
-      native ? el('span', { class: 'choice-native', lang }, native) : null,
-      el('span', { class: 'choice-title' }, title),
-      desc ? el('span', { class: 'choice-desc' }, desc) : null,
+      lead,
+      el(
+        'span',
+        { class: 'choice-body' },
+        el('span', { class: 'choice-title' }, title),
+        native ? el('span', { class: 'choice-native', lang }, native) : null,
+        desc ? el('span', { class: 'choice-desc' }, desc) : null,
+      ),
+      lead && !disabled ? el('span', { class: 'choice-go' }, icon('arrowRight')) : null,
     );
   }
+
+  // „A1 – erste Grundlagen“ → „Erste Grundlagen“ (das Kürzel steht schon in der Plakette)
+  const levelTitle = (level) => {
+    const t = LEVEL_INFO[level].label.replace(/^[A-C]\d – /, '');
+    return t.charAt(0).toUpperCase() + t.slice(1);
+  };
+  const LEVEL_LEAD = { beginner: () => icon('leaf'), A1: () => 'A1', A2: () => 'A2', B1: () => 'B1' };
 
   function render() {
     const name = langInfo() ? langInfo().name : '';
     switch (step) {
       case 'intro':
-        mount(head, pageHead({ eyebrow: 'Willkommen', title: 'Schön, dass du da bist.' }));
+        mount(head);
         mount(
           body,
           el(
@@ -123,34 +140,30 @@ export async function onboardingView(main, { params, navigate }) {
             { class: 'stack' },
             el(
               'section',
-              { class: 'card stack' },
-              el(
-                'p',
-                null,
-                'Lingua ist ein Sprachkurs, der auf Lernforschung setzt statt auf Spielchen: Lektionen von A1 bis B1, Wörter immer im Satz, Wiederholung genau dann, wenn du sie brauchst, und Texte, die du fast vollständig verstehst.',
-              ),
-              el('p', null, 'Keine Streaks, keine Herzen, kein schlechtes Gewissen. Du siehst ehrlich, wo du stehst.'),
-              el(
-                'div',
-                { class: 'notice notice-info' },
-                el(
-                  'p',
-                  null,
-                  'Dein Lernstand bleibt in diesem Browser – ohne Konto und ohne Tracking. Mehrere Sprachen kannst du unabhängig voneinander lernen.',
-                ),
-              ),
+              { class: 'hero' },
+              welcomeIllustration(),
+              el('h1', { tabindex: '-1' }, 'Sprachen lernen, die bleiben.'),
+              el('p', null, 'Ein Kurs von A1 bis B1 – mit Wörtern im Satz, Wiederholung zur richtigen Zeit und Texten, die du verstehst.'),
             ),
             el(
-              'div',
-              { class: 'wizard-actions' },
-              el('span'),
+              'button',
+              { type: 'button', class: 'btn btn-primary btn-lg btn-block', on: { click: () => go('language') } },
+              "Los geht's",
+              icon('arrowRight'),
+            ),
+            el(
+              'section',
+              { class: 'card' },
               el(
-                'button',
-                { type: 'button', class: 'btn btn-primary btn-lg', on: { click: () => go('language') } },
-                "Los geht's",
-                icon('arrowRight'),
+                'ul',
+                { class: 'feature-list' },
+                el('li', null, el('span', { class: 'feature-icon' }, icon('course')), 'Lektionen wie im Schulbuch – Schritt für Schritt'),
+                el('li', null, el('span', { class: 'feature-icon' }, icon('review')), 'Wiederholen, kurz bevor du vergisst'),
+                el('li', null, el('span', { class: 'feature-icon' }, icon('speak')), 'Lesen, Hören und Sprechen im Alltag'),
+                el('li', null, el('span', { class: 'feature-icon is-sun' }, icon('star')), 'Ehrlicher Fortschritt – ohne Streaks und Herzen'),
               ),
             ),
+            el('p', { class: 'fineprint' }, icon('shield'), 'Ohne Konto. Dein Lernstand bleibt in diesem Browser.'),
           ),
         );
         break;
@@ -161,9 +174,7 @@ export async function onboardingView(main, { params, navigate }) {
           stepBar(),
           pageHead({
             title: isFirst ? 'Welche Sprache möchtest du lernen?' : 'Neue Sprache hinzufügen',
-            intro: isFirst
-              ? 'Weitere Sprachen kannst du später jederzeit dazunehmen – jede hat ihren eigenen Lernstand.'
-              : 'Jede Sprache hat ihren eigenen Lernstand. Deine anderen Sprachen bleiben, wie sie sind.',
+            intro: 'Jede Sprache hat ihren eigenen Lernstand.',
           }),
         );
         mount(
@@ -176,10 +187,11 @@ export async function onboardingView(main, { params, navigate }) {
               return choiceButton({
                 selected: draft.lang === l.code,
                 disabled: exists,
-                native: l.nativeName,
+                native: GREETING[l.code] || l.nativeName,
                 lang: l.code,
                 title: l.name,
                 desc: exists ? 'Lernst du schon' : null,
+                lead: langBadge(l.code, { size: 'lg' }),
                 onPick: () => {
                   draft.lang = l.code;
                   next();
@@ -192,7 +204,7 @@ export async function onboardingView(main, { params, navigate }) {
         break;
 
       case 'level':
-        mount(head, stepBar(), pageHead({ eyebrow: name, title: 'Wie gut kannst du schon?' , intro: 'Schätz dich ruhig grob ein – der Test danach hilft beim Feinjustieren.' }));
+        mount(head, stepBar(), pageHead({ eyebrow: name, title: 'Wie gut kannst du schon?', intro: 'Grob reicht – der kurze Test danach justiert nach.' }));
         mount(
           body,
           el(
@@ -201,8 +213,9 @@ export async function onboardingView(main, { params, navigate }) {
             LEVELS.map((level) =>
               choiceButton({
                 selected: draft.level === level,
-                title: LEVEL_INFO[level].label,
+                title: levelTitle(level),
                 desc: LEVEL_INFO[level].desc,
+                lead: el('span', { class: 'level-tag' }, LEVEL_LEAD[level]()),
                 onPick: () => {
                   draft.level = level;
                   next();
@@ -221,7 +234,7 @@ export async function onboardingView(main, { params, navigate }) {
           pageHead({
             eyebrow: name,
             title: 'Kannst du Hiragana und Katakana lesen?',
-            intro: 'Japanisch hat drei Schriften. Der Kurs beginnt mit den Kana (Hiragana und Katakana), danach kommen Schritt für Schritt die Kanji.',
+            intro: 'Der Kurs beginnt mit den Kana, danach kommen Schritt für Schritt die Kanji.',
           }),
         );
         mount(
@@ -252,7 +265,7 @@ export async function onboardingView(main, { params, navigate }) {
           pageHead({
             eyebrow: name,
             title: 'Was interessiert dich?',
-            intro: 'Danach suchen wir Geschichten und Beispiele aus. Du kannst das später ändern.',
+            intro: 'Danach suchen wir Texte für dich aus.',
           }),
         );
         const chips = el(

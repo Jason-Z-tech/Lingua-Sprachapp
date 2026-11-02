@@ -3,6 +3,7 @@
 
 import { el, mount } from './ui/dom.js';
 import { icon } from './ui/icons.js';
+import { langBadge } from './ui/lang-badge.js';
 import { toast } from './ui/feedback.js';
 import { applyTheme } from './ui/theme.js';
 import { loadLanguages } from './content/loader.js';
@@ -115,8 +116,9 @@ function renderHeader() {
         ? el('option', { value: ADD_LANGUAGE }, '+ Sprache hinzufügen …')
         : null,
     );
-    switcher = el('div', { class: 'lang-switch' }, icon('globe'), select);
+    switcher = el('div', { class: 'lang-switch' }, el('span', { class: 'lang-dot' }, langBadge(state.settings.activeLang, { size: 'sm' })), select);
   }
+  document.documentElement.dataset.lang = profiles.length ? state.settings.activeLang || '' : '';
 
   mount(
     header,
@@ -197,6 +199,7 @@ async function renderView() {
   }
 
   renderHeader();
+  document.body.dataset.route = name in ROUTES ? name : 'start';
   document.title = `${route.title} · Lingua`;
   const routeKey = location.hash;
   const routeChanged = routeKey !== lastRouteKey;

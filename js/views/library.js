@@ -137,7 +137,7 @@ export async function libraryView(main, { navigate }) {
             ),
           ),
         )
-      : el('p', { class: 'small muted' }, 'Lass dir einen Text zu einem Thema deiner Wahl schreiben – mit deinem API-Schlüssel oder über den Kopier-Modus in ChatGPT/Claude.'),
+      : el('p', { class: 'small muted' }, 'Lass dir einen Text zu deinem Wunschthema schreiben.'),
   );
 
   renderFilters();
@@ -147,16 +147,11 @@ export async function libraryView(main, { navigate }) {
     pageHead({
       eyebrow: cc.langName,
       title: 'Lesen & Hören',
-      intro: 'Geschichten und Dialoge passend zu deinem Wortschatz. Tippe jedes Wort an, um es nachzuschlagen.',
+      intro: 'Texte passend zu deinem Wortschatz – jedes Wort antippbar.',
     }),
     el(
       'div',
       { class: 'stack' },
-      el(
-        'p',
-        { class: 'small muted' },
-        'Ganz oben steht, was gerade gut zu dir passt. Am meisten lernst du mit Texten, in denen du fast alle Wörter kennst – ab etwa 95 % liest man flüssig und lernt die übrigen Wörter nebenbei.',
-      ),
       filters,
       list,
       ownSection,

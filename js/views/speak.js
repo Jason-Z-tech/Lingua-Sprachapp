@@ -56,7 +56,7 @@ export async function speakView(main, ctx) {
           'p',
           null,
           recorderSupported()
-            ? 'Dein Browser hat keine Spracherkennung (z. B. Firefox). Du kannst trotzdem üben: Satz anhören, dich selbst aufnehmen und vergleichen – oder die Antwort tippen.'
+            ? 'Dein Browser hat keine Spracherkennung. Du kannst trotzdem üben: Satz anhören, dich selbst aufnehmen und vergleichen – oder die Antwort tippen.'
             : 'Dein Browser hat weder Spracherkennung noch Aufnahme. Du kannst die Gespräche trotzdem lesen, anhören und die Antworten tippen.',
         ),
       );
@@ -69,7 +69,7 @@ export async function speakView(main, ctx) {
   );
   mount(
     main,
-    pageHead({ eyebrow: cc.langName, title: 'Sprechen', intro: 'Alltagsszenen zum Mitreden: Du hörst deinen Gesprächspartner, wählst eine Antwort und sagst sie laut.' }),
+    pageHead({ eyebrow: cc.langName, title: 'Sprechen', intro: 'Hören, antworten, laut sprechen.' }),
     el(
       'div',
       { class: 'stack' },

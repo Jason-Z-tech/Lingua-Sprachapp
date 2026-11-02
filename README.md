@@ -319,7 +319,7 @@ und Sicherheitsregeln (kein `innerHTML`, keine externen Adressen, Content Securi
 | `js/ja/` | Strichfolge und Nachzeichnen für Kana und Kanji |
 | `js/ui/` | DOM-Bausteine (ohne `innerHTML`), Symbole, Dialoge |
 | `sw.js`, `manifest.webmanifest` | Offline-Modus und App-Installation |
-| `vendor/ts-fsrs/` | FSRS-Bibliothek, lokal eingebunden |
+| `vendor/` | FSRS-Bibliothek (ts-fsrs) und Schrift (Nunito), lokal eingebunden |
 | `content/` | Inhalte pro Sprache |
 | `tests/`, `tools/` | Tests und Entwickler-Skripte |
 
@@ -331,6 +331,8 @@ Migration in `js/store/schema.js` dazu; ältere Stände und Sync-Codes werden be
 ## Quellen und Lizenzen
 
 - **Programmcode:** MIT-Lizenz, siehe [LICENSE](LICENSE).
+- **Schrift:** [Nunito](https://github.com/googlefonts/nunito) von Vernon Adams u. a.,
+  [SIL Open Font License 1.1](https://openfontlicense.org), lokal in `vendor/fonts/nunito/`.
 - **Wiederholungsplanung:** [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) 5.4.2
   (MIT), lokal in `vendor/ts-fsrs/`.
 - **Häufigkeitslisten** (`content/*/frequency.json`): erzeugt aus

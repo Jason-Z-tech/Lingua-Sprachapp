@@ -24,8 +24,25 @@ function formatBytes(bytes) {
   return `${formatNumber(bytes / (1024 * 1024), { maximumFractionDigits: 1 })} MB`;
 }
 
+const SECTION_ICONS = {
+  Darstellung: 'eye',
+  Lernen: 'course',
+  'KI (optional)': 'sparkle',
+  Sprachen: 'globe',
+  'Sichern & Übertragen': 'sync',
+  'Offline nutzen': 'download',
+  Speicher: 'shield',
+  Sicherungen: 'upload',
+};
+
 function section(title, ...children) {
-  return el('section', { class: 'card stack' }, el('h2', null, title), ...children);
+  const iconName = SECTION_ICONS[title];
+  return el(
+    'section',
+    { class: 'card stack settings-section' },
+    el('h2', { class: 'settings-title' }, iconName ? el('span', { class: 'feature-icon' }, icon(iconName)) : null, title),
+    ...children,
+  );
 }
 
 export async function settingsView(main, { rerender }) {
@@ -254,7 +271,7 @@ export async function settingsView(main, { rerender }) {
       'details',
       { class: 'advanced' },
       el('summary', null, 'Erweitert: zweiter Schlüssel für Kleinigkeiten'),
-      el('p', { class: 'small muted' }, 'Wenn du Worterklärungen über einen anderen Schlüssel (z. B. ein anderes Projekt mit eigenem Limit) abrechnen willst. Leer = der erste Schlüssel wird benutzt.'),
+      el('p', { class: 'small muted' }, 'Wenn du Worterklärungen über einen anderen Schlüssel (etwa ein Projekt mit eigenem Limit) abrechnen willst. Leer = der erste Schlüssel wird benutzt.'),
       keyField({ name: 'apiKeySmall', label: 'Zweiter API-Schlüssel', purpose: 'small', modelOf: () => getState().settings.ai.modelSmall }),
     ),
     el(
@@ -493,7 +510,7 @@ export async function settingsView(main, { rerender }) {
         el(
           'p',
           { class: 'small muted' },
-          'Vorlesen nutzt die Stimmen deines Geräts. Manche Browser (z. B. Chrome mit „Google“-Stimmen) schicken den Text dafür an einen Server – Lingua bevorzugt Stimmen, die direkt auf dem Gerät laufen.',
+          'Vorlesen nutzt die Stimmen deines Geräts. Lingua bevorzugt Stimmen, die direkt auf dem Gerät laufen – manche Online-Stimmen schicken den Text an einen Server.',
         ),
       ),
       aiSection,
@@ -525,7 +542,7 @@ export async function settingsView(main, { rerender }) {
               el(
                 'p',
                 { class: 'small muted' },
-                'Manche Browser löschen Website-Daten, wenn eine Seite länger nicht besucht wurde (Safari z. B. nach 7 Tagen). Diese Anfrage hilft dagegen; zusätzlich lohnt sich ab und zu eine Sicherung unter „Sichern & Übertragen“.',
+                'Manche Browser löschen Website-Daten, wenn eine Seite länger nicht besucht wurde (Safari nach 7 Tagen). Diese Anfrage hilft dagegen; zusätzlich lohnt sich ab und zu eine Sicherung unter „Sichern & Übertragen“.',
               ),
               persistBtn,
             ),

@@ -29,3 +29,5 @@ Ausnahmen:
 - Die Strichfolgen in content/ja/strokes.json stammen aus KanjiVG
   (© Ulrich Apel, https://kanjivg.tagaini.net) und stehen unter CC BY-SA 3.0
   (https://creativecommons.org/licenses/by-sa/3.0/).
+- Die Schrift Nunito in vendor/fonts/nunito/ (© The Nunito Project Authors)
+  steht unter der SIL Open Font License 1.1 (siehe vendor/fonts/nunito/OFL.txt).

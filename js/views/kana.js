@@ -15,11 +15,11 @@ import { renderSummary, runSession, speakButton } from './session.js';
 import { itemHref, itemTitle } from './course.js';
 
 const SECTIONS = [
-  { id: 'zeichen', label: 'Zeichen' },
-  { id: 'ueben', label: 'Lesen üben' },
-  { id: 'woerter', label: 'Wörter' },
-  { id: 'schreiben', label: 'Schreiben' },
-  { id: 'test', label: 'Kurztest' },
+  { id: 'zeichen', label: 'Zeichen', icon: 'eye' },
+  { id: 'ueben', label: 'Lesen', name: 'Lesen üben', icon: 'cards' },
+  { id: 'woerter', label: 'Wörter', icon: 'read' },
+  { id: 'schreiben', label: 'Schreiben', icon: 'pen' },
+  { id: 'test', label: 'Test', name: 'Kurztest', icon: 'target' },
 ];
 
 export async function kanaView(main, { params, navigate }) {
@@ -45,8 +45,8 @@ export async function kanaView(main, { params, navigate }) {
 
   if (!lessonProgress(cc.profile, lesson.id)) markLesson('ja', lesson.id, () => {});
 
-  const head = el('div');
-  const tabs = el('nav', { class: 'section-tabs', 'aria-label': 'Abschnitte der Kana-Lektion' });
+  const head = el('div', { class: 'lesson-head' });
+  const tabs = el('nav', { class: 'step-bar step-bar-5', 'aria-label': 'Abschnitte der Kana-Lektion' });
   const body = el('div', { class: 'lesson-body' });
   mount(main, head, tabs, body);
   const ctx = () => sessionContext(cc);
@@ -60,7 +60,16 @@ export async function kanaView(main, { params, navigate }) {
       schreiben: Boolean(progress.writingAt),
       test: Boolean(progress.completedAt),
     };
-    mount(head, pageHead({ eyebrow: `${script.title} · Lektion ${lessonIndex + 1} von ${script.lessons.length}`, title: lesson.title }));
+    mount(
+      head,
+      el(
+        'header',
+        { class: 'lesson-hero' },
+        el('a', { class: 'lesson-back', href: '#/kurs' }, icon('arrowLeft'), 'Kurs'),
+        el('div', { class: 'eyebrow' }, `${script.title} · Lektion ${lessonIndex + 1} von ${script.lessons.length}`),
+        el('h1', { tabindex: '-1' }, lesson.title),
+      ),
+    );
     mount(
       tabs,
       el(
@@ -72,9 +81,10 @@ export async function kanaView(main, { params, navigate }) {
             null,
             el(
               'a',
-              { href: `#/kana/${lesson.id}/${s.id}`, 'aria-current': s.id === current ? 'page' : null },
-              done[s.id] ? icon('check') : null,
-              s.label,
+              { href: `#/kana/${lesson.id}/${s.id}`, 'aria-current': s.id === current ? 'page' : null, class: done[s.id] ? 'is-done' : null },
+              el('span', { class: 'step-icon' }, icon(done[s.id] ? 'check' : s.icon)),
+              el('span', { class: 'step-label', 'aria-hidden': s.name ? 'true' : null }, s.label),
+              s.name ? el('span', { class: 'visually-hidden' }, s.name) : null,
             ),
           ),
         ),

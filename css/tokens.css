@@ -1,36 +1,73 @@
 /* Farben, Schrift und Abstände – hell und dunkel.
-   data-theme="light" / "dark" auf <html> überschreibt die Systemeinstellung. */
+   data-theme="light" / "dark" auf <html> überschreibt die Systemeinstellung.
+   data-lang="es" usw. auf <html> setzt die Farbe der aktiven Sprache (--lang). */
+
+/* Nunito (SIL Open Font License 1.1), lokal eingebunden – siehe vendor/fonts/nunito/OFL.txt */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("../vendor/fonts/nunito/nunito-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("../vendor/fonts/nunito/nunito-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF,
+    U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 
 :root {
   color-scheme: light;
-  --bg: #f6f5f1;
+  --bg: #f4f5f9;
   --surface: #ffffff;
-  --surface-2: #efede7;
-  --surface-3: #e6e3db;
-  --text: #1c1b19;
-  --text-muted: #5d5951;
-  --text-faint: #6e6a61;
-  --border: #dfdbd2;
-  --border-strong: #c9c4b8;
-  --accent: #2d6a5e;
-  --accent-hover: #245a4f;
+  --surface-2: #eef0f6;
+  --surface-3: #e2e5ee;
+  --text: #1d2230;
+  --text-muted: #535a6b;
+  --text-faint: #5f6677;
+  --border: #e1e4ec;
+  --border-strong: #c9cedb;
+  --accent: #0f7a64;
+  --accent-hover: #0c6a57;
+  --accent-edge: #0a5547;
   --accent-contrast: #ffffff;
-  --accent-soft: #e1eeea;
-  --accent-soft-text: #1f4e45;
-  --good: #2e7d4f;
-  --good-soft: #e3f1e8;
-  --warn: #9a6200;
-  --warn-soft: #f8eedb;
-  --danger: #b3261e;
-  --danger-soft: #f9e4e2;
+  --accent-soft: #dcf2ec;
+  --accent-soft-text: #0d5c4d;
+  --good: #1d7f45;
+  --good-soft: #e2f5e9;
+  --good-edge: #b9e3c8;
+  --warn: #8a5a00;
+  --warn-soft: #fdf1d8;
+  --danger: #c22d26;
+  --danger-soft: #fde7e5;
+  --danger-edge: #f4c3be;
+  --sun: #ffb21e;
+  --sun-soft: #fff2d4;
   --focus: #3b82c4;
-  --shadow: 0 1px 2px rgb(20 18 14 / 0.06), 0 2px 8px rgb(20 18 14 / 0.05);
+  --shadow: 0 1px 2px rgb(29 34 48 / 0.05), 0 4px 14px rgb(29 34 48 / 0.06);
+  --shadow-lg: 0 2px 6px rgb(29 34 48 / 0.06), 0 16px 40px rgb(29 34 48 / 0.12);
 
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-ja: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans CJK JP", "Yu Gothic UI",
-    "Yu Gothic", Meiryo, system-ui, sans-serif;
-  --radius: 14px;
-  --radius-sm: 9px;
+  /* Sprachfarben */
+  --lang-en: #2b63c6;
+  --lang-es: #c2521d;
+  --lang-it: #237a45;
+  --lang-ja: #c12e57;
+  --lang: var(--accent);
+  --lang-contrast: #ffffff;
+
+  --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-ja: "Hiragino Maru Gothic ProN", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans CJK JP",
+    "Yu Gothic UI", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  --radius: 20px;
+  --radius-sm: 14px;
+  --radius-xs: 10px;
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -39,59 +76,95 @@
   --space-6: 32px;
   --space-7: 48px;
   --content-width: 760px;
-  --nav-height: 64px;
+  --nav-height: 68px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --bg: #141513;
-    --surface: #1d1f1c;
-    --surface-2: #262924;
-    --surface-3: #30332d;
-    --text: #ecebe6;
-    --text-muted: #aaa69c;
-    --text-faint: #949086;
-    --border: #33362f;
-    --border-strong: #464a41;
-    --accent: #79c2ae;
-    --accent-hover: #8fd1bf;
-    --accent-contrast: #0d1f1a;
-    --accent-soft: #213630;
-    --accent-soft-text: #a9dccd;
-    --good: #7cc495;
-    --good-soft: #1f3327;
-    --warn: #e0b25c;
-    --warn-soft: #382c16;
-    --danger: #f08c84;
-    --danger-soft: #3a1f1d;
+    --bg: #12141a;
+    --surface: #1b1e26;
+    --surface-2: #242833;
+    --surface-3: #2e3340;
+    --text: #eceef3;
+    --text-muted: #a9afbd;
+    --text-faint: #959cab;
+    --border: #2c303c;
+    --border-strong: #414757;
+    --accent: #4fcbaa;
+    --accent-hover: #6bd8bb;
+    --accent-edge: #2f9e81;
+    --accent-contrast: #06261f;
+    --accent-soft: #163a32;
+    --accent-soft-text: #9be3cf;
+    --good: #73d39b;
+    --good-soft: #17301f;
+    --good-edge: #2c5a3c;
+    --warn: #e7b75f;
+    --warn-soft: #362a14;
+    --danger: #ff8f86;
+    --danger-soft: #3a1d1b;
+    --danger-edge: #6b2f2b;
+    --sun: #ffc24d;
+    --sun-soft: #3a2f14;
     --focus: #7db4e6;
-    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 2px 10px rgb(0 0 0 / 0.25);
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.25);
+    --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.35), 0 16px 40px rgb(0 0 0 / 0.45);
+    --lang-en: #7aa6f0;
+    --lang-es: #f0915e;
+    --lang-it: #62c48a;
+    --lang-ja: #f07a98;
+    --lang-contrast: #101218;
   }
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #141513;
-  --surface: #1d1f1c;
-  --surface-2: #262924;
-  --surface-3: #30332d;
-  --text: #ecebe6;
-  --text-muted: #aaa69c;
-  --text-faint: #949086;
-  --border: #33362f;
-  --border-strong: #464a41;
-  --accent: #79c2ae;
-  --accent-hover: #8fd1bf;
-  --accent-contrast: #0d1f1a;
-  --accent-soft: #213630;
-  --accent-soft-text: #a9dccd;
-  --good: #7cc495;
-  --good-soft: #1f3327;
-  --warn: #e0b25c;
-  --warn-soft: #382c16;
-  --danger: #f08c84;
-  --danger-soft: #3a1f1d;
+  --bg: #12141a;
+  --surface: #1b1e26;
+  --surface-2: #242833;
+  --surface-3: #2e3340;
+  --text: #eceef3;
+  --text-muted: #a9afbd;
+  --text-faint: #959cab;
+  --border: #2c303c;
+  --border-strong: #414757;
+  --accent: #4fcbaa;
+  --accent-hover: #6bd8bb;
+  --accent-edge: #2f9e81;
+  --accent-contrast: #06261f;
+  --accent-soft: #163a32;
+  --accent-soft-text: #9be3cf;
+  --good: #73d39b;
+  --good-soft: #17301f;
+  --good-edge: #2c5a3c;
+  --warn: #e7b75f;
+  --warn-soft: #362a14;
+  --danger: #ff8f86;
+  --danger-soft: #3a1d1b;
+  --danger-edge: #6b2f2b;
+  --sun: #ffc24d;
+  --sun-soft: #3a2f14;
   --focus: #7db4e6;
-  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 2px 10px rgb(0 0 0 / 0.25);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.25);
+  --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.35), 0 16px 40px rgb(0 0 0 / 0.45);
+  --lang-en: #7aa6f0;
+  --lang-es: #f0915e;
+  --lang-it: #62c48a;
+  --lang-ja: #f07a98;
+  --lang-contrast: #101218;
+}
+
+/* aktive Sprache */
+:root[data-lang="en"] {
+  --lang: var(--lang-en);
+}
+:root[data-lang="es"] {
+  --lang: var(--lang-es);
+}
+:root[data-lang="it"] {
+  --lang: var(--lang-it);
+}
+:root[data-lang="ja"] {
+  --lang: var(--lang-ja);
 }

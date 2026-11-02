@@ -26,12 +26,12 @@ import { renderSummary, runSession, speakButton } from './session.js';
 import { itemHref, itemTitle } from './course.js';
 
 const SECTIONS = [
-  { id: 'ueberblick', label: 'Überblick' },
-  { id: 'vokabeln', label: 'Vokabeln' },
-  { id: 'grammatik', label: 'Grammatik' },
-  { id: 'dialog', label: 'Dialog' },
-  { id: 'ueben', label: 'Üben' },
-  { id: 'test', label: 'Test' },
+  { id: 'ueberblick', label: 'Start', name: 'Überblick', icon: 'flag' },
+  { id: 'vokabeln', label: 'Wörter', name: 'Vokabeln', icon: 'cards' },
+  { id: 'grammatik', label: 'Grammatik', icon: 'grammar' },
+  { id: 'dialog', label: 'Dialog', icon: 'chat' },
+  { id: 'ueben', label: 'Üben', icon: 'pen' },
+  { id: 'test', label: 'Test', icon: 'target' },
 ];
 
 function sectionDone(progress, lesson, id) {
@@ -52,6 +52,23 @@ function sectionDone(progress, lesson, id) {
     default:
       return false;
   }
+}
+
+/** Lernziele ohne angehängte Beispiele („…: Beispielsatz“, „(un kilo de …)“, „(z. B. …)“). */
+const GERMAN_WORDS = /(?:^|[\s,.;–(])(?:und|oder|wie|wo|wann|dass|der|das|den|dem|des|mit|für|ein|eine|einen|einem|nicht|auch|man|wer|dich|dir|sich|bei|von|zu|im|ist|sind|kannst|du|deine?n?|Zimmer|Möbel|Wörter)(?=$|[\s,.;:!?–)])/i;
+
+function withoutExamples(text) {
+  let out = String(text)
+    .replace(/\s*\((?:z\.\s?B\.|zum Beispiel)[^)]*\)/g, '')
+    .replace(/\s*\([^)]*(?:[぀-ヿ一-鿿]|…|\.\.\.)[^)]*\)/g, '')
+    .replace(/,?\s*(?:z\.\s?B\.|zum Beispiel)\s.*$/, '.');
+  // Teil nach dem letzten Doppelpunkt weglassen, wenn er nur ein Beispiel in der Zielsprache ist
+  const i = out.lastIndexOf(': ');
+  if (i > 0) {
+    const tail = out.slice(i + 2);
+    if (/[぀-ヿ一-鿿]|…/.test(tail) || !GERMAN_WORDS.test(tail)) out = `${out.slice(0, i)}.`;
+  }
+  return out.replace(/\.\.$/, '.').replace(/\s+\./g, '.');
 }
 
 /** Neue Wörter der Lektion in den Lernstapel (mit ihrem Beispielsatz). */
@@ -103,8 +120,8 @@ export async function lessonView(main, { params, navigate }) {
 
   if (!lessonProgress(cc.profile, lesson.id)) markLesson(lang, lesson.id, () => {});
 
-  const head = el('div');
-  const tabs = el('nav', { class: 'section-tabs', 'aria-label': 'Abschnitte der Lektion' });
+  const head = el('div', { class: 'lesson-head' });
+  const tabs = el('nav', { class: 'step-bar', 'aria-label': 'Abschnitte der Lektion' });
   const body = el('div', { class: 'lesson-body' });
   mount(main, head, tabs, body);
 
@@ -122,8 +139,14 @@ export async function lessonView(main, { params, navigate }) {
     const progress = lessonProgress(cc.profile, lesson.id) || {};
     mount(
       head,
-      pageHead({ eyebrow: `${lesson.level} · Lektion ${lesson.number}`, title: lesson.title_de }),
-      el('p', { class: 'lesson-subtitle' }, tt(lesson.title), el('span', { class: 'muted' }, ` · ${lesson.topic}`)),
+      el(
+        'header',
+        { class: 'lesson-hero' },
+        el('a', { class: 'lesson-back', href: '#/kurs' }, icon('arrowLeft'), 'Kurs'),
+        el('div', { class: 'eyebrow' }, `${lesson.level} · Lektion ${lesson.number}`),
+        el('h1', { tabindex: '-1' }, lesson.title_de),
+        el('p', { class: 'lesson-subtitle' }, el('span', { class: 'lesson-target' }, tt(lesson.title)), el('span', { class: 'muted' }, lesson.topic)),
+      ),
     );
     mount(
       tabs,
@@ -136,9 +159,14 @@ export async function lessonView(main, { params, navigate }) {
             null,
             el(
               'a',
-              { href: `#/lektion/${lesson.id}/${s.id}`, 'aria-current': s.id === current ? 'page' : null },
-              sectionDone(progress, lesson, s.id) && s.id !== 'ueberblick' ? icon('check') : null,
-              s.label,
+              {
+                href: `#/lektion/${lesson.id}/${s.id}`,
+                'aria-current': s.id === current ? 'page' : null,
+                class: sectionDone(progress, lesson, s.id) && s.id !== 'ueberblick' ? 'is-done' : null,
+              },
+              el('span', { class: 'step-icon' }, icon(sectionDone(progress, lesson, s.id) && s.id !== 'ueberblick' ? 'check' : s.icon)),
+              el('span', { class: 'step-label', 'aria-hidden': s.name ? 'true' : null }, s.label),
+              s.name ? el('span', { class: 'visually-hidden' }, s.name) : null,
             ),
           ),
         ),
@@ -153,15 +181,6 @@ export async function lessonView(main, { params, navigate }) {
   // ---------- Abschnitte ----------
 
   function overview() {
-    const progress = lessonProgress(cc.profile, lesson.id) || {};
-    const steps = SECTIONS.slice(1).map((s) =>
-      el(
-        'li',
-        null,
-        el('a', { href: `#/lektion/${lesson.id}/${s.id}` }, s.label),
-        sectionDone(progress, lesson, s.id) ? el('span', { class: 'badge badge-good' }, 'erledigt') : null,
-      ),
-    );
     mount(
       body,
       el(
@@ -171,18 +190,20 @@ export async function lessonView(main, { params, navigate }) {
           'section',
           { class: 'card stack' },
           el('h2', null, 'Das lernst du'),
-          el('ul', { class: 'bullets' }, lesson.goals.map((g) => el('li', null, g))),
+          el('ul', { class: 'goal-list' }, lesson.goals.map((g) => el('li', null, el('span', { class: 'goal-check' }, icon('check')), el('span', null, withoutExamples(g))))),
           el(
-            'p',
-            { class: 'small muted' },
-            `${lesson.vocab.length} Vokabeln · ${lesson.grammar.length} ${lesson.grammar.length === 1 ? 'Grammatikthema' : 'Grammatikthemen'} · Dialog · Übungen · Test`,
+            'div',
+            { class: 'fact-row' },
+            el('span', { class: 'fact' }, icon('cards'), `${lesson.vocab.length} Vokabeln`),
+            el('span', { class: 'fact' }, icon('grammar'), `${lesson.grammar.length} ${lesson.grammar.length === 1 ? 'Grammatikthema' : 'Grammatikthemen'}`),
+            el('span', { class: 'fact' }, icon('chat'), 'Dialog'),
+            el('span', { class: 'fact' }, icon('target'), 'Test'),
           ),
           lang === 'ja' && lesson.kanji && lesson.kanji.length
-            ? el('p', null, 'Neue Kanji: ', el('span', { lang: 'ja', class: 'kanji-inline' }, lesson.kanji.join(' ')))
+            ? el('div', { class: 'kanji-chips' }, el('span', { class: 'small muted' }, 'Neue Kanji'), el('div', { class: 'row' }, lesson.kanji.map((k) => el('span', { class: 'kanji-chip', lang: 'ja' }, k))))
             : null,
-          el('div', { class: 'row' }, nextButton('vokabeln', 'Mit den Vokabeln anfangen')),
         ),
-        el('section', { class: 'card stack' }, el('h2', null, 'Ablauf'), el('ol', { class: 'steps-list' }, steps)),
+        el('a', { class: 'btn btn-primary btn-lg btn-block', href: `#/lektion/${lesson.id}/vokabeln` }, 'Mit den Vokabeln anfangen', icon('arrowRight')),
       ),
     );
   }
@@ -229,20 +250,12 @@ export async function lessonView(main, { params, navigate }) {
         kanjiSection,
         el(
           'section',
-          { class: 'card stack' },
-          el(
-            'p',
-            null,
-            'Lies dir die Wörter mit ihren Beispielsätzen in Ruhe durch und hör sie dir an. Danach übst du sie: Du siehst die deutsche Bedeutung und schreibst das Wort selbst – so bleibt es am besten hängen.',
-          ),
-          el(
-            'div',
-            { class: 'row' },
-            el('button', { type: 'button', class: 'btn btn-primary', on: { click: practiceVocab } }, `Vokabeln üben (${lesson.vocab.length})`),
-          ),
+          { class: 'section-intro' },
+          el('div', null, el('h2', null, `${lesson.vocab.length} neue Wörter`), el('p', { class: 'muted' }, 'Anhören, lesen – dann selbst schreiben.')),
+          el('button', { type: 'button', class: 'btn btn-primary', on: { click: practiceVocab } }, icon('pen'), `Vokabeln üben (${lesson.vocab.length})`),
         ),
         el('ul', { class: 'vocab-list' }, cards),
-        el('div', { class: 'row' }, el('button', { type: 'button', class: 'btn btn-primary', on: { click: practiceVocab } }, 'Vokabeln üben')),
+        el('button', { type: 'button', class: 'btn btn-primary btn-lg btn-block', on: { click: practiceVocab } }, icon('pen'), 'Vokabeln üben'),
       ),
     );
   }
@@ -252,7 +265,7 @@ export async function lessonView(main, { params, navigate }) {
     const section = el('section', { class: 'card stack' }, el('h2', null, 'Neue Kanji'));
     const list = el('div', { class: 'kanji-list' });
     section.appendChild(
-      el('p', { class: 'small muted' }, 'Diese Kanji lernst du in dieser Lektion. Sieh dir die Strichfolge an und zeichne sie nach – nach dem Lektionstest verschwindet die Lesehilfe über ihnen.'),
+      el('p', { class: 'small muted' }, 'Strichfolge ansehen und nachzeichnen.'),
     );
     section.appendChild(list);
     loadStrokes().then((data) => {

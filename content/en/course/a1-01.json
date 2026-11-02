@@ -40,7 +40,7 @@
       "note": "Oft auch kurz: See you! Gemeint ist meist einfach „Tschüss, bis dann“ – auch wenn man sich erst Tage später wiedersieht." },
     { "id": "how-are-you", "word": "how are you?", "de": "wie geht's?; wie geht es dir?; wie geht es Ihnen?", "pos": "phrase",
       "example": { "text": "Hi, Mark! How are you?", "de": "Hallo, Mark! Wie geht's dir?" },
-      "note": "Oft nur ein freundlicher Gruß. Man antwortet kurz – z. B. „Good, thanks. And you?“ – und erzählt keine Details." },
+      "note": "Oft nur ein freundlicher Gruß. Man antwortet kurz mit „Good, thanks. And you?“ und erzählt keine Details." },
     { "id": "fine", "word": "fine", "de": "gut (Antwort auf How are you?)", "pos": "adj",
       "example": { "text": "I'm fine, thank you.", "de": "Mir geht es gut, danke." },
       "note": "I'm fine. heißt wörtlich „Ich bin gut“. Für „Mir geht es …“ benutzt man im Englischen to be." },

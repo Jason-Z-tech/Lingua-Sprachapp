@@ -513,12 +513,14 @@ export async function readerView(main, { params, navigate }) {
     el(
       'div',
       { class: 'stack' },
-      el('p', { class: 'reader-sub muted' }, story.title_de, ' · ', story.summary_de),
+      el('p', { class: 'reader-sub muted' }, story.title_de),
       el('div', { class: 'reader-toolbar' }, ttsSupported() ? playBtn : null, ttsSupported() ? rateBtn : null, translateBtn, stats),
       el(
-        'p',
-        { class: 'small faint' },
-        'Tippe auf ein Wort für Bedeutung und Grundform. Hinter jedem Satz zeigt das Auge die Übersetzung. Unterstrichen = neu, gelb = im Lernstapel.',
+        'div',
+        { class: 'legend', 'aria-label': 'Legende' },
+        el('span', { class: 'legend-item' }, el('span', { class: 'word is-new legend-sample' }, 'Abc'), 'neu'),
+        el('span', { class: 'legend-item' }, el('span', { class: 'word is-learning legend-sample' }, 'Abc'), 'im Lernstapel'),
+        el('span', { class: 'legend-item' }, icon('eye'), 'Übersetzung'),
       ),
       el('section', { class: 'card reader-card' }, textBox),
       finishCard,

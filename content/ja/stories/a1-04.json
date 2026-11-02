@@ -75,7 +75,7 @@
     "およぎ": { "lemma": "泳[およ]ぐ", "de": "schwimmen", "pos": "verb" },
     "水": { "lemma": "水[みず]", "de": "Wasser", "pos": "noun" },
     "少し": { "lemma": "少[すこ]し", "de": "ein bisschen", "pos": "adv" },
-    "つめたい": { "lemma": "冷[つめ]たい", "de": "kalt (beim Anfassen, z. B. Wasser)", "pos": "adj" },
+    "つめたい": { "lemma": "冷[つめ]たい", "de": "kalt (beim Anfassen)", "pos": "adj" },
     "とても": { "lemma": "とても", "de": "sehr", "pos": "adv" },
     "気もち": { "lemma": "気持[きも]ち", "de": "Gefühl (気もち が いい = fühlt sich gut an)", "pos": "noun" },
     "いい": { "lemma": "いい", "de": "gut", "pos": "adj" },

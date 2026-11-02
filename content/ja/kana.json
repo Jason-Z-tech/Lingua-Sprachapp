@@ -503,7 +503,7 @@
       },
       {
        "type": "tip",
-       "text": "は als Partikel: Wenn は das Thema eines Satzes markiert, liest man es „wa“, z. B. in こんにちは (konnichiwa). In Wörtern wie はな bleibt es „ha“."
+       "text": "は als Partikel: Wenn は das Thema eines Satzes markiert, liest man es „wa“, wie in こんにちは (konnichiwa). In Wörtern wie はな bleibt es „ha“."
       },
       {
        "type": "tip",
@@ -902,7 +902,7 @@
       },
       {
        "type": "tip",
-       "text": "ぢ und づ klingen genau wie じ und ず und kommen nur in wenigen Wörtern vor, z. B. つづく (weitergehen). Beim Tippen schreibst du sie als di und du."
+       "text": "ぢ und づ klingen genau wie じ und ず und kommen nur in wenigen Wörtern vor: つづく (weitergehen). Beim Tippen schreibst du sie als di und du."
       }
      ],
      "chars": [
@@ -1322,11 +1322,11 @@
       {
        "type": "list",
        "items": [
-        "langes a: + あ, z. B. おかあさん (okaasan)",
-        "langes i: + い, z. B. おにいさん (oniisan)",
-        "langes u: + う, z. B. くうき (kuuki, Luft)",
-        "langes e: meistens + い, z. B. せんせい (sensei, gesprochen „sensee“); selten + え wie in おねえさん",
-        "langes o: meistens + う, z. B. とうきょう (toukyou, gesprochen „tookjoo“); selten + お wie in おおきい"
+        "langes a: + あ → おかあさん (okaasan)",
+        "langes i: + い → おにいさん (oniisan)",
+        "langes u: + う → くうき (kuuki, Luft)",
+        "langes e: meistens + い → せんせい (sensei, gesprochen „sensee“); selten + え wie in おねえさん",
+        "langes o: meistens + う → とうきょう (toukyou, gesprochen „tookjoo“); selten + お wie in おおきい"
        ]
       },
       {
@@ -1417,7 +1417,7 @@
       },
       {
        "type": "tip",
-       "text": "Manche Katakana ähneln ihren Hiragana-Partnern, z. B. か und カ oder き und キ. Andere sehen ganz anders aus – lerne sie wie neue Zeichen."
+       "text": "Manche Katakana ähneln ihren Hiragana-Partnern: か und カ oder き und キ. Andere sehen ganz anders aus – lerne sie wie neue Zeichen."
       }
      ],
      "chars": [
@@ -1901,7 +1901,7 @@
       },
       {
        "type": "tip",
-       "text": "Kleine ャ, ュ, ョ können auch hinter anderen i-Silben stehen, z. B. ニュ in メニュー (Speisekarte)."
+       "text": "Kleine ャ, ュ, ョ können auch hinter anderen i-Silben stehen: ニュ in メニュー (Speisekarte)."
       },
       {
        "type": "tip",
@@ -2151,10 +2151,10 @@
       {
        "type": "list",
        "items": [
-        "ファ, フィ, フェ, フォ = fa, fi, fe, fo – z. B. カフェ (Café), フォーク (Gabel)",
-        "ティ, ディ = ti, di – z. B. パーティー (Party)",
-        "ウィ, ウェ, ウォ = wi, we, wo – z. B. ウィーン (Wien)",
-        "シェ, ジェ, チェ = sche, dsche, tsche – z. B. シェフ (Küchenchef)",
+        "ファ, フィ, フェ, フォ = fa, fi, fe, fo: カフェ (Café), フォーク (Gabel)",
+        "ティ, ディ = ti, di: パーティー (Party)",
+        "ウィ, ウェ, ウォ = wi, we, wo: ウィーン (Wien)",
+        "シェ, ジェ, チェ = sche, dsche, tsche: シェフ (Küchenchef)",
         "ヴ = v – selten, meistens schreibt man stattdessen die B-Reihe"
        ]
       },
