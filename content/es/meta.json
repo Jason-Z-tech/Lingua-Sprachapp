@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "code": "es",
+  "name": "Spanisch",
+  "nativeName": "Español",
+  "variant": "Spanisch (Spanien)",
+  "speechLang": "es-ES",
+  "speechLangFallbacks": ["es-MX", "es-US", "es"],
+  "segmentation": "intl",
+  "features": {},
+  "placement": {
+    "pseudowords": ["tarbino", "plusca", "mendrillo", "cospador", "frenela", "brumacho", "tasquero", "galdena",
+                    "pirmoso", "clentar", "sorbucio", "trilmar", "moltaza", "vendrujo", "carpelino", "drusar"]
+  }
+}

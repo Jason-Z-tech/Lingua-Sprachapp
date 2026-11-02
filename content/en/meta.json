@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "code": "en",
+  "name": "Englisch",
+  "nativeName": "English",
+  "variant": "Amerikanisches Englisch",
+  "speechLang": "en-US",
+  "speechLangFallbacks": ["en-GB", "en"],
+  "segmentation": "intl",
+  "features": {},
+  "placement": {
+    "pseudowords": ["plonter", "brastic", "gumbrel", "flarnish", "custrate", "snorbid", "dromple", "vellish",
+                    "prandle", "kemphor", "strommet", "harpical", "tropple", "wendrift", "chamble", "gristock"]
+  }
+}

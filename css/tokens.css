@@ -1,0 +1,97 @@
+/* Farben, Schrift und Abstände – hell und dunkel.
+   data-theme="light" / "dark" auf <html> überschreibt die Systemeinstellung. */
+
+:root {
+  color-scheme: light;
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #efede7;
+  --surface-3: #e6e3db;
+  --text: #1c1b19;
+  --text-muted: #5d5951;
+  --text-faint: #8a857b;
+  --border: #dfdbd2;
+  --border-strong: #c9c4b8;
+  --accent: #2d6a5e;
+  --accent-hover: #245a4f;
+  --accent-contrast: #ffffff;
+  --accent-soft: #e1eeea;
+  --accent-soft-text: #1f4e45;
+  --good: #2e7d4f;
+  --good-soft: #e3f1e8;
+  --warn: #9a6200;
+  --warn-soft: #f8eedb;
+  --danger: #b3261e;
+  --danger-soft: #f9e4e2;
+  --focus: #3b82c4;
+  --shadow: 0 1px 2px rgb(20 18 14 / 0.06), 0 2px 8px rgb(20 18 14 / 0.05);
+
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-ja: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans CJK JP", "Yu Gothic UI",
+    "Yu Gothic", Meiryo, system-ui, sans-serif;
+  --radius: 14px;
+  --radius-sm: 9px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --content-width: 760px;
+  --nav-height: 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #141513;
+    --surface: #1d1f1c;
+    --surface-2: #262924;
+    --surface-3: #30332d;
+    --text: #ecebe6;
+    --text-muted: #aaa69c;
+    --text-faint: #7f7b72;
+    --border: #33362f;
+    --border-strong: #464a41;
+    --accent: #79c2ae;
+    --accent-hover: #8fd1bf;
+    --accent-contrast: #0d1f1a;
+    --accent-soft: #213630;
+    --accent-soft-text: #a9dccd;
+    --good: #7cc495;
+    --good-soft: #1f3327;
+    --warn: #e0b25c;
+    --warn-soft: #382c16;
+    --danger: #f08c84;
+    --danger-soft: #3a1f1d;
+    --focus: #7db4e6;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 2px 10px rgb(0 0 0 / 0.25);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #141513;
+  --surface: #1d1f1c;
+  --surface-2: #262924;
+  --surface-3: #30332d;
+  --text: #ecebe6;
+  --text-muted: #aaa69c;
+  --text-faint: #7f7b72;
+  --border: #33362f;
+  --border-strong: #464a41;
+  --accent: #79c2ae;
+  --accent-hover: #8fd1bf;
+  --accent-contrast: #0d1f1a;
+  --accent-soft: #213630;
+  --accent-soft-text: #a9dccd;
+  --good: #7cc495;
+  --good-soft: #1f3327;
+  --warn: #e0b25c;
+  --warn-soft: #382c16;
+  --danger: #f08c84;
+  --danger-soft: #3a1f1d;
+  --focus: #7db4e6;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 2px 10px rgb(0 0 0 / 0.25);
+}

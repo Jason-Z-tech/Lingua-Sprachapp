@@ -1,0 +1,9 @@
+{
+  "formatVersion": 1,
+  "languages": [
+    { "code": "en", "name": "Englisch", "nativeName": "English" },
+    { "code": "es", "name": "Spanisch", "nativeName": "Español" },
+    { "code": "it", "name": "Italienisch", "nativeName": "Italiano" },
+    { "code": "ja", "name": "Japanisch", "nativeName": "日本語" }
+  ]
+}

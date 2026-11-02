@@ -1,0 +1,16 @@
+{
+  "formatVersion": 1,
+  "code": "it",
+  "name": "Italienisch",
+  "nativeName": "Italiano",
+  "variant": "Standard-Italienisch",
+  "speechLang": "it-IT",
+  "speechLangFallbacks": ["it"],
+  "segmentation": "intl",
+  "elision": true,
+  "features": {},
+  "placement": {
+    "pseudowords": ["frassiglio", "pondello", "tracchina", "smurlare", "galbonte", "crispaglia", "venduzzo", "pertolo",
+                    "sbrinzo", "molfare", "grattena", "lurdino", "scampiglio", "tervone", "fiolcare", "brusmino"]
+  }
+}

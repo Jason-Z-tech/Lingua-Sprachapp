@@ -1,0 +1,39 @@
+{
+  "formatVersion": 1,
+  "code": "ja",
+  "name": "Japanisch",
+  "nativeName": "日本語",
+  "variant": "Standardjapanisch, Höflichkeitsform (です/ます)",
+  "speechLang": "ja-JP",
+  "speechLangFallbacks": [
+    "ja"
+  ],
+  "segmentation": "pretokenized",
+  "features": {
+    "kana": true,
+    "kanji": true,
+    "furigana": true
+  },
+  "placement": {
+    "display": "kana",
+    "pseudowords": [
+      "もてくり",
+      "さぬかい",
+      "ふれもと",
+      "ぬかたし",
+      "けろみ",
+      "そもかい",
+      "ほにせく",
+      "ちせなう",
+      "とろふみ",
+      "めにさく",
+      "ねもたき",
+      "ろさかね",
+      "ぬれさも",
+      "かもちせ",
+      "へらとみ",
+      "せのくら"
+    ],
+    "note": "Abgefragt wird nur in Hiragana: keine einzelnen Kanji, keine Katakana-Lehnwörter, keine Namen."
+  }
+}

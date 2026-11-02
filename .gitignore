@@ -1,0 +1,35 @@
+# Abhängigkeiten und Werkzeuge (die App selbst braucht keine)
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor
+.vscode/
+.idea/
+
+# Lokale Dateien und Geheimnisse – niemals einchecken
+.env
+.env.*
+*.local
+*.local.*
+secrets*.json
+*api-key*
+*apikey*
+
+# Exportierte Lernstände (enthalten persönliche Daten)
+lingua-*.json
+!content/**/*.json
+
+# Logs & Test-Ausgaben
+*.log
+coverage/
+test-results/
+playwright-report/
