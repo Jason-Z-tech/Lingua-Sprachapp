@@ -74,7 +74,7 @@
       "blocks": [
         { "type": "p", "text": "Volitionalform + と おもって います = „Ich habe vor …, ich denke daran, …“. So erzählst du von Plänen, die noch nicht ganz fest sind. (Mit おもいます statt おもって います klingt es eher wie ein Entschluss in diesem Moment.)" },
         { "type": "examples", "items": [{ "text": "来年[らいねん]、 日本[にほん] で 仕事[しごと] を 探[さが]そう と 思[おも]って い ます。", "de": "Ich habe vor, nächstes Jahr in Japan eine Arbeit zu suchen." }, { "text": "夏[なつ]休[やす]み に 北海[ほっかい]道[どう] へ 行[い]こう と 思[おも]って い ます。", "de": "Ich denke daran, in den Sommerferien nach Hokkaido zu fahren." }] },
-        { "type": "p", "text": "Wörterbuchform + つもりです = „Ich habe die Absicht …“ – ein fester Entschluss. Verneint: Wörterbuchform in der ない-Form + つもりです („Ich habe vor, nicht … zu …“)." },
+        { "type": "p", "text": "Wörterbuchform + つもりです = „Ich habe die Absicht …“ – ein fester Entschluss. Verneint: ない-Form + つもりです („Ich habe vor, nicht … zu …“)." },
         { "type": "examples", "items": [{ "text": "来年[らいねん] ドイツ へ 留[りゅう]学[がく] する つもり です。", "de": "Ich habe vor, nächstes Jahr in Deutschland zu studieren." }, { "text": "今年[ことし] は お酒[さけ] を 飲[の]まない つもり です。", "de": "Dieses Jahr will ich keinen Alkohol trinken." }] },
         { "type": "p", "text": "Wörterbuchform oder Nomen + の + よていです = „Es ist geplant …“. Das passt für Termine und feste Pläne, oft auch für Dinge, die andere festgelegt haben (Fahrplan, Kalender)." },
         { "type": "examples", "items": [{ "text": "会[かい]議[ぎ] は 三時[さんじ] に 始[はじ]まる 予定[よてい] です。", "de": "Die Besprechung soll um drei anfangen." }, { "text": "電車[でんしゃ] は 十時[じゅうじ] に 着[つ]く 予定[よてい] です。", "de": "Der Zug soll um zehn ankommen." }, { "text": "来月[らいげつ] は 旅行[りょこう] の 予定[よてい] です。", "de": "Nächsten Monat ist eine Reise geplant." }] },

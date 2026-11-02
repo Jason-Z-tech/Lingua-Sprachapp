@@ -52,7 +52,7 @@
     { "id": "shoushou", "word": "しょうしょう おまち ください", "de": "Einen Moment, bitte. (sehr höflich)", "pos": "phrase", "example": { "text": "はい、 しょうしょう おまち ください。", "de": "Ja, einen Moment bitte." }, "note": "Höfliche Form von ちょっと まってください. Kanji: 少々 お待ちください." },
     { "id": "otearai", "word": "お手[て]洗[あら]い", "de": "die Toilette (höflich)", "pos": "noun", "example": { "text": "すみません、 お手[て]洗[あら]い は どこ です か。", "de": "Entschuldigung, wo ist die Toilette?" }, "note": "Wörtlich „Händewaschen“. Etwas höflicher als トイレ." },
     { "id": "okawari", "word": "おかわり", "de": "der Nachschlag; noch eine Portion", "pos": "noun", "example": { "text": "ご飯[はん] の おかわり を おねがいします。", "de": "Noch eine Portion Reis, bitte." } },
-    { "id": "muryou", "word": "無[む]料[りょう]", "de": "kostenlos; gratis", "pos": "adj", "example": { "text": "この 店[みせ] は 水[みず] と お茶[ちゃ] が 無[む]料[りょう] です。", "de": "In diesem Lokal sind Wasser und Tee kostenlos." }, "note": "料 (りょう) steckt auch in りょうり (Kochen) und りょうきん (Gebühr)." }
+    { "id": "muryou", "word": "無[む]料[りょう]", "de": "kostenlos; gratis", "pos": "noun", "example": { "text": "この 店[みせ] は 水[みず] と お茶[ちゃ] が 無[む]料[りょう] です。", "de": "In diesem Lokal sind Wasser und Tee kostenlos." }, "note": "料 (りょう) steckt auch in りょうり (Kochen) und りょうきん (Gebühr)." }
   ],
   "grammar": [
     {
