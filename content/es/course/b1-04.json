@@ -1,0 +1,159 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-04",
+  "lang": "es",
+  "level": "B1",
+  "number": 4,
+  "title": "Compañeros de piso",
+  "title_de": "Zusammenleben",
+  "topic": "Wohnen, Nachbarn und Mitbewohner",
+  "goals": [
+    "Du kannst über das Zusammenleben in einer WG und mit Nachbarn sprechen – über Hausarbeit, Regeln und Lärm.",
+    "Du kannst Personen, Orte und Dinge mit Relativsätzen genauer beschreiben: que, donde, lo que, quien.",
+    "Du kannst Bitten und Aufforderungen weitergeben: Le pido que limpie … Dile que baje la música.",
+    "Du kannst zwei Objektpronomen kombinieren: me lo, te la, se lo."
+  ],
+  "vocab": [
+    { "id": "companero-de-piso", "word": "compañero de piso", "article": "el", "gender": "m", "plural": "los compañeros de piso", "de": "der Mitbewohner", "pos": "noun", "example": { "text": "Mi compañero de piso es de Valencia.", "de": "Mein Mitbewohner kommt aus Valencia." }, "note": "Die Mitbewohnerin = la compañera de piso." },
+    { "id": "piso-compartido", "word": "piso compartido", "article": "el", "gender": "m", "plural": "los pisos compartidos", "de": "die WG; die Wohngemeinschaft", "pos": "noun", "example": { "text": "Vivo en un piso compartido con dos chicas.", "de": "Ich wohne in einer WG mit zwei Frauen." } },
+    { "id": "compartir", "word": "compartir", "de": "teilen", "pos": "verb", "example": { "text": "Compartimos la cocina y el baño.", "de": "Wir teilen uns die Küche und das Bad.", "focus": "compartimos" } },
+    { "id": "convivencia", "word": "convivencia", "article": "la", "gender": "f", "de": "das Zusammenleben", "pos": "noun", "example": { "text": "La convivencia no siempre es fácil.", "de": "Das Zusammenleben ist nicht immer einfach." } },
+    { "id": "convivir", "word": "convivir", "de": "zusammenleben", "pos": "verb", "example": { "text": "Convivir con otras personas es difícil a veces.", "de": "Mit anderen Menschen zusammenzuleben ist manchmal schwierig." } },
+    { "id": "llevarse-bien", "word": "llevarse bien", "de": "sich gut verstehen", "pos": "phrase", "example": { "text": "Me llevo muy bien con mis compañeros de piso.", "de": "Ich verstehe mich sehr gut mit meinen Mitbewohnern.", "focus": "me llevo muy bien" }, "note": "Mit jemandem: llevarse bien con alguien. Gegenteil: llevarse mal." },
+    { "id": "ruido", "word": "ruido", "article": "el", "gender": "m", "plural": "los ruidos", "de": "der Lärm; das Geräusch", "pos": "noun", "example": { "text": "Los vecinos de arriba hacen mucho ruido.", "de": "Die Nachbarn von oben machen viel Lärm." }, "note": "hacer ruido = Lärm machen." },
+    { "id": "ruidoso", "word": "ruidoso", "alt": [ "ruidosa" ], "de": "laut (Lärm machend)", "pos": "adj", "example": { "text": "Mi calle es muy ruidosa.", "de": "Meine Straße ist sehr laut.", "focus": "ruidosa" }, "note": "Für Musik oder Stimmen sagt man alto: La música está muy alta." },
+    { "id": "silencio", "word": "silencio", "article": "el", "gender": "m", "de": "die Stille; die Ruhe", "pos": "noun", "example": { "text": "Por la noche necesito silencio para dormir.", "de": "Nachts brauche ich Ruhe zum Schlafen." } },
+    { "id": "quejarse", "word": "quejarse", "de": "sich beschweren", "pos": "verb", "example": { "text": "Los vecinos se quejan del ruido.", "de": "Die Nachbarn beschweren sich über den Lärm.", "focus": "se quejan" }, "note": "sich über etwas beschweren = quejarse de algo." },
+    { "id": "aguantar", "word": "aguantar", "de": "aushalten; ertragen", "pos": "verb", "example": { "text": "¡No aguanto más este ruido!", "de": "Ich halte diesen Lärm nicht mehr aus!", "focus": "aguanto" } },
+    { "id": "estar-harto-de", "word": "estar harto de", "alt": [ "estar harta de" ], "de": "die Nase voll haben von", "pos": "phrase", "example": { "text": "Estoy harta de limpiar la cocina sola.", "de": "Ich habe die Nase voll davon, die Küche allein zu putzen.", "focus": "estoy harta de" }, "note": "Eine Frau sagt: Estoy harta." },
+    { "id": "tareas-de-casa", "word": "tareas de casa", "article": "las", "gender": "f", "de": "die Hausarbeit", "pos": "noun", "example": { "text": "¿Cómo os repartís las tareas de casa?", "de": "Wie teilt ihr euch die Hausarbeit auf?" }, "note": "Auch: las tareas domésticas." },
+    { "id": "repartir", "word": "repartir", "de": "aufteilen; verteilen", "pos": "verb", "example": { "text": "Repartimos los gastos entre tres.", "de": "Wir teilen die Kosten durch drei.", "focus": "repartimos" } },
+    { "id": "fregar", "word": "fregar", "de": "spülen; (den Boden) wischen", "pos": "verb", "forms": "friego, friegas, friega, fregamos, fregáis, friegan", "example": { "text": "Hoy te toca fregar los platos.", "de": "Heute bist du mit dem Abwasch dran." }, "note": "e → ie. fregar los platos = abspülen; fregar el suelo = den Boden wischen." },
+    { "id": "barrer", "word": "barrer", "de": "fegen", "pos": "verb", "example": { "text": "Barro la cocina todos los días.", "de": "Ich fege jeden Tag die Küche.", "focus": "barro" } },
+    { "id": "sacar-la-basura", "word": "sacar la basura", "de": "den Müll rausbringen", "pos": "phrase", "example": { "text": "¿Quién saca la basura esta semana?", "de": "Wer bringt diese Woche den Müll raus?", "focus": "saca la basura" } },
+    { "id": "te-toca", "word": "te toca", "de": "du bist dran", "pos": "phrase", "example": { "text": "Hoy te toca a ti limpiar el baño.", "de": "Heute bist du mit dem Badputzen dran." }, "note": "Funktioniert wie gustar: me toca, te toca, le toca … ¿A quién le toca? = Wer ist dran?" },
+    { "id": "turno", "word": "turno", "article": "el", "gender": "m", "plural": "los turnos", "de": "die Reihe; der Dienst; die Schicht", "pos": "noun", "example": { "text": "Hacemos turnos para limpiar.", "de": "Wir putzen abwechselnd.", "focus": "turnos" }, "note": "hacer turnos = sich abwechseln." },
+    { "id": "limpieza", "word": "limpieza", "article": "la", "gender": "f", "de": "das Putzen; die Sauberkeit", "pos": "noun", "example": { "text": "El sábado es el día de la limpieza.", "de": "Samstag ist Putztag." } },
+    { "id": "desorden", "word": "desorden", "article": "el", "gender": "m", "de": "die Unordnung", "pos": "noun", "example": { "text": "¡Qué desorden hay en el salón!", "de": "Was für eine Unordnung im Wohnzimmer!" } },
+    { "id": "alquiler", "word": "alquiler", "article": "el", "gender": "m", "plural": "los alquileres", "de": "die Miete", "pos": "noun", "example": { "text": "El alquiler en Madrid es muy caro.", "de": "Die Mieten in Madrid sind sehr hoch." }, "note": "Passt zu alquilar (mieten)." },
+    { "id": "casero", "word": "casero", "article": "el", "gender": "m", "plural": "los caseros", "de": "der Vermieter", "pos": "noun", "example": { "text": "Tengo que llamar al casero: la ducha no funciona.", "de": "Ich muss den Vermieter anrufen: Die Dusche funktioniert nicht." }, "note": "la casera = die Vermieterin. Offiziell: el propietario." },
+    { "id": "gastos", "word": "gastos", "article": "los", "gender": "m", "de": "die (Neben-)Kosten; die Ausgaben", "pos": "noun", "example": { "text": "Los gastos de luz y agua no están incluidos.", "de": "Die Kosten für Strom und Wasser sind nicht inbegriffen." }, "note": "Passt zu gastar (ausgeben, verbrauchen)." },
+    { "id": "norma", "word": "norma", "article": "la", "gender": "f", "plural": "las normas", "de": "die Regel", "pos": "noun", "example": { "text": "En nuestro piso hay pocas normas.", "de": "In unserer Wohnung gibt es wenige Regeln.", "focus": "normas" } },
+    { "id": "respetar", "word": "respetar", "de": "respektieren; (Regeln) einhalten", "pos": "verb", "example": { "text": "Es importante que todos respetemos las normas.", "de": "Es ist wichtig, dass wir alle die Regeln einhalten.", "focus": "respetemos" } },
+    { "id": "edificio", "word": "edificio", "article": "el", "gender": "m", "plural": "los edificios", "de": "das Gebäude", "pos": "noun", "example": { "text": "Mi edificio tiene seis pisos.", "de": "Mein Haus hat sechs Stockwerke." }, "note": "el piso = die Wohnung, aber auch das Stockwerk." },
+    { "id": "portal", "word": "portal", "article": "el", "gender": "m", "plural": "los portales", "de": "der Hauseingang", "pos": "noun", "example": { "text": "Te espero en el portal.", "de": "Ich warte unten im Hauseingang auf dich." } },
+    { "id": "escalera", "word": "escalera", "article": "la", "gender": "f", "plural": "las escaleras", "de": "die Treppe", "pos": "noun", "example": { "text": "El ascensor no funciona: tenemos que subir por la escalera.", "de": "Der Aufzug funktioniert nicht: Wir müssen die Treppe nehmen." }, "note": "Man sagt auch: las escaleras." },
+    { "id": "arriba", "word": "arriba", "de": "oben; nach oben", "pos": "adv", "example": { "text": "Los vecinos de arriba son muy simpáticos.", "de": "Die Nachbarn von oben sind sehr nett." } },
+    { "id": "abajo", "word": "abajo", "de": "unten; nach unten", "pos": "adv", "example": { "text": "La señora de abajo siempre se queja.", "de": "Die Frau von unten beschwert sich immer." } },
+    { "id": "comunidad-de-vecinos", "word": "comunidad de vecinos", "article": "la", "gender": "f", "plural": "las comunidades de vecinos", "de": "die Hausgemeinschaft; die Eigentümergemeinschaft", "pos": "noun", "example": { "text": "Mañana hay una reunión de la comunidad de vecinos.", "de": "Morgen ist eine Versammlung der Hausgemeinschaft." }, "note": "Kurz: la comunidad. Gemeinsame Kosten des Hauses = los gastos de comunidad." },
+    { "id": "timbre", "word": "timbre", "article": "el", "gender": "m", "plural": "los timbres", "de": "die Klingel", "pos": "noun", "example": { "text": "Alguien ha tocado el timbre.", "de": "Jemand hat geklingelt." }, "note": "tocar el timbre = klingeln." },
+    { "id": "prestar", "word": "prestar", "de": "leihen (jemandem etwas)", "pos": "verb", "example": { "text": "¿Me prestas tu bici? – Sí, te la presto.", "de": "Leihst du mir dein Fahrrad? – Ja, ich leihe es dir.", "focus": "prestas" } },
+    { "id": "devolver", "word": "devolver", "de": "zurückgeben", "pos": "verb", "forms": "devuelvo, devuelves, devuelve, devolvemos, devolvéis, devuelven", "example": { "text": "Te devuelvo el libro mañana.", "de": "Ich gebe dir das Buch morgen zurück.", "focus": "devuelvo" }, "note": "o → ue wie volver. Partizip: devuelto." },
+    { "id": "favor", "word": "favor", "article": "el", "gender": "m", "plural": "los favores", "de": "der Gefallen", "pos": "noun", "example": { "text": "¿Me haces un favor?", "de": "Tust du mir einen Gefallen?" }, "note": "Aus por favor (bitte) kennst du das Wort schon." },
+    { "id": "ponerse-de-acuerdo", "word": "ponerse de acuerdo", "de": "sich einigen", "pos": "phrase", "example": { "text": "Nunca nos ponemos de acuerdo sobre la música.", "de": "Bei der Musik werden wir uns nie einig.", "focus": "nos ponemos de acuerdo" }, "note": "estar de acuerdo = einer Meinung sein; ponerse de acuerdo = sich einigen." },
+    { "id": "lavadora", "word": "lavadora", "article": "la", "gender": "f", "plural": "las lavadoras", "de": "die Waschmaschine", "pos": "noun", "example": { "text": "¿Puedo poner la lavadora esta noche?", "de": "Kann ich heute Abend die Waschmaschine anstellen?" }, "note": "poner la lavadora = die Waschmaschine anstellen." },
+    { "id": "nevera", "word": "nevera", "article": "la", "gender": "f", "plural": "las neveras", "de": "der Kühlschrank", "pos": "noun", "example": { "text": "Alguien ha cogido mi leche de la nevera.", "de": "Jemand hat meine Milch aus dem Kühlschrank genommen." }, "note": "Auch: el frigorífico." }
+  ],
+  "grammar": [
+    {
+      "id": "relativos", "title": "Relativsätze: que, donde, lo que, quien",
+      "blocks": [
+        { "type": "p", "text": "Mit einem Relativsatz beschreibst du eine Person, einen Ort oder eine Sache genauer – wie im Deutschen mit „der, die, das“ oder „wo“. Das wichtigste Relativwort ist que: Es passt für Personen und Sachen, für Einzahl und Mehrzahl, männlich und weiblich." },
+        { "type": "table", "head": [ "Relativwort", "wofür?", "Beispiel", "Deutsch" ], "rows": [ [ "que", "Personen", "El chico que vive arriba es muy simpático.", "Der Junge, der oben wohnt, ist sehr nett." ], [ "que", "Sachen", "La lavadora que tenemos es muy vieja.", "Die Waschmaschine, die wir haben, ist sehr alt." ], [ "donde", "Orte", "El piso donde vivo está en el centro.", "Die Wohnung, in der ich wohne, liegt im Zentrum." ], [ "lo que", "„was“, „das, was“", "Lo que no me gusta es el ruido.", "Was mir nicht gefällt, ist der Lärm." ], [ "quien / quienes", "Personen nach Präpositionen", "La chica con quien vivo es de Bilbao.", "Das Mädchen, mit dem ich wohne, ist aus Bilbao." ] ] },
+        { "type": "tip", "text": "Anders als im Deutschen steht das Verb im Relativsatz nicht am Ende, und vor einem bestimmenden Relativsatz steht kein Komma: El chico que vive arriba … = Der Junge, der oben wohnt, …" },
+        { "type": "tip", "text": "Nach Präpositionen kannst du bei Personen quien benutzen (con quien, para quien) – oder el que / la que: la chica con la que vivo. Beides ist richtig. Bei Orten geht statt donde auch en el que / en la que: el piso en el que vivo." },
+        { "type": "p", "text": "Lo que fasst eine ganze Sache oder Idee zusammen. Du brauchst es oft am Satzanfang oder nach Verben wie entender, saber und decir:" },
+        { "type": "examples", "items": [ { "text": "No entiendo lo que dices.", "de": "Ich verstehe nicht, was du sagst." }, { "text": "Lo que más me gusta de mi barrio es el ambiente.", "de": "Was mir an meinem Viertel am besten gefällt, ist die Stimmung." }, { "text": "Raúl es el compañero que nunca friega los platos.", "de": "Raúl ist der Mitbewohner, der nie abspült." }, { "text": "Esta es la calle donde vivía de pequeña.", "de": "Das ist die Straße, in der ich als Kind gewohnt habe." }, { "text": "Irene es la persona con quien mejor me llevo.", "de": "Irene ist die Person, mit der ich mich am besten verstehe." }, { "text": "¿Has visto las fotos que he subido?", "de": "Hast du die Fotos gesehen, die ich hochgeladen habe?" } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "El vecino ___ vive arriba hace mucho ruido.", "answers": [ "que" ], "de": "Der Nachbar, der oben wohnt, macht viel Lärm." },
+        { "type": "cloze", "text": "Este es el barrio ___ vivo.", "answers": [ "donde", "en el que", "en que" ], "de": "Das ist das Viertel, in dem ich wohne." },
+        { "type": "cloze", "text": "___ no me gusta es el desorden.", "answers": [ "Lo que" ], "de": "Was mir nicht gefällt, ist die Unordnung." },
+        { "type": "cloze", "text": "Irene es la compañera con ___ me llevo mejor.", "answers": [ "quien", "la que" ], "de": "Irene ist die Mitbewohnerin, mit der ich mich am besten verstehe." },
+        { "type": "cloze", "text": "¿Has visto la bici ___ me ha prestado Diego?", "answers": [ "que" ], "de": "Hast du das Fahrrad gesehen, das Diego mir geliehen hat?" },
+        { "type": "cloze", "text": "No entiendo ___ dices.", "answers": [ "lo que" ], "de": "Ich verstehe nicht, was du sagst." },
+        { "type": "translate", "de": "Die Wohnung, in der ich wohne, ist sehr groß.", "answers": [ "El piso donde vivo es muy grande.", "El piso en el que vivo es muy grande.", "El piso en que vivo es muy grande." ] },
+        { "type": "order", "de": "Der Mitbewohner, der nie putzt, heißt Raúl.", "answer": "El compañero que nunca limpia se llama Raúl." }
+      ]
+    },
+    {
+      "id": "pedir-que", "title": "Bitten weitergeben: pedir que, decir que + subjuntivo",
+      "blocks": [
+        { "type": "p", "text": "Wenn du jemanden bittest oder ihm sagst, dass er etwas tun soll, steht nach que der subjuntivo – es ist ja ein Wunsch, keine Tatsache." },
+        { "type": "table", "head": [ "Verb", "Beispiel", "Deutsch" ], "rows": [ [ "pedir que", "Le pido a Raúl que limpie la cocina.", "Ich bitte Raúl, die Küche zu putzen." ], [ "decir que", "Dile que baje la música.", "Sag ihm, er soll die Musik leiser machen." ], [ "querer que", "Los vecinos quieren que hagamos menos ruido.", "Die Nachbarn wollen, dass wir weniger Lärm machen." ], [ "preferir que", "Prefiero que me llames antes de venir.", "Mir ist lieber, du rufst an, bevor du kommst." ] ] },
+        { "type": "p", "text": "Achtung bei decir: Gibst du nur eine Information weiter, steht der Indikativ. Gibst du eine Aufforderung weiter, steht der subjuntivo." },
+        { "type": "table", "head": [ "", "Spanisch", "Deutsch" ], "rows": [ [ "Information", "Raúl dice que limpia la cocina.", "Raúl sagt, dass er die Küche putzt." ], [ "Aufforderung", "Raúl dice que limpies la cocina.", "Raúl sagt, du sollst die Küche putzen." ], [ "Information", "La vecina dice que hay mucho ruido.", "Die Nachbarin sagt, dass es viel Lärm gibt." ], [ "Aufforderung", "La vecina dice que hagamos menos ruido.", "Die Nachbarin sagt, wir sollen weniger Lärm machen." ] ] },
+        { "type": "tip", "text": "Bei pedir und decir steht die Person oft doppelt: Le pido a Raúl que … (le = ihm, a Raúl = Raúl). Das ist im Spanischen ganz normal." },
+        { "type": "tip", "text": "bajar la música = die Musik leiser machen; subir la música = die Musik lauter machen. Achtung: pedir que = bitten; preguntar = fragen." },
+        { "type": "examples", "items": [ { "text": "Mi madre siempre me pide que la llame los domingos.", "de": "Meine Mutter bittet mich immer, sie sonntags anzurufen." }, { "text": "El casero nos ha dicho que paguemos el alquiler antes del día cinco.", "de": "Der Vermieter hat uns gesagt, wir sollen die Miete vor dem Fünften bezahlen." }, { "text": "Pídele a Irene que te preste la lavadora.", "de": "Bitte Irene, dir die Waschmaschine zu leihen." }, { "text": "Dile a Raúl que saque la basura.", "de": "Sag Raúl, er soll den Müll rausbringen." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Le pido a Raúl que ___ la basura.", "answers": [ "saque" ], "de": "Ich bitte Raúl, den Müll rauszubringen.", "hint": "sacar" },
+        { "type": "cloze", "text": "Dile a Irene que me ___ esta noche.", "answers": [ "llame" ], "de": "Sag Irene, sie soll mich heute Abend anrufen.", "hint": "llamar" },
+        { "type": "cloze", "text": "La vecina nos pide que ___ menos ruido.", "answers": [ "hagamos" ], "de": "Die Nachbarin bittet uns, weniger Lärm zu machen.", "hint": "hacer" },
+        { "type": "cloze", "text": "Mi madre siempre me dice que ___ mi habitación.", "answers": [ "ordene" ], "de": "Meine Mutter sagt mir immer, ich soll mein Zimmer aufräumen.", "hint": "ordenar" },
+        { "type": "cloze", "text": "Raúl dice que hoy ___ él la cena.", "answers": [ "hace" ], "de": "Raúl sagt, dass er heute das Abendessen macht.", "hint": "hacer – Information" },
+        { "type": "cloze", "text": "Os pido que ___ las normas.", "answers": [ "respetéis" ], "de": "Ich bitte euch, die Regeln einzuhalten.", "hint": "respetar – vosotros" },
+        { "type": "translate", "de": "Sag ihm, er soll die Musik leiser machen.", "answers": [ "Dile que baje la música.", "Dile que ponga la música más baja." ] },
+        { "type": "order", "de": "Ich bitte dich, mir das Buch zurückzugeben.", "answer": "Te pido que me devuelvas el libro.", "distractors": [ "devuelves" ] }
+      ]
+    },
+    {
+      "id": "pronombres-dobles", "title": "Zwei Pronomen: me lo, te la, se lo",
+      "blocks": [
+        { "type": "p", "text": "Manchmal ersetzt du in einem Satz zwei Dinge: wem (indirektes Objekt) und was (direktes Objekt). Dann stehen zwei Pronomen hintereinander – immer zuerst „wem“, dann „was“: ¿Me prestas la bici? – Sí, te la presto." },
+        { "type": "table", "head": [ "wem", "+ was", "Beispiel", "Deutsch" ], "rows": [ [ "me", "lo / la / los / las", "¿El libro? Me lo ha prestado Irene.", "Das Buch? Das hat mir Irene geliehen." ], [ "te", "lo / la / los / las", "¿La bici? Te la presto.", "Das Fahrrad? Ich leihe es dir." ], [ "nos", "lo / la / los / las", "¿Las llaves? Nos las da el casero.", "Die Schlüssel? Die gibt uns der Vermieter." ], [ "os", "lo / la / los / las", "¿La cena? Os la preparo yo.", "Das Abendessen? Das mache ich euch." ], [ "le / les → se", "lo / la / los / las", "¿El dinero? Se lo devuelvo mañana.", "Das Geld? Ich gebe es ihm morgen zurück." ] ] },
+        { "type": "tip", "text": "Die wichtigste Regel: le und les werden vor lo, la, los, las zu se. Man sagt nie „le lo“: Le doy el libro → Se lo doy." },
+        { "type": "p", "text": "Die Pronomen stehen vor dem konjugierten Verb. Beim Infinitiv, beim Gerundium und beim bejahten Imperativ dürfen bzw. müssen sie hinten anhängen – dann braucht das Verb oft einen Akzent:" },
+        { "type": "examples", "items": [ { "text": "¿Me lo puedes prestar? = ¿Puedes prestármelo?", "de": "Kannst du es mir leihen?" }, { "text": "¡Dímelo!", "de": "Sag es mir!" }, { "text": "No se lo digas a Raúl.", "de": "Sag es Raúl nicht." }, { "text": "Te lo estoy explicando. = Estoy explicándotelo.", "de": "Ich erkläre es dir gerade." }, { "text": "¿Las llaves? Ya se las he dado a Irene.", "de": "Die Schlüssel? Die habe ich Irene schon gegeben." } ] },
+        { "type": "tip", "text": "Weil se vieles bedeuten kann (ihm, ihr, ihnen, Ihnen), sagt man oft dazu, wer gemeint ist: Se lo doy a Marta." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿Me prestas tu bici? – Sí, ___ la presto.", "answers": [ "te" ], "de": "Leihst du mir dein Fahrrad? – Ja, ich leihe es dir." },
+        { "type": "cloze", "text": "¿Le has dicho a Raúl lo del ruido? – Sí, ___ lo he dicho.", "answers": [ "se" ], "de": "Hast du Raúl das mit dem Lärm gesagt? – Ja, ich habe es ihm gesagt." },
+        { "type": "cloze", "text": "¿Las llaves? El casero ___ las da mañana.", "answers": [ "nos" ], "de": "Die Schlüssel? Der Vermieter gibt sie uns morgen." },
+        { "type": "cloze", "text": "¿El libro? Te ___ devuelvo el lunes.", "answers": [ "lo" ], "de": "Das Buch? Ich gebe es dir am Montag zurück." },
+        { "type": "cloze", "text": "¿Las fotos? Mañana se ___ enseño a mis padres.", "answers": [ "las" ], "de": "Die Fotos? Morgen zeige ich sie meinen Eltern." },
+        { "type": "translate", "de": "Das Fahrrad? Ich leihe es dir.", "answers": [ "¿La bici? Te la presto.", "¿La bicicleta? Te la presto.", "¿La bici? Yo te la presto.", "¿La bicicleta? Yo te la presto." ] },
+        { "type": "translate", "de": "Ich gebe es ihr morgen zurück.", "answers": [ "Se lo devuelvo mañana.", "Mañana se lo devuelvo.", "Se lo voy a devolver mañana.", "Voy a devolvérselo mañana.", "Mañana se lo voy a devolver.", "Mañana voy a devolvérselo.", "Se la devuelvo mañana.", "Mañana se la devuelvo." ] },
+        { "type": "order", "de": "Sag es Raúl nicht.", "answer": "No se lo digas a Raúl.", "distractors": [ "le" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Problemas en el piso",
+    "title_de": "Ärger in der WG",
+    "lines": [
+      { "speaker": "Lucía", "text": "Marta, ¿qué tal en el piso nuevo? ¿Te llevas bien con tus compañeros?", "de": "Marta, wie läuft es in der neuen Wohnung? Verstehst du dich gut mit deinen Mitbewohnern?" },
+      { "speaker": "Marta", "text": "Con Irene, sí. Es la compañera con quien más hablo: cocinamos juntas y lo compartimos todo. Pero Raúl… ¡estoy harta de él!", "de": "Mit Irene ja. Sie ist die Mitbewohnerin, mit der ich am meisten rede: Wir kochen zusammen und teilen alles. Aber Raúl … ich habe die Nase voll von ihm!" },
+      { "speaker": "Lucía", "text": "¿Por qué? ¿Qué pasa con Raúl?", "de": "Warum? Was ist mit Raúl?" },
+      { "speaker": "Marta", "text": "Nunca friega los platos y nunca saca la basura. Hacemos turnos para la limpieza, pero él no respeta las normas.", "de": "Er spült nie ab und bringt nie den Müll raus. Wir wechseln uns beim Putzen ab, aber er hält sich nicht an die Regeln." },
+      { "speaker": "Lucía", "text": "Uf, eso es lo que menos me gustaba de los pisos compartidos.", "de": "Uff, genau das hat mir an WGs am wenigsten gefallen." },
+      { "speaker": "Marta", "text": "Y además pone la música muy alta por la noche. La vecina de abajo ya se ha quejado dos veces.", "de": "Und außerdem dreht er nachts die Musik total laut. Die Nachbarin von unten hat sich schon zweimal beschwert." },
+      { "speaker": "Lucía", "text": "¿Y has hablado con él?", "de": "Und hast du mit ihm gesprochen?" },
+      { "speaker": "Marta", "text": "Sí, le he pedido que limpie más y que baje la música, pero no me escucha.", "de": "Ja, ich habe ihn gebeten, mehr zu putzen und die Musik leiser zu machen, aber er hört mir nicht zu." },
+      { "speaker": "Lucía", "text": "Pues dile que vais a hacer una reunión. Es importante que os pongáis de acuerdo todos juntos.", "de": "Dann sag ihm, dass ihr eine WG-Besprechung macht. Es ist wichtig, dass ihr euch alle zusammen einigt." },
+      { "speaker": "Marta", "text": "Tienes razón. Ah, y otra cosa: el casero quiere que paguemos más gastos de luz este mes.", "de": "Du hast recht. Ach, und noch etwas: Der Vermieter will, dass wir diesen Monat mehr Stromkosten zahlen." },
+      { "speaker": "Lucía", "text": "¿Más? Pues pídele que os explique por qué.", "de": "Mehr? Dann bitte ihn, euch zu erklären, warum." },
+      { "speaker": "Marta", "text": "Buena idea. Oye, ¿me prestas tu bici este fin de semana? La de Irene está rota.", "de": "Gute Idee. Sag mal, leihst du mir dieses Wochenende dein Fahrrad? Das von Irene ist kaputt." },
+      { "speaker": "Lucía", "text": "Claro, te la presto. Y si Raúl no cambia, siempre puedes venir a mi casa unos días.", "de": "Klar, ich leihe es dir. Und wenn Raúl sich nicht ändert, kannst du jederzeit ein paar Tage zu mir kommen." },
+      { "speaker": "Marta", "text": "¡Gracias! Pero no se lo digas a nadie, ¿eh? Todavía no quiero mudarme.", "de": "Danke! Aber sag es niemandem, ja? Ich will noch nicht umziehen." },
+      { "speaker": "Lucía", "text": "Tranquila, no se lo digo a nadie.", "de": "Keine Sorge, ich sage es niemandem." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "el compañero de piso", "der Mitbewohner" ], [ "el alquiler", "die Miete" ], [ "el casero", "der Vermieter" ], [ "el ruido", "der Lärm" ], [ "la escalera", "die Treppe" ], [ "el timbre", "die Klingel" ] ] },
+    { "type": "match", "pairs": [ [ "fregar", "spülen" ], [ "barrer", "fegen" ], [ "compartir", "teilen" ], [ "prestar", "leihen" ], [ "devolver", "zurückgeben" ], [ "quejarse", "sich beschweren" ] ] },
+    { "type": "translate", "de": "Ich verstehe mich sehr gut mit meinen Mitbewohnern.", "answers": [ "Me llevo muy bien con mis compañeros de piso.", "Yo me llevo muy bien con mis compañeros de piso.", "Me llevo muy bien con mis compañeras de piso.", "Yo me llevo muy bien con mis compañeras de piso." ] },
+    { "type": "translate", "de": "Heute bist du dran, den Müll rauszubringen.", "answers": [ "Hoy te toca sacar la basura.", "Hoy te toca a ti sacar la basura.", "Te toca sacar la basura hoy.", "Te toca a ti sacar la basura hoy." ] },
+    { "type": "translate", "de": "Was mir nicht gefällt, ist die Unordnung.", "answers": [ "Lo que no me gusta es el desorden.", "Lo que a mí no me gusta es el desorden." ] },
+    { "type": "order", "de": "Die Nachbarin bittet uns, weniger Lärm zu machen.", "answer": "La vecina nos pide que hagamos menos ruido.", "distractors": [ "hacemos" ] },
+    { "type": "order", "de": "Kannst du es mir leihen?", "answer": "¿Me lo puedes prestar?", "distractors": [ "le" ] },
+    { "type": "cloze", "text": "Vivo en un piso ___ con dos chicas.", "answers": [ "compartido" ], "de": "Ich wohne in einer WG mit zwei Frauen." },
+    { "type": "cloze", "text": "¡No ___ más este ruido!", "answers": [ "aguanto" ], "de": "Ich halte diesen Lärm nicht mehr aus!", "hint": "aguantar" },
+    { "type": "cloze", "text": "Los vecinos de ___ son muy ruidosos.", "answers": [ "arriba" ], "de": "Die Nachbarn von oben sind sehr laut." },
+    { "type": "listen", "text": "El chico que vive arriba pone la música muy alta.", "de": "Der Junge, der oben wohnt, dreht die Musik sehr laut auf." },
+    { "type": "listen", "text": "¿Me prestas tu bici? – Sí, claro, te la presto.", "de": "Leihst du mir dein Fahrrad? – Ja, klar, ich leihe es dir." },
+    { "type": "listen", "text": "Le he pedido que limpie la cocina.", "de": "Ich habe ihn gebeten, die Küche zu putzen." }
+  ]
+}
