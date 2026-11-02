@@ -1,0 +1,156 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-08",
+  "lang": "ja",
+  "level": "A2",
+  "number": 8,
+  "title": "どんな 人[ひと] です か。",
+  "title_de": "Menschen beschreiben",
+  "topic": "Aussehen und Charakter",
+  "goals": [
+    "Du kannst das Aussehen beschreiben: かみが ながい, せが たかい, めが あおい (A は B が + Adjektiv).",
+    "Du kannst sagen, was jemand trägt: きています, はいています, かぶっています, かけています.",
+    "Du kannst Adjektive verbinden (あかるくて やさしい, きれいで しんせつ) und den Charakter beschreiben.",
+    "Du kannst mit 〜そうです sagen, wie etwas aussieht oder wirkt: おいしそう, やさしそう."
+  ],
+  "kanji": ["白", "黒", "赤", "青", "色", "明", "多", "少"],
+  "vocab": [
+    { "id": "kami", "word": "かみ", "de": "das Haar; die Haare", "pos": "noun", "example": { "text": "ソフィー さん は かみ が 長[なが]い です。", "de": "Sophie hat lange Haare." }, "note": "Kanji: 髪. Gleich klingt かみ (Papier, 紙) – der Satz zeigt, was gemeint ist." },
+    { "id": "se", "word": "せ", "de": "die Körpergröße", "pos": "noun", "example": { "text": "けん さん は せ が 高[たか]い です。", "de": "Ken ist groß." }, "note": "Kanji: 背 (eigentlich „Rücken“). せが たかい = groß sein, せが ひくい = klein sein." },
+    { "id": "kao", "word": "顔[かお]", "de": "das Gesicht", "pos": "noun", "example": { "text": "あの 人[ひと] は 顔[かお] が 小[ちい]さい です ね。", "de": "Die Person dort hat ein kleines Gesicht." }, "note": "かおが ちいさい ist in Japan ein Kompliment." },
+    { "id": "hige", "word": "ひげ", "de": "der Bart", "pos": "noun", "example": { "text": "父[ちち] は ひげ が あり ます。", "de": "Mein Vater hat einen Bart." } },
+    { "id": "kinpatsu", "word": "金[きん]髪[ぱつ]", "de": "blondes Haar; blond", "pos": "noun", "example": { "text": "ルーカス さん は 金[きん]髪[ぱつ] です。", "de": "Lukas ist blond." }, "note": "Wörtlich „goldenes Haar“." },
+    { "id": "chairo", "word": "茶色[ちゃいろ]", "de": "braun; das Braun", "pos": "noun", "example": { "text": "茶色[ちゃいろ] の くつ を 買[か]い ました。", "de": "Ich habe braune Schuhe gekauft." }, "note": "Wörtlich „Teefarbe“. Vor einem Nomen: ちゃいろの くつ." },
+    { "id": "midori", "word": "緑[みどり]", "de": "grün; das Grün", "pos": "noun", "example": { "text": "あの 緑[みどり] の セーター は 高[たか]い です か。", "de": "Ist der grüne Pullover dort teuer?" }, "note": "Eine grüne Ampel nennt man in Japan übrigens あお (blau)!" },
+    { "id": "akarui", "word": "明[あか]るい", "de": "fröhlich; hell", "pos": "adj", "example": { "text": "アンナ さん は 明[あか]るい 人[ひと] です。", "de": "Anna ist ein fröhlicher Mensch." }, "note": "あかるい heißt auch „hell“: あかるい へや = ein helles Zimmer." },
+    { "id": "kurai", "word": "暗[くら]い", "de": "dunkel; düster", "pos": "adj", "example": { "text": "この 部屋[へや] は ちょっと 暗[くら]い です。", "de": "Dieses Zimmer ist ein bisschen dunkel." } },
+    { "id": "yasashii", "word": "やさしい", "de": "nett; lieb; sanft", "pos": "adj", "example": { "text": "やまだ 先生[せんせい] は やさしい です。", "de": "Frau Yamada ist nett." }, "note": "やさしい heißt auch „leicht, einfach“ (Kanji 易しい), z. B. やさしい しつもん." },
+    { "id": "shinsetsu", "word": "親切[しんせつ]", "de": "hilfsbereit; freundlich", "pos": "adj", "example": { "text": "駅[えき] の 人[ひと] は とても 親切[しんせつ] でした。", "de": "Die Leute am Bahnhof waren sehr hilfsbereit." }, "note": "な-Adjektiv: しんせつな 人." },
+    { "id": "majime", "word": "まじめ", "de": "ernsthaft; fleißig; gewissenhaft", "pos": "adj", "example": { "text": "けん さん の 弟[おとうと] さん は まじめ な 学生[がくせい] です。", "de": "Kens kleiner Bruder ist ein fleißiger Student." } },
+    { "id": "shizuka", "word": "静[しず]か", "de": "ruhig; still", "pos": "adj", "example": { "text": "図[と]書[しょ]館[かん] は いつも 静[しず]か です。", "de": "In der Bibliothek ist es immer ruhig." } },
+    { "id": "nigiyaka", "word": "にぎやか", "de": "lebhaft; belebt", "pos": "adj", "example": { "text": "この 町[まち] は 夜[よる] も にぎやか です。", "de": "Diese Stadt ist auch abends belebt." } },
+    { "id": "wakai", "word": "若[わか]い", "de": "jung", "pos": "adj", "example": { "text": "あの 先生[せんせい] は 若[わか]くて おもしろい です。", "de": "Der Lehrer dort ist jung und lustig.", "focus": "若[わか]くて" } },
+    { "id": "ooi", "word": "多[おお]い", "de": "viel; zahlreich", "pos": "adj", "example": { "text": "東[とう]京[きょう] は 人[ひと] が 多[おお]い です。", "de": "In Tokio gibt es viele Menschen." }, "note": "おおい steht meist am Satzende: 人が おおいです. Vor einem Nomen sagt man lieber たくさんの 人." },
+    { "id": "sukunai", "word": "少[すく]ない", "de": "wenig; wenige", "pos": "adj", "example": { "text": "今年[ことし] は 雪[ゆき] が 少[すく]ない です。", "de": "Dieses Jahr gibt es wenig Schnee." }, "note": "Das Kanji kennst du aus すこし (ein bisschen)." },
+    { "id": "takusan", "word": "たくさん", "de": "viel; viele", "pos": "adv", "example": { "text": "駅[えき] の 前[まえ] に 人[ひと] が たくさん い ます。", "de": "Vor dem Bahnhof sind viele Leute." }, "note": "Steht vor dem Verb (たくさん たべます) oder mit の vor einem Nomen (たくさんの 人)." },
+    { "id": "futotte", "word": "太[ふと]って い ます", "de": "dick sein; mollig sein", "pos": "verb", "forms": "Wörterbuchform ふとる (zunehmen)", "example": { "text": "うち の ねこ は ちょっと 太[ふと]って い ます。", "de": "Unsere Katze ist ein bisschen dick." }, "note": "Für den Zustand sagt man immer ふとって います." },
+    { "id": "yasete", "word": "やせて い ます", "de": "schlank sein; dünn sein", "pos": "verb", "forms": "Wörterbuchform やせる (abnehmen)", "example": { "text": "父[ちち] は せ が 高[たか]くて、 やせて い ます。", "de": "Mein Vater ist groß und schlank." } },
+    { "id": "nite", "word": "似[に]て い ます", "de": "ähnlich sein; ähnlich sehen", "pos": "verb", "forms": "Wörterbuchform にる", "example": { "text": "私[わたし] は 母[はは] に 似[に]て い ます。", "de": "Ich sehe meiner Mutter ähnlich." }, "note": "Wem man ähnlich ist, markiert に." },
+    { "id": "kimasu", "word": "着[き] ます", "de": "anziehen (Oberkörper, Kleid, Mantel)", "pos": "verb", "forms": "Wörterbuchform きる · て-Form きて · た-Form きた", "example": { "text": "今日[きょう] は 白[しろ]い シャツ を 着[き] ます。", "de": "Heute ziehe ich ein weißes Hemd an." }, "note": "Klingt genauso wie きます (kommen)! Der Satz zeigt, was gemeint ist." },
+    { "id": "hakimasu", "word": "はき ます", "de": "anziehen (Hose, Rock, Schuhe, Socken)", "pos": "verb", "forms": "Wörterbuchform はく · て-Form はいて · た-Form はいた", "example": { "text": "今日[きょう] は 寒[さむ]い です から、 長[なが]い ズボン を はき ます。", "de": "Heute ist es kalt, deshalb ziehe ich eine lange Hose an." } },
+    { "id": "kakemasu", "word": "かけ ます", "de": "aufsetzen (Brille)", "pos": "verb", "forms": "Wörterbuchform かける · て-Form かけて · た-Form かけた", "example": { "text": "本[ほん] を 読[よ]み ます から、 めがね を かけ ます。", "de": "Ich lese jetzt, deshalb setze ich die Brille auf." } },
+    { "id": "kaburimasu", "word": "かぶり ます", "de": "aufsetzen (Hut, Mütze)", "pos": "verb", "forms": "Wörterbuchform かぶる · て-Form かぶって · た-Form かぶった", "example": { "text": "夏[なつ] は ぼうし を かぶって ください。", "de": "Setz im Sommer bitte einen Hut auf.", "focus": "かぶって" } },
+    { "id": "nugimasu", "word": "ぬぎ ます", "de": "ausziehen (Kleidung, Schuhe)", "pos": "verb", "forms": "Wörterbuchform ぬぐ · て-Form ぬいで · た-Form ぬいだ", "example": { "text": "ここ で くつ を ぬいで ください。", "de": "Zieh hier bitte die Schuhe aus.", "focus": "ぬいで" } },
+    { "id": "nekutai", "word": "ネクタイ", "de": "die Krawatte", "pos": "noun", "example": { "text": "父[ちち] は 毎日[まいにち] ネクタイ を し ます。", "de": "Mein Vater trägt jeden Tag eine Krawatte." }, "note": "Krawatte, Uhr und Schal „macht“ man: ネクタイを します." },
+    { "id": "kooto", "word": "コート", "de": "der Mantel", "pos": "noun", "example": { "text": "黒[くろ]い コート を 買[か]い たい です。", "de": "Ich möchte einen schwarzen Mantel kaufen." } },
+    { "id": "jiinzu", "word": "ジーンズ", "de": "die Jeans", "pos": "noun", "example": { "text": "週[しゅう]末[まつ] は いつも ジーンズ を はいて い ます。", "de": "Am Wochenende trage ich immer Jeans." } },
+    { "id": "wanpiisu", "word": "ワンピース", "de": "das Kleid", "pos": "noun", "example": { "text": "ソフィー さん は 青[あお]い ワンピース を 着[き]て い ます。", "de": "Sophie trägt ein blaues Kleid." }, "note": "Aus dem Englischen „one piece“." },
+    { "id": "seikaku", "word": "性格[せいかく]", "de": "der Charakter", "pos": "noun", "example": { "text": "けん さん は 性格[せいかく] が いい です。", "de": "Ken hat einen guten Charakter." } },
+    { "id": "atamagaii", "word": "頭[あたま] が いい", "de": "klug; intelligent", "pos": "phrase", "example": { "text": "妹[いもうと] さん は 頭[あたま] が いい です ね。", "de": "Deine kleine Schwester ist klug." }, "note": "Wörtlich „der Kopf ist gut“." },
+    { "id": "kakkoii", "word": "かっこいい", "de": "cool; gut aussehend", "pos": "adj", "example": { "text": "その くつ、 かっこいい です ね。", "de": "Die Schuhe sind cool!" } },
+    { "id": "koe", "word": "声[こえ]", "de": "die Stimme", "pos": "noun", "example": { "text": "やまだ 先生[せんせい] は 声[こえ] が 大[おお]きい です。", "de": "Frau Yamada hat eine laute Stimme." }, "note": "こえが おおきい = laut sprechen, こえが きれい = eine schöne Stimme haben." },
+    { "id": "ninki", "word": "人気[にんき]", "de": "die Beliebtheit", "pos": "noun", "example": { "text": "この 店[みせ] は 若[わか]い 人[ひと] に 人気[にんき] が あり ます。", "de": "Dieser Laden ist bei jungen Leuten beliebt." }, "note": "にんきが あります = beliebt sein." },
+    { "id": "urusai", "word": "うるさい", "de": "laut; nervig", "pos": "adj", "example": { "text": "となり の 部屋[へや] が うるさい です。", "de": "Im Nebenzimmer ist es laut." } }
+  ],
+  "grammar": [
+    {
+      "id": "wa-ga-adjektiv",
+      "title": "Aussehen: A は B が + Adjektiv – und Adjektive verbinden",
+      "blocks": [
+        { "type": "p", "text": "Um jemanden zu beschreiben, nennt man zuerst die Person mit は und dann das Merkmal mit が: „Was Sophie betrifft – die Haare sind lang.“ So sagt man „Sophie hat lange Haare“." },
+        { "type": "table", "head": ["Person + は", "Merkmal + が", "Adjektiv"], "rows": [["ソフィー さん は", "かみ が", "長[なが]い です。"], ["けん さん は", "せ が", "高[たか]い です。"], ["ルーカス さん は", "目[め] が", "青[あお]い です。"], ["やまだ 先生[せんせい] は", "声[こえ] が", "きれい です。"], ["この 町[まち] は", "人[ひと] が", "多[おお]い です。"]] },
+        { "type": "tip", "text": "Merke: せが たかい = groß sein (wörtlich: „der Rücken ist hoch“), せが ひくい = klein sein. おおきい benutzt man für die Körpergröße von Menschen kaum." },
+        { "type": "p", "text": "Mehrere Adjektive verbindest du so: Bei い-Adjektiven wird い zu くて (ながい → ながくて, いい → よくて). Bei な-Adjektiven und Nomen kommt で dazu (きれい → きれいで, がくせい → がくせいで). Nur das letzte Adjektiv steht in der normalen Form." },
+        { "type": "table", "head": ["Grundform", "verbunden", "Beispiel"], "rows": [["長[なが]い", "長[なが]くて", "かみ が 長[なが]くて きれい です。"], ["明[あか]るい", "明[あか]るくて", "明[あか]るくて やさしい 人[ひと] です。"], ["いい", "よくて", "頭[あたま] が よくて おもしろい です。"], ["きれい", "きれい で", "きれい で 親切[しんせつ] な 人[ひと] です。"], ["学生[がくせい]", "学生[がくせい] で", "弟[おとうと] は 学生[がくせい] で、 はたち です。"]] },
+        { "type": "tip", "text": "Die Zeit steht nur am Ende: わかくて げんきでした = war jung und munter. Und くて/で verbindet nur Eigenschaften, die zusammenpassen – für einen Gegensatz („groß, aber …“) nimmst du が: せが たかいですが、…" },
+        { "type": "examples", "items": [{ "text": "けん さん は せ が 高[たか]くて、 かっこいい です。", "de": "Ken ist groß und sieht gut aus." }, { "text": "ルーカス さん は 金[きん]髪[ぱつ] で、 目[め] が 青[あお]い です。", "de": "Lukas ist blond und hat blaue Augen." }, { "text": "やまだ 先生[せんせい] は やさしくて、 おもしろい 先生[せんせい] です。", "de": "Frau Yamada ist eine nette und lustige Lehrerin." }, { "text": "この 部屋[へや] は 明[あか]るくて 静[しず]か です。", "de": "Dieses Zimmer ist hell und ruhig." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "ソフィー さん は かみ ___ 長[なが]い です。", "answers": ["が"], "de": "Sophie hat lange Haare." },
+        { "type": "cloze", "text": "この 店[みせ] は 安[やす]___ おいしい です。", "answers": ["くて"], "de": "Dieses Lokal ist billig und lecker." },
+        { "type": "cloze", "text": "やまだ 先生[せんせい] は きれい ___ やさしい です。", "answers": ["で"], "de": "Frau Yamada ist hübsch und nett." },
+        { "type": "cloze", "text": "けん さん は ___ が 高[たか]い です。", "answers": ["せ", "背[せ]"], "de": "Ken ist groß." },
+        { "type": "order", "de": "Lukas hat blaue Augen.", "answer": "ルーカス さん は 目[め] が 青[あお]い です。", "distractors": ["を"] },
+        { "type": "translate", "de": "Mein Vater ist groß und hat einen Bart.", "answers": ["私[わたし] の 父[ちち] は せ が 高[たか]くて、 ひげ が あり ます。", "私[わたし] の 父[ちち] は 背[せ] が 高[たか]くて、 ひげ が あり ます。", "父[ちち] は せ が 高[たか]くて、 ひげ が あり ます。", "父[ちち] は 背[せ] が 高[たか]くて、 ひげ が あり ます。"] },
+        { "type": "translate", "de": "Sie ist ein fröhlicher und netter Mensch.", "answers": ["明[あか]るくて やさしい 人[ひと] です。", "やさしくて 明[あか]るい 人[ひと] です。"] }
+      ]
+    },
+    {
+      "id": "kleidung-tragen",
+      "title": "Kleidung tragen: きています, はいています, かぶっています …",
+      "blocks": [
+        { "type": "p", "text": "Für „tragen“ gibt es im Japanischen kein einzelnes Wort. Das Verb hängt davon ab, wo am Körper etwas sitzt. Was jemand gerade anhat, beschreibst du mit 〜て います (Zustand, Lektion 2): シャツを きて います = Er/Sie trägt ein Hemd." },
+        { "type": "table", "head": ["Verb", "wofür", "Beispiel"], "rows": [["着[き] ます", "Oberkörper und ganzer Körper: Hemd, Pullover, Mantel, Kleid", "シャツ を 着[き]て い ます。"], ["はき ます", "Unterkörper und Füße: Hose, Rock, Schuhe, Socken", "ズボン を はいて い ます。"], ["かぶり ます", "auf den Kopf: Hut, Mütze", "ぼうし を かぶって い ます。"], ["かけ ます", "Brille", "めがね を かけて い ます。"], ["し ます", "Krawatte, Uhr, Schal", "ネクタイ を して い ます。"]] },
+        { "type": "tip", "text": "Ausziehen ist zum Glück einfach: Fast alles zieht man mit ぬぎます aus (コートを ぬぎます, くつを ぬぎます). Nur die Brille nimmt man ab: めがねを とります." },
+        { "type": "tip", "text": "In Japan zieht man in der Wohnung, im Ryokan und oft auch im Restaurant mit Tatami die Schuhe aus: くつを ぬいで ください." },
+        { "type": "p", "text": "So beschreibst du jemanden ganz genau – zum Beispiel, wenn du jemanden am Bahnhof abholen sollst. Verneint heißt es 〜て いません: めがねを かけて いません." },
+        { "type": "examples", "items": [{ "text": "けん さん は 黒[くろ]い コート を 着[き]て い ます。", "de": "Ken trägt einen schwarzen Mantel." }, { "text": "ソフィー さん は 青[あお]い ジーンズ を はいて い ます。", "de": "Sophie trägt blaue Jeans." }, { "text": "やまだ 先生[せんせい] は 赤[あか]い めがね を かけて い ます。", "de": "Frau Yamada trägt eine rote Brille." }, { "text": "父[ちち] は 会社[かいしゃ] で いつも ネクタイ を して い ます。", "de": "Mein Vater trägt in der Firma immer eine Krawatte." }, { "text": "アンナ さん は ぼうし を かぶって い ません。", "de": "Anna trägt keinen Hut." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "赤[あか]い セーター を ___ い ます。", "answers": ["着[き]て"], "de": "Sie trägt einen roten Pullover." },
+        { "type": "cloze", "text": "黒[くろ]い くつ を ___ い ます。", "answers": ["はいて"], "de": "Er trägt schwarze Schuhe." },
+        { "type": "cloze", "text": "めがね を ___ い ます。", "answers": ["かけて"], "de": "Sie trägt eine Brille." },
+        { "type": "cloze", "text": "白[しろ]い ぼうし を ___ い ます。", "answers": ["かぶって"], "de": "Er trägt einen weißen Hut." },
+        { "type": "match", "pairs": [["着[き] ます", "anziehen (Oberkörper)"], ["はき ます", "anziehen (Hose, Schuhe)"], ["かぶり ます", "aufsetzen (Hut)"], ["かけ ます", "aufsetzen (Brille)"], ["ぬぎ ます", "ausziehen"]] },
+        { "type": "translate", "de": "Ken trägt eine blaue Krawatte.", "answers": ["けん さん は 青[あお]い ネクタイ を して い ます。", "けん さん は 青[あお]い ネクタイ を しめて い ます。"] },
+        { "type": "order", "de": "Anna trägt einen weißen Rock.", "answer": "アンナ さん は 白[しろ]い スカート を はいて い ます。", "distractors": ["着[き]て"] }
+      ]
+    },
+    {
+      "id": "sou-desu",
+      "title": "Sieht … aus: 〜そうです",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜そうです sagst du, wie etwas auf dich wirkt – nach dem, was du siehst: „sieht … aus“, „wirkt …“. い-Adjektive verlieren das い, な-Adjektive bekommen einfach そう." },
+        { "type": "table", "head": ["Adjektiv", "〜そう", "Deutsch"], "rows": [["おいしい", "おいしそう です", "sieht lecker aus"], ["楽[たの]しい", "楽[たの]しそう です", "scheint Spaß zu machen; wirkt fröhlich"], ["高[たか]い", "高[たか]そう です", "sieht teuer aus"], ["やさしい", "やさしそう です", "wirkt nett"], ["元[げん]気[き]", "元[げん]気[き]そう です", "sieht munter aus"], ["まじめ", "まじめそう です", "wirkt ernsthaft"], ["いい", "よさそう です", "sieht gut aus (Ausnahme!)"]] },
+        { "type": "tip", "text": "Ausnahme: いい → よさそう. Und was man direkt sieht, z. B. Farben (あかい) oder きれい, sagt man ohne そう – dass etwas rot oder schön ist, ist ja kein Eindruck, sondern eine Tatsache." },
+        { "type": "p", "text": "Vor einem Nomen wird そう zu そうな: やさしそうな 人 (ein nett wirkender Mensch), おいしそうな ケーキ (ein lecker aussehender Kuchen)." },
+        { "type": "examples", "items": [{ "text": "この ケーキ、 おいしそう です ね！", "de": "Dieser Kuchen sieht lecker aus!" }, { "text": "アンナ さん の お父[とう]さん は やさしそう です ね。", "de": "Annas Vater wirkt nett." }, { "text": "みんな 楽[たの]しそう です。", "de": "Alle scheinen Spaß zu haben." }, { "text": "それ は 高[たか]そう な 時[と]計[けい] です ね。", "de": "Das ist aber eine teuer aussehende Uhr." }, { "text": "けん さん は 今日[きょう] 元[げん]気[き]そう です。", "de": "Ken sieht heute munter aus." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この ラーメン、 おいし___ です ね。", "answers": ["そう"], "de": "Diese Ramen sehen lecker aus!" },
+        { "type": "cloze", "text": "この 時[と]計[けい] は ___ です ね。", "answers": ["高[たか]そう"], "de": "Diese Uhr sieht teuer aus." },
+        { "type": "cloze", "text": "子[こ]ども たち は ___ です。", "answers": ["楽[たの]しそう"], "de": "Die Kinder scheinen Spaß zu haben." },
+        { "type": "cloze", "text": "あした は 天気[てんき] が ___ です ね。", "answers": ["よさそう"], "de": "Morgen sieht das Wetter gut aus.", "hint": "いい → ?" },
+        { "type": "translate", "de": "Der Lehrer wirkt nett.", "answers": ["先生[せんせい] は やさしそう です ね。", "先生[せんせい] は やさしそう です。"] },
+        { "type": "order", "de": "Das ist aber ein lecker aussehender Kuchen!", "answer": "おいしそう な ケーキ です ね。", "distractors": ["で"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "ドイツ から の 友[とも]だち",
+    "title_de": "Besuch aus Deutschland",
+    "lines": [
+      { "speaker": "アンナ", "text": "けん さん、 あした ドイツ から ルーカス が 来[き] ます。", "de": "Ken, morgen kommt Lukas aus Deutschland." },
+      { "speaker": "けん", "text": "ああ、 アンナ さん の いとこ です ね。", "de": "Ach, dein Cousin, nicht wahr?" },
+      { "speaker": "アンナ", "text": "はい。 でも、 私[わたし] は あした 大学[だいがく] で テスト が あり ます から、 駅[えき] へ 行[い]き ません。", "de": "Ja. Aber ich habe morgen eine Prüfung an der Uni, deshalb gehe ich nicht zum Bahnhof." },
+      { "speaker": "けん", "text": "じゃあ、 私[わたし] が 行[い]き ます よ。 ルーカス さん は どんな 人[ひと] です か。", "de": "Dann gehe ich hin. Wie sieht Lukas aus?" },
+      { "speaker": "アンナ", "text": "せ が 高[たか]くて、 かみ が 短[みじか]い です。 金[きん]髪[ぱつ] で、 ひげ が あり ます。", "de": "Er ist groß und hat kurze Haare. Er ist blond und hat einen Bart." },
+      { "speaker": "けん", "text": "めがね を かけて い ます か。", "de": "Trägt er eine Brille?" },
+      { "speaker": "アンナ", "text": "いいえ、 かけて い ません。 あ、 いつも 赤[あか]い ぼうし を かぶって い ます。", "de": "Nein. Ach, und er trägt immer eine rote Mütze." },
+      { "speaker": "けん", "text": "赤[あか]い ぼうし です ね。 服[ふく] は？", "de": "Eine rote Mütze, gut. Und die Kleidung?" },
+      { "speaker": "アンナ", "text": "たぶん 黒[くろ]い コート を 着[き]て、 ジーンズ を はいて い ます。", "de": "Wahrscheinlich trägt er einen schwarzen Mantel und Jeans." },
+      { "speaker": "けん", "text": "どんな 性格[せいかく] です か。", "de": "Was für ein Typ ist er?" },
+      { "speaker": "アンナ", "text": "明[あか]るくて、 とても おもしろい 人[ひと] です。 でも、 ちょっと うるさい です よ。", "de": "Er ist fröhlich und sehr lustig. Aber ein bisschen laut." },
+      { "speaker": "けん", "text": "はは、 そう です か。 写真[しゃしん] は あり ます か。", "de": "Haha, ach so. Hast du ein Foto?" },
+      { "speaker": "アンナ", "text": "はい、 これ です。", "de": "Ja, hier." },
+      { "speaker": "けん", "text": "あ、 やさしそう な 人[ひと] です ね。 アンナ さん に ちょっと 似[に]て い ます。", "de": "Oh, er wirkt nett. Er sieht dir ein bisschen ähnlich." },
+      { "speaker": "アンナ", "text": "そう です か？ 母[はは] の 妹[いもうと] の 子[こ]ども です から。", "de": "Findest du? Er ist ja der Sohn der jüngeren Schwester meiner Mutter." },
+      { "speaker": "けん", "text": "なるほど。 じゃあ、 あした は 赤[あか]い ぼうし を さがし ます！", "de": "Verstehe. Dann halte ich morgen nach einer roten Mütze Ausschau!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["茶色[ちゃいろ]", "braun"], ["緑[みどり]", "grün"], ["金[きん]髪[ぱつ]", "blondes Haar"], ["白[しろ]い", "weiß"], ["黒[くろ]い", "schwarz"]] },
+    { "type": "match", "pairs": [["明[あか]るい", "fröhlich"], ["やさしい", "nett"], ["まじめ", "fleißig"], ["静[しず]か", "ruhig"], ["にぎやか", "lebhaft"], ["親切[しんせつ]", "hilfsbereit"]] },
+    { "type": "translate", "de": "Meine Mutter hat kurze Haare.", "answers": ["私[わたし] の 母[はは] は かみ が 短[みじか]い です。", "母[はは] は かみ が 短[みじか]い です。"] },
+    { "type": "translate", "de": "Der Mann dort trägt einen schwarzen Hut.", "answers": ["あの 男[おとこ] の 人[ひと] は 黒[くろ]い ぼうし を かぶって い ます。"] },
+    { "type": "translate", "de": "Du siehst deiner Mutter ähnlich.", "answers": ["あなた は お母[かあ]さん に 似[に]て い ます ね。", "あなた は お母[かあ]さん に 似[に]て い ます。", "お母[かあ]さん に 似[に]て い ます ね。", "お母[かあ]さん に 似[に]て い ます。"] },
+    { "type": "translate", "de": "Ken ist groß und schlank.", "answers": ["けん さん は せ が 高[たか]くて、 やせて い ます。", "けん さん は 背[せ] が 高[たか]くて、 やせて い ます。"] },
+    { "type": "order", "de": "In dieser Stadt gibt es wenige junge Leute.", "answer": "この 町[まち] は 若[わか]い 人[ひと] が 少[すく]ない です。", "distractors": ["多[おお]い"] },
+    { "type": "order", "de": "Sie ist ein ruhiger und fleißiger Mensch.", "answer": "静[しず]か で まじめ な 人[ひと] です。", "distractors": ["くて"] },
+    { "type": "cloze", "text": "東[とう]京[きょう] は 人[ひと] が とても ___ です。", "answers": ["多[おお]い"], "de": "In Tokio gibt es sehr viele Menschen." },
+    { "type": "cloze", "text": "ここ で くつ を ___ ください。", "answers": ["ぬいで"], "de": "Zieh hier bitte die Schuhe aus." },
+    { "type": "listen", "text": "ルーカス さん は 金[きん]髪[ぱつ] で、 目[め] が 青[あお]い です。", "de": "Lukas ist blond und hat blaue Augen." },
+    { "type": "listen", "text": "あの 人[ひと] は 明[あか]るくて、 人気[にんき] が あり ます。", "de": "Die Person dort ist fröhlich und beliebt." },
+    { "type": "listen", "text": "けん さん の お姉[ねえ]さん は 声[こえ] が きれい です。", "de": "Kens große Schwester hat eine schöne Stimme." }
+  ]
+}

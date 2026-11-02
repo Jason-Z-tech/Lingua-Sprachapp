@@ -1,0 +1,172 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-05",
+  "lang": "ja",
+  "level": "A2",
+  "number": 5,
+  "title": "パーティー に 来[き] ませんか。",
+  "title_de": "Feste und Einladungen",
+  "topic": "Einladen, zusagen und absagen",
+  "goals": [
+    "Du kannst jemanden einladen, zusagen und höflich absagen: どようびは ちょっと…",
+    "Du kannst mit から einen Grund nennen: ようじが ありますから、いきません.",
+    "Du kannst über Geschenke sprechen: あげます, もらいます, くれます.",
+    "Du kennst die Wörterbuchform und alle einfachen Verbformen im Überblick."
+  ],
+  "kanji": ["花", "楽", "歌", "音", "写", "真"],
+  "vocab": [
+    { "id": "hana", "word": "花[はな]", "de": "die Blume; die Blüte", "pos": "noun", "example": { "text": "誕生[たんじょう]日[び] に 花[はな] を もらい ました。", "de": "Zum Geburtstag habe ich Blumen bekommen." }, "note": "Nicht verwechseln mit はな (Nase, 鼻) aus Lektion 3 – gleiche Aussprache." },
+    { "id": "ohanami", "word": "お花見[はなみ]", "de": "das Kirschblütenfest; das Blütenschauen", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] に 公園[こうえん] で お花見[はなみ] を し ます。", "de": "Am Sonntag machen wir im Park ein Kirschblüten-Picknick." }, "note": "花 (Blüte) + 見 (sehen). Im März und April picknickt man in ganz Japan unter blühenden Kirschbäumen." },
+    { "id": "hanabi", "word": "花火[はなび]", "de": "das Feuerwerk", "pos": "noun", "example": { "text": "夏[なつ] の 夜[よる] に 花火[はなび] を 見[み] ました。", "de": "An einem Sommerabend habe ich ein Feuerwerk angeschaut." }, "note": "Wörtlich „Feuerblumen“. Große Feuerwerksfeste gibt es vor allem im Sommer." },
+    { "id": "tanoshimi", "word": "楽[たの]しみ", "de": "die Vorfreude", "pos": "noun", "example": { "text": "パーティー、 楽[たの]しみ に して います。", "de": "Ich freue mich schon auf die Party." }, "note": "〜を たのしみに して います = Ich freue mich auf … Kurz und herzlich: たのしみです!" },
+    { "id": "uta", "word": "歌[うた]", "de": "das Lied; der Gesang", "pos": "noun", "example": { "text": "この 歌[うた] を 知[し]って います か。", "de": "Kennst du dieses Lied?" } },
+    { "id": "utaimasu", "word": "歌[うた]い ます", "de": "singen", "pos": "verb", "forms": "うたいます, うたって, うたわない, うたった, うたう", "example": { "text": "カラオケ で 日本[にほん] の 歌[うた] を 歌[うた]い ます。", "de": "Beim Karaoke singe ich japanische Lieder." } },
+    { "id": "kashu", "word": "歌手[かしゅ]", "de": "Sänger/in", "pos": "noun", "example": { "text": "この 歌手[かしゅ] は 日本[にほん] で とても 有名[ゆうめい] です。", "de": "Diese Sängerin ist in Japan sehr berühmt." }, "note": "歌 (Lied) + 手 (Hand, hier: Person, die etwas kann) – wie bei じょうず." },
+    { "id": "oto", "word": "音[おと]", "de": "der Klang; das Geräusch; der Ton", "pos": "noun", "example": { "text": "花火[はなび] の 音[おと] は 大[おお]きい です ね。", "de": "Das Feuerwerk ist ganz schön laut." }, "note": "Für Geräusche und Töne. Die Stimme eines Menschen heißt dagegen こえ." },
+    { "id": "torimasu", "word": "とり ます", "de": "(ein Foto) machen; aufnehmen", "pos": "verb", "forms": "とります, とって, とらない, とった, とる", "example": { "text": "ここ で 写真[しゃしん] を とり ます。", "de": "Hier mache ich ein Foto." }, "note": "しゃしんを とります = ein Foto machen. Jemanden bitten: しゃしんを とって ください. Kanji: 撮ります." },
+    { "id": "mannaka", "word": "真[ま]ん中[なか]", "de": "die genaue Mitte", "pos": "noun", "example": { "text": "写真[しゃしん] の 真[ま]ん中[なか] の 人[ひと] は だれ です か。", "de": "Wer ist die Person in der Mitte des Fotos?" }, "note": "Das 真 kennst du aus しゃしん. Hier heißt es „genau, echt“." },
+    { "id": "paatii", "word": "パーティー", "de": "die Party; die Feier", "pos": "noun", "example": { "text": "土[ど]曜日[ようび] に うち で パーティー を し ます。", "de": "Am Samstag feiern wir bei uns eine Party." } },
+    { "id": "tanjoubi", "word": "誕生[たんじょう]日[び]", "de": "der Geburtstag", "pos": "noun", "example": { "text": "誕生[たんじょう]日[び] は いつ です か。", "de": "Wann hast du Geburtstag?" }, "note": "Höflich: おたんじょうび. Glückwunsch: おたんじょうび おめでとうございます!" },
+    { "id": "purezento", "word": "プレゼント", "de": "das Geschenk", "pos": "noun", "example": { "text": "母[はは] に プレゼント を あげ ました。", "de": "Ich habe meiner Mutter ein Geschenk gemacht." } },
+    { "id": "omatsuri", "word": "お祭[まつ]り", "de": "das (Volks-)Fest", "pos": "noun", "example": { "text": "夏[なつ] に 町[まち] で お祭[まつ]り が あり ます。", "de": "Im Sommer gibt es in der Stadt ein Volksfest." }, "note": "Beim Sommerfest gibt es Essensstände, Tänze und oft ein Feuerwerk." },
+    { "id": "shoutai", "word": "しょうたい し ます", "de": "einladen (offiziell)", "pos": "verb", "forms": "しょうたいします, しょうたいして", "example": { "text": "けん さん を パーティー に しょうたい し ました。", "de": "Ich habe Ken zur Party eingeladen.", "focus": "しょうたい し" }, "note": "Für Hochzeiten und offizielle Feiern. Im Alltag sagt man einfach: 〜に きませんか. Kanji: 招待." },
+    { "id": "yukata", "word": "ゆかた", "de": "der Yukata (leichter Sommerkimono)", "pos": "noun", "example": { "text": "お祭[まつ]り に ゆかた で 行[い]き ます。", "de": "Ich gehe im Yukata zum Fest." }, "note": "Aus Baumwolle, für Sommerfeste und Feuerwerke. Kanji: 浴衣." },
+    { "id": "yatai", "word": "やたい", "de": "der Essensstand (auf Festen)", "pos": "noun", "example": { "text": "やたい で やきそば を 買[か]い ました。", "de": "Ich habe mir an einem Stand gebratene Nudeln gekauft." }, "note": "Kanji: 屋台." },
+    { "id": "agemasu", "word": "あげ ます", "de": "geben; schenken (an andere)", "pos": "verb", "forms": "あげます, あげて, あげない, あげた, あげる", "example": { "text": "友[とも]だち に 花[はな] を あげ ます。", "de": "Ich schenke einer Freundin Blumen." } },
+    { "id": "moraimasu", "word": "もらい ます", "de": "bekommen; erhalten", "pos": "verb", "forms": "もらいます, もらって, もらわない, もらった, もらう", "example": { "text": "父[ちち] に 時計[とけい] を もらい ました。", "de": "Ich habe von meinem Vater eine Uhr bekommen.", "focus": "もらい" } },
+    { "id": "kuremasu", "word": "くれ ます", "de": "(mir) geben; (mir) schenken", "pos": "verb", "forms": "くれます, くれて, くれない, くれた, くれる", "example": { "text": "姉[あね] が ケーキ を くれ ました。", "de": "Meine ältere Schwester hat mir einen Kuchen geschenkt.", "focus": "くれ" }, "note": "Nur wenn jemand MIR (oder meiner Familie) etwas gibt." },
+    { "id": "doushite", "word": "どうして", "de": "warum?", "pos": "adv", "example": { "text": "どうして 日本語[にほんご] を 勉強[べんきょう] して います か。", "de": "Warum lernst du Japanisch?" }, "note": "Die Antwort endet mit 〜から." },
+    { "id": "zannen", "word": "ざんねん", "de": "schade; bedauerlich", "pos": "adj", "example": { "text": "ざんねん です ね。 また 今[こん]度[ど]。", "de": "Schade. Dann ein andermal." }, "note": "Ein な-Adjektiv. Kanji: 残念." },
+    { "id": "youji", "word": "用[よう]事[じ]", "de": "etwas zu erledigen; eine Verpflichtung", "pos": "noun", "example": { "text": "すみません、 その 日[ひ] は ちょっと 用[よう]事[じ] が あり ます。", "de": "Entschuldige, an dem Tag habe ich leider schon etwas vor." }, "note": "Die klassische höfliche Ausrede – was es ist, muss man nicht sagen." },
+    { "id": "kondo", "word": "今[こん]度[ど]", "de": "das nächste Mal; demnächst", "pos": "noun", "example": { "text": "今[こん]度[ど] いっしょに カラオケ へ 行[い]き ませんか。", "de": "Wollen wir demnächst mal zusammen zum Karaoke?" }, "note": "また こんど = ein andermal (beim Absagen)." },
+    { "id": "tsugou", "word": "つごう", "de": "ob es (zeitlich) passt; die Umstände", "pos": "noun", "example": { "text": "土[ど]曜日[ようび] は つごう が いい です か。", "de": "Passt dir Samstag?" }, "note": "つごうが いい = es passt mir; つごうが わるい = es passt mir nicht. Kanji: 都合." },
+    { "id": "zehi", "word": "ぜひ", "de": "unbedingt; sehr gern", "pos": "adv", "example": { "text": "ぜひ 行[い]き たい です！", "de": "Da möchte ich unbedingt hin!" }, "note": "Als Zusage reicht auch: ぜひ! (Sehr gern!)" },
+    { "id": "ureshii", "word": "うれしい", "de": "froh; glücklich (über etwas)", "pos": "adj", "forms": "うれしいです, うれしかったです", "example": { "text": "うれしい です！ ありがとうございます。", "de": "Wie schön, ich freue mich! Vielen Dank." }, "note": "Für deine eigenen Gefühle. Kanji: 嬉しい." },
+    { "id": "omedetou", "word": "おめでとうございます", "de": "herzlichen Glückwunsch", "pos": "phrase", "example": { "text": "誕生[たんじょう]日[び] おめでとうございます！", "de": "Alles Gute zum Geburtstag!" }, "note": "Unter Freunden kurz: おめでとう!" },
+    { "id": "kanpai", "word": "かんぱい", "de": "Prost!; Zum Wohl!", "pos": "interj", "example": { "text": "では、 かんぱい！", "de": "Also dann: Prost!" }, "note": "Kanji: 乾杯 – wörtlich etwa „Becher leeren“." },
+    { "id": "oshougatsu", "word": "お正[しょう]月[がつ]", "de": "das Neujahrsfest; Neujahr", "pos": "noun", "example": { "text": "お正[しょう]月[がつ] に 家族[かぞく] と 神社[じんじゃ] へ 行[い]き ます。", "de": "An Neujahr gehe ich mit meiner Familie zum Schrein." }, "note": "Das wichtigste Fest in Japan (1. bis 3. Januar): Man besucht Schreine und isst besondere Neujahrsgerichte." },
+    { "id": "kurisumasu", "word": "クリスマス", "de": "Weihnachten", "pos": "noun", "example": { "text": "日本[にほん] の クリスマス は 家族[かぞく] より 恋人[こいびと] の 日[ひ] です。", "de": "In Japan ist Weihnachten eher ein Tag für Verliebte als für die Familie." } },
+    { "id": "kekkonshiki", "word": "結婚式[けっこんしき]", "de": "die Hochzeitsfeier", "pos": "noun", "example": { "text": "来月[らいげつ] 友[とも]だち の 結婚式[けっこんしき] に 行[い]き ます。", "de": "Nächsten Monat gehe ich zur Hochzeit einer Freundin." } },
+    { "id": "karaoke", "word": "カラオケ", "de": "das Karaoke", "pos": "noun", "example": { "text": "週[しゅう]末[まつ] に カラオケ へ 行[い]き ませんか。", "de": "Wollen wir am Wochenende zum Karaoke gehen?" }, "note": "Kara (leer) + oke (Orchester). In Japan mietet man meist einen kleinen Raum nur für die eigene Gruppe." },
+    { "id": "konsaato", "word": "コンサート", "de": "das Konzert", "pos": "noun", "example": { "text": "あした の コンサート、 楽[たの]しみ です ね。", "de": "Ich freue mich schon auf das Konzert morgen!" } },
+    { "id": "odorimasu", "word": "おどり ます", "de": "tanzen", "pos": "verb", "forms": "おどります, おどって, おどらない, おどった, おどる", "example": { "text": "お祭[まつ]り で みんな で おどり ました。", "de": "Auf dem Fest haben wir alle zusammen getanzt.", "focus": "おどり" }, "note": "Beim Sommerfest tanzt man im Kreis: ぼんおどり. Kanji: 踊ります." },
+    { "id": "tetsudaimasu", "word": "手[て]伝[つだ]い ます", "de": "helfen; mithelfen", "pos": "verb", "forms": "てつだいます, てつだって, てつだわない, てつだった, てつだう", "example": { "text": "何[なに] か 手[て]伝[つだ]い ましょう か。", "de": "Soll ich irgendwie helfen?", "focus": "手[て]伝[つだ]い" }, "note": "Wem man hilft, bekommt を: ははを てつだいます." },
+    { "id": "junbi", "word": "じゅんび", "de": "die Vorbereitung", "pos": "noun", "example": { "text": "パーティー の じゅんび を し ます。", "de": "Ich bereite die Party vor." }, "note": "Kanji: 準備." },
+    { "id": "mashou", "word": "〜ましょう", "de": "lass(t) uns …; wollen wir …", "pos": "other", "example": { "text": "いっしょに 行[い]き ましょう。", "de": "Lass uns zusammen hingehen.", "focus": "ましょう" }, "note": "ます → ましょう. Mit ましょうか bietest du etwas an: てつだいましょうか (Soll ich helfen?)." }
+  ],
+  "grammar": [
+    {
+      "id": "einladen-kara",
+      "title": "Einladen, zusagen, absagen – und Gründe mit から",
+      "blocks": [
+        { "type": "p", "text": "Einladen kannst du seit A1 mit 〜ませんか (Wollen wir …? / Möchtest du …?). Zusagen kannst du mit ぜひ! oder mit 〜ましょう (Lass uns …): Aus ます wird ましょう." },
+        { "type": "table", "head": ["Einladung", "Zusage"], "rows": [["パーティー に 来[き] ませんか。", "ありがとうございます。 ぜひ 行[い]き たい です。"], ["いっしょに 花火[はなび] を 見[み] ませんか。", "いい です ね。 見[み] ましょう！"], ["土[ど]曜日[ようび] に カラオケ へ 行[い]き ませんか。", "ええ、 行[い]き ましょう。"]] },
+        { "type": "p", "text": "Absagen ist in Japan eine Kunst: Man sagt fast nie direkt „nein“. Stattdessen nennt man den Tag oder die Sache, sagt ちょっと… und lässt den Satz einfach offen. Der andere versteht sofort." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["土[ど]曜日[ようび] は ちょっと…", "Samstag ist leider etwas schwierig …"], ["すみません、 その 日[ひ] は ちょっと 用[よう]事[じ] が あり ます。", "Entschuldige, an dem Tag habe ich leider schon etwas vor."], ["ざんねん です。", "Wie schade."], ["また 今[こん]度[ど] おねがいします。", "Gern ein andermal."]] },
+        { "type": "tip", "text": "Ein direktes いいえ、いきません klingt auf Japanisch sehr hart, fast unhöflich. ちょっと… mit leiser Stimme und einer kleinen Entschuldigung ist viel freundlicher – auch wenn du einfach keine Lust hast." },
+        { "type": "p", "text": "Einen Grund nennst du mit から (weil): erst der Grund, dann から, dann die Folge. Vor から steht ganz normal die höfliche Form mit です oder ます." },
+        { "type": "table", "head": ["Grund + から", "Folge", "Deutsch"], "rows": [["あした は 仕事[しごと] が あり ます から、", "今日[きょう] は 早[はや]く 帰[かえ]り ます。", "Weil ich morgen arbeiten muss, gehe ich heute früh nach Hause."], ["かぜ を ひき ました から、", "パーティー に 行[い]き ません。", "Weil ich erkältet bin, gehe ich nicht zur Party."], ["花[はな] が きれい です から、", "写真[しゃしん] を とり ます。", "Weil die Blüten so schön sind, mache ich ein Foto."]] },
+        { "type": "tip", "text": "Die Reihenfolge ist umgekehrt wie bei „weil“ im Deutschen: Der Grund steht vorne, から steht am Ende des Grundes." },
+        { "type": "p", "text": "Auf die Frage どうして (warum?) antwortest du mit dem Grund + から:" },
+        { "type": "examples", "items": [{ "text": "どうして パーティー に 来[き] ませんでした か。", "de": "Warum bist du nicht zur Party gekommen?" }, { "text": "用[よう]事[じ] が あり ました から。", "de": "Weil ich etwas zu erledigen hatte." }, { "text": "どうして 日本語[にほんご] を 勉強[べんきょう] して います か。", "de": "Warum lernst du Japanisch?" }, { "text": "日本[にほん] の まんが が 好[す]き です から。", "de": "Weil ich japanische Mangas mag." }] },
+        { "type": "tip", "text": "Jetzt kennst du drei から: nach Orten und Zeiten heißt es „von, ab“ (くじから), nach der て-Form „nachdem“ (たべてから, Lektion 1), und nach einer normalen Form wie です oder ます „weil“." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あした は 仕事[しごと] が あり ます ___、 今日[きょう] は 早[はや]く 寝[ね] ます。", "answers": ["から"], "de": "Weil ich morgen arbeiten muss, gehe ich heute früh schlafen." },
+        { "type": "cloze", "text": "土[ど]曜日[ようび] は ___…", "answers": ["ちょっと"], "de": "Samstag ist leider etwas schwierig …" },
+        { "type": "cloze", "text": "いっしょに 行[い]き ___。", "answers": ["ましょう"], "de": "Lass uns zusammen hingehen." },
+        { "type": "cloze", "text": "___ 来[き] ませんでした か。", "answers": ["どうして", "なぜ"], "de": "Warum bist du nicht gekommen?" },
+        { "type": "choice", "prompt": "Ein Kollege lädt dich zum Karaoke ein, aber du möchtest nicht. Was ist die höflichste Antwort?", "options": ["すみません、 今日[きょう] は ちょっと…", "いいえ、 行[い]き ません。", "カラオケ は きらい です。"], "answer": 0, "explain": "Ein direktes „nein“ klingt sehr hart. Mit ちょっと… und einem offenen Satzende sagst du höflich ab." },
+        { "type": "translate", "de": "Weil ich erkältet bin, gehe ich heute nicht hin.", "answers": ["私[わたし] は かぜ を ひき ました から、 今日[きょう] は 行[い]き ません。", "私[わたし] は かぜ を ひき ました から 今日[きょう] は 行[い]き ません。", "私[わたし] は かぜ を ひいて います から、 今日[きょう] は 行[い]き ません。", "私[わたし] は かぜ を ひいて います から 今日[きょう] は 行[い]き ません。", "私[わたし] は かぜ です から、 今日[きょう] は 行[い]き ません。", "私[わたし] は かぜ です から 今日[きょう] は 行[い]き ません。", "かぜ を ひき ました から、 今日[きょう] は 行[い]き ません。", "かぜ を ひき ました から 今日[きょう] は 行[い]き ません。", "かぜ を ひいて います から、 今日[きょう] は 行[い]き ません。", "かぜ を ひいて います から 今日[きょう] は 行[い]き ません。", "かぜ です から、 今日[きょう] は 行[い]き ません。", "かぜ です から 今日[きょう] は 行[い]き ません。"] },
+        { "type": "order", "de": "Weil die Blüten so schön sind, mache ich ein Foto.", "answer": "花[はな] が きれい です から 写真[しゃしん] を とり ます。", "distractors": ["まで"] }
+      ]
+    },
+    {
+      "id": "geben-bekommen",
+      "title": "Geben und bekommen: あげます, もらいます, くれます",
+      "blocks": [
+        { "type": "p", "text": "Für „geben“ hat das Japanische zwei Verben – je nachdem, in welche Richtung das Geschenk geht. Dazu kommt もらいます für „bekommen“." },
+        { "type": "table", "head": ["Verb", "Richtung", "Beispiel", "Deutsch"], "rows": [["あげ ます", "ich → andere; andere → andere", "私[わたし] は けん さん に 花[はな] を あげ ました。", "Ich habe Ken Blumen geschenkt."], ["くれ ます", "andere → mich (oder meine Familie)", "けん さん が 私[わたし] に 花[はな] を くれ ました。", "Ken hat mir Blumen geschenkt."], ["もらい ます", "ich bekomme von anderen", "私[わたし] は けん さん に 花[はな] を もらい ました。", "Ich habe von Ken Blumen bekommen."]] },
+        { "type": "tip", "text": "Die wichtigste Regel: Wenn jemand MIR etwas gibt, heißt es immer くれます – nie あげます. けんさんが わたしに あげました ist falsch." },
+        { "type": "p", "text": "Bei あげます und くれます bekommt die Person, die etwas erhält, に. Bei もらいます bekommt die Person, von der du etwas erhältst, に oder から." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["母[はは] に セーター を あげ ました。", "Ich habe meiner Mutter einen Pullover geschenkt."], ["母[はは] に セーター を もらい ました。", "Ich habe von meiner Mutter einen Pullover bekommen."], ["母[はは] から セーター を もらい ました。", "Ich habe von meiner Mutter einen Pullover bekommen."], ["母[はは] が セーター を くれ ました。", "Meine Mutter hat mir einen Pullover geschenkt."]] },
+        { "type": "tip", "text": "Bei くれます lässt man わたしに meist weg – es ist ja klar, dass du gemeint bist: ともだちが ケーキを くれました." },
+        { "type": "tip", "text": "Gegenüber Vorgesetzten gibt es noch höflichere Formen, die du später lernst. Eine kennst du schon: いただきます vor dem Essen heißt wörtlich „ich empfange (demütig)“." },
+        { "type": "examples", "items": [{ "text": "誕生[たんじょう]日[び] に 何[なに] を もらい ました か。", "de": "Was hast du zum Geburtstag bekommen?" }, { "text": "友[とも]だち が 花[はな] を くれ ました。", "de": "Eine Freundin hat mir Blumen geschenkt." }, { "text": "ソフィー さん に 何[なに] を あげ ます か。", "de": "Was schenkst du Sophie?" }, { "text": "コンサート の チケット を あげ ます。", "de": "Ich schenke ihr eine Konzertkarte." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "私[わたし] は 姉[あね] ___ 花[はな] を あげ ました。", "answers": ["に"], "de": "Ich habe meiner älteren Schwester Blumen geschenkt." },
+        { "type": "cloze", "text": "けん さん が 私[わたし] に ケーキ を ___。", "answers": ["くれ ました"], "de": "Ken hat mir einen Kuchen geschenkt." },
+        { "type": "cloze", "text": "父[ちち] ___ 時計[とけい] を もらい ました。", "answers": ["に", "から"], "de": "Ich habe von meinem Vater eine Uhr bekommen." },
+        { "type": "choice", "prompt": "Sophie hat dir ein Buch geschenkt. Wie sagst du das?", "options": ["ソフィー さん が 本[ほん] を くれ ました。", "ソフィー さん が 本[ほん] を あげ ました。", "ソフィー さん に 本[ほん] を あげ ました。"], "answer": 0, "explain": "Wenn jemand dir etwas gibt, heißt es くれます. あげます geht nur von dir (oder anderen) weg." },
+        { "type": "translate", "de": "Ich habe von Ken Blumen bekommen.", "answers": ["私[わたし] は けん さん に 花[はな] を もらい ました。", "私[わたし] は けん さん から 花[はな] を もらい ました。", "けん さん に 花[はな] を もらい ました。", "けん さん から 花[はな] を もらい ました。", "けん さん が 私[わたし] に 花[はな] を くれ ました。", "けん さん が 花[はな] を くれ ました。"] },
+        { "type": "translate", "de": "Was hast du zum Geburtstag bekommen?", "answers": ["お誕生[たんじょう]日[び] に 何[なに] を もらい ました か。", "お誕生[たんじょう]日[び] は 何[なに] を もらい ました か。", "お誕生[たんじょう]日[び] 何[なに] を もらい ました か。", "誕生[たんじょう]日[び] に 何[なに] を もらい ました か。", "誕生[たんじょう]日[び] は 何[なに] を もらい ました か。", "誕生[たんじょう]日[び] 何[なに] を もらい ました か。"] },
+        { "type": "order", "de": "Ich schenke meinem Freund ein Buch.", "answer": "友[とも]だち に 本[ほん] を あげ ます。", "distractors": ["くれ"] }
+      ]
+    },
+    {
+      "id": "woerterbuchform",
+      "title": "Die Wörterbuchform – alle einfachen Formen im Überblick",
+      "blocks": [
+        { "type": "p", "text": "Jedes Verb hat eine Grundform, die im Wörterbuch steht: die Wörterbuchform. Sie ist die einfache (nicht höfliche) Form von 〜ます – たべる bedeutet dasselbe wie たべます. Du brauchst sie unter Freunden, vor でしょう (Lektion 4) und in vielen Satzmustern der nächsten Lektionen." },
+        { "type": "p", "text": "Gruppe 1: Der i-Laut vor ます wird zum u-Laut. Die Wörterbuchform endet also immer auf う, く, ぐ, す, つ, ぬ, ぶ, む oder る." },
+        { "type": "table", "head": ["vor ます", "wird zu", "ます-Form", "Wörterbuchform"], "rows": [["い", "う", "買[か]い ます", "買[か]う"], ["き", "く", "書[か]き ます", "書[か]く"], ["ぎ", "ぐ", "急[いそ]ぎ ます", "急[いそ]ぐ"], ["し", "す", "話[はな]し ます", "話[はな]す"], ["ち", "つ", "待[ま]ち ます", "待[ま]つ"], ["に", "ぬ", "死[し]に ます", "死[し]ぬ"], ["び", "ぶ", "遊[あそ]び ます", "遊[あそ]ぶ"], ["み", "む", "読[よ]み ます", "読[よ]む"], ["り", "る", "帰[かえ]り ます", "帰[かえ]る"]] },
+        { "type": "p", "text": "Gruppe 2: ます weg, る dran. Gruppe 3: します → する und きます → くる." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "Wörterbuchform"], "rows": [["2", "食[た]べ ます", "食[た]べる"], ["2", "見[み] ます", "見[み]る"], ["2", "起[お]き ます", "起[お]きる"], ["3", "し ます", "する"], ["3", "来[き] ます", "来[く]る"], ["3", "勉強[べんきょう] し ます", "勉強[べんきょう] する"]] },
+        { "type": "tip", "text": "Jetzt verstehst du die Gruppen besser: Verben der Gruppe 2 enden in der Wörterbuchform immer auf -iru oder -eru (みる, たべる). Aber nicht jedes Verb auf -iru oder -eru gehört zu Gruppe 2: かえる (nach Hause gehen), はいる (hineingehen) und はしる (laufen) sind Gruppe 1. Ihre ます-Form verrät es: かえります, はいります, はしります." },
+        { "type": "p", "text": "Alle einfachen Formen auf einen Blick. Die ない-Form und die た-Form kennst du aus Lektion 3. Neu ist nur die verneinte Vergangenheit: Aus ない wird なかった – genau wie bei den い-Adjektiven." },
+        { "type": "table", "head": ["ます-Form", "Wörterbuchform", "ない-Form", "た-Form", "なかった-Form"], "rows": [["書[か]き ます", "書[か]く", "書[か]かない", "書[か]いた", "書[か]かなかった"], ["飲[の]み ます", "飲[の]む", "飲[の]まない", "飲[の]んだ", "飲[の]まなかった"], ["買[か]い ます", "買[か]う", "買[か]わない", "買[か]った", "買[か]わなかった"], ["行[い]き ます", "行[い]く", "行[い]かない", "行[い]った", "行[い]かなかった"], ["あり ます", "ある", "ない", "あった", "なかった"], ["食[た]べ ます", "食[た]べる", "食[た]べない", "食[た]べた", "食[た]べなかった"], ["し ます", "する", "しない", "した", "しなかった"], ["来[き] ます", "来[く]る", "来[こ]ない", "来[き]た", "来[こ]なかった"]] },
+        { "type": "p", "text": "Auch Adjektive und Nomen haben einfache Formen. Bei い-Adjektiven lässt du einfach です weg. Bei な-Adjektiven und Nomen wird です zu だ und でした zu だった." },
+        { "type": "table", "head": ["höflich", "einfach", "Deutsch"], "rows": [["楽[たの]しい です", "楽[たの]しい", "macht Spaß"], ["楽[たの]しかった です", "楽[たの]しかった", "hat Spaß gemacht"], ["ひま です", "ひま だ", "hat Zeit"], ["雨[あめ] でした", "雨[あめ] だった", "es hat geregnet"]] },
+        { "type": "tip", "text": "Die einfachen Formen klingen unter Freunden und in der Familie natürlich. Statt はい sagt man dort うん, statt いいえ ううん. In Fragen fällt だ meist weg: ひま? Zu Fremden, Lehrern und Kollegen bleibst du bei です und ます." },
+        { "type": "examples", "items": [{ "text": "あした パーティー に 来[く]る？", "de": "Kommst du morgen zur Party?" }, { "text": "うん、 行[い]く！", "de": "Ja, ich komme!" }, { "text": "きのう の コンサート、 楽[たの]しかった？", "de": "War das Konzert gestern schön?" }, { "text": "うん、 とても 楽[たの]しかった。", "de": "Ja, sehr schön." }, { "text": "今日[きょう] は ひま？", "de": "Hast du heute Zeit?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あした パーティー に ___？", "answers": ["来[く]る"], "de": "Kommst du morgen zur Party?", "hint": "きます (einfache Form)" },
+        { "type": "cloze", "text": "うん、 ___！", "answers": ["行[い]く"], "de": "Ja, ich komme!", "hint": "いきます (einfache Form)" },
+        { "type": "cloze", "text": "あした は 雨[あめ] が ___ でしょう。", "answers": ["降[ふ]る"], "de": "Morgen wird es wohl regnen.", "hint": "ふります" },
+        { "type": "cloze", "text": "週[しゅう]末[まつ] は 何[なに] を ___？", "answers": ["する"], "de": "Was machst du am Wochenende?", "hint": "します (einfache Form)" },
+        { "type": "match", "pairs": [["読[よ]む", "lesen"], ["書[か]く", "schreiben"], ["話[はな]す", "sprechen"], ["待[ま]つ", "warten"], ["遊[あそ]ぶ", "spielen"], ["来[く]る", "kommen"]] },
+        { "type": "choice", "prompt": "Welche Wörterbuchform gehört zu かえります (nach Hause gehen)?", "options": ["帰[かえ]る", "帰[かえ]りる", "帰[かえ]う"], "answer": 0, "explain": "かえります gehört zu Gruppe 1: り wird zu る. かえる sieht aus wie Gruppe 2, ist es aber nicht – die て-Form heißt かえって." },
+        { "type": "translate", "de": "Was hast du gestern gemacht? (zu einem Freund, einfache Form)", "answers": ["きのう は 何[なに] を した の？", "きのう は 何[なに] を した？", "きのう は 何[なに] した の？", "きのう は 何[なに] した？", "きのう 何[なに] を した の？", "きのう 何[なに] を した？", "きのう 何[なに] した の？", "きのう 何[なに] した？"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "誕生[たんじょう]日[び] の パーティー",
+    "title_de": "Die Geburtstagsparty",
+    "lines": [
+      { "speaker": "アンナ", "text": "けん さん、 来週[らいしゅう] の 土[ど]曜日[ようび] は ひま です か。", "de": "Ken, hast du nächsten Samstag Zeit?" },
+      { "speaker": "けん", "text": "土[ど]曜日[ようび] です か。 ええ、 ひま です よ。", "de": "Samstag? Ja, da habe ich Zeit." },
+      { "speaker": "アンナ", "text": "ソフィー さん の 誕生[たんじょう]日[び] です から、 うち で パーティー を し ます。 けん さん も 来[き] ませんか。", "de": "Sophie hat Geburtstag, deshalb machen wir bei uns eine Party. Kommst du auch?" },
+      { "speaker": "けん", "text": "いい です ね！ ぜひ 行[い]き たい です。 何時[なんじ] から です か。", "de": "Toll! Da komme ich sehr gern. Ab wie viel Uhr?" },
+      { "speaker": "アンナ", "text": "六時[ろくじ] から です。 会社[かいしゃ] の たなか さん も いっしょに どう です か。", "de": "Ab sechs. Wie wäre es, wenn Frau Tanaka aus deiner Firma auch mitkommt?" },
+      { "speaker": "けん", "text": "たなか さん は 土[ど]曜日[ようび] に 大[おお]阪[さか] へ 行[い]き ます から、 ちょっと…", "de": "Frau Tanaka fährt am Samstag nach Osaka, deshalb wird das leider schwierig …" },
+      { "speaker": "アンナ", "text": "そう です か。 ざんねん です ね。", "de": "Ach so. Schade." },
+      { "speaker": "けん", "text": "ソフィー さん に 何[なに] を あげ ましょう か。", "de": "Was sollen wir Sophie schenken?" },
+      { "speaker": "アンナ", "text": "ソフィー さん は 音楽[おんがく] が 大好[だいす]き です から、 コンサート の チケット は どう です か。", "de": "Sophie liebt Musik – wie wäre es mit einer Konzertkarte?" },
+      { "speaker": "けん", "text": "いい です ね。 私[わたし] は 花[はな] も 買[か]って 行[い]き ます。", "de": "Gute Idee. Ich bringe auch noch Blumen mit." },
+      { "speaker": "アンナ", "text": "ありがとうございます。 ソフィー さん は うれしい でしょう ね。", "de": "Danke! Sophie wird sich bestimmt freuen." },
+      { "speaker": "けん", "text": "パーティー の じゅんび は？ 何[なに] か 手[て]伝[つだ]い ましょう か。", "de": "Und die Vorbereitungen? Soll ich irgendwie helfen?" },
+      { "speaker": "アンナ", "text": "じゃあ、 カメラ を 持[も]って 来[き]て ください。 みんな で 写真[しゃしん] を とり ましょう！", "de": "Dann bring bitte deine Kamera mit. Lass uns alle zusammen Fotos machen!" },
+      { "speaker": "けん", "text": "わかり ました。 カラオケ の マイク も 持[も]って 行[い]き ます よ。 みんな で 歌[うた] を 歌[うた]い ましょう！", "de": "Alles klar. Ich bringe auch das Karaoke-Mikrofon mit. Lass uns alle zusammen singen!" },
+      { "speaker": "アンナ", "text": "え、 カラオケ です か。 アパート です から、 大[おお]きい 音[おと] は ちょっと…", "de": "Was, Karaoke? Wir wohnen in einer Mietwohnung – laute Musik ist da eher schwierig …" },
+      { "speaker": "けん", "text": "そう です ね。 じゃあ、 歌[うた] は 今[こん]度[ど] カラオケ で！ 土[ど]曜日[ようび]、 楽[たの]しみ に して います。", "de": "Stimmt. Dann singen wir ein andermal im Karaoke! Ich freue mich auf Samstag." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["お花見[はなみ]", "das Kirschblütenfest"], ["花火[はなび]", "das Feuerwerk"], ["お祭[まつ]り", "das Volksfest"], ["誕生[たんじょう]日[び]", "der Geburtstag"], ["結婚式[けっこんしき]", "die Hochzeitsfeier"], ["お正[しょう]月[がつ]", "das Neujahrsfest"]] },
+    { "type": "match", "pairs": [["あげ ます", "geben; schenken (an andere)"], ["くれ ます", "(mir) geben"], ["もらい ます", "bekommen"], ["手[て]伝[つだ]い ます", "helfen"], ["歌[うた]い ます", "singen"]] },
+    { "type": "cloze", "text": "誕生[たんじょう]日[び] ___！", "answers": ["おめでとうございます", "おめでとう"], "de": "Herzlichen Glückwunsch zum Geburtstag!" },
+    { "type": "cloze", "text": "パーティー、 楽[たの]しみ に ___ います。", "answers": ["して"], "de": "Ich freue mich schon auf die Party." },
+    { "type": "cloze", "text": "土[ど]曜日[ようび] は つごう が ___ です か。", "answers": ["いい"], "de": "Passt dir Samstag?" },
+    { "type": "order", "de": "Wollen wir zusammen das Feuerwerk anschauen?", "answer": "いっしょに 花火[はなび] を 見[み] ませんか。", "distractors": ["ましょう"] },
+    { "type": "order", "de": "Ich habe von meiner Mutter Blumen bekommen.", "answer": "母[はは] に 花[はな] を もらい ました。", "distractors": ["くれ"] },
+    { "type": "translate", "de": "Am Samstag habe ich leider schon etwas vor.", "answers": ["すみません、 土[ど]曜日[ようび] は ちょっと 用[よう]事[じ] が あり ます。", "すみません、 土[ど]曜日[ようび] は 用[よう]事[じ] が あり ます。", "すみません、 土[ど]曜日[ようび] には ちょっと 用[よう]事[じ] が あり ます。", "すみません、 土[ど]曜日[ようび] には 用[よう]事[じ] が あり ます。", "土[ど]曜日[ようび] は ちょっと 用[よう]事[じ] が あり ます。", "土[ど]曜日[ようび] は 用[よう]事[じ] が あり ます。", "土[ど]曜日[ようび] には ちょっと 用[よう]事[じ] が あり ます。", "土[ど]曜日[ようび] には 用[よう]事[じ] が あり ます。"] },
+    { "type": "translate", "de": "Soll ich dir helfen?", "answers": ["何[なに] か 手[て]伝[つだ]い ましょう か。", "手[て]伝[つだ]い ましょう か。"] },
+    { "type": "translate", "de": "Ken hat mir eine Uhr geschenkt.", "answers": ["けん さん が 私[わたし] に 時計[とけい] を くれ ました。", "けん さん が 時計[とけい] を くれ ました。", "私[わたし] は けん さん に 時計[とけい] を もらい ました。", "私[わたし] は けん さん から 時計[とけい] を もらい ました。", "けん さん に 時計[とけい] を もらい ました。", "けん さん から 時計[とけい] を もらい ました。"] },
+    { "type": "translate", "de": "Lass uns hier ein Foto machen!", "answers": ["ここ で 写真[しゃしん] を とり ましょう。"] },
+    { "type": "listen", "text": "すみません、 その 日[ひ] は ちょっと…", "de": "Entschuldige, an dem Tag ist es leider etwas schwierig …" },
+    { "type": "listen", "text": "日本[にほん] の 歌[うた] が 好[す]き です から、 よく カラオケ へ 行[い]き ます。", "de": "Weil ich japanische Lieder mag, gehe ich oft zum Karaoke." }
+  ]
+}

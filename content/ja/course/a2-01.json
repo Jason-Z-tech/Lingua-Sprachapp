@@ -1,0 +1,173 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-01",
+  "lang": "ja",
+  "level": "A2",
+  "number": 1,
+  "title": "週[しゅう]末[まつ] に 何[なに] を し ました か。",
+  "title_de": "Was hast du gemacht?",
+  "topic": "Von gestern und vom Wochenende erzählen",
+  "goals": [
+    "Du kannst die て-Form aller Verben bilden – zum Beispiel かきます → かいて, よみます → よんで, たべます → たべて.",
+    "Du kannst mehrere Handlungen nacheinander erzählen: 〜て、〜て、〜ました und 〜てから.",
+    "Du kannst erzählen, was du am Wochenende gemacht hast, und sagen, wie es war: たのしかったです, いそがしかったです.",
+    "Du kannst mit けさ, ゆうべ, おととい und こんしゅう sagen, wann etwas war."
+  ],
+  "kanji": ["見", "聞", "読", "書", "話", "買", "友", "週"],
+  "vocab": [
+    { "id": "kakimasu", "word": "書[か]き ます", "de": "schreiben", "pos": "verb", "forms": "かきます, かいて", "example": { "text": "友[とも]だち に 手紙[てがみ] を 書[か]き ます。", "de": "Ich schreibe einer Freundin einen Brief." }, "note": "て-Form: かいて (き → いて)." },
+    { "id": "denwa", "word": "電話[でんわ]", "de": "das Telefon; der Anruf", "pos": "noun", "example": { "text": "ゆうべ 母[はは] に 電話[でんわ] を し ました。", "de": "Gestern Abend habe ich meine Mutter angerufen." }, "note": "でんわ(を) します = anrufen. Wen man anruft, bekommt に." },
+    { "id": "shinbun", "word": "新聞[しんぶん]", "de": "die Zeitung", "pos": "noun", "example": { "text": "父[ちち] は 毎朝[まいあさ] 新聞[しんぶん] を 読[よ]み ます。", "de": "Mein Vater liest jeden Morgen Zeitung." }, "note": "Wörtlich „Neues hören“: 新 (neu) + 聞 (hören)." },
+    { "id": "dokusho", "word": "読書[どくしょ]", "de": "das Lesen (als Hobby)", "pos": "noun", "example": { "text": "私[わたし] の しゅみ は 読書[どくしょ] です。", "de": "Mein Hobby ist Lesen." }, "note": "Ein etwas gehobenes Wort. Im Alltag sagt man meist: ほんを よみます." },
+    { "id": "hanashi", "word": "話[はなし]", "de": "die Geschichte; das Gespräch", "pos": "noun", "example": { "text": "その 話[はなし] は おもしろい です ね。", "de": "Die Geschichte ist ja spannend." }, "note": "Das Nomen zu はなします (sprechen) – ohne Endung." },
+    { "id": "konshuu", "word": "今週[こんしゅう]", "de": "diese Woche", "pos": "noun", "example": { "text": "今週[こんしゅう] は 仕事[しごと] が いそがしい です。", "de": "Diese Woche habe ich bei der Arbeit viel zu tun." }, "note": "Die Reihe: せんしゅう (letzte Woche) – こんしゅう (diese Woche) – らいしゅう (nächste Woche)." },
+    { "id": "isshuukan", "word": "一[いっ]週[しゅう]間[かん]", "de": "eine Woche (lang)", "pos": "noun", "example": { "text": "一[いっ]週[しゅう]間[かん] 京都[きょうと] に い ました。", "de": "Ich war eine Woche in Kyoto." }, "note": "Mit 〜しゅうかん zählst du Wochen: にしゅうかん = zwei Wochen. Wie 〜じかん (Stunden) steht es ohne Partikel." },
+    { "id": "aimasu", "word": "会[あ]い ます", "de": "treffen; sich treffen", "pos": "verb", "forms": "あいます, あって", "example": { "text": "土[ど]曜日[ようび] に 友[とも]だち に 会[あ]い ます。", "de": "Am Samstag treffe ich einen Freund." }, "note": "Wen man trifft, bekommt に (oder と) – nicht を! Das Kanji 会 lernst du in Lektion 2." },
+    { "id": "tsukurimasu", "word": "作[つく]り ます", "de": "machen; herstellen; zubereiten", "pos": "verb", "forms": "つくります, つくって", "example": { "text": "日[にち]曜日[ようび] は いつも カレー を 作[つく]り ます。", "de": "Sonntags mache ich immer Curry." }, "note": "Beim Essen heißt つくります „kochen, zubereiten“: ばんごはんを つくります." },
+    { "id": "tsukaimasu", "word": "使[つか]い ます", "de": "benutzen; verwenden", "pos": "verb", "forms": "つかいます, つかって", "example": { "text": "毎日[まいにち] 電車[でんしゃ] で スマホ を 使[つか]い ます。", "de": "Ich benutze jeden Tag im Zug mein Handy." } },
+    { "id": "karimasu", "word": "借[か]り ます", "de": "(sich) leihen; ausleihen", "pos": "verb", "forms": "かります, かりて", "example": { "text": "図[と]書[しょ]館[かん] で 本[ほん] を 借[か]り ます。", "de": "Ich leihe mir in der Bibliothek ein Buch aus." }, "note": "Gruppe 2, obwohl vor ます ein i-Laut steht: かりて – nicht かって (das wäre „kaufen“)." },
+    { "id": "kaeshimasu", "word": "返[かえ]し ます", "de": "zurückgeben", "pos": "verb", "forms": "かえします, かえして", "example": { "text": "あした 図[と]書[しょ]館[かん] に 本[ほん] を 返[かえ]し ます。", "de": "Morgen gebe ich das Buch in der Bibliothek zurück." }, "note": "Nicht verwechseln mit かえります (nach Hause gehen)." },
+    { "id": "dekakemasu", "word": "出[で]かけ ます", "de": "ausgehen; weggehen; unterwegs sein", "pos": "verb", "forms": "でかけます, でかけて", "example": { "text": "日[にち]曜日[ようび] は 家族[かぞく] と 出[で]かけ ます。", "de": "Am Sonntag gehe ich mit meiner Familie aus." }, "note": "Das Kanji 出 kennst du aus でぐち (Ausgang)." },
+    { "id": "okurimasu", "word": "送[おく]り ます", "de": "schicken; senden", "pos": "verb", "forms": "おくります, おくって", "example": { "text": "友[とも]だち に メール を 送[おく]り ます。", "de": "Ich schicke einer Freundin eine Nachricht." } },
+    { "id": "isogimasu", "word": "急[いそ]ぎ ます", "de": "sich beeilen", "pos": "verb", "forms": "いそぎます, いそいで", "example": { "text": "朝[あさ] は いつも 急[いそ]ぎ ます。", "de": "Morgens bin ich immer in Eile." }, "note": "いそいで ください! = Beeil dich bitte! (ぎ → いで)" },
+    { "id": "asobimasu", "word": "遊[あそ]び ます", "de": "spielen; etwas unternehmen (in der Freizeit)", "pos": "verb", "forms": "あそびます, あそんで", "example": { "text": "子[こ]ども は 公園[こうえん] で 遊[あそ]び ます。", "de": "Die Kinder spielen im Park." }, "note": "Erwachsene sagen あそびます für „etwas zusammen unternehmen“: ともだちと あそびました. Für Sport und Spiele nimmt man します." },
+    { "id": "hashirimasu", "word": "走[はし]り ます", "de": "laufen; rennen; joggen", "pos": "verb", "forms": "はしります, はしって", "example": { "text": "毎朝[まいあさ] 公園[こうえん] を 走[はし]り ます。", "de": "Ich jogge jeden Morgen im Park." }, "note": "Die Strecke, auf der man läuft, bekommt を: こうえんを はしります." },
+    { "id": "souji", "word": "そうじ", "de": "das Putzen; das Saubermachen", "pos": "noun", "example": { "text": "週[しゅう]末[まつ] に 部屋[へや] の そうじ を し ました。", "de": "Am Wochenende habe ich mein Zimmer geputzt." }, "note": "そうじ(を) します = putzen. Kanji: 掃除." },
+    { "id": "sentaku", "word": "せんたく", "de": "die Wäsche; das Wäschewaschen", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] の 朝[あさ] は せんたく を し ます。", "de": "Sonntagmorgens wasche ich Wäsche." }, "note": "Kanji: 洗濯. Die Waschmaschine heißt せんたくき." },
+    { "id": "shukudai", "word": "宿題[しゅくだい]", "de": "die Hausaufgaben", "pos": "noun", "example": { "text": "宿題[しゅくだい] を して から、 テレビ を 見[み] ます。", "de": "Ich mache erst die Hausaufgaben, dann sehe ich fern." } },
+    { "id": "repooto", "word": "レポート", "de": "die Hausarbeit; der Bericht", "pos": "noun", "example": { "text": "アンナ さん は 週[しゅう]末[まつ] に レポート を 書[か]き ました。", "de": "Anna hat am Wochenende eine Hausarbeit geschrieben." } },
+    { "id": "meeru", "word": "メール", "de": "die E-Mail; die Nachricht", "pos": "noun", "example": { "text": "先[せん]生[せい] に メール を 書[か]き ました。", "de": "Ich habe meiner Lehrerin eine E-Mail geschrieben." }, "note": "Auch für Nachrichten auf dem Handy." },
+    { "id": "tegami", "word": "手紙[てがみ]", "de": "der Brief", "pos": "noun", "example": { "text": "おばあさん に 手紙[てがみ] を 書[か]き ました。", "de": "Ich habe meiner Großmutter einen Brief geschrieben." } },
+    { "id": "nikki", "word": "日[にっ]記[き]", "de": "das Tagebuch", "pos": "noun", "example": { "text": "毎晩[まいばん] 日本語[にほんご] で 日[にっ]記[き] を 書[か]き ます。", "de": "Jeden Abend schreibe ich auf Japanisch Tagebuch." }, "note": "Ein Tagebuch auf Japanisch ist eine prima Übung für die て-Form!" },
+    { "id": "jisho", "word": "辞[じ]書[しょ]", "de": "das Wörterbuch", "pos": "noun", "example": { "text": "この 辞[じ]書[しょ] は とても べんり です。", "de": "Dieses Wörterbuch ist sehr praktisch." }, "note": "Das zweite Kanji ist 書 (schreiben) – hier liest man es しょ." },
+    { "id": "manga", "word": "まんが", "de": "der Manga; der Comic", "pos": "noun", "example": { "text": "電車[でんしゃ] で まんが を 読[よ]み ます。", "de": "Im Zug lese ich Mangas." }, "note": "Kanji: 漫画." },
+    { "id": "zasshi", "word": "ざっし", "de": "die Zeitschrift", "pos": "noun", "example": { "text": "コンビニ で ざっし を 買[か]い ました。", "de": "Ich habe im Konbini eine Zeitschrift gekauft." }, "note": "Kanji: 雑誌." },
+    { "id": "dorama", "word": "ドラマ", "de": "die (Fernseh-)Serie", "pos": "noun", "example": { "text": "ゆうべ 日本[にほん] の ドラマ を 見[み] ました。", "de": "Gestern Abend habe ich eine japanische Serie geschaut." } },
+    { "id": "doraibu", "word": "ドライブ", "de": "die Spazierfahrt (mit dem Auto)", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] に 海[うみ] まで ドライブ し ました。", "de": "Am Sonntag sind wir mit dem Auto ans Meer gefahren." }, "note": "ドライブ(を) します = eine Spritztour machen." },
+    { "id": "bijutsukan", "word": "びじゅつかん", "de": "das Kunstmuseum", "pos": "noun", "example": { "text": "土[ど]曜日[ようび] に びじゅつかん へ 行[い]き ました。", "de": "Am Samstag war ich im Kunstmuseum." }, "note": "Kanji: 美術館. Ein Museum für Geschichte heißt はくぶつかん." },
+    { "id": "issho-ni", "word": "いっしょに", "de": "zusammen; gemeinsam", "pos": "adv", "example": { "text": "いっしょに 映画[えいが] を 見[み] ませんか。", "de": "Wollen wir zusammen einen Film anschauen?" }, "note": "Mit wem? – mit と: ともだちと いっしょに. Kanji: 一緒に." },
+    { "id": "takusan", "word": "たくさん", "de": "viel; viele", "pos": "adv", "example": { "text": "週[しゅう]末[まつ] に 本[ほん] を たくさん 読[よ]み ました。", "de": "Am Wochenende habe ich viele Bücher gelesen." }, "note": "Steht meist direkt vor dem Verb – ohne Partikel." },
+    { "id": "yukkuri", "word": "ゆっくり", "de": "gemütlich; in Ruhe; langsam", "pos": "adv", "example": { "text": "日[にち]曜日[ようび] は うち で ゆっくり 休[やす]み ました。", "de": "Am Sonntag habe ich mich zu Hause in Ruhe erholt." }, "note": "ゆっくり はなして ください = Sprich bitte langsam." },
+    { "id": "mazu", "word": "まず", "de": "zuerst; erst einmal", "pos": "adv", "example": { "text": "まず シャワー を あび ます。 それから 朝[あさ]ご飯[はん] を 食[た]べ ます。", "de": "Zuerst dusche ich. Danach frühstücke ich." } },
+    { "id": "soshite", "word": "そして", "de": "und (dann); außerdem", "pos": "conj", "example": { "text": "京都[きょうと] へ 行[い]き ました。 そして、 古[ふる]い お寺[てら] を 見[み] ました。", "de": "Ich bin nach Kyoto gefahren. Und dort habe ich alte Tempel angesehen." }, "note": "Verbindet zwei Sätze. それから betont stärker die Reihenfolge („danach“)." },
+    { "id": "ototoi", "word": "おととい", "de": "vorgestern", "pos": "noun", "example": { "text": "おととい は 雨[あめ] でした。", "de": "Vorgestern hat es geregnet." } },
+    { "id": "kesa", "word": "今朝[けさ]", "de": "heute Morgen", "pos": "noun", "example": { "text": "今朝[けさ] は 六時[ろくじ] に 起[お]き ました。", "de": "Heute Morgen bin ich um sechs aufgestanden." }, "note": "Besondere Lesung: nicht いまあさ, sondern けさ." },
+    { "id": "yuube", "word": "ゆうべ", "de": "gestern Abend; letzte Nacht", "pos": "noun", "example": { "text": "ゆうべ は 十一時[じゅういちじ] に 寝[ね] ました。", "de": "Gestern Abend bin ich um elf ins Bett gegangen." } },
+    { "id": "isogashii", "word": "いそがしい", "de": "beschäftigt; viel zu tun haben", "pos": "adj", "forms": "いそがしいです, いそがしかったです", "example": { "text": "母[はは] は 毎日[まいにち] いそがしい です。", "de": "Meine Mutter hat jeden Tag viel zu tun." }, "note": "Kanji: 忙しい." },
+    { "id": "sugoi", "word": "すごい", "de": "toll; super; unglaublich", "pos": "adj", "example": { "text": "一日[いちにち] に 本[ほん] を 三[さん]冊[さつ] 読[よ]み ました か。 すごい です ね！", "de": "Du hast an einem Tag drei Bücher gelesen? Wow, toll!" }, "note": "Drückt Staunen aus – meist positiv. Unter Freunden oft lang gezogen: すごーい!" }
+  ],
+  "grammar": [
+    {
+      "id": "te-form",
+      "title": "Die て-Form – so bildest du sie",
+      "blocks": [
+        { "type": "p", "text": "Viele Satzmuster bauen auf der て-Form auf. Ein paar kennst du schon aus A1 als feste Bausteine: いってください, まってください, みせてください. Jetzt lernst du, wie du die て-Form von jedem Verb selbst bildest. Dafür teilt man die Verben in drei Gruppen ein." },
+        { "type": "p", "text": "Gruppe 1 ist die größte Gruppe. Hier entscheidet der Laut direkt vor ます, wie die て-Form aussieht:" },
+        { "type": "table", "head": ["vor ます", "wird zu", "ます-Form", "て-Form"], "rows": [["い", "って", "買[か]い ます", "買[か]って"], ["ち", "って", "待[ま]ち ます", "待[ま]って"], ["り", "って", "帰[かえ]り ます", "帰[かえ]って"], ["み", "んで", "読[よ]み ます", "読[よ]んで"], ["び", "んで", "遊[あそ]び ます", "遊[あそ]んで"], ["に", "んで", "死[し]に ます", "死[し]んで"], ["き", "いて", "書[か]き ます", "書[か]いて"], ["ぎ", "いで", "急[いそ]ぎ ます", "急[いそ]いで"], ["し", "して", "話[はな]し ます", "話[はな]して"]] },
+        { "type": "tip", "text": "Merkhilfe zum Laut-Aufsagen: „い, ち, り → って · み, び, に → んで · き → いて · ぎ → いで · し → して“. Mit に gibt es übrigens nur ein einziges Verb: しにます (sterben)." },
+        { "type": "tip", "text": "Die einzige Ausnahme in Gruppe 1: いきます → いって (nicht いいて). Das kennst du schon aus まっすぐ いってください." },
+        { "type": "p", "text": "Gruppe 2 ist ganz einfach: ます weg, て dran. Vor ます steht hier meist ein e-Laut (たべます, でかけます, ねます). Einige wichtige Verben mit i-Laut gehören aber auch dazu – die lernst du am besten auswendig: みます, おきます, かります, います, あびます." },
+        { "type": "table", "head": ["ます-Form", "て-Form", "Deutsch"], "rows": [["食[た]べ ます", "食[た]べて", "essen"], ["出[で]かけ ます", "出[で]かけて", "ausgehen"], ["寝[ね] ます", "寝[ね]て", "schlafen"], ["見[み] ます", "見[み]て", "sehen"], ["起[お]き ます", "起[お]きて", "aufstehen"], ["借[か]り ます", "借[か]りて", "ausleihen"]] },
+        { "type": "p", "text": "Gruppe 3 hat nur zwei unregelmäßige Verben: します und きます. Alle Verben mit します – べんきょうします, でんわします, そうじします – gehen genauso." },
+        { "type": "table", "head": ["ます-Form", "て-Form", "Deutsch"], "rows": [["し ます", "して", "machen"], ["来[き] ます", "来[き]て", "kommen"], ["勉強[べんきょう] し ます", "勉強[べんきょう] して", "lernen"], ["電話[でんわ] し ます", "電話[でんわ] して", "anrufen"]] },
+        { "type": "tip", "text": "Woran erkennst du die Gruppe? Steht vor ます ein e-Laut, ist es fast immer Gruppe 2. Steht ein i-Laut davor, ist es meist Gruppe 1 – Ausnahmen wie みます und かります sind in den Vokabeln markiert. In Lektion 5 lernst du die Wörterbuchform, dann wird die Einteilung noch klarer." },
+        { "type": "p", "text": "Mit 〜て ください kannst du jetzt aus jedem Verb eine Bitte machen:" },
+        { "type": "examples", "items": [{ "text": "名前[なまえ] を 書[か]いて ください。", "de": "Schreib bitte deinen Namen." }, { "text": "ゆっくり 話[はな]して ください。", "de": "Sprich bitte langsam." }, { "text": "この 本[ほん] を 読[よ]んで ください。", "de": "Lies bitte dieses Buch." }, { "text": "急[いそ]いで ください！", "de": "Beeil dich bitte!" }, { "text": "あした また 来[き]て ください。", "de": "Komm bitte morgen wieder." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この 本[ほん] を ___ ください。", "answers": ["読[よ]んで"], "de": "Lies bitte dieses Buch.", "hint": "よみます" },
+        { "type": "cloze", "text": "ここ に 名前[なまえ] を ___ ください。", "answers": ["書[か]いて"], "de": "Schreib bitte hier deinen Namen hin.", "hint": "かきます" },
+        { "type": "cloze", "text": "ちょっと ___ ください。", "answers": ["待[ま]って"], "de": "Warte bitte kurz.", "hint": "まちます" },
+        { "type": "cloze", "text": "あした 八時[はちじ] に ___ ください。", "answers": ["来[き]て"], "de": "Komm bitte morgen um acht.", "hint": "きます" },
+        { "type": "cloze", "text": "この ペン を ___ ください。", "answers": ["使[つか]って"], "de": "Benutze bitte diesen Stift.", "hint": "つかいます" },
+        { "type": "choice", "prompt": "Welche て-Form gehört zu かります (ausleihen)?", "options": ["借[か]りて", "借[か]って", "借[か]んで"], "answer": 0, "explain": "かります gehört zu Gruppe 2: ます weg, て dran. かって ist die て-Form von かいます (kaufen)." },
+        { "type": "translate", "de": "Sprich bitte langsam.", "answers": ["ゆっくり 話[はな]して ください。", "ゆっくり 言[い]って ください。"] }
+      ]
+    },
+    {
+      "id": "te-reihenfolge",
+      "title": "Erst das, dann das: 〜て、〜て und 〜てから",
+      "blocks": [
+        { "type": "p", "text": "Mit der て-Form verbindest du mehrere Handlungen – in der Reihenfolge, in der sie passieren. Die Zeit (Gegenwart oder Vergangenheit) steht nur einmal: am Ende, beim letzten Verb." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["朝[あさ] 起[お]きて、 シャワー を あび ます。", "Morgens stehe ich auf und dusche."], ["朝[あさ] 起[お]きて、 シャワー を あびて、 朝[あさ]ご飯[はん] を 食[た]べ ます。", "Morgens stehe ich auf, dusche und frühstücke."], ["きのう は デパート へ 行[い]って、 服[ふく] を 買[か]い ました。", "Gestern bin ich ins Kaufhaus gegangen und habe Kleidung gekauft."], ["友[とも]だち に 会[あ]って、 いっしょに 映画[えいが] を 見[み] ました。", "Ich habe eine Freundin getroffen, und wir haben zusammen einen Film gesehen."]] },
+        { "type": "tip", "text": "Die て-Form selbst hat keine Zeit. Ob es um gestern oder morgen geht, zeigt erst das letzte Verb: 〜て、〜ました (Vergangenheit) oder 〜て、〜ます (Gegenwart, Zukunft)." },
+        { "type": "tip", "text": "Mehr als drei Verben hintereinander klingen schnell holprig. Fang dann einfach einen neuen Satz an – mit それから oder そして." },
+        { "type": "p", "text": "〜てから betont die Reihenfolge noch stärker: „erst A, dann B“ oder „nachdem A …“. Du hängst から direkt an die て-Form." },
+        { "type": "examples", "items": [{ "text": "宿題[しゅくだい] を して から、 テレビ を 見[み] ます。", "de": "Ich mache erst die Hausaufgaben, dann sehe ich fern." }, { "text": "晩[ばん]ご飯[はん] を 食[た]べて から、 おふろ に 入[はい]り ました。", "de": "Nach dem Abendessen habe ich gebadet." }, { "text": "電話[でんわ] して から 来[き]て ください。", "de": "Ruf bitte an, bevor du kommst." }, { "text": "日本[にほん] へ 来[き]て から、 日本語[にほんご] の 本[ほん] を たくさん 読[よ]み ました。", "de": "Seit ich in Japan bin, habe ich viele japanische Bücher gelesen." }] },
+        { "type": "tip", "text": "Nicht verwechseln: から nach der て-Form heißt „nachdem“. から nach einem Ort oder einer Uhrzeit heißt „von, ab“ (くじから = ab neun Uhr). In Lektion 5 kommt noch ein drittes から dazu: „weil“." },
+        { "type": "p", "text": "So fragst du nach dem Wochenende – und so kann eine Antwort aussehen:" },
+        { "type": "examples", "items": [{ "text": "週[しゅう]末[まつ] は 何[なに] を し ました か。", "de": "Was hast du am Wochenende gemacht?" }, { "text": "土[ど]曜日[ようび] は 図[と]書[しょ]館[かん] で 本[ほん] を 借[か]りて、 カフェ で 読[よ]み ました。", "de": "Am Samstag habe ich mir in der Bibliothek Bücher ausgeliehen und sie im Café gelesen." }, { "text": "日[にち]曜日[ようび] は まず そうじ を して、 それから 友[とも]だち と 遊[あそ]び ました。", "de": "Am Sonntag habe ich zuerst geputzt, und danach habe ich mich mit Freunden getroffen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "朝[あさ] 起[お]きて、 シャワー を ___、 朝[あさ]ご飯[はん] を 食[た]べ ました。", "answers": ["あびて"], "de": "Ich bin aufgestanden, habe geduscht und gefrühstückt.", "hint": "あびます" },
+        { "type": "cloze", "text": "宿題[しゅくだい] を して ___、 遊[あそ]び ます。", "answers": ["から"], "de": "Ich mache erst die Hausaufgaben, dann spiele ich." },
+        { "type": "cloze", "text": "デパート へ ___、 くつ を 買[か]い ました。", "answers": ["行[い]って"], "de": "Ich bin ins Kaufhaus gegangen und habe Schuhe gekauft.", "hint": "いきます" },
+        { "type": "order", "de": "Nach dem Abendessen habe ich ferngesehen.", "answer": "晩[ばん]ご飯[はん] を 食[た]べて から テレビ を 見[み] ました。", "distractors": ["食[た]べ"] },
+        { "type": "translate", "de": "Ich habe einen Freund getroffen, und wir haben zusammen Tennis gespielt.", "answers": ["私[わたし] は 友[とも]だち に 会[あ]って、 いっしょに テニス を し ました。", "私[わたし] は 友[とも]だち に 会[あ]って、 テニス を し ました。", "私[わたし] は 友[とも]だち と 会[あ]って、 いっしょに テニス を し ました。", "私[わたし] は 友[とも]だち と 会[あ]って、 テニス を し ました。", "友[とも]だち に 会[あ]って、 いっしょに テニス を し ました。", "友[とも]だち に 会[あ]って、 テニス を し ました。", "友[とも]だち と 会[あ]って、 いっしょに テニス を し ました。", "友[とも]だち と 会[あ]って、 テニス を し ました。"] },
+        { "type": "translate", "de": "Ich gehe erst einkaufen, dann nach Hause.", "answers": ["私[わたし] は 買[か]い物[もの] を して から、 うち へ 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] を して から、 うち に 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] を して から、 家[いえ] へ 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] を して から、 家[いえ] に 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] して から、 うち へ 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] して から、 うち に 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] して から、 家[いえ] へ 帰[かえ]り ます。", "私[わたし] は 買[か]い物[もの] して から、 家[いえ] に 帰[かえ]り ます。", "買[か]い物[もの] を して から、 うち へ 帰[かえ]り ます。", "買[か]い物[もの] を して から、 うち に 帰[かえ]り ます。", "買[か]い物[もの] を して から、 家[いえ] へ 帰[かえ]り ます。", "買[か]い物[もの] を して から、 家[いえ] に 帰[かえ]り ます。", "買[か]い物[もの] して から、 うち へ 帰[かえ]り ます。", "買[か]い物[もの] して から、 うち に 帰[かえ]り ます。", "買[か]い物[もの] して から、 家[いえ] へ 帰[かえ]り ます。", "買[か]い物[もの] して から、 家[いえ] に 帰[かえ]り ます。"] },
+        { "type": "listen", "text": "電話[でんわ] して から 来[き]て ください。", "de": "Ruf bitte an, bevor du kommst." }
+      ]
+    },
+    {
+      "id": "adjektive-vergangenheit",
+      "title": "Wie war’s? – Adjektive in der Vergangenheit",
+      "blocks": [
+        { "type": "p", "text": "In A1 hast du たのしかったです als festen Ausdruck gelernt. Jetzt kommt die Regel: Bei い-Adjektiven wird das い am Ende zu かった. です bleibt einfach stehen. Verneint wird aus くない → くなかった." },
+        { "type": "table", "head": ["", "jetzt", "Vergangenheit"], "rows": [["bejaht", "楽[たの]しい です", "楽[たの]しかった です"], ["verneint", "楽[たの]しくない です", "楽[たの]しくなかった です"], ["bejaht", "いそがしい です", "いそがしかった です"], ["verneint", "おもしろくない です", "おもしろくなかった です"], ["bejaht", "いい です", "よかった です"], ["verneint", "よくない です", "よくなかった です"]] },
+        { "type": "tip", "text": "いい (gut) ist unregelmäßig: Seine Formen kommen von よい. Also よかったです (war gut) und よくなかったです (war nicht gut) – niemals いかった!" },
+        { "type": "tip", "text": "Ein häufiger Fehler ist たのしいでした. Bei い-Adjektiven steckt die Vergangenheit im Adjektiv selbst – です ändert sich nicht." },
+        { "type": "p", "text": "Bei な-Adjektiven und Nomen kennst du es schon aus A1: です wird zu でした, じゃ ありません wird zu じゃ ありませんでした." },
+        { "type": "table", "head": ["", "jetzt", "Vergangenheit"], "rows": [["な-Adjektiv", "ひま です", "ひま でした"], ["verneint", "ひま じゃ ありません", "ひま じゃ ありませんでした"], ["Nomen", "いい 天気[てんき] です", "いい 天気[てんき] でした"]] },
+        { "type": "p", "text": "Wie etwas war, fragst du mit 〜は どうでしたか:" },
+        { "type": "examples", "items": [{ "text": "週[しゅう]末[まつ] は どう でした か。", "de": "Wie war dein Wochenende?" }, { "text": "とても 楽[たの]しかった です。", "de": "Es war sehr schön." }, { "text": "映画[えいが] は おもしろかった です か。", "de": "War der Film spannend?" }, { "text": "いいえ、 あまり おもしろくなかった です。", "de": "Nein, nicht besonders." }, { "text": "先[せん]週[しゅう] は いそがしかった です。", "de": "Letzte Woche hatte ich viel zu tun." }, { "text": "きのう は ひま でした。", "de": "Gestern hatte ich Zeit." }] },
+        { "type": "tip", "text": "Erzählt jemand etwas Schönes, reagierst du mit よかったですね! (Wie schön!). Bei etwas Unangenehmem sagst du たいへんでしたね (Das war ja anstrengend)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "旅[りょ]行[こう] は とても ___ です。", "answers": ["楽[たの]しかった"], "de": "Die Reise hat sehr viel Spaß gemacht.", "hint": "たのしい" },
+        { "type": "cloze", "text": "その 映画[えいが] は ___ です。", "answers": ["おもしろくなかった"], "de": "Der Film war nicht spannend.", "hint": "おもしろい, verneint" },
+        { "type": "cloze", "text": "パーティー は ___ です。", "answers": ["よかった"], "de": "Die Party war gut.", "hint": "いい" },
+        { "type": "cloze", "text": "きのう は いい 天気[てんき] ___。", "answers": ["でした"], "de": "Gestern war schönes Wetter." },
+        { "type": "choice", "prompt": "Wie sagst du „Es hat Spaß gemacht“?", "options": ["楽[たの]しかった です。", "楽[たの]しい でした。", "楽[たの]しかった でした。"], "answer": 0, "explain": "Bei い-Adjektiven steckt die Vergangenheit im Adjektiv: たのしかった です. です bleibt unverändert." },
+        { "type": "translate", "de": "Letzte Woche hatte ich viel zu tun.", "answers": ["私[わたし] は 先[せん]週[しゅう] は とても いそがしかった です。", "私[わたし] は 先[せん]週[しゅう] は いそがしかった です。", "先[せん]週[しゅう] は とても いそがしかった です。", "先[せん]週[しゅう] は いそがしかった です。", "私[わたし] は 先[せん]週[しゅう] とても いそがしかった です。", "私[わたし] は 先[せん]週[しゅう] いそがしかった です。", "先[せん]週[しゅう] とても いそがしかった です。", "先[せん]週[しゅう] いそがしかった です。"] },
+        { "type": "translate", "de": "Wie war das Wochenende?", "answers": ["週[しゅう]末[まつ] は どう でした か。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "月[げつ]曜日[ようび] の 朝[あさ]",
+    "title_de": "Montagmorgen",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 おはようございます。 週[しゅう]末[まつ] は どう でした か。", "de": "Guten Morgen, Anna! Wie war dein Wochenende?" },
+      { "speaker": "アンナ", "text": "おはようございます。 とても 楽[たの]しかった です。", "de": "Guten Morgen! Es war sehr schön." },
+      { "speaker": "けん", "text": "何[なに] を し ました か。", "de": "Was hast du gemacht?" },
+      { "speaker": "アンナ", "text": "土[ど]曜日[ようび] は ソフィー さん と びじゅつかん へ 行[い]って、 それから デパート で 買[か]い物[もの] を し ました。", "de": "Am Samstag bin ich mit Sophie ins Kunstmuseum gegangen, und danach waren wir im Kaufhaus einkaufen." },
+      { "speaker": "けん", "text": "いい です ね。 何[なに] を 買[か]い ました か。", "de": "Schön! Was hast du gekauft?" },
+      { "speaker": "アンナ", "text": "新[あたら]しい 辞[じ]書[しょ] と まんが を 買[か]い ました。 まんが で 日本語[にほんご] を 勉強[べんきょう] し ます。", "de": "Ein neues Wörterbuch und Mangas. Mit Mangas lerne ich Japanisch." },
+      { "speaker": "けん", "text": "すごい です ね！ 日[にち]曜日[ようび] は？", "de": "Super! Und am Sonntag?" },
+      { "speaker": "アンナ", "text": "日[にち]曜日[ようび] は いそがしかった です。 午前[ごぜん] は そうじ と せんたく を して、 午後[ごご] は レポート を 書[か]き ました。", "de": "Am Sonntag hatte ich viel zu tun. Vormittags habe ich geputzt und Wäsche gewaschen, und nachmittags habe ich an meiner Hausarbeit geschrieben." },
+      { "speaker": "アンナ", "text": "けん さん は 何[なに] を し ました か。", "de": "Und was hast du gemacht, Ken?" },
+      { "speaker": "けん", "text": "土[ど]曜日[ようび] は 大学[だいがく] の 友[とも]だち に 会[あ]って、 いっしょに 車[くるま] で 海[うみ] まで ドライブ し ました。", "de": "Am Samstag habe ich einen Freund aus der Unizeit getroffen, und wir sind zusammen mit dem Auto ans Meer gefahren." },
+      { "speaker": "アンナ", "text": "わあ、 いい です ね！ 海[うみ] は どう でした か。", "de": "Oh, toll! Wie war es am Meer?" },
+      { "speaker": "けん", "text": "天気[てんき] は あまり よくなかった です。 でも、 魚[さかな] が とても おいしかった です。", "de": "Das Wetter war nicht so gut. Aber der Fisch war sehr lecker." },
+      { "speaker": "けん", "text": "日[にち]曜日[ようび] は うち で ゆっくり 休[やす]み ました。 新聞[しんぶん] を 読[よ]んで、 ドラマ を 見[み]て、 十時[じゅうじ] に 寝[ね] ました。", "de": "Am Sonntag habe ich mich zu Hause ausgeruht. Ich habe Zeitung gelesen, eine Serie geschaut und bin um zehn ins Bett gegangen." },
+      { "speaker": "アンナ", "text": "どんな ドラマ です か。", "de": "Was für eine Serie ist das?" },
+      { "speaker": "けん", "text": "東京[とうきょう] の 小[ちい]さい 会社[かいしゃ] の 話[はなし] です。 とても おもしろい です よ。", "de": "Eine Geschichte über eine kleine Firma in Tokio. Sehr spannend!" },
+      { "speaker": "アンナ", "text": "そう です か。 じゃあ、 今週[こんしゅう] の 週[しゅう]末[まつ] に 見[み] ます！", "de": "Ach so. Dann schaue ich sie mir dieses Wochenende an!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["書[か]き ます", "schreiben"], ["借[か]り ます", "ausleihen"], ["返[かえ]し ます", "zurückgeben"], ["送[おく]り ます", "schicken"], ["作[つく]り ます", "machen; zubereiten"]] },
+    { "type": "match", "pairs": [["今朝[けさ]", "heute Morgen"], ["ゆうべ", "gestern Abend"], ["おととい", "vorgestern"], ["今週[こんしゅう]", "diese Woche"], ["一[いっ]週[しゅう]間[かん]", "eine Woche (lang)"]] },
+    { "type": "cloze", "text": "図[と]書[しょ]館[かん] で 本[ほん] を ___、 カフェ で 読[よ]み ました。", "answers": ["借[か]りて"], "de": "Ich habe mir in der Bibliothek ein Buch ausgeliehen und es im Café gelesen.", "hint": "かります" },
+    { "type": "cloze", "text": "日[にち]曜日[ようび] は うち で ___ 休[やす]み ました。", "answers": ["ゆっくり"], "de": "Am Sonntag habe ich mich zu Hause in Ruhe erholt." },
+    { "type": "cloze", "text": "土[ど]曜日[ようび] に 友[とも]だち ___ 会[あ]い ました。", "answers": ["に", "と"], "de": "Am Samstag habe ich einen Freund getroffen." },
+    { "type": "order", "de": "Heute Morgen habe ich Zeitung gelesen.", "answer": "今朝[けさ] 新聞[しんぶん] を 読[よ]み ました。", "distractors": ["読[よ]んで"] },
+    { "type": "order", "de": "Nach dem Putzen habe ich Wäsche gewaschen.", "answer": "そうじ を して から せんたく を し ました。", "distractors": ["が"] },
+    { "type": "translate", "de": "Was hast du am Wochenende gemacht?", "answers": ["週[しゅう]末[まつ] は 何[なに] を し ました か。", "週[しゅう]末[まつ] に 何[なに] を し ました か。", "週[しゅう]末[まつ] には 何[なに] を し ました か。", "週[しゅう]末[まつ] 何[なに] を し ました か。"] },
+    { "type": "translate", "de": "Gestern Abend habe ich meine Mutter angerufen.", "answers": ["私[わたし] は ゆうべ は 母[はは] に 電話[でんわ] を し ました。", "私[わたし] は ゆうべ は 母[はは] に 電話[でんわ] し ました。", "私[わたし] は ゆうべ 母[はは] に 電話[でんわ] を し ました。", "私[わたし] は ゆうべ 母[はは] に 電話[でんわ] し ました。", "ゆうべ は 母[はは] に 電話[でんわ] を し ました。", "ゆうべ は 母[はは] に 電話[でんわ] し ました。", "ゆうべ 母[はは] に 電話[でんわ] を し ました。", "ゆうべ 母[はは] に 電話[でんわ] し ました。", "私[わたし] は ゆうべ は 母[はは] に 電話[でんわ] を かけ ました。", "私[わたし] は ゆうべ 母[はは] に 電話[でんわ] を かけ ました。", "ゆうべ は 母[はは] に 電話[でんわ] を かけ ました。", "ゆうべ 母[はは] に 電話[でんわ] を かけ ました。"] },
+    { "type": "translate", "de": "Ich bin aufgestanden, habe gefrühstückt und bin zur Uni gegangen.", "answers": ["私[わたし] は 朝[あさ] 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] へ 行[い]き ました。", "私[わたし] は 朝[あさ] 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] に 行[い]き ました。", "私[わたし] は 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] へ 行[い]き ました。", "私[わたし] は 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] に 行[い]き ました。", "朝[あさ] 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] へ 行[い]き ました。", "朝[あさ] 起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] に 行[い]き ました。", "起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] へ 行[い]き ました。", "起[お]きて、 朝[あさ]ご飯[はん] を 食[た]べて、 大学[だいがく] に 行[い]き ました。"] },
+    { "type": "translate", "de": "Der Film war nicht spannend.", "answers": ["その 映画[えいが] は おもしろくなかった です。", "あの 映画[えいが] は おもしろくなかった です。", "この 映画[えいが] は おもしろくなかった です。", "映画[えいが] は おもしろくなかった です。", "その 映画[えいが] は おもしろく ありませんでした。", "あの 映画[えいが] は おもしろく ありませんでした。", "この 映画[えいが] は おもしろく ありませんでした。", "映画[えいが] は おもしろく ありませんでした。"] },
+    { "type": "listen", "text": "週[しゅう]末[まつ] は とても 楽[たの]しかった です。", "de": "Das Wochenende war sehr schön." },
+    { "type": "listen", "text": "宿題[しゅくだい] を して から、 友[とも]だち と 遊[あそ]び ました。", "de": "Nachdem ich die Hausaufgaben gemacht hatte, habe ich mich mit Freunden getroffen." }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-04",
+  "lang": "ja",
+  "level": "A2",
+  "number": 4,
+  "title": "春[はる] と 秋[あき] と どちら が 好[す]き です か。",
+  "title_de": "Wetter und Jahreszeiten",
+  "topic": "Über das Wetter sprechen",
+  "goals": [
+    "Du kannst über das Wetter und die vier Jahreszeiten sprechen: あついです, ゆきが ふります.",
+    "Du kannst Dinge vergleichen: なつは はるより あついです, あきの ほうが すきです, ふゆが いちばん さむいです.",
+    "Du kannst Veränderungen ausdrücken: さむく なりました, はるに なりました.",
+    "Du kannst einen einfachen Wetterbericht mit 〜でしょう verstehen."
+  ],
+  "kanji": ["雨", "雪", "風", "春", "夏", "秋", "冬"],
+  "vocab": [
+    { "id": "yuki", "word": "雪[ゆき]", "de": "der Schnee", "pos": "noun", "example": { "text": "きのう は 雪[ゆき] が 降[ふ]り ました。", "de": "Gestern hat es geschneit." } },
+    { "id": "kaze-wind", "word": "風[かぜ]", "de": "der Wind", "pos": "noun", "example": { "text": "今日[きょう] は 風[かぜ] が 強[つよ]い です ね。", "de": "Heute ist es aber windig." }, "note": "Gleich ausgesprochen wie かぜ (Erkältung, Lektion 3) – ein anderes Wort mit anderer Schreibung." },
+    { "id": "haru", "word": "春[はる]", "de": "der Frühling", "pos": "noun", "example": { "text": "もう 春[はる] です ね。", "de": "Es ist schon Frühling, nicht wahr?" } },
+    { "id": "natsu", "word": "夏[なつ]", "de": "der Sommer", "pos": "noun", "example": { "text": "日本[にほん] の 夏[なつ] は とても 暑[あつ]い です。", "de": "Der Sommer in Japan ist sehr heiß." }, "note": "なつやすみ (Sommerferien) kennst du schon aus A1." },
+    { "id": "aki", "word": "秋[あき]", "de": "der Herbst", "pos": "noun", "example": { "text": "秋[あき] は すずしい です。", "de": "Im Herbst ist es angenehm kühl." } },
+    { "id": "fuyu", "word": "冬[ふゆ]", "de": "der Winter", "pos": "noun", "example": { "text": "北海道[ほっかいどう] の 冬[ふゆ] は 寒[さむ]い です。", "de": "Der Winter in Hokkaido ist kalt." } },
+    { "id": "kisetsu", "word": "季節[きせつ]", "de": "die Jahreszeit", "pos": "noun", "example": { "text": "どの 季節[きせつ] が いちばん 好[す]き です か。", "de": "Welche Jahreszeit magst du am liebsten?" } },
+    { "id": "tenkiyohou", "word": "天気[てんき]予報[よほう]", "de": "der Wetterbericht; die Wettervorhersage", "pos": "noun", "example": { "text": "天気[てんき]予報[よほう] を 見[み] ました か。", "de": "Hast du den Wetterbericht gesehen?" } },
+    { "id": "hare", "word": "晴[は]れ", "de": "sonniges Wetter; heiter", "pos": "noun", "example": { "text": "あした は 晴[は]れ でしょう。", "de": "Morgen wird es wohl sonnig." }, "note": "Das Verb dazu: はれます = es klart auf, wird sonnig." },
+    { "id": "kumori", "word": "くもり", "de": "bewölktes Wetter; bewölkt", "pos": "noun", "example": { "text": "今日[きょう] は 一日[いちにち] くもり です。", "de": "Heute ist es den ganzen Tag bewölkt." }, "note": "Kanji: 曇り. Im Wetterbericht: はれ のち くもり = erst sonnig, später bewölkt." },
+    { "id": "ooame", "word": "大雨[おおあめ]", "de": "der starke Regen; der Wolkenbruch", "pos": "noun", "example": { "text": "きのう は 大雨[おおあめ] でした。", "de": "Gestern hat es heftig geregnet." } },
+    { "id": "taifuu", "word": "台[たい]風[ふう]", "de": "der Taifun", "pos": "noun", "example": { "text": "九月[くがつ] は 台[たい]風[ふう] が 多[おお]い です。", "de": "Im September gibt es viele Taifune." }, "note": "Taifune kommen vor allem im August und September. Das Kanji 風 liest man hier ふう." },
+    { "id": "tsuyu", "word": "梅雨[つゆ]", "de": "die Regenzeit (im Frühsommer)", "pos": "noun", "example": { "text": "六月[ろくがつ] は 梅雨[つゆ] です。 毎日[まいにち] 雨[あめ] が 降[ふ]り ます。", "de": "Im Juni ist Regenzeit. Es regnet jeden Tag." }, "note": "Etwa von Juni bis Mitte Juli – fast überall in Japan außer auf Hokkaido. Die Lesung つゆ gilt für das ganze Wort." },
+    { "id": "sora", "word": "空[そら]", "de": "der Himmel", "pos": "noun", "example": { "text": "今日[きょう] は 空[そら] が きれい です ね。", "de": "Heute ist der Himmel aber schön." } },
+    { "id": "kion", "word": "気[き]温[おん]", "de": "die (Luft-)Temperatur", "pos": "noun", "example": { "text": "今日[きょう] の 気[き]温[おん] は 三十[さんじゅう]度[ど] です。", "de": "Heute hat es dreißig Grad." } },
+    { "id": "do", "word": "〜度[ど]", "alt": ["度[ど]"], "de": "… Grad", "pos": "counter", "example": { "text": "今[いま] 何[なん]度[ど] です か。", "de": "Wie viel Grad hat es gerade?", "focus": "度[ど]" }, "note": "Auch für Fieber: さんじゅうはちど = 38 Grad." },
+    { "id": "atsui", "word": "暑[あつ]い", "de": "heiß (Wetter)", "pos": "adj", "forms": "あついです, あつくないです, あつかったです", "example": { "text": "今日[きょう] は 暑[あつ]い です ね。", "de": "Heute ist es heiß, nicht wahr?" }, "note": "Nur für Wetter und Luft. Heißes Essen oder Wasser ist auch あつい, aber mit anderem Kanji (熱い)." },
+    { "id": "samui", "word": "寒[さむ]い", "de": "kalt (Wetter)", "pos": "adj", "forms": "さむいです, さむくないです, さむかったです", "example": { "text": "冬[ふゆ] の 朝[あさ] は 寒[さむ]い です。", "de": "Im Winter ist es morgens kalt." }, "note": "Für kalte Dinge wie Getränke sagt man つめたい." },
+    { "id": "atatakai", "word": "あたたかい", "de": "warm; mild", "pos": "adj", "example": { "text": "春[はる] は あたたかい です。", "de": "Im Frühling ist es mild." }, "note": "Angenehm warm. Umgangssprachlich oft あったかい. Kanji: 暖かい." },
+    { "id": "suzushii", "word": "すずしい", "de": "kühl; angenehm frisch", "pos": "adj", "example": { "text": "秋[あき] の 夜[よる] は すずしい です。", "de": "Herbstabende sind angenehm kühl." }, "note": "Immer positiv gemeint. Kanji: 涼しい." },
+    { "id": "mushiatsui", "word": "むしあつい", "de": "schwül", "pos": "adj", "example": { "text": "東京[とうきょう] の 夏[なつ] は むしあつい です。", "de": "Der Sommer in Tokio ist schwül." }, "note": "Wörtlich „dampfend heiß“. Kanji: 蒸し暑い." },
+    { "id": "tsumetai", "word": "つめたい", "de": "kalt (Dinge, Getränke)", "pos": "adj", "example": { "text": "つめたい 水[みず] を 飲[の]み たい です。", "de": "Ich möchte kaltes Wasser trinken." }, "note": "Für Dinge, die sich kalt anfühlen. Beim Wetter heißt es さむい." },
+    { "id": "tsuyoi", "word": "強[つよ]い", "de": "stark", "pos": "adj", "example": { "text": "台[たい]風[ふう] は 雨[あめ] も 風[かぜ] も 強[つよ]い です。", "de": "Bei einem Taifun sind Regen und Wind stark." } },
+    { "id": "yowai", "word": "弱[よわ]い", "de": "schwach", "pos": "adj", "example": { "text": "雨[あめ] が 弱[よわ]く なり ました。", "de": "Der Regen hat nachgelassen.", "focus": "弱[よわ]く" } },
+    { "id": "furimasu", "word": "降[ふ]り ます", "de": "fallen (Regen, Schnee)", "pos": "verb", "forms": "ふります, ふって, ふらない, ふった", "example": { "text": "あした は 雪[ゆき] が 降[ふ]り ます か。", "de": "Schneit es morgen?" }, "note": "Regen und Schnee „fallen“: あめが ふります = es regnet." },
+    { "id": "yamimasu", "word": "やみ ます", "de": "aufhören (Regen, Schnee)", "pos": "verb", "forms": "やみます, やんで, やまない, やんだ", "example": { "text": "雨[あめ] が やみ ました。", "de": "Der Regen hat aufgehört.", "focus": "やみ" }, "note": "Kanji: 止みます." },
+    { "id": "fukimasu", "word": "ふき ます", "de": "wehen (Wind)", "pos": "verb", "forms": "ふきます, ふいて, ふかない, ふいた", "example": { "text": "強[つよ]い 風[かぜ] が ふいて います。", "de": "Es weht ein starker Wind.", "focus": "ふいて" }, "note": "Nicht verwechseln mit ふります (fallen). Kanji: 吹きます." },
+    { "id": "narimasu", "word": "なり ます", "de": "werden", "pos": "verb", "forms": "なります, なって, ならない, なった", "example": { "text": "これから 寒[さむ]く なり ます。", "de": "Ab jetzt wird es kalt." } },
+    { "id": "sakura", "word": "さくら", "de": "die Kirschblüte; der Kirschbaum", "pos": "noun", "example": { "text": "四月[しがつ] は さくら が きれい です。", "de": "Im April sind die Kirschblüten wunderschön." }, "note": "Kanji: 桜. Die Kirschblüte ist das Symbol des japanischen Frühlings." },
+    { "id": "momiji", "word": "もみじ", "de": "das rote Herbstlaub; der Ahorn", "pos": "noun", "example": { "text": "秋[あき] は 山[やま] の もみじ が きれい です。", "de": "Im Herbst ist das rote Laub in den Bergen schön." }, "note": "Im Herbst fahren viele Menschen extra in die Berge, um もみじ zu sehen." },
+    { "id": "sukii", "word": "スキー", "de": "das Skifahren; der Ski", "pos": "noun", "example": { "text": "毎年[まいとし] 冬[ふゆ] は 北海道[ほっかいどう] で スキー を し ます。", "de": "Jeden Winter fahre ich auf Hokkaido Ski." } },
+    { "id": "maitoshi", "word": "毎年[まいとし]", "de": "jedes Jahr", "pos": "adv", "example": { "text": "毎年[まいとし] 夏[なつ] に 海[うみ] へ 行[い]き ます。", "de": "Jeden Sommer fahre ich ans Meer." }, "note": "Man sagt auch まいねん. Wie まいにち steht es ohne Partikel." },
+    { "id": "asatte", "word": "あさって", "de": "übermorgen", "pos": "noun", "example": { "text": "あさって は くもり でしょう。", "de": "Übermorgen wird es wohl bewölkt." } },
+    { "id": "yori", "word": "より", "de": "als (beim Vergleich)", "pos": "particle", "example": { "text": "夏[なつ] は 春[はる] より 暑[あつ]い です。", "de": "Der Sommer ist heißer als der Frühling." }, "note": "より steht hinter dem, womit verglichen wird." },
+    { "id": "ichiban", "word": "いちばん", "alt": ["一[いち]番[ばん]"], "de": "am meisten; am …-sten", "pos": "adv", "example": { "text": "私[わたし] は 秋[あき] が いちばん 好[す]き です。", "de": "Ich mag den Herbst am liebsten." }, "note": "Kanji: 一番 – wörtlich „Nummer eins“." },
+    { "id": "zutto", "word": "ずっと", "de": "viel (mehr); die ganze Zeit", "pos": "adv", "example": { "text": "今日[きょう] は きのう より ずっと 寒[さむ]い です。", "de": "Heute ist es viel kälter als gestern." }, "note": "Zweite Bedeutung: ずっと あめでした = Es hat die ganze Zeit geregnet." },
+    { "id": "motto", "word": "もっと", "de": "mehr; noch (mehr)", "pos": "adv", "example": { "text": "もっと ゆっくり 話[はな]して ください。", "de": "Sprich bitte noch langsamer." } },
+    { "id": "dandan", "word": "だんだん", "de": "allmählich; nach und nach", "pos": "adv", "example": { "text": "だんだん あたたかく なり ます。", "de": "Es wird allmählich wärmer." } },
+    { "id": "deshou", "word": "でしょう", "de": "wahrscheinlich; wohl (Vermutung)", "pos": "other", "example": { "text": "あした は 雨[あめ] でしょう。", "de": "Morgen regnet es wohl." }, "note": "Steht an der Stelle von です und drückt eine Vermutung aus." }
+  ],
+  "grammar": [
+    {
+      "id": "vergleich",
+      "title": "Vergleichen: より, どちら, いちばん",
+      "blocks": [
+        { "type": "p", "text": "Japanische Adjektive haben keine Steigerungsformen wie „wärmer“ oder „am wärmsten“. Stattdessen zeigen kleine Wörter, was verglichen wird – das Adjektiv selbst bleibt gleich." },
+        { "type": "p", "text": "A は B より + Adjektiv: „A ist …er als B“. より steht hinter dem, womit verglichen wird." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["夏[なつ] は 春[はる] より 暑[あつ]い です。", "Der Sommer ist heißer als der Frühling."], ["東京[とうきょう] は ミュンヘン より 大[おお]きい です。", "Tokio ist größer als München."], ["今日[きょう] は きのう より ずっと 寒[さむ]い です。", "Heute ist es viel kälter als gestern."]] },
+        { "type": "p", "text": "Fragen mit zwei Möglichkeiten: A と B と どちらが + Adjektiv + ですか (Was ist …er – A oder B?). In der Antwort steht 〜の ほうが (wörtlich: „die Seite von …“)." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["春[はる] と 秋[あき] と どちら が 好[す]き です か。", "Magst du lieber den Frühling oder den Herbst?"], ["秋[あき] の ほう が 好[す]き です。", "Den Herbst mag ich lieber."], ["夏[なつ] と 冬[ふゆ] と どちら が いい です か。", "Was ist dir lieber, Sommer oder Winter?"], ["どちら も 好[す]き です。", "Ich mag beide."]] },
+        { "type": "tip", "text": "どちら kennst du schon als höfliches „wo?“. Bei Vergleichen heißt es „welches von beiden?“. Unter Freunden sagt man どっち." },
+        { "type": "p", "text": "Bei drei oder mehr Dingen: 〜の 中で + Fragewort + が いちばん + Adjektiv (Was ist am …-sten?). Das Fragewort hängt davon ab, was du vergleichst: なに (Dinge), どこ (Orte), だれ (Personen), いつ (Zeiten)." },
+        { "type": "examples", "items": [{ "text": "季節[きせつ] の 中[なか] で いつ が いちばん 好[す]き です か。", "de": "Welche Jahreszeit magst du am liebsten?" }, { "text": "秋[あき] が いちばん 好[す]き です。", "de": "Den Herbst mag ich am liebsten." }, { "text": "飲[の]み物[もの] の 中[なか] で 何[なに] が いちばん 好[す]き です か。", "de": "Welches Getränk magst du am liebsten?" }, { "text": "日本[にほん] で どこ が いちばん 寒[さむ]い です か。", "de": "Wo ist es in Japan am kältesten?" }, { "text": "北海道[ほっかいどう] が いちばん 寒[さむ]い です。", "de": "Auf Hokkaido ist es am kältesten." }] },
+        { "type": "tip", "text": "Bei Orten reicht oft で statt の 中で: にほんで いちばん たかい やまは ふじさんです (Der höchste Berg Japans ist der Fuji)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "夏[なつ] は 春[はる] ___ 暑[あつ]い です。", "answers": ["より"], "de": "Der Sommer ist heißer als der Frühling." },
+        { "type": "cloze", "text": "春[はる] と 秋[あき] と ___ が 好[す]き です か。", "answers": ["どちら", "どっち"], "de": "Magst du lieber den Frühling oder den Herbst?" },
+        { "type": "cloze", "text": "秋[あき] の ___ が 好[す]き です。", "answers": ["ほう"], "de": "Den Herbst mag ich lieber." },
+        { "type": "cloze", "text": "季節[きせつ] の 中[なか] で 冬[ふゆ] が ___ 好[す]き です。", "answers": ["いちばん", "一[いち]番[ばん]"], "de": "Von allen Jahreszeiten mag ich den Winter am liebsten." },
+        { "type": "translate", "de": "Heute ist es kälter als gestern.", "answers": ["今日[きょう] は きのう より 寒[さむ]い です。", "きのう より 今日[きょう] の ほう が 寒[さむ]い です。"] },
+        { "type": "translate", "de": "Was magst du lieber, Sommer oder Winter?", "answers": ["夏[なつ] と 冬[ふゆ] と どちら が 好[す]き です か。", "夏[なつ] と 冬[ふゆ] と どっち が 好[す]き です か。", "夏[なつ] と 冬[ふゆ] どちら が 好[す]き です か。", "夏[なつ] と 冬[ふゆ] どっち が 好[す]き です か。"] },
+        { "type": "order", "de": "Wo ist es in Japan am heißesten?", "answer": "日本[にほん] で どこ が いちばん 暑[あつ]い です か。", "distractors": ["より"] }
+      ]
+    },
+    {
+      "id": "naru",
+      "title": "Veränderungen: 〜く なります / 〜に なります",
+      "blocks": [
+        { "type": "p", "text": "なります heißt „werden“. Davor steht, was etwas wird – je nach Wortart etwas anders:" },
+        { "type": "table", "head": ["Wortart", "Regel", "Beispiel", "Deutsch"], "rows": [["い-Adjektiv", "い → く", "寒[さむ]く なり ます", "es wird kalt"], ["い-Adjektiv", "いい → よく", "よく なり ます", "es wird gut, besser"], ["な-Adjektiv", "+ に", "きれい に なり ます", "es wird schön, sauber"], ["Nomen", "+ に", "春[はる] に なり ます", "es wird Frühling"]] },
+        { "type": "tip", "text": "Wie bei よかったです (Lektion 1) wird いい zu よ: よく なります. Die く-Form kennst du schon aus 〜くないです." },
+        { "type": "p", "text": "Meist steht なります in der Vergangenheit: なりました = „ist … geworden“ – das beschreibt, wie es jetzt ist. さむく なりましたね heißt also „Jetzt ist es kalt geworden“." },
+        { "type": "examples", "items": [{ "text": "だんだん 寒[さむ]く なり ました ね。", "de": "Es ist allmählich kalt geworden, nicht wahr?" }, { "text": "もう 春[はる] に なり ました。", "de": "Es ist schon Frühling geworden." }, { "text": "雨[あめ] が 弱[よわ]く なり ました。", "de": "Der Regen hat nachgelassen." }, { "text": "かぜ は よく なり ました か。", "de": "Geht es deiner Erkältung besser?" }, { "text": "部屋[へや] が きれい に なり ました。", "de": "Das Zimmer ist sauber geworden." }, { "text": "来年[らいねん] はたち に なり ます。", "de": "Nächstes Jahr werde ich zwanzig." }] },
+        { "type": "tip", "text": "Japaner reden gern über die Jahreszeit. あつく なりましたね! oder すずしく なりましたね! ist ein perfekter Gesprächsanfang – mit Nachbarn, Kollegen oder im Laden." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "だんだん ___ なり ました ね。", "answers": ["寒[さむ]く"], "de": "Es ist allmählich kalt geworden, nicht wahr?", "hint": "さむい" },
+        { "type": "cloze", "text": "部屋[へや] が きれい ___ なり ました。", "answers": ["に"], "de": "Das Zimmer ist sauber geworden." },
+        { "type": "cloze", "text": "かぜ は ___ なり ました か。", "answers": ["よく"], "de": "Ist deine Erkältung besser geworden?", "hint": "いい" },
+        { "type": "cloze", "text": "もう 夏[なつ] ___ なり ました。", "answers": ["に"], "de": "Es ist schon Sommer geworden." },
+        { "type": "translate", "de": "Es ist warm geworden, nicht wahr?", "answers": ["あたたかく なり ました ね。", "あったかく なり ました ね。", "暖[あたた]かく なり ました ね。"] },
+        { "type": "translate", "de": "Anna, dein Japanisch ist richtig gut geworden!", "answers": ["アンナ さん、 日本語[にほんご] が 上手[じょうず] に なり ました ね。", "アンナ さん 日本語[にほんご] が 上手[じょうず] に なり ました ね。", "アンナ さん は 日本語[にほんご] が 上手[じょうず] に なり ました ね。", "アンナ さん、 日本語[にほんご] が とても 上手[じょうず] に なり ました ね。", "アンナ さん 日本語[にほんご] が とても 上手[じょうず] に なり ました ね。"] },
+        { "type": "order", "de": "Der Regen hat nachgelassen.", "answer": "雨[あめ] が 弱[よわ]く なり ました。", "distractors": ["弱[よわ]い"] }
+      ]
+    },
+    {
+      "id": "deshou",
+      "title": "Der Wetterbericht: 〜でしょう",
+      "blocks": [
+        { "type": "p", "text": "でしょう drückt eine Vermutung aus: „wahrscheinlich, wohl“. Im Wetterbericht hörst du es ständig. Es steht dort, wo sonst です steht – hinter Nomen und Adjektiven." },
+        { "type": "table", "head": ["mit です (sicher)", "mit でしょう (vermutet)", "Deutsch"], "rows": [["雨[あめ] です。", "雨[あめ] でしょう。", "Es regnet wohl."], ["晴[は]れ です。", "晴[は]れ でしょう。", "Es wird wohl sonnig."], ["寒[さむ]い です。", "寒[さむ]い でしょう。", "Es wird wohl kalt."], ["きれい です。", "きれい でしょう。", "Es ist bestimmt schön."]] },
+        { "type": "p", "text": "Bei Verben steht vor でしょう die Wörterbuchform – die lernst du in Lektion 5. Für den Wetterbericht reichen vorerst diese festen Ausdrücke:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["雨[あめ] が 降[ふ]る でしょう。", "Es wird wohl regnen."], ["雪[ゆき] が 降[ふ]る でしょう。", "Es wird wohl schneien."], ["寒[さむ]く なる でしょう。", "Es wird wohl kalt werden."], ["風[かぜ] が 強[つよ]く なる でしょう。", "Der Wind wird wohl stärker."]] },
+        { "type": "tip", "text": "ふる ist die Wörterbuchform von ふります, なる die von なります." },
+        { "type": "p", "text": "Ein Wetterbericht klingt zum Beispiel so:" },
+        { "type": "examples", "items": [{ "text": "あした の 天気[てんき] です。", "de": "Das Wetter für morgen." }, { "text": "東京[とうきょう] は 晴[は]れ でしょう。", "de": "In Tokio wird es sonnig." }, { "text": "北海道[ほっかいどう] は 雪[ゆき] が 降[ふ]る でしょう。", "de": "Auf Hokkaido wird es schneien." }, { "text": "気[き]温[おん] は 十五[じゅうご]度[ど] ぐらい でしょう。", "de": "Die Temperatur liegt bei etwa 15 Grad." }, { "text": "午後[ごご] から 風[かぜ] が 強[つよ]く なる でしょう。", "de": "Ab dem Nachmittag wird der Wind wohl stärker." }] },
+        { "type": "tip", "text": "Mit steigender Stimme wird でしょう? zu einer Frage, auf die man Zustimmung erwartet: さむいでしょう? = Ist doch kalt, oder? Unter Freunden kurz: でしょ?" },
+        { "type": "tip", "text": "Über deine eigenen Pläne sagst du nicht でしょう – die kennst du ja. Das Wort passt zu Wetter, Zukunft und allem, was du nicht sicher weißt." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あした は 雨[あめ] ___。", "answers": ["でしょう"], "de": "Morgen regnet es wohl." },
+        { "type": "cloze", "text": "あした の 東京[とうきょう] は ___ でしょう。", "answers": ["晴[は]れ"], "de": "Morgen wird es in Tokio wohl sonnig." },
+        { "type": "cloze", "text": "気[き]温[おん] は 三十[さんじゅう]___ ぐらい でしょう。", "answers": ["度[ど]"], "de": "Die Temperatur liegt wohl bei etwa 30 Grad." },
+        { "type": "cloze", "text": "雨[あめ] が ___ でしょう。", "answers": ["降[ふ]る"], "de": "Es wird wohl regnen.", "hint": "ふります (Wörterbuchform)" },
+        { "type": "translate", "de": "Morgen wird es wohl bewölkt.", "answers": ["あした は くもり でしょう。", "あした は 曇[くも]り でしょう。"] },
+        { "type": "translate", "de": "Übermorgen wird es wohl kalt.", "answers": ["あさって は 寒[さむ]い でしょう。", "あさって は 寒[さむ]く なる でしょう。"] },
+        { "type": "listen", "text": "午後[ごご] から 雨[あめ] が 降[ふ]る でしょう。", "de": "Ab dem Nachmittag wird es wohl regnen." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "天気[てんき] の 話[はなし]",
+    "title_de": "Ein Gespräch übers Wetter",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 寒[さむ]く なり ました ね。", "de": "Anna, es ist kalt geworden, was?" },
+      { "speaker": "アンナ", "text": "そう です ね。 きのう より ずっと 寒[さむ]い です。", "de": "Ja, stimmt. Viel kälter als gestern." },
+      { "speaker": "けん", "text": "天気[てんき]予報[よほう] を 見[み] ました か。 あした は 雪[ゆき] が 降[ふ]る でしょう。", "de": "Hast du den Wetterbericht gesehen? Morgen soll es schneien." },
+      { "speaker": "アンナ", "text": "え、 雪[ゆき] です か。 東京[とうきょう] は あまり 雪[ゆき] が 降[ふ]り ません ね。", "de": "Was, Schnee? In Tokio schneit es doch selten, oder?" },
+      { "speaker": "けん", "text": "ええ、 一年[いちねん] に 一[いっ]回[かい] か 二[に]回[かい] です。 ミュンヘン は どう です か。", "de": "Ja, ein- oder zweimal im Jahr. Wie ist das in München?" },
+      { "speaker": "アンナ", "text": "ミュンヘン の 冬[ふゆ] は 東京[とうきょう] より ずっと 寒[さむ]い です。 雪[ゆき] も たくさん 降[ふ]り ます。", "de": "Der Winter in München ist viel kälter als in Tokio. Es schneit auch viel." },
+      { "speaker": "けん", "text": "そう です か。 アンナ さん は どの 季節[きせつ] が いちばん 好[す]き です か。", "de": "Ach so. Welche Jahreszeit magst du am liebsten?" },
+      { "speaker": "アンナ", "text": "春[はる] が いちばん 好[す]き です。 日本[にほん] の さくら は ほんとう に きれい です ね。", "de": "Den Frühling. Die Kirschblüten in Japan sind wirklich wunderschön." },
+      { "speaker": "けん", "text": "私[わたし] は 秋[あき] の ほう が 好[す]き です。 秋[あき] は すずしい です。 そして、 もみじ が きれい です。", "de": "Ich mag den Herbst lieber. Da ist es angenehm kühl, und das Herbstlaub ist schön." },
+      { "speaker": "アンナ", "text": "夏[なつ] は どう です か。", "de": "Und der Sommer?" },
+      { "speaker": "けん", "text": "夏[なつ] は ちょっと… 東京[とうきょう] の 夏[なつ] は とても むしあつい です。 それから、 梅雨[つゆ] も 台[たい]風[ふう] も あり ます。", "de": "Der Sommer ist nicht so meins … In Tokio ist es im Sommer sehr schwül. Und dann gibt es noch die Regenzeit und die Taifune." },
+      { "speaker": "アンナ", "text": "あした は 寒[さむ]い でしょう ね。 私[わたし] は うち で ゆっくり し ます。", "de": "Morgen wird es bestimmt kalt. Ich mache es mir zu Hause gemütlich." },
+      { "speaker": "けん", "text": "私[わたし] は 会社[かいしゃ] です。 雪[ゆき] の 日[ひ] は 電車[でんしゃ] が おそく なり ます。 早[はや]く 出[で]た ほう が いい です ね。", "de": "Ich muss zur Arbeit. Bei Schnee haben die Züge Verspätung. Ich sollte lieber früh losgehen." },
+      { "speaker": "アンナ", "text": "そう です ね。 気[き] を つけて ください。", "de": "Stimmt. Pass auf dich auf!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["春[はる]", "der Frühling"], ["夏[なつ]", "der Sommer"], ["秋[あき]", "der Herbst"], ["冬[ふゆ]", "der Winter"], ["季節[きせつ]", "die Jahreszeit"]] },
+    { "type": "match", "pairs": [["晴[は]れ", "sonnig"], ["くもり", "bewölkt"], ["雨[あめ]", "der Regen"], ["雪[ゆき]", "der Schnee"], ["風[かぜ]", "der Wind"], ["台[たい]風[ふう]", "der Taifun"]] },
+    { "type": "cloze", "text": "東京[とうきょう] の 夏[なつ] は とても ___ です。", "answers": ["むしあつい"], "de": "Der Sommer in Tokio ist sehr schwül." },
+    { "type": "cloze", "text": "雨[あめ] が ___ ました。", "answers": ["やみ"], "de": "Der Regen hat aufgehört." },
+    { "type": "cloze", "text": "___ 水[みず] を ください。", "answers": ["つめたい"], "de": "Kaltes Wasser, bitte." },
+    { "type": "order", "de": "Welche Jahreszeit magst du am liebsten?", "answer": "どの 季節[きせつ] が いちばん 好[す]き です か。", "distractors": ["より"] },
+    { "type": "order", "de": "Es ist allmählich warm geworden.", "answer": "だんだん あたたかく なり ました。", "distractors": ["あたたかい"] },
+    { "type": "translate", "de": "Auf Hokkaido schneit es im Winter viel.", "answers": ["北海道[ほっかいどう] で は 冬[ふゆ] に 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で は 冬[ふゆ] に 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] で は 冬[ふゆ] は 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で は 冬[ふゆ] は 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] で は 冬[ふゆ] 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で は 冬[ふゆ] 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] に 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] に 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] は 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] は 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] で 冬[ふゆ] 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] に 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] に 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] は 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] は 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] は 冬[ふゆ] 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] に 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] に 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] は 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] は 雪[ゆき] が よく 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] 雪[ゆき] が たくさん 降[ふ]り ます。", "北海道[ほっかいどう] 冬[ふゆ] 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] で は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] で は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] で 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] で 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] は 北海道[ほっかいどう] 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] で は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] で は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] で 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] で 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] に 北海道[ほっかいどう] 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] で は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] で は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] で 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] で 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] は 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] は 雪[ゆき] が よく 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] 雪[ゆき] が たくさん 降[ふ]り ます。", "冬[ふゆ] 北海道[ほっかいどう] 雪[ゆき] が よく 降[ふ]り ます。"] },
+    { "type": "translate", "de": "Der Herbst ist kühler als der Sommer.", "answers": ["秋[あき] は 夏[なつ] より すずしい です。", "夏[なつ] より 秋[あき] の ほう が すずしい です。"] },
+    { "type": "translate", "de": "Morgen wird es wohl regnen.", "answers": ["あした は 雨[あめ] でしょう。", "あした は 雨[あめ] が 降[ふ]る でしょう。"] },
+    { "type": "listen", "text": "今日[きょう] は 風[かぜ] が 強[つよ]い です ね。", "de": "Heute ist es aber windig." },
+    { "type": "listen", "text": "春[はる] と 秋[あき] と どちら が 好[す]き です か。", "de": "Magst du lieber den Frühling oder den Herbst?" },
+    { "type": "choice", "prompt": "Du trinkst ein eiskaltes Getränk. Was sagst du?", "options": ["つめたい です。", "寒[さむ]い です。", "すずしい です。"], "answer": 0, "explain": "Für Wetter und Luft sagt man さむい, für Dinge, die sich kalt anfühlen – wie Getränke – つめたい." }
+  ]
+}

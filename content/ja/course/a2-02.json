@@ -1,0 +1,164 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-02",
+  "lang": "ja",
+  "level": "A2",
+  "number": 2,
+  "title": "お仕事[しごと] は 何[なん] です か。",
+  "title_de": "Arbeit und Beruf",
+  "topic": "Berufe und Arbeitsalltag",
+  "goals": [
+    "Du kannst mit 〜て います sagen, was jemand gerade macht oder regelmäßig tut: いま でんわして います.",
+    "Du kannst Zustände beschreiben: すんで います, けっこんして います, しって います.",
+    "Du kannst über Berufe sprechen und sagen, wo jemand arbeitet: びょういんで はたらいて います.",
+    "Du kannst die wichtigsten Ausdrücke im Büro benutzen: おつかれさまです, おさきに しつれいします."
+  ],
+  "kanji": ["会", "社", "仕", "事", "働", "員", "先", "校"],
+  "vocab": [
+    { "id": "kaigi", "word": "会[かい]議[ぎ]", "de": "die Besprechung; die Sitzung", "pos": "noun", "example": { "text": "十時[じゅうじ] から 会[かい]議[ぎ] が あり ます。", "de": "Ab zehn Uhr habe ich eine Besprechung." } },
+    { "id": "shachou", "word": "社長[しゃちょう]", "de": "der Firmenchef; die Firmenchefin", "pos": "noun", "example": { "text": "社長[しゃちょう] は 今[いま] 会[かい]議[ぎ] を して います。", "de": "Der Chef ist gerade in einer Besprechung." }, "note": "Wörtlich „Firmen-Oberhaupt“. In der Firma spricht man ihn direkt mit しゃちょう an – ohne さん." },
+    { "id": "buchou", "word": "部[ぶ]長[ちょう]", "de": "der Abteilungsleiter; die Abteilungsleiterin", "pos": "noun", "example": { "text": "部[ぶ]長[ちょう] は あした 出[しゅっ]張[ちょう] です。", "de": "Die Abteilungsleiterin ist morgen auf Dienstreise." }, "note": "Auch hier gilt: Die Position ist zugleich die Anrede – ぶちょう!" },
+    { "id": "shain", "word": "社員[しゃいん]", "de": "Mitarbeiter/in (einer Firma)", "pos": "noun", "example": { "text": "この 会社[かいしゃ] に は 社員[しゃいん] が 百人[ひゃくにん] い ます。", "de": "Diese Firma hat hundert Mitarbeiter." }, "note": "かいしゃいん = Angestellte/r ganz allgemein; しゃいん = Mitarbeiter/in einer bestimmten Firma." },
+    { "id": "jimusho", "word": "事[じ]務所[むしょ]", "de": "das Büro", "pos": "noun", "example": { "text": "事[じ]務所[むしょ] は 駅[えき] の 近[ちか]く に あり ます。", "de": "Das Büro ist in der Nähe vom Bahnhof." } },
+    { "id": "koujou", "word": "工場[こうじょう]", "de": "die Fabrik; das Werk", "pos": "noun", "example": { "text": "父[ちち] は 車[くるま] の 工場[こうじょう] で 働[はたら]いて います。", "de": "Mein Vater arbeitet in einer Autofabrik." } },
+    { "id": "shucchou", "word": "出[しゅっ]張[ちょう]", "de": "die Dienstreise", "pos": "noun", "example": { "text": "来週[らいしゅう] 大[おお]阪[さか] へ 出[しゅっ]張[ちょう] し ます。", "de": "Nächste Woche mache ich eine Dienstreise nach Osaka." }, "note": "しゅっちょうします = eine Dienstreise machen." },
+    { "id": "zangyou", "word": "ざんぎょう", "de": "die Überstunden", "pos": "noun", "example": { "text": "今日[きょう] は ざんぎょう が あり ます。", "de": "Heute muss ich Überstunden machen." }, "note": "ざんぎょうします = Überstunden machen. Kanji: 残業." },
+    { "id": "kayoimasu", "word": "通[かよ]い ます", "de": "regelmäßig hingehen; pendeln", "pos": "verb", "forms": "かよいます, かよって", "example": { "text": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] に 通[かよ]って います。", "de": "Ich fahre jeden Tag mit dem Zug zur Arbeit.", "focus": "通[かよ]って" }, "note": "Für Schule, Uni, Arbeit oder Kurse, zu denen man regelmäßig geht. Das Ziel bekommt に." },
+    { "id": "koukou", "word": "高校[こうこう]", "de": "die Oberschule (Klasse 10 bis 12)", "pos": "noun", "example": { "text": "妹[いもうと] は 高校[こうこう] に 通[かよ]って います。", "de": "Meine jüngere Schwester geht auf die Oberschule." }, "note": "Japanische Schulen: しょうがっこう (Grundschule, 6 Jahre), ちゅうがっこう (Mittelschule, 3 Jahre), こうこう (Oberschule, 3 Jahre)." },
+    { "id": "koukousei", "word": "高校生[こうこうせい]", "de": "Oberschüler/in", "pos": "noun", "example": { "text": "弟[おとうと] は 高校生[こうこうせい] です。", "de": "Mein jüngerer Bruder ist Oberschüler." } },
+    { "id": "tenin", "word": "店[てん]員[いん]", "de": "Verkäufer/in", "pos": "noun", "example": { "text": "姉[あね] は デパート の 店[てん]員[いん] です。", "de": "Meine ältere Schwester ist Verkäuferin im Kaufhaus." } },
+    { "id": "ginkouin", "word": "銀[ぎん]行[こう]員[いん]", "de": "Bankangestellte/r", "pos": "noun", "example": { "text": "けん さん の お父[とう]さん は 銀[ぎん]行[こう]員[いん] です。", "de": "Kens Vater ist Bankangestellter." } },
+    { "id": "koumuin", "word": "公務[こうむ]員[いん]", "de": "Beamter; Beamtin", "pos": "noun", "example": { "text": "母[はは] は 公務[こうむ]員[いん] です。", "de": "Meine Mutter ist Beamtin." } },
+    { "id": "enjinia", "word": "エンジニア", "de": "Ingenieur/in; Techniker/in", "pos": "noun", "example": { "text": "私[わたし] は コンピューター の エンジニア です。", "de": "Ich bin Computeringenieurin." } },
+    { "id": "bengoshi", "word": "べんごし", "de": "Anwalt; Anwältin", "pos": "noun", "example": { "text": "べんごし の 仕事[しごと] は たいへん です。", "de": "Die Arbeit als Anwalt ist anstrengend." }, "note": "Kanji: 弁護士." },
+    { "id": "kangoshi", "word": "かんごし", "de": "Krankenpfleger/in", "pos": "noun", "example": { "text": "姉[あね] は 病院[びょういん] で かんごし を して います。", "de": "Meine ältere Schwester arbeitet als Krankenpflegerin im Krankenhaus." }, "note": "Kanji: 看護師." },
+    { "id": "keisatsukan", "word": "けいさつかん", "de": "Polizist/in", "pos": "noun", "example": { "text": "交番[こうばん] に けいさつかん が い ます。", "de": "In der Polizeiwache ist ein Polizist." }, "note": "Kanji: 警察官. Im Alltag sagt man freundlich おまわりさん." },
+    { "id": "kokku", "word": "コック", "de": "Koch; Köchin", "pos": "noun", "example": { "text": "兄[あに] は レストラン の コック です。", "de": "Mein älterer Bruder ist Koch in einem Restaurant." } },
+    { "id": "untenshu", "word": "うんてんしゅ", "de": "Fahrer/in (Bus, Taxi)", "pos": "noun", "example": { "text": "けん さん の お兄[にい]さん は タクシー の うんてんしゅ です。", "de": "Kens älterer Bruder ist Taxifahrer." }, "note": "Kanji: 運転手. Auto fahren heißt うんてんします." },
+    { "id": "shufu", "word": "しゅふ", "de": "Hausfrau; Hausmann", "pos": "noun", "example": { "text": "母[はは] は しゅふ です。", "de": "Meine Mutter ist Hausfrau." }, "note": "Kanji: 主婦 (Hausfrau) und 主夫 (Hausmann) – beides wird しゅふ gelesen." },
+    { "id": "arubaito", "word": "アルバイト", "de": "der Nebenjob; der Aushilfsjob", "pos": "noun", "example": { "text": "アンナ さん は カフェ で アルバイト を して います。", "de": "Anna jobbt in einem Café." }, "note": "Kommt vom deutschen Wort „Arbeit“! Kurz sagt man バイト." },
+    { "id": "sumimasu", "word": "住[す]み ます", "de": "wohnen", "pos": "verb", "forms": "すみます, すんで", "example": { "text": "私[わたし] は 東京[とうきょう] に 住[す]んで います。", "de": "Ich wohne in Tokio.", "focus": "住[す]んで" }, "note": "Fast immer als すんで います – „ich wohne (dauerhaft)“. Der Wohnort bekommt に." },
+    { "id": "kekkon-shimasu", "word": "結婚[けっこん] し ます", "de": "heiraten", "pos": "verb", "forms": "けっこんします, けっこんして", "example": { "text": "姉[あね] は 結婚[けっこん] して います。", "de": "Meine ältere Schwester ist verheiratet.", "focus": "結婚[けっこん] して" }, "note": "けっこんしました = hat geheiratet. けっこんして います = ist verheiratet." },
+    { "id": "shirimasu", "word": "知[し]り ます", "de": "erfahren; kennenlernen", "pos": "verb", "forms": "しります, しって", "example": { "text": "山田[やまだ] 先生[せんせい] を 知[し]って います か。", "de": "Kennst du Frau Yamada, die Lehrerin?", "focus": "知[し]って" }, "note": "Wichtig: „Ich weiß / kenne“ = しって います. „Ich weiß nicht“ = しりません – nicht しって いません!" },
+    { "id": "mochimasu", "word": "持[も]ち ます", "de": "halten; tragen; besitzen", "pos": "verb", "forms": "もちます, もって", "example": { "text": "車[くるま] を 持[も]って います か。", "de": "Hast du ein Auto?", "focus": "持[も]って" }, "note": "„Besitzen, dabeihaben“ fast immer als もって います." },
+    { "id": "tsutomemasu", "word": "つとめ ます", "de": "angestellt sein (bei)", "pos": "verb", "forms": "つとめます, つとめて", "example": { "text": "兄[あに] は 銀[ぎん]行[こう] に つとめて います。", "de": "Mein älterer Bruder ist bei einer Bank angestellt.", "focus": "つとめて" }, "note": "Die Firma bekommt に – bei はたらきます steht dagegen で. Kanji: 勤めます." },
+    { "id": "oshiemasu", "word": "教[おし]え ます", "de": "unterrichten; beibringen; sagen (eine Information)", "pos": "verb", "forms": "おしえます, おしえて", "example": { "text": "山田[やまだ] 先生[せんせい] は 日本語[にほんご] を 教[おし]え ます。", "de": "Frau Yamada unterrichtet Japanisch." }, "note": "Auch für Informationen: でんわばんごうを おしえて ください = Sag mir bitte deine Telefonnummer." },
+    { "id": "dokushin", "word": "どくしん", "de": "ledig; Single", "pos": "noun", "example": { "text": "兄[あに] は まだ どくしん です。", "de": "Mein älterer Bruder ist noch ledig." }, "note": "Kanji: 独身." },
+    { "id": "taihen", "word": "たいへん", "de": "anstrengend; schwierig; schlimm", "pos": "adj", "example": { "text": "毎日[まいにち] ざんぎょう です か。 たいへん です ね。", "de": "Jeden Tag Überstunden? Das ist ja anstrengend." }, "note": "Ein な-Adjektiv. たいへんですね ist eine typische mitfühlende Reaktion. Kanji: 大変." },
+    { "id": "otsukaresama", "word": "おつかれさま です", "de": "danke für die Arbeit; schönen Feierabend (Gruß unter Kollegen)", "pos": "phrase", "example": { "text": "あ、 けん さん、 おつかれさま です。", "de": "Oh, hallo Ken – gute Arbeit heute!" }, "note": "Wörtlich etwa: „Sie sind sicher erschöpft.“ Man sagt es im Büro zur Begrüßung, zum Abschied und nach getaner Arbeit." },
+    { "id": "osakini", "word": "お先[さき] に しつれいします", "de": "ich gehe dann schon mal (vor den anderen)", "pos": "phrase", "example": { "text": "おつかれさま です。 お先[さき] に しつれいします。", "de": "Schönen Feierabend! Ich gehe dann schon mal." }, "note": "Wer vor den anderen geht, sagt das. Die Kollegen antworten: おつかれさまでした." },
+    { "id": "meishi", "word": "めいし", "de": "die Visitenkarte", "pos": "noun", "example": { "text": "これ は 私[わたし] の めいし です。 どうぞ。", "de": "Das ist meine Visitenkarte. Bitte schön." }, "note": "Kanji: 名刺. Man überreicht sie mit beiden Händen und schaut sie kurz an – nicht einfach einstecken!" },
+    { "id": "pasokon", "word": "パソコン", "de": "der Computer; der Laptop", "pos": "noun", "example": { "text": "会社[かいしゃ] で 一日[いちにち] パソコン を 使[つか]い ます。", "de": "In der Firma arbeite ich den ganzen Tag am Computer." } },
+    { "id": "senmon", "word": "せんもん", "de": "das Fachgebiet; das Studienfach", "pos": "noun", "example": { "text": "大学[だいがく] の せんもん は 何[なん] です か。", "de": "Was ist dein Studienfach?" }, "note": "Kanji: 専門." },
+    { "id": "mou", "word": "もう", "de": "schon; bereits", "pos": "adv", "example": { "text": "もう 昼[ひる]ご飯[はん] を 食[た]べ ました か。", "de": "Hast du schon zu Mittag gegessen?" }, "note": "Antwort, wenn noch nicht: いいえ、まだです." },
+    { "id": "mada", "word": "まだ", "de": "noch; noch nicht (mit Verneinung)", "pos": "adv", "example": { "text": "まだ 結婚[けっこん] して いません。", "de": "Ich bin noch nicht verheiratet." }, "note": "„Noch nicht“ heißt まだ 〜て いません – nicht まだ 〜ませんでした." }
+  ],
+  "grammar": [
+    {
+      "id": "te-imasu-verlauf",
+      "title": "Was machst du gerade? – 〜て います",
+      "blocks": [
+        { "type": "p", "text": "Mit て-Form + います sagst du, dass eine Handlung gerade läuft – wie „gerade dabei sein“ im Deutschen. Die て-Form kennst du aus Lektion 1." },
+        { "type": "table", "head": ["ます-Form", "〜て います", "Deutsch"], "rows": [["読[よ]み ます", "読[よ]んで います", "liest gerade"], ["働[はたら]き ます", "働[はたら]いて います", "arbeitet gerade"], ["食[た]べ ます", "食[た]べて います", "isst gerade"], ["電話[でんわ] し ます", "電話[でんわ] して います", "telefoniert gerade"], ["会[かい]議[ぎ] を し ます", "会[かい]議[ぎ] を して います", "ist in einer Besprechung"]] },
+        { "type": "p", "text": "います verhält sich dabei wie ein ganz normales Verb:" },
+        { "type": "table", "head": ["Form", "Japanisch", "Deutsch"], "rows": [["jetzt", "読[よ]んで います", "liest gerade"], ["verneint", "読[よ]んで いません", "liest gerade nicht"], ["Vergangenheit", "読[よ]んで いました", "war gerade am Lesen"], ["Vergangenheit verneint", "読[よ]んで いませんでした", "war nicht am Lesen"]] },
+        { "type": "examples", "items": [{ "text": "今[いま] 何[なに] を して います か。", "de": "Was machst du gerade?" }, { "text": "メール を 書[か]いて います。", "de": "Ich schreibe gerade eine E-Mail." }, { "text": "社長[しゃちょう] は 今[いま] 電話[でんわ] して います。", "de": "Der Chef telefoniert gerade." }, { "text": "子[こ]ども が 公園[こうえん] で 遊[あそ]んで います。", "de": "Die Kinder spielen im Park." }, { "text": "きのう の 夜[よる] 九時[くじ] ごろ は ドラマ を 見[み]て いました。", "de": "Gestern Abend gegen neun habe ich gerade eine Serie geschaut." }] },
+        { "type": "p", "text": "〜て います beschreibt auch Gewohnheiten und Tätigkeiten über längere Zeit – vor allem mit まいにち oder bei Beruf und Studium:" },
+        { "type": "examples", "items": [{ "text": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] に 通[かよ]って います。", "de": "Ich fahre jeden Tag mit dem Zug zur Arbeit." }, { "text": "アンナ さん は 大学[だいがく] で 日本語[にほんご] を 勉強[べんきょう] して います。", "de": "Anna studiert an der Uni Japanisch." }, { "text": "毎朝[まいあさ] 公園[こうえん] を 走[はし]って います。", "de": "Ich jogge jeden Morgen im Park." }] },
+        { "type": "tip", "text": "Gesprochen fällt das い oft weg: よんでます, はたらいてます. Das hörst du überall – schreib aber erst einmal die volle Form." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "今[いま] 何[なに] を して ___ か。", "answers": ["います"], "de": "Was machst du gerade?" },
+        { "type": "cloze", "text": "けん さん は 今[いま] 新聞[しんぶん] を ___ います。", "answers": ["読[よ]んで"], "de": "Ken liest gerade Zeitung.", "hint": "よみます" },
+        { "type": "cloze", "text": "社長[しゃちょう] は 今[いま] 会[かい]議[ぎ] を ___ います。", "answers": ["して"], "de": "Der Chef ist gerade in einer Besprechung." },
+        { "type": "order", "de": "Ich schreibe gerade einen Brief.", "answer": "手紙[てがみ] を 書[か]いて います。", "distractors": ["書[か]き"] },
+        { "type": "translate", "de": "Ich fahre jeden Tag mit dem Fahrrad zur Uni.", "answers": ["私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 通[かよ]って います。", "私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]って います。", "私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]き ます。", "私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 通[かよ]って います。", "私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]って います。", "私[わたし] は 毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]き ます。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 通[かよ]って います。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]って います。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]き ます。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 通[かよ]って います。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]って います。", "毎日[まいにち] 自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]き ます。"] },
+        { "type": "translate", "de": "Gestern um neun Uhr abends habe ich gerade ferngesehen.", "answers": ["私[わたし] は きのう の 夜[よる] 九時[くじ] ごろ に テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] ごろ は テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] ごろ には テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] ごろ テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] に テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] は テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] には テレビ を 見[み]て いました。", "私[わたし] は きのう の 夜[よる] 九時[くじ] テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] ごろ に テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] ごろ は テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] ごろ には テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] ごろ テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] に テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] は テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] には テレビ を 見[み]て いました。", "私[わたし] は きのう の 晩[ばん] 九時[くじ] テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] ごろ に テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] ごろ は テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] ごろ には テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] ごろ テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] に テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] は テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] には テレビ を 見[み]て いました。", "私[わたし] は ゆうべ 九時[くじ] テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] ごろ に テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] ごろ は テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] ごろ には テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] ごろ テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] に テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] は テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] には テレビ を 見[み]て いました。", "私[わたし] は きのう 九時[くじ] テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] ごろ に テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] ごろ は テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] ごろ には テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] ごろ テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] に テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] は テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] には テレビ を 見[み]て いました。", "きのう の 夜[よる] 九時[くじ] テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] ごろ に テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] ごろ は テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] ごろ には テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] ごろ テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] に テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] は テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] には テレビ を 見[み]て いました。", "きのう の 晩[ばん] 九時[くじ] テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] ごろ に テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] ごろ は テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] ごろ には テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] ごろ テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] に テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] は テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] には テレビ を 見[み]て いました。", "ゆうべ 九時[くじ] テレビ を 見[み]て いました。", "きのう 九時[くじ] ごろ に テレビ を 見[み]て いました。", "きのう 九時[くじ] ごろ は テレビ を 見[み]て いました。", "きのう 九時[くじ] ごろ には テレビ を 見[み]て いました。", "きのう 九時[くじ] ごろ テレビ を 見[み]て いました。", "きのう 九時[くじ] に テレビ を 見[み]て いました。", "きのう 九時[くじ] は テレビ を 見[み]て いました。", "きのう 九時[くじ] には テレビ を 見[み]て いました。", "きのう 九時[くじ] テレビ を 見[み]て いました。"] },
+        { "type": "listen", "text": "子[こ]ども が 公園[こうえん] で 遊[あそ]んで います。", "de": "Die Kinder spielen im Park." }
+      ]
+    },
+    {
+      "id": "te-imasu-zustand",
+      "title": "Zustände: すんで います, けっこんして います, しって います",
+      "blocks": [
+        { "type": "p", "text": "Bei manchen Verben beschreibt 〜て います keinen Vorgang, sondern einen Zustand – das Ergebnis von etwas, das schon passiert ist. けっこんします heißt „heiraten“. Wer geheiratet hat, ist verheiratet: けっこんして います." },
+        { "type": "table", "head": ["Verb", "〜て います", "Deutsch"], "rows": [["結婚[けっこん] し ます (heiraten)", "結婚[けっこん] して います", "ist verheiratet"], ["住[す]み ます (wohnen)", "住[す]んで います", "wohnt (dauerhaft)"], ["知[し]り ます (erfahren)", "知[し]って います", "weiß; kennt"], ["持[も]ち ます (in die Hand nehmen)", "持[も]って います", "hat; besitzt"], ["つとめ ます (angestellt werden)", "つとめて います", "ist angestellt bei"]] },
+        { "type": "tip", "text": "Für „Ich bin verheiratet“ sagst du nie けっこんします – das hieße „Ich heirate (bald)“. けっこんしました heißt „Ich habe geheiratet“ (das Ereignis), けっこんして います „Ich bin verheiratet“ (der Zustand)." },
+        { "type": "p", "text": "Ein Sonderfall ist しります. Bejaht sagt man しって います (ich weiß, ich kenne), verneint aber nur しりません." },
+        { "type": "table", "head": ["Frage", "Ja", "Nein"], "rows": [["山田[やまだ] さん を 知[し]って います か。", "はい、 知[し]って います。", "いいえ、 知[し]りません。"]] },
+        { "type": "tip", "text": "しって いません ist falsch! Merk dir das Paar: しって います ↔ しりません." },
+        { "type": "p", "text": "Der Wohnort bekommt に: とうきょうに すんで います. Mit まだ 〜て いません sagst du „noch nicht“ – die passende Frage ist もう 〜ましたか (schon …?)." },
+        { "type": "examples", "items": [{ "text": "どこ に 住[す]んで います か。", "de": "Wo wohnst du?" }, { "text": "横浜[よこはま] に 住[す]んで います。", "de": "Ich wohne in Yokohama." }, { "text": "結婚[けっこん] して います か。", "de": "Bist du verheiratet?" }, { "text": "いいえ、 まだ 結婚[けっこん] して いません。 どくしん です。", "de": "Nein, ich bin noch nicht verheiratet. Ich bin Single." }, { "text": "車[くるま] を 持[も]って います か。", "de": "Hast du ein Auto?" }, { "text": "この 店[みせ] を 知[し]って います か。 いいえ、 知[し]りません。", "de": "Kennst du diesen Laden? – Nein." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "姉[あね] は 結婚[けっこん] ___ います。", "answers": ["して"], "de": "Meine ältere Schwester ist verheiratet." },
+        { "type": "cloze", "text": "どこ ___ 住[す]んで います か。", "answers": ["に"], "de": "Wo wohnst du?" },
+        { "type": "cloze", "text": "けん さん の 電話[でんわ]番号[ばんごう] を 知[し]って います か。 いいえ、 ___。", "answers": ["知[し]りません"], "de": "Kennst du Kens Telefonnummer? – Nein, die kenne ich nicht." },
+        { "type": "choice", "prompt": "„Ich kenne Frau Yamada nicht.“ – Welcher Satz ist richtig?", "options": ["山田[やまだ] さん を 知[し]りません。", "山田[やまだ] さん を 知[し]って いません。", "山田[やまだ] さん を 知[し]りませんでした。"], "answer": 0, "explain": "Bejaht heißt es しって います, verneint aber nur しりません." },
+        { "type": "translate", "de": "Ich wohne in Osaka.", "answers": ["私[わたし] は 大[おお]阪[さか] に 住[す]んで います。", "大[おお]阪[さか] に 住[す]んで います。"] },
+        { "type": "translate", "de": "Ich bin noch nicht verheiratet.", "answers": ["私[わたし] は まだ 結婚[けっこん] して いません。", "まだ 結婚[けっこん] して いません。"] },
+        { "type": "order", "de": "Hast du ein Auto?", "answer": "車[くるま] を 持[も]って います か。", "distractors": ["持[も]ち"] }
+      ]
+    },
+    {
+      "id": "beruf",
+      "title": "Über den Beruf sprechen: 〜で はたらいて います",
+      "blocks": [
+        { "type": "p", "text": "Nach dem Beruf fragst du höflich: おしごとは なんですか (Was machst du beruflich?). Oder genauer: どこで はたらいて いますか (Wo arbeitest du?). Antworten kannst du auf mehrere Arten:" },
+        { "type": "table", "head": ["Muster", "Beispiel", "Deutsch"], "rows": [["Beruf + です", "かんごし です。", "Ich bin Krankenpfleger/in."], ["Ort + で 働[はたら]いて います", "病院[びょういん] で 働[はたら]いて います。", "Ich arbeite im Krankenhaus."], ["Firma + に つとめて います", "銀[ぎん]行[こう] に つとめて います。", "Ich bin bei einer Bank angestellt."], ["Beruf + を して います", "病院[びょういん] で かんごし を して います。", "Ich arbeite als Krankenpfleger/in im Krankenhaus."], ["Bereich + の 仕事[しごと] を して います", "コンピューター の 仕事[しごと] を して います。", "Ich arbeite im Computerbereich."]] },
+        { "type": "tip", "text": "で oder に? はたらきます (arbeiten) ist eine Handlung an einem Ort – deshalb で, wie bei こうえんで あそびます. つとめます heißt „zu einer Firma gehören“ – deshalb に." },
+        { "type": "p", "text": "Wichtige Berufe im Überblick:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["会社員[かいしゃいん]", "Angestellte/r"], ["先生[せんせい]", "Lehrer/in"], ["医者[いしゃ]", "Arzt; Ärztin"], ["かんごし", "Krankenpfleger/in"], ["エンジニア", "Ingenieur/in"], ["べんごし", "Anwalt; Anwältin"], ["店[てん]員[いん]", "Verkäufer/in"], ["公務[こうむ]員[いん]", "Beamter; Beamtin"], ["しゅふ", "Hausfrau; Hausmann"]] },
+        { "type": "tip", "text": "Über dich selbst sagst du nie せんせい – das ist eine respektvolle Anrede für andere. Als Lehrerin sagst du zum Beispiel: こうこうで えいごを おしえて います." },
+        { "type": "tip", "text": "Im Berufsleben stellt man sich in Japan oft mit der Firma vor: さくらぎんこうの さとうです (Sato von der Sakura-Bank). Dazu gibt man die めいし." },
+        { "type": "examples", "items": [{ "text": "お仕事[しごと] は 何[なん] です か。", "de": "Was machst du beruflich?" }, { "text": "会社員[かいしゃいん] です。 車[くるま] の 会社[かいしゃ] で 働[はたら]いて います。", "de": "Ich bin Angestellter. Ich arbeite bei einer Autofirma." }, { "text": "どこ で 働[はたら]いて います か。", "de": "Wo arbeitest du?" }, { "text": "父[ちち] は 高校[こうこう] で 英語[えいご] を 教[おし]えて います。", "de": "Mein Vater unterrichtet Englisch an einer Oberschule." }, { "text": "大学[だいがく] の 先生[せんせい] です か。 すごい です ね！", "de": "Du bist Dozentin an der Uni? Toll!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "病院[びょういん] ___ 働[はたら]いて います。", "answers": ["で"], "de": "Ich arbeite im Krankenhaus." },
+        { "type": "cloze", "text": "兄[あに] は 銀[ぎん]行[こう] ___ つとめて います。", "answers": ["に"], "de": "Mein älterer Bruder ist bei einer Bank angestellt." },
+        { "type": "cloze", "text": "お___ は 何[なん] です か。", "answers": ["仕事[しごと]"], "de": "Was machst du beruflich?" },
+        { "type": "match", "pairs": [["店[てん]員[いん]", "Verkäufer/in"], ["かんごし", "Krankenpfleger/in"], ["べんごし", "Anwalt; Anwältin"], ["けいさつかん", "Polizist/in"], ["公務[こうむ]員[いん]", "Beamter; Beamtin"], ["うんてんしゅ", "Fahrer/in"]] },
+        { "type": "translate", "de": "Mein Vater arbeitet in einer Fabrik.", "answers": ["私[わたし] の 父[ちち] は 工場[こうじょう] で 働[はたら]いて います。", "父[ちち] は 工場[こうじょう] で 働[はたら]いて います。"] },
+        { "type": "translate", "de": "Wo arbeitest du?", "answers": ["どこ で 働[はたら]いて います か。", "どちら で 働[はたら]いて います か。", "どこ で 仕事[しごと] を して います か。", "どちら で 仕事[しごと] を して います か。"] },
+        { "type": "order", "de": "Meine Mutter unterrichtet Englisch an einer Oberschule.", "answer": "母[はは] は 高校[こうこう] で 英語[えいご] を 教[おし]えて います。", "distractors": ["に"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "けん さん の 会社[かいしゃ] の 人[ひと]",
+    "title_de": "Kens Kollegin",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 こちら は 会社[かいしゃ] の たなか さん です。", "de": "Anna, das ist Frau Tanaka aus meiner Firma." },
+      { "speaker": "たなか", "text": "はじめまして、 たなか です。 けん さん と いっしょに 働[はたら]いて います。 これ、 私[わたし] の めいし です。", "de": "Freut mich, ich bin Tanaka. Ich arbeite mit Ken zusammen. Hier, meine Visitenkarte." },
+      { "speaker": "アンナ", "text": "ありがとうございます。 アンナ です。 よろしく おねがいします。", "de": "Danke! Ich bin Anna. Freut mich." },
+      { "speaker": "たなか", "text": "アンナ さん も 会社[かいしゃ] で 働[はたら]いて います か。", "de": "Arbeitest du auch in einer Firma, Anna?" },
+      { "speaker": "アンナ", "text": "いいえ、 私[わたし] は 学生[がくせい] です。 大学[だいがく] で 日本[にほん] の 文化[ぶんか] を 勉強[べんきょう] して います。", "de": "Nein, ich bin Studentin. Ich studiere an der Uni japanische Kultur." },
+      { "speaker": "アンナ", "text": "それから、 週[しゅう]末[まつ] は カフェ で アルバイト を して います。", "de": "Und am Wochenende jobbe ich in einem Café." },
+      { "speaker": "たなか", "text": "そう です か。 たいへん です ね。", "de": "Ach so. Das ist bestimmt anstrengend." },
+      { "speaker": "アンナ", "text": "いいえ、 楽[たの]しい です よ。 たなか さん は どんな 仕事[しごと] を して います か。", "de": "Nein, das macht Spaß! Was für eine Arbeit machst du, Frau Tanaka?" },
+      { "speaker": "たなか", "text": "私[わたし] は エンジニア です。 毎日[まいにち] パソコン で 新[あたら]しい 車[くるま] の ソフト を 作[つく]って います。", "de": "Ich bin Ingenieurin. Ich entwickle jeden Tag am Computer Software für neue Autos." },
+      { "speaker": "けん", "text": "たなか さん は いつも いそがしい です。 毎晩[まいばん] ざんぎょう して います。", "de": "Frau Tanaka hat immer viel zu tun. Sie macht jeden Abend Überstunden." },
+      { "speaker": "たなか", "text": "毎晩[まいばん] じゃ ありません よ。 でも、 来週[らいしゅう] は 大[おお]阪[さか] へ 出[しゅっ]張[ちょう] です。", "de": "Nicht jeden Abend! Aber nächste Woche habe ich eine Dienstreise nach Osaka." },
+      { "speaker": "アンナ", "text": "たなか さん は どこ に 住[す]んで います か。", "de": "Wo wohnst du, Frau Tanaka?" },
+      { "speaker": "たなか", "text": "横浜[よこはま] に 住[す]んで います。 結婚[けっこん] して います。 おっと は 高校[こうこう] で 数学[すうがく] を 教[おし]えて います。", "de": "In Yokohama. Ich bin verheiratet. Mein Mann unterrichtet Mathe an einer Oberschule." },
+      { "speaker": "アンナ", "text": "そう です か。 先生[せんせい] の 仕事[しごと] も たいへん です ね。", "de": "Ach so. Die Arbeit als Lehrer ist auch anstrengend." },
+      { "speaker": "たなか", "text": "ええ。 あ、 もう 十時[じゅうじ] です ね。 じゃあ、 お先[さき] に しつれいします。", "de": "Ja. Oh, es ist schon zehn. Dann gehe ich schon mal." },
+      { "speaker": "けん", "text": "おつかれさま でした。 また 月[げつ]曜日[ようび] に！", "de": "Schönen Feierabend! Bis Montag!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["会[かい]議[ぎ]", "die Besprechung"], ["社長[しゃちょう]", "der Firmenchef; die Firmenchefin"], ["事[じ]務所[むしょ]", "das Büro"], ["出[しゅっ]張[ちょう]", "die Dienstreise"], ["ざんぎょう", "die Überstunden"]] },
+    { "type": "cloze", "text": "アンナ さん は カフェ で アルバイト を ___ います。", "answers": ["して"], "de": "Anna jobbt in einem Café." },
+    { "type": "cloze", "text": "社長[しゃちょう] は 今[いま] 電話[でんわ] を して います。 ___ 待[ま]って ください。", "answers": ["ちょっと", "少[すこ]し"], "de": "Der Chef telefoniert gerade. Warten Sie bitte einen Moment." },
+    { "type": "cloze", "text": "もう 昼[ひる]ご飯[はん] を 食[た]べ ました か。 いいえ、 ___ です。", "answers": ["まだ"], "de": "Hast du schon zu Mittag gegessen? – Nein, noch nicht." },
+    { "type": "order", "de": "Wo wohnst du?", "answer": "どこ に 住[す]んで います か。", "distractors": ["で"] },
+    { "type": "order", "de": "Ich fahre jeden Tag mit dem Zug zur Arbeit.", "answer": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] に 通[かよ]って います。", "distractors": ["を"] },
+    { "type": "translate", "de": "Was machst du beruflich?", "answers": ["お仕事[しごと] は 何[なん] です か。", "仕事[しごと] は 何[なん] です か。", "どんな お仕事[しごと] を して います か。", "どんな 仕事[しごと] を して います か。", "何[なん] の お仕事[しごと] を して います か。", "何[なん] の 仕事[しごと] を して います か。"] },
+    { "type": "translate", "de": "Meine ältere Schwester ist Krankenpflegerin.", "answers": ["私[わたし] の 姉[あね] は かんごし です。", "姉[あね] は かんごし です。", "私[わたし] の 姉[あね] は かんごし を して います。", "姉[あね] は かんごし を して います。"] },
+    { "type": "translate", "de": "Ich kenne diesen Laden nicht.", "answers": ["私[わたし] は この 店[みせ] を 知[し]りません。", "私[わたし] は この 店[みせ] は 知[し]りません。", "この 店[みせ] を 知[し]りません。", "この 店[みせ] は 知[し]りません。"] },
+    { "type": "translate", "de": "Ken ist bei einer Autofirma angestellt.", "answers": ["けん さん は 車[くるま] の 会社[かいしゃ] に つとめて います。", "けん さん は 車[くるま] の 会社[かいしゃ] で 働[はたら]いて います。"] },
+    { "type": "listen", "text": "おつかれさま です。 お先[さき] に しつれいします。", "de": "Schönen Feierabend! Ich gehe dann schon mal." },
+    { "type": "listen", "text": "兄[あに] は まだ 結婚[けっこん] して いません。", "de": "Mein älterer Bruder ist noch nicht verheiratet." },
+    { "type": "choice", "prompt": "Du verlässt das Büro vor deinen Kolleginnen und Kollegen. Was sagst du?", "options": ["お先[さき] に しつれいします。", "いただきます。", "おじゃまします。"], "answer": 0, "explain": "Wer vor den anderen geht, sagt おさきに しつれいします. Die Kollegen antworten: おつかれさまでした." }
+  ]
+}

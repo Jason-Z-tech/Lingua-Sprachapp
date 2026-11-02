@@ -1,0 +1,167 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-03",
+  "lang": "ja",
+  "level": "A2",
+  "number": 3,
+  "title": "どう し ました か。",
+  "title_de": "Gesundheit",
+  "topic": "Körper, Beschwerden und beim Arzt",
+  "goals": [
+    "Du kannst die wichtigsten Körperteile nennen und sagen, was dir wehtut: あたまが いたいです.",
+    "Du kannst die ない-Form bilden und mit 〜ないで ください um etwas bitten: のまないで ください.",
+    "Du kannst die た-Form bilden und mit 〜た ほうが いいです Ratschläge geben: はやく ねた ほうが いいです.",
+    "Du kannst beim Arzt sagen, wie es dir geht, und die Anweisungen verstehen."
+  ],
+  "kanji": ["目", "耳", "手", "足", "体", "病", "院", "医"],
+  "vocab": [
+    { "id": "karada", "word": "体[からだ]", "de": "der Körper", "pos": "noun", "example": { "text": "体[からだ] に 気[き] を つけて ください。", "de": "Pass gut auf dich auf." }, "note": "からだに いい = gesund (wörtlich: gut für den Körper)." },
+    { "id": "atama", "word": "頭[あたま]", "de": "der Kopf", "pos": "noun", "example": { "text": "頭[あたま] が いたい です。", "de": "Ich habe Kopfschmerzen." } },
+    { "id": "kao", "word": "顔[かお]", "de": "das Gesicht", "pos": "noun", "example": { "text": "顔[かお] が 赤[あか]い です よ。 ねつ が あり ます か。", "de": "Du bist ganz rot im Gesicht. Hast du Fieber?" } },
+    { "id": "me", "word": "目[め]", "de": "das Auge", "pos": "noun", "example": { "text": "目[め] が 赤[あか]い です ね。", "de": "Deine Augen sind ja ganz rot." }, "note": "Das Kanji kennst du schon aus ふたつめ (der/die/das Zweite)." },
+    { "id": "mimi", "word": "耳[みみ]", "de": "das Ohr", "pos": "noun", "example": { "text": "耳[みみ] が 少[すこ]し いたい です。", "de": "Mein Ohr tut ein bisschen weh." } },
+    { "id": "hana-nase", "word": "鼻[はな]", "de": "die Nase", "pos": "noun", "example": { "text": "ぞう は 鼻[はな] が 長[なが]い です。", "de": "Elefanten haben eine lange Nase." }, "note": "Gleich ausgesprochen wie はな (Blume) – aber ein anderes Wort und ein anderes Kanji." },
+    { "id": "kuchi", "word": "口[くち]", "de": "der Mund", "pos": "noun", "example": { "text": "口[くち] を あけて ください。", "de": "Machen Sie bitte den Mund auf." }, "note": "Das Kanji 口 kennst du aus いりぐち und でぐち – ein Eingang ist eine „Öffnung“." },
+    { "id": "ha", "word": "歯[は]", "de": "der Zahn; die Zähne", "pos": "noun", "example": { "text": "歯[は] が いたい です。", "de": "Ich habe Zahnschmerzen." } },
+    { "id": "te", "word": "手[て]", "de": "die Hand", "pos": "noun", "example": { "text": "ご飯[はん] の 前[まえ] に 手[て] を 洗[あら]って ください。", "de": "Wasch dir bitte vor dem Essen die Hände." } },
+    { "id": "ashi", "word": "足[あし]", "de": "der Fuß; das Bein", "pos": "noun", "example": { "text": "きのう たくさん 歩[ある]いて、 足[あし] が いたい です。", "de": "Ich bin gestern viel gelaufen, jetzt tun mir die Füße weh." }, "note": "あし ist Fuß und Bein zusammen." },
+    { "id": "onaka", "word": "おなか", "de": "der Bauch", "pos": "noun", "example": { "text": "おなか が すき ました。", "de": "Ich habe Hunger." }, "note": "おなかが すきました = Ich habe Hunger (wörtlich: Der Bauch ist leer geworden)." },
+    { "id": "nodo", "word": "のど", "de": "der Hals (innen); die Kehle", "pos": "noun", "example": { "text": "のど が いたい です。", "de": "Ich habe Halsschmerzen." }, "note": "のどが かわきました = Ich habe Durst." },
+    { "id": "senaka", "word": "せなか", "de": "der Rücken", "pos": "noun", "example": { "text": "毎日[まいにち] パソコン を 使[つか]って、 せなか が いたい です。", "de": "Ich sitze jeden Tag am Computer, und jetzt tut mir der Rücken weh." } },
+    { "id": "byouki", "word": "病気[びょうき]", "de": "die Krankheit; krank", "pos": "noun", "example": { "text": "けん さん は 今[いま] 病気[びょうき] です。", "de": "Ken ist gerade krank." }, "note": "Ein Nomen: びょうきです = ist krank." },
+    { "id": "isha", "word": "医[い]者[しゃ]", "de": "der Arzt; die Ärztin", "pos": "noun", "example": { "text": "医[い]者[しゃ] に 行[い]った ほう が いい です よ。", "de": "Du solltest zum Arzt gehen." }, "note": "Als Anrede sagt man せんせい. Höflich über einen Arzt: おいしゃさん." },
+    { "id": "haisha", "word": "歯[は]医[い]者[しゃ]", "de": "der Zahnarzt; die Zahnärztin", "pos": "noun", "example": { "text": "あした 歯[は]医[い]者[しゃ] へ 行[い]き ます。", "de": "Morgen gehe ich zum Zahnarzt." } },
+    { "id": "kaze", "word": "かぜ", "de": "die Erkältung", "pos": "noun", "example": { "text": "かぜ を ひき ました。", "de": "Ich habe mich erkältet." }, "note": "かぜを ひきます = sich erkälten (wörtlich: eine Erkältung „ziehen“). Kanji: 風邪." },
+    { "id": "netsu", "word": "ねつ", "de": "das Fieber", "pos": "noun", "example": { "text": "ねつ が あり ます。 三十八[さんじゅうはち]度[ど] です。", "de": "Ich habe Fieber. 38 Grad." }, "note": "ねつが あります = Ich habe Fieber. Kanji: 熱." },
+    { "id": "seki", "word": "せき", "de": "der Husten", "pos": "noun", "example": { "text": "せき が 出[で] ます。", "de": "Ich habe Husten." }, "note": "せきが でます – wörtlich: „Husten kommt heraus“." },
+    { "id": "kusuri", "word": "くすり", "de": "das Medikament; die Arznei", "pos": "noun", "example": { "text": "この くすり を 一日[いちにち] 三[さん]回[かい] 飲[の]んで ください。", "de": "Nehmen Sie dieses Medikament dreimal täglich." }, "note": "Medikamente „trinkt“ man im Japanischen: くすりを のみます – auch Tabletten. Kanji: 薬." },
+    { "id": "itai", "word": "いたい", "de": "weh tun; schmerzhaft", "pos": "adj", "forms": "いたいです, いたくないです, いたかったです", "example": { "text": "どこ が いたい です か。", "de": "Wo tut es weh?" }, "note": "Was weh tut, bekommt が. Kanji: 痛い." },
+    { "id": "warui", "word": "悪[わる]い", "de": "schlecht; schlimm", "pos": "adj", "forms": "わるいです, わるくないです, わるかったです", "example": { "text": "今日[きょう] は 気分[きぶん] が 悪[わる]い です。", "de": "Heute fühle ich mich nicht gut." } },
+    { "id": "kibun", "word": "気分[きぶん]", "de": "das Befinden; die Stimmung", "pos": "noun", "example": { "text": "気分[きぶん] は どう です か。", "de": "Wie fühlst du dich?" }, "note": "きぶんが わるいです = Mir ist schlecht / Ich fühle mich nicht gut." },
+    { "id": "kega", "word": "けが", "de": "die Verletzung", "pos": "noun", "example": { "text": "サッカー で 足[あし] に けが を し ました。", "de": "Ich habe mir beim Fußball das Bein verletzt." }, "note": "けがを します = sich verletzen. Kanji: 怪我." },
+    { "id": "nyuuin", "word": "入院[にゅういん] し ます", "de": "ins Krankenhaus kommen (stationär)", "pos": "verb", "forms": "にゅういんします, にゅういんして", "example": { "text": "おじいさん は 先週[せんしゅう] から 入院[にゅういん] して います。", "de": "Mein Großvater liegt seit letzter Woche im Krankenhaus.", "focus": "入院[にゅういん] して" }, "note": "入 (hinein) + 院 (Institution). Das Gegenteil: たいいんします (entlassen werden)." },
+    { "id": "naorimasu", "word": "なおり ます", "de": "gesund werden; heilen", "pos": "verb", "forms": "なおります, なおって, なおらない, なおった", "example": { "text": "かぜ は もう なおり ました か。", "de": "Ist deine Erkältung schon wieder gut?", "focus": "なおり" }, "note": "Kanji: 治ります." },
+    { "id": "araimasu", "word": "洗[あら]い ます", "de": "waschen", "pos": "verb", "forms": "あらいます, あらって, あらわない, あらった", "example": { "text": "うち に 帰[かえ]って、 すぐ 手[て] を 洗[あら]い ます。", "de": "Wenn ich nach Hause komme, wasche ich mir sofort die Hände." }, "note": "Achtung bei der ない-Form: あらわない (mit わ!)." },
+    { "id": "tsukaremasu", "word": "つかれ ます", "de": "müde werden; erschöpft sein", "pos": "verb", "forms": "つかれます, つかれて, つかれない, つかれた", "example": { "text": "今日[きょう] は とても つかれ ました。", "de": "Heute bin ich sehr müde.", "focus": "つかれ" }, "note": "„Ich bin müde“ heißt つかれました – in der Vergangenheit, weil das Müde-Werden schon passiert ist. Gruppe 2. Kanji: 疲れます." },
+    { "id": "suimasu", "word": "すい ます", "de": "rauchen; einatmen", "pos": "verb", "forms": "すいます, すって, すわない, すった", "example": { "text": "たばこ を すい ます か。", "de": "Rauchst du?" }, "note": "Kanji: 吸います." },
+    { "id": "tabako", "word": "たばこ", "de": "die Zigarette; der Tabak", "pos": "noun", "example": { "text": "ここ で たばこ を すわないで ください。", "de": "Bitte rauchen Sie hier nicht." } },
+    { "id": "osake", "word": "お酒[さけ]", "de": "der Alkohol; der Sake (Reiswein)", "pos": "noun", "example": { "text": "私[わたし] は お酒[さけ] を あまり 飲[の]み ません。", "de": "Ich trinke nicht viel Alkohol." }, "note": "おさけ heißt allgemein „Alkohol“. Den japanischen Reiswein nennt man genauer にほんしゅ." },
+    { "id": "undou", "word": "運動[うんどう]", "de": "die Bewegung; der Sport (für die Gesundheit)", "pos": "noun", "example": { "text": "毎日[まいにち] 少[すこ]し 運動[うんどう] した ほう が いい です。", "de": "Du solltest dich jeden Tag ein bisschen bewegen." }, "note": "うんどうします = sich bewegen, Sport treiben." },
+    { "id": "arukimasu", "word": "歩[ある]き ます", "de": "(zu Fuß) gehen; spazieren gehen", "pos": "verb", "forms": "あるきます, あるいて, あるかない, あるいた", "example": { "text": "毎日[まいにち] 三十分[さんじゅっぷん] 歩[ある]き ます。", "de": "Ich gehe jeden Tag dreißig Minuten zu Fuß." }, "note": "あるいて (zu Fuß) aus A1 ist die て-Form dieses Verbs!" },
+    { "id": "muri", "word": "むり", "de": "zu viel; übertrieben; unmöglich", "pos": "adj", "example": { "text": "むり を しないで ください。", "de": "Übernimm dich bitte nicht." }, "note": "むりを しないで ください – das sagt man Kranken und gestressten Kollegen. Kanji: 無理." },
+    { "id": "hayai", "word": "早[はや]い", "de": "früh", "pos": "adj", "forms": "はやいです, はやく (Adverb)", "example": { "text": "今日[きょう] は 早[はや]く 寝[ね]て ください。", "de": "Geh heute bitte früh ins Bett.", "focus": "早[はや]く" }, "note": "Als Adverb: はやく = früh. Mit dem Kanji 速い heißt はやい „schnell“." },
+    { "id": "doushimashitaka", "word": "どう し ました か", "de": "Was ist los?; Was fehlt Ihnen?", "pos": "phrase", "example": { "text": "どう し ました か。 顔[かお] が 赤[あか]い です よ。", "de": "Was ist los? Du bist ganz rot im Gesicht." }, "note": "Diese Frage hörst du beim Arzt als Erstes." },
+    { "id": "odaijini", "word": "お大事[だいじ]に", "de": "Gute Besserung!", "pos": "phrase", "example": { "text": "かぜ です か。 お大事[だいじ]に。", "de": "Du bist erkältet? Gute Besserung!" }, "note": "Sagt man zu Kranken – auch der Arzt zum Abschied. Das Kanji 事 kennst du aus しごと." },
+    { "id": "uketsuke", "word": "うけつけ", "de": "die Anmeldung; der Empfang", "pos": "noun", "example": { "text": "まず うけつけ で 名前[なまえ] を 書[か]いて ください。", "de": "Schreiben Sie bitte zuerst an der Anmeldung Ihren Namen auf." }, "note": "Kanji: 受付." },
+    { "id": "hokenshou", "word": "ほけんしょう", "de": "die Versichertenkarte", "pos": "noun", "example": { "text": "ほけんしょう を 持[も]って います か。", "de": "Haben Sie Ihre Versichertenkarte dabei?" }, "note": "Beim Arztbesuch in Japan immer mitbringen! Kanji: 保険証." }
+  ],
+  "grammar": [
+    {
+      "id": "beschwerden",
+      "title": "Körper und Beschwerden: 〜が いたいです",
+      "blocks": [
+        { "type": "p", "text": "Beim Arzt fragt man dich: どう しましたか (Was fehlt Ihnen?). Du antwortest mit dem Körperteil + が + いたいです (… tut weh)." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["頭[あたま] が いたい です。", "Ich habe Kopfschmerzen."], ["おなか が いたい です。", "Ich habe Bauchschmerzen."], ["のど が いたい です。", "Ich habe Halsschmerzen."], ["歯[は] が いたい です。", "Ich habe Zahnschmerzen."], ["足[あし] が いたい です。", "Mir tut der Fuß weh."]] },
+        { "type": "p", "text": "Andere Beschwerden drückst du mit あります, でます oder einem festen Ausdruck aus:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["ねつ が あり ます。", "Ich habe Fieber."], ["せき が 出[で] ます。", "Ich habe Husten."], ["気分[きぶん] が 悪[わる]い です。", "Mir ist schlecht."], ["かぜ を ひき ました。", "Ich habe mich erkältet."], ["つかれ ました。", "Ich bin müde."], ["けが を し ました。", "Ich habe mich verletzt."]] },
+        { "type": "tip", "text": "Seit wann? – Mit から: きのうから あたまが いたいです (seit gestern). Die Frage dazu heißt いつからですか." },
+        { "type": "tip", "text": "いたい ist ein い-Adjektiv. Also: いたくないです (tut nicht weh), いたかったです (tat weh) – genau wie in Lektion 1." },
+        { "type": "examples", "items": [{ "text": "どう し ました か。", "de": "Was fehlt Ihnen?" }, { "text": "きのう から 頭[あたま] が いたい です。", "de": "Ich habe seit gestern Kopfschmerzen." }, { "text": "どこ が いたい です か。", "de": "Wo tut es weh?" }, { "text": "ここ が いたい です。", "de": "Hier tut es weh." }, { "text": "ねつ は あり ます か。", "de": "Haben Sie Fieber?" }, { "text": "いいえ、 ありません。 でも、 せき が 出[で] ます。", "de": "Nein. Aber ich habe Husten." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "頭[あたま] ___ いたい です。", "answers": ["が"], "de": "Ich habe Kopfschmerzen." },
+        { "type": "cloze", "text": "きのう ___ のど が いたい です。", "answers": ["から"], "de": "Ich habe seit gestern Halsschmerzen." },
+        { "type": "cloze", "text": "ねつ が ___。", "answers": ["あり ます"], "de": "Ich habe Fieber." },
+        { "type": "match", "pairs": [["頭[あたま]", "der Kopf"], ["目[め]", "das Auge"], ["耳[みみ]", "das Ohr"], ["手[て]", "die Hand"], ["足[あし]", "der Fuß; das Bein"], ["おなか", "der Bauch"]] },
+        { "type": "translate", "de": "Ich habe Bauchschmerzen.", "answers": ["私[わたし] は おなか が いたい です。", "おなか が いたい です。"] },
+        { "type": "translate", "de": "Ich habe mich erkältet.", "answers": ["私[わたし] は かぜ を ひき ました。", "かぜ を ひき ました。", "私[わたし] は かぜ を ひいて います。", "かぜ を ひいて います。"] },
+        { "type": "order", "de": "Wo tut es weh?", "answer": "どこ が いたい です か。", "distractors": ["を"] }
+      ]
+    },
+    {
+      "id": "nai-form",
+      "title": "Die ない-Form und 〜ないで ください (bitte nicht …)",
+      "blocks": [
+        { "type": "p", "text": "Die ない-Form ist die einfache (nicht höfliche) Verneinung: たべない = „esse nicht“. Unter Freunden benutzt man sie direkt, und viele Satzmuster bauen auf ihr auf – zum Beispiel 〜ないで ください (Bitte … nicht)." },
+        { "type": "p", "text": "Gruppe 1: Der i-Laut vor ます wird zum a-Laut, dann kommt ない. Achtung: Aus い wird わ – nicht あ!" },
+        { "type": "table", "head": ["vor ます", "wird zu", "ます-Form", "ない-Form"], "rows": [["い", "わ", "すい ます", "すわない"], ["き", "か", "書[か]き ます", "書[か]かない"], ["ぎ", "が", "急[いそ]ぎ ます", "急[いそ]がない"], ["し", "さ", "話[はな]し ます", "話[はな]さない"], ["ち", "た", "待[ま]ち ます", "待[ま]たない"], ["に", "な", "死[し]に ます", "死[し]なない"], ["び", "ば", "遊[あそ]び ます", "遊[あそ]ばない"], ["み", "ま", "飲[の]み ます", "飲[の]まない"], ["り", "ら", "入[はい]り ます", "入[はい]らない"]] },
+        { "type": "tip", "text": "Ein Sonderfall: あります → ない (nicht あらない). Das ない kennst du schon aus 〜くないです." },
+        { "type": "p", "text": "Gruppe 2: ます weg, ない dran. Gruppe 3: します → しない und きます → こない (Achtung: こ!)." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "ない-Form"], "rows": [["2", "食[た]べ ます", "食[た]べない"], ["2", "見[み] ます", "見[み]ない"], ["2", "つかれ ます", "つかれない"], ["3", "し ます", "しない"], ["3", "来[き] ます", "来[こ]ない"], ["3", "むり を し ます", "むり を しない"]] },
+        { "type": "p", "text": "Mit ないで ください bittest du jemanden, etwas nicht zu tun. Das hörst du beim Arzt, liest es auf Schildern und hörst es in Zügen." },
+        { "type": "examples", "items": [{ "text": "お酒[さけ] を 飲[の]まないで ください。", "de": "Trinken Sie bitte keinen Alkohol." }, { "text": "ここ で たばこ を すわないで ください。", "de": "Bitte rauchen Sie hier nicht." }, { "text": "むり を しないで ください。", "de": "Übernimm dich bitte nicht." }, { "text": "今日[きょう] は おふろ に 入[はい]らないで ください。", "de": "Bitte heute nicht baden." }, { "text": "電車[でんしゃ] の 中[なか] で 電話[でんわ] しないで ください。", "de": "Bitte telefonieren Sie nicht im Zug." }] },
+        { "type": "tip", "text": "Unter Freunden kannst du ください weglassen: のまないで! (Trink nicht!) – genau wie bei まって! (Warte!)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "お酒[さけ] を ___ ください。", "answers": ["飲[の]まないで"], "de": "Trinken Sie bitte keinen Alkohol.", "hint": "のみます" },
+        { "type": "cloze", "text": "この 部屋[へや] に ___ ください。", "answers": ["入[はい]らないで"], "de": "Bitte betreten Sie dieses Zimmer nicht.", "hint": "はいります" },
+        { "type": "cloze", "text": "あした は 会社[かいしゃ] へ ___ ください。", "answers": ["行[い]かないで"], "de": "Gehen Sie morgen bitte nicht zur Arbeit.", "hint": "いきます" },
+        { "type": "cloze", "text": "たばこ を ___ ください。", "answers": ["すわないで"], "de": "Rauchen Sie bitte nicht.", "hint": "すいます" },
+        { "type": "choice", "prompt": "Was ist die ない-Form von きます (kommen)?", "options": ["来[こ]ない", "来[き]ない", "来[か]ない"], "answer": 0, "explain": "きます ist unregelmäßig: こない. Das Kanji bleibt gleich, nur die Lesung ändert sich." },
+        { "type": "translate", "de": "Übernimm dich bitte nicht.", "answers": ["むり を しないで ください。", "むり を しないで。", "むり しないで ください。", "むり しないで。"] },
+        { "type": "order", "de": "Bitte heute nicht baden.", "answer": "今日[きょう] は おふろ に 入[はい]らないで ください。", "distractors": ["入[はい]って"] }
+      ]
+    },
+    {
+      "id": "ta-hou-ga-ii",
+      "title": "Ratschläge: die た-Form und 〜た ほうが いいです",
+      "blocks": [
+        { "type": "p", "text": "Die た-Form ist die einfache Vergangenheit: たべた = „aß, habe gegessen“. Wenn du die て-Form kannst, ist sie ganz leicht: Aus て wird た, aus で wird だ. Sonst ändert sich nichts – auch die Ausnahme いって → いった bleibt." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "て-Form", "た-Form"], "rows": [["1", "買[か]い ます", "買[か]って", "買[か]った"], ["1", "飲[の]み ます", "飲[の]んで", "飲[の]んだ"], ["1", "書[か]き ます", "書[か]いて", "書[か]いた"], ["1", "急[いそ]ぎ ます", "急[いそ]いで", "急[いそ]いだ"], ["1", "話[はな]し ます", "話[はな]して", "話[はな]した"], ["1", "行[い]き ます", "行[い]って", "行[い]った"], ["2", "寝[ね] ます", "寝[ね]て", "寝[ね]た"], ["3", "し ます", "して", "した"], ["3", "来[き] ます", "来[き]て", "来[き]た"]] },
+        { "type": "p", "text": "Einen Rat gibst du mit た-Form + ほうが いいです: „Es ist besser, … zu tun“ – also „Du solltest …“. Für „lieber nicht“ nimmst du die ない-Form: 〜ない ほうが いいです." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["早[はや]く 寝[ね]た ほう が いい です。", "Du solltest früh schlafen gehen."], ["くすり を 飲[の]んだ ほう が いい です。", "Du solltest ein Medikament nehmen."], ["病院[びょういん] へ 行[い]った ほう が いい です。", "Du solltest ins Krankenhaus gehen."], ["お酒[さけ] を 飲[の]まない ほう が いい です。", "Du solltest lieber keinen Alkohol trinken."], ["むり を しない ほう が いい です。", "Du solltest dich lieber nicht übernehmen."]] },
+        { "type": "tip", "text": "Obwohl die た-Form eine Vergangenheitsform ist, geht es bei 〜た ほうが いいです um jetzt oder die Zukunft. Bei der Verneinung steht dagegen die ない-Form, nicht die Vergangenheit: のまない ほうが いいです." },
+        { "type": "tip", "text": "〜た ほうが いいです ist ein ziemlich deutlicher Rat. Vorgesetzten gibst du so lieber keine Ratschläge. Mit よ am Ende klingt es freundlich besorgt: やすんだ ほうが いいですよ." },
+        { "type": "examples", "items": [{ "text": "かぜ です か。 今日[きょう] は 早[はや]く 帰[かえ]った ほう が いい です よ。", "de": "Du bist erkältet? Dann geh heute lieber früh nach Hause." }, { "text": "毎日[まいにち] 少[すこ]し 歩[ある]いた ほう が いい です。", "de": "Du solltest jeden Tag ein bisschen spazieren gehen." }, { "text": "ねつ が あり ます ね。 おふろ に 入[はい]らない ほう が いい です。", "de": "Du hast ja Fieber. Bade lieber nicht." }, { "text": "たばこ は 体[からだ] に 悪[わる]い です。 すわない ほう が いい です よ。", "de": "Rauchen ist schlecht für den Körper. Du solltest lieber nicht rauchen." }] },
+        { "type": "tip", "text": "Jetzt kennst du schon zwei einfache Formen: die ない-Form und die た-Form. In Lektion 5 kommt die Wörterbuchform dazu – dann hast du alle beisammen." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "早[はや]く ___ ほう が いい です。", "answers": ["寝[ね]た"], "de": "Du solltest früh schlafen gehen.", "hint": "ねます" },
+        { "type": "cloze", "text": "くすり を ___ ほう が いい です よ。", "answers": ["飲[の]んだ"], "de": "Du solltest besser ein Medikament nehmen.", "hint": "のみます" },
+        { "type": "cloze", "text": "たばこ は ___ ほう が いい です。", "answers": ["すわない"], "de": "Du solltest lieber nicht rauchen.", "hint": "すいます" },
+        { "type": "cloze", "text": "医[い]者[しゃ] に ___ ほう が いい です。", "answers": ["行[い]った"], "de": "Du solltest zum Arzt gehen.", "hint": "いきます" },
+        { "type": "translate", "de": "Du solltest dich heute ausruhen.", "answers": ["今日[きょう] は ゆっくり 休[やす]んだ ほう が いい です よ。", "今日[きょう] は ゆっくり 休[やす]んだ ほう が いい です。", "今日[きょう] は 休[やす]んだ ほう が いい です よ。", "今日[きょう] は 休[やす]んだ ほう が いい です。", "ゆっくり 休[やす]んだ ほう が いい です よ。", "ゆっくり 休[やす]んだ ほう が いい です。", "休[やす]んだ ほう が いい です よ。", "休[やす]んだ ほう が いい です。", "今日[きょう] ゆっくり 休[やす]んだ ほう が いい です よ。", "今日[きょう] ゆっくり 休[やす]んだ ほう が いい です。", "今日[きょう] 休[やす]んだ ほう が いい です よ。", "今日[きょう] 休[やす]んだ ほう が いい です。"] },
+        { "type": "translate", "de": "Du solltest lieber keinen Alkohol trinken.", "answers": ["お酒[さけ] を 飲[の]まない ほう が いい です よ。", "お酒[さけ] を 飲[の]まない ほう が いい です。", "お酒[さけ] は 飲[の]まない ほう が いい です よ。", "お酒[さけ] は 飲[の]まない ほう が いい です。", "お酒[さけ] 飲[の]まない ほう が いい です よ。", "お酒[さけ] 飲[の]まない ほう が いい です。"] },
+        { "type": "order", "de": "Du solltest jeden Tag ein bisschen spazieren gehen.", "answer": "毎日[まいにち] 少[すこ]し 歩[ある]いた ほう が いい です。", "distractors": ["歩[ある]いて"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "病院[びょういん] で",
+    "title_de": "Beim Arzt",
+    "lines": [
+      { "speaker": "うけつけ", "text": "こんにちは。 ほけんしょう を 持[も]って います か。", "de": "Guten Tag. Haben Sie Ihre Versichertenkarte dabei?" },
+      { "speaker": "アンナ", "text": "はい、 これ です。", "de": "Ja, hier ist sie." },
+      { "speaker": "うけつけ", "text": "では、 ここ に 名前[なまえ] を 書[か]いて、 少[すこ]し 待[ま]って ください。", "de": "Dann schreiben Sie bitte hier Ihren Namen auf und warten Sie kurz." },
+      { "speaker": "いしゃ", "text": "アンナ さん、 どうぞ。 今日[きょう] は どう し ました か。", "de": "Anna, bitte schön. Was fehlt Ihnen heute?" },
+      { "speaker": "アンナ", "text": "おととい から 頭[あたま] と のど が いたい です。 せき も 出[で] ます。", "de": "Seit vorgestern habe ich Kopf- und Halsschmerzen. Husten habe ich auch." },
+      { "speaker": "いしゃ", "text": "ねつ は あり ます か。", "de": "Haben Sie Fieber?" },
+      { "speaker": "アンナ", "text": "はい。 今朝[けさ] は 三十八[さんじゅうはち]度[ど] あり ました。", "de": "Ja. Heute Morgen hatte ich 38 Grad." },
+      { "speaker": "いしゃ", "text": "じゃあ、 口[くち] を あけて ください。 … のど が 少[すこ]し 赤[あか]い です ね。 かぜ です。", "de": "Dann machen Sie bitte den Mund auf. … Der Hals ist ein bisschen rot. Das ist eine Erkältung." },
+      { "speaker": "アンナ", "text": "そう です か。 あした は 大学[だいがく] で テスト が あり ます。 大[だい]丈夫[じょうぶ] です か。", "de": "Ach so. Morgen habe ich an der Uni einen Test. Geht das?" },
+      { "speaker": "いしゃ", "text": "うーん、 二日[ふつか] ぐらい 大学[だいがく] へ 行[い]かないで、 うち で ゆっくり 休[やす]んだ ほう が いい です。", "de": "Hm, Sie sollten etwa zwei Tage nicht zur Uni gehen und sich zu Hause gut ausruhen." },
+      { "speaker": "アンナ", "text": "わかり ました。", "de": "Verstanden." },
+      { "speaker": "いしゃ", "text": "くすり を 出[だ]し ます。 一日[いちにち] 三[さん]回[かい]、 ご飯[はん] の 後[あと] に 飲[の]んで ください。", "de": "Ich verschreibe Ihnen ein Medikament. Nehmen Sie es dreimal täglich nach dem Essen." },
+      { "speaker": "アンナ", "text": "おふろ は どう です か。", "de": "Und wie ist es mit Baden?" },
+      { "speaker": "いしゃ", "text": "今日[きょう] は 入[はい]らない ほう が いい です。 それから、 お酒[さけ] は 飲[の]まないで ください ね。", "de": "Heute lieber nicht. Und trinken Sie bitte keinen Alkohol." },
+      { "speaker": "アンナ", "text": "はい。 ありがとうございました。", "de": "Gut. Vielen Dank." },
+      { "speaker": "いしゃ", "text": "お大事[だいじ]に。", "de": "Gute Besserung!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["顔[かお]", "das Gesicht"], ["鼻[はな]", "die Nase"], ["口[くち]", "der Mund"], ["歯[は]", "der Zahn"], ["せなか", "der Rücken"]] },
+    { "type": "match", "pairs": [["かぜ", "die Erkältung"], ["ねつ", "das Fieber"], ["せき", "der Husten"], ["くすり", "das Medikament"], ["けが", "die Verletzung"]] },
+    { "type": "cloze", "text": "かぜ を ___ ました。", "answers": ["ひき"], "de": "Ich habe mich erkältet." },
+    { "type": "cloze", "text": "一日[いちにち] 三[さん]回[かい]、 くすり を ___ ください。", "answers": ["飲[の]んで"], "de": "Nehmen Sie das Medikament dreimal täglich.", "hint": "のみます" },
+    { "type": "cloze", "text": "かぜ です か。 ___。", "answers": ["お大事[だいじ]に"], "de": "Du bist erkältet? Gute Besserung!" },
+    { "type": "order", "de": "Ich habe seit gestern Fieber.", "answer": "きのう から ねつ が あり ます。", "distractors": ["まで"] },
+    { "type": "order", "de": "Bitte rauchen Sie hier nicht.", "answer": "ここ で たばこ を すわないで ください。", "distractors": ["すって"] },
+    { "type": "translate", "de": "Ich habe Kopfschmerzen. Fieber habe ich auch.", "answers": ["私[わたし] は 頭[あたま] が いたい です。 ねつ も あり ます。", "頭[あたま] が いたい です。 ねつ も あり ます。"] },
+    { "type": "translate", "de": "Heute bin ich sehr müde.", "answers": ["私[わたし] は 今日[きょう] は とても つかれ ました。", "私[わたし] は 今日[きょう] とても つかれ ました。", "今日[きょう] は とても つかれ ました。", "今日[きょう] とても つかれ ました。", "私[わたし] は 今日[きょう] は とても つかれて います。", "私[わたし] は 今日[きょう] とても つかれて います。", "今日[きょう] は とても つかれて います。", "今日[きょう] とても つかれて います。"] },
+    { "type": "translate", "de": "Du solltest zum Zahnarzt gehen.", "answers": ["歯[は]医[い]者[しゃ] へ 行[い]った ほう が いい です よ。", "歯[は]医[い]者[しゃ] へ 行[い]った ほう が いい です。", "歯[は]医[い]者[しゃ] に 行[い]った ほう が いい です よ。", "歯[は]医[い]者[しゃ] に 行[い]った ほう が いい です。"] },
+    { "type": "translate", "de": "Trink bitte nicht so viel Alkohol.", "answers": ["あまり お酒[さけ] を 飲[の]まないで ください。", "あまり お酒[さけ] 飲[の]まないで ください。", "お酒[さけ] を あまり 飲[の]まないで ください。", "お酒[さけ] は あまり 飲[の]まないで ください。"] },
+    { "type": "listen", "text": "どう し ました か。", "de": "Was fehlt Ihnen?" },
+    { "type": "listen", "text": "早[はや]く 寝[ね]た ほう が いい です よ。", "de": "Du solltest früh schlafen gehen." },
+    { "type": "listen", "text": "けが を して、 足[あし] が いたい です。", "de": "Ich habe mich verletzt, und mein Fuß tut weh." }
+  ]
+}
