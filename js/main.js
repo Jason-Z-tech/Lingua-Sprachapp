@@ -22,6 +22,7 @@ import { progressView } from './views/progress.js';
 import { settingsView } from './views/settings.js';
 import { syncView } from './views/sync.js';
 import { speakView } from './views/speak.js';
+import { registerServiceWorker } from './offline.js';
 
 const NAV = [
   { route: 'start', label: 'Start', icon: 'home' },
@@ -255,6 +256,7 @@ async function start() {
 
   window.addEventListener('hashchange', renderView);
   renderView();
+  registerServiceWorker();
 }
 
 start().catch((err) => {

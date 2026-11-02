@@ -16,6 +16,7 @@ import { clearSecrets, getSecret, setSecret } from '../store/secrets.js';
 import { AiError, MODEL_SUGGESTIONS, testKey } from '../ai/client.js';
 import { LEVELS, LEVEL_INFO } from '../store/schema.js';
 import { languageName, pageHead } from './common.js';
+import { offlineSupported, saveForOffline } from '../offline.js';
 
 function formatBytes(bytes) {
   if (bytes === null || bytes === undefined) return 'unbekannt';
@@ -321,6 +322,53 @@ export async function settingsView(main, { rerender }) {
     );
   });
 
+  // --- Offline ---
+  function offlineSection() {
+    if (!offlineSupported()) return null;
+    const status = el('p', { class: 'small', 'aria-live': 'polite' });
+    const buttons = profiles.map((p) => {
+      const name = languageName(languages, p.code);
+      const btn = el(
+        'button',
+        {
+          type: 'button',
+          class: 'btn',
+          on: {
+            click: async () => {
+              btn.disabled = true;
+              status.className = 'small';
+              status.textContent = `${name}: wird gespeichert …`;
+              try {
+                const res = await saveForOffline(p.code, ({ done, total }) => {
+                  status.textContent = `${name}: ${done} von ${total} Dateien …`;
+                });
+                status.className = res.failed ? 'small error-text' : 'small ok-text';
+                status.textContent = res.failed
+                  ? `${name}: ${res.failed} von ${res.total} Dateien konnten nicht gespeichert werden. Bist du online?`
+                  : `✓ ${name} ist offline verfügbar (${res.total} Dateien).`;
+              } catch (err) {
+                status.className = 'small error-text';
+                status.textContent = err.message;
+              } finally {
+                btn.disabled = false;
+              }
+            },
+          },
+        },
+        icon('download'),
+        `${name} offline speichern`,
+      );
+      return btn;
+    });
+    return section(
+      'Offline nutzen',
+      el('p', { class: 'muted' }, 'Lingua merkt sich alles, was du schon geöffnet hast, und läuft dann auch ohne Internet. Mit diesen Knöpfen speicherst du alle Lektionen, Texte und Szenarien einer Sprache vorab – praktisch vor einer Reise.'),
+      buttons.length ? el('div', { class: 'row' }, buttons) : el('p', { class: 'small muted' }, 'Richte zuerst eine Sprache ein.'),
+      status,
+      el('p', { class: 'small faint' }, 'Tipp: Im Browser-Menü „Zum Startbildschirm hinzufügen“ bzw. „App installieren“ wählen – dann startet Lingua wie eine App. Die KI-Funktionen brauchen weiterhin Internet.'),
+    );
+  }
+
   // --- Speicher ---
   const persistBtn = el(
     'button',
@@ -461,6 +509,7 @@ export async function settingsView(main, { rerender }) {
         el('p', { class: 'muted' }, 'Nimm deinen Lernstand per Sync-Code oder Datei auf ein anderes Gerät mit – ohne Konto. Dein API-Schlüssel wird dabei nie mitgenommen.'),
         el('a', { class: 'btn btn-primary', href: '#/sichern' }, icon('sync'), 'Sichern & Übertragen'),
       ),
+      offlineSection(),
       section(
         'Speicher',
         el(
