@@ -124,35 +124,35 @@
           "file": "a2-06.json",
           "title_de": "Im Restaurant",
           "topic": "Reservieren, bestellen und bezahlen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-07",
           "file": "a2-07.json",
           "title_de": "Urlaub",
           "topic": "Hotel und Reiseplanung",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-08",
           "file": "a2-08.json",
           "title_de": "Menschen beschreiben",
           "topic": "Aussehen und Charakter",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-09",
           "file": "a2-09.json",
           "title_de": "Früher",
           "topic": "Kindheit und Erinnerungen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a2-10",
           "file": "a2-10.json",
           "title_de": "Pläne",
           "topic": "Über die Zukunft sprechen",
-          "available": false
+          "available": true
         }
       ]
     },
