@@ -65,8 +65,8 @@ export async function onboardingView(main, { params, navigate }) {
     const index = steps.indexOf(key);
     return el(
       'div',
-      { class: 'steps', 'aria-label': `Schritt ${index + 1} von ${steps.length}` },
-      steps.map((_, i) => el('span', { class: i <= index ? 'done' : null })),
+      { class: 'steps', role: 'progressbar', 'aria-label': 'Einrichtung', 'aria-valuemin': '1', 'aria-valuemax': String(steps.length), 'aria-valuenow': String(index + 1), 'aria-valuetext': `Schritt ${index + 1} von ${steps.length}` },
+      steps.map((_, i) => el('span', { class: i <= index ? 'done' : null, 'aria-hidden': 'true' })),
     );
   }
 
