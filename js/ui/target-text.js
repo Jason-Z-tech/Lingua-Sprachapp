@@ -14,11 +14,17 @@ import { isKanji, parseRuby } from '../lang/text.js';
 export function targetText(text, lang, { furigana = 'unknown', knownKanji = new Set(), className = null, tag = 'span' } = {}) {
   if (lang !== 'ja') return el(tag, { lang, class: className }, String(text));
   const tokens = parseRuby(text);
-  return el(
-    tag,
-    { lang: 'ja', class: ['ja-text', className] },
-    tokens.map((token) =>
-      el(
+  const JA = /[\u3000-\u30ff\u3400-\u9fff\uff00-\uffef々]/; // inkl. japanischer Satzzeichen
+  const children = [];
+  tokens.forEach((token, i) => {
+    // Leerzeichen nur zwischen nicht-japanischen Wörtern behalten (z. B. deutsche Erklärungen)
+    if (i > 0 && (!JA.test(token.surface) || !JA.test(tokens[i - 1].surface))) children.push(' ');
+    children.push(renderToken(token));
+  });
+  return el(tag, { lang: 'ja', class: ['ja-text', className] }, children);
+
+  function renderToken(token) {
+    return el(
         'span',
         { class: 'ja-token' },
         token.segments.map((seg) => {
@@ -28,7 +34,6 @@ export function targetText(text, lang, { furigana = 'unknown', knownKanji = new 
           if (!show) return el('span', { title: seg.reading }, seg.text);
           return el('ruby', null, seg.text, el('rt', null, seg.reading));
         }),
-      ),
-    ),
-  );
+      );
+  }
 }

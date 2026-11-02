@@ -1,0 +1,136 @@
+{
+  "formatVersion": 1,
+  "kanji": [
+    { "char": "私", "de": "ich; privat", "on": ["シ"], "kun": ["わたし", "わたくし"], "strokes": 7,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "私[わたし]", "de": "ich" },
+        { "word": "私[わたくし]", "de": "ich (sehr förmlich)" }
+      ] },
+    { "char": "名", "de": "Name; berühmt", "on": ["メイ", "ミョウ"], "kun": ["な"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "名前[なまえ]", "de": "der Name" },
+        { "word": "有名[ゆうめい]", "de": "berühmt" }
+      ] },
+    { "char": "前", "de": "vorne; vor; früher", "on": ["ゼン"], "kun": ["まえ"], "strokes": 9,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "名前[なまえ]", "de": "der Name" },
+        { "word": "前[まえ]", "de": "vorne; vor" },
+        { "word": "午前[ごぜん]", "de": "vormittags" }
+      ] },
+    { "char": "人", "de": "Mensch; Person", "on": ["ジン", "ニン"], "kun": ["ひと"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "人[ひと]", "de": "Mensch; Person" },
+        { "word": "日本人[にほんじん]", "de": "Japaner/in" },
+        { "word": "ドイツ人[じん]", "de": "Deutsche/r" }
+      ] },
+    { "char": "日", "de": "Sonne; Tag", "on": ["ニチ", "ジツ"], "kun": ["ひ", "か"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "日本[にほん]", "de": "Japan" },
+        { "word": "毎日[まいにち]", "de": "jeden Tag" },
+        { "word": "日[ひ]", "de": "die Sonne; der Tag" }
+      ] },
+    { "char": "本", "de": "Buch; Ursprung", "on": ["ホン"], "kun": ["もと"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "本[ほん]", "de": "das Buch" },
+        { "word": "日本[にほん]", "de": "Japan (wörtlich: Ursprung der Sonne)" },
+        { "word": "日本人[にほんじん]", "de": "Japaner/in" }
+      ] },
+    { "char": "学", "de": "lernen; Wissenschaft", "on": ["ガク"], "kun": ["まな.ぶ"], "strokes": 8,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "学生[がくせい]", "de": "Student/in; Schüler/in" },
+        { "word": "大学[だいがく]", "de": "die Universität" },
+        { "word": "学校[がっこう]", "de": "die Schule" }
+      ] },
+    { "char": "生", "de": "Leben; geboren werden; roh", "on": ["セイ", "ショウ"], "kun": ["い.きる", "う.まれる", "なま"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-01",
+      "examples": [
+        { "word": "学生[がくせい]", "de": "Student/in; Schüler/in" },
+        { "word": "先生[せんせい]", "de": "Lehrer/in" },
+        { "word": "大学生[だいがくせい]", "de": "Student/in (an der Uni)" }
+      ] },
+    { "char": "一", "de": "eins", "on": ["イチ", "イツ"], "kun": ["ひと", "ひと.つ"], "strokes": 1,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "一[いち]", "de": "eins" },
+        { "word": "十一[じゅういち]", "de": "elf" },
+        { "word": "一[ひと]つ", "de": "eins (ein Stück)" }
+      ] },
+    { "char": "二", "de": "zwei", "on": ["ニ"], "kun": ["ふた", "ふた.つ"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "二[に]", "de": "zwei" },
+        { "word": "二十[にじゅう]", "de": "zwanzig" },
+        { "word": "二[ふた]つ", "de": "zwei (Stück)" }
+      ] },
+    { "char": "三", "de": "drei", "on": ["サン"], "kun": ["み", "み.つ", "みっ.つ"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "三[さん]", "de": "drei" },
+        { "word": "十三[じゅうさん]", "de": "dreizehn" },
+        { "word": "三[みっ]つ", "de": "drei (Stück)" }
+      ] },
+    { "char": "四", "de": "vier", "on": ["シ"], "kun": ["よ", "よ.つ", "よっ.つ", "よん"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "四[よん]", "de": "vier" },
+        { "word": "十四[じゅうよん]", "de": "vierzehn" },
+        { "word": "四[よっ]つ", "de": "vier (Stück)" }
+      ] },
+    { "char": "五", "de": "fünf", "on": ["ゴ"], "kun": ["いつ", "いつ.つ"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "五[ご]", "de": "fünf" },
+        { "word": "十五[じゅうご]", "de": "fünfzehn" },
+        { "word": "五[いつ]つ", "de": "fünf (Stück)" }
+      ] },
+    { "char": "六", "de": "sechs", "on": ["ロク"], "kun": ["む", "む.つ", "むっ.つ"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "六[ろく]", "de": "sechs" },
+        { "word": "十六[じゅうろく]", "de": "sechzehn" },
+        { "word": "六[むっ]つ", "de": "sechs (Stück)" }
+      ] },
+    { "char": "七", "de": "sieben", "on": ["シチ"], "kun": ["なな", "なな.つ", "なの"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "七[なな]", "de": "sieben" },
+        { "word": "十七[じゅうなな]", "de": "siebzehn" },
+        { "word": "七[なな]つ", "de": "sieben (Stück)" }
+      ] },
+    { "char": "八", "de": "acht", "on": ["ハチ"], "kun": ["や", "や.つ", "やっ.つ", "よう"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "八[はち]", "de": "acht" },
+        { "word": "十八[じゅうはち]", "de": "achtzehn" },
+        { "word": "八[やっ]つ", "de": "acht (Stück)" }
+      ] },
+    { "char": "九", "de": "neun", "on": ["キュウ", "ク"], "kun": ["ここの", "ここの.つ"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "九[きゅう]", "de": "neun" },
+        { "word": "十九[じゅうきゅう]", "de": "neunzehn" },
+        { "word": "九[ここの]つ", "de": "neun (Stück)" }
+      ] },
+    { "char": "十", "de": "zehn", "on": ["ジュウ", "ジッ", "ジュッ"], "kun": ["とお", "と"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "十[じゅう]", "de": "zehn" },
+        { "word": "二十[にじゅう]", "de": "zwanzig" },
+        { "word": "十[とお]", "de": "zehn (Stück)" }
+      ] },
+    { "char": "語", "de": "Sprache; Wort", "on": ["ゴ"], "kun": ["かた.る", "かた.らう"], "strokes": 14,
+      "level": "A1", "lesson": "ja-a1-02",
+      "examples": [
+        { "word": "日本語[にほんご]", "de": "Japanisch (die Sprache)" },
+        { "word": "ドイツ語[ご]", "de": "Deutsch (die Sprache)" },
+        { "word": "英語[えいご]", "de": "Englisch" }
+      ] }
+  ]
+}

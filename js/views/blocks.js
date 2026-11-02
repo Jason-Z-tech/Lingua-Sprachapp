@@ -4,8 +4,16 @@ import { el } from '../ui/dom.js';
 import { targetText } from '../ui/target-text.js';
 import { speakButton } from './session.js';
 
+const JAPANESE = /[\u3040-\u30ff\u3400-\u9fff々]/;
+
 export function renderBlocks(blocks, ctx) {
   const tt = (text) => targetText(text, ctx.lang, { furigana: ctx.furigana, knownKanji: ctx.knownKanji });
+  // Japanisch: nur Zellen mit japanischen Zeichen als Furigana-Text behandeln,
+  // deutsche Zellen behalten ihre Leerzeichen.
+  const cell = (text) => {
+    if (ctx.lang === 'ja') return JAPANESE.test(text) ? tt(text) : el('span', { lang: 'de' }, text);
+    return el('span', { lang: ctx.lang }, text);
+  };
   return (blocks || []).map((b) => {
     switch (b.type) {
       case 'p':
@@ -25,7 +33,7 @@ export function renderBlocks(blocks, ctx) {
             el(
               'tbody',
               null,
-              b.rows.map((row) => el('tr', null, row.map((cell) => el('td', null, ctx.lang === 'ja' ? tt(cell) : el('span', { lang: ctx.lang }, cell))))),
+              b.rows.map((row) => el('tr', null, row.map((value) => el('td', null, cell(value))))),
             ),
           ),
         );

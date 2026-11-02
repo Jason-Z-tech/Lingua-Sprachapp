@@ -12,14 +12,14 @@
           "file": "a1-01.json",
           "title_de": "Hallo!",
           "topic": "Begrüßen, verabschieden und sich vorstellen",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a1-02",
           "file": "a1-02.json",
           "title_de": "Woher kommst du?",
           "topic": "Länder, Sprachen und Zahlen bis 20",
-          "available": false
+          "available": true
         },
         {
           "id": "ja-a1-03",
