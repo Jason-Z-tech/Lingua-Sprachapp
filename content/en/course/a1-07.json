@@ -1,0 +1,301 @@
+{
+  "formatVersion": 1,
+  "id": "en-a1-07",
+  "lang": "en",
+  "level": "A1",
+  "number": 7,
+  "title": "Around Town",
+  "title_de": "In der Stadt",
+  "topic": "Orte und nach dem Weg fragen",
+  "goals": [
+    "Du kannst fragen, wo etwas ist und ob es etwas in der Nähe gibt: Where is …? / Is there a … near here?",
+    "Du kannst einen Weg beschreiben und verstehen: Go straight, turn left …",
+    "Du kannst mit can und can't sagen, was jemand kann und was möglich ist.",
+    "Du kennst wichtige Orte in einer amerikanischen Stadt."
+  ],
+  "vocab": [
+    { "id": "city", "word": "city", "plural": "cities", "de": "die Stadt; die Großstadt", "pos": "noun",
+      "example": { "text": "New York is a big city.", "de": "New York ist eine große Stadt." },
+      "note": "Eine kleinere Stadt heißt town." },
+    { "id": "downtown", "word": "downtown", "de": "in der Innenstadt; in die Innenstadt; die Innenstadt", "pos": "adv",
+      "example": { "text": "My hotel is downtown.", "de": "Mein Hotel ist in der Innenstadt." },
+      "note": "Typisch amerikanisch. Meist ohne Präposition: I live downtown. (Ich wohne in der Innenstadt.)" },
+    { "id": "street", "word": "street", "plural": "streets", "de": "die Straße", "pos": "noun",
+      "example": { "text": "The bank is on Main Street.", "de": "Die Bank ist in der Main Street." },
+      "note": "Amerikanisch: on Main Street – mit on, nicht in. In Adressen oft abgekürzt: St." },
+    { "id": "bank", "word": "bank", "plural": "banks", "de": "die Bank (Geldinstitut)", "pos": "noun",
+      "example": { "text": "Is there a bank near here?", "de": "Gibt es hier in der Nähe eine Bank?" },
+      "note": "Nur das Geldinstitut. Die Sitzbank heißt bench." },
+    { "id": "post-office", "word": "post office", "plural": "post offices", "de": "die Post; das Postamt", "pos": "noun",
+      "example": { "text": "Excuse me, where is the post office?", "de": "Entschuldigung, wo ist die Post?" } },
+    { "id": "supermarket", "word": "supermarket", "plural": "supermarkets", "de": "der Supermarkt", "pos": "noun",
+      "example": { "text": "There's a supermarket on the corner.", "de": "An der Ecke gibt es einen Supermarkt." } },
+    { "id": "drugstore", "word": "drugstore", "plural": "drugstores", "de": "die Drogerie; die Apotheke", "pos": "noun",
+      "example": { "text": "Is there a drugstore near here?", "de": "Gibt es hier in der Nähe eine Apotheke?" },
+      "note": "Ein amerikanischer drugstore verkauft Medikamente, aber auch Kosmetik, Snacks und vieles mehr. Die Apotheke im engeren Sinn heißt pharmacy." },
+    { "id": "hospital", "word": "hospital", "plural": "hospitals", "de": "das Krankenhaus", "pos": "noun",
+      "example": { "text": "The hospital is next to the park.", "de": "Das Krankenhaus ist neben dem Park." } },
+    { "id": "train-station", "word": "train station", "plural": "train stations", "de": "der Bahnhof", "pos": "noun",
+      "example": { "text": "How can I get to the train station?", "de": "Wie komme ich zum Bahnhof?" },
+      "note": "Oft sagt man einfach station." },
+    { "id": "museum", "word": "museum", "plural": "museums", "de": "das Museum", "pos": "noun",
+      "example": { "text": "The museum is across from the park.", "de": "Das Museum ist gegenüber vom Park." } },
+    { "id": "park", "word": "park", "plural": "parks", "de": "der Park", "pos": "noun",
+      "example": { "text": "Central Park is a big park in New York.", "de": "Der Central Park ist ein großer Park in New York." } },
+    { "id": "hotel", "word": "hotel", "plural": "hotels", "de": "das Hotel", "pos": "noun",
+      "example": { "text": "Is your hotel far from here?", "de": "Ist dein Hotel weit von hier?" } },
+    { "id": "library", "word": "library", "plural": "libraries", "de": "die Bibliothek; die Bücherei", "pos": "noun",
+      "example": { "text": "The library is on the left.", "de": "Die Bibliothek ist auf der linken Seite." },
+      "note": "Falscher Freund: library ist keine Buchhandlung – die heißt bookstore." },
+    { "id": "movie-theater", "word": "movie theater", "plural": "movie theaters", "de": "das Kino", "pos": "noun",
+      "example": { "text": "Is there a movie theater near here?", "de": "Gibt es hier in der Nähe ein Kino?" },
+      "note": "Amerikanisch. Im britischen Englisch heißt das Kino cinema." },
+    { "id": "restroom", "word": "restroom", "plural": "restrooms", "de": "die Toilette (in Restaurants, Geschäften usw.)", "pos": "noun",
+      "example": { "text": "Excuse me, where's the restroom?", "de": "Entschuldigung, wo ist die Toilette?" },
+      "note": "In den USA fragt man unterwegs höflich nach dem restroom. Zu Hause sagt man bathroom." },
+    { "id": "corner", "word": "corner", "plural": "corners", "de": "die Ecke", "pos": "noun",
+      "example": { "text": "The drugstore is on the corner.", "de": "Die Apotheke ist an der Ecke." },
+      "note": "an der Ecke = on the corner; um die Ecke = around the corner." },
+    { "id": "block", "word": "block", "plural": "blocks", "de": "der Häuserblock; die Querstraße (bei Wegbeschreibungen)", "pos": "noun",
+      "example": { "text": "Go straight for two blocks.", "de": "Gehen Sie zwei Straßen weit geradeaus." },
+      "note": "Viele amerikanische Städte sind wie ein Gitter gebaut. Darum zählt man Entfernungen in blocks: It's three blocks from here. (Es ist drei Straßen weiter.)" },
+    { "id": "map", "word": "map", "plural": "maps", "de": "der Stadtplan; die Landkarte", "pos": "noun",
+      "example": { "text": "Can I see your map, please?", "de": "Kann ich bitte mal deinen Stadtplan sehen?" } },
+    { "id": "traffic-light", "word": "traffic light", "plural": "traffic lights", "de": "die Ampel", "pos": "noun",
+      "example": { "text": "Turn left at the traffic light.", "de": "Biegen Sie an der Ampel links ab." } },
+    { "id": "go-straight", "word": "go straight", "alt": ["go straight ahead"], "de": "geradeaus gehen; geradeaus fahren", "pos": "phrase",
+      "example": { "text": "Go straight and turn right at the bank.", "de": "Gehen Sie geradeaus und biegen Sie an der Bank rechts ab." },
+      "note": "Auch: go straight ahead." },
+    { "id": "turn", "word": "turn", "de": "abbiegen", "pos": "verb",
+      "example": { "text": "Turn right at the corner.", "de": "Biegen Sie an der Ecke rechts ab." },
+      "note": "turn left = links abbiegen, turn right = rechts abbiegen." },
+    { "id": "left", "word": "left", "de": "links; linke, linker, linkes", "pos": "adv",
+      "example": { "text": "The hotel is on the left.", "de": "Das Hotel ist auf der linken Seite." },
+      "note": "turn left = links abbiegen; on the left = links, auf der linken Seite." },
+    { "id": "right", "word": "right", "de": "rechts; rechte, rechter, rechtes", "pos": "adv",
+      "example": { "text": "The post office is on the right.", "de": "Die Post ist auf der rechten Seite." },
+      "note": "right bedeutet auch „richtig“: That's right! = Das stimmt!" },
+    { "id": "cross", "word": "cross", "de": "überqueren", "pos": "verb",
+      "example": { "text": "Cross the street at the traffic light.", "de": "Gehen Sie an der Ampel über die Straße." } },
+    { "id": "take", "word": "take", "de": "nehmen", "pos": "verb",
+      "example": { "text": "Take the first street on the right.", "de": "Nehmen Sie die erste Straße rechts." },
+      "note": "Auch bei Verkehrsmitteln: take the bus = den Bus nehmen, mit dem Bus fahren." },
+    { "id": "first", "word": "first", "de": "erste, erster, erstes", "pos": "adj",
+      "example": { "text": "It's the first street on the left.", "de": "Es ist die erste Straße links." },
+      "note": "Wie im Deutschen meist mit the: the first street." },
+    { "id": "second", "word": "second", "de": "zweite, zweiter, zweites", "pos": "adj",
+      "example": { "text": "Take the second street on the left.", "de": "Nehmen Sie die zweite Straße links." },
+      "note": "second heißt auch „die Sekunde“. Die dritte heißt third." },
+    { "id": "near", "word": "near", "de": "in der Nähe von; nah", "pos": "prep",
+      "example": { "text": "Is there a supermarket near here?", "de": "Gibt es hier in der Nähe einen Supermarkt?" },
+      "note": "near here = hier in der Nähe. Ohne of: near the park (nicht: near of the park)." },
+    { "id": "far", "word": "far", "de": "weit; weit weg", "pos": "adv",
+      "example": { "text": "Is the train station far from here?", "de": "Ist der Bahnhof weit von hier?" },
+      "note": "far from = weit weg von. It's not far. = Es ist nicht weit." },
+    { "id": "across-from", "word": "across from", "de": "gegenüber (von)", "pos": "prep",
+      "example": { "text": "The bank is across from the post office.", "de": "Die Bank ist gegenüber der Post." },
+      "note": "Amerikanisch. Im britischen Englisch sagt man eher opposite." },
+    { "id": "can", "word": "can", "de": "können; dürfen", "pos": "verb", "forms": "can, can't (cannot)",
+      "example": { "text": "I can speak English, but I can't speak Japanese.", "de": "Ich kann Englisch, aber kein Japanisch." },
+      "note": "Gleiche Form für alle Personen: I can, she can, they can. Danach folgt das Verb ohne to." },
+    { "id": "help", "word": "help", "de": "helfen", "pos": "verb",
+      "example": { "text": "Excuse me, can you help me?", "de": "Entschuldigung, können Sie mir helfen?" },
+      "note": "Ohne Präposition: help me = mir helfen." },
+    { "id": "find", "word": "find", "de": "finden", "pos": "verb",
+      "example": { "text": "I can't find the post office.", "de": "Ich finde die Post nicht." } },
+    { "id": "see", "word": "see", "de": "sehen", "pos": "verb",
+      "example": { "text": "Can you see the traffic light? Turn left there.", "de": "Sehen Sie die Ampel? Biegen Sie dort links ab." },
+      "note": "Mit see und understand benutzt man oft can: I can see it. = Ich sehe es." },
+    { "id": "understand", "word": "understand", "de": "verstehen", "pos": "verb",
+      "example": { "text": "Sorry, I can't understand you.", "de": "Entschuldigung, ich verstehe Sie nicht." } },
+    { "id": "get-to", "word": "get to", "de": "hinkommen; kommen zu; gelangen", "pos": "phrase",
+      "example": { "text": "How can I get to the museum?", "de": "Wie komme ich zum Museum?" },
+      "note": "So fragst du nach dem Weg: How can I get to …? = Wie komme ich zu …?" },
+    { "id": "again", "word": "again", "de": "noch einmal; wieder", "pos": "adv",
+      "example": { "text": "Sorry, can you say that again, please?", "de": "Entschuldigung, können Sie das bitte noch einmal sagen?" } },
+    { "id": "way", "word": "way", "plural": "ways", "de": "der Weg", "pos": "noun",
+      "example": { "text": "Is this the way to the train station?", "de": "Ist das der Weg zum Bahnhof?" } },
+    { "id": "tell", "word": "tell", "de": "sagen; erzählen", "pos": "verb",
+      "example": { "text": "Can you tell me the way to the library?", "de": "Können Sie mir den Weg zur Bibliothek sagen?" },
+      "note": "Bei tell steht die Person direkt danach, ohne to: tell me (mir sagen)." },
+    { "id": "me", "word": "me", "de": "mich; mir", "pos": "pron",
+      "example": { "text": "Can you help me, please?", "de": "Können Sie mir bitte helfen?" },
+      "note": "Nach Verben und Präpositionen steht me statt I: help me, tell me. Me too! = Ich auch!" },
+    { "id": "i-dont-know", "word": "I don't know", "de": "ich weiß nicht; keine Ahnung", "pos": "phrase",
+      "example": { "text": "Sorry, I don't know. I'm not from here.", "de": "Tut mir leid, das weiß ich nicht. Ich bin nicht von hier." },
+      "note": "Lern den Satz als feste Wendung. Wie die Verneinung mit don't funktioniert, lernst du in Lektion 9." },
+    { "id": "sure", "word": "sure", "de": "klar; gern; sicher", "pos": "interj",
+      "example": { "text": "Can you help me? – Sure!", "de": "Können Sie mir helfen? – Klar!" },
+      "note": "Sehr häufige, freundliche Antwort auf eine Bitte." },
+    { "id": "drive", "word": "drive", "de": "Auto fahren; fahren (am Steuer)", "pos": "verb",
+      "example": { "text": "Can you drive? – No, I can't.", "de": "Kannst du Auto fahren? – Nein." },
+      "note": "drive benutzt man nur, wenn man selbst am Steuer sitzt." }
+  ],
+  "grammar": [
+    {
+      "id": "imperatives",
+      "title": "Den Weg beschreiben: der Imperativ",
+      "blocks": [
+        { "type": "p", "text": "Für Wegbeschreibungen benutzt man den Imperativ (die Befehlsform). Er ist im Englischen ganz einfach: Man nimmt die Grundform des Verbs – ohne Pronomen und ohne Endung. Dieselbe Form gilt für du, ihr und Sie." },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [
+          ["Go straight.", "Geh geradeaus. / Gehen Sie geradeaus."],
+          ["Turn left.", "Bieg links ab. / Biegen Sie links ab."],
+          ["Turn right at the traffic light.", "Bieg an der Ampel rechts ab."],
+          ["Take the first street on the left.", "Nimm die erste Straße links."],
+          ["Cross the street.", "Geh über die Straße."],
+          ["Go straight for two blocks.", "Geh zwei Straßen weit geradeaus."]
+        ] },
+        { "type": "tip", "text": "Bei Wegbeschreibungen ist der Imperativ ganz normal und überhaupt nicht unhöflich. Wenn du selbst um etwas bittest, gehört please dazu: Please help me." },
+        { "type": "p", "text": "Verneint wird der Imperativ mit Don't: Don't turn left. (Bieg nicht links ab.) Don't cross here. (Geh hier nicht über die Straße.)" },
+        { "type": "tip", "text": "Kleine Wörter, große Wirkung: turn left (links abbiegen), on the left (auf der linken Seite), at the traffic light (an der Ampel), on the corner (an der Ecke)." },
+        { "type": "examples", "items": [
+          { "text": "Go straight and turn left at the bank.", "de": "Gehen Sie geradeaus und biegen Sie an der Bank links ab." },
+          { "text": "Take the second street on the right.", "de": "Nehmen Sie die zweite Straße rechts." },
+          { "text": "Cross the street. The museum is on the left.", "de": "Gehen Sie über die Straße. Das Museum ist auf der linken Seite." },
+          { "text": "Don't turn here. Go straight.", "de": "Biegen Sie hier nicht ab. Gehen Sie geradeaus." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ left at the traffic light.", "answers": ["Turn"], "de": "Biegen Sie an der Ampel links ab." },
+        { "type": "cloze", "text": "Go ___ for two blocks.", "answers": ["straight"], "de": "Gehen Sie zwei Straßen weit geradeaus." },
+        { "type": "cloze", "text": "Take the ___ street on the right.", "answers": ["first"], "de": "Nehmen Sie die erste Straße rechts." },
+        { "type": "cloze", "text": "___ the street at the corner.", "answers": ["Cross"], "de": "Gehen Sie an der Ecke über die Straße." },
+        { "type": "cloze", "text": "___ turn left here. Turn right.", "answers": ["Don't", "Do not"], "de": "Biegen Sie hier nicht links ab. Biegen Sie rechts ab." },
+        { "type": "order", "de": "Nehmen Sie die zweite Straße links.", "answer": "Take the second street on the left." },
+        { "type": "translate", "de": "Geh geradeaus und bieg dann rechts ab.", "answers": [
+          "Go straight and then turn right.", "Go straight and turn right.", "Go straight, then turn right.",
+          "Go straight ahead and then turn right.", "Go straight ahead and turn right.", "Go straight ahead, then turn right."
+        ] }
+      ]
+    },
+    {
+      "id": "can",
+      "title": "Können: can und can't",
+      "blocks": [
+        { "type": "p", "text": "Mit can sagst du, was jemand kann – und was möglich oder erlaubt ist. Can hat für alle Personen dieselbe Form, also auch kein -s bei he, she und it. Danach steht das Verb in der Grundform, ohne to." },
+        { "type": "table", "head": ["Person", "bejaht", "verneint", "Frage"], "rows": [
+          ["I", "I can drive.", "I can't drive.", "Can I drive?"],
+          ["you", "You can drive.", "You can't drive.", "Can you drive?"],
+          ["he / she / it", "She can drive.", "She can't drive.", "Can she drive?"],
+          ["we", "We can drive.", "We can't drive.", "Can we drive?"],
+          ["they", "They can drive.", "They can't drive.", "Can they drive?"]
+        ] },
+        { "type": "tip", "text": "can't ist die Kurzform von cannot – das schreibt man zusammen. Im Gespräch sagt man fast immer can't. Amerikanische Aussprache: can klingt im Satz kurz und schwach [kən], can't ist betont [kænt]. Achte darauf, sonst verwechselst du Ja und Nein." },
+        { "type": "p", "text": "Für die Frage rückt can vor das Subjekt: You can help me. → Can you help me? Kurzantworten: Yes, I can. / No, I can't." },
+        { "type": "list", "items": [
+          "Fähigkeit: Lena can speak three languages. – Lena kann drei Sprachen.",
+          "Möglichkeit: You can take the bus. – Du kannst den Bus nehmen.",
+          "Bitte: Can you help me? – Kannst du mir helfen?",
+          "Erlaubnis: Can I see the map? – Darf ich den Stadtplan sehen?"
+        ] },
+        { "type": "tip", "text": "Kein to und kein do: I can drive. (nicht: I can to drive.) Can you drive? (nicht: Do you can drive?)" },
+        { "type": "tip", "text": "Mit see und understand benutzt man oft can, wo man im Deutschen nur das Verb sagt: I can't see it. = Ich sehe es nicht. I can't understand you. = Ich verstehe dich nicht." },
+        { "type": "examples", "items": [
+          { "text": "Can you help me? – Sure!", "de": "Kannst du mir helfen? – Klar!" },
+          { "text": "Lena can speak German and English.", "de": "Lena spricht Deutsch und Englisch." },
+          { "text": "I can't find my hotel.", "de": "Ich finde mein Hotel nicht." },
+          { "text": "Can Tom drive? – No, he can't.", "de": "Kann Tom Auto fahren? – Nein." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ you help me, please?", "answers": ["Can"], "de": "Kannst du mir bitte helfen?" },
+        { "type": "cloze", "text": "Lena ___ speak three languages.", "answers": ["can"], "de": "Lena kann drei Sprachen." },
+        { "type": "cloze", "text": "Sorry, I ___ understand you.", "answers": ["can't", "cannot"], "de": "Entschuldigung, ich verstehe dich nicht.", "hint": "can + not" },
+        { "type": "cloze", "text": "Can you drive? – Yes, I ___.", "answers": ["can"], "de": "Kannst du Auto fahren? – Ja." },
+        { "type": "cloze", "text": "Can Jake drive? – No, he ___.", "answers": ["can't", "cannot"], "de": "Kann Jake Auto fahren? – Nein." },
+        { "type": "order", "de": "Ich finde die Bank nicht.", "answer": "I can't find the bank." },
+        { "type": "translate", "de": "Kannst du mir helfen?", "answers": ["Can you help me?", "Could you help me?"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?",
+          "options": ["She can speak English.", "She cans speak English.", "She can to speak English."],
+          "answer": 0, "explain": "can hat für alle Personen dieselbe Form – ohne -s. Danach kommt das Verb ohne to." }
+      ]
+    },
+    {
+      "id": "where-is-is-there",
+      "title": "Where is …? und Is there a … near here?",
+      "blocks": [
+        { "type": "p", "text": "Suchst du einen bestimmten Ort, fragst du mit Where is …? – kurz: Where's …? Suchst du irgendeinen Ort dieser Art, fragst du mit Is there a … near here? (Gibt es hier in der Nähe ein/eine …?) There is und there are kennst du schon aus Lektion 6." },
+        { "type": "table", "head": ["Frage", "Antwort", "Deutsch"], "rows": [
+          ["Where is the museum?", "It's on Park Avenue.", "Wo ist das Museum? – In der Park Avenue."],
+          ["Where's the restroom?", "It's on the left.", "Wo ist die Toilette? – Links."],
+          ["Is there a bank near here?", "Yes, there is. There's one on Main Street.", "Gibt es hier in der Nähe eine Bank? – Ja, in der Main Street."],
+          ["Is there a drugstore near here?", "No, there isn't. Sorry.", "Gibt es hier in der Nähe eine Apotheke? – Nein, leider nicht."],
+          ["Are there any hotels near here?", "Yes, there are two.", "Gibt es hier in der Nähe Hotels? – Ja, zwei."]
+        ] },
+        { "type": "tip", "text": "the oder a? Where is the post office? fragt nach einer bestimmten Post. Is there a post office near here? fragt, ob es hier überhaupt eine gibt. In der Antwort steht dann oft one: There's one on the corner. (Da ist eine an der Ecke.)" },
+        { "type": "p", "text": "So beschreibst du, wo etwas liegt. in, on, next to, between und behind kennst du schon – diese Wendungen sind neu:" },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [
+          ["on Main Street", "in der Main Street"],
+          ["on the corner", "an der Ecke"],
+          ["on the left / on the right", "auf der linken / rechten Seite"],
+          ["across from the bank", "gegenüber der Bank"],
+          ["near the park", "in der Nähe des Parks"],
+          ["two blocks from here", "zwei Straßen weiter"],
+          ["downtown", "in der Innenstadt"]
+        ] },
+        { "type": "tip", "text": "Amerikanisch heißt es on Main Street – mit on, nicht in. Mit Hausnummer steht at: at 25 Main Street." },
+        { "type": "examples", "items": [
+          { "text": "Excuse me, where's the train station?", "de": "Entschuldigung, wo ist der Bahnhof?" },
+          { "text": "Is there a supermarket near here? – Yes, there's one across from the park.", "de": "Gibt es hier in der Nähe einen Supermarkt? – Ja, gegenüber vom Park." },
+          { "text": "The hotel is on the corner, next to the bank.", "de": "Das Hotel ist an der Ecke, neben der Bank." },
+          { "text": "Is it far? – No, it's two blocks from here.", "de": "Ist es weit? – Nein, nur zwei Straßen weiter." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Excuse me, ___ is the hospital?", "answers": ["where"], "de": "Entschuldigung, wo ist das Krankenhaus?" },
+        { "type": "cloze", "text": "Is ___ a bank near here?", "answers": ["there"], "de": "Gibt es hier in der Nähe eine Bank?" },
+        { "type": "cloze", "text": "Yes, there's one ___ the corner.", "answers": ["on"], "de": "Ja, da ist eine an der Ecke." },
+        { "type": "cloze", "text": "The museum is ___ from the park.", "answers": ["across"], "de": "Das Museum ist gegenüber vom Park." },
+        { "type": "cloze", "text": "Is there a drugstore near here? – No, there ___.", "answers": ["isn't", "is not"], "de": "Gibt es hier in der Nähe eine Apotheke? – Nein." },
+        { "type": "translate", "de": "Gibt es hier in der Nähe ein Kino?", "answers": [
+          "Is there a movie theater near here?", "Is there a movie theater nearby?", "Is there a movie theater around here?",
+          "Is there a cinema near here?", "Is there a cinema nearby?", "Is there a cinema around here?"
+        ] },
+        { "type": "order", "de": "Wo ist bitte die Toilette?", "answer": "Where is the restroom, please?" },
+        { "type": "order", "de": "Die Post ist in der Main Street.", "answer": "The post office is on Main Street.", "distractors": ["in"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Where's the Post Office?",
+    "title_de": "Wo ist die Post?",
+    "lines": [
+      { "speaker": "Lena", "text": "Excuse me, can you help me? I can't find the post office.", "de": "Entschuldigung, können Sie mir helfen? Ich finde die Post nicht." },
+      { "speaker": "Sam", "text": "Sure! The post office is on Park Avenue.", "de": "Klar! Die Post ist in der Park Avenue." },
+      { "speaker": "Lena", "text": "Is it far?", "de": "Ist es weit?" },
+      { "speaker": "Sam", "text": "No, it isn't. It's three blocks from here.", "de": "Nein, nur drei Straßen weiter." },
+      { "speaker": "Lena", "text": "OK. How can I get there?", "de": "Okay. Wie komme ich dahin?" },
+      { "speaker": "Sam", "text": "Go straight and turn right at the traffic light. Then take the second street on the left.", "de": "Gehen Sie geradeaus und biegen Sie an der Ampel rechts ab. Dann nehmen Sie die zweite Straße links." },
+      { "speaker": "Lena", "text": "Sorry, can you say that again, please?", "de": "Entschuldigung, können Sie das bitte noch einmal sagen?" },
+      { "speaker": "Sam", "text": "Sure. Turn right at the traffic light, then take the second street on the left.", "de": "Klar. An der Ampel rechts, dann die zweite Straße links." },
+      { "speaker": "Lena", "text": "Right at the traffic light, the second street on the left. OK!", "de": "An der Ampel rechts, die zweite Straße links. Okay!" },
+      { "speaker": "Sam", "text": "The post office is on the corner, across from the bank. You can't miss it.", "de": "Die Post ist an der Ecke, gegenüber der Bank. Sie können sie nicht verfehlen." },
+      { "speaker": "Lena", "text": "Thank you! Oh, and is there a supermarket near here, too?", "de": "Danke! Ach, und gibt es hier in der Nähe auch einen Supermarkt?" },
+      { "speaker": "Sam", "text": "Yes, there's one next to the post office.", "de": "Ja, direkt neben der Post ist einer." },
+      { "speaker": "Lena", "text": "Thank you very much! Bye!", "de": "Vielen Dank! Tschüss!" },
+      { "speaker": "Sam", "text": "You're welcome. Bye!", "de": "Gern geschehen. Tschüss!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["post office", "die Post"], ["train station", "der Bahnhof"], ["library", "die Bibliothek"], ["drugstore", "die Apotheke"], ["movie theater", "das Kino"], ["hospital", "das Krankenhaus"]] },
+    { "type": "match", "pairs": [["turn left", "links abbiegen"], ["turn right", "rechts abbiegen"], ["go straight", "geradeaus gehen"], ["cross the street", "über die Straße gehen"], ["on the corner", "an der Ecke"], ["across from", "gegenüber"]] },
+    { "type": "translate", "de": "Entschuldigung, wo ist der Bahnhof?", "answers": [
+      "Excuse me, where is the train station?", "Excuse me, where's the train station?",
+      "Excuse me, where is the station?", "Excuse me, where's the station?"
+    ] },
+    { "type": "translate", "de": "Gibt es hier in der Nähe einen Supermarkt?", "answers": [
+      "Is there a supermarket near here?", "Is there a supermarket nearby?", "Is there a supermarket around here?"
+    ] },
+    { "type": "translate", "de": "Ich kann nicht Auto fahren.", "answers": ["I can't drive.", "I cannot drive."] },
+    { "type": "translate", "de": "Nimm die erste Straße rechts.", "answers": [
+      "Take the first street on the right.", "Take the first street on your right.", "Take the first street to the right.",
+      "Take the first right.", "Take the first road on the right."
+    ] },
+    { "type": "cloze", "text": "How can I ___ to the museum?", "answers": ["get"], "de": "Wie komme ich zum Museum?" },
+    { "type": "cloze", "text": "Sorry, I don't ___. I'm not from here.", "answers": ["know"], "de": "Tut mir leid, das weiß ich nicht. Ich bin nicht von hier." },
+    { "type": "order", "de": "Ist das der Weg zum Hotel?", "answer": "Is this the way to the hotel?" },
+    { "type": "order", "de": "Können Sie mir den Weg zur Bibliothek sagen?", "answer": "Can you tell me the way to the library?" },
+    { "type": "listen", "text": "Go straight and take the first street on the left.", "de": "Gehen Sie geradeaus und nehmen Sie die erste Straße links." },
+    { "type": "listen", "text": "The hotel is downtown, across from the museum.", "de": "Das Hotel ist in der Innenstadt, gegenüber vom Museum." }
+  ]
+}

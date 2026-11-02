@@ -54,28 +54,28 @@
           "file": "a1-07.json",
           "title_de": "In der Stadt",
           "topic": "Orte und nach dem Weg fragen",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-08",
           "file": "a1-08.json",
           "title_de": "Einkaufen",
           "topic": "Lebensmittel, Preise und Kleidung",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-09",
           "file": "a1-09.json",
           "title_de": "Freizeit",
           "topic": "Hobbys, Vorlieben und Wochentage",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-10",
           "file": "a1-10.json",
           "title_de": "Unterwegs",
           "topic": "Verkehrsmittel und Reisen",
-          "available": false
+          "available": true
         }
       ]
     },

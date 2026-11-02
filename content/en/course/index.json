@@ -26,56 +26,56 @@
           "file": "a1-03.json",
           "title_de": "Meine Familie",
           "topic": "Familie, Alter und was man hat",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-04",
           "file": "a1-04.json",
           "title_de": "Essen und Trinken",
           "topic": "Im Café bestellen",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-05",
           "file": "a1-05.json",
           "title_de": "Mein Tag",
           "topic": "Uhrzeit und Tagesablauf",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-06",
           "file": "a1-06.json",
           "title_de": "Zu Hause",
           "topic": "Wohnung, Zimmer und Möbel",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-07",
           "file": "a1-07.json",
           "title_de": "In der Stadt",
           "topic": "Orte und nach dem Weg fragen",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-08",
           "file": "a1-08.json",
           "title_de": "Einkaufen",
           "topic": "Lebensmittel, Preise und Kleidung",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-09",
           "file": "a1-09.json",
           "title_de": "Freizeit",
           "topic": "Hobbys, Vorlieben und Wochentage",
-          "available": false
+          "available": true
         },
         {
           "id": "en-a1-10",
           "file": "a1-10.json",
           "title_de": "Unterwegs",
           "topic": "Verkehrsmittel und Reisen",
-          "available": false
+          "available": true
         }
       ]
     },

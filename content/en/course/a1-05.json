@@ -1,0 +1,286 @@
+{
+  "formatVersion": 1,
+  "id": "en-a1-05",
+  "lang": "en",
+  "level": "A1",
+  "number": 5,
+  "title": "My Day",
+  "title_de": "Mein Tag",
+  "topic": "Uhrzeit und Tagesablauf",
+  "goals": [
+    "Du kannst deinen Tagesablauf beschreiben: I get up at seven, then I have breakfast.",
+    "Du kannst sagen, was andere tun – mit dem -s bei he, she und it: She works in a café.",
+    "Du kannst nach der Uhrzeit fragen und sie auf amerikanische Art sagen.",
+    "Du kannst at, in und on bei Zeitangaben richtig benutzen."
+  ],
+  "vocab": [
+    { "id": "get-up", "word": "get up", "de": "aufstehen", "pos": "verb", "forms": "I get up, she gets up",
+      "example": { "text": "I get up at seven.", "de": "Ich stehe um sieben auf." } },
+    { "id": "wake-up", "word": "wake up", "de": "aufwachen", "pos": "verb", "forms": "I wake up, he wakes up",
+      "example": { "text": "I wake up at six.", "de": "Ich wache um sechs auf." } },
+    { "id": "take-a-shower", "word": "take a shower", "alt": ["shower", "have a shower"], "de": "duschen", "pos": "phrase", "forms": "I take a shower, she takes a shower",
+      "example": { "text": "I take a shower at six thirty.", "de": "Ich dusche um halb sieben." },
+      "note": "Wörtlich „eine Dusche nehmen“. Für „duschen“ benutzt man im Alltag meist diese Wendung." },
+    { "id": "get-dressed", "word": "get dressed", "de": "sich anziehen", "pos": "phrase",
+      "example": { "text": "Then I get dressed.", "de": "Dann ziehe ich mich an." } },
+    { "id": "breakfast", "word": "breakfast", "de": "das Frühstück", "pos": "noun",
+      "example": { "text": "I have breakfast at seven thirty.", "de": "Ich frühstücke um halb acht." },
+      "note": "„frühstücken“ heißt have breakfast oder eat breakfast – ohne Artikel." },
+    { "id": "lunch", "word": "lunch", "de": "das Mittagessen", "pos": "noun",
+      "example": { "text": "I have lunch at twelve thirty.", "de": "Ich esse um halb eins zu Mittag." } },
+    { "id": "dinner", "word": "dinner", "de": "das Abendessen", "pos": "noun",
+      "example": { "text": "My family has dinner at six.", "de": "Meine Familie isst um sechs zu Abend." },
+      "note": "In den USA isst man oft früh zu Abend – meist zwischen fünf und sieben. Das Abendessen ist dort oft die Hauptmahlzeit." },
+    { "id": "go", "word": "go", "de": "gehen; fahren", "pos": "verb", "forms": "I go, he/she/it goes",
+      "example": { "text": "I go to work at eight.", "de": "Ich gehe um acht zur Arbeit." },
+      "note": "go heißt „gehen“ und auch „fahren“. Bei he, she und it: goes." },
+    { "id": "go-to-bed", "word": "go to bed", "de": "ins Bett gehen", "pos": "phrase",
+      "example": { "text": "The kids go to bed at eight.", "de": "Die Kinder gehen um acht ins Bett." } },
+    { "id": "work", "word": "work", "de": "arbeiten; die Arbeit", "pos": "verb", "forms": "I work, she works",
+      "example": { "text": "She works in a café.", "de": "Sie arbeitet in einem Café.", "focus": "works" },
+      "note": "Auch Nomen: go to work = zur Arbeit gehen, at work = bei der Arbeit." },
+    { "id": "start", "word": "start", "alt": ["begin"], "de": "anfangen; beginnen", "pos": "verb", "forms": "I start, it starts",
+      "example": { "text": "Work starts at nine.", "de": "Die Arbeit fängt um neun an.", "focus": "starts" } },
+    { "id": "finish", "word": "finish", "de": "aufhören; beenden; fertig sein", "pos": "verb", "forms": "I finish, he finishes",
+      "example": { "text": "I finish work at five.", "de": "Ich habe um fünf Feierabend." } },
+    { "id": "home", "word": "home", "de": "nach Hause; zu Hause; das Zuhause", "pos": "adv",
+      "example": { "text": "Are you at home? – Yes, I am.", "de": "Bist du zu Hause? – Ja." },
+      "note": "go home / come home = nach Hause gehen / kommen – ohne to! at home = zu Hause." },
+    { "id": "come", "word": "come", "de": "kommen", "pos": "verb", "forms": "I come, she comes",
+      "example": { "text": "My dad comes home at six.", "de": "Mein Papa kommt um sechs nach Hause.", "focus": "comes" } },
+    { "id": "study", "word": "study", "de": "lernen; studieren", "pos": "verb", "forms": "I study, she studies",
+      "example": { "text": "Lena studies English in the evening.", "de": "Lena lernt abends Englisch.", "focus": "studies" },
+      "note": "Bei he, she und it wird y zu -ies: studies." },
+    { "id": "watch", "word": "watch", "de": "ansehen; anschauen; die Armbanduhr", "pos": "verb", "forms": "I watch, he watches",
+      "example": { "text": "Jake watches TV after dinner.", "de": "Jake sieht nach dem Abendessen fern.", "focus": "watches" },
+      "note": "watch TV = fernsehen. Als Nomen ist a watch eine Armbanduhr." },
+    { "id": "read", "word": "read", "de": "lesen", "pos": "verb", "forms": "I read, she reads",
+      "example": { "text": "My grandma reads every day.", "de": "Meine Oma liest jeden Tag.", "focus": "reads" } },
+    { "id": "sleep", "word": "sleep", "de": "schlafen", "pos": "verb", "forms": "I sleep, it sleeps",
+      "example": { "text": "The baby sleeps in the afternoon.", "de": "Das Baby schläft nachmittags.", "focus": "sleeps" } },
+    { "id": "cook", "word": "cook", "de": "kochen", "pos": "verb", "forms": "I cook, he cooks",
+      "example": { "text": "My husband cooks dinner.", "de": "Mein Mann kocht das Abendessen.", "focus": "cooks" } },
+    { "id": "day", "word": "day", "plural": "days", "de": "der Tag", "pos": "noun",
+      "example": { "text": "Have a nice day!", "de": "Schönen Tag noch!" },
+      "note": "every day = jeden Tag – ohne Präposition." },
+    { "id": "time", "word": "time", "de": "die Zeit; die Uhrzeit", "pos": "noun",
+      "example": { "text": "What time is it?", "de": "Wie spät ist es?" },
+      "note": "What time …? fragt nach der Uhrzeit: Um wie viel Uhr …? / Wie spät …?" },
+    { "id": "oclock", "word": "o'clock", "de": "Uhr (bei vollen Stunden)", "pos": "adv",
+      "example": { "text": "It's eight o'clock.", "de": "Es ist acht Uhr." },
+      "note": "Nur bei vollen Stunden: eight o'clock – aber eight thirty." },
+    { "id": "quarter", "word": "quarter", "plural": "quarters", "de": "das Viertel", "pos": "noun",
+      "example": { "text": "It's a quarter after nine.", "de": "Es ist Viertel nach neun." },
+      "note": "In den USA ist a quarter auch eine Münze: 25 Cent." },
+    { "id": "after", "word": "after", "de": "nach", "pos": "prep",
+      "example": { "text": "It's ten after six.", "de": "Es ist zehn nach sechs." },
+      "note": "Bei der Uhrzeit sagt man im britischen Englisch past: ten past six." },
+    { "id": "to", "word": "to", "de": "zu; nach; vor (bei der Uhrzeit)", "pos": "prep",
+      "example": { "text": "It's a quarter to eight.", "de": "Es ist Viertel vor acht." },
+      "note": "Für „vor“ hört man in den USA auch of: a quarter of eight." },
+    { "id": "minute", "word": "minute", "plural": "minutes", "de": "die Minute", "pos": "noun",
+      "example": { "text": "An hour has sixty minutes.", "de": "Eine Stunde hat sechzig Minuten." } },
+    { "id": "hour", "word": "hour", "plural": "hours", "de": "die Stunde", "pos": "noun",
+      "example": { "text": "I work eight hours every day.", "de": "Ich arbeite jeden Tag acht Stunden." },
+      "note": "Das h ist stumm – deshalb an hour." },
+    { "id": "am", "word": "a.m.", "alt": ["am"], "de": "vormittags; morgens (0 bis 12 Uhr)", "pos": "adv",
+      "example": { "text": "I get up at 6 a.m.", "de": "Ich stehe um 6 Uhr morgens auf." },
+      "note": "In den USA benutzt man im Alltag die 12-Stunden-Uhr. a.m. steht für die Zeit vor 12 Uhr mittags." },
+    { "id": "pm", "word": "p.m.", "alt": ["pm"], "de": "nachmittags; abends (12 bis 24 Uhr)", "pos": "adv",
+      "example": { "text": "Dinner is at 7 p.m.", "de": "Das Abendessen ist um 19 Uhr." },
+      "note": "p.m. steht für die Zeit nach 12 Uhr mittags: 7 p.m. = 19 Uhr." },
+    { "id": "noon", "word": "noon", "de": "zwölf Uhr mittags; der Mittag", "pos": "noun",
+      "example": { "text": "We have lunch at noon.", "de": "Wir essen um zwölf Uhr zu Mittag." } },
+    { "id": "midnight", "word": "midnight", "de": "Mitternacht", "pos": "noun",
+      "example": { "text": "It's midnight. Good night!", "de": "Es ist Mitternacht. Gute Nacht!" } },
+    { "id": "in-the-morning", "word": "in the morning", "de": "morgens; am Morgen; vormittags", "pos": "phrase",
+      "example": { "text": "I drink coffee in the morning.", "de": "Morgens trinke ich Kaffee." } },
+    { "id": "in-the-afternoon", "word": "in the afternoon", "de": "nachmittags; am Nachmittag", "pos": "phrase",
+      "example": { "text": "I work in the afternoon.", "de": "Ich arbeite nachmittags." } },
+    { "id": "in-the-evening", "word": "in the evening", "de": "abends; am Abend", "pos": "phrase",
+      "example": { "text": "We watch TV in the evening.", "de": "Abends sehen wir fern." } },
+    { "id": "at-night", "word": "at night", "de": "nachts; in der Nacht", "pos": "phrase",
+      "example": { "text": "My mom works at night.", "de": "Meine Mama arbeitet nachts." },
+      "note": "Achtung: in the morning, in the evening – aber at night." },
+    { "id": "at", "word": "at", "de": "um (bei Uhrzeiten); an; bei", "pos": "prep",
+      "example": { "text": "Breakfast is at eight.", "de": "Frühstück gibt es um acht." } },
+    { "id": "weekend", "word": "weekend", "plural": "weekends", "de": "das Wochenende", "pos": "noun",
+      "example": { "text": "I sleep late on the weekend.", "de": "Am Wochenende schlafe ich lange." },
+      "note": "Amerikanisch: on the weekend. Britisch: at the weekend." },
+    { "id": "early", "word": "early", "de": "früh", "pos": "adv",
+      "example": { "text": "My dad gets up early.", "de": "Mein Papa steht früh auf." } },
+    { "id": "late", "word": "late", "de": "spät", "pos": "adv",
+      "example": { "text": "Sorry, I'm late!", "de": "Entschuldigung, ich bin zu spät!" },
+      "note": "be late = zu spät sein, zu spät kommen." },
+    { "id": "then", "word": "then", "de": "dann; danach", "pos": "adv",
+      "example": { "text": "I have breakfast, and then I go to work.", "de": "Ich frühstücke und dann gehe ich zur Arbeit." } }
+  ],
+  "grammar": [
+    {
+      "id": "present-simple",
+      "title": "Das Simple Present: I work – she works",
+      "blocks": [
+        { "type": "p", "text": "Mit dem Simple Present sagst du, was du regelmäßig oder immer tust – zum Beispiel in deinem Tagesablauf. Die Form ist ganz einfach: Du nimmst die Grundform des Verbs. Nur bei he, she und it kommt ein -s dazu." },
+        { "type": "table", "head": ["Person", "work", "get up", "Deutsch"], "rows": [
+          ["I", "work", "get up", "ich arbeite / stehe auf"],
+          ["you", "work", "get up", "du arbeitest / stehst auf"],
+          ["he / she / it", "works", "gets up", "er / sie / es arbeitet / steht auf"],
+          ["we", "work", "get up", "wir arbeiten / stehen auf"],
+          ["you", "work", "get up", "ihr arbeitet / steht auf"],
+          ["they", "work", "get up", "sie arbeiten / stehen auf"]
+        ] },
+        { "type": "tip", "text": "He, she, it – das -s muss mit! Das gilt auch für Namen und Nomen in der Einzahl: Tom works, my mom gets up, the baby sleeps." },
+        { "type": "p", "text": "Bei manchen Verben ändert sich die Schreibung:" },
+        { "type": "table", "head": ["Regel", "Beispiele"], "rows": [
+          ["meistens + -s", "work → works, get → gets, read → reads"],
+          ["nach s, sh, ch, x und o + -es", "watch → watches, finish → finishes, go → goes, do → does"],
+          ["Konsonant + y → -ies", "study → studies"],
+          ["unregelmäßig", "have → has"]
+        ] },
+        { "type": "tip", "text": "Bei Verben aus zwei oder drei Wörtern bekommt nur das Verb das -s: she gets up, he goes to bed, Lena takes a shower." },
+        { "type": "tip", "text": "Der Satzbau bleibt immer gleich: Subjekt – Verb – Rest. Auch wenn der Satz mit einer Zeit beginnt, rückt das Verb nicht nach vorn: At seven, I get up. (Um sieben stehe ich auf.)" },
+        { "type": "tip", "text": "Fragen und Verneinungen (Do you work? – I don't work.) lernst du in Lektion 9." },
+        { "type": "examples", "items": [
+          { "text": "I get up at seven.", "de": "Ich stehe um sieben auf." },
+          { "text": "My sister works in a café.", "de": "Meine Schwester arbeitet in einem Café." },
+          { "text": "He watches TV in the evening.", "de": "Er sieht abends fern." },
+          { "text": "Lena studies English.", "de": "Lena lernt Englisch." },
+          { "text": "We have dinner at six.", "de": "Wir essen um sechs zu Abend." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "She ___ in New York.", "answers": ["works"], "de": "Sie arbeitet in New York.", "hint": "work" },
+        { "type": "cloze", "text": "I ___ up at six.", "answers": ["get"], "de": "Ich stehe um sechs auf.", "hint": "get" },
+        { "type": "cloze", "text": "Tom ___ to bed at eleven.", "answers": ["goes"], "de": "Tom geht um elf ins Bett.", "hint": "go" },
+        { "type": "cloze", "text": "My brother ___ English in the evening.", "answers": ["studies"], "de": "Mein Bruder lernt abends Englisch.", "hint": "study" },
+        { "type": "cloze", "text": "Lisa ___ TV after dinner.", "answers": ["watches"], "de": "Lisa sieht nach dem Abendessen fern.", "hint": "watch" },
+        { "type": "cloze", "text": "We ___ breakfast at seven thirty.", "answers": ["have", "eat"], "de": "Wir frühstücken um halb acht." },
+        { "type": "order", "de": "Ich stehe um sieben auf.", "answer": "I get up at seven.", "distractors": ["gets"] },
+        { "type": "translate", "de": "Mein Vater kocht das Abendessen.", "answers": [
+          "My father cooks dinner.", "My dad cooks dinner.", "My father makes dinner.", "My dad makes dinner.",
+          "My father cooks the dinner.", "My dad cooks the dinner."
+        ] }
+      ]
+    },
+    {
+      "id": "telling-time",
+      "title": "Wie spät ist es? Die Uhrzeit",
+      "blocks": [
+        { "type": "p", "text": "Nach der Uhrzeit fragst du mit What time is it? (Wie spät ist es?). Die Antwort beginnt mit It's …" },
+        { "type": "table", "head": ["Uhrzeit", "Englisch", "Deutsch"], "rows": [
+          ["7:00", "It's seven o'clock. / It's seven.", "Es ist sieben Uhr."],
+          ["7:05", "It's seven oh five. / It's five after seven.", "Es ist fünf nach sieben."],
+          ["7:15", "It's seven fifteen. / It's a quarter after seven.", "Es ist Viertel nach sieben."],
+          ["7:30", "It's seven thirty.", "Es ist halb acht."],
+          ["7:45", "It's seven forty-five. / It's a quarter to eight.", "Es ist Viertel vor acht."],
+          ["7:50", "It's seven fifty. / It's ten to eight.", "Es ist zehn vor acht."]
+        ] },
+        { "type": "tip", "text": "Am einfachsten liest du die Uhrzeit wie auf einer Digitaluhr: Stunde + Minuten. 8:20 = eight twenty, 9:45 = nine forty-five. Das ist in den USA ganz üblich." },
+        { "type": "tip", "text": "Achtung bei „halb“! „Halb acht“ ist 7:30 – also seven thirty. Im Englischen zählt man nicht zur nächsten Stunde. Wer im britischen Englisch half eight sagt, meint sogar 8:30!" },
+        { "type": "tip", "text": "o'clock steht nur bei vollen Stunden: It's seven o'clock. Aber nicht: seven thirty o'clock." },
+        { "type": "p", "text": "In den USA benutzt man im Alltag die 12-Stunden-Uhr. Ob morgens oder abends, sagst du mit a.m. (vor 12 Uhr mittags) und p.m. (nach 12 Uhr mittags) – oder mit in the morning, in the afternoon und in the evening." },
+        { "type": "table", "head": ["24 Stunden", "12 Stunden"], "rows": [
+          ["6:00", "6 a.m. – six in the morning"],
+          ["12:00", "noon – twelve p.m."],
+          ["15:30", "3:30 p.m. – three thirty in the afternoon"],
+          ["20:00", "8 p.m. – eight in the evening"],
+          ["0:00", "midnight – twelve a.m."]
+        ] },
+        { "type": "tip", "text": "Statt a quarter after hörst du auch a quarter past, statt a quarter to auch a quarter of. Alles bedeutet dasselbe." },
+        { "type": "examples", "items": [
+          { "text": "What time is it? – It's nine o'clock.", "de": "Wie spät ist es? – Es ist neun Uhr." },
+          { "text": "It's a quarter after ten.", "de": "Es ist Viertel nach zehn." },
+          { "text": "It's six thirty.", "de": "Es ist halb sieben." },
+          { "text": "It's twenty to five.", "de": "Es ist zwanzig vor fünf." },
+          { "text": "Lunch is at noon.", "de": "Das Mittagessen ist um zwölf." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "What ___ is it?", "answers": ["time"], "de": "Wie spät ist es?" },
+        { "type": "cloze", "text": "It's eight ___.", "answers": ["o'clock"], "de": "Es ist acht Uhr." },
+        { "type": "cloze", "text": "It's a ___ after three.", "answers": ["quarter"], "de": "Es ist Viertel nach drei." },
+        { "type": "cloze", "text": "It's ten ___ eight.", "answers": ["to", "of", "till"], "de": "Es ist zehn vor acht." },
+        { "type": "translate", "de": "Es ist halb sieben.", "answers": [
+          "It's six thirty.", "It is six thirty.", "It's six-thirty.", "It is six-thirty.", "It's 6:30.", "It is 6:30.",
+          "It's half past six.", "It is half past six."
+        ] },
+        { "type": "match", "pairs": [["a quarter after seven", "Viertel nach sieben"], ["seven thirty", "halb acht"], ["a quarter to eight", "Viertel vor acht"], ["ten after seven", "zehn nach sieben"]] },
+        { "type": "listen", "text": "It's a quarter to nine.", "de": "Es ist Viertel vor neun." },
+        { "type": "choice", "prompt": "Es ist halb acht (7:30). Was sagst du?",
+          "options": ["It's seven thirty.", "It's half eight.", "It's eight thirty."],
+          "answer": 0, "explain": "Halb acht ist 7:30 – also seven thirty. Im Englischen zählt man von der vollen Stunde aus weiter. Im britischen Englisch heißt half eight übrigens 8:30." }
+      ]
+    },
+    {
+      "id": "at-in-on-time",
+      "title": "at, in und on bei Zeitangaben",
+      "blocks": [
+        { "type": "p", "text": "Für „um“, „am“ und „im“ bei Zeitangaben gibt es im Englischen drei kleine Wörter: at, in und on. Welches du nimmst, hängt davon ab, um was für eine Zeitangabe es geht." },
+        { "type": "table", "head": ["Präposition", "wofür", "Beispiele"], "rows": [
+          ["at", "Uhrzeiten und Zeitpunkte", "at seven, at 8:30, at noon, at midnight, at night"],
+          ["in", "Tageszeiten, Monate, Jahre", "in the morning, in the afternoon, in the evening, in July, in 2026"],
+          ["on", "Tage und das Wochenende", "on Monday, on the weekend"]
+        ] },
+        { "type": "tip", "text": "Merke die Ausnahme: in the morning, in the afternoon, in the evening – aber at night." },
+        { "type": "tip", "text": "Amerikanisch: on the weekend (am Wochenende). Im britischen Englisch hörst du at the weekend." },
+        { "type": "tip", "text": "Die Wochentage lernst du in Lektion 9. Sie stehen immer mit on: on Monday (am Montag)." },
+        { "type": "p", "text": "Bei every day steht keine Präposition: I work every day. (Ich arbeite jeden Tag.)" },
+        { "type": "tip", "text": "Im Deutschen sagst du oft nur „morgens“, „abends“ oder „nachts“. Im Englischen brauchst du dafür die ganze Wendung: in the morning, in the evening, at night." },
+        { "type": "examples", "items": [
+          { "text": "I get up at six thirty.", "de": "Ich stehe um halb sieben auf." },
+          { "text": "We have lunch at noon.", "de": "Wir essen um zwölf zu Mittag." },
+          { "text": "I study in the evening.", "de": "Ich lerne abends." },
+          { "text": "I sleep late on the weekend.", "de": "Am Wochenende schlafe ich lange." },
+          { "text": "My dad works at night.", "de": "Mein Papa arbeitet nachts." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I have breakfast ___ seven.", "answers": ["at"], "de": "Ich frühstücke um sieben.", "hint": "at / in / on" },
+        { "type": "cloze", "text": "I take a shower ___ the morning.", "answers": ["in"], "de": "Ich dusche morgens.", "hint": "at / in / on" },
+        { "type": "cloze", "text": "We sleep late ___ the weekend.", "answers": ["on"], "de": "Am Wochenende schlafen wir lange.", "hint": "at / in / on" },
+        { "type": "cloze", "text": "My mom works ___ night.", "answers": ["at"], "de": "Meine Mama arbeitet nachts.", "hint": "at / in / on" },
+        { "type": "cloze", "text": "Lena studies ___ the evening.", "answers": ["in"], "de": "Lena lernt abends.", "hint": "at / in / on" },
+        { "type": "order", "de": "Wir essen mittags um zwölf.", "answer": "We have lunch at noon.", "distractors": ["on"] },
+        { "type": "translate", "de": "Ich gehe um Mitternacht ins Bett.", "answers": ["I go to bed at midnight.", "I go to bed at twelve.", "I go to bed at 12."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Up Early",
+    "title_de": "Früh auf den Beinen",
+    "lines": [
+      { "speaker": "Carlos", "text": "Good morning, Lena! You're up early.", "de": "Guten Morgen, Lena! Du bist ja früh auf." },
+      { "speaker": "Lena", "text": "Yes, I get up at six every day.", "de": "Ja, ich stehe jeden Tag um sechs auf." },
+      { "speaker": "Carlos", "text": "At six? Wow! What time is it now?", "de": "Um sechs? Wow! Wie spät ist es jetzt?" },
+      { "speaker": "Lena", "text": "It's seven thirty. I work in a café, and work starts at eight.", "de": "Es ist halb acht. Ich arbeite in einem Café, und die Arbeit fängt um acht an." },
+      { "speaker": "Carlos", "text": "I start at ten. I take a shower, have breakfast, and then I go to work.", "de": "Ich fange um zehn an. Ich dusche, frühstücke und dann gehe ich zur Arbeit." },
+      { "speaker": "Lena", "text": "And in the evening?", "de": "Und abends?" },
+      { "speaker": "Carlos", "text": "I finish at seven p.m. and come home at eight. Then I cook dinner.", "de": "Ich habe um sieben Uhr abends Feierabend und bin um acht zu Hause. Dann koche ich." },
+      { "speaker": "Lena", "text": "I finish at four in the afternoon. In the evening, I study English.", "de": "Ich höre um vier Uhr nachmittags auf. Abends lerne ich Englisch." },
+      { "speaker": "Carlos", "text": "My brother is seventeen. On the weekend, he gets up at noon and goes to bed at two a.m.!", "de": "Mein Bruder ist siebzehn. Am Wochenende steht er um zwölf Uhr mittags auf und geht um zwei Uhr nachts ins Bett!" },
+      { "speaker": "Lena", "text": "Ha! My brother Paul gets up at five thirty. His kids wake up early.", "de": "Ha! Mein Bruder Paul steht um halb sechs auf. Seine Kinder wachen früh auf." },
+      { "speaker": "Lena", "text": "Oh, it's a quarter to eight! I'm late. See you later, Carlos!", "de": "Oh, es ist Viertel vor acht! Ich bin spät dran. Bis später, Carlos!" },
+      { "speaker": "Carlos", "text": "Bye, Lena! Have a nice day!", "de": "Tschüss, Lena! Schönen Tag noch!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["get up", "aufstehen"], ["wake up", "aufwachen"], ["get dressed", "sich anziehen"], ["take a shower", "duschen"], ["go to bed", "ins Bett gehen"]] },
+    { "type": "match", "pairs": [["breakfast", "das Frühstück"], ["lunch", "das Mittagessen"], ["dinner", "das Abendessen"], ["noon", "zwölf Uhr mittags"], ["midnight", "Mitternacht"]] },
+    { "type": "translate", "de": "Ich stehe um sieben Uhr auf.", "answers": [
+      "I get up at seven o'clock.", "I get up at seven.", "I get up at 7.", "I get up at 7 o'clock.", "I get up at 7:00.",
+      "I get up at seven a.m.", "I get up at 7 a.m.", "I get up at seven in the morning.", "I get up at 7 in the morning."
+    ] },
+    { "type": "translate", "de": "Sie arbeitet nachmittags.", "answers": ["She works in the afternoon.", "She works in the afternoons.", "In the afternoon, she works."] },
+    { "type": "translate", "de": "Mein Bruder sieht abends fern.", "answers": [
+      "My brother watches TV in the evening.", "My brother watches TV in the evenings.", "In the evening, my brother watches TV.",
+      "My brother watches television in the evening.", "My brother watches television in the evenings.", "In the evening, my brother watches television."
+    ] },
+    { "type": "translate", "de": "Wie spät ist es?", "answers": ["What time is it?", "What's the time?", "What is the time?"] },
+    { "type": "cloze", "text": "Emma ___ a shower in the morning.", "answers": ["takes"], "de": "Emma duscht morgens.", "hint": "take" },
+    { "type": "cloze", "text": "I ___ work at five.", "answers": ["finish", "leave"], "de": "Ich habe um fünf Feierabend." },
+    { "type": "order", "de": "Dann geht er um elf ins Bett.", "answer": "Then he goes to bed at eleven.", "distractors": ["go"] },
+    { "type": "order", "de": "Am Wochenende stehe ich spät auf.", "answer": "I get up late on the weekend.", "distractors": ["at"] },
+    { "type": "listen", "text": "My dad gets up at five thirty in the morning.", "de": "Mein Papa steht morgens um halb sechs auf." },
+    { "type": "listen", "text": "It's ten after twelve, and I'm hungry.", "de": "Es ist zehn nach zwölf und ich habe Hunger." }
+  ]
+}
