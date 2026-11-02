@@ -155,7 +155,7 @@
     { "type": "cloze", "text": "Our car broke ___ in the middle of nowhere.", "answers": ["down"], "de": "Unser Auto hatte mitten im Nirgendwo eine Panne." },
     { "type": "cloze", "text": "The plane took ___ two hours late.", "answers": ["off"], "de": "Das Flugzeug ist mit zwei Stunden Verspätung gestartet." },
     { "type": "cloze", "text": "On the way to the airport, we got ___ in traffic.", "answers": ["stuck"], "de": "Auf dem Weg zum Flughafen sind wir im Stau stecken geblieben." },
-    { "type": "cloze", "text": "Our flight was ___ because of the storm.", "answers": ["canceled"], "de": "Unser Flug wurde wegen des Sturms gestrichen.", "hint": "cancel" },
+    { "type": "cloze", "text": "Our flight was ___ because of the storm.", "answers": ["canceled", "cancelled"], "de": "Unser Flug wurde wegen des Sturms gestrichen.", "hint": "cancel" },
     { "type": "order", "de": "Wir fuhren gerade auf dem Highway, als das Auto plötzlich stehen blieb.", "answer": "We were driving on the highway when the car suddenly stopped.", "distractors": ["drove"] },
     { "type": "order", "de": "Als wir ankamen, hatte das Konzert schon angefangen.", "answer": "When we arrived, the concert had already started.", "distractors": ["has"] },
     { "type": "listen", "text": "As soon as we arrived at the hotel, it started to rain.", "de": "Gleich als wir im Hotel ankamen, fing es an zu regnen." },
