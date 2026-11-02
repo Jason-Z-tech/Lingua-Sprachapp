@@ -977,6 +977,243 @@
       "examples": [
         { "word": "強[つよ]い", "de": "stark" },
         { "word": "勉強[べんきょう]", "de": "das Lernen" }
+      ] },
+    { "char": "意", "de": "Sinn; Gedanke; Absicht", "on": ["イ"], "kun": [], "strokes": 13,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "意見[いけん]", "de": "die Meinung" },
+        { "word": "意味[いみ]", "de": "die Bedeutung" },
+        { "word": "注意[ちゅうい]", "de": "die Vorsicht; die Ermahnung" }
+      ] },
+    { "char": "説", "de": "erklären; Theorie", "on": ["セツ", "ゼイ"], "kun": ["と.く"], "strokes": 14,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "説明[せつめい]", "de": "die Erklärung" },
+        { "word": "小説[しょうせつ]", "de": "der Roman" }
+      ] },
+    { "char": "言", "de": "sagen; Wort", "on": ["ゲン", "ゴン"], "kun": ["い.う", "こと"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "言[い]う", "de": "sagen" },
+        { "word": "言葉[ことば]", "de": "das Wort; die Sprache" },
+        { "word": "伝言[でんごん]", "de": "die Nachricht (für jemanden)" }
+      ] },
+    { "char": "問", "de": "fragen; Frage; Problem", "on": ["モン"], "kun": ["と.う", "とい"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "問題[もんだい]", "de": "das Problem; die Aufgabe" },
+        { "word": "質問[しつもん]", "de": "die Frage" }
+      ] },
+    { "char": "題", "de": "Thema; Titel", "on": ["ダイ"], "kun": [], "strokes": 18,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "問題[もんだい]", "de": "das Problem; die Aufgabe" },
+        { "word": "宿題[しゅくだい]", "de": "die Hausaufgaben" },
+        { "word": "話題[わだい]", "de": "das Gesprächsthema" }
+      ] },
+    { "char": "答", "de": "Antwort; antworten", "on": ["トウ"], "kun": ["こた.え", "こた.える"], "strokes": 12,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "答[こた]え", "de": "die Antwort" },
+        { "word": "答[こた]える", "de": "antworten" },
+        { "word": "回答[かいとう]", "de": "die Antwort (schriftlich)" }
+      ] },
+    { "char": "正", "de": "richtig; korrekt; gerade", "on": ["セイ", "ショウ"], "kun": ["ただ.しい", "ただ.す", "まさ"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-01",
+      "examples": [
+        { "word": "正[ただ]しい", "de": "richtig" },
+        { "word": "正直[しょうじき]", "de": "ehrlich" },
+        { "word": "お正月[しょうがつ]", "de": "das Neujahrsfest" }
+      ] },
+    { "char": "使", "de": "benutzen; Bote", "on": ["シ"], "kun": ["つか.う"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "使[つか]う", "de": "benutzen" },
+        { "word": "使[つか]い方[かた]", "de": "die Bedienung" },
+        { "word": "大使館[たいしかん]", "de": "die Botschaft" }
+      ] },
+    { "char": "用", "de": "Gebrauch; Angelegenheit", "on": ["ヨウ"], "kun": ["もち.いる"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "用事[ようじ]", "de": "etwas zu erledigen" },
+        { "word": "利用[りよう]", "de": "die Nutzung" },
+        { "word": "用意[ようい]", "de": "die Vorbereitung" }
+      ] },
+    { "char": "動", "de": "bewegen; sich bewegen", "on": ["ドウ"], "kun": ["うご.く", "うご.かす"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "動[うご]く", "de": "sich bewegen; laufen (Gerät)" },
+        { "word": "動画[どうが]", "de": "das Video" },
+        { "word": "運動[うんどう]", "de": "die Bewegung; der Sport" }
+      ] },
+    { "char": "画", "de": "Bild; Strich; Plan", "on": ["ガ", "カク"], "kun": [], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "映画[えいが]", "de": "der Film" },
+        { "word": "動画[どうが]", "de": "das Video" },
+        { "word": "計画[けいかく]", "de": "der Plan" }
+      ] },
+    { "char": "送", "de": "schicken; begleiten", "on": ["ソウ"], "kun": ["おく.る"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "送[おく]る", "de": "schicken" },
+        { "word": "放送[ほうそう]", "de": "die Sendung; die Übertragung" },
+        { "word": "送料[そうりょう]", "de": "die Versandkosten" }
+      ] },
+    { "char": "知", "de": "wissen; kennen", "on": ["チ"], "kun": ["し.る", "し.らせる"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "知[し]る", "de": "erfahren; kennen" },
+        { "word": "お知[し]らせ", "de": "die Mitteilung" },
+        { "word": "知[し]り合[あ]い", "de": "der/die Bekannte" }
+      ] },
+    { "char": "文", "de": "Satz; Text; Schrift", "on": ["ブン", "モン"], "kun": ["ふみ"], "strokes": 4,
+      "level": "B1", "lesson": "ja-b1-02",
+      "examples": [
+        { "word": "文[ぶん]", "de": "der Satz" },
+        { "word": "文化[ぶんか]", "de": "die Kultur" },
+        { "word": "文字[もじ]", "de": "das Schriftzeichen" }
+      ] },
+    { "char": "地", "de": "Erde; Boden; Gegend", "on": ["チ", "ジ"], "kun": [], "strokes": 6,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "地図[ちず]", "de": "der Stadtplan; die Landkarte" },
+        { "word": "地[ち]球[きゅう]", "de": "die Erde (Planet)" },
+        { "word": "地震[じしん]", "de": "das Erdbeben" }
+      ] },
+    { "char": "世", "de": "Welt; Generation", "on": ["セ", "セイ"], "kun": ["よ"], "strokes": 5,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "世界[せかい]", "de": "die Welt" },
+        { "word": "世話[せわ]", "de": "die Pflege; die Fürsorge" },
+        { "word": "世[よ]の中[なか]", "de": "die Welt; die Gesellschaft" }
+      ] },
+    { "char": "界", "de": "Grenze; Welt", "on": ["カイ"], "kun": [], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "世界[せかい]", "de": "die Welt" },
+        { "word": "世界中[せかいじゅう]", "de": "auf der ganzen Welt" }
+      ] },
+    { "char": "空", "de": "Himmel; leer", "on": ["クウ"], "kun": ["そら", "あ.く", "から"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "空[そら]", "de": "der Himmel" },
+        { "word": "空気[くうき]", "de": "die Luft" },
+        { "word": "空港[くうこう]", "de": "der Flughafen" }
+      ] },
+    { "char": "自", "de": "selbst", "on": ["ジ", "シ"], "kun": ["みずか.ら"], "strokes": 6,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "自分[じぶん]", "de": "selbst" },
+        { "word": "自転車[じてんしゃ]", "de": "das Fahrrad" },
+        { "word": "自然[しぜん]", "de": "die Natur" }
+      ] },
+    { "char": "然", "de": "so; Natur", "on": ["ゼン", "ネン"], "kun": [], "strokes": 12,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "自然[しぜん]", "de": "die Natur" },
+        { "word": "全然[ぜんぜん]", "de": "überhaupt nicht" }
+      ] },
+    { "char": "森", "de": "Wald", "on": ["シン"], "kun": ["もり"], "strokes": 12,
+      "level": "B1", "lesson": "ja-b1-03",
+      "examples": [
+        { "word": "森[もり]", "de": "der Wald" },
+        { "word": "森林[しんりん]", "de": "der Forst; die Wälder" }
+      ] },
+    { "char": "近", "de": "nah", "on": ["キン"], "kun": ["ちか.い"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "近[ちか]い", "de": "nah" },
+        { "word": "近所[きんじょ]", "de": "die Nachbarschaft" },
+        { "word": "最近[さいきん]", "de": "in letzter Zeit" }
+      ] },
+    { "char": "所", "de": "Ort; Stelle", "on": ["ショ"], "kun": ["ところ"], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "所[ところ]", "de": "der Ort; die Stelle" },
+        { "word": "台所[だいどころ]", "de": "die Küche" },
+        { "word": "住所[じゅうしょ]", "de": "die Adresse" }
+      ] },
+    { "char": "部", "de": "Teil; Abteilung", "on": ["ブ"], "kun": [], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "部屋[へや]", "de": "das Zimmer" },
+        { "word": "全部[ぜんぶ]", "de": "alles" },
+        { "word": "部長[ぶちょう]", "de": "der Abteilungsleiter; die Abteilungsleiterin" }
+      ] },
+    { "char": "屋", "de": "Haus; Dach; Laden", "on": ["オク"], "kun": ["や"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "部屋[へや]", "de": "das Zimmer" },
+        { "word": "本屋[ほんや]", "de": "die Buchhandlung" },
+        { "word": "屋上[おくじょう]", "de": "das Flachdach; die Dachterrasse" }
+      ] },
+    { "char": "室", "de": "Raum; Zimmer", "on": ["シツ"], "kun": ["むろ"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "和室[わしつ]", "de": "das Zimmer im japanischen Stil" },
+        { "word": "教室[きょうしつ]", "de": "das Klassenzimmer" },
+        { "word": "寝室[しんしつ]", "de": "das Schlafzimmer" }
+      ] },
+    { "char": "開", "de": "öffnen", "on": ["カイ"], "kun": ["ひら.く", "あ.く", "あ.ける"], "strokes": 12,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "開[あ]ける", "de": "öffnen (etwas)" },
+        { "word": "開[あ]く", "de": "aufgehen" },
+        { "word": "開[ひら]く", "de": "aufschlagen; eröffnen" }
+      ] },
+    { "char": "閉", "de": "schließen", "on": ["ヘイ"], "kun": ["と.じる", "し.める", "し.まる"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-04",
+      "examples": [
+        { "word": "閉[し]める", "de": "schließen (etwas)" },
+        { "word": "閉[し]まる", "de": "zugehen" },
+        { "word": "閉[と]じる", "de": "zuklappen; schließen" }
+      ] },
+    { "char": "教", "de": "lehren; Lehre", "on": ["キョウ"], "kun": ["おし.える", "おそ.わる"], "strokes": 11,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "教[おし]える", "de": "unterrichten; beibringen" },
+        { "word": "教室[きょうしつ]", "de": "das Klassenzimmer" },
+        { "word": "教[きょう]育[いく]", "de": "die Bildung" }
+      ] },
+    { "char": "研", "de": "schleifen; erforschen", "on": ["ケン"], "kun": ["と.ぐ"], "strokes": 9,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "研究[けんきゅう]", "de": "die Forschung" },
+        { "word": "研[けん]修[しゅう]", "de": "die Fortbildung; die Schulung" }
+      ] },
+    { "char": "究", "de": "erforschen; ergründen", "on": ["キュウ"], "kun": ["きわ.める"], "strokes": 7,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "研究[けんきゅう]", "de": "die Forschung" },
+        { "word": "研究者[けんきゅうしゃ]", "de": "Forscher/in" }
+      ] },
+    { "char": "試", "de": "versuchen; prüfen", "on": ["シ"], "kun": ["こころ.みる", "ため.す"], "strokes": 13,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "試験[しけん]", "de": "die Prüfung" },
+        { "word": "試[ため]す", "de": "ausprobieren" },
+        { "word": "試合[しあい]", "de": "das Spiel; der Wettkampf" }
+      ] },
+    { "char": "験", "de": "prüfen; Wirkung", "on": ["ケン", "ゲン"], "kun": [], "strokes": 18,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "試験[しけん]", "de": "die Prüfung" },
+        { "word": "受験[じゅけん]", "de": "die Aufnahmeprüfung" },
+        { "word": "経験[けいけん]", "de": "die Erfahrung" }
+      ] },
+    { "char": "英", "de": "England; hervorragend", "on": ["エイ"], "kun": [], "strokes": 8,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "英語[えいご]", "de": "Englisch" },
+        { "word": "英会話[えいかいわ]", "de": "die englische Konversation" }
+      ] },
+    { "char": "字", "de": "Schriftzeichen; Buchstabe", "on": ["ジ"], "kun": ["あざ"], "strokes": 6,
+      "level": "B1", "lesson": "ja-b1-05",
+      "examples": [
+        { "word": "漢字[かんじ]", "de": "das Kanji" },
+        { "word": "文字[もじ]", "de": "das Schriftzeichen" },
+        { "word": "字[じ]", "de": "die Schrift; die Handschrift" }
       ] }
   ]
 }

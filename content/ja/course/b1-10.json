@@ -1,0 +1,150 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-10",
+  "lang": "ja",
+  "level": "B1",
+  "number": 10,
+  "title": "夢[ゆめ] に 向[む]かって",
+  "title_de": "Ziele",
+  "topic": "Träume und Wünsche",
+  "goals": [
+    "Du kannst mit 〜ように sagen, wozu du etwas tust: わすれない ように メモします.",
+    "Du kannst mit 〜ことに しました mitteilen, wofür du dich entschieden hast.",
+    "Du kannst Wünsche ausdrücken – für dich (〜たいと おもって います) und für andere (〜と いいですね).",
+    "Du kannst mit 〜までに Fristen nennen und über Träume, Ziele und deine Zukunft sprechen."
+  ],
+  "kanji": ["夢", "将", "未", "希", "望", "決", "心"],
+  "vocab": [
+    { "id": "yume", "word": "夢[ゆめ]", "de": "der Traum", "pos": "noun", "example": { "text": "私[わたし] の 夢[ゆめ] は 世界[せかい]中[じゅう] を 旅行[りょこう] する こと です。", "de": "Mein Traum ist es, um die ganze Welt zu reisen." }, "note": "Auch für Träume im Schlaf: ゆめを みました (Ich habe geträumt)." },
+    { "id": "muchuu", "word": "夢中[むちゅう]", "de": "ganz vertieft; begeistert", "pos": "adj", "example": { "text": "弟[おとうと] は 今[いま] ゲーム に 夢中[むちゅう] です。", "de": "Mein kleiner Bruder ist gerade ganz in Videospiele vertieft." }, "note": "〜に むちゅうです = von … ganz gefesselt sein. Wörtlich „mitten im Traum“." },
+    { "id": "mirai", "word": "未来[みらい]", "de": "die (ferne) Zukunft", "pos": "noun", "example": { "text": "百[ひゃく]年[ねん]後[ご] の 未来[みらい] は どう なって いる でしょう か。", "de": "Wie wird wohl die Zukunft in hundert Jahren aussehen?" }, "note": "しょうらい ist die persönliche Zukunft (Beruf, Familie). みらい ist die ferne Zukunft – auch die der Welt." },
+    { "id": "kibou", "word": "希望[きぼう]", "de": "der Wunsch; die Hoffnung", "pos": "noun", "example": { "text": "ご希望[きぼう] の 時[じ]間[かん] を 教[おし]えて ください。", "de": "Nennen Sie bitte Ihre Wunschzeit." }, "note": "Etwas förmlicher als „Wunsch“: きぼうします = wünschen (oft in Formularen)." },
+    { "id": "nozomi", "word": "望[のぞ]み", "de": "der Wunsch; die Hoffnung", "pos": "noun", "example": { "text": "祖[そ]母[ぼ] の 望[のぞ]み は 家族[かぞく] みんな が 元[げん]気[き] で いる こと です。", "de": "Der Wunsch meiner Großmutter ist, dass die ganze Familie gesund bleibt." }, "note": "Verb: のぞみます (sich wünschen). Der schnellste Shinkansen heißt übrigens のぞみ!" },
+    { "id": "kesshin", "word": "決心[けっしん]", "de": "der Entschluss", "pos": "noun", "example": { "text": "日本[にほん] で 働[はたら]く 決心[けっしん] を し ました。", "de": "Ich habe beschlossen, in Japan zu arbeiten." }, "note": "けっしんします = sich (fest) entschließen – stärker als きめます." },
+    { "id": "kesshite", "word": "決[けっ]して", "de": "(nie)mals; auf keinen Fall", "pos": "adv", "example": { "text": "この 日[ひ] の こと は 決[けっ]して 忘[わす]れ ません。", "de": "Diesen Tag werde ich niemals vergessen." }, "note": "Steht immer mit Verneinung: けっして 〜ません." },
+    { "id": "kokoro", "word": "心[こころ]", "de": "das Herz; die Seele", "pos": "noun", "example": { "text": "心[こころ] から ありがとうございます。", "de": "Ich danke Ihnen von Herzen." }, "note": "Das Herz als Sitz der Gefühle. Das Organ heißt しんぞう." },
+    { "id": "anshin", "word": "安心[あんしん]", "de": "die Erleichterung; beruhigt sein", "pos": "noun", "example": { "text": "試験[しけん] に 合格[ごうかく] して、 安心[あんしん] し ました。", "de": "Ich habe die Prüfung bestanden und bin erleichtert." }, "note": "あんしんします = erleichtert sein, sich beruhigen. Gegenteil: しんぱい." },
+    { "id": "shinpai", "word": "心[しん]配[ぱい]", "de": "die Sorge", "pos": "noun", "example": { "text": "母[はは] は いつも 私[わたし] の こと を 心[しん]配[ぱい] して い ます。", "de": "Meine Mutter macht sich immer Sorgen um mich." }, "note": "しんぱいしないで ください = Mach dir keine Sorgen." },
+    { "id": "nesshin", "word": "熱[ねっ]心[しん]", "de": "eifrig; engagiert", "pos": "adj", "example": { "text": "アンナ さん は 熱[ねっ]心[しん] に 日本[にほん]語[ご] を 勉強[べんきょう] して い ます。", "de": "Anna lernt mit großem Eifer Japanisch." }, "note": "Wörtlich „heißes Herz“. な-Adjektiv: ねっしんな 学生." },
+    { "id": "mokuhyou", "word": "目[もく]標[ひょう]", "de": "das Ziel", "pos": "noun", "example": { "text": "今年[ことし] の 目[もく]標[ひょう] は 毎日[まいにち] 三十分[さんじゅっぷん] 歩[ある]く こと です。", "de": "Mein Ziel für dieses Jahr ist, jeden Tag dreißig Minuten zu gehen." } },
+    { "id": "kanaemasu", "word": "かなえ ます", "de": "(einen Traum) verwirklichen; erfüllen", "pos": "verb", "forms": "Wörterbuchform かなえる · て-Form かなえて · た-Form かなえた", "example": { "text": "いつか 夢[ゆめ] を かなえ たい です。", "de": "Irgendwann möchte ich meinen Traum verwirklichen.", "focus": "かなえ" }, "note": "Etwas geht in Erfüllung: ゆめが かないます (Kanji: 叶う)." },
+    { "id": "seikou", "word": "成[せい]功[こう]", "de": "der Erfolg", "pos": "noun", "example": { "text": "パーティー は 大[だい]成[せい]功[こう] でした。", "de": "Die Party war ein voller Erfolg." }, "note": "せいこうします = Erfolg haben, gelingen." },
+    { "id": "shippai", "word": "失[しっ]敗[ぱい]", "de": "der Misserfolg; der Fehlschlag", "pos": "noun", "example": { "text": "失[しっ]敗[ぱい] して も、 また がんばれば いい です。", "de": "Auch wenn es schiefgeht – man kann es einfach noch einmal versuchen." }, "note": "しっぱいします = scheitern, etwas vermasseln." },
+    { "id": "isshoukenmei", "word": "一生[いっしょう]懸[けん]命[めい]", "de": "mit aller Kraft; sehr fleißig", "pos": "adv", "example": { "text": "夢[ゆめ] の ため に、 一生[いっしょう]懸[けん]命[めい] がんばり ます。", "de": "Für meinen Traum gebe ich mein Bestes." }, "note": "いっしょう = das ganze Leben. Vor Verben auch mit に: いっしょうけんめいに はたらきます." },
+    { "id": "shimekiri", "word": "しめきり", "de": "der Abgabetermin; die Frist", "pos": "noun", "example": { "text": "レポート の しめきり は 金[きん]曜日[ようび] です。", "de": "Abgabetermin für die Hausarbeit ist Freitag." }, "note": "Kanji: 締め切り." },
+    { "id": "kitai", "word": "期[き]待[たい]", "de": "die Erwartung", "pos": "noun", "example": { "text": "両[りょう]親[しん] の 期[き]待[たい] が 大[おお]きくて、 ちょっと たいへん です。", "de": "Die Erwartungen meiner Eltern sind groß – das ist manchmal schwer." }, "note": "きたいします = erwarten, sich viel erhoffen." },
+    { "id": "ouen", "word": "応援[おうえん]", "de": "die Unterstützung; das Anfeuern", "pos": "noun", "example": { "text": "あなた の 夢[ゆめ] を 応援[おうえん] して い ます！", "de": "Ich drücke dir für deinen Traum die Daumen!" }, "note": "おうえんします = anfeuern, unterstützen – im Stadion und im Leben." },
+    { "id": "inorimasu", "word": "祈[いの]り ます", "de": "beten; (jemandem etwas) wünschen", "pos": "verb", "forms": "Wörterbuchform いのる · て-Form いのって · た-Form いのった", "example": { "text": "合格[ごうかく] を 祈[いの]って い ます。", "de": "Ich wünsche dir, dass du bestehst.", "focus": "祈[いの]って" } },
+    { "id": "susumimasu", "word": "進[すす]み ます", "de": "vorangehen; weitergehen (zu)", "pos": "verb", "forms": "Wörterbuchform すすむ · て-Form すすんで · た-Form すすんだ", "example": { "text": "卒[そつ]業[ぎょう] したら、 大学院[だいがくいん] に 進[すす]み たい です。", "de": "Nach dem Abschluss möchte ich weiterstudieren (Master).", "focus": "進[すす]み" }, "note": "Auch für Arbeit: しごとが すすみます = die Arbeit kommt voran." },
+    { "id": "kongo", "word": "今後[こんご]", "de": "künftig; von nun an", "pos": "noun", "example": { "text": "今後[こんご] とも よろしく おねがいします。", "de": "Ich freue mich auf die weitere Zusammenarbeit." }, "note": "Förmlicher als これから." },
+    { "id": "hantoshi", "word": "半年[はんとし]", "de": "ein halbes Jahr", "pos": "noun", "example": { "text": "半年[はんとし] で 日本[にほん]語[ご] が かなり 上手[じょうず] に なり ました。", "de": "In einem halben Jahr ist mein Japanisch deutlich besser geworden." } },
+    { "id": "akiramemasu", "word": "あきらめ ます", "de": "aufgeben", "pos": "verb", "forms": "Wörterbuchform あきらめる · て-Form あきらめて · た-Form あきらめた", "example": { "text": "夢[ゆめ] を あきらめないで ください。", "de": "Gib deinen Traum nicht auf!", "focus": "あきらめないで" } },
+    { "id": "ikikata", "word": "生[い]き方[かた]", "de": "die Lebensweise; wie man lebt", "pos": "noun", "example": { "text": "父[ちち] の 生[い]き方[かた] を 尊[そん]敬[けい] して い ます。", "de": "Ich bewundere, wie mein Vater lebt." }, "note": "Von いきます (leben, 生きる) + 〜かた (Lektion 2: つかいかた)." },
+    { "id": "shiawase", "word": "幸[しあわ]せ", "de": "das Glück; glücklich", "pos": "adj", "example": { "text": "家族[かぞく] と いっしょに いる とき が いちばん 幸[しあわ]せ です。", "de": "Am glücklichsten bin ich, wenn ich mit meiner Familie zusammen bin." }, "note": "な-Adjektiv: しあわせな 時間. おしあわせに! = Alles Gute (zur Hochzeit)!" },
+    { "id": "yuuki", "word": "勇[ゆう]気[き]", "de": "der Mut", "pos": "noun", "example": { "text": "一人[ひとり] で 外国[がいこく] に 住[す]む の は 勇[ゆう]気[き] が いり ます。", "de": "Allein im Ausland zu leben braucht Mut." } },
+    { "id": "honki", "word": "本気[ほんき]", "de": "der Ernst; ernsthaft", "pos": "noun", "example": { "text": "本気[ほんき] で 通訳[つうやく] に なり たい と 思[おも]って い ます。", "de": "Ich will ernsthaft Dolmetscherin werden." }, "note": "ほんきで = im Ernst. ほんき? = Meinst du das ernst?" },
+    { "id": "uchuu", "word": "宇宙[うちゅう]", "de": "das Weltall", "pos": "noun", "example": { "text": "子[こ]ども の とき の 夢[ゆめ] は 宇宙[うちゅう] に 行[い]く こと でした。", "de": "Als Kind war mein Traum, ins Weltall zu fliegen." } },
+    { "id": "madeni", "word": "〜までに", "alt": ["までに"], "de": "bis (spätestens)", "pos": "particle", "example": { "text": "金[きん]曜日[ようび] までに レポート を 出[だ]して ください。", "de": "Gib die Hausarbeit bitte bis spätestens Freitag ab.", "focus": "までに" } },
+    { "id": "youni", "word": "〜よう に", "alt": ["よう に"], "de": "damit; so dass", "pos": "other", "example": { "text": "かぜ を ひかない よう に、 毎日[まいにち] 野[や]菜[さい] を 食[た]べて い ます。", "de": "Damit ich mich nicht erkälte, esse ich jeden Tag Gemüse.", "focus": "よう に" } },
+    { "id": "kotonishimasu", "word": "〜こと に し ます", "alt": ["こと に し ます"], "de": "beschließen (zu …)", "pos": "phrase", "example": { "text": "来年[らいねん] から 日本[にほん] で 働[はたら]く こと に し ました。", "de": "Ich habe beschlossen, ab nächstem Jahr in Japan zu arbeiten.", "focus": "こと に し" } },
+    { "id": "toiidesune", "word": "〜と いい です ね", "alt": ["と いい です ね"], "de": "hoffentlich …; es wäre schön, wenn …", "pos": "phrase", "example": { "text": "あした 晴[は]れる と いい です ね。", "de": "Hoffentlich ist morgen schönes Wetter.", "focus": "と いい です ね" } }
+  ],
+  "grammar": [
+    {
+      "id": "youni",
+      "title": "Damit …: 〜ように",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜ように sagst du, wozu du etwas tust – mit dem Ziel, dass ein bestimmter Zustand eintritt. Davor steht die Wörterbuchform oder die ない-Form, sehr oft auch die Potentialform aus Lektion 2: わすれない ように = damit ich es nicht vergesse; はなせる ように = damit ich sprechen kann." },
+        { "type": "examples", "items": [{ "text": "忘[わす]れない よう に、 メモ を し ます。", "de": "Damit ich es nicht vergesse, mache ich mir eine Notiz." }, { "text": "日本[にほん] の ニュース が わかる よう に、 毎日[まいにち] 新聞[しんぶん] を 読[よ]んで い ます。", "de": "Damit ich die japanischen Nachrichten verstehe, lese ich jeden Tag Zeitung." }, { "text": "みんな に 聞[き]こえる よう に、 大[おお]きい 声[こえ] で 話[はな]して ください。", "de": "Sprechen Sie bitte laut, damit alle Sie hören." }, { "text": "早[はや]く 日本[にほん]語[ご] が 話[はな]せる よう に、 日本人[にほんじん] の 友[とも]だち と たくさん 話[はな]して い ます。", "de": "Damit ich schnell Japanisch sprechen kann, rede ich viel mit japanischen Freunden." }] },
+        { "type": "table", "head": ["〜ために (Lektion 3)", "〜ように"], "rows": [["Ziel ist eine Handlung, die man selbst steuert", "Ziel ist ein Zustand (können, nicht vergessen, verstehen)"], ["日本[にほん] で 働[はたら]く ため に、 日本[にほん]語[ご] を 勉強[べんきょう] し ます。", "日本[にほん] で 働[はたら]ける よう に、 日本[にほん]語[ご] を 勉強[べんきょう] し ます。"], ["Wörterbuchform: いく, かう, はたらく", "Potentialform, ない-Form, Verben wie わかる, みえる, きこえる"]] },
+        { "type": "tip", "text": "Vergleiche die drei ように: 〜ように なりました (Lektion 2) = es ist so geworden; 〜ように して います (Lektion 3) = ich achte darauf; 〜ように, … = damit …" }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "忘[わす]れない ___、 メモ を し ます。", "answers": ["よう に"], "de": "Damit ich es nicht vergesse, mache ich mir eine Notiz." },
+        { "type": "cloze", "text": "かぜ を ___ よう に、 よく 寝[ね]て い ます。", "answers": ["ひかない"], "de": "Damit ich mich nicht erkälte, schlafe ich viel." },
+        { "type": "cloze", "text": "日本[にほん]語[ご] の 新聞[しんぶん] が ___ よう に、 漢[かん]字[じ] を 勉強[べんきょう] し ます。", "answers": ["読[よ]める"], "de": "Damit ich japanische Zeitungen lesen kann, lerne ich Kanji.", "hint": "よみます → Potentialform" },
+        { "type": "cloze", "text": "みんな に 聞[き]こえる よう に、 大[おお]きい 声[こえ] で ___ ください。", "answers": ["話[はな]して"], "de": "Sprechen Sie bitte laut, damit alle Sie hören." },
+        { "type": "order", "de": "Damit ich nicht zu spät komme, stehe ich früh auf.", "answer": "遅[おく]れない よう に、 早[はや]く 起[お]き ます。", "distractors": ["ため"] },
+        { "type": "translate", "de": "Damit ich Japanisch sprechen kann, übe ich jeden Tag.", "answers": ["日本[にほん]語[ご] が 話[はな]せる よう に、 毎日[まいにち] 練[れん]習[しゅう] し ます。", "日本[にほん]語[ご] が 話[はな]せる よう に、 毎日[まいにち] 練[れん]習[しゅう] して い ます。", "日本[にほん]語[ご] を 話[はな]せる よう に、 毎日[まいにち] 練[れん]習[しゅう] し ます。", "日本[にほん]語[ご] を 話[はな]せる よう に、 毎日[まいにち] 練[れん]習[しゅう] して い ます。"] }
+      ]
+    },
+    {
+      "id": "kotoni-shimashita",
+      "title": "Entschlüsse: 〜ことに しました",
+      "blocks": [
+        { "type": "p", "text": "Wörterbuchform oder ない-Form + ことに します heißt „sich entscheiden, … zu tun“. Meistens hörst du die Vergangenheit: 〜ことに しました = Ich habe beschlossen … So teilst du Entscheidungen mit, die du selbst getroffen hast." },
+        { "type": "examples", "items": [{ "text": "来年[らいねん] も 日本[にほん] に 住[す]む こと に し ました。", "de": "Ich habe beschlossen, auch nächstes Jahr in Japan zu wohnen." }, { "text": "もう お酒[さけ] を 飲[の]まない こと に し ました。", "de": "Ich habe beschlossen, keinen Alkohol mehr zu trinken." }, { "text": "夏[なつ]休[やす]み は 北海[ほっかい]道[どう] に 行[い]く こと に し ました。", "de": "Ich habe beschlossen, in den Sommerferien nach Hokkaido zu fahren." }] },
+        { "type": "table", "head": ["Ausdruck", "Bedeutung", "Beispiel"], "rows": [["〜こと に し ました", "ich habe beschlossen", "留[りゅう]学[がく] する こと に し ました。"], ["〜こと に して い ます", "ich habe es mir zur Regel gemacht", "毎[まい]朝[あさ] 走[はし]る こと に して い ます。"], ["〜こと に なり ました", "es wurde (von anderen) entschieden", "来月[らいげつ] 大[おお]阪[さか] に 転[てん]勤[きん] する こと に なり ました。"]] },
+        { "type": "tip", "text": "〜ことに なりました klingt bescheidener, weil es so wirkt, als hätten die Umstände entschieden. Deshalb sagt man es in Japan oft auch bei eigenen Entscheidungen, etwa bei Hochzeit oder Jobwechsel: けっこんする ことに なりました." },
+        { "type": "tip", "text": "Wiederholung: 〜つもりです (A2) ist eine Absicht, 〜ことに しました ein klarer Entschluss, けっしんしました ein besonders fester." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "来年[らいねん] から 日本[にほん] で 働[はたら]く ___ し ました。", "answers": ["こと に"], "de": "Ich habe beschlossen, ab nächstem Jahr in Japan zu arbeiten." },
+        { "type": "cloze", "text": "もう たばこ を すわない こと に ___。", "answers": ["し ました"], "de": "Ich habe beschlossen, nicht mehr zu rauchen." },
+        { "type": "cloze", "text": "毎[まい]朝[あさ] 三十分[さんじゅっぷん] 走[はし]る こと に して ___。", "answers": ["い ます"], "de": "Ich habe es mir zur Regel gemacht, jeden Morgen dreißig Minuten zu laufen." },
+        { "type": "cloze", "text": "四月[しがつ] から 大[おお]阪[さか] で 働[はたら]く こと に ___ ました。", "answers": ["なり"], "de": "Ab April arbeite ich in Osaka (so wurde es entschieden)." },
+        { "type": "order", "de": "Ich habe beschlossen, in Japan zu bleiben.", "answer": "日本[にほん] に 残[のこ]る こと に し ました。", "distractors": ["を"] },
+        { "type": "translate", "de": "Ich habe beschlossen, nächstes Jahr in Japan zu studieren.", "answers": ["私[わたし] は 来年[らいねん] 日本[にほん] で 勉強[べんきょう] する こと に し ました。", "私[わたし] は 来年[らいねん] 日本[にほん] に 留[りゅう]学[がく] する こと に し ました。", "私[わたし] は 来年[らいねん] 日本[にほん] で 留[りゅう]学[がく] する こと に し ました。", "私[わたし] は 来年[らいねん] 日本[にほん] の 大学[だいがく] で 勉強[べんきょう] する こと に し ました。", "来年[らいねん] 日本[にほん] で 勉強[べんきょう] する こと に し ました。", "来年[らいねん] 日本[にほん] に 留[りゅう]学[がく] する こと に し ました。", "来年[らいねん] 日本[にほん] で 留[りゅう]学[がく] する こと に し ました。", "来年[らいねん] 日本[にほん] の 大学[だいがく] で 勉強[べんきょう] する こと に し ました。"] }
+      ]
+    },
+    {
+      "id": "negai",
+      "title": "Wünsche und Fristen: 〜たいと 思って います, 〜と いいですね, 〜までに",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜たいと おもって います sprichst du über einen Wunsch, den du schon länger hast. Das klingt vorsichtiger und erwachsener als nur 〜たいです – gut für Vorstellungsgespräche und Gespräche über die Zukunft." },
+        { "type": "examples", "items": [{ "text": "将来[しょうらい]、 日本[にほん] と ドイツ を つなぐ 仕事[しごと] が し たい と 思[おも]って い ます。", "de": "Später möchte ich gern in einem Beruf arbeiten, der Japan und Deutschland verbindet." }, { "text": "いつか 自分[じぶん] の 店[みせ] を 開[ひら]き たい と 思[おも]って い ます。", "de": "Irgendwann möchte ich gern meinen eigenen Laden eröffnen." }] },
+        { "type": "p", "text": "Wenn du einer anderen Person etwas wünschst, sagst du einfache Form + と いいですね: ごうかくする と いいですね (Hoffentlich bestehst du). Für eigene Hoffnungen sagt man 〜と いいなあ (locker) oder 〜と いいんですが." },
+        { "type": "examples", "items": [{ "text": "夢[ゆめ] が かなう と いい です ね。", "de": "Hoffentlich geht dein Traum in Erfüllung." }, { "text": "あした 晴[は]れる と いい です ね。", "de": "Hoffentlich ist morgen schönes Wetter." }, { "text": "早[はや]く 元[げん]気[き] に なる と いい です ね。", "de": "Hoffentlich bist du bald wieder gesund." }] },
+        { "type": "p", "text": "〜までに heißt „bis spätestens“ und nennt eine Frist. Vorsicht: 〜まで (ohne に) heißt „die ganze Zeit bis“." },
+        { "type": "table", "head": ["まで (die ganze Zeit bis)", "までに (bis spätestens)"], "rows": [["五時[ごじ] まで 働[はたら]き ます。", "五時[ごじ] までに 来[き]て ください。"], ["Ich arbeite bis fünf.", "Kommen Sie bitte bis spätestens fünf."]] },
+        { "type": "tip", "text": "Merke: Nach までに steht eine einmalige Handlung (abgeben, kommen, fertig werden), nach まで eine andauernde (arbeiten, warten, schlafen)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "金[きん]曜日[ようび] ___ レポート を 出[だ]して ください。", "answers": ["までに"], "de": "Gib die Hausarbeit bitte bis spätestens Freitag ab." },
+        { "type": "cloze", "text": "きのう は 十時[じゅうじ] ___ 寝[ね]て い ました。", "answers": ["まで"], "de": "Gestern habe ich bis zehn geschlafen." },
+        { "type": "cloze", "text": "夢[ゆめ] が かなう と ___ です ね。", "answers": ["いい"], "de": "Hoffentlich geht dein Traum in Erfüllung." },
+        { "type": "cloze", "text": "将来[しょうらい]、 通訳[つうやく] に なり たい と ___ い ます。", "answers": ["思[おも]って"], "de": "Ich möchte später gern Dolmetscherin werden." },
+        { "type": "choice", "prompt": "Deine Freundin hat morgen eine Prüfung. Was sagst du?", "options": ["合格[ごうかく] する と いい です ね。", "合格[ごうかく] し たい と 思[おも]って い ます。", "合格[ごうかく] する こと に し ました。"], "answer": 0, "explain": "〜と いいですね ist ein Wunsch für eine andere Person. Die anderen beiden Sätze sprechen über dich selbst." },
+        { "type": "translate", "de": "Hoffentlich ist morgen schönes Wetter.", "answers": ["あした は 晴[は]れる と いい です ね。", "あした は 天気[てんき] が いい と いい です ね。", "あした は いい 天気[てんき] に なる と いい です ね。", "あした 晴[は]れる と いい です ね。", "あした 天気[てんき] が いい と いい です ね。", "あした いい 天気[てんき] に なる と いい です ね。"] },
+        { "type": "translate", "de": "Ich möchte bis nächstes Jahr gut Japanisch sprechen können.", "answers": ["来年[らいねん] までに 日本[にほん]語[ご] が 上手[じょうず] に 話[はな]せる よう に なり たい です。", "来年[らいねん] までに 日本[にほん]語[ご] が 話[はな]せる よう に なり たい です。", "来年[らいねん] までに 日本[にほん]語[ご] を 上手[じょうず] に 話[はな]せる よう に なり たい です。", "来年[らいねん] までに 日本[にほん]語[ご] を 話[はな]せる よう に なり たい です。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "将来[しょうらい] の 夢[ゆめ]",
+    "title_de": "Träume für die Zukunft",
+    "lines": [
+      { "speaker": "やまだ", "text": "アンナ さん、 来月[らいげつ] で 留[りゅう]学[がく] が 終[お]わり ます ね。 これから どう する ん です か。", "de": "Anna, nächsten Monat endet dein Auslandsstudium. Wie geht es weiter?" },
+      { "speaker": "アンナ", "text": "じつ は、 先月[せんげつ] 面接[めんせつ] を 受[う]けた 旅行会社[りょこうがいしゃ] に 入[はい]る こと に なり ました！", "de": "Stellen Sie sich vor: Ich fange bei dem Reiseunternehmen an, bei dem ich letzten Monat das Vorstellungsgespräch hatte!" },
+      { "speaker": "やまだ", "text": "まあ、 おめでとうございます！ よかった です ね。", "de": "Oh, herzlichen Glückwunsch! Wie schön!" },
+      { "speaker": "アンナ", "text": "ありがとうございます。 それで、 もう 少[すこ]し 日本[にほん] に 残[のこ]る こと に し ました。 四月[しがつ] から 正社員[せいしゃいん] として 働[はたら]き ます。", "de": "Danke. Deshalb habe ich beschlossen, noch eine Weile in Japan zu bleiben. Ab April arbeite ich dort als Festangestellte." },
+      { "speaker": "けん", "text": "すごい！ アンナ さん の 夢[ゆめ] は 何[なん] です か。", "de": "Toll! Was ist dein Traum, Anna?" },
+      { "speaker": "アンナ", "text": "ドイツ と 日本[にほん] を つなぐ 仕事[しごと] が し たい と 思[おも]って い ます。 いつか 自分[じぶん] の 旅行会社[りょこうがいしゃ] を 作[つく]る の が 夢[ゆめ] です。", "de": "Ich möchte gern etwas machen, das Deutschland und Japan verbindet. Mein Traum ist, irgendwann ein eigenes Reiseunternehmen zu gründen." },
+      { "speaker": "やまだ", "text": "すてき な 夢[ゆめ] です ね。 その ため に、 何[なに] か 目[もく]標[ひょう] は あり ます か。", "de": "Was für ein schöner Traum. Hast du dafür ein konkretes Ziel?" },
+      { "speaker": "アンナ", "text": "はい。 仕事[しごと] で 困[こま]らない よう に、 十二月[じゅうにがつ] までに 敬[けい]語[ご] が 上手[じょうず] に 使[つか]える よう に なり たい です。", "de": "Ja. Damit ich bei der Arbeit keine Probleme habe, möchte ich bis Dezember Keigo gut beherrschen." },
+      { "speaker": "やまだ", "text": "アンナ さん は いつも 熱[ねっ]心[しん] です から、 きっと できます よ。 けん さん は？", "de": "Du bist immer so eifrig – das schaffst du bestimmt. Und du, Ken?" },
+      { "speaker": "けん", "text": "私[わたし] は 九月[くがつ] から ミュンヘン に 留[りゅう]学[がく] し ます。 ちょっと 心[しん]配[ぱい] です が、 もう 決心[けっしん] し ました。", "de": "Ich gehe ab September zum Studium nach München. Ich bin ein bisschen nervös, aber ich habe mich fest entschlossen." },
+      { "speaker": "やまだ", "text": "向[む]こう で は 何[なに] を 勉強[べんきょう] する つもり です か。", "de": "Was willst du dort studieren?" },
+      { "speaker": "けん", "text": "車[くるま] の 未来[みらい] に ついて 研究[けんきゅう] し たい と 思[おも]って い ます。 将来[しょうらい] は 世界[せかい] で 走[はし]る 電気[でんき]自動車[じどうしゃ] を 作[つく]る の が 夢[ゆめ] です。", "de": "Ich möchte über die Zukunft des Autos forschen. Später möchte ich Elektroautos bauen, die auf der ganzen Welt fahren." },
+      { "speaker": "アンナ", "text": "けん さん は 決[けっ]して あきらめない から、 大[だい]丈夫[じょうぶ]。 応援[おうえん] して い ます！", "de": "Du gibst niemals auf, Ken – das klappt. Ich drücke dir die Daumen!" },
+      { "speaker": "やまだ", "text": "お二人[ふたり] の 夢[ゆめ] が かなう と いい です ね。 私[わたし] も 心[こころ] から 応援[おうえん] して い ます よ。", "de": "Hoffentlich gehen eure Träume in Erfüllung. Ich drücke euch von Herzen die Daumen." },
+      { "speaker": "アンナ", "text": "先生[せんせい]、 今[いま] まで 本[ほん]当[とう] に ありがとうございました。 先生[せんせい] の おかげ で、 日本[にほん]語[ご] が 大[だい]好[す]き に なり ました。", "de": "Frau Yamada, vielen, vielen Dank für alles. Dank Ihnen habe ich Japanisch richtig lieben gelernt." },
+      { "speaker": "けん", "text": "じゃあ、 みんな の 夢[ゆめ] に、 かんぱい！", "de": "Also, auf unsere Träume – Prost!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["夢[ゆめ]", "der Traum"], ["未来[みらい]", "die (ferne) Zukunft"], ["希望[きぼう]", "der Wunsch; die Hoffnung"], ["決心[けっしん]", "der Entschluss"], ["目[もく]標[ひょう]", "das Ziel"], ["成[せい]功[こう]", "der Erfolg"]] },
+    { "type": "match", "pairs": [["安心[あんしん]", "die Erleichterung"], ["心[しん]配[ぱい]", "die Sorge"], ["熱[ねっ]心[しん]", "eifrig"], ["夢中[むちゅう]", "ganz vertieft"], ["幸[しあわ]せ", "glücklich"]] },
+    { "type": "translate", "de": "Mein Traum ist, Dolmetscherin zu werden.", "answers": ["私[わたし] の 夢[ゆめ] は 通訳[つうやく] に なる こと です。", "夢[ゆめ] は 通訳[つうやく] に なる こと です。"] },
+    { "type": "translate", "de": "Gib deinen Traum nicht auf!", "answers": ["夢[ゆめ] を あきらめないで ください。", "夢[ゆめ] を あきらめないで。", "夢[ゆめ] を あきらめない で ください。", "夢[ゆめ] を あきらめない で。"] },
+    { "type": "translate", "de": "Ich habe beschlossen, nicht mehr zu rauchen.", "answers": ["もう たばこ を すわない こと に し ました。", "もう たばこ を やめる こと に し ました。", "たばこ を すわない こと に し ました。", "たばこ を やめる こと に し ました。"] },
+    { "type": "translate", "de": "Hoffentlich bestehst du die Prüfung.", "answers": ["試験[しけん] に 合格[ごうかく] する と いい です ね。", "試験[しけん] に 合格[ごうかく] できる と いい です ね。", "合格[ごうかく] する と いい です ね。", "合格[ごうかく] できる と いい です ね。"] },
+    { "type": "order", "de": "Damit mein Traum wahr wird, gebe ich mein Bestes.", "answer": "夢[ゆめ] が かなう よう に、 一生[いっしょう]懸[けん]命[めい] がんばり ます。", "distractors": ["ため"] },
+    { "type": "order", "de": "Bitte kommen Sie bis spätestens neun Uhr.", "answer": "九時[くじ] までに 来[き]て ください。", "distractors": ["まで"] },
+    { "type": "cloze", "text": "百[ひゃく]年[ねん]後[ご] の ___ は どう なって いる でしょう か。", "answers": ["未来[みらい]"], "de": "Wie wird wohl die Zukunft in hundert Jahren aussehen?" },
+    { "type": "cloze", "text": "この 日[ひ] の こと は ___ 忘[わす]れ ません。", "answers": ["決[けっ]して"], "de": "Diesen Tag werde ich niemals vergessen." },
+    { "type": "listen", "text": "心[こころ] から 応援[おうえん] して い ます。", "de": "Ich drücke dir von Herzen die Daumen." },
+    { "type": "listen", "text": "日本[にほん] と ドイツ を つなぐ 仕事[しごと] が し たい と 思[おも]って い ます。", "de": "Ich möchte gern in einem Beruf arbeiten, der Japan und Deutschland verbindet." },
+    { "type": "listen", "text": "試験[しけん] に 合格[ごうかく] して、 安心[あんしん] し ました。", "de": "Ich habe die Prüfung bestanden und bin erleichtert." }
+  ]
+}

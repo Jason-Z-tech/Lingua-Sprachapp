@@ -1,0 +1,163 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-05",
+  "lang": "ja",
+  "level": "B1",
+  "number": 5,
+  "title": "もっと 勉強[べんきょう] すれば よかった！",
+  "title_de": "Lernen",
+  "topic": "Schule, Studium und Weiterbildung",
+  "goals": [
+    "Du kannst die ば-Form bilden (いけば, たべれば, すれば, やすければ) und damit Bedingungen und Ratschläge ausdrücken.",
+    "Du kannst mit 〜ば よかった sagen, was du bereust: もっと べんきょうすれば よかった.",
+    "Du kannst mit 〜なら einen Rat zu einem Thema geben: にほんごを べんきょうするなら、 …",
+    "Du kannst mit 〜て おきます sagen, was du vorbereitest, und über Schule, Studium und Prüfungen sprechen."
+  ],
+  "kanji": ["教", "研", "究", "試", "験", "英", "字"],
+  "vocab": [
+    { "id": "kyoushitsu", "word": "教室[きょうしつ]", "de": "das Klassenzimmer; der Kurs", "pos": "noun", "example": { "text": "毎週[まいしゅう] 土[ど]曜日[ようび] に 料理[りょうり] 教室[きょうしつ] に 通[かよ]って い ます。", "de": "Jeden Samstag gehe ich zu einem Kochkurs." }, "note": "Auch „Kurs, Schule“ für Hobbys: りょうり きょうしつ, ピアノ きょうしつ." },
+    { "id": "kyoukasho", "word": "教[きょう]科[か]書[しょ]", "de": "das Lehrbuch; das Schulbuch", "pos": "noun", "example": { "text": "教[きょう]科[か]書[しょ] の 十[じゅう] ページ を 開[ひら]いて ください。", "de": "Schlagt bitte Seite 10 im Lehrbuch auf." }, "note": "Ein Buch aufschlagen: ほんを ひらきます (auch 開 – mit der Lesung ひら)." },
+    { "id": "kenkyuu", "word": "研究[けんきゅう]", "de": "die Forschung", "pos": "noun", "example": { "text": "大学院[だいがくいん] で 日本[にほん] の 文[ぶん]化[か] を 研究[けんきゅう] し たい です。", "de": "Im Masterstudium möchte ich japanische Kultur erforschen." }, "note": "けんきゅうします = forschen. けんきゅうしつ = das Büro eines Professors; das Labor." },
+    { "id": "tameshimasu", "word": "試[ため]し ます", "de": "ausprobieren", "pos": "verb", "forms": "Wörterbuchform ためす · て-Form ためして", "example": { "text": "新[あたら]しい 単[たん]語[ご] の アプリ を 試[ため]し ました。", "de": "Ich habe eine neue Vokabel-App ausprobiert.", "focus": "試[ため]し ました" } },
+    { "id": "juken", "word": "受[じゅ]験[けん]", "de": "die Aufnahmeprüfung (Schule, Uni)", "pos": "noun", "example": { "text": "弟[おとうと] は 来年[らいねん] 大学[だいがく] を 受[じゅ]験[けん] し ます。", "de": "Mein kleiner Bruder macht nächstes Jahr die Aufnahmeprüfung für die Uni." }, "note": "In Japan braucht man für Oberschule und Uni meist eine Aufnahmeprüfung. じゅけんせい = Prüfungskandidat/in." },
+    { "id": "eikaiwa", "word": "英会話[えいかいわ]", "de": "die englische Konversation; der Englischkurs", "pos": "noun", "example": { "text": "母[はは] は 毎週[まいしゅう] 英会話[えいかいわ] の 教室[きょうしつ] に 行[い]って い ます。", "de": "Meine Mutter geht jede Woche zu einem Englisch-Konversationskurs." } },
+    { "id": "kanji", "word": "漢[かん]字[じ]", "de": "das Kanji (Schriftzeichen)", "pos": "noun", "example": { "text": "毎日[まいにち] 漢[かん]字[じ] を 五[いつ]つ 覚[おぼ]え ます。", "de": "Jeden Tag lerne ich fünf Kanji." } },
+    { "id": "moji", "word": "文字[もじ]", "de": "das Schriftzeichen; die Schrift", "pos": "noun", "example": { "text": "日本語[にほんご] に は 三[みっ]つ の 文字[もじ] が あり ます。", "de": "Im Japanischen gibt es drei Arten von Schriftzeichen." }, "note": "Bei もじ liest man 文 ausnahmsweise も." },
+    { "id": "ji", "word": "字[じ]", "de": "die Schrift; die Handschrift; das Zeichen", "pos": "noun", "example": { "text": "けん さん は 字[じ] が きれい です ね。", "de": "Ken, du hast eine schöne Handschrift." } },
+    { "id": "tango", "word": "単[たん]語[ご]", "de": "die Vokabel; das Wort", "pos": "noun", "example": { "text": "電車[でんしゃ] の 中[なか] で 単[たん]語[ご] を 覚[おぼ]え ます。", "de": "Im Zug lerne ich Vokabeln." } },
+    { "id": "bunpou", "word": "文[ぶん]法[ぽう]", "de": "die Grammatik", "pos": "noun", "example": { "text": "日本語[にほんご] の 文[ぶん]法[ぽう] は むずかしい です か。", "de": "Ist die japanische Grammatik schwer?" } },
+    { "id": "hatsuon", "word": "発[はつ]音[おん]", "de": "die Aussprache", "pos": "noun", "example": { "text": "ソフィー さん は 発[はつ]音[おん] が とても きれい です。", "de": "Sophie hat eine sehr schöne Aussprache." } },
+    { "id": "kougi", "word": "講義[こうぎ]", "de": "die Vorlesung", "pos": "noun", "example": { "text": "あした の 講義[こうぎ] は 九時[くじ] から です。", "de": "Die Vorlesung morgen ist ab neun Uhr." }, "note": "Für die Schule sagt man じゅぎょう." },
+    { "id": "gakki", "word": "学[がっ]期[き]", "de": "das Semester; das Schulhalbjahr", "pos": "noun", "example": { "text": "四月[しがつ] から 新[あたら]しい 学[がっ]期[き] が 始[はじ]まり ます。", "de": "Im April beginnt das neue Semester." }, "note": "In Japan beginnt das Schuljahr im April." },
+    { "id": "seiseki", "word": "成績[せいせき]", "de": "die Noten; die Leistungen", "pos": "noun", "example": { "text": "今[こん]学[がっ]期[き] は 成績[せいせき] が よかった です。", "de": "Dieses Semester waren meine Noten gut." } },
+    { "id": "ten", "word": "点[てん]", "de": "der Punkt; die Punktzahl", "pos": "noun", "example": { "text": "試験[しけん] で 九十[きゅうじゅう] 点[てん] を とり ました。", "de": "Ich habe in der Prüfung 90 Punkte bekommen." }, "note": "いい てんを とります = eine gute Note bekommen." },
+    { "id": "ochimasu", "word": "落[お]ち ます", "de": "fallen; (bei einer Prüfung) durchfallen", "pos": "verb", "forms": "Wörterbuchform おちる · て-Form おちて", "example": { "text": "試験[しけん] に 落[お]ちて しまい ました。", "de": "Ich bin leider durch die Prüfung gefallen.", "focus": "落[お]ちて" }, "note": "Gegenteil: ごうかくします (bestehen). Partner von おとします (Lektion 4)." },
+    { "id": "yoshuu", "word": "予[よ]習[しゅう]", "de": "die Vorbereitung (auf den Unterricht)", "pos": "noun", "example": { "text": "じゅぎょう の 前[まえ] に 予[よ]習[しゅう] を して おき ます。", "de": "Vor dem Unterricht bereite ich mich vor." }, "note": "Das Gegenstück: ふくしゅう (die Wiederholung, A2)." },
+    { "id": "youi", "word": "用意[ようい] し ます", "de": "vorbereiten; bereitlegen", "pos": "verb", "forms": "Wörterbuchform よういする · て-Form よういして", "example": { "text": "試験[しけん] の 日[ひ] は えんぴつ と けしゴム を 用意[ようい] して ください。", "de": "Legt am Prüfungstag bitte Bleistift und Radiergummi bereit.", "focus": "用意[ようい] して" }, "note": "よういします: vor allem Dinge bereitlegen; じゅんび (A2) passt auch für Pläne und Vorbereitung allgemein." },
+    { "id": "oboemasu", "word": "覚[おぼ]え ます", "de": "sich merken; auswendig lernen", "pos": "verb", "forms": "Wörterbuchform おぼえる · て-Form おぼえて", "example": { "text": "新[あたら]しい 単[たん]語[ご] を 覚[おぼ]え ました。", "de": "Ich habe die neuen Vokabeln gelernt.", "focus": "覚[おぼ]え ました" }, "note": "おぼえて います (A2) = sich (noch) erinnern; おぼえます = sich etwas einprägen." },
+    { "id": "machigaemasu", "word": "間[ま]違[ちが]え ます", "de": "einen Fehler machen; verwechseln", "pos": "verb", "forms": "Wörterbuchform まちがえる · て-Form まちがえて", "example": { "text": "漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "de": "Ich habe das Kanji falsch gelesen.", "focus": "間[ま]違[ちが]え ました" }, "note": "まちがい = der Fehler." },
+    { "id": "seikai", "word": "正[せい]解[かい]", "de": "die richtige Antwort; richtig!", "pos": "noun", "example": { "text": "正[せい]解[かい] は 三[さん]番[ばん] です。", "de": "Die richtige Antwort ist Nummer drei." } },
+    { "id": "kyouiku", "word": "教[きょう]育[いく]", "de": "die Bildung; die Erziehung", "pos": "noun", "example": { "text": "教[きょう]育[いく] は どの 国[くに] で も 大[たい]切[せつ] です。", "de": "Bildung ist in jedem Land wichtig." } },
+    { "id": "gakubu", "word": "学部[がくぶ]", "de": "die Fakultät", "pos": "noun", "example": { "text": "アンナ さん は 文学部[ぶんがくぶ] の 学生[がくせい] です。", "de": "Anna studiert an der Philosophischen Fakultät." }, "note": "ぶんがくぶ = wörtlich „Literaturfakultät“; dort studiert man auch Sprachen und Kultur." },
+    { "id": "juku", "word": "塾[じゅく]", "de": "die Nachhilfeschule; die Paukschule", "pos": "noun", "example": { "text": "日本[にほん] の 中学生[ちゅうがくせい] は よく 塾[じゅく] に 行[い]き ます。", "de": "Japanische Mittelschüler gehen oft auf eine Paukschule." } },
+    { "id": "bukatsu", "word": "部[ぶ]活[かつ]", "de": "die AG; der Schulclub", "pos": "noun", "example": { "text": "高校[こうこう] の とき、 サッカー の 部[ぶ]活[かつ] に 入[はい]って い ました。", "de": "In der Oberschule war ich im Fußballclub." }, "note": "Fast alle japanischen Schüler sind in einem ぶかつ – oft jeden Tag nach dem Unterricht." },
+    { "id": "senpai", "word": "先[せん]輩[ぱい]", "de": "ältere Mitschülerin/Kollegin; älterer Mitschüler/Kollege", "pos": "noun", "example": { "text": "先[せん]輩[ぱい] に 試験[しけん] の こと を 聞[き]き ました。", "de": "Ich habe eine ältere Studentin nach der Prüfung gefragt." }, "note": "Das Gegenstück: こうはい (Jüngere/r). Dieses Verhältnis ist in Schule und Firma sehr wichtig." },
+    { "id": "nyuugaku", "word": "入学[にゅうがく]", "de": "der Schuleintritt; die Aufnahme (an Schule oder Uni)", "pos": "noun", "example": { "text": "弟[おとうと] は 四月[しがつ] に 大学[だいがく] に 入学[にゅうがく] し ました。", "de": "Mein kleiner Bruder hat im April an der Uni angefangen." }, "note": "にゅうがくしき = die Einschulungs- bzw. Begrüßungsfeier." },
+    { "id": "shuuchuu", "word": "集[しゅう]中[ちゅう] し ます", "de": "sich konzentrieren", "pos": "verb", "forms": "Wörterbuchform しゅうちゅうする · て-Form しゅうちゅうして", "example": { "text": "図[と]書[しょ]館[かん] の ほう が 集[しゅう]中[ちゅう] でき ます。", "de": "In der Bibliothek kann ich mich besser konzentrieren.", "focus": "集[しゅう]中[ちゅう] でき ます" } },
+    { "id": "nigate", "word": "苦[にが]手[て]", "de": "schwach in; nicht gut können; nicht mögen", "pos": "adj", "example": { "text": "私[わたし] は 数[すう]学[がく] が 苦[にが]手[て] です。", "de": "In Mathe bin ich schwach." }, "note": "〜が にがてです. Sanfter als へた oder きらい." },
+    { "id": "tokui", "word": "得[とく]意[い]", "de": "stark in; gut können", "pos": "adj", "example": { "text": "アンナ さん は 英語[えいご] が 得[とく]意[い] です。", "de": "Anna ist gut in Englisch." }, "note": "Über sich selbst sagt man lieber とくい als じょうず – じょうず klingt nach Eigenlob." },
+    { "id": "jishin-self", "word": "自[じ]信[しん]", "de": "das Selbstvertrauen; die Sicherheit", "pos": "noun", "example": { "text": "発[はつ]音[おん] に は あまり 自[じ]信[しん] が あり ません。", "de": "Bei der Aussprache bin ich mir nicht so sicher." }, "note": "じしんが あります = sich sicher sein. Vorsicht: じしん (地震) heißt auch „Erdbeben“ (Lektion 3)!" },
+    { "id": "matomemasu", "word": "まとめ ます", "de": "zusammenfassen", "pos": "verb", "forms": "Wörterbuchform まとめる · て-Form まとめて", "example": { "text": "大[たい]切[せつ] な 文[ぶん]法[ぽう] を ノート に まとめ ました。", "de": "Ich habe die wichtige Grammatik im Heft zusammengefasst.", "focus": "まとめ ました" } },
+    { "id": "nooto", "word": "ノート", "de": "das Heft; die Notizen", "pos": "noun", "example": { "text": "先生[せんせい] の 話[はなし] を ノート に 書[か]き ます。", "de": "Ich schreibe ins Heft, was die Lehrerin sagt." } },
+    { "id": "kokuban", "word": "黒[こく]板[ばん]", "de": "die Tafel", "pos": "noun", "example": { "text": "先生[せんせい] は 黒[こく]板[ばん] に 漢[かん]字[じ] を 書[か]き ました。", "de": "Die Lehrerin hat ein Kanji an die Tafel geschrieben." } },
+    { "id": "yatto", "word": "やっと", "de": "endlich", "pos": "adv", "example": { "text": "やっと 試験[しけん] が 終[お]わり ました。", "de": "Endlich ist die Prüfung vorbei." } },
+    { "id": "chanto", "word": "ちゃんと", "de": "ordentlich; richtig; wie es sich gehört", "pos": "adv", "example": { "text": "毎日[まいにち] ちゃんと 復[ふく]習[しゅう] し ましょう。", "de": "Lasst uns jeden Tag ordentlich wiederholen." } },
+    { "id": "nara", "word": "〜なら", "de": "wenn (es um … geht); falls", "pos": "particle", "example": { "text": "日本語[にほんご] を 勉強[べんきょう] する なら、 この 本[ほん] が いい です よ。", "de": "Wenn du Japanisch lernen willst, ist dieses Buch gut.", "focus": "なら" } }
+  ],
+  "grammar": [
+    {
+      "id": "ba-kei",
+      "title": "Die ば-Form: wenn … – und 〜ば よかった",
+      "blocks": [
+        { "type": "p", "text": "〜ば ist die klassische Bedingungsform: „wenn …, dann …“. Sie betont die Bedingung selbst: Nur wenn A erfüllt ist, passiert B. Deshalb passt sie gut zu Ratschlägen und allgemeinen Regeln." },
+        { "type": "p", "text": "Verben: Der u-Laut am Ende wird zum e-Laut, dann kommt ば dazu. Das gilt für alle Gruppen – Gruppe 2 hat also immer 〜れば." },
+        { "type": "table", "head": ["Gruppe", "Wörterbuchform", "ば-Form", "Deutsch"], "rows": [["1", "行[い]く", "行[い]けば", "wenn ich gehe"], ["1", "読[よ]む", "読[よ]めば", "wenn ich lese"], ["1", "話[はな]す", "話[はな]せば", "wenn ich spreche"], ["1", "ある", "あれば", "wenn es gibt; wenn man hat"], ["2", "食[た]べる", "食[た]べれば", "wenn ich esse"], ["2", "見[み]る", "見[み]れば", "wenn ich sehe"], ["3", "する", "すれば", "wenn ich mache"], ["3", "来[く]る", "来[く]れば", "wenn ich komme"]] },
+        { "type": "p", "text": "Verneinung, Adjektive und Nomen: ない wird zu なければ – das kennst du schon aus 〜なければ なりません (Lektion 3)! Bei い-Adjektiven wird い zu ければ. Bei な-Adjektiven und Nomen nimmt man meist なら." },
+        { "type": "table", "head": ["Wortart", "Grundform", "ば-Form", "Deutsch"], "rows": [["Verb (verneint)", "行[い]かない", "行[い]かなければ", "wenn ich nicht gehe"], ["い-Adjektiv", "安[やす]い", "安[やす]ければ", "wenn es billig ist"], ["い-Adjektiv", "いい", "よければ", "wenn es gut ist; wenn es dir recht ist"], ["な-Adjektiv", "ひま", "ひま なら", "wenn du Zeit hast"], ["Nomen", "雨[あめ]", "雨[あめ] なら", "wenn es regnet"]] },
+        { "type": "tip", "text": "いい ist wieder unregelmäßig: よければ. Die Wendungen よければ und もし よかったら („wenn es dir recht ist“) hörst du sehr oft." },
+        { "type": "p", "text": "Zwei feste Muster: 〜ば いいです („es reicht, wenn …; man sollte einfach …“) und die Frage どう すれば いいですか („Was soll ich tun?“)." },
+        { "type": "examples", "items": [{ "text": "毎日[まいにち] 練[れん]習[しゅう] すれば、 上手[じょうず] に なり ます。", "de": "Wenn du jeden Tag übst, wirst du gut." }, { "text": "時[じ]間[かん] が あれば、 手[て]伝[つだ]い ます よ。", "de": "Wenn ich Zeit habe, helfe ich dir." }, { "text": "安[やす]ければ 買[か]い ます。", "de": "Wenn es billig ist, kaufe ich es." }, { "text": "漢[かん]字[じ] が 覚[おぼ]えられ ません。 どう すれば いい です か。", "de": "Ich kann mir die Kanji nicht merken. Was soll ich tun?" }] },
+        { "type": "p", "text": "Mit 〜ば よかった bedauerst du etwas: „Hätte ich doch …!“ Für etwas, das du NICHT getan hast, nimmst du die positive ば-Form. Für etwas, das du getan hast und bereust, die verneinte: 〜なければ よかった („Hätte ich doch nicht …“)." },
+        { "type": "table", "head": ["Was passiert ist", "Bedauern", "Deutsch"], "rows": [["勉強[べんきょう] し ません でした。", "もっと 勉強[べんきょう] すれば よかった。", "Hätte ich nur mehr gelernt!"], ["かさ を 持[も]って 来[き]ません でした。", "かさ を 持[も]って 来[く]れば よかった。", "Hätte ich doch einen Schirm mitgenommen!"], ["たくさん 食[た]べ ました。", "そんな に 食[た]べなければ よかった。", "Hätte ich bloß nicht so viel gegessen!"]] },
+        { "type": "tip", "text": "Höflich sagst du 〜ば よかったです. Und: Wenn vorne eine Handlung steht (つけば, いけば), folgt nach ば meist keine Bitte – dafür nimmst du 〜たら (Lektion 4). Bei Zuständen (あれば, やすければ) ist eine Bitte möglich: じかんが あれば きて ください." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "毎日[まいにち] 練[れん]習[しゅう] ___、 上手[じょうず] に なり ます よ。", "answers": ["すれば"], "de": "Wenn du jeden Tag übst, wirst du gut." },
+        { "type": "cloze", "text": "時[じ]間[かん] が ___、 いっしょ に 行[い]き ましょう。", "answers": ["あれば"], "de": "Wenn du Zeit hast, lass uns zusammen gehen." },
+        { "type": "cloze", "text": "安[やす]___、 買[か]い たい です。", "answers": ["ければ"], "de": "Wenn es billig ist, möchte ich es kaufen." },
+        { "type": "cloze", "text": "もっと 早[はや]く 起[お]き___ よかった。", "answers": ["れば"], "de": "Wäre ich doch früher aufgestanden!" },
+        { "type": "cloze", "text": "どう ___ いい です か。", "answers": ["すれば"], "de": "Was soll ich tun?" },
+        { "type": "match", "pairs": [["行[い]けば", "wenn ich gehe"], ["食[た]べれば", "wenn ich esse"], ["すれば", "wenn ich es mache"], ["来[く]れば", "wenn ich komme"], ["よければ", "wenn es dir recht ist"], ["なければ", "wenn es nicht gibt"]] },
+        { "type": "translate", "de": "Hätte ich doch mehr gelernt!", "answers": ["もっと 勉強[べんきょう] を すれば よかった です。", "もっと 勉強[べんきょう] を すれば よかった。", "もっと 勉強[べんきょう] すれば よかった です。", "もっと 勉強[べんきょう] すれば よかった。", "もっと 勉強[べんきょう] を して おけば よかった です。", "もっと 勉強[べんきょう] を して おけば よかった。", "もっと 勉強[べんきょう] して おけば よかった です。", "もっと 勉強[べんきょう] して おけば よかった。"] },
+        { "type": "translate", "de": "Wenn du Zeit hast, komm bitte.", "answers": ["時[じ]間[かん] が あれば、 来[き]て ください。", "ひま が あれば、 来[き]て ください。", "ひま なら、 来[き]て ください。", "時[じ]間[かん] が あったら、 来[き]て ください。", "ひま が あったら、 来[き]て ください。", "ひま だったら、 来[き]て ください。"] },
+        { "type": "order", "de": "Wenn es dir recht ist, lass uns zusammen lernen.", "answer": "よければ、 いっしょ に 勉強[べんきょう] し ましょう。", "distractors": ["いければ、"] }
+      ]
+    },
+    {
+      "id": "nara",
+      "title": "Wenn es um … geht: 〜なら",
+      "blocks": [
+        { "type": "p", "text": "〜なら greift ein Thema auf, das gerade genannt wurde, und gibt dazu einen Rat oder eine Meinung: „Wenn es um … geht“, „Wenn du … willst, dann …“. Vor なら steht ein Nomen oder die einfache Form eines Verbs." },
+        { "type": "table", "head": ["Thema + なら", "Rat / Meinung", "Deutsch"], "rows": [["日本語[にほんご] の 辞[じ]書[しょ] なら、", "この アプリ が いい です よ。", "Ein Japanisch-Wörterbuch? Da ist diese App gut."], ["英語[えいご] なら、", "ソフィー さん に 聞[き]いて ください。", "Englisch? Frag Sophie."], ["京都[きょうと] へ 行[い]く なら、", "秋[あき] が いちばん です。", "Wenn du nach Kyoto fährst, ist der Herbst am schönsten."], ["大学院[だいがくいん] に 行[い]く なら、", "早[はや]く じゅんび した ほう が いい です。", "Wenn du einen Master machen willst, bereite dich besser früh vor."]] },
+        { "type": "tip", "text": "Typisch ist ein kurzer Wortwechsel: A erzählt etwas, B nimmt es mit なら auf. A: えいごを ならいたいです. B: えいごなら、 えきの まえの きょうしつが いいですよ." },
+        { "type": "p", "text": "Unterschied zu 〜たら: Bei 〜たら passiert erst A, dann B. Bei 〜なら gilt der Rat schon VOR der Handlung. きょうとへ いくなら、 この ほんを よんで ください = Lies das Buch, bevor du fährst. きょうとへ いったら、 しゃしんを おくって ください = Schick Fotos, wenn du dort bist." },
+        { "type": "examples", "items": [{ "text": "「パソコン を 買[か]い たい です。」 「パソコン なら、 あの 店[みせ] が 安[やす]い です よ。」", "de": "„Ich will einen Computer kaufen.“ – „Computer? Da ist der Laden dort billig.“" }, { "text": "ドイツ へ 行[い]く なら、 ミュンヘン に 来[き]て ください。", "de": "Wenn du nach Deutschland fährst, komm nach München." }, { "text": "漢[かん]字[じ] なら、 けん さん が よく 知[し]って い ます。", "de": "Bei Kanji kennt sich Ken gut aus." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "日本[にほん] の 料理[りょうり] ___、 この 店[みせ] が いちばん です よ。", "answers": ["なら"], "de": "Wenn es um japanisches Essen geht, ist dieser Laden der beste." },
+        { "type": "cloze", "text": "ドイツ へ 行[い]く ___、 ミュンヘン に 来[き]て ください。", "answers": ["なら"], "de": "Wenn du nach Deutschland fährst, komm nach München." },
+        { "type": "cloze", "text": "「英語[えいご] を 習[なら]い たい です。」 「英語[えいご] ___、 駅[えき] の 前[まえ] の 教室[きょうしつ] が いい です よ。」", "answers": ["なら"], "de": "„Ich möchte Englisch lernen.“ – „Englisch? Da ist der Kurs vor dem Bahnhof gut.“" },
+        { "type": "translate", "de": "Wenn du ein Wörterbuch kaufen willst, ist dieses gut.", "answers": ["辞[じ]書[しょ] を 買[か]う なら、 これ が いい です よ。", "辞[じ]書[しょ] を 買[か]う なら、 これ が いい です。", "辞[じ]書[しょ] を 買[か]う なら、 この 辞[じ]書[しょ] が いい です よ。", "辞[じ]書[しょ] を 買[か]う なら、 この 辞[じ]書[しょ] が いい です。", "辞[じ]書[しょ] なら、 これ が いい です よ。", "辞[じ]書[しょ] なら、 これ が いい です。", "辞[じ]書[しょ] なら、 この 辞[じ]書[しょ] が いい です よ。", "辞[じ]書[しょ] なら、 この 辞[じ]書[しょ] が いい です。"] },
+        { "type": "translate", "de": "Wenn es um Kanji geht, frag Ken.", "answers": ["漢[かん]字[じ] なら、 けん さん に 聞[き]いて ください。", "漢[かん]字[じ] なら、 けん さん に 聞[き]いて。"] },
+        { "type": "order", "de": "Wenn du Japanisch lernst, ist diese App praktisch.", "answer": "日本語[にほんご] を 勉強[べんきょう] する なら、 この アプリ が べんり です よ。", "distractors": ["したら、"] },
+        { "type": "choice", "prompt": "„Wenn du nach Kyoto fährst, lies vorher dieses Buch.“ Was passt?", "options": ["京都[きょうと] へ 行[い]く なら、 この 本[ほん] を 読[よ]んで ください。", "京都[きょうと] へ 行[い]ったら、 この 本[ほん] を 読[よ]んで ください。"], "answer": 0, "explain": "Der Rat gilt VOR der Reise – das passt zu なら. Mit 〜たら hieße es: Lies das Buch, wenn du in Kyoto angekommen bist." }
+      ]
+    },
+    {
+      "id": "te-okimasu",
+      "title": "Vorbereiten: 〜て おきます",
+      "blocks": [
+        { "type": "p", "text": "〜て おきます (て-Form + おきます) heißt: Man tut etwas im Voraus, damit man später bereit ist – „schon mal“, „vorsorglich“. Typisch vor Prüfungen, Reisen und Besuchen." },
+        { "type": "table", "head": ["て-Form + おきます", "wofür?", "Deutsch"], "rows": [["単[たん]語[ご] を 覚[おぼ]えて おき ます。", "試験[しけん] の 前[まえ]", "Ich lerne schon mal die Vokabeln."], ["教[きょう]科[か]書[しょ] を 読[よ]んで おき ます。", "じゅぎょう の 前[まえ]", "Ich lese vorher das Lehrbuch."], ["ホテル を 予約[よやく] して おき ます。", "旅行[りょこう] の 前[まえ]", "Ich buche schon mal das Hotel."], ["飲[の]み物[もの] を 買[か]って おき ます。", "パーティー の 前[まえ]", "Ich kaufe schon mal Getränke."]] },
+        { "type": "p", "text": "Zweite Bedeutung: etwas so lassen, wie es ist. まどを あけて おいて ください = Lass das Fenster bitte offen." },
+        { "type": "tip", "text": "Unter Freunden wird 〜て おく zu 〜とく: かって おく → かっとく, よんで おく → よんどく. Mit 〜ば よかった: もっと れんしゅうして おけば よかった = Hätte ich doch vorher mehr geübt!" },
+        { "type": "examples", "items": [{ "text": "試験[しけん] の 前[まえ] に、 先[せん]輩[ぱい] に 話[はなし] を 聞[き]いて おき ました。", "de": "Vor der Prüfung habe ich schon mal mit einer älteren Studentin gesprochen." }, { "text": "あした の 講義[こうぎ] の 予[よ]習[しゅう] を して おき ます。", "de": "Ich bereite mich schon mal auf die Vorlesung von morgen vor." }, { "text": "寒[さむ]い ので、 窓[まど] を 閉[し]めて おいて ください。", "de": "Es ist kalt, lass das Fenster bitte zu." }, { "text": "ビール を れいぞうこ に 入[い]れて おき ました。", "de": "Ich habe das Bier schon in den Kühlschrank gestellt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "試験[しけん] の 前[まえ] に 単[たん]語[ご] を 覚[おぼ]えて ___。", "answers": ["おき ます"], "de": "Vor der Prüfung lerne ich schon mal die Vokabeln." },
+        { "type": "cloze", "text": "パーティー の 前[まえ] に 飲[の]み物[もの] を 買[か]って ___ ました。", "answers": ["おき"], "de": "Vor der Party habe ich schon Getränke gekauft." },
+        { "type": "cloze", "text": "旅行[りょこう] の 前[まえ] に ホテル を 予約[よやく] ___ おき ます。", "answers": ["して"], "de": "Vor der Reise buche ich schon mal das Hotel." },
+        { "type": "cloze", "text": "窓[まど] を 開[あ]けて ___ ください。", "answers": ["おいて"], "de": "Lass das Fenster bitte offen." },
+        { "type": "translate", "de": "Vor dem Unterricht lese ich schon mal das Lehrbuch.", "answers": ["私[わたし] は じゅぎょう の 前[まえ] に 教[きょう]科[か]書[しょ] を 読[よ]んで おき ます。", "じゅぎょう の 前[まえ] に 教[きょう]科[か]書[しょ] を 読[よ]んで おき ます。"] },
+        { "type": "translate", "de": "Hätte ich doch vorher mehr geübt!", "answers": ["もっと 練[れん]習[しゅう] を して おけば よかった です。", "もっと 練[れん]習[しゅう] を して おけば よかった。", "もっと 練[れん]習[しゅう] して おけば よかった です。", "もっと 練[れん]習[しゅう] して おけば よかった。"] },
+        { "type": "order", "de": "Ich bereite mich schon mal auf die Vorlesung von morgen vor.", "answer": "あした の 講義[こうぎ] の 予[よ]習[しゅう] を して おき ます。", "distractors": ["おいて"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "試験[しけん] の 結果[けっか]",
+    "title_de": "Das Prüfungsergebnis",
+    "lines": [
+      { "speaker": "アンナ", "text": "けん さん、 ドイツ語[ご] の 試験[しけん] は どう でした か。", "de": "Ken, wie war deine Deutschprüfung?" },
+      { "speaker": "けん", "text": "文[ぶん]法[ぽう] は 自[じ]信[しん] が あり ました が、 聞[き]く 問題[もんだい] が とても むずかしかった です。", "de": "Bei der Grammatik war ich mir sicher, aber die Höraufgaben waren sehr schwer." },
+      { "speaker": "アンナ", "text": "そう です か。 点[てん] は もう わかり ました か。", "de": "Ach so. Weißt du die Punkte schon?" },
+      { "speaker": "けん", "text": "はい。 六十[ろくじゅう] 点[てん] で、 ぎりぎり 合格[ごうかく] でした。 もっと 練[れん]習[しゅう] して おけば よかった です。", "de": "Ja. 60 Punkte – gerade so bestanden. Hätte ich doch vorher mehr geübt." },
+      { "speaker": "アンナ", "text": "でも、 合格[ごうかく] です よ！ おめでとう ございます！", "de": "Aber du hast bestanden! Herzlichen Glückwunsch!" },
+      { "speaker": "けん", "text": "ありがとう ございます。 でも、 今[いま] の ドイツ語[ご] で は、 大学[だいがく] の 講義[こうぎ] は まだ むずかしい と 思[おも]い ます。", "de": "Danke. Aber mit meinem jetzigen Deutsch sind die Vorlesungen an der Uni bestimmt noch zu schwer." },
+      { "speaker": "アンナ", "text": "聞[き]く 練[れん]習[しゅう] を する なら、 ドイツ の ポッドキャスト が いい です よ。 毎日[まいにち] 聞[き]けば、 だんだん わかる ように なり ます。", "de": "Wenn du Hören üben willst, sind deutsche Podcasts gut. Wenn du jeden Tag zuhörst, verstehst du allmählich mehr." },
+      { "speaker": "けん", "text": "なるほど。 電車[でんしゃ] の 中[なか] で 聞[き]き ながら、 単[たん]語[ご] も 覚[おぼ]えられ ます ね。", "de": "Verstehe. Dann kann ich im Zug zuhören und gleichzeitig Vokabeln lernen." },
+      { "speaker": "アンナ", "text": "そう です ね。 それに、 ドイツ へ 行[い]く 前[まえ] に、 大学[だいがく] の 教[きょう]科[か]書[しょ] を 少[すこ]し 読[よ]んで おいた ほう が いい と 思[おも]い ます。", "de": "Genau. Außerdem solltest du, bevor du nach Deutschland gehst, schon mal ein bisschen in die Lehrbücher der Uni schauen." },
+      { "speaker": "けん", "text": "わかり ました。 大学[だいがく] の 先生[せんせい] に メール で 聞[き]いて おき ます。", "de": "Okay. Ich frage schon mal per E-Mail bei den Professoren nach." },
+      { "speaker": "アンナ", "text": "私[わたし] も 来月[らいげつ]、 大学院[だいがくいん] の 試験[しけん] を 受[う]け ます。", "de": "Ich mache nächsten Monat übrigens auch eine Prüfung – die Aufnahmeprüfung fürs Masterstudium." },
+      { "speaker": "けん", "text": "え、 そう です か！ 何[なに] を 研究[けんきゅう] し ます か。", "de": "Oh, wirklich? Was willst du erforschen?" },
+      { "speaker": "アンナ", "text": "日本[にほん] の 教[きょう]育[いく] です。 日本[にほん] と ドイツ の 学校[がっこう] は とても 違[ちが]う ので、 おもしろい と 思[おも]い ます。", "de": "Das japanische Bildungssystem. Die Schulen in Japan und Deutschland sind sehr verschieden, deshalb finde ich das spannend." },
+      { "speaker": "けん", "text": "たしかに。 日本[にほん] で は 塾[じゅく] や 部[ぶ]活[かつ] で いそがしい 学生[がくせい] が 多[おお]い です から ね。", "de": "Stimmt. In Japan sind viele Schüler mit Paukschule und Schulclubs beschäftigt." },
+      { "speaker": "アンナ", "text": "はい。 でも、 研究[けんきゅう] の 本[ほん] は 漢[かん]字[じ] が 多[おお]くて、 たいへん です。", "de": "Ja. Aber die Fachbücher haben so viele Kanji – das ist anstrengend." },
+      { "speaker": "けん", "text": "漢[かん]字[じ] なら、 私[わたし] が 教[おし]え ます よ。 その かわり、 ドイツ語[ご] を 教[おし]えて ください！", "de": "Bei Kanji helfe ich dir. Dafür bringst du mir Deutsch bei!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["教室[きょうしつ]", "das Klassenzimmer"], ["教[きょう]科[か]書[しょ]", "das Lehrbuch"], ["講義[こうぎ]", "die Vorlesung"], ["成績[せいせき]", "die Noten"], ["塾[じゅく]", "die Paukschule"], ["部[ぶ]活[かつ]", "der Schulclub"]] },
+    { "type": "match", "pairs": [["単[たん]語[ご]", "die Vokabel"], ["文[ぶん]法[ぽう]", "die Grammatik"], ["発[はつ]音[おん]", "die Aussprache"], ["漢[かん]字[じ]", "das Kanji"], ["正[せい]解[かい]", "die richtige Antwort"]] },
+    { "type": "translate", "de": "In Mathe bin ich schwach, aber in Englisch bin ich gut.", "answers": ["私[わたし] は 数[すう]学[がく] は 苦[にが]手[て] です が、 英語[えいご] は 得[とく]意[い] です。", "私[わたし] は 数[すう]学[がく] は 苦[にが]手[て] です けど、 英語[えいご] は 得[とく]意[い] です。", "私[わたし] は 数[すう]学[がく] が 苦[にが]手[て] です が、 英語[えいご] は 得[とく]意[い] です。", "私[わたし] は 数[すう]学[がく] が 苦[にが]手[て] です けど、 英語[えいご] は 得[とく]意[い] です。", "数[すう]学[がく] は 苦[にが]手[て] です が、 英語[えいご] は 得[とく]意[い] です。", "数[すう]学[がく] は 苦[にが]手[て] です けど、 英語[えいご] は 得[とく]意[い] です。", "数[すう]学[がく] が 苦[にが]手[て] です が、 英語[えいご] は 得[とく]意[い] です。", "数[すう]学[がく] が 苦[にが]手[て] です けど、 英語[えいご] は 得[とく]意[い] です。"] },
+    { "type": "translate", "de": "Wenn du jeden Tag übst, wirst du besser.", "answers": ["毎日[まいにち] 練[れん]習[しゅう] を すれば、 上手[じょうず] に なり ます よ。", "毎日[まいにち] 練[れん]習[しゅう] を すれば、 上手[じょうず] に なり ます。", "毎日[まいにち] 練[れん]習[しゅう] を すれば、 上手[じょうず] に なる よ。", "毎日[まいにち] 練[れん]習[しゅう] を すれば、 上手[じょうず] に なる。", "毎日[まいにち] 練[れん]習[しゅう] すれば、 上手[じょうず] に なり ます よ。", "毎日[まいにち] 練[れん]習[しゅう] すれば、 上手[じょうず] に なり ます。", "毎日[まいにち] 練[れん]習[しゅう] すれば、 上手[じょうず] に なる よ。", "毎日[まいにち] 練[れん]習[しゅう] すれば、 上手[じょうず] に なる。"] },
+    { "type": "translate", "de": "Ich habe das Kanji falsch gelesen.", "answers": ["私[わたし] は その 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "私[わたし] は その 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。", "私[わたし] は この 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "私[わたし] は この 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。", "私[わたし] は 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "私[わたし] は 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。", "その 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "その 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。", "この 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "この 漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。", "漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え ました。", "漢[かん]字[じ] の 読[よ]み方[かた] を 間[ま]違[ちが]え て しまい ました。"] },
+    { "type": "translate", "de": "Vor der Prüfung lerne ich schon mal die Vokabeln.", "answers": ["私[わたし] は 試験[しけん] の 前[まえ] に 単[たん]語[ご] を 覚[おぼ]えて おき ます。", "試験[しけん] の 前[まえ] に 単[たん]語[ご] を 覚[おぼ]えて おき ます。"] },
+    { "type": "order", "de": "Wenn es um Englisch geht, ist dieser Kurs gut.", "answer": "英語[えいご] なら、 この 教室[きょうしつ] が いい です よ。", "distractors": ["だったら"] },
+    { "type": "order", "de": "Hätte ich doch früher angefangen!", "answer": "もっと 早[はや]く 始[はじ]めれば よかった。", "distractors": ["始[はじ]めて"] },
+    { "type": "cloze", "text": "試験[しけん] で 八十[はちじゅう] ___ を とり ました。", "answers": ["点[てん]"], "de": "Ich habe in der Prüfung 80 Punkte bekommen." },
+    { "type": "cloze", "text": "四月[しがつ] から 新[あたら]しい ___ が 始[はじ]まり ます。", "answers": ["学[がっ]期[き]"], "de": "Ab April beginnt das neue Semester." },
+    { "type": "listen", "text": "けん さん は 字[じ] が きれい で、 漢[かん]字[じ] も たくさん 知[し]って い ます。", "de": "Ken hat eine schöne Schrift und kennt viele Kanji." },
+    { "type": "listen", "text": "大学院[だいがくいん] で 日本[にほん] の 教[きょう]育[いく] に ついて 研究[けんきゅう] し たい です。", "de": "Im Masterstudium möchte ich über das japanische Bildungssystem forschen." }
+  ]
+}

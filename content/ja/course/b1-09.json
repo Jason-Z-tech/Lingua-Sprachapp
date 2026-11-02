@@ -1,0 +1,154 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-09",
+  "lang": "ja",
+  "level": "B1",
+  "number": 9,
+  "title": "みんな で 作[つく]る 町[まち]",
+  "title_de": "Gesellschaft",
+  "topic": "Alltag und Zusammenhalt",
+  "goals": [
+    "Du kannst die Kausativform bilden und sagen, dass jemand eine andere Person etwas tun lässt: こどもに やさいを たべさせます.",
+    "Du kannst mit 〜させて ください und 〜させて いただけませんか höflich um Erlaubnis bitten.",
+    "Du kannst Unterschiede beschreiben: 〜に よって (je nach), 〜ほど 〜ない (nicht so … wie), 〜ば 〜ほど (je …, desto …).",
+    "Du kannst über Stadt und Land, Jung und Alt und den Zusammenhalt in der Nachbarschaft sprechen."
+  ],
+  "kanji": ["同", "主", "公", "町", "市", "民", "代"],
+  "vocab": [
+    { "id": "shakai", "word": "社会[しゃかい]", "de": "die Gesellschaft", "pos": "noun", "example": { "text": "日本[にほん] の 社会[しゃかい] は 少[すこ]しずつ 変[か]わって い ます。", "de": "Die japanische Gesellschaft verändert sich nach und nach." }, "note": "しゃかいじん (Berufstätige/r) kennst du schon – wörtlich „Mensch der Gesellschaft“." },
+    { "id": "onaji", "word": "同[おな]じ", "de": "gleich; derselbe", "pos": "adj", "example": { "text": "けん さん と 私[わたし] は 同[おな]じ 年[とし] です。", "de": "Ken und ich sind gleich alt." }, "note": "Vor Nomen ohne な: おなじ まち, おなじ いけん. 〜と おなじ = genauso wie …" },
+    { "id": "omona", "word": "主[おも]な", "de": "hauptsächlich; Haupt-", "pos": "adj", "example": { "text": "この 町[まち] の 主[おも]な 産[さん]業[ぎょう] は 観光[かんこう] です。", "de": "Die wichtigste Branche dieser Stadt ist der Tourismus." }, "note": "Als Adverb: おもに = hauptsächlich." },
+    { "id": "goshujin", "word": "ご主人[しゅじん]", "de": "Ihr/sein Ehemann (höflich)", "pos": "noun", "example": { "text": "となり の 家[いえ] の ご主人[しゅじん] は 市[し]役[やく]所[しょ] で 働[はたら]いて い ます。", "de": "Der Mann von nebenan arbeitet im Rathaus." }, "note": "Nur für den Mann einer anderen Person. Über den eigenen Mann sagt man おっと." },
+    { "id": "shi", "word": "市[し]", "de": "die Stadt (als Verwaltungseinheit)", "pos": "noun", "example": { "text": "横[よこ]浜[はま]市[し] に は やく 三百[さんびゃく]七十[ななじゅう]万[まん]人[にん] が 住[す]んで い ます。", "de": "In der Stadt Yokohama leben etwa 3,7 Millionen Menschen." }, "note": "Hinter Städtenamen: 〜し (よこはまし). まち ist die Stadt im Alltag, し die Verwaltung." },
+    { "id": "shiyakusho", "word": "市[し]役[やく]所[しょ]", "de": "das Rathaus; die Stadtverwaltung", "pos": "noun", "example": { "text": "引[ひ]っ越[こ]したら、 市[し]役[やく]所[しょ] に 行[い]かなければ なり ません。", "de": "Nach einem Umzug muss man zum Rathaus." }, "note": "Dort meldet man die neue Adresse an. In kleineren Orten heißt es まちやくば." },
+    { "id": "shimin", "word": "市民[しみん]", "de": "Bürger/in", "pos": "noun", "example": { "text": "公[こう]園[えん] の そうじ に は、 たくさん の 市民[しみん] が 参[さん]加[か] し ました。", "de": "Viele Bürgerinnen und Bürger haben bei der Parkreinigung mitgemacht." } },
+    { "id": "juumin", "word": "住民[じゅうみん]", "de": "Bewohner/in; Anwohner/in", "pos": "noun", "example": { "text": "この アパート の 住民[じゅうみん] は みんな 親切[しんせつ] です。", "de": "Die Bewohner dieses Hauses sind alle hilfsbereit." } },
+    { "id": "kokumin", "word": "国民[こくみん]", "de": "das Volk; die Bürger eines Landes", "pos": "noun", "example": { "text": "国民[こくみん] の 半分[はんぶん] 以[い]上[じょう] が 大[おお]きい 町[まち] に 住[す]んで い ます。", "de": "Mehr als die Hälfte der Bevölkerung lebt in großen Städten." } },
+    { "id": "kouminkan", "word": "公民館[こうみんかん]", "de": "das Gemeindezentrum", "pos": "noun", "example": { "text": "毎週[まいしゅう] 水[すい]曜日[ようび] に 公民館[こうみんかん] で 日本[にほん]語[ご] 教室[きょうしつ] が あり ます。", "de": "Jeden Mittwoch gibt es im Gemeindezentrum einen Japanischkurs." }, "note": "Hier treffen sich Nachbarn zu Kursen, Festen und Versammlungen – oft auch der Nachbarschaftsverein (ちょうないかい)." },
+    { "id": "shitamachi", "word": "下町[したまち]", "de": "die Altstadt; das alte Viertel", "pos": "noun", "example": { "text": "東[とう]京[きょう] の 下町[したまち] に は 古[ふる]い 店[みせ] が たくさん 残[のこ]って い ます。", "de": "In der Tokioter Altstadt gibt es noch viele alte Läden." }, "note": "Die traditionellen Handwerker- und Händlerviertel, zum Beispiel あさくさ. Hier kennen sich die Nachbarn noch." },
+    { "id": "jidai", "word": "時代[じだい]", "de": "die Zeit; die Epoche", "pos": "noun", "example": { "text": "祖[そ]母[ぼ] の 時代[じだい] は、 女[おんな] の 人[ひと] が 大学[だいがく] に 行[い]く の は めずらしかった です。", "de": "Zur Zeit meiner Großmutter war es selten, dass Frauen studierten." } },
+    { "id": "dai", "word": "〜代[だい]", "alt": ["代[だい]"], "de": "die …er (Jahre, Alter); die Kosten (für …)", "pos": "other", "example": { "text": "父[ちち] は 五十[ごじゅう]代[だい] です。", "de": "Mein Vater ist in den Fünfzigern.", "focus": "代[だい]" }, "note": "Auch für Kosten: でんきだい (Stromkosten), バスだい (Busfahrt). Und Jahrzehnte: 九十年代 = die Neunziger." },
+    { "id": "kawari", "word": "代[か]わり", "de": "der Ersatz; statt", "pos": "noun", "example": { "text": "部長[ぶちょう] の 代[か]わり に、 私[わたし] が 会[かい]議[ぎ] に 出[で] ました。", "de": "Statt der Abteilungsleiterin bin ich zur Besprechung gegangen." }, "note": "〜の かわりに = anstelle von …" },
+    { "id": "sedai", "word": "世代[せだい]", "de": "die Generation", "pos": "noun", "example": { "text": "若[わか]い 世代[せだい] は 新聞[しんぶん] を あまり 読[よ]み ません。", "de": "Die junge Generation liest kaum Zeitung." } },
+    { "id": "otoshiyori", "word": "お年[とし]寄[よ]り", "de": "ältere Menschen; Senioren", "pos": "noun", "example": { "text": "この 町[まち] は お年[とし]寄[よ]り が 多[おお]い です。", "de": "In dieser Stadt gibt es viele ältere Menschen." }, "note": "Ein freundliches, höfliches Wort. In Zügen gibt es Plätze für sie (ゆうせんせき)." },
+    { "id": "wakamono", "word": "若者[わかもの]", "de": "junge Leute", "pos": "noun", "example": { "text": "若者[わかもの] は 仕事[しごと] を 探[さが]す ため に 都[と]会[かい] へ 行[い]き ます。", "de": "Junge Leute gehen in die Großstadt, um Arbeit zu finden." } },
+    { "id": "kyouryoku", "word": "協[きょう]力[りょく]", "de": "die Zusammenarbeit; die Mithilfe", "pos": "noun", "example": { "text": "ごみ を 減[へ]らす ため に、 みなさん の ご協[きょう]力[りょく] を おねがいします。", "de": "Um den Müll zu verringern, bitten wir alle um ihre Mithilfe." }, "note": "きょうりょくします = zusammenarbeiten, mithelfen. Auf Schildern: ごきょうりょく おねがいします." },
+    { "id": "tasukeai", "word": "助[たす]け合[あ]い", "de": "die gegenseitige Hilfe", "pos": "noun", "example": { "text": "災[さい]害[がい] の とき は、 近所[きんじょ] の 助[たす]け合[あ]い が 大[たい]切[せつ] です。", "de": "Bei Katastrophen ist die gegenseitige Hilfe in der Nachbarschaft wichtig." }, "note": "たすけあいます = einander helfen. 〜あいます heißt „einander“: はなしあいます (besprechen)." },
+    { "id": "sanka", "word": "参[さん]加[か]", "de": "die Teilnahme", "pos": "noun", "example": { "text": "町[まち] の お祭[まつ]り に 参[さん]加[か] し ました。", "de": "Ich habe beim Stadtfest mitgemacht." }, "note": "さんかします = teilnehmen; das Ereignis markiert に." },
+    { "id": "jinkou", "word": "人口[じんこう]", "de": "die Bevölkerung; die Einwohnerzahl", "pos": "noun", "example": { "text": "この 村[むら] の 人口[じんこう] は 毎年[まいとし] 少[すく]なく なって い ます。", "de": "Die Einwohnerzahl dieses Dorfes sinkt jedes Jahr." } },
+    { "id": "zeikin", "word": "税[ぜい]金[きん]", "de": "die Steuer", "pos": "noun", "example": { "text": "税[ぜい]金[きん] で 道[みち] や 公[こう]園[えん] が 作[つく]られ ます。", "de": "Mit Steuern werden Straßen und Parks gebaut." } },
+    { "id": "houritsu", "word": "法[ほう]律[りつ]", "de": "das Gesetz", "pos": "noun", "example": { "text": "日本[にほん] で は 法[ほう]律[りつ] で 二十[はたち] から お酒[さけ] が 飲[の]め ます。", "de": "In Japan darf man laut Gesetz ab zwanzig Alkohol trinken." } },
+    { "id": "kosodate", "word": "子[こ]育[そだ]て", "de": "die Kindererziehung", "pos": "noun", "example": { "text": "仕事[しごと] と 子[こ]育[そだ]て の 両[りょう]方[ほう] は たいへん です。", "de": "Arbeit und Kindererziehung gleichzeitig ist anstrengend." }, "note": "Von そだてます (großziehen). そだちます (aufwachsen) kennst du schon." },
+    { "id": "jiyuu", "word": "自[じ]由[ゆう]", "de": "die Freiheit; frei", "pos": "adj", "example": { "text": "大学[だいがく] の 授[じゅ]業[ぎょう] は 自[じ]由[ゆう] に 選[えら]べ ます。", "de": "An der Uni kann man die Kurse frei wählen." }, "note": "じゆうな じかん = freie Zeit; じゆうに = frei, nach Belieben." },
+    { "id": "heiwa", "word": "平[へい]和[わ]", "de": "der Frieden; friedlich", "pos": "adj", "example": { "text": "この 町[まち] は 静[しず]か で 平[へい]和[わ] です。", "de": "Diese Stadt ist ruhig und friedlich." } },
+    { "id": "koukyou", "word": "公[こう]共[きょう]", "de": "öffentlich; die Öffentlichkeit", "pos": "noun", "example": { "text": "公[こう]共[きょう] の 場[ば]所[しょ] で は 大[おお]きい 声[こえ] で 話[はな]さない ほう が いい です。", "de": "An öffentlichen Orten spricht man besser nicht laut." }, "note": "こうきょう こうつう = öffentliche Verkehrsmittel." },
+    { "id": "kurabemasu", "word": "比[くら]べ ます", "de": "vergleichen", "pos": "verb", "forms": "Wörterbuchform くらべる · て-Form くらべて · た-Form くらべた", "example": { "text": "東[とう]京[きょう] と 比[くら]べて、 この 町[まち] は 物[ぶっ]価[か] が 安[やす]い です。", "de": "Verglichen mit Tokio sind die Preise in dieser Stadt niedrig.", "focus": "比[くら]べて" }, "note": "〜と くらべて = im Vergleich zu …" },
+    { "id": "toshi", "word": "都[と]市[し]", "de": "die (Groß-)Stadt; die Metropole", "pos": "noun", "example": { "text": "大[おお]阪[さか] は 日本[にほん] で 二[に]番[ばん]目[め] に 大[おお]きい 都[と]市[し] です。", "de": "Osaka ist die zweitgrößte Stadt Japans." }, "note": "Etwas sachlicher als とかい – in Nachrichten und Statistiken." },
+    { "id": "bukka", "word": "物[ぶっ]価[か]", "de": "die (Lebenshaltungs-)Preise", "pos": "noun", "example": { "text": "最[さい]近[きん]、 物[ぶっ]価[か] が 高[たか]く なり ました。", "de": "In letzter Zeit sind die Preise gestiegen." } },
+    { "id": "jimoto", "word": "地[じ]元[もと]", "de": "die Heimat; die eigene Gegend", "pos": "noun", "example": { "text": "地[じ]元[もと] の 野[や]菜[さい] を 使[つか]った 料理[りょうり] が 人気[にんき] です。", "de": "Gerichte mit Gemüse aus der Region sind beliebt." }, "note": "じもとの 人 = die Einheimischen." },
+    { "id": "herimasu", "word": "減[へ]り ます", "de": "abnehmen; weniger werden", "pos": "verb", "forms": "Wörterbuchform へる · て-Form へって · た-Form へった", "example": { "text": "子[こ]ども の 数[かず] が 減[へ]って い ます。", "de": "Die Zahl der Kinder geht zurück.", "focus": "減[へ]って" }, "note": "Etwas wird weniger (が). Etwas verringern: へらします (を)." },
+    { "id": "sasemasu", "word": "させ ます", "de": "(jemanden etwas) tun lassen; machen lassen", "pos": "verb", "forms": "Kausativ von します · Wörterbuchform させる · て-Form させて", "example": { "text": "母[はは] は 毎日[まいにち] 弟[おとうと] に 宿[しゅく]題[だい] を させ ます。", "de": "Meine Mutter lässt meinen kleinen Bruder jeden Tag Hausaufgaben machen." } },
+    { "id": "niyotte", "word": "〜に よって", "alt": ["に よって"], "de": "je nach; durch", "pos": "phrase", "example": { "text": "国[くに] に よって 文[ぶん]化[か] が ちがい ます。", "de": "Je nach Land ist die Kultur verschieden.", "focus": "に よって" } },
+    { "id": "hodo", "word": "〜ほど", "alt": ["ほど"], "de": "(nicht) so … wie; je … desto", "pos": "particle", "example": { "text": "大[おお]阪[さか] は 東[とう]京[きょう] ほど 大[おお]きく ありません。", "de": "Osaka ist nicht so groß wie Tokio.", "focus": "ほど" } }
+  ],
+  "grammar": [
+    {
+      "id": "shiekikei",
+      "title": "Machen lassen, tun lassen: die Kausativform (〜させる)",
+      "blocks": [
+        { "type": "p", "text": "Mit der Kausativform sagst du, dass jemand eine andere Person etwas tun lässt – entweder sie dazu bringt („machen lassen“) oder es ihr erlaubt („tun lassen“). Was gemeint ist, zeigt der Zusammenhang." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "Kausativ (einfache Form)", "Kausativ (ます-Form)"], "rows": [["1", "行[い]き ます", "行[い]かせる", "行[い]かせ ます"], ["1", "待[ま]ち ます", "待[ま]たせる", "待[ま]たせ ます"], ["1", "手[て]伝[つだ]い ます", "手[て]伝[つだ]わせる", "手[て]伝[つだ]わせ ます"], ["1", "遊[あそ]び ます", "遊[あそ]ばせる", "遊[あそ]ばせ ます"], ["2", "食[た]べ ます", "食[た]べさせる", "食[た]べさせ ます"], ["2", "考[かんが]え ます", "考[かんが]えさせる", "考[かんが]えさせ ます"], ["3", "し ます", "させる", "させ ます"], ["3", "来[き] ます", "来[こ]させる", "来[こ]させ ます"]] },
+        { "type": "p", "text": "Gruppe 1: Der i-Laut vor ます wird zum a-Laut, dazu kommt せる (いき → いかせる). Aus い wird わ: てつだい → てつだわせる. Gruppe 2: ます weg, させる dazu. Gruppe 3: させる, こさせる. Die Kausativform ist danach ein Gruppe-2-Verb: させます, させて, させた." },
+        { "type": "p", "text": "Wer etwas tun muss oder darf, bekommt に. Bei Verben ohne Objekt (いく, あそぶ) steht oft を:" },
+        { "type": "examples", "items": [{ "text": "母[はは] は 子[こ]ども に 野[や]菜[さい] を 食[た]べさせ ます。", "de": "Die Mutter lässt die Kinder Gemüse essen." }, { "text": "部長[ぶちょう] は 新[あたら]しい 社員[しゃいん] に コピー を させ ました。", "de": "Der Abteilungsleiter ließ den neuen Mitarbeiter Kopien machen." }, { "text": "子[こ]ども を 公[こう]園[えん] で 遊[あそ]ばせ ます。", "de": "Ich lasse die Kinder im Park spielen." }, { "text": "父[ちち] は 私[わたし] を 一人[ひとり] で 外国[がいこく] へ 行[い]かせて くれ ました。", "de": "Mein Vater hat mich allein ins Ausland gehen lassen." }, { "text": "すみません、 お待[ま]たせ し ました。", "de": "Entschuldigung, dass Sie warten mussten." }] },
+        { "type": "tip", "text": "おまたせしました (wörtlich: „Ich habe Sie warten lassen“) ist auch eine Kausativform – das hörst du im Restaurant ständig!" }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "母[はは] は 弟[おとうと] に 毎日[まいにち] ピアノ を 練[れん]習[しゅう] ___。", "answers": ["させ ます"], "de": "Meine Mutter lässt meinen Bruder jeden Tag Klavier üben." },
+        { "type": "cloze", "text": "子[こ]ども に 野[や]菜[さい] を ___ ます。", "answers": ["食[た]べさせ"], "de": "Ich lasse die Kinder Gemüse essen.", "hint": "たべます → Kausativ" },
+        { "type": "cloze", "text": "すみません、 お___ し ました。", "answers": ["待[ま]たせ"], "de": "Entschuldigung, dass Sie warten mussten." },
+        { "type": "cloze", "text": "先生[せんせい] は 学生[がくせい] に 作文[さくぶん] を ___ ました。", "answers": ["書[か]かせ"], "de": "Die Lehrerin ließ die Studierenden einen Aufsatz schreiben.", "hint": "かきます → Kausativ" },
+        { "type": "order", "de": "Der Chef lässt die Mitarbeiter jeden Tag Überstunden machen.", "answer": "社長[しゃちょう] は 社員[しゃいん] に 毎日[まいにち] ざんぎょう を させ ます。", "distractors": ["し"] },
+        { "type": "translate", "de": "Meine Eltern haben mich allein reisen lassen.", "answers": ["私[わたし] の 両[りょう]親[しん] は 私[わたし] を 一人[ひとり] で 旅行[りょこう] させて くれ ました。", "私[わたし] の 両[りょう]親[しん] は 私[わたし] を 一人[ひとり] で 旅行[りょこう] させ ました。", "私[わたし] の 両[りょう]親[しん] は 私[わたし] に 一人[ひとり] で 旅行[りょこう] させて くれ ました。", "私[わたし] の 両[りょう]親[しん] は 私[わたし] に 一人[ひとり] で 旅行[りょこう] させ ました。", "両[りょう]親[しん] は 私[わたし] を 一人[ひとり] で 旅行[りょこう] させて くれ ました。", "両[りょう]親[しん] は 私[わたし] を 一人[ひとり] で 旅行[りょこう] させ ました。", "両[りょう]親[しん] は 私[わたし] に 一人[ひとり] で 旅行[りょこう] させて くれ ました。", "両[りょう]親[しん] は 私[わたし] に 一人[ひとり] で 旅行[りょこう] させ ました。"] }
+      ]
+    },
+    {
+      "id": "sasete-kudasai",
+      "title": "Um Erlaubnis bitten: 〜させて ください",
+      "blocks": [
+        { "type": "p", "text": "Kausativ + て ください heißt wörtlich „Lassen Sie mich … tun“. So bietest du höflich etwas an oder bittest um Erlaubnis." },
+        { "type": "table", "head": ["Ausdruck", "Höflichkeit", "Beispiel"], "rows": [["〜させて ください", "höflich, direkt", "少[すこ]し 考[かんが]えさせて ください。"], ["〜させて もらえ ません か", "höflicher", "ここ に 自転車[じてんしゃ] を 止[と]めさせて もらえ ません か。"], ["〜させて いただけ ません か", "sehr höflich (けいご)", "あした 休[やす]ませて いただけ ません か。"]] },
+        { "type": "p", "text": "Mit 〜させて もらいました sagst du dankbar, dass man dich etwas tun ließ: ちちに りゅうがく させて もらいました (Mein Vater hat mir das Auslandsstudium ermöglicht)." },
+        { "type": "examples", "items": [{ "text": "その 仕事[しごと]、 私[わたし] に させて ください。", "de": "Lassen Sie mich diese Aufgabe übernehmen." }, { "text": "すみません、 写真[しゃしん] を とらせて もらえ ません か。", "de": "Entschuldigung, dürfte ich ein Foto machen?" }, { "text": "気分[きぶん] が 悪[わる]い ので、 今日[きょう] は 早[はや]く 帰[かえ]らせて いただけ ません か。", "de": "Mir geht es nicht gut – dürfte ich heute früher nach Hause gehen?" }, { "text": "日本[にほん] の 家族[かぞく] の 家[いえ] に 一[いっ]か月[げつ] 泊[と]まらせて もらい ました。", "de": "Ich durfte einen Monat bei einer japanischen Familie wohnen." }] },
+        { "type": "tip", "text": "Im Geschäftsleben hörst du oft 〜させて いただきます: ごせつめい させて いただきます (Ich erlaube mir, es Ihnen zu erklären). Das ist sehr höflich und bescheiden – wie die けんじょうご aus Lektion 6." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "少[すこ]し ___ ください。", "answers": ["考[かんが]えさせて"], "de": "Lassen Sie mich kurz nachdenken." },
+        { "type": "cloze", "text": "すみません、 写真[しゃしん] を ___ もらえ ません か。", "answers": ["とらせて"], "de": "Entschuldigung, dürfte ich ein Foto machen?" },
+        { "type": "cloze", "text": "気分[きぶん] が 悪[わる]い ので、 早[はや]く 帰[かえ]らせて ___ ません か。", "answers": ["いただけ", "もらえ"], "de": "Mir geht es nicht gut – dürfte ich früher nach Hause gehen?" },
+        { "type": "choice", "prompt": "Du möchtest deinen Chef bitten, morgen freinehmen zu dürfen. Was ist am höflichsten?", "options": ["あした 休[やす]ませて いただけ ません か。", "あした 休[やす]ませて ください。", "あした 休[やす]み ます。"], "answer": 0, "explain": "〜させて いただけませんか ist die höflichste Bitte. 〜させて ください ist auch höflich, aber direkter. やすみます ist keine Bitte, sondern eine Mitteilung." },
+        { "type": "order", "de": "Lassen Sie mich diese Aufgabe machen.", "answer": "その 仕事[しごと]、 私[わたし] に させて ください。", "distractors": ["して"] },
+        { "type": "translate", "de": "Mein Vater hat mir das Auslandsstudium ermöglicht.", "answers": ["私[わたし] は 父[ちち] に 留[りゅう]学[がく] を させて もらい ました。", "私[わたし] は 父[ちち] に 留[りゅう]学[がく] させて もらい ました。", "父[ちち] に 留[りゅう]学[がく] を させて もらい ました。", "父[ちち] に 留[りゅう]学[がく] させて もらい ました。"] }
+      ]
+    },
+    {
+      "id": "hikaku",
+      "title": "Unterschiede: 〜に よって, 〜ほど 〜ない, 〜ば 〜ほど",
+      "blocks": [
+        { "type": "p", "text": "〜に よって heißt „je nach …“: Etwas ist unterschiedlich, je nachdem, um wen oder was es geht. Danach folgt oft ちがいます (ist verschieden) oder いろいろです." },
+        { "type": "examples", "items": [{ "text": "国[くに] に よって 習[しゅう]慣[かん] が ちがい ます。", "de": "Je nach Land sind die Bräuche verschieden." }, { "text": "人[ひと] に よって 意見[いけん] が ちがい ます。", "de": "Jeder hat eine andere Meinung." }, { "text": "町[まち] に よって ごみ の 出[だ]し方[かた] が ちがい ます。", "de": "Je nach Stadt wird der Müll anders herausgestellt." }] },
+        { "type": "tip", "text": "Im Passivsatz (Lektion 8) heißt 〜に よって „von“ – bei Werken und Erfindungen: この しょうせつは むらかみ はるきに よって かかれました (Dieser Roman wurde von Haruki Murakami geschrieben)." },
+        { "type": "p", "text": "A は B ほど 〜ない heißt „A ist nicht so … wie B“. Nach ほど steht immer eine Verneinung." },
+        { "type": "table", "head": ["Satz", "Deutsch"], "rows": [["大[おお]阪[さか] は 東[とう]京[きょう] ほど 大[おお]きく ありません。", "Osaka ist nicht so groß wie Tokio."], ["この 町[まち] は 前[まえ] ほど にぎやか じゃ ありません。", "Diese Stadt ist nicht mehr so lebhaft wie früher."], ["今年[ことし] の 冬[ふゆ] は 去[きょ]年[ねん] ほど 寒[さむ]く ない です。", "Dieser Winter ist nicht so kalt wie der letzte."]] },
+        { "type": "p", "text": "〜ば 〜ほど heißt „je …, desto …“. Das Verb oder Adjektiv steht zweimal: zuerst in der ば-Form (Lektion 5), dann in der Wörterbuchform + ほど." },
+        { "type": "table", "head": ["Wortart", "Beispiel", "Deutsch"], "rows": [["Verb", "練[れん]習[しゅう] すれば する ほど 上手[じょうず] に なり ます。", "Je mehr man übt, desto besser wird man."], ["Verb", "日本[にほん] に 住[す]めば 住[す]む ほど、 日本[にほん] が 好[す]き に なり ます。", "Je länger ich in Japan lebe, desto mehr mag ich es."], ["い-Adjektiv", "駅[えき] に 近[ちか]ければ 近[ちか]い ほど、 家[や]賃[ちん] が 高[たか]い です。", "Je näher am Bahnhof, desto höher die Miete."], ["な-Adjektiv", "べんり なら べんり な ほど いい です。", "Je praktischer, desto besser."]] },
+        { "type": "tip", "text": "Bei な-Adjektiven nimmt man なら: しずかなら しずかな ほど. Umgangssprachlich fällt der erste Teil oft weg: はやい ほど いい (je früher, desto besser)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "国[くに] ___ 文[ぶん]化[か] が ちがい ます。", "answers": ["に よって"], "de": "Je nach Land ist die Kultur verschieden." },
+        { "type": "cloze", "text": "この 町[まち] は 東[とう]京[きょう] ___ 大[おお]きく ありません。", "answers": ["ほど"], "de": "Diese Stadt ist nicht so groß wie Tokio." },
+        { "type": "cloze", "text": "練[れん]習[しゅう] すれば ___ ほど 上手[じょうず] に なり ます。", "answers": ["する"], "de": "Je mehr man übt, desto besser wird man." },
+        { "type": "cloze", "text": "駅[えき] に 近[ちか]ければ ___ ほど、 家[や]賃[ちん] が 高[たか]い です。", "answers": ["近[ちか]い"], "de": "Je näher am Bahnhof, desto teurer die Miete." },
+        { "type": "order", "de": "Jeder hat eine andere Meinung.", "answer": "人[ひと] に よって 意見[いけん] が ちがい ます。", "distractors": ["で"] },
+        { "type": "translate", "de": "Dieser Sommer ist nicht so heiß wie der letzte.", "answers": ["今年[ことし] の 夏[なつ] は 去[きょ]年[ねん] の 夏[なつ] ほど 暑[あつ]く ありません。", "今年[ことし] の 夏[なつ] は 去[きょ]年[ねん] の 夏[なつ] ほど 暑[あつ]く ない です。", "今年[ことし] の 夏[なつ] は 去[きょ]年[ねん] ほど 暑[あつ]く ありません。", "今年[ことし] の 夏[なつ] は 去[きょ]年[ねん] ほど 暑[あつ]く ない です。"] },
+        { "type": "translate", "de": "Je mehr ich lese, desto interessanter wird es.", "answers": ["本[ほん] を 読[よ]めば 読[よ]む ほど、 おもしろく なり ます。", "本[ほん] を 読[よ]めば 読[よ]む ほど、 楽[たの]しく なり ます。", "読[よ]めば 読[よ]む ほど、 おもしろく なり ます。", "読[よ]めば 読[よ]む ほど、 楽[たの]しく なり ます。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "おばあさん の 町[まち]",
+    "title_de": "Bei Kens Großmutter",
+    "lines": [
+      { "speaker": "おばあさん", "text": "アンナ さん、 遠[とお]い ところ を よく 来[き]て くれ ました ね。 どうぞ、 上[あ]がって ください。", "de": "Anna, schön, dass du den weiten Weg gekommen bist. Komm doch herein." },
+      { "speaker": "アンナ", "text": "おじゃまします。 静[しず]か で 平[へい]和[わ] な 町[まち] です ね。", "de": "Danke schön. Was für eine ruhige, friedliche Stadt." },
+      { "speaker": "おばあさん", "text": "ええ。 でも、 若者[わかもの] が どんどん 都[と]会[かい] に 出[で]て 行[い]って、 人口[じんこう] が 減[へ]って いる ん です よ。", "de": "Ja. Aber die jungen Leute ziehen einer nach dem anderen in die Großstädte, und die Einwohnerzahl sinkt." },
+      { "speaker": "けん", "text": "私[わたし] が 通[かよ]った 小学校[しょうがっこう] も、 子[こ]ども が 少[すく]なく なって、 三[さん]年[ねん] 前[まえ] に 閉[し]まって しまい ました。", "de": "Auch meine alte Grundschule hat vor drei Jahren zugemacht, weil es zu wenige Kinder gab." },
+      { "speaker": "アンナ", "text": "そう です か…。 お年[とし]寄[よ]り の 生[せい]活[かつ] は たいへん じゃ ない です か。", "de": "Ach so … Ist das Leben für die Älteren nicht schwer?" },
+      { "speaker": "おばあさん", "text": "町[まち] の 人[ひと] たち が 助[たす]け合[あ]って いる から、 大[だい]丈夫[じょうぶ] です よ。 となり の ご主人[しゅじん] が 毎週[まいしゅう] 車[くるま] で スーパー に 連[つ]れて 行[い]って くれ ます。", "de": "Die Leute hier helfen einander, deshalb geht es gut. Der Mann von nebenan fährt mich jede Woche mit dem Auto zum Supermarkt." },
+      { "speaker": "けん", "text": "おばあちゃん は 公民館[こうみんかん] で 子[こ]ども たち に 書[しょ]道[どう] を 教[おし]えて いる ん です。", "de": "Oma unterrichtet im Gemeindezentrum Kinder in Kalligrafie." },
+      { "speaker": "アンナ", "text": "へえ、 すごい です ね。 子[こ]ども たち は よく 練[れん]習[しゅう] し ます か。", "de": "Wow, toll. Üben die Kinder fleißig?" },
+      { "speaker": "おばあさん", "text": "子[こ]ども に よって ちがい ます ね。 でも、 練[れん]習[しゅう] すれば する ほど 上手[じょうず] に なり ます から、 毎[まい]回[かい] 同[おな]じ 字[じ] を 何[なん]度[ど] も 書[か]かせ ます。", "de": "Das ist je nach Kind verschieden. Aber je mehr man übt, desto besser wird man – deshalb lasse ich sie jedes Mal dasselbe Zeichen viele Male schreiben." },
+      { "speaker": "アンナ", "text": "あの、 私[わたし] も 一[いっ]回[かい] 参[さん]加[か] させて いただけ ません か。", "de": "Ähm, dürfte ich auch einmal mitmachen?" },
+      { "speaker": "おばあさん", "text": "もちろん！ あした の 午後[ごご] に 教室[きょうしつ] が あり ます よ。", "de": "Natürlich! Morgen Nachmittag ist Unterricht." },
+      { "speaker": "けん", "text": "東[とう]京[きょう] と 比[くら]べて、 ここ は 近所[きんじょ] の 人[ひと] と の 関[かん]係[けい] が とても 近[ちか]い ん です。", "de": "Verglichen mit Tokio haben die Nachbarn hier ein sehr enges Verhältnis." },
+      { "speaker": "アンナ", "text": "東[とう]京[きょう] の 私[わたし] の アパート で は、 となり の 人[ひと] の 名前[なまえ] も 知[し]り ません。 都[と]会[かい] の 生[せい]活[かつ] は べんり です が、 ここ ほど あたたかく ない です ね。", "de": "In meinem Wohnhaus in Tokio kenne ich nicht einmal den Namen meiner Nachbarn. Das Großstadtleben ist praktisch, aber nicht so herzlich wie hier." },
+      { "speaker": "おばあさん", "text": "時代[じだい] が 変[か]わって も、 人[ひと] と 人[ひと] の つながり は 大[たい]切[せつ] です から ね。 さあ、 晩[ばん]ご飯[はん] に し ましょう。", "de": "Auch wenn sich die Zeiten ändern – der Zusammenhalt zwischen den Menschen bleibt wichtig. So, lasst uns zu Abend essen." },
+      { "speaker": "アンナ", "text": "ありがとうございます。 何[なに] か 手[て]伝[つだ]わせて ください。", "de": "Danke. Lassen Sie mich bitte etwas helfen." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["社会[しゃかい]", "die Gesellschaft"], ["市民[しみん]", "Bürger/in"], ["人口[じんこう]", "die Einwohnerzahl"], ["時代[じだい]", "die Epoche"], ["若者[わかもの]", "junge Leute"], ["お年[とし]寄[よ]り", "ältere Menschen"]] },
+    { "type": "match", "pairs": [["市[し]役[やく]所[しょ]", "das Rathaus"], ["公民館[こうみんかん]", "das Gemeindezentrum"], ["都[と]市[し]", "die Metropole"], ["下町[したまち]", "die Altstadt"], ["地[じ]元[もと]", "die eigene Gegend"]] },
+    { "type": "translate", "de": "Ich habe beim Stadtfest mitgemacht.", "answers": ["私[わたし] は 町[まち] の お祭[まつ]り に 参[さん]加[か] し ました。", "町[まち] の お祭[まつ]り に 参[さん]加[か] し ました。"] },
+    { "type": "translate", "de": "Ken und ich arbeiten in derselben Firma.", "answers": ["けん さん と 私[わたし] は 同[おな]じ 会社[かいしゃ] で 働[はたら]いて い ます。", "けん さん と 私[わたし] は 同[おな]じ 会社[かいしゃ] に つとめて い ます。", "私[わたし] と けん さん は 同[おな]じ 会社[かいしゃ] で 働[はたら]いて い ます。", "私[わたし] と けん さん は 同[おな]じ 会社[かいしゃ] に つとめて い ます。"] },
+    { "type": "translate", "de": "Die Einwohnerzahl dieser Stadt geht zurück.", "answers": ["この 町[まち] の 人口[じんこう] が 減[へ]って い ます。", "この 町[まち] の 人口[じんこう] が 少[すく]なく なって い ます。", "この 町[まち] の 人口[じんこう] は 減[へ]って い ます。", "この 町[まち] の 人口[じんこう] は 少[すく]なく なって い ます。", "この 市[し] の 人口[じんこう] が 減[へ]って い ます。", "この 市[し] の 人口[じんこう] が 少[すく]なく なって い ます。", "この 市[し] の 人口[じんこう] は 減[へ]って い ます。", "この 市[し] の 人口[じんこう] は 少[すく]なく なって い ます。"] },
+    { "type": "translate", "de": "Lassen Sie mich bitte kurz nachdenken.", "answers": ["少[すこ]し 考[かんが]えさせて ください。", "ちょっと 考[かんが]えさせて ください。", "考[かんが]えさせて ください。", "少[すこ]し 考[かんが]えさせて もらえ ません か。", "少[すこ]し 考[かんが]えさせて いただけ ません か。", "ちょっと 考[かんが]えさせて もらえ ません か。", "ちょっと 考[かんが]えさせて いただけ ません か。", "考[かんが]えさせて もらえ ません か。", "考[かんが]えさせて いただけ ません か。"] },
+    { "type": "order", "de": "Je nach Stadt wird der Müll anders herausgestellt.", "answer": "町[まち] に よって ごみ の 出[だ]し方[かた] が ちがい ます。", "distractors": ["で"] },
+    { "type": "order", "de": "Verglichen mit Tokio sind die Preise hier niedrig.", "answer": "東[とう]京[きょう] と 比[くら]べて、 ここ は 物[ぶっ]価[か] が 安[やす]い です。", "distractors": ["より"] },
+    { "type": "cloze", "text": "部長[ぶちょう] の ___ に、 私[わたし] が 会[かい]議[ぎ] に 出[で] ました。", "answers": ["代[か]わり"], "de": "Statt der Abteilungsleiterin bin ich zur Besprechung gegangen." },
+    { "type": "cloze", "text": "父[ちち] は 五十[ごじゅう]___ です。", "answers": ["代[だい]"], "de": "Mein Vater ist in den Fünfzigern." },
+    { "type": "listen", "text": "若[わか]い 世代[せだい] は 新聞[しんぶん] を あまり 読[よ]み ません。", "de": "Die junge Generation liest kaum Zeitung." },
+    { "type": "listen", "text": "ごみ を 減[へ]らす ため に、 みなさん の ご協[きょう]力[りょく] を おねがいします。", "de": "Um den Müll zu verringern, bitten wir alle um ihre Mithilfe." },
+    { "type": "listen", "text": "この 町[まち] は 東[とう]京[きょう] ほど べんり じゃ ありません が、 人[ひと] が あたたかい です。", "de": "Diese Stadt ist nicht so praktisch wie Tokio, aber die Menschen sind herzlich." }
+  ]
+}
