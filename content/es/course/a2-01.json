@@ -145,7 +145,7 @@
       { "speaker": "Lucía", "text": "Sí, muy tranquilo. Y por fin he visto la exposición nueva del museo. ¿Tú has ido ya?", "de": "Ja, sehr ruhig. Und endlich habe ich die neue Ausstellung im Museum gesehen. Warst du schon dort?" },
       { "speaker": "Jonas", "text": "No, todavía no. ¿Cómo es?", "de": "Nein, noch nicht. Wie ist sie?" },
       { "speaker": "Lucía", "text": "¡Me ha encantado! Hay muchos cuadros de Madrid.", "de": "Sie hat mir total gut gefallen! Es gibt viele Bilder von Madrid." },
-      { "speaker": "Jonas", "text": "¡Ay, no! He olvidado mi libro de español en el coche de Diego.", "de": "Oh nein! Ich habe mein Spanischbuch in Diegos Auto vergessen." },
+      { "speaker": "Jonas", "text": "¡Ay, no! He olvidado mi libro de español en casa de Diego.", "de": "Oh nein! Ich habe mein Spanischbuch bei Diego zu Hause vergessen." },
       { "speaker": "Lucía", "text": "Tranquilo. ¿Por qué no llamas a Diego? Vive muy cerca.", "de": "Keine Sorge. Warum rufst du Diego nicht an? Er wohnt ganz in der Nähe." }
     ]
   },

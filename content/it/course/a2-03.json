@@ -149,8 +149,8 @@
       { "speaker": "Dottoressa", "text": "No, non si preoccupi, non è niente di grave: è l'influenza.", "de": "Nein, keine Sorge, es ist nichts Schlimmes: Es ist die Grippe." },
       { "speaker": "Lena", "text": "E cosa devo fare?", "de": "Und was soll ich tun?" },
       { "speaker": "Dottoressa", "text": "Deve restare a letto tre giorni e bere molta acqua. Ecco la ricetta: prenda queste compresse due volte al giorno.", "de": "Sie müssen drei Tage im Bett bleiben und viel Wasser trinken. Hier ist das Rezept: Nehmen Sie diese Tabletten zweimal am Tag." },
-      { "speaker": "Lena", "text": "Io lavoro da casa. Posso lavorare al computer?", "de": "Ich arbeite von zu Hause. Darf ich am Computer arbeiten?" },
-      { "speaker": "Dottoressa", "text": "No, signora! Dovrebbe riposarsi. Niente computer per tre giorni!", "de": "Nein, auf keinen Fall! Sie sollten sich ausruhen. Drei Tage lang kein Computer!" },
+      { "speaker": "Lena", "text": "Ma domani ho il corso di italiano. Posso andare?", "de": "Aber morgen habe ich Italienischkurs. Darf ich hingehen?" },
+      { "speaker": "Dottoressa", "text": "No, signora! Dovrebbe riposarsi. Niente corso per tre giorni!", "de": "Nein, auf keinen Fall! Sie sollten sich ausruhen. Drei Tage lang kein Kurs!" },
       { "speaker": "Lena", "text": "Va bene. E per la tosse?", "de": "In Ordnung. Und gegen den Husten?" },
       { "speaker": "Dottoressa", "text": "Prenda anche uno sciroppo: è sulla ricetta. Arrivederci, e si riposi!", "de": "Nehmen Sie auch einen Hustensaft – er steht auf dem Rezept. Auf Wiedersehen, und ruhen Sie sich aus!" }
     ]

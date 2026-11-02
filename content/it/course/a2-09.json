@@ -72,13 +72,14 @@
       "example": { "text": "Il mio giocattolo preferito era un treno.", "de": "Mein Lieblingsspielzeug war ein Zug." }
     },
     {
-      "id": "preferito",
-      "word": "preferito",
-      "alt": ["preferita"],
-      "de": "Lieblings-; bevorzugt",
-      "pos": "adj",
-      "example": { "text": "Il mio libro preferito era Pinocchio.", "de": "Mein Lieblingsbuch war Pinocchio." },
-      "note": "Steht nach dem Nomen: il mio colore preferito = meine Lieblingsfarbe."
+      "id": "cortile",
+      "word": "cortile",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cortili",
+      "de": "der Hof; der Innenhof",
+      "pos": "noun",
+      "example": { "text": "Dopo la scuola giocavamo in cortile.", "de": "Nach der Schule spielten wir im Hof." }
     },
     {
       "id": "bambola",
@@ -374,12 +375,12 @@
       "note": "Imperfetto von c'è. Mehrzahl: c'erano – c'erano tanti bambini."
     },
     {
-      "id": "adesso",
-      "word": "adesso",
-      "de": "jetzt",
-      "pos": "adv",
-      "example": { "text": "Una volta abitavo a Napoli, adesso abito a Bologna.", "de": "Früher wohnte ich in Neapel, jetzt wohne ich in Bologna." },
-      "note": "Genauso üblich: ora."
+      "id": "vivace",
+      "word": "vivace",
+      "de": "lebhaft; aufgeweckt",
+      "pos": "adj",
+      "example": { "text": "Mio fratello era un bambino molto vivace.", "de": "Mein Bruder war ein sehr lebhaftes Kind." },
+      "note": "Gleiche Form für männlich und weiblich, Mehrzahl: vivaci."
     }
   ],
   "grammar": [
@@ -668,8 +669,8 @@
       { "speaker": "Lena", "text": "Eri una bambina tranquilla?", "de": "Warst du ein ruhiges Kind?" },
       {
         "speaker": "Sara",
-        "text": "No! Ero molto curiosa e parlavo tantissimo!",
-        "de": "Nein! Ich war sehr neugierig und habe unglaublich viel geredet!"
+        "text": "No! Ero molto vivace e parlavo tantissimo!",
+        "de": "Nein! Ich war sehr lebhaft und habe unglaublich viel geredet!"
       },
       { "speaker": "Lena", "text": "E chi è questa signora con gli occhiali?", "de": "Und wer ist diese Frau mit der Brille?" },
       {

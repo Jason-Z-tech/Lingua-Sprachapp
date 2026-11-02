@@ -155,6 +155,7 @@ Vollständiges Beispiel: [`es/course/a1-01.json`](es/course/a1-01.json).
 | `id` | eindeutig in der Lektion, nur `a-z`, `0-9`, `-` |
 | `word` | Grundform (Verben im Infinitiv, Nomen ohne Artikel) |
 | `article`, `gender`, `plural` | bei Nomen (Spanisch/Italienisch Pflicht: `article` und `gender` `m`/`f`) |
+| `noArticle` | `true` bei Nomen, die man ohne Artikel lernt (z. B. spanische Monate: `enero`); dann kein `article`, aber `gender` |
 | `alt` | weitere richtige Antworten, z. B. `["encantada"]` |
 | `de` | Bedeutung auf Deutsch; mehrere durch `;` getrennt |
 | `pos` | Wortart: `noun`, `verb`, `adj`, `adv`, `pron`, `prep`, `conj`, `interj`, `num`, `phrase`, `particle`, `counter`, `other` |

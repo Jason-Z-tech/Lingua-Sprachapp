@@ -187,7 +187,8 @@ for (const lang of languages) {
           assert.ok(POS.has(v.pos), `${w}: pos "${v.pos}" unbekannt`);
           if (v.alt) v.alt.forEach((a, j) => target(lang, a, `${w}.alt[${j}]`));
           if ((lang === 'es' || lang === 'it') && v.pos === 'noun') {
-            assert.ok(v.article, `${w}: Nomen brauchen einen Artikel`);
+            assert.ok(v.article || v.noArticle === true, `${w}: Nomen brauchen einen Artikel (oder "noArticle": true, z. B. für Monate)`);
+            if (v.noArticle) assert.ok(!v.article, `${w}: "noArticle" und "article" schließen sich aus`);
             assert.ok(['m', 'f'].includes(v.gender), `${w}: gender m/f`);
           }
           assert.ok(v.example, `${w}: Beispielsatz fehlt`);

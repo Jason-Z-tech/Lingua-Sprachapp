@@ -88,12 +88,13 @@
       "note": "Wie finire mit -isc-. Passato prossimo mit essere: mi sono trasferita."
     },
     {
-      "id": "organizzare",
-      "word": "organizzare",
-      "de": "organisieren; planen",
+      "id": "prepararsi",
+      "word": "prepararsi",
+      "de": "sich vorbereiten",
       "pos": "verb",
-      "forms": "organizzo, organizzi, organizza, organizziamo, organizzate, organizzano",
-      "example": { "text": "Chi organizza il viaggio?", "de": "Wer organisiert die Reise?", "focus": "organizza" }
+      "forms": "mi preparo, ti prepari, si prepara, ci prepariamo, vi preparate, si preparano",
+      "example": { "text": "Mi preparo per l'esame di venerdì.", "de": "Ich bereite mich auf die Prüfung am Freitag vor.", "focus": "preparo" },
+      "note": "Ohne si: preparare = vorbereiten, zubereiten – preparare la cena."
     },
     {
       "id": "promettere",
@@ -218,15 +219,15 @@
       "example": { "text": "Mi piacerebbe fare il giro del mondo.", "de": "Ich würde gern eine Weltreise machen." }
     },
     {
-      "id": "pensione",
-      "word": "pensione",
+      "id": "carriera",
+      "word": "carriera",
       "article": "la",
       "gender": "f",
-      "plural": "le pensioni",
-      "de": "die Rente; die Pension (Unterkunft)",
+      "plural": "le carriere",
+      "de": "die Karriere; die Laufbahn",
       "pos": "noun",
-      "example": { "text": "Mio padre va in pensione tra due anni.", "de": "Mein Vater geht in zwei Jahren in Rente." },
-      "note": "Andare in pensione = in Rente gehen."
+      "example": { "text": "Giulia pensa molto alla carriera.", "de": "Giulia denkt viel an ihre Karriere." },
+      "note": "Fare carriera = Karriere machen."
     },
     {
       "id": "mi-piacerebbe",
@@ -235,14 +236,6 @@
       "pos": "phrase",
       "example": { "text": "Mi piacerebbe vivere a Roma.", "de": "Ich würde gern in Rom leben." },
       "note": "Wie mi piace: ti piacerebbe? = würdest du gern? A Sara piacerebbe … = Sara würde gern …"
-    },
-    {
-      "id": "magari",
-      "word": "magari",
-      "de": "vielleicht; schön wär's!",
-      "pos": "adv",
-      "example": { "text": "Vieni con noi in Sicilia? – Magari!", "de": "Kommst du mit uns nach Sizilien? – Schön wär's!" },
-      "note": "Mitten im Satz heißt magari „vielleicht“: Magari ci vediamo domani."
     },
     {
       "id": "forse",
@@ -647,8 +640,8 @@
       },
       {
         "speaker": "Sara",
-        "text": "Sì! A settembre andrò a Berlino per sei mesi. Farò un corso di tedesco!",
-        "de": "Ja! Im September gehe ich für sechs Monate nach Berlin. Ich mache einen Deutschkurs!"
+        "text": "Sì! A settembre andrò a Berlino per un mese. Farò un corso di tedesco!",
+        "de": "Ja! Im September gehe ich für einen Monat nach Berlin. Ich mache einen Deutschkurs!"
       },
       { "speaker": "Lena", "text": "A Berlino? Lì abita Jonas! Sarà felicissimo!", "de": "Nach Berlin? Da wohnt Jonas! Er wird sich riesig freuen!" },
       { "speaker": "Sara", "text": "Sì, gli ho già scritto!", "de": "Ja, ich habe ihm schon geschrieben!" },

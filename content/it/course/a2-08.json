@@ -347,13 +347,13 @@
       "note": "Wie scrivere: Partizip descritto."
     },
     {
-      "id": "conoscere",
-      "word": "conoscere",
-      "de": "kennen; kennenlernen",
-      "pos": "verb",
-      "forms": "conosco, conosci, conosce, conosciamo, conoscete, conoscono",
-      "example": { "text": "Conosci mio fratello Jonas?", "de": "Kennst du meinen Bruder Jonas?", "focus": "conosci" },
-      "note": "Aussprache: conosco mit k, conosci mit sch. Im passato prossimo heißt es „kennengelernt“: Ho conosciuto Sara a Bologna."
+      "id": "carino",
+      "word": "carino",
+      "alt": ["carina"],
+      "de": "hübsch; nett; süß",
+      "pos": "adj",
+      "example": { "text": "La tua amica è molto carina.", "de": "Deine Freundin ist sehr hübsch.", "focus": "carina" },
+      "note": "Carino heißt auch „nett, lieb“: È stato molto carino con me. = Er war sehr lieb zu mir."
     },
     {
       "id": "gente",
@@ -379,7 +379,7 @@
       "word": "tanto",
       "alt": ["tanta", "tanti", "tante"],
       "de": "viel; so viel; so sehr",
-      "pos": "adv",
+      "pos": "adj",
       "example": { "text": "Sara ha tanti amici.", "de": "Sara hat viele Freunde.", "focus": "tanti" }
     },
     {
