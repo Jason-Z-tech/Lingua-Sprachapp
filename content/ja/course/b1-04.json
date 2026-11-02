@@ -1,0 +1,162 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-04",
+  "lang": "ja",
+  "level": "B1",
+  "number": 4,
+  "title": "シェアハウス の 生[せい]活[かつ]",
+  "title_de": "Zusammenleben",
+  "topic": "Wohnen, Nachbarn und Mitbewohner",
+  "goals": [
+    "Du kannst mit 〜たら Bedingungen und Zeitpunkte ausdrücken („wenn …, dann“) und mit 〜と feste Folgen beschreiben („immer wenn …“).",
+    "Du kannst mit 〜て しまいました von Missgeschicken erzählen.",
+    "Du kannst höflich um Hilfe bitten: 〜て くれませんか / 〜て もらえませんか.",
+    "Du kannst Verbpaare wie あける/あく und しめる/しまる richtig benutzen."
+  ],
+  "kanji": ["近", "所", "部", "屋", "室", "開", "閉"],
+  "vocab": [
+    { "id": "chikaku", "word": "近[ちか]く", "de": "die Nähe; in der Nähe", "pos": "noun", "example": { "text": "駅[えき] の 近[ちか]く に 住[す]んで い ます。", "de": "Ich wohne in der Nähe des Bahnhofs." }, "note": "ちかい (nah) kennst du schon; ちかく ist das Nomen: 〜の ちかくに = in der Nähe von …" },
+    { "id": "akemasu", "word": "開[あ]け ます", "de": "öffnen; aufmachen (etwas)", "pos": "verb", "forms": "Wörterbuchform あける · て-Form あけて · た-Form あけた", "example": { "text": "暑[あつ]い です ね。 窓[まど] を 開[あ]け ましょう か。", "de": "Heiß, oder? Soll ich das Fenster aufmachen?", "focus": "開[あ]け ましょう" }, "note": "Mit を: Jemand öffnet etwas." },
+    { "id": "akimasu", "word": "開[あ]き ます", "de": "aufgehen; sich öffnen", "pos": "verb", "forms": "Wörterbuchform あく · て-Form あいて · た-Form あいた", "example": { "text": "この ドア は 自動[じどう] で 開[あ]き ます。", "de": "Diese Tür öffnet sich automatisch." }, "note": "Mit が: Etwas geht (von selbst) auf. ドアが あいて います = Die Tür steht offen." },
+    { "id": "shimemasu", "word": "閉[し]め ます", "de": "schließen; zumachen (etwas)", "pos": "verb", "forms": "Wörterbuchform しめる · て-Form しめて · た-Form しめた", "example": { "text": "寒[さむ]い ので、 窓[まど] を 閉[し]めて ください。", "de": "Es ist kalt, mach bitte das Fenster zu.", "focus": "閉[し]めて" } },
+    { "id": "shimarimasu", "word": "閉[し]まり ます", "de": "zugehen; schließen (von selbst, Geschäft)", "pos": "verb", "forms": "Wörterbuchform しまる · て-Form しまって · た-Form しまった", "example": { "text": "スーパー は 夜[よる] 十時[じゅうじ] に 閉[し]まり ます。", "de": "Der Supermarkt schließt um zehn Uhr abends." }, "note": "Mit が. Geschäfte: みせが しまります (schließen), みせが あきます (öffnen)." },
+    { "id": "tsukimasu", "word": "つき ます", "de": "angehen (Licht, Gerät)", "pos": "verb", "forms": "Wörterbuchform つく · て-Form ついて", "example": { "text": "となり の 部屋[へや] の 電気[でんき] が ついて い ます。", "de": "Im Nachbarzimmer brennt Licht.", "focus": "ついて" }, "note": "Partner von つけます (Lektion 2)." },
+    { "id": "kiemasu", "word": "消[き]え ます", "de": "ausgehen (Licht); verschwinden", "pos": "verb", "forms": "Wörterbuchform きえる · て-Form きえて", "example": { "text": "急[きゅう] に 電気[でんき] が 消[き]え ました。", "de": "Plötzlich ging das Licht aus.", "focus": "消[き]え ました" }, "note": "Partner von けします (Lektion 2)." },
+    { "id": "iremasu", "word": "入[い]れ ます", "de": "hineintun; einräumen", "pos": "verb", "forms": "Wörterbuchform いれる · て-Form いれて", "example": { "text": "牛乳[ぎゅうにゅう] を れいぞうこ に 入[い]れて ください。", "de": "Stell die Milch bitte in den Kühlschrank.", "focus": "入[い]れて" }, "note": "Partner: はいります (hineingehen, A1)." },
+    { "id": "sheahausu", "word": "シェアハウス", "de": "das Sharehouse; die WG", "pos": "noun", "example": { "text": "今[いま]、 シェアハウス に 住[す]んで い ます。", "de": "Ich wohne gerade in einem Sharehouse." }, "note": "Meist ein Haus mit eigenen Zimmern und gemeinsamer Küche." },
+    { "id": "ruumumeito", "word": "ルームメイト", "de": "der Mitbewohner; die Mitbewohnerin", "pos": "noun", "example": { "text": "私[わたし] の ルームメイト は ソフィー さん です。", "de": "Meine Mitbewohnerin ist Sophie." } },
+    { "id": "ooyasan", "word": "大家[おおや] さん", "de": "der Vermieter; die Vermieterin", "pos": "noun", "example": { "text": "大家[おおや] さん に 家[や]賃[ちん] を はらい ます。", "de": "Ich bezahle die Miete an die Vermieterin." } },
+    { "id": "yachin", "word": "家[や]賃[ちん]", "de": "die Miete", "pos": "noun", "example": { "text": "東[とう]京[きょう] は 家[や]賃[ちん] が 高[たか]い です。", "de": "In Tokio sind die Mieten hoch." } },
+    { "id": "aisatsu", "word": "あいさつ", "de": "der Gruß; die Begrüßung", "pos": "noun", "example": { "text": "引[ひ]っ越[こ]して、 近所[きんじょ] の 人[ひと] に あいさつ を し ました。", "de": "Nach dem Umzug habe ich mich bei den Nachbarn vorgestellt." }, "note": "Kanji: 挨拶. In Japan stellt man sich nach dem Umzug mit einem kleinen Geschenk bei den Nachbarn vor." },
+    { "id": "meiwaku", "word": "迷惑[めいわく]", "de": "die Belästigung; die Störung", "pos": "noun", "example": { "text": "夜[よ]中[なか] の 音[おと] は 近所[きんじょ] の 迷惑[めいわく] に なり ます。", "de": "Lärm mitten in der Nacht stört die Nachbarn." }, "note": "めいわくを かけます = jemandem zur Last fallen." },
+    { "id": "kiwotsukemasu", "word": "気[き] を つけ ます", "de": "aufpassen; vorsichtig sein", "pos": "phrase", "example": { "text": "夜[よる] は 音[おと] に 気[き] を つけて ください。", "de": "Achte bitte nachts auf die Lautstärke.", "focus": "気[き] を つけて" }, "note": "〜に きを つけます = auf … achten. Zum Abschied: きを つけて! (Pass auf dich auf!)" },
+    { "id": "gaman", "word": "がまん し ます", "de": "aushalten; sich zusammenreißen", "pos": "verb", "forms": "Wörterbuchform がまんする · て-Form がまんして", "example": { "text": "となり の 音[おと] が うるさい です が、 がまん して い ます。", "de": "Von nebenan ist es laut, aber ich halte es aus.", "focus": "がまん して" }, "note": "Kanji: 我慢." },
+    { "id": "monku", "word": "文[もん]句[く]", "de": "die Beschwerde; das Meckern", "pos": "noun", "example": { "text": "ルームメイト に 文[もん]句[く] を 言[い]い ました。", "de": "Ich habe mich bei meiner Mitbewohnerin beschwert." }, "note": "もんくを いいます = sich beschweren, meckern." },
+    { "id": "chuui", "word": "注[ちゅう]意[い] し ます", "de": "ermahnen; aufpassen", "pos": "verb", "forms": "Wörterbuchform ちゅういする · て-Form ちゅういして", "example": { "text": "大家[おおや] さん が ごみ の こと で 注[ちゅう]意[い] し ました。", "de": "Die Vermieterin hat uns wegen des Mülls ermahnt.", "focus": "注[ちゅう]意[い] し ました" }, "note": "〜に ちゅういします = auf … achten." },
+    { "id": "ruuru", "word": "ルール", "de": "die Regel", "pos": "noun", "example": { "text": "この シェアハウス に は ルール が たくさん あり ます。", "de": "In diesem Sharehouse gibt es viele Regeln." } },
+    { "id": "wasuremasu", "word": "忘[わす]れ ます", "de": "vergessen", "pos": "verb", "forms": "Wörterbuchform わすれる · て-Form わすれて · た-Form わすれた", "example": { "text": "かぎ を 忘[わす]れ ました。", "de": "Ich habe den Schlüssel vergessen.", "focus": "忘[わす]れ ました" }, "note": "Etwas irgendwo liegen lassen: でんしゃに かさを わすれました." },
+    { "id": "nakushimasu", "word": "なくし ます", "de": "verlieren", "pos": "verb", "forms": "Wörterbuchform なくす · て-Form なくして", "example": { "text": "かさ を なくして しまい ました。", "de": "Ich habe (leider) meinen Regenschirm verloren.", "focus": "なくして" } },
+    { "id": "otoshimasu", "word": "落[お]とし ます", "de": "fallen lassen; verlieren", "pos": "verb", "forms": "Wörterbuchform おとす · て-Form おとして", "example": { "text": "スマホ を 落[お]として しまい ました。", "de": "Ich habe mein Handy fallen lassen.", "focus": "落[お]として" } },
+    { "id": "waremasu", "word": "割[わ]れ ます", "de": "zerbrechen (Glas, Teller)", "pos": "verb", "forms": "Wörterbuchform われる · て-Form われて", "example": { "text": "お皿[さら] が 割[わ]れて しまい ました。", "de": "Der Teller ist zerbrochen.", "focus": "割[わ]れて" }, "note": "Partner: わります (etwas zerbrechen) – おさらを わって しまいました." },
+    { "id": "koboshimasu", "word": "こぼし ます", "de": "verschütten", "pos": "verb", "forms": "Wörterbuchform こぼす · て-Form こぼして", "example": { "text": "テーブル に コーヒー を こぼして しまい ました。", "de": "Ich habe Kaffee auf den Tisch verschüttet.", "focus": "こぼして" } },
+    { "id": "rusu", "word": "留守[るす]", "de": "die Abwesenheit; nicht zu Hause sein", "pos": "noun", "example": { "text": "きのう は 一日[いちにち] 留守[るす] でした。", "de": "Gestern war ich den ganzen Tag nicht zu Hause." } },
+    { "id": "todokimasu", "word": "届[とど]き ます", "de": "ankommen; zugestellt werden", "pos": "verb", "forms": "Wörterbuchform とどく · て-Form とどいて · た-Form とどいた", "example": { "text": "ドイツ から 荷物[にもつ] が 届[とど]き ました。", "de": "Aus Deutschland ist ein Paket angekommen.", "focus": "届[とど]き ました" } },
+    { "id": "azukarimasu", "word": "預[あず]かり ます", "de": "(für jemanden) aufbewahren; annehmen", "pos": "verb", "forms": "Wörterbuchform あずかる · て-Form あずかって", "example": { "text": "この かばん を 少[すこ]し 預[あず]かって もらえ ませんか。", "de": "Könntest du kurz auf diese Tasche aufpassen?", "focus": "預[あず]かって" } },
+    { "id": "kashimasu", "word": "貸[か]し ます", "de": "(ver)leihen", "pos": "verb", "forms": "Wörterbuchform かす · て-Form かして", "example": { "text": "ペン を 貸[か]して くれ ませんか。", "de": "Kannst du mir einen Stift leihen?", "focus": "貸[か]して" }, "note": "かします = jemandem etwas leihen; かります (A2) = sich etwas leihen." },
+    { "id": "tanomimasu", "word": "頼[たの]み ます", "de": "bitten; beauftragen", "pos": "verb", "forms": "Wörterbuchform たのむ · て-Form たのんで", "example": { "text": "ルームメイト に そうじ を 頼[たの]み ました。", "de": "Ich habe meine Mitbewohnerin gebeten, sauber zu machen.", "focus": "頼[たの]み ました" } },
+    { "id": "komarimasu", "word": "困[こま]り ます", "de": "in Schwierigkeiten sein; nicht weiterwissen", "pos": "verb", "forms": "Wörterbuchform こまる · て-Form こまって", "example": { "text": "かぎ が なくて、 困[こま]って い ます。", "de": "Ich habe keinen Schlüssel und weiß nicht weiter.", "focus": "困[こま]って" } },
+    { "id": "tasukarimasu", "word": "助[たす]かり ます", "de": "eine große Hilfe sein", "pos": "verb", "forms": "Wörterbuchform たすかる · て-Form たすかって", "example": { "text": "手[て]伝[つだ]って くれて、 本[ほん]当[とう] に 助[たす]かり ました。", "de": "Danke, dass du geholfen hast – das war eine große Hilfe.", "focus": "助[たす]かり ました" }, "note": "Als Dank: たすかります! = Das hilft mir sehr!" },
+    { "id": "yonaka", "word": "夜[よ]中[なか]", "de": "mitten in der Nacht", "pos": "noun", "example": { "text": "夜[よ]中[なか] に せんたく を しないで ください。", "de": "Bitte wasch nicht mitten in der Nacht Wäsche." } },
+    { "id": "kabe", "word": "かべ", "de": "die Wand", "pos": "noun", "example": { "text": "この アパート は かべ が うすい です。", "de": "In dieser Wohnung sind die Wände dünn." }, "note": "Kanji: 壁. うすい = dünn." },
+    { "id": "genkan", "word": "玄関[げんかん]", "de": "der Eingangsbereich; die Haustür", "pos": "noun", "example": { "text": "玄関[げんかん] で くつ を ぬいで ください。", "de": "Zieh bitte im Eingangsbereich die Schuhe aus." } },
+    { "id": "beranda", "word": "ベランダ", "de": "der Balkon", "pos": "noun", "example": { "text": "天気[てんき] が いい ので、 ベランダ に せんたく物[もの] を ほし ます。", "de": "Weil das Wetter schön ist, hänge ich die Wäsche auf dem Balkon auf." } },
+    { "id": "shinshitsu", "word": "寝[しん]室[しつ]", "de": "das Schlafzimmer", "pos": "noun", "example": { "text": "寝[しん]室[しつ] は 二[に]階[かい] に あり ます。", "de": "Das Schlafzimmer ist im ersten Stock." }, "note": "Im Alltag sagt man oft einfach ねる へや." },
+    { "id": "baai", "word": "場合[ばあい]", "de": "der Fall", "pos": "noun", "example": { "text": "雨[あめ] の 場合[ばあい] は、 パーティー は 中[ちゅう]止[し] です。", "de": "Bei Regen fällt die Party aus." }, "note": "〜の ばあいは = im Fall von … – etwas förmlicher als 〜たら." },
+    { "id": "moshi", "word": "もし", "de": "falls; wenn", "pos": "adv", "example": { "text": "もし 時[じ]間[かん] が あったら、 手[て]伝[つだ]って ください。", "de": "Falls du Zeit hast, hilf mir bitte." }, "note": "もし kündigt eine Bedingung an – meist mit 〜たら oder 〜ば." }
+  ],
+  "grammar": [
+    {
+      "id": "tara-to",
+      "title": "Wenn …: 〜たら und 〜と",
+      "blocks": [
+        { "type": "p", "text": "〜たら ist die vielseitigste Bedingungsform – und ganz leicht: Nimm die た-Form und hänge ら an. Das geht mit allen Wortarten, auch verneint." },
+        { "type": "table", "head": ["Wortart", "た-Form", "〜たら", "Deutsch"], "rows": [["Verb", "行[い]った", "行[い]ったら", "wenn ich hingehe"], ["Verb", "食[た]べた", "食[た]べたら", "wenn ich gegessen habe"], ["Verb", "着[つ]いた", "着[つ]いたら", "wenn ich angekommen bin"], ["Verb (verneint)", "来[こ]なかった", "来[こ]なかったら", "wenn er/sie nicht kommt"], ["い-Adjektiv", "安[やす]かった", "安[やす]かったら", "wenn es billig ist"], ["な-Adjektiv", "ひま だった", "ひま だったら", "wenn du Zeit hast"], ["Nomen", "雨[あめ] だった", "雨[あめ] だったら", "wenn es regnet"]] },
+        { "type": "tip", "text": "Keine Angst vor der Vergangenheitsform: 〜たら sagt nichts über die Zeit. あした あめだったら heißt einfach „wenn es morgen regnet“. Die Zeit bestimmt das Satzende." },
+        { "type": "p", "text": "〜たら hat zwei Bedeutungen: 1. „falls“ – eine Bedingung, oft mit もし: もし あめだったら、 いきません. 2. „sobald, wenn (das passiert ist)“ – für Dinge, die sicher passieren: うちに かえったら、 でんわします. Danach darf alles stehen: Bitten, Wünsche, Vorschläge, Absichten." },
+        { "type": "examples", "items": [{ "text": "もし 時[じ]間[かん] が あったら、 いっしょ に 行[い]き ましょう。", "de": "Falls du Zeit hast, lass uns zusammen gehen." }, { "text": "駅[えき] に 着[つ]いたら、 連絡[れんらく] して ください。", "de": "Wenn du am Bahnhof ankommst, melde dich bitte." }, { "text": "部屋[へや] が 寒[さむ]かったら、 窓[まど] を 閉[し]めて ください。", "de": "Wenn es im Zimmer kalt ist, mach bitte das Fenster zu." }, { "text": "安[やす]かったら、 買[か]い たい です。", "de": "Wenn es billig ist, möchte ich es kaufen." }] },
+        { "type": "p", "text": "〜と (nach der Wörterbuchform) beschreibt eine feste, natürliche Folge: Immer wenn A passiert, passiert automatisch B. Typisch für Geräte, Natur, Wegbeschreibungen und Gewohnheiten." },
+        { "type": "table", "head": ["Wörterbuchform + と", "Folge", "Deutsch"], "rows": [["この ボタン を 押[お]す と、", "ドア が 開[あ]き ます。", "Wenn man diesen Knopf drückt, geht die Tür auf."], ["春[はる] に なる と、", "さくら が 咲[さ]き ます。", "Wenn es Frühling wird, blühen die Kirschen."], ["まっすぐ 行[い]く と、", "右[みぎ] に 駅[えき] が あり ます。", "Wenn man geradeaus geht, ist rechts der Bahnhof."], ["お酒[さけ] を 飲[の]む と、", "すぐ 顔[かお] が 赤[あか]く なり ます。", "Wenn ich Alkohol trinke, werde ich sofort rot."]] },
+        { "type": "tip", "text": "Nach 〜と stehen KEINE Bitten, Wünsche oder Vorschläge. Falsch: えきに つくと、 でんわして ください. Hier brauchst du 〜たら. Wenn du unsicher bist: 〜たら passt fast immer." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "もし あした 雨[あめ] ___、 家[いえ] に い ます。", "answers": ["だったら"], "de": "Falls es morgen regnet, bleibe ich zu Hause." },
+        { "type": "cloze", "text": "家[いえ] に 帰[かえ]っ___、 電話[でんわ] して ください。", "answers": ["たら"], "de": "Wenn du zu Hause bist, ruf bitte an." },
+        { "type": "cloze", "text": "高[たか]___、 買[か]い ません。", "answers": ["かったら"], "de": "Wenn es teuer ist, kaufe ich es nicht." },
+        { "type": "cloze", "text": "この ボタン を 押[お]す ___、 電気[でんき] が つき ます。", "answers": ["と"], "de": "Wenn man diesen Knopf drückt, geht das Licht an." },
+        { "type": "cloze", "text": "冬[ふゆ] に なる ___、 寒[さむ]く なり ます。", "answers": ["と"], "de": "Wenn es Winter wird, wird es kalt." },
+        { "type": "translate", "de": "Wenn du Zeit hast, komm bitte zu mir.", "answers": ["もし 時[じ]間[かん] が あったら、 家[いえ] に 来[き]て ください。", "もし 時[じ]間[かん] が あったら、 うち に 来[き]て ください。", "もし ひま が あったら、 家[いえ] に 来[き]て ください。", "もし ひま が あったら、 うち に 来[き]て ください。", "時[じ]間[かん] が あったら、 家[いえ] に 来[き]て ください。", "時[じ]間[かん] が あったら、 うち に 来[き]て ください。", "ひま が あったら、 家[いえ] に 来[き]て ください。", "ひま が あったら、 うち に 来[き]て ください。", "もし ひま だったら、 家[いえ] に 来[き]て ください。", "もし ひま だったら、 うち に 来[き]て ください。", "ひま だったら、 家[いえ] に 来[き]て ください。", "ひま だったら、 うち に 来[き]て ください。", "もし 時[じ]間[かん] が あったら、 私[わたし] の 家[いえ] に 来[き]て ください。", "もし 時[じ]間[かん] が あったら、 私[わたし] の うち に 来[き]て ください。", "もし ひま が あったら、 私[わたし] の 家[いえ] に 来[き]て ください。", "もし ひま が あったら、 私[わたし] の うち に 来[き]て ください。", "時[じ]間[かん] が あったら、 私[わたし] の 家[いえ] に 来[き]て ください。", "時[じ]間[かん] が あったら、 私[わたし] の うち に 来[き]て ください。", "ひま が あったら、 私[わたし] の 家[いえ] に 来[き]て ください。", "ひま が あったら、 私[わたし] の うち に 来[き]て ください。"] },
+        { "type": "translate", "de": "Wenn man nach rechts abbiegt, ist dort ein Konbini.", "answers": ["右[みぎ] に まがる と、 コンビニ が あり ます。", "右[みぎ] へ まがる と、 コンビニ が あり ます。", "右[みぎ] に まがったら、 コンビニ が あり ます。", "右[みぎ] へ まがったら、 コンビニ が あり ます。"] },
+        { "type": "order", "de": "Wenn du am Bahnhof ankommst, melde dich bitte.", "answer": "駅[えき] に 着[つ]いたら、 連絡[れんらく] して ください。", "distractors": ["着[つ]く"] }
+      ]
+    },
+    {
+      "id": "te-shimaimashita",
+      "title": "Ups! – 〜て しまいました",
+      "blocks": [
+        { "type": "p", "text": "〜て しまいました (て-Form + しまいました) hat zwei Bedeutungen: 1. Etwas ist passiert, und das ist schade oder peinlich („leider“, „aus Versehen“). 2. Etwas ist ganz erledigt („komplett“). Im Gespräch geht es meistens um Nummer 1." },
+        { "type": "table", "head": ["て-Form", "〜て しまいました", "Deutsch"], "rows": [["忘[わす]れて", "かぎ を 忘[わす]れて しまい ました。", "Ich habe (leider) den Schlüssel vergessen."], ["落[お]として", "スマホ を 落[お]として しまい ました。", "Ich habe aus Versehen mein Handy fallen lassen."], ["割[わ]れて", "コップ が 割[わ]れて しまい ました。", "Das Glas ist (leider) zerbrochen."], ["寝[ね]て", "電車[でんしゃ] の 中[なか] で 寝[ね]て しまい ました。", "Ich bin im Zug eingeschlafen."], ["読[よ]んで", "本[ほん] を 全[ぜん]部[ぶ] 読[よ]んで しまい ました。", "Ich habe das Buch ganz ausgelesen."]] },
+        { "type": "tip", "text": "Unter Freunden wird 〜て しまった zu 〜ちゃった und 〜で しまった zu 〜じゃった: わすれちゃった! のんじゃった! Das hörst du ständig." },
+        { "type": "p", "text": "Oft folgt eine Entschuldigung oder eine Bitte: すみません、 おさらを わって しまいました (Entschuldigung, ich habe einen Teller zerbrochen). Auch die Wörterbuchform ist möglich: 〜て しまう = „(ganz) erledigen“: しゅくだいを やって しまいます (Ich mache die Hausaufgaben schnell fertig)." },
+        { "type": "examples", "items": [{ "text": "すみません、 お皿[さら] を 割[わ]って しまい ました。", "de": "Entschuldigung, ich habe einen Teller zerbrochen." }, { "text": "電車[でんしゃ] に かさ を 忘[わす]れて しまい ました。", "de": "Ich habe leider meinen Schirm im Zug liegen lassen." }, { "text": "あ、 パスワード、 忘[わす]れ ちゃった！", "de": "Oh nein, ich hab das Passwort vergessen!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "電車[でんしゃ] に かさ を 忘[わす]れて ___。", "answers": ["しまい ました"], "de": "Ich habe meinen Schirm (leider) im Zug vergessen." },
+        { "type": "cloze", "text": "すみません、 コーヒー を ___ しまい ました。", "answers": ["こぼして"], "de": "Entschuldigung, ich habe den Kaffee verschüttet.", "hint": "こぼします → て-Form" },
+        { "type": "cloze", "text": "パスワード を ___ しまい ました。", "answers": ["忘[わす]れて"], "de": "Ich habe (leider) mein Passwort vergessen." },
+        { "type": "cloze", "text": "お皿[さら] が ___ しまい ました。", "answers": ["割[わ]れて"], "de": "Der Teller ist (leider) zerbrochen." },
+        { "type": "translate", "de": "Ich habe (leider) mein Handy verloren.", "answers": ["私[わたし] は スマホ を なくして しまい ました。", "私[わたし] は スマホ を なくして しまった。", "私[わたし] は スマホ を なくし ちゃった。", "私[わたし] は スマホ を 落[お]として しまい ました。", "スマホ を なくして しまい ました。", "スマホ を なくして しまった。", "スマホ を なくし ちゃった。", "スマホ を 落[お]として しまい ました。"] },
+        { "type": "translate", "de": "Ich bin im Bus eingeschlafen.", "answers": ["私[わたし] は バス の 中[なか] で 寝[ね]て しまい ました。", "私[わたし] は バス で 寝[ね]て しまい ました。", "バス の 中[なか] で 寝[ね]て しまい ました。", "バス で 寝[ね]て しまい ました。"] },
+        { "type": "order", "de": "Entschuldigung, ich habe den Schlüssel vergessen.", "answer": "すみません、 かぎ を 忘[わす]れて しまい ました。", "distractors": ["忘[わす]れ"] }
+      ]
+    },
+    {
+      "id": "irai-jitadoushi",
+      "title": "Bitten und Verbpaare: 〜て くれませんか – あける / あく",
+      "blocks": [
+        { "type": "p", "text": "Du kennst 〜て ください. Höflicher und weicher sind Fragen: 〜て くれませんか („Würdest du … für mich?“) und noch höflicher 〜て もらえませんか („Könnte ich dich bitten, … zu …?“). くれる und もらう kennst du aus A2 (Lektion 5): Jemand tut etwas für dich." },
+        { "type": "table", "head": ["Ausdruck", "Wie höflich?", "Beispiel"], "rows": [["〜て ください", "freundliche Aufforderung", "窓[まど] を 閉[し]めて ください。"], ["〜て くれ ませんか", "höfliche Bitte", "窓[まど] を 閉[し]めて くれ ませんか。"], ["〜て もらえ ませんか", "noch höflicher", "窓[まど] を 閉[し]めて もらえ ませんか。"], ["〜て くれる？", "unter Freunden", "窓[まど] 閉[し]めて くれる？"]] },
+        { "type": "tip", "text": "もらえませんか ist die Potentialform von もらう (Lektion 2): „Kann ich (von dir) bekommen, dass du …?“ Vor einer großen Bitte sagst du gern すみませんが、 … oder もし よかったら、 …" },
+        { "type": "p", "text": "Viele Verben gibt es als Paar: Das eine sagt, dass JEMAND etwas tut (mit を), das andere, dass etwas (von selbst) passiert (mit が). Für Bitten brauchst du das を-Verb. Den Zustand danach beschreibst du mit dem が-Verb + て います." },
+        { "type": "table", "head": ["jemand tut etwas (を)", "etwas passiert (が)", "Zustand danach"], "rows": [["ドア を 開[あ]け ます", "ドア が 開[あ]き ます", "ドア が 開[あ]いて い ます。"], ["窓[まど] を 閉[し]め ます", "窓[まど] が 閉[し]まり ます", "窓[まど] が 閉[し]まって い ます。"], ["電気[でんき] を つけ ます", "電気[でんき] が つき ます", "電気[でんき] が ついて い ます。"], ["電気[でんき] を 消[け]し ます", "電気[でんき] が 消[き]え ます", "電気[でんき] が 消[き]えて い ます。"], ["本[ほん] を かばん に 入[い]れ ます", "本[ほん] が かばん に 入[はい]り ます", "本[ほん] が かばん に 入[はい]って い ます。"], ["お皿[さら] を 割[わ]り ます", "お皿[さら] が 割[わ]れ ます", "お皿[さら] が 割[わ]れて い ます。"]] },
+        { "type": "tip", "text": "Es gibt keine feste Regel, welches Verb welches ist – lerne die Paare immer zusammen und mit Partikel: ドアを あける – ドアが あく. Mit 〜て しまいました: ドアが しまって しまいました = Die Tür ist (leider) zugefallen." },
+        { "type": "examples", "items": [{ "text": "すみません、 窓[まど] を 開[あ]けて もらえ ませんか。", "de": "Entschuldigung, könnten Sie bitte das Fenster aufmachen?" }, { "text": "あれ？ 玄関[げんかん] の ドア が 開[あ]いて い ます よ。", "de": "Nanu? Die Haustür steht offen." }, { "text": "部屋[へや] の 電気[でんき] が ついて い ます ね。 消[け]して くれ ませんか。", "de": "Im Zimmer brennt noch Licht. Kannst du es ausmachen?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "すみません、 ペン を 貸[か]して ___ ませんか。", "answers": ["くれ", "もらえ"], "de": "Entschuldigung, könntest du mir einen Stift leihen?" },
+        { "type": "cloze", "text": "暑[あつ]い ので、 窓[まど] を ___ もらえ ませんか。", "answers": ["開[あ]けて"], "de": "Es ist heiß – könntest du bitte das Fenster aufmachen?" },
+        { "type": "cloze", "text": "あれ？ 玄関[げんかん] の ドア が ___ い ます よ。", "answers": ["開[あ]いて"], "de": "Nanu? Die Haustür steht offen." },
+        { "type": "cloze", "text": "寝[ね]る 前[まえ] に 電気[でんき] ___ 消[け]して ください。", "answers": ["を"], "de": "Mach bitte vor dem Schlafen das Licht aus." },
+        { "type": "cloze", "text": "スーパー は 十時[じゅうじ] に ___。", "answers": ["閉[し]まり ます"], "de": "Der Supermarkt schließt um zehn." },
+        { "type": "match", "pairs": [["開[あ]け ます", "öffnen (etwas)"], ["開[あ]き ます", "aufgehen"], ["閉[し]め ます", "schließen (etwas)"], ["閉[し]まり ます", "zugehen"], ["消[き]え ます", "ausgehen (Licht)"], ["つき ます", "angehen (Licht)"]] },
+        { "type": "translate", "de": "Könntest du mein Paket für mich annehmen?", "answers": ["私[わたし] の 荷物[にもつ] を 預[あず]かって くれ ませんか。", "私[わたし] の 荷物[にもつ] を 預[あず]かって もらえ ませんか。", "荷物[にもつ] を 預[あず]かって くれ ませんか。", "荷物[にもつ] を 預[あず]かって もらえ ませんか。"] },
+        { "type": "order", "de": "Könntest du bitte die Tür zumachen?", "answer": "ドア を 閉[し]めて もらえ ませんか。", "distractors": ["閉[し]まって"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "シェアハウス で",
+    "title_de": "Im Sharehouse",
+    "lines": [
+      { "speaker": "アンナ", "text": "ソフィー さん、 ただいま！ ドア を 開[あ]けて くれ ませんか。", "de": "Sophie, ich bin zurück! Kannst du mir die Tür aufmachen?" },
+      { "speaker": "ソフィー", "text": "おかえり なさい。 どう し ました か。", "de": "Willkommen zurück. Was ist los?" },
+      { "speaker": "アンナ", "text": "かぎ を 部屋[へや] に 忘[わす]れて しまい ました。 ソフィー さん が いて、 本[ほん]当[とう] に 助[たす]かり ました。", "de": "Ich habe den Schlüssel im Zimmer vergessen. Gut, dass du da bist – du rettest mich." },
+      { "speaker": "ソフィー", "text": "はい、 どうぞ。 あ、 そう だ。 大家[おおや] さん から 話[はなし] が あり ました よ。", "de": "Bitte schön. Ach ja, die Vermieterin hatte etwas zu sagen." },
+      { "speaker": "アンナ", "text": "え、 何[なん] です か。 文[もん]句[く] です か。", "de": "Oh, was denn? Eine Beschwerde?" },
+      { "speaker": "ソフィー", "text": "ええ、 ちょっと。 夜[よ]中[なか] に せんたく機[き] を 使[つか]う と、 音[おと] が 近所[きんじょ] の 迷惑[めいわく] に なり ます。", "de": "Ja, ein bisschen. Wenn man nachts die Waschmaschine benutzt, stört der Lärm die Nachbarn." },
+      { "speaker": "アンナ", "text": "あ…、 それ は 私[わたし] です。 きのう 夜[よる] 十二時[じゅうにじ] に せんたく し ました。", "de": "Oh … das war ich. Gestern habe ich um Mitternacht gewaschen." },
+      { "speaker": "ソフィー", "text": "大家[おおや] さん は、 夜[よる] 十時[じゅうじ] から 後[あと] は 使[つか]わないで ください と 言[い]って い ました。", "de": "Die Vermieterin hat gesagt, wir sollen sie ab zehn Uhr abends nicht mehr benutzen." },
+      { "speaker": "アンナ", "text": "わかり ました。 これから 気[き] を つけ ます。", "de": "Verstanden. Ab jetzt passe ich auf." },
+      { "speaker": "ソフィー", "text": "それから、 アンナ さん、 一[ひと]つ 頼[たの]んで も いい です か。", "de": "Und Anna, darf ich dich um etwas bitten?" },
+      { "speaker": "アンナ", "text": "もちろん です。 何[なん] です か。", "de": "Natürlich. Was denn?" },
+      { "speaker": "ソフィー", "text": "あした、 スイス から 荷物[にもつ] が 届[とど]き ます。 でも、 私[わたし] は 一日[いちにち] 留守[るす] な ので、 預[あず]かって もらえ ませんか。", "de": "Morgen kommt ein Paket aus der Schweiz. Aber ich bin den ganzen Tag weg – könntest du es für mich annehmen?" },
+      { "speaker": "アンナ", "text": "いい です よ。 届[とど]いたら、 メッセージ を 送[おく]り ます ね。", "de": "Klar. Wenn es ankommt, schicke ich dir eine Nachricht." },
+      { "speaker": "ソフィー", "text": "ありがとう。 助[たす]かり ます！ あ、 寒[さむ]い ので、 玄関[げんかん] の ドア を 閉[し]めて くれ ませんか。", "de": "Danke, das hilft mir sehr! Ach, es ist kalt – kannst du die Haustür zumachen?" },
+      { "speaker": "アンナ", "text": "あ、 開[あ]いて い ました ね。 すみません、 すぐ 閉[し]め ます。", "de": "Oh, die stand ja offen. Entschuldigung, ich mache sie gleich zu." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["家[や]賃[ちん]", "die Miete"], ["大家[おおや] さん", "der Vermieter"], ["玄関[げんかん]", "der Eingangsbereich"], ["かべ", "die Wand"], ["ベランダ", "der Balkon"], ["寝[しん]室[しつ]", "das Schlafzimmer"]] },
+    { "type": "match", "pairs": [["忘[わす]れ ます", "vergessen"], ["貸[か]し ます", "verleihen"], ["頼[たの]み ます", "bitten"], ["困[こま]り ます", "nicht weiterwissen"], ["届[とど]き ます", "ankommen (Paket)"]] },
+    { "type": "translate", "de": "Wenn du zu Hause angekommen bist, schick mir bitte eine Nachricht.", "answers": ["家[いえ] に 着[つ]いたら、 メッセージ を 送[おく]って ください。", "家[いえ] に 着[つ]いたら、 メッセージ を 送[おく]って くれ ませんか。", "家[いえ] に 着[つ]いたら、 メッセージ を 送[おく]って もらえ ませんか。", "家[いえ] に 帰[かえ]ったら、 メッセージ を 送[おく]って ください。", "家[いえ] に 帰[かえ]ったら、 メッセージ を 送[おく]って くれ ませんか。", "家[いえ] に 帰[かえ]ったら、 メッセージ を 送[おく]って もらえ ませんか。", "うち に 着[つ]いたら、 メッセージ を 送[おく]って ください。", "うち に 着[つ]いたら、 メッセージ を 送[おく]って くれ ませんか。", "うち に 着[つ]いたら、 メッセージ を 送[おく]って もらえ ませんか。", "うち に 帰[かえ]ったら、 メッセージ を 送[おく]って ください。", "うち に 帰[かえ]ったら、 メッセージ を 送[おく]って くれ ませんか。", "うち に 帰[かえ]ったら、 メッセージ を 送[おく]って もらえ ませんか。"] },
+    { "type": "translate", "de": "Könntest du mir dein Wörterbuch leihen?", "answers": ["辞[じ]書[しょ] を 貸[か]して くれ ませんか。", "辞[じ]書[しょ] を 貸[か]して もらえ ませんか。", "あなた の 辞[じ]書[しょ] を 貸[か]して くれ ませんか。", "あなた の 辞[じ]書[しょ] を 貸[か]して もらえ ませんか。"] },
+    { "type": "translate", "de": "Wenn es kalt ist, mach bitte das Fenster zu.", "answers": ["もし 寒[さむ]かったら、 窓[まど] を 閉[し]めて ください。", "もし 寒[さむ]かったら、 窓[まど] を 閉[し]めて くれ ませんか。", "もし 寒[さむ]かったら、 窓[まど] を 閉[し]めて もらえ ませんか。", "寒[さむ]かったら、 窓[まど] を 閉[し]めて ください。", "寒[さむ]かったら、 窓[まど] を 閉[し]めて くれ ませんか。", "寒[さむ]かったら、 窓[まど] を 閉[し]めて もらえ ませんか。"] },
+    { "type": "translate", "de": "In dieser Wohnung sind die Wände dünn.", "answers": ["この アパート は かべ が うすい です。", "この 部屋[へや] は かべ が うすい です。"] },
+    { "type": "order", "de": "Im Zimmer brennt (noch) Licht.", "answer": "部屋[へや] の 電気[でんき] が ついて い ます。", "distractors": ["つけて"] },
+    { "type": "order", "de": "Wenn man diesen Knopf drückt, geht das Fenster auf.", "answer": "この ボタン を 押[お]す と、 窓[まど] が 開[あ]き ます。", "distractors": ["開[あ]け"] },
+    { "type": "cloze", "text": "夜[よ]中[なか] の 音[おと] は 近所[きんじょ] の ___ に なり ます。", "answers": ["迷惑[めいわく]"], "de": "Lärm mitten in der Nacht stört die Nachbarn." },
+    { "type": "cloze", "text": "私[わたし] は 駅[えき] の ___ に 住[す]んで い ます。", "answers": ["近[ちか]く"], "de": "Ich wohne in der Nähe des Bahnhofs." },
+    { "type": "listen", "text": "もし 荷物[にもつ] が 届[とど]いたら、 預[あず]かって もらえ ませんか。", "de": "Falls ein Paket kommt, könntest du es für mich annehmen?" },
+    { "type": "listen", "text": "すみません、 お皿[さら] を 割[わ]って しまい ました。", "de": "Entschuldigung, ich habe einen Teller zerbrochen." },
+    { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["駅[えき] に 着[つ]いたら、 電話[でんわ] して ください。", "駅[えき] に 着[つ]く と、 電話[でんわ] して ください。"], "answer": 0, "explain": "Nach 〜と darf keine Bitte stehen. Für Bitten nimmst du 〜たら." }
+  ]
+}

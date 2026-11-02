@@ -1,0 +1,155 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-08",
+  "lang": "ja",
+  "level": "B1",
+  "number": 8,
+  "title": "たいへん だった 旅行[りょこう]",
+  "title_de": "Erlebnisse",
+  "topic": "Von einer Reise erzählen",
+  "goals": [
+    "Du kannst das Passiv bilden und benutzen: せんせいに ほめられました.",
+    "Du kannst mit dem „Leidens-Passiv“ sagen, dass dir etwas Unangenehmes passiert ist: あめに ふられました, さいふを ぬすまれました.",
+    "Du kannst mit 〜ところです sagen, ob etwas gleich passiert, gerade läuft oder gerade passiert ist.",
+    "Du kannst ein Erlebnis lebendig erzählen – mit すると, それで, ところが und けっきょく."
+  ],
+  "kanji": ["走", "歩", "急", "止", "起", "着", "転"],
+  "vocab": [
+    { "id": "kyuuni", "word": "急[きゅう]に", "de": "plötzlich", "pos": "adv", "example": { "text": "急[きゅう]に 雨[あめ] が 降[ふ]って き ました。", "de": "Plötzlich fing es an zu regnen." }, "note": "Als Adjektiv: きゅうな ようじ = eine dringende Angelegenheit." },
+    { "id": "tokkyuu", "word": "特急[とっきゅう]", "de": "der Expresszug", "pos": "noun", "example": { "text": "特急[とっきゅう] に 乗[の]れば、 一[いち]時[じ]間[かん] で 着[つ]き ます。", "de": "Mit dem Express ist man in einer Stunde da." }, "note": "Wörtlich „besonders eilig“. Für den とっきゅう braucht man meist einen Zuschlag." },
+    { "id": "tomarimasu", "word": "止[と]まり ます", "de": "anhalten; stehen bleiben", "pos": "verb", "forms": "Wörterbuchform とまる · て-Form とまって · た-Form とまった", "example": { "text": "事[じ]故[こ] で 電車[でんしゃ] が 止[と]まり ました。", "de": "Wegen eines Unfalls blieb der Zug stehen.", "focus": "止[と]まり" }, "note": "Etwas hält an (が). Nicht verwechseln mit とまります = übernachten (泊まります) – gleiche Aussprache, anderes Kanji." },
+    { "id": "tomemasu", "word": "止[と]め ます", "de": "anhalten; abstellen; stoppen", "pos": "verb", "forms": "Wörterbuchform とめる · て-Form とめて · た-Form とめた", "example": { "text": "駅[えき] の 前[まえ] に 自転車[じてんしゃ] を 止[と]めないで ください。", "de": "Bitte stellen Sie keine Fahrräder vor dem Bahnhof ab.", "focus": "止[と]めないで" }, "note": "Jemand hält etwas an (を): くるまを とめます. Das Paar とまる/とめる funktioniert wie あく/あける." },
+    { "id": "chuushi", "word": "中止[ちゅうし]", "de": "die Absage; der Ausfall", "pos": "noun", "example": { "text": "お祭[まつ]り は 台[たい]風[ふう] で 中止[ちゅうし] に なり ました。", "de": "Das Fest wurde wegen des Taifuns abgesagt." }, "note": "ちゅうしに なります = abgesagt werden." },
+    { "id": "okoshimasu", "word": "起[お]こし ます", "de": "(jemanden) wecken", "pos": "verb", "forms": "Wörterbuchform おこす · て-Form おこして · た-Form おこした", "example": { "text": "あした 六時[ろくじ] に 起[お]こして ください。", "de": "Weck mich morgen bitte um sechs.", "focus": "起[お]こして" }, "note": "Selbst aufstehen: おきます. Jemanden wecken: おこします." },
+    { "id": "okorimasu", "word": "起[お]こり ます", "de": "passieren; geschehen", "pos": "verb", "forms": "Wörterbuchform おこる · た-Form おこった", "example": { "text": "旅行[りょこう]中[ちゅう] に いろいろ な こと が 起[お]こり ました。", "de": "Während der Reise ist allerlei passiert.", "focus": "起[お]こり" }, "note": "Nicht verwechseln mit おこります = sich ärgern (怒ります)." },
+    { "id": "tsukimasu", "word": "着[つ]き ます", "de": "ankommen", "pos": "verb", "forms": "Wörterbuchform つく · て-Form ついて · た-Form ついた", "example": { "text": "ホテル に 着[つ]いたら、 電話[でんわ] して ください。", "de": "Ruf bitte an, wenn du im Hotel angekommen bist.", "focus": "着[つ]いたら" }, "note": "Das Ziel markiert に. Gleiches Kanji wie きます (anziehen) – hier aber つきます gelesen." },
+    { "id": "korobimasu", "word": "転[ころ]び ます", "de": "hinfallen; stürzen", "pos": "verb", "forms": "Wörterbuchform ころぶ · て-Form ころんで · た-Form ころんだ", "example": { "text": "雪[ゆき] の 道[みち] で 転[ころ]んで しまい ました。", "de": "Ich bin auf der verschneiten Straße hingefallen.", "focus": "転[ころ]んで" } },
+    { "id": "unten", "word": "運[うん]転[てん]", "de": "das Fahren (eines Fahrzeugs)", "pos": "noun", "example": { "text": "父[ちち] は 運[うん]転[てん] が 上手[じょうず] です。", "de": "Mein Vater fährt gut Auto." }, "note": "うんてんします = (ein Auto) fahren. うんてんしゅ (Fahrer/in) kennst du schon." },
+    { "id": "jiko", "word": "事[じ]故[こ]", "de": "der Unfall", "pos": "noun", "example": { "text": "駅[えき] の 近[ちか]く で 車[くるま] の 事[じ]故[こ] が あり ました。", "de": "In der Nähe vom Bahnhof gab es einen Autounfall." } },
+    { "id": "saifu", "word": "財布[さいふ]", "de": "das Portemonnaie", "pos": "noun", "example": { "text": "電車[でんしゃ] の 中[なか] に 財布[さいふ] を 忘[わす]れて しまい ました。", "de": "Ich habe mein Portemonnaie im Zug liegen lassen." } },
+    { "id": "nusumimasu", "word": "盗[ぬす]み ます", "de": "stehlen", "pos": "verb", "forms": "Wörterbuchform ぬすむ · Passiv ぬすまれる", "example": { "text": "旅行[りょこう]中[ちゅう] に カメラ を 盗[ぬす]まれ ました。", "de": "Auf der Reise wurde mir die Kamera gestohlen.", "focus": "盗[ぬす]まれ" } },
+    { "id": "dorobou", "word": "どろぼう", "de": "der Dieb; die Diebin", "pos": "noun", "example": { "text": "どろぼう に 財布[さいふ] を 盗[ぬす]まれ ました。", "de": "Ein Dieb hat mir das Portemonnaie gestohlen." }, "note": "Kanji: 泥棒." },
+    { "id": "fumimasu", "word": "踏[ふ]み ます", "de": "treten (auf)", "pos": "verb", "forms": "Wörterbuchform ふむ · Passiv ふまれる", "example": { "text": "満[まん]員[いん] 電車[でんしゃ] で 足[あし] を 踏[ふ]まれ ました。", "de": "In der vollen Bahn ist mir jemand auf den Fuß getreten.", "focus": "踏[ふ]まれ" } },
+    { "id": "homemasu", "word": "ほめ ます", "de": "loben", "pos": "verb", "forms": "Wörterbuchform ほめる · Passiv ほめられる", "example": { "text": "先生[せんせい] に 作文[さくぶん] を ほめられ ました。", "de": "Die Lehrerin hat meinen Aufsatz gelobt.", "focus": "ほめられ" } },
+    { "id": "shikarimasu", "word": "しかり ます", "de": "schimpfen; tadeln", "pos": "verb", "forms": "Wörterbuchform しかる · Passiv しかられる", "example": { "text": "子[こ]ども の とき、 よく 母[はは] に しかられ ました。", "de": "Als Kind hat meine Mutter oft mit mir geschimpft.", "focus": "しかられ" } },
+    { "id": "okuremasu", "word": "遅[おく]れ ます", "de": "sich verspäten; zu spät kommen", "pos": "verb", "forms": "Wörterbuchform おくれる · て-Form おくれて · た-Form おくれた", "example": { "text": "雪[ゆき] で 電車[でんしゃ] が 三十分[さんじゅっぷん] 遅[おく]れ ました。", "de": "Wegen des Schnees hatte der Zug dreißig Minuten Verspätung.", "focus": "遅[おく]れ" }, "note": "Wo man zu spät kommt, markiert に: じゅぎょうに おくれました." },
+    { "id": "norikaemasu", "word": "乗[の]り換[か]え ます", "de": "umsteigen", "pos": "verb", "forms": "Wörterbuchform のりかえる · て-Form のりかえて · た-Form のりかえた", "example": { "text": "東[とう]京[きょう]駅[えき] で 新[しん]幹[かん]線[せん] に 乗[の]り換[か]え ます。", "de": "Am Bahnhof Tokio steige ich in den Shinkansen um." } },
+    { "id": "mayoimasu", "word": "迷[まよ]い ます", "de": "sich verirren; unentschlossen sein", "pos": "verb", "forms": "Wörterbuchform まよう · て-Form まよって · た-Form まよった", "example": { "text": "駅[えき] から ホテル まで の 道[みち] で 迷[まよ]って しまい ました。", "de": "Auf dem Weg vom Bahnhof zum Hotel habe ich mich verlaufen.", "focus": "迷[まよ]って" }, "note": "みちに まよいます = sich verlaufen. Auch: どれに するか まよって います (Ich kann mich nicht entscheiden)." },
+    { "id": "wasuremono", "word": "忘[わす]れ物[もの]", "de": "etwas Vergessenes; liegen gelassene Sachen", "pos": "noun", "example": { "text": "電車[でんしゃ] を 降[お]りる とき は、 忘[わす]れ物[もの] に 気[き] を つけて ください。", "de": "Achten Sie beim Aussteigen darauf, nichts liegen zu lassen." }, "note": "Das hörst du in japanischen Zügen bei jeder Ansage." },
+    { "id": "dekigoto", "word": "出来事[できごと]", "de": "das Ereignis; das Erlebnis", "pos": "noun", "example": { "text": "それ は 旅行[りょこう] で いちばん 楽[たの]しい 出来事[できごと] でした。", "de": "Das war das schönste Erlebnis der Reise." } },
+    { "id": "tochuu", "word": "途[と]中[ちゅう]", "de": "unterwegs; mittendrin", "pos": "noun", "example": { "text": "駅[えき] へ 行[い]く 途[と]中[ちゅう] で、 友[とも]だち に 会[あ]い ました。", "de": "Auf dem Weg zum Bahnhof habe ich einen Freund getroffen." } },
+    { "id": "guuzen", "word": "偶[ぐう]然[ぜん]", "de": "zufällig; der Zufall", "pos": "adv", "example": { "text": "京[きょう]都[と] で 偶[ぐう]然[ぜん] 山田[やまだ] 先生[せんせい] に 会[あ]い ました。", "de": "In Kyoto habe ich zufällig Frau Yamada getroffen." } },
+    { "id": "kekkyoku", "word": "結局[けっきょく]", "de": "schließlich; am Ende", "pos": "adv", "example": { "text": "一[いち]時[じ]間[かん] 待[ま]ち ました が、 結局[けっきょく] バス は 来[き]ません でした。", "de": "Ich habe eine Stunde gewartet, aber am Ende kam der Bus nicht." } },
+    { "id": "suruto", "word": "すると", "de": "da; daraufhin", "pos": "conj", "example": { "text": "ドア を 開[あ]け ました。 すると、 ねこ が 入[はい]って き ました。", "de": "Ich öffnete die Tür. Da kam eine Katze herein." } },
+    { "id": "sorede", "word": "それで", "de": "deshalb; und so", "pos": "conj", "example": { "text": "寝[ね]坊[ぼう] し ました。 それで、 電車[でんしゃ] に 乗[の]り遅[おく]れ ました。", "de": "Ich habe verschlafen. Deshalb habe ich den Zug verpasst." } },
+    { "id": "tokoroga", "word": "ところが", "de": "doch; aber (unerwartet)", "pos": "conj", "example": { "text": "天気[てんき]予報[よほう] は 晴[は]れ でした。 ところが、 午後[ごご] から 大雨[おおあめ] に なり ました。", "de": "Der Wetterbericht hatte Sonne angesagt. Doch ab Mittag goss es in Strömen." } },
+    { "id": "choudo", "word": "ちょうど", "de": "genau; gerade", "pos": "adv", "example": { "text": "ちょうど 今[いま]、 駅[えき] に 着[つ]いた ところ です。", "de": "Ich bin gerade eben am Bahnhof angekommen." }, "note": "Auch bei Uhrzeiten: ちょうど 三時 = genau drei Uhr." },
+    { "id": "bikkurishimasu", "word": "びっくり し ます", "de": "sich erschrecken; überrascht sein", "pos": "verb", "forms": "て-Form びっくりして · た-Form びっくりした", "example": { "text": "急[きゅう]に 大[おお]きい 音[おと] が して、 びっくり し ました。", "de": "Plötzlich gab es einen lauten Knall, und ich habe mich erschrocken.", "focus": "びっくり し" } },
+    { "id": "tasukemasu", "word": "助[たす]け ます", "de": "helfen; retten", "pos": "verb", "forms": "Wörterbuchform たすける · て-Form たすけて · Passiv たすけられる", "example": { "text": "道[みち] に 迷[まよ]った とき、 知[し]らない 人[ひと] に 助[たす]けられ ました。", "de": "Als ich mich verlaufen hatte, hat mir ein Fremder geholfen.", "focus": "助[たす]けられ" }, "note": "たすけて! = Hilfe! てつだいます heißt „mithelfen (bei einer Arbeit)“, たすけます eher „aus einer Not helfen“." },
+    { "id": "manin", "word": "満[まん]員[いん]", "de": "voll besetzt; überfüllt", "pos": "noun", "example": { "text": "朝[あさ] の 電車[でんしゃ] は いつも 満[まん]員[いん] です。", "de": "Die Züge am Morgen sind immer brechend voll." }, "note": "まんいん でんしゃ = die überfüllte Pendlerbahn." },
+    { "id": "koewokakemasu", "word": "声[こえ] を かけ ます", "de": "(jemanden) ansprechen", "pos": "phrase", "example": { "text": "駅[えき] で 困[こま]って いたら、 おばあさん が 声[こえ] を かけて くれ ました。", "de": "Als ich am Bahnhof ratlos war, hat mich eine alte Dame angesprochen.", "focus": "声[こえ] を かけて" } },
+    { "id": "hidoi", "word": "ひどい", "de": "schlimm; furchtbar; gemein", "pos": "adj", "example": { "text": "ひどい 雨[あめ] で、 服[ふく] が ぬれて しまい ました。", "de": "Es hat furchtbar geregnet, und meine Kleidung ist nass geworden." } },
+    { "id": "tokoro", "word": "〜ところ", "alt": ["ところ"], "de": "gerade (dabei, eben); im Begriff", "pos": "other", "example": { "text": "今[いま] ご飯[はん] を 食[た]べて いる ところ です。", "de": "Ich esse gerade.", "focus": "ところ" } },
+    { "id": "hodou", "word": "歩[ほ]道[どう]", "de": "der Gehweg", "pos": "noun", "example": { "text": "歩[ほ]道[どう] を 歩[ある]いて いたら、 急[きゅう]に 自転車[じてんしゃ] が 走[はし]って き ました。", "de": "Als ich auf dem Gehweg ging, kam plötzlich ein Fahrrad angefahren." } }
+  ],
+  "grammar": [
+    {
+      "id": "ukemi",
+      "title": "Das Passiv: 〜られる",
+      "blocks": [
+        { "type": "p", "text": "Mit dem Passiv sagst du, dass jemandem etwas getan wird. Die Person, die handelt, bekommt に: せんせいに ほめられました = Ich wurde von der Lehrerin gelobt." },
+        { "type": "table", "head": ["Gruppe", "ます-Form", "Passiv (einfache Form)", "Passiv (ます-Form)"], "rows": [["1", "書[か]き ます", "書[か]かれる", "書[か]かれ ます"], ["1", "盗[ぬす]み ます", "盗[ぬす]まれる", "盗[ぬす]まれ ます"], ["1", "言[い]い ます", "言[い]われる", "言[い]われ ます"], ["1", "踏[ふ]み ます", "踏[ふ]まれる", "踏[ふ]まれ ます"], ["2", "ほめ ます", "ほめられる", "ほめられ ます"], ["2", "見[み] ます", "見[み]られる", "見[み]られ ます"], ["3", "し ます", "される", "され ます"], ["3", "来[き] ます", "来[こ]られる", "来[こ]られ ます"]] },
+        { "type": "p", "text": "Gruppe 1: Der i-Laut vor ます wird zum a-Laut, dazu kommt れる (かき → かかれる). Aus い wird わ: いいます → いわれる. Gruppe 2: ます weg, られる dazu. Gruppe 3: される, こられる. Alle Passivformen sind danach Gruppe-2-Verben: ほめられます, ほめられて, ほめられた." },
+        { "type": "tip", "text": "Bei Gruppe 2 und こられる sieht das Passiv genauso aus wie die Potentialform aus Lektion 2 (みられる = kann sehen / wird gesehen). Was gemeint ist, zeigt der Satz." },
+        { "type": "examples", "items": [{ "text": "子[こ]ども の とき、 よく 父[ちち] に しかられ ました。", "de": "Als Kind wurde ich oft von meinem Vater ausgeschimpft." }, { "text": "先生[せんせい] に 日本[にほん]語[ご] の 発[はつ]音[おん] を ほめられ ました。", "de": "Die Lehrerin hat meine japanische Aussprache gelobt." }, { "text": "この お寺[てら] は 八百[はっぴゃく]年[ねん] 前[まえ] に 建[た]てられ ました。", "de": "Dieser Tempel wurde vor 800 Jahren gebaut." }, { "text": "この 歌[うた] は 世界[せかい]中[じゅう] で 歌[うた]われて い ます。", "de": "Dieses Lied wird auf der ganzen Welt gesungen." }] },
+        { "type": "tip", "text": "Lob oder Kritik von jemandem: Die Sache (Aufsatz, Aussprache) bleibt mit を im Satz: さくぶんを ほめられました = Mein Aufsatz wurde gelobt." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "先生[せんせい] に 作文[さくぶん] を ___ ました。", "answers": ["ほめられ"], "de": "Die Lehrerin hat meinen Aufsatz gelobt.", "hint": "ほめます → Passiv" },
+        { "type": "cloze", "text": "子[こ]ども の とき、 よく 母[はは] に ___ ました。", "answers": ["しかられ"], "de": "Als Kind hat meine Mutter oft mit mir geschimpft.", "hint": "しかります → Passiv" },
+        { "type": "cloze", "text": "この お寺[てら] は 八百[はっぴゃく]年[ねん] 前[まえ] に ___ ました。", "answers": ["建[た]てられ"], "de": "Dieser Tempel wurde vor 800 Jahren gebaut.", "hint": "たてます (bauen) → Passiv" },
+        { "type": "cloze", "text": "友[とも]だち に 「元[げん]気[き] が ない ね」 と ___ ました。", "answers": ["言[い]われ"], "de": "Ein Freund hat zu mir gesagt: „Du wirkst so niedergeschlagen.“" },
+        { "type": "order", "de": "Ich wurde von der Lehrerin gelobt.", "answer": "先生[せんせい] に ほめられ ました。", "distractors": ["を", "ほめ"] },
+        { "type": "translate", "de": "Ich wurde von einer Freundin zur Party eingeladen.", "answers": ["私[わたし] は 友[とも]だち に パーティー に しょうたい され ました。", "私[わたし] は 友[とも]だち に パーティー に よばれ ました。", "私[わたし] は 友[とも]だち に パーティー に さそわれ ました。", "友[とも]だち に パーティー に しょうたい され ました。", "友[とも]だち に パーティー に よばれ ました。", "友[とも]だち に パーティー に さそわれ ました。"] }
+      ]
+    },
+    {
+      "id": "meiwaku-ukemi",
+      "title": "Pech gehabt: das Leidens-Passiv (雨に 降られました)",
+      "blocks": [
+        { "type": "p", "text": "Das japanische Passiv kann noch mehr: Es zeigt, dass dich etwas betroffen hat – meistens unangenehm. Dieses „Leidens-Passiv“ gibt es im Deutschen nicht. Wörtlich heißt あめに ふられました „Ich wurde vom Regen beregnet“ – gemeint ist: Ich bin (leider) in den Regen gekommen." },
+        { "type": "table", "head": ["normaler Satz", "Leidens-Passiv", "Deutsch"], "rows": [["雨[あめ] が 降[ふ]り ました。", "雨[あめ] に 降[ふ]られ ました。", "Ich bin in den Regen gekommen."], ["どろぼう が 財布[さいふ] を 盗[ぬす]み ました。", "どろぼう に 財布[さいふ] を 盗[ぬす]まれ ました。", "Mir wurde das Portemonnaie gestohlen."], ["だれ か が 足[あし] を 踏[ふ]み ました。", "だれ か に 足[あし] を 踏[ふ]まれ ました。", "Mir ist jemand auf den Fuß getreten."], ["となり の 人[ひと] が たばこ を すい ました。", "となり の 人[ひと] に たばこ を すわれ ました。", "Mein Nachbar hat (zu meinem Ärger) geraucht."], ["夜[よる]、 赤[あか]ちゃん が 泣[な]き ました。", "夜[よる]、 赤[あか]ちゃん に 泣[な]かれ ました。", "Nachts hat (leider) das Baby geweint."]] },
+        { "type": "tip", "text": "Der eigene Körperteil oder Besitz bleibt mit を im Satz: さいふを ぬすまれました – nicht さいふが ぬすまれました (das klingt wie eine Zeitungsmeldung ohne Betroffene). Wer betroffen ist, ist meistens „ich“ – und das sagt man nicht extra." },
+        { "type": "examples", "items": [{ "text": "駅[えき] から 歩[ある]いて いる とき、 急[きゅう]に 雨[あめ] に 降[ふ]られ ました。", "de": "Als ich vom Bahnhof zu Fuß ging, bin ich plötzlich in den Regen gekommen." }, { "text": "満[まん]員[いん] 電車[でんしゃ] で 足[あし] を 踏[ふ]まれ ました。", "de": "In der vollen Bahn ist mir jemand auf den Fuß getreten." }, { "text": "パリ で カメラ を 盗[ぬす]まれて、 とても 困[こま]り ました。", "de": "In Paris wurde mir die Kamera gestohlen, und ich war ziemlich aufgeschmissen." }] },
+        { "type": "tip", "text": "Bei schönen Dingen nimmt man lieber 〜て もらいました: ともだちに えきまで おくって もらいました (Ein Freund hat mich netterweise zum Bahnhof gebracht)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "帰[かえ]る 途[と]中[ちゅう] で 雨[あめ] ___ 降[ふ]られ ました。", "answers": ["に"], "de": "Auf dem Heimweg bin ich in den Regen gekommen." },
+        { "type": "cloze", "text": "電車[でんしゃ] の 中[なか] で 財布[さいふ] を ___ ました。", "answers": ["盗[ぬす]まれ"], "de": "Im Zug wurde mir das Portemonnaie gestohlen." },
+        { "type": "cloze", "text": "だれ か に 足[あし] を ___ ました。", "answers": ["踏[ふ]まれ"], "de": "Mir ist jemand auf den Fuß getreten." },
+        { "type": "choice", "prompt": "„Mir wurde das Fahrrad gestohlen.“ Welcher Satz ist natürlich?", "options": ["自転車[じてんしゃ] を 盗[ぬす]まれ ました。", "自転車[じてんしゃ] が 盗[ぬす]み ました。", "自転車[じてんしゃ] に 盗[ぬす]まれ ました。"], "answer": 0, "explain": "Der Besitz bleibt mit を im Satz. じてんしゃに ぬすまれました hieße „Das Fahrrad hat mich bestohlen“." },
+        { "type": "order", "de": "Auf dem Heimweg bin ich in den Regen gekommen.", "answer": "帰[かえ]り に 雨[あめ] に 降[ふ]られ ました。", "distractors": ["が"] },
+        { "type": "translate", "de": "In der vollen Bahn ist mir jemand auf den Fuß getreten.", "answers": ["満[まん]員[いん] 電車[でんしゃ] で だれ か に 足[あし] を 踏[ふ]まれ ました。", "満[まん]員[いん] 電車[でんしゃ] で 足[あし] を 踏[ふ]まれ ました。", "満[まん]員[いん] の 電車[でんしゃ] で だれ か に 足[あし] を 踏[ふ]まれ ました。", "満[まん]員[いん] の 電車[でんしゃ] で 足[あし] を 踏[ふ]まれ ました。", "込[こ]んで いる 電車[でんしゃ] で だれ か に 足[あし] を 踏[ふ]まれ ました。", "込[こ]んで いる 電車[でんしゃ] で 足[あし] を 踏[ふ]まれ ました。"] }
+      ]
+    },
+    {
+      "id": "tokoro-desu",
+      "title": "Gleich, gerade, eben: 〜ところです und Erzählwörter",
+      "blocks": [
+        { "type": "p", "text": "ところ heißt eigentlich „Ort“. Nach einem Verb zeigt es aber, an welchem Punkt einer Handlung du gerade bist. Es kommt auf die Verbform davor an:" },
+        { "type": "table", "head": ["Form", "Bedeutung", "Beispiel", "Deutsch"], "rows": [["Wörterbuchform + ところ", "gleich (kurz davor)", "今[いま] から 出[で]かける ところ です。", "Ich gehe gleich los."], ["〜て いる + ところ", "gerade dabei", "今[いま]、 晩[ばん]ご飯[はん] を 作[つく]って いる ところ です。", "Ich koche gerade Abendessen."], ["た-Form + ところ", "gerade eben (fertig)", "今[いま] 駅[えき] に 着[つ]いた ところ です。", "Ich bin gerade eben am Bahnhof angekommen."]] },
+        { "type": "tip", "text": "Typisch am Telefon: もしもし、いま どこ? – いま でんしゃを おりた ところです (Ich bin gerade ausgestiegen)." },
+        { "type": "p", "text": "Beim Erzählen helfen kleine Verbindungswörter, damit die Geschichte flüssig klingt:" },
+        { "type": "table", "head": ["Wort", "Bedeutung", "Beispiel"], "rows": [["すると", "da; daraufhin (was dann passierte)", "ボタン を 押[お]し ました。 すると、 ドア が 開[あ]き ました。"], ["それで", "deshalb; und so", "寝[ね]坊[ぼう] し ました。 それで、 遅[おく]れ ました。"], ["ところが", "doch; aber (unerwartet)", "晴[は]れ の 予報[よほう] でした。 ところが、 雨[あめ] が 降[ふ]り ました。"], ["結局[けっきょく]", "am Ende; schließlich", "結局[けっきょく]、 タクシー で 帰[かえ]り ました。"]] },
+        { "type": "tip", "text": "ところが ist stärker als でも: Es kündigt eine Überraschung an. すると erzählt, was danach (oft überraschend) passiert ist – nicht, was man selbst vorhat." },
+        { "type": "examples", "items": [{ "text": "駅[えき] に 着[つ]き ました。 ところが、 電車[でんしゃ] が 止[と]まって い ました。 それで、 バス で 行[い]き ました。", "de": "Ich kam am Bahnhof an. Doch die Züge standen still. Deshalb bin ich mit dem Bus gefahren." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "今[いま] 駅[えき] に 着[つ]いた ___ です。", "answers": ["ところ"], "de": "Ich bin gerade eben am Bahnhof angekommen." },
+        { "type": "cloze", "text": "すみません、 今[いま]、 晩[ばん]ご飯[はん] を 作[つく]って ___ ところ です。", "answers": ["いる"], "de": "Entschuldigung, ich koche gerade Abendessen." },
+        { "type": "cloze", "text": "これ から 家[いえ] を ___ ところ です。", "answers": ["出[で]る"], "de": "Ich gehe gleich aus dem Haus." },
+        { "type": "cloze", "text": "寝[ね]坊[ぼう] し ました。 ___、 電車[でんしゃ] に 遅[おく]れ ました。", "answers": ["それで", "だから"], "de": "Ich habe verschlafen. Deshalb habe ich den Zug verpasst." },
+        { "type": "cloze", "text": "天気[てんき]予報[よほう] は 晴[は]れ でした。 ___、 午後[ごご] から 雨[あめ] が 降[ふ]り ました。", "answers": ["ところが"], "de": "Laut Wetterbericht sollte es sonnig werden. Doch am Nachmittag regnete es." },
+        { "type": "order", "de": "Ich esse gerade zu Mittag.", "answer": "今[いま] 昼[ひる]ご飯[はん] を 食[た]べて いる ところ です。", "distractors": ["食[た]べる"] },
+        { "type": "translate", "de": "Ich bin gerade eben nach Hause gekommen.", "answers": ["今[いま] 家[いえ] に 帰[かえ]った ところ です。", "今[いま] うち に 帰[かえ]った ところ です。", "今[いま] 帰[かえ]った ところ です。", "ちょうど 家[いえ] に 帰[かえ]った ところ です。", "ちょうど うち に 帰[かえ]った ところ です。", "ちょうど 帰[かえ]った ところ です。", "ちょうど 今[いま] 家[いえ] に 帰[かえ]った ところ です。", "ちょうど 今[いま] うち に 帰[かえ]った ところ です。", "ちょうど 今[いま] 帰[かえ]った ところ です。", "家[いえ] に 帰[かえ]った ところ です。", "うち に 帰[かえ]った ところ です。", "帰[かえ]った ところ です。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "北海[ほっかい]道[どう] の 旅行[りょこう]",
+    "title_de": "Die Reise nach Hokkaido",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 お帰[かえ]り なさい！ 北海[ほっかい]道[どう] は どう でした か。", "de": "Willkommen zurück, Anna! Wie war Hokkaido?" },
+      { "speaker": "アンナ", "text": "ただいま。 楽[たの]しかった です が、 本[ほん]当[とう] に いろいろ な こと が 起[お]こり ました。", "de": "Hallo! Es war schön, aber es ist wirklich allerlei passiert." },
+      { "speaker": "けん", "text": "え、 何[なに] が あった ん です か。", "de": "Oh, was ist denn passiert?" },
+      { "speaker": "アンナ", "text": "まず、 一日目[いちにちめ] に 雪[ゆき] で 特急[とっきゅう] が 止[と]まって しまった ん です。 それで、 ホテル に 着[つ]いた の は 夜[よる] の 十一時[じゅういちじ] でした。", "de": "Erst einmal blieb am ersten Tag der Express wegen des Schnees stehen. Deshalb waren wir erst um elf Uhr nachts im Hotel." },
+      { "speaker": "けん", "text": "それ は たいへん でした ね。", "de": "Das war ja anstrengend." },
+      { "speaker": "アンナ", "text": "それ に、 次[つぎ] の 日[ひ] は 歩[ほ]道[どう] で 転[ころ]んで しまい ました。 雪[ゆき] の 下[した] が 氷[こおり] だった ん です。", "de": "Und am nächsten Tag bin ich auf dem Gehweg hingefallen. Unter dem Schnee war Eis." },
+      { "speaker": "けん", "text": "えっ、 けが は あり ません でした か。", "de": "Was?! Hast du dich verletzt?" },
+      { "speaker": "アンナ", "text": "大[だい]丈夫[じょうぶ] でした。 近[ちか]く に いた おじいさん が すぐ 助[たす]けて くれ ました。", "de": "Alles gut. Ein älterer Herr, der in der Nähe war, hat mir sofort geholfen." },
+      { "speaker": "けん", "text": "よかった。 北海[ほっかい]道[どう] の 人[ひと] は 親切[しんせつ] です ね。", "de": "Zum Glück. Die Leute auf Hokkaido sind hilfsbereit, was?" },
+      { "speaker": "アンナ", "text": "ええ。 でも、 三日目[みっかめ] に 駅[えき] で 財布[さいふ] が なくなり ました。 盗[ぬす]まれた と 思[おも]って、 急[いそ]いで 交番[こうばん] に 行[い]き ました。", "de": "Ja. Aber am dritten Tag war am Bahnhof mein Portemonnaie weg. Ich dachte, es wurde gestohlen, und bin schnell zur Polizeiwache gegangen." },
+      { "speaker": "けん", "text": "ああ、 それ は 困[こま]り ました ね。", "de": "Oh, da warst du ja aufgeschmissen." },
+      { "speaker": "アンナ", "text": "ところが、 交番[こうばん] で 説明[せつめい] して いる とき、 ソフィー から 電話[でんわ] が あった ん です。", "de": "Doch während ich auf der Wache alles erklärte, rief Sophie an." },
+      { "speaker": "けん", "text": "すると？", "de": "Und dann?" },
+      { "speaker": "アンナ", "text": "「アンナ の 財布[さいふ]、 カフェ の いす の 上[うえ] に あった よ。 今[いま] 店[みせ] の 人[ひと] に もらった ところ！」 って。", "de": "Sie sagte: „Dein Portemonnaie lag im Café auf dem Stuhl. Ich habe es gerade von der Bedienung bekommen!“" },
+      { "speaker": "けん", "text": "はは、 忘[わす]れ物[もの] だった ん です ね。 結局[けっきょく]、 いい 旅行[りょこう] でした か。", "de": "Haha, du hattest es also nur liegen lassen. War es am Ende eine schöne Reise?" },
+      { "speaker": "アンナ", "text": "はい！ 雪[ゆき] の 景[け]色[しき] は 本[ほん]当[とう] に 美[うつく]しかった し、 魚[さかな] も おいしかった です。 また 行[い]き たい です。", "de": "Ja! Die Schneelandschaft war wunderschön, und der Fisch war lecker. Ich will wieder hin." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["止[と]まり ます", "anhalten (etwas hält an)"], ["止[と]め ます", "anhalten (etwas stoppen)"], ["起[お]こし ます", "wecken"], ["起[お]こり ます", "passieren"], ["着[つ]き ます", "ankommen"], ["転[ころ]び ます", "hinfallen"]] },
+    { "type": "match", "pairs": [["すると", "daraufhin"], ["それで", "deshalb"], ["ところが", "doch (unerwartet)"], ["結局[けっきょく]", "am Ende"], ["偶[ぐう]然[ぜん]", "zufällig"]] },
+    { "type": "translate", "de": "Wegen des Schnees hatte der Zug Verspätung.", "answers": ["雪[ゆき] で 電車[でんしゃ] が 遅[おく]れ ました。", "雪[ゆき] の せい で 電車[でんしゃ] が 遅[おく]れ ました。", "雪[ゆき] の ため 電車[でんしゃ] が 遅[おく]れ ました。"] },
+    { "type": "translate", "de": "Im Zug wurde mir das Portemonnaie gestohlen.", "answers": ["電車[でんしゃ] の 中[なか] で だれ か に 財布[さいふ] を 盗[ぬす]まれ ました。", "電車[でんしゃ] の 中[なか] で 財布[さいふ] を 盗[ぬす]まれ ました。", "電車[でんしゃ] で だれ か に 財布[さいふ] を 盗[ぬす]まれ ました。", "電車[でんしゃ] で 財布[さいふ] を 盗[ぬす]まれ ました。"] },
+    { "type": "translate", "de": "Ich gehe gleich los.", "answers": ["今[いま] から 出[で]かける ところ です。", "今[いま] から 出[で]る ところ です。", "これ から 出[で]かける ところ です。", "これ から 出[で]る ところ です。", "出[で]かける ところ です。", "出[で]る ところ です。"] },
+    { "type": "translate", "de": "Auf dem Weg zum Hotel habe ich mich verlaufen.", "answers": ["ホテル へ 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]い ました。", "ホテル へ 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]って しまい ました。", "ホテル へ 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]い ました。", "ホテル へ 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]って しまい ました。", "ホテル に 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]い ました。", "ホテル に 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]って しまい ました。", "ホテル に 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]い ました。", "ホテル に 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]って しまい ました。", "ホテル まで 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]い ました。", "ホテル まで 行[い]く 途[と]中[ちゅう] で 道[みち] に 迷[まよ]って しまい ました。", "ホテル まで 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]い ました。", "ホテル まで 行[い]く 途[と]中[ちゅう] 道[みち] に 迷[まよ]って しまい ました。"] },
+    { "type": "order", "de": "Wegen eines Unfalls blieb der Zug stehen.", "answer": "事[じ]故[こ] で 電車[でんしゃ] が 止[と]まり ました。", "distractors": ["止[と]め"] },
+    { "type": "order", "de": "Am Bahnhof Tokio steige ich in den Shinkansen um.", "answer": "東[とう]京[きょう]駅[えき] で 新[しん]幹[かん]線[せん] に 乗[の]り換[か]え ます。", "distractors": ["を"] },
+    { "type": "cloze", "text": "雪[ゆき] の 道[みち] で ___ しまい ました。", "answers": ["転[ころ]んで"], "de": "Ich bin auf der verschneiten Straße hingefallen." },
+    { "type": "cloze", "text": "あした 七時[しちじ] に ___ ください。", "answers": ["起[お]こして"], "de": "Weck mich morgen bitte um sieben." },
+    { "type": "listen", "text": "急[きゅう]に 雨[あめ] に 降[ふ]られて、 服[ふく] が ぬれて しまい ました。", "de": "Ich bin plötzlich in den Regen gekommen, und meine Kleidung ist nass geworden." },
+    { "type": "listen", "text": "ちょうど 今[いま]、 駅[えき] に 着[つ]いた ところ です。", "de": "Ich bin gerade eben am Bahnhof angekommen." },
+    { "type": "listen", "text": "道[みち] に 迷[まよ]った とき、 知[し]らない 人[ひと] が 助[たす]けて くれ ました。", "de": "Als ich mich verlaufen hatte, hat mir ein Fremder geholfen." }
+  ]
+}
