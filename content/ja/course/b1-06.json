@@ -1,0 +1,169 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-06",
+  "lang": "ja",
+  "level": "B1",
+  "number": 6,
+  "title": "就職[しゅうしょく] の 面接[めんせつ]",
+  "title_de": "Bewerbung",
+  "topic": "Lebenslauf und Vorstellungsgespräch",
+  "goals": [
+    "Du kannst mit そんけいご (いらっしゃいます, なさいます, おっしゃいます, お〜に なります) respektvoll über andere sprechen.",
+    "Du kannst mit けんじょうご (もうします, いたします, まいります, お〜します) bescheiden über dich selbst sprechen.",
+    "Du kannst dich im Vorstellungsgespräch vorstellen und über Erfahrungen, Stärken und Schwächen sprechen.",
+    "Du kannst die festen Wendungen für Bewerbung und Gespräch benutzen: しつれい いたします, よろしく おねがい いたします."
+  ],
+  "kanji": ["業", "経", "特", "有", "力", "作", "持"],
+  "vocab": [
+    { "id": "mensetsu", "word": "面接[めんせつ]", "de": "das Vorstellungsgespräch", "pos": "noun", "example": { "text": "あした、 旅行会社[りょこうがいしゃ] の 面接[めんせつ] が あり ます。", "de": "Morgen habe ich ein Vorstellungsgespräch bei einem Reiseunternehmen." }, "note": "めんせつを うけます = ein Vorstellungsgespräch haben (wörtlich „empfangen“)." },
+    { "id": "rirekisho", "word": "履[り]歴[れき]書[しょ]", "de": "der Lebenslauf", "pos": "noun", "example": { "text": "履[り]歴[れき]書[しょ] は 手[て] で 書[か]き ました か、 パソコン で 作[つく]り ました か。", "de": "Hast du den Lebenslauf mit der Hand geschrieben oder am Computer erstellt?" }, "note": "In Japan gibt es dafür feste Vordrucke mit Foto. Manche Firmen wollen ihn sogar handgeschrieben." },
+    { "id": "oubo", "word": "おうぼ", "de": "die Bewerbung (auf eine Stelle)", "pos": "noun", "example": { "text": "この 仕事[しごと] に おうぼ し たい です。", "de": "Ich möchte mich auf diese Stelle bewerben." }, "note": "おうぼします = sich bewerben; die Stelle markiert に. Kanji: 応募." },
+    { "id": "boshuu", "word": "募集[ぼしゅう]", "de": "die Ausschreibung; die Suche (nach Bewerbern)", "pos": "noun", "example": { "text": "駅[えき] の 近[ちか]く の カフェ で アルバイト を 募集[ぼしゅう] して い ます。", "de": "Ein Café in der Nähe vom Bahnhof sucht Aushilfen." }, "note": "ぼしゅうします = (Leute) suchen, ausschreiben. Auf Plakaten liest du oft: アルバイト ぼしゅう!" },
+    { "id": "keiken", "word": "経験[けいけん]", "de": "die Erfahrung", "pos": "noun", "example": { "text": "アルバイト の 経験[けいけん] は あり ます か。", "de": "Hast du Erfahrung mit Nebenjobs?" }, "note": "けいけんします = erleben, Erfahrungen machen." },
+    { "id": "nouryoku", "word": "能[のう]力[りょく]", "de": "die Fähigkeit", "pos": "noun", "example": { "text": "日本[にほん]語[ご] の 能[のう]力[りょく] は どの くらい です か。", "de": "Wie gut sind Ihre Japanischkenntnisse?" }, "note": "Den großen Japanisch-Sprachtest nennt man にほんご のうりょく しけん." },
+    { "id": "doryoku", "word": "努[ど]力[りょく]", "de": "die Anstrengung; die Mühe", "pos": "noun", "example": { "text": "毎日[まいにち] 努[ど]力[りょく] して、 日本[にほん]語[ご] が 話[はな]せる よう に なり ました。", "de": "Mit täglicher Mühe habe ich es geschafft, Japanisch zu sprechen." }, "note": "どりょくします = sich bemühen. In Japan ein sehr positives Wort – im Gespräch kommt es gut an." },
+    { "id": "chousho", "word": "長所[ちょうしょ]", "de": "die Stärke (einer Person)", "pos": "noun", "example": { "text": "私[わたし] の 長所[ちょうしょ] は まじめ な ところ です。", "de": "Meine Stärke ist, dass ich gewissenhaft bin." }, "note": "〜ところ heißt hier „Seite, Eigenschaft“: やさしい ところ = die nette Seite." },
+    { "id": "tansho", "word": "短[たん]所[しょ]", "de": "die Schwäche", "pos": "noun", "example": { "text": "私[わたし] の 短[たん]所[しょ] は 朝[あさ] が 弱[よわ]い ところ です。", "de": "Meine Schwäche: Morgens komme ich schwer in Gang." }, "note": "Im Gespräch nennt man die Schwäche ehrlich – und sagt gleich dazu, was man dagegen tut: 〜ように して います." },
+    { "id": "jishin", "word": "自[じ]信[しん]", "de": "das Selbstvertrauen", "pos": "noun", "example": { "text": "英[えい]語[ご] に は 自[じ]信[しん] が あり ます。", "de": "In Englisch bin ich mir sicher." }, "note": "〜に じしんが あります = sich in … sicher fühlen. Verneint: じしんが ありません." },
+    { "id": "kinchou", "word": "緊張[きんちょう]", "de": "die Nervosität; die Anspannung", "pos": "noun", "example": { "text": "面接[めんせつ] の 前[まえ] は いつも 緊張[きんちょう] し ます。", "de": "Vor Vorstellungsgesprächen bin ich immer nervös." }, "note": "きんちょうします = nervös sein, angespannt sein." },
+    { "id": "keizai", "word": "経[けい]済[ざい]", "de": "die Wirtschaft", "pos": "noun", "example": { "text": "ドイツ の 経[けい]済[ざい] に ついて レポート を 書[か]き ました。", "de": "Ich habe eine Hausarbeit über die deutsche Wirtschaft geschrieben." } },
+    { "id": "eigyou", "word": "営[えい]業[ぎょう]", "de": "der Vertrieb; der Verkauf", "pos": "noun", "example": { "text": "兄[あに] は 車[くるま] の 会社[かいしゃ] で 営[えい]業[ぎょう] を して い ます。", "de": "Mein älterer Bruder arbeitet im Vertrieb einer Autofirma." }, "note": "An Ladentüren heißt えいぎょうちゅう „geöffnet“." },
+    { "id": "shokugyou", "word": "職[しょく]業[ぎょう]", "de": "der Beruf", "pos": "noun", "example": { "text": "この 紙[かみ] に 名前[なまえ] と 職[しょく]業[ぎょう] を 書[か]いて ください。", "de": "Schreiben Sie bitte Ihren Namen und Beruf auf dieses Blatt." }, "note": "しょくぎょう ist das formelle Wort (Formulare). Im Gespräch fragt man: おしごとは なんですか." },
+    { "id": "kyuuryou", "word": "給[きゅう]料[りょう]", "de": "das Gehalt; der Lohn", "pos": "noun", "example": { "text": "給[きゅう]料[りょう] は 安[やす]い です が、 楽[たの]しい 仕事[しごと] です。", "de": "Das Gehalt ist niedrig, aber die Arbeit macht Spaß." } },
+    { "id": "seishain", "word": "正社員[せいしゃいん]", "de": "der/die Festangestellte", "pos": "noun", "example": { "text": "アルバイト じゃ なくて、 正社員[せいしゃいん] として 働[はたら]き たい です。", "de": "Ich möchte nicht als Aushilfe, sondern fest angestellt arbeiten." }, "note": "Wörtlich „richtige/r Mitarbeiter/in“ – mit Festvertrag und meist bis zur Rente." },
+    { "id": "shikaku", "word": "資格[しかく]", "de": "die Qualifikation; der (offizielle) Nachweis", "pos": "noun", "example": { "text": "どんな 資格[しかく] を 持[も]って い ます か。", "de": "Welche Qualifikationen hast du?" }, "note": "Auch Sprachprüfungen und Führerschein zählen in Japan als しかく." },
+    { "id": "shorui", "word": "書[しょ]類[るい]", "de": "die Unterlagen; das Dokument", "pos": "noun", "example": { "text": "面接[めんせつ] の 前[まえ] に 書[しょ]類[るい] を 送[おく]って おき ました。", "de": "Vor dem Gespräch habe ich die Unterlagen schon geschickt." } },
+    { "id": "tsuuyaku", "word": "通訳[つうやく]", "de": "das Dolmetschen; Dolmetscher/in", "pos": "noun", "example": { "text": "会[かい]議[ぎ] で ドイツ語[ご] の 通訳[つうやく] を し ました。", "de": "Bei der Besprechung habe ich Deutsch gedolmetscht." }, "note": "つうやくします = dolmetschen. Wer dolmetscht, ist auch einfach つうやく." },
+    { "id": "keigo", "word": "敬[けい]語[ご]", "de": "die Höflichkeitssprache (Keigo)", "pos": "noun", "example": { "text": "敬[けい]語[ご] は むずかしい です が、 仕事[しごと] で は 大[たい]切[せつ] です。", "de": "Keigo ist schwer, aber bei der Arbeit wichtig." } },
+    { "id": "honjitsu", "word": "本日[ほんじつ]", "de": "heute (sehr höflich)", "pos": "noun", "example": { "text": "本日[ほんじつ] は よろしく おねがい いたし ます。", "de": "Ich freue mich auf das heutige Gespräch." }, "note": "Die höfliche Form von きょう – in Ansagen, E-Mails und im Gespräch mit Kunden." },
+    { "id": "tokuni", "word": "特[とく]に", "de": "besonders; vor allem", "pos": "adv", "example": { "text": "スポーツ は 何[なん] でも 好[す]き です が、 特[とく]に テニス が 好[す]き です。", "de": "Ich mag jeden Sport, vor allem Tennis." }, "note": "とくに ありません = Nichts Besonderes. (Typische Antwort, wenn man keine Fragen hat.)" },
+    { "id": "tokubetsu", "word": "特[とく]別[べつ]", "de": "besonders; speziell", "pos": "adj", "example": { "text": "今日[きょう] は 特[とく]別[べつ] な 日[ひ] です から、 スーツ を 着[き]て い ます。", "de": "Heute ist ein besonderer Tag, deshalb trage ich einen Anzug." }, "note": "な-Adjektiv: とくべつな 日. Als Adverb: とくべつに." },
+    { "id": "mochimono", "word": "持[も]ち物[もの]", "de": "die Sachen, die man mitbringen soll; das Gepäck", "pos": "noun", "example": { "text": "面接[めんせつ] の 持[も]ち物[もの] は 履[り]歴[れき]書[しょ] と ペン です。", "de": "Zum Gespräch muss man den Lebenslauf und einen Stift mitbringen." } },
+    { "id": "motteikimasu", "word": "持[も]って 行[い]き ます", "de": "mitnehmen", "pos": "verb", "forms": "Wörterbuchform もって いく · て-Form もって いって · Gegenstück: もって きます (mitbringen)", "example": { "text": "あした は 雨[あめ] です から、 かさ を 持[も]って 行[い]き ます。", "de": "Morgen regnet es, deshalb nehme ich einen Schirm mit." }, "note": "Bei Personen sagt man つれて いきます (jemanden mitnehmen)." },
+    { "id": "suutsu", "word": "スーツ", "de": "der Anzug; das Kostüm", "pos": "noun", "example": { "text": "面接[めんせつ] に は 黒[くろ]い スーツ を 着[き]て 行[い]き ます。", "de": "Zum Vorstellungsgespräch gehe ich im schwarzen Anzug." }, "note": "In Japan tragen Bewerberinnen und Bewerber fast immer schwarze oder dunkelblaue Anzüge." },
+    { "id": "jikoshoukai", "word": "自[じ]己[こ]紹介[しょうかい]", "de": "die Selbstvorstellung", "pos": "noun", "example": { "text": "では、 まず 自[じ]己[こ]紹介[しょうかい] を して ください。", "de": "Stellen Sie sich bitte zuerst kurz vor." }, "note": "しょうかいします = vorstellen: ともだちを しょうかいします." },
+    { "id": "muiteimasu", "word": "向[む]いて い ます", "de": "geeignet sein (für)", "pos": "phrase", "example": { "text": "人[ひと] と 話[はな]す の が 好[す]き です から、 この 仕事[しごと] に 向[む]いて いる と 思[おも]い ます。", "de": "Ich rede gern mit Menschen, deshalb glaube ich, dass ich für diese Arbeit geeignet bin.", "focus": "向[む]いて いる" }, "note": "〜に むいて います = für … geeignet sein. Verneint: むいて いません." },
+    { "id": "toshite", "word": "〜として", "alt": ["として"], "de": "als (in der Rolle von)", "pos": "particle", "example": { "text": "大学[だいがく] で 留[りゅう]学生[がくせい] として 日本[にほん]語[ご] を 勉強[べんきょう] して い ます。", "de": "Ich lerne als Austauschstudentin an der Uni Japanisch.", "focus": "として" } },
+    { "id": "okyakusama", "word": "お客[きゃく]様[さま]", "de": "der Kunde; der Gast (sehr höflich)", "pos": "noun", "example": { "text": "お客[きゃく]様[さま] に は 敬[けい]語[ご] で 話[はな]し ます。", "de": "Mit Kunden spricht man in Keigo." }, "note": "Normal: おきゃくさん. 〜さま ist die sehr höfliche Form von 〜さん." },
+    { "id": "tokui", "word": "得[とく]意[い]", "de": "gut in etwas; die Stärke", "pos": "adj", "example": { "text": "料理[りょうり] が 得[とく]意[い] です。", "de": "Kochen ist meine Stärke." }, "note": "Über sich selbst sagt man lieber とくい als じょうず – じょうず klingt nach Eigenlob." },
+    { "id": "irasshaimasu", "word": "いらっしゃい ます", "de": "da sein; kommen; gehen (respektvoll)", "pos": "verb", "forms": "statt います · きます · いきます · て-Form いらっしゃって", "example": { "text": "山田[やまだ] 先生[せんせい] は 今[いま] 研究室[けんきゅうしつ] に いらっしゃい ます か。", "de": "Ist Frau Yamada gerade in ihrem Büro?" } },
+    { "id": "nasaimasu", "word": "なさい ます", "de": "tun; machen (respektvoll)", "pos": "verb", "forms": "statt します · て-Form なさって", "example": { "text": "週[しゅう]末[まつ] は 何[なに] を なさい ます か。", "de": "Was machen Sie am Wochenende?" } },
+    { "id": "meshiagarimasu", "word": "めしあがり ます", "de": "essen; trinken (respektvoll)", "pos": "verb", "forms": "statt たべます · のみます · て-Form めしあがって", "example": { "text": "どうぞ、 めしあがって ください。", "de": "Bitte, greifen Sie zu.", "focus": "めしあがって" } },
+    { "id": "osshaimasu", "word": "おっしゃい ます", "de": "sagen (respektvoll)", "pos": "verb", "forms": "statt いいます · て-Form おっしゃって", "example": { "text": "すみません、 もう 一[いち]度[ど] おっしゃって ください。", "de": "Entschuldigung, könnten Sie das bitte noch einmal sagen?", "focus": "おっしゃって" } },
+    { "id": "goranninarimasu", "word": "ご覧[らん] に なり ます", "de": "sehen; ansehen (respektvoll)", "pos": "verb", "forms": "statt みます · Bitte: ごらん ください", "example": { "text": "先生[せんせい] は もう この 映[えい]画[が] を ご覧[らん] に なり ました か。", "de": "Haben Sie diesen Film schon gesehen?", "focus": "ご覧[らん] に なり" } },
+    { "id": "gozonji", "word": "ご存[ぞん]じ です", "de": "wissen; kennen (respektvoll)", "pos": "phrase", "example": { "text": "この 会社[かいしゃ] を ご存[ぞん]じ です か。", "de": "Kennen Sie diese Firma?" }, "note": "Statt しって います. Verneint: ごぞんじ ありません." },
+    { "id": "moushimasu", "word": "申[もう]し ます", "de": "heißen; sagen (bescheiden)", "pos": "verb", "forms": "statt いいます · て-Form もうして", "example": { "text": "はじめまして。 アンナ・ベッカー と 申[もう]し ます。", "de": "Guten Tag, mein Name ist Anna Becker." } },
+    { "id": "itashimasu", "word": "いたし ます", "de": "tun; machen (bescheiden)", "pos": "verb", "forms": "statt します · て-Form いたして", "example": { "text": "私[わたし] が ご案内[あんない] いたし ます。", "de": "Ich führe Sie herum." } },
+    { "id": "mairimasu", "word": "まいり ます", "de": "gehen; kommen (bescheiden)", "pos": "verb", "forms": "statt いきます · きます · て-Form まいって", "example": { "text": "ドイツ の ミュンヘン から まいり ました。", "de": "Ich komme aus München in Deutschland.", "focus": "まいり" } },
+    { "id": "haikenshimasu", "word": "拝[はい]見[けん] し ます", "de": "ansehen; lesen (bescheiden)", "pos": "verb", "forms": "statt みます · て-Form はいけんして", "example": { "text": "会社[かいしゃ] の ホームページ を 拝[はい]見[けん] し ました。", "de": "Ich habe mir die Website Ihrer Firma angesehen.", "focus": "拝[はい]見[けん] し" } },
+    { "id": "ukagaimasu", "word": "うかがい ます", "de": "fragen; besuchen (bescheiden)", "pos": "verb", "forms": "statt ききます (fragen) · いきます (besuchen) · て-Form うかがって", "example": { "text": "ちょっと うかがい ます が、 駅[えき] は どちら です か。", "de": "Darf ich kurz fragen, wo der Bahnhof ist?" }, "note": "Kanji: 伺います." }
+  ],
+  "grammar": [
+    {
+      "id": "sonkeigo",
+      "title": "Respekt vor anderen: そんけいご (尊敬語)",
+      "blocks": [
+        { "type": "p", "text": "Neben der höflichen です/ます-Form gibt es im Japanischen noch eine Stufe mehr: けいご, die Höflichkeitssprache. Sie ist wichtig im Beruf, im Vorstellungsgespräch und gegenüber Kunden. そんけいご (respektvolle Sprache) benutzt du, wenn du darüber sprichst, was eine höhergestellte Person tut – dein Gegenüber im Gespräch, die Chefin, die Lehrerin, Kunden. Damit hebst du die andere Person an." },
+        { "type": "table", "head": ["normal", "そんけいご", "Deutsch"], "rows": [["い ます / 行[い]き ます / 来[き] ます", "いらっしゃい ます", "da sein / gehen / kommen"], ["し ます", "なさい ます", "tun"], ["言[い]い ます", "おっしゃい ます", "sagen"], ["食[た]べ ます / 飲[の]み ます", "めしあがり ます", "essen / trinken"], ["見[み] ます", "ご覧[らん] に なり ます", "sehen"], ["知[し]って い ます", "ご存[ぞん]じ です", "wissen; kennen"], ["くれ ます", "ください ます", "(mir) geben"]] },
+        { "type": "p", "text": "Für die meisten anderen Verben gibt es ein Muster: お + ます-Stamm + に なります. Bei Verben mit します (しゅっちょうします, けっこんします) nimmt man einfach なさいます: しゅっちょう なさいます." },
+        { "type": "table", "head": ["ます-Form", "お〜に なります", "Deutsch"], "rows": [["待[ま]ち ます", "お待[ま]ち に なり ます", "warten"], ["帰[かえ]り ます", "お帰[かえ]り に なり ます", "nach Hause gehen"], ["書[か]き ます", "お書[か]き に なり ます", "schreiben"], ["使[つか]い ます", "お使[つか]い に なり ます", "benutzen"], ["読[よ]み ます", "お読[よ]み に なり ます", "lesen"]] },
+        { "type": "tip", "text": "Das Muster geht nicht bei Verben mit nur einer Silbe vor ます (みます, います, ねます). Dafür gibt es die Sonderformen aus der ersten Tabelle." },
+        { "type": "p", "text": "Mit お + ます-Stamm + ください bittest du sehr höflich: おまちください (Warten Sie bitte). Das kennst du schon aus しょうしょう おまちください. Kurz und häufig ist auch お + ます-Stamm + です: おもちですか (Haben Sie …?), おかえりですか (Gehen Sie nach Hause?)." },
+        { "type": "examples", "items": [{ "text": "社長[しゃちょう] は 何時[なんじ] に いらっしゃい ます か。", "de": "Um wie viel Uhr kommt der Chef?" }, { "text": "部長[ぶちょう] は もう お帰[かえ]り に なり ました。", "de": "Die Abteilungsleiterin ist schon nach Hause gegangen." }, { "text": "何[なに] を めしあがり ます か。", "de": "Was möchten Sie essen?" }, { "text": "先生[せんせい] が そう おっしゃい ました。", "de": "Das hat die Lehrerin gesagt." }, { "text": "こちら で お待[ま]ち ください。", "de": "Bitte warten Sie hier." }] },
+        { "type": "tip", "text": "Über dich selbst benutzt du そんけいご nie! わたしは いらっしゃいます ist falsch – für dich selbst gibt es die bescheidene Sprache (nächstes Thema)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "山田[やまだ] 先生[せんせい] は 今[いま] 研究室[けんきゅうしつ] に ___ か。", "answers": ["いらっしゃい ます"], "de": "Ist Frau Yamada gerade in ihrem Büro?" },
+        { "type": "cloze", "text": "部長[ぶちょう] は もう お帰[かえ]り に ___。", "answers": ["なり ました"], "de": "Die Abteilungsleiterin ist schon nach Hause gegangen." },
+        { "type": "cloze", "text": "週[しゅう]末[まつ] は 何[なに] を ___ か。", "answers": ["なさい ます"], "de": "Was machen Sie am Wochenende?", "hint": "します → そんけいご" },
+        { "type": "choice", "prompt": "Du fragst deine Chefin, ob sie den Bericht schon gelesen hat. Was sagst du?", "options": ["もう お読[よ]み に なり ました か。", "もう お読[よ]み し ました か。", "もう 読[よ]んだ？"], "answer": 0, "explain": "お〜に なります hebt die Chefin an (そんけいご). お〜します ist bescheiden und nur für dich selbst. よんだ? ist Umgangssprache unter Freunden." },
+        { "type": "translate", "de": "Was möchten Sie trinken?", "answers": ["何[なに] を めしあがり ます か。", "お飲[の]み物[もの] は 何[なに] に なさい ます か。", "お飲[の]み物[もの] は 何[なに] を めしあがり ます か。"] },
+        { "type": "translate", "de": "Bitte warten Sie hier.", "answers": ["こちら で 少[すこ]し お待[ま]ち ください。", "こちら で しょうしょう お待[ま]ち ください。", "こちら で お待[ま]ち ください。", "ここ で 少[すこ]し お待[ま]ち ください。", "ここ で しょうしょう お待[ま]ち ください。", "ここ で お待[ま]ち ください。"] },
+        { "type": "order", "de": "Kennen Sie diese Firma?", "answer": "この 会社[かいしゃ] を ご存[ぞん]じ です か。", "distractors": ["知[し]って"] }
+      ]
+    },
+    {
+      "id": "kenjougo",
+      "title": "Bescheiden über sich selbst: けんじょうご (謙譲語)",
+      "blocks": [
+        { "type": "p", "text": "Die zweite Seite der けいご ist けんじょうご, die bescheidene Sprache. Du benutzt sie für das, was DU tust (oder deine Firma, deine Familie) – vor allem, wenn es für die andere Person geschieht. Statt die andere Person anzuheben, machst du dich selbst ein bisschen kleiner." },
+        { "type": "table", "head": ["normal", "けんじょうご", "Deutsch"], "rows": [["言[い]い ます", "申[もう]し ます", "sagen; heißen"], ["し ます", "いたし ます", "tun"], ["行[い]き ます / 来[き] ます", "まいり ます", "gehen / kommen"], ["い ます", "おり ます", "da sein"], ["もらい ます / 食[た]べ ます", "いただき ます", "bekommen / essen"], ["見[み] ます", "拝[はい]見[けん] し ます", "ansehen"], ["聞[き]き ます / 行[い]き ます (besuchen)", "うかがい ます", "fragen / besuchen"], ["です", "で ございます", "sein"]] },
+        { "type": "tip", "text": "いただきます kennst du schon vom Essen – wörtlich heißt es „Ich nehme (bescheiden) an“. おります hat nichts mit おります (aussteigen) zu tun – es klingt nur gleich." },
+        { "type": "p", "text": "Auch hier gibt es ein Muster: お + ます-Stamm + します. Bei Nomen mit します steht meistens ご davor: ごあんない します, ごれんらく します." },
+        { "type": "table", "head": ["ます-Form", "お〜します", "Deutsch"], "rows": [["持[も]ち ます", "お持[も]ち し ます", "ich trage (für Sie)"], ["送[おく]り ます", "お送[おく]り し ます", "ich schicke (Ihnen)"], ["待[ま]ち ます", "お待[ま]ち し ます", "ich warte (auf Sie)"], ["手[て]伝[つだ]い ます", "お手[て]伝[つだ]い し ます", "ich helfe (Ihnen)"], ["案内[あんない] し ます", "ご案内[あんない] し ます", "ich führe (Sie)"], ["連[れん]絡[らく] し ます", "ご連[れん]絡[らく] し ます", "ich melde mich (bei Ihnen)"]] },
+        { "type": "p", "text": "Auch 〜て います wird bescheiden: 〜て おります. So klingst du im Vorstellungsgespräch und in E-Mails professionell." },
+        { "type": "examples", "items": [{ "text": "はじめまして。 佐藤[さとう] と 申[もう]し ます。", "de": "Guten Tag, mein Name ist Sato." }, { "text": "あした 三時[さんじ] に そちら へ まいり ます。", "de": "Ich komme morgen um drei Uhr zu Ihnen." }, { "text": "お荷物[にもつ]、 お持[も]ち し ましょう か。", "de": "Soll ich Ihr Gepäck tragen?" }, { "text": "大学[だいがく] で 日本[にほん]語[ご] を 勉強[べんきょう] して おり ます。", "de": "Ich studiere Japanisch an der Universität." }, { "text": "ご連[れん]絡[らく]、 お待[ま]ち して おり ます。", "de": "Ich freue mich auf Ihre Nachricht." }] },
+        { "type": "tip", "text": "Faustregel: Tut es die andere Person → そんけいご (いらっしゃいます, お〜に なります). Tue ich es → けんじょうご (まいります, お〜します). Auch die eigene Firma gehört zu „ich“: Gegenüber Kunden spricht man sogar über die eigene Chefin bescheiden und ohne さん: たなかは いま おりません." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "はじめまして。 アンナ・ベッカー と ___。", "answers": ["申[もう]し ます"], "de": "Guten Tag, ich heiße Anna Becker." },
+        { "type": "cloze", "text": "ミュンヘン から ___ ました。", "answers": ["まいり"], "de": "Ich komme aus München.", "hint": "きます → けんじょうご" },
+        { "type": "cloze", "text": "お荷物[にもつ]、 お持[も]ち ___ ましょう か。", "answers": ["し"], "de": "Soll ich Ihr Gepäck tragen?" },
+        { "type": "cloze", "text": "ご連[れん]絡[らく]、 お待[ま]ち して ___。", "answers": ["おり ます"], "de": "Ich freue mich auf Ihre Nachricht." },
+        { "type": "choice", "prompt": "Du begleitest einen Gast zum Besprechungsraum. Was sagst du?", "options": ["会[かい]議[ぎ]室[しつ] まで ご案内[あんない] し ます。", "会[かい]議[ぎ]室[しつ] まで ご案内[あんない] に なり ます。", "会[かい]議[ぎ]室[しつ] まで 案内[あんない] なさい ます。"], "answer": 0, "explain": "Du selbst führst den Gast – also けんじょうご: ごあんない します. Die beiden anderen Formen heben dich selbst an, das wäre unhöflich." },
+        { "type": "translate", "de": "Ich arbeite bei einer Bank. (bescheiden)", "answers": ["私[わたし] は 銀[ぎん]行[こう] で 働[はたら]いて おり ます。", "銀[ぎん]行[こう] で 働[はたら]いて おり ます。", "私[わたし] は 銀[ぎん]行[こう] に つとめて おり ます。", "銀[ぎん]行[こう] に つとめて おり ます。"] },
+        { "type": "translate", "de": "Ich habe mir die Unterlagen angesehen. (bescheiden)", "answers": ["書[しょ]類[るい] を 拝[はい]見[けん] し ました。", "書[しょ]類[るい] は 拝[はい]見[けん] し ました。"] },
+        { "type": "order", "de": "Mein Name ist Sato von der Sakura-Bank.", "answer": "さくら 銀[ぎん]行[こう] の 佐藤[さとう] と 申[もう]し ます。", "distractors": ["いたし"] }
+      ]
+    },
+    {
+      "id": "mensetsu-hyougen",
+      "title": "Im Vorstellungsgespräch: feste Wendungen",
+      "blocks": [
+        { "type": "p", "text": "Ein japanisches Vorstellungsgespräch läuft sehr formell ab. Viele Sätze sind feste Wendungen, die alle benutzen – lern sie als Ganzes." },
+        { "type": "table", "head": ["Situation", "Japanisch", "Deutsch"], "rows": [["Eintreten, Hinsetzen, Gehen", "しつれい いたし ます。", "Entschuldigen Sie die Störung. / Danke. / Auf Wiedersehen."], ["Begrüßung", "本日[ほんじつ] は よろしく おねがい いたし ます。", "Ich freue mich auf das heutige Gespräch."], ["Sich vorstellen", "アンナ・ベッカー と 申[もう]し ます。", "Mein Name ist Anna Becker."], ["Aufforderung", "どうぞ、 おかけ ください。", "Bitte nehmen Sie Platz."], ["Nachfragen", "もう 一[いち]度[ど] おっしゃって いただけ ません か。", "Könnten Sie das bitte wiederholen?"], ["Abschluss", "本日[ほんじつ] は ありがとうございました。", "Vielen Dank für das heutige Gespräch."]] },
+        { "type": "p", "text": "Typische Fragen beantwortest du in ganzen Sätzen, mit けいご und mit Begründung (〜ので, 〜と おもいます). Erfahrungen erzählst du mit 〜て おりました (bescheiden für 〜て いました)." },
+        { "type": "examples", "items": [{ "text": "どうして この 会社[かいしゃ] に おうぼ なさい ました か。", "de": "Warum haben Sie sich bei dieser Firma beworben?" }, { "text": "外国[がいこく] の お客[きゃく]様[さま] と 話[はな]す 仕事[しごと] が し たい と 思[おも]い ました。", "de": "Ich wollte gern eine Arbeit, bei der ich mit Kunden aus dem Ausland spreche." }, { "text": "私[わたし] の 長所[ちょうしょ] は、 だれ と でも すぐ 話[はな]せる ところ です。", "de": "Meine Stärke ist, dass ich mit jedem sofort ins Gespräch komme." }, { "text": "アルバイト で 三[さん]年[ねん] 通訳[つうやく] を して おり ました。", "de": "Ich habe drei Jahre lang als Nebenjob gedolmetscht." }, { "text": "何[なに] か 質[しつ]問[もん] は あり ます か。 — はい、 一[ひと]つ うかがって も よろしい でしょう か。", "de": "Haben Sie noch Fragen? – Ja, darf ich eine Frage stellen?" }] },
+        { "type": "tip", "text": "よろしい ist die höfliche Form von いい. 〜ても よろしいでしょうか ist die Bewerbungs-Version von 〜ても いいですか." },
+        { "type": "tip", "text": "Kleine Etikette: Erst setzen, wenn man dazu aufgefordert wird. Die Tasche neben den Stuhl stellen, nicht auf den Tisch. Am Ende an der Tür noch einmal verbeugen und しつれい いたします sagen." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "本日[ほんじつ] は よろしく おねがい ___。", "answers": ["いたし ます"], "de": "Ich freue mich auf das heutige Gespräch." },
+        { "type": "cloze", "text": "どうぞ、 お___ ください。", "answers": ["かけ"], "de": "Bitte nehmen Sie Platz." },
+        { "type": "cloze", "text": "一[ひと]つ うかがって も ___ でしょう か。", "answers": ["よろしい", "いい"], "de": "Darf ich eine Frage stellen?" },
+        { "type": "match", "pairs": [["しつれい いたし ます", "Entschuldigen Sie die Störung (sehr höflich)"], ["本日[ほんじつ] は ありがとうございました", "Vielen Dank für das heutige Gespräch"], ["どうぞ、 おかけ ください", "Bitte nehmen Sie Platz"], ["もう 一[いち]度[ど] おっしゃって ください", "Bitte sagen Sie es noch einmal"], ["ご連[れん]絡[らく]、 お待[ま]ち して おり ます", "Ich freue mich auf Ihre Nachricht"]] },
+        { "type": "translate", "de": "Ich habe ein Jahr lang in einem Café gejobbt. (bescheiden)", "answers": ["私[わたし] は 一[いち]年[ねん] カフェ で アルバイト を して おり ました。", "私[わたし] は 一[いち]年[ねん]間[かん] カフェ で アルバイト を して おり ました。", "一[いち]年[ねん] カフェ で アルバイト を して おり ました。", "一[いち]年[ねん]間[かん] カフェ で アルバイト を して おり ました。", "私[わたし] は カフェ で 一[いち]年[ねん] アルバイト を して おり ました。", "私[わたし] は カフェ で 一[いち]年[ねん]間[かん] アルバイト を して おり ました。", "カフェ で 一[いち]年[ねん] アルバイト を して おり ました。", "カフェ で 一[いち]年[ねん]間[かん] アルバイト を して おり ました。"] },
+        { "type": "translate", "de": "Meine Stärke ist, dass ich gewissenhaft bin.", "answers": ["私[わたし] の 長所[ちょうしょ] は まじめ な ところ です。", "私[わたし] の 長所[ちょうしょ] は まじめ な こと です。", "長所[ちょうしょ] は まじめ な ところ です。", "長所[ちょうしょ] は まじめ な こと です。"] },
+        { "type": "order", "de": "Darf ich eine Frage stellen?", "answer": "一[ひと]つ 質[しつ]問[もん] して も よろしい でしょう か。", "distractors": ["いたし"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "旅行会社[りょこうがいしゃ] の 面接[めんせつ]",
+    "title_de": "Das Vorstellungsgespräch",
+    "lines": [
+      { "speaker": "アンナ", "text": "しつれい いたし ます。", "de": "Entschuldigen Sie die Störung." },
+      { "speaker": "たかはし", "text": "どうぞ、 おかけ ください。", "de": "Bitte nehmen Sie Platz." },
+      { "speaker": "アンナ", "text": "しつれい いたし ます。 本日[ほんじつ] は よろしく おねがい いたし ます。", "de": "Danke. Ich freue mich auf das heutige Gespräch." },
+      { "speaker": "たかはし", "text": "人事部[じんじぶ] の 高[たか]橋[はし] です。 では、 まず 自[じ]己[こ]紹介[しょうかい] を おねがいします。", "de": "Ich bin Takahashi von der Personalabteilung. Stellen Sie sich bitte zuerst kurz vor." },
+      { "speaker": "アンナ", "text": "はい。 アンナ・ベッカー と 申[もう]し ます。 ドイツ の ミュンヘン から まいり ました。 今[いま] は 東[とう]京[きょう] の 大学[だいがく] で 日本[にほん]語[ご] を 勉強[べんきょう] して おり ます。", "de": "Gern. Mein Name ist Anna Becker. Ich komme aus München in Deutschland. Zurzeit studiere ich in Tokio Japanisch." },
+      { "speaker": "たかはし", "text": "どうして この 会社[かいしゃ] に おうぼ なさい ました か。", "de": "Warum haben Sie sich bei uns beworben?" },
+      { "speaker": "アンナ", "text": "旅行[りょこう] が 大[だい]好[す]き で、 日本[にほん] の いい ところ を ドイツ の お客[きゃく]様[さま] に 紹介[しょうかい] し たい と 思[おも]い ました。", "de": "Ich reise leidenschaftlich gern und möchte deutschen Kunden die schönen Seiten Japans zeigen." },
+      { "speaker": "たかはし", "text": "なるほど。 仕事[しごと] の 経験[けいけん] は あり ます か。", "de": "Verstehe. Haben Sie Berufserfahrung?" },
+      { "speaker": "アンナ", "text": "はい。 ドイツ で 二[に]年[ねん]、 旅行会社[りょこうがいしゃ] で アルバイト を して おり ました。 日本[にほん] から の お客[きゃく]様[さま] の 通訳[つうやく] も いたし ました。", "de": "Ja. In Deutschland habe ich zwei Jahre lang in einem Reisebüro gejobbt. Dort habe ich auch für Gäste aus Japan gedolmetscht." },
+      { "speaker": "たかはし", "text": "それ は いい 経験[けいけん] です ね。 では、 ご自分[じぶん] の 長所[ちょうしょ] と 短[たん]所[しょ] を 教[おし]えて ください。", "de": "Das ist eine wertvolle Erfahrung. Nennen Sie mir bitte Ihre Stärken und Schwächen." },
+      { "speaker": "アンナ", "text": "長所[ちょうしょ] は、 だれ と でも すぐ 話[はな]せる ところ です。 短[たん]所[しょ] は、 人[ひと] の 前[まえ] で 話[はな]す とき、 緊張[きんちょう] して しまう ところ です。", "de": "Meine Stärke ist, dass ich mit jedem sofort ins Gespräch komme. Meine Schwäche: Wenn ich vor Leuten spreche, werde ich nervös." },
+      { "speaker": "アンナ", "text": "でも、 毎日[まいにち] 練[れん]習[しゅう] して、 前[まえ] より 上手[じょうず] に 話[はな]せる よう に なり ました。", "de": "Aber weil ich jeden Tag übe, spreche ich inzwischen besser als früher." },
+      { "speaker": "たかはし", "text": "今日[きょう] も とても 上手[じょうず] です よ。 最[さい]後[ご] に、 何[なに] か 質[しつ]問[もん] は あり ます か。", "de": "Heute machen Sie das auch sehr gut. Haben Sie zum Schluss noch eine Frage?" },
+      { "speaker": "アンナ", "text": "はい、 一[ひと]つ うかがって も よろしい です か。 入社[にゅうしゃ] の 前[まえ] に、 何[なに] を じゅんび して おけば いい でしょう か。", "de": "Ja, darf ich eine Frage stellen? Was sollte ich vor dem Firmeneintritt vorbereiten?" },
+      { "speaker": "たかはし", "text": "そう です ね…。 敬[けい]語[ご] を もう 少[すこ]し 練[れん]習[しゅう] して おいて ください。 結果[けっか] は 来週[らいしゅう] メール で ご連[れん]絡[らく] し ます。", "de": "Hm … Üben Sie bitte noch etwas Keigo. Das Ergebnis teilen wir Ihnen nächste Woche per E-Mail mit." },
+      { "speaker": "アンナ", "text": "かしこまりました。 本日[ほんじつ] は ありがとうございました。 しつれい いたし ます。", "de": "Sehr wohl. Vielen Dank für das heutige Gespräch. Auf Wiedersehen." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["面接[めんせつ]", "das Vorstellungsgespräch"], ["履[り]歴[れき]書[しょ]", "der Lebenslauf"], ["経験[けいけん]", "die Erfahrung"], ["長所[ちょうしょ]", "die Stärke"], ["短[たん]所[しょ]", "die Schwäche"], ["給[きゅう]料[りょう]", "das Gehalt"]] },
+    { "type": "match", "pairs": [["いらっしゃい ます", "da sein (respektvoll)"], ["申[もう]し ます", "heißen (bescheiden)"], ["めしあがり ます", "essen (respektvoll)"], ["まいり ます", "kommen (bescheiden)"], ["なさい ます", "tun (respektvoll)"], ["いたし ます", "tun (bescheiden)"]] },
+    { "type": "translate", "de": "Vor Vorstellungsgesprächen bin ich immer nervös.", "answers": ["私[わたし] は 面接[めんせつ] の 前[まえ] に は いつも 緊張[きんちょう] し ます。", "私[わたし] は 面接[めんせつ] の 前[まえ] に いつも 緊張[きんちょう] し ます。", "私[わたし] は 面接[めんせつ] の 前[まえ] は いつも 緊張[きんちょう] し ます。", "私[わたし] は 面接[めんせつ] の 前[まえ] いつも 緊張[きんちょう] し ます。", "面接[めんせつ] の 前[まえ] に は いつも 緊張[きんちょう] し ます。", "面接[めんせつ] の 前[まえ] に いつも 緊張[きんちょう] し ます。", "面接[めんせつ] の 前[まえ] は いつも 緊張[きんちょう] し ます。", "面接[めんせつ] の 前[まえ] いつも 緊張[きんちょう] し ます。"] },
+    { "type": "translate", "de": "Hast du Erfahrung mit Nebenjobs?", "answers": ["アルバイト の 経験[けいけん] は あり ます か。", "アルバイト の 経験[けいけん] が あり ます か。", "アルバイト を した こと が あり ます か。"] },
+    { "type": "translate", "de": "Welche Qualifikationen haben Sie?", "answers": ["どんな 資格[しかく] を 持[も]って い ます か。", "どんな 資格[しかく] を お持[も]ち です か。", "どんな 資格[しかく] を お持[も]ち に なって い ます か。"] },
+    { "type": "translate", "de": "Ich glaube, ich bin für diese Arbeit geeignet.", "answers": ["私[わたし] は この 仕事[しごと] に 向[む]いて いる と 思[おも]い ます。", "この 仕事[しごと] に 向[む]いて いる と 思[おも]い ます。"] },
+    { "type": "order", "de": "Ich möchte als Festangestellte arbeiten.", "answer": "正社員[せいしゃいん] として 働[はたら]き たい です。", "distractors": ["に"] },
+    { "type": "order", "de": "Was machen Sie am Wochenende?", "answer": "週[しゅう]末[まつ] は 何[なに] を なさい ます か。", "distractors": ["いたし"] },
+    { "type": "cloze", "text": "面接[めんせつ] の ___ は 履[り]歴[れき]書[しょ] と ペン です。", "answers": ["持[も]ち物[もの]"], "de": "Zum Gespräch muss man den Lebenslauf und einen Stift mitbringen." },
+    { "type": "cloze", "text": "英[えい]語[ご] に は ___ が あり ます。", "answers": ["自[じ]信[しん]"], "de": "In Englisch bin ich mir sicher." },
+    { "type": "cloze", "text": "料理[りょうり] が ___ です。", "answers": ["得[とく]意[い]"], "de": "Kochen ist meine Stärke." },
+    { "type": "listen", "text": "はじめまして。 アンナ・ベッカー と 申[もう]し ます。 よろしく おねがい いたし ます。", "de": "Guten Tag, mein Name ist Anna Becker. Ich freue mich auf die Zusammenarbeit." },
+    { "type": "listen", "text": "結果[けっか] は 来週[らいしゅう] メール で ご連[れん]絡[らく] し ます。", "de": "Das Ergebnis teilen wir Ihnen nächste Woche per E-Mail mit." },
+    { "type": "listen", "text": "有名[ゆうめい] な 会社[かいしゃ] で 働[はたら]く より、 好[す]き な 仕事[しごと] を し たい です。", "de": "Lieber als bei einer berühmten Firma möchte ich eine Arbeit machen, die ich mag." }
+  ]
+}

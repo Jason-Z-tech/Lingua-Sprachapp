@@ -166,35 +166,35 @@
           "file": "b1-01.json",
           "title_de": "Meine Meinung",
           "topic": "Meinungen äußern und begründen",
-          "available": false
+          "available": true
         },
         {
           "id": "it-b1-02",
           "file": "b1-02.json",
           "title_de": "Medien und Technik",
           "topic": "Handy, Internet und Nachrichten",
-          "available": false
+          "available": true
         },
         {
           "id": "it-b1-03",
           "file": "b1-03.json",
           "title_de": "Umwelt",
           "topic": "Natur, Klima und Umweltschutz",
-          "available": false
+          "available": true
         },
         {
           "id": "it-b1-04",
           "file": "b1-04.json",
           "title_de": "Zusammenleben",
           "topic": "Wohnen, Nachbarn und Mitbewohner",
-          "available": false
+          "available": true
         },
         {
           "id": "it-b1-05",
           "file": "b1-05.json",
           "title_de": "Lernen",
           "topic": "Schule, Studium und Weiterbildung",
-          "available": false
+          "available": true
         },
         {
           "id": "it-b1-06",

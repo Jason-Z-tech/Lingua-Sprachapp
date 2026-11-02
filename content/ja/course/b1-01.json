@@ -1,0 +1,161 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-01",
+  "lang": "ja",
+  "level": "B1",
+  "number": 1,
+  "title": "私[わたし] の 意見[いけん]",
+  "title_de": "Meine Meinung",
+  "topic": "Meinungen äußern und begründen",
+  "goals": [
+    "Du kannst mit einfacher Form + と おもいます deine Meinung sagen und mit 〜と いって いました wiedergeben, was andere gesagt haben.",
+    "Du kannst Gründe nennen: mit 〜ので (weich und höflich) und mit 〜し、〜し (mehrere Gründe).",
+    "Du kannst mit 〜に ついて ein Thema nennen, höflich zustimmen (そうですね, たしかに) und vorsichtig widersprechen (そうでしょうか)."
+  ],
+  "kanji": ["意", "説", "言", "問", "題", "答", "正"],
+  "vocab": [
+    { "id": "iken", "word": "意見[いけん]", "de": "die Meinung; die Ansicht", "pos": "noun", "example": { "text": "会[かい]議[ぎ] で 意見[いけん] を 言[い]い ました。", "de": "In der Besprechung habe ich meine Meinung gesagt." }, "note": "いけんを いいます = seine Meinung sagen. いけんが あいます = einer Meinung sein." },
+    { "id": "iimasu", "word": "言[い]い ます", "de": "sagen", "pos": "verb", "forms": "Wörterbuchform いう · て-Form いって · ない-Form いわない · た-Form いった", "example": { "text": "けん さん は 「おいしい！」 と 言[い]い ました。", "de": "Ken sagte: „Lecker!“", "focus": "言[い]い ました" }, "note": "Was jemand sagt, steht vor と. Die Wörterbuchform いう spricht man wie „juu“ aus." },
+    { "id": "setsumei", "word": "説明[せつめい] し ます", "de": "erklären", "pos": "verb", "forms": "Wörterbuchform せつめいする · て-Form せつめいして", "example": { "text": "山[やま]田[だ] 先生[せんせい] は いつも ゆっくり 説明[せつめい] し ます。", "de": "Frau Yamada erklärt immer langsam." }, "note": "Wem man etwas erklärt, markiert に. Nomen: せつめい (die Erklärung)." },
+    { "id": "mondai", "word": "問題[もんだい]", "de": "das Problem; die Aufgabe (in einer Prüfung)", "pos": "noun", "example": { "text": "それ は 大[おお]きい 問題[もんだい] です ね。", "de": "Das ist ein großes Problem." }, "note": "もんだい ありません = kein Problem." },
+    { "id": "wadai", "word": "話題[わだい]", "de": "das Gesprächsthema", "pos": "noun", "example": { "text": "今[いま]、 この ドラマ が 話題[わだい] に なって い ます。", "de": "Diese Serie ist gerade in aller Munde." }, "note": "わだいに なる = viel besprochen werden." },
+    { "id": "kotae", "word": "答[こた]え", "de": "die Antwort; die Lösung", "pos": "noun", "example": { "text": "この 問題[もんだい] の 答[こた]え が わかり ます か。", "de": "Weißt du die Lösung dieser Aufgabe?" } },
+    { "id": "kotaemasu", "word": "答[こた]え ます", "de": "antworten; beantworten", "pos": "verb", "forms": "Wörterbuchform こたえる · て-Form こたえて · た-Form こたえた", "example": { "text": "先生[せんせい] の 質[しつ]問[もん] に 答[こた]え ました。", "de": "Ich habe die Frage der Lehrerin beantwortet.", "focus": "答[こた]え ました" }, "note": "Worauf man antwortet, markiert に: しつもんに こたえます." },
+    { "id": "tadashii", "word": "正[ただ]しい", "de": "richtig; korrekt", "pos": "adj", "example": { "text": "正[ただ]しい 答[こた]え は どれ です か。", "de": "Welche Antwort ist richtig?" } },
+    { "id": "imi", "word": "意[い]味[み]", "de": "die Bedeutung; der Sinn", "pos": "noun", "example": { "text": "この 言[こと]葉[ば] は どう いう 意[い]味[み] です か。", "de": "Was bedeutet dieses Wort?" }, "note": "どういう いみですか = Was bedeutet das? いみが ない = sinnlos." },
+    { "id": "kotoba", "word": "言[こと]葉[ば]", "de": "das Wort; die Sprache", "pos": "noun", "example": { "text": "その 言[こと]葉[ば] は はじめて 聞[き]き ました。", "de": "Dieses Wort höre ich zum ersten Mal." } },
+    { "id": "riyuu", "word": "理[り]由[ゆう]", "de": "der Grund", "pos": "noun", "example": { "text": "理[り]由[ゆう] を 説明[せつめい] して ください。", "de": "Erklär bitte den Grund." } },
+    { "id": "kangae", "word": "考[かんが]え", "de": "die Idee; der Gedanke; die Ansicht", "pos": "noun", "example": { "text": "それ は いい 考[かんが]え です ね。", "de": "Das ist eine gute Idee." }, "note": "Das Nomen zu かんがえます (überlegen)." },
+    { "id": "sansei", "word": "賛成[さんせい]", "de": "die Zustimmung; dafür sein", "pos": "noun", "example": { "text": "私[わたし] は その 意見[いけん] に 賛成[さんせい] です。", "de": "Ich bin mit dieser Meinung einverstanden." }, "note": "〜に さんせいです / さんせいします = für etwas sein." },
+    { "id": "hantai", "word": "反対[はんたい]", "de": "dagegen sein; das Gegenteil", "pos": "noun", "example": { "text": "父[ちち] は 私[わたし] の 留[りゅう]学[がく] に 反対[はんたい] し ました。", "de": "Mein Vater war gegen mein Auslandsstudium." }, "note": "〜に はんたいです = gegen etwas sein. Auch „Gegenteil“: たかいの はんたいは やすいです." },
+    { "id": "hontou", "word": "本[ほん]当[とう]", "de": "wahr; die Wahrheit", "pos": "noun", "example": { "text": "その 話[はなし]、 本[ほん]当[とう] です か。", "de": "Stimmt diese Geschichte?" }, "note": "ほんとうに = wirklich: ほんとうに おいしい! Unter Freunden oft kurz: ほんと？" },
+    { "id": "tashikani", "word": "たしかに", "de": "stimmt; allerdings; sicherlich", "pos": "adv", "example": { "text": "たしかに、 東[とう]京[きょう] は べんり です。 でも、 人[ひと] が 多[おお]い です ね。", "de": "Stimmt, Tokio ist praktisch. Aber es gibt so viele Menschen." }, "note": "Kanji: 確かに. たしかに …。 でも … = erst recht geben, dann widersprechen – sehr höflich." },
+    { "id": "mochiron", "word": "もちろん", "de": "natürlich; selbstverständlich", "pos": "adv", "example": { "text": "もちろん、 私[わたし] も 行[い]き ます よ。", "de": "Natürlich komme ich auch mit." } },
+    { "id": "tatoeba", "word": "例[たと]えば", "de": "zum Beispiel", "pos": "adv", "example": { "text": "日本[にほん] の 料理[りょうり]、 例[たと]えば すし や てんぷら が 好[す]き です。", "de": "Ich mag japanisches Essen, zum Beispiel Sushi und Tempura." } },
+    { "id": "meritto", "word": "メリット", "de": "der Vorteil", "pos": "noun", "example": { "text": "スマホ の メリット は 何[なん] です か。", "de": "Was sind die Vorteile eines Smartphones?" } },
+    { "id": "demeritto", "word": "デメリット", "de": "der Nachteil", "pos": "noun", "example": { "text": "車[くるま] の デメリット は お金[かね] が かかる こと です。", "de": "Der Nachteil eines Autos ist, dass es Geld kostet." } },
+    { "id": "taisetsu", "word": "大[たい]切[せつ]", "de": "wichtig; wertvoll", "pos": "adj", "example": { "text": "友[とも]だち は とても 大[たい]切[せつ] です。", "de": "Freunde sind sehr wichtig." }, "note": "な-Adjektiv: たいせつな もの (etwas Wertvolles). Ähnlich: だいじ." },
+    { "id": "shoujiki", "word": "正[しょう]直[じき]", "de": "ehrlich", "pos": "adj", "example": { "text": "正[しょう]直[じき] に 言[い]って ください。", "de": "Sag es bitte ehrlich." }, "note": "しょうじきに いうと … = ehrlich gesagt … (feste Wendung)." },
+    { "id": "hanashiaimasu", "word": "話[はな]し合[あ]い ます", "de": "besprechen; diskutieren", "pos": "verb", "forms": "Wörterbuchform はなしあう · て-Form はなしあって", "example": { "text": "みんな で 町[まち] の 問題[もんだい] に ついて 話[はな]し合[あ]い ました。", "de": "Wir haben alle zusammen über die Probleme der Stadt diskutiert.", "focus": "話[はな]し合[あ]い ました" } },
+    { "id": "chigaimasu", "word": "違[ちが]い ます", "de": "nicht stimmen; anders sein", "pos": "verb", "forms": "Wörterbuchform ちがう · て-Form ちがって · ない-Form ちがわない", "example": { "text": "すみません、 それ は ちょっと 違[ちが]い ます。", "de": "Entschuldigung, das stimmt so nicht ganz." }, "note": "Auch „verschieden sein“: にほんと ドイツは いろいろ ちがいます." },
+    { "id": "shinjimasu", "word": "信[しん]じ ます", "de": "glauben", "pos": "verb", "forms": "Wörterbuchform しんじる · て-Form しんじて", "example": { "text": "私[わたし] は けん さん の 話[はなし] を 信[しん]じ ます。", "de": "Ich glaube Kens Geschichte." } },
+    { "id": "kanjimasu", "word": "感[かん]じ ます", "de": "fühlen; empfinden", "pos": "verb", "forms": "Wörterbuchform かんじる · て-Form かんじて", "example": { "text": "日本[にほん] の 電車[でんしゃ] は とても 静[しず]か だ と 感[かん]じ ます。", "de": "Ich finde, japanische Züge sind sehr ruhig." }, "note": "〜と かんじます = „ich empfinde, dass …“ – eine Meinung aus eigener Erfahrung." },
+    { "id": "soreni", "word": "それに", "de": "außerdem; dazu noch", "pos": "conj", "example": { "text": "この 店[みせ] は 安[やす]い です。 それに、 おいしい です。", "de": "Dieses Lokal ist billig. Außerdem ist es lecker." } },
+    { "id": "dakara", "word": "だから", "de": "deshalb; darum", "pos": "conj", "example": { "text": "あした は 試験[しけん] です。 だから、 今[こん]晩[ばん] は 勉強[べんきょう] し ます。", "de": "Morgen ist die Prüfung. Deshalb lerne ich heute Abend." }, "note": "Höflicher klingt ですから." },
+    { "id": "kedo", "word": "けど", "de": "aber (umgangssprachlich)", "pos": "conj", "example": { "text": "高[たか]い けど、 おいしい です よ。", "de": "Es ist teuer, aber lecker." }, "note": "Lockere Form von が (aber). Am Satzende macht けど eine Aussage weicher." },
+    { "id": "nitsuite", "word": "〜に ついて", "de": "über; zu (einem Thema)", "pos": "particle", "example": { "text": "日本[にほん] の 文化[ぶんか] に ついて 話[はな]し ました。", "de": "Wir haben über die japanische Kultur gesprochen.", "focus": "に ついて" } },
+    { "id": "node", "word": "〜ので", "de": "weil; da", "pos": "conj", "example": { "text": "雨[あめ] が 降[ふ]って いる ので、 タクシー で 行[い]き ます。", "de": "Weil es regnet, fahre ich mit dem Taxi.", "focus": "ので" }, "note": "Weicher und sachlicher als から." },
+    { "id": "hakkiri", "word": "はっきり", "de": "deutlich; klar", "pos": "adv", "example": { "text": "けん さん は いつも はっきり 意見[いけん] を 言[い]い ます。", "de": "Ken sagt immer klar seine Meinung." } },
+    { "id": "tokai", "word": "都[と]会[かい]", "de": "die Großstadt", "pos": "noun", "example": { "text": "都[と]会[かい] の 生[せい]活[かつ] は べんり です。", "de": "Das Leben in der Großstadt ist praktisch." }, "note": "Das Gegenstück: いなか (das Land)." },
+    { "id": "jinsei", "word": "人生[じんせい]", "de": "das Leben (die Lebenszeit)", "pos": "noun", "example": { "text": "人生[じんせい] で いちばん 大[たい]切[せつ] な もの は 何[なん] です か。", "de": "Was ist das Wichtigste im Leben?" }, "note": "せいかつ = der Alltag, das tägliche Leben; じんせい = das ganze Leben." },
+    { "id": "futsuu", "word": "ふつう", "de": "normal; gewöhnlich; üblich", "pos": "adj", "example": { "text": "日本[にほん] で は、 それ は ふつう です。", "de": "In Japan ist das normal." }, "note": "Kanji: 普通. Beim Zug heißt ふつう „Regionalzug“ (hält überall)." },
+    { "id": "hoka", "word": "ほか", "de": "andere(s)", "pos": "noun", "example": { "text": "ほか の 人[ひと] の 意見[いけん] も 聞[き]き たい です。", "de": "Ich möchte auch die Meinung der anderen hören." }, "note": "ほかに = sonst noch: ほかに しつもんは ありますか." },
+    { "id": "sou-deshou-ka", "word": "そう でしょう か", "de": "Meinst du wirklich? Ist das so?", "pos": "phrase", "example": { "text": "「都[と]会[かい] は 楽[たの]しい です よ。」 「そう でしょう か。」", "de": "„Die Großstadt macht Spaß!“ – „Meinst du wirklich?“" }, "note": "Vorsichtiger Zweifel. Klingt viel höflicher als ちがいます." },
+    { "id": "watashi-mo-sou", "word": "私[わたし] も そう 思[おも]い ます", "de": "Das finde ich auch.", "pos": "phrase", "example": { "text": "「この 問題[もんだい] は 大[たい]切[せつ] です ね。」 「私[わたし] も そう 思[おも]い ます。」", "de": "„Dieses Problem ist wichtig.“ – „Das finde ich auch.“" } }
+  ],
+  "grammar": [
+    {
+      "id": "to-omoimasu",
+      "title": "Meinungen: einfache Form + と おもいます / と いって いました",
+      "blocks": [
+        { "type": "p", "text": "Deine Meinung sagst du mit と おもいます („ich glaube, dass …“, „ich finde …“). Vor と steht immer die einfache Form – nie です oder ます. Die einfachen Formen kennst du aus A2 (Lektion 5)." },
+        { "type": "table", "head": ["Wortart", "einfache Form", "Satz mit と おもいます"], "rows": [["Verb", "降[ふ]る", "あした は 雨[あめ] が 降[ふ]る と 思[おも]い ます。"], ["Verb (verneint)", "来[こ]ない", "けん さん は 来[こ]ない と 思[おも]い ます。"], ["Verb (Vergangenheit)", "終[お]わった", "会[かい]議[ぎ] は もう 終[お]わった と 思[おも]い ます。"], ["い-Adjektiv", "高[たか]い", "この かばん は 高[たか]い と 思[おも]い ます。"], ["な-Adjektiv", "べんり だ", "東[とう]京[きょう] は べんり だ と 思[おも]い ます。"], ["Nomen", "いい 考[かんが]え だ", "それ は いい 考[かんが]え だ と 思[おも]い ます。"]] },
+        { "type": "tip", "text": "Achtung: Bei な-Adjektiven und Nomen brauchst du だ vor と: べんりだと おもいます, がくせいだと おもいます. Bei い-Adjektiven nie: たかいと おもいます (nicht: たかいだと)." },
+        { "type": "p", "text": "Eine verneinte Meinung steckt im Japanischen meist im ersten Teil: 〜ないと おもいます („ich glaube, … nicht“). 〜とは おもいません („das finde ich nicht“) widerspricht deutlich und klingt stärker." },
+        { "type": "p", "text": "Nach der Meinung fragst du mit どう おもいますか („Was meinst du?“). Wenn du weitergibst, was jemand gesagt hat, nimmst du と いって いました. Auch hier steht die einfache Form davor. Wörtliche Zitate stehen in 「 」 – dann darf auch です/ます drinstehen." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["アンナ さん は どう 思[おも]い ます か。", "Was meinst du, Anna?"], ["山[やま]田[だ] 先生[せんせい] は あした は 休[やす]み だ と 言[い]って い ました。", "Frau Yamada hat gesagt, dass morgen frei ist."], ["ソフィー さん は パーティー に 行[い]かない と 言[い]って い ました。", "Sophie hat gesagt, dass sie nicht zur Party geht."], ["けん さん は 「すぐ 行[い]き ます」 と 言[い]い ました。", "Ken sagte: „Ich komme gleich.“"]] },
+        { "type": "tip", "text": "と いいました erzählt einfach, was passiert ist. Mit と いって いました gibst du eine Nachricht weiter („Er hat gesagt, dass …“). Unter Freunden wird と oft zu って: あした やすみだって (Morgen ist frei, hat sie gesagt)." },
+        { "type": "examples", "items": [{ "text": "この 映画[えいが] は おもしろい と 思[おも]い ます。", "de": "Ich finde diesen Film interessant." }, { "text": "いなか の 生[せい]活[かつ] も いい と 思[おも]い ます よ。", "de": "Ich finde, das Leben auf dem Land ist auch schön." }, { "text": "私[わたし] は そう は 思[おも]い ません。", "de": "Das finde ich nicht." }, { "text": "けん さん は 少[すこ]し おくれる と 言[い]って い ました。", "de": "Ken hat gesagt, dass er sich ein bisschen verspätet." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この 映画[えいが] は おもしろい ___ 思[おも]い ます。", "answers": ["と"], "de": "Ich finde diesen Film interessant." },
+        { "type": "cloze", "text": "東[とう]京[きょう] は べんり ___ と 思[おも]い ます。", "answers": ["だ"], "de": "Ich finde Tokio praktisch.", "hint": "な-Adjektiv!" },
+        { "type": "cloze", "text": "あした は 雨[あめ] が ___ と 思[おも]い ます。", "answers": ["降[ふ]る"], "de": "Ich glaube, dass es morgen regnet.", "hint": "ふります → einfache Form" },
+        { "type": "cloze", "text": "けん さん は パーティー に ___ と 言[い]って い ました。", "answers": ["来[こ]ない", "行[い]かない"], "de": "Ken hat gesagt, dass er nicht zur Party kommt.", "hint": "きません → einfache Form" },
+        { "type": "translate", "de": "Ich glaube, dass Sophie morgen kommt.", "answers": ["私[わたし] は ソフィー さん は あした 来[く]る と 思[おも]い ます。", "ソフィー さん は あした 来[く]る と 思[おも]い ます。", "私[わたし] は あした ソフィー さん は 来[く]る と 思[おも]い ます。", "あした ソフィー さん は 来[く]る と 思[おも]い ます。", "私[わたし] は ソフィー さん が あした 来[く]る と 思[おも]い ます。", "ソフィー さん が あした 来[く]る と 思[おも]い ます。", "私[わたし] は あした ソフィー さん が 来[く]る と 思[おも]い ます。", "あした ソフィー さん が 来[く]る と 思[おも]い ます。"] },
+        { "type": "translate", "de": "Frau Yamada hat gesagt, dass die Prüfung schwer ist.", "answers": ["山[やま]田[だ] 先生[せんせい] は 試験[しけん] が むずかしい と 言[い]って い ました。", "山[やま]田[だ] 先生[せんせい] は 試験[しけん] は むずかしい と 言[い]って い ました。", "山[やま]田[だ] 先生[せんせい] は 試験[しけん] が むずかしい と 言[い]い ました。", "やまだ 先生[せんせい] は 試験[しけん] が むずかしい と 言[い]って い ました。", "やまだ 先生[せんせい] は 試験[しけん] は むずかしい と 言[い]って い ました。", "やまだ 先生[せんせい] は 試験[しけん] が むずかしい と 言[い]い ました。"] },
+        { "type": "order", "de": "Ich finde, das ist eine gute Idee.", "answer": "それ は いい 考[かんが]え だ と 思[おも]い ます。", "distractors": ["です"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig? („Ich finde es hier ruhig.“)", "options": ["ここ は 静[しず]か だ と 思[おも]い ます。", "ここ は 静[しず]か と 思[おも]い ます。", "ここ は 静[しず]か です と 思[おも]い ます。"], "answer": 0, "explain": "しずか ist ein な-Adjektiv: Vor と brauchst du die einfache Form mit だ. です hat vor と nichts zu suchen." }
+      ]
+    },
+    {
+      "id": "node-shi",
+      "title": "Gründe nennen: 〜ので und 〜し、〜し",
+      "blocks": [
+        { "type": "p", "text": "Gründe mit から kennst du schon (A2, Lektion 5). 〜ので heißt auch „weil, da“, klingt aber weicher und sachlicher: Der Grund wird als Tatsache hingestellt. Deshalb passt ので besonders gut zu Bitten, Entschuldigungen und höflichen Gesprächen." },
+        { "type": "table", "head": ["vor ので", "Form", "Beispiel"], "rows": [["Verb", "einfache Form", "雨[あめ] が 降[ふ]って いる ので、 行[い]き ません。"], ["い-Adjektiv", "unverändert", "この 店[みせ] は 安[やす]い ので、 よく 来[き] ます。"], ["な-Adjektiv", "+ な", "ここ は 静[しず]か な ので、 好[す]き です。"], ["Nomen", "+ な", "あした は 試験[しけん] な ので、 早[はや]く 寝[ね] ます。"]] },
+        { "type": "tip", "text": "Achtung: Bei Nomen und な-Adjektiven heißt es なので (nicht だので): しけんなので, しずかなので. Bei から dagegen だから: しけんだから." },
+        { "type": "table", "head": ["", "から", "ので"], "rows": [["Klang", "direkt, persönlich", "weich, sachlich, höflich"], ["passt gut zu", "eigener Meinung, Vorschlägen, Aufforderungen", "Bitten, Entschuldigungen, Erklärungen"], ["Beispiel", "もう おそい から、 帰[かえ]ろう。", "頭[あたま] が いたい ので、 今日[きょう] は 休[やす]んで も いい です か。"]] },
+        { "type": "p", "text": "Mit 〜し、〜し zählst du mehrere Gründe auf („… und außerdem …“). Davor steht die einfache Form, bei な-Adjektiven und Nomen mit だ. Beim zweiten Grund steht oft も. Schon ein einziges し deutet an: „Es gibt noch mehr Gründe.“" },
+        { "type": "examples", "items": [{ "text": "この アパート は 駅[えき] から 近[ちか]い し、 安[やす]い し、 いい です よ。", "de": "Diese Wohnung ist nah am Bahnhof, billig – richtig gut." }, { "text": "いなか は 静[しず]か だ し、 空[くう]気[き] も きれい だ し、 大[だい]好[す]き です。", "de": "Auf dem Land ist es ruhig, die Luft ist sauber – ich liebe es." }, { "text": "あした は 試験[しけん] も ある し、 今日[きょう] は 早[はや]く 帰[かえ]り ます。", "de": "Morgen habe ich auch noch eine Prüfung, deshalb gehe ich heute früh nach Hause." }, { "text": "今日[きょう] は 雨[あめ] だ し、 寒[さむ]い し、 家[いえ] に い ます。", "de": "Heute regnet es und es ist kalt – ich bleibe zu Hause." }] },
+        { "type": "tip", "text": "Mit それに („außerdem“) kannst du einen weiteren Grund auch als neuen Satz anhängen: やすいです。 それに、 おいしいです." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "頭[あたま] が いたい ___、 今日[きょう] は 休[やす]み ます。", "answers": ["ので", "から"], "de": "Weil ich Kopfschmerzen habe, nehme ich mir heute frei." },
+        { "type": "cloze", "text": "あした は 日[にち]曜日[ようび] ___ ので、 会社[かいしゃ] は 休[やす]み です。", "answers": ["な"], "de": "Weil morgen Sonntag ist, hat die Firma zu." },
+        { "type": "cloze", "text": "この 町[まち] は 静[しず]か だ ___、 店[みせ] も 多[おお]い し、 いい 町[まち] です。", "answers": ["し"], "de": "Diese Stadt ist ruhig, hat viele Läden – eine schöne Stadt." },
+        { "type": "cloze", "text": "すみません、 電車[でんしゃ] が おくれて いる ___、 少[すこ]し おそく なり ます。", "answers": ["ので"], "de": "Entschuldigung, weil der Zug Verspätung hat, komme ich etwas später.", "hint": "höflich" },
+        { "type": "translate", "de": "Weil es heute kalt ist, bleibe ich zu Hause.", "answers": ["今日[きょう] は 寒[さむ]い ので、 家[いえ] に い ます。", "今日[きょう] は 寒[さむ]い ので、 うち に い ます。", "今日[きょう] は 寒[さむ]い から、 家[いえ] に い ます。", "今日[きょう] は 寒[さむ]い から、 うち に い ます。"] },
+        { "type": "translate", "de": "Dieses Café ist billig und ruhig – ich mag es.", "answers": ["この カフェ は 安[やす]い し、 静[しず]か だ し、 好[す]き です。", "この カフェ は 安[やす]い し、 静[しず]か だ し、 大[だい]好[す]き です。", "この カフェ は 静[しず]か だ し、 安[やす]い し、 好[す]き です。", "この カフェ は 静[しず]か だ し、 安[やす]い し、 大[だい]好[す]き です。"] },
+        { "type": "order", "de": "Weil morgen eine Prüfung ist, gehe ich früh schlafen.", "answer": "あした は 試験[しけん] な ので、 早[はや]く 寝[ね] ます。", "distractors": ["だ"] }
+      ]
+    },
+    {
+      "id": "ni-tsuite",
+      "title": "Über ein Thema reden: 〜に ついて – zustimmen und widersprechen",
+      "blocks": [
+        { "type": "p", "text": "〜に ついて heißt „über, zu, bezüglich“ und steht hinter einem Nomen. Damit nennst du das Thema eines Gesprächs, eines Buchs oder einer Frage. Vor einem weiteren Nomen wird daraus 〜に ついての: にほんに ついての ほん (ein Buch über Japan)." },
+        { "type": "examples", "items": [{ "text": "日本[にほん] の 文化[ぶんか] に ついて 話[はな]し ましょう。", "de": "Lass uns über die japanische Kultur sprechen." }, { "text": "この 問題[もんだい] に ついて どう 思[おも]い ます か。", "de": "Was denkst du über dieses Problem?" }, { "text": "ドイツ の 学校[がっこう] に ついて 教[おし]えて ください。", "de": "Erzähl mir bitte etwas über die Schulen in Deutschland." }, { "text": "山[やま]田[だ] 先生[せんせい] は 日本語[にほんご] に ついて の 本[ほん] を 書[か]き ました。", "de": "Frau Yamada hat ein Buch über die japanische Sprache geschrieben." }] },
+        { "type": "p", "text": "In Japan widerspricht man selten direkt. Oft stimmt man erst ein wenig zu und bringt dann vorsichtig die eigene Meinung. Diese Ausdrücke helfen dir dabei:" },
+        { "type": "table", "head": ["Ausdruck", "Bedeutung", "Wirkung"], "rows": [["私[わたし] も そう 思[おも]い ます。", "Das finde ich auch.", "klare Zustimmung"], ["賛成[さんせい] です。", "Ich bin dafür.", "klare Zustimmung"], ["そう です ね。", "Stimmt. / Hm, ja …", "Zustimmung – oder Zeit zum Nachdenken"], ["たしかに そう です ね。", "Das stimmt allerdings.", "Zustimmung, oft vor einem でも"], ["そう でしょう か。", "Meinst du wirklich?", "vorsichtiger Zweifel"], ["私[わたし] は ちょっと 違[ちが]う と 思[おも]い ます。", "Ich sehe das ein bisschen anders.", "höflicher Widerspruch"], ["私[わたし] は そう は 思[おも]い ません。", "Das finde ich nicht.", "deutlicher Widerspruch"]] },
+        { "type": "tip", "text": "Das Muster たしかに 〜。 でも、 〜 („Das stimmt schon. Aber …“) ist die höflichste Art zu widersprechen. ちょっと macht jede Kritik weicher: ちょっと ちがうと おもいます." },
+        { "type": "examples", "items": [{ "text": "「都[と]会[かい] の ほう が べんり です よ。」 「たしかに そう です ね。 でも、 家[や]賃[ちん] が 高[たか]い です。」", "de": "„Die Großstadt ist praktischer.“ – „Das stimmt schon. Aber die Mieten sind hoch.“" }, { "text": "「日本語[にほんご] は 簡単[かんたん] です よ。」 「そう でしょう か。 漢[かん]字[じ] が むずかしい と 思[おも]い ます。」", "de": "„Japanisch ist einfach!“ – „Meinst du? Ich finde die Kanji schwer.“" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "日本[にほん] の 生[せい]活[かつ] ___ ついて 話[はな]し ます。", "answers": ["に"], "de": "Ich spreche über das Leben in Japan." },
+        { "type": "cloze", "text": "この 問題[もんだい] に ついて ___ 思[おも]い ます か。", "answers": ["どう"], "de": "Was denkst du über dieses Problem?" },
+        { "type": "cloze", "text": "「東[とう]京[きょう] は 楽[たの]しい です よ。」 「私[わたし] も そう ___。」", "answers": ["思[おも]い ます"], "de": "„Tokio macht Spaß!“ – „Das finde ich auch.“" },
+        { "type": "match", "pairs": [["私[わたし] も そう 思[おも]い ます。", "Das finde ich auch."], ["そう でしょう か。", "Meinst du wirklich?"], ["たしかに そう です ね。", "Das stimmt allerdings."], ["私[わたし] は そう は 思[おも]い ません。", "Das finde ich nicht."], ["賛成[さんせい] です。", "Ich bin dafür."]] },
+        { "type": "translate", "de": "Ich möchte über deutsches Essen sprechen.", "answers": ["私[わたし] は ドイツ の 料理[りょうり] に ついて 話[はな]し たい です。", "私[わたし] は ドイツ の 食[た]べ物[もの] に ついて 話[はな]し たい です。", "ドイツ の 料理[りょうり] に ついて 話[はな]し たい です。", "ドイツ の 食[た]べ物[もの] に ついて 話[はな]し たい です。"] },
+        { "type": "translate", "de": "Das stimmt allerdings. Aber ich finde es ein bisschen teuer.", "answers": ["たしかに そう です ね。 でも、 私[わたし] は ちょっと 高[たか]い と 思[おも]い ます。", "たしかに そう です ね。 でも、 ちょっと 高[たか]い と 思[おも]い ます。", "たしかに。 でも、 私[わたし] は ちょっと 高[たか]い と 思[おも]い ます。", "たしかに。 でも、 ちょっと 高[たか]い と 思[おも]い ます。"] },
+        { "type": "order", "de": "Ich sehe das ein bisschen anders.", "answer": "私[わたし] は ちょっと 違[ちが]う と 思[おも]い ます。", "distractors": ["違[ちが]い"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "都[と]会[かい] と いなか",
+    "title_de": "Stadt oder Land?",
+    "lines": [
+      { "speaker": "アンナ", "text": "けん さん、 ちょっと 質[しつ]問[もん] が あり ます。 来週[らいしゅう] の じゅぎょう で 「都[と]会[かい] と いなか」 に ついて 話[はな]し ます。", "de": "Ken, ich habe eine Frage. Nächste Woche sprechen wir im Unterricht über „Stadt und Land“." },
+      { "speaker": "けん", "text": "へえ、 おもしろい 話題[わだい] です ね。 山[やま]田[だ] 先生[せんせい] の クラス です か。", "de": "Oh, ein spannendes Thema. In Frau Yamadas Kurs?" },
+      { "speaker": "アンナ", "text": "はい。 先生[せんせい] は 自[じ]分[ぶん] の 意見[いけん] と 理[り]由[ゆう] を はっきり 言[い]って ください と 言[い]って い ました。", "de": "Ja. Frau Yamada hat gesagt, wir sollen unsere Meinung und die Gründe klar sagen." },
+      { "speaker": "けん", "text": "アンナ さん は どちら が いい と 思[おも]い ます か。", "de": "Was findest du besser, Anna?" },
+      { "speaker": "アンナ", "text": "私[わたし] は 都[と]会[かい] の ほう が いい と 思[おも]い ます。 べんり だ し、 仕事[しごと] も 多[おお]い し。", "de": "Ich finde die Stadt besser. Sie ist praktisch, und es gibt auch viel Arbeit." },
+      { "speaker": "けん", "text": "たしかに そう です ね。 でも、 東[とう]京[きょう] は 人[ひと] が 多[おお]くて、 ちょっと つかれ ません か。", "de": "Das stimmt schon. Aber in Tokio gibt es so viele Menschen – ist das nicht ein bisschen anstrengend?" },
+      { "speaker": "アンナ", "text": "そう でしょう か。 私[わたし] は にぎやか な 町[まち] が 好[す]き な ので、 楽[たの]しい です よ。", "de": "Meinst du? Ich mag lebhafte Städte, deshalb macht mir das Spaß." },
+      { "speaker": "けん", "text": "私[わたし] は 長[なが]野[の] の いなか で 育[そだ]った ので、 いなか の 生[せい]活[かつ] の ほう が 好[す]き です。", "de": "Ich bin in Nagano auf dem Land aufgewachsen, deshalb mag ich das Landleben lieber." },
+      { "speaker": "アンナ", "text": "どうして です か。 理[り]由[ゆう] を 教[おし]えて ください。", "de": "Warum? Sag mir die Gründe." },
+      { "speaker": "けん", "text": "空[くう]気[き] が きれい だ し、 静[しず]か だ し、 それに 近所[きんじょ] の 人[ひと] が みんな 親切[しんせつ] です。", "de": "Die Luft ist sauber, es ist ruhig, und außerdem sind alle Nachbarn hilfsbereit." },
+      { "speaker": "アンナ", "text": "なるほど。 でも、 いなか に は 電車[でんしゃ] や バス が 少[すく]ない でしょう？", "de": "Verstehe. Aber auf dem Land gibt es doch wenige Züge und Busse, oder?" },
+      { "speaker": "けん", "text": "それ は 本[ほん]当[とう] です ね。 だから、 父[ちち] は 毎日[まいにち] 車[くるま] で 会社[かいしゃ] に 行[い]って い ます。", "de": "Das stimmt. Deshalb fährt mein Vater jeden Tag mit dem Auto zur Arbeit." },
+      { "speaker": "アンナ", "text": "都[と]会[かい] に も いなか に も、 メリット と デメリット が あり ます ね。", "de": "Stadt und Land haben also beide Vor- und Nachteile." },
+      { "speaker": "けん", "text": "そう です ね。 正[ただ]しい 答[こた]え は ない と 思[おも]い ます。", "de": "Genau. Ich glaube, es gibt keine richtige Antwort." },
+      { "speaker": "アンナ", "text": "じゃあ、 来週[らいしゅう] は その こと に ついて も 説明[せつめい] し ます。 ありがとう ございました！", "de": "Dann erkläre ich nächste Woche auch das. Vielen Dank!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["意見[いけん]", "die Meinung"], ["理[り]由[ゆう]", "der Grund"], ["話題[わだい]", "das Gesprächsthema"], ["答[こた]え", "die Antwort"], ["問題[もんだい]", "das Problem"], ["言[こと]葉[ば]", "das Wort"]] },
+    { "type": "match", "pairs": [["賛成[さんせい]", "dafür"], ["反対[はんたい]", "dagegen"], ["メリット", "der Vorteil"], ["デメリット", "der Nachteil"], ["たしかに", "stimmt; allerdings"]] },
+    { "type": "translate", "de": "Ich glaube, dass dieses Problem wichtig ist.", "answers": ["私[わたし] は この 問題[もんだい] は 大[たい]切[せつ] だ と 思[おも]い ます。", "私[わたし] は この 問題[もんだい] は 大事[だいじ] だ と 思[おも]い ます。", "この 問題[もんだい] は 大[たい]切[せつ] だ と 思[おも]い ます。", "この 問題[もんだい] は 大事[だいじ] だ と 思[おも]い ます。", "私[わたし] は この 問題[もんだい] が 大[たい]切[せつ] だ と 思[おも]い ます。", "私[わたし] は この 問題[もんだい] が 大事[だいじ] だ と 思[おも]い ます。", "この 問題[もんだい] が 大[たい]切[せつ] だ と 思[おも]い ます。", "この 問題[もんだい] が 大事[だいじ] だ と 思[おも]い ます。"] },
+    { "type": "translate", "de": "Ken hat gesagt, dass er heute beschäftigt ist.", "answers": ["けん さん は 今日[きょう] は いそがしい と 言[い]って い ました。", "けん さん は 今日[きょう] いそがしい と 言[い]って い ました。", "けん さん は 今日[きょう] は いそがしい と 言[い]い ました。", "けん さん は 今日[きょう] いそがしい と 言[い]い ました。"] },
+    { "type": "translate", "de": "Weil morgen Sonntag ist, gehe ich nicht zur Arbeit.", "answers": ["あした は 日[にち]曜日[ようび] な ので、 会社[かいしゃ] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] な ので、 会社[かいしゃ] へ 行[い]き ません。", "あした は 日[にち]曜日[ようび] な ので、 仕事[しごと] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] な ので、 仕事[しごと] へ 行[い]き ません。", "あした は 日[にち]曜日[ようび] だ から、 会社[かいしゃ] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] だ から、 会社[かいしゃ] へ 行[い]き ません。", "あした は 日[にち]曜日[ようび] だ から、 仕事[しごと] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] だ から、 仕事[しごと] へ 行[い]き ません。", "あした は 日[にち]曜日[ようび] です から、 会社[かいしゃ] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] です から、 会社[かいしゃ] へ 行[い]き ません。", "あした は 日[にち]曜日[ようび] です から、 仕事[しごと] に 行[い]き ません。", "あした は 日[にち]曜日[ようび] です から、 仕事[しごと] へ 行[い]き ません。"] },
+    { "type": "translate", "de": "Was ist der Grund?", "answers": ["理[り]由[ゆう] は 何[なん] です か。", "理[り]由[ゆう] は 何[なに] です か。"] },
+    { "type": "order", "de": "Was meinst du zu diesem Thema?", "answer": "この 話題[わだい] に ついて どう 思[おも]い ます か。", "distractors": ["を"] },
+    { "type": "order", "de": "Die Stadt ist praktisch, es gibt viel Arbeit – sie ist einfach gut.", "answer": "都[と]会[かい] は べんり だ し、 仕事[しごと] も 多[おお]い し、 いい です よ。", "distractors": ["な"] },
+    { "type": "cloze", "text": "その 言[こと]葉[ば] の ___ を 教[おし]えて ください。", "answers": ["意[い]味[み]"], "de": "Sag mir bitte die Bedeutung dieses Wortes." },
+    { "type": "cloze", "text": "先生[せんせい] の 質[しつ]問[もん] に ___。", "answers": ["答[こた]え ました", "答[こた]えた"], "de": "Ich habe die Frage der Lehrerin beantwortet." },
+    { "type": "listen", "text": "いなか は 静[しず]か だ し、 空[くう]気[き] も きれい です。", "de": "Auf dem Land ist es ruhig, und die Luft ist auch sauber." },
+    { "type": "listen", "text": "正[しょう]直[じき] に 言[い]って、 その 考[かんが]え に は 反対[はんたい] です。", "de": "Ehrlich gesagt bin ich gegen diese Idee." },
+    { "type": "choice", "prompt": "Du möchtest einer Lehrerin höflich widersprechen. Was sagst du?", "options": ["そう でしょう か。 私[わたし] は ちょっと 違[ちが]う と 思[おも]い ます。", "違[ちが]い ます！", "それ は 正[ただ]しく ない。"], "answer": 0, "explain": "そうでしょうか und ちょっと machen den Widerspruch weich. ちがいます! und ただしくない klingen sehr direkt – gegenüber einer Lehrerin unhöflich." }
+  ]
+}

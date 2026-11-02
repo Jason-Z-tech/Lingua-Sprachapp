@@ -1,0 +1,777 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-09",
+  "lang": "it",
+  "level": "B1",
+  "number": 9,
+  "title": "Insieme si può",
+  "title_de": "Gesellschaft",
+  "topic": "Alltag und Zusammenhalt",
+  "goals": [
+    "Du kannst über Gesellschaft, Ehrenamt und Zusammenhalt sprechen: volontariato, solidarietà, associazione.",
+    "Du gibst wieder, was andere gesagt oder gefragt haben: Ha detto che …, mi ha chiesto se …",
+    "Du bildest das Passiv mit essere und venire und benutzt qualcuno, nessuno, ognuno und la maggior parte di."
+  ],
+  "vocab": [
+    {
+      "id": "societa",
+      "word": "società",
+      "article": "la",
+      "gender": "f",
+      "plural": "le società",
+      "de": "die Gesellschaft; die Firma",
+      "pos": "noun",
+      "example": { "text": "Nella nostra società molti anziani vivono da soli.", "de": "In unserer Gesellschaft leben viele ältere Menschen allein." },
+      "note": "Auch: die Firma, das Unternehmen – una società di informatica."
+    },
+    {
+      "id": "comunita",
+      "word": "comunità",
+      "article": "la",
+      "gender": "f",
+      "plural": "le comunità",
+      "de": "die Gemeinschaft",
+      "pos": "noun",
+      "example": { "text": "La comunità tedesca di Bologna è piccola.", "de": "Die deutsche Gemeinschaft in Bologna ist klein." }
+    },
+    {
+      "id": "associazione",
+      "word": "associazione",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le associazioni",
+      "de": "der Verein; die Organisation",
+      "pos": "noun",
+      "example": { "text": "Giulia lavora in un'associazione che aiuta gli anziani.", "de": "Giulia arbeitet in einem Verein, der älteren Menschen hilft." }
+    },
+    {
+      "id": "volontario",
+      "word": "volontario",
+      "article": "il",
+      "gender": "m",
+      "plural": "i volontari",
+      "de": "der/die Freiwillige; der ehrenamtliche Helfer",
+      "pos": "noun",
+      "example": { "text": "Cerchiamo volontari per la festa di domenica.", "de": "Wir suchen Freiwillige für das Fest am Sonntag.", "focus": "volontari" },
+      "note": "Für eine Frau: la volontaria. Als Adjektiv: freiwillig."
+    },
+    {
+      "id": "volontariato",
+      "word": "volontariato",
+      "article": "il",
+      "gender": "m",
+      "de": "die Freiwilligenarbeit; das Ehrenamt",
+      "pos": "noun",
+      "example": { "text": "Molti giovani fanno volontariato.", "de": "Viele junge Leute engagieren sich ehrenamtlich." },
+      "note": "Fare volontariato = ehrenamtlich arbeiten."
+    },
+    {
+      "id": "solidarieta",
+      "word": "solidarietà",
+      "article": "la",
+      "gender": "f",
+      "de": "die Solidarität",
+      "pos": "noun",
+      "example": { "text": "La solidarietà tra le persone è importante.", "de": "Die Solidarität unter den Menschen ist wichtig." }
+    },
+    {
+      "id": "anziano",
+      "word": "anziano",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli anziani",
+      "de": "der ältere Mensch; der Senior",
+      "pos": "noun",
+      "example": { "text": "Il martedì aiuto un anziano a fare la spesa.", "de": "Dienstags helfe ich einem älteren Herrn beim Einkaufen." },
+      "note": "Für eine Frau: l'anziana. Als Adjektiv: alt, älter – höflicher als vecchio."
+    },
+    {
+      "id": "cittadino",
+      "word": "cittadino",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cittadini",
+      "de": "der Bürger; der Einwohner",
+      "pos": "noun",
+      "example": { "text": "Il comune vuole ascoltare i cittadini.", "de": "Die Gemeinde will den Bürgern zuhören.", "focus": "cittadini" },
+      "note": "Für eine Frau: la cittadina."
+    },
+    {
+      "id": "comune",
+      "word": "comune",
+      "article": "il",
+      "gender": "m",
+      "plural": "i comuni",
+      "de": "die Gemeinde; die Stadtverwaltung",
+      "pos": "noun",
+      "example": { "text": "Il comune ha aperto un nuovo centro per i giovani.", "de": "Die Gemeinde hat ein neues Jugendzentrum eröffnet." },
+      "note": "Als Adjektiv: gemeinsam – un amico comune = ein gemeinsamer Freund."
+    },
+    {
+      "id": "sindaco",
+      "word": "sindaco",
+      "article": "il",
+      "gender": "m",
+      "plural": "i sindaci",
+      "de": "der Bürgermeister",
+      "pos": "noun",
+      "example": { "text": "Anche il sindaco è venuto alla festa.", "de": "Auch der Bürgermeister ist zum Fest gekommen." },
+      "note": "Für eine Frau: il sindaco oder la sindaca."
+    },
+    {
+      "id": "diritto",
+      "word": "diritto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i diritti",
+      "de": "das Recht",
+      "pos": "noun",
+      "example": { "text": "Tutti i bambini hanno diritto alla scuola.", "de": "Alle Kinder haben ein Recht auf Schule." },
+      "note": "Avere diritto a qualcosa = ein Recht auf etwas haben."
+    },
+    {
+      "id": "legge",
+      "word": "legge",
+      "article": "la",
+      "gender": "f",
+      "plural": "le leggi",
+      "de": "das Gesetz",
+      "pos": "noun",
+      "example": { "text": "C'è una nuova legge sul lavoro.", "de": "Es gibt ein neues Arbeitsgesetz." }
+    },
+    {
+      "id": "solitudine",
+      "word": "solitudine",
+      "article": "la",
+      "gender": "f",
+      "de": "die Einsamkeit",
+      "pos": "noun",
+      "example": { "text": "Per molti anziani la solitudine è un grande problema.", "de": "Für viele ältere Menschen ist die Einsamkeit ein großes Problem." }
+    },
+    {
+      "id": "aiuto",
+      "word": "aiuto",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli aiuti",
+      "de": "die Hilfe",
+      "pos": "noun",
+      "example": { "text": "Grazie mille per l'aiuto!", "de": "Vielen Dank für die Hilfe!" },
+      "note": "Aiuto! = Hilfe! Chiedere aiuto = um Hilfe bitten."
+    },
+    {
+      "id": "rispetto",
+      "word": "rispetto",
+      "article": "il",
+      "gender": "m",
+      "de": "der Respekt; die Achtung",
+      "pos": "noun",
+      "example": { "text": "Bisogna avere rispetto per tutti.", "de": "Man muss vor allen Respekt haben." }
+    },
+    {
+      "id": "fiducia",
+      "word": "fiducia",
+      "article": "la",
+      "gender": "f",
+      "de": "das Vertrauen",
+      "pos": "noun",
+      "example": { "text": "Ho fiducia nei miei colleghi.", "de": "Ich vertraue meinen Kollegen." },
+      "note": "Avere fiducia in qualcuno = jemandem vertrauen."
+    },
+    {
+      "id": "iniziativa",
+      "word": "iniziativa",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le iniziative",
+      "de": "die Initiative; die Aktion",
+      "pos": "noun",
+      "example": { "text": "L'iniziativa ha avuto un grande successo.", "de": "Die Aktion war ein großer Erfolg." }
+    },
+    {
+      "id": "sondaggio",
+      "word": "sondaggio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i sondaggi",
+      "de": "die Umfrage",
+      "pos": "noun",
+      "example": { "text": "Il giornale ha fatto un sondaggio tra i cittadini.", "de": "Die Zeitung hat eine Umfrage unter den Bürgern gemacht." }
+    },
+    {
+      "id": "intervista",
+      "word": "intervista",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le interviste",
+      "de": "das Interview",
+      "pos": "noun",
+      "example": {
+        "text": "In un'intervista il sindaco ha detto che il comune aiuterà le associazioni.",
+        "de": "In einem Interview hat der Bürgermeister gesagt, dass die Gemeinde die Vereine unterstützen wird."
+      }
+    },
+    {
+      "id": "differenza",
+      "word": "differenza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le differenze",
+      "de": "der Unterschied",
+      "pos": "noun",
+      "example": { "text": "Qual è la differenza tra un paese e una città?", "de": "Was ist der Unterschied zwischen einem Dorf und einer Stadt?" },
+      "note": "Fare la differenza = etwas bewirken, den Unterschied machen."
+    },
+    {
+      "id": "povero",
+      "word": "povero",
+      "de": "arm",
+      "pos": "adj",
+      "example": { "text": "Le famiglie povere ricevono un aiuto dal comune.", "de": "Arme Familien bekommen Hilfe von der Gemeinde.", "focus": "povere" },
+      "note": "Vor dem Nomen auch: bedauernswert – Povera Sara! = Arme Sara!"
+    },
+    {
+      "id": "sociale",
+      "word": "sociale",
+      "de": "sozial; gesellschaftlich",
+      "pos": "adj",
+      "example": { "text": "La solitudine è un problema sociale.", "de": "Die Einsamkeit ist ein gesellschaftliches Problem." }
+    },
+    {
+      "id": "uguale",
+      "word": "uguale",
+      "de": "gleich",
+      "pos": "adj",
+      "example": { "text": "Tutti i cittadini sono uguali davanti alla legge.", "de": "Alle Bürger sind vor dem Gesetz gleich.", "focus": "uguali" }
+    },
+    {
+      "id": "sostenere",
+      "word": "sostenere",
+      "de": "unterstützen",
+      "pos": "verb",
+      "forms": "sostengo, sostieni, sostiene, sosteniamo, sostenete, sostengono",
+      "example": { "text": "Il comune sostiene le associazioni di volontari.", "de": "Die Gemeinde unterstützt die Freiwilligenvereine.", "focus": "sostiene" },
+      "note": "Unregelmäßig wie tenere. Partizip: sostenuto."
+    },
+    {
+      "id": "partecipare",
+      "word": "partecipare",
+      "de": "teilnehmen",
+      "pos": "verb",
+      "forms": "partecipo, partecipi, partecipa, partecipiamo, partecipate, partecipano",
+      "example": {
+        "text": "Alla festa hanno partecipato più di cento persone.",
+        "de": "An dem Fest haben mehr als hundert Menschen teilgenommen.",
+        "focus": "partecipato"
+      },
+      "note": "Mit a: partecipare a una riunione. Betonung: partècipo."
+    },
+    {
+      "id": "raccogliere",
+      "word": "raccogliere",
+      "de": "sammeln",
+      "pos": "verb",
+      "forms": "raccolgo, raccogli, raccoglie, raccogliamo, raccogliete, raccolgono",
+      "example": { "text": "Abbiamo raccolto mille euro per la scuola.", "de": "Wir haben tausend Euro für die Schule gesammelt.", "focus": "raccolto" },
+      "note": "Wie scegliere: raccolgo, raccolgono. Partizip: raccolto."
+    },
+    {
+      "id": "donare",
+      "word": "donare",
+      "de": "spenden; schenken",
+      "pos": "verb",
+      "forms": "dono, doni, dona, doniamo, donate, donano",
+      "example": { "text": "Molte persone hanno donato vestiti e libri.", "de": "Viele Leute haben Kleidung und Bücher gespendet.", "focus": "donato" }
+    },
+    {
+      "id": "fondare",
+      "word": "fondare",
+      "de": "gründen",
+      "pos": "verb",
+      "forms": "fondo, fondi, fonda, fondiamo, fondate, fondano",
+      "example": { "text": "L'associazione è stata fondata nel 2015.", "de": "Der Verein wurde 2015 gegründet.", "focus": "fondata" }
+    },
+    {
+      "id": "costruire",
+      "word": "costruire",
+      "de": "bauen",
+      "pos": "verb",
+      "forms": "costruisco, costruisci, costruisce, costruiamo, costruite, costruiscono",
+      "example": { "text": "Il nuovo ospedale è stato costruito in due anni.", "de": "Das neue Krankenhaus wurde in zwei Jahren gebaut.", "focus": "costruito" },
+      "note": "Wie finire mit -isc-."
+    },
+    {
+      "id": "accogliere",
+      "word": "accogliere",
+      "de": "aufnehmen; empfangen; willkommen heißen",
+      "pos": "verb",
+      "forms": "accolgo, accogli, accoglie, accogliamo, accogliete, accolgono",
+      "example": { "text": "L'associazione accoglie tutti, giovani e anziani.", "de": "Der Verein nimmt alle auf, Junge und Alte.", "focus": "accoglie" },
+      "note": "Wie raccogliere: accolgo, accolgono. Partizip: accolto. Mi hanno accolto benissimo. = Sie haben mich sehr herzlich aufgenommen."
+    },
+    {
+      "id": "spiegare",
+      "word": "spiegare",
+      "de": "erklären",
+      "pos": "verb",
+      "forms": "spiego, spieghi, spiega, spieghiamo, spiegate, spiegano",
+      "example": {
+        "text": "Giulia ci ha spiegato come funziona l'associazione.",
+        "de": "Giulia hat uns erklärt, wie der Verein funktioniert.",
+        "focus": "spiegato"
+      },
+      "note": "Bei -gare kommt ein h dazu: spieghi, spieghiamo."
+    },
+    {
+      "id": "qualcuno",
+      "word": "qualcuno",
+      "de": "jemand",
+      "pos": "pron",
+      "example": { "text": "Qualcuno ha visto Marco?", "de": "Hat jemand Marco gesehen?" }
+    },
+    {
+      "id": "nessuno",
+      "word": "nessuno",
+      "de": "niemand; kein",
+      "pos": "pron",
+      "example": { "text": "Alla riunione non è venuto nessuno.", "de": "Zur Besprechung ist niemand gekommen." },
+      "note": "Steht nessuno nach dem Verb, braucht man non davor. Vor einem Nomen: nessun problema, nessuna idea."
+    },
+    {
+      "id": "ognuno",
+      "word": "ognuno",
+      "de": "jeder (Einzelne)",
+      "pos": "pron",
+      "example": { "text": "Ognuno porta qualcosa da mangiare.", "de": "Jeder bringt etwas zu essen mit." },
+      "note": "Immer Singular. Vor einem Nomen nimmst du ogni: ogni giorno."
+    },
+    {
+      "id": "alcuni",
+      "word": "alcuni",
+      "de": "einige",
+      "pos": "pron",
+      "example": { "text": "Alcuni volontari lavorano anche il fine settimana.", "de": "Einige Freiwillige arbeiten auch am Wochenende." },
+      "note": "Weiblich: alcune. Gleiche Bedeutung: qualche + Singular – qualche volontario."
+    },
+    {
+      "id": "la-maggior-parte",
+      "word": "la maggior parte",
+      "de": "die meisten; der größte Teil",
+      "pos": "phrase",
+      "example": { "text": "La maggior parte delle persone lavora in centro.", "de": "Die meisten Leute arbeiten im Zentrum." },
+      "note": "Mit di: la maggior parte dei cittadini, la maggior parte del tempo."
+    },
+    {
+      "id": "dare-una-mano",
+      "word": "dare una mano",
+      "de": "helfen; mit anpacken",
+      "pos": "phrase",
+      "example": { "text": "Mi puoi dare una mano con le borse?", "de": "Kannst du mir mit den Taschen helfen?" }
+    },
+    {
+      "id": "fare-parte-di",
+      "word": "fare parte di",
+      "de": "gehören zu; Mitglied sein bei",
+      "pos": "phrase",
+      "example": { "text": "Faccio parte di un gruppo di volontari.", "de": "Ich gehöre zu einer Gruppe von Freiwilligen.", "focus": "faccio parte di" }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "discorso-indiretto",
+      "title": "Indirekte Rede: Dice che … – ha detto che …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit der indirekten Rede gibst du wieder, was jemand gesagt oder gefragt hat. Steht das einleitende Verb im Präsens (dice che …), bleibt die Zeit gleich. Nur Personen und Possessive ändern sich – wie im Deutschen."
+        },
+        {
+          "type": "table",
+          "head": ["direkt", "indirekt"],
+          "rows": [
+            ["Marco: „Sono stanco.“", "Marco dice che è stanco."],
+            ["Giulia: „La mia associazione cerca volontari.“", "Giulia dice che la sua associazione cerca volontari."]
+          ]
+        },
+        { "type": "p", "text": "Steht das einleitende Verb in der Vergangenheit (ha detto che …), verschieben sich die Zeiten:" },
+        {
+          "type": "table",
+          "head": ["direkt", "indirekt: Ha detto che …"],
+          "rows": [
+            ["Präsens: „Lavoro in ospedale.“", "imperfetto: … lavorava in ospedale."],
+            ["passato prossimo: „Ho trovato un lavoro.“", "trapassato prossimo: … aveva trovato un lavoro."],
+            ["imperfetto: „Ero stanca.“", "bleibt: … era stanca."],
+            ["Imperativ: „Aspetta!“", "di + Infinitiv: Mi ha detto di aspettare."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Liegt etwas auch jetzt noch in der Zukunft, bleibt das futuro: Ha detto che verrà domani. Anders als im Deutschen („er sei müde“) gibt es nach dire keinen besonderen Konjunktiv – du nimmst die normalen Zeiten."
+        },
+        {
+          "type": "p",
+          "text": "Fragen gibst du mit chiedere wieder: Ja/Nein-Fragen mit se (ob), andere Fragen mit dem Fragewort (dove, quando, cosa, perché …):"
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Sara mi ha chiesto se avevo tempo.", "de": "Sara hat mich gefragt, ob ich Zeit habe." },
+            { "text": "Lena mi ha chiesto dove abitavo.", "de": "Lena hat mich gefragt, wo ich wohne." },
+            {
+              "text": "Marco ha detto che aveva già cucinato per trenta persone.",
+              "de": "Marco hat gesagt, dass er schon für dreißig Leute gekocht hatte."
+            },
+            { "text": "Ci hanno detto di portare qualcosa da mangiare.", "de": "Man hat uns gesagt, wir sollen etwas zu essen mitbringen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Marco: „Sono stanco.“ → Marco ha detto che ___ stanco.",
+          "answers": ["era"],
+          "de": "Marco hat gesagt, dass er müde ist.",
+          "hint": "essere"
+        },
+        {
+          "type": "cloze",
+          "text": "Giulia: „Ho trovato tre volontari.“ → Giulia ha detto che ___ trovato tre volontari.",
+          "answers": ["aveva"],
+          "de": "Giulia hat gesagt, dass sie drei Freiwillige gefunden hatte.",
+          "hint": "avere"
+        },
+        {
+          "type": "cloze",
+          "text": "Sara: „Hai tempo domenica?“ → Sara mi ha chiesto ___ avevo tempo domenica.",
+          "answers": ["se"],
+          "de": "Sara hat mich gefragt, ob ich am Sonntag Zeit habe."
+        },
+        {
+          "type": "cloze",
+          "text": "Lena: „Abito a Bologna.“ → Lena dice che ___ a Bologna.",
+          "answers": ["abita"],
+          "de": "Lena sagt, dass sie in Bologna wohnt.",
+          "hint": "abitare"
+        },
+        {
+          "type": "cloze",
+          "text": "Il signor Ferri: „Aspetti un momento!“ → Mi ha detto ___ aspettare un momento.",
+          "answers": ["di"],
+          "de": "Herr Ferri hat mir gesagt, ich solle einen Moment warten."
+        },
+        {
+          "type": "translate",
+          "de": "Er hat mich gefragt, wo ich arbeite.",
+          "answers": ["Mi ha chiesto dove lavoravo.", "Lui mi ha chiesto dove lavoravo.", "Mi ha chiesto dove lavoro.", "Lui mi ha chiesto dove lavoro."]
+        },
+        {
+          "type": "translate",
+          "de": "Marco hat gesagt, dass er keine Zeit hat.",
+          "answers": ["Marco ha detto che non aveva tempo.", "Marco ha detto che non ha tempo."]
+        },
+        {
+          "type": "order",
+          "de": "Sie hat gesagt, dass sie die Nachricht nicht gelesen hatte.",
+          "answer": "Ha detto che non aveva letto il messaggio."
+        }
+      ]
+    },
+    {
+      "id": "passivo",
+      "title": "Das Passiv mit essere und venire",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Im Passiv ist wichtig, was mit etwas geschieht – nicht, wer es tut. Du bildest es mit essere + Partizip. Das Partizip richtet sich wie ein Adjektiv nach dem Subjekt. Wer es tut, steht mit da (von)."
+        },
+        {
+          "type": "table",
+          "head": ["Zeit", "Aktiv", "Passiv"],
+          "rows": [
+            ["Präsens", "Il comune organizza la festa.", "La festa è organizzata dal comune."],
+            ["passato prossimo", "Il comune ha organizzato la festa.", "La festa è stata organizzata dal comune."],
+            ["futuro", "Il comune organizzerà la festa.", "La festa sarà organizzata dal comune."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In den einfachen Zeiten (Präsens, imperfetto, futuro) kannst du statt essere auch venire nehmen. Venire betont den Vorgang – wie das deutsche „werden“:"
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "La cena viene preparata dai volontari.", "de": "Das Abendessen wird von den Freiwilligen zubereitet." },
+            { "text": "Ogni anno vengono raccolti molti vestiti.", "de": "Jedes Jahr werden viele Kleider gesammelt." },
+            { "text": "L'associazione è stata fondata da tre amiche.", "de": "Der Verein wurde von drei Freundinnen gegründet." },
+            { "text": "Il nuovo parco sarà aperto a maggio.", "de": "Der neue Park wird im Mai eröffnet." }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Im passato prossimo geht nur essere: è stata fondata (nicht: è venuta fondata). Da + Artikel verschmilzt: dal comune, dalla scuola, dai volontari. Im Alltag ist das si passivante oft die einfachere Lösung: Qui si raccolgono vestiti."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "La festa ___ organizzata ogni anno dai volontari.",
+          "answers": ["viene", "è"],
+          "de": "Das Fest wird jedes Jahr von den Freiwilligen organisiert."
+        },
+        {
+          "type": "cloze",
+          "text": "Questo ospedale è stato ___ nel 1960.",
+          "answers": ["costruito"],
+          "de": "Dieses Krankenhaus wurde 1960 gebaut.",
+          "hint": "costruire"
+        },
+        {
+          "type": "cloze",
+          "text": "Questi vestiti sono stati ___ dai cittadini.",
+          "answers": ["donati", "raccolti"],
+          "de": "Diese Kleider wurden von den Bürgern gespendet.",
+          "hint": "donare"
+        },
+        {
+          "type": "cloze",
+          "text": "Il pranzo per gli anziani viene preparato ___ Marco.",
+          "answers": ["da"],
+          "de": "Das Mittagessen für die Senioren wird von Marco zubereitet."
+        },
+        {
+          "type": "cloze",
+          "text": "La nuova scuola ___ aperta a settembre.",
+          "answers": ["sarà", "verrà"],
+          "de": "Die neue Schule wird im September eröffnet."
+        },
+        { "type": "translate", "de": "Der Verein wurde 2010 gegründet.", "answers": ["L'associazione è stata fondata nel 2010."] },
+        {
+          "type": "translate",
+          "de": "Das Abendessen wird von den Freiwilligen zubereitet.",
+          "answers": [
+            "La cena viene preparata dai volontari.",
+            "La cena è preparata dai volontari.",
+            "La cena viene cucinata dai volontari.",
+            "La cena è cucinata dai volontari."
+          ]
+        },
+        { "type": "order", "de": "Die Kleider werden von den Bürgern gesammelt.", "answer": "I vestiti vengono raccolti dai cittadini." }
+      ]
+    },
+    {
+      "id": "indefiniti",
+      "title": "Qualcuno, nessuno, ognuno, la maggior parte",
+      "blocks": [
+        { "type": "p", "text": "Mit Indefinitpronomen sprichst du über Menschen und Dinge, ohne sie genau zu nennen:" },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch", "Beispiel"],
+          "rows": [
+            ["qualcuno", "jemand", "Qualcuno ha chiamato."],
+            ["nessuno", "niemand", "Non è venuto nessuno. / Nessuno è venuto."],
+            ["ognuno", "jeder (Einzelne)", "Ognuno porta qualcosa."],
+            ["tutti / tutte", "alle", "Tutti sono invitati."],
+            ["alcuni / alcune", "einige", "Alcuni volontari sono studenti."],
+            ["qualche + Singular", "einige, ein paar", "Ho qualche idea."],
+            ["la maggior parte di", "die meisten, der größte Teil", "La maggior parte dei cittadini è d'accordo."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Steht nessuno (oder niente) nach dem Verb, braucht es non davor: Non conosco nessuno. Steht es am Satzanfang, fällt non weg: Nessuno mi conosce. Qualche steht immer mit dem Singular, obwohl es „einige“ bedeutet: qualche giorno = ein paar Tage."
+        },
+        {
+          "type": "p",
+          "text": "Nach la maggior parte di + Mehrzahl kann das Verb im Singular oder im Plural stehen – beides ist richtig: La maggior parte dei volontari lavora / lavorano il sabato."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "C'è qualcuno che può aiutarmi?", "de": "Gibt es jemanden, der mir helfen kann?" },
+            { "text": "Non ho visto nessuno.", "de": "Ich habe niemanden gesehen." },
+            { "text": "Ognuno di noi può dare una mano.", "de": "Jeder von uns kann mit anpacken." },
+            { "text": "La maggior parte dei volontari sono studenti.", "de": "Die meisten Freiwilligen sind Studenten." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "C'è ___ in casa? – No, non c'è nessuno.",
+          "answers": ["qualcuno"],
+          "de": "Ist jemand zu Hause? – Nein, es ist niemand da."
+        },
+        { "type": "cloze", "text": "Non conosco ___ in questa città.", "answers": ["nessuno"], "de": "Ich kenne niemanden in dieser Stadt." },
+        {
+          "type": "cloze",
+          "text": "___ ha il diritto di dire la sua opinione.",
+          "answers": ["ognuno", "ciascuno"],
+          "de": "Jeder hat das Recht, seine Meinung zu sagen."
+        },
+        {
+          "type": "cloze",
+          "text": "La maggior ___ degli studenti abita in centro.",
+          "answers": ["parte"],
+          "de": "Die meisten Studenten wohnen im Zentrum."
+        },
+        {
+          "type": "cloze",
+          "text": "Ho conosciuto ___ volontari molto simpatici.",
+          "answers": ["alcuni"],
+          "de": "Ich habe einige sehr nette Freiwillige kennengelernt."
+        },
+        {
+          "type": "translate",
+          "de": "Niemand hat angerufen.",
+          "answers": ["Nessuno ha chiamato.", "Non ha chiamato nessuno.", "Nessuno ha telefonato.", "Non ha telefonato nessuno."]
+        },
+        {
+          "type": "translate",
+          "de": "Hat jemand meine Schlüssel gesehen?",
+          "answers": ["Qualcuno ha visto le mie chiavi?", "Ha visto qualcuno le mie chiavi?"]
+        },
+        {
+          "type": "match",
+          "pairs": [["qualcuno", "jemand"], ["nessuno", "niemand"], ["ognuno", "jeder"], ["alcuni", "einige"], ["la maggior parte", "die meisten"]]
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Una cena per tutti",
+    "title_de": "Ein Abendessen für alle",
+    "lines": [
+      {
+        "speaker": "Giulia",
+        "text": "Lena, ti ricordi l'associazione di cui ti ho parlato?",
+        "de": "Lena, erinnerst du dich an den Verein, von dem ich dir erzählt habe?"
+      },
+      { "speaker": "Lena", "text": "Sì, quella che aiuta gli anziani, vero?", "de": "Ja, der, der älteren Menschen hilft, oder?" },
+      {
+        "speaker": "Giulia",
+        "text": "Esatto. Ogni mese viene organizzata una cena per le persone che vivono da sole.",
+        "de": "Genau. Jeden Monat wird ein Abendessen für Menschen organisiert, die allein leben."
+      },
+      {
+        "speaker": "Marco",
+        "text": "E chi cucina? Io! La responsabile mi ha chiesto se avevo tempo di aiutarli.",
+        "de": "Und wer kocht? Ich! Die Leiterin hat mich gefragt, ob ich Zeit habe, ihnen zu helfen."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Che bello, Marco! E quante persone vengono di solito?",
+        "de": "Wie schön, Marco! Und wie viele Leute kommen normalerweise?"
+      },
+      {
+        "speaker": "Marco",
+        "text": "Una quarantina. La maggior parte sono anziani, ma viene anche qualche famiglia.",
+        "de": "Ungefähr vierzig. Die meisten sind ältere Menschen, aber es kommen auch ein paar Familien."
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Il problema è che quest'anno abbiamo pochi volontari.",
+        "de": "Das Problem ist, dass wir dieses Jahr wenige Freiwillige haben."
+      },
+      { "speaker": "Lena", "text": "Potrei venire anch'io! Cosa dovrei fare?", "de": "Ich könnte auch kommen! Was müsste ich machen?" },
+      {
+        "speaker": "Giulia",
+        "text": "Ognuno fa quello che può: cucinare, lavare i piatti o parlare con gli ospiti.",
+        "de": "Jeder macht, was er kann: kochen, abspülen oder sich mit den Gästen unterhalten."
+      },
+      { "speaker": "Lena", "text": "Parlare mi piace! Ma lì non mi conosce nessuno…", "de": "Reden mag ich! Aber dort kennt mich niemand …" },
+      {
+        "speaker": "Marco",
+        "text": "Non ti preoccupare. Giulia ha già detto a tutti che arrivava una nuova volontaria tedesca!",
+        "de": "Keine Sorge. Giulia hat schon allen gesagt, dass eine neue deutsche Freiwillige kommt!"
+      },
+      {
+        "speaker": "Giulia",
+        "text": "È vero. E la signora Rosa mi ha chiesto se sapevi fare lo strudel!",
+        "de": "Stimmt. Und Frau Rosa hat mich gefragt, ob du Strudel backen kannst!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Lo strudel? Certo, è la ricetta di mia madre! Quando è la prossima cena?",
+        "de": "Strudel? Klar, das ist das Rezept meiner Mutter! Wann ist das nächste Abendessen?"
+      },
+      {
+        "speaker": "Giulia",
+        "text": "Sabato prossimo. La spesa viene pagata dal comune e i negozi del centro ci regalano il pane.",
+        "de": "Nächsten Samstag. Der Einkauf wird von der Gemeinde bezahlt, und die Läden im Zentrum schenken uns das Brot."
+      },
+      {
+        "speaker": "Marco",
+        "text": "Vedrai, Lena: tra un mese farai parte della famiglia!",
+        "de": "Du wirst sehen, Lena: In einem Monat gehörst du zur Familie!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Lo spero! Ognuno di noi può fare la differenza, no?",
+        "de": "Das hoffe ich! Jeder von uns kann etwas bewirken, oder?"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["la società", "die Gesellschaft"],
+        ["l'associazione", "der Verein"],
+        ["il volontario", "der Freiwillige"],
+        ["il sindaco", "der Bürgermeister"],
+        ["la legge", "das Gesetz"],
+        ["il diritto", "das Recht"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [["sostenere", "unterstützen"], ["partecipare", "teilnehmen"], ["raccogliere", "sammeln"], ["donare", "spenden"], ["fondare", "gründen"]]
+    },
+    {
+      "type": "cloze",
+      "text": "Il sabato faccio ___ in un'associazione.",
+      "answers": ["volontariato"],
+      "de": "Samstags arbeite ich ehrenamtlich in einem Verein."
+    },
+    { "type": "cloze", "text": "Puoi darmi una ___ a portare le sedie?", "answers": ["mano"], "de": "Kannst du mir helfen, die Stühle zu tragen?" },
+    {
+      "type": "cloze",
+      "text": "Uomini e donne devono avere gli stessi ___.",
+      "answers": ["diritti"],
+      "de": "Männer und Frauen müssen die gleichen Rechte haben."
+    },
+    {
+      "type": "cloze",
+      "text": "Molti anziani vivono da soli e soffrono di ___.",
+      "answers": ["solitudine"],
+      "de": "Viele ältere Menschen leben allein und leiden unter Einsamkeit."
+    },
+    {
+      "type": "translate",
+      "de": "Jeder kann etwas bewirken.",
+      "answers": ["Ognuno può fare la differenza.", "Tutti possono fare la differenza.", "Ciascuno può fare la differenza."]
+    },
+    {
+      "type": "translate",
+      "de": "Sie hat mich gefragt, ob ich Zeit habe.",
+      "answers": ["Mi ha chiesto se avevo tempo.", "Lei mi ha chiesto se avevo tempo.", "Mi ha chiesto se ho tempo.", "Lei mi ha chiesto se ho tempo."]
+    },
+    {
+      "type": "translate",
+      "de": "Das Fest wird von der Gemeinde organisiert.",
+      "answers": ["La festa viene organizzata dal comune.", "La festa è organizzata dal comune."]
+    },
+    { "type": "order", "de": "Ich bin Mitglied in einem Verein.", "answer": "Faccio parte di un'associazione." },
+    { "type": "order", "de": "Die meisten Leute sind einverstanden.", "answer": "La maggior parte delle persone è d'accordo." },
+    {
+      "type": "listen",
+      "text": "Il sindaco ha detto che il comune sosterrà tutte le associazioni di volontari.",
+      "de": "Der Bürgermeister hat gesagt, dass die Gemeinde alle Freiwilligenvereine unterstützen wird."
+    },
+    {
+      "type": "listen",
+      "text": "Nessuno deve sentirsi solo: ognuno di noi può dare una mano.",
+      "de": "Niemand soll sich allein fühlen: Jeder von uns kann helfen."
+    }
+  ]
+}

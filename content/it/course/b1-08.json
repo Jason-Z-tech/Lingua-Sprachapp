@@ -123,17 +123,17 @@
       "note": "Wie succedere mit essere. Capita! = Das kommt vor!"
     },
     {
-      "id": "riuscire",
-      "word": "riuscire",
-      "de": "schaffen; gelingen (riuscire a)",
+      "id": "ritrovare",
+      "word": "ritrovare",
+      "de": "wiederfinden",
       "pos": "verb",
-      "forms": "riesco, riesci, riesce, riusciamo, riuscite, riescono",
+      "forms": "ritrovo, ritrovi, ritrova, ritroviamo, ritrovate, ritrovano",
       "example": {
-        "text": "Alla fine sono riuscita a prendere l'ultimo treno.",
-        "de": "Am Ende habe ich es geschafft, den letzten Zug zu nehmen.",
-        "focus": "riuscita"
+        "text": "Per fortuna ho ritrovato le chiavi nella borsa.",
+        "de": "Zum Glück habe ich die Schlüssel in der Tasche wiedergefunden.",
+        "focus": "ritrovato"
       },
-      "note": "Mit a + Infinitiv, passato prossimo mit essere. Non ci riesco! = Ich schaffe es nicht!"
+      "note": "Ritrovarsi = sich wiedertreffen: Ci ritroviamo alle otto in piazza."
     },
     {
       "id": "rubare",

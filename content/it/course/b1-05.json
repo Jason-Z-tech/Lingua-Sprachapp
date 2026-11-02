@@ -1,0 +1,166 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-05",
+  "lang": "it",
+  "level": "B1",
+  "number": 5,
+  "title": "Non si finisce mai di imparare",
+  "title_de": "Lernen",
+  "topic": "Schule, Studium und Weiterbildung",
+  "goals": [
+    "Du kannst über Schule, Studium und Weiterbildung sprechen: Fächer, Noten, Prüfungen und Abschlüsse.",
+    "Du erzählst mit dem trapassato prossimo, was vorher schon passiert war: Avevo già studiato. Il treno era già partito.",
+    "Du verbindest Handlungen mit dem Gerundium: Ho imparato leggendo. Essendo stanca, sono rimasta a casa.",
+    "Du ordnest Handlungen zeitlich mit prima di + Infinitiv, dopo aver/essere + Partizip und mentre."
+  ],
+  "vocab": [
+    { "id": "materia", "word": "materia", "article": "la", "gender": "f", "plural": "le materie", "de": "das (Schul-)Fach", "pos": "noun", "example": { "text": "Qual era la tua materia preferita a scuola?", "de": "Was war dein Lieblingsfach in der Schule?" } },
+    { "id": "lezione", "word": "lezione", "article": "la", "gender": "f", "plural": "le lezioni", "de": "die Unterrichtsstunde; die Vorlesung", "pos": "noun", "example": { "text": "La lezione comincia alle otto e mezza.", "de": "Der Unterricht beginnt um halb neun." }, "note": "a lezione = im Unterricht" },
+    { "id": "classe", "word": "classe", "article": "la", "gender": "f", "plural": "le classi", "de": "die Klasse", "pos": "noun", "example": { "text": "Nella mia classe eravamo in venticinque.", "de": "In meiner Klasse waren wir fünfundzwanzig." } },
+    { "id": "professore", "word": "professore", "article": "il", "gender": "m", "plural": "i professori", "de": "der Lehrer (ab der Mittelschule); der Professor", "pos": "noun", "example": { "text": "Il professore di storia ci raccontava sempre cose interessanti.", "de": "Der Geschichtslehrer hat uns immer interessante Sachen erzählt." }, "note": "Die Lehrerin: la professoressa. Schüler sagen oft kurz: il prof, la prof." },
+    { "id": "maestro", "word": "maestro", "article": "il", "gender": "m", "plural": "i maestri", "de": "der Grundschullehrer", "pos": "noun", "example": { "text": "Mia nonna faceva la maestra in un piccolo paese.", "de": "Meine Oma war Grundschullehrerin in einem kleinen Dorf.", "focus": "maestra" }, "note": "Die Grundschullehrerin: la maestra." },
+    { "id": "liceo", "word": "liceo", "article": "il", "gender": "m", "plural": "i licei", "de": "das Gymnasium", "pos": "noun", "example": { "text": "Giulia insegna inglese in un liceo.", "de": "Giulia unterrichtet Englisch an einem Gymnasium." } },
+    { "id": "maturita", "word": "maturità", "article": "la", "gender": "f", "de": "das Abitur", "pos": "noun", "example": { "text": "Dopo la maturità ho fatto un lungo viaggio.", "de": "Nach dem Abitur habe ich eine lange Reise gemacht." }, "note": "Ganz: l’esame di maturità." },
+    { "id": "laurea", "word": "laurea", "article": "la", "gender": "f", "plural": "le lauree", "de": "der Hochschulabschluss", "pos": "noun", "example": { "text": "Giulia ha una laurea in lingue.", "de": "Giulia hat einen Abschluss in Sprachen." }, "note": "Den Abschluss machen = laurearsi." },
+    { "id": "facolta", "word": "facoltà", "article": "la", "gender": "f", "plural": "le facoltà", "de": "die Fakultät; der Fachbereich", "pos": "noun", "example": { "text": "Chiara studia alla facoltà di medicina.", "de": "Chiara studiert an der medizinischen Fakultät." }, "note": "In der Mehrzahl unverändert." },
+    { "id": "iscriversi", "word": "iscriversi", "de": "sich einschreiben; sich anmelden", "pos": "verb", "forms": "mi iscrivo, ti iscrivi, si iscrive … – Partizip: iscritto", "example": { "text": "Mi sono iscritta a un corso di cucina.", "de": "Ich habe mich für einen Kochkurs angemeldet.", "focus": "iscritta" }, "note": "Wofür? iscriversi a qualcosa: iscriversi all’università." },
+    { "id": "frequentare", "word": "frequentare", "de": "besuchen (Schule, Kurs)", "pos": "verb", "forms": "frequento, frequenti, frequenta …", "example": { "text": "Frequento un corso serale due volte alla settimana.", "de": "Ich besuche zweimal pro Woche einen Abendkurs.", "focus": "frequento" } },
+    { "id": "formazione", "word": "formazione", "article": "la", "gender": "f", "de": "die Ausbildung; die Weiterbildung", "pos": "noun", "example": { "text": "Molte aziende offrono corsi di formazione.", "de": "Viele Firmen bieten Weiterbildungskurse an." } },
+    { "id": "voto", "word": "voto", "article": "il", "gender": "m", "plural": "i voti", "de": "die Note", "pos": "noun", "example": { "text": "Ho preso un bel voto in storia.", "de": "Ich habe eine gute Note in Geschichte bekommen." }, "note": "Eine Note bekommen = prendere un voto. In Italien geht es von 1 bis 10 – 10 ist die beste Note!" },
+    { "id": "pagella", "word": "pagella", "article": "la", "gender": "f", "plural": "le pagelle", "de": "das Zeugnis (Schule)", "pos": "noun", "example": { "text": "Quest'anno la pagella di mio fratello è ottima.", "de": "Dieses Jahr ist das Zeugnis meines Bruders sehr gut." } },
+    { "id": "essere-promosso", "word": "essere promosso", "de": "versetzt werden; bestehen", "pos": "phrase", "example": { "text": "Sono stata promossa con ottimi voti!", "de": "Ich bin mit sehr guten Noten versetzt worden!", "focus": "promossa" }, "note": "Auch bei Prüfungen: All’esame sono stato promosso." },
+    { "id": "essere-bocciato", "word": "essere bocciato", "de": "durchfallen; sitzen bleiben", "pos": "phrase", "example": { "text": "Marco è stato bocciato una volta al liceo.", "de": "Marco ist auf dem Gymnasium einmal sitzen geblieben.", "focus": "bocciato" }, "note": "Umgangssprachlich auch: Mi hanno bocciato." },
+    { "id": "ripassare", "word": "ripassare", "de": "(Lernstoff) wiederholen", "pos": "verb", "forms": "ripasso, ripassi, ripassa …", "example": { "text": "Prima dell'esame ripasso tutto.", "de": "Vor der Prüfung wiederhole ich alles.", "focus": "ripasso" } },
+    { "id": "ripetere", "word": "ripetere", "de": "wiederholen (noch einmal sagen)", "pos": "verb", "forms": "ripeto, ripeti, ripete …", "example": { "text": "Può ripetere, per favore?", "de": "Können Sie das bitte wiederholen?" } },
+    { "id": "imparare-a-memoria", "word": "imparare a memoria", "de": "auswendig lernen", "pos": "phrase", "example": { "text": "Non mi piace imparare a memoria.", "de": "Ich lerne nicht gern auswendig." } },
+    { "id": "spiegare", "word": "spiegare", "de": "erklären", "pos": "verb", "forms": "spiego, spieghi, spiega …", "example": { "text": "Il professore spiega molto bene.", "de": "Der Lehrer erklärt sehr gut.", "focus": "spiega" } },
+    { "id": "domanda", "word": "domanda", "article": "la", "gender": "f", "plural": "le domande", "de": "die Frage", "pos": "noun", "example": { "text": "Posso fare una domanda?", "de": "Darf ich eine Frage stellen?" }, "note": "Eine Frage stellen = fare una domanda." },
+    { "id": "risposta", "word": "risposta", "article": "la", "gender": "f", "plural": "le risposte", "de": "die Antwort", "pos": "noun", "example": { "text": "Non so la risposta.", "de": "Ich weiß die Antwort nicht." } },
+    { "id": "parola", "word": "parola", "article": "la", "gender": "f", "plural": "le parole", "de": "das Wort", "pos": "noun", "example": { "text": "Ogni giorno imparo dieci parole nuove.", "de": "Jeden Tag lerne ich zehn neue Wörter.", "focus": "parole" } },
+    { "id": "correggere", "word": "correggere", "de": "korrigieren", "pos": "verb", "forms": "correggo, correggi, corregge … – Partizip: corretto", "example": { "text": "Stasera Giulia deve correggere trenta compiti.", "de": "Heute Abend muss Giulia dreißig Klassenarbeiten korrigieren." }, "note": "il compito (in classe) = die Klassenarbeit; i compiti = die Hausaufgaben." },
+    { "id": "biblioteca", "word": "biblioteca", "article": "la", "gender": "f", "plural": "le biblioteche", "de": "die Bibliothek", "pos": "noun", "example": { "text": "Studio in biblioteca perché a casa c'è troppo rumore.", "de": "Ich lerne in der Bibliothek, weil es zu Hause zu laut ist." } },
+    { "id": "aula", "word": "aula", "article": "l'", "gender": "f", "plural": "le aule", "de": "das Klassenzimmer; der Hörsaal", "pos": "noun", "example": { "text": "L'aula era piena di studenti.", "de": "Der Hörsaal war voller Studenten." } },
+    { "id": "appunti", "word": "appunti", "article": "gli", "gender": "m", "de": "die Notizen; die Mitschrift", "pos": "noun", "example": { "text": "Mi presti i tuoi appunti?", "de": "Leihst du mir deine Mitschrift?" }, "note": "Mitschreiben = prendere appunti." },
+    { "id": "quaderno", "word": "quaderno", "article": "il", "gender": "m", "plural": "i quaderni", "de": "das Heft", "pos": "noun", "example": { "text": "Scrivo le parole nuove in un quaderno.", "de": "Ich schreibe die neuen Wörter in ein Heft." } },
+    { "id": "facile", "word": "facile", "de": "leicht; einfach", "pos": "adj", "example": { "text": "L'esame è stato più facile del previsto.", "de": "Die Prüfung war leichter als erwartet." } },
+    { "id": "severo", "word": "severo", "alt": ["severa"], "de": "streng", "pos": "adj", "example": { "text": "La mia maestra era severa ma giusta.", "de": "Meine Grundschullehrerin war streng, aber gerecht.", "focus": "severa" } },
+    { "id": "concentrarsi", "word": "concentrarsi", "de": "sich konzentrieren", "pos": "verb", "forms": "mi concentro, ti concentri, si concentra …", "example": { "text": "Con la musica non riesco a concentrarmi.", "de": "Mit Musik kann ich mich nicht konzentrieren.", "focus": "concentrarmi" } },
+    { "id": "orale", "word": "orale", "de": "mündlich", "pos": "adj", "example": { "text": "Domani ho l'esame orale.", "de": "Morgen habe ich die mündliche Prüfung." }, "note": "Schriftlich = scritto: l’esame scritto." },
+    { "id": "borsa-di-studio", "word": "borsa di studio", "article": "la", "gender": "f", "plural": "le borse di studio", "de": "das Stipendium", "pos": "noun", "example": { "text": "Chiara ha ricevuto una borsa di studio per studiare a Parigi.", "de": "Chiara hat ein Stipendium bekommen, um in Paris zu studieren." } },
+    { "id": "tesi", "word": "tesi", "article": "la", "gender": "f", "plural": "le tesi", "de": "die Abschlussarbeit", "pos": "noun", "example": { "text": "Sto scrivendo la tesi di laurea.", "de": "Ich schreibe gerade meine Abschlussarbeit." }, "note": "In der Mehrzahl unverändert." },
+    { "id": "storia", "word": "storia", "article": "la", "gender": "f", "plural": "le storie", "de": "die Geschichte", "pos": "noun", "example": { "text": "A scuola la storia era la mia materia preferita.", "de": "In der Schule war Geschichte mein Lieblingsfach." }, "note": "Auch: eine Geschichte, die man erzählt – Raccontami una storia!" },
+    { "id": "matematica", "word": "matematica", "article": "la", "gender": "f", "de": "die Mathematik", "pos": "noun", "example": { "text": "Non ero molto bravo in matematica.", "de": "Ich war nicht besonders gut in Mathe." }, "note": "Umgangssprachlich: la mate." },
+    { "id": "prima-di", "word": "prima di", "de": "vor; bevor (+ Infinitiv)", "pos": "prep", "example": { "text": "Prima di uscire, spegni la luce!", "de": "Bevor du rausgehst, mach das Licht aus!" }, "note": "Mit Nomen: prima della lezione. Mit Infinitiv: prima di studiare = bevor ich lerne." },
+    { "id": "nel-frattempo", "word": "nel frattempo", "de": "inzwischen; in der Zwischenzeit", "pos": "phrase", "example": { "text": "Io preparo la cena; nel frattempo tu fai i compiti.", "de": "Ich mache das Abendessen; in der Zwischenzeit machst du die Hausaufgaben." } }
+  ],
+  "grammar": [
+    {
+      "id": "trapassato-prossimo",
+      "title": "Das trapassato prossimo: Ich hatte gelernt",
+      "blocks": [
+        { "type": "p", "text": "Mit dem trapassato prossimo erzählst du, was vor einem anderen Ereignis in der Vergangenheit schon passiert war – wie das deutsche Plusquamperfekt (ich hatte gelernt, ich war gegangen)." },
+        { "type": "p", "text": "So bildest du es: imperfetto von avere oder essere + Partizip. Welches Hilfsverb, entscheidest du genau wie im passato prossimo – und nach essere passt sich das Partizip an." },
+        { "type": "table", "head": ["", "studiare (mit avere)", "partire (mit essere)"], "rows": [["io", "avevo studiato", "ero partito/a"], ["tu", "avevi studiato", "eri partito/a"], ["lui / lei / Lei", "aveva studiato", "era partito/a"], ["noi", "avevamo studiato", "eravamo partiti/e"], ["voi", "avevate studiato", "eravate partiti/e"], ["loro", "avevano studiato", "erano partiti/e"]] },
+        { "type": "tip", "text": "Oft stehen già, appena oder non … ancora dabei: Quando sono arrivata, la lezione era già cominciata. – Als ich ankam, hatte der Unterricht schon angefangen." },
+        { "type": "tip", "text": "Reflexive Verben bilden das trapassato mit essere: mi ero iscritto, ti eri preparata, si era alzato." },
+        { "type": "examples", "items": [{ "text": "Non sono andata alla festa perché non avevo ancora finito la tesi.", "de": "Ich bin nicht zur Party gegangen, weil ich meine Abschlussarbeit noch nicht fertig hatte." }, { "text": "Marco era stanco: aveva lavorato tutta la notte.", "de": "Marco war müde: Er hatte die ganze Nacht gearbeitet." }, { "text": "Prima di venire in Italia, avevo già studiato un po' di italiano.", "de": "Bevor ich nach Italien kam, hatte ich schon ein bisschen Italienisch gelernt." }, { "text": "Quando siamo arrivati alla stazione, il treno era già partito.", "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren." }, { "text": "Sara mi ha detto che si era iscritta a un corso di tedesco.", "de": "Sara hat mir erzählt, dass sie sich für einen Deutschkurs angemeldet hatte." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Quando sono arrivata, la lezione ___ già cominciata.", "answers": ["era"], "de": "Als ich ankam, hatte der Unterricht schon angefangen.", "hint": "essere" },
+        { "type": "cloze", "text": "Marco era stanco perché ___ lavorato tutta la notte.", "answers": ["aveva"], "de": "Marco war müde, weil er die ganze Nacht gearbeitet hatte.", "hint": "avere" },
+        { "type": "cloze", "text": "Prima del corso, Lena aveva già ___ un po' di italiano.", "answers": ["studiato"], "de": "Vor dem Kurs hatte Lena schon ein bisschen Italienisch gelernt.", "hint": "studiare" },
+        { "type": "cloze", "text": "Quando siamo arrivati, il treno era già ___.", "answers": ["partito"], "de": "Als wir ankamen, war der Zug schon abgefahren.", "hint": "partire" },
+        { "type": "cloze", "text": "Sara si era ___ a un corso di tedesco.", "answers": ["iscritta"], "de": "Sara hatte sich für einen Deutschkurs angemeldet.", "hint": "iscriversi" },
+        { "type": "cloze", "text": "Non sono andato alla festa perché non ___ ancora finito i compiti.", "answers": ["avevo"], "de": "Ich bin nicht zur Party gegangen, weil ich die Hausaufgaben noch nicht fertig hatte.", "hint": "avere" },
+        { "type": "order", "de": "Ich hatte die Prüfung schon bestanden.", "answer": "Avevo già superato l'esame." },
+        { "type": "translate", "de": "Als ich ankam, hatte der Film schon angefangen.", "answers": ["Quando sono arrivato, il film era già cominciato.", "Quando sono arrivata, il film era già cominciato.", "Quando sono arrivato, il film era già iniziato.", "Quando sono arrivata, il film era già iniziato.", "Quando io sono arrivato, il film era già cominciato.", "Quando io sono arrivata, il film era già cominciato.", "Il film era già cominciato quando sono arrivato.", "Il film era già cominciato quando sono arrivata."] },
+        { "type": "listen", "text": "Lena era contenta perché aveva superato l'esame.", "de": "Lena war froh, weil sie die Prüfung bestanden hatte." }
+      ]
+    },
+    {
+      "id": "gerundio",
+      "title": "Das Gerundium als Verbindung: studiando, essendo stanca",
+      "blocks": [
+        { "type": "p", "text": "Das Gerundium kennst du schon aus sto lavorando. Es kann aber auch allein stehen und zwei Sätze verbinden. Es hat dasselbe Subjekt wie der Hauptsatz und sagt, wie, warum oder wann etwas passiert." },
+        { "type": "table", "head": ["Bedeutung", "Beispiel", "Deutsch"], "rows": [["wie? (Art und Weise)", "Ho imparato l'italiano guardando film.", "Ich habe Italienisch gelernt, indem ich Filme geschaut habe."], ["warum? (Grund)", "Essendo stanca, sono rimasta a casa.", "Weil ich müde war, bin ich zu Hause geblieben."], ["wann? (gleichzeitig)", "Tornando a casa, ho incontrato Marco.", "Auf dem Heimweg habe ich Marco getroffen."], ["unter welcher Bedingung?", "Studiando un po' ogni giorno, superi l'esame.", "Wenn du jeden Tag ein bisschen lernst, bestehst du die Prüfung."]] },
+        { "type": "p", "text": "Zur Erinnerung die Bildung: -are → -ando (studiando), -ere und -ire → -endo (leggendo, partendo). Unregelmäßig: fare → facendo, dire → dicendo, bere → bevendo. Von essere: essendo, von avere: avendo." },
+        { "type": "tip", "text": "Pronomen werden ans Gerundium angehängt: Leggendolo, ho capito tutto. – Als ich es gelesen habe, habe ich alles verstanden. Alzandomi presto, ho più tempo. – Wenn ich früh aufstehe, habe ich mehr Zeit." },
+        { "type": "tip", "text": "Das Deutsche hat keine solche Form. Übersetze je nach Sinn mit indem, weil, wenn, während oder beim …: Studiando = beim Lernen / indem man lernt." },
+        { "type": "examples", "items": [{ "text": "Ho imparato molte parole leggendo libri in italiano.", "de": "Ich habe viele Wörter gelernt, indem ich Bücher auf Italienisch gelesen habe." }, { "text": "Avendo poco tempo, ho fatto un corso online.", "de": "Weil ich wenig Zeit hatte, habe ich einen Onlinekurs gemacht." }, { "text": "Andando all'università, ripasso gli appunti sull'autobus.", "de": "Auf dem Weg zur Uni wiederhole ich im Bus meine Mitschrift." }, { "text": "Essendo molto timido, Jonas non faceva mai domande in classe.", "de": "Weil Jonas sehr schüchtern war, hat er im Unterricht nie Fragen gestellt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Ho imparato l'italiano ___ film.", "answers": ["guardando"], "de": "Ich habe Italienisch gelernt, indem ich Filme geschaut habe.", "hint": "guardare" },
+        { "type": "cloze", "text": "___ stanca, sono rimasta a casa.", "answers": ["essendo"], "de": "Weil ich müde war, bin ich zu Hause geblieben.", "hint": "essere" },
+        { "type": "cloze", "text": "___ a casa, ho incontrato Marco.", "answers": ["tornando"], "de": "Auf dem Heimweg habe ich Marco getroffen.", "hint": "tornare" },
+        { "type": "cloze", "text": "___ poco tempo, Lena fa un corso online.", "answers": ["avendo"], "de": "Weil Lena wenig Zeit hat, macht sie einen Onlinekurs.", "hint": "avere" },
+        { "type": "cloze", "text": "Ho capito la grammatica ___ tanti esercizi.", "answers": ["facendo"], "de": "Ich habe die Grammatik verstanden, indem ich viele Übungen gemacht habe.", "hint": "fare" },
+        { "type": "cloze", "text": "___ in biblioteca, mi concentro meglio.", "answers": ["studiando"], "de": "Wenn ich in der Bibliothek lerne, kann ich mich besser konzentrieren.", "hint": "studiare" },
+        { "type": "match", "pairs": [["studiando", "beim Lernen"], ["essendo stanco", "weil er müde ist"], ["facendo esercizi", "indem man Übungen macht"], ["tornando a casa", "auf dem Heimweg"], ["avendo tempo", "wenn man Zeit hat"]] },
+        { "type": "translate", "de": "Ich habe viele Wörter gelernt, indem ich Bücher gelesen habe.", "answers": ["Ho imparato molte parole leggendo libri.", "Ho imparato tante parole leggendo libri.", "Ho imparato molte parole leggendo dei libri.", "Ho imparato tante parole leggendo dei libri.", "Leggendo libri ho imparato molte parole.", "Leggendo libri ho imparato tante parole."] },
+        { "type": "listen", "text": "Ripassando un po' ogni giorno, si impara senza stress.", "de": "Wenn man jeden Tag ein bisschen wiederholt, lernt man ohne Stress." }
+      ]
+    },
+    {
+      "id": "prima-dopo-mentre",
+      "title": "Vorher, nachher, gleichzeitig: prima di, dopo aver …, mentre",
+      "blocks": [
+        { "type": "p", "text": "Bleibt das Subjekt gleich, kannst du Handlungen ohne eigenen Nebensatz zeitlich ordnen:" },
+        { "type": "table", "head": ["Ausdruck", "Bedeutung", "Beispiel"], "rows": [["prima di + Infinitiv", "bevor …", "Prima di uscire, spengo la luce."], ["dopo aver + Partizip", "nachdem … (Verben mit avere)", "Dopo aver studiato, sono uscita."], ["dopo essere + Partizip", "nachdem … (Verben mit essere)", "Dopo essere arrivata, ho chiamato Sara."], ["mentre + Indikativ", "während …", "Mentre studiavo, Chiara cucinava."]] },
+        { "type": "tip", "text": "Bei dopo essere passt sich das Partizip an das Subjekt an: Dopo essere arrivate, le ragazze hanno mangiato. Statt avere sagt man meist kurz aver: dopo aver studiato." },
+        { "type": "tip", "text": "Reflexive Verben: Das Pronomen hängt am Infinitiv – prima di alzarmi, dopo essermi alzata." },
+        { "type": "p", "text": "mentre verbindet zwei Handlungen, die gleichzeitig passieren. In der Vergangenheit steht danach meist das imperfetto: Mentre facevo i compiti, ascoltavo la musica. Unterbricht etwas die Handlung, steht es im passato prossimo: Mentre studiavo, è arrivato Marco." },
+        { "type": "examples", "items": [{ "text": "Prima di iscriverti, leggi bene le informazioni sul sito.", "de": "Bevor du dich anmeldest, lies die Infos auf der Website genau." }, { "text": "Dopo aver finito il liceo, Giulia ha studiato lingue a Bologna.", "de": "Nachdem Giulia das Gymnasium abgeschlossen hatte, hat sie in Bologna Sprachen studiert." }, { "text": "Dopo essere tornata a casa, ho ripassato gli appunti.", "de": "Nachdem ich nach Hause gekommen war, habe ich meine Mitschrift wiederholt." }, { "text": "Mentre il professore spiegava, io prendevo appunti.", "de": "Während der Lehrer erklärte, schrieb ich mit." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Prima ___ uscire, spegni la luce!", "answers": ["di"], "de": "Bevor du rausgehst, mach das Licht aus!" },
+        { "type": "cloze", "text": "Dopo ___ studiato, sono uscita con Sara.", "answers": ["aver", "avere"], "de": "Nachdem ich gelernt hatte, bin ich mit Sara ausgegangen." },
+        { "type": "cloze", "text": "Dopo ___ arrivata, Lena ha chiamato sua madre.", "answers": ["essere"], "de": "Nachdem Lena angekommen war, hat sie ihre Mutter angerufen." },
+        { "type": "cloze", "text": "___ il professore spiegava, io prendevo appunti.", "answers": ["mentre"], "de": "Während der Lehrer erklärte, schrieb ich mit." },
+        { "type": "cloze", "text": "Mentre facevo i compiti, ___ Marco.", "answers": ["è arrivato"], "de": "Während ich die Hausaufgaben machte, ist Marco gekommen.", "hint": "arrivare" },
+        { "type": "cloze", "text": "Prima di ___, ripasso sempre gli appunti.", "answers": ["dormire"], "de": "Bevor ich schlafe, wiederhole ich immer meine Mitschrift.", "hint": "dormire" },
+        { "type": "translate", "de": "Bevor ich ausgehe, mache ich meine Hausaufgaben.", "answers": ["Prima di uscire faccio i compiti.", "Faccio i compiti prima di uscire.", "Prima di uscire io faccio i compiti.", "Io faccio i compiti prima di uscire."] },
+        { "type": "translate", "de": "Nachdem ich gegessen hatte, habe ich gelernt.", "answers": ["Dopo aver mangiato ho studiato.", "Dopo avere mangiato ho studiato.", "Ho studiato dopo aver mangiato.", "Ho studiato dopo avere mangiato.", "Dopo aver mangiato io ho studiato."] },
+        { "type": "order", "de": "Während der Lehrer erklärte, schrieb ich mit.", "answer": "Mentre il professore spiegava, io prendevo appunti." },
+        { "type": "listen", "text": "Dopo aver finito il liceo, Giulia ha studiato lingue all'università di Bologna.", "de": "Nachdem Giulia das Gymnasium abgeschlossen hatte, hat sie an der Uni Bologna Sprachen studiert." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Ricordi di scuola",
+    "title_de": "Schulerinnerungen",
+    "lines": [
+      { "speaker": "Lena", "text": "Ciao, Giulia! Cosa fai con tutti quei quaderni?", "de": "Hallo, Giulia! Was machst du mit all den Heften?" },
+      { "speaker": "Giulia", "text": "Ciao, Lena! Correggo i compiti dei miei studenti. Ne ho ancora trenta!", "de": "Hallo, Lena! Ich korrigiere die Klassenarbeiten meiner Schüler. Ich habe noch dreißig!" },
+      { "speaker": "Lena", "text": "Poverina! Io invece ho una bella notizia: l'esame di italiano è andato benissimo!", "de": "Du Arme! Ich habe dagegen eine gute Nachricht: Die Italienischprüfung ist super gelaufen!" },
+      { "speaker": "Giulia", "text": "Brava! Lo sapevo. Avevi studiato tantissimo.", "de": "Super! Ich wusste es. Du hattest ja wahnsinnig viel gelernt." },
+      { "speaker": "Lena", "text": "Sì, ripassando un po' ogni giorno. E adesso vorrei iscrivermi a un corso di formazione.", "de": "Ja – indem ich jeden Tag ein bisschen wiederholt habe. Und jetzt würde ich mich gern für eine Weiterbildung anmelden." },
+      { "speaker": "Giulia", "text": "Ottima idea! Che corso?", "de": "Tolle Idee! Was für ein Kurs?" },
+      { "speaker": "Lena", "text": "Non ho ancora deciso. Prima di scegliere, voglio vedere cosa offre l'università.", "de": "Ich habe mich noch nicht entschieden. Bevor ich etwas auswähle, will ich sehen, was die Uni anbietet." },
+      { "speaker": "Marco", "text": "Ciao, ragazze! Di cosa parlate? Di scuola? Che noia!", "de": "Hallo, ihr beiden! Worüber redet ihr? Über Schule? Wie langweilig!" },
+      { "speaker": "Giulia", "text": "A Marco non piaceva la scuola. Al liceo è stato bocciato una volta!", "de": "Marco mochte die Schule nicht. Auf dem Gymnasium ist er einmal sitzen geblieben!" },
+      { "speaker": "Marco", "text": "È vero. Non avevo mai studiato matematica in vita mia! Quattro in pagella…", "de": "Stimmt. Ich hatte in meinem ganzen Leben nie Mathe gelernt! Eine Vier im Zeugnis …" },
+      { "speaker": "Lena", "text": "Quattro? Ma in Germania è un voto normale!", "de": "Eine Vier? Aber in Deutschland ist das eine ganz normale Note!" },
+      { "speaker": "Giulia", "text": "In Italia invece i voti vanno da uno a dieci, e con meno di sei non sei promosso.", "de": "In Italien gehen die Noten dagegen von eins bis zehn, und mit weniger als sechs wirst du nicht versetzt." },
+      { "speaker": "Marco", "text": "Infatti. Comunque, dopo essere stato bocciato, sono andato a una scuola per cuochi. E lì ero il più bravo!", "de": "Genau. Jedenfalls bin ich, nachdem ich sitzen geblieben war, auf eine Kochschule gegangen. Und da war ich der Beste!" },
+      { "speaker": "Lena", "text": "Quindi essere bocciato è stata una fortuna!", "de": "Also war das Sitzenbleiben ein Glück!" },
+      { "speaker": "Marco", "text": "Esatto! Non si finisce mai di imparare… ma la matematica no, grazie!", "de": "Genau! Man lernt nie aus … aber Mathe, nein danke!" },
+      { "speaker": "Giulia", "text": "Mentre voi parlavate, io ho corretto altri due compiti. Ne restano ventotto!", "de": "Während ihr geredet habt, habe ich zwei weitere Arbeiten korrigiert. Bleiben noch achtundzwanzig!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["la materia", "das Schulfach"], ["il voto", "die Note"], ["la pagella", "das Zeugnis"], ["la laurea", "der Hochschulabschluss"], ["la maturità", "das Abitur"]] },
+    { "type": "match", "pairs": [["ripassare", "(Lernstoff) wiederholen"], ["correggere", "korrigieren"], ["iscriversi", "sich anmelden"], ["frequentare", "besuchen"], ["spiegare", "erklären"]] },
+    { "type": "translate", "de": "Was war dein Lieblingsfach in der Schule?", "answers": ["Qual era la tua materia preferita a scuola?", "Qual era la tua materia preferita?", "A scuola qual era la tua materia preferita?", "Quale era la tua materia preferita a scuola?"] },
+    { "type": "translate", "de": "Darf ich eine Frage stellen?", "answers": ["Posso fare una domanda?", "Posso farti una domanda?", "Posso farLe una domanda?", "Posso farvi una domanda?"] },
+    { "type": "translate", "de": "Ich bin durch die Prüfung gefallen.", "answers": ["Sono stato bocciato all'esame.", "Sono stata bocciata all'esame.", "Mi hanno bocciato all'esame.", "Mi hanno bocciata all'esame.", "Non ho superato l'esame.", "Io sono stato bocciato all'esame.", "Io sono stata bocciata all'esame."] },
+    { "type": "translate", "de": "Ich habe mich für einen Kochkurs angemeldet.", "answers": ["Mi sono iscritto a un corso di cucina.", "Mi sono iscritta a un corso di cucina.", "Io mi sono iscritto a un corso di cucina.", "Io mi sono iscritta a un corso di cucina."] },
+    { "type": "cloze", "text": "Studio in ___ perché a casa c'è troppo rumore.", "answers": ["biblioteca"], "de": "Ich lerne in der Bibliothek, weil es zu Hause zu laut ist." },
+    { "type": "cloze", "text": "Mi presti i tuoi ___? Ieri non sono venuto a lezione.", "answers": ["appunti"], "de": "Leihst du mir deine Mitschrift? Gestern war ich nicht im Unterricht." },
+    { "type": "cloze", "text": "Con la musica non riesco a ___.", "answers": ["concentrarmi"], "de": "Mit Musik kann ich mich nicht konzentrieren.", "hint": "concentrarsi" },
+    { "type": "cloze", "text": "Può ___, per favore? Non ho capito.", "answers": ["ripetere"], "de": "Können Sie das bitte wiederholen? Ich habe es nicht verstanden." },
+    { "type": "order", "de": "In Italien gehen die Noten von eins bis zehn.", "answer": "In Italia i voti vanno da uno a dieci." },
+    { "type": "order", "de": "Der Mathelehrer war sehr streng.", "answer": "Il professore di matematica era molto severo." },
+    { "type": "listen", "text": "Prima di scegliere la facoltà, parla con qualche studente.", "de": "Bevor du dich für ein Studienfach entscheidest, sprich mit ein paar Studenten." },
+    { "type": "listen", "text": "Non si finisce mai di imparare: a settant'anni la mia vicina si è iscritta all'università!", "de": "Man lernt nie aus: Mit siebzig hat sich meine Nachbarin an der Uni eingeschrieben!" }
+  ]
+}

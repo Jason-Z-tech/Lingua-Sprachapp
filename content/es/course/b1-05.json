@@ -1,0 +1,161 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-05",
+  "lang": "es",
+  "level": "B1",
+  "number": 5,
+  "title": "Nunca es tarde para aprender",
+  "title_de": "Lernen",
+  "topic": "Schule, Studium und Weiterbildung",
+  "goals": [
+    "Du kannst über Schule, Studium und Weiterbildung sprechen – über Fächer, Prüfungen und Abschlüsse.",
+    "Du kannst mit dem pluscuamperfecto (había estudiado) sagen, was vor einem anderen Ereignis in der Vergangenheit schon passiert war.",
+    "Du kannst Handlungen zeitlich verbinden: antes de / después de + Infinitiv, mientras, cuando.",
+    "Du kennst den Aufbau des spanischen Bildungssystems: colegio, instituto, bachillerato, FP, universidad."
+  ],
+  "vocab": [
+    { "id": "asignatura", "word": "asignatura", "article": "la", "gender": "f", "plural": "las asignaturas", "de": "das (Schul-)Fach; das Studienfach", "pos": "noun", "example": { "text": "¿Cuál era tu asignatura favorita en el colegio?", "de": "Was war dein Lieblingsfach in der Schule?" } },
+    { "id": "carrera", "word": "carrera", "article": "la", "gender": "f", "plural": "las carreras", "de": "das Studium; der Studiengang", "pos": "noun", "example": { "text": "Lucía estudió la carrera de Periodismo en Sevilla.", "de": "Lucía hat in Sevilla Journalismus studiert." }, "note": "hacer una carrera = studieren. La carrera heißt auch „das Rennen“ und „die Karriere“." },
+    { "id": "universidad", "word": "universidad", "article": "la", "gender": "f", "plural": "las universidades", "de": "die Universität", "pos": "noun", "example": { "text": "Diego estudió Enfermería en la universidad.", "de": "Diego hat an der Universität Krankenpflege studiert." } },
+    { "id": "facultad", "word": "facultad", "article": "la", "gender": "f", "plural": "las facultades", "de": "die Fakultät", "pos": "noun", "example": { "text": "La facultad de Medicina está lejos del centro.", "de": "Die medizinische Fakultät ist weit weg vom Zentrum." } },
+    { "id": "instituto", "word": "instituto", "article": "el", "gender": "m", "plural": "los institutos", "de": "die weiterführende Schule; das Gymnasium", "pos": "noun", "example": { "text": "En el instituto estudié francés.", "de": "In der Schule habe ich Französisch gelernt." }, "note": "el colegio = Grundschule (bis 12 Jahre); el instituto = weiterführende Schule (ab 12)." },
+    { "id": "alumno", "word": "alumno", "article": "el", "gender": "m", "plural": "los alumnos", "de": "der Schüler", "pos": "noun", "example": { "text": "La profesora tiene veinte alumnos.", "de": "Die Lehrerin hat zwanzig Schüler.", "focus": "alumnos" }, "note": "la alumna = die Schülerin. An der Uni sagt man meist estudiante." },
+    { "id": "ensenar", "word": "enseñar", "de": "unterrichten; beibringen; zeigen", "pos": "verb", "example": { "text": "Mi madre enseña inglés en un instituto.", "de": "Meine Mutter unterrichtet Englisch an einer Schule.", "focus": "enseña" }, "note": "enseñar a + Infinitiv: Mi padre me enseñó a nadar. = Mein Vater hat mir das Schwimmen beigebracht." },
+    { "id": "saber", "word": "saber", "de": "wissen; können (gelernt haben)", "pos": "verb", "forms": "sé, sabes, sabe, sabemos, sabéis, saben – subjuntivo: sepa", "example": { "text": "¿Sabes tocar la guitarra?", "de": "Kannst du Gitarre spielen?", "focus": "sabes" }, "note": "saber + Infinitiv = etwas können, weil man es gelernt hat: Sé nadar." },
+    { "id": "repasar", "word": "repasar", "de": "wiederholen (Lernstoff); durchgehen", "pos": "verb", "example": { "text": "Antes del examen repaso mis apuntes.", "de": "Vor der Prüfung gehe ich meine Notizen durch.", "focus": "repaso" } },
+    { "id": "apuntes", "word": "apuntes", "article": "los", "gender": "m", "de": "die Mitschrift; die Notizen", "pos": "noun", "example": { "text": "¿Me dejas tus apuntes de ayer?", "de": "Leihst du mir deine Mitschrift von gestern?" }, "note": "Meist in der Mehrzahl. tomar apuntes = mitschreiben." },
+    { "id": "aprender-de-memoria", "word": "aprender de memoria", "de": "auswendig lernen", "pos": "phrase", "example": { "text": "Tuve que aprender de memoria todos los verbos.", "de": "Ich musste alle Verben auswendig lernen.", "focus": "aprender de memoria" } },
+    { "id": "matricularse", "word": "matricularse", "de": "sich einschreiben; sich anmelden (Kurs, Uni)", "pos": "verb", "example": { "text": "Me he matriculado en un curso de inglés.", "de": "Ich habe mich für einen Englischkurs angemeldet.", "focus": "me he matriculado" } },
+    { "id": "beca", "word": "beca", "article": "la", "gender": "f", "plural": "las becas", "de": "das Stipendium", "pos": "noun", "example": { "text": "Con una beca pude estudiar un año en Italia.", "de": "Mit einem Stipendium konnte ich ein Jahr in Italien studieren." } },
+    { "id": "titulo", "word": "título", "article": "el", "gender": "m", "plural": "los títulos", "de": "der Abschluss; das Diplom; der Titel", "pos": "noun", "example": { "text": "Diego tiene el título de enfermero.", "de": "Diego hat einen Abschluss als Krankenpfleger." } },
+    { "id": "graduarse", "word": "graduarse", "de": "den Abschluss machen; das Studium abschließen", "pos": "verb", "forms": "me gradúo, te gradúas, se gradúa, nos graduamos, os graduáis, se gradúan", "example": { "text": "Me gradué en la Universidad de Sevilla.", "de": "Ich habe meinen Abschluss an der Universität Sevilla gemacht.", "focus": "me gradué" } },
+    { "id": "master", "word": "máster", "article": "el", "gender": "m", "plural": "los másteres", "de": "der Master", "pos": "noun", "example": { "text": "Después de la carrera hice un máster.", "de": "Nach dem Studium habe ich einen Master gemacht." } },
+    { "id": "bachillerato", "word": "bachillerato", "article": "el", "gender": "m", "de": "die Oberstufe; das Abitur", "pos": "noun", "example": { "text": "Después del bachillerato fui a la universidad.", "de": "Nach dem Abitur bin ich an die Uni gegangen." }, "note": "Die zwei letzten Schuljahre (16–18 Jahre) und der Abschluss heißen so." },
+    { "id": "formacion", "word": "formación", "article": "la", "gender": "f", "de": "die Ausbildung; die Weiterbildung", "pos": "noun", "example": { "text": "La formación es muy importante para encontrar trabajo.", "de": "Ausbildung ist sehr wichtig, um Arbeit zu finden." }, "note": "la Formación Profesional (FP) = die Berufsausbildung." },
+    { "id": "escuela", "word": "escuela", "article": "la", "gender": "f", "plural": "las escuelas", "de": "die Schule", "pos": "noun", "example": { "text": "Jonas estudia en una escuela de idiomas.", "de": "Jonas lernt an einer Sprachschule." }, "note": "la Escuela Oficial de Idiomas = staatliche Sprachschule in Spanien." },
+    { "id": "academia", "word": "academia", "article": "la", "gender": "f", "plural": "las academias", "de": "die (private) Sprach- oder Nachhilfeschule", "pos": "noun", "example": { "text": "Voy a una academia para preparar el examen.", "de": "Ich gehe auf eine private Schule, um mich auf die Prüfung vorzubereiten." } },
+    { "id": "clases-particulares", "word": "clases particulares", "article": "las", "gender": "f", "de": "die Nachhilfe; der Privatunterricht", "pos": "noun", "example": { "text": "Mi hermano da clases particulares de matemáticas.", "de": "Mein Bruder gibt Mathe-Nachhilfe." }, "note": "dar clases = unterrichten; recibir clases = Unterricht bekommen." },
+    { "id": "aula", "word": "aula", "article": "el", "gender": "f", "plural": "las aulas", "de": "das Klassenzimmer; der Hörsaal", "pos": "noun", "example": { "text": "El aula está en el segundo piso.", "de": "Das Klassenzimmer ist im zweiten Stock." }, "note": "Weiblich, aber mit el (wie el agua): el aula, un aula – aber las aulas, el aula nueva." },
+    { "id": "biblioteca", "word": "biblioteca", "article": "la", "gender": "f", "plural": "las bibliotecas", "de": "die Bibliothek", "pos": "noun", "example": { "text": "Estudio en la biblioteca porque en casa hay mucho ruido.", "de": "Ich lerne in der Bibliothek, weil es zu Hause sehr laut ist." } },
+    { "id": "diccionario", "word": "diccionario", "article": "el", "gender": "m", "plural": "los diccionarios", "de": "das Wörterbuch", "pos": "noun", "example": { "text": "¿Puedo usar el diccionario en el examen?", "de": "Darf ich in der Prüfung das Wörterbuch benutzen?" } },
+    { "id": "ejercicio", "word": "ejercicio", "article": "el", "gender": "m", "plural": "los ejercicios", "de": "die Übung; die Aufgabe", "pos": "noun", "example": { "text": "Haz los ejercicios de la página diez.", "de": "Mach die Übungen auf Seite zehn.", "focus": "ejercicios" }, "note": "hacer ejercicio = Sport treiben, sich bewegen." },
+    { "id": "pregunta", "word": "pregunta", "article": "la", "gender": "f", "plural": "las preguntas", "de": "die Frage", "pos": "noun", "example": { "text": "¿Puedo hacer una pregunta?", "de": "Darf ich eine Frage stellen?" }, "note": "hacer una pregunta = eine Frage stellen. Fragen = preguntar." },
+    { "id": "respuesta", "word": "respuesta", "article": "la", "gender": "f", "plural": "las respuestas", "de": "die Antwort", "pos": "noun", "example": { "text": "No sé la respuesta.", "de": "Ich weiß die Antwort nicht." } },
+    { "id": "contestar", "word": "contestar", "de": "(be)antworten", "pos": "verb", "example": { "text": "¿Has contestado todas las preguntas?", "de": "Hast du alle Fragen beantwortet?", "focus": "contestado" } },
+    { "id": "explicar", "word": "explicar", "de": "erklären", "pos": "verb", "example": { "text": "¿Me puedes explicar este ejercicio?", "de": "Kannst du mir diese Übung erklären?" }, "note": "Subjuntivo mit qu: que explique." },
+    { "id": "equivocarse", "word": "equivocarse", "de": "sich irren; einen Fehler machen", "pos": "verb", "example": { "text": "Perdón, me he equivocado.", "de": "Entschuldigung, ich habe mich geirrt.", "focus": "me he equivocado" }, "note": "equivocarse de + Nomen: Me he equivocado de día. = Ich habe mich im Tag geirrt." },
+    { "id": "error", "word": "error", "article": "el", "gender": "m", "plural": "los errores", "de": "der Fehler", "pos": "noun", "example": { "text": "De los errores se aprende.", "de": "Aus Fehlern lernt man.", "focus": "errores" } },
+    { "id": "duda", "word": "duda", "article": "la", "gender": "f", "plural": "las dudas", "de": "der Zweifel; die (offene) Frage", "pos": "noun", "example": { "text": "Si tienes dudas, pregunta a la profesora.", "de": "Wenn du Fragen hast, frag die Lehrerin.", "focus": "dudas" }, "note": "Passt zu dudar (Lektion 1)." },
+    { "id": "practicar", "word": "practicar", "de": "üben; (Sport) treiben", "pos": "verb", "example": { "text": "Practico español con Lucía todas las semanas.", "de": "Ich übe jede Woche Spanisch mit Lucía.", "focus": "practico" }, "note": "Subjuntivo mit qu: que practique." },
+    { "id": "mejorar", "word": "mejorar", "de": "(sich) verbessern; besser werden", "pos": "verb", "example": { "text": "Mi español ha mejorado mucho.", "de": "Mein Spanisch hat sich sehr verbessert.", "focus": "mejorado" } },
+    { "id": "nivel", "word": "nivel", "article": "el", "gender": "m", "plural": "los niveles", "de": "das Niveau; die Stufe", "pos": "noun", "example": { "text": "Ahora tengo un nivel B1 de español.", "de": "Jetzt habe ich Spanisch auf B1-Niveau." } },
+    { "id": "esforzarse", "word": "esforzarse", "de": "sich anstrengen; sich Mühe geben", "pos": "verb", "forms": "me esfuerzo, te esfuerzas, se esfuerza, nos esforzamos, os esforzáis, se esfuerzan", "example": { "text": "Si te esfuerzas, aprobarás.", "de": "Wenn du dich anstrengst, bestehst du.", "focus": "te esfuerzas" }, "note": "o → ue." },
+    { "id": "sobresaliente", "word": "sobresaliente", "article": "el", "gender": "m", "plural": "los sobresalientes", "de": "die Bestnote; „sehr gut“", "pos": "noun", "example": { "text": "¡He sacado un sobresaliente en Historia!", "de": "Ich habe in Geschichte eine Eins bekommen!" }, "note": "Noten in Spanien (0–10): suspenso (unter 5), aprobado (5–6), notable (7–8), sobresaliente (9–10)." }
+  ],
+  "grammar": [
+    {
+      "id": "pluscuamperfecto", "title": "Das pluscuamperfecto: había estudiado",
+      "blocks": [
+        { "type": "p", "text": "Mit dem pluscuamperfecto erzählst du, was vor einem anderen Ereignis in der Vergangenheit schon passiert war – wie mit dem deutschen Plusquamperfekt („ich hatte gelernt“). Du bildest es mit dem imperfecto von haber + Partizip." },
+        { "type": "table", "head": [ "Person", "haber (imperfecto)", "Beispiel", "Deutsch" ], "rows": [ [ "yo", "había", "había estudiado", "ich hatte gelernt" ], [ "tú", "habías", "habías comido", "du hattest gegessen" ], [ "él / ella / usted", "había", "había vivido", "er / sie hatte gewohnt; Sie hatten gewohnt" ], [ "nosotros / nosotras", "habíamos", "habíamos terminado", "wir hatten beendet" ], [ "vosotros / vosotras", "habíais", "habíais salido", "ihr wart ausgegangen" ], [ "ellos / ellas / ustedes", "habían", "habían llegado", "sie waren angekommen" ] ] },
+        { "type": "tip", "text": "Die Partizipien kennst du schon aus dem perfecto – auch die unregelmäßigen: hecho, visto, dicho, escrito, puesto, vuelto, abierto, roto. Wie im perfecto gibt es nur ein Hilfsverb: había ido = ich war gegangen." },
+        { "type": "p", "text": "Typisch ist ein Satz mit zwei Ereignissen: Das spätere steht im indefinido, das frühere im pluscuamperfecto. Oft helfen ya (schon) und todavía no (noch nicht):" },
+        { "type": "examples", "items": [ { "text": "Cuando llegué a clase, el examen ya había empezado.", "de": "Als ich in den Unterricht kam, hatte die Prüfung schon angefangen." }, { "text": "Aprobé el examen porque había estudiado mucho.", "de": "Ich habe die Prüfung bestanden, weil ich viel gelernt hatte." }, { "text": "Jonas no sabía la respuesta porque no había hecho los deberes.", "de": "Jonas wusste die Antwort nicht, weil er die Hausaufgaben nicht gemacht hatte." }, { "text": "Cuando Diego empezó la carrera, ya había trabajado dos años en un bar.", "de": "Als Diego mit dem Studium anfing, hatte er schon zwei Jahre in einer Bar gearbeitet." }, { "text": "Nunca había estado en una universidad tan grande.", "de": "Ich war noch nie an einer so großen Uni gewesen." } ] },
+        { "type": "tip", "text": "Nunca había + Partizip zeigt, dass etwas zum ersten Mal passiert ist: Nunca había visto algo así. = So etwas hatte ich noch nie gesehen." },
+        { "type": "tip", "text": "Wie beim perfecto steht nichts zwischen había und dem Partizip – Verneinung und Pronomen kommen davor: No lo había visto. Ya me había levantado." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Cuando llegué, la clase ya ___ empezado.", "answers": [ "había" ], "de": "Als ich ankam, hatte der Unterricht schon angefangen.", "hint": "haber" },
+        { "type": "cloze", "text": "Aprobé porque ___ estudiado mucho.", "answers": [ "había" ], "de": "Ich habe bestanden, weil ich viel gelernt hatte.", "hint": "haber – yo" },
+        { "type": "cloze", "text": "¿Ya ___ terminado la carrera cuando te mudaste a Madrid?", "answers": [ "habías" ], "de": "Hattest du dein Studium schon abgeschlossen, als du nach Madrid gezogen bist?", "hint": "haber – tú" },
+        { "type": "cloze", "text": "Nosotros nunca ___ visto una biblioteca tan grande.", "answers": [ "habíamos" ], "de": "Wir hatten noch nie eine so große Bibliothek gesehen.", "hint": "haber – nosotros" },
+        { "type": "cloze", "text": "Cuando volvieron a casa, sus padres ya habían ___ la cena.", "answers": [ "hecho" ], "de": "Als sie nach Hause kamen, hatten ihre Eltern schon das Abendessen gemacht.", "hint": "hacer" },
+        { "type": "cloze", "text": "Jonas no pudo contestar porque no había ___ la pregunta.", "answers": [ "entendido", "comprendido" ], "de": "Jonas konnte nicht antworten, weil er die Frage nicht verstanden hatte.", "hint": "entender" },
+        { "type": "choice", "prompt": "Welche Form passt? Cuando Lucía llegó, nosotros ya ___ cenado.", "options": [ "hemos", "habíamos", "habían" ], "answer": 1, "explain": "Das Abendessen war schon vor Lucías Ankunft vorbei – also pluscuamperfecto, wir-Form: habíamos cenado." },
+        { "type": "translate", "de": "Als ich ankam, hatte die Prüfung schon angefangen.", "answers": [ "Cuando llegué, el examen ya había empezado.", "Cuando llegué, ya había empezado el examen.", "Cuando yo llegué, el examen ya había empezado.", "Cuando llegué, el examen ya había comenzado.", "Cuando llegué, ya había comenzado el examen." ] },
+        { "type": "order", "de": "Ich hatte noch nie so viel gelernt.", "answer": "Nunca había estudiado tanto.", "distractors": [ "he" ] }
+      ]
+    },
+    {
+      "id": "conectores-tiempo", "title": "Zeitlich verbinden: antes de, después de, mientras, cuando",
+      "blocks": [
+        { "type": "p", "text": "Mit antes de (vor, bevor) und después de (nach, nachdem) verbindest du zwei Handlungen. Ist es dieselbe Person, steht einfach der Infinitiv – viel kürzer als im Deutschen:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "Antes de estudiar, tomo un café.", "Bevor ich lerne, trinke ich einen Kaffee." ], [ "Después de comer, repaso los apuntes.", "Nach dem Essen gehe ich die Notizen durch." ], [ "Antes de empezar la carrera, viajé por Europa.", "Bevor ich mit dem Studium anfing, bin ich durch Europa gereist." ], [ "Después de terminar el bachillerato, hice una FP.", "Nach dem Abitur habe ich eine Berufsausbildung gemacht." ] ] },
+        { "type": "tip", "text": "Vor einem Nomen: antes de / después de + Nomen – antes del examen, después de la clase. Denk an de + el = del." },
+        { "type": "tip", "text": "Bei reflexiven Verben hängt das Pronomen am Infinitiv und passt sich der Person an: antes de acostarme, después de levantarte, antes de matricularnos." },
+        { "type": "p", "text": "Mientras (während) und cuando (als, wenn) kennst du schon. Beim Erzählen steht nach mientras meist das imperfecto (was gerade lief), nach cuando oft das indefinido (was passierte) – oder das imperfecto für Zustände und Gewohnheiten:" },
+        { "type": "examples", "items": [ { "text": "Mientras estudiaba en la biblioteca, escuchaba música.", "de": "Während ich in der Bibliothek lernte, hörte ich Musik." }, { "text": "Mientras yo repasaba, mi compañera dormía.", "de": "Während ich wiederholte, schlief meine Mitbewohnerin." }, { "text": "Cuando terminé el examen, me fui a casa.", "de": "Als ich mit der Prüfung fertig war, bin ich nach Hause gegangen." }, { "text": "Cuando era estudiante, vivía en un piso compartido.", "de": "Als ich Student war, habe ich in einer WG gewohnt." }, { "text": "Antes de matricularme, había hablado con la profesora.", "de": "Bevor ich mich angemeldet habe, hatte ich mit der Lehrerin gesprochen." } ] },
+        { "type": "tip", "text": "Für die Zukunft steht nach cuando der subjuntivo: Cuando tenga tiempo, … (Wenn ich Zeit habe, …). Das lernst du in Lektion 10." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ de dormir, leo un poco.", "answers": [ "Antes" ], "de": "Bevor ich schlafe, lese ich ein bisschen." },
+        { "type": "cloze", "text": "Después ___ examen, fuimos a tomar algo.", "answers": [ "del" ], "de": "Nach der Prüfung sind wir etwas trinken gegangen." },
+        { "type": "cloze", "text": "Después de ___ la carrera, hice un máster.", "answers": [ "terminar", "acabar" ], "de": "Nachdem ich das Studium abgeschlossen hatte, habe ich einen Master gemacht." },
+        { "type": "cloze", "text": "___ yo estudiaba, mi hermano veía la tele.", "answers": [ "Mientras" ], "de": "Während ich lernte, sah mein Bruder fern." },
+        { "type": "cloze", "text": "Antes de ___, me lavo los dientes.", "answers": [ "acostarme" ], "de": "Bevor ich ins Bett gehe, putze ich mir die Zähne.", "hint": "acostarse" },
+        { "type": "cloze", "text": "Cuando ___ niña, quería ser profesora.", "answers": [ "era" ], "de": "Als ich klein war, wollte ich Lehrerin werden.", "hint": "ser" },
+        { "type": "translate", "de": "Nach dem Unterricht gehe ich in die Bibliothek.", "answers": [ "Después de clase voy a la biblioteca.", "Después de la clase voy a la biblioteca.", "Voy a la biblioteca después de clase.", "Voy a la biblioteca después de la clase." ] },
+        { "type": "order", "de": "Bevor ich mich angemeldet habe, habe ich mit dem Lehrer gesprochen.", "answer": "Antes de matricularme, hablé con el profesor.", "distractors": [ "después" ] }
+      ]
+    },
+    {
+      "id": "sistema-educativo", "title": "Schule und Studium in Spanien",
+      "blocks": [
+        { "type": "p", "text": "So ist das spanische Bildungssystem aufgebaut:" },
+        { "type": "table", "head": [ "Alter", "Spanisch", "Deutsch (ungefähr)" ], "rows": [ [ "6–12", "el colegio (la primaria)", "die Grundschule" ], [ "12–16", "el instituto (la ESO)", "die Mittelstufe" ], [ "16–18", "el bachillerato", "die Oberstufe, das Abitur" ], [ "ab 16", "la Formación Profesional (la FP)", "die Berufsausbildung" ], [ "ab 18", "la universidad: la carrera (el grado), el máster", "die Uni: Studium (Bachelor), Master" ] ] },
+        { "type": "tip", "text": "Für die Uni schreibt man am Ende des bachillerato eine Aufnahmeprüfung. Viele nennen sie noch la selectividad, offiziell heißt sie heute la PAU." },
+        { "type": "p", "text": "Wichtige Ausdrücke rund ums Lernen:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "estudiar Medicina / hacer la carrera de Medicina", "Medizin studieren" ], [ "sacar una buena nota / un sobresaliente", "eine gute Note / eine Eins bekommen" ], [ "aprobar / suspender un examen", "eine Prüfung bestehen / durchfallen" ], [ "matricularse en un curso", "sich für einen Kurs anmelden" ], [ "tomar apuntes", "mitschreiben" ], [ "hacer una pregunta", "eine Frage stellen" ], [ "dar clase / dar clases particulares", "unterrichten / Nachhilfe geben" ] ] },
+        { "type": "tip", "text": "Deutsches „lernen“ hat zwei Übersetzungen: aprender = etwas Neues lernen (Aprendo a nadar. Aprendo mucho en clase.), estudiar = lernen am Schreibtisch, studieren (Estudio para el examen. Estudio Medicina.)." },
+        { "type": "tip", "text": "Auch „können“ hat zwei Übersetzungen: saber + Infinitiv, wenn man etwas gelernt hat (Sé nadar.), poder, wenn es möglich ist (Hoy no puedo nadar, estoy enfermo.)." },
+        { "type": "examples", "items": [ { "text": "Mi hermana está en el instituto y quiere estudiar Derecho.", "de": "Meine Schwester geht auf die weiterführende Schule und will Jura studieren." }, { "text": "Después de la ESO, Pablo hizo una FP de cocina.", "de": "Nach der Mittelstufe hat Pablo eine Ausbildung zum Koch gemacht." }, { "text": "En la universidad siempre tomaba apuntes en el portátil.", "de": "An der Uni habe ich immer auf dem Laptop mitgeschrieben." }, { "text": "Jonas estudia mucho, pero aprende sobre todo hablando con amigos.", "de": "Jonas lernt viel am Schreibtisch, aber am meisten lernt er, wenn er mit Freunden spricht." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Lucía estudió la ___ de Periodismo.", "answers": [ "carrera" ], "de": "Lucía hat Journalismus studiert." },
+        { "type": "cloze", "text": "¡He sacado un ___ en el examen!", "answers": [ "sobresaliente" ], "de": "Ich habe in der Prüfung eine Eins bekommen!" },
+        { "type": "cloze", "text": "Esta tarde ___ para el examen de Historia.", "answers": [ "estudio" ], "de": "Heute Nachmittag lerne ich für die Geschichtsprüfung.", "hint": "estudiar oder aprender?" },
+        { "type": "cloze", "text": "Mi hija está aprendiendo ___ nadar.", "answers": [ "a" ], "de": "Meine Tochter lernt gerade schwimmen." },
+        { "type": "cloze", "text": "¿___ tocar la guitarra? – Sí, un poco.", "answers": [ "Sabes" ], "de": "Kannst du Gitarre spielen? – Ja, ein bisschen.", "hint": "saber – tú" },
+        { "type": "match", "pairs": [ [ "el colegio", "die Grundschule" ], [ "el instituto", "die weiterführende Schule" ], [ "la universidad", "die Universität" ], [ "la asignatura", "das Schulfach" ], [ "la beca", "das Stipendium" ], [ "el título", "der Abschluss" ] ] },
+        { "type": "translate", "de": "Ich habe mich für einen Englischkurs angemeldet.", "answers": [ "Me he matriculado en un curso de inglés.", "Me matriculé en un curso de inglés.", "Yo me he matriculado en un curso de inglés.", "Yo me matriculé en un curso de inglés." ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¡He aprobado!",
+    "title_de": "Ich habe bestanden!",
+    "lines": [
+      { "speaker": "Jonas", "text": "¡Chicos, tengo una noticia! ¡He aprobado el examen de español!", "de": "Leute, ich habe Neuigkeiten! Ich habe die Spanischprüfung bestanden!" },
+      { "speaker": "Lucía", "text": "¡Enhorabuena, Jonas! ¿Qué nota has sacado?", "de": "Herzlichen Glückwunsch, Jonas! Welche Note hast du bekommen?" },
+      { "speaker": "Jonas", "text": "Un notable. Y en la parte de hablar, ¡un sobresaliente!", "de": "Eine Zwei. Und im mündlichen Teil eine Eins!" },
+      { "speaker": "Diego", "text": "¡Qué bien! Seguro que habías estudiado muchísimo.", "de": "Super! Du hattest bestimmt wahnsinnig viel gelernt." },
+      { "speaker": "Jonas", "text": "Sí. Durante dos meses, después de trabajar, iba a una academia. Y antes de dormir, repasaba los verbos.", "de": "Ja. Zwei Monate lang bin ich nach der Arbeit in eine Sprachschule gegangen. Und vor dem Schlafen habe ich die Verben wiederholt." },
+      { "speaker": "Lucía", "text": "¿Y el día del examen? ¿Estabas nervioso?", "de": "Und am Tag der Prüfung? Warst du nervös?" },
+      { "speaker": "Jonas", "text": "¡Muchísimo! Cuando llegué, el examen ya había empezado. ¡Me había equivocado de hora!", "de": "Total! Als ich ankam, hatte die Prüfung schon angefangen. Ich hatte mich in der Uhrzeit geirrt!" },
+      { "speaker": "Diego", "text": "¡No me digas! ¿Y qué pasó?", "de": "Sag bloß! Und was ist passiert?" },
+      { "speaker": "Jonas", "text": "Por suerte, la profesora me dejó entrar. ¡Nunca había escrito tan rápido!", "de": "Zum Glück hat mich die Lehrerin noch reingelassen. Ich hatte noch nie so schnell geschrieben!" },
+      { "speaker": "Lucía", "text": "¡Ja, ja! Yo me acuerdo de mis exámenes en la facultad. En Periodismo había una asignatura que suspendí dos veces: Economía.", "de": "Haha! Ich erinnere mich an meine Prüfungen an der Uni. In Journalismus gab es ein Fach, durch das ich zweimal gefallen bin: Wirtschaft." },
+      { "speaker": "Diego", "text": "Pues yo, antes de estudiar Enfermería, había empezado la carrera de Medicina. Pero después del primer año cambié de carrera.", "de": "Also ich hatte vor dem Pflegestudium mit Medizin angefangen. Aber nach dem ersten Jahr habe ich das Studienfach gewechselt." },
+      { "speaker": "Jonas", "text": "¿De verdad? ¿Y por qué?", "de": "Echt? Und warum?" },
+      { "speaker": "Diego", "text": "Porque en el hospital había conocido a muchos enfermeros y me encantaba su trabajo.", "de": "Weil ich im Krankenhaus viele Pfleger kennengelernt hatte und ihre Arbeit toll fand." },
+      { "speaker": "Lucía", "text": "Bueno, Jonas, ¿y ahora qué? ¿Vas a seguir estudiando?", "de": "Und, Jonas, wie geht es jetzt weiter? Lernst du weiter?" },
+      { "speaker": "Jonas", "text": "Sí, ya me he matriculado en un curso de B2. ¡Nunca es tarde para aprender!", "de": "Ja, ich habe mich schon für einen B2-Kurs angemeldet. Man lernt nie aus!" },
+      { "speaker": "Diego", "text": "¡Eso es! Pero antes de empezar, ¡vamos a celebrarlo!", "de": "Genau! Aber bevor du anfängst, lass uns das feiern!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "aprobar", "bestehen" ], [ "suspender", "durchfallen" ], [ "repasar", "wiederholen" ], [ "matricularse", "sich anmelden" ], [ "equivocarse", "sich irren" ], [ "esforzarse", "sich anstrengen" ] ] },
+    { "type": "match", "pairs": [ [ "la pregunta", "die Frage" ], [ "la respuesta", "die Antwort" ], [ "los apuntes", "die Mitschrift" ], [ "el aula", "das Klassenzimmer" ], [ "el diccionario", "das Wörterbuch" ], [ "el ejercicio", "die Übung" ] ] },
+    { "type": "translate", "de": "Ich hatte viel gelernt, aber ich bin durchgefallen.", "answers": [ "Había estudiado mucho, pero suspendí.", "Yo había estudiado mucho, pero suspendí.", "Había estudiado mucho, pero suspendí el examen.", "Había estudiado mucho, pero he suspendido." ] },
+    { "type": "translate", "de": "Bevor ich schlafe, gehe ich meine Notizen durch.", "answers": [ "Antes de dormir, repaso mis apuntes.", "Antes de dormir, repaso los apuntes.", "Repaso mis apuntes antes de dormir.", "Repaso los apuntes antes de dormir.", "Antes de acostarme, repaso mis apuntes.", "Antes de acostarme, repaso los apuntes.", "Repaso mis apuntes antes de acostarme.", "Repaso los apuntes antes de acostarme." ] },
+    { "type": "translate", "de": "Kannst du mir diese Übung erklären?", "answers": [ "¿Me puedes explicar este ejercicio?", "¿Puedes explicarme este ejercicio?", "¿Me explicas este ejercicio?", "¿Tú me puedes explicar este ejercicio?" ] },
+    { "type": "order", "de": "Als ich ankam, hatte der Unterricht schon angefangen.", "answer": "Cuando llegué, la clase ya había empezado.", "distractors": [ "ha" ] },
+    { "type": "order", "de": "Während ich lernte, hörte ich Musik.", "answer": "Mientras estudiaba, escuchaba música.", "distractors": [ "estudié" ] },
+    { "type": "cloze", "text": "Estudio en la ___ porque allí hay silencio.", "answers": [ "biblioteca" ], "de": "Ich lerne in der Bibliothek, weil es dort ruhig ist." },
+    { "type": "cloze", "text": "Con una ___ pude estudiar un año en Italia.", "answers": [ "beca" ], "de": "Mit einem Stipendium konnte ich ein Jahr in Italien studieren." },
+    { "type": "cloze", "text": "Mi español ha ___ mucho este año.", "answers": [ "mejorado" ], "de": "Mein Spanisch hat sich dieses Jahr sehr verbessert.", "hint": "mejorar" },
+    { "type": "listen", "text": "Nunca había estudiado tanto para un examen.", "de": "Ich hatte noch nie so viel für eine Prüfung gelernt." },
+    { "type": "listen", "text": "Después de terminar la carrera, hice un máster.", "de": "Nach dem Studium habe ich einen Master gemacht." },
+    { "type": "listen", "text": "¿Cuál era tu asignatura favorita en el instituto?", "de": "Was war dein Lieblingsfach in der Schule?" }
+  ]
+}

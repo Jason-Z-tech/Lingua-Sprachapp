@@ -76,15 +76,13 @@
       "note": "Fare domanda (per un lavoro) = sich (um eine Stelle) bewerben. Fare una domanda = eine Frage stellen."
     },
     {
-      "id": "annuncio",
-      "word": "annuncio",
-      "article": "l'",
-      "gender": "m",
-      "plural": "gli annunci",
-      "de": "die Anzeige; die Stellenanzeige",
-      "pos": "noun",
-      "example": { "text": "Ho letto un annuncio interessante sul giornale.", "de": "Ich habe in der Zeitung eine interessante Anzeige gelesen." },
-      "note": "Stellenanzeige = l'annuncio di lavoro."
+      "id": "ripetere",
+      "word": "ripetere",
+      "de": "wiederholen",
+      "pos": "verb",
+      "forms": "ripeto, ripeti, ripete, ripetiamo, ripetete, ripetono",
+      "example": { "text": "Scusi, può ripetere la domanda?", "de": "Entschuldigung, können Sie die Frage wiederholen?", "focus": "ripetere" },
+      "note": "Betonung: ripèto. Höflicher: Potrebbe ripetere, per favore?"
     },
     {
       "id": "lettera-di-presentazione",
@@ -231,15 +229,15 @@
       "example": { "text": "Lavoro nel settore del turismo.", "de": "Ich arbeite in der Tourismusbranche." }
     },
     {
-      "id": "turno",
-      "word": "turno",
+      "id": "periodo-di-prova",
+      "word": "periodo di prova",
       "article": "il",
       "gender": "m",
-      "plural": "i turni",
-      "de": "die Schicht",
+      "plural": "i periodi di prova",
+      "de": "die Probezeit",
       "pos": "noun",
-      "example": { "text": "Sara lavora a turni: questa settimana ha il turno di notte.", "de": "Sara arbeitet Schicht: Diese Woche hat sie Nachtschicht." },
-      "note": "Lavorare a turni = Schicht arbeiten."
+      "example": { "text": "Il periodo di prova dura tre mesi.", "de": "Die Probezeit dauert drei Monate." },
+      "note": "Il periodo = der Zeitraum. La prova = der Test, die Probe."
     },
     {
       "id": "sede",
@@ -796,7 +794,7 @@
         ["la candidatura", "die Bewerbung"],
         ["il contratto", "der Vertrag"],
         ["lo stage", "das Praktikum"],
-        ["il turno", "die Schicht"]
+        ["il periodo di prova", "die Probezeit"]
       ]
     },
     {

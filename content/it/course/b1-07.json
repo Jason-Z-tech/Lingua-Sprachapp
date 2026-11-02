@@ -350,17 +350,17 @@
       "note": "Partizip: commosso; passato prossimo mit essere."
     },
     {
-      "id": "pubblicare",
-      "word": "pubblicare",
-      "de": "veröffentlichen",
+      "id": "recitare",
+      "word": "recitare",
+      "de": "spielen (Theater, Film); aufsagen",
       "pos": "verb",
-      "forms": "pubblico, pubblichi, pubblica, pubblichiamo, pubblicate, pubblicano",
+      "forms": "recito, reciti, recita, recitiamo, recitate, recitano",
       "example": {
-        "text": "Lo scrittore ha pubblicato un nuovo romanzo.",
-        "de": "Der Schriftsteller hat einen neuen Roman veröffentlicht.",
-        "focus": "pubblicato"
+        "text": "In questo film recita un attore molto famoso.",
+        "de": "In diesem Film spielt ein sehr berühmter Schauspieler mit.",
+        "focus": "recita"
       },
-      "note": "Betonung: pùbblico (ich veröffentliche) – genau wie das Nomen il pùbblico."
+      "note": "Betonung: rècito. Recitare una poesia = ein Gedicht vortragen. Ein Instrument spielen: suonare."
     },
     {
       "id": "ambientato",

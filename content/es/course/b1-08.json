@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-08",
+  "lang": "es",
+  "level": "B1",
+  "number": 8,
+  "title": "Un viaje inolvidable",
+  "title_de": "Erlebnisse",
+  "topic": "Von einer Reise erzählen",
+  "goals": [
+    "Du kannst eine Reise oder ein Erlebnis zusammenhängend erzählen und dabei indefinido, imperfecto und pluscuamperfecto kombinieren.",
+    "Du kannst mit estaba + gerundio sagen, was gerade passierte, als etwas dazwischenkam.",
+    "Du kannst eine Geschichte mit al principio, entonces, de repente und al final gliedern.",
+    "Du kannst auf Erzählungen reagieren: ¡Qué suerte! ¡Qué rabia! ¡No me digas!"
+  ],
+  "vocab": [
+    { "id": "al-principio", "word": "al principio", "de": "am Anfang; zuerst", "pos": "phrase", "example": { "text": "Al principio todo iba muy bien.", "de": "Am Anfang lief alles sehr gut." } },
+    { "id": "entonces", "word": "entonces", "de": "dann; da; also", "pos": "adv", "example": { "text": "Entonces empezó a llover.", "de": "Da fing es an zu regnen." }, "note": "Beim Erzählen: dann, da. Im Gespräch auch: also. ¿Entonces vienes o no? = Kommst du also oder nicht?" },
+    { "id": "luego", "word": "luego", "de": "dann; danach; später", "pos": "adv", "example": { "text": "Primero desayunamos y luego salimos.", "de": "Zuerst haben wir gefrühstückt, und dann sind wir losgegangen." }, "note": "Bekannt aus hasta luego. Bedeutet fast dasselbe wie después." },
+    { "id": "al-final", "word": "al final", "de": "am Ende; schließlich", "pos": "phrase", "example": { "text": "Al final llegamos a Santiago.", "de": "Am Ende kamen wir in Santiago an." }, "note": "Nicht verwechseln mit por fin = endlich (nach langem Warten)." },
+    { "id": "en-ese-momento", "word": "en ese momento", "de": "in diesem Moment; da", "pos": "phrase", "example": { "text": "En ese momento sonó mi móvil.", "de": "In diesem Moment klingelte mein Handy." }, "note": "Zum Erzählen. En este momento (A2) heißt dagegen „gerade jetzt“." },
+    { "id": "suerte", "word": "suerte", "article": "la", "gender": "f", "de": "das Glück (Zufall)", "pos": "noun", "example": { "text": "¡Qué suerte tienes!", "de": "Was hast du für ein Glück!" }, "note": "¡Qué suerte! = So ein Glück! ¡Qué mala suerte! = So ein Pech! Por suerte = zum Glück. „Glücklich sein“ heißt dagegen ser feliz." },
+    { "id": "que-rabia", "word": "¡qué rabia!", "de": "wie ärgerlich!; so ein Mist!", "pos": "phrase", "example": { "text": "¡Qué rabia! Perdimos el último tren.", "de": "So ein Mist! Wir haben den letzten Zug verpasst." }, "note": "la rabia = die Wut." },
+    { "id": "susto", "word": "susto", "article": "el", "gender": "m", "plural": "los sustos", "de": "der Schreck", "pos": "noun", "example": { "text": "Nos dimos un buen susto.", "de": "Wir haben uns ganz schön erschreckt." }, "note": "¡Qué susto! = Was für ein Schreck! Darse un susto = sich erschrecken." },
+    { "id": "no-me-digas", "word": "¡no me digas!", "de": "sag bloß!; echt?", "pos": "phrase", "example": { "text": "¡No me digas! ¿Y qué pasó después?", "de": "Sag bloß! Und was ist dann passiert?" }, "note": "Zeigt Überraschung. Es ist der verneinte Imperativ von decir (Lektion 3)." },
+    { "id": "que-verguenza", "word": "¡qué vergüenza!", "de": "wie peinlich!", "pos": "phrase", "example": { "text": "¡Qué vergüenza! Me dormí en la reunión.", "de": "Wie peinlich! Ich bin in der Besprechung eingeschlafen." }, "note": "la vergüenza = die Scham. Me da vergüenza. = Es ist mir peinlich." },
+    { "id": "casualidad", "word": "casualidad", "article": "la", "gender": "f", "plural": "las casualidades", "de": "der Zufall", "pos": "noun", "example": { "text": "¡Qué casualidad! Yo también estuve allí en julio.", "de": "Was für ein Zufall! Ich war im Juli auch dort." }, "note": "por casualidad = zufällig." },
+    { "id": "que-fuerte", "word": "¡qué fuerte!", "de": "krass!; unglaublich! (umgangssprachlich)", "pos": "phrase", "example": { "text": "¡Qué fuerte! ¿Y qué hicisteis?", "de": "Krass! Und was habt ihr gemacht?" }, "note": "Sehr häufig unter jungen Leuten in Spanien – bei guten und bei schlechten Überraschungen." },
+    { "id": "aventura", "word": "aventura", "article": "la", "gender": "f", "plural": "las aventuras", "de": "das Abenteuer", "pos": "noun", "example": { "text": "El viaje fue una aventura increíble.", "de": "Die Reise war ein unglaubliches Abenteuer." } },
+    { "id": "anecdota", "word": "anécdota", "article": "la", "gender": "f", "plural": "las anécdotas", "de": "die Anekdote; die (kleine) Geschichte", "pos": "noun", "example": { "text": "Mi abuela siempre cuenta anécdotas de su pueblo.", "de": "Meine Oma erzählt immer Geschichten aus ihrem Dorf." } },
+    { "id": "ocurrir", "word": "ocurrir", "de": "passieren; geschehen", "pos": "verb", "example": { "text": "¿Qué ocurrió después?", "de": "Was ist danach passiert?", "focus": "ocurrió" }, "note": "Bedeutet dasselbe wie pasar: ¿Qué pasó? = ¿Qué ocurrió?" },
+    { "id": "darse-cuenta-de", "word": "darse cuenta de", "de": "merken; bemerken", "pos": "verb", "forms": "me doy cuenta, te das cuenta … Indefinido: me di cuenta, te diste cuenta, se dio cuenta", "example": { "text": "De repente me di cuenta de que no tenía la cartera.", "de": "Plötzlich merkte ich, dass ich meinen Geldbeutel nicht hatte.", "focus": "me di cuenta de" } },
+    { "id": "cartera", "word": "cartera", "article": "la", "gender": "f", "plural": "las carteras", "de": "der Geldbeutel; die Brieftasche", "pos": "noun", "example": { "text": "Me robaron la cartera en el metro.", "de": "In der U-Bahn wurde mir der Geldbeutel gestohlen." } },
+    { "id": "robar", "word": "robar", "de": "stehlen; rauben", "pos": "verb", "example": { "text": "Le robaron el móvil en la playa.", "de": "Am Strand hat man ihm das Handy gestohlen.", "focus": "robaron" }, "note": "Wem etwas gestohlen wird, steht mit me, te, le …: Me han robado la bici." },
+    { "id": "ladron", "word": "ladrón", "article": "el", "gender": "m", "plural": "los ladrones", "de": "der Dieb", "pos": "noun", "example": { "text": "El ladrón salió corriendo.", "de": "Der Dieb rannte davon." }, "note": "la ladrona = die Diebin." },
+    { "id": "mochila", "word": "mochila", "article": "la", "gender": "f", "plural": "las mochilas", "de": "der Rucksack", "pos": "noun", "example": { "text": "Llevaba una mochila muy grande.", "de": "Ich hatte einen sehr großen Rucksack dabei." } },
+    { "id": "perderse", "word": "perderse", "de": "sich verirren; sich verlaufen", "pos": "verb", "forms": "me pierdo, te pierdes, se pierde …", "example": { "text": "Nos perdimos en el centro de Santiago.", "de": "Wir haben uns im Zentrum von Santiago verlaufen.", "focus": "nos perdimos" }, "note": "perder (A2) = verlieren, verpassen. ¡No te lo pierdas! = Lass es dir nicht entgehen!" },
+    { "id": "camino", "word": "camino", "article": "el", "gender": "m", "plural": "los caminos", "de": "der Weg", "pos": "noun", "example": { "text": "Hicimos los últimos cien kilómetros del Camino de Santiago.", "de": "Wir sind die letzten hundert Kilometer des Jakobswegs gegangen." }, "note": "el Camino de Santiago = der Jakobsweg." },
+    { "id": "peregrino", "word": "peregrino", "article": "el", "gender": "m", "plural": "los peregrinos", "de": "der Pilger", "pos": "noun", "example": { "text": "Muchos peregrinos van a pie hasta Santiago.", "de": "Viele Pilger gehen zu Fuß bis nach Santiago." }, "note": "la peregrina = die Pilgerin." },
+    { "id": "albergue", "word": "albergue", "article": "el", "gender": "m", "plural": "los albergues", "de": "die Herberge", "pos": "noun", "example": { "text": "Dormimos en un albergue muy barato.", "de": "Wir haben in einer sehr günstigen Herberge geschlafen." } },
+    { "id": "etapa", "word": "etapa", "article": "la", "gender": "f", "plural": "las etapas", "de": "die Etappe; der Abschnitt", "pos": "noun", "example": { "text": "La etapa de hoy tiene veinte kilómetros.", "de": "Die heutige Etappe ist zwanzig Kilometer lang." } },
+    { "id": "flecha", "word": "flecha", "article": "la", "gender": "f", "plural": "las flechas", "de": "der Pfeil", "pos": "noun", "example": { "text": "Hay que seguir las flechas amarillas.", "de": "Man muss den gelben Pfeilen folgen." }, "note": "Auf dem Jakobsweg zeigen gelbe Pfeile den Weg." },
+    { "id": "caminar", "word": "caminar", "de": "(zu Fuß) gehen; wandern", "pos": "verb", "example": { "text": "Caminamos seis horas al día.", "de": "Wir sind sechs Stunden am Tag gelaufen.", "focus": "caminamos" }, "note": "Ähnlich: andar. Pasear (A1) ist gemütlicher: spazieren gehen." },
+    { "id": "ampolla", "word": "ampolla", "article": "la", "gender": "f", "plural": "las ampollas", "de": "die Blase (an der Haut)", "pos": "noun", "example": { "text": "Diego tenía ampollas en los pies.", "de": "Diego hatte Blasen an den Füßen." } },
+    { "id": "agotado", "word": "agotado", "alt": ["agotada"], "de": "erschöpft; ausverkauft", "pos": "adj", "example": { "text": "Llegamos al albergue agotados.", "de": "Wir kamen erschöpft bei der Herberge an.", "focus": "agotados" }, "note": "Bei Karten: Las entradas están agotadas. = Die Karten sind ausverkauft." },
+    { "id": "mojado", "word": "mojado", "alt": ["mojada"], "de": "nass", "pos": "adj", "example": { "text": "Teníamos toda la ropa mojada.", "de": "Unsere ganzen Kleider waren nass.", "focus": "mojada" } },
+    { "id": "oscuro", "word": "oscuro", "alt": ["oscura"], "de": "dunkel", "pos": "adj", "example": { "text": "Ya era de noche y estaba muy oscuro.", "de": "Es war schon Nacht und sehr dunkel." } },
+    { "id": "preocupado", "word": "preocupado", "alt": ["preocupada"], "de": "besorgt", "pos": "adj", "example": { "text": "Mis padres estaban muy preocupados.", "de": "Meine Eltern waren sehr besorgt.", "focus": "preocupados" } },
+    { "id": "increible", "word": "increíble", "de": "unglaublich", "pos": "adj", "example": { "text": "Las vistas desde la montaña eran increíbles.", "de": "Die Aussicht vom Berg war unglaublich." } },
+    { "id": "inolvidable", "word": "inolvidable", "de": "unvergesslich", "pos": "adj", "example": { "text": "Fue un viaje inolvidable.", "de": "Es war eine unvergessliche Reise." } },
+    { "id": "sonar", "word": "sonar", "de": "klingeln; klingen", "pos": "verb", "forms": "sueno, suenas, suena, sonamos, sonáis, suenan", "example": { "text": "A las seis de la mañana sonó el despertador.", "de": "Um sechs Uhr morgens klingelte der Wecker.", "focus": "sonó" }, "note": "o → ue. Me suena. = Das kommt mir bekannt vor." },
+    { "id": "caerse", "word": "caerse", "de": "hinfallen; herunterfallen", "pos": "verb", "forms": "me caigo, te caes, se cae … Indefinido: me caí, te caíste, se cayó", "example": { "text": "Me caí de la bici.", "de": "Ich bin vom Fahrrad gefallen.", "focus": "me caí" } },
+    { "id": "gritar", "word": "gritar", "de": "schreien; laut rufen", "pos": "verb", "example": { "text": "Una señora empezó a gritar: ¡Al ladrón!", "de": "Eine Frau fing an zu rufen: „Haltet den Dieb!“" } },
+    { "id": "a-tiempo", "word": "a tiempo", "de": "rechtzeitig", "pos": "phrase", "example": { "text": "Por suerte llegamos a tiempo.", "de": "Zum Glück sind wir rechtzeitig angekommen." } },
+    { "id": "sitio", "word": "sitio", "article": "el", "gender": "m", "plural": "los sitios", "de": "der Platz; der Ort", "pos": "noun", "example": { "text": "¿Hay sitio para mí en el coche?", "de": "Ist im Auto Platz für mich?" }, "note": "Auch: der Ort. Es un sitio muy bonito. = Es ist ein sehr schöner Ort." },
+    { "id": "salir-bien", "word": "salir bien", "de": "gut ausgehen; gut laufen", "pos": "phrase", "example": { "text": "El viaje salió muy bien.", "de": "Die Reise ist sehr gut gelaufen.", "focus": "salió muy bien" }, "note": "Das Gegenteil: salir mal. ¿Qué tal te salió el examen?" }
+  ],
+  "grammar": [
+    {
+      "id": "tiempos-del-pasado",
+      "title": "Erzählen: indefinido, imperfecto und pluscuamperfecto zusammen",
+      "blocks": [
+        { "type": "p", "text": "Wenn du eine Geschichte erzählst, arbeiten drei Vergangenheitszeiten zusammen. Jede hat ihre eigene Aufgabe:" },
+        { "type": "table", "head": ["Zeit", "Aufgabe", "Beispiel"], "rows": [["imperfecto", "Hintergrund: Situation, Beschreibung, wie es war", "Hacía mucho calor y estábamos cansados."], ["indefinido", "Handlung: was dann passierte", "De repente empezó a llover."], ["pluscuamperfecto", "was vorher schon passiert war", "El autobús ya había salido."]] },
+        { "type": "tip", "text": "Eselsbrücke: Das imperfecto baut die Bühne, das indefinido erzählt die Handlung, und das pluscuamperfecto schaut noch einen Schritt weiter zurück." },
+        { "type": "p", "text": "Zur Erinnerung (Lektion 5): Das pluscuamperfecto bildest du mit dem Imperfecto von haber + Partizip: había, habías, había, habíamos, habíais, habían + llegado, comido, salido." },
+        { "type": "list", "items": ["Typisch für das imperfecto: siempre, todos los días, mientras, era, había, estaba …", "Typisch für das indefinido: un día, de repente, entonces, en ese momento, al final", "Typisch für das pluscuamperfecto: ya, todavía no, nunca … antes"] },
+        { "type": "examples", "items": [{ "text": "Era agosto y hacía mucho calor.", "de": "Es war August und sehr heiß." }, { "text": "Llegamos a la estación a las ocho, pero el tren ya había salido.", "de": "Wir kamen um acht am Bahnhof an, aber der Zug war schon abgefahren." }, { "text": "Diego estaba muy cansado porque no había dormido bien.", "de": "Diego war sehr müde, weil er nicht gut geschlafen hatte." }, { "text": "Cuando llegamos al albergue, ya no había sitio.", "de": "Als wir bei der Herberge ankamen, war kein Platz mehr frei." }, { "text": "Nunca había caminado tanto.", "de": "Ich war noch nie so viel gelaufen." }] },
+        { "type": "tip", "text": "Im Deutschen sagt man oft einfach das Perfekt oder Präteritum. Im Spanischen entscheidest du bei jedem Verb: Hintergrund (imperfecto) oder Handlung (indefinido)?" }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Cuando salimos del albergue, ___ mucho frío.", "answers": ["hacía"], "de": "Als wir aus der Herberge gingen, war es sehr kalt.", "hint": "hacer – Hintergrund" },
+        { "type": "cloze", "text": "De repente ___ a llover.", "answers": ["empezó", "comenzó"], "de": "Plötzlich fing es an zu regnen.", "hint": "empezar – Handlung" },
+        { "type": "cloze", "text": "Llegamos tarde: el autobús ya ___ salido.", "answers": ["había"], "de": "Wir kamen zu spät: Der Bus war schon abgefahren.", "hint": "haber" },
+        { "type": "cloze", "text": "Diego estaba agotado porque no había ___ bien.", "answers": ["dormido"], "de": "Diego war erschöpft, weil er nicht gut geschlafen hatte.", "hint": "dormir – Partizip" },
+        { "type": "cloze", "text": "El camino ___ precioso y había muchos peregrinos.", "answers": ["era"], "de": "Der Weg war wunderschön und es gab viele Pilger.", "hint": "ser – Beschreibung" },
+        { "type": "cloze", "text": "Cuando llegamos a casa, nuestros amigos ya nos ___ preparado la cena.", "answers": ["habían"], "de": "Als wir nach Hause kamen, hatten unsere Freunde schon das Abendessen für uns gemacht.", "hint": "haber – ellos" },
+        { "type": "translate", "de": "Als wir ankamen, war der Zug schon abgefahren.", "answers": ["Cuando llegamos, el tren ya había salido.", "Cuando llegamos, ya había salido el tren.", "Cuando nosotros llegamos, el tren ya había salido.", "El tren ya había salido cuando llegamos."] },
+        { "type": "order", "de": "Es war sehr heiß und wir waren müde.", "answer": "Hacía mucho calor y estábamos cansados.", "distractors": ["hizo"] }
+      ]
+    },
+    {
+      "id": "estaba-gerundio",
+      "title": "Was gerade passierte: estaba + Gerundium … cuando …",
+      "blocks": [
+        { "type": "p", "text": "Mit estar im Imperfecto + Gerundium beschreibst du eine Handlung, die gerade im Gang war. Oft wird sie von einem Ereignis im indefinido unterbrochen:" },
+        { "type": "table", "head": ["estaba + Gerundium (lief gerade)", "cuando + indefinido (passierte)", "Deutsch"], "rows": [["Estaba durmiendo", "cuando sonó el teléfono.", "Ich schlief gerade, als das Telefon klingelte."], ["Estábamos cenando", "cuando llegó Diego.", "Wir waren gerade beim Abendessen, als Diego kam."], ["Jonas estaba sacando una foto", "cuando se cayó.", "Jonas machte gerade ein Foto, als er hinfiel."], ["¿Qué estabas haciendo", "cuando te llamé?", "Was hast du gerade gemacht, als ich dich angerufen habe?"]] },
+        { "type": "tip", "text": "Das Gerundium kennst du aus A2: -ar → -ando (caminando), -er / -ir → -iendo (comiendo, saliendo). Besonders sind z. B. durmiendo (dormir), leyendo (leer) und cayendo (caer)." },
+        { "type": "p", "text": "Mit mientras laufen zwei Dinge gleichzeitig ab – beide im Imperfecto: Mientras Diego estaba comprando agua, yo estaba buscando el albergue." },
+        { "type": "tip", "text": "Estaba + Gerundium betont, dass etwas gerade lief. Oft geht auch das einfache Imperfecto: Dormía cuando sonó el teléfono." },
+        { "type": "examples", "items": [{ "text": "Estábamos caminando por la montaña cuando empezó la tormenta.", "de": "Wir wanderten gerade durch die Berge, als das Gewitter anfing." }, { "text": "Mientras yo estaba hablando con el señor, Diego estaba mirando el mapa.", "de": "Während ich mit dem Herrn sprach, schaute Diego auf die Karte." }, { "text": "Estaba leyendo en el tren cuando un hombre me robó la mochila.", "de": "Ich las gerade im Zug, als ein Mann mir den Rucksack stahl." }, { "text": "¿Qué estabais haciendo cuando os llamé?", "de": "Was habt ihr gerade gemacht, als ich euch angerufen habe?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ durmiendo cuando sonó el móvil.", "answers": ["Estaba"], "de": "Ich schlief gerade, als das Handy klingelte.", "hint": "estar – yo" },
+        { "type": "cloze", "text": "Estábamos ___ cuando empezó a llover.", "answers": ["caminando"], "de": "Wir waren gerade zu Fuß unterwegs, als es anfing zu regnen.", "hint": "caminar – Gerundium" },
+        { "type": "cloze", "text": "Diego estaba sacando una foto cuando se ___.", "answers": ["cayó"], "de": "Diego machte gerade ein Foto, als er hinfiel.", "hint": "caerse – Indefinido" },
+        { "type": "cloze", "text": "¿Qué ___ haciendo cuando te llamé?", "answers": ["estabas"], "de": "Was hast du gerade gemacht, als ich dich angerufen habe?", "hint": "estar – tú" },
+        { "type": "cloze", "text": "Mientras Jonas estaba ___ el albergue, yo compraba agua.", "answers": ["buscando"], "de": "Während Jonas die Herberge suchte, kaufte ich Wasser.", "hint": "buscar – Gerundium" },
+        { "type": "cloze", "text": "Estaba ___ un libro cuando llegó Lucía.", "answers": ["leyendo"], "de": "Ich las gerade ein Buch, als Lucía kam.", "hint": "leer – Gerundium" },
+        { "type": "translate", "de": "Wir aßen gerade zu Abend, als Diego anrief.", "answers": ["Estábamos cenando cuando llamó Diego.", "Estábamos cenando cuando Diego llamó.", "Cenábamos cuando llamó Diego.", "Cenábamos cuando Diego llamó.", "Nosotros estábamos cenando cuando llamó Diego."] },
+        { "type": "order", "de": "Ich schlief gerade, als das Telefon klingelte.", "answer": "Estaba durmiendo cuando sonó el teléfono.", "distractors": ["estuve"] }
+      ]
+    },
+    {
+      "id": "contar-y-reaccionar",
+      "title": "Eine Geschichte erzählen und darauf reagieren",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Wörtern bringst du Ordnung in deine Geschichte:" },
+        { "type": "table", "head": ["Wort", "Deutsch", "Beispiel"], "rows": [["al principio", "am Anfang", "Al principio todo iba bien."], ["luego / después", "dann, danach", "Luego fuimos a cenar."], ["entonces", "da, dann", "Entonces vimos la flecha amarilla."], ["de repente", "plötzlich", "De repente empezó a llover."], ["en ese momento", "in diesem Moment", "En ese momento sonó mi móvil."], ["mientras", "während", "Mientras caminábamos, cantábamos."], ["por suerte", "zum Glück", "Por suerte, un señor nos ayudó."], ["al final", "am Ende, schließlich", "Al final todo salió bien."]] },
+        { "type": "tip", "text": "Al final heißt „am Ende, schließlich“. „Endlich!“ nach langem Warten heißt dagegen por fin: ¡Por fin llegamos!" },
+        { "type": "p", "text": "Wer zuhört, reagiert – in Spanien gern und lebhaft:" },
+        { "type": "table", "head": ["Reaktion", "Deutsch", "passt bei …"], "rows": [["¡Qué suerte!", "So ein Glück!", "etwas Gutem"], ["¡Qué mala suerte!", "So ein Pech!", "etwas Schlechtem"], ["¡Qué rabia!", "Wie ärgerlich! So ein Mist!", "Ärger"], ["¡Qué susto!", "Was für ein Schreck!", "Schreck, Gefahr"], ["¡Qué vergüenza!", "Wie peinlich!", "peinlichen Situationen"], ["¡Qué casualidad!", "Was für ein Zufall!", "Zufällen"], ["¡No me digas!", "Sag bloß! Echt?", "Überraschungen"], ["¡Qué fuerte!", "Krass! Unglaublich!", "Überraschungen (umgangssprachlich)"]] },
+        { "type": "tip", "text": "Mit ¿Y qué pasó después? oder ¿Y entonces? zeigst du, dass du weiterhören willst." },
+        { "type": "examples", "items": [{ "text": "Perdí el tren por un minuto. – ¡Qué rabia!", "de": "Ich habe den Zug um eine Minute verpasst. – So ein Mist!" }, { "text": "Encontré cien euros en la calle. – ¡Qué suerte!", "de": "Ich habe hundert Euro auf der Straße gefunden. – So ein Glück!" }, { "text": "Me caí delante de todos. – ¡Qué vergüenza!", "de": "Ich bin vor allen hingefallen. – Wie peinlich!" }, { "text": "En el albergue conocí a una chica de mi barrio. – ¡Qué casualidad!", "de": "In der Herberge habe ich ein Mädchen aus meinem Viertel kennengelernt. – Was für ein Zufall!" }] }
+      ],
+      "exercises": [
+        { "type": "match", "pairs": [["¡Qué suerte!", "So ein Glück!"], ["¡Qué rabia!", "So ein Mist!"], ["¡Qué susto!", "Was für ein Schreck!"], ["¡Qué vergüenza!", "Wie peinlich!"], ["¡No me digas!", "Sag bloß!"]] },
+        { "type": "choice", "prompt": "Lucía erzählt: „En el tren conocí a un chico de mi pueblo.“ Was sagst du?", "options": ["¡Qué casualidad!", "¡Qué rabia!", "¡Qué vergüenza!"], "answer": 0, "explain": "Ein unerwartetes Treffen ist ein Zufall: ¡Qué casualidad!" },
+        { "type": "cloze", "text": "Al ___ todo salió bien.", "answers": ["final"], "de": "Am Ende ist alles gut ausgegangen." },
+        { "type": "cloze", "text": "Al ___ todo iba muy bien, pero luego empezó a llover.", "answers": ["principio"], "de": "Am Anfang lief alles sehr gut, aber dann fing es an zu regnen." },
+        { "type": "cloze", "text": "Por ___, un señor nos ayudó.", "answers": ["suerte"], "de": "Zum Glück hat uns ein Mann geholfen." },
+        { "type": "cloze", "text": "Me robaron la cartera. – ¡Qué ___!", "answers": ["rabia", "mala suerte"], "de": "Man hat mir den Geldbeutel gestohlen. – So ein Mist!" },
+        { "type": "translate", "de": "Was für ein Zufall! Ich war auch dort.", "answers": ["¡Qué casualidad! Yo también estuve allí.", "¡Qué casualidad! Yo también he estado allí.", "¡Qué casualidad! También estuve allí.", "¡Qué casualidad! También he estado allí.", "¡Qué casualidad! Yo también estaba allí."] },
+        { "type": "order", "de": "Und was ist dann passiert?", "answer": "¿Y qué pasó después?", "distractors": ["pasaba"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "El Camino de Santiago",
+    "title_de": "Der Jakobsweg",
+    "lines": [
+      { "speaker": "Lucía", "text": "¡Hola, Jonas! ¿Qué tal el Camino de Santiago? ¡Cuéntamelo todo!", "de": "Hallo, Jonas! Wie war der Jakobsweg? Erzähl mir alles!" },
+      { "speaker": "Jonas", "text": "¡Fue una aventura inolvidable! Al principio todo iba muy bien: hacía sol, caminábamos veinte kilómetros al día y conocimos a peregrinos de todo el mundo.", "de": "Es war ein unvergessliches Abenteuer! Am Anfang lief alles sehr gut: Die Sonne schien, wir liefen zwanzig Kilometer am Tag und haben Pilger aus aller Welt kennengelernt." },
+      { "speaker": "Lucía", "text": "¡Qué bonito! ¿Y luego?", "de": "Wie schön! Und dann?" },
+      { "speaker": "Jonas", "text": "El tercer día estábamos caminando por la montaña cuando, de repente, empezó una tormenta muy fuerte.", "de": "Am dritten Tag wanderten wir gerade durch die Berge, als plötzlich ein sehr heftiges Gewitter anfing." },
+      { "speaker": "Lucía", "text": "¡Qué susto! ¿Y qué hicisteis?", "de": "Was für ein Schreck! Und was habt ihr gemacht?" },
+      { "speaker": "Jonas", "text": "Seguimos hasta el albergue. Llegamos agotados y mojados, pero ya no había sitio: otros peregrinos habían reservado todas las camas.", "de": "Wir sind bis zur Herberge weitergegangen. Wir kamen erschöpft und nass an, aber es war kein Platz mehr frei: Andere Pilger hatten alle Betten reserviert." },
+      { "speaker": "Lucía", "text": "¡Qué rabia! ¿Y dónde dormisteis?", "de": "So ein Mist! Und wo habt ihr geschlafen?" },
+      { "speaker": "Jonas", "text": "Por suerte, la señora del albergue nos dejó dormir en el suelo del salón.", "de": "Zum Glück hat uns die Frau von der Herberge im Aufenthaltsraum auf dem Boden schlafen lassen." },
+      { "speaker": "Diego", "text": "¡Hola, chicos! ¿Ya le estás contando lo de mis pies?", "de": "Hallo, ihr zwei! Erzählst du ihr schon die Sache mit meinen Füßen?" },
+      { "speaker": "Jonas", "text": "¡Todavía no! Diego tenía unas ampollas horribles, porque no había probado sus zapatos nuevos antes del viaje.", "de": "Noch nicht! Diego hatte schreckliche Blasen, weil er seine neuen Schuhe vor der Reise nicht ausprobiert hatte." },
+      { "speaker": "Diego", "text": "Vale, vale… Pero al final llegué a Santiago antes que tú.", "de": "Ja, ja … Aber am Ende bin ich vor dir in Santiago angekommen." },
+      { "speaker": "Lucía", "text": "¿Ah, sí? ¿Y eso?", "de": "Ach ja? Wie das?" },
+      { "speaker": "Diego", "text": "¡Porque Jonas se perdió el último día! Estaba sacando fotos y no vio las flechas amarillas.", "de": "Weil Jonas sich am letzten Tag verlaufen hat! Er machte gerade Fotos und hat die gelben Pfeile nicht gesehen." },
+      { "speaker": "Lucía", "text": "¡No me digas! ¿Y qué pasó?", "de": "Sag bloß! Und was ist passiert?" },
+      { "speaker": "Jonas", "text": "Me di cuenta una hora más tarde. Entonces un señor del pueblo me llevó en coche hasta el camino. ¡Qué vergüenza!", "de": "Ich habe es eine Stunde später gemerkt. Da hat mich ein Mann aus dem Dorf mit dem Auto zurück zum Weg gebracht. Wie peinlich!" },
+      { "speaker": "Lucía", "text": "¡Qué fuerte! Bueno, lo importante es que llegasteis los dos.", "de": "Krass! Na ja, die Hauptsache ist, dass ihr beide angekommen seid." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["la mochila", "der Rucksack"], ["la cartera", "der Geldbeutel"], ["el albergue", "die Herberge"], ["el peregrino", "der Pilger"], ["la etapa", "die Etappe"]] },
+    { "type": "match", "pairs": [["agotado", "erschöpft"], ["mojado", "nass"], ["oscuro", "dunkel"], ["preocupado", "besorgt"], ["inolvidable", "unvergesslich"]] },
+    { "type": "translate", "de": "Man hat mir im Bus den Geldbeutel gestohlen.", "answers": ["Me robaron la cartera en el autobús.", "Me han robado la cartera en el autobús.", "En el autobús me robaron la cartera.", "En el autobús me han robado la cartera."] },
+    { "type": "translate", "de": "Wir haben uns in den Bergen verlaufen.", "answers": ["Nos perdimos en la montaña.", "Nos hemos perdido en la montaña.", "Nos perdimos en las montañas.", "Nos hemos perdido en las montañas."] },
+    { "type": "translate", "de": "Plötzlich merkte ich, dass ich meinen Rucksack nicht hatte.", "answers": ["De repente me di cuenta de que no tenía mi mochila.", "De repente me di cuenta de que no tenía la mochila.", "De repente me di cuenta de que no llevaba mi mochila.", "De repente me di cuenta de que no llevaba la mochila."] },
+    { "type": "order", "de": "Am Ende ist alles gut ausgegangen.", "answer": "Al final todo salió bien.", "distractors": ["principio"] },
+    { "type": "order", "de": "In der Herberge war kein Platz mehr frei.", "answer": "En el albergue ya no había sitio.", "distractors": ["hubo"] },
+    { "type": "cloze", "text": "Caminamos seis horas y llegamos ___ al albergue.", "answers": ["agotados", "agotadas"], "de": "Wir sind sechs Stunden gelaufen und kamen erschöpft bei der Herberge an." },
+    { "type": "cloze", "text": "Por ___ encontramos un bar abierto.", "answers": ["casualidad"], "de": "Zufällig fanden wir eine Bar, die offen hatte." },
+    { "type": "cloze", "text": "Diego se ___ en el camino.", "answers": ["cayó"], "de": "Diego ist auf dem Weg hingefallen.", "hint": "caerse – Indefinido" },
+    { "type": "cloze", "text": "Por suerte, llegamos a ___ a la estación.", "answers": ["tiempo"], "de": "Zum Glück kamen wir rechtzeitig am Bahnhof an." },
+    { "type": "listen", "text": "Estábamos caminando por la montaña cuando empezó la tormenta.", "de": "Wir wanderten gerade durch die Berge, als das Gewitter anfing." },
+    { "type": "listen", "text": "Cuando llegamos a la estación, el tren ya había salido.", "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren." }
+  ]
+}
