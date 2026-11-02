@@ -14,7 +14,7 @@ import { speakButton } from './session.js';
 import { getProfile, getState, update } from '../store/state.js';
 import { errorCard, pageHead } from './common.js';
 import { AiError, callClaude, hasKey } from '../ai/client.js';
-import { explainRequest } from '../ai/prompts.js';
+import { POS_VALUES, explainRequest } from '../ai/prompts.js';
 import { ensureJapaneseTokens } from '../ai/validate.js';
 
 const RATES = [0.6, 0.75, 0.9, 1, 1.15];
@@ -44,7 +44,7 @@ export async function readerView(main, { params, navigate }) {
     mount(main, pageHead({ title: 'Text nicht gefunden' }), errorCard('Diesen Text gibt es nicht (mehr).'), el('a', { class: 'btn', href: '#/lesen' }, 'Zur Bibliothek'));
     return;
   }
-  const story = entry ? await loadStory(lang, entry.file) : custom;
+  const story = entry ? await loadStory(lang, entry.file) : structuredClone(custom); // eigene Kopie, gespeichert wird über update()
   const lessons = await loadAvailableLessons(lang).catch(() => []);
   const courseVocab = new Map();
   for (const lesson of lessons) {
@@ -163,7 +163,7 @@ export async function readerView(main, { params, navigate }) {
     renderSheet(token, info, sentence);
   }
 
-  function renderSheet(token, info, sentence) {
+  function renderSheet(token, info, sentence, explained = null) {
     sheet.hidden = false;
     const p = profile();
     if (!info) {
@@ -267,7 +267,7 @@ export async function readerView(main, { params, navigate }) {
           : null,
         el('div', { class: 'sheet-sentence small' }, el('span', { class: 'muted' }, 'Satz: '), sentence.de),
         isName ? null : el('div', { class: 'row' }, learnBtn, knownBtn),
-        isName ? null : aiExplain(token, info, sentence),
+        isName ? null : explained || aiExplain(token, info, sentence),
       ),
     );
   }
@@ -307,6 +307,7 @@ export async function readerView(main, { params, navigate }) {
               const data = res.json || {};
               mount(
                 out,
+                data.de ? el('p', { class: 'small' }, el('strong', null, String(data.de))) : null,
                 el('p', { class: 'small' }, String(data.explanation_de || '')),
                 el(
                   'ul',
@@ -318,6 +319,23 @@ export async function readerView(main, { params, navigate }) {
                 ),
                 el('p', { class: 'small faint' }, 'Von KI erzeugt – kann Fehler enthalten.'),
               );
+              // Wort ohne Glossar-Eintrag: KI-Bedeutung übernehmen, damit man es lernen kann
+              if (!info && data.de) {
+                const added = {
+                  lemma: String(data.lemma || token.text).replace(/\s+/g, lang === 'ja' ? '' : ' ').trim(),
+                  de: String(data.de).trim().slice(0, 80),
+                  pos: POS_VALUES.includes(data.pos) ? data.pos : 'other',
+                  ai: true,
+                };
+                story.glossary[token.key] = added;
+                if (custom) {
+                  update((s) => {
+                    const own = s.langs[lang].lessons[story.id];
+                    if (own) own.glossary[token.key] = added;
+                  }, 'lessons');
+                }
+                renderSheet(token, added, sentence, wrap);
+              }
             } catch (err) {
               mount(out, el('p', { class: 'small error-text' }, err instanceof AiError ? err.message : err.message));
               btn.disabled = false;
@@ -328,7 +346,8 @@ export async function readerView(main, { params, navigate }) {
       icon('sparkle'),
       'Mit KI erklären',
     );
-    return el('div', { class: 'stack-sm' }, btn, out);
+    const wrap = el('div', { class: 'stack-sm' }, btn, out);
+    return wrap;
   }
 
   function closeButton() {

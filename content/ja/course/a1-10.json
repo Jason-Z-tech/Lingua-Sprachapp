@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a1-10",
+  "lang": "ja",
+  "level": "A1",
+  "number": 10,
+  "title": "電車[でんしゃ] で 行[い]き ました。",
+  "title_de": "Unterwegs",
+  "topic": "Verkehrsmittel und Reisen",
+  "goals": [
+    "Du kannst über Vergangenes sprechen: 〜ました, 〜ませんでした und でした.",
+    "Du kannst sagen, womit du fährst: でんしゃで, くるまで, バスで – oder あるいて (zu Fuß).",
+    "Du kannst von einer Reise erzählen: wohin, wann und womit du gefahren bist.",
+    "Du kannst mit 〜たいです sagen, was du gern machen möchtest."
+  ],
+  "kanji": ["年", "何", "車", "電", "気", "天"],
+  "vocab": [
+    { "id": "densha", "word": "電車[でんしゃ]", "de": "der Zug; die Bahn", "pos": "noun", "example": { "text": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] へ 行[い]き ます。", "de": "Ich fahre jeden Tag mit dem Zug in die Firma." }, "note": "Wörtlich „Elektro-Wagen“. Gemeint sind Nahverkehrszüge und S-Bahnen." },
+    { "id": "kuruma", "word": "車[くるま]", "de": "das Auto", "pos": "noun", "example": { "text": "父[ちち] は 車[くるま] で 来[き] ました。", "de": "Mein Vater ist mit dem Auto gekommen." } },
+    { "id": "basu", "word": "バス", "de": "der Bus", "pos": "noun", "example": { "text": "バス で 駅[えき] まで 行[い]き ます。", "de": "Ich fahre mit dem Bus bis zum Bahnhof." } },
+    { "id": "takushii", "word": "タクシー", "de": "das Taxi", "pos": "noun", "example": { "text": "駅[えき] から タクシー で 帰[かえ]り ました。", "de": "Vom Bahnhof bin ich mit dem Taxi nach Hause gefahren." }, "note": "In Japan öffnen sich die hinteren Taxitüren automatisch – nicht selbst aufziehen!" },
+    { "id": "jitensha", "word": "自転[じてん]車[しゃ]", "de": "das Fahrrad", "pos": "noun", "example": { "text": "自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]き ます。", "de": "Ich fahre mit dem Fahrrad zur Uni." } },
+    { "id": "chikatetsu", "word": "地[ち]下[か]鉄[てつ]", "de": "die U-Bahn", "pos": "noun", "example": { "text": "東京[とうきょう] で は 地[ち]下[か]鉄[てつ] が べんり です。", "de": "In Tokio ist die U-Bahn praktisch." }, "note": "Wörtlich „Unter-der-Erde-Eisen(bahn)“. Das 下 kennst du schon." },
+    { "id": "shinkansen", "word": "新[しん]幹線[かんせん]", "de": "der Shinkansen (Schnellzug)", "pos": "noun", "example": { "text": "新[しん]幹線[かんせん] で 京都[きょうと] へ 行[い]き ました。", "de": "Ich bin mit dem Shinkansen nach Kyoto gefahren." }, "note": "Japans Hochgeschwindigkeitszug – vergleichbar mit dem ICE, aber sehr pünktlich." },
+    { "id": "hikouki", "word": "飛[ひ]行[こう]機[き]", "de": "das Flugzeug", "pos": "noun", "example": { "text": "飛[ひ]行[こう]機[き] で 日本[にほん] へ 来[き] ました。", "de": "Ich bin mit dem Flugzeug nach Japan gekommen." }, "note": "Wörtlich „Flieg-geh-Maschine“ – mit dem 行 aus Lektion 7." },
+    { "id": "aruite", "word": "歩[ある]いて", "de": "zu Fuß", "pos": "adv", "example": { "text": "駅[えき] まで 歩[ある]いて 行[い]き ます。", "de": "Ich gehe zu Fuß zum Bahnhof." }, "note": "Ohne で! Von あるきます (zu Fuß gehen)." },
+    { "id": "norimasu", "word": "乗[の]り ます", "de": "einsteigen; fahren mit", "pos": "verb", "forms": "のります, のりません, のりました", "example": { "text": "駅[えき] で 電車[でんしゃ] に 乗[の]り ます。", "de": "Am Bahnhof steige ich in den Zug." }, "note": "Das Fahrzeug bekommt に: でんしゃに のります." },
+    { "id": "orimasu", "word": "おり ます", "de": "aussteigen", "pos": "verb", "forms": "おります, おりません, おりました", "example": { "text": "次[つぎ] の 駅[えき] で おり ます。", "de": "Ich steige an der nächsten Station aus." }, "note": "Kanji: 降ります. Die Station, an der man aussteigt, bekommt で." },
+    { "id": "kakarimasu", "word": "かかり ます", "de": "dauern (Zeit); kosten (Geld)", "pos": "verb", "forms": "かかります, かかりました", "example": { "text": "電車[でんしゃ] で 三十分[さんじゅっぷん] かかり ます。", "de": "Mit dem Zug dauert es dreißig Minuten." } },
+    { "id": "ryokou", "word": "旅[りょ]行[こう]", "de": "die Reise", "pos": "noun", "example": { "text": "旅[りょ]行[こう] が 大好[だいす]き です。", "de": "Ich reise sehr gern." }, "note": "りょこうを します / りょこうに いきます = reisen, verreisen." },
+    { "id": "kuukou", "word": "くうこう", "de": "der Flughafen", "pos": "noun", "example": { "text": "くうこう まで バス で 行[い]き ます。", "de": "Ich fahre mit dem Bus zum Flughafen." }, "note": "Kanji: 空港 – „Himmels-Hafen“." },
+    { "id": "kippu", "word": "切符[きっぷ]", "de": "die Fahrkarte", "pos": "noun", "example": { "text": "駅[えき] で 切符[きっぷ] を 買[か]い ました。", "de": "Ich habe am Bahnhof eine Fahrkarte gekauft." }, "note": "Viele Leute zahlen heute mit einer Chipkarte statt mit きっぷ." },
+    { "id": "hoteru", "word": "ホテル", "de": "das Hotel", "pos": "noun", "example": { "text": "ホテル は 駅[えき] の 前[まえ] でした。", "de": "Das Hotel war vor dem Bahnhof." } },
+    { "id": "umi", "word": "海[うみ]", "de": "das Meer", "pos": "noun", "example": { "text": "夏[なつ] は 海[うみ] へ 行[い]き たい です。", "de": "Im Sommer möchte ich ans Meer." } },
+    { "id": "yama", "word": "山[やま]", "de": "der Berg; die Berge", "pos": "noun", "example": { "text": "ふじさん は 日本[にほん] の 山[やま] です。 とても 高[たか]い です。", "de": "Der Fuji ist ein Berg in Japan. Er ist sehr hoch." }, "note": "Das Kanji kennst du aus dem Namen やまだ." },
+    { "id": "tenki", "word": "天気[てんき]", "de": "das Wetter", "pos": "noun", "example": { "text": "きのう は いい 天気[てんき] でした。", "de": "Gestern war schönes Wetter." }, "note": "いい てんき = schönes Wetter. Das 気 kennst du schon aus げんき." },
+    { "id": "ame", "word": "雨[あめ]", "de": "der Regen", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] は 雨[あめ] でした。", "de": "Am Sonntag hat es geregnet." }, "note": "Wörtlich: „Sonntag war Regen.“" },
+    { "id": "kinou", "word": "きのう", "de": "gestern", "pos": "noun", "example": { "text": "きのう は どこ へ 行[い]き ました か。", "de": "Wo warst du gestern?" }, "note": "Kanji: 昨日." },
+    { "id": "senshuu", "word": "先週[せんしゅう]", "de": "letzte Woche", "pos": "noun", "example": { "text": "先週[せんしゅう] 友[とも]だち と 旅[りょ]行[こう] を し ました。", "de": "Letzte Woche habe ich mit Freunden eine Reise gemacht." } },
+    { "id": "sengetsu", "word": "先[せん]月[げつ]", "de": "letzten Monat", "pos": "noun", "example": { "text": "先[せん]月[げつ] 日本[にほん] へ 来[き] ました。", "de": "Ich bin letzten Monat nach Japan gekommen." } },
+    { "id": "kyonen", "word": "去[きょ]年[ねん]", "de": "letztes Jahr", "pos": "noun", "example": { "text": "去[きょ]年[ねん] 車[くるま] を 買[か]い ました。", "de": "Letztes Jahr habe ich ein Auto gekauft." } },
+    { "id": "kotoshi", "word": "今年[ことし]", "de": "dieses Jahr", "pos": "noun", "example": { "text": "今年[ことし] は 日本[にほん] へ 行[い]き たい です。", "de": "Dieses Jahr möchte ich nach Japan." }, "note": "Besondere Lesung: Die beiden Kanji zusammen liest man ことし." },
+    { "id": "rainen", "word": "来年[らいねん]", "de": "nächstes Jahr", "pos": "noun", "example": { "text": "来年[らいねん] また 来[き] ます。", "de": "Nächstes Jahr komme ich wieder." }, "note": "来 (kommen) heißt hier „kommend, nächst“." },
+    { "id": "raishuu", "word": "来[らい]週[しゅう]", "de": "nächste Woche", "pos": "noun", "example": { "text": "来[らい]週[しゅう] 大阪[おおさか] へ 行[い]き ます。", "de": "Nächste Woche fahre ich nach Osaka." } },
+    { "id": "nen", "word": "〜年[ねん]", "alt": ["年[ねん]"], "de": "… Jahr (bei Jahreszahlen); … Jahre", "pos": "counter", "example": { "text": "2024年[ねん] に 日本[にほん] へ 行[い]き ました。", "de": "2024 bin ich nach Japan gefahren.", "focus": "年[ねん]" }, "note": "Jahreszahlen bekommen immer ねん – und に, wenn etwas in diesem Jahr passiert ist." },
+    { "id": "natsuyasumi", "word": "夏[なつ]休[やす]み", "de": "die Sommerferien; der Sommerurlaub", "pos": "noun", "example": { "text": "夏[なつ]休[やす]み に 北海道[ほっかいどう] へ 行[い]き ました。", "de": "In den Sommerferien bin ich nach Hokkaido gefahren." } },
+    { "id": "mashita", "word": "〜ました", "alt": ["ました"], "de": "Vergangenheit von 〜ます (habe … / …te)", "pos": "other", "example": { "text": "きのう 映画[えいが] を 見[み] ました。", "de": "Gestern habe ich einen Film gesehen.", "focus": "ました" }, "note": "Verneint: 〜ませんでした." },
+    { "id": "deshita", "word": "でした", "de": "war; waren (Vergangenheit von です)", "pos": "other", "example": { "text": "旅[りょ]行[こう] は 楽[たの]しかった です。 ホテル も きれい でした。", "de": "Die Reise war schön. Das Hotel war auch schön." }, "note": "Verneint: じゃ ありませんでした." },
+    { "id": "tai-desu", "word": "〜たい です", "alt": ["たい です", "たい"], "de": "möchte … (Wunsch)", "pos": "other", "example": { "text": "日本[にほん] へ 行[い]き たい です。", "de": "Ich möchte nach Japan fahren.", "focus": "たい です" }, "note": "ます weg, たい dran: いきます → いきたいです." },
+    { "id": "dou-deshita-ka", "word": "どう でした か", "de": "Wie war es?", "pos": "phrase", "example": { "text": "旅[りょ]行[こう] は どう でした か。", "de": "Wie war die Reise?" }, "note": "Höflicher: いかがでしたか." },
+    { "id": "tanoshikatta-desu", "word": "楽[たの]しかった です", "de": "es hat Spaß gemacht; es war schön", "pos": "phrase", "example": { "text": "はい、 とても 楽[たの]しかった です。", "de": "Ja, es war sehr schön." }, "note": "Vergangenheit von たのしいです. Die Regel für い-Adjektive lernst du in A2." },
+    { "id": "hitori-de", "word": "一人[ひとり] で", "alt": ["ひとり で"], "de": "allein", "pos": "adv", "example": { "text": "一人[ひとり] で 旅[りょ]行[こう] を し ました。", "de": "Ich bin allein verreist." }, "note": "ひとり (eine Person) kennst du aus Lektion 3. Mit で heißt es „allein“." },
+    { "id": "nani-de", "word": "何[なに] で", "alt": ["何[なん] で"], "de": "womit?", "pos": "phrase", "example": { "text": "何[なに] で 来[き] ました か。", "de": "Womit bist du gekommen?" }, "note": "Man hört auch なんで – das kann aber auch „warum?“ heißen. なにで ist eindeutig." },
+    { "id": "itsu", "word": "いつ", "de": "wann?", "pos": "pron", "example": { "text": "いつ 日本[にほん] へ 来[き] ました か。", "de": "Wann bist du nach Japan gekommen?" }, "note": "Ohne Partikel – nicht いつに." },
+    { "id": "omiyage", "word": "お土産[みやげ]", "alt": ["おみやげ"], "de": "das Mitbringsel; das Reisesouvenir", "pos": "noun", "example": { "text": "これ、 京都[きょうと] の お土産[みやげ] です。 どうぞ。", "de": "Hier, ein Mitbringsel aus Kyoto. Bitte schön." }, "note": "Von Reisen bringt man Kollegen und Freunden fast immer etwas mit – meist Süßigkeiten aus der Region." }
+  ],
+  "grammar": [
+    {
+      "id": "vergangenheit",
+      "title": "Die Vergangenheit: 〜ました, 〜ませんでした, でした",
+      "blocks": [
+        { "type": "p", "text": "Die Vergangenheit ist im Japanischen sehr regelmäßig. Bei Verben wird ます zu ました, und ません wird zu ませんでした. Eine eigene Form für Perfekt und Präteritum gibt es nicht: いきました heißt „ich ging“ und „ich bin gegangen“." },
+        { "type": "table", "head": ["Form", "jetzt / Zukunft", "Vergangenheit"], "rows": [["bejaht", "行[い]き ます", "行[い]き ました"], ["verneint", "行[い]き ません", "行[い]き ませんでした"], ["bejaht", "見[み] ます", "見[み] ました"], ["verneint", "見[み] ません", "見[み] ませんでした"]] },
+        { "type": "tip", "text": "Die ます-Form ist zugleich Gegenwart und Zukunft: あした いきます = Ich gehe morgen. Für die Vergangenheit brauchst du nur ました." },
+        { "type": "tip", "text": "Den Satz 〜から きました kennst du schon seit Lektion 2 – das war bereits die Vergangenheit von きます!" },
+        { "type": "p", "text": "Bei Nomen und な-Adjektiven wird です zu でした. Verneint heißt es じゃ ありませんでした." },
+        { "type": "table", "head": ["Form", "jetzt", "Vergangenheit"], "rows": [["bejaht", "休[やす]み です", "休[やす]み でした"], ["verneint", "休[やす]み じゃ ありません", "休[やす]み じゃ ありませんでした"], ["bejaht", "いい 天気[てんき] です", "いい 天気[てんき] でした"], ["な-Adjektiv", "きれい です", "きれい でした"]] },
+        { "type": "p", "text": "Typische Zeitwörter für die Vergangenheit sind きのう (gestern), せんしゅう (letzte Woche), せんげつ (letzten Monat) und きょねん (letztes Jahr). Sie stehen meist am Satzanfang, ohne Partikel – oder mit は, wenn sie das Thema sind." },
+        { "type": "examples", "items": [{ "text": "きのう 銀[ぎん]行[こう] へ 行[い]き ました。", "de": "Gestern war ich auf der Bank." }, { "text": "先週[せんしゅう] は どこ へ も 行[い]き ませんでした。", "de": "Letzte Woche bin ich nirgendwohin gefahren." }, { "text": "きのう は 休[やす]み でした。", "de": "Gestern hatte ich frei." }, { "text": "去[きょ]年[ねん] 日本[にほん] へ 行[い]き ました。", "de": "Letztes Jahr bin ich nach Japan gefahren." }, { "text": "旅[りょ]行[こう] は どう でした か。", "de": "Wie war die Reise?" }, { "text": "楽[たの]しかった です。", "de": "Es hat Spaß gemacht." }] },
+        { "type": "tip", "text": "い-Adjektive haben eine eigene Vergangenheit (たのしい → たのしかったです). Das lernst du in A2 genauer – merk dir たのしかったです vorerst als festen Ausdruck." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "きのう 図書館[としょかん] へ 行[い]き ___。", "answers": ["ました"], "de": "Gestern war ich in der Bibliothek." },
+        { "type": "cloze", "text": "先週[せんしゅう] は テニス を し ___。", "answers": ["ませんでした"], "de": "Letzte Woche habe ich kein Tennis gespielt." },
+        { "type": "cloze", "text": "きのう は いい 天気[てんき] ___。", "answers": ["でした"], "de": "Gestern war schönes Wetter." },
+        { "type": "cloze", "text": "日[にち]曜日[ようび] は 休[やす]み じゃ ___。", "answers": ["ありませんでした", "なかった です"], "de": "Am Sonntag hatte ich nicht frei." },
+        { "type": "order", "de": "Letztes Jahr bin ich nach Japan gefahren.", "answer": "去[きょ]年[ねん] 日本[にほん] へ 行[い]き ました。", "distractors": ["ます"] },
+        { "type": "translate", "de": "Gestern habe ich einen Film gesehen.", "answers": ["私[わたし] は きのう は 映画[えいが] を 見[み] ました。", "私[わたし] は きのう 映画[えいが] を 見[み] ました。", "きのう は 映画[えいが] を 見[み] ました。", "きのう 映画[えいが] を 見[み] ました。"] },
+        { "type": "translate", "de": "Wie war die Reise?", "answers": ["旅[りょ]行[こう] は どう でした か。", "旅[りょ]行[こう] は いかが でした か。"] }
+      ]
+    },
+    {
+      "id": "verkehrsmittel",
+      "title": "Womit? – Verkehrsmittel mit で",
+      "blocks": [
+        { "type": "p", "text": "Womit du fährst, markiert die Partikel で (mit, per). Sie steht hinter dem Verkehrsmittel: でんしゃで いきます = Ich fahre mit dem Zug." },
+        { "type": "table", "head": ["Verkehrsmittel + で", "Verb", "Deutsch"], "rows": [["電車[でんしゃ] で", "行[い]き ます。", "Ich fahre mit dem Zug."], ["車[くるま] で", "来[き] ました。", "Ich bin mit dem Auto gekommen."], ["バス で", "帰[かえ]り ます。", "Ich fahre mit dem Bus nach Hause."], ["自転[じてん]車[しゃ] で", "行[い]き ます。", "Ich fahre mit dem Fahrrad."], ["新[しん]幹線[かんせん] で", "行[い]き ました。", "Ich bin mit dem Shinkansen gefahren."], ["歩[ある]いて", "行[い]き ます。", "Ich gehe zu Fuß."]] },
+        { "type": "tip", "text": "Zu Fuß ist anders: あるいて (gehend) steht ohne で. Also あるいて いきます – nicht あるいてで." },
+        { "type": "tip", "text": "で kennst du schon aus Lektion 9: Dort zeigt es, wo etwas passiert (こうえんで さんぽを します). Hier zeigt es das Mittel. Beides kann in einem Satz stehen: えきで タクシーに のりました." },
+        { "type": "p", "text": "Fragen: なにで いきますか (Womit fährst du?). Wie lange es dauert, sagst du mit かかります. Ein- und aussteigen: Das Fahrzeug, in das du einsteigst, bekommt に (でんしゃに のります). Die Station, an der du aussteigst, bekommt で (つぎの えきで おります)." },
+        { "type": "examples", "items": [{ "text": "何[なに] で 行[い]き ます か。", "de": "Womit fährst du?" }, { "text": "地[ち]下[か]鉄[てつ] で 行[い]き ます。", "de": "Ich fahre mit der U-Bahn." }, { "text": "会社[かいしゃ] まで 電車[でんしゃ] で 一時間[いちじかん] かかり ます。", "de": "Mit dem Zug brauche ich eine Stunde bis zur Firma." }, { "text": "駅[えき] で タクシー に 乗[の]り ました。", "de": "Am Bahnhof habe ich ein Taxi genommen." }, { "text": "次[つぎ] の 駅[えき] で おり ます。", "de": "Ich steige an der nächsten Station aus." }] },
+        { "type": "tip", "text": "Für die Dauer nimmst du じかん (Stunden) und ふん/ぷん (Minuten) aus Lektion 5: いちじかん かかります, にじゅっぷん かかります. Nicht verwechseln: にじ = 2 Uhr, にじかん = 2 Stunden." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "毎日[まいにち] バス ___ 会社[かいしゃ] へ 行[い]き ます。", "answers": ["で"], "de": "Ich fahre jeden Tag mit dem Bus in die Firma." },
+        { "type": "cloze", "text": "駅[えき] まで ___ 行[い]き ます。", "answers": ["歩[ある]いて"], "de": "Ich gehe zu Fuß zum Bahnhof." },
+        { "type": "cloze", "text": "京都[きょうと] で 新[しん]幹線[かんせん] ___ 乗[の]り ました。", "answers": ["に"], "de": "In Kyoto bin ich in den Shinkansen gestiegen." },
+        { "type": "cloze", "text": "東京[とうきょう] から 京都[きょうと] まで 二時間[にじかん] ___。", "answers": ["かかり ます"], "de": "Von Tokio nach Kyoto dauert es zwei Stunden." },
+        { "type": "order", "de": "Womit bist du gekommen?", "answer": "何[なに] で 来[き] ました か。", "distractors": ["に"] },
+        { "type": "translate", "de": "Ich fahre mit dem Fahrrad zur Uni.", "answers": ["私[わたし] は 自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]き ます。", "私[わたし] は 自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]き ます。", "私[わたし] は 自転[じてん]車[しゃ] で 大学[だいがく] まで 行[い]き ます。", "自転[じてん]車[しゃ] で 大学[だいがく] へ 行[い]き ます。", "自転[じてん]車[しゃ] で 大学[だいがく] に 行[い]き ます。", "自転[じてん]車[しゃ] で 大学[だいがく] まで 行[い]き ます。", "私[わたし] は 大学[だいがく] へ 自転[じてん]車[しゃ] で 行[い]き ます。", "私[わたし] は 大学[だいがく] に 自転[じてん]車[しゃ] で 行[い]き ます。", "私[わたし] は 大学[だいがく] まで 自転[じてん]車[しゃ] で 行[い]き ます。", "大学[だいがく] へ 自転[じてん]車[しゃ] で 行[い]き ます。", "大学[だいがく] に 自転[じてん]車[しゃ] で 行[い]き ます。", "大学[だいがく] まで 自転[じてん]車[しゃ] で 行[い]き ます。"] }
+      ]
+    },
+    {
+      "id": "tai-desu",
+      "title": "Wünsche: 〜たいです (ich möchte …)",
+      "blocks": [
+        { "type": "p", "text": "Um zu sagen, was du gern tun möchtest, nimmst du die ます-Form, streichst ます und hängst たいです an: いきます → いきたいです (ich möchte hingehen)." },
+        { "type": "table", "head": ["ます-Form", "〜たい です", "Deutsch"], "rows": [["行[い]き ます", "行[い]き たい です", "ich möchte hingehen/hinfahren"], ["見[み] ます", "見[み] たい です", "ich möchte sehen"], ["食[た]べ ます", "食[た]べ たい です", "ich möchte essen"], ["乗[の]り ます", "乗[の]り たい です", "ich möchte (mit … ) fahren"], ["し ます", "し たい です", "ich möchte machen"], ["帰[かえ]り ます", "帰[かえ]り たい です", "ich möchte nach Hause"]] },
+        { "type": "p", "text": "Verneint wird たい wie ein い-Adjektiv aus Lektion 8: たくないです (möchte nicht). Das Objekt bekommt を oder が – beides ist richtig: すしを たべたいです / すしが たべたいです." },
+        { "type": "examples", "items": [{ "text": "日本[にほん] へ 行[い]き たい です。", "de": "Ich möchte nach Japan fahren." }, { "text": "新[しん]幹線[かんせん] に 乗[の]り たい です。", "de": "Ich möchte mit dem Shinkansen fahren." }, { "text": "夏[なつ]休[やす]み に 何[なに] を し たい です か。", "de": "Was möchtest du in den Sommerferien machen?" }, { "text": "海[うみ] へ 行[い]き たい です。", "de": "Ich möchte ans Meer." }, { "text": "今日[きょう] は どこ へ も 行[い]き たくない です。", "de": "Heute möchte ich nirgendwohin." }] },
+        { "type": "tip", "text": "〜たいです drückt deinen eigenen Wunsch aus. Fremde oder Vorgesetzte fragst du damit besser nicht direkt („Möchten Sie …?“) – das klingt zu direkt. Für Einladungen nimmst du lieber 〜ませんか aus Lektion 4." },
+        { "type": "tip", "text": "Alles zusammen: wann, womit, wohin. きょねん でんしゃで きょうとへ いきました. らいねん ひこうきで ほっかいどうへ いきたいです." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "来年[らいねん] 日本[にほん] へ 行[い]き ___ です。", "answers": ["たい"], "de": "Nächstes Jahr möchte ich nach Japan fahren." },
+        { "type": "cloze", "text": "今日[きょう] は 何[なに] も 食[た]べ ___ です。", "answers": ["たくない"], "de": "Heute möchte ich nichts essen." },
+        { "type": "cloze", "text": "新[しん]幹線[かんせん] に ___ たい です。", "answers": ["乗[の]り"], "de": "Ich möchte mit dem Shinkansen fahren." },
+        { "type": "order", "de": "Ich möchte ans Meer fahren.", "answer": "海[うみ] へ 行[い]き たい です。", "distractors": ["ます"] },
+        { "type": "translate", "de": "Was möchtest du am Wochenende machen?", "answers": ["しゅうまつ は 何[なに] を し たい です か。", "しゅうまつ に 何[なに] を し たい です か。", "しゅうまつ には 何[なに] を し たい です か。", "しゅうまつ 何[なに] を し たい です か。"] },
+        { "type": "translate", "de": "Ich möchte in die Berge fahren.", "answers": ["私[わたし] は 山[やま] へ 行[い]き たい です。", "私[わたし] は 山[やま] に 行[い]き たい です。", "山[やま] へ 行[い]き たい です。", "山[やま] に 行[い]き たい です。"] },
+        { "type": "choice", "prompt": "Du möchtest deine Lehrerin zu einem Konzert einladen. Was sagst du am besten?", "options": ["いっしょに 行[い]き ませんか。", "いっしょに 行[い]き たい です か。", "いっしょに 行[い]き ました。"], "answer": 0, "explain": "Mit 〜ませんか lädst du höflich ein. 〜たいですか klingt gegenüber Lehrern zu direkt, und いきました ist die Vergangenheit." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "京都[きょうと] 旅[りょ]行[こう]",
+    "title_de": "Die Reise nach Kyoto",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 おはようございます。 先週[せんしゅう] は 京都[きょうと] へ 行[い]き ました か。", "de": "Guten Morgen, Anna! Warst du letzte Woche in Kyoto?" },
+      { "speaker": "アンナ", "text": "はい、 行[い]き ました。 ソフィー さん と いっしょに 行[い]き ました。", "de": "Ja. Ich war mit Sophie dort." },
+      { "speaker": "けん", "text": "何[なに] で 行[い]き ました か。", "de": "Womit seid ihr gefahren?" },
+      { "speaker": "アンナ", "text": "新[しん]幹線[かんせん] で 行[い]き ました。 東京[とうきょう] から 二時間[にじかん] ぐらい かかり ました。", "de": "Mit dem Shinkansen. Von Tokio aus hat es ungefähr zwei Stunden gedauert." },
+      { "speaker": "けん", "text": "そう です か。 天気[てんき] は どう でした か。", "de": "Ach so. Wie war das Wetter?" },
+      { "speaker": "アンナ", "text": "土[ど]曜日[ようび] は いい 天気[てんき] でした。 でも、 日[にち]曜日[ようび] は 雨[あめ] でした。", "de": "Am Samstag war schönes Wetter. Aber am Sonntag hat es geregnet." },
+      { "speaker": "けん", "text": "京都[きょうと] で 何[なに] を し ました か。", "de": "Was habt ihr in Kyoto gemacht?" },
+      { "speaker": "アンナ", "text": "古[ふる]い お寺[てら] を 見[み] ました。 とても きれい でした。 日[にち]曜日[ようび] は バス で 金閣寺[きんかくじ] へ 行[い]き ました。", "de": "Wir haben alte Tempel angeschaut. Die waren sehr schön. Am Sonntag sind wir mit dem Bus zum Goldenen Pavillon gefahren." },
+      { "speaker": "けん", "text": "いい です ね。 旅[りょ]行[こう] は 楽[たの]しかった です か。", "de": "Schön! Hat euch die Reise Spaß gemacht?" },
+      { "speaker": "アンナ", "text": "はい、 とても 楽[たの]しかった です。 あ、 これ、 京都[きょうと] の お土産[みやげ] です。 どうぞ。", "de": "Ja, sehr. Ach, hier – ein Mitbringsel aus Kyoto. Bitte schön." },
+      { "speaker": "けん", "text": "わあ、 ありがとうございます！", "de": "Oh, vielen Dank!" },
+      { "speaker": "アンナ", "text": "けん さん は 夏[なつ]休[やす]み に どこ へ 行[い]き たい です か。", "de": "Und wohin möchtest du in den Sommerferien, Ken?" },
+      { "speaker": "けん", "text": "北海道[ほっかいどう] へ 行[い]き たい です。 車[くるま] で 山[やま] と 海[うみ] へ 行[い]き たい です。", "de": "Ich möchte nach Hokkaido. Mit dem Auto in die Berge und ans Meer." },
+      { "speaker": "アンナ", "text": "いい です ね！ 私[わたし] も 行[い]き たい です。", "de": "Klingt toll! Da möchte ich auch hin." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["電車[でんしゃ]", "der Zug"], ["車[くるま]", "das Auto"], ["自転[じてん]車[しゃ]", "das Fahrrad"], ["地[ち]下[か]鉄[てつ]", "die U-Bahn"], ["飛[ひ]行[こう]機[き]", "das Flugzeug"], ["バス", "der Bus"]] },
+    { "type": "match", "pairs": [["きのう", "gestern"], ["先週[せんしゅう]", "letzte Woche"], ["先[せん]月[げつ]", "letzten Monat"], ["去[きょ]年[ねん]", "letztes Jahr"], ["来年[らいねん]", "nächstes Jahr"]] },
+    { "type": "translate", "de": "Ich bin mit dem Bus gekommen.", "answers": ["私[わたし] は バス で 来[き] ました。", "バス で 来[き] ました。"] },
+    { "type": "translate", "de": "Gestern bin ich nirgendwohin gegangen.", "answers": ["私[わたし] は きのう は どこ へ も 行[い]き ませんでした。", "私[わたし] は きのう は どこ に も 行[い]き ませんでした。", "私[わたし] は きのう どこ へ も 行[い]き ませんでした。", "私[わたし] は きのう どこ に も 行[い]き ませんでした。", "きのう は どこ へ も 行[い]き ませんでした。", "きのう は どこ に も 行[い]き ませんでした。", "きのう どこ へ も 行[い]き ませんでした。", "きのう どこ に も 行[い]き ませんでした。"] },
+    { "type": "translate", "de": "Ich möchte mit dem Shinkansen fahren.", "answers": ["私[わたし] は 新[しん]幹線[かんせん] に 乗[の]り たい です。", "私[わたし] は 新[しん]幹線[かんせん] で 行[い]き たい です。", "新[しん]幹線[かんせん] に 乗[の]り たい です。", "新[しん]幹線[かんせん] で 行[い]き たい です。"] },
+    { "type": "translate", "de": "Letzten Monat war ich in Kyoto.", "answers": ["私[わたし] は 先[せん]月[げつ] は 京都[きょうと] へ 行[い]き ました。", "私[わたし] は 先[せん]月[げつ] は 京都[きょうと] に 行[い]き ました。", "私[わたし] は 先[せん]月[げつ] 京都[きょうと] へ 行[い]き ました。", "私[わたし] は 先[せん]月[げつ] 京都[きょうと] に 行[い]き ました。", "先[せん]月[げつ] は 京都[きょうと] へ 行[い]き ました。", "先[せん]月[げつ] は 京都[きょうと] に 行[い]き ました。", "先[せん]月[げつ] 京都[きょうと] へ 行[い]き ました。", "先[せん]月[げつ] 京都[きょうと] に 行[い]き ました。"] },
+    { "type": "order", "de": "Wie war das Wetter?", "answer": "天気[てんき] は どう でした か。", "distractors": ["です"] },
+    { "type": "order", "de": "Ich steige an der nächsten Station aus.", "answer": "次[つぎ] の 駅[えき] で おり ます。", "distractors": ["に"] },
+    { "type": "cloze", "text": "きのう は 雨[あめ] ___。", "answers": ["でした"], "de": "Gestern hat es geregnet." },
+    { "type": "cloze", "text": "駅[えき] まで ___ で 行[い]き ます か。", "answers": ["何[なに]", "何[なん]"], "de": "Womit fährst du zum Bahnhof?" },
+    { "type": "listen", "text": "去[きょ]年[ねん] 車[くるま] で 山[やま] へ 行[い]き ました。", "de": "Letztes Jahr bin ich mit dem Auto in die Berge gefahren." },
+    { "type": "listen", "text": "駅[えき] まで 歩[ある]いて 十分[じゅっぷん] です。", "de": "Zu Fuß sind es zehn Minuten bis zum Bahnhof." },
+    { "type": "listen", "text": "夏[なつ]休[やす]み に 海[うみ] へ 行[い]き たい です。", "de": "In den Sommerferien möchte ich ans Meer." }
+  ]
+}

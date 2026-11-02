@@ -1,0 +1,164 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a1-09",
+  "lang": "ja",
+  "level": "A1",
+  "number": 9,
+  "title": "しゅみ は 何[なん] です か。",
+  "title_de": "Freizeit",
+  "topic": "Hobbys, Vorlieben und Wochentage",
+  "goals": [
+    "Du kannst mit 〜が すきです und 〜が きらいです sagen, was du magst und was nicht.",
+    "Du kannst die Wochentage nennen und sagen, an welchem Tag du etwas tust: どようびに テニスを します.",
+    "Du kannst mit します, みます, ききます und よみます über deine Freizeit sprechen.",
+    "Du kannst sagen, wie oft du etwas tust: いつも, よく, ときどき, あまり〜ません, ぜんぜん〜ません."
+  ],
+  "kanji": ["月", "火", "木", "金", "土", "休"],
+  "vocab": [
+    { "id": "suki", "word": "好[す]き", "de": "mögen; gern haben", "pos": "adj", "forms": "すきです, すきじゃ ありません", "example": { "text": "私[わたし] は 音楽[おんがく] が 好[す]き です。", "de": "Ich mag Musik." }, "note": "Ein な-Adjektiv. Was man mag, markiert が – nicht を!" },
+    { "id": "daisuki", "word": "大好[だいす]き", "de": "sehr gern mögen; lieben", "pos": "adj", "example": { "text": "けん さん は サッカー が 大好[だいす]き です。", "de": "Ken liebt Fußball." }, "note": "Das 大 kennst du aus おおきい (groß): „groß-mögen“." },
+    { "id": "kirai", "word": "きらい", "de": "nicht mögen", "pos": "adj", "forms": "きらいです, きらいじゃ ありません", "example": { "text": "私[わたし] は スポーツ が きらい です。", "de": "Ich mag keinen Sport." }, "note": "Klingt sehr direkt. Höflicher: すきじゃ ありません. Kanji: 嫌い." },
+    { "id": "shumi", "word": "しゅみ", "de": "das Hobby", "pos": "noun", "example": { "text": "しゅみ は 何[なん] です か。", "de": "Was ist dein Hobby?" }, "note": "Kanji: 趣味. Höflich fragt man: ごしゅみは なんですか." },
+    { "id": "shimasu", "word": "し ます", "de": "machen; tun", "pos": "verb", "forms": "します, しません", "example": { "text": "日[にち]曜日[ようび] に テニス を し ます。", "de": "Am Sonntag spiele ich Tennis." }, "note": "Bei Sport und Spielen heißt します auch „spielen“." },
+    { "id": "supootsu", "word": "スポーツ", "de": "der Sport", "pos": "noun", "example": { "text": "どんな スポーツ が 好[す]き です か。", "de": "Welchen Sport magst du?" } },
+    { "id": "sakkaa", "word": "サッカー", "de": "der Fußball", "pos": "noun", "example": { "text": "土[ど]曜日[ようび] に サッカー を し ます。", "de": "Am Samstag spiele ich Fußball." } },
+    { "id": "tenisu", "word": "テニス", "de": "das Tennis", "pos": "noun", "example": { "text": "アンナ さん は テニス が 上手[じょうず] です。", "de": "Anna spielt gut Tennis." } },
+    { "id": "yakyuu", "word": "野球[やきゅう]", "de": "der Baseball", "pos": "noun", "example": { "text": "野球[やきゅう] は 日本[にほん] で とても 有名[ゆうめい] です。", "de": "Baseball ist in Japan sehr bekannt." }, "note": "In Japan eine der beliebtesten Sportarten – im Sommer laufen Schulturniere sogar im Fernsehen." },
+    { "id": "oyogimasu", "word": "およぎ ます", "de": "schwimmen", "pos": "verb", "forms": "およぎます, およぎません", "example": { "text": "毎週[まいしゅう] およぎ ます。", "de": "Ich schwimme jede Woche." }, "note": "Kanji: 泳ぎます." },
+    { "id": "ongaku", "word": "音楽[おんがく]", "de": "die Musik", "pos": "noun", "example": { "text": "どんな 音楽[おんがく] が 好[す]き です か。", "de": "Was für Musik magst du?" } },
+    { "id": "kikimasu", "word": "聞[き]き ます", "de": "hören; fragen", "pos": "verb", "forms": "ききます, ききません", "example": { "text": "毎晩[まいばん] 音楽[おんがく] を 聞[き]き ます。", "de": "Ich höre jeden Abend Musik." }, "note": "Heißt auch „fragen“: みちを ききます = nach dem Weg fragen." },
+    { "id": "eiga", "word": "映画[えいが]", "de": "der Film", "pos": "noun", "example": { "text": "この 映画[えいが] は おもしろい です。", "de": "Dieser Film ist spannend." }, "note": "Das Kino, えいがかん, kennst du schon aus Lektion 7." },
+    { "id": "yomimasu", "word": "読[よ]み ます", "de": "lesen", "pos": "verb", "forms": "よみます, よみません", "example": { "text": "休[やす]み の 日[ひ] は 本[ほん] を 読[よ]み ます。", "de": "An freien Tagen lese ich Bücher." } },
+    { "id": "geemu", "word": "ゲーム", "de": "das Spiel; das Videospiel", "pos": "noun", "example": { "text": "弟[おとうと] は 毎日[まいにち] ゲーム を し ます。", "de": "Mein kleiner Bruder spielt jeden Tag Videospiele." } },
+    { "id": "ryouri", "word": "料理[りょうり]", "de": "das Kochen; das Gericht", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] に 料理[りょうり] を し ます。", "de": "Am Sonntag koche ich." }, "note": "りょうりを します = kochen. にほんりょうり = japanisches Essen." },
+    { "id": "sanpo", "word": "さんぽ", "de": "der Spaziergang", "pos": "noun", "example": { "text": "公園[こうえん] で さんぽ を し ます。", "de": "Ich gehe im Park spazieren." }, "note": "Kanji: 散歩. さんぽします geht auch ohne を." },
+    { "id": "jouzu", "word": "上手[じょうず]", "de": "gut (in etwas); geschickt", "pos": "adj", "example": { "text": "けん さん は 料理[りょうり] が 上手[じょうず] です。", "de": "Ken kann gut kochen." }, "note": "Wie すき mit が. Über dich selbst sagst du das besser nicht – das klingt angeberisch." },
+    { "id": "heta", "word": "下手[へた]", "de": "schlecht (in etwas); ungeschickt", "pos": "adj", "example": { "text": "私[わたし] は サッカー が 下手[へた] です。", "de": "Ich spiele schlecht Fußball." } },
+    { "id": "tanoshii", "word": "楽[たの]しい", "de": "lustig; schön; macht Spaß", "pos": "adj", "forms": "たのしいです, たのしくないです", "example": { "text": "テニス は 楽[たの]しい です。", "de": "Tennis macht Spaß." } },
+    { "id": "omoshiroi", "word": "おもしろい", "de": "interessant; spannend; lustig", "pos": "adj", "forms": "おもしろいです, おもしろくないです", "example": { "text": "この 本[ほん] は おもしろい です。", "de": "Dieses Buch ist spannend." }, "note": "Kanji: 面白い." },
+    { "id": "tsumaranai", "word": "つまらない", "de": "langweilig", "pos": "adj", "example": { "text": "その 映画[えいが] は つまらない です。", "de": "Der Film ist langweilig." } },
+    { "id": "hima", "word": "ひま", "de": "frei (Zeit haben); nichts zu tun", "pos": "adj", "example": { "text": "あした は ひま です か。", "de": "Hast du morgen Zeit?" }, "note": "Ein な-Adjektiv. Kanji: 暇." },
+    { "id": "getsuyoubi", "word": "月[げつ]曜日[ようび]", "de": "der Montag", "pos": "noun", "example": { "text": "月[げつ]曜日[ようび] は 学校[がっこう] へ 行[い]き ます。", "de": "Am Montag gehe ich in die Schule." } },
+    { "id": "kayoubi", "word": "火[か]曜日[ようび]", "de": "der Dienstag", "pos": "noun", "example": { "text": "火[か]曜日[ようび] に 図書館[としょかん] へ 行[い]き ます。", "de": "Am Dienstag gehe ich in die Bibliothek." } },
+    { "id": "suiyoubi", "word": "水[すい]曜日[ようび]", "de": "der Mittwoch", "pos": "noun", "example": { "text": "水[すい]曜日[ようび] に およぎ ます。", "de": "Am Mittwoch schwimme ich." } },
+    { "id": "mokuyoubi", "word": "木[もく]曜日[ようび]", "de": "der Donnerstag", "pos": "noun", "example": { "text": "木[もく]曜日[ようび] に 友[とも]だち と テニス を し ます。", "de": "Am Donnerstag spiele ich mit einer Freundin Tennis." } },
+    { "id": "kinyoubi", "word": "金[きん]曜日[ようび]", "de": "der Freitag", "pos": "noun", "example": { "text": "金[きん]曜日[ようび] の 夜[よる] は ひま です。", "de": "Freitagabend habe ich Zeit." } },
+    { "id": "doyoubi", "word": "土[ど]曜日[ようび]", "de": "der Samstag", "pos": "noun", "example": { "text": "土[ど]曜日[ようび] に 買[か]い物[もの] を し ます。", "de": "Am Samstag gehe ich einkaufen." } },
+    { "id": "nichiyoubi", "word": "日[にち]曜日[ようび]", "de": "der Sonntag", "pos": "noun", "example": { "text": "日[にち]曜日[ようび] は 休[やす]み です。", "de": "Sonntag habe ich frei." } },
+    { "id": "nanyoubi", "word": "何[なん]曜日[ようび]", "de": "welcher Wochentag?", "pos": "pron", "example": { "text": "今日[きょう] は 何[なん]曜日[ようび] です か。", "de": "Welcher Wochentag ist heute?" } },
+    { "id": "shuumatsu", "word": "しゅうまつ", "de": "das Wochenende", "pos": "noun", "example": { "text": "しゅうまつ は 何[なに] を し ます か。", "de": "Was machst du am Wochenende?" }, "note": "Kanji: 週末." },
+    { "id": "maishuu", "word": "毎週[まいしゅう]", "de": "jede Woche", "pos": "adv", "example": { "text": "毎週[まいしゅう] 土[ど]曜日[ようび] に テニス を し ます。", "de": "Ich spiele jeden Samstag Tennis." }, "note": "Wie まいにち (jeden Tag) – ohne Partikel." },
+    { "id": "yasumi", "word": "休[やす]み", "de": "der freie Tag; die Pause; die Ferien", "pos": "noun", "example": { "text": "あした は 休[やす]み です。", "de": "Morgen habe ich frei." } },
+    { "id": "yasumimasu", "word": "休[やす]み ます", "de": "sich ausruhen; frei nehmen; fehlen", "pos": "verb", "forms": "やすみます, やすみません", "example": { "text": "日[にち]曜日[ようび] は うち で 休[やす]み ます。", "de": "Am Sonntag ruhe ich mich zu Hause aus." } },
+    { "id": "itsumo", "word": "いつも", "de": "immer", "pos": "adv", "example": { "text": "いつも 電車[でんしゃ] で 本[ほん] を 読[よ]み ます。", "de": "Im Zug lese ich immer." } },
+    { "id": "yoku", "word": "よく", "de": "oft; gut", "pos": "adv", "example": { "text": "よく 公園[こうえん] で さんぽ を し ます。", "de": "Ich gehe oft im Park spazieren." } },
+    { "id": "tokidoki", "word": "ときどき", "de": "manchmal", "pos": "adv", "example": { "text": "ときどき 料理[りょうり] を し ます。", "de": "Ich koche manchmal." }, "note": "Kanji: 時々." },
+    { "id": "amari", "word": "あまり", "de": "nicht besonders; nicht oft (mit Verneinung)", "pos": "adv", "example": { "text": "あまり テレビ を 見[み] ません。", "de": "Ich sehe nicht oft fern." }, "note": "Steht immer mit einer Verneinung." },
+    { "id": "zenzen", "word": "ぜんぜん", "de": "überhaupt nicht; gar nicht (mit Verneinung)", "pos": "adv", "example": { "text": "ぜんぜん ゲーム を し ません。", "de": "Ich spiele überhaupt keine Videospiele." }, "note": "Steht mit einer Verneinung." },
+    { "id": "de", "word": "で", "de": "in; an; bei (Ort einer Handlung)", "pos": "particle", "example": { "text": "うち で 映画[えいが] を 見[み] ます。", "de": "Ich schaue zu Hause einen Film." }, "note": "に zeigt das Ziel (こうえんに いきます), で den Ort, an dem etwas passiert (こうえんで さんぽを します). In Lektion 10 bekommt で noch eine zweite Aufgabe." }
+  ],
+  "grammar": [
+    {
+      "id": "suki-kirai",
+      "title": "Vorlieben: 〜が すきです / きらいです",
+      "blocks": [
+        { "type": "p", "text": "Was du magst, sagst du mit すき (mögen). Das ist ein な-Adjektiv wie in Lektion 8. Das, was du magst, bekommt die Partikel が: Person は – Sache が – すきです." },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["私[わたし] は 音楽[おんがく] が 好[す]き です。", "Ich mag Musik."], ["けん さん は サッカー が 大好[だいす]き です。", "Ken liebt Fußball."], ["アンナ さん は ゲーム が きらい です。", "Anna mag keine Videospiele."], ["私[わたし] は スポーツ が 好[す]き じゃ ありません。", "Ich mag Sport nicht so gern."]] },
+        { "type": "tip", "text": "Hier steht が, nicht を! Wörtlich heißt おんがくが すきです etwa „Musik ist (mir) lieb“." },
+        { "type": "tip", "text": "きらいです klingt sehr direkt, fast wie „hassen“. Höflicher ist すきじゃ ありません. Verstärken kannst du mit だいすき (sehr gern) und だいきらい (gar nicht ausstehen können)." },
+        { "type": "p", "text": "Fragen: 〜が すきですか – Magst du …? Nach der Art fragst du mit どんな: どんな おんがくが すきですか. Mit すきな + Nomen fragst du nach dem Lieblingsding – das な kennst du von den な-Adjektiven: すきな スポーツは なんですか." },
+        { "type": "examples", "items": [{ "text": "テニス が 好[す]き です か。", "de": "Magst du Tennis?" }, { "text": "はい、 大好[だいす]き です。", "de": "Ja, sehr gern!" }, { "text": "どんな 映画[えいが] が 好[す]き です か。", "de": "Was für Filme magst du?" }, { "text": "好[す]き な スポーツ は 何[なん] です か。", "de": "Was ist dein Lieblingssport?" }, { "text": "しゅみ は 何[なん] です か。 料理[りょうり] です。", "de": "Was ist dein Hobby? – Kochen." }] },
+        { "type": "p", "text": "Genauso funktionieren じょうず (gut in etwas) und へた (schlecht in etwas): アンナさんは テニスが じょうずです – Anna spielt gut Tennis." },
+        { "type": "tip", "text": "Lobt dich jemand – にほんごが じょうずですね! –, antwortest du bescheiden: いいえ、まだまだです (Ach, noch lange nicht). Über dich selbst sagst du nie じょうず." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "私[わたし] は 音楽[おんがく] ___ 好[す]き です。", "answers": ["が"], "de": "Ich mag Musik." },
+        { "type": "cloze", "text": "けん さん は 料理[りょうり] が ___ です。", "answers": ["上手[じょうず]"], "de": "Ken kann gut kochen." },
+        { "type": "cloze", "text": "___ スポーツ は 何[なん] です か。", "answers": ["好[す]き な"], "de": "Was ist dein Lieblingssport?" },
+        { "type": "order", "de": "Magst du Fußball?", "answer": "サッカー が 好[す]き です か。", "distractors": ["を"] },
+        { "type": "translate", "de": "Ich mag Tennis sehr.", "answers": ["私[わたし] は テニス が 大好[だいす]き です。", "私[わたし] は テニス が とても 好[す]き です。", "テニス が 大好[だいす]き です。", "テニス が とても 好[す]き です。"] },
+        { "type": "translate", "de": "Ich mag keine Videospiele.", "answers": ["私[わたし] は ゲーム が 好[す]き じゃ ありません。", "私[わたし] は ゲーム が 好[す]き じゃ ない です。", "私[わたし] は ゲーム が 好[す]き では ありません。", "私[わたし] は ゲーム が きらい です。", "私[わたし] は ゲーム は 好[す]き じゃ ありません。", "私[わたし] は ゲーム は 好[す]き じゃ ない です。", "私[わたし] は ゲーム は 好[す]き では ありません。", "私[わたし] は ゲーム は きらい です。", "ゲーム が 好[す]き じゃ ありません。", "ゲーム が 好[す]き じゃ ない です。", "ゲーム が 好[す]き では ありません。", "ゲーム が きらい です。", "ゲーム は 好[す]き じゃ ありません。", "ゲーム は 好[す]き じゃ ない です。", "ゲーム は 好[す]き では ありません。", "ゲーム は きらい です。"] }
+      ]
+    },
+    {
+      "id": "wochentage",
+      "title": "Wochentage und 〜を します",
+      "blocks": [
+        { "type": "p", "text": "Alle Wochentage enden auf ようび (曜日, „Wochentag“). Vorne steht ein Kanji aus der Natur – für die Himmelskörper, die man früher kannte: Mond, Feuer (Mars), Wasser (Merkur), Holz (Jupiter), Metall (Venus), Erde (Saturn) und Sonne." },
+        { "type": "table", "head": ["Japanisch", "Kanji", "Deutsch"], "rows": [["月[げつ]曜日[ようび]", "Mond", "Montag"], ["火[か]曜日[ようび]", "Feuer", "Dienstag"], ["水[すい]曜日[ようび]", "Wasser", "Mittwoch"], ["木[もく]曜日[ようび]", "Baum, Holz", "Donnerstag"], ["金[きん]曜日[ようび]", "Gold, Metall", "Freitag"], ["土[ど]曜日[ようび]", "Erde", "Samstag"], ["日[にち]曜日[ようび]", "Sonne", "Sonntag"]] },
+        { "type": "tip", "text": "Wie im Deutschen: Montag ist der „Mond-Tag“, Sonntag der „Sonnen-Tag“. In Kalendern und auf Fahrplänen steht oft nur das erste Kanji: 月 火 水 木 金 土 日." },
+        { "type": "p", "text": "An einem Wochentag etwas tun: Wochentag + に – genau wie bei Uhrzeiten in Lektion 5. Fragen: なんようびですか (Welcher Tag ist …?) und なんようびに …ますか (An welchem Tag …?). Wenn der Tag das Thema ist, steht は: にちようびは やすみです." },
+        { "type": "examples", "items": [{ "text": "今日[きょう] は 何[なん]曜日[ようび] です か。", "de": "Welcher Wochentag ist heute?" }, { "text": "金[きん]曜日[ようび] です。", "de": "Freitag." }, { "text": "土[ど]曜日[ようび] に テニス を し ます。", "de": "Am Samstag spiele ich Tennis." }, { "text": "日[にち]曜日[ようび] は 休[やす]み です。", "de": "Sonntag habe ich frei." }] },
+        { "type": "p", "text": "Das Verb します (machen, tun) verbindest du mit vielen Nomen – meist mit を. So bekommst du ganz leicht viele neue Verben:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["テニス を し ます", "Tennis spielen"], ["サッカー を し ます", "Fußball spielen"], ["ゲーム を し ます", "Videospiele spielen"], ["料理[りょうり] を し ます", "kochen"], ["さんぽ を し ます", "spazieren gehen"], ["買[か]い物[もの] を し ます", "einkaufen"]] },
+        { "type": "tip", "text": "Ein Allzweckwort für „spielen“ gibt es nicht. Bei Sport und Spielen nimmt man します. Ein Instrument spielt man mit ひきます: ギターを ひきます." },
+        { "type": "p", "text": "Wo du etwas tust, markiert で: こうえんで さんぽを します. Nicht verwechseln: に steht beim Ziel (こうえんに いきます), で beim Ort einer Handlung. Mit wem? – mit と: ともだちと テニスを します." },
+        { "type": "examples", "items": [{ "text": "公園[こうえん] で さんぽ を し ます。", "de": "Ich gehe im Park spazieren." }, { "text": "うち で ゲーム を し ます。", "de": "Ich spiele zu Hause Videospiele." }, { "text": "友[とも]だち と 映画[えいが] を 見[み] ます。", "de": "Ich schaue mit Freunden einen Film." }, { "text": "しゅうまつ は 何[なに] を し ます か。", "de": "Was machst du am Wochenende?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "土[ど]曜日[ようび] ___ サッカー を し ます。", "answers": ["に"], "de": "Am Samstag spiele ich Fußball." },
+        { "type": "cloze", "text": "公園[こうえん] ___ テニス を し ます。", "answers": ["で"], "de": "Ich spiele im Park Tennis.", "hint": "Ort einer Handlung" },
+        { "type": "cloze", "text": "今日[きょう] は 何[なん]___ です か。", "answers": ["曜日[ようび]"], "de": "Welcher Wochentag ist heute?" },
+        { "type": "cloze", "text": "日[にち]曜日[ようび] に 料理[りょうり] ___ し ます。", "answers": ["を"], "de": "Am Sonntag koche ich." },
+        { "type": "match", "pairs": [["月[げつ]曜日[ようび]", "Montag"], ["火[か]曜日[ようび]", "Dienstag"], ["水[すい]曜日[ようび]", "Mittwoch"], ["木[もく]曜日[ようび]", "Donnerstag"], ["金[きん]曜日[ようび]", "Freitag"], ["土[ど]曜日[ようび]", "Samstag"]] },
+        { "type": "order", "de": "Was machst du am Wochenende?", "answer": "しゅうまつ は 何[なに] を し ます か。", "distractors": ["で"] },
+        { "type": "translate", "de": "Am Mittwoch gehe ich in die Bibliothek.", "answers": ["私[わたし] は 水[すい]曜日[ようび] に 図書館[としょかん] へ 行[い]き ます。", "私[わたし] は 水[すい]曜日[ようび] に 図書館[としょかん] に 行[い]き ます。", "私[わたし] は 水[すい]曜日[ようび] は 図書館[としょかん] へ 行[い]き ます。", "私[わたし] は 水[すい]曜日[ようび] は 図書館[としょかん] に 行[い]き ます。", "私[わたし] は 水[すい]曜日[ようび] には 図書館[としょかん] へ 行[い]き ます。", "私[わたし] は 水[すい]曜日[ようび] には 図書館[としょかん] に 行[い]き ます。", "水[すい]曜日[ようび] に 図書館[としょかん] へ 行[い]き ます。", "水[すい]曜日[ようび] に 図書館[としょかん] に 行[い]き ます。", "水[すい]曜日[ようび] は 図書館[としょかん] へ 行[い]き ます。", "水[すい]曜日[ようび] は 図書館[としょかん] に 行[い]き ます。", "水[すい]曜日[ようび] には 図書館[としょかん] へ 行[い]き ます。", "水[すい]曜日[ようび] には 図書館[としょかん] に 行[い]き ます。"] }
+      ]
+    },
+    {
+      "id": "haeufigkeit",
+      "title": "Wie oft? – いつも, よく, ときどき, あまり, ぜんぜん",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Wörtern sagst du, wie oft du etwas tust. Sie stehen meist vor dem Objekt oder direkt vor dem Verb." },
+        { "type": "table", "head": ["Wort", "Beispiel", "Deutsch"], "rows": [["いつも", "いつも 音楽[おんがく] を 聞[き]き ます。", "Ich höre immer Musik."], ["よく", "よく 映画[えいが] を 見[み] ます。", "Ich sehe oft Filme."], ["ときどき", "ときどき 料理[りょうり] を し ます。", "Ich koche manchmal."], ["あまり 〜ません", "あまり テレビ を 見[み] ません。", "Ich sehe nicht oft fern."], ["ぜんぜん 〜ません", "ぜんぜん ゲーム を し ません。", "Ich spiele überhaupt keine Videospiele."]] },
+        { "type": "tip", "text": "あまり und ぜんぜん stehen immer mit einer Verneinung (〜ません). あまり みません heißt „sehe kaum, nicht oft“, ぜんぜん みません „sehe überhaupt nie“." },
+        { "type": "tip", "text": "あまり passt auch zu Adjektiven aus Lektion 8: あまり たかくないです = nicht besonders teuer. あまり すきじゃ ありません (mag ich nicht besonders) ist eine höfliche Art, „nein“ zu sagen." },
+        { "type": "p", "text": "Gefragt wird mit よく …ますか (Machst du oft …?). In der Antwort wiederholst du das Verb – bejaht oder verneint." },
+        { "type": "examples", "items": [{ "text": "よく 本[ほん] を 読[よ]み ます か。", "de": "Liest du oft Bücher?" }, { "text": "はい、 よく 読[よ]み ます。", "de": "Ja, ich lese oft." }, { "text": "いいえ、 あまり 読[よ]み ません。", "de": "Nein, nicht so oft." }, { "text": "けん さん は 毎週[まいしゅう] およぎ ます。", "de": "Ken schwimmt jede Woche." }, { "text": "日[にち]曜日[ようび] は いつも 休[やす]み ます。", "de": "Sonntags ruhe ich mich immer aus." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あまり テレビ を 見[み] ___。", "answers": ["ません"], "de": "Ich sehe nicht oft fern." },
+        { "type": "cloze", "text": "___ 料理[りょうり] を し ません。", "answers": ["ぜんぜん"], "de": "Ich koche überhaupt nie." },
+        { "type": "cloze", "text": "___ 映画[えいが] を 見[み] ます か。", "answers": ["よく"], "de": "Siehst du oft Filme?" },
+        { "type": "order", "de": "Ich höre manchmal Musik.", "answer": "ときどき 音楽[おんがく] を 聞[き]き ます。", "distractors": ["ぜんぜん"] },
+        { "type": "translate", "de": "Ich lese nicht oft Bücher.", "answers": ["私[わたし] は あまり 本[ほん] を 読[よ]み ません。", "あまり 本[ほん] を 読[よ]み ません。", "私[わたし] は 本[ほん] を あまり 読[よ]み ません。", "私[わたし] は 本[ほん] は あまり 読[よ]み ません。", "本[ほん] を あまり 読[よ]み ません。", "本[ほん] は あまり 読[よ]み ません。"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["ぜんぜん 見[み] ません。", "ぜんぜん 見[み] ます。", "あまり 見[み] ます。"], "answer": 0, "explain": "ぜんぜん und あまり brauchen eine Verneinung: ぜんぜん みません = Ich sehe es mir überhaupt nie an." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "金[きん]曜日[ようび] の 夜[よる]",
+    "title_de": "Freitagabend",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 しゅみ は 何[なん] です か。", "de": "Anna, was ist dein Hobby?" },
+      { "speaker": "アンナ", "text": "テニス です。 スポーツ が 大好[だいす]き です。", "de": "Tennis. Ich liebe Sport." },
+      { "speaker": "けん", "text": "そう です か。 よく テニス を し ます か。", "de": "Ach so. Spielst du oft Tennis?" },
+      { "speaker": "アンナ", "text": "はい。 毎週[まいしゅう] 水[すい]曜日[ようび] と 土[ど]曜日[ようび] に し ます。 けん さん は？", "de": "Ja, jede Woche mittwochs und samstags. Und du, Ken?" },
+      { "speaker": "けん", "text": "私[わたし] は スポーツ は あまり し ません。 音楽[おんがく] が 好[す]き です。", "de": "Ich mache nicht so viel Sport. Ich mag Musik." },
+      { "speaker": "アンナ", "text": "どんな 音楽[おんがく] が 好[す]き です か。", "de": "Was für Musik magst du?" },
+      { "speaker": "けん", "text": "ジャズ が 好[す]き です。 ギター も 少[すこ]し ひき ます。", "de": "Ich mag Jazz. Ich spiele auch ein bisschen Gitarre." },
+      { "speaker": "アンナ", "text": "私[わたし] も 音楽[おんがく] は よく 聞[き]き ます。 でも、 ギター は ぜんぜん ひき ません。", "de": "Musik höre ich auch oft. Aber Gitarre spiele ich überhaupt nicht." },
+      { "speaker": "けん", "text": "アンナ さん、 金[きん]曜日[ようび] の 夜[よる] は ひま です か。", "de": "Anna, hast du Freitagabend Zeit?" },
+      { "speaker": "アンナ", "text": "金[きん]曜日[ようび] です か。 はい、 ひま です。", "de": "Freitag? Ja, da habe ich Zeit." },
+      { "speaker": "けん", "text": "駅[えき] の 近[ちか]く で ジャズ の コンサート が あります。 いっしょに 行[い]き ませんか。", "de": "In der Nähe vom Bahnhof gibt es ein Jazzkonzert. Wollen wir zusammen hingehen?" },
+      { "speaker": "アンナ", "text": "いい です ね。 行[い]き ます！", "de": "Gute Idee! Ich komme mit!" },
+      { "speaker": "けん", "text": "じゃあ、 金[きん]曜日[ようび] の 七時[しちじ] に 駅[えき] の 北口[きたぐち] で。", "de": "Dann Freitag um sieben am Nordausgang vom Bahnhof." },
+      { "speaker": "アンナ", "text": "わかり ました。 じゃあ、 また 金[きん]曜日[ようび] に！", "de": "Alles klar. Dann bis Freitag!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["音楽[おんがく]", "die Musik"], ["映画[えいが]", "der Film"], ["サッカー", "der Fußball"], ["料理[りょうり]", "das Kochen"], ["さんぽ", "der Spaziergang"]] },
+    { "type": "match", "pairs": [["いつも", "immer"], ["よく", "oft"], ["ときどき", "manchmal"], ["あまり", "nicht besonders oft"], ["ぜんぜん", "überhaupt nicht"]] },
+    { "type": "translate", "de": "Was ist dein Hobby?", "answers": ["ごしゅみ は 何[なん] です か。", "しゅみ は 何[なん] です か。"] },
+    { "type": "translate", "de": "Am Sonntag gehe ich im Park spazieren.", "answers": ["私[わたし] は 日[にち]曜日[ようび] に 公園[こうえん] で さんぽ を し ます。", "私[わたし] は 日[にち]曜日[ようび] に 公園[こうえん] で さんぽ し ます。", "私[わたし] は 日[にち]曜日[ようび] は 公園[こうえん] で さんぽ を し ます。", "私[わたし] は 日[にち]曜日[ようび] は 公園[こうえん] で さんぽ し ます。", "私[わたし] は 日[にち]曜日[ようび] には 公園[こうえん] で さんぽ を し ます。", "私[わたし] は 日[にち]曜日[ようび] には 公園[こうえん] で さんぽ し ます。", "日[にち]曜日[ようび] に 公園[こうえん] で さんぽ を し ます。", "日[にち]曜日[ようび] に 公園[こうえん] で さんぽ し ます。", "日[にち]曜日[ようび] は 公園[こうえん] で さんぽ を し ます。", "日[にち]曜日[ようび] は 公園[こうえん] で さんぽ し ます。", "日[にち]曜日[ようび] には 公園[こうえん] で さんぽ を し ます。", "日[にち]曜日[ようび] には 公園[こうえん] で さんぽ し ます。"] },
+    { "type": "translate", "de": "Ich mag Filme.", "answers": ["私[わたし] は 映画[えいが] が 好[す]き です。", "映画[えいが] が 好[す]き です。"] },
+    { "type": "order", "de": "Am Freitag spiele ich Videospiele.", "answer": "金[きん]曜日[ようび] に ゲーム を し ます。", "distractors": ["で"] },
+    { "type": "order", "de": "Ken spielt gut Fußball.", "answer": "けん さん は サッカー が 上手[じょうず] です。", "distractors": ["を"] },
+    { "type": "cloze", "text": "私[わたし] は 野球[やきゅう] が あまり 好[す]き じゃ ___。", "answers": ["ありません", "ない です"], "de": "Ich mag Baseball nicht besonders." },
+    { "type": "cloze", "text": "日[にち]曜日[ようび] は ___ です。 会社[かいしゃ] へ 行[い]き ません。", "answers": ["休[やす]み", "ひま"], "de": "Sonntag habe ich frei. Ich gehe nicht in die Firma." },
+    { "type": "choice", "prompt": "Jemand lobt dein Japanisch: にほんごが じょうずですね! Was antwortest du bescheiden?", "options": ["いいえ、 まだまだ です。", "はい、 上手[じょうず] です。", "はい、 大好[だいす]き です。"], "answer": 0, "explain": "Über sich selbst sagt man nicht じょうず. Bescheiden antwortet man: いいえ、まだまだです (Ach, noch lange nicht)." },
+    { "type": "listen", "text": "金[きん]曜日[ようび] の 夜[よる] は ひま です か。", "de": "Hast du Freitagabend Zeit?" },
+    { "type": "listen", "text": "私[わたし] は ぜんぜん テレビ を 見[み] ません。", "de": "Ich sehe überhaupt nicht fern." },
+    { "type": "listen", "text": "木[もく]曜日[ようび] に 友[とも]だち と テニス を し ます。", "de": "Am Donnerstag spiele ich mit einer Freundin Tennis." }
+  ]
+}

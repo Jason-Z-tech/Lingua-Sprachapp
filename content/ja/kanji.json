@@ -131,6 +131,353 @@
         { "word": "日本語[にほんご]", "de": "Japanisch (die Sprache)" },
         { "word": "ドイツ語[ご]", "de": "Deutsch (die Sprache)" },
         { "word": "英語[えいご]", "de": "Englisch" }
+      ] },
+    { "char": "父", "de": "Vater", "on": ["フ"], "kun": ["ちち"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-03",
+      "examples": [
+        { "word": "父[ちち]", "de": "(mein) Vater" },
+        { "word": "お父[とう]さん", "de": "Vater (von anderen); Papa" },
+        { "word": "父[ちち]の日[ひ]", "de": "der Vatertag" }
+      ] },
+    { "char": "母", "de": "Mutter", "on": ["ボ"], "kun": ["はは"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-03",
+      "examples": [
+        { "word": "母[はは]", "de": "(meine) Mutter" },
+        { "word": "お母[かあ]さん", "de": "Mutter (von anderen); Mama" },
+        { "word": "母[はは]の日[ひ]", "de": "der Muttertag" }
+      ] },
+    { "char": "子", "de": "Kind", "on": ["シ", "ス"], "kun": ["こ"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-03",
+      "examples": [
+        { "word": "子[こ]ども", "de": "das Kind" },
+        { "word": "女[おんな]の子[こ]", "de": "das Mädchen" },
+        { "word": "一人[ひとり]っ子[こ]", "de": "das Einzelkind" }
+      ] },
+    { "char": "女", "de": "Frau; weiblich", "on": ["ジョ", "ニョ", "ニョウ"], "kun": ["おんな", "め"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-03",
+      "examples": [
+        { "word": "女[おんな]の人[ひと]", "de": "die Frau" },
+        { "word": "女[おんな]の子[こ]", "de": "das Mädchen" },
+        { "word": "彼女[かのじょ]", "de": "sie; die Freundin (Partnerin)" }
+      ] },
+    { "char": "男", "de": "Mann; männlich", "on": ["ダン", "ナン"], "kun": ["おとこ"], "strokes": 7,
+      "level": "A1", "lesson": "ja-a1-03",
+      "examples": [
+        { "word": "男[おとこ]の人[ひと]", "de": "der Mann" },
+        { "word": "男[おとこ]の子[こ]", "de": "der Junge" },
+        { "word": "長男[ちょうなん]", "de": "der älteste Sohn" }
+      ] },
+    { "char": "食", "de": "essen; Essen", "on": ["ショク", "ジキ"], "kun": ["た.べる", "く.う", "く.らう"], "strokes": 9,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "食[た]べる", "de": "essen" },
+        { "word": "食[た]べ物[もの]", "de": "das Essen; die Speisen" },
+        { "word": "食事[しょくじ]", "de": "die Mahlzeit" }
+      ] },
+    { "char": "飲", "de": "trinken", "on": ["イン"], "kun": ["の.む"], "strokes": 12,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "飲[の]む", "de": "trinken" },
+        { "word": "飲[の]み物[もの]", "de": "das Getränk" },
+        { "word": "飲[の]み会[かい]", "de": "das gemeinsame Trinken (mit Kollegen oder Freunden)" }
+      ] },
+    { "char": "水", "de": "Wasser", "on": ["スイ"], "kun": ["みず"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "水[みず]", "de": "das Wasser" },
+        { "word": "お水[みず]", "de": "das Wasser (höflich)" },
+        { "word": "水曜日[すいようび]", "de": "der Mittwoch" }
+      ] },
+    { "char": "円", "de": "Yen; Kreis; rund", "on": ["エン"], "kun": ["まる.い"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "円[えん]", "de": "der Yen" },
+        { "word": "百[ひゃく]円[えん]", "de": "100 Yen" },
+        { "word": "千[せん]円[えん]", "de": "1.000 Yen" }
+      ] },
+    { "char": "百", "de": "hundert", "on": ["ヒャク", "ビャク"], "kun": ["もも"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "百[ひゃく]", "de": "hundert" },
+        { "word": "三[さん]百[びゃく]", "de": "dreihundert" },
+        { "word": "八[はっ]百[ぴゃく]", "de": "achthundert" }
+      ] },
+    { "char": "千", "de": "tausend", "on": ["セン"], "kun": ["ち"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "千[せん]", "de": "tausend" },
+        { "word": "三[さん]千[ぜん]", "de": "dreitausend" },
+        { "word": "千[せん]円[えん]", "de": "1.000 Yen" }
+      ] },
+    { "char": "万", "de": "zehntausend", "on": ["マン", "バン"], "kun": ["よろず"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-04",
+      "examples": [
+        { "word": "一[いち]万[まん]", "de": "zehntausend" },
+        { "word": "一[いち]万[まん]円[えん]", "de": "10.000 Yen" },
+        { "word": "万年筆[まんねんひつ]", "de": "der Füller" }
+      ] },
+    { "char": "時", "de": "Zeit; Stunde; … Uhr", "on": ["ジ"], "kun": ["とき"], "strokes": 10,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "何時[なんじ]", "de": "wie spät?" },
+        { "word": "時間[じかん]", "de": "die Zeit; die Stunde" },
+        { "word": "時計[とけい]", "de": "die Uhr" }
+      ] },
+    { "char": "分", "de": "Minute; Teil; teilen; verstehen", "on": ["フン", "ブン", "ブ"], "kun": ["わ.ける", "わ.かる", "わ.かれる"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "五[ご]分[ふん]", "de": "fünf Minuten" },
+        { "word": "半分[はんぶん]", "de": "die Hälfte" },
+        { "word": "分[わ]かる", "de": "verstehen" }
+      ] },
+    { "char": "半", "de": "halb; Hälfte", "on": ["ハン"], "kun": ["なか.ば"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "半[はん]", "de": "halb (… Uhr dreißig)" },
+        { "word": "七[しち]時[じ]半[はん]", "de": "halb acht (7:30 Uhr)" },
+        { "word": "半分[はんぶん]", "de": "die Hälfte" }
+      ] },
+    { "char": "午", "de": "Mittag", "on": ["ゴ"], "kun": ["うま"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "午前[ごぜん]", "de": "vormittags" },
+        { "word": "午後[ごご]", "de": "nachmittags" },
+        { "word": "正午[しょうご]", "de": "12 Uhr mittags" }
+      ] },
+    { "char": "後", "de": "nach; später; hinter", "on": ["ゴ", "コウ"], "kun": ["あと", "うし.ろ", "のち"], "strokes": 9,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "午後[ごご]", "de": "nachmittags" },
+        { "word": "後[あと]で", "de": "später" },
+        { "word": "後[うし]ろ", "de": "hinter; hinten" }
+      ] },
+    { "char": "毎", "de": "jede/r/s", "on": ["マイ"], "kun": ["ごと"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "毎日[まいにち]", "de": "jeden Tag" },
+        { "word": "毎朝[まいあさ]", "de": "jeden Morgen" },
+        { "word": "毎晩[まいばん]", "de": "jeden Abend" }
+      ] },
+    { "char": "今", "de": "jetzt", "on": ["コン", "キン"], "kun": ["いま"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-05",
+      "examples": [
+        { "word": "今[いま]", "de": "jetzt" },
+        { "word": "今日[きょう]", "de": "heute" },
+        { "word": "今晩[こんばん]", "de": "heute Abend" }
+      ] },
+    { "char": "上", "de": "oben; auf; hinauf", "on": ["ジョウ", "ショウ"], "kun": ["うえ", "うわ", "かみ", "あ.げる", "あ.がる", "のぼ.る"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "上[うえ]", "de": "oben; auf" },
+        { "word": "上手[じょうず]", "de": "geschickt; gut (in etwas)" },
+        { "word": "屋上[おくじょう]", "de": "das Dach (zum Betreten); die Dachterrasse" }
+      ] },
+    { "char": "下", "de": "unten; unter; hinab", "on": ["カ", "ゲ"], "kun": ["した", "しも", "もと", "さ.げる", "さ.がる", "くだ.る", "くだ.さる", "お.りる"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "下[した]", "de": "unten; unter" },
+        { "word": "地下鉄[ちかてつ]", "de": "die U-Bahn" },
+        { "word": "下手[へた]", "de": "ungeschickt; schlecht (in etwas)" }
+      ] },
+    { "char": "中", "de": "Mitte; innen; in", "on": ["チュウ"], "kun": ["なか"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "中[なか]", "de": "in; innen" },
+        { "word": "中国[ちゅうごく]", "de": "China (wörtlich: Land der Mitte)" },
+        { "word": "中学生[ちゅうがくせい]", "de": "Mittelschüler/in" }
+      ] },
+    { "char": "外", "de": "außen; draußen; fremd", "on": ["ガイ", "ゲ"], "kun": ["そと", "ほか", "はず.す", "はず.れる"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "外[そと]", "de": "draußen; außen" },
+        { "word": "外国[がいこく]", "de": "das Ausland" },
+        { "word": "外国人[がいこくじん]", "de": "Ausländer/in" }
+      ] },
+    { "char": "右", "de": "rechts", "on": ["ウ", "ユウ"], "kun": ["みぎ"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "右[みぎ]", "de": "rechts" },
+        { "word": "右手[みぎて]", "de": "die rechte Hand" },
+        { "word": "右側[みぎがわ]", "de": "die rechte Seite" }
+      ] },
+    { "char": "左", "de": "links", "on": ["サ", "シャ"], "kun": ["ひだり"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-06",
+      "examples": [
+        { "word": "左[ひだり]", "de": "links" },
+        { "word": "左手[ひだりて]", "de": "die linke Hand" },
+        { "word": "左側[ひだりがわ]", "de": "die linke Seite" }
+      ] },
+    { "char": "行", "de": "gehen; durchführen; Zeile", "on": ["コウ", "ギョウ", "アン"], "kun": ["い.く", "ゆ.く", "おこな.う"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "行[い]く", "de": "gehen; fahren" },
+        { "word": "銀行[ぎんこう]", "de": "die Bank" },
+        { "word": "旅行[りょこう]", "de": "die Reise" }
+      ] },
+    { "char": "来", "de": "kommen; nächste/r (Woche, Jahr …)", "on": ["ライ"], "kun": ["く.る", "きた.る", "きた.す"], "strokes": 7,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "来[く]る", "de": "kommen" },
+        { "word": "来年[らいねん]", "de": "nächstes Jahr" },
+        { "word": "来週[らいしゅう]", "de": "nächste Woche" }
+      ] },
+    { "char": "出", "de": "hinausgehen; herausnehmen", "on": ["シュツ", "スイ"], "kun": ["で.る", "だ.す"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "出口[でぐち]", "de": "der Ausgang" },
+        { "word": "出[で]る", "de": "hinausgehen; verlassen" },
+        { "word": "出身[しゅっしん]", "de": "die Herkunft" }
+      ] },
+    { "char": "入", "de": "hineingehen; hineintun", "on": ["ニュウ"], "kun": ["い.る", "い.れる", "はい.る"], "strokes": 2,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "入口[いりぐち]", "de": "der Eingang" },
+        { "word": "入[はい]る", "de": "hineingehen; betreten" },
+        { "word": "入学[にゅうがく]", "de": "der Eintritt in eine Schule oder Uni" }
+      ] },
+    { "char": "口", "de": "Mund; Öffnung", "on": ["コウ", "ク"], "kun": ["くち"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "口[くち]", "de": "der Mund" },
+        { "word": "入口[いりぐち]", "de": "der Eingang" },
+        { "word": "人口[じんこう]", "de": "die Einwohnerzahl" }
+      ] },
+    { "char": "駅", "de": "Bahnhof; Station", "on": ["エキ"], "kun": [], "strokes": 14,
+      "level": "A1", "lesson": "ja-a1-07",
+      "examples": [
+        { "word": "駅[えき]", "de": "der Bahnhof; die Station" },
+        { "word": "駅員[えきいん]", "de": "Bahnhofsangestellte/r" },
+        { "word": "駅前[えきまえ]", "de": "vor dem Bahnhof; der Bahnhofsvorplatz" }
+      ] },
+    { "char": "大", "de": "groß", "on": ["ダイ", "タイ"], "kun": ["おお", "おお.きい", "おお.いに"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "大[おお]きい", "de": "groß" },
+        { "word": "大学[だいがく]", "de": "die Universität" },
+        { "word": "大好[だいす]き", "de": "sehr gern mögen" }
+      ] },
+    { "char": "小", "de": "klein", "on": ["ショウ"], "kun": ["ちい.さい", "こ", "お"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "小[ちい]さい", "de": "klein" },
+        { "word": "小学校[しょうがっこう]", "de": "die Grundschule" },
+        { "word": "小学生[しょうがくせい]", "de": "Grundschüler/in" }
+      ] },
+    { "char": "高", "de": "hoch; teuer", "on": ["コウ"], "kun": ["たか", "たか.い"], "strokes": 10,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "高[たか]い", "de": "teuer; hoch" },
+        { "word": "高校[こうこう]", "de": "die Oberschule" },
+        { "word": "高校生[こうこうせい]", "de": "Oberschüler/in" }
+      ] },
+    { "char": "安", "de": "billig; ruhig; sicher", "on": ["アン"], "kun": ["やす", "やす.い"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "安[やす]い", "de": "billig; günstig" },
+        { "word": "安心[あんしん]", "de": "die Erleichterung; beruhigt sein" }
+      ] },
+    { "char": "新", "de": "neu", "on": ["シン"], "kun": ["あたら.しい", "あら.た", "にい"], "strokes": 13,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "新[あたら]しい", "de": "neu" },
+        { "word": "新聞[しんぶん]", "de": "die Zeitung" },
+        { "word": "新幹線[しんかんせん]", "de": "der Shinkansen" }
+      ] },
+    { "char": "古", "de": "alt (bei Dingen)", "on": ["コ"], "kun": ["ふる", "ふる.い"], "strokes": 5,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "古[ふる]い", "de": "alt (bei Dingen)" },
+        { "word": "中古[ちゅうこ]", "de": "gebraucht; aus zweiter Hand" }
+      ] },
+    { "char": "長", "de": "lang; Leiter/in", "on": ["チョウ"], "kun": ["なが", "なが.い"], "strokes": 8,
+      "level": "A1", "lesson": "ja-a1-08",
+      "examples": [
+        { "word": "長[なが]い", "de": "lang" },
+        { "word": "社長[しゃちょう]", "de": "Firmenchef/in" },
+        { "word": "校長[こうちょう]", "de": "Schulleiter/in" }
+      ] },
+    { "char": "月", "de": "Mond; Monat", "on": ["ゲツ", "ガツ"], "kun": ["つき"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "月曜日[げつようび]", "de": "der Montag" },
+        { "word": "一月[いちがつ]", "de": "der Januar" },
+        { "word": "月[つき]", "de": "der Mond" }
+      ] },
+    { "char": "火", "de": "Feuer", "on": ["カ"], "kun": ["ひ", "ほ"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "火曜日[かようび]", "de": "der Dienstag" },
+        { "word": "火[ひ]", "de": "das Feuer" },
+        { "word": "花火[はなび]", "de": "das Feuerwerk" }
+      ] },
+    { "char": "木", "de": "Baum; Holz", "on": ["ボク", "モク"], "kun": ["き", "こ"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "木曜日[もくようび]", "de": "der Donnerstag" },
+        { "word": "木[き]", "de": "der Baum" }
+      ] },
+    { "char": "金", "de": "Gold; Geld; Metall", "on": ["キン", "コン"], "kun": ["かね", "かな"], "strokes": 8,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "金曜日[きんようび]", "de": "der Freitag" },
+        { "word": "お金[かね]", "de": "das Geld" },
+        { "word": "金[きん]", "de": "das Gold" }
+      ] },
+    { "char": "土", "de": "Erde; Boden", "on": ["ド", "ト"], "kun": ["つち"], "strokes": 3,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "土曜日[どようび]", "de": "der Samstag" },
+        { "word": "土[つち]", "de": "die Erde; der Boden" },
+        { "word": "お土産[みやげ]", "de": "das Mitbringsel (von einer Reise)" }
+      ] },
+    { "char": "休", "de": "ausruhen; Pause", "on": ["キュウ"], "kun": ["やす.む", "やす.まる", "やす.める"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-09",
+      "examples": [
+        { "word": "休[やす]み", "de": "der freie Tag; die Pause" },
+        { "word": "休[やす]む", "de": "sich ausruhen; fehlen" },
+        { "word": "夏休[なつやす]み", "de": "die Sommerferien" }
+      ] },
+    { "char": "年", "de": "Jahr; Alter", "on": ["ネン"], "kun": ["とし"], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "去年[きょねん]", "de": "letztes Jahr" },
+        { "word": "来年[らいねん]", "de": "nächstes Jahr" },
+        { "word": "今年[ことし]", "de": "dieses Jahr" }
+      ] },
+    { "char": "何", "de": "was?", "on": ["カ"], "kun": ["なに", "なん"], "strokes": 7,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "何[なに]", "de": "was?" },
+        { "word": "何時[なんじ]", "de": "wie viel Uhr?" },
+        { "word": "何曜日[なんようび]", "de": "welcher Wochentag?" }
+      ] },
+    { "char": "車", "de": "Wagen; Auto; Fahrzeug", "on": ["シャ"], "kun": ["くるま"], "strokes": 7,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "車[くるま]", "de": "das Auto" },
+        { "word": "電車[でんしゃ]", "de": "der Zug" },
+        { "word": "自転車[じてんしゃ]", "de": "das Fahrrad" }
+      ] },
+    { "char": "電", "de": "Elektrizität; Blitz", "on": ["デン"], "kun": [], "strokes": 13,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "電車[でんしゃ]", "de": "der Zug" },
+        { "word": "電話[でんわ]", "de": "das Telefon" },
+        { "word": "電気[でんき]", "de": "der Strom; das Licht" }
+      ] },
+    { "char": "気", "de": "Geist; Energie; Stimmung; Luft", "on": ["キ", "ケ"], "kun": [], "strokes": 6,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "天気[てんき]", "de": "das Wetter" },
+        { "word": "元気[げんき]", "de": "gesund; munter" },
+        { "word": "電気[でんき]", "de": "der Strom; das Licht" }
+      ] },
+    { "char": "天", "de": "Himmel", "on": ["テン"], "kun": ["あめ", "あま"], "strokes": 4,
+      "level": "A1", "lesson": "ja-a1-10",
+      "examples": [
+        { "word": "天気[てんき]", "de": "das Wetter" },
+        { "word": "天[てん]ぷら", "de": "Tempura (frittiertes Gemüse oder Fisch)" },
+        { "word": "天国[てんごく]", "de": "das Paradies; der Himmel" }
       ] }
   ]
 }

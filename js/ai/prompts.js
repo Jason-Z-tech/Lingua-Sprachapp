@@ -28,6 +28,9 @@ export const CHAT_SCHEMA = obj({
 });
 
 export const EXPLAIN_SCHEMA = obj({
+  de: str,
+  lemma: str,
+  pos: { type: 'string', enum: POS_VALUES },
   explanation_de: str,
   examples: { type: 'array', items: obj({ text: str, de: str }) },
 });
@@ -173,9 +176,11 @@ export function explainRequest({ lang, langName, word, lemma, sentence, sentence
   return {
     system: [
       `Du erklärst Deutschsprachigen einzelne Wörter auf ${langName}, kurz und verständlich.`,
+      `"de": die deutsche Bedeutung in diesem Satz, kurz wie im Wörterbuch (1–4 Wörter, z. B. "frisch" oder "sich setzen").`,
+      `"lemma": die Grundform (Wörterbuchform) des Wortes${lang === 'ja' ? ' in der unten beschriebenen Schreibweise' : ''}; "pos": die Wortart.`,
       `"explanation_de": 2–3 Sätze auf Deutsch: Bedeutung im gegebenen Satz, Grundform, wichtige Besonderheiten (Genus, unregelmäßige Formen, Höflichkeit, typische Verwechslungen).`,
       `"examples": 2 kurze, einfache Beispielsätze (${(LEVEL_INFO[level] || LEVEL_INFO.A1).label}) mit deutscher Übersetzung.`,
-      lang === 'ja' ? japaneseNotation().replace('Glossar-Einträge', 'examples.text') : '',
+      lang === 'ja' ? japaneseNotation().replace('Glossar-Einträge', 'lemma, examples.text') : '',
     ]
       .filter(Boolean)
       .join('\n'),

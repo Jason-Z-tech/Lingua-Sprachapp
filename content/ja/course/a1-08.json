@@ -1,0 +1,165 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a1-08",
+  "lang": "ja",
+  "level": "A1",
+  "number": 8,
+  "title": "買[か]い物[もの]",
+  "title_de": "Einkaufen",
+  "topic": "Lebensmittel, Preise und Kleidung",
+  "goals": [
+    "Du kannst Dinge mit い-Adjektiven (たかい, やすい, おおきい …) und な-Adjektiven (きれい, べんり) beschreiben.",
+    "Du kannst Adjektive verneinen: たかくないです, きれいじゃ ありません.",
+    "Du kannst Adjektive vor ein Nomen stellen und Farben nennen: あかい シャツ, きれいな みせ.",
+    "Du kannst im Geschäft nach Preisen fragen und etwas kaufen: この シャツは いくらですか – これを ください."
+  ],
+  "kanji": ["大", "小", "高", "安", "新", "古", "長"],
+  "vocab": [
+    { "id": "ookii", "word": "大[おお]きい", "de": "groß", "pos": "adj", "forms": "おおきいです, おおきくないです", "example": { "text": "この かばん は 大[おお]きい です。", "de": "Diese Tasche ist groß." } },
+    { "id": "chiisai", "word": "小[ちい]さい", "de": "klein", "pos": "adj", "forms": "ちいさいです, ちいさくないです", "example": { "text": "その シャツ は 小[ちい]さい です。", "de": "Das Hemd ist klein." } },
+    { "id": "takai", "word": "高[たか]い", "de": "teuer; hoch", "pos": "adj", "forms": "たかいです, たかくないです", "example": { "text": "デパート の 服[ふく] は 高[たか]い です。", "de": "Die Kleidung im Kaufhaus ist teuer." }, "note": "Auch für Berge und Gebäude: たかい やま = ein hoher Berg." },
+    { "id": "yasui", "word": "安[やす]い", "de": "billig; günstig", "pos": "adj", "forms": "やすいです, やすくないです", "example": { "text": "この 店[みせ] は 安[やす]い です。", "de": "Dieser Laden ist günstig." } },
+    { "id": "atarashii", "word": "新[あたら]しい", "de": "neu", "pos": "adj", "forms": "あたらしいです, あたらしくないです", "example": { "text": "新[あたら]しい くつ を 買[か]い ます。", "de": "Ich kaufe neue Schuhe." } },
+    { "id": "furui", "word": "古[ふる]い", "de": "alt (bei Dingen)", "pos": "adj", "forms": "ふるいです, ふるくないです", "example": { "text": "私[わたし] の かさ は 古[ふる]い です。", "de": "Mein Regenschirm ist alt." }, "note": "Nur für Dinge, nicht für Menschen!" },
+    { "id": "nagai", "word": "長[なが]い", "de": "lang", "pos": "adj", "forms": "ながいです, ながくないです", "example": { "text": "この スカート は 長[なが]い です。", "de": "Dieser Rock ist lang." } },
+    { "id": "mijikai", "word": "短[みじか]い", "de": "kurz", "pos": "adj", "forms": "みじかいです, みじかくないです", "example": { "text": "その ズボン は ちょっと 短[みじか]い です。", "de": "Die Hose ist ein bisschen kurz." } },
+    { "id": "ii", "word": "いい", "de": "gut", "pos": "adj", "forms": "いいです, よくないです", "example": { "text": "この 色[いろ] は いい です。", "de": "Diese Farbe ist gut." }, "note": "Ausnahme: Verneint heißt es よくないです – nicht いくないです." },
+    { "id": "kawaii", "word": "かわいい", "de": "süß; niedlich", "pos": "adj", "example": { "text": "この ぼうし は かわいい です。", "de": "Diese Mütze ist süß." } },
+    { "id": "akai", "word": "赤[あか]い", "de": "rot", "pos": "adj", "example": { "text": "赤[あか]い セーター を ください。", "de": "Den roten Pullover, bitte." } },
+    { "id": "aoi", "word": "青[あお]い", "de": "blau", "pos": "adj", "example": { "text": "青[あお]い シャツ は いくら です か。", "de": "Wie viel kostet das blaue Hemd?" }, "note": "Auch die grüne Ampel heißt あおしんごう – „blaue Ampel“." },
+    { "id": "shiroi", "word": "白[しろ]い", "de": "weiß", "pos": "adj", "example": { "text": "白[しろ]い くつ は 高[たか]くない です。", "de": "Die weißen Schuhe sind nicht teuer." } },
+    { "id": "kuroi", "word": "黒[くろ]い", "de": "schwarz", "pos": "adj", "example": { "text": "黒[くろ]い かばん を 見[み]せて ください。", "de": "Zeigen Sie mir bitte die schwarze Tasche." } },
+    { "id": "kiiroi", "word": "黄色[きいろ]い", "de": "gelb", "pos": "adj", "example": { "text": "あそこ に 黄色[きいろ]い かさ が あります。", "de": "Dort drüben ist ein gelber Regenschirm." } },
+    { "id": "iro", "word": "色[いろ]", "de": "die Farbe", "pos": "noun", "example": { "text": "この 色[いろ] は きれい です。", "de": "Diese Farbe ist schön." } },
+    { "id": "naniiro", "word": "何色[なにいろ]", "de": "welche Farbe?", "pos": "pron", "example": { "text": "その ぼうし は 何色[なにいろ] です か。", "de": "Welche Farbe hat die Mütze?" } },
+    { "id": "kirei", "word": "きれい", "de": "schön; sauber", "pos": "adj", "forms": "きれいです, きれいじゃ ありません", "example": { "text": "この 町[まち] は きれい です。", "de": "Diese Stadt ist schön." }, "note": "Endet auf い, ist aber ein な-Adjektiv! Vor einem Nomen: きれいな みせ." },
+    { "id": "benri", "word": "べんり", "de": "praktisch; bequem", "pos": "adj", "forms": "べんりです, べんりじゃ ありません", "example": { "text": "コンビニ は とても べんり です。", "de": "Konbinis sind sehr praktisch." }, "note": "な-Adjektiv: べんりな かばん = eine praktische Tasche." },
+    { "id": "yuumei", "word": "有名[ゆうめい]", "de": "berühmt; bekannt", "pos": "adj", "forms": "ゆうめいです, ゆうめいじゃ ありません", "example": { "text": "あの デパート は 有名[ゆうめい] です。", "de": "Das Kaufhaus dort ist berühmt." }, "note": "な-Adjektiv: ゆうめいな デパート." },
+    { "id": "daijoubu", "word": "大[だい]丈夫[じょうぶ]", "de": "in Ordnung; alles gut; nein danke", "pos": "adj", "example": { "text": "大[だい]丈夫[じょうぶ] です か。", "de": "Alles in Ordnung?" }, "note": "Im Laden heißt だいじょうぶです oft höflich „Nein danke, passt schon“ – etwa wenn man keine Tüte braucht." },
+    { "id": "mise", "word": "店[みせ]", "de": "das Geschäft; der Laden", "pos": "noun", "example": { "text": "あの 店[みせ] は 安[やす]くない です。", "de": "Der Laden dort ist nicht billig." } },
+    { "id": "depaato", "word": "デパート", "de": "das Kaufhaus", "pos": "noun", "example": { "text": "デパート は 駅[えき] の 前[まえ] に あります。", "de": "Das Kaufhaus ist vor dem Bahnhof." } },
+    { "id": "suupaa", "word": "スーパー", "de": "der Supermarkt", "pos": "noun", "example": { "text": "スーパー へ 買[か]い物[もの] に 行[い]き ます。", "de": "Ich gehe im Supermarkt einkaufen." } },
+    { "id": "kaimono", "word": "買[か]い物[もの]", "de": "das Einkaufen; der Einkauf", "pos": "noun", "example": { "text": "あした 買[か]い物[もの] に 行[い]き ます。", "de": "Morgen gehe ich einkaufen." }, "note": "かいものに いきます = einkaufen gehen." },
+    { "id": "kaimasu", "word": "買[か]い ます", "de": "kaufen", "pos": "verb", "forms": "かいます, かいません", "example": { "text": "新[あたら]しい 服[ふく] を 買[か]い ます。", "de": "Ich kaufe neue Kleidung." } },
+    { "id": "fuku", "word": "服[ふく]", "de": "die Kleidung", "pos": "noun", "example": { "text": "この 店[みせ] の 服[ふく] は かわいい です。", "de": "Die Kleidung in diesem Laden ist süß." } },
+    { "id": "shatsu", "word": "シャツ", "de": "das Hemd; das Shirt", "pos": "noun", "example": { "text": "この シャツ は いくら です か。", "de": "Wie viel kostet dieses Hemd?" } },
+    { "id": "seetaa", "word": "セーター", "de": "der Pullover", "pos": "noun", "example": { "text": "その セーター は 大[おお]きい です。", "de": "Der Pullover ist groß." } },
+    { "id": "sukaato", "word": "スカート", "de": "der Rock", "pos": "noun", "example": { "text": "白[しろ]い スカート を ください。", "de": "Den weißen Rock, bitte." } },
+    { "id": "zubon", "word": "ズボン", "de": "die Hose", "pos": "noun", "example": { "text": "黒[くろ]い ズボン を 買[か]い ます。", "de": "Ich kaufe eine schwarze Hose." } },
+    { "id": "kutsu", "word": "くつ", "de": "der Schuh; die Schuhe", "pos": "noun", "example": { "text": "この くつ は 小[ちい]さい です。", "de": "Diese Schuhe sind klein." }, "note": "Kanji: 靴. In japanischen Wohnungen zieht man die Schuhe am Eingang aus." },
+    { "id": "boushi", "word": "ぼうし", "de": "der Hut; die Mütze", "pos": "noun", "example": { "text": "赤[あか]い ぼうし は 二千円[にせんえん] です。", "de": "Die rote Mütze kostet 2000 Yen." } },
+    { "id": "kasa", "word": "かさ", "de": "der Regenschirm", "pos": "noun", "example": { "text": "コンビニ で かさ を 買[か]い ます。", "de": "Ich kaufe im Konbini einen Regenschirm." } },
+    { "id": "kudamono", "word": "くだもの", "de": "das Obst", "pos": "noun", "example": { "text": "日本[にほん] の くだもの は 高[たか]い です。", "de": "Obst ist in Japan teuer." }, "note": "Besonders schöne Früchte verschenkt man in Japan sogar – einzeln verpackt." },
+    { "id": "ringo", "word": "りんご", "de": "der Apfel", "pos": "noun", "example": { "text": "りんご を 三[みっ]つ ください。", "de": "Drei Äpfel, bitte." } },
+    { "id": "yasai", "word": "野菜[やさい]", "de": "das Gemüse", "pos": "noun", "example": { "text": "この 店[みせ] の 野菜[やさい] は 新[あたら]しい です。", "de": "Das Gemüse in diesem Laden ist frisch." }, "note": "Bei Lebensmitteln heißt あたらしい „frisch“." },
+    { "id": "sakana", "word": "魚[さかな]", "de": "der Fisch", "pos": "noun", "example": { "text": "スーパー の 魚[さかな] は 安[やす]い です。", "de": "Der Fisch im Supermarkt ist günstig." } },
+    { "id": "misete-kudasai", "word": "見[み]せて ください", "de": "Zeigen Sie mir bitte …", "pos": "phrase", "example": { "text": "すみません、 これ を 見[み]せて ください。", "de": "Entschuldigung, zeigen Sie mir bitte das." }, "note": "Eine 〜て ください-Bitte wie in Lektion 7. Was man sehen möchte, steht vor を." },
+    { "id": "kore-ni-shimasu", "word": "これ に し ます", "de": "Ich nehme das.; Das nehme ich.", "pos": "phrase", "example": { "text": "じゃあ、 これ に し ます。", "de": "Dann nehme ich das." }, "note": "Auch mit それ oder einem Nomen: あかい セーターに します = Ich nehme den roten Pullover." },
+    { "id": "totemo", "word": "とても", "de": "sehr", "pos": "adv", "example": { "text": "この セーター は とても 安[やす]い です。", "de": "Dieser Pullover ist sehr günstig." } },
+    { "id": "donna", "word": "どんな", "de": "was für ein …?; wie …?", "pos": "other", "example": { "text": "どんな 店[みせ] です か。", "de": "Was für ein Laden ist das?" }, "note": "Steht immer vor einem Nomen." }
+  ],
+  "grammar": [
+    {
+      "id": "i-adjektive",
+      "title": "い-Adjektive: たかいです – たかくないです",
+      "blocks": [
+        { "type": "p", "text": "Japanisch hat zwei Gruppen von Adjektiven. Die erste Gruppe endet immer auf -い: たかい (teuer), やすい (billig), おおきい (groß) … Für einen höflichen Satz hängst du einfach です an." },
+        { "type": "table", "head": ["Adjektiv", "bejaht", "verneint", "Deutsch"], "rows": [["高[たか]い", "高[たか]い です", "高[たか]くない です", "teuer – nicht teuer"], ["安[やす]い", "安[やす]い です", "安[やす]くない です", "billig – nicht billig"], ["大[おお]きい", "大[おお]きい です", "大[おお]きくない です", "groß – nicht groß"], ["小[ちい]さい", "小[ちい]さい です", "小[ちい]さくない です", "klein – nicht klein"], ["新[あたら]しい", "新[あたら]しい です", "新[あたら]しくない です", "neu – nicht neu"], ["古[ふる]い", "古[ふる]い です", "古[ふる]くない です", "alt – nicht alt"], ["長[なが]い", "長[なが]い です", "長[なが]くない です", "lang – nicht lang"], ["いい", "いい です", "よくない です", "gut – nicht gut"]] },
+        { "type": "p", "text": "So verneinst du: Das letzte い wird zu く, dann kommt ない です. たかい → たかく → たかくない です. Wichtig: nicht じゃ ありません – das gilt nur für Nomen und な-Adjektive!" },
+        { "type": "tip", "text": "Die einzige Ausnahme ist いい (gut). Verneint heißt es よくない です. Dahinter steckt die ältere Form よい." },
+        { "type": "tip", "text": "Es gibt noch eine höflichere Verneinung: たかく ありません. Beide Formen sind richtig – たかくないです hörst du im Alltag öfter." },
+        { "type": "examples", "items": [{ "text": "この シャツ は 高[たか]い です。", "de": "Dieses Hemd ist teuer." }, { "text": "あの 店[みせ] は 安[やす]くない です。", "de": "Der Laden dort ist nicht billig." }, { "text": "その くつ は 新[あたら]しい です か。", "de": "Sind die Schuhe neu?" }, { "text": "いいえ、 新[あたら]しくない です。 古[ふる]い です。", "de": "Nein, die sind nicht neu. Sie sind alt." }, { "text": "この 色[いろ] は よくない です。", "de": "Diese Farbe ist nicht gut." }] },
+        { "type": "tip", "text": "たかい heißt „teuer“ und „hoch“. Das Gegenteil von „teuer“ ist やすい, das Gegenteil von „hoch“ ist ひくい." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この かさ は 安[やす]___ です。", "answers": ["くない"], "de": "Dieser Regenschirm ist nicht billig." },
+        { "type": "cloze", "text": "この 服[ふく] は 高[たか]い です か。 いいえ、 ___ です。", "answers": ["高[たか]くない"], "de": "Ist diese Kleidung teuer? – Nein, sie ist nicht teuer." },
+        { "type": "cloze", "text": "その シャツ は ___ です。", "answers": ["よくない"], "de": "Das Hemd ist nicht gut.", "hint": "いい verneint" },
+        { "type": "order", "de": "Dieser Rock ist nicht lang.", "answer": "この スカート は 長[なが]くない です。", "distractors": ["じゃ"] },
+        { "type": "translate", "de": "Das Kaufhaus ist groß.", "answers": ["この デパート は 大[おお]きい です。", "その デパート は 大[おお]きい です。", "あの デパート は 大[おお]きい です。", "デパート は 大[おお]きい です。"] },
+        { "type": "translate", "de": "Meine Schuhe sind nicht neu.", "answers": ["私[わたし] の くつ は 新[あたら]しくない です。", "私[わたし] の くつ は 新[あたら]しく ありません。", "くつ は 新[あたら]しくない です。", "くつ は 新[あたら]しく ありません。"] },
+        { "type": "choice", "prompt": "Wie verneinst du やすいです richtig?", "options": ["安[やす]くない です。", "安[やす]い じゃ ありません。", "安[やす]い ません。"], "answer": 0, "explain": "Bei い-Adjektiven wird das letzte い zu く, dann kommt ないです: やすくないです. じゃ ありません gehört zu Nomen und な-Adjektiven." }
+      ]
+    },
+    {
+      "id": "na-adjektive",
+      "title": "な-Adjektive: きれいです – きれいじゃ ありません",
+      "blocks": [
+        { "type": "p", "text": "Die zweite Gruppe sind die な-Adjektive. Im Satz verhalten sie sich wie Nomen: Vor です steht einfach das Wort, und verneint wird mit じゃ ありません – genau wie bei がくせいです und がくせいじゃ ありません aus Lektion 1." },
+        { "type": "table", "head": ["Adjektiv", "bejaht", "verneint", "Deutsch"], "rows": [["きれい", "きれい です", "きれい じゃ ありません", "schön; sauber"], ["べんり", "べんり です", "べんり じゃ ありません", "praktisch"], ["有名[ゆうめい]", "有名[ゆうめい] です", "有名[ゆうめい] じゃ ありません", "berühmt"], ["大[だい]丈夫[じょうぶ]", "大[だい]丈夫[じょうぶ] です", "大[だい]丈夫[じょうぶ] じゃ ありません", "in Ordnung"]] },
+        { "type": "tip", "text": "Vorsicht, Falle: きれい endet auf い, ist aber ein な-Adjektiv! Also きれいじゃ ありません – nie きれくないです. Auch ゆうめい gehört in diese Gruppe." },
+        { "type": "tip", "text": "Statt じゃ ありません hörst du auch じゃ ないです (lockerer) und では ありません (förmlicher) – genau wie bei den Nomen." },
+        { "type": "p", "text": "Fragen stellst du wie immer mit か. Mit とても (sehr) verstärkst du ein Adjektiv – egal aus welcher Gruppe." },
+        { "type": "examples", "items": [{ "text": "コンビニ は とても べんり です。", "de": "Konbinis sind sehr praktisch." }, { "text": "あの 店[みせ] は 有名[ゆうめい] です か。", "de": "Ist der Laden dort bekannt?" }, { "text": "いいえ、 有名[ゆうめい] じゃ ありません。", "de": "Nein, der ist nicht bekannt." }, { "text": "この 公園[こうえん] は きれい じゃ ありません。", "de": "Dieser Park ist nicht schön." }, { "text": "大[だい]丈夫[じょうぶ] です か。 はい、 大[だい]丈夫[じょうぶ] です。", "de": "Alles in Ordnung? – Ja, alles gut." }] },
+        { "type": "tip", "text": "だいじょうぶです ist im Laden sehr praktisch: Wenn dir das Personal etwas anbietet – eine Tüte, Hilfe, eine andere Größe – heißt es höflich „Nein danke, passt schon“." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この 店[みせ] は きれい ___ ありません。", "answers": ["じゃ", "では"], "de": "Dieser Laden ist nicht sauber." },
+        { "type": "cloze", "text": "コンビニ は ___ べんり です。", "answers": ["とても"], "de": "Konbinis sind sehr praktisch." },
+        { "type": "cloze", "text": "あの 人[ひと] は 有名[ゆうめい] じゃ ___。", "answers": ["ありません", "ない です"], "de": "Die Person dort ist nicht berühmt." },
+        { "type": "order", "de": "Diese Tasche ist nicht praktisch.", "answer": "この かばん は べんり じゃ ありません。", "distractors": ["くない"] },
+        { "type": "translate", "de": "Der Park ist sehr schön.", "answers": ["この 公園[こうえん] は とても きれい です。", "その 公園[こうえん] は とても きれい です。", "あの 公園[こうえん] は とても きれい です。", "公園[こうえん] は とても きれい です。"] },
+        { "type": "choice", "prompt": "Welcher Satz bedeutet richtig „Das ist nicht schön.“?", "options": ["きれい じゃ ありません。", "きれくない です。", "きれい くない です。"], "answer": 0, "explain": "きれい ist ein な-Adjektiv – trotz des い am Ende. Deshalb verneint man mit じゃ ありません." }
+      ]
+    },
+    {
+      "id": "adjektiv-nomen",
+      "title": "Adjektiv + Nomen, Farben – und Sätze für den Laden",
+      "blocks": [
+        { "type": "p", "text": "Vor einem Nomen bleibt ein い-Adjektiv, wie es ist: たかい シャツ (ein teures Hemd). Beim な-Adjektiv kommt ein な dazwischen – daher der Name: きれいな みせ (ein schöner Laden)." },
+        { "type": "table", "head": ["Gruppe", "Adjektiv + Nomen", "Deutsch"], "rows": [["い", "高[たか]い シャツ", "ein teures Hemd"], ["い", "新[あたら]しい くつ", "neue Schuhe"], ["い", "小[ちい]さい かばん", "eine kleine Tasche"], ["な", "きれい な 店[みせ]", "ein schöner Laden"], ["な", "べんり な かさ", "ein praktischer Regenschirm"], ["な", "有名[ゆうめい] な デパート", "ein berühmtes Kaufhaus"]] },
+        { "type": "p", "text": "Farben: Die Grundfarben sind い-Adjektive: あかい (rot), あおい (blau), しろい (weiß), くろい (schwarz) und きいろい (gelb). Ohne い sind es Nomen: あか = die Farbe Rot. So antwortest du auf なにいろですか (Welche Farbe?)." },
+        { "type": "examples", "items": [{ "text": "赤[あか]い セーター を ください。", "de": "Den roten Pullover, bitte." }, { "text": "白[しろ]い くつ は あります か。", "de": "Haben Sie weiße Schuhe?" }, { "text": "黒[くろ]い かばん を 見[み]せて ください。", "de": "Zeigen Sie mir bitte die schwarze Tasche." }, { "text": "その ぼうし は 何色[なにいろ] です か。 赤[あか] です。", "de": "Welche Farbe hat die Mütze? – Rot." }] },
+        { "type": "tip", "text": "あおい ist mehr als nur Blau: Auch die grüne Ampel heißt あおしんごう, und frisches Grün – etwa junge Blätter – nennt man oft あおい." },
+        { "type": "p", "text": "Im Laden brauchst du vor allem diese Sätze. Einige kennst du schon aus Lektion 4:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["いらっしゃいませ。", "Willkommen! (sagt das Personal)"], ["これ を 見[み]せて ください。", "Zeigen Sie mir bitte das."], ["この シャツ は いくら です か。", "Wie viel kostet dieses Hemd?"], ["これ を ください。", "Das hier, bitte."], ["じゃあ、 これ に し ます。", "Dann nehme ich das."], ["全部[ぜんぶ] で いくら です か。", "Was macht das zusammen?"]] },
+        { "type": "tip", "text": "Wo du etwas kaufst, markiert で: スーパーで かいます (Ich kaufe im Supermarkt). In Lektion 9 lernst du mehr dazu." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あそこ は きれい ___ 店[みせ] です。", "answers": ["な"], "de": "Dort ist ein schöner Laden." },
+        { "type": "cloze", "text": "___ セーター を ください。", "answers": ["赤[あか]い"], "de": "Den roten Pullover, bitte." },
+        { "type": "cloze", "text": "白[しろ]い くつ を 見[み]せて ___。", "answers": ["ください"], "de": "Zeigen Sie mir bitte die weißen Schuhe." },
+        { "type": "cloze", "text": "この ズボン は ___ です か。", "answers": ["いくら"], "de": "Wie viel kostet diese Hose?" },
+        { "type": "order", "de": "Hier ist ein berühmtes Kaufhaus.", "answer": "ここ は 有名[ゆうめい] な デパート です。", "distractors": ["の"] },
+        { "type": "order", "de": "Ich kaufe eine neue Tasche.", "answer": "新[あたら]しい かばん を 買[か]い ます。", "distractors": ["な"] },
+        { "type": "translate", "de": "Zeigen Sie mir bitte den schwarzen Regenschirm.", "answers": ["すみません、 その 黒[くろ]い かさ を 見[み]せて ください。", "すみません、 あの 黒[くろ]い かさ を 見[み]せて ください。", "すみません、 黒[くろ]い かさ を 見[み]せて ください。", "その 黒[くろ]い かさ を 見[み]せて ください。", "あの 黒[くろ]い かさ を 見[み]せて ください。", "黒[くろ]い かさ を 見[み]せて ください。"] },
+        { "type": "match", "pairs": [["赤[あか]い", "rot"], ["青[あお]い", "blau"], ["白[しろ]い", "weiß"], ["黒[くろ]い", "schwarz"], ["黄色[きいろ]い", "gelb"]] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "デパート で",
+    "title_de": "Im Kaufhaus",
+    "lines": [
+      { "speaker": "てんいん", "text": "いらっしゃいませ。", "de": "Willkommen!" },
+      { "speaker": "アンナ", "text": "すみません、 あの 青[あお]い セーター を 見[み]せて ください。", "de": "Entschuldigung, zeigen Sie mir bitte den blauen Pullover dort." },
+      { "speaker": "てんいん", "text": "はい、 どうぞ。", "de": "Ja, bitte schön." },
+      { "speaker": "アンナ", "text": "うーん、 ちょっと 小[ちい]さい です。 大[おお]きい セーター は あります か。", "de": "Hm, der ist ein bisschen klein. Haben Sie auch einen großen Pullover?" },
+      { "speaker": "てんいん", "text": "はい、 こちら です。", "de": "Ja, hier, bitte." },
+      { "speaker": "アンナ", "text": "あ、 これ は いい です。 いくら です か。", "de": "Oh, der ist gut. Wie viel kostet er?" },
+      { "speaker": "てんいん", "text": "八千円[はっせんえん] です。", "de": "8000 Yen." },
+      { "speaker": "アンナ", "text": "八千円[はっせんえん] です か。 ちょっと 高[たか]い です。", "de": "8000 Yen? Das ist ein bisschen teuer." },
+      { "speaker": "てんいん", "text": "この 白[しろ]い セーター も 大[おお]きい です。 三千円[さんぜんえん] です。", "de": "Dieser weiße Pullover ist auch groß. Er kostet 3000 Yen." },
+      { "speaker": "アンナ", "text": "安[やす]い です。 きれい な 色[いろ] です。 じゃあ、 これ に し ます。", "de": "Der ist günstig. Und eine schöne Farbe. Dann nehme ich den." },
+      { "speaker": "アンナ", "text": "あ、 その 赤[あか]い ぼうし も ください。 全部[ぜんぶ] で いくら です か。", "de": "Ach, und die rote Mütze da auch, bitte. Was macht das zusammen?" },
+      { "speaker": "てんいん", "text": "全部[ぜんぶ] で 四千五百円[よんせんごひゃくえん] です。", "de": "Zusammen 4500 Yen." },
+      { "speaker": "てんいん", "text": "ふくろ は 大[だい]丈夫[じょうぶ] です か。", "de": "Ist es ohne Tüte in Ordnung?" },
+      { "speaker": "アンナ", "text": "はい、 大[だい]丈夫[じょうぶ] です。 ありがとうございます。", "de": "Ja, passt schon. Vielen Dank." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["大[おお]きい", "groß"], ["小[ちい]さい", "klein"], ["高[たか]い", "teuer"], ["安[やす]い", "billig"], ["新[あたら]しい", "neu"], ["古[ふる]い", "alt"]] },
+    { "type": "match", "pairs": [["シャツ", "das Hemd"], ["セーター", "der Pullover"], ["スカート", "der Rock"], ["ズボン", "die Hose"], ["くつ", "die Schuhe"], ["ぼうし", "die Mütze"]] },
+    { "type": "translate", "de": "Dieser Pullover ist nicht teuer.", "answers": ["この セーター は 高[たか]くない です。", "この セーター は 高[たか]く ありません。"] },
+    { "type": "translate", "de": "Konbinis sind praktisch.", "answers": ["コンビニ は べんり です。"] },
+    { "type": "translate", "de": "Den weißen Rock, bitte.", "answers": ["その 白[しろ]い スカート を ください。", "あの 白[しろ]い スカート を ください。", "白[しろ]い スカート を ください。", "白[しろ]い スカート、 ください。"] },
+    { "type": "translate", "de": "Was macht das zusammen?", "answers": ["全部[ぜんぶ] で いくら です か。"] },
+    { "type": "order", "de": "Ich kaufe neue Kleidung.", "answer": "新[あたら]しい 服[ふく] を 買[か]い ます。", "distractors": ["な"] },
+    { "type": "order", "de": "Das ist ein schöner Laden.", "answer": "きれい な 店[みせ] です。", "distractors": ["い"] },
+    { "type": "cloze", "text": "じゃあ、 これ ___ し ます。", "answers": ["に"], "de": "Dann nehme ich das." },
+    { "type": "choice", "prompt": "Die Verkäuferin bietet dir eine Tüte an. Du brauchst keine. Was sagst du?", "options": ["大[だい]丈夫[じょうぶ] です。", "いらっしゃいませ。", "これ を ください。"], "answer": 0, "explain": "だいじょうぶです heißt hier höflich „Nein danke, passt schon“. いらっしゃいませ sagt nur das Personal." },
+    { "type": "listen", "text": "この 赤[あか]い くつ は いくら です か。", "de": "Wie viel kosten diese roten Schuhe?" },
+    { "type": "listen", "text": "あの デパート は 有名[ゆうめい] じゃ ありません。", "de": "Das Kaufhaus dort ist nicht berühmt." },
+    { "type": "listen", "text": "小[ちい]さい りんご を 三[みっ]つ ください。", "de": "Drei kleine Äpfel, bitte." }
+  ]
+}

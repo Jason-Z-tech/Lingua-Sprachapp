@@ -1,0 +1,163 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a1-07",
+  "lang": "ja",
+  "level": "A1",
+  "number": 7,
+  "title": "駅[えき] は どこ です か。",
+  "title_de": "In der Stadt",
+  "topic": "Orte und nach dem Weg fragen",
+  "goals": [
+    "Du kannst sagen, wohin du gehst, kommst oder zurückkehrst: 〜へ/〜に いきます, きます, かえります.",
+    "Du kannst nach dem Weg fragen – 〜は どこですか, どうやって いきますか – und einfache Wegbeschreibungen verstehen.",
+    "Du kannst mit 〜て ください höflich bitten: まっすぐ いってください, みぎに まがってください, まってください.",
+    "Du kannst wichtige Orte in der Stadt nennen und Schilder wie 入口 (Eingang) und 出口 (Ausgang) lesen."
+  ],
+  "kanji": ["行", "来", "出", "入", "口", "駅"],
+  "vocab": [
+    { "id": "machi", "word": "町[まち]", "de": "die Stadt; das Viertel", "pos": "noun", "example": { "text": "この 町[まち] に 大学[だいがく] が あります。", "de": "In dieser Stadt gibt es eine Uni." }, "note": "まち passt für kleine und große Städte und auch für ein Stadtviertel." },
+    { "id": "eki", "word": "駅[えき]", "de": "der Bahnhof; die Station", "pos": "noun", "example": { "text": "すみません、 駅[えき] は どこ です か。", "de": "Entschuldigung, wo ist der Bahnhof?" }, "note": "Auch eine U-Bahn-Station heißt えき." },
+    { "id": "ekiin", "word": "駅員[えきいん]", "de": "Bahnhofsangestellte/r", "pos": "noun", "example": { "text": "あの 人[ひと] は 駅員[えきいん] です。", "de": "Die Person dort arbeitet am Bahnhof." }, "note": "いん steckt auch in かいしゃいん (Angestellte/r) – es bedeutet „Mitglied, Mitarbeiter“." },
+    { "id": "iriguchi", "word": "入口[いりぐち]", "alt": ["入[い]り口[ぐち]"], "de": "der Eingang", "pos": "noun", "example": { "text": "入口[いりぐち] は あそこ です。", "de": "Der Eingang ist dort drüben." }, "note": "Man schreibt auch 入り口. Wörtlich: „Hineingeh-Öffnung“." },
+    { "id": "deguchi", "word": "出口[でぐち]", "de": "der Ausgang", "pos": "noun", "example": { "text": "すみません、 出口[でぐち] は どこ です か。", "de": "Entschuldigung, wo ist der Ausgang?" } },
+    { "id": "guchi", "word": "〜口[ぐち]", "alt": ["口[ぐち]"], "de": "-ausgang; -eingang (z. B. am Bahnhof)", "pos": "other", "example": { "text": "北口[きたぐち] から 出[で]て ください。", "de": "Gehen Sie bitte am Nordausgang hinaus.", "focus": "口[ぐち]" }, "note": "Allein heißt 口 くち (Mund). In Wörtern wird daraus oft ぐち: にしぐち = Westausgang." },
+    { "id": "ginkou", "word": "銀[ぎん]行[こう]", "de": "die Bank (Geldinstitut)", "pos": "noun", "example": { "text": "あした 銀[ぎん]行[こう] へ 行[い]き ます。", "de": "Morgen gehe ich zur Bank." }, "note": "Das zweite Kanji kennst du jetzt: 行 (gehen). Hier liest man es こう." },
+    { "id": "yuubinkyoku", "word": "郵便局[ゆうびんきょく]", "de": "die Post (das Postamt)", "pos": "noun", "example": { "text": "郵便局[ゆうびんきょく] は 九時[くじ] から です。", "de": "Die Post öffnet um neun." } },
+    { "id": "byouin", "word": "病院[びょういん]", "de": "das Krankenhaus; die Klinik", "pos": "noun", "example": { "text": "病院[びょういん] は この 道[みち] の 右[みぎ] に あります。", "de": "Das Krankenhaus ist rechts an dieser Straße." }, "note": "Gut hinhören: びよういん (mit よ) ist der Friseursalon!" },
+    { "id": "toshokan", "word": "図書館[としょかん]", "de": "die Bibliothek; die Bücherei", "pos": "noun", "example": { "text": "毎日[まいにち] 図書館[としょかん] へ 行[い]き ます。", "de": "Ich gehe jeden Tag in die Bibliothek." } },
+    { "id": "kouen", "word": "公園[こうえん]", "de": "der Park", "pos": "noun", "example": { "text": "いっしょに 公園[こうえん] へ 行[い]き ませんか。", "de": "Wollen wir zusammen in den Park gehen?" } },
+    { "id": "konbini", "word": "コンビニ", "de": "der Konbini (kleiner 24-Stunden-Laden)", "pos": "noun", "example": { "text": "あそこ に コンビニ が あります。", "de": "Dort drüben ist ein Konbini." }, "note": "Kurz für コンビニエンスストア. In Japan gibt es sie fast an jeder Ecke – mit Essen, Getränken, Geldautomat und Kopierer." },
+    { "id": "kouban", "word": "交番[こうばん]", "de": "die kleine Polizeiwache", "pos": "noun", "example": { "text": "駅[えき] の 前[まえ] に 交番[こうばん] が あります。", "de": "Vor dem Bahnhof ist eine Polizeiwache." }, "note": "Hier helfen dir Polizisten auch gern, wenn du den Weg suchst." },
+    { "id": "daigaku", "word": "大学[だいがく]", "de": "die Universität", "pos": "noun", "example": { "text": "アンナ さん は 毎日[まいにち] 大学[だいがく] へ 行[い]き ます。", "de": "Anna geht jeden Tag an die Uni." }, "note": "Du kennst schon だいがくせい (Student/in) – das ist ein „Uni-Lernender“." },
+    { "id": "gakkou", "word": "学校[がっこう]", "de": "die Schule", "pos": "noun", "example": { "text": "子[こ]ども は 八時[はちじ] に 学校[がっこう] へ 行[い]き ます。", "de": "Die Kinder gehen um acht in die Schule." } },
+    { "id": "kaisha", "word": "会社[かいしゃ]", "de": "die Firma", "pos": "noun", "example": { "text": "けん さん は 七時[しちじ] に 会社[かいしゃ] へ 行[い]き ます。", "de": "Ken fährt um sieben in die Firma." }, "note": "かいしゃいん ist also ein „Firmen-Mitarbeiter“." },
+    { "id": "ikimasu", "word": "行[い]き ます", "de": "gehen; fahren (irgendwohin)", "pos": "verb", "forms": "いきます, いきません, いきませんか", "example": { "text": "どこ へ 行[い]き ます か。", "de": "Wohin gehst du?" }, "note": "Ob zu Fuß, mit dem Zug oder mit dem Auto – いきます passt immer. Wie man fährt, lernst du in Lektion 10." },
+    { "id": "demasu", "word": "出[で] ます", "de": "hinausgehen; verlassen; abfahren", "pos": "verb", "forms": "でます, でません", "example": { "text": "八時[はちじ] に うち を 出[で] ます。", "de": "Ich gehe um acht aus dem Haus." }, "note": "Den Ort, den man verlässt, markiert を: うちを でます." },
+    { "id": "hairimasu", "word": "入[はい]り ます", "de": "hineingehen; betreten", "pos": "verb", "forms": "はいります, はいりません", "example": { "text": "コンビニ に 入[はい]り ます。", "de": "Ich gehe in den Konbini." }, "note": "Wohin man hineingeht, markiert に. Bekannte Bitte: どうぞ、はいってください – Bitte, komm herein!" },
+    { "id": "magarimasu", "word": "まがり ます", "de": "abbiegen", "pos": "verb", "forms": "まがります, まがりません", "example": { "text": "あの かど を 左[ひだり] に まがり ます。", "de": "An der Ecke dort biege ich links ab." }, "note": "Wo man abbiegt, markiert を (かどを), in welche Richtung, markiert に (ひだりに)." },
+    { "id": "massugu", "word": "まっすぐ", "de": "geradeaus", "pos": "adv", "example": { "text": "この 道[みち] を まっすぐ 行[い]って ください。", "de": "Gehen Sie diese Straße geradeaus." } },
+    { "id": "michi", "word": "道[みち]", "de": "der Weg; die Straße", "pos": "noun", "example": { "text": "あの 道[みち] を 右[みぎ] に まがって ください。", "de": "Biegen Sie bitte rechts in die Straße dort ab." } },
+    { "id": "kado", "word": "かど", "de": "die Ecke (Straßenecke)", "pos": "noun", "example": { "text": "あの かど に 銀[ぎん]行[こう] が あります。", "de": "An der Ecke dort ist eine Bank." } },
+    { "id": "shingou", "word": "しんごう", "de": "die Ampel", "pos": "noun", "example": { "text": "次[つぎ] の しんごう を 左[ひだり] に まがって ください。", "de": "Biegen Sie an der nächsten Ampel links ab." }, "note": "Kanji: 信号. Die grüne Ampel heißt あおしんごう – „blaue Ampel“." },
+    { "id": "kousaten", "word": "こうさてん", "de": "die Kreuzung", "pos": "noun", "example": { "text": "こうさてん を まっすぐ 行[い]って ください。", "de": "Fahren Sie an der Kreuzung geradeaus." }, "note": "Kanji: 交差点." },
+    { "id": "tsugi", "word": "次[つぎ]", "de": "der/die/das Nächste", "pos": "noun", "example": { "text": "次[つぎ] の 駅[えき] は 東京[とうきょう] です。", "de": "Die nächste Station ist Tokio." }, "note": "Vor einem Nomen mit の: つぎの えき = die nächste Station." },
+    { "id": "me", "word": "〜目[め]", "alt": ["目[め]"], "de": "der/die/das …-te (Reihenfolge)", "pos": "counter", "example": { "text": "二[ふた]つ目[め] の しんごう を 右[みぎ] に まがって ください。", "de": "Biegen Sie an der zweiten Ampel rechts ab.", "focus": "目[め]" }, "note": "Mit ひとつ, ふたつ, みっつ …: ひとつめ = der/die erste, ふたつめ = der/die zweite, みっつめ = der/die dritte." },
+    { "id": "sugu", "word": "すぐ", "de": "gleich; sofort; ganz nah", "pos": "adv", "example": { "text": "駅[えき] は すぐ そこ です。", "de": "Der Bahnhof ist gleich da vorne." }, "note": "すぐ そこ = gleich da. すぐ いきます = Ich komme sofort." },
+    { "id": "dochira", "word": "どちら", "de": "wo? wohin? (höflich)", "pos": "pron", "example": { "text": "郵便局[ゆうびんきょく] は どちら です か。", "de": "Wo ist bitte die Post?" }, "note": "Höfliche Form von どこ. Wörtlich „welche Richtung?“." },
+    { "id": "douyatte", "word": "どうやって", "de": "wie? (auf welchem Weg, auf welche Art)", "pos": "adv", "example": { "text": "駅[えき] まで どうやって 行[い]き ます か。", "de": "Wie komme ich zum Bahnhof?" } },
+    { "id": "he", "word": "へ", "de": "nach; zu; in (Richtung)", "pos": "particle", "example": { "text": "あした 東京[とうきょう] へ 行[い]き ます。", "de": "Morgen fahre ich nach Tokio." }, "note": "Als Partikel spricht man へ wie え. Statt へ kann man fast immer auch に sagen." },
+    { "id": "matte-kudasai", "word": "まって ください", "de": "Warten Sie bitte; warte bitte", "pos": "phrase", "example": { "text": "すみません、 ちょっと まって ください。", "de": "Entschuldigung, einen Moment bitte." }, "note": "Von まちます (warten). ちょっと まってください = Einen Moment, bitte!" },
+    { "id": "biru", "word": "ビル", "de": "das (große) Gebäude; das Hochhaus", "pos": "noun", "example": { "text": "銀[ぎん]行[こう] は あの ビル の 中[なか] に あります。", "de": "Die Bank ist in dem Gebäude dort." }, "note": "Von englisch „building“. Gemeint sind größere Gebäude aus Beton – nicht ein Wohnhaus." },
+    { "id": "hashi", "word": "橋[はし]", "de": "die Brücke", "pos": "noun", "example": { "text": "橋[はし] の 右[みぎ] に 公園[こうえん] が あります。", "de": "Rechts von der Brücke ist ein Park." }, "note": "Nicht verwechseln: はし heißt auch „Essstäbchen“ – nur die Betonung ist anders." },
+    { "id": "eigakan", "word": "映画館[えいがかん]", "de": "das Kino", "pos": "noun", "example": { "text": "映画館[えいがかん] は デパート の 中[なか] に あります。", "de": "Das Kino ist im Kaufhaus." }, "note": "Wörtlich „Film-Gebäude“. かん steckt auch in としょかん (Bibliothek)." },
+    { "id": "chizu", "word": "地図[ちず]", "de": "der Stadtplan; die Landkarte", "pos": "noun", "example": { "text": "これ は 町[まち] の 地図[ちず] です。", "de": "Das ist ein Stadtplan." } }
+  ],
+  "grammar": [
+    {
+      "id": "iku-kuru-kaeru",
+      "title": "Wohin? – 〜へ/〜に いきます, きます, かえります",
+      "blocks": [
+        { "type": "p", "text": "Wenn du sagen willst, wohin du gehst, brauchst du drei Dinge: das Ziel, eine Partikel und ein Bewegungsverb. Die Partikel へ zeigt die Richtung – „nach, zu, in“. Statt へ kannst du fast immer auch に sagen. Beides ist richtig." },
+        { "type": "table", "head": ["Ziel + へ/に", "Verb", "Deutsch"], "rows": [["駅[えき] へ", "行[い]き ます。", "Ich gehe zum Bahnhof."], ["日本[にほん] に", "行[い]き ます。", "Ich fahre nach Japan."], ["うち へ", "帰[かえ]り ます。", "Ich gehe nach Hause."], ["私[わたし] の うち に", "来[き] ます か。", "Kommst du zu mir nach Hause?"]] },
+        { "type": "tip", "text": "Die Partikel へ schreibt man mit へ, spricht sie aber wie え – genau wie は (gesprochen わ) und を (gesprochen お)." },
+        { "type": "p", "text": "Drei Verben, drei Blickrichtungen: いきます heißt „(von hier weg) hingehen, hinfahren“. きます heißt „(hierher) kommen“. かえります (aus Lektion 5) heißt „zurück an den eigenen Ort“ – nach Hause, ins eigene Land, zurück zur eigenen Firma." },
+        { "type": "tip", "text": "Anders als im Deutschen benutzt man きます nur, wenn jemand dorthin kommt, wo der Sprecher gerade ist. „Ich komme morgen zu dir“ heißt deshalb あした いきます – du gehst ja von dir aus zu ihr oder ihm." },
+        { "type": "p", "text": "Fragen stellst du mit どこへ (wohin?). Verneint wird wie in Lektion 4 mit ません. „Nirgendwohin“ heißt どこへも – immer zusammen mit ません." },
+        { "type": "examples", "items": [{ "text": "どこ へ 行[い]き ます か。", "de": "Wohin gehst du?" }, { "text": "図書館[としょかん] へ 行[い]き ます。", "de": "Ich gehe in die Bibliothek." }, { "text": "あした は どこ へ も 行[い]き ません。", "de": "Morgen gehe ich nirgendwohin." }, { "text": "マイク さん は 来[き] ません。", "de": "Mike kommt nicht." }, { "text": "九時[くじ] に うち へ 帰[かえ]り ます。", "de": "Ich gehe um neun nach Hause." }, { "text": "いっしょに 公園[こうえん] へ 行[い]き ませんか。", "de": "Wollen wir zusammen in den Park gehen?" }] },
+        { "type": "p", "text": "Hinein und hinaus: はいります (hineingehen) und でます (hinausgehen, verlassen). Achte auf die Partikel: Wohin man hineingeht, markiert に. Den Ort, den man verlässt, markiert を." },
+        { "type": "examples", "items": [{ "text": "コンビニ に 入[はい]り ます。", "de": "Ich gehe in den Konbini." }, { "text": "七時[しちじ] に うち を 出[で] ます。", "de": "Ich gehe um sieben aus dem Haus." }] },
+        { "type": "tip", "text": "Die Zeit steht meist vor dem Ziel: あした ぎんこうへ いきます. Ganz streng ist die Reihenfolge nicht – nur das Verb muss am Ende stehen." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "あした 銀[ぎん]行[こう] ___ 行[い]き ます。", "answers": ["へ", "に"], "de": "Morgen gehe ich zur Bank.", "hint": "Partikel für die Richtung" },
+        { "type": "cloze", "text": "八時[はちじ] に うち ___ 出[で] ます。", "answers": ["を"], "de": "Ich gehe um acht aus dem Haus.", "hint": "den Ort, den man verlässt" },
+        { "type": "cloze", "text": "どこ へ ___ 行[い]き ません。", "answers": ["も"], "de": "Ich gehe nirgendwohin." },
+        { "type": "cloze", "text": "アンナ さん は 来年[らいねん] 日本[にほん] へ ___。", "answers": ["行[い]き ます"], "de": "Anna fährt nächstes Jahr nach Japan." },
+        { "type": "order", "de": "Wohin gehst du?", "answer": "どこ へ 行[い]き ます か。", "distractors": ["を"] },
+        { "type": "order", "de": "Ich gehe um neun nach Hause.", "answer": "九時[くじ] に うち へ 帰[かえ]り ます。", "distractors": ["来[き]"] },
+        { "type": "translate", "de": "Ich gehe morgen in die Bibliothek.", "answers": ["私[わたし] は あした は 図書館[としょかん] へ 行[い]き ます。", "私[わたし] は あした は 図書館[としょかん] に 行[い]き ます。", "私[わたし] は あした 図書館[としょかん] へ 行[い]き ます。", "私[わたし] は あした 図書館[としょかん] に 行[い]き ます。", "あした は 図書館[としょかん] へ 行[い]き ます。", "あした は 図書館[としょかん] に 行[い]き ます。", "あした 図書館[としょかん] へ 行[い]き ます。", "あした 図書館[としょかん] に 行[い]き ます。"] },
+        { "type": "choice", "prompt": "Du rufst eine Freundin an und sagst: „Ich komme gleich zu dir.“ Welcher Satz passt?", "options": ["すぐ 行[い]き ます。", "すぐ 来[き] ます。", "すぐ 帰[かえ]り ます。"], "answer": 0, "explain": "Du bewegst dich von dir aus zu ihr – also いきます. きます benutzt man nur für die Bewegung zum Sprecher hin." }
+      ]
+    },
+    {
+      "id": "weg-fragen",
+      "title": "Nach dem Weg fragen und den Weg beschreiben",
+      "blocks": [
+        { "type": "p", "text": "Um nach einem Ort zu fragen, kennst du schon どこ: 〜は どこですか. Höflicher klingt どちら. Wie man irgendwohin kommt, fragst du mit どうやって (wie, auf welchem Weg) – oft zusammen mit まで (bis)." },
+        { "type": "examples", "items": [{ "text": "すみません、 駅[えき] は どこ です か。", "de": "Entschuldigung, wo ist der Bahnhof?" }, { "text": "郵便局[ゆうびんきょく] は どちら です か。", "de": "Wo ist bitte die Post?" }, { "text": "図書館[としょかん] まで どうやって 行[い]き ます か。", "de": "Wie komme ich zur Bibliothek?" }, { "text": "この 近[ちか]く に 銀[ぎん]行[こう] は あります か。", "de": "Gibt es hier in der Nähe eine Bank?" }] },
+        { "type": "p", "text": "Die Antworten sind meist kurze Bitten mit 〜て ください (mehr dazu im nächsten Abschnitt). Diese Bausteine brauchst du:" },
+        { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["まっすぐ 行[い]って ください。", "Gehen Sie geradeaus."], ["右[みぎ] に まがって ください。", "Biegen Sie rechts ab."], ["左[ひだり] に まがって ください。", "Biegen Sie links ab."], ["次[つぎ] の かど を 右[みぎ] に まがって ください。", "Biegen Sie an der nächsten Ecke rechts ab."], ["二[ふた]つ目[め] の しんごう を 左[ひだり] に まがって ください。", "Biegen Sie an der zweiten Ampel links ab."], ["こうさてん を まっすぐ 行[い]って ください。", "Gehen Sie an der Kreuzung geradeaus."]] },
+        { "type": "tip", "text": "Zwei Partikeln, zwei Aufgaben: を markiert die Stelle oder Strecke, an der du gehst oder abbiegst (かどを まがります, みちを まっすぐ いきます). に markiert die Richtung (みぎに まがります)." },
+        { "type": "p", "text": "Zum Schluss sagt man oft, wo das Ziel liegt – mit dem Satzbau und den Ortswörtern aus Lektion 6: ここ (hier), そこ (da), あそこ (dort drüben)." },
+        { "type": "examples", "items": [{ "text": "銀[ぎん]行[こう] は 右[みぎ] に あります。", "de": "Die Bank ist auf der rechten Seite." }, { "text": "駅[えき] は すぐ そこ です。", "de": "Der Bahnhof ist gleich da vorne." }, { "text": "交番[こうばん] は あそこ です。", "de": "Die Polizeiwache ist dort drüben." }, { "text": "ここ は 公園[こうえん] の 入口[いりぐち] です。", "de": "Hier ist der Eingang zum Park." }] },
+        { "type": "tip", "text": "Wenn du etwas nicht verstanden hast: すみません、もう いちど おねがいします. Und zum Schluss: わかりました。ありがとうございます!" }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "駅[えき] まで ___ 行[い]き ます か。", "answers": ["どうやって"], "de": "Wie komme ich zum Bahnhof?" },
+        { "type": "cloze", "text": "次[つぎ] の かど ___ 右[みぎ] に まがって ください。", "answers": ["を"], "de": "Biegen Sie an der nächsten Ecke rechts ab." },
+        { "type": "cloze", "text": "この 道[みち] を ___ 行[い]って ください。", "answers": ["まっすぐ"], "de": "Gehen Sie diese Straße geradeaus." },
+        { "type": "cloze", "text": "二[ふた]つ___ の しんごう を 左[ひだり] に まがって ください。", "answers": ["目[め]"], "de": "Biegen Sie an der zweiten Ampel links ab." },
+        { "type": "order", "de": "Biegen Sie an der Ecke links ab.", "answer": "かど を 左[ひだり] に まがって ください。", "distractors": ["右[みぎ]"] },
+        { "type": "translate", "de": "Entschuldigung, wo ist die Post?", "answers": ["すみません、 郵便局[ゆうびんきょく] は どこ です か。", "すみません、 郵便局[ゆうびんきょく] は どちら です か。", "郵便局[ゆうびんきょく] は どこ です か。", "郵便局[ゆうびんきょく] は どちら です か。"] },
+        { "type": "match", "pairs": [["まっすぐ", "geradeaus"], ["右[みぎ]", "rechts"], ["左[ひだり]", "links"], ["かど", "die Ecke"], ["しんごう", "die Ampel"]] }
+      ]
+    },
+    {
+      "id": "te-kudasai",
+      "title": "Bitten mit 〜て ください – und Schilder lesen",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜て ください bittest du höflich um etwas: „Bitte …“. Dafür braucht das Verb eine eigene Form, die て-Form. Wie man sie bildet, lernst du später. Merk dir diese Bitten vorerst als feste Bausteine:" },
+        { "type": "table", "head": ["Verb (ます-Form)", "Bitte", "Deutsch"], "rows": [["行[い]き ます", "行[い]って ください", "Bitte gehen/fahren Sie."], ["まがり ます", "まがって ください", "Bitte biegen Sie ab."], ["まち ます", "まって ください", "Bitte warten Sie."], ["入[はい]り ます", "入[はい]って ください", "Bitte kommen Sie herein."], ["出[で] ます", "出[で]て ください", "Bitte gehen Sie hinaus."], ["来[き] ます", "来[き]て ください", "Bitte kommen Sie (her)."]] },
+        { "type": "tip", "text": "ちょっと まってください (Einen Moment, bitte!) und どうぞ、はいってください (Bitte, komm herein!) hörst du in Japan ständig." },
+        { "type": "tip", "text": "〜て ください ist eine höfliche Bitte. Wenn es um den Weg oder um Kleinigkeiten geht, kannst du sie auch zu Fremden oder Lehrern sagen." },
+        { "type": "p", "text": "Schilder: Am Bahnhof, im Kaufhaus oder im Museum siehst du überall 入口 (いりぐち, Eingang) und 出口 (でぐち, Ausgang). 入 heißt „hinein“, 出 „hinaus“ und 口 „Mund, Öffnung“ – ein Eingang ist also wörtlich eine „Hineingeh-Öffnung“." },
+        { "type": "table", "head": ["Schild", "Lesung", "Deutsch"], "rows": [["入口[いりぐち]", "いりぐち", "Eingang"], ["出口[でぐち]", "でぐち", "Ausgang"], ["東口[ひがしぐち]", "ひがしぐち", "Ostausgang"], ["西口[にしぐち]", "にしぐち", "Westausgang"], ["南口[みなみぐち]", "みなみぐち", "Südausgang"], ["北口[きたぐち]", "きたぐち", "Nordausgang"]] },
+        { "type": "tip", "text": "Große Bahnhöfe wie Tokio oder Shinjuku haben viele Ausgänge. Verabrede dich immer an einem bestimmten Ausgang, zum Beispiel am ひがしぐち – sonst sucht ihr euch sehr lange!" },
+        { "type": "examples", "items": [{ "text": "ちょっと まって ください。", "de": "Einen Moment, bitte!" }, { "text": "どうぞ、 入[はい]って ください。", "de": "Bitte, komm herein!" }, { "text": "北口[きたぐち] から 出[で]て ください。", "de": "Gehen Sie bitte am Nordausgang hinaus." }, { "text": "あした 九時[くじ] に 来[き]て ください。", "de": "Kommen Sie bitte morgen um neun." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "ちょっと ___ ください。", "answers": ["まって"], "de": "Einen Moment, bitte!" },
+        { "type": "cloze", "text": "どうぞ、 ___ ください。", "answers": ["入[はい]って"], "de": "Bitte, komm herein!" },
+        { "type": "cloze", "text": "西口[にしぐち] から ___ ください。", "answers": ["出[で]て"], "de": "Gehen Sie bitte am Westausgang hinaus." },
+        { "type": "cloze", "text": "すみません、 ___ は どこ です か。", "answers": ["出口[でぐち]"], "de": "Entschuldigung, wo ist der Ausgang?" },
+        { "type": "match", "pairs": [["入口[いりぐち]", "Eingang"], ["出口[でぐち]", "Ausgang"], ["東口[ひがしぐち]", "Ostausgang"], ["北口[きたぐち]", "Nordausgang"]] },
+        { "type": "translate", "de": "Bitte warten Sie einen Moment.", "answers": ["すみません、 ちょっと まって ください。", "ちょっと まって ください。", "まって ください。"] },
+        { "type": "order", "de": "Kommen Sie bitte um zehn Uhr.", "answer": "十時[じゅうじ] に 来[き]て ください。", "distractors": ["を"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "図書館[としょかん] まで どうやって 行[い]き ます か。",
+    "title_de": "Der Weg zur Bibliothek",
+    "lines": [
+      { "speaker": "アンナ", "text": "すみません。 図書館[としょかん] まで どうやって 行[い]き ます か。", "de": "Entschuldigung, wie komme ich zur Bibliothek?" },
+      { "speaker": "えきいん", "text": "図書館[としょかん] です か。 西口[にしぐち] から 出[で]て ください。", "de": "Zur Bibliothek? Gehen Sie am Westausgang hinaus." },
+      { "speaker": "アンナ", "text": "西口[にしぐち] は どちら です か。", "de": "Wo ist der Westausgang?" },
+      { "speaker": "えきいん", "text": "あそこ です。 あの 出口[でぐち] です。", "de": "Dort drüben. Der Ausgang da." },
+      { "speaker": "アンナ", "text": "わかり ました。 それから？", "de": "Verstanden. Und dann?" },
+      { "speaker": "えきいん", "text": "駅[えき] の 前[まえ] の 道[みち] を まっすぐ 行[い]って ください。 二[ふた]つ目[め] の しんごう を 右[みぎ] に まがって ください。", "de": "Gehen Sie die Straße vor dem Bahnhof geradeaus. An der zweiten Ampel biegen Sie rechts ab." },
+      { "speaker": "アンナ", "text": "すみません、 もう 一度[いちど] おねがいします。", "de": "Entschuldigung, noch einmal bitte." },
+      { "speaker": "えきいん", "text": "まっすぐ 行[い]って ください。 それから 二[ふた]つ目[め] の しんごう を 右[みぎ] です。", "de": "Gehen Sie geradeaus. Dann an der zweiten Ampel rechts." },
+      { "speaker": "えきいん", "text": "図書館[としょかん] は 公園[こうえん] の 前[まえ] に あります。 入口[いりぐち] は 右[みぎ] です。", "de": "Die Bibliothek ist vor dem Park. Der Eingang ist rechts." },
+      { "speaker": "アンナ", "text": "わかり ました。 図書館[としょかん] まで 何分[なんぷん] です か。", "de": "Alles klar. Wie viele Minuten sind es bis zur Bibliothek?" },
+      { "speaker": "えきいん", "text": "十分[じゅっぷん] ぐらい です。 あ、 ちょっと まって ください。 これ、 町[まち] の 地図[ちず] です。 どうぞ。", "de": "Ungefähr zehn Minuten. Ach, warten Sie kurz. Hier ist ein Stadtplan. Bitte schön." },
+      { "speaker": "アンナ", "text": "ありがとうございます！", "de": "Vielen Dank!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["駅[えき]", "der Bahnhof"], ["銀[ぎん]行[こう]", "die Bank"], ["郵便局[ゆうびんきょく]", "die Post"], ["病院[びょういん]", "das Krankenhaus"], ["図書館[としょかん]", "die Bibliothek"], ["公園[こうえん]", "der Park"]] },
+    { "type": "match", "pairs": [["行[い]き ます", "hingehen"], ["来[き] ます", "kommen"], ["帰[かえ]り ます", "nach Hause gehen"], ["入[はい]り ます", "hineingehen"], ["出[で] ます", "hinausgehen"]] },
+    { "type": "translate", "de": "Wohin gehst du morgen?", "answers": ["あなた は あした は どこ へ 行[い]き ます か。", "あなた は あした は どこ に 行[い]き ます か。", "あなた は あした どこ へ 行[い]き ます か。", "あなた は あした どこ に 行[い]き ます か。", "あした は どこ へ 行[い]き ます か。", "あした は どこ に 行[い]き ます か。", "あした どこ へ 行[い]き ます か。", "あした どこ に 行[い]き ます か。"] },
+    { "type": "translate", "de": "Ich gehe um sechs nach Hause.", "answers": ["私[わたし] は 六時[ろくじ] に うち へ 帰[かえ]り ます。", "私[わたし] は 六時[ろくじ] に うち に 帰[かえ]り ます。", "私[わたし] は 六時[ろくじ] に 家[いえ] へ 帰[かえ]り ます。", "私[わたし] は 六時[ろくじ] に 家[いえ] に 帰[かえ]り ます。", "六時[ろくじ] に うち へ 帰[かえ]り ます。", "六時[ろくじ] に うち に 帰[かえ]り ます。", "六時[ろくじ] に 家[いえ] へ 帰[かえ]り ます。", "六時[ろくじ] に 家[いえ] に 帰[かえ]り ます。", "私[わたし] は 六時[ろくじ] に 帰[かえ]り ます。", "六時[ろくじ] に 帰[かえ]り ます。"] },
+    { "type": "translate", "de": "Biegen Sie an der nächsten Ampel rechts ab.", "answers": ["次[つぎ] の しんごう を 右[みぎ] に まがって ください。", "次[つぎ] の しんごう を 右[みぎ] へ まがって ください。"] },
+    { "type": "translate", "de": "Wie komme ich zum Bahnhof?", "answers": ["すみません、 駅[えき] まで どうやって 行[い]き ます か。", "すみません、 駅[えき] へ は どうやって 行[い]き ます か。", "すみません、 駅[えき] に は どうやって 行[い]き ます か。", "すみません、 駅[えき] は どうやって 行[い]き ます か。", "駅[えき] まで どうやって 行[い]き ます か。", "駅[えき] へ は どうやって 行[い]き ます か。", "駅[えき] に は どうやって 行[い]き ます か。", "駅[えき] は どうやって 行[い]き ます か。"] },
+    { "type": "order", "de": "Gehen Sie diese Straße geradeaus.", "answer": "この 道[みち] を まっすぐ 行[い]って ください。", "distractors": ["に"] },
+    { "type": "order", "de": "Der Ausgang ist dort drüben.", "answer": "出口[でぐち] は あそこ です。", "distractors": ["入口[いりぐち]"] },
+    { "type": "cloze", "text": "すみません、 交番[こうばん] は ___ です か。", "answers": ["どこ", "どちら"], "de": "Entschuldigung, wo ist die Polizeiwache?" },
+    { "type": "cloze", "text": "ここ は 駅[えき] の ___ です。 駅[えき] に 入[はい]り ます。", "answers": ["入口[いりぐち]", "入[い]り口[ぐち]"], "de": "Hier ist der Eingang zum Bahnhof. Ich gehe in den Bahnhof hinein." },
+    { "type": "choice", "prompt": "Du willst in ein Kaufhaus hineingehen. Welches Schild suchst du?", "options": ["入口[いりぐち]", "出口[でぐち]", "北口[きたぐち]"], "answer": 0, "explain": "入 heißt „hinein“, 口 „Öffnung“: いりぐち ist der Eingang. でぐち ist der Ausgang, きたぐち der Nordausgang." },
+    { "type": "listen", "text": "まっすぐ 行[い]って ください。", "de": "Gehen Sie geradeaus." },
+    { "type": "listen", "text": "二[ふた]つ目[め] の かど を 左[ひだり] に まがって ください。", "de": "Biegen Sie an der zweiten Ecke links ab." },
+    { "type": "listen", "text": "けん さん は 八時[はちじ] に 会社[かいしゃ] へ 行[い]き ます。", "de": "Ken fährt um acht in die Firma." }
+  ]
+}
