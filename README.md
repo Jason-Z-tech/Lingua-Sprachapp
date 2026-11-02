@@ -10,6 +10,21 @@ Japanisch (Hiragana, Katakana und Kanji, Höflichkeitsform です/ます).
 Lingua ist eine reine statische Website – HTML, CSS und JavaScript-Module, kein Build-Schritt,
 kein Server, kein Konto. Der Lernstand bleibt im Browser.
 
+**Inhalte**
+
+| | Englisch | Spanisch | Italienisch | Japanisch |
+| --- | ---: | ---: | ---: | ---: |
+| Lektionen (A1 · A2 · B1) | 30 | 30 | 30 | 30 |
+| Vokabeln mit Beispielsatz | 1.230 | 1.185 | 1.230 | 1.138 |
+| Grammatikthemen | 88 | 86 | 86 | 90 |
+| Übungen | 1.083 | 1.158 | 1.149 | 1.023 |
+| Lesetexte und Dialoge | 15 | 15 | 15 | 15 |
+| Sprech-Szenarien | 6 | 6 | 6 | 6 |
+| Häufigkeitsliste | 10.000 Wörter | 10.000 Wörter | 10.000 Wörter | 10.000 Wörter |
+
+Japanisch zusätzlich: 18 Kana-Lektionen (Hiragana und Katakana) und 213 Kanji
+(A1: 69, A2: 74, B1: 70) mit Strichfolge, Lesungen und Beispielwörtern.
+
 ---
 
 ## Inhalt
