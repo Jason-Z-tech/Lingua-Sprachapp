@@ -1,0 +1,747 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-10",
+  "lang": "it",
+  "level": "A2",
+  "number": 10,
+  "title": "Progetti per il futuro",
+  "title_de": "Pläne",
+  "topic": "Über die Zukunft sprechen",
+  "goals": [
+    "Du kannst über Pläne und Wünsche sprechen: Il mese prossimo andrò a Roma. Mi piacerebbe vivere al mare.",
+    "Du bildest das futuro semplice – regelmäßig und mit sarò, avrò, andrò, farò, verrò, potrò, dovrò.",
+    "Du kannst Bedingungen ausdrücken (Se avrò tempo, …) und sagen, was du vorhast: penso di …, tra due settimane."
+  ],
+  "vocab": [
+    {
+      "id": "futuro",
+      "word": "futuro",
+      "article": "il",
+      "gender": "m",
+      "de": "die Zukunft; das Futur",
+      "pos": "noun",
+      "example": { "text": "Cosa farai in futuro?", "de": "Was wirst du in Zukunft machen?" }
+    },
+    {
+      "id": "progetto",
+      "word": "progetto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i progetti",
+      "de": "der Plan; das Projekt",
+      "pos": "noun",
+      "example": { "text": "Hai progetti per l'estate?", "de": "Hast du Pläne für den Sommer?", "focus": "progetti" }
+    },
+    {
+      "id": "sogno",
+      "word": "sogno",
+      "article": "il",
+      "gender": "m",
+      "plural": "i sogni",
+      "de": "der Traum",
+      "pos": "noun",
+      "example": { "text": "Il mio sogno è aprire un ristorante.", "de": "Mein Traum ist es, ein Restaurant zu eröffnen." }
+    },
+    {
+      "id": "sognare",
+      "word": "sognare",
+      "de": "träumen",
+      "pos": "verb",
+      "forms": "sogno, sogni, sogna, sogniamo, sognate, sognano",
+      "example": { "text": "Sogno una casa al mare.", "de": "Ich träume von einem Haus am Meer.", "focus": "sogno" },
+      "note": "Sognare di + Infinitiv: Sogno di viaggiare. = Ich träume vom Reisen."
+    },
+    {
+      "id": "sperare",
+      "word": "sperare",
+      "de": "hoffen",
+      "pos": "verb",
+      "forms": "spero, speri, spera, speriamo, sperate, sperano",
+      "example": { "text": "Spero di trovare un lavoro a Bologna.", "de": "Ich hoffe, eine Arbeit in Bologna zu finden.", "focus": "spero" },
+      "note": "Spero di sì! = Hoffentlich! Speriamo! = Hoffen wir es!"
+    },
+    {
+      "id": "pensare",
+      "word": "pensare",
+      "de": "denken; vorhaben (pensare di)",
+      "pos": "verb",
+      "forms": "penso, pensi, pensa, pensiamo, pensate, pensano",
+      "example": { "text": "Cosa pensi di fare domani?", "de": "Was hast du morgen vor?", "focus": "pensi" },
+      "note": "Pensare a = denken an: Penso a te. Pensare di + Infinitiv = vorhaben: Penso di partire."
+    },
+    {
+      "id": "decidere",
+      "word": "decidere",
+      "de": "entscheiden; beschließen",
+      "pos": "verb",
+      "forms": "decido, decidi, decide, decidiamo, decidete, decidono",
+      "example": { "text": "Non ho ancora deciso.", "de": "Ich habe mich noch nicht entschieden.", "focus": "deciso" },
+      "note": "Partizip: deciso."
+    },
+    {
+      "id": "trasferirsi",
+      "word": "trasferirsi",
+      "de": "umziehen (in eine andere Stadt); wegziehen",
+      "pos": "verb",
+      "forms": "mi trasferisco, ti trasferisci, si trasferisce, ci trasferiamo, vi trasferite, si trasferiscono",
+      "example": { "text": "L'anno prossimo mi trasferisco a Milano.", "de": "Nächstes Jahr ziehe ich nach Mailand.", "focus": "trasferisco" },
+      "note": "Wie finire mit -isc-. Passato prossimo mit essere: mi sono trasferita."
+    },
+    {
+      "id": "organizzare",
+      "word": "organizzare",
+      "de": "organisieren; planen",
+      "pos": "verb",
+      "forms": "organizzo, organizzi, organizza, organizziamo, organizzate, organizzano",
+      "example": { "text": "Chi organizza il viaggio?", "de": "Wer organisiert die Reise?", "focus": "organizza" }
+    },
+    {
+      "id": "promettere",
+      "word": "promettere",
+      "de": "versprechen",
+      "pos": "verb",
+      "forms": "prometto, prometti, promette, promettiamo, promettete, promettono",
+      "example": { "text": "Ti prometto che vengo.", "de": "Ich verspreche dir, dass ich komme.", "focus": "prometto" },
+      "note": "Partizip: promesso – Me l'hai promesso! = Du hast es mir versprochen!"
+    },
+    {
+      "id": "cominciare",
+      "word": "cominciare",
+      "de": "anfangen; beginnen",
+      "pos": "verb",
+      "forms": "comincio, cominci, comincia, cominciamo, cominciate, cominciano",
+      "example": { "text": "Il corso comincia a settembre.", "de": "Der Kurs beginnt im September.", "focus": "comincia" },
+      "note": "Mit a + Infinitiv: Comincio a lavorare. Genauso üblich: iniziare."
+    },
+    {
+      "id": "aprire",
+      "word": "aprire",
+      "de": "öffnen; eröffnen",
+      "pos": "verb",
+      "forms": "apro, apri, apre, apriamo, aprite, aprono",
+      "example": { "text": "La banca apre alle otto e mezza.", "de": "Die Bank öffnet um halb neun.", "focus": "apre" },
+      "note": "Partizip: aperto. Das Gegenteil: chiudere (schließen)."
+    },
+    {
+      "id": "realizzare",
+      "word": "realizzare",
+      "de": "verwirklichen",
+      "pos": "verb",
+      "forms": "realizzo, realizzi, realizza, realizziamo, realizzate, realizzano",
+      "example": { "text": "Un giorno realizzerò il mio sogno.", "de": "Eines Tages werde ich meinen Traum verwirklichen.", "focus": "realizzerò" }
+    },
+    {
+      "id": "risparmiare",
+      "word": "risparmiare",
+      "de": "sparen",
+      "pos": "verb",
+      "forms": "risparmio, risparmi, risparmia, risparmiamo, risparmiate, risparmiano",
+      "example": { "text": "Risparmio per comprare una macchina.", "de": "Ich spare, um ein Auto zu kaufen.", "focus": "risparmio" }
+    },
+    {
+      "id": "soldi",
+      "word": "soldi",
+      "article": "i",
+      "gender": "m",
+      "de": "das Geld",
+      "pos": "noun",
+      "example": { "text": "Non ho molti soldi.", "de": "Ich habe nicht viel Geld." },
+      "note": "Immer Mehrzahl: i soldi."
+    },
+    {
+      "id": "corso",
+      "word": "corso",
+      "article": "il",
+      "gender": "m",
+      "plural": "i corsi",
+      "de": "der Kurs",
+      "pos": "noun",
+      "example": { "text": "Il corso di italiano finisce a giugno.", "de": "Der Italienischkurs endet im Juni." }
+    },
+    {
+      "id": "esame",
+      "word": "esame",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli esami",
+      "de": "die Prüfung",
+      "pos": "noun",
+      "example": { "text": "Domani ho un esame di italiano.", "de": "Morgen habe ich eine Italienischprüfung." }
+    },
+    {
+      "id": "superare",
+      "word": "superare",
+      "de": "bestehen (Prüfung); überwinden",
+      "pos": "verb",
+      "forms": "supero, superi, supera, superiamo, superate, superano",
+      "example": { "text": "Se studierò, supererò l'esame.", "de": "Wenn ich lerne, werde ich die Prüfung bestehen.", "focus": "supererò" },
+      "note": "Betonung: sùpero. Umgangssprachlich auch: passare l'esame."
+    },
+    {
+      "id": "universita",
+      "word": "università",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le università",
+      "de": "die Universität",
+      "pos": "noun",
+      "example": { "text": "Mio fratello studia all'università.", "de": "Mein Bruder studiert an der Uni." }
+    },
+    {
+      "id": "laurearsi",
+      "word": "laurearsi",
+      "de": "das Studium abschließen",
+      "pos": "verb",
+      "forms": "mi laureo, ti laurei, si laurea, ci laureiamo, vi laureate, si laureano",
+      "example": { "text": "Marco si laurea l'anno prossimo.", "de": "Marco macht nächstes Jahr seinen Abschluss.", "focus": "si laurea" },
+      "note": "La laurea = der Hochschulabschluss."
+    },
+    {
+      "id": "patente",
+      "word": "patente",
+      "article": "la",
+      "gender": "f",
+      "plural": "le patenti",
+      "de": "der Führerschein",
+      "pos": "noun",
+      "example": { "text": "Quest'anno prendo la patente.", "de": "Dieses Jahr mache ich den Führerschein." },
+      "note": "Den Führerschein machen = prendere la patente."
+    },
+    {
+      "id": "mondo",
+      "word": "mondo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i mondi",
+      "de": "die Welt",
+      "pos": "noun",
+      "example": { "text": "Mi piacerebbe fare il giro del mondo.", "de": "Ich würde gern eine Weltreise machen." }
+    },
+    {
+      "id": "pensione",
+      "word": "pensione",
+      "article": "la",
+      "gender": "f",
+      "plural": "le pensioni",
+      "de": "die Rente; die Pension (Unterkunft)",
+      "pos": "noun",
+      "example": { "text": "Mio padre va in pensione tra due anni.", "de": "Mein Vater geht in zwei Jahren in Rente." },
+      "note": "Andare in pensione = in Rente gehen."
+    },
+    {
+      "id": "mi-piacerebbe",
+      "word": "mi piacerebbe",
+      "de": "ich würde gern; ich hätte Lust",
+      "pos": "phrase",
+      "example": { "text": "Mi piacerebbe vivere a Roma.", "de": "Ich würde gern in Rom leben." },
+      "note": "Wie mi piace: ti piacerebbe? = würdest du gern? A Sara piacerebbe … = Sara würde gern …"
+    },
+    {
+      "id": "magari",
+      "word": "magari",
+      "de": "vielleicht; schön wär's!",
+      "pos": "adv",
+      "example": { "text": "Vieni con noi in Sicilia? – Magari!", "de": "Kommst du mit uns nach Sizilien? – Schön wär's!" },
+      "note": "Mitten im Satz heißt magari „vielleicht“: Magari ci vediamo domani."
+    },
+    {
+      "id": "forse",
+      "word": "forse",
+      "de": "vielleicht",
+      "pos": "adv",
+      "example": { "text": "Forse andrò in Spagna.", "de": "Vielleicht fahre ich nach Spanien." }
+    },
+    {
+      "id": "sicuramente",
+      "word": "sicuramente",
+      "de": "sicher; bestimmt",
+      "pos": "adv",
+      "example": { "text": "Jonas verrà sicuramente a trovarci.", "de": "Jonas wird uns bestimmt besuchen." }
+    },
+    {
+      "id": "probabilmente",
+      "word": "probabilmente",
+      "de": "wahrscheinlich",
+      "pos": "adv",
+      "example": { "text": "Probabilmente domani pioverà.", "de": "Wahrscheinlich regnet es morgen." }
+    },
+    {
+      "id": "chissa",
+      "word": "chissà",
+      "de": "wer weiß; mal sehen",
+      "pos": "adv",
+      "example": { "text": "Chissà dove saremo tra dieci anni!", "de": "Wer weiß, wo wir in zehn Jahren sein werden!" }
+    },
+    {
+      "id": "vedremo",
+      "word": "vedremo",
+      "de": "mal sehen; wir werden sehen",
+      "pos": "phrase",
+      "example": { "text": "Resterai a Bologna? – Vedremo!", "de": "Bleibst du in Bologna? – Mal sehen!" },
+      "note": "Futur von vedere (sehen): vedrò, vedrai, vedrà, vedremo …"
+    },
+    {
+      "id": "tra-poco",
+      "word": "tra poco",
+      "de": "gleich; bald; in Kürze",
+      "pos": "phrase",
+      "example": { "text": "Il treno arriva tra poco.", "de": "Der Zug kommt gleich an." },
+      "note": "Genauso: fra poco."
+    },
+    {
+      "id": "un-giorno",
+      "word": "un giorno",
+      "de": "eines Tages; irgendwann",
+      "pos": "phrase",
+      "example": { "text": "Un giorno vivrò in Italia.", "de": "Eines Tages werde ich in Italien leben." }
+    },
+    {
+      "id": "prima-o-poi",
+      "word": "prima o poi",
+      "de": "früher oder später",
+      "pos": "phrase",
+      "example": { "text": "Prima o poi imparerò a cucinare.", "de": "Früher oder später lerne ich kochen." }
+    },
+    {
+      "id": "dopodomani",
+      "word": "dopodomani",
+      "de": "übermorgen",
+      "pos": "adv",
+      "example": { "text": "Partiamo dopodomani.", "de": "Wir fahren übermorgen ab." }
+    },
+    {
+      "id": "nuovo",
+      "word": "nuovo",
+      "alt": ["nuova"],
+      "de": "neu",
+      "pos": "adj",
+      "example": { "text": "Cerco un nuovo lavoro.", "de": "Ich suche eine neue Arbeit." }
+    },
+    {
+      "id": "intenzione",
+      "word": "intenzione",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le intenzioni",
+      "de": "die Absicht",
+      "pos": "noun",
+      "example": { "text": "Ho intenzione di cambiare casa.", "de": "Ich habe vor, umzuziehen." },
+      "note": "Avere intenzione di + Infinitiv = vorhaben."
+    },
+    {
+      "id": "fine",
+      "word": "fine",
+      "article": "la",
+      "gender": "f",
+      "de": "das Ende",
+      "pos": "noun",
+      "example": { "text": "Il corso finisce alla fine di giugno.", "de": "Der Kurs endet Ende Juni." },
+      "note": "Achtung: il fine settimana (das Wochenende) ist männlich, la fine (das Ende) weiblich."
+    },
+    {
+      "id": "in-bocca-al-lupo",
+      "word": "in bocca al lupo",
+      "de": "viel Glück!; toi, toi, toi!",
+      "pos": "phrase",
+      "example": { "text": "Domani hai l'esame? In bocca al lupo!", "de": "Morgen hast du die Prüfung? Viel Glück!" },
+      "note": "Wörtlich: „ins Maul des Wolfes“. Die Antwort ist: Crepi! (oder Crepi il lupo!)"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "futuro-semplice",
+      "title": "Das futuro semplice: Ich werde …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem futuro semplice sprichst du über die Zukunft. Du nimmst den Infinitiv ohne das letzte -e und hängst die Endungen an. Bei -are-Verben wird das a zu e: parlare → parler-."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "parlare", "prendere", "partire"],
+          "rows": [
+            ["io", "parlerò", "prenderò", "partirò"],
+            ["tu", "parlerai", "prenderai", "partirai"],
+            ["lui / lei", "parlerà", "prenderà", "partirà"],
+            ["noi", "parleremo", "prenderemo", "partiremo"],
+            ["voi", "parlerete", "prenderete", "partirete"],
+            ["loro", "parleranno", "prenderanno", "partiranno"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Die Betonung liegt auf der Endung: parlerò, parlerà – deshalb der Akzent. Bei -care / -gare kommt ein h dazu (cercherò, pagherò), bei -ciare / -giare fällt das i weg (comincerò, mangerò)."
+        },
+        { "type": "p", "text": "Einige häufige Verben verkürzen den Stamm oder sind unregelmäßig. Die Endungen bleiben gleich:" },
+        {
+          "type": "table",
+          "head": ["Infinitiv", "io", "tu", "noi"],
+          "rows": [
+            ["essere", "sarò", "sarai", "saremo"],
+            ["avere", "avrò", "avrai", "avremo"],
+            ["andare", "andrò", "andrai", "andremo"],
+            ["fare", "farò", "farai", "faremo"],
+            ["venire", "verrò", "verrai", "verremo"],
+            ["potere", "potrò", "potrai", "potremo"],
+            ["dovere", "dovrò", "dovrai", "dovremo"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Für die nahe Zukunft nehmen Italiener oft einfach das Präsens – wie im Deutschen: Domani vado a Roma. = Morgen fahre ich nach Rom. Das futuro klingt weiter weg oder unsicherer: L'anno prossimo andrò in Spagna."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "L'anno prossimo andrò in Spagna.", "de": "Nächstes Jahr fahre ich nach Spanien." },
+            { "text": "Dopodomani sarò a Milano.", "de": "Übermorgen bin ich in Mailand." },
+            { "text": "Tra due settimane faremo una gita al mare.", "de": "In zwei Wochen machen wir einen Ausflug ans Meer." },
+            { "text": "Verrai alla festa sabato?", "de": "Kommst du am Samstag zur Party?" },
+            { "text": "Dovrò studiare tanto per l'esame.", "de": "Ich werde viel für die Prüfung lernen müssen." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "L'anno prossimo io ___ la patente.",
+          "answers": ["prenderò"],
+          "de": "Nächstes Jahr mache ich den Führerschein.",
+          "hint": "prendere"
+        },
+        {
+          "type": "cloze",
+          "text": "Sara ___ in Germania a settembre.",
+          "answers": ["andrà"],
+          "de": "Sara geht im September nach Deutschland.",
+          "hint": "andare"
+        },
+        {
+          "type": "cloze",
+          "text": "Noi ___ una festa dopo l'esame.",
+          "answers": ["faremo"],
+          "de": "Wir machen nach der Prüfung eine Party.",
+          "hint": "fare"
+        },
+        { "type": "cloze", "text": "Domani ___ molto stanca.", "answers": ["sarò"], "de": "Morgen werde ich sehr müde sein.", "hint": "essere" },
+        {
+          "type": "cloze",
+          "text": "Ragazzi, ___ a trovarci a Napoli?",
+          "answers": ["verrete"],
+          "de": "Leute, werdet ihr uns in Neapel besuchen?",
+          "hint": "venire"
+        },
+        { "type": "cloze", "text": "Tu ___ tempo domenica?", "answers": ["avrai"], "de": "Wirst du am Sonntag Zeit haben?", "hint": "avere" },
+        {
+          "type": "cloze",
+          "text": "Mi dispiace, domani non ___ venire.",
+          "answers": ["potrò"],
+          "de": "Tut mir leid, morgen werde ich nicht kommen können.",
+          "hint": "potere"
+        },
+        {
+          "type": "translate",
+          "de": "Ich werde in Italien bleiben.",
+          "answers": ["Resterò in Italia.", "Io resterò in Italia.", "Rimarrò in Italia.", "Io rimarrò in Italia."]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["sarò", "ich werde sein"],
+            ["avrò", "ich werde haben"],
+            ["andrò", "ich werde gehen"],
+            ["farò", "ich werde machen"],
+            ["potrò", "ich werde können"],
+            ["dovrò", "ich werde müssen"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-futuro",
+      "title": "Wenn …, dann …: se + futuro und pensare di",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn du über eine Bedingung in der Zukunft sprichst, steht im Italienischen in beiden Satzteilen das futuro. Im Deutschen nimmt man meist das Präsens."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Se avrò tempo, verrò a trovarti.", "Wenn ich Zeit habe, besuche ich dich."],
+            ["Se supererai l'esame, faremo una festa.", "Wenn du die Prüfung bestehst, feiern wir eine Party."],
+            ["Se domani pioverà, resteremo a casa.", "Wenn es morgen regnet, bleiben wir zu Hause."]
+          ]
+        },
+        { "type": "tip", "text": "Im Alltag hört man auch das Präsens: Se ho tempo, vengo. Beides ist richtig." },
+        {
+          "type": "p",
+          "text": "Was du vorhast, sagst du mit pensare di + Infinitiv oder avere intenzione di + Infinitiv. Hoffnungen und Träume: sperare di / sognare di + Infinitiv."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Penso di cambiare lavoro.", "Ich habe vor, die Arbeit zu wechseln."],
+            ["Pensiamo di partire a luglio.", "Wir haben vor, im Juli zu fahren."],
+            ["Ho intenzione di risparmiare.", "Ich habe vor zu sparen."],
+            ["Spero di superare l'esame.", "Ich hoffe, die Prüfung zu bestehen."],
+            ["Sogno di aprire un bar.", "Ich träume davon, eine Bar zu eröffnen."]
+          ]
+        },
+        { "type": "tip", "text": "Nach di steht immer der Infinitiv – genau wie im Deutschen nach „zu“." },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Se troverò un lavoro, resterò a Bologna.", "de": "Wenn ich eine Arbeit finde, bleibe ich in Bologna." },
+            { "text": "Cosa pensi di fare dopo il corso?", "de": "Was hast du nach dem Kurs vor?" }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Se ___ tempo, verrò alla festa.",
+          "answers": ["avrò"],
+          "de": "Wenn ich Zeit habe, komme ich zur Party.",
+          "hint": "avere"
+        },
+        {
+          "type": "cloze",
+          "text": "Se domani farà bel tempo, ___ al mare.",
+          "answers": ["andremo", "andiamo"],
+          "de": "Wenn morgen schönes Wetter ist, fahren wir ans Meer.",
+          "hint": "andare, noi"
+        },
+        { "type": "cloze", "text": "Penso ___ restare a Bologna.", "answers": ["di"], "de": "Ich habe vor, in Bologna zu bleiben." },
+        {
+          "type": "cloze",
+          "text": "Spero di ___ l'esame.",
+          "answers": ["superare", "passare"],
+          "de": "Ich hoffe, die Prüfung zu bestehen.",
+          "hint": "bestehen"
+        },
+        {
+          "type": "translate",
+          "de": "Wenn ich Geld habe, mache ich eine Weltreise.",
+          "answers": [
+            "Se avrò i soldi, farò il giro del mondo.",
+            "Se avrò soldi, farò il giro del mondo.",
+            "Se ho i soldi, faccio il giro del mondo.",
+            "Se ho soldi, faccio il giro del mondo.",
+            "Se avrò i soldi, farò un giro del mondo.",
+            "Se avrò soldi, farò un giro del mondo."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Wir haben vor, nach Rom zu fahren.",
+          "answers": [
+            "Pensiamo di andare a Roma.",
+            "Noi pensiamo di andare a Roma.",
+            "Abbiamo intenzione di andare a Roma.",
+            "Noi abbiamo intenzione di andare a Roma."
+          ]
+        },
+        { "type": "order", "de": "Wenn es regnet, bleiben wir zu Hause.", "answer": "Se pioverà, resteremo a casa." }
+      ]
+    },
+    {
+      "id": "desideri-tempo",
+      "title": "Wünsche und Zeitangaben: mi piacerebbe, tra due settimane",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wünsche drückst du mit mi piacerebbe + Infinitiv aus (ich würde gern …). Es funktioniert wie mi piace: Das Pronomen zeigt, wer sich etwas wünscht."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Mi piacerebbe vivere al mare.", "Ich würde gern am Meer leben."],
+            ["Ti piacerebbe venire con noi?", "Hättest du Lust mitzukommen?"],
+            ["A Sara piacerebbe aprire un bar.", "Sara würde gern eine Bar eröffnen."],
+            ["Ci piacerebbe fare il giro del mondo.", "Wir würden gern eine Weltreise machen."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Mi piacerebbe ist – wie vorrei und potrei – eine feste Form des Konditionals. Es klingt weicher als voglio: Mi piacerebbe imparare a ballare."
+        },
+        { "type": "p", "text": "Wann? So sprichst du über die Zukunft:" },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["tra poco / fra poco", "gleich, bald"],
+            ["tra due settimane", "in zwei Wochen"],
+            ["dopodomani", "übermorgen"],
+            ["la settimana prossima", "nächste Woche"],
+            ["il mese prossimo", "nächsten Monat"],
+            ["l'anno prossimo", "nächstes Jahr"],
+            ["un giorno / prima o poi", "eines Tages / früher oder später"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Tra (oder fra) + Zeitraum heißt „in“: tra tre giorni = in drei Tagen. Nicht verwechseln mit fa (vor): tre giorni fa = vor drei Tagen."
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mi ___ vivere in campagna.", "answers": ["piacerebbe"], "de": "Ich würde gern auf dem Land leben." },
+        {
+          "type": "cloze",
+          "text": "Ti piacerebbe ___ con noi in Sicilia?",
+          "answers": ["venire", "andare"],
+          "de": "Hättest du Lust, mit uns nach Sizilien zu kommen?"
+        },
+        { "type": "cloze", "text": "Parto ___ due settimane.", "answers": ["tra", "fra"], "de": "Ich fahre in zwei Wochen ab." },
+        { "type": "cloze", "text": "Ho finito il corso due settimane ___.", "answers": ["fa"], "de": "Ich habe den Kurs vor zwei Wochen beendet." },
+        {
+          "type": "translate",
+          "de": "Ich würde gern eine Bar eröffnen.",
+          "answers": ["Mi piacerebbe aprire un bar.", "A me piacerebbe aprire un bar."]
+        },
+        {
+          "type": "translate",
+          "de": "Nächstes Jahr ziehe ich nach Rom.",
+          "answers": [
+            "L'anno prossimo mi trasferisco a Roma.",
+            "L'anno prossimo mi trasferirò a Roma.",
+            "Mi trasferisco a Roma l'anno prossimo.",
+            "Mi trasferirò a Roma l'anno prossimo.",
+            "Il prossimo anno mi trasferisco a Roma.",
+            "Il prossimo anno mi trasferirò a Roma."
+          ]
+        },
+        { "type": "order", "de": "Was würdest du gern machen?", "answer": "Cosa ti piacerebbe fare?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Cosa farai dopo il corso?",
+    "title_de": "Was machst du nach dem Kurs?",
+    "lines": [
+      {
+        "speaker": "Sara",
+        "text": "Lena, il tuo corso finisce tra due settimane. Cosa farai dopo?",
+        "de": "Lena, dein Kurs endet in zwei Wochen. Was machst du danach?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Non ho ancora deciso. Penso di restare a Bologna ancora un anno.",
+        "de": "Ich habe mich noch nicht entschieden. Ich habe vor, noch ein Jahr in Bologna zu bleiben."
+      },
+      { "speaker": "Sara", "text": "Che bello! E cosa farai qui?", "de": "Wie schön! Und was wirst du hier machen?" },
+      {
+        "speaker": "Lena",
+        "text": "Mi piacerebbe trovare un lavoro. Se troverò un lavoro, resterò sicuramente.",
+        "de": "Ich würde gern eine Arbeit finden. Wenn ich eine Arbeit finde, bleibe ich auf jeden Fall."
+      },
+      { "speaker": "Sara", "text": "E se non lo troverai?", "de": "Und wenn du keine findest?" },
+      {
+        "speaker": "Lena",
+        "text": "Allora tornerò a Monaco e andrò all'università. E tu? Hai progetti?",
+        "de": "Dann gehe ich zurück nach München und an die Uni. Und du? Hast du Pläne?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Sì! A settembre andrò a Berlino per sei mesi. Farò un corso di tedesco!",
+        "de": "Ja! Im September gehe ich für sechs Monate nach Berlin. Ich mache einen Deutschkurs!"
+      },
+      { "speaker": "Lena", "text": "A Berlino? Lì abita Jonas! Sarà felicissimo!", "de": "Nach Berlin? Da wohnt Jonas! Er wird sich riesig freuen!" },
+      { "speaker": "Sara", "text": "Sì, gli ho già scritto!", "de": "Ja, ich habe ihm schon geschrieben!" },
+      { "speaker": "Lena", "text": "E dopo Berlino? Hai un sogno?", "de": "Und nach Berlin? Hast du einen Traum?" },
+      {
+        "speaker": "Sara",
+        "text": "Un giorno mi piacerebbe aprire un piccolo bar a Napoli, vicino al mare.",
+        "de": "Eines Tages würde ich gern eine kleine Bar in Neapel eröffnen, in der Nähe vom Meer."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Che bel progetto! Allora io verrò ogni estate e tu mi offrirai il caffè!",
+        "de": "Was für ein schöner Plan! Dann komme ich jeden Sommer, und du spendierst mir den Kaffee!"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Magari! Ma prima devo risparmiare un po' di soldi.",
+        "de": "Schön wär's! Aber vorher muss ich ein bisschen Geld sparen."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Prima o poi lo aprirai, sicuramente! E venerdì c'è il mio esame…",
+        "de": "Früher oder später eröffnest du sie bestimmt! Und am Freitag ist meine Prüfung …"
+      },
+      { "speaker": "Sara", "text": "È vero! In bocca al lupo, Lena!", "de": "Stimmt! Viel Glück, Lena!" },
+      { "speaker": "Lena", "text": "Crepi! Se lo supererò, faremo una festa!", "de": "Danke! Wenn ich sie bestehe, feiern wir eine Party!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il sogno", "der Traum"],
+        ["il progetto", "der Plan"],
+        ["la patente", "der Führerschein"],
+        ["l'esame", "die Prüfung"],
+        ["i soldi", "das Geld"],
+        ["il mondo", "die Welt"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["forse", "vielleicht"],
+        ["sicuramente", "bestimmt"],
+        ["probabilmente", "wahrscheinlich"],
+        ["dopodomani", "übermorgen"],
+        ["tra poco", "gleich"]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Was wirst du nächstes Jahr machen?",
+      "answers": [
+        "Cosa farai l'anno prossimo?",
+        "Che cosa farai l'anno prossimo?",
+        "Che farai l'anno prossimo?",
+        "L'anno prossimo cosa farai?",
+        "Cosa farai il prossimo anno?",
+        "Che cosa farai il prossimo anno?",
+        "Il prossimo anno cosa farai?"
+      ]
+    },
+    { "type": "translate", "de": "Viel Glück für die Prüfung!", "answers": ["In bocca al lupo per l'esame!"] },
+    {
+      "type": "translate",
+      "de": "Wenn ich Zeit habe, besuche ich dich.",
+      "answers": [
+        "Se avrò tempo, verrò a trovarti.",
+        "Se avrò tempo, ti verrò a trovare.",
+        "Se ho tempo, vengo a trovarti.",
+        "Se ho tempo, ti vengo a trovare.",
+        "Se avrò tempo, andrò a trovarti.",
+        "Se avrò tempo, ti andrò a trovare.",
+        "Se ho tempo, vado a trovarti.",
+        "Se ho tempo, ti vado a trovare."
+      ]
+    },
+    { "type": "cloze", "text": "Il mio ___ è vivere al mare.", "answers": ["sogno"], "de": "Mein Traum ist es, am Meer zu leben." },
+    {
+      "type": "cloze",
+      "text": "Non posso comprare la macchina: non ho ___.",
+      "answers": ["soldi"],
+      "de": "Ich kann das Auto nicht kaufen: Ich habe kein Geld."
+    },
+    { "type": "cloze", "text": "Ho ___ di cambiare lavoro.", "answers": ["intenzione"], "de": "Ich habe vor, die Arbeit zu wechseln." },
+    { "type": "order", "de": "Nächste Woche fange ich einen neuen Kurs an.", "answer": "La settimana prossima comincio un nuovo corso." },
+    { "type": "order", "de": "Übermorgen fahren wir nach Neapel.", "answer": "Dopodomani andremo a Napoli." },
+    {
+      "type": "listen",
+      "text": "Se supererò l'esame, farò una festa con tutti gli amici.",
+      "de": "Wenn ich die Prüfung bestehe, mache ich eine Party mit allen Freunden."
+    },
+    { "type": "listen", "text": "Mi piacerebbe vivere un anno all'estero.", "de": "Ich würde gern ein Jahr im Ausland leben." }
+  ]
+}

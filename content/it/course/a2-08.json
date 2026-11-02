@@ -1,0 +1,749 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-08",
+  "lang": "it",
+  "level": "A2",
+  "number": 8,
+  "title": "Aspetto e carattere",
+  "title_de": "Menschen beschreiben",
+  "topic": "Aussehen und Charakter",
+  "goals": [
+    "Du kannst beschreiben, wie jemand aussieht: è alto, ha i capelli ricci, porta gli occhiali.",
+    "Du kannst über den Charakter sprechen und sagen, wem jemand ähnlich sieht (assomigliare a).",
+    "Du bildest den Superlativ (il più alto della famiglia, bellissimo) und benutzt molto, poco und tanto richtig."
+  ],
+  "vocab": [
+    {
+      "id": "aspetto",
+      "word": "aspetto",
+      "article": "l'",
+      "gender": "m",
+      "de": "das Aussehen",
+      "pos": "noun",
+      "example": { "text": "Che aspetto ha tuo fratello?", "de": "Wie sieht dein Bruder aus?" },
+      "note": "Che aspetto ha? = Wie sieht er / sie aus? Locker fragt man einfach: Com'è?"
+    },
+    {
+      "id": "carattere",
+      "word": "carattere",
+      "article": "il",
+      "gender": "m",
+      "plural": "i caratteri",
+      "de": "der Charakter; das Wesen",
+      "pos": "noun",
+      "example": { "text": "Che carattere ha Jonas? – È tranquillo e gentile.", "de": "Was für ein Typ ist Jonas? – Er ist ruhig und freundlich." }
+    },
+    {
+      "id": "com-e",
+      "word": "com'è?",
+      "de": "wie ist er / sie / es?; wie sieht er / sie aus?",
+      "pos": "phrase",
+      "example": { "text": "Com'è tua sorella? – È alta e bionda.", "de": "Wie ist deine Schwester? – Sie ist groß und blond.", "focus": "com'è" },
+      "note": "Mehrzahl: Come sono? – Come sono i tuoi amici?"
+    },
+    {
+      "id": "alto",
+      "word": "alto",
+      "alt": ["alta"],
+      "de": "groß (Person); hoch",
+      "pos": "adj",
+      "example": { "text": "Jonas è molto alto.", "de": "Jonas ist sehr groß." },
+      "note": "Für Personen sagt man alto, nicht grande! Grande heißt bei Menschen eher „erwachsen“ oder „älter“."
+    },
+    {
+      "id": "basso",
+      "word": "basso",
+      "alt": ["bassa"],
+      "de": "klein (Person); niedrig",
+      "pos": "adj",
+      "example": { "text": "Mia nonna è bassa e magra.", "de": "Meine Oma ist klein und schlank.", "focus": "bassa" }
+    },
+    {
+      "id": "magro",
+      "word": "magro",
+      "alt": ["magra"],
+      "de": "schlank; dünn",
+      "pos": "adj",
+      "example": { "text": "Marco è alto e magro.", "de": "Marco ist groß und schlank." }
+    },
+    {
+      "id": "robusto",
+      "word": "robusto",
+      "alt": ["robusta"],
+      "de": "kräftig; stämmig",
+      "pos": "adj",
+      "example": { "text": "Mio zio è un po' robusto.", "de": "Mein Onkel ist ein bisschen kräftig." },
+      "note": "Klingt freundlicher als grasso (dick)."
+    },
+    {
+      "id": "capelli",
+      "word": "capelli",
+      "article": "i",
+      "gender": "m",
+      "de": "die Haare",
+      "pos": "noun",
+      "example": { "text": "Mi piacciono i tuoi capelli!", "de": "Mir gefallen deine Haare!" },
+      "note": "Fast immer Mehrzahl: i capelli. Ein einzelnes Haar: un capello."
+    },
+    {
+      "id": "riccio",
+      "word": "riccio",
+      "alt": ["riccia", "ricci"],
+      "de": "lockig",
+      "pos": "adj",
+      "example": { "text": "Jonas ha i capelli ricci.", "de": "Jonas hat lockige Haare.", "focus": "ricci" },
+      "note": "Mehrzahl: ricci – i capelli ricci."
+    },
+    {
+      "id": "liscio",
+      "word": "liscio",
+      "alt": ["liscia", "lisci"],
+      "de": "glatt",
+      "pos": "adj",
+      "example": { "text": "Ho i capelli lisci e castani.", "de": "Ich habe glatte, braune Haare.", "focus": "lisci" },
+      "note": "Mehrzahl ohne zweites i: lisci."
+    },
+    {
+      "id": "biondo",
+      "word": "biondo",
+      "alt": ["bionda"],
+      "de": "blond",
+      "pos": "adj",
+      "example": { "text": "Lena è bionda.", "de": "Lena ist blond.", "focus": "bionda" }
+    },
+    {
+      "id": "castano",
+      "word": "castano",
+      "alt": ["castana", "castani"],
+      "de": "(kastanien)braun (Haare, Augen)",
+      "pos": "adj",
+      "example": { "text": "Marco ha gli occhi castani.", "de": "Marco hat braune Augen.", "focus": "castani" },
+      "note": "Für Haare und Augen sagt man castano, nicht marrone."
+    },
+    {
+      "id": "azzurro",
+      "word": "azzurro",
+      "alt": ["azzurra", "azzurri"],
+      "de": "hellblau; blau (Augen, Himmel)",
+      "pos": "adj",
+      "example": { "text": "Lena ha gli occhi azzurri.", "de": "Lena hat blaue Augen.", "focus": "azzurri" },
+      "note": "Blaue Augen sind immer azzurri. Die italienische Nationalmannschaft heißt gli Azzurri."
+    },
+    {
+      "id": "lungo",
+      "word": "lungo",
+      "alt": ["lunga", "lunghi"],
+      "de": "lang",
+      "pos": "adj",
+      "example": { "text": "Giulia ha i capelli lunghi.", "de": "Giulia hat lange Haare.", "focus": "lunghi" },
+      "note": "Mehrzahl mit h: lunghi, lunghe."
+    },
+    {
+      "id": "corto",
+      "word": "corto",
+      "alt": ["corta", "corti"],
+      "de": "kurz",
+      "pos": "adj",
+      "example": { "text": "Marco ha i capelli corti.", "de": "Marco hat kurze Haare.", "focus": "corti" }
+    },
+    {
+      "id": "occhiali",
+      "word": "occhiali",
+      "article": "gli",
+      "gender": "m",
+      "de": "die Brille",
+      "pos": "noun",
+      "example": { "text": "Mio padre porta gli occhiali.", "de": "Mein Vater trägt eine Brille." },
+      "note": "Immer Mehrzahl: gli occhiali. Sonnenbrille: gli occhiali da sole."
+    },
+    {
+      "id": "barba",
+      "word": "barba",
+      "article": "la",
+      "gender": "f",
+      "plural": "le barbe",
+      "de": "der Bart",
+      "pos": "noun",
+      "example": { "text": "Jonas porta la barba.", "de": "Jonas trägt einen Bart." },
+      "note": "Man sagt auch: ha la barba. Der Schnurrbart: i baffi."
+    },
+    {
+      "id": "sorriso",
+      "word": "sorriso",
+      "article": "il",
+      "gender": "m",
+      "plural": "i sorrisi",
+      "de": "das Lächeln",
+      "pos": "noun",
+      "example": { "text": "Sara ha un bel sorriso.", "de": "Sara hat ein schönes Lächeln." }
+    },
+    {
+      "id": "giovane",
+      "word": "giovane",
+      "de": "jung",
+      "pos": "adj",
+      "example": { "text": "La mamma di Giulia è molto giovane.", "de": "Giulias Mutter ist sehr jung." },
+      "note": "Mehrzahl: giovani. I giovani = die jungen Leute."
+    },
+    {
+      "id": "vecchio",
+      "word": "vecchio",
+      "alt": ["vecchia"],
+      "de": "alt",
+      "pos": "adj",
+      "example": { "text": "Il mio gatto è vecchio: ha quindici anni.", "de": "Mein Kater ist alt: Er ist fünfzehn." },
+      "note": "Bei Menschen klingt vecchio oft unhöflich. Netter: anziano (älter, betagt)."
+    },
+    {
+      "id": "simpatico",
+      "word": "simpatico",
+      "alt": ["simpatica"],
+      "de": "sympathisch; nett",
+      "pos": "adj",
+      "example": { "text": "Tuo fratello è molto simpatico!", "de": "Dein Bruder ist sehr sympathisch!" },
+      "note": "Mehrzahl: simpatici, aber weiblich simpatiche."
+    },
+    {
+      "id": "antipatico",
+      "word": "antipatico",
+      "alt": ["antipatica"],
+      "de": "unsympathisch",
+      "pos": "adj",
+      "example": { "text": "Quel cameriere è antipatico.", "de": "Dieser Kellner ist unsympathisch." }
+    },
+    {
+      "id": "gentile",
+      "word": "gentile",
+      "de": "freundlich; nett; höflich",
+      "pos": "adj",
+      "example": { "text": "La signora Bianchi è sempre gentile.", "de": "Frau Bianchi ist immer freundlich." },
+      "note": "Grazie, molto gentile! = Danke, sehr freundlich!"
+    },
+    {
+      "id": "allegro",
+      "word": "allegro",
+      "alt": ["allegra"],
+      "de": "fröhlich; lustig",
+      "pos": "adj",
+      "example": { "text": "Sara è una ragazza allegra.", "de": "Sara ist ein fröhliches Mädchen.", "focus": "allegra" }
+    },
+    {
+      "id": "timido",
+      "word": "timido",
+      "alt": ["timida"],
+      "de": "schüchtern",
+      "pos": "adj",
+      "example": { "text": "Marco è un po' timido.", "de": "Marco ist ein bisschen schüchtern." }
+    },
+    {
+      "id": "socievole",
+      "word": "socievole",
+      "de": "gesellig; kontaktfreudig",
+      "pos": "adj",
+      "example": { "text": "Giulia è molto socievole: conosce tutti!", "de": "Giulia ist sehr gesellig: Sie kennt alle!" }
+    },
+    {
+      "id": "intelligente",
+      "word": "intelligente",
+      "de": "intelligent; klug",
+      "pos": "adj",
+      "example": { "text": "Romeo è un gatto molto intelligente.", "de": "Romeo ist ein sehr kluger Kater." }
+    },
+    {
+      "id": "pigro",
+      "word": "pigro",
+      "alt": ["pigra"],
+      "de": "faul",
+      "pos": "adj",
+      "example": { "text": "La domenica sono pigro: dormo fino a mezzogiorno.", "de": "Sonntags bin ich faul: Ich schlafe bis Mittag." }
+    },
+    {
+      "id": "curioso",
+      "word": "curioso",
+      "alt": ["curiosa"],
+      "de": "neugierig",
+      "pos": "adj",
+      "example": { "text": "Mia sorella è molto curiosa.", "de": "Meine Schwester ist sehr neugierig.", "focus": "curiosa" }
+    },
+    {
+      "id": "serio",
+      "word": "serio",
+      "alt": ["seria"],
+      "de": "ernst; zuverlässig",
+      "pos": "adj",
+      "example": { "text": "Mio padre è serio, ma simpatico.", "de": "Mein Vater ist ernst, aber nett." },
+      "note": "Mehrzahl: seri (männlich), serie (weiblich)."
+    },
+    {
+      "id": "sincero",
+      "word": "sincero",
+      "alt": ["sincera"],
+      "de": "ehrlich; aufrichtig",
+      "pos": "adj",
+      "example": { "text": "Sara è sempre sincera con me.", "de": "Sara ist immer ehrlich zu mir.", "focus": "sincera" }
+    },
+    {
+      "id": "testardo",
+      "word": "testardo",
+      "alt": ["testarda"],
+      "de": "stur; dickköpfig",
+      "pos": "adj",
+      "example": { "text": "Mio fratello è testardo come un mulo!", "de": "Mein Bruder ist stur wie ein Esel!" },
+      "note": "Il mulo ist eigentlich das Maultier – auf Deutsch sagt man „stur wie ein Esel“."
+    },
+    {
+      "id": "generoso",
+      "word": "generoso",
+      "alt": ["generosa"],
+      "de": "großzügig",
+      "pos": "adj",
+      "example": { "text": "Marco è generoso: paga sempre lui!", "de": "Marco ist großzügig: Er bezahlt immer!" }
+    },
+    {
+      "id": "sportivo",
+      "word": "sportivo",
+      "alt": ["sportiva"],
+      "de": "sportlich",
+      "pos": "adj",
+      "example": {
+        "text": "Giulia è molto sportiva: va in palestra ogni giorno.",
+        "de": "Giulia ist sehr sportlich: Sie geht jeden Tag ins Fitnessstudio.",
+        "focus": "sportiva"
+      }
+    },
+    {
+      "id": "bravo",
+      "word": "bravo",
+      "alt": ["brava"],
+      "de": "gut (in etwas); tüchtig",
+      "pos": "adj",
+      "example": { "text": "Lena è molto brava a cantare.", "de": "Lena kann sehr gut singen.", "focus": "brava" },
+      "note": "Bravo! / Brava! = Super! Gut gemacht! Bravo in + Fach: È bravo in matematica."
+    },
+    {
+      "id": "assomigliare",
+      "word": "assomigliare",
+      "de": "ähnlich sehen; ähneln",
+      "pos": "verb",
+      "forms": "assomiglio, assomigli, assomiglia, assomigliamo, assomigliate, assomigliano",
+      "example": { "text": "Assomigli molto a tua madre!", "de": "Du siehst deiner Mutter sehr ähnlich!", "focus": "assomigli" },
+      "note": "Mit a: assomigliare a qualcuno. Mit Pronomen: Le assomiglio. = Ich sehe ihr ähnlich."
+    },
+    {
+      "id": "sembrare",
+      "word": "sembrare",
+      "de": "scheinen; wirken",
+      "pos": "verb",
+      "forms": "sembro, sembri, sembra, sembriamo, sembrate, sembrano",
+      "example": { "text": "Sembri stanca. Tutto bene?", "de": "Du wirkst müde. Alles okay?", "focus": "sembri" }
+    },
+    {
+      "id": "descrivere",
+      "word": "descrivere",
+      "de": "beschreiben",
+      "pos": "verb",
+      "forms": "descrivo, descrivi, descrive, descriviamo, descrivete, descrivono",
+      "example": { "text": "Puoi descrivere tuo fratello?", "de": "Kannst du deinen Bruder beschreiben?" },
+      "note": "Wie scrivere: Partizip descritto."
+    },
+    {
+      "id": "conoscere",
+      "word": "conoscere",
+      "de": "kennen; kennenlernen",
+      "pos": "verb",
+      "forms": "conosco, conosci, conosce, conosciamo, conoscete, conoscono",
+      "example": { "text": "Conosci mio fratello Jonas?", "de": "Kennst du meinen Bruder Jonas?", "focus": "conosci" },
+      "note": "Aussprache: conosco mit k, conosci mit sch. Im passato prossimo heißt es „kennengelernt“: Ho conosciuto Sara a Bologna."
+    },
+    {
+      "id": "gente",
+      "word": "gente",
+      "article": "la",
+      "gender": "f",
+      "de": "die Leute",
+      "pos": "noun",
+      "example": { "text": "A Bologna la gente è molto gentile.", "de": "In Bologna sind die Leute sehr freundlich." },
+      "note": "Immer Einzahl: La gente è simpatica. (Nicht: sono!)"
+    },
+    {
+      "id": "poco",
+      "word": "poco",
+      "alt": ["poca", "pochi", "poche"],
+      "de": "wenig",
+      "pos": "adv",
+      "example": { "text": "Mio fratello mangia poco.", "de": "Mein Bruder isst wenig." },
+      "note": "Vor einem Nomen passt es sich an: poca pazienza, pochi soldi. Mehr dazu in der Grammatik."
+    },
+    {
+      "id": "tanto",
+      "word": "tanto",
+      "alt": ["tanta", "tanti", "tante"],
+      "de": "viel; so viel; so sehr",
+      "pos": "adv",
+      "example": { "text": "Sara ha tanti amici.", "de": "Sara hat viele Freunde.", "focus": "tanti" }
+    },
+    {
+      "id": "pazienza",
+      "word": "pazienza",
+      "article": "la",
+      "gender": "f",
+      "de": "die Geduld",
+      "pos": "noun",
+      "example": { "text": "Ci vuole tanta pazienza!", "de": "Da braucht man viel Geduld!" },
+      "note": "Pazienza! allein heißt auch „Da kann man nichts machen!“"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "descrivere-aspetto",
+      "title": "Aussehen beschreiben: essere, avere, portare",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wie jemand aussieht, beschreibst du mit drei Verben: essere für die Figur, avere für Haare und Augen, portare für Brille, Bart oder Kleidung."
+        },
+        {
+          "type": "table",
+          "head": ["Verb", "Beispiel", "Deutsch"],
+          "rows": [
+            ["essere", "È alto e magro.", "Er ist groß und schlank."],
+            ["essere", "È bionda.", "Sie ist blond."],
+            ["avere", "Ha i capelli ricci.", "Er hat lockige Haare."],
+            ["avere", "Ha gli occhi azzurri.", "Sie hat blaue Augen."],
+            ["portare", "Porta gli occhiali.", "Er trägt eine Brille."],
+            ["portare", "Porta la barba.", "Er trägt einen Bart."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bei Haaren und Augen steht im Italienischen der bestimmte Artikel: Ha i capelli lunghi (wörtlich: Sie hat die langen Haare). Die Adjektive richten sich nach dem Nomen – i capelli und gli occhi (die Augen) sind männlich Mehrzahl, also -i: capelli neri, occhi verdi."
+        },
+        { "type": "tip", "text": "Blaue Augen sind occhi azzurri, braune Haare und Augen castani: Ha i capelli castani e gli occhi azzurri." },
+        {
+          "type": "p",
+          "text": "Ähnlichkeit: assomigliare a + Person. Mit Pronomen nimmst du die indirekten Pronomen aus Lektion 6: Assomiglio a mio padre. → Gli assomiglio. Assomigli a tua madre? → Le assomigli?"
+        },
+        { "type": "p", "text": "Wie jemand wirkt, sagst du mit sembrare + Adjektiv: Sembra simpatico. = Er wirkt nett." },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "Com'è Jonas? – È alto, ha i capelli biondi e porta gli occhiali.",
+              "de": "Wie sieht Jonas aus? – Er ist groß, hat blonde Haare und trägt eine Brille."
+            },
+            { "text": "Mia madre ha gli occhi azzurri e i capelli corti.", "de": "Meine Mutter hat blaue Augen und kurze Haare." },
+            { "text": "Sara assomiglia a sua nonna.", "de": "Sara sieht ihrer Oma ähnlich." },
+            { "text": "La signora Bianchi sembra molto seria.", "de": "Frau Bianchi wirkt sehr ernst." }
+          ]
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Marco ___ i capelli corti.", "answers": ["ha"], "de": "Marco hat kurze Haare." },
+        { "type": "cloze", "text": "Lena ___ alta e bionda.", "answers": ["è"], "de": "Lena ist groß und blond." },
+        {
+          "type": "cloze",
+          "text": "Mio nonno ___ gli occhiali e la barba.",
+          "answers": ["porta", "ha"],
+          "de": "Mein Opa trägt eine Brille und einen Bart."
+        },
+        { "type": "cloze", "text": "Giulia ha gli occhi ___.", "answers": ["azzurri"], "de": "Giulia hat blaue Augen.", "hint": "azzurro" },
+        { "type": "cloze", "text": "Assomigli ___ tuo padre?", "answers": ["a"], "de": "Siehst du deinem Vater ähnlich?" },
+        {
+          "type": "translate",
+          "de": "Sie hat lange, lockige Haare.",
+          "answers": ["Ha i capelli lunghi e ricci.", "Lei ha i capelli lunghi e ricci.", "Ha i capelli ricci e lunghi.", "Lei ha i capelli ricci e lunghi."]
+        },
+        {
+          "type": "translate",
+          "de": "Ich sehe meiner Mutter ähnlich.",
+          "answers": ["Assomiglio a mia madre.", "Io assomiglio a mia madre.", "Assomiglio a mia mamma.", "Io assomiglio a mia mamma."]
+        },
+        { "type": "order", "de": "Er ist groß und trägt eine Brille.", "answer": "È alto e porta gli occhiali." }
+      ]
+    },
+    {
+      "id": "superlativo",
+      "title": "Der Größte, sehr groß: der Superlativ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Den relativen Superlativ (der / die / das …ste) bildest du mit Artikel + più + Adjektiv. Die Gruppe, mit der du vergleichst, steht nach di (mit Artikel: del, della, dei …)."
+        },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Jonas è il più alto della famiglia.", "Jonas ist der Größte in der Familie."],
+            ["Sara è la più simpatica di tutti.", "Sara ist die Netteste von allen."],
+            ["Marco e Luca sono i più sportivi della classe.", "Marco und Luca sind die Sportlichsten der Klasse."],
+            ["È il ristorante più caro di Bologna.", "Das ist das teuerste Restaurant von Bologna."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Steht ein Nomen dabei, kommt più nach dem Nomen, und der Artikel steht nur einmal: il ristorante più caro. Das Gegenteil geht mit meno: la camera meno cara = das billigste Zimmer (wörtlich: das am wenigsten teure)."
+        },
+        {
+          "type": "p",
+          "text": "Den absoluten Superlativ (sehr …, total …) bildest du mit -issimo: Endung des Adjektivs weg, dann -issimo, -issima, -issimi oder -issime anhängen. Das ist stärker als molto + Adjektiv."
+        },
+        {
+          "type": "table",
+          "head": ["Adjektiv", "-issimo", "Deutsch"],
+          "rows": [
+            ["bello", "bellissimo", "wunderschön"],
+            ["alto", "altissimo", "sehr groß"],
+            ["simpatico", "simpaticissimo", "total nett"],
+            ["lungo", "lunghissimo", "sehr lang"],
+            ["gentile", "gentilissimo", "äußerst freundlich"],
+            ["buono", "buonissimo", "sehr gut; superlecker"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Die -issimo-Form richtet sich nach der männlichen Mehrzahl: lunghi → lunghissimo, simpatici → simpaticissimo. Auch bei Adverbien: bene → benissimo, molto → moltissimo."
+        },
+        {
+          "type": "tip",
+          "text": "Statt buonissimo hört man oft ottimo: Il caffè è ottimo! Und mit migliore aus Lektion 4: È il migliore ristorante di Bologna. = Es ist das beste Restaurant von Bologna."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Il tiramisù di Giulia è buonissimo!", "de": "Giulias Tiramisu ist superlecker!" },
+            { "text": "Lena è la più giovane del corso.", "de": "Lena ist die Jüngste im Kurs." },
+            { "text": "Grazie, sei gentilissima!", "de": "Danke, das ist wirklich sehr lieb von dir!" },
+            { "text": "Il Lago di Garda è il lago più grande d'Italia.", "de": "Der Gardasee ist der größte See Italiens." }
+          ]
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Jonas è il ___ alto della famiglia.", "answers": ["più"], "de": "Jonas ist der Größte in der Familie." },
+        {
+          "type": "cloze",
+          "text": "Sara è la più simpatica ___ classe.",
+          "answers": ["della"],
+          "de": "Sara ist die Netteste der Klasse.",
+          "hint": "di + la"
+        },
+        {
+          "type": "cloze",
+          "text": "Questa pizza è ___!",
+          "answers": ["buonissima", "ottima"],
+          "de": "Diese Pizza ist superlecker!",
+          "hint": "buono, -issimo"
+        },
+        {
+          "type": "cloze",
+          "text": "I capelli di Giulia sono ___.",
+          "answers": ["lunghissimi"],
+          "de": "Giulias Haare sind sehr, sehr lang.",
+          "hint": "lungo, -issimo"
+        },
+        {
+          "type": "translate",
+          "de": "Das ist das teuerste Hotel der Stadt.",
+          "answers": [
+            "È l'albergo più caro della città.",
+            "Questo è l'albergo più caro della città.",
+            "È l'hotel più caro della città.",
+            "Questo è l'hotel più caro della città."
+          ]
+        },
+        { "type": "translate", "de": "Marco ist der Sportlichste von allen.", "answers": ["Marco è il più sportivo di tutti."] },
+        { "type": "order", "de": "Mein Bruder ist der Lustigste in der Familie.", "answer": "Mio fratello è il più divertente della famiglia." }
+      ]
+    },
+    {
+      "id": "molto-poco-tanto",
+      "title": "Molto, poco, tanto: Adjektiv oder Adverb?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Molto (viel / sehr), poco (wenig), tanto (viel / so viel) und troppo (zu viel / zu) haben zwei Rollen – und je nach Rolle ändern sie sich oder nicht."
+        },
+        { "type": "p", "text": "Vor einem Nomen sind sie Adjektive und richten sich nach dem Nomen (wie rosso, rossa, rossi, rosse):" },
+        {
+          "type": "table",
+          "head": ["Nomen", "Einzahl", "Mehrzahl"],
+          "rows": [
+            ["männlich", "molto tempo · poco pane · tanto lavoro", "molti amici · pochi giorni · tanti turisti"],
+            ["weiblich", "molta pazienza · poca acqua · tanta gente", "molte persone · poche foto · tante pizze"]
+          ]
+        },
+        { "type": "p", "text": "Bei einem Verb oder Adjektiv sind sie Adverbien und bleiben immer gleich (Endung -o):" },
+        {
+          "type": "table",
+          "head": ["Italienisch", "Deutsch"],
+          "rows": [
+            ["Sara è molto simpatica.", "Sara ist sehr nett."],
+            ["Le ragazze sono tanto gentili.", "Die Mädchen sind so freundlich."],
+            ["Marco mangia poco.", "Marco isst wenig."],
+            ["Lena parla tanto.", "Lena redet viel."],
+            ["Lavori troppo!", "Du arbeitest zu viel!"]
+          ]
+        },
+        { "type": "tip", "text": "Faustregel: Folgt ein Nomen, passt du die Endung an (molte persone). Sonst bleibt es bei -o (molto simpatiche)." },
+        {
+          "type": "tip",
+          "text": "Poco vor einem Adjektiv heißt „nicht sehr“: È poco simpatico. = Er ist nicht besonders nett. Un po' (ein bisschen) ist etwas anderes: È un po' timido. = Er ist ein bisschen schüchtern."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "A Bologna ho molti amici.", "de": "In Bologna habe ich viele Freunde." },
+            { "text": "Mia nonna ha tanta pazienza.", "de": "Meine Oma hat so viel Geduld." },
+            { "text": "Jonas è molto curioso e parla poco.", "de": "Jonas ist sehr neugierig und redet wenig." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Sara ha ___ amici a Bologna.",
+          "answers": ["molti", "tanti"],
+          "de": "Sara hat viele Freunde in Bologna.",
+          "hint": "molto"
+        },
+        {
+          "type": "cloze",
+          "text": "Le tue amiche sono ___ simpatiche.",
+          "answers": ["molto", "tanto"],
+          "de": "Deine Freundinnen sind sehr nett.",
+          "hint": "molto"
+        },
+        { "type": "cloze", "text": "Marco ha ___ pazienza.", "answers": ["poca"], "de": "Marco hat wenig Geduld.", "hint": "poco" },
+        {
+          "type": "cloze",
+          "text": "Ad agosto ci sono ___ turisti a Venezia.",
+          "answers": ["tanti", "molti", "troppi"],
+          "de": "Im August gibt es viele Touristen in Venedig.",
+          "hint": "tanto"
+        },
+        { "type": "cloze", "text": "Abbiamo ___ tempo: andiamo!", "answers": ["poco"], "de": "Wir haben wenig Zeit: Lass uns gehen!", "hint": "poco" },
+        { "type": "translate", "de": "Du arbeitest zu viel!", "answers": ["Lavori troppo!", "Tu lavori troppo!"] },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": ["Giulia è molta gentile.", "Giulia è molto gentile.", "Giulia è molte gentile."],
+          "answer": 1,
+          "explain": "Vor einem Adjektiv ist molto ein Adverb und bleibt gleich."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Com'è tuo fratello?",
+    "title_de": "Wie ist dein Bruder?",
+    "lines": [
+      {
+        "speaker": "Lena",
+        "text": "Sara, domani arriva mio fratello Jonas, ma io ho il corso fino all'una. Puoi andare tu alla stazione?",
+        "de": "Sara, morgen kommt mein Bruder Jonas, aber ich habe bis eins Kurs. Kannst du zum Bahnhof gehen?"
+      },
+      { "speaker": "Sara", "text": "Certo! Ma non lo conosco. Com'è?", "de": "Klar! Aber ich kenne ihn nicht. Wie sieht er aus?" },
+      {
+        "speaker": "Lena",
+        "text": "È altissimo: è il più alto della famiglia! Ha i capelli biondi e ricci.",
+        "de": "Er ist riesig: Er ist der Größte in der Familie! Er hat blonde, lockige Haare."
+      },
+      { "speaker": "Sara", "text": "Porta gli occhiali?", "de": "Trägt er eine Brille?" },
+      {
+        "speaker": "Lena",
+        "text": "Sì, e porta la barba. Ha ventotto anni, ma sembra più giovane.",
+        "de": "Ja, und er hat einen Bart. Er ist achtundzwanzig, aber er wirkt jünger."
+      },
+      { "speaker": "Sara", "text": "Ti assomiglia?", "de": "Sieht er dir ähnlich?" },
+      {
+        "speaker": "Lena",
+        "text": "Un po'. Abbiamo gli occhi azzurri di nostra madre. Ma io sono bassa!",
+        "de": "Ein bisschen. Wir haben die blauen Augen unserer Mutter. Aber ich bin klein!"
+      },
+      { "speaker": "Sara", "text": "E che carattere ha? È simpatico come te?", "de": "Und was für ein Typ ist er? Ist er so nett wie du?" },
+      {
+        "speaker": "Lena",
+        "text": "È molto simpatico e divertente, ma a volte è un po' timido.",
+        "de": "Er ist sehr nett und lustig, aber manchmal ist er ein bisschen schüchtern."
+      },
+      { "speaker": "Sara", "text": "Va bene, allora io parlo tanto per due!", "de": "Okay, dann rede ich eben für zwei!" },
+      {
+        "speaker": "Lena",
+        "text": "Perfetto! E lui è molto curioso: gli piace tantissimo l'Italia.",
+        "de": "Perfekt! Und er ist sehr neugierig: Italien gefällt ihm total gut."
+      },
+      {
+        "speaker": "Sara",
+        "text": "Scusa, sei Jonas? Io sono Sara, l'amica di Lena!",
+        "de": "Entschuldigung, bist du Jonas? Ich bin Sara, Lenas Freundin!"
+      },
+      { "speaker": "Jonas", "text": "Ciao, Sara! Sì, sono io. Piacere!", "de": "Hallo, Sara! Ja, das bin ich. Freut mich!" },
+      {
+        "speaker": "Sara",
+        "text": "Piacere! Lena ti ha descritto molto bene: alto, biondo, con gli occhiali e la barba!",
+        "de": "Freut mich! Lena hat dich sehr gut beschrieben: groß, blond, mit Brille und Bart!"
+      },
+      {
+        "speaker": "Jonas",
+        "text": "E Lena dice che tu sei la persona più gentile di Bologna!",
+        "de": "Und Lena sagt, dass du der netteste Mensch in Bologna bist!"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Grazie, sei gentilissimo! Andiamo, Lena è già al bar.",
+        "de": "Danke, das ist sehr lieb von dir! Komm, Lena ist schon in der Bar."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [["alto", "groß (Person)"], ["basso", "klein (Person)"], ["magro", "schlank"], ["giovane", "jung"], ["vecchio", "alt"]]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["simpatico", "sympathisch"],
+        ["timido", "schüchtern"],
+        ["pigro", "faul"],
+        ["generoso", "großzügig"],
+        ["curioso", "neugierig"],
+        ["testardo", "stur"]
+      ]
+    },
+    { "type": "translate", "de": "Wie ist deine Schwester?", "answers": ["Com'è tua sorella?", "Come è tua sorella?"] },
+    {
+      "type": "translate",
+      "de": "Er hat braune Augen und kurze Haare.",
+      "answers": [
+        "Ha gli occhi castani e i capelli corti.",
+        "Lui ha gli occhi castani e i capelli corti.",
+        "Ha i capelli corti e gli occhi castani.",
+        "Lui ha i capelli corti e gli occhi castani.",
+        "Ha gli occhi marroni e i capelli corti.",
+        "Lui ha gli occhi marroni e i capelli corti."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Die Leute hier sind sehr freundlich.",
+      "answers": [
+        "La gente qui è molto gentile.",
+        "Qui la gente è molto gentile.",
+        "La gente qui è gentilissima.",
+        "Qui la gente è gentilissima.",
+        "La gente è molto gentile qui."
+      ]
+    },
+    { "type": "cloze", "text": "Marco non è ___: non fa mai sport.", "answers": ["sportivo"], "de": "Marco ist nicht sportlich: Er macht nie Sport." },
+    { "type": "cloze", "text": "Mia nonna ha ___ capelli bianchi.", "answers": ["i"], "de": "Meine Oma hat weiße Haare.", "hint": "Artikel" },
+    { "type": "order", "de": "Sara sieht ihrer Oma sehr ähnlich.", "answer": "Sara assomiglia molto a sua nonna." },
+    { "type": "order", "de": "Dein Freund wirkt sehr nett.", "answer": "Il tuo amico sembra molto simpatico." },
+    {
+      "type": "listen",
+      "text": "Mio fratello è alto, ha i capelli ricci e porta gli occhiali.",
+      "de": "Mein Bruder ist groß, hat lockige Haare und trägt eine Brille."
+    },
+    { "type": "listen", "text": "Giulia è la più giovane della famiglia.", "de": "Giulia ist die Jüngste in der Familie." },
+    { "type": "listen", "text": "Lena è sincera e molto socievole.", "de": "Lena ist ehrlich und sehr gesellig." }
+  ]
+}

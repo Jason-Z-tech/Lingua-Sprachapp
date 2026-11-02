@@ -1,0 +1,170 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-04",
+  "lang": "es",
+  "level": "A2",
+  "number": 4,
+  "title": "¿Qué tiempo hace?",
+  "title_de": "Wetter und Jahreszeiten",
+  "topic": "Über das Wetter sprechen",
+  "goals": [
+    "Du kannst sagen, wie das Wetter ist: hace calor, llueve, está nublado …",
+    "Du kannst die Monate und Jahreszeiten nennen und ein Datum angeben (el 3 de mayo).",
+    "Du kannst Dinge, Orte und Personen vergleichen: más … que, menos … que, tan … como, mejor, peor, mayor, menor."
+  ],
+  "vocab": [
+    { "id": "tiempo", "word": "tiempo", "article": "el", "gender": "m", "de": "das Wetter; die Zeit", "pos": "noun", "example": { "text": "¿Qué tiempo hace hoy?", "de": "Wie ist das Wetter heute?" }, "note": "Tiempo heißt auch „Zeit“: No tengo tiempo. Die Freizeit = el tiempo libre." },
+    { "id": "calor", "word": "calor", "article": "el", "gender": "m", "de": "die Hitze; die Wärme", "pos": "noun", "example": { "text": "En agosto hace mucho calor.", "de": "Im August ist es sehr heiß." }, "note": "Hace calor = es ist heiß. Tengo calor = mir ist heiß." },
+    { "id": "frio", "word": "frío", "article": "el", "gender": "m", "de": "die Kälte", "pos": "noun", "example": { "text": "En invierno hace frío.", "de": "Im Winter ist es kalt." }, "note": "Auch Adjektiv: frío, fría (kalt) – El agua está fría. Tengo frío = mir ist kalt." },
+    { "id": "sol", "word": "sol", "article": "el", "gender": "m", "de": "die Sonne", "pos": "noun", "example": { "text": "Hoy hace sol.", "de": "Heute scheint die Sonne." } },
+    { "id": "viento", "word": "viento", "article": "el", "gender": "m", "plural": "los vientos", "de": "der Wind", "pos": "noun", "example": { "text": "Hace mucho viento en la playa.", "de": "Am Strand ist es sehr windig." } },
+    { "id": "lluvia", "word": "lluvia", "article": "la", "gender": "f", "plural": "las lluvias", "de": "der Regen", "pos": "noun", "example": { "text": "No me gusta la lluvia.", "de": "Ich mag keinen Regen." } },
+    { "id": "nieve", "word": "nieve", "article": "la", "gender": "f", "de": "der Schnee", "pos": "noun", "example": { "text": "En invierno hay nieve en la montaña.", "de": "Im Winter liegt in den Bergen Schnee." } },
+    { "id": "tormenta", "word": "tormenta", "article": "la", "gender": "f", "plural": "las tormentas", "de": "das Gewitter; der Sturm", "pos": "noun", "example": { "text": "Esta noche va a haber tormenta.", "de": "Heute Nacht gibt es ein Gewitter." } },
+    { "id": "llover", "word": "llover", "de": "regnen", "pos": "verb", "forms": "llueve (o → ue) – está lloviendo", "example": { "text": "En Madrid no llueve mucho.", "de": "In Madrid regnet es nicht viel.", "focus": "llueve" }, "note": "Nur in der er/sie/es-Form: llueve = es regnet." },
+    { "id": "nevar", "word": "nevar", "de": "schneien", "pos": "verb", "forms": "nieva (e → ie) – está nevando", "example": { "text": "En Zúrich nieva en invierno.", "de": "In Zürich schneit es im Winter.", "focus": "nieva" } },
+    { "id": "nublado", "word": "nublado", "alt": [ "nublada" ], "de": "bewölkt", "pos": "adj", "example": { "text": "Hoy está nublado.", "de": "Heute ist es bewölkt." }, "note": "Mit estar: Está nublado. Der Himmel: el cielo está nublado." },
+    { "id": "temperatura", "word": "temperatura", "article": "la", "gender": "f", "plural": "las temperaturas", "de": "die Temperatur", "pos": "noun", "example": { "text": "¿Qué temperatura hace hoy?", "de": "Wie warm ist es heute?" } },
+    { "id": "grado", "word": "grado", "article": "el", "gender": "m", "plural": "los grados", "de": "der Grad", "pos": "noun", "example": { "text": "Hoy hace treinta y cinco grados.", "de": "Heute hat es fünfunddreißig Grad.", "focus": "grados" } },
+    { "id": "primavera", "word": "primavera", "article": "la", "gender": "f", "plural": "las primaveras", "de": "der Frühling", "pos": "noun", "example": { "text": "En primavera hace buen tiempo.", "de": "Im Frühling ist das Wetter schön." } },
+    { "id": "verano", "word": "verano", "article": "el", "gender": "m", "plural": "los veranos", "de": "der Sommer", "pos": "noun", "example": { "text": "En verano vamos a la playa.", "de": "Im Sommer fahren wir an den Strand." } },
+    { "id": "otono", "word": "otoño", "article": "el", "gender": "m", "plural": "los otoños", "de": "der Herbst", "pos": "noun", "example": { "text": "En otoño llueve mucho.", "de": "Im Herbst regnet es viel." } },
+    { "id": "invierno", "word": "invierno", "article": "el", "gender": "m", "plural": "los inviernos", "de": "der Winter", "pos": "noun", "example": { "text": "El invierno en Madrid es frío.", "de": "Der Winter in Madrid ist kalt." } },
+    { "id": "mes", "word": "mes", "article": "el", "gender": "m", "plural": "los meses", "de": "der Monat", "pos": "noun", "example": { "text": "Diciembre es mi mes favorito.", "de": "Dezember ist mein Lieblingsmonat." } },
+    { "id": "fecha", "word": "fecha", "article": "la", "gender": "f", "plural": "las fechas", "de": "das Datum", "pos": "noun", "example": { "text": "¿Qué fecha es hoy?", "de": "Welches Datum ist heute?" } },
+    { "id": "enero", "word": "enero", "article": "el", "gender": "m", "de": "der Januar", "pos": "noun", "example": { "text": "En enero hace mucho frío.", "de": "Im Januar ist es sehr kalt." }, "note": "Monate schreibt man klein und meist ohne Artikel: en enero (im Januar), el 3 de enero (am 3. Januar)." },
+    { "id": "febrero", "word": "febrero", "article": "el", "gender": "m", "de": "der Februar", "pos": "noun", "example": { "text": "En febrero nieva en la montaña.", "de": "Im Februar schneit es in den Bergen." } },
+    { "id": "marzo", "word": "marzo", "article": "el", "gender": "m", "de": "der März", "pos": "noun", "example": { "text": "El veintiuno de marzo empieza la primavera.", "de": "Am einundzwanzigsten März beginnt der Frühling." } },
+    { "id": "abril", "word": "abril", "article": "el", "gender": "m", "de": "der April", "pos": "noun", "example": { "text": "En abril llueve mucho.", "de": "Im April regnet es viel." } },
+    { "id": "mayo", "word": "mayo", "article": "el", "gender": "m", "de": "der Mai", "pos": "noun", "example": { "text": "Hoy es tres de mayo.", "de": "Heute ist der dritte Mai." } },
+    { "id": "junio", "word": "junio", "article": "el", "gender": "m", "de": "der Juni", "pos": "noun", "example": { "text": "En junio empieza el verano.", "de": "Im Juni beginnt der Sommer." } },
+    { "id": "julio", "word": "julio", "article": "el", "gender": "m", "de": "der Juli", "pos": "noun", "example": { "text": "En julio voy a la playa con mis amigos.", "de": "Im Juli fahre ich mit meinen Freunden an den Strand." } },
+    { "id": "agosto", "word": "agosto", "article": "el", "gender": "m", "de": "der August", "pos": "noun", "example": { "text": "En agosto hace mucho calor en Sevilla.", "de": "Im August ist es in Sevilla sehr heiß." } },
+    { "id": "septiembre", "word": "septiembre", "article": "el", "gender": "m", "de": "der September", "pos": "noun", "example": { "text": "En septiembre empiezo un trabajo nuevo.", "de": "Im September fange ich eine neue Stelle an." } },
+    { "id": "octubre", "word": "octubre", "article": "el", "gender": "m", "de": "der Oktober", "pos": "noun", "example": { "text": "En octubre hace viento.", "de": "Im Oktober ist es windig." } },
+    { "id": "noviembre", "word": "noviembre", "article": "el", "gender": "m", "de": "der November", "pos": "noun", "example": { "text": "Noviembre es un mes gris.", "de": "Der November ist ein grauer Monat." } },
+    { "id": "diciembre", "word": "diciembre", "article": "el", "gender": "m", "de": "der Dezember", "pos": "noun", "example": { "text": "En diciembre nieva en Zúrich.", "de": "Im Dezember schneit es in Zürich." } },
+    { "id": "bueno", "word": "bueno", "alt": [ "buena" ], "de": "gut", "pos": "adj", "example": { "text": "Hoy hace buen tiempo.", "de": "Heute ist schönes Wetter.", "focus": "buen" }, "note": "Vor einem männlichen Nomen in der Einzahl: buen – un buen día, buen tiempo. Vergleich: mejor." },
+    { "id": "malo", "word": "malo", "alt": [ "mala" ], "de": "schlecht", "pos": "adj", "example": { "text": "Hoy hace mal tiempo.", "de": "Heute ist schlechtes Wetter.", "focus": "mal" }, "note": "Vor einem männlichen Nomen in der Einzahl: mal – mal tiempo. Vergleich: peor." },
+    { "id": "mejor", "word": "mejor", "de": "besser", "pos": "adj", "example": { "text": "El verano es mejor que el invierno.", "de": "Der Sommer ist besser als der Winter." }, "note": "Vergleichsform von bueno und bien. Mehrzahl: mejores." },
+    { "id": "peor", "word": "peor", "de": "schlechter; schlimmer", "pos": "adj", "example": { "text": "El tiempo en Zúrich es peor que en Madrid.", "de": "Das Wetter in Zürich ist schlechter als in Madrid." }, "note": "Vergleichsform von malo und mal. Mehrzahl: peores." },
+    { "id": "menor", "word": "menor", "de": "jünger; kleiner", "pos": "adj", "example": { "text": "Mi hermana es menor que yo.", "de": "Meine Schwester ist jünger als ich." }, "note": "Gegenteil: mayor (älter). Gleiche Form für männlich und weiblich." },
+    { "id": "menos", "word": "menos", "de": "weniger", "pos": "adv", "example": { "text": "En Zúrich hace menos calor que en Sevilla.", "de": "In Zürich ist es weniger heiß als in Sevilla." }, "note": "Gegenteil: más. Menos cuarto (Viertel vor) kennst du schon." },
+    { "id": "tan", "word": "tan", "de": "so", "pos": "adv", "example": { "text": "Zúrich no es tan grande como Madrid.", "de": "Zürich ist nicht so groß wie Madrid." }, "note": "tan … como = so … wie. ¡Qué día tan bonito! = Was für ein schöner Tag!" },
+    { "id": "paraguas", "word": "paraguas", "article": "el", "gender": "m", "plural": "los paraguas", "de": "der Regenschirm", "pos": "noun", "example": { "text": "Llueve: ¿tienes un paraguas?", "de": "Es regnet: Hast du einen Regenschirm?" }, "note": "Gleich in Einzahl und Mehrzahl." },
+    { "id": "abrigo", "word": "abrigo", "article": "el", "gender": "m", "plural": "los abrigos", "de": "der Mantel", "pos": "noun", "example": { "text": "Hace frío y necesito un abrigo.", "de": "Es ist kalt, und ich brauche einen Mantel." } }
+  ],
+  "grammar": [
+    {
+      "id": "el-tiempo", "title": "Wie ist das Wetter? hace, hay, está, llueve",
+      "blocks": [
+        { "type": "p", "text": "Nach dem Wetter fragst du mit ¿Qué tiempo hace? Für die Antwort gibt es ein paar feste Muster:" },
+        { "type": "table", "head": [ "Muster", "Spanisch", "Deutsch" ], "rows": [ [ "hace + Nomen", "Hace calor. / Hace frío.", "Es ist heiß. / Es ist kalt." ], [ "hace + Nomen", "Hace sol. / Hace viento.", "Die Sonne scheint. / Es ist windig." ], [ "hace + buen / mal tiempo", "Hace buen tiempo. / Hace mal tiempo.", "Das Wetter ist schön. / Das Wetter ist schlecht." ], [ "está + Adjektiv", "Está nublado.", "Es ist bewölkt." ], [ "hay + Nomen", "Hay tormenta. / Hay nieve.", "Es gibt ein Gewitter. / Es liegt Schnee." ], [ "Verb allein", "Llueve. / Nieva.", "Es regnet. / Es schneit." ] ] },
+        { "type": "tip", "text": "Calor, frío, sol und viento sind Nomen. Deshalb sagt man mucho, nicht muy: Hace mucho calor. Hace mucho viento. Aber vor einem Adjektiv steht muy: Hace muy buen tiempo." },
+        { "type": "p", "text": "Llover (o → ue) und nevar (e → ie) gibt es nur in der es-Form: llueve, nieva. Was gerade passiert, sagst du mit estar + Gerundium (Lektion 2): Está lloviendo. Está nevando." },
+        { "type": "p", "text": "Temperaturen gibst du so an: Hace treinta grados. oder Estamos a treinta grados. Minusgrade: Estamos a cinco grados bajo cero." },
+        { "type": "examples", "items": [ { "text": "¿Qué tiempo hace en Zúrich? – Hace frío y nieva.", "de": "Wie ist das Wetter in Zürich? – Es ist kalt und es schneit." }, { "text": "Hoy hace muy buen tiempo.", "de": "Heute ist sehr schönes Wetter." }, { "text": "Está lloviendo: ¿tienes un paraguas?", "de": "Es regnet gerade: Hast du einen Regenschirm?" }, { "text": "En verano hace mucho calor en Sevilla.", "de": "Im Sommer ist es in Sevilla sehr heiß." }, { "text": "Está nublado, pero no llueve.", "de": "Es ist bewölkt, aber es regnet nicht." }, { "text": "Esta tarde va a haber tormenta.", "de": "Heute Nachmittag gibt es ein Gewitter." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hoy ___ mucho calor.", "answers": [ "hace" ], "de": "Heute ist es sehr heiß." },
+        { "type": "cloze", "text": "No hace sol, está ___.", "answers": [ "nublado" ], "de": "Die Sonne scheint nicht, es ist bewölkt." },
+        { "type": "cloze", "text": "En Zúrich ___ mucho en invierno.", "answers": [ "nieva" ], "de": "In Zürich schneit es im Winter viel.", "hint": "nevar" },
+        { "type": "cloze", "text": "Coge el paraguas, está ___.", "answers": [ "lloviendo" ], "de": "Nimm den Regenschirm, es regnet gerade.", "hint": "llover" },
+        { "type": "cloze", "text": "Hace ___ viento en la playa.", "answers": [ "mucho" ], "de": "Am Strand ist es sehr windig.", "hint": "muy oder mucho?" },
+        { "type": "cloze", "text": "Hoy hace ___ tiempo: sol y veinte grados.", "answers": [ "buen" ], "de": "Heute ist schönes Wetter: Sonne und zwanzig Grad.", "hint": "bueno" },
+        { "type": "cloze", "text": "En abril ___ mucho.", "answers": [ "llueve" ], "de": "Im April regnet es viel.", "hint": "llover" },
+        { "type": "translate", "de": "Wie ist das Wetter heute?", "answers": [ "¿Qué tiempo hace hoy?", "¿Hoy qué tiempo hace?" ] },
+        { "type": "translate", "de": "Es ist kalt und windig.", "answers": [ "Hace frío y viento.", "Hace frío y hace viento." ] },
+        { "type": "choice", "prompt": "Wie sagst du „Es ist sehr heiß“?", "options": [ "Hace muy calor.", "Hace mucho calor.", "Está mucho calor." ], "answer": 1, "explain": "Calor ist ein Nomen – deshalb mucho, nicht muy. Und beim Wetter heißt es hace." }
+      ]
+    },
+    {
+      "id": "meses-fechas", "title": "Monate, Jahreszeiten und das Datum",
+      "blocks": [
+        { "type": "p", "text": "Monate und Jahreszeiten schreibt man klein. Die Monate stehen meist ohne Artikel: en enero (im Januar). Bei Jahreszeiten geht beides: en verano oder en el verano." },
+        { "type": "table", "head": [ "Spanisch", "Deutsch", "Spanisch", "Deutsch" ], "rows": [ [ "enero", "Januar", "julio", "Juli" ], [ "febrero", "Februar", "agosto", "August" ], [ "marzo", "März", "septiembre", "September" ], [ "abril", "April", "octubre", "Oktober" ], [ "mayo", "Mai", "noviembre", "November" ], [ "junio", "Juni", "diciembre", "Dezember" ] ] },
+        { "type": "table", "head": [ "Jahreszeit", "Deutsch", "Monate (in Spanien)" ], "rows": [ [ "la primavera", "der Frühling", "marzo, abril, mayo" ], [ "el verano", "der Sommer", "junio, julio, agosto" ], [ "el otoño", "der Herbst", "septiembre, octubre, noviembre" ], [ "el invierno", "der Winter", "diciembre, enero, febrero" ] ] },
+        { "type": "p", "text": "Das Datum sagst du mit el + Zahl + de + Monat: el 3 de mayo (der 3. Mai). Anders als im Deutschen nimmst du die normale Zahl, keine Ordnungszahl. Nur beim Ersten hört man oft auch primero: el uno / el primero de enero." },
+        { "type": "table", "head": [ "Frage", "Antwort", "Deutsch" ], "rows": [ [ "¿Qué fecha es hoy?", "Hoy es 3 de mayo.", "Welches Datum ist heute? – Heute ist der 3. Mai." ], [ "¿A qué estamos hoy?", "Estamos a 3 de mayo.", "Der Wievielte ist heute? – Heute ist der 3. Mai." ], [ "¿Cuándo vuelves?", "El 15 de agosto.", "Wann kommst du zurück? – Am 15. August." ] ] },
+        { "type": "tip", "text": "„Am 15. August“ heißt einfach el 15 de agosto – ohne Präposition, genau wie bei den Wochentagen (el lunes). Mit Wochentag: el sábado 3 de mayo. ¿Cuándo? heißt „wann?“." },
+        { "type": "examples", "items": [ { "text": "Hoy es 21 de marzo: empieza la primavera.", "de": "Heute ist der 21. März: Der Frühling beginnt." }, { "text": "En verano hace calor.", "de": "Im Sommer ist es heiß." }, { "text": "Vuelvo de Viena el 2 de enero.", "de": "Ich komme am 2. Januar aus Wien zurück." }, { "text": "En España las vacaciones de verano son en agosto.", "de": "In Spanien sind die Sommerferien im August." }, { "text": "Estamos a 15 de noviembre.", "de": "Heute ist der 15. November." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hoy es 3 ___ mayo.", "answers": [ "de" ], "de": "Heute ist der 3. Mai." },
+        { "type": "cloze", "text": "En ___ hace frío y nieva.", "answers": [ "invierno" ], "de": "Im Winter ist es kalt und es schneit." },
+        { "type": "cloze", "text": "Después de marzo viene ___.", "answers": [ "abril" ], "de": "Nach März kommt April." },
+        { "type": "cloze", "text": "El año empieza en ___.", "answers": [ "enero" ], "de": "Das Jahr beginnt im Januar." },
+        { "type": "cloze", "text": "Julio y agosto son meses de ___.", "answers": [ "verano" ], "de": "Juli und August sind Sommermonate." },
+        { "type": "cloze", "text": "Vuelvo de vacaciones ___ 15 de agosto.", "answers": [ "el" ], "de": "Ich komme am 15. August aus dem Urlaub zurück." },
+        { "type": "cloze", "text": "En diciembre ya es ___.", "answers": [ "invierno" ], "de": "Im Dezember ist schon Winter." },
+        { "type": "translate", "de": "Heute ist der 12. Oktober.", "answers": [ "Hoy es 12 de octubre.", "Hoy es el 12 de octubre.", "Estamos a 12 de octubre.", "Hoy es doce de octubre.", "Hoy es el doce de octubre.", "Estamos a doce de octubre." ] },
+        { "type": "translate", "de": "Im Herbst regnet es viel.", "answers": [ "En otoño llueve mucho.", "En el otoño llueve mucho.", "Llueve mucho en otoño.", "Llueve mucho en el otoño." ] },
+        { "type": "order", "de": "Der Frühling beginnt am 21. März.", "answer": "La primavera empieza el veintiuno de marzo.", "distractors": [ "en" ] }
+      ]
+    },
+    {
+      "id": "comparativos", "title": "Vergleiche: más … que, tan … como, mejor, peor",
+      "blocks": [
+        { "type": "p", "text": "Mit Adjektiven vergleichst du so – das Adjektiv passt sich wie immer an das Nomen an:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch", "Beispiel" ], "rows": [ [ "más + Adjektiv + que", "-er als", "Madrid es más grande que Zúrich." ], [ "menos + Adjektiv + que", "weniger … als", "El autobús es menos rápido que el tren." ], [ "tan + Adjektiv + como", "so … wie", "Zúrich no es tan grande como Madrid." ] ] },
+        { "type": "p", "text": "Vier wichtige Formen sind unregelmäßig:" },
+        { "type": "table", "head": [ "Grundform", "Vergleich", "Beispiel" ], "rows": [ [ "bueno (gut)", "mejor (besser)", "El verano es mejor que el invierno." ], [ "malo (schlecht)", "peor (schlechter)", "La lluvia es peor que el frío." ], [ "viejo, grande (alt)", "mayor (älter)", "Mi hermano es mayor que yo." ], [ "joven, pequeño (jung)", "menor (jünger)", "Anna es menor que Jonas." ] ] },
+        { "type": "tip", "text": "Nach que steht yo oder tú (nicht mí oder ti): Mi hermano es mayor que yo. Bei Menschen benutzt man für das Alter mayor und menor. Más grande und más pequeño beschreiben eher die Größe." },
+        { "type": "p", "text": "Auch mit Nomen und Verben kannst du vergleichen: más / menos + Nomen + que: En Sevilla hace más calor que en Madrid. Verb + más / menos que: En otoño llueve más que en verano." },
+        { "type": "tip", "text": "Vor Zahlen heißt „mehr als“ más de: Hace más de treinta grados." },
+        { "type": "examples", "items": [ { "text": "Madrid es más grande que Zúrich.", "de": "Madrid ist größer als Zürich." }, { "text": "En Zúrich hace menos calor que en Sevilla.", "de": "In Zürich ist es weniger heiß als in Sevilla." }, { "text": "El verano es mejor que el invierno.", "de": "Der Sommer ist besser als der Winter." }, { "text": "Anna es menor que Jonas.", "de": "Anna ist jünger als Jonas." }, { "text": "El metro es tan rápido como el coche.", "de": "Die U-Bahn ist so schnell wie das Auto." }, { "text": "En noviembre hace peor tiempo que en mayo.", "de": "Im November ist das Wetter schlechter als im Mai." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Madrid es ___ grande que Zúrich.", "answers": [ "más" ], "de": "Madrid ist größer als Zürich." },
+        { "type": "cloze", "text": "El tren es más rápido ___ el autobús.", "answers": [ "que" ], "de": "Der Zug ist schneller als der Bus." },
+        { "type": "cloze", "text": "Zúrich no es ___ grande como Madrid.", "answers": [ "tan" ], "de": "Zürich ist nicht so groß wie Madrid." },
+        { "type": "cloze", "text": "El verano es ___ que el invierno.", "answers": [ "mejor" ], "de": "Der Sommer ist besser als der Winter.", "hint": "bueno" },
+        { "type": "cloze", "text": "Anna es ___ que Jonas.", "answers": [ "menor" ], "de": "Anna ist jünger als Jonas.", "hint": "jünger" },
+        { "type": "cloze", "text": "Mi abuelo es ___ que mi abuela.", "answers": [ "mayor" ], "de": "Mein Opa ist älter als meine Oma.", "hint": "älter" },
+        { "type": "cloze", "text": "En Zúrich hace ___ calor que en Sevilla.", "answers": [ "menos" ], "de": "In Zürich ist es weniger heiß als in Sevilla." },
+        { "type": "cloze", "text": "La lluvia es ___ que el frío.", "answers": [ "peor" ], "de": "Regen ist schlimmer als Kälte.", "hint": "malo" },
+        { "type": "translate", "de": "Mein Bruder ist älter als ich.", "answers": [ "Mi hermano es mayor que yo." ] },
+        { "type": "translate", "de": "Das Auto ist so schnell wie der Zug.", "answers": [ "El coche es tan rápido como el tren." ] },
+        { "type": "order", "de": "Im Sommer ist das Wetter besser als im Winter.", "answer": "En verano hace mejor tiempo que en invierno.", "distractors": [ "como" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué tiempo hace en Zúrich?",
+    "title_de": "Wie ist das Wetter in Zürich?",
+    "lines": [
+      { "speaker": "Lucía", "text": "¡Hola, Marta! ¿Qué tal por Zúrich?", "de": "Hallo, Marta! Wie ist es in Zürich?" },
+      { "speaker": "Marta", "text": "¡Muy bien! Pero hace mucho frío. Estamos a cinco grados bajo cero.", "de": "Sehr gut! Aber es ist sehr kalt. Wir haben minus fünf Grad." },
+      { "speaker": "Lucía", "text": "¡Qué frío! ¿Y nieva?", "de": "Wie kalt! Und schneit es?" },
+      { "speaker": "Marta", "text": "Sí, está nevando ahora mismo. Todo está blanco. ¡Es muy bonito!", "de": "Ja, es schneit gerade. Alles ist weiß. Das ist sehr schön!" },
+      { "speaker": "Marta", "text": "¿Y en Madrid? ¿Qué tiempo hace?", "de": "Und in Madrid? Wie ist das Wetter?" },
+      { "speaker": "Lucía", "text": "Aquí hace sol, pero también hace frío: solo tres grados.", "de": "Hier scheint die Sonne, aber es ist auch kalt: nur drei Grad." },
+      { "speaker": "Marta", "text": "Bueno, en Madrid hace menos frío que aquí.", "de": "Na ja, in Madrid ist es weniger kalt als hier." },
+      { "speaker": "Lucía", "text": "Sí, pero el invierno en Madrid no es tan bonito como en Zúrich. Aquí casi nunca nieva.", "de": "Ja, aber der Winter in Madrid ist nicht so schön wie in Zürich. Hier schneit es fast nie." },
+      { "speaker": "Marta", "text": "¿Cuándo vas a Sevilla, a casa de tus padres?", "de": "Wann fährst du nach Sevilla zu deinen Eltern?" },
+      { "speaker": "Lucía", "text": "En abril. En primavera Sevilla es muy bonita y hace buen tiempo.", "de": "Im April. Im Frühling ist Sevilla sehr schön und das Wetter ist gut." },
+      { "speaker": "Marta", "text": "¿Hace más calor que en Madrid?", "de": "Ist es dort wärmer als in Madrid?" },
+      { "speaker": "Lucía", "text": "¡Sí, mucho más! En julio y agosto hace más de cuarenta grados.", "de": "Ja, viel wärmer! Im Juli und August hat es über vierzig Grad." },
+      { "speaker": "Marta", "text": "¡Uf! Para mí, el invierno es mejor que el verano.", "de": "Uff! Für mich ist der Winter besser als der Sommer." },
+      { "speaker": "Lucía", "text": "Yo prefiero el calor. Oye, ¿cuándo vuelves a Madrid?", "de": "Ich mag die Hitze lieber. Sag mal, wann kommst du nach Madrid zurück?" },
+      { "speaker": "Marta", "text": "El siete de enero.", "de": "Am siebten Januar." },
+      { "speaker": "Lucía", "text": "¡Perfecto! Hasta el siete. ¡Cuídate!", "de": "Perfekt! Bis zum Siebten. Pass auf dich auf!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "febrero", "Februar" ], [ "abril", "April" ], [ "junio", "Juni" ], [ "agosto", "August" ], [ "octubre", "Oktober" ], [ "diciembre", "Dezember" ] ] },
+    { "type": "match", "pairs": [ [ "primavera", "Frühling" ], [ "verano", "Sommer" ], [ "otoño", "Herbst" ], [ "invierno", "Winter" ], [ "lluvia", "Regen" ], [ "nieve", "Schnee" ] ] },
+    { "type": "translate", "de": "Heute scheint die Sonne.", "answers": [ "Hoy hace sol.", "Hace sol hoy." ] },
+    { "type": "translate", "de": "Im Winter schneit es in den Bergen.", "answers": [ "En invierno nieva en la montaña.", "En el invierno nieva en la montaña.", "En invierno nieva en las montañas.", "Nieva en la montaña en invierno.", "En invierno, en la montaña nieva." ] },
+    { "type": "translate", "de": "In Sevilla ist es wärmer als in Madrid.", "answers": [ "En Sevilla hace más calor que en Madrid." ] },
+    { "type": "translate", "de": "Meine Schwester ist jünger als ich.", "answers": [ "Mi hermana es menor que yo.", "Mi hermana es más joven que yo.", "Mi hermana es más pequeña que yo." ] },
+    { "type": "order", "de": "Heute ist das Wetter schlecht.", "answer": "Hoy hace mal tiempo.", "distractors": [ "está" ] },
+    { "type": "order", "de": "Es regnet gerade: Nimm den Regenschirm.", "answer": "Está lloviendo: coge el paraguas." },
+    { "type": "cloze", "text": "Estamos a cinco grados bajo ___.", "answers": [ "cero" ], "de": "Wir haben minus fünf Grad." },
+    { "type": "cloze", "text": "¿Qué ___ es hoy? – Hoy es tres de mayo.", "answers": [ "fecha" ], "de": "Welches Datum ist heute? – Heute ist der dritte Mai." },
+    { "type": "cloze", "text": "El metro es ___ rápido como el coche.", "answers": [ "tan" ], "de": "Die U-Bahn ist so schnell wie das Auto." },
+    { "type": "listen", "text": "Hoy hace sol, pero hace mucho viento.", "de": "Heute scheint die Sonne, aber es ist sehr windig." },
+    { "type": "listen", "text": "En agosto hace más calor que en mayo.", "de": "Im August ist es heißer als im Mai." },
+    { "type": "listen", "text": "Mañana va a llover. ¿Tienes un paraguas?", "de": "Morgen regnet es. Hast du einen Regenschirm?" }
+  ]
+}

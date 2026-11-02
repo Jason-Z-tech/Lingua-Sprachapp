@@ -1,0 +1,173 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-04",
+  "lang": "it",
+  "level": "A2",
+  "number": 4,
+  "title": "Che tempo fa?",
+  "title_de": "Wetter und Jahreszeiten",
+  "topic": "Über das Wetter sprechen",
+  "goals": [
+    "Du kannst über das Wetter sprechen: Fa caldo, piove, c'è il sole, è nuvoloso.",
+    "Du kennst die Monate und Jahreszeiten und kannst ein Datum sagen: il primo maggio.",
+    "Du kannst vergleichen: più … di, meno … che, migliore, peggiore, tanto … quanto."
+  ],
+  "vocab": [
+    { "id": "tempo", "word": "tempo", "article": "il", "gender": "m", "de": "das Wetter; die Zeit", "pos": "noun", "example": { "text": "Oggi il tempo è bello.", "de": "Heute ist das Wetter schön." }, "note": "Il tempo heißt auch „die Zeit“: Non ho tempo. = Ich habe keine Zeit." },
+    { "id": "che-tempo-fa", "word": "che tempo fa?", "de": "wie ist das Wetter?", "pos": "phrase", "example": { "text": "Che tempo fa a Monaco?", "de": "Wie ist das Wetter in München?" } },
+    { "id": "fa-caldo", "word": "fa caldo", "de": "es ist warm; es ist heiß", "pos": "phrase", "example": { "text": "In estate a Bologna fa caldo.", "de": "Im Sommer ist es in Bologna heiß." }, "note": "Über das Wetter mit fare: fa caldo. Wenn dir warm ist: ho caldo." },
+    { "id": "fa-freddo", "word": "fa freddo", "de": "es ist kalt", "pos": "phrase", "example": { "text": "Oggi fa freddo e resto a casa.", "de": "Heute ist es kalt, und ich bleibe zu Hause." }, "note": "Wenn dir kalt ist: ho freddo." },
+    { "id": "brutto", "word": "brutto", "alt": ["brutta"], "de": "hässlich; schlecht", "pos": "adj", "example": { "text": "Che brutto tempo!", "de": "Was für ein schlechtes Wetter!" }, "note": "fa brutto tempo = das Wetter ist schlecht; fa bel tempo = das Wetter ist schön." },
+    { "id": "piovere", "word": "piovere", "de": "regnen", "pos": "verb", "forms": "piove – passato prossimo: ha piovuto / è piovuto", "example": { "text": "Oggi piove tutto il giorno.", "de": "Heute regnet es den ganzen Tag.", "focus": "piove" } },
+    { "id": "nevicare", "word": "nevicare", "de": "schneien", "pos": "verb", "forms": "nevica – passato prossimo: ha nevicato / è nevicato", "example": { "text": "A gennaio a Monaco nevica spesso.", "de": "Im Januar schneit es in München oft.", "focus": "nevica" } },
+    { "id": "sole", "word": "sole", "article": "il", "gender": "m", "de": "die Sonne", "pos": "noun", "example": { "text": "Oggi c'è il sole.", "de": "Heute scheint die Sonne." }, "note": "Die Sonne scheint = c'è il sole." },
+    { "id": "vento", "word": "vento", "article": "il", "gender": "m", "plural": "i venti", "de": "der Wind", "pos": "noun", "example": { "text": "Oggi c'è molto vento.", "de": "Heute ist es sehr windig." } },
+    { "id": "nebbia", "word": "nebbia", "article": "la", "gender": "f", "plural": "le nebbie", "de": "der Nebel", "pos": "noun", "example": { "text": "In inverno a Bologna c'è spesso la nebbia.", "de": "Im Winter ist es in Bologna oft neblig." } },
+    { "id": "pioggia", "word": "pioggia", "article": "la", "gender": "f", "plural": "le piogge", "de": "der Regen", "pos": "noun", "example": { "text": "Non mi piace la pioggia.", "de": "Ich mag keinen Regen." } },
+    { "id": "neve", "word": "neve", "article": "la", "gender": "f", "de": "der Schnee", "pos": "noun", "example": { "text": "Mi piace molto la neve.", "de": "Ich mag Schnee sehr." } },
+    { "id": "temporale", "word": "temporale", "article": "il", "gender": "m", "plural": "i temporali", "de": "das Gewitter", "pos": "noun", "example": { "text": "Ieri sera c'è stato un temporale.", "de": "Gestern Abend gab es ein Gewitter." } },
+    { "id": "cielo", "word": "cielo", "article": "il", "gender": "m", "plural": "i cieli", "de": "der Himmel", "pos": "noun", "example": { "text": "Il cielo è grigio.", "de": "Der Himmel ist grau." } },
+    { "id": "nuvoloso", "word": "nuvoloso", "alt": ["nuvolosa"], "de": "bewölkt", "pos": "adj", "example": { "text": "Oggi il cielo è nuvoloso.", "de": "Heute ist der Himmel bewölkt." } },
+    { "id": "sereno", "word": "sereno", "alt": ["serena"], "de": "heiter; wolkenlos", "pos": "adj", "example": { "text": "Domani il cielo è sereno.", "de": "Morgen ist der Himmel wolkenlos." } },
+    { "id": "grado", "word": "grado", "article": "il", "gender": "m", "plural": "i gradi", "de": "das Grad", "pos": "noun", "example": { "text": "Oggi ci sono trenta gradi!", "de": "Heute sind es dreißig Grad!", "focus": "gradi" }, "note": "Wie viel Grad sind es? = Quanti gradi ci sono?" },
+    { "id": "ombrello", "word": "ombrello", "article": "l'", "gender": "m", "plural": "gli ombrelli", "de": "der Regenschirm", "pos": "noun", "example": { "text": "Prendi l'ombrello, piove!", "de": "Nimm den Regenschirm mit, es regnet!" } },
+    { "id": "stagione", "word": "stagione", "article": "la", "gender": "f", "plural": "le stagioni", "de": "die Jahreszeit", "pos": "noun", "example": { "text": "In Italia ci sono quattro stagioni.", "de": "In Italien gibt es vier Jahreszeiten.", "focus": "stagioni" } },
+    { "id": "preferito", "word": "preferito", "alt": ["preferita"], "de": "Lieblings-", "pos": "adj", "example": { "text": "L'autunno è la mia stagione preferita.", "de": "Der Herbst ist meine Lieblingsjahreszeit.", "focus": "preferita" }, "note": "Steht nach dem Nomen: il mio mese preferito = mein Lieblingsmonat." },
+    { "id": "primavera", "word": "primavera", "article": "la", "gender": "f", "plural": "le primavere", "de": "der Frühling", "pos": "noun", "example": { "text": "In primavera fa bel tempo.", "de": "Im Frühling ist das Wetter schön." }, "note": "Im Frühling = in primavera." },
+    { "id": "estate", "word": "estate", "article": "l'", "gender": "f", "plural": "le estati", "de": "der Sommer", "pos": "noun", "example": { "text": "L'estate a Bologna è molto calda.", "de": "Der Sommer in Bologna ist sehr heiß." }, "note": "Im Sommer = in estate oder d'estate." },
+    { "id": "autunno", "word": "autunno", "article": "l'", "gender": "m", "plural": "gli autunni", "de": "der Herbst", "pos": "noun", "example": { "text": "In autunno piove spesso.", "de": "Im Herbst regnet es oft." } },
+    { "id": "inverno", "word": "inverno", "article": "l'", "gender": "m", "plural": "gli inverni", "de": "der Winter", "pos": "noun", "example": { "text": "L'inverno a Monaco è freddo.", "de": "Der Winter in München ist kalt." }, "note": "Im Winter = in inverno oder d'inverno." },
+    { "id": "mese", "word": "mese", "article": "il", "gender": "m", "plural": "i mesi", "de": "der Monat", "pos": "noun", "example": { "text": "Dicembre è l'ultimo mese dell'anno.", "de": "Der Dezember ist der letzte Monat des Jahres." } },
+    { "id": "gennaio", "word": "a gennaio", "alt": ["in gennaio"], "de": "im Januar", "pos": "phrase", "example": { "text": "A gennaio fa molto freddo.", "de": "Im Januar ist es sehr kalt." }, "note": "Monate schreibt man klein und meistens ohne Artikel. „Im …“ heißt a oder in: a gennaio, in gennaio." },
+    { "id": "febbraio", "word": "a febbraio", "alt": ["in febbraio"], "de": "im Februar", "pos": "phrase", "example": { "text": "Torno in Germania a febbraio.", "de": "Im Februar fahre ich zurück nach Deutschland." } },
+    { "id": "marzo", "word": "a marzo", "alt": ["in marzo"], "de": "im März", "pos": "phrase", "example": { "text": "A marzo arriva la primavera.", "de": "Im März kommt der Frühling." } },
+    { "id": "aprile", "word": "ad aprile", "alt": ["a aprile", "in aprile"], "de": "im April", "pos": "phrase", "example": { "text": "Ad aprile piove spesso.", "de": "Im April regnet es oft." }, "note": "Vor einem Vokal sagt man oft ad: ad aprile, ad agosto, ad ottobre." },
+    { "id": "maggio", "word": "a maggio", "alt": ["in maggio"], "de": "im Mai", "pos": "phrase", "example": { "text": "A maggio fa bel tempo.", "de": "Im Mai ist das Wetter schön." } },
+    { "id": "giugno", "word": "a giugno", "alt": ["in giugno"], "de": "im Juni", "pos": "phrase", "example": { "text": "A giugno finisce la scuola.", "de": "Im Juni ist die Schule zu Ende." } },
+    { "id": "luglio", "word": "a luglio", "alt": ["in luglio"], "de": "im Juli", "pos": "phrase", "example": { "text": "A luglio fa molto caldo.", "de": "Im Juli ist es sehr heiß." } },
+    { "id": "agosto", "word": "ad agosto", "alt": ["a agosto", "in agosto"], "de": "im August", "pos": "phrase", "example": { "text": "Ad agosto molti negozi sono chiusi.", "de": "Im August haben viele Geschäfte geschlossen." }, "note": "Am 15. August ist Ferragosto, ein großer Feiertag. Viele Italiener haben dann Urlaub." },
+    { "id": "settembre", "word": "a settembre", "alt": ["in settembre"], "de": "im September", "pos": "phrase", "example": { "text": "A settembre torno a Bologna.", "de": "Im September komme ich nach Bologna zurück." } },
+    { "id": "ottobre", "word": "ad ottobre", "alt": ["a ottobre", "in ottobre"], "de": "im Oktober", "pos": "phrase", "example": { "text": "Ad ottobre fa ancora caldo?", "de": "Ist es im Oktober noch warm?" } },
+    { "id": "novembre", "word": "a novembre", "alt": ["in novembre"], "de": "im November", "pos": "phrase", "example": { "text": "A novembre c'è spesso la nebbia.", "de": "Im November ist es oft neblig." } },
+    { "id": "dicembre", "word": "a dicembre", "alt": ["in dicembre"], "de": "im Dezember", "pos": "phrase", "example": { "text": "A dicembre arriva l'inverno.", "de": "Im Dezember kommt der Winter." } },
+    { "id": "piu", "word": "più", "de": "mehr; (beim Vergleich) -er", "pos": "adv", "example": { "text": "Oggi fa più caldo di ieri.", "de": "Heute ist es wärmer als gestern." }, "note": "più + Adjektiv + di = …er als: più caldo di = wärmer als." },
+    { "id": "migliore", "word": "migliore", "de": "besser", "pos": "adj", "example": { "text": "Il caffè italiano è migliore del caffè tedesco.", "de": "Italienischer Kaffee ist besser als deutscher." }, "note": "migliore ist ein Adjektiv (buono → migliore). Bei Verben sagst du meglio: Oggi sto meglio." },
+    { "id": "peggiore", "word": "peggiore", "de": "schlechter; schlimmer", "pos": "adj", "example": { "text": "Il tempo di oggi è peggiore di quello di ieri.", "de": "Das Wetter heute ist schlechter als gestern." }, "note": "Bei Verben sagst du peggio: Oggi sto peggio." },
+    { "id": "tanto-quanto", "word": "tanto … quanto", "alt": ["tanto quanto"], "de": "genauso … wie", "pos": "phrase", "example": { "text": "Bologna è tanto bella quanto Firenze.", "de": "Bologna ist genauso schön wie Florenz.", "focus": "tanto bella quanto" }, "note": "Man sagt auch così … come: Bologna è così bella come Firenze." },
+    { "id": "data", "word": "data", "article": "la", "gender": "f", "plural": "le date", "de": "das Datum", "pos": "noun", "example": { "text": "Che data è oggi?", "de": "Welches Datum ist heute?" } }
+  ],
+  "grammar": [
+    {
+      "id": "tempo",
+      "title": "Das Wetter: fa caldo, piove, c'è il sole",
+      "blocks": [
+        { "type": "p", "text": "Nach dem Wetter fragst du: Che tempo fa? (Wie ist das Wetter?). In der Antwort stehen meistens fare, essere oder c'è:" },
+        { "type": "table", "head": ["Italienisch", "Deutsch"], "rows": [["fa caldo / fa freddo", "es ist warm / kalt"], ["fa bel tempo / fa brutto tempo", "das Wetter ist schön / schlecht"], ["c'è il sole", "die Sonne scheint"], ["c'è vento / c'è la nebbia", "es ist windig / neblig"], ["piove / nevica", "es regnet / es schneit"], ["c'è un temporale", "es gibt ein Gewitter"], ["è nuvoloso / è sereno", "es ist bewölkt / heiter"], ["ci sono trenta gradi", "es sind dreißig Grad"]] },
+        { "type": "tip", "text": "Ein „es“ wie im Deutschen gibt es nicht: Piove. = Es regnet. Fa freddo. = Es ist kalt." },
+        { "type": "tip", "text": "Über dich selbst sprichst du mit avere: Ho caldo. = Mir ist warm. Ho freddo. = Mir ist kalt. Fa caldo sagt man über das Wetter." },
+        { "type": "p", "text": "In der Vergangenheit: ha fatto caldo, c'è stato il sole, ha piovuto. Bei piovere und nevicare darfst du avere oder essere nehmen: ha piovuto oder è piovuto." },
+        { "type": "examples", "items": [{ "text": "Che tempo fa a Monaco? – Fa freddo e piove.", "de": "Wie ist das Wetter in München? – Es ist kalt, und es regnet." }, { "text": "Oggi c'è il sole e ci sono venticinque gradi.", "de": "Heute scheint die Sonne, und es sind fünfundzwanzig Grad." }, { "text": "Ieri ha piovuto tutto il giorno.", "de": "Gestern hat es den ganzen Tag geregnet." }, { "text": "Prendi l'ombrello: il cielo è nuvoloso.", "de": "Nimm den Regenschirm mit: Der Himmel ist bewölkt." }, { "text": "Ho freddo! Dov'è la mia giacca?", "de": "Mir ist kalt! Wo ist meine Jacke?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Oggi ___ caldo.", "answers": ["fa"], "de": "Heute ist es warm." },
+        { "type": "cloze", "text": "C'è il ___: andiamo al parco!", "answers": ["sole"], "de": "Die Sonne scheint: Gehen wir in den Park!" },
+        { "type": "cloze", "text": "Prendi l'ombrello, ___!", "answers": ["piove"], "de": "Nimm den Regenschirm mit, es regnet!", "hint": "piovere" },
+        { "type": "cloze", "text": "A gennaio a Monaco ___ spesso.", "answers": ["nevica"], "de": "Im Januar schneit es in München oft.", "hint": "nevicare" },
+        { "type": "cloze", "text": "Ieri ha ___ tutto il giorno.", "answers": ["piovuto"], "de": "Gestern hat es den ganzen Tag geregnet.", "hint": "piovere" },
+        { "type": "cloze", "text": "Oggi ci sono trenta ___.", "answers": ["gradi"], "de": "Heute sind es dreißig Grad." },
+        { "type": "cloze", "text": "Ho ___: dov'è la mia giacca?", "answers": ["freddo"], "de": "Mir ist kalt: Wo ist meine Jacke?" },
+        { "type": "match", "pairs": [["fa caldo", "es ist warm"], ["piove", "es regnet"], ["nevica", "es schneit"], ["c'è vento", "es ist windig"], ["è nuvoloso", "es ist bewölkt"]] },
+        { "type": "translate", "de": "Wie ist das Wetter heute?", "answers": ["Che tempo fa oggi?", "Oggi che tempo fa?", "Com'è il tempo oggi?"] },
+        { "type": "listen", "text": "Oggi fa brutto tempo: piove e c'è vento.", "de": "Heute ist das Wetter schlecht: Es regnet und ist windig." }
+      ]
+    },
+    {
+      "id": "mesi-stagioni-date",
+      "title": "Monate, Jahreszeiten und das Datum",
+      "blocks": [
+        { "type": "p", "text": "Monate und Jahreszeiten schreibt man klein. Die Monate sind männlich und stehen meistens ohne Artikel." },
+        { "type": "table", "head": ["l'inverno", "la primavera", "l'estate", "l'autunno"], "rows": [["dicembre", "marzo", "giugno", "settembre"], ["gennaio", "aprile", "luglio", "ottobre"], ["febbraio", "maggio", "agosto", "novembre"]] },
+        { "type": "list", "items": ["im Januar: a gennaio oder in gennaio – vor einem Vokal oft ad: ad aprile, ad agosto, ad ottobre", "im Sommer: in estate oder d'estate – im Winter: in inverno oder d'inverno", "im Frühling: in primavera – im Herbst: in autunno"] },
+        { "type": "p", "text": "Das Datum sagst du mit il + Zahl + Monat: il tre marzo, il ventuno giugno. Nur der Erste heißt il primo: il primo maggio. Vor einem Vokal wird il zu l': l'otto marzo, l'undici agosto." },
+        { "type": "table", "head": ["Datum", "Italienisch"], "rows": [["1. Mai", "il primo maggio"], ["2. Juni", "il due giugno"], ["8. März", "l'otto marzo"], ["15. August", "il quindici agosto"], ["25. Dezember", "il venticinque dicembre"]] },
+        { "type": "tip", "text": "Nach dem Datum fragst du: Che giorno è oggi? Die Antwort: Oggi è il dieci ottobre. „Am 5. Mai“ heißt einfach il cinque maggio – ohne Präposition." },
+        { "type": "examples", "items": [{ "text": "Che giorno è oggi? – Oggi è il primo aprile.", "de": "Welcher Tag ist heute? – Heute ist der erste April." }, { "text": "Parto il quindici luglio.", "de": "Ich fahre am fünfzehnten Juli ab." }, { "text": "In Italia la scuola finisce a giugno.", "de": "In Italien ist die Schule im Juni zu Ende." }, { "text": "D'estate fa caldo, d'inverno fa freddo.", "de": "Im Sommer ist es warm, im Winter kalt." }, { "text": "Torno a Monaco il primo agosto.", "de": "Am ersten August fahre ich nach München zurück." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ gennaio fa molto freddo.", "answers": ["a", "in"], "de": "Im Januar ist es sehr kalt." },
+        { "type": "cloze", "text": "Oggi è il ___ maggio.", "answers": ["primo"], "de": "Heute ist der erste Mai." },
+        { "type": "cloze", "text": "Parto ___ quindici luglio.", "answers": ["il"], "de": "Ich fahre am fünfzehnten Juli ab." },
+        { "type": "cloze", "text": "In ___ fa caldo.", "answers": ["estate"], "de": "Im Sommer ist es warm." },
+        { "type": "cloze", "text": "In ___ piove spesso.", "answers": ["autunno"], "de": "Im Herbst regnet es oft." },
+        { "type": "cloze", "text": "Dicembre è l'ultimo ___ dell'anno.", "answers": ["mese"], "de": "Der Dezember ist der letzte Monat des Jahres." },
+        { "type": "match", "pairs": [["gennaio", "Januar"], ["marzo", "März"], ["luglio", "Juli"], ["ottobre", "Oktober"], ["dicembre", "Dezember"]] },
+        { "type": "translate", "de": "Heute ist der erste Juni.", "answers": ["Oggi è il primo giugno.", "È il primo giugno."] },
+        { "type": "translate", "de": "Im Winter schneit es.", "answers": ["In inverno nevica.", "D'inverno nevica.", "Nevica in inverno.", "Nevica d'inverno."] },
+        { "type": "listen", "text": "Il mio mese preferito è settembre: non fa troppo caldo.", "de": "Mein Lieblingsmonat ist der September: Es ist nicht zu heiß." }
+      ]
+    },
+    {
+      "id": "comparativi",
+      "title": "Vergleichen: più … di, meno … che, migliore, tanto … quanto",
+      "blocks": [
+        { "type": "p", "text": "Zum Vergleichen stellst du più (mehr) oder meno (weniger) vor das Adjektiv. „Als“ heißt meistens di – mit Artikel: del, della, dell' …" },
+        { "type": "table", "head": ["Italienisch", "Deutsch"], "rows": [["più caldo di", "wärmer als"], ["più freddo di", "kälter als"], ["meno caro di", "billiger als (weniger teuer als)"], ["migliore di", "besser als"], ["peggiore di", "schlechter als"], ["tanto bello quanto", "genauso schön wie"]] },
+        { "type": "examples", "items": [{ "text": "Luglio è più caldo di maggio.", "de": "Der Juli ist wärmer als der Mai." }, { "text": "Oggi fa più caldo di ieri.", "de": "Heute ist es wärmer als gestern." }, { "text": "L'estate è più calda della primavera.", "de": "Der Sommer ist wärmer als der Frühling." }, { "text": "Il treno è meno caro della macchina.", "de": "Der Zug ist billiger als das Auto." }] },
+        { "type": "p", "text": "Che statt di nimmst du, wenn nach „als“ eine Präposition, ein Verb oder ein Adjektiv kommt – zum Beispiel bei zwei Orten: più caldo che a Milano." },
+        { "type": "examples", "items": [{ "text": "A Palermo fa più caldo che a Milano.", "de": "In Palermo ist es wärmer als in Mailand." }, { "text": "In primavera il tempo è più bello che in inverno.", "de": "Im Frühling ist das Wetter schöner als im Winter." }] },
+        { "type": "p", "text": "Zwei wichtige unregelmäßige Formen: buono → migliore (besser), cattivo → peggiore (schlechter). Bei Verben: bene → meglio, male → peggio." },
+        { "type": "p", "text": "Gleich viel: tanto … quanto oder così … come (genauso … wie)." },
+        { "type": "examples", "items": [{ "text": "Il caffè italiano è migliore del caffè tedesco.", "de": "Italienischer Kaffee ist besser als deutscher." }, { "text": "Il tempo di oggi è peggiore di quello di ieri.", "de": "Das Wetter heute ist schlechter als gestern." }, { "text": "Bologna è tanto bella quanto Firenze.", "de": "Bologna ist genauso schön wie Florenz." }, { "text": "A Bologna l'autunno è così bello come la primavera.", "de": "In Bologna ist der Herbst genauso schön wie der Frühling." }] },
+        { "type": "tip", "text": "Das Adjektiv passt sich wie immer an: Luglio è più caldo, l'estate è più calda." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Luglio è più caldo ___ marzo.", "answers": ["di"], "de": "Der Juli ist wärmer als der März." },
+        { "type": "cloze", "text": "Oggi fa ___ freddo di ieri.", "answers": ["più"], "de": "Heute ist es kälter als gestern." },
+        { "type": "cloze", "text": "L'estate è più calda ___ primavera.", "answers": ["della"], "de": "Der Sommer ist wärmer als der Frühling." },
+        { "type": "cloze", "text": "A Napoli fa più caldo ___ a Monaco.", "answers": ["che"], "de": "In Neapel ist es wärmer als in München." },
+        { "type": "cloze", "text": "Il caffè del bar è ___ del caffè di casa.", "answers": ["migliore"], "de": "Der Kaffee in der Bar ist besser als der Kaffee zu Hause." },
+        { "type": "cloze", "text": "Bologna è tanto bella ___ Firenze.", "answers": ["quanto"], "de": "Bologna ist genauso schön wie Florenz." },
+        { "type": "cloze", "text": "Il tempo di oggi è ___ di quello di ieri.", "answers": ["peggiore"], "de": "Das Wetter heute ist schlechter als gestern." },
+        { "type": "choice", "prompt": "„In Rom ist es wärmer als in Berlin.“ Welches Wort fehlt? – A Roma fa più caldo ___ a Berlino.", "options": ["di", "che", "come"], "answer": 1, "explain": "Nach „als“ kommt eine Präposition (a Berlino) – deshalb che: più caldo che a Berlino." },
+        { "type": "order", "de": "Der Winter ist kälter als der Herbst.", "answer": "L'inverno è più freddo dell'autunno." },
+        { "type": "translate", "de": "Heute ist es wärmer als gestern.", "answers": ["Oggi fa più caldo di ieri.", "Fa più caldo oggi di ieri."] },
+        { "type": "listen", "text": "A Bologna l'inverno è meno freddo che a Monaco.", "de": "In Bologna ist der Winter weniger kalt als in München." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Che tempo fa a Monaco?",
+    "title_de": "Wie ist das Wetter in München?",
+    "lines": [
+      { "speaker": "Sara", "text": "Che brutto tempo! Piove da tre giorni.", "de": "So ein schlechtes Wetter! Es regnet seit drei Tagen." },
+      { "speaker": "Lena", "text": "E c'è anche la nebbia. Ma a Monaco adesso fa più freddo.", "de": "Und neblig ist es auch. Aber in München ist es jetzt kälter." },
+      { "speaker": "Sara", "text": "Ah sì? Quanti gradi ci sono a Monaco?", "de": "Ach ja? Wie viel Grad sind es in München?" },
+      { "speaker": "Lena", "text": "Mia madre dice che ci sono due gradi. E ieri ha nevicato!", "de": "Meine Mutter sagt, es sind zwei Grad. Und gestern hat es geschneit!" },
+      { "speaker": "Sara", "text": "La neve! Che bello! A Napoli non nevica mai.", "de": "Schnee! Wie schön! In Neapel schneit es nie." },
+      { "speaker": "Lena", "text": "Per te è bello… Io preferisco il sole!", "de": "Für dich ist das schön … Mir ist die Sonne lieber!" },
+      { "speaker": "Sara", "text": "Allora l'estate è la tua stagione preferita?", "de": "Dann ist der Sommer deine Lieblingsjahreszeit?" },
+      { "speaker": "Lena", "text": "No, la primavera. In estate qui fa troppo caldo per me: a luglio ci sono trentacinque gradi!", "de": "Nein, der Frühling. Im Sommer ist es mir hier zu heiß: Im Juli sind es fünfunddreißig Grad!" },
+      { "speaker": "Sara", "text": "Sì, ma a Napoli fa ancora più caldo! E quando vai a Monaco?", "de": "Ja, aber in Neapel ist es noch heißer! Und wann fährst du nach München?" },
+      { "speaker": "Lena", "text": "Parto il venti dicembre e torno il sei gennaio.", "de": "Ich fahre am zwanzigsten Dezember und komme am sechsten Januar zurück." },
+      { "speaker": "Sara", "text": "Porta una giacca calda e l'ombrello!", "de": "Nimm eine warme Jacke und den Regenschirm mit!" },
+      { "speaker": "Lena", "text": "Certo! E tu, cosa fai a dicembre?", "de": "Klar! Und du, was machst du im Dezember?" },
+      { "speaker": "Sara", "text": "Vado a Napoli dai miei genitori. Lì il tempo è migliore che qui: c'è sempre il sole!", "de": "Ich fahre zu meinen Eltern nach Neapel. Dort ist das Wetter besser als hier: Die Sonne scheint immer!" },
+      { "speaker": "Lena", "text": "Beata te!", "de": "Du Glückliche!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["la primavera", "der Frühling"], ["l'estate", "der Sommer"], ["l'autunno", "der Herbst"], ["l'inverno", "der Winter"], ["la stagione", "die Jahreszeit"]] },
+    { "type": "match", "pairs": [["la pioggia", "der Regen"], ["la neve", "der Schnee"], ["il vento", "der Wind"], ["la nebbia", "der Nebel"], ["il temporale", "das Gewitter"]] },
+    { "type": "translate", "de": "Es ist kalt, und es schneit.", "answers": ["Fa freddo e nevica."] },
+    { "type": "translate", "de": "Die Sonne scheint.", "answers": ["C'è il sole."] },
+    { "type": "translate", "de": "Ich fahre am ersten August ab.", "answers": ["Parto il primo agosto.", "Io parto il primo agosto.", "Il primo agosto parto."] },
+    { "type": "translate", "de": "Bologna ist genauso schön wie Florenz.", "answers": ["Bologna è tanto bella quanto Firenze.", "Bologna è bella quanto Firenze.", "Bologna è così bella come Firenze.", "Bologna è bella come Firenze."] },
+    { "type": "cloze", "text": "Prendi l'___: piove!", "answers": ["ombrello"], "de": "Nimm den Regenschirm mit: Es regnet!" },
+    { "type": "cloze", "text": "Oggi il cielo è ___: non c'è il sole.", "answers": ["nuvoloso"], "de": "Heute ist der Himmel bewölkt: Die Sonne scheint nicht." },
+    { "type": "cloze", "text": "Ieri c'è ___ un temporale.", "answers": ["stato"], "de": "Gestern gab es ein Gewitter." },
+    { "type": "order", "de": "Im Sommer ist es in Neapel wärmer als in München.", "answer": "In estate a Napoli fa più caldo che a Monaco." },
+    { "type": "order", "de": "Welcher Tag ist heute?", "answer": "Che giorno è oggi?" },
+    { "type": "listen", "text": "Domani è il primo marzo: finalmente arriva la primavera!", "de": "Morgen ist der erste März: Endlich kommt der Frühling!" },
+    { "type": "listen", "text": "Che tempo fa da voi? Qui piove e fa freddo.", "de": "Wie ist das Wetter bei euch? Hier regnet es, und es ist kalt." }
+  ]
+}

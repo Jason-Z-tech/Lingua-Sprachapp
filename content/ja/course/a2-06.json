@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-06",
+  "lang": "ja",
+  "level": "A2",
+  "number": 6,
+  "title": "何[なに] に し ます か。",
+  "title_de": "Im Restaurant",
+  "topic": "Reservieren, bestellen und bezahlen",
+  "goals": [
+    "Du kannst mit 〜ても いいですか um Erlaubnis bitten (すわっても いいですか, カードで はらっても いいですか) und darauf antworten.",
+    "Du kannst im Restaurant bestellen: 〜に します, 〜を おねがいします, おすすめは 何ですか.",
+    "Du kannst mit den Zählwörtern 〜本, 〜枚 und 〜杯 Flaschen, Teller und Gläser zählen – mit den Lautänderungen いっぽん, さんばい …",
+    "Du kannst reservieren, die Rechnung verlangen und bezahlen: よやく, おかいけい, べつべつに."
+  ],
+  "kanji": ["店", "肉", "魚", "茶", "飯", "料", "理"],
+  "vocab": [
+    { "id": "resutoran", "word": "レストラン", "de": "das Restaurant", "pos": "noun", "example": { "text": "駅[えき] の 前[まえ] に 新[あたら]しい レストラン が あり ます。", "de": "Vor dem Bahnhof gibt es ein neues Restaurant." } },
+    { "id": "kissaten", "word": "喫[きっ]茶店[さてん]", "de": "das Café (im klassischen Stil)", "pos": "noun", "example": { "text": "喫[きっ]茶店[さてん] で コーヒー を 飲[の]み ました。", "de": "Ich habe im Café einen Kaffee getrunken." }, "note": "Ein きっさてん ist ein gemütliches, oft etwas altmodisches Café. Darin stecken die neuen Kanji 茶 (Tee) und 店 (Laden). Moderne Cafés heißen カフェ." },
+    { "id": "tenin", "word": "店員[てんいん]", "de": "Verkäufer/in; Bedienung (im Laden oder Restaurant)", "pos": "noun", "example": { "text": "店員[てんいん] に おすすめ を 聞[き]き ました。", "de": "Ich habe die Bedienung nach einer Empfehlung gefragt." }, "note": "Wörtlich „Laden-Mitarbeiter“: 店 (Laden) + 員 (Mitglied, wie in かいしゃいん)." },
+    { "id": "niku", "word": "肉[にく]", "de": "das Fleisch", "pos": "noun", "example": { "text": "私[わたし] は 肉[にく] より 魚[さかな] の ほう が 好[す]き です。", "de": "Ich mag Fisch lieber als Fleisch." } },
+    { "id": "gyuuniku", "word": "牛[ぎゅう]肉[にく]", "de": "das Rindfleisch", "pos": "noun", "example": { "text": "牛[ぎゅう]肉[にく] は 少[すこ]し 高[たか]い です。", "de": "Rindfleisch ist ein bisschen teuer." }, "note": "牛 (ぎゅう) ist das Rind. Ein beliebtes Gericht ist ぎゅうどん – eine Schale Reis mit Rindfleisch." },
+    { "id": "butaniku", "word": "ぶた肉[にく]", "de": "das Schweinefleisch", "pos": "noun", "example": { "text": "この カレー に は ぶた肉[にく] が 入[はい]って い ます か。", "de": "Ist in diesem Curry Schweinefleisch drin?" }, "note": "Kanji: 豚肉. ぶた ist das Schwein." },
+    { "id": "toriniku", "word": "とり肉[にく]", "de": "das Hähnchenfleisch", "pos": "noun", "example": { "text": "とり肉[にく] の 料理[りょうり] が 大[だい]好[す]き です。", "de": "Ich liebe Gerichte mit Hähnchen." }, "note": "Kanji: 鶏肉. とり heißt „Vogel“ und hier „Huhn“. Sehr beliebt: からあげ (frittiertes Hähnchen)." },
+    { "id": "yakizakana", "word": "焼[や]き魚[ざかな]", "de": "gegrillter Fisch", "pos": "noun", "example": { "text": "朝[あさ]ご飯[はん] に 焼[や]き魚[ざかな] を 食[た]べ ました。", "de": "Zum Frühstück habe ich gegrillten Fisch gegessen." }, "note": "In Zusammensetzungen wird さかな oft zu ざかな. やき heißt „gegrillt, gebraten“." },
+    { "id": "nihonryouri", "word": "日本料理[にほんりょうり]", "de": "die japanische Küche; japanisches Essen", "pos": "noun", "example": { "text": "この 町[まち] に は おいしい 日本料理[にほんりょうり] の 店[みせ] が あり ます。", "de": "In dieser Stadt gibt es ein gutes japanisches Restaurant." }, "note": "Genauso: イタリア料理 (italienische Küche), ドイツ料理 (deutsche Küche). Die Kanji 料理 kannst du jetzt lesen." },
+    { "id": "teishoku", "word": "定[てい]食[しょく]", "de": "das Menü (Set-Gericht mit Reis, Suppe und Beilagen)", "pos": "noun", "example": { "text": "昼[ひる]ご飯[はん] は いつも 定[てい]食[しょく] を 食[た]べ ます。", "de": "Mittags esse ich immer ein Menü." }, "note": "Ein ていしょく ist ein Tablett mit Hauptgericht, Reis, Misosuppe und kleinen Beilagen – günstig und beliebt." },
+    { "id": "misoshiru", "word": "みそしる", "de": "die Misosuppe", "pos": "noun", "example": { "text": "毎[まい]朝[あさ] みそしる を 飲[の]み ます。", "de": "Ich esse jeden Morgen Misosuppe." }, "note": "Suppe „trinkt“ man auf Japanisch: みそしるを のみます." },
+    { "id": "sarada", "word": "サラダ", "de": "der Salat", "pos": "noun", "example": { "text": "サラダ も 一[ひと]つ おねがいします。", "de": "Und einen Salat, bitte." } },
+    { "id": "dezaato", "word": "デザート", "de": "der Nachtisch", "pos": "noun", "example": { "text": "デザート は 何[なに] に し ます か。", "de": "Was nimmst du zum Nachtisch?" } },
+    { "id": "wain", "word": "ワイン", "de": "der Wein", "pos": "noun", "example": { "text": "赤[あか]ワイン を 一[いっ]杯[ぱい] ください。", "de": "Ein Glas Rotwein, bitte.", "focus": "ワイン" }, "note": "あかワイン = Rotwein, しろワイン = Weißwein." },
+    { "id": "osake", "word": "お酒[さけ]", "de": "der Alkohol; der Sake (Reiswein)", "pos": "noun", "example": { "text": "父[ちち] は お酒[さけ] を 飲[の]み ません。", "de": "Mein Vater trinkt keinen Alkohol." }, "note": "おさけ ist jedes alkoholische Getränk – und besonders der japanische Reiswein (にほんしゅ)." },
+    { "id": "mugicha", "word": "麦[むぎ]茶[ちゃ]", "de": "der Gerstentee", "pos": "noun", "example": { "text": "夏[なつ] は 麦[むぎ]茶[ちゃ] を よく 飲[の]み ます。", "de": "Im Sommer trinke ich oft Gerstentee." }, "note": "Kalter Gerstentee ist in Japan das typische Sommergetränk – in vielen Restaurants bekommst du ihn umsonst." },
+    { "id": "ohashi", "word": "おはし", "de": "die Essstäbchen", "pos": "noun", "example": { "text": "すみません、 おはし を ください。", "de": "Entschuldigung, könnte ich Stäbchen bekommen?" }, "note": "Kanji: お箸. Achtung: はし (Brücke, 橋) klingt fast gleich – nur die Betonung ist anders." },
+    { "id": "osara", "word": "お皿[さら]", "de": "der Teller", "pos": "noun", "example": { "text": "小[ちい]さい お皿[さら] を 二[に]枚[まい] ください。", "de": "Zwei kleine Teller, bitte." } },
+    { "id": "yoyaku", "word": "予約[よやく]", "de": "die Reservierung", "pos": "noun", "example": { "text": "金[きん]曜日[ようび] の 夜[よる]、 レストラン を 予約[よやく] し ました。", "de": "Ich habe für Freitagabend einen Tisch im Restaurant reserviert." }, "note": "よやくします = reservieren. Am Telefon sagst du: よやくを おねがいします." },
+    { "id": "seki", "word": "席[せき]", "de": "der (Sitz-)Platz; der Tisch (im Restaurant)", "pos": "noun", "example": { "text": "窓[まど] の 近[ちか]く の 席[せき] が いい です。", "de": "Ich hätte gern einen Platz am Fenster." } },
+    { "id": "chuumon", "word": "注文[ちゅうもん]", "de": "die Bestellung", "pos": "noun", "example": { "text": "ご注文[ちゅうもん] は？", "de": "Was darf es sein? (Ihre Bestellung?)", "focus": "注文[ちゅうもん]" }, "note": "ちゅうもんします = bestellen. Die Bedienung fragt höflich: ごちゅうもんは?" },
+    { "id": "okaikei", "word": "お会[かい]計[けい]", "de": "die Rechnung; das Bezahlen", "pos": "noun", "example": { "text": "すみません、 お会[かい]計[けい] おねがいします。", "de": "Entschuldigung, die Rechnung bitte!" }, "note": "In vielen japanischen Restaurants bezahlt man nicht am Tisch, sondern vorne an der Kasse (レジ)." },
+    { "id": "haraimasu", "word": "はらい ます", "de": "bezahlen", "pos": "verb", "forms": "Wörterbuchform はらう · て-Form はらって · た-Form はらった", "example": { "text": "今日[きょう] は 私[わたし] が はらい ます。", "de": "Heute bezahle ich." }, "note": "Kanji: 払います. Womit man bezahlt, markiert で: カードで はらいます." },
+    { "id": "genkin", "word": "現[げん]金[きん]", "de": "das Bargeld", "pos": "noun", "example": { "text": "小[ちい]さい 店[みせ] は 現[げん]金[きん] だけ です。", "de": "In kleinen Läden geht nur Bargeld." }, "note": "だけ heißt „nur“. In Japan zahlt man noch recht oft bar." },
+    { "id": "kaado", "word": "カード", "de": "die (Kredit-)Karte", "pos": "noun", "example": { "text": "カード で も いい です か。", "de": "Geht auch Karte?" } },
+    { "id": "betsubetsu", "word": "べつべつ", "de": "getrennt", "pos": "adj", "example": { "text": "お会[かい]計[けい] は べつべつ に おねがいします。", "de": "Wir zahlen bitte getrennt." }, "note": "Oft zahlt in Japan auch einer für alle – oder man teilt den Betrag (わりかん)." },
+    { "id": "osusume", "word": "おすすめ", "de": "die Empfehlung", "pos": "noun", "example": { "text": "おすすめ は 何[なん] です か。", "de": "Was empfehlen Sie?" } },
+    { "id": "nanmeisama", "word": "何名[なんめい]様[さま]", "de": "wie viele Personen? (sehr höflich)", "pos": "phrase", "example": { "text": "いらっしゃいませ。 何名[なんめい]様[さま] です か。", "de": "Willkommen! Wie viele Personen sind Sie?" }, "note": "Diese Frage hörst du am Eingang jedes Restaurants. Antworte einfach mit ふたりです, さんにんです …" },
+    { "id": "karai", "word": "からい", "de": "scharf (Geschmack)", "pos": "adj", "example": { "text": "この カレー は ちょっと からい です。", "de": "Dieses Curry ist ein bisschen scharf." } },
+    { "id": "amai", "word": "あまい", "de": "süß (Geschmack)", "pos": "adj", "example": { "text": "この ケーキ は とても あまい です。", "de": "Dieser Kuchen ist sehr süß." }, "note": "Für „süß, niedlich“ benutzt du かわいい." },
+    { "id": "suwarimasu", "word": "すわり ます", "de": "sich setzen; sitzen", "pos": "verb", "forms": "Wörterbuchform すわる · て-Form すわって · た-Form すわった", "example": { "text": "ここ に すわって も いい です か。", "de": "Darf ich mich hierhin setzen?", "focus": "すわって" }, "note": "Kanji: 座ります. Wohin man sich setzt, markiert に." },
+    { "id": "tabako", "word": "たばこ を すい ます", "de": "rauchen", "pos": "phrase", "forms": "て-Form すって · た-Form すった", "example": { "text": "ここ で たばこ を すって も いい です か。", "de": "Darf ich hier rauchen?", "focus": "たばこ を すって" }, "note": "すいます (吸います) heißt „einatmen, saugen“. In vielen Restaurants ist Rauchen heute verboten." },
+    { "id": "kimemasu", "word": "きめ ます", "de": "sich entscheiden; aussuchen", "pos": "verb", "forms": "Wörterbuchform きめる · て-Form きめて · た-Form きめた", "example": { "text": "もう きめ ました か。", "de": "Habt ihr schon gewählt?", "focus": "きめ ました" }, "note": "Kanji: 決めます." },
+    { "id": "tsukaimasu", "word": "使[つか]い ます", "de": "benutzen; verwenden", "pos": "verb", "forms": "Wörterbuchform つかう · て-Form つかって · た-Form つかった", "example": { "text": "この ペン を 使[つか]って も いい です か。", "de": "Darf ich diesen Stift benutzen?", "focus": "使[つか]って" } },
+    { "id": "hon", "word": "〜本[ほん]", "alt": ["本[ほん]"], "de": "Zählwort für lange, schmale Dinge (Flaschen, Stifte, Schirme)", "pos": "counter", "example": { "text": "ビール を 二[に]本[ほん] ください。", "de": "Zwei Flaschen Bier, bitte.", "focus": "本[ほん]" }, "note": "Lautänderungen: いっぽん, さんぼん, ろっぽん, はっぽん, じゅっぽん, なんぼん." },
+    { "id": "mai", "word": "〜枚[まい]", "alt": ["枚[まい]"], "de": "Zählwort für flache Dinge (Teller, Fotos, Papier, Hemden)", "pos": "counter", "example": { "text": "写真[しゃしん] を 五[ご]枚[まい] とり ました。", "de": "Ich habe fünf Fotos gemacht.", "focus": "枚[まい]" }, "note": "Ganz regelmäßig: いちまい, にまい, さんまい … なんまい." },
+    { "id": "hai", "word": "〜杯[はい]", "alt": ["杯[はい]"], "de": "Zählwort für volle Gläser, Tassen und Schalen", "pos": "counter", "example": { "text": "コーヒー を 一[いっ]杯[ぱい] 飲[の]み ません か。", "de": "Wollen wir eine Tasse Kaffee trinken?", "focus": "杯[ぱい]" }, "note": "Lautänderungen: いっぱい, さんばい, ろっぱい, はっぱい, じゅっぱい, なんばい." },
+    { "id": "kashikomarimashita", "word": "かしこまりました", "de": "Sehr wohl. (Bedienung, sehr höflich)", "pos": "phrase", "example": { "text": "はい、 かしこまりました。", "de": "Ja, sehr wohl." }, "note": "Eine sehr höfliche Form von わかりました. Du hörst sie von Bedienungen, du selbst sagst einfach はい." },
+    { "id": "shoushou", "word": "しょうしょう おまち ください", "de": "Einen Moment, bitte. (sehr höflich)", "pos": "phrase", "example": { "text": "はい、 しょうしょう おまち ください。", "de": "Ja, einen Moment bitte." }, "note": "Höfliche Form von ちょっと まってください. Kanji: 少々 お待ちください." },
+    { "id": "otearai", "word": "お手[て]洗[あら]い", "de": "die Toilette (höflich)", "pos": "noun", "example": { "text": "すみません、 お手[て]洗[あら]い は どこ です か。", "de": "Entschuldigung, wo ist die Toilette?" }, "note": "Wörtlich „Händewaschen“. Etwas höflicher als トイレ." },
+    { "id": "okawari", "word": "おかわり", "de": "der Nachschlag; noch eine Portion", "pos": "noun", "example": { "text": "ご飯[はん] の おかわり を おねがいします。", "de": "Noch eine Portion Reis, bitte." } },
+    { "id": "muryou", "word": "無[む]料[りょう]", "de": "kostenlos; gratis", "pos": "adj", "example": { "text": "この 店[みせ] は 水[みず] と お茶[ちゃ] が 無[む]料[りょう] です。", "de": "In diesem Lokal sind Wasser und Tee kostenlos." }, "note": "料 (りょう) steckt auch in りょうり (Kochen) und りょうきん (Gebühr)." }
+  ],
+  "grammar": [
+    {
+      "id": "temo-ii",
+      "title": "Darf ich …? – 〜ても いいですか",
+      "blocks": [
+        { "type": "p", "text": "Um Erlaubnis bittest du mit der て-Form + も いいですか. Wörtlich heißt das: „Ist es auch gut, wenn ich …?“ Die て-Form kennst du aus Lektion 1 – hier kommt nur も いいですか dazu." },
+        { "type": "table", "head": ["ます-Form", "て-Form", "Darf ich …?"], "rows": [["すわり ます", "すわって", "すわって も いい です か。"], ["使[つか]い ます", "使[つか]って", "使[つか]って も いい です か。"], ["すい ます", "すって", "すって も いい です か。"], ["見[み] ます", "見[み]て", "見[み]て も いい です か。"], ["入[はい]り ます", "入[はい]って", "入[はい]って も いい です か。"], ["し ます", "して", "して も いい です か。"]] },
+        { "type": "examples", "items": [{ "text": "ここ に すわって も いい です か。", "de": "Darf ich mich hierhin setzen?" }, { "text": "写真[しゃしん] を とって も いい です か。", "de": "Darf ich ein Foto machen?" }, { "text": "カード で はらって も いい です か。", "de": "Kann ich mit Karte bezahlen?" }, { "text": "この ペン を 使[つか]って も いい です か。", "de": "Darf ich diesen Stift benutzen?" }] },
+        { "type": "p", "text": "So antwortest du – oder so antworten andere dir:" },
+        { "type": "table", "head": ["Antwort", "Bedeutung"], "rows": [["はい、 どうぞ。", "Ja, bitte."], ["ええ、 いい です よ。", "Ja, gern. / Klar."], ["すみません、 ちょっと …。", "Tut mir leid, das geht leider nicht. (höfliches Nein)"], ["ここ で たばこ を すって は いけ ません。", "Hier darf man nicht rauchen. (klares Verbot)"]] },
+        { "type": "tip", "text": "Ein japanisches Nein ist oft nur angedeutet: すみません、ちょっと… – den Rest sagt man nicht. Ein klares Verbot mit 〜ては いけません hörst du vor allem von Lehrern, Eltern oder auf Schildern." },
+        { "type": "tip", "text": "Mit einem Nomen sagst du 〜でも いいですか: カードでも いいですか (Geht auch Karte?), あしたでも いいですか (Geht auch morgen?)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "ここ に すわって ___ いい です か。", "answers": ["も"], "de": "Darf ich mich hierhin setzen?" },
+        { "type": "cloze", "text": "写真[しゃしん] を ___ も いい です か。", "answers": ["とって", "撮[と]って"], "de": "Darf ich ein Foto machen?", "hint": "とります → て-Form" },
+        { "type": "cloze", "text": "テレビ を ___ も いい です か。", "answers": ["見[み]て"], "de": "Darf ich fernsehen?", "hint": "みます → て-Form" },
+        { "type": "cloze", "text": "カード で はらって も いい です か。 ― はい、 ___。", "answers": ["どうぞ"], "de": "Kann ich mit Karte zahlen? – Ja, bitte." },
+        { "type": "order", "de": "Darf ich diesen Stift benutzen?", "answer": "この ペン を 使[つか]って も いい です か。", "distractors": ["使[つか]い"] },
+        { "type": "translate", "de": "Darf ich hier rauchen?", "answers": ["ここ で たばこ を すって も いい です か。", "ここ で たばこ を 吸[す]って も いい です か。"] },
+        { "type": "translate", "de": "Darf ich die Toilette benutzen?", "answers": ["お手[て]洗[あら]い を 使[つか]って も いい です か。", "お手[て]洗[あら]い を かりて も いい です か。", "お手[て]洗[あら]い を 借[か]りて も いい です か。", "トイレ を 使[つか]って も いい です か。", "トイレ を かりて も いい です か。", "トイレ を 借[か]りて も いい です か。"] },
+        { "type": "choice", "prompt": "Jemand fragt dich: しゃしんを とっても いいですか. Du möchtest höflich ablehnen. Was sagst du?", "options": ["すみません、 ちょっと …。", "はい、 どうぞ。", "ええ、 いい です よ。"], "answer": 0, "explain": "Mit すみません、ちょっと… lehnst du freundlich ab, ohne direkt „nein“ zu sagen." }
+      ]
+    },
+    {
+      "id": "chuumon",
+      "title": "Bestellen: 〜に します und 〜を おねがいします",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜に します sagst du, wofür du dich entscheidest: „Ich nehme …“. Den Satz これに します kennst du schon vom Einkaufen. Vor に kann jedes Nomen stehen." },
+        { "type": "examples", "items": [{ "text": "私[わたし] は カレー に し ます。", "de": "Ich nehme das Curry." }, { "text": "飲[の]み物[もの] は 麦[むぎ]茶[ちゃ] に し ます。", "de": "Zu trinken nehme ich Gerstentee." }, { "text": "何[なに] に し ます か。", "de": "Was nimmst du?" }, { "text": "デザート は アイス に し ます。", "de": "Zum Nachtisch nehme ich ein Eis." }] },
+        { "type": "tip", "text": "Die Frage なにに しますか hörst du oft – unter Freunden und von der Bedienung. Noch höflicher fragt die Bedienung: ごちゅうもんは? (Ihre Bestellung?)" },
+        { "type": "p", "text": "Beim Bestellen nennst du die Sache, dann を, dann die Menge – und am Ende おねがいします oder ください. おねがいします klingt ein bisschen höflicher." },
+        { "type": "table", "head": ["Sache + を", "Menge", "Bitte"], "rows": [["ビール を", "二[に]本[ほん]", "おねがいします。"], ["コーヒー を", "一[いっ]杯[ぱい]", "ください。"], ["お皿[さら] を", "三[さん]枚[まい]", "おねがいします。"], ["焼[や]き魚[ざかな] 定[てい]食[しょく] を", "一[ひと]つ", "ください。"]] },
+        { "type": "p", "text": "Diese Sätze brauchst du im Restaurant immer wieder:" },
+        { "type": "table", "head": ["Situation", "Japanisch", "Deutsch"], "rows": [["Bedienung rufen", "すみません！", "Entschuldigung!"], ["nach einer Empfehlung fragen", "おすすめ は 何[なん] です か。", "Was empfehlen Sie?"], ["Nachschlag", "おかわり おねがいします。", "Noch eine Portion, bitte."], ["bezahlen", "お会[かい]計[けい] おねがいします。", "Die Rechnung, bitte."], ["getrennt zahlen", "べつべつ に おねがいします。", "Getrennt, bitte."]] },
+        { "type": "tip", "text": "Die Bedienung antwortet mit かしこまりました (Sehr wohl) und しょうしょう おまちください (Einen Moment bitte). In Japan ruft man die Bedienung übrigens ganz normal mit すみません! – oder man drückt die Klingel auf dem Tisch." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "私[わたし] は 焼[や]き魚[ざかな] 定[てい]食[しょく] ___ し ます。", "answers": ["に"], "de": "Ich nehme das Menü mit gegrilltem Fisch." },
+        { "type": "cloze", "text": "お飲[の]み物[もの] は 何[なに] に ___ か。", "answers": ["し ます"], "de": "Was nehmen Sie zu trinken?" },
+        { "type": "cloze", "text": "すみません、 お会[かい]計[けい] ___。", "answers": ["おねがいします"], "de": "Entschuldigung, die Rechnung bitte." },
+        { "type": "order", "de": "Zwei Flaschen Bier, bitte.", "answer": "ビール を 二[に]本[ほん] おねがいします。", "distractors": ["に"] },
+        { "type": "translate", "de": "Was empfehlen Sie?", "answers": ["おすすめ は 何[なん] です か。", "おすすめ は 何[なに] です か。"] },
+        { "type": "translate", "de": "Ich nehme das Curry.", "answers": ["私[わたし] は カレー に し ます。", "カレー に し ます。", "私[わたし] は カレー を おねがいします。", "私[わたし] は カレー を ください。", "カレー を おねがいします。", "カレー を ください。"] },
+        { "type": "translate", "de": "Getrennt, bitte.", "answers": ["べつべつ に おねがいします。", "べつべつ で おねがいします。"] }
+      ]
+    },
+    {
+      "id": "josuushi",
+      "title": "Zählwörter: 〜本, 〜枚, 〜杯",
+      "blocks": [
+        { "type": "p", "text": "Beim Zählen hängt man im Japanischen ein Zählwort an die Zahl. Welches, hängt von der Form der Sache ab. Die allgemeinen ひとつ, ふたつ … aus A1 passen fast immer – genauer und natürlicher sind aber diese drei:" },
+        { "type": "list", "items": ["本 (ほん) – lange, schmale Dinge: Flaschen, Stifte, Regenschirme, Bananen", "枚 (まい) – flache Dinge: Teller, Fotos, Papier, Hemden, Fahrkarten", "杯 (はい) – volle Gläser, Tassen und Schalen: Bier, Kaffee, Reis"] },
+        { "type": "table", "head": ["Zahl", "〜本 (ほん)", "〜枚 (まい)", "〜杯 (はい)"], "rows": [["1", "一[いっ]本[ぽん]", "一[いち]枚[まい]", "一[いっ]杯[ぱい]"], ["2", "二[に]本[ほん]", "二[に]枚[まい]", "二[に]杯[はい]"], ["3", "三[さん]本[ぼん]", "三[さん]枚[まい]", "三[さん]杯[ばい]"], ["4", "四[よん]本[ほん]", "四[よん]枚[まい]", "四[よん]杯[はい]"], ["5", "五[ご]本[ほん]", "五[ご]枚[まい]", "五[ご]杯[はい]"], ["6", "六[ろっ]本[ぽん]", "六[ろく]枚[まい]", "六[ろっ]杯[ぱい]"], ["7", "七[なな]本[ほん]", "七[なな]枚[まい]", "七[なな]杯[はい]"], ["8", "八[はっ]本[ぽん]", "八[はち]枚[まい]", "八[はっ]杯[ぱい]"], ["9", "九[きゅう]本[ほん]", "九[きゅう]枚[まい]", "九[きゅう]杯[はい]"], ["10", "十[じゅっ]本[ぽん]", "十[じゅう]枚[まい]", "十[じゅっ]杯[ぱい]"], ["?", "何[なん]本[ぼん]", "何[なん]枚[まい]", "何[なん]杯[ばい]"]] },
+        { "type": "tip", "text": "Merkhilfe: Bei 1, 6, 8 und 10 wird ほん/はい zu っぽん/っぱい. Bei 3 und なん wird es zu ぼん/ばい. 枚 bleibt immer まい – zum Glück!" },
+        { "type": "tip", "text": "Vorsicht: にほん heißt hier „zwei (Flaschen)“, nicht „Japan“. Und いっぱい heißt auch „voll“: おなか いっぱいです = „Ich bin satt.“" },
+        { "type": "p", "text": "Die Menge steht direkt vor dem Verb, ohne Partikel: Sache + を + Menge + Verb. Gefragt wird mit なんぼん, なんまい und なんばい." },
+        { "type": "examples", "items": [{ "text": "ビール を 二[に]本[ほん] 買[か]い ました。", "de": "Ich habe zwei Flaschen Bier gekauft." }, { "text": "かさ が 三[さん]本[ぼん] あり ます。", "de": "Es gibt drei Regenschirme." }, { "text": "写真[しゃしん] を 何[なん]枚[まい] とり ました か。", "de": "Wie viele Fotos hast du gemacht?" }, { "text": "コーヒー を 二[に]杯[はい] 飲[の]み ました。", "de": "Ich habe zwei Tassen Kaffee getrunken." }, { "text": "ご飯[はん] を 三[さん]杯[ばい] 食[た]べ ました！", "de": "Ich habe drei Schalen Reis gegessen!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "ビール を ___ ください。", "answers": ["一[いっ]本[ぽん]"], "de": "Eine Flasche Bier, bitte.", "hint": "eine Flasche" },
+        { "type": "cloze", "text": "お皿[さら] を ___ おねがいします。", "answers": ["二[に]枚[まい]"], "de": "Zwei Teller, bitte.", "hint": "zwei (flache Dinge)" },
+        { "type": "cloze", "text": "コーヒー を ___ 飲[の]み ました。", "answers": ["三[さん]杯[ばい]"], "de": "Ich habe drei Tassen Kaffee getrunken.", "hint": "drei Tassen" },
+        { "type": "cloze", "text": "かさ は ___ あり ます か。", "answers": ["何[なん]本[ぼん]"], "de": "Wie viele Regenschirme gibt es?" },
+        { "type": "match", "pairs": [["一[いっ]本[ぽん]", "eine Flasche"], ["六[ろっ]本[ぽん]", "sechs Flaschen"], ["三[さん]杯[ばい]", "drei Tassen"], ["四[よん]枚[まい]", "vier Blatt"], ["八[はっ]杯[ぱい]", "acht Gläser"]] },
+        { "type": "translate", "de": "Ich habe fünf Fotos gemacht.", "answers": ["私[わたし] は 写真[しゃしん] を 五[ご]枚[まい] とり ました。", "私[わたし] は 写真[しゃしん] を 五[ご]枚[まい] 撮[と]り ました。", "写真[しゃしん] を 五[ご]枚[まい] とり ました。", "写真[しゃしん] を 五[ご]枚[まい] 撮[と]り ました。"] },
+        { "type": "translate", "de": "Zwei Gläser Wein, bitte.", "answers": ["ワイン を 二[に]杯[はい] ください。", "ワイン を 二[に]杯[はい] おねがいします。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "レストラン で",
+    "title_de": "Im Restaurant",
+    "lines": [
+      { "speaker": "てんいん", "text": "いらっしゃいませ。 何名[なんめい]様[さま] です か。", "de": "Willkommen! Wie viele Personen sind Sie?" },
+      { "speaker": "けん", "text": "二人[ふたり] です。 七時[しちじ] に 予約[よやく] を し ました。 さとう です。", "de": "Zwei. Ich habe für sieben Uhr reserviert. Mein Name ist Sato." },
+      { "speaker": "てんいん", "text": "さとう 様[さま] です ね。 こちら の 席[せき] へ どうぞ。", "de": "Herr Sato, ja. Bitte, hier entlang zu Ihrem Tisch." },
+      { "speaker": "アンナ", "text": "きれい な 店[みせ] です ね。 写真[しゃしん] を とって も いい です か。", "de": "Was für ein schönes Lokal! Darf ich ein Foto machen?" },
+      { "speaker": "てんいん", "text": "ええ、 どうぞ。 こちら が メニュー です。", "de": "Ja, bitte. Hier ist die Speisekarte." },
+      { "speaker": "アンナ", "text": "すみません、 おすすめ は 何[なん] です か。", "de": "Entschuldigung, was empfehlen Sie?" },
+      { "speaker": "てんいん", "text": "今日[きょう] は 焼[や]き魚[ざかな] 定[てい]食[しょく] です。 魚[さかな] が とても 新[あたら]しい です よ。", "de": "Heute das Menü mit gegrilltem Fisch. Der Fisch ist ganz frisch." },
+      { "speaker": "けん", "text": "じゃあ、 私[わたし] は それ に し ます。 アンナ さん は 何[なに] に し ます か。", "de": "Dann nehme ich das. Was nimmst du, Anna?" },
+      { "speaker": "アンナ", "text": "私[わたし] は 肉[にく] が 好[す]き です から、 とり肉[にく] の 定[てい]食[しょく] に し ます。", "de": "Ich mag Fleisch, deshalb nehme ich das Hähnchen-Menü." },
+      { "speaker": "てんいん", "text": "かしこまりました。 お飲[の]み物[もの] は？", "de": "Sehr wohl. Und zu trinken?" },
+      { "speaker": "けん", "text": "ビール を 一[いっ]本[ぽん] と 麦[むぎ]茶[ちゃ] を 一[いっ]杯[ぱい] おねがいします。", "de": "Eine Flasche Bier und ein Glas Gerstentee, bitte." },
+      { "speaker": "アンナ", "text": "ああ、 おいしかった！ おなか いっぱい です。", "de": "(Nach dem Essen) Ah, war das lecker! Ich bin satt." },
+      { "speaker": "けん", "text": "すみません、 お会[かい]計[けい] おねがいします。", "de": "Entschuldigung, die Rechnung bitte!" },
+      { "speaker": "てんいん", "text": "はい。 全部[ぜんぶ] で 三[さん]千[ぜん]四[よん]百[ひゃく]円[えん] です。", "de": "Gern. Das macht zusammen 3400 Yen." },
+      { "speaker": "アンナ", "text": "今日[きょう] は 私[わたし] が はらい ます。 カード で はらって も いい です か。", "de": "Heute bezahle ich. Kann ich mit Karte zahlen?" },
+      { "speaker": "てんいん", "text": "はい、 大[だい]丈夫[じょうぶ] です。 ありがとうございました！", "de": "Ja, kein Problem. Vielen Dank!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["肉[にく]", "das Fleisch"], ["牛[ぎゅう]肉[にく]", "das Rindfleisch"], ["とり肉[にく]", "das Hähnchenfleisch"], ["焼[や]き魚[ざかな]", "gegrillter Fisch"], ["みそしる", "die Misosuppe"], ["麦[むぎ]茶[ちゃ]", "der Gerstentee"]] },
+    { "type": "match", "pairs": [["おすすめ", "die Empfehlung"], ["お会[かい]計[けい]", "die Rechnung"], ["予約[よやく]", "die Reservierung"], ["べつべつ", "getrennt"], ["無[む]料[りょう]", "kostenlos"]] },
+    { "type": "translate", "de": "Ich habe für sieben Uhr reserviert.", "answers": ["私[わたし] は 七時[しちじ] に 予約[よやく] を し ました。", "私[わたし] は 七時[しちじ] に 予約[よやく] し ました。", "七時[しちじ] に 予約[よやく] を し ました。", "七時[しちじ] に 予約[よやく] し ました。"] },
+    { "type": "translate", "de": "Darf ich mich hierhin setzen?", "answers": ["ここ に すわって も いい です か。", "ここ に 座[すわ]って も いい です か。"] },
+    { "type": "translate", "de": "Ich nehme das Hähnchen-Menü.", "answers": ["私[わたし] は とり肉[にく] の 定[てい]食[しょく] に し ます。", "とり肉[にく] の 定[てい]食[しょく] に し ます。", "私[わたし] は とり肉[にく] の 定[てい]食[しょく] を おねがいします。", "私[わたし] は とり肉[にく] の 定[てい]食[しょく] を ください。", "とり肉[にく] の 定[てい]食[しょく] を おねがいします。", "とり肉[にく] の 定[てい]食[しょく] を ください。"] },
+    { "type": "translate", "de": "Kann ich bar bezahlen?", "answers": ["現[げん]金[きん] で はらって も いい です か。", "現[げん]金[きん] で 払[はら]って も いい です か。", "現[げん]金[きん] で も いい です か。"] },
+    { "type": "order", "de": "Ein Glas Rotwein, bitte.", "answer": "赤[あか]ワイン を 一[いっ]杯[ぱい] ください。", "distractors": ["一[いっ]本[ぽん]"] },
+    { "type": "order", "de": "Was nimmst du zum Nachtisch?", "answer": "デザート は 何[なに] に し ます か。", "distractors": ["を"] },
+    { "type": "cloze", "text": "この カレー は ちょっと ___ です。", "answers": ["からい"], "de": "Dieses Curry ist ein bisschen scharf." },
+    { "type": "cloze", "text": "ここ で たばこ を すって ___ いけ ません。", "answers": ["は"], "de": "Hier darf man nicht rauchen." },
+    { "type": "listen", "text": "すみません、 お水[みず] を もう 一[いっ]杯[ぱい] ください。", "de": "Entschuldigung, noch ein Glas Wasser, bitte." },
+    { "type": "listen", "text": "この 店[みせ] は 魚[さかな] の 料理[りょうり] が おいしい です。", "de": "In diesem Lokal sind die Fischgerichte lecker." },
+    { "type": "listen", "text": "昼[ひる]ご飯[はん] に 牛[ぎゅう]肉[にく] の 定[てい]食[しょく] を 食[た]べ ました。", "de": "Zum Mittagessen habe ich ein Menü mit Rindfleisch gegessen." }
+  ]
+}

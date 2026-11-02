@@ -1,0 +1,158 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-09",
+  "lang": "es",
+  "level": "A2",
+  "number": 9,
+  "title": "Cuando era niña",
+  "title_de": "Früher",
+  "topic": "Kindheit und Erinnerungen",
+  "goals": [
+    "Du kannst mit dem pretérito imperfecto erzählen, wie es früher war.",
+    "Du kannst Gewohnheiten beschreiben – mit soler + Infinitiv, antes und ya no.",
+    "Du kannst von deiner Kindheit erzählen: Schule, Spiele, Ferien.",
+    "Du kannst Hintergrund (Imperfecto) und einzelne Ereignisse (Indefinido) unterscheiden."
+  ],
+  "vocab": [
+    { "id": "nino", "word": "niño", "article": "el", "gender": "m", "plural": "los niños", "de": "das Kind; der Junge", "pos": "noun", "example": { "text": "Cuando era niño, vivía en un pueblo.", "de": "Als ich ein Kind war, habe ich in einem Dorf gewohnt." }, "note": "la niña = das Mädchen; los niños = die Kinder (auch gemischt)." },
+    { "id": "infancia", "word": "infancia", "article": "la", "gender": "f", "de": "die Kindheit", "pos": "noun", "example": { "text": "Mi infancia fue muy bonita.", "de": "Meine Kindheit war sehr schön." } },
+    { "id": "de-pequeno", "word": "de pequeño", "alt": ["de pequeña"], "de": "als Kind", "pos": "phrase", "example": { "text": "De pequeño, Jonas era muy travieso.", "de": "Als Kind war Jonas sehr frech." }, "note": "Eine Frau sagt: de pequeña. Ebenso: de niño / de niña." },
+    { "id": "cuando", "word": "cuando", "de": "als; wenn", "pos": "conj", "example": { "text": "Cuando tenía diez años, jugaba al fútbol.", "de": "Als ich zehn war, habe ich Fußball gespielt." }, "note": "Ohne Akzent im Satz. Als Fragewort mit Akzent: ¿cuándo? = wann?" },
+    { "id": "antes", "word": "antes", "de": "früher; vorher", "pos": "adv", "example": { "text": "Antes vivía en Viena; ahora vivo en Madrid.", "de": "Früher habe ich in Wien gewohnt, jetzt wohne ich in Madrid." } },
+    { "id": "ya-no", "word": "ya no", "de": "nicht mehr", "pos": "phrase", "example": { "text": "Ya no juego al fútbol.", "de": "Ich spiele nicht mehr Fußball." } },
+    { "id": "soler", "word": "soler", "de": "gewöhnlich tun; pflegen zu", "pos": "verb", "forms": "suelo, sueles, suele, solemos, soléis, suelen", "example": { "text": "Los domingos solíamos comer en casa de mis abuelos.", "de": "Sonntags haben wir meistens bei meinen Großeltern gegessen.", "focus": "solíamos" }, "note": "Immer mit Infinitiv: Suelo cenar a las nueve. = Normalerweise esse ich um neun zu Abend." },
+    { "id": "vida", "word": "vida", "article": "la", "gender": "f", "plural": "las vidas", "de": "das Leben", "pos": "noun", "example": { "text": "La vida en el pueblo era muy tranquila.", "de": "Das Leben im Dorf war sehr ruhig." } },
+    { "id": "colegio", "word": "colegio", "article": "el", "gender": "m", "plural": "los colegios", "de": "die Schule", "pos": "noun", "example": { "text": "Iba al colegio a pie.", "de": "Ich bin zu Fuß zur Schule gegangen." }, "note": "Die Schule für Kinder heißt in Spanien meist el colegio, kurz el cole." },
+    { "id": "maestro", "word": "maestro", "article": "el", "gender": "m", "plural": "los maestros", "de": "der Lehrer (Grundschule)", "pos": "noun", "example": { "text": "Mi maestra se llamaba Rosa.", "de": "Meine Lehrerin hieß Rosa.", "focus": "maestra" }, "note": "la maestra = die Lehrerin. An weiterführenden Schulen sagt man el profesor / la profesora." },
+    { "id": "recreo", "word": "recreo", "article": "el", "gender": "m", "plural": "los recreos", "de": "die (Schul-)Pause", "pos": "noun", "example": { "text": "En el recreo jugábamos al fútbol.", "de": "In der Pause haben wir Fußball gespielt." } },
+    { "id": "deberes", "word": "deberes", "article": "los", "gender": "m", "de": "die Hausaufgaben", "pos": "noun", "example": { "text": "Después del colegio hacía los deberes.", "de": "Nach der Schule habe ich die Hausaufgaben gemacht." }, "note": "Immer in der Mehrzahl: los deberes. Hausaufgaben machen = hacer los deberes." },
+    { "id": "juguete", "word": "juguete", "article": "el", "gender": "m", "plural": "los juguetes", "de": "das Spielzeug", "pos": "noun", "example": { "text": "Mi juguete favorito era un tren.", "de": "Mein Lieblingsspielzeug war ein Zug." } },
+    { "id": "muneca", "word": "muñeca", "article": "la", "gender": "f", "plural": "las muñecas", "de": "die Puppe", "pos": "noun", "example": { "text": "Mi hermana tenía muchas muñecas.", "de": "Meine Schwester hatte viele Puppen.", "focus": "muñecas" } },
+    { "id": "pelota", "word": "pelota", "article": "la", "gender": "f", "plural": "las pelotas", "de": "der Ball", "pos": "noun", "example": { "text": "Jugábamos con la pelota en la calle.", "de": "Wir haben auf der Straße mit dem Ball gespielt." } },
+    { "id": "escondite", "word": "escondite", "article": "el", "gender": "m", "de": "das Versteckspiel", "pos": "noun", "example": { "text": "Jugábamos al escondite en el parque.", "de": "Wir haben im Park Verstecken gespielt." }, "note": "Verstecken spielen = jugar al escondite." },
+    { "id": "dibujos-animados", "word": "dibujos animados", "article": "los", "gender": "m", "de": "der Zeichentrickfilm; die Zeichentrickfilme", "pos": "noun", "example": { "text": "Por las tardes veía dibujos animados.", "de": "Nachmittags habe ich Zeichentrickfilme geschaut." } },
+    { "id": "dibujar", "word": "dibujar", "de": "zeichnen", "pos": "verb", "example": { "text": "De pequeña me encantaba dibujar.", "de": "Als Kind habe ich sehr gern gezeichnet." } },
+    { "id": "cuento", "word": "cuento", "article": "el", "gender": "m", "plural": "los cuentos", "de": "das Märchen; die Geschichte", "pos": "noun", "example": { "text": "Mi abuela me contaba cuentos.", "de": "Meine Großmutter hat mir Märchen erzählt.", "focus": "cuentos" } },
+    { "id": "contar", "word": "contar", "de": "erzählen; zählen", "pos": "verb", "forms": "cuento, cuentas, cuenta, contamos, contáis, cuentan", "example": { "text": "¿Me cuentas cómo era tu pueblo?", "de": "Erzählst du mir, wie dein Dorf war?", "focus": "cuentas" }, "note": "o → ue wie volver." },
+    { "id": "caramelo", "word": "caramelo", "article": "el", "gender": "m", "plural": "los caramelos", "de": "das Bonbon", "pos": "noun", "example": { "text": "Mi abuelo siempre tenía caramelos para nosotros.", "de": "Mein Großvater hatte immer Bonbons für uns.", "focus": "caramelos" } },
+    { "id": "miedo", "word": "miedo", "article": "el", "gender": "m", "de": "die Angst", "pos": "noun", "example": { "text": "De pequeña tenía miedo de los perros.", "de": "Als Kind hatte ich Angst vor Hunden." }, "note": "Angst vor etwas haben = tener miedo de / a algo." },
+    { "id": "travieso", "word": "travieso", "alt": ["traviesa"], "de": "frech; ungezogen (Kind)", "pos": "adj", "example": { "text": "Mi hermano era muy travieso.", "de": "Mein Bruder war sehr frech." } },
+    { "id": "vecino", "word": "vecino", "article": "el", "gender": "m", "plural": "los vecinos", "de": "der Nachbar", "pos": "noun", "example": { "text": "Nuestros vecinos tenían un perro muy grande.", "de": "Unsere Nachbarn hatten einen sehr großen Hund.", "focus": "vecinos" }, "note": "la vecina = die Nachbarin." },
+    { "id": "campo", "word": "campo", "article": "el", "gender": "m", "plural": "los campos", "de": "das Land (nicht Stadt); das Feld", "pos": "noun", "example": { "text": "Mis abuelos vivían en el campo.", "de": "Meine Großeltern haben auf dem Land gewohnt." } },
+    { "id": "rio", "word": "río", "article": "el", "gender": "m", "plural": "los ríos", "de": "der Fluss", "pos": "noun", "example": { "text": "En verano nos bañábamos en el río.", "de": "Im Sommer haben wir im Fluss gebadet." } },
+    { "id": "arbol", "word": "árbol", "article": "el", "gender": "m", "plural": "los árboles", "de": "der Baum", "pos": "noun", "example": { "text": "Delante de la casa había un árbol muy grande.", "de": "Vor dem Haus stand ein sehr großer Baum." } },
+    { "id": "animal", "word": "animal", "article": "el", "gender": "m", "plural": "los animales", "de": "das Tier", "pos": "noun", "example": { "text": "En la casa de mis abuelos había muchos animales.", "de": "Bei meinen Großeltern gab es viele Tiere.", "focus": "animales" } },
+    { "id": "crecer", "word": "crecer", "de": "aufwachsen; wachsen", "pos": "verb", "forms": "crezco, creces, crece, crecemos, crecéis, crecen", "example": { "text": "Crecí en Sevilla.", "de": "Ich bin in Sevilla aufgewachsen.", "focus": "crecí" } },
+    { "id": "acordarse", "word": "acordarse", "de": "sich erinnern (an: de)", "pos": "verb", "forms": "me acuerdo, te acuerdas, se acuerda, nos acordamos, os acordáis, se acuerdan", "example": { "text": "¿Te acuerdas de tu primer día de colegio?", "de": "Erinnerst du dich an deinen ersten Schultag?", "focus": "te acuerdas" }, "note": "o → ue. Immer mit de: acordarse de algo." },
+    { "id": "recuerdo", "word": "recuerdo", "article": "el", "gender": "m", "plural": "los recuerdos", "de": "die Erinnerung; das Andenken", "pos": "noun", "example": { "text": "Tengo muy buenos recuerdos de mi infancia.", "de": "Ich habe sehr schöne Erinnerungen an meine Kindheit.", "focus": "recuerdos" } },
+    { "id": "cambiar", "word": "cambiar", "de": "(sich) ändern; wechseln", "pos": "verb", "example": { "text": "El barrio ha cambiado mucho.", "de": "Das Viertel hat sich sehr verändert.", "focus": "cambiado" } },
+    { "id": "cada", "word": "cada", "de": "jede, jeder, jedes", "pos": "other", "example": { "text": "Cada verano íbamos al pueblo.", "de": "Jeden Sommer sind wir ins Dorf gefahren." }, "note": "cada bleibt immer gleich: cada día, cada semana." },
+    { "id": "mientras", "word": "mientras", "de": "während", "pos": "conj", "example": { "text": "Mi madre cocinaba mientras yo hacía los deberes.", "de": "Meine Mutter hat gekocht, während ich die Hausaufgaben gemacht habe." } },
+    { "id": "de-repente", "word": "de repente", "de": "plötzlich", "pos": "phrase", "example": { "text": "De repente empezó a llover.", "de": "Plötzlich fing es an zu regnen." } },
+    { "id": "por-primera-vez", "word": "por primera vez", "de": "zum ersten Mal", "pos": "phrase", "example": { "text": "En 1962 vi la tele por primera vez.", "de": "1962 habe ich zum ersten Mal ferngesehen." } }
+  ],
+  "grammar": [
+    {
+      "id": "imperfecto",
+      "title": "Das Imperfecto: wie es früher war",
+      "blocks": [
+        { "type": "p", "text": "Mit dem pretérito imperfecto beschreibst du, wie etwas früher war und was man früher regelmäßig gemacht hat: Als Kind wohnte ich in einem Dorf. Jeden Sommer fuhren wir ans Meer. Auf Deutsch sagt man dafür oft „früher …“, „immer“ oder einfach das Präteritum." },
+        { "type": "table", "head": ["Person", "jugar (-ar)", "tener (-er)", "vivir (-ir)"], "rows": [["yo", "jugaba", "tenía", "vivía"], ["tú", "jugabas", "tenías", "vivías"], ["él / ella / usted", "jugaba", "tenía", "vivía"], ["nosotros / nosotras", "jugábamos", "teníamos", "vivíamos"], ["vosotros / vosotras", "jugabais", "teníais", "vivíais"], ["ellos / ellas / ustedes", "jugaban", "tenían", "vivían"]] },
+        { "type": "tip", "text": "Die ich- und die er-Form sind gleich: jugaba = ich spielte / er spielte. Darum sagt man öfter das Subjekt dazu: Yo jugaba, mi hermano leía. Stiefelverben sind im Imperfecto ganz regelmäßig: jugar → jugaba, querer → quería." },
+        { "type": "p", "text": "Nur drei Verben sind unregelmäßig: ser, ir und ver." },
+        { "type": "table", "head": ["Person", "ser", "ir", "ver"], "rows": [["yo", "era", "iba", "veía"], ["tú", "eras", "ibas", "veías"], ["él / ella / usted", "era", "iba", "veía"], ["nosotros / nosotras", "éramos", "íbamos", "veíamos"], ["vosotros / vosotras", "erais", "ibais", "veíais"], ["ellos / ellas / ustedes", "eran", "iban", "veían"]] },
+        { "type": "tip", "text": "Hay wird im Imperfecto zu había: En mi pueblo había un río. = In meinem Dorf gab es einen Fluss. Und quería kennst du schon aus A1 – es ist eine Imperfecto-Form von querer!" },
+        { "type": "examples", "items": [{ "text": "Cuando era niña, vivía en Sevilla.", "de": "Als ich ein Kind war, wohnte ich in Sevilla." }, { "text": "Todos los veranos íbamos a la playa.", "de": "Jeden Sommer fuhren wir an den Strand." }, { "text": "Mi abuelo tenía un perro que se llamaba Chispa.", "de": "Mein Großvater hatte einen Hund, der Chispa hieß." }, { "text": "Antes no había móviles.", "de": "Früher gab es keine Handys." }, { "text": "¿Veías muchos dibujos animados?", "de": "Hast du viele Zeichentrickfilme geschaut?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Cuando ___ niño, vivía en un pueblo.", "answers": ["era"], "de": "Als ich ein Kind war, wohnte ich in einem Dorf.", "hint": "ser" },
+        { "type": "cloze", "text": "Todos los domingos ___ a casa de mis abuelos.", "answers": ["íbamos"], "de": "Jeden Sonntag gingen wir zu meinen Großeltern.", "hint": "ir – nosotros" },
+        { "type": "cloze", "text": "Mi hermana ___ con muñecas.", "answers": ["jugaba"], "de": "Meine Schwester spielte mit Puppen.", "hint": "jugar" },
+        { "type": "cloze", "text": "¿Tú ___ muchos juguetes?", "answers": ["tenías"], "de": "Hattest du viele Spielsachen?", "hint": "tener – tú" },
+        { "type": "cloze", "text": "Por las tardes mis hermanos y yo ___ dibujos animados.", "answers": ["veíamos"], "de": "Nachmittags schauten meine Geschwister und ich Zeichentrickfilme.", "hint": "ver" },
+        { "type": "cloze", "text": "En el pueblo no ___ cine.", "answers": ["había"], "de": "Im Dorf gab es kein Kino.", "hint": "hay" },
+        { "type": "cloze", "text": "Mis abuelos ___ en el campo.", "answers": ["vivían"], "de": "Meine Großeltern wohnten auf dem Land.", "hint": "vivir" },
+        { "type": "translate", "de": "Früher wohnte ich in Wien.", "answers": ["Antes vivía en Viena.", "Antes yo vivía en Viena.", "Yo antes vivía en Viena.", "Vivía en Viena antes."] },
+        { "type": "order", "de": "Als ich ein Kind war, hatte ich einen Hund.", "answer": "Cuando era niño, tenía un perro.", "distractors": ["tuve"] }
+      ]
+    },
+    {
+      "id": "soler",
+      "title": "Gewohnheiten: soler + Infinitiv, antes und ya no",
+      "blocks": [
+        { "type": "p", "text": "Soler + Infinitiv sagt, was man gewöhnlich oder normalerweise macht. Im Deutschen gibt es dafür kein eigenes Verb – man sagt „normalerweise“, „meistens“ oder „pflegen zu“." },
+        { "type": "table", "head": ["Person", "Präsens", "Imperfecto"], "rows": [["yo", "suelo", "solía"], ["tú", "sueles", "solías"], ["él / ella / usted", "suele", "solía"], ["nosotros / nosotras", "solemos", "solíamos"], ["vosotros / vosotras", "soléis", "solíais"], ["ellos / ellas / ustedes", "suelen", "solían"]] },
+        { "type": "tip", "text": "Im Präsens ist soler ein Stiefelverb wie volver: o → ue (suelo, sueles …). Im Imperfecto ist es regelmäßig: solía, solías …" },
+        { "type": "p", "text": "Im Präsens: Suelo desayunar a las ocho. = Normalerweise frühstücke ich um acht. Im Imperfecto: De pequeño solía jugar en la calle. = Als Kind habe ich meistens auf der Straße gespielt." },
+        { "type": "p", "text": "So stellst du früher und heute gegenüber: antes … ahora … Für „nicht mehr“ sagst du ya no: Antes jugaba al fútbol, pero ya no juego. = Früher habe ich Fußball gespielt, aber jetzt nicht mehr." },
+        { "type": "examples", "items": [{ "text": "Los sábados solemos ir al cine.", "de": "Samstags gehen wir meistens ins Kino." }, { "text": "De pequeña solía ir al río con mis primos.", "de": "Als Kind bin ich meistens mit meinen Cousins an den Fluss gegangen." }, { "text": "Mi abuela solía contarnos cuentos.", "de": "Meine Großmutter hat uns oft Märchen erzählt." }, { "text": "Antes iba a clase en autobús; ahora voy en bici.", "de": "Früher bin ich mit dem Bus zum Unterricht gefahren, jetzt fahre ich mit dem Rad." }, { "text": "Ya no veo dibujos animados.", "de": "Ich schaue keine Zeichentrickfilme mehr." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Normalmente ___ cenar a las nueve.", "answers": ["suelo"], "de": "Normalerweise esse ich um neun zu Abend.", "hint": "soler – yo" },
+        { "type": "cloze", "text": "¿A qué hora ___ levantarte los domingos?", "answers": ["sueles"], "de": "Wann stehst du sonntags normalerweise auf?", "hint": "soler – tú" },
+        { "type": "cloze", "text": "De pequeños, ___ jugar al escondite.", "answers": ["solíamos"], "de": "Als Kinder haben wir meistens Verstecken gespielt.", "hint": "soler – nosotros, früher" },
+        { "type": "cloze", "text": "Mi abuelo ___ pasear por el parque.", "answers": ["solía"], "de": "Mein Großvater ging meistens im Park spazieren.", "hint": "soler – früher" },
+        { "type": "cloze", "text": "Antes jugaba al tenis, pero ___ no juego.", "answers": ["ya"], "de": "Früher habe ich Tennis gespielt, aber jetzt nicht mehr." },
+        { "type": "translate", "de": "Sonntags essen wir normalerweise Paella.", "answers": ["Los domingos solemos comer paella.", "Solemos comer paella los domingos.", "Los domingos nosotros solemos comer paella.", "Normalmente comemos paella los domingos.", "Los domingos normalmente comemos paella."] },
+        { "type": "order", "de": "Als Kind habe ich meistens Zeichentrickfilme geschaut.", "answer": "De pequeño solía ver dibujos animados.", "distractors": ["suelo"] }
+      ]
+    },
+    {
+      "id": "imperfecto-indefinido",
+      "title": "Imperfecto oder Indefinido?",
+      "blocks": [
+        { "type": "p", "text": "Beide Zeiten erzählen von der Vergangenheit, aber sie haben verschiedene Aufgaben. Das Imperfecto beschreibt Gewohnheiten, Zustände und wie etwas war – den Hintergrund. Das Indefinido erzählt einzelne, abgeschlossene Ereignisse – was dann passierte." },
+        { "type": "table", "head": ["Imperfecto – Hintergrund, Gewohnheit", "Indefinido – einzelnes Ereignis"], "rows": [["Todos los veranos íbamos al pueblo.", "Un verano fuimos a Italia."], ["Siempre jugaba en la calle.", "Ayer jugué en el parque."], ["Era un día muy bonito.", "De repente empezó a llover."], ["Mi abuela vivía en un pueblo.", "En 1960 conoció a mi abuelo."]] },
+        { "type": "list", "items": ["Typisch für das Imperfecto: siempre, todos los días, cada verano, a menudo, de pequeño, antes, mientras", "Typisch für das Indefinido: ayer, un día, una vez, en 1995, de repente, el año pasado, por primera vez"] },
+        { "type": "tip", "text": "Eine Eselsbrücke: Das Imperfecto baut die Bühne, das Indefinido erzählt die Handlung. Cuando tenía diez años (Bühne), fui a Madrid por primera vez (Handlung)." },
+        { "type": "examples", "items": [{ "text": "Cuando tenía diez años, fui a Madrid por primera vez.", "de": "Als ich zehn war, bin ich zum ersten Mal nach Madrid gefahren." }, { "text": "Mi abuela vivía en un pueblo. Un día conoció a mi abuelo en una fiesta.", "de": "Meine Großmutter wohnte in einem Dorf. Eines Tages lernte sie auf einem Fest meinen Großvater kennen." }, { "text": "Mientras mi madre cocinaba, yo hacía los deberes.", "de": "Während meine Mutter kochte, machte ich die Hausaufgaben." }, { "text": "Jugábamos en la calle y de repente llegó mi padre.", "de": "Wir spielten auf der Straße, und plötzlich kam mein Vater." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Cuando era pequeña, ___ al colegio a pie.", "answers": ["iba"], "de": "Als ich klein war, ging ich zu Fuß zur Schule.", "hint": "ir – Gewohnheit" },
+        { "type": "cloze", "text": "Un día ___ al colegio en taxi.", "answers": ["fui"], "de": "Eines Tages bin ich mit dem Taxi zur Schule gefahren.", "hint": "ir – einmal" },
+        { "type": "cloze", "text": "Todos los veranos ___ en el río.", "answers": ["nos bañábamos"], "de": "Jeden Sommer badeten wir im Fluss.", "hint": "bañarse – nosotros" },
+        { "type": "cloze", "text": "El verano pasado ___ en el mar.", "answers": ["nos bañamos"], "de": "Letzten Sommer haben wir im Meer gebadet.", "hint": "bañarse – nosotros" },
+        { "type": "cloze", "text": "En 1962 mi abuela ___ la tele por primera vez.", "answers": ["vio"], "de": "1962 hat meine Großmutter zum ersten Mal ferngesehen.", "hint": "ver" },
+        { "type": "choice", "prompt": "„Als Kind spielte ich jeden Tag Fußball.“ – De niño ___ al fútbol todos los días.", "options": ["jugué", "jugaba"], "answer": 1, "explain": "Todos los días zeigt eine Gewohnheit – deshalb Imperfecto: jugaba." },
+        { "type": "translate", "de": "Als ich zehn war, bin ich zum ersten Mal nach Madrid gefahren.", "answers": ["Cuando tenía diez años, fui a Madrid por primera vez.", "Cuando tenía diez años, fui por primera vez a Madrid.", "Fui a Madrid por primera vez cuando tenía diez años.", "Fui por primera vez a Madrid cuando tenía diez años.", "Cuando yo tenía diez años, fui a Madrid por primera vez.", "Cuando tenía diez años, viajé a Madrid por primera vez.", "Cuando tenía diez años, viajé por primera vez a Madrid."] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Abuela, ¿cómo era tu vida?",
+    "title_de": "Oma, wie war dein Leben?",
+    "lines": [
+      { "speaker": "Lucía", "text": "Abuela, ¿qué foto es esta? ¿Eres tú?", "de": "Oma, was ist das für ein Foto? Bist du das?" },
+      { "speaker": "Abuela", "text": "Sí, soy yo. Tenía ocho años. Vivíamos en un pueblo pequeño, en el campo.", "de": "Ja, das bin ich. Ich war acht. Wir wohnten in einem kleinen Dorf auf dem Land." },
+      { "speaker": "Lucía", "text": "¿Y cómo era la vida en el pueblo?", "de": "Und wie war das Leben im Dorf?" },
+      { "speaker": "Abuela", "text": "Muy tranquila. No había coches y no teníamos tele. Los niños jugábamos todo el día en la calle.", "de": "Sehr ruhig. Es gab keine Autos, und wir hatten keinen Fernseher. Wir Kinder spielten den ganzen Tag auf der Straße." },
+      { "speaker": "Lucía", "text": "¿A qué jugabais?", "de": "Was habt ihr gespielt?" },
+      { "speaker": "Abuela", "text": "Al escondite, a la pelota… Y en verano solíamos bañarnos en el río.", "de": "Verstecken, Ball … Und im Sommer badeten wir meistens im Fluss." },
+      { "speaker": "Lucía", "text": "¿Ibas al colegio?", "de": "Bist du zur Schule gegangen?" },
+      { "speaker": "Abuela", "text": "Sí, pero solo hasta los doce años. Después ayudaba a mi madre en casa.", "de": "Ja, aber nur bis zwölf. Danach half ich meiner Mutter zu Hause." },
+      { "speaker": "Lucía", "text": "¿Y cuándo conociste al abuelo?", "de": "Und wann hast du Opa kennengelernt?" },
+      { "speaker": "Abuela", "text": "En una fiesta del pueblo. Yo tenía veinte años y él era alto, moreno y muy guapo.", "de": "Auf einem Dorffest. Ich war zwanzig, und er war groß, dunkelhaarig und sehr gut aussehend." },
+      { "speaker": "Lucía", "text": "¡Qué bonito! ¿Y cuándo viste la tele por primera vez?", "de": "Wie schön! Und wann hast du zum ersten Mal ferngesehen?" },
+      { "speaker": "Abuela", "text": "En 1962, en el bar del pueblo. ¡Todos los vecinos fueron a verla!", "de": "1962, in der Dorfkneipe. Alle Nachbarn sind hingegangen, um fernzusehen!" },
+      { "speaker": "Lucía", "text": "Yo de pequeña solía ver dibujos animados todas las tardes.", "de": "Ich habe als Kind fast jeden Nachmittag Zeichentrickfilme geschaut." },
+      { "speaker": "Abuela", "text": "Sí, me acuerdo. ¡Y nunca querías hacer los deberes!", "de": "Ja, ich erinnere mich. Und du wolltest nie die Hausaufgaben machen!" },
+      { "speaker": "Lucía", "text": "Bueno, eso ha cambiado. Ahora estudio mucho, ¡como tú con tu inglés!", "de": "Naja, das hat sich geändert. Jetzt lerne ich viel – so wie du mit deinem Englisch!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["el juguete", "das Spielzeug"], ["la muñeca", "die Puppe"], ["la pelota", "der Ball"], ["el cuento", "das Märchen"], ["los deberes", "die Hausaufgaben"]] },
+    { "type": "match", "pairs": [["antes", "früher"], ["ya no", "nicht mehr"], ["de repente", "plötzlich"], ["mientras", "während"], ["por primera vez", "zum ersten Mal"]] },
+    { "type": "translate", "de": "Als Kind hatte ich Angst vor Hunden.", "answers": ["De pequeño tenía miedo de los perros.", "De pequeña tenía miedo de los perros.", "De pequeño tenía miedo a los perros.", "De pequeña tenía miedo a los perros.", "De niño tenía miedo de los perros.", "De niña tenía miedo de los perros.", "Cuando era niño, tenía miedo de los perros.", "Cuando era niña, tenía miedo de los perros.", "Cuando era pequeño, tenía miedo de los perros.", "Cuando era pequeña, tenía miedo de los perros."] },
+    { "type": "translate", "de": "Meine Großmutter erzählte mir Märchen.", "answers": ["Mi abuela me contaba cuentos."] },
+    { "type": "translate", "de": "Ich bin in Sevilla aufgewachsen.", "answers": ["Crecí en Sevilla.", "Yo crecí en Sevilla.", "Me crie en Sevilla."] },
+    { "type": "translate", "de": "Früher gab es hier einen Fluss.", "answers": ["Antes había un río aquí.", "Antes aquí había un río.", "Aquí antes había un río.", "Antes había aquí un río."] },
+    { "type": "order", "de": "Erinnerst du dich an unsere Schule?", "answer": "¿Te acuerdas de nuestro colegio?", "distractors": ["a"] },
+    { "type": "order", "de": "Jeden Sommer fuhren wir ins Dorf.", "answer": "Cada verano íbamos al pueblo.", "distractors": ["fuimos"] },
+    { "type": "cloze", "text": "En el ___ comíamos un bocadillo y jugábamos.", "answers": ["recreo"], "de": "In der Pause aßen wir ein Brötchen und spielten." },
+    { "type": "cloze", "text": "Mi hermano pequeño era muy ___: nunca hacía los deberes.", "answers": ["travieso"], "de": "Mein kleiner Bruder war sehr frech: Er machte nie die Hausaufgaben." },
+    { "type": "cloze", "text": "Tengo muy buenos ___ de mi infancia.", "answers": ["recuerdos"], "de": "Ich habe sehr schöne Erinnerungen an meine Kindheit." },
+    { "type": "listen", "text": "Cuando era pequeña, vivía en el campo con mis abuelos.", "de": "Als ich klein war, wohnte ich mit meinen Großeltern auf dem Land." },
+    { "type": "listen", "text": "Antes jugaba mucho al fútbol, pero ya no juego.", "de": "Früher habe ich viel Fußball gespielt, aber jetzt nicht mehr." },
+    { "type": "listen", "text": "Un día, mientras jugábamos en la calle, llegó mi padre.", "de": "Eines Tages, während wir auf der Straße spielten, kam mein Vater." }
+  ]
+}

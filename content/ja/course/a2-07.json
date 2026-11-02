@@ -1,0 +1,153 @@
+{
+  "formatVersion": 1,
+  "id": "ja-a2-07",
+  "lang": "ja",
+  "level": "A2",
+  "number": 7,
+  "title": "どこ へ 行[い]った こと が あり ます か。",
+  "title_de": "Urlaub",
+  "topic": "Hotel und Reiseplanung",
+  "goals": [
+    "Du kannst mit 〜たことが あります über Erfahrungen sprechen: ふじさんに のぼったことが あります.",
+    "Du kannst mit 〜たり 〜たり します aufzählen, was du im Urlaub machst oder gemacht hast.",
+    "Du kannst im Hotel oder Ryokan einchecken und nach Zimmer, Übernachtungen und Zeiten fragen.",
+    "Du kannst mit den Himmelsrichtungen sagen, wo ein Ort liegt: ほっかいどうは 日本の 北に あります."
+  ],
+  "kanji": ["旅", "国", "山", "海", "東", "西", "南", "北"],
+  "vocab": [
+    { "id": "ryokan", "word": "旅[りょ]館[かん]", "de": "das Ryokan (traditionelles japanisches Gasthaus)", "pos": "noun", "example": { "text": "京都[きょうと] で 古[ふる]い 旅[りょ]館[かん] に 泊[と]まり ました。", "de": "In Kyoto haben wir in einem alten Ryokan übernachtet." }, "note": "Im りょかん schläft man auf Tatami, trägt einen Yukata und bekommt meist Abendessen und Frühstück. 旅 heißt „Reise“." },
+    { "id": "onsen", "word": "温泉[おんせん]", "de": "die heiße Quelle; das Thermalbad", "pos": "noun", "example": { "text": "日本[にほん] は 温泉[おんせん] が 有[ゆう]名[めい] です。", "de": "Japan ist berühmt für seine heißen Quellen." }, "note": "Ins おんせん geht man ohne Badekleidung – vorher wäscht man sich gründlich. „Ins Onsen gehen“ heißt おんせんに はいります." },
+    { "id": "washitsu", "word": "和室[わしつ]", "de": "das Zimmer im japanischen Stil", "pos": "noun", "example": { "text": "和室[わしつ] に は ベッド が あり ません。", "de": "Im japanischen Zimmer gibt es kein Bett." }, "note": "Das Gegenteil ist ようしつ – ein Zimmer im westlichen Stil mit Bett." },
+    { "id": "tatami", "word": "たたみ", "de": "die Tatami-Matte", "pos": "noun", "example": { "text": "たたみ の 部屋[へや] が 好[す]き です。", "de": "Ich mag Zimmer mit Tatami." }, "note": "Matten aus Reisstroh. Auf Tatami geht man nie mit Schuhen – auch nicht mit Hausschuhen." },
+    { "id": "futon", "word": "ふとん", "de": "der Futon (japanisches Bett zum Ausbreiten)", "pos": "noun", "example": { "text": "夜[よる] は たたみ の 上[うえ] に ふとん を しき ます。", "de": "Abends breitet man den Futon auf den Tatami aus." }, "note": "しきます = auf dem Boden ausbreiten. Morgens räumt man den Futon in den Schrank." },
+    { "id": "yukata", "word": "ゆかた", "de": "der Yukata (leichter Baumwoll-Kimono)", "pos": "noun", "example": { "text": "旅[りょ]館[かん] で は ゆかた で 晩[ばん]ご飯[はん] を 食[た]べ ます。", "de": "Im Ryokan isst man im Yukata zu Abend." } },
+    { "id": "furonto", "word": "フロント", "de": "die Rezeption", "pos": "noun", "example": { "text": "かぎ は フロント に あり ます。", "de": "Der Schlüssel ist an der Rezeption." } },
+    { "id": "chekkuin", "word": "チェックイン", "de": "der Check-in", "pos": "noun", "example": { "text": "チェックイン は 三時[さんじ] から です。", "de": "Check-in ist ab 15 Uhr." }, "note": "チェックインします = einchecken." },
+    { "id": "chekkuauto", "word": "チェックアウト", "de": "der Check-out", "pos": "noun", "example": { "text": "チェックアウト は 十時[じゅうじ] まで です。", "de": "Check-out ist bis 10 Uhr." } },
+    { "id": "haku", "word": "〜泊[はく]", "alt": ["泊[はく]"], "de": "Zählwort für Übernachtungen (… Nacht/Nächte)", "pos": "counter", "example": { "text": "京都[きょうと] に 二[に]泊[はく] し ました。", "de": "Wir haben zwei Nächte in Kyoto verbracht.", "focus": "泊[はく]" }, "note": "いっぱく, にはく, さんぱく, よんはく, ごはく … なんぱく. Achtung: Nach さん und なん wird es hier zu ぱく." },
+    { "id": "tomarimasu", "word": "泊[と]まり ます", "de": "übernachten", "pos": "verb", "forms": "Wörterbuchform とまる · て-Form とまって · た-Form とまった", "example": { "text": "今[こん]晩[ばん] は 駅[えき] の 近[ちか]く の ホテル に 泊[と]まり ます。", "de": "Heute Nacht übernachte ich in einem Hotel in der Nähe vom Bahnhof." }, "note": "Wo man übernachtet, markiert に: ホテルに とまります." },
+    { "id": "nimotsu", "word": "荷物[にもつ]", "de": "das Gepäck", "pos": "noun", "example": { "text": "この 荷物[にもつ] は 私[わたし] の です。", "de": "Dieses Gepäck gehört mir." } },
+    { "id": "pasupooto", "word": "パスポート", "de": "der Reisepass", "pos": "noun", "example": { "text": "パスポート を 見[み]せて ください。", "de": "Zeigen Sie mir bitte Ihren Pass." }, "note": "In japanischen Hotels muss man als Ausländer/in beim Check-in den Pass zeigen." },
+    { "id": "suutsukeesu", "word": "スーツケース", "de": "der Koffer", "pos": "noun", "example": { "text": "大[おお]きい スーツケース を 買[か]い ました。", "de": "Ich habe einen großen Koffer gekauft." } },
+    { "id": "kankou", "word": "観光[かんこう]", "de": "die Besichtigung; das Sightseeing", "pos": "noun", "example": { "text": "あした は 京都[きょうと] を 観光[かんこう] し ます。", "de": "Morgen besichtigen wir Kyoto." }, "note": "かんこうします = besichtigen." },
+    { "id": "annai", "word": "案内[あんない]", "de": "die Führung; die Auskunft", "pos": "noun", "example": { "text": "私[わたし] が 町[まち] を 案内[あんない] し ます よ。", "de": "Ich zeige dir die Stadt." }, "note": "あんないします = herumführen, den Weg zeigen." },
+    { "id": "shirabemasu", "word": "調[しら]べ ます", "de": "nachschauen; recherchieren", "pos": "verb", "forms": "Wörterbuchform しらべる · て-Form しらべて · た-Form しらべた", "example": { "text": "インターネット で 旅[りょ]館[かん] を 調[しら]べ ました。", "de": "Ich habe im Internet nach Ryokans geschaut." } },
+    { "id": "noborimasu", "word": "登[のぼ]り ます", "de": "hinaufsteigen; (auf einen Berg) steigen", "pos": "verb", "forms": "Wörterbuchform のぼる · て-Form のぼって · た-Form のぼった", "example": { "text": "夏[なつ] に 富士[ふじ]山[さん] に 登[のぼ]り たい です。", "de": "Im Sommer möchte ich auf den Fuji steigen." }, "note": "Den Berg markiert に: やまに のぼります. 山 liest man in Bergnamen さん: ふじさん." },
+    { "id": "higashi", "word": "東[ひがし]", "de": "der Osten", "pos": "noun", "example": { "text": "駅[えき] の 東[ひがし] に 大[おお]きい 公園[こうえん] が あり ます。", "de": "Östlich vom Bahnhof gibt es einen großen Park." } },
+    { "id": "nishi", "word": "西[にし]", "de": "der Westen", "pos": "noun", "example": { "text": "大[おお]阪[さか] は 東[とう]京[きょう] の 西[にし] に あり ます。", "de": "Osaka liegt westlich von Tokio." } },
+    { "id": "minami", "word": "南[みなみ]", "de": "der Süden", "pos": "noun", "example": { "text": "冬[ふゆ] は 南[みなみ] の 国[くに] へ 行[い]き たい です。", "de": "Im Winter möchte ich in ein Land im Süden fahren." } },
+    { "id": "kita", "word": "北[きた]", "de": "der Norden", "pos": "noun", "example": { "text": "北[きた] の 町[まち] は 冬[ふゆ] が 長[なが]い です。", "de": "In Städten im Norden ist der Winter lang." } },
+    { "id": "hokkaidou", "word": "北海[ほっかい]道[どう]", "de": "Hokkaido (nördlichste Hauptinsel Japans)", "pos": "noun", "example": { "text": "北海[ほっかい]道[どう] は 夏[なつ] も すずしい です。", "de": "Auf Hokkaido ist es auch im Sommer angenehm kühl." }, "note": "Wörtlich „Nord-Meer-Weg“. Bekannt für Schnee, Natur und gutes Essen." },
+    { "id": "gaikoku", "word": "外国[がいこく]", "de": "das Ausland", "pos": "noun", "example": { "text": "外国[がいこく] で 仕事[しごと] を し たい です。", "de": "Ich möchte im Ausland arbeiten." }, "note": "Wörtlich „äußeres Land“. がいこくじん = Ausländer/in." },
+    { "id": "kaigai", "word": "海外[かいがい]", "de": "das Ausland (jenseits des Meeres); Übersee", "pos": "noun", "example": { "text": "今年[ことし] の 夏[なつ] は 海外[かいがい] 旅行[りょこう] を し ます。", "de": "Diesen Sommer mache ich eine Auslandsreise." }, "note": "Für Japan liegt jedes Ausland hinter dem Meer – deshalb sagt man oft かいがい statt がいこく, besonders bei かいがいりょこう." },
+    { "id": "shima", "word": "島[しま]", "de": "die Insel", "pos": "noun", "example": { "text": "沖縄[おきなわ] は きれい な 島[しま] です。", "de": "Okinawa ist eine schöne Insel." } },
+    { "id": "kawa", "word": "川[かわ]", "de": "der Fluss", "pos": "noun", "example": { "text": "この 川[かわ] で 泳[およ]いで も いい です か。", "de": "Darf man in diesem Fluss schwimmen?" } },
+    { "id": "keshiki", "word": "景色[けしき]", "de": "die Aussicht; die Landschaft", "pos": "noun", "example": { "text": "山[やま] の 上[うえ] から の 景色[けしき] が とても きれい でした。", "de": "Die Aussicht vom Gipfel war wunderschön." } },
+    { "id": "tooi", "word": "遠[とお]い", "de": "weit (entfernt)", "pos": "adj", "example": { "text": "旅[りょ]館[かん] は 駅[えき] から 遠[とお]い です か。", "de": "Ist das Ryokan weit vom Bahnhof entfernt?" } },
+    { "id": "chikai", "word": "近[ちか]い", "de": "nah", "pos": "adj", "example": { "text": "ホテル は 駅[えき] から 近[ちか]い です。", "de": "Das Hotel ist nah am Bahnhof." }, "note": "„In der Nähe“ heißt ちかく: えきの ちかくに あります. Von wo aus etwas nah oder weit ist, markiert から." },
+    { "id": "kai", "word": "〜回[かい]", "alt": ["回[かい]"], "de": "…-mal (Zählwort für Male)", "pos": "counter", "example": { "text": "京都[きょうと] へ 三[さん]回[かい] 行[い]った こと が あり ます。", "de": "Ich war schon dreimal in Kyoto.", "focus": "回[かい]" }, "note": "いっかい, にかい, さんかい … ろっかい, はっかい, じゅっかい, なんかい." },
+    { "id": "hajimete", "word": "初[はじ]めて", "de": "zum ersten Mal", "pos": "adv", "example": { "text": "初[はじ]めて 温泉[おんせん] に 入[はい]り ました。", "de": "Ich war zum ersten Mal in einer heißen Quelle." }, "note": "Dasselbe Wort steckt in はじめまして (Freut mich – beim ersten Treffen)." },
+    { "id": "ryokougaisha", "word": "旅行会社[りょこうがいしゃ]", "de": "das Reisebüro", "pos": "noun", "example": { "text": "旅行会社[りょこうがいしゃ] で 切符[きっぷ] を 買[か]い ました。", "de": "Ich habe die Fahrkarte im Reisebüro gekauft." }, "note": "かいしゃ wird hier zu がいしゃ. Alle vier Kanji kannst du jetzt lesen!" },
+    { "id": "kyanpu", "word": "キャンプ", "de": "das Camping; das Zelten", "pos": "noun", "example": { "text": "去[きょ]年[ねん] の 夏[なつ]、 山[やま] で キャンプ を し ました。", "de": "Letzten Sommer waren wir in den Bergen zelten." } },
+    { "id": "yooroppa", "word": "ヨーロッパ", "de": "Europa", "pos": "noun", "example": { "text": "ヨーロッパ の 国[くに] を 旅行[りょこう] し たい です。", "de": "Ich möchte durch die Länder Europas reisen." } },
+    { "id": "sekai", "word": "世界[せかい]", "de": "die Welt", "pos": "noun", "example": { "text": "世界[せかい] で いちばん 高[たか]い 山[やま] は 何[なん] です か。", "de": "Was ist der höchste Berg der Welt?" } }
+  ],
+  "grammar": [
+    {
+      "id": "ta-koto-ga-aru",
+      "title": "Erfahrungen: 〜た ことが あります",
+      "blocks": [
+        { "type": "p", "text": "Mit der た-Form + ことが あります sagst du, dass du etwas schon einmal (im Leben) gemacht hast. こと heißt „Sache, Tatsache“ – wörtlich also: „Es gibt die Tatsache, dass ich … habe.“ Die た-Form kennst du aus Lektion 3." },
+        { "type": "table", "head": ["ます-Form", "た-Form", "Erfahrung"], "rows": [["行[い]き ます", "行[い]った", "行[い]った こと が あり ます"], ["食[た]べ ます", "食[た]べた", "食[た]べた こと が あり ます"], ["泊[と]まり ます", "泊[と]まった", "泊[と]まった こと が あり ます"], ["登[のぼ]り ます", "登[のぼ]った", "登[のぼ]った こと が あり ます"], ["飲[の]み ます", "飲[の]んだ", "飲[の]んだ こと が あり ます"], ["し ます", "した", "した こと が あり ます"], ["来[き] ます", "来[き]た", "来[き]た こと が あり ます"]] },
+        { "type": "examples", "items": [{ "text": "すし を 食[た]べた こと が あり ます か。", "de": "Hast du schon mal Sushi gegessen?" }, { "text": "はい、 あり ます。", "de": "Ja, habe ich." }, { "text": "富士[ふじ]山[さん] に 登[のぼ]った こと が あり ます。", "de": "Ich bin schon einmal auf den Fuji gestiegen." }, { "text": "旅[りょ]館[かん] に 泊[と]まった こと が あり ません。", "de": "Ich habe noch nie in einem Ryokan übernachtet." }, { "text": "北海[ほっかい]道[どう] へ 二[に]回[かい] 行[い]った こと が あり ます。", "de": "Ich war schon zweimal auf Hokkaido." }] },
+        { "type": "tip", "text": "Die Kurzantwort braucht kein Verb: はい、あります。/ いいえ、ありません。 „Noch nie“ verstärkst du mit いちども: いちども ありません." },
+        { "type": "tip", "text": "Nicht für Alltägliches oder Dinge von gestern! „Gestern habe ich Sushi gegessen“ heißt einfach きのう すしを たべました. 〜たことが あります ist für Erfahrungen im Leben – oft mit Zahlen wie いっかい, にかい oder mit はじめて (zum ersten Mal) als Gegenstück." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "温泉[おんせん] に 入[はい]った ___ が あり ます。", "answers": ["こと"], "de": "Ich war schon einmal in einer heißen Quelle." },
+        { "type": "cloze", "text": "沖縄[おきなわ] へ 行[い]った こと が ___ か。", "answers": ["あり ます"], "de": "Warst du schon einmal in Okinawa?" },
+        { "type": "cloze", "text": "富士[ふじ]山[さん] に ___ こと が あり ます。", "answers": ["登[のぼ]った"], "de": "Ich bin schon einmal auf den Fuji gestiegen.", "hint": "のぼります → た-Form" },
+        { "type": "cloze", "text": "たたみ の 部屋[へや] で ___ こと が あり ません。", "answers": ["寝[ね]た"], "de": "Ich habe noch nie in einem Tatami-Zimmer geschlafen.", "hint": "ねます → た-Form" },
+        { "type": "order", "de": "Ich war schon zweimal auf Hokkaido.", "answer": "北海[ほっかい]道[どう] へ 二[に]回[かい] 行[い]った こと が あり ます。", "distractors": ["行[い]き"] },
+        { "type": "translate", "de": "Hast du schon einmal in einem Ryokan übernachtet?", "answers": ["旅[りょ]館[かん] に 泊[と]まった こと が あり ます か。", "旅[りょ]館[かん] に 泊[と]まった こと は あり ます か。"] },
+        { "type": "translate", "de": "Ich habe noch nie Sake getrunken.", "answers": ["私[わたし] は 一[いち]度[ど] も お酒[さけ] を 飲[の]んだ こと が あり ません。", "私[わたし] は 一[いち]度[ど] も 日本[にほん]酒[しゅ] を 飲[の]んだ こと が あり ません。", "私[わたし] は お酒[さけ] を 飲[の]んだ こと が あり ません。", "私[わたし] は 日本[にほん]酒[しゅ] を 飲[の]んだ こと が あり ません。", "一[いち]度[ど] も お酒[さけ] を 飲[の]んだ こと が あり ません。", "一[いち]度[ど] も 日本[にほん]酒[しゅ] を 飲[の]んだ こと が あり ません。", "お酒[さけ] を 飲[の]んだ こと が あり ません。", "日本[にほん]酒[しゅ] を 飲[の]んだ こと が あり ません。"] }
+      ]
+    },
+    {
+      "id": "tari-tari",
+      "title": "Beispiele aufzählen: 〜たり 〜たり します",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜たり 〜たり します zählst du Beispiele auf: „Ich mache unter anderem … und …“. Die Liste ist nicht vollständig – es gibt noch mehr. Bildung: た-Form + り. Am Ende steht immer します (oder しました, したいです …)." },
+        { "type": "table", "head": ["ます-Form", "た-Form", "+ り"], "rows": [["泳[およ]ぎ ます", "泳[およ]いだ", "泳[およ]いだり"], ["見[み] ます", "見[み]た", "見[み]たり"], ["入[はい]り ます", "入[はい]った", "入[はい]ったり"], ["食[た]べ ます", "食[た]べた", "食[た]べたり"], ["し ます", "した", "したり"]] },
+        { "type": "examples", "items": [{ "text": "休[やす]み の 日[ひ] は 本[ほん] を 読[よ]んだり、 映画[えいが] を 見[み]たり し ます。", "de": "An freien Tagen lese ich zum Beispiel Bücher oder schaue Filme." }, { "text": "旅[りょ]館[かん] で 温泉[おんせん] に 入[はい]ったり、 おいしい 料理[りょうり] を 食[た]べたり し ました。", "de": "Im Ryokan waren wir in der heißen Quelle, haben gut gegessen und so weiter." }, { "text": "夏[なつ]休[やす]み は 海[うみ] で 泳[およ]いだり、 山[やま] に 登[のぼ]ったり し たい です。", "de": "In den Sommerferien möchte ich im Meer schwimmen, auf Berge steigen und so." }, { "text": "週[しゅう]末[まつ] は 買[か]い物[もの] を したり、 友[とも]だち に 会[あ]ったり し ます。", "de": "Am Wochenende gehe ich einkaufen, treffe Freunde und so." }] },
+        { "type": "tip", "text": "Vergleiche mit der て-Form aus Lektion 1: 〜て、〜て erzählt eine Reihenfolge („zuerst …, dann …“). 〜たり 〜たり nennt nur Beispiele – die Reihenfolge ist egal." },
+        { "type": "tip", "text": "Ob Vergangenheit oder Wunsch, steht nur ganz am Ende: 〜たり 〜たり しました / したいです. Die たり-Formen selbst bleiben gleich." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "本[ほん] を 読[よ]んだり、 音楽[おんがく] を 聞[き]いた___ し ます。", "answers": ["り"], "de": "Ich lese Bücher, höre Musik und so." },
+        { "type": "cloze", "text": "京都[きょうと] で お寺[てら] を 見[み]たり、 買[か]い物[もの] を ___ し ました。", "answers": ["したり"], "de": "In Kyoto haben wir Tempel angeschaut, eingekauft und so." },
+        { "type": "cloze", "text": "海[うみ] で ___、 魚[さかな] を 食[た]べたり し たい です。", "answers": ["泳[およ]いだり"], "de": "Ich möchte im Meer schwimmen, Fisch essen und so.", "hint": "およぎます" },
+        { "type": "order", "de": "Im Urlaub habe ich gelesen, geschlafen und so.", "answer": "休[やす]み に 本[ほん] を 読[よ]んだり、 寝[ね]たり し ました。", "distractors": ["寝[ね]て"] },
+        { "type": "translate", "de": "Auf Hokkaido möchte ich auf Berge steigen, in heiße Quellen gehen und so.", "answers": ["北海[ほっかい]道[どう] で は 山[やま] に 登[のぼ]ったり、 温泉[おんせん] に 入[はい]ったり し たい です。", "山[やま] に 登[のぼ]ったり、 温泉[おんせん] に 入[はい]ったり し たい です。", "北海[ほっかい]道[どう] で 山[やま] に 登[のぼ]ったり、 温泉[おんせん] に 入[はい]ったり し たい です。", "北海[ほっかい]道[どう] で は 温泉[おんせん] に 入[はい]ったり、 山[やま] に 登[のぼ]ったり し たい です。", "温泉[おんせん] に 入[はい]ったり、 山[やま] に 登[のぼ]ったり し たい です。", "北海[ほっかい]道[どう] で 温泉[おんせん] に 入[はい]ったり、 山[やま] に 登[のぼ]ったり し たい です。"] },
+        { "type": "translate", "de": "Am Wochenende schaue ich Filme, gehe einkaufen und so.", "answers": ["週[しゅう]末[まつ] は 映画[えいが] を 見[み]たり、 買[か]い物[もの] を したり し ます。", "週[しゅう]末[まつ] は 映画[えいが] を 見[み]たり、 買[か]い物[もの] に 行[い]ったり し ます。", "週[しゅう]末[まつ] 映画[えいが] を 見[み]たり、 買[か]い物[もの] を したり し ます。", "週[しゅう]末[まつ] 映画[えいが] を 見[み]たり、 買[か]い物[もの] に 行[い]ったり し ます。", "週[しゅう]末[まつ] は 買[か]い物[もの] を したり、 映画[えいが] を 見[み]たり し ます。", "週[しゅう]末[まつ] は 買[か]い物[もの] に 行[い]ったり、 映画[えいが] を 見[み]たり し ます。", "週[しゅう]末[まつ] 買[か]い物[もの] を したり、 映画[えいが] を 見[み]たり し ます。", "週[しゅう]末[まつ] 買[か]い物[もの] に 行[い]ったり、 映画[えいが] を 見[み]たり し ます。"] }
+      ]
+    },
+    {
+      "id": "himmelsrichtungen",
+      "title": "Himmelsrichtungen: Wo liegt was?",
+      "blocks": [
+        { "type": "p", "text": "Die vier Himmelsrichtungen heißen ひがし (Osten), にし (Westen), みなみ (Süden) und きた (Norden). Japaner zählen sie in der Reihenfolge とうざいなんぼく (東西南北) auf – Ost, West, Süd, Nord." },
+        { "type": "table", "head": ["Richtung", "Japanisch", "Wort mit dem Kanji", "Bedeutung"], "rows": [["Osten", "東[ひがし]", "東[とう]京[きょう]", "Tokio („östliche Hauptstadt“)"], ["Westen", "西[にし]", "関[かん]西[さい]", "Kansai (Gegend um Osaka und Kyoto)"], ["Süden", "南[みなみ]", "南口[みなみぐち]", "Südausgang"], ["Norden", "北[きた]", "北海[ほっかい]道[どう]", "Hokkaido"]] },
+        { "type": "p", "text": "Wo etwas liegt, sagst du mit A は B の 北に あります: „A liegt im Norden von B / nördlich von B.“ Für Orte innerhalb eines Landes heißt das „im Norden“, für Orte daneben „nördlich von“ – auf Japanisch ist es derselbe Satz." },
+        { "type": "examples", "items": [{ "text": "北海[ほっかい]道[どう] は 日本[にほん] の 北[きた] に あり ます。", "de": "Hokkaido liegt im Norden Japans." }, { "text": "京都[きょうと] は 東[とう]京[きょう] の 西[にし] に あり ます。", "de": "Kyoto liegt westlich von Tokio." }, { "text": "沖縄[おきなわ] は 日本[にほん] の 南[みなみ] の 島[しま] です。", "de": "Okinawa ist eine Insel im Süden Japans." }, { "text": "ミュンヘン は ドイツ の 南[みなみ] に あり ます。", "de": "München liegt im Süden Deutschlands." }, { "text": "ホテル は 東口[ひがしぐち] から 歩[ある]いて 五[ご]分[ふん] です。", "de": "Das Hotel ist fünf Minuten zu Fuß vom Ostausgang entfernt." }] },
+        { "type": "tip", "text": "Zwischenrichtungen setzt man zusammen, dabei ändern sich die Lesungen: ほくとう (北東, Nordosten), なんせい (南西, Südwesten). Die Ausgänge am Bahnhof kennst du schon: ひがしぐち, にしぐち, みなみぐち, きたぐち." },
+        { "type": "tip", "text": "Merkhilfe: Im Kanji 東 steckt 日 (Sonne) hinter 木 (Baum) – im Osten geht die Sonne hinter den Bäumen auf." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "北海[ほっかい]道[どう] は 日本[にほん] の ___ に あり ます。", "answers": ["北[きた]"], "de": "Hokkaido liegt im Norden Japans." },
+        { "type": "cloze", "text": "ミュンヘン は ドイツ の ___ に あり ます。", "answers": ["南[みなみ]"], "de": "München liegt im Süden Deutschlands." },
+        { "type": "match", "pairs": [["東[ひがし]", "Osten"], ["西[にし]", "Westen"], ["南[みなみ]", "Süden"], ["北[きた]", "Norden"], ["北東[ほくとう]", "Nordosten"], ["南西[なんせい]", "Südwesten"]] },
+        { "type": "order", "de": "Kyoto liegt westlich von Tokio.", "answer": "京都[きょうと] は 東[とう]京[きょう] の 西[にし] に あり ます。", "distractors": ["東[ひがし]"] },
+        { "type": "translate", "de": "Hamburg liegt im Norden Deutschlands.", "answers": ["ハンブルク は ドイツ の 北[きた] に あり ます。", "ハンブルク は ドイツ の 北[きた] です。"] },
+        { "type": "translate", "de": "Das Hotel ist am Westausgang.", "answers": ["ホテル は 駅[えき] の 西口[にしぐち] に あり ます。", "ホテル は 駅[えき] の 西口[にしぐち] です。", "ホテル は 西口[にしぐち] に あり ます。", "ホテル は 西口[にしぐち] です。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "旅[りょ]館[かん] で",
+    "title_de": "Im Ryokan",
+    "lines": [
+      { "speaker": "フロント", "text": "いらっしゃいませ。 ご予約[よやく] の お名前[なまえ] を おねがいします。", "de": "Herzlich willkommen! Auf welchen Namen haben Sie reserviert?" },
+      { "speaker": "アンナ", "text": "ベッカー です。 二人[ふたり] で 二[に]泊[はく] です。", "de": "Becker. Zwei Personen, zwei Nächte." },
+      { "speaker": "フロント", "text": "ベッカー 様[さま] です ね。 お部屋[へや] は 三[さん]階[がい] の 和室[わしつ] です。 南[みなみ] の 部屋[へや] です から、 景色[けしき] が きれい です よ。", "de": "Frau Becker, ja. Ihr Zimmer ist ein japanisches Zimmer im dritten Stock. Es liegt nach Süden, deshalb ist die Aussicht sehr schön." },
+      { "speaker": "ソフィー", "text": "わあ、 いい です ね！", "de": "Oh, toll!" },
+      { "speaker": "フロント", "text": "旅[りょ]館[かん] に 泊[と]まった こと が あり ます か。", "de": "Haben Sie schon einmal in einem Ryokan übernachtet?" },
+      { "speaker": "アンナ", "text": "いいえ、 初[はじ]めて です。 たたみ の 部屋[へや] で 寝[ね]た こと も あり ません。", "de": "Nein, das ist das erste Mal. Ich habe auch noch nie in einem Tatami-Zimmer geschlafen." },
+      { "speaker": "フロント", "text": "夜[よる] は 部屋[へや] に ふとん が あり ます から、 ゆっくり 休[やす]んで ください。", "de": "Abends liegt im Zimmer ein Futon für Sie bereit. Ruhen Sie sich gut aus." },
+      { "speaker": "ソフィー", "text": "温泉[おんせん] は 何時[なんじ] まで です か。", "de": "Bis wann ist die heiße Quelle geöffnet?" },
+      { "speaker": "フロント", "text": "夜[よる] 十一時[じゅういちじ] まで です。 朝[あさ] は 六時[ろくじ] から です。", "de": "Bis 23 Uhr. Morgens ab sechs." },
+      { "speaker": "アンナ", "text": "ゆかた を 着[き]て 温泉[おんせん] へ 行[い]って も いい です か。", "de": "Dürfen wir im Yukata zur heißen Quelle gehen?" },
+      { "speaker": "フロント", "text": "もちろん です。 どうぞ、 ごゆっくり。", "de": "Natürlich. Machen Sie es sich gemütlich." },
+      { "speaker": "ソフィー", "text": "アンナ さん、 あした は 何[なに] を し たい です か。", "de": "Anna, was möchtest du morgen machen?" },
+      { "speaker": "アンナ", "text": "山[やま] に 登[のぼ]ったり、 川[かわ] の 近[ちか]く を さんぽ したり し たい です。", "de": "Ich möchte auf einen Berg steigen, am Fluss spazieren gehen und so." },
+      { "speaker": "ソフィー", "text": "いい です ね。 私[わたし] は おいしい 魚[さかな] を 食[た]べたり、 お土産[みやげ] を 買[か]ったり し たい です。", "de": "Gute Idee. Ich möchte leckeren Fisch essen, Mitbringsel kaufen und so." },
+      { "speaker": "アンナ", "text": "じゃあ、 全部[ぜんぶ] し ません か。", "de": "Wollen wir dann einfach alles machen?" },
+      { "speaker": "ソフィー", "text": "ええ！ でも、 まず は 温泉[おんせん] です ね！", "de": "Ja! Aber zuerst die heiße Quelle!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["旅[りょ]館[かん]", "das Ryokan"], ["温泉[おんせん]", "die heiße Quelle"], ["和室[わしつ]", "das japanische Zimmer"], ["ふとん", "der Futon"], ["フロント", "die Rezeption"], ["荷物[にもつ]", "das Gepäck"]] },
+    { "type": "match", "pairs": [["島[しま]", "die Insel"], ["川[かわ]", "der Fluss"], ["景色[けしき]", "die Aussicht"], ["外国[がいこく]", "das Ausland"], ["世界[せかい]", "die Welt"]] },
+    { "type": "translate", "de": "Ich habe für zwei Nächte reserviert.", "answers": ["私[わたし] は 二[に]泊[はく] で 予約[よやく] を し ました。", "私[わたし] は 二[に]泊[はく] で 予約[よやく] し ました。", "二[に]泊[はく] で 予約[よやく] を し ました。", "二[に]泊[はく] で 予約[よやく] し ました。", "私[わたし] は 二[に]泊[はく] を 予約[よやく] し ました。", "私[わたし] は 二[に]泊[はく] 予約[よやく] し ました。", "二[に]泊[はく] を 予約[よやく] し ました。", "二[に]泊[はく] 予約[よやく] し ました。"] },
+    { "type": "translate", "de": "Warst du schon einmal im Ausland?", "answers": ["外国[がいこく] へ 行[い]った こと が あり ます か。", "外国[がいこく] に 行[い]った こと が あり ます か。", "海外[かいがい] へ 行[い]った こと が あり ます か。", "海外[かいがい] に 行[い]った こと が あり ます か。"] },
+    { "type": "translate", "de": "Ich bin zum ersten Mal in Japan.", "answers": ["日本[にほん] は 初[はじ]めて です。", "初[はじ]めて 日本[にほん] へ 来[き] ました。", "初[はじ]めて 日本[にほん] に 来[き] ました。"] },
+    { "type": "order", "de": "Bis wann ist der Check-out?", "answer": "チェックアウト は 何時[なんじ] まで です か。", "distractors": ["から"] },
+    { "type": "order", "de": "Okinawa ist eine Insel im Süden Japans.", "answer": "沖縄[おきなわ] は 日本[にほん] の 南[みなみ] の 島[しま] です。", "distractors": ["北[きた]"] },
+    { "type": "cloze", "text": "駅[えき] から 旅[りょ]館[かん] まで ___ です か。 ― いいえ、 近[ちか]い です。", "answers": ["遠[とお]い"], "de": "Ist es vom Bahnhof bis zum Ryokan weit? – Nein, es ist nah." },
+    { "type": "cloze", "text": "この 旅[りょ]館[かん] に 三[さん]___ 泊[と]まり ます。", "answers": ["泊[ぱく]"], "de": "Ich übernachte drei Nächte in diesem Ryokan.", "hint": "Zählwort für Übernachtungen" },
+    { "type": "cloze", "text": "インターネット で ホテル を ___ ました。", "answers": ["調[しら]べ"], "de": "Ich habe im Internet nach Hotels geschaut." },
+    { "type": "listen", "text": "去[きょ]年[ねん] 家族[かぞく] と 北海[ほっかい]道[どう] へ 行[い]き ました。", "de": "Letztes Jahr war ich mit meiner Familie auf Hokkaido." },
+    { "type": "listen", "text": "富士[ふじ]山[さん] に 登[のぼ]った こと が あり ます か。", "de": "Bist du schon einmal auf den Fuji gestiegen?" },
+    { "type": "listen", "text": "海[うみ] で 泳[およ]いだり、 島[しま] を 見[み]たり し ました。", "de": "Wir sind im Meer geschwommen, haben uns Inseln angeschaut und so." }
+  ]
+}

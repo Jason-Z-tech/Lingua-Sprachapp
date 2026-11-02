@@ -1,0 +1,765 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-07",
+  "lang": "it",
+  "level": "A2",
+  "number": 7,
+  "title": "In vacanza",
+  "title_de": "Urlaub",
+  "topic": "Hotel und Reiseplanung",
+  "goals": [
+    "Du kannst im Hotel ein Zimmer buchen und nach Frühstück, Aufzug und Klimaanlage fragen.",
+    "Du kannst vom Urlaub erzählen – auch mit reflexiven Verben: mi sono divertita, ci siamo persi.",
+    "Du benutzt ci für Orte (ci vado, ci sono stato) und sagst, wie lange und seit wann: per una settimana, da tre giorni."
+  ],
+  "vocab": [
+    {
+      "id": "vacanza",
+      "word": "vacanza",
+      "article": "la",
+      "gender": "f",
+      "plural": "le vacanze",
+      "de": "der Urlaub; die Ferien",
+      "pos": "noun",
+      "example": { "text": "Ad agosto andiamo in vacanza.", "de": "Im August fahren wir in den Urlaub." },
+      "note": "In vacanza = im Urlaub / in den Urlaub. Oft in der Mehrzahl: le vacanze estive = die Sommerferien."
+    },
+    {
+      "id": "albergo",
+      "word": "albergo",
+      "alt": ["hotel"],
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli alberghi",
+      "de": "das Hotel",
+      "pos": "noun",
+      "example": { "text": "L'albergo è vicino al mare.", "de": "Das Hotel ist in der Nähe des Meeres." },
+      "note": "Genauso üblich: l'hotel (Mehrzahl gli hotel). Mehrzahl von albergo mit h: gli alberghi."
+    },
+    {
+      "id": "camera-singola",
+      "word": "camera singola",
+      "article": "la",
+      "gender": "f",
+      "plural": "le camere singole",
+      "de": "das Einzelzimmer",
+      "pos": "noun",
+      "example": { "text": "Vorrei una camera singola per tre notti.", "de": "Ich hätte gern ein Einzelzimmer für drei Nächte." }
+    },
+    {
+      "id": "camera-doppia",
+      "word": "camera doppia",
+      "article": "la",
+      "gender": "f",
+      "plural": "le camere doppie",
+      "de": "das Doppelzimmer",
+      "pos": "noun",
+      "example": { "text": "Avete una camera doppia con bagno?", "de": "Haben Sie ein Doppelzimmer mit Bad?" },
+      "note": "Mit Ehebett heißt es oft camera matrimoniale (von il matrimonio)."
+    },
+    {
+      "id": "reception",
+      "word": "reception",
+      "article": "la",
+      "gender": "f",
+      "plural": "le reception",
+      "de": "die Rezeption",
+      "pos": "noun",
+      "example": { "text": "La chiave è alla reception.", "de": "Der Schlüssel ist an der Rezeption." },
+      "note": "Ein englisches Wort – auf Italienisch ist es weiblich: la reception."
+    },
+    {
+      "id": "ascensore",
+      "word": "ascensore",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli ascensori",
+      "de": "der Aufzug",
+      "pos": "noun",
+      "example": { "text": "L'ascensore è a destra.", "de": "Der Aufzug ist rechts." }
+    },
+    {
+      "id": "aria-condizionata",
+      "word": "aria condizionata",
+      "article": "l'",
+      "gender": "f",
+      "de": "die Klimaanlage",
+      "pos": "noun",
+      "example": { "text": "In camera c'è l'aria condizionata?", "de": "Gibt es im Zimmer eine Klimaanlage?" }
+    },
+    {
+      "id": "vista",
+      "word": "vista",
+      "article": "la",
+      "gender": "f",
+      "plural": "le viste",
+      "de": "die Aussicht; der Blick",
+      "pos": "noun",
+      "example": { "text": "Vorrei una camera con vista sul mare.", "de": "Ich hätte gern ein Zimmer mit Meerblick." }
+    },
+    {
+      "id": "pieno",
+      "word": "pieno",
+      "alt": ["piena"],
+      "de": "voll; ausgebucht",
+      "pos": "adj",
+      "example": { "text": "Ad agosto gli alberghi sono pieni.", "de": "Im August sind die Hotels ausgebucht.", "focus": "pieni" },
+      "note": "Im Hotel hörst du auch: Siamo al completo. = Wir sind ausgebucht."
+    },
+    {
+      "id": "tranquillo",
+      "word": "tranquillo",
+      "alt": ["tranquilla"],
+      "de": "ruhig",
+      "pos": "adj",
+      "example": { "text": "La camera è piccola, ma tranquilla.", "de": "Das Zimmer ist klein, aber ruhig.", "focus": "tranquilla" }
+    },
+    {
+      "id": "rumoroso",
+      "word": "rumoroso",
+      "alt": ["rumorosa"],
+      "de": "laut (Ort, Zimmer)",
+      "pos": "adj",
+      "example": { "text": "La strada è molto rumorosa.", "de": "Die Straße ist sehr laut.", "focus": "rumorosa" }
+    },
+    {
+      "id": "campeggio",
+      "word": "campeggio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i campeggi",
+      "de": "der Campingplatz; das Camping",
+      "pos": "noun",
+      "example": { "text": "Quest'anno andiamo in campeggio.", "de": "Dieses Jahr gehen wir campen." }
+    },
+    {
+      "id": "tenda",
+      "word": "tenda",
+      "article": "la",
+      "gender": "f",
+      "plural": "le tende",
+      "de": "das Zelt; der Vorhang",
+      "pos": "noun",
+      "example": { "text": "In campeggio dormiamo in tenda.", "de": "Auf dem Campingplatz schlafen wir im Zelt." }
+    },
+    {
+      "id": "mare",
+      "word": "mare",
+      "article": "il",
+      "gender": "m",
+      "plural": "i mari",
+      "de": "das Meer",
+      "pos": "noun",
+      "example": { "text": "Vado al mare con mio fratello.", "de": "Ich fahre mit meinem Bruder ans Meer." },
+      "note": "Al mare = am Meer / ans Meer."
+    },
+    {
+      "id": "spiaggia",
+      "word": "spiaggia",
+      "article": "la",
+      "gender": "f",
+      "plural": "le spiagge",
+      "de": "der Strand",
+      "pos": "noun",
+      "example": { "text": "Andiamo in spiaggia?", "de": "Gehen wir an den Strand?" },
+      "note": "Mehrzahl ohne i: le spiagge."
+    },
+    {
+      "id": "montagna",
+      "word": "montagna",
+      "article": "la",
+      "gender": "f",
+      "plural": "le montagne",
+      "de": "der Berg; die Berge (Gebirge)",
+      "pos": "noun",
+      "example": { "text": "D'inverno vado in montagna.", "de": "Im Winter fahre ich in die Berge." },
+      "note": "In montagna = in den Bergen / in die Berge."
+    },
+    {
+      "id": "lago",
+      "word": "lago",
+      "article": "il",
+      "gender": "m",
+      "plural": "i laghi",
+      "de": "der See",
+      "pos": "noun",
+      "example": { "text": "Il Lago di Garda è molto grande.", "de": "Der Gardasee ist sehr groß." }
+    },
+    {
+      "id": "isola",
+      "word": "isola",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le isole",
+      "de": "die Insel",
+      "pos": "noun",
+      "example": { "text": "La Sicilia è un'isola.", "de": "Sizilien ist eine Insel." },
+      "note": "Auf einer Insel: in Sicilia, in Sardegna – bei kleinen Inseln a: a Capri."
+    },
+    {
+      "id": "barca",
+      "word": "barca",
+      "article": "la",
+      "gender": "f",
+      "plural": "le barche",
+      "de": "das Boot",
+      "pos": "noun",
+      "example": { "text": "Facciamo un giro in barca?", "de": "Machen wir eine Bootsfahrt?" }
+    },
+    {
+      "id": "monumento",
+      "word": "monumento",
+      "article": "il",
+      "gender": "m",
+      "plural": "i monumenti",
+      "de": "das Denkmal; die Sehenswürdigkeit",
+      "pos": "noun",
+      "example": {
+        "text": "Domani visitiamo i monumenti del centro.",
+        "de": "Morgen besichtigen wir die Sehenswürdigkeiten in der Innenstadt.",
+        "focus": "monumenti"
+      }
+    },
+    {
+      "id": "turista",
+      "word": "turista",
+      "article": "il",
+      "gender": "m",
+      "plural": "i turisti",
+      "de": "der Tourist; die Touristin",
+      "pos": "noun",
+      "example": { "text": "A Firenze ci sono sempre turisti.", "de": "In Florenz gibt es immer Touristen.", "focus": "turisti" },
+      "note": "Für Mann und Frau gleich: il turista, la turista. Mehrzahl: i turisti, le turiste."
+    },
+    {
+      "id": "passaporto",
+      "word": "passaporto",
+      "article": "il",
+      "gender": "m",
+      "plural": "i passaporti",
+      "de": "der Reisepass",
+      "pos": "noun",
+      "example": { "text": "Ecco il mio passaporto.", "de": "Hier ist mein Reisepass." }
+    },
+    {
+      "id": "carta-d-identita",
+      "word": "carta d'identità",
+      "article": "la",
+      "gender": "f",
+      "plural": "le carte d'identità",
+      "de": "der Personalausweis",
+      "pos": "noun",
+      "example": { "text": "Alla reception vogliono la carta d'identità.", "de": "An der Rezeption wollen sie den Personalausweis." }
+    },
+    {
+      "id": "bagaglio",
+      "word": "bagaglio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i bagagli",
+      "de": "das Gepäck; das Gepäckstück",
+      "pos": "noun",
+      "example": { "text": "Ho solo un bagaglio a mano.", "de": "Ich habe nur Handgepäck." },
+      "note": "Il bagaglio a mano = das Handgepäck. Oft in der Mehrzahl: i bagagli."
+    },
+    {
+      "id": "zaino",
+      "word": "zaino",
+      "article": "lo",
+      "gender": "m",
+      "plural": "gli zaini",
+      "de": "der Rucksack",
+      "pos": "noun",
+      "example": { "text": "Nello zaino ho il passaporto e l'acqua.", "de": "Im Rucksack habe ich den Reisepass und Wasser." },
+      "note": "Vor z steht lo: lo zaino, uno zaino."
+    },
+    {
+      "id": "souvenir",
+      "word": "souvenir",
+      "article": "il",
+      "gender": "m",
+      "plural": "i souvenir",
+      "de": "das Andenken; das Souvenir",
+      "pos": "noun",
+      "example": { "text": "Ho comprato un souvenir per mia madre.", "de": "Ich habe ein Andenken für meine Mutter gekauft." },
+      "note": "Ein französisches Wort – in der Mehrzahl bleibt es gleich."
+    },
+    {
+      "id": "cartolina",
+      "word": "cartolina",
+      "article": "la",
+      "gender": "f",
+      "plural": "le cartoline",
+      "de": "die Postkarte",
+      "pos": "noun",
+      "example": { "text": "Ti scrivo una cartolina da Napoli.", "de": "Ich schreibe dir eine Postkarte aus Neapel." }
+    },
+    {
+      "id": "lasciare",
+      "word": "lasciare",
+      "de": "lassen; zurücklassen; verlassen",
+      "pos": "verb",
+      "forms": "lascio, lasci, lascia, lasciamo, lasciate, lasciano",
+      "example": { "text": "Posso lasciare i bagagli alla reception?", "de": "Kann ich das Gepäck an der Rezeption lassen?" },
+      "note": "Bei tu nur ein i: lasci."
+    },
+    {
+      "id": "noleggiare",
+      "word": "noleggiare",
+      "de": "mieten; leihen (Auto, Fahrrad, Boot)",
+      "pos": "verb",
+      "forms": "noleggio, noleggi, noleggia, noleggiamo, noleggiate, noleggiano",
+      "example": { "text": "Possiamo noleggiare due biciclette?", "de": "Können wir zwei Fahrräder mieten?" },
+      "note": "Eine Wohnung mietet man dagegen: affittare un appartamento."
+    },
+    {
+      "id": "durare",
+      "word": "durare",
+      "de": "dauern",
+      "pos": "verb",
+      "forms": "dura, durano",
+      "example": { "text": "Il viaggio dura tre ore.", "de": "Die Reise dauert drei Stunden.", "focus": "dura" },
+      "note": "Meist in der 3. Person: Quanto dura? = Wie lange dauert es?"
+    },
+    {
+      "id": "divertirsi",
+      "word": "divertirsi",
+      "de": "Spaß haben; sich amüsieren",
+      "pos": "verb",
+      "forms": "mi diverto, ti diverti, si diverte, ci divertiamo, vi divertite, si divertono",
+      "example": { "text": "Ci siamo divertiti molto!", "de": "Wir hatten viel Spaß!", "focus": "divertiti" },
+      "note": "Divertiti! = Viel Spaß! Im passato prossimo mit essere: mi sono divertito/a."
+    },
+    {
+      "id": "annoiarsi",
+      "word": "annoiarsi",
+      "de": "sich langweilen",
+      "pos": "verb",
+      "forms": "mi annoio, ti annoi, si annoia, ci annoiamo, vi annoiate, si annoiano",
+      "example": { "text": "In vacanza non mi annoio mai.", "de": "Im Urlaub langweile ich mich nie.", "focus": "annoio" }
+    },
+    {
+      "id": "fermarsi",
+      "word": "fermarsi",
+      "de": "anhalten; (eine Weile) bleiben",
+      "pos": "verb",
+      "forms": "mi fermo, ti fermi, si ferma, ci fermiamo, vi fermate, si fermano",
+      "example": { "text": "Ci siamo fermati due giorni a Roma.", "de": "Wir sind zwei Tage in Rom geblieben.", "focus": "fermati" }
+    },
+    {
+      "id": "perdersi",
+      "word": "perdersi",
+      "de": "sich verlaufen; sich verirren",
+      "pos": "verb",
+      "forms": "mi perdo, ti perdi, si perde, ci perdiamo, vi perdete, si perdono",
+      "example": { "text": "A Venezia mi sono perso!", "de": "In Venedig habe ich mich verlaufen!", "focus": "perso" },
+      "note": "Partizip: perso. In Venedig verläuft sich jeder – das gehört dazu!"
+    },
+    {
+      "id": "trovarsi-bene",
+      "word": "trovarsi bene",
+      "de": "sich wohlfühlen; zufrieden sein",
+      "pos": "phrase",
+      "example": { "text": "In questo albergo mi trovo bene.", "de": "In diesem Hotel fühle ich mich wohl.", "focus": "trovo bene" },
+      "note": "Mi sono trovata bene a Palermo. = Mir hat es in Palermo gut gefallen."
+    },
+    {
+      "id": "fare-il-bagno",
+      "word": "fare il bagno",
+      "de": "baden; schwimmen gehen",
+      "pos": "phrase",
+      "example": { "text": "Il mare è caldo: facciamo il bagno!", "de": "Das Meer ist warm: Lass uns baden gehen!", "focus": "facciamo il bagno" },
+      "note": "Zu Hause heißt fare il bagno auch „ein Bad nehmen“ (in der Badewanne)."
+    },
+    {
+      "id": "prendere-il-sole",
+      "word": "prendere il sole",
+      "de": "sich sonnen",
+      "pos": "phrase",
+      "example": { "text": "Sara prende il sole in spiaggia.", "de": "Sara sonnt sich am Strand.", "focus": "prende il sole" }
+    },
+    {
+      "id": "giro",
+      "word": "giro",
+      "article": "il",
+      "gender": "m",
+      "plural": "i giri",
+      "de": "die Runde; die Rundfahrt; die Tour",
+      "pos": "noun",
+      "example": { "text": "Facciamo un giro in centro?", "de": "Machen wir eine Runde durch die Innenstadt?" },
+      "note": "Fare un giro = eine Runde drehen, sich umsehen. Il giro del mondo = die Weltreise."
+    },
+    {
+      "id": "guida",
+      "word": "guida",
+      "article": "la",
+      "gender": "f",
+      "plural": "le guide",
+      "de": "der Reiseführer (Buch oder Person)",
+      "pos": "noun",
+      "example": { "text": "La guida parla anche tedesco.", "de": "Der Reiseführer spricht auch Deutsch." },
+      "note": "Immer weiblich – auch für einen Mann: la guida."
+    },
+    {
+      "id": "all-estero",
+      "word": "all'estero",
+      "de": "im Ausland; ins Ausland",
+      "pos": "phrase",
+      "example": { "text": "Quest'anno andiamo in vacanza all'estero.", "de": "Dieses Jahr machen wir Urlaub im Ausland." }
+    },
+    {
+      "id": "da-quanto-tempo",
+      "word": "da quanto tempo?",
+      "de": "seit wann?; wie lange schon?",
+      "pos": "phrase",
+      "example": { "text": "Da quanto tempo sei in Italia?", "de": "Seit wann bist du in Italien?", "focus": "da quanto tempo" }
+    },
+    {
+      "id": "ci",
+      "word": "ci",
+      "de": "dort; dorthin; da (für Orte)",
+      "pos": "adv",
+      "example": { "text": "Vai a Roma? – Sì, ci vado domani.", "de": "Fährst du nach Rom? – Ja, ich fahre morgen hin." },
+      "note": "Ci ersetzt einen Ort (a Roma, in Sicilia, al mare). Mehr dazu in der Grammatik."
+    },
+    {
+      "id": "buone-vacanze",
+      "word": "buone vacanze",
+      "de": "schöne Ferien; schönen Urlaub",
+      "pos": "phrase",
+      "example": { "text": "Ciao, Sara, buone vacanze!", "de": "Tschüss, Sara, schönen Urlaub!" }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "riflessivi-passato",
+      "title": "Ich hatte Spaß: reflexive Verben im passato prossimo",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reflexive Verben (alzarsi, divertirsi, perdersi …) bilden das passato prossimo immer mit essere. Das Reflexivpronomen (mi, ti, si …) steht vor essere, und das Partizip richtet sich nach der Person: -o / -a in der Einzahl, -i / -e in der Mehrzahl."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "divertirsi", "Deutsch"],
+          "rows": [
+            ["io", "mi sono divertito / divertita", "ich hatte Spaß"],
+            ["tu", "ti sei divertito / divertita", "du hattest Spaß"],
+            ["lui / lei", "si è divertito / divertita", "er / sie hatte Spaß"],
+            ["noi", "ci siamo divertiti / divertite", "wir hatten Spaß"],
+            ["voi", "vi siete divertiti / divertite", "ihr hattet Spaß"],
+            ["loro", "si sono divertiti / divertite", "sie hatten Spaß"]
+          ]
+        },
+        { "type": "tip", "text": "Gemischte Gruppe (Männer und Frauen): -i. Marco e Sara si sono divertiti." },
+        {
+          "type": "p",
+          "text": "Im Deutschen heißt es oft „haben“ (ich habe mich verlaufen), im Italienischen immer essere: Mi sono perso. Das gilt auch für die reflexiven Verben aus A1: mi sono alzata alle otto, ci siamo lavati, si è vestito."
+        },
+        { "type": "tip", "text": "Unregelmäßiges Partizip: perdersi → perso (mi sono perso / persa). Verneinung: Non mi sono annoiato." },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Ieri mi sono svegliata tardi.", "de": "Gestern bin ich spät aufgewacht." },
+            { "text": "Ci siamo fermati tre giorni a Palermo.", "de": "Wir sind drei Tage in Palermo geblieben." },
+            { "text": "Lena si è persa a Venezia.", "de": "Lena hat sich in Venedig verlaufen." },
+            { "text": "Ragazzi, vi siete divertiti al mare?", "de": "Leute, hattet ihr Spaß am Meer?" },
+            { "text": "In vacanza non ci siamo annoiati.", "de": "Im Urlaub haben wir uns nicht gelangweilt." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "In vacanza Sara si ___ divertita molto.",
+          "answers": ["è"],
+          "de": "Im Urlaub hatte Sara viel Spaß.",
+          "hint": "essere"
+        },
+        {
+          "type": "cloze",
+          "text": "Ieri mi sono ___ alle nove.",
+          "answers": ["alzata"],
+          "de": "Gestern bin ich (Lena) um neun aufgestanden.",
+          "hint": "alzarsi"
+        },
+        {
+          "type": "cloze",
+          "text": "Marco e Giulia si sono ___ a Roma.",
+          "answers": ["persi"],
+          "de": "Marco und Giulia haben sich in Rom verlaufen.",
+          "hint": "perdersi"
+        },
+        { "type": "cloze", "text": "Noi ___ siamo fermati due giorni a Napoli.", "answers": ["ci"], "de": "Wir sind zwei Tage in Neapel geblieben." },
+        {
+          "type": "cloze",
+          "text": "Ragazze, vi ___ divertite alla festa?",
+          "answers": ["siete"],
+          "de": "Mädels, hattet ihr Spaß auf der Party?",
+          "hint": "essere"
+        },
+        { "type": "translate", "de": "Ich (Lena) habe mich nicht gelangweilt.", "answers": ["Non mi sono annoiata.", "Io non mi sono annoiata."] },
+        { "type": "order", "de": "Hast du dich in Venedig verlaufen? (zu Marco)", "answer": "Ti sei perso a Venezia?" }
+      ]
+    },
+    {
+      "id": "ci-luogo",
+      "title": "Dort, dorthin: ci für Orte",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit ci ersetzt du eine Ortsangabe, die schon genannt wurde (a Roma, in Sicilia, al mare, in montagna …). Auf Deutsch heißt das „dort“ oder „dorthin“ – oft sagt man es gar nicht."
+        },
+        {
+          "type": "table",
+          "head": ["Frage", "Antwort mit ci", "Deutsch"],
+          "rows": [
+            ["Vai al mare?", "Sì, ci vado domani.", "Ja, ich fahre morgen hin."],
+            ["Sei mai stata a Napoli?", "Sì, ci sono stata l'anno scorso.", "Ja, ich war letztes Jahr dort."],
+            ["Abiti ancora a Bologna?", "Sì, ci abito da due anni.", "Ja, ich wohne seit zwei Jahren dort."],
+            ["Come vai all'aeroporto?", "Ci vado in taxi.", "Ich fahre mit dem Taxi hin."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ci steht vor dem konjugierten Verb, auch im passato prossimo: Ci sono stato. Mit Modalverben steht es davor oder hinten am Infinitiv: Ci voglio andare. = Voglio andarci."
+        },
+        {
+          "type": "tip",
+          "text": "Du kennst ci schon aus c'è / ci sono (es gibt) – auch dort bedeutet es ursprünglich „da“. Achtung: ci heißt außerdem „uns“ (Ci porta il conto?) und ist das Reflexivpronomen für noi (ci siamo divertiti). Der Zusammenhang zeigt, was gemeint ist."
+        },
+        { "type": "tip", "text": "Mai in einer Frage heißt „schon einmal“: Sei mai stato in Sicilia? = Warst du schon einmal auf Sizilien?" },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Roma? Ci sono stata tre volte.", "de": "Rom? Da war ich schon dreimal." },
+            { "text": "Il lago è bello: ci andiamo ogni estate.", "de": "Der See ist schön: Wir fahren jeden Sommer hin." },
+            { "text": "Vieni in campeggio con noi? – Sì, ci vengo volentieri!", "de": "Kommst du mit zum Campen? – Ja, ich komme gern mit!" },
+            {
+              "text": "Sei mai stato in Sicilia? – No, non ci sono mai stato.",
+              "de": "Warst du schon einmal auf Sizilien? – Nein, ich war noch nie dort."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Vai in Sicilia? – Sì, ___ vado ad agosto.",
+          "answers": ["ci"],
+          "de": "Fährst du nach Sizilien? – Ja, ich fahre im August hin."
+        },
+        {
+          "type": "cloze",
+          "text": "Sei mai stata a Venezia? – Sì, ci ___ stata due anni fa.",
+          "answers": ["sono"],
+          "de": "Warst du schon einmal in Venedig? – Ja, ich war vor zwei Jahren dort."
+        },
+        {
+          "type": "cloze",
+          "text": "Quando andate al mare? – Ci ___ domani.",
+          "answers": ["andiamo"],
+          "de": "Wann fahrt ihr ans Meer? – Wir fahren morgen hin.",
+          "hint": "andare"
+        },
+        {
+          "type": "translate",
+          "de": "Ich war noch nie dort.",
+          "answers": ["Non ci sono mai stato.", "Non ci sono mai stata.", "Io non ci sono mai stato.", "Io non ci sono mai stata."]
+        },
+        { "type": "order", "de": "Ja, wir fahren mit dem Zug hin.", "answer": "Sì, ci andiamo in treno." },
+        {
+          "type": "choice",
+          "prompt": "„Abiti a Bologna?“ – Welche Antwort ist richtig?",
+          "options": ["Sì, ci abito.", "Sì, ne abito.", "Sì, lo abito."],
+          "answer": 0,
+          "explain": "Für einen Ort benutzt du ci. Ne steht für Mengen, lo für ein direktes Objekt."
+        }
+      ]
+    },
+    {
+      "id": "durata",
+      "title": "Wie lange? Seit wann? per, da und fa",
+      "blocks": [
+        { "type": "p", "text": "Für Zeitspannen gibt es im Italienischen drei kleine Wörter, die man leicht verwechselt:" },
+        {
+          "type": "table",
+          "head": ["Wort", "Bedeutung", "Zeitform", "Beispiel"],
+          "rows": [
+            ["per", "wie lange (abgeschlossen)", "meist passato prossimo", "Sono stata a Roma per una settimana. = Ich war eine Woche in Rom."],
+            ["da", "seit (dauert noch an)", "Präsens!", "Sono a Roma da una settimana. = Ich bin seit einer Woche in Rom."],
+            [
+              "fa",
+              "vor (Zeitpunkt in der Vergangenheit)",
+              "passato prossimo",
+              "Sono arrivata una settimana fa. = Ich bin vor einer Woche angekommen."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wenn etwas noch andauert, steht im Italienischen das Präsens – wie im Deutschen mit „seit“: Abito a Bologna da due anni. = Ich wohne seit zwei Jahren in Bologna."
+        },
+        { "type": "p", "text": "So fragst du:" },
+        {
+          "type": "table",
+          "head": ["Frage", "Deutsch"],
+          "rows": [
+            ["Da quanto tempo sei qui?", "Seit wann bist du hier?"],
+            ["Per quanto tempo sei stato in Spagna?", "Wie lange warst du in Spanien?"],
+            ["Quanto dura il viaggio?", "Wie lange dauert die Reise?"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Im passato prossimo darf per auch fehlen: Sono stata a Roma una settimana. Und zwei Wochen heißen oft quindici giorni (wörtlich: 15 Tage)."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Lena abita a Bologna da un anno.", "de": "Lena wohnt seit einem Jahr in Bologna." },
+            { "text": "Siamo stati in campeggio per dieci giorni.", "de": "Wir waren zehn Tage auf dem Campingplatz." },
+            { "text": "Il viaggio in treno dura sei ore.", "de": "Die Zugfahrt dauert sechs Stunden." },
+            { "text": "Da quanto tempo studi l'italiano? – Da sei mesi.", "de": "Seit wann lernst du Italienisch? – Seit sechs Monaten." }
+          ]
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Abito a Bologna ___ due anni.", "answers": ["da"], "de": "Ich wohne seit zwei Jahren in Bologna." },
+        { "type": "cloze", "text": "Sono stato in Sicilia ___ una settimana.", "answers": ["per"], "de": "Ich war eine Woche (lang) auf Sizilien." },
+        { "type": "cloze", "text": "Siamo arrivati tre giorni ___.", "answers": ["fa"], "de": "Wir sind vor drei Tagen angekommen." },
+        { "type": "cloze", "text": "___ quanto tempo abiti qui?", "answers": ["Da"], "de": "Seit wann wohnst du hier?" },
+        {
+          "type": "translate",
+          "de": "Ich lerne seit einem Jahr Italienisch.",
+          "answers": [
+            "Studio l'italiano da un anno.",
+            "Imparo l'italiano da un anno.",
+            "Io studio l'italiano da un anno.",
+            "Io imparo l'italiano da un anno.",
+            "Studio italiano da un anno.",
+            "Imparo italiano da un anno.",
+            "Da un anno studio l'italiano.",
+            "Da un anno imparo l'italiano."
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [["da tre giorni", "seit drei Tagen"], ["tre giorni fa", "vor drei Tagen"], ["per tre giorni", "drei Tage lang"]]
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "All'albergo a Palermo",
+    "title_de": "Im Hotel in Palermo",
+    "lines": [
+      { "speaker": "Receptionist", "text": "Buonasera! Avete una prenotazione?", "de": "Guten Abend! Haben Sie eine Reservierung?" },
+      {
+        "speaker": "Lena",
+        "text": "Sì, a nome Lena. Una camera doppia per cinque notti.",
+        "de": "Ja, auf den Namen Lena. Ein Doppelzimmer für fünf Nächte."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Ecco: camera 32, al terzo piano. Mi date le carte d'identità, per favore?",
+        "de": "Bitte sehr: Zimmer 32, im dritten Stock. Geben Sie mir bitte Ihre Personalausweise?"
+      },
+      { "speaker": "Sara", "text": "Ecco. La colazione è inclusa?", "de": "Hier. Ist das Frühstück inbegriffen?" },
+      {
+        "speaker": "Receptionist",
+        "text": "Sì, dalle sette alle dieci. L'ascensore è lì, a sinistra.",
+        "de": "Ja, von sieben bis zehn. Der Aufzug ist dort links."
+      },
+      { "speaker": "Lena", "text": "Grazie. In camera c'è l'aria condizionata?", "de": "Danke. Gibt es im Zimmer eine Klimaanlage?" },
+      {
+        "speaker": "Receptionist",
+        "text": "Certo. E la camera ha una bella vista sul mare.",
+        "de": "Natürlich. Und das Zimmer hat einen schönen Meerblick."
+      },
+      {
+        "speaker": "Sara",
+        "text": "Perfetto! Senta, possiamo noleggiare due biciclette?",
+        "de": "Perfekt! Sagen Sie, können wir zwei Fahrräder mieten?"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Sì, qui alla reception. Da quanto tempo siete in Sicilia?",
+        "de": "Ja, hier an der Rezeption. Seit wann sind Sie auf Sizilien?"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Da tre giorni. Ci siamo fermate due giorni a Catania.",
+        "de": "Seit drei Tagen. Wir sind zwei Tage in Catania geblieben."
+      },
+      { "speaker": "Receptionist", "text": "E vi siete divertite?", "de": "Und hatten Sie Spaß?" },
+      {
+        "speaker": "Sara",
+        "text": "Sì, molto! Ma ieri ci siamo perse in centro!",
+        "de": "Ja, sehr! Aber gestern haben wir uns in der Altstadt verlaufen!"
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Siete mai state a Cefalù? È un posto sul mare, con una spiaggia molto bella.",
+        "de": "Waren Sie schon einmal in Cefalù? Das ist ein Ort am Meer mit einem sehr schönen Strand."
+      },
+      { "speaker": "Lena", "text": "No, non ci siamo mai state.", "de": "Nein, da waren wir noch nie." },
+      {
+        "speaker": "Receptionist",
+        "text": "Allora vi consiglio una gita: in treno ci vuole un'ora.",
+        "de": "Dann empfehle ich Ihnen einen Ausflug: Mit dem Zug braucht man eine Stunde."
+      },
+      { "speaker": "Sara", "text": "Che bello! Ci andiamo domani. Grazie!", "de": "Wie schön! Wir fahren morgen hin. Danke!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il mare", "das Meer"],
+        ["la spiaggia", "der Strand"],
+        ["la montagna", "die Berge"],
+        ["il lago", "der See"],
+        ["l'isola", "die Insel"],
+        ["il campeggio", "der Campingplatz"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["la camera singola", "das Einzelzimmer"],
+        ["la camera doppia", "das Doppelzimmer"],
+        ["l'ascensore", "der Aufzug"],
+        ["l'aria condizionata", "die Klimaanlage"],
+        ["il passaporto", "der Reisepass"]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich hätte gern ein Doppelzimmer mit Meerblick.",
+      "answers": ["Vorrei una camera doppia con vista sul mare.", "Vorrei una camera doppia con vista mare."]
+    },
+    {
+      "type": "translate",
+      "de": "Ist das Frühstück inbegriffen?",
+      "answers": ["La colazione è inclusa?", "È inclusa la colazione?", "La colazione è compresa?", "È compresa la colazione?"]
+    },
+    { "type": "translate", "de": "Seit wann bist du in Italien?", "answers": ["Da quanto tempo sei in Italia?", "Da quando sei in Italia?"] },
+    {
+      "type": "translate",
+      "de": "Kann ich das Gepäck hier lassen?",
+      "answers": ["Posso lasciare i bagagli qui?", "Posso lasciare qui i bagagli?", "Posso lasciare il bagaglio qui?", "Posso lasciare qui il bagaglio?"]
+    },
+    { "type": "cloze", "text": "Mi dispiace, l'albergo è ___.", "answers": ["pieno"], "de": "Tut mir leid, das Hotel ist ausgebucht." },
+    {
+      "type": "cloze",
+      "text": "Questa strada è troppo ___: non posso dormire!",
+      "answers": ["rumorosa"],
+      "de": "Diese Straße ist zu laut: Ich kann nicht schlafen!"
+    },
+    { "type": "order", "de": "Machen wir morgen einen Ausflug an den See?", "answer": "Facciamo una gita al lago domani?" },
+    { "type": "order", "de": "Wir haben uns in Venedig verlaufen.", "answer": "Ci siamo persi a Venezia." },
+    { "type": "listen", "text": "Siamo stati al mare per due settimane.", "de": "Wir waren zwei Wochen am Meer." },
+    { "type": "listen", "text": "Buone vacanze e divertiti!", "de": "Schönen Urlaub und viel Spaß!" }
+  ]
+}

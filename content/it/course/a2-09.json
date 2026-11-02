@@ -1,0 +1,772 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-09",
+  "lang": "it",
+  "level": "A2",
+  "number": 9,
+  "title": "Quando ero piccolo",
+  "title_de": "Früher",
+  "topic": "Kindheit und Erinnerungen",
+  "goals": [
+    "Du kannst erzählen, wie es früher war und was du als Kind gemacht hast.",
+    "Du bildest das imperfetto (giocavo, ero, facevo) und benutzt es für Gewohnheiten und Beschreibungen.",
+    "Du unterscheidest imperfetto und passato prossimo: Mentre giocavo, è arrivata la nonna."
+  ],
+  "vocab": [
+    {
+      "id": "infanzia",
+      "word": "infanzia",
+      "article": "l'",
+      "gender": "f",
+      "de": "die Kindheit",
+      "pos": "noun",
+      "example": { "text": "La mia infanzia è stata molto bella.", "de": "Meine Kindheit war sehr schön." }
+    },
+    {
+      "id": "bambino",
+      "word": "bambino",
+      "article": "il",
+      "gender": "m",
+      "plural": "i bambini",
+      "de": "das Kind; der Junge",
+      "pos": "noun",
+      "example": { "text": "Quando ero bambino, abitavo in campagna.", "de": "Als ich ein Kind war, habe ich auf dem Land gewohnt." },
+      "note": "Ein Mädchen: la bambina. Mehrere Kinder: i bambini."
+    },
+    {
+      "id": "da-piccolo",
+      "word": "da piccolo",
+      "alt": ["da piccola"],
+      "de": "als Kind; als ich klein war",
+      "pos": "phrase",
+      "example": { "text": "Da piccola giocavo sempre con il gatto.", "de": "Als Kind habe ich immer mit der Katze gespielt.", "focus": "da piccola" },
+      "note": "Eine Frau sagt da piccola. Genauso: da bambino / da bambina."
+    },
+    {
+      "id": "ricordo",
+      "word": "ricordo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i ricordi",
+      "de": "die Erinnerung; das Andenken",
+      "pos": "noun",
+      "example": { "text": "Ho tanti bei ricordi della scuola.", "de": "Ich habe viele schöne Erinnerungen an die Schule.", "focus": "ricordi" }
+    },
+    {
+      "id": "ricordarsi",
+      "word": "ricordarsi",
+      "de": "sich erinnern (an)",
+      "pos": "verb",
+      "forms": "mi ricordo, ti ricordi, si ricorda, ci ricordiamo, vi ricordate, si ricordano",
+      "example": { "text": "Ti ricordi di Marco?", "de": "Erinnerst du dich an Marco?", "focus": "ricordi" },
+      "note": "Mit di: Mi ricordo di te. Ohne Pronomen geht auch: Ricordi? = Weißt du noch?"
+    },
+    {
+      "id": "giocattolo",
+      "word": "giocattolo",
+      "article": "il",
+      "gender": "m",
+      "plural": "i giocattoli",
+      "de": "das Spielzeug",
+      "pos": "noun",
+      "example": { "text": "Il mio giocattolo preferito era un treno.", "de": "Mein Lieblingsspielzeug war ein Zug." }
+    },
+    {
+      "id": "preferito",
+      "word": "preferito",
+      "alt": ["preferita"],
+      "de": "Lieblings-; bevorzugt",
+      "pos": "adj",
+      "example": { "text": "Il mio libro preferito era Pinocchio.", "de": "Mein Lieblingsbuch war Pinocchio." },
+      "note": "Steht nach dem Nomen: il mio colore preferito = meine Lieblingsfarbe."
+    },
+    {
+      "id": "bambola",
+      "word": "bambola",
+      "article": "la",
+      "gender": "f",
+      "plural": "le bambole",
+      "de": "die Puppe",
+      "pos": "noun",
+      "example": { "text": "Mia sorella giocava sempre con le bambole.", "de": "Meine Schwester spielte immer mit Puppen.", "focus": "bambole" }
+    },
+    {
+      "id": "pallone",
+      "word": "pallone",
+      "article": "il",
+      "gender": "m",
+      "plural": "i palloni",
+      "de": "der Ball (Fußball)",
+      "pos": "noun",
+      "example": { "text": "Giocavamo a pallone in piazza.", "de": "Wir haben auf dem Platz Fußball gespielt." },
+      "note": "Giocare a pallone = (zum Spaß) Fußball spielen. Ein kleiner Ball: la palla."
+    },
+    {
+      "id": "nascondino",
+      "word": "nascondino",
+      "article": "il",
+      "gender": "m",
+      "de": "das Versteckspiel",
+      "pos": "noun",
+      "example": { "text": "Giocavamo a nascondino in giardino.", "de": "Wir spielten im Garten Verstecken." },
+      "note": "Giocare a nascondino = Verstecken spielen."
+    },
+    {
+      "id": "altalena",
+      "word": "altalena",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le altalene",
+      "de": "die Schaukel",
+      "pos": "noun",
+      "example": { "text": "Al parco c'era un'altalena.", "de": "Im Park gab es eine Schaukel." }
+    },
+    {
+      "id": "scuola-elementare",
+      "word": "scuola elementare",
+      "article": "la",
+      "gender": "f",
+      "plural": "le scuole elementari",
+      "de": "die Grundschule",
+      "pos": "noun",
+      "example": { "text": "Alla scuola elementare ero molto timida.", "de": "In der Grundschule war ich sehr schüchtern." },
+      "note": "In Italien dauert sie fünf Jahre. Kurz sagt man oft: le elementari."
+    },
+    {
+      "id": "compagno-di-classe",
+      "word": "compagno di classe",
+      "article": "il",
+      "gender": "m",
+      "plural": "i compagni di classe",
+      "de": "der Klassenkamerad; der Mitschüler",
+      "pos": "noun",
+      "example": { "text": "Marco era il mio compagno di classe.", "de": "Marco war mein Klassenkamerad." },
+      "note": "Eine Mitschülerin: la compagna di classe."
+    },
+    {
+      "id": "compiti",
+      "word": "compiti",
+      "article": "i",
+      "gender": "m",
+      "de": "die Hausaufgaben",
+      "pos": "noun",
+      "example": { "text": "Dopo la scuola facevo i compiti.", "de": "Nach der Schule machte ich die Hausaufgaben." },
+      "note": "Fare i compiti = Hausaufgaben machen. Immer Mehrzahl."
+    },
+    {
+      "id": "merenda",
+      "word": "merenda",
+      "article": "la",
+      "gender": "f",
+      "plural": "le merende",
+      "de": "der Nachmittagssnack; die Zwischenmahlzeit",
+      "pos": "noun",
+      "example": { "text": "Per merenda la nonna ci dava pane e cioccolato.", "de": "Zum Nachmittagssnack gab uns Oma Brot mit Schokolade." },
+      "note": "Typisch italienisch: Nach der Schule gibt es die merenda, zum Beispiel ein Brot oder ein Stück Kuchen."
+    },
+    {
+      "id": "cioccolato",
+      "word": "cioccolato",
+      "article": "il",
+      "gender": "m",
+      "de": "die Schokolade",
+      "pos": "noun",
+      "example": { "text": "Ti piace il cioccolato?", "de": "Magst du Schokolade?" },
+      "note": "Heiße Schokolade zum Trinken: la cioccolata calda."
+    },
+    {
+      "id": "caramella",
+      "word": "caramella",
+      "article": "la",
+      "gender": "f",
+      "plural": "le caramelle",
+      "de": "das Bonbon",
+      "pos": "noun",
+      "example": { "text": "Il nonno mi dava sempre una caramella.", "de": "Opa gab mir immer ein Bonbon." }
+    },
+    {
+      "id": "cartone-animato",
+      "word": "cartone animato",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cartoni animati",
+      "de": "der Zeichentrickfilm",
+      "pos": "noun",
+      "example": { "text": "Ogni mattina guardavo i cartoni animati.", "de": "Jeden Morgen schaute ich Zeichentrickfilme.", "focus": "cartoni animati" }
+    },
+    {
+      "id": "favola",
+      "word": "favola",
+      "article": "la",
+      "gender": "f",
+      "plural": "le favole",
+      "de": "das Märchen",
+      "pos": "noun",
+      "example": { "text": "La sera mia madre mi raccontava una favola.", "de": "Abends erzählte mir meine Mutter ein Märchen." },
+      "note": "Märchen beginnen so: C'era una volta … = Es war einmal …"
+    },
+    {
+      "id": "raccontare",
+      "word": "raccontare",
+      "de": "erzählen",
+      "pos": "verb",
+      "forms": "racconto, racconti, racconta, raccontiamo, raccontate, raccontano",
+      "example": { "text": "Racconta, com'è andata la vacanza?", "de": "Erzähl, wie war der Urlaub?", "focus": "racconta" }
+    },
+    {
+      "id": "paese",
+      "word": "paese",
+      "article": "il",
+      "gender": "m",
+      "plural": "i paesi",
+      "de": "das Dorf; das Land (Staat)",
+      "pos": "noun",
+      "example": { "text": "Mia nonna abita in un piccolo paese.", "de": "Meine Oma wohnt in einem kleinen Dorf." },
+      "note": "Il paese ist ein Dorf oder ein Staat: L'Italia è un bel paese."
+    },
+    {
+      "id": "campagna",
+      "word": "campagna",
+      "article": "la",
+      "gender": "f",
+      "plural": "le campagne",
+      "de": "das Land (im Gegensatz zur Stadt)",
+      "pos": "noun",
+      "example": { "text": "D'estate andavamo in campagna dai nonni.", "de": "Im Sommer fuhren wir zu den Großeltern aufs Land." },
+      "note": "In campagna = auf dem Land / aufs Land."
+    },
+    {
+      "id": "albero",
+      "word": "albero",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli alberi",
+      "de": "der Baum",
+      "pos": "noun",
+      "example": { "text": "In giardino c'era un albero grande.", "de": "Im Garten gab es einen großen Baum." }
+    },
+    {
+      "id": "vivere",
+      "word": "vivere",
+      "de": "leben",
+      "pos": "verb",
+      "forms": "vivo, vivi, vive, viviamo, vivete, vivono",
+      "example": { "text": "Da bambina vivevo a Napoli.", "de": "Als Kind lebte ich in Neapel.", "focus": "vivevo" },
+      "note": "Abitare heißt „wohnen“, vivere „leben“ – oft geht beides. Partizip: vissuto."
+    },
+    {
+      "id": "crescere",
+      "word": "crescere",
+      "de": "aufwachsen; wachsen",
+      "pos": "verb",
+      "forms": "cresco, cresci, cresce, cresciamo, crescete, crescono",
+      "example": { "text": "Sono cresciuta a Napoli.", "de": "Ich bin in Neapel aufgewachsen.", "focus": "cresciuta" },
+      "note": "Passato prossimo mit essere: sono cresciuto / cresciuta."
+    },
+    {
+      "id": "diventare",
+      "word": "diventare",
+      "de": "werden",
+      "pos": "verb",
+      "forms": "divento, diventi, diventa, diventiamo, diventate, diventano",
+      "example": { "text": "Il bambino è diventato grande!", "de": "Der Junge ist groß geworden!", "focus": "diventato" },
+      "note": "Passato prossimo mit essere: è diventato / diventata."
+    },
+    {
+      "id": "disegnare",
+      "word": "disegnare",
+      "de": "zeichnen",
+      "pos": "verb",
+      "forms": "disegno, disegni, disegna, disegniamo, disegnate, disegnano",
+      "example": { "text": "Mi piaceva molto disegnare.", "de": "Ich habe sehr gern gezeichnet." }
+    },
+    {
+      "id": "correre",
+      "word": "correre",
+      "de": "rennen; laufen",
+      "pos": "verb",
+      "forms": "corro, corri, corre, corriamo, correte, corrono",
+      "example": { "text": "I bambini correvano in giardino.", "de": "Die Kinder rannten im Garten herum.", "focus": "correvano" },
+      "note": "Partizip: corso."
+    },
+    {
+      "id": "nuotare",
+      "word": "nuotare",
+      "de": "schwimmen",
+      "pos": "verb",
+      "forms": "nuoto, nuoti, nuota, nuotiamo, nuotate, nuotano",
+      "example": { "text": "Ho imparato a nuotare al mare.", "de": "Ich habe am Meer schwimmen gelernt." }
+    },
+    {
+      "id": "salire",
+      "word": "salire",
+      "de": "hinaufsteigen; klettern; einsteigen",
+      "pos": "verb",
+      "forms": "salgo, sali, sale, saliamo, salite, salgono",
+      "example": { "text": "Salivo sempre sugli alberi.", "de": "Ich bin immer auf Bäume geklettert.", "focus": "salivo" },
+      "note": "Unregelmäßig im Präsens: salgo, salgono. Ins Auto steigen: salire in macchina."
+    },
+    {
+      "id": "litigare",
+      "word": "litigare",
+      "de": "streiten",
+      "pos": "verb",
+      "forms": "litigo, litighi, litiga, litighiamo, litigate, litigano",
+      "example": { "text": "Io e mio fratello litigavamo sempre.", "de": "Mein Bruder und ich haben uns ständig gestritten.", "focus": "litigavamo" },
+      "note": "Bei tu und noi mit h: litighi, litighiamo."
+    },
+    {
+      "id": "piangere",
+      "word": "piangere",
+      "de": "weinen",
+      "pos": "verb",
+      "forms": "piango, piangi, piange, piangiamo, piangete, piangono",
+      "example": { "text": "Perché piangi?", "de": "Warum weinst du?", "focus": "piangi" },
+      "note": "Partizip: pianto."
+    },
+    {
+      "id": "paura",
+      "word": "paura",
+      "article": "la",
+      "gender": "f",
+      "plural": "le paure",
+      "de": "die Angst",
+      "pos": "noun",
+      "example": { "text": "Da piccolo avevo paura dei cani.", "de": "Als Kind hatte ich Angst vor Hunden." },
+      "note": "Avere paura di = Angst haben vor."
+    },
+    {
+      "id": "felice",
+      "word": "felice",
+      "de": "glücklich",
+      "pos": "adj",
+      "example": { "text": "Ero una bambina felice.", "de": "Ich war ein glückliches Kind." }
+    },
+    { "id": "triste", "word": "triste", "de": "traurig", "pos": "adj", "example": { "text": "Perché sei triste?", "de": "Warum bist du traurig?" } },
+    {
+      "id": "mentre",
+      "word": "mentre",
+      "de": "während",
+      "pos": "conj",
+      "example": { "text": "Mentre guardavo la TV, Romeo dormiva sul divano.", "de": "Während ich fernsah, schlief Romeo auf dem Sofa." }
+    },
+    {
+      "id": "una-volta",
+      "word": "una volta",
+      "de": "früher; einst",
+      "pos": "phrase",
+      "example": { "text": "Una volta qui c'era un cinema.", "de": "Früher gab es hier ein Kino." },
+      "note": "Je nach Satz heißt una volta „einmal“ (una volta al mese) oder „früher“ (Una volta qui c'era un cinema)."
+    },
+    {
+      "id": "a-quei-tempi",
+      "word": "a quei tempi",
+      "de": "damals; zu der Zeit",
+      "pos": "phrase",
+      "example": { "text": "A quei tempi i nonni non avevano la macchina.", "de": "Damals hatten die Großeltern kein Auto." }
+    },
+    {
+      "id": "c-era",
+      "word": "c'era",
+      "de": "es gab; da war",
+      "pos": "phrase",
+      "example": { "text": "Nel mio paese c'era solo una scuola.", "de": "In meinem Dorf gab es nur eine Schule." },
+      "note": "Imperfetto von c'è. Mehrzahl: c'erano – c'erano tanti bambini."
+    },
+    {
+      "id": "adesso",
+      "word": "adesso",
+      "de": "jetzt",
+      "pos": "adv",
+      "example": { "text": "Una volta abitavo a Napoli, adesso abito a Bologna.", "de": "Früher wohnte ich in Neapel, jetzt wohne ich in Bologna." },
+      "note": "Genauso üblich: ora."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "imperfetto-forme",
+      "title": "Das imperfetto: die Formen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Das imperfetto ist eine Vergangenheitsform. Du bildest es sehr regelmäßig: Infinitiv ohne -re + die Endungen -vo, -vi, -va, -vamo, -vate, -vano."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "giocare", "avere", "dormire"],
+          "rows": [
+            ["io", "giocavo", "avevo", "dormivo"],
+            ["tu", "giocavi", "avevi", "dormivi"],
+            ["lui / lei", "giocava", "aveva", "dormiva"],
+            ["noi", "giocavamo", "avevamo", "dormivamo"],
+            ["voi", "giocavate", "avevate", "dormivate"],
+            ["loro", "giocavano", "avevano", "dormivano"]
+          ]
+        },
+        { "type": "tip", "text": "Bei loro liegt die Betonung auf der drittletzten Silbe: giocàvano, avèvano, dormìvano." },
+        { "type": "p", "text": "Nur wenige Verben sind unregelmäßig. Die wichtigsten:" },
+        {
+          "type": "table",
+          "head": ["Person", "essere", "fare", "bere", "dire"],
+          "rows": [
+            ["io", "ero", "facevo", "bevevo", "dicevo"],
+            ["tu", "eri", "facevi", "bevevi", "dicevi"],
+            ["lui / lei", "era", "faceva", "beveva", "diceva"],
+            ["noi", "eravamo", "facevamo", "bevevamo", "dicevamo"],
+            ["voi", "eravate", "facevate", "bevevate", "dicevate"],
+            ["loro", "erano", "facevano", "bevevano", "dicevano"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Fare, bere und dire benutzen einen längeren Stamm (fac-, bev-, dic-), den du schon aus dem Präsens kennst: facciamo, bevo, dico. Und c'è wird zu c'era, ci sono zu c'erano."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Da piccola avevo un cane.", "de": "Als Kind hatte ich einen Hund." },
+            { "text": "Mio nonno era molto alto.", "de": "Mein Opa war sehr groß." },
+            { "text": "La mattina bevevamo una cioccolata calda.", "de": "Morgens tranken wir eine heiße Schokolade." },
+            { "text": "Cosa facevi il pomeriggio?", "de": "Was hast du nachmittags gemacht?" }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Da piccolo io ___ a pallone ogni giorno.",
+          "answers": ["giocavo"],
+          "de": "Als Kind habe ich jeden Tag Fußball gespielt.",
+          "hint": "giocare"
+        },
+        {
+          "type": "cloze",
+          "text": "Mia nonna ___ in campagna.",
+          "answers": ["abitava", "viveva"],
+          "de": "Meine Oma wohnte auf dem Land.",
+          "hint": "abitare"
+        },
+        {
+          "type": "cloze",
+          "text": "Noi ___ i compiti dopo pranzo.",
+          "answers": ["facevamo"],
+          "de": "Wir machten die Hausaufgaben nach dem Mittagessen.",
+          "hint": "fare"
+        },
+        {
+          "type": "cloze",
+          "text": "Quando ___ piccola, avevo paura dei cani.",
+          "answers": ["ero"],
+          "de": "Als ich klein war, hatte ich Angst vor Hunden.",
+          "hint": "essere"
+        },
+        { "type": "cloze", "text": "Tu cosa ___ a colazione?", "answers": ["bevevi"], "de": "Was hast du zum Frühstück getrunken?", "hint": "bere" },
+        {
+          "type": "cloze",
+          "text": "I miei nonni ___ sempre: „Mangia!“",
+          "answers": ["dicevano"],
+          "de": "Meine Großeltern sagten immer: „Iss!“",
+          "hint": "dire"
+        },
+        { "type": "cloze", "text": "Nel paese ___ solo un bar.", "answers": ["c'era"], "de": "Im Dorf gab es nur eine Bar.", "hint": "c'è" },
+        {
+          "type": "match",
+          "pairs": [["ero", "ich war"], ["eravamo", "wir waren"], ["facevi", "du machtest"], ["avevano", "sie hatten"], ["diceva", "er sagte"]]
+        }
+      ]
+    },
+    {
+      "id": "imperfetto-uso",
+      "title": "Wofür das imperfetto? Gewohnheiten und Beschreibungen",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Das imperfetto beschreibt, wie etwas früher war oder was man regelmäßig gemacht hat. Typische Signalwörter: di solito, sempre, spesso, ogni giorno, ogni estate, da piccolo, quando ero piccolo / piccola, una volta (früher), a quei tempi."
+        },
+        {
+          "type": "table",
+          "head": ["Wofür?", "Beispiel", "Deutsch"],
+          "rows": [
+            ["Gewohnheit (immer wieder)", "Ogni estate andavamo al mare.", "Jeden Sommer fuhren wir ans Meer."],
+            ["Beschreibung (Personen, Orte)", "La casa era piccola e c'era un giardino.", "Das Haus war klein, und es gab einen Garten."],
+            ["Alter, Gefühle, Zustand", "Avevo sei anni ed ero felice.", "Ich war sechs und glücklich."],
+            ["Uhrzeit, Wetter, Hintergrund", "Erano le otto e pioveva.", "Es war acht Uhr, und es regnete."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Mit quando ero piccolo / piccola (als ich klein war) und da piccolo / piccola (als Kind) beginnen viele Erinnerungen. Danach steht das imperfetto: Quando ero piccola, abitavo a Napoli."
+        },
+        {
+          "type": "p",
+          "text": "Im Deutschen sagt man im Gespräch oft das Perfekt („ich habe gespielt“). Im Italienischen nimmt man für Gewohnheiten trotzdem das imperfetto: Da bambino giocavo a calcio. = Als Kind habe ich Fußball gespielt."
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Di solito la nonna cucinava e noi giocavamo in giardino.", "de": "Normalerweise kochte Oma, und wir spielten im Garten." },
+            { "text": "A quei tempi non c'erano tante macchine.", "de": "Damals gab es nicht so viele Autos." },
+            { "text": "Mio padre era magro e aveva i capelli lunghi.", "de": "Mein Vater war schlank und hatte lange Haare." },
+            { "text": "Il sabato guardavamo sempre i cartoni animati.", "de": "Samstags schauten wir immer Zeichentrickfilme." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Ogni estate ___ in campagna dai nonni.",
+          "answers": ["andavamo"],
+          "de": "Jeden Sommer fuhren wir zu den Großeltern aufs Land.",
+          "hint": "andare, noi"
+        },
+        {
+          "type": "cloze",
+          "text": "Mio nonno ___ i capelli bianchi e la barba.",
+          "answers": ["aveva"],
+          "de": "Mein Opa hatte weiße Haare und einen Bart.",
+          "hint": "avere"
+        },
+        {
+          "type": "cloze",
+          "text": "Di solito i bambini ___ in piazza.",
+          "answers": ["giocavano"],
+          "de": "Normalerweise spielten die Kinder auf dem Platz.",
+          "hint": "giocare"
+        },
+        {
+          "type": "translate",
+          "de": "Als ich klein war, wohnte ich auf dem Land.",
+          "answers": [
+            "Quando ero piccolo, abitavo in campagna.",
+            "Quando ero piccola, abitavo in campagna.",
+            "Quando ero piccolo, vivevo in campagna.",
+            "Quando ero piccola, vivevo in campagna.",
+            "Da piccolo abitavo in campagna.",
+            "Da piccola abitavo in campagna.",
+            "Da piccolo vivevo in campagna.",
+            "Da piccola vivevo in campagna."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Damals gab es hier einen großen Baum.",
+          "answers": [
+            "A quei tempi qui c'era un albero grande.",
+            "A quei tempi c'era un albero grande qui.",
+            "A quei tempi qui c'era un grande albero.",
+            "A quei tempi c'era un grande albero qui.",
+            "Una volta qui c'era un albero grande.",
+            "Una volta qui c'era un grande albero."
+          ]
+        },
+        { "type": "order", "de": "Als Kind hatte ich Angst vor Katzen.", "answer": "Da piccola avevo paura dei gatti." }
+      ]
+    },
+    {
+      "id": "imperfetto-passato-prossimo",
+      "title": "Imperfetto oder passato prossimo?",
+      "blocks": [
+        { "type": "p", "text": "Beide Zeiten erzählen von der Vergangenheit, aber sie haben verschiedene Aufgaben:" },
+        {
+          "type": "table",
+          "head": ["imperfetto", "passato prossimo"],
+          "rows": [
+            ["Hintergrund, Situation: Wie war es?", "Ereignis: Was ist (dann) passiert?"],
+            ["Gewohnheit: sempre, spesso, di solito", "einmalig: ieri, una volta (einmal), quel giorno"],
+            ["Dauer ohne klares Ende", "abgeschlossen, mit Anfang und Ende"],
+            ["Mentre leggevo …", "… è arrivato Marco."]
+          ]
+        },
+        { "type": "p", "text": "Oft kommen beide in einem Satz vor: Das imperfetto malt das Bild, das passato prossimo bringt die Handlung." },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Mentre giocavo in giardino, è arrivata la nonna.", "de": "Während ich im Garten spielte, kam Oma." },
+            {
+              "text": "Di solito andavamo al mare, ma quell'estate siamo andati in montagna.",
+              "de": "Normalerweise fuhren wir ans Meer, aber in jenem Sommer sind wir in die Berge gefahren."
+            },
+            { "text": "Ero stanca, così sono andata a letto presto.", "de": "Ich war müde, deshalb bin ich früh ins Bett gegangen." },
+            {
+              "text": "Quando ero piccola, una volta mi sono persa al mercato.",
+              "de": "Als ich klein war, habe ich mich einmal auf dem Markt verlaufen."
+            }
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Frag dich: Ist es eine Beschreibung oder eine Gewohnheit (→ imperfetto) oder ein einzelnes Ereignis (→ passato prossimo)? Nach mentre (während) steht fast immer das imperfetto."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Mentre ___ i compiti, è arrivato mio fratello.",
+          "answers": ["facevo"],
+          "de": "Während ich die Hausaufgaben machte, kam mein Bruder.",
+          "hint": "fare"
+        },
+        {
+          "type": "cloze",
+          "text": "Ieri ___ al cinema con Sara.",
+          "answers": ["sono andata", "sono andato"],
+          "de": "Gestern bin ich mit Sara ins Kino gegangen.",
+          "hint": "andare"
+        },
+        {
+          "type": "cloze",
+          "text": "Di solito ___ a scuola a piedi.",
+          "answers": ["andavo"],
+          "de": "Normalerweise ging ich zu Fuß zur Schule.",
+          "hint": "andare"
+        },
+        {
+          "type": "cloze",
+          "text": "Ero in piazza quando ___ Marco.",
+          "answers": ["ho visto", "ho incontrato"],
+          "de": "Ich war auf dem Platz, als ich Marco gesehen habe.",
+          "hint": "vedere"
+        },
+        {
+          "type": "translate",
+          "de": "Während wir aßen, kam Opa.",
+          "answers": ["Mentre mangiavamo, è arrivato il nonno.", "Il nonno è arrivato mentre mangiavamo.", "Mentre mangiavamo, il nonno è arrivato."]
+        },
+        { "type": "order", "de": "Während ich schlief, ist Romeo auf den Tisch gestiegen.", "answer": "Mentre dormivo, Romeo è salito sul tavolo." },
+        {
+          "type": "choice",
+          "prompt": "Welche Form passt? „Da piccola ___ sempre con la bambola.“",
+          "options": ["giocavo", "ho giocato"],
+          "answer": 0,
+          "explain": "Sempre zeigt eine Gewohnheit – dafür nimmt man das imperfetto."
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Vecchie foto",
+    "title_de": "Alte Fotos",
+    "lines": [
+      { "speaker": "Lena", "text": "Che cosa guardi, Sara?", "de": "Was schaust du dir an, Sara?" },
+      {
+        "speaker": "Sara",
+        "text": "Vecchie foto di quando ero piccola. Guarda, questa sono io a sei anni!",
+        "de": "Alte Fotos von früher, als ich klein war. Schau, das bin ich mit sechs!"
+      },
+      { "speaker": "Lena", "text": "Che bella! Dove abitavi?", "de": "Wie hübsch! Wo hast du gewohnt?" },
+      {
+        "speaker": "Sara",
+        "text": "A Napoli, vicino al mare. Ma ogni estate andavamo in campagna dai nonni.",
+        "de": "In Neapel, in der Nähe vom Meer. Aber jeden Sommer fuhren wir zu den Großeltern aufs Land."
+      },
+      { "speaker": "Lena", "text": "E cosa facevi lì tutto il giorno?", "de": "Und was hast du dort den ganzen Tag gemacht?" },
+      {
+        "speaker": "Sara",
+        "text": "Giocavo con i miei cugini: correvamo in giardino e salivamo sugli alberi.",
+        "de": "Ich habe mit meinen Cousins gespielt: Wir rannten im Garten herum und kletterten auf die Bäume."
+      },
+      { "speaker": "Lena", "text": "Eri una bambina tranquilla?", "de": "Warst du ein ruhiges Kind?" },
+      {
+        "speaker": "Sara",
+        "text": "No! Ero molto curiosa e parlavo tantissimo!",
+        "de": "Nein! Ich war sehr neugierig und habe unglaublich viel geredet!"
+      },
+      { "speaker": "Lena", "text": "E chi è questa signora con gli occhiali?", "de": "Und wer ist diese Frau mit der Brille?" },
+      {
+        "speaker": "Sara",
+        "text": "È mia nonna. Ci raccontava sempre le favole e per merenda ci dava pane e cioccolato.",
+        "de": "Das ist meine Oma. Sie hat uns immer Märchen erzählt, und zum Nachmittagssnack gab sie uns Brot mit Schokolade."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Che bei ricordi! Io da piccola ero molto timida.",
+        "de": "Was für schöne Erinnerungen! Ich war als Kind sehr schüchtern."
+      },
+      { "speaker": "Sara", "text": "Tu? E cosa ti piaceva fare?", "de": "Du? Und was hast du gern gemacht?" },
+      {
+        "speaker": "Lena",
+        "text": "Disegnavo molto e leggevo tanti libri. Ma avevo paura dei cani!",
+        "de": "Ich habe viel gezeichnet und viele Bücher gelesen. Aber ich hatte Angst vor Hunden!"
+      },
+      { "speaker": "Sara", "text": "Dei cani? Ma adesso hai Bruno!", "de": "Vor Hunden? Aber jetzt hast du doch Bruno!" },
+      {
+        "speaker": "Lena",
+        "text": "Sì! Una volta un cane grande è venuto in giardino e io ho pianto per un'ora.",
+        "de": "Ja! Einmal ist ein großer Hund in den Garten gekommen, und ich habe eine Stunde lang geweint."
+      },
+      { "speaker": "Sara", "text": "E adesso il tuo migliore amico è un cane!", "de": "Und jetzt ist dein bester Freund ein Hund!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["il giocattolo", "das Spielzeug"],
+        ["la bambola", "die Puppe"],
+        ["il pallone", "der Ball"],
+        ["la favola", "das Märchen"],
+        ["l'altalena", "die Schaukel"],
+        ["i compiti", "die Hausaufgaben"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["crescere", "aufwachsen"],
+        ["piangere", "weinen"],
+        ["litigare", "streiten"],
+        ["disegnare", "zeichnen"],
+        ["diventare", "werden"],
+        ["nuotare", "schwimmen"]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Als Kind war ich sehr schüchtern.",
+      "answers": [
+        "Da piccolo ero molto timido.",
+        "Da piccola ero molto timida.",
+        "Quando ero piccolo, ero molto timido.",
+        "Quando ero piccola, ero molto timida.",
+        "Da bambino ero molto timido.",
+        "Da bambina ero molto timida.",
+        "Quando ero bambino, ero molto timido.",
+        "Quando ero bambina, ero molto timida."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Wo bist du aufgewachsen?",
+      "answers": ["Dove sei cresciuto?", "Dove sei cresciuta?", "Tu dove sei cresciuto?", "Tu dove sei cresciuta?"]
+    },
+    {
+      "type": "translate",
+      "de": "Jeden Sonntag fuhren wir zu den Großeltern.",
+      "answers": [
+        "Ogni domenica andavamo dai nonni.",
+        "La domenica andavamo dai nonni.",
+        "Ogni domenica andavamo a trovare i nonni.",
+        "La domenica andavamo a trovare i nonni."
+      ]
+    },
+    { "type": "cloze", "text": "Il pomeriggio guardavo i ___ animati.", "answers": ["cartoni"], "de": "Nachmittags schaute ich Zeichentrickfilme." },
+    {
+      "type": "cloze",
+      "text": "Una volta in questa strada ___ tanti negozi.",
+      "answers": ["c'erano"],
+      "de": "Früher gab es in dieser Straße viele Geschäfte.",
+      "hint": "c'è, Mehrzahl"
+    },
+    {
+      "type": "cloze",
+      "text": "Mentre la mamma cucinava, io ___ la TV.",
+      "answers": ["guardavo"],
+      "de": "Während Mama kochte, sah ich fern.",
+      "hint": "guardare"
+    },
+    { "type": "order", "de": "Mein Lieblingsspielzeug war ein roter Ball.", "answer": "Il mio giocattolo preferito era un pallone rosso." },
+    { "type": "order", "de": "Mein Vater ist in einem kleinen Dorf aufgewachsen.", "answer": "Mio padre è cresciuto in un piccolo paese." },
+    { "type": "listen", "text": "Da piccola salivo sempre sugli alberi.", "de": "Als Kind bin ich immer auf Bäume geklettert." },
+    { "type": "listen", "text": "Quando ero piccolo, la nonna mi raccontava le favole.", "de": "Als ich klein war, erzählte mir Oma Märchen." }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-08",
+  "lang": "es",
+  "level": "A2",
+  "number": 8,
+  "title": "¿Cómo es?",
+  "title_de": "Menschen beschreiben",
+  "topic": "Aussehen und Charakter",
+  "goals": [
+    "Du kannst beschreiben, wie jemand aussieht: Größe, Haare, Augen, Brille, Bart.",
+    "Du kannst über den Charakter sprechen und mit muy, bastante und un poco abstufen.",
+    "Du weißt, wann du bei Personen ser und wann estar benutzt.",
+    "Du kannst vergleichen: el más simpático de la familia, mi mejor amiga."
+  ],
+  "vocab": [
+    { "id": "como-es", "word": "¿cómo es?", "de": "wie ist er / sie?; wie sieht er / sie aus?", "pos": "phrase", "example": { "text": "¿Cómo es tu hermano? – Es alto y moreno.", "de": "Wie sieht dein Bruder aus? – Er ist groß und dunkelhaarig." }, "note": "Mit ser fragst du nach Aussehen und Charakter. ¿Cómo está? fragt dagegen, wie es jemandem geht." },
+    { "id": "alto", "word": "alto", "alt": ["alta"], "de": "groß (Person); hoch", "pos": "adj", "example": { "text": "Pablo es muy alto.", "de": "Pablo ist sehr groß." }, "note": "Für Personen sagt man alto, nicht grande. Grande heißt bei Personen eher „kräftig“ oder „erwachsen“." },
+    { "id": "bajo", "word": "bajo", "alt": ["baja"], "de": "klein (Person); niedrig", "pos": "adj", "example": { "text": "Mi abuela es baja y delgada.", "de": "Meine Großmutter ist klein und schlank.", "focus": "baja" } },
+    { "id": "delgado", "word": "delgado", "alt": ["delgada"], "de": "schlank; dünn", "pos": "adj", "example": { "text": "Diego es alto y delgado.", "de": "Diego ist groß und schlank." } },
+    { "id": "gordo", "word": "gordo", "alt": ["gorda"], "de": "dick", "pos": "adj", "example": { "text": "Nuestro gato está muy gordo.", "de": "Unsere Katze ist sehr dick." }, "note": "Über Menschen klingt gordo sehr direkt. Netter ist: Es un poco fuerte." },
+    { "id": "fuerte", "word": "fuerte", "de": "kräftig; stark", "pos": "adj", "example": { "text": "Mi primo es alto y fuerte.", "de": "Mein Cousin ist groß und kräftig." } },
+    { "id": "guapo", "word": "guapo", "alt": ["guapa"], "de": "hübsch; gut aussehend", "pos": "adj", "example": { "text": "Tu novia es muy guapa.", "de": "Deine Freundin ist sehr hübsch.", "focus": "guapa" } },
+    { "id": "feo", "word": "feo", "alt": ["fea"], "de": "hässlich", "pos": "adj", "example": { "text": "Este jersey es un poco feo, ¿no?", "de": "Dieser Pullover ist ein bisschen hässlich, oder?" } },
+    { "id": "joven", "word": "joven", "de": "jung", "pos": "adj", "example": { "text": "Tu madre es muy joven.", "de": "Deine Mutter ist sehr jung." }, "note": "Mehrzahl mit Akzent: jóvenes." },
+    { "id": "pelo", "word": "pelo", "article": "el", "gender": "m", "de": "die Haare; das Haar", "pos": "noun", "example": { "text": "Marta tiene el pelo largo y rubio.", "de": "Marta hat lange, blonde Haare." }, "note": "Im Spanischen in der Einzahl: el pelo = die Haare." },
+    { "id": "rubio", "word": "rubio", "alt": ["rubia"], "de": "blond", "pos": "adj", "example": { "text": "Mi hermana es rubia.", "de": "Meine Schwester ist blond.", "focus": "rubia" } },
+    { "id": "moreno", "word": "moreno", "alt": ["morena"], "de": "dunkelhaarig; braun gebrannt", "pos": "adj", "example": { "text": "Lucía es morena y tiene los ojos marrones.", "de": "Lucía ist dunkelhaarig und hat braune Augen.", "focus": "morena" }, "note": "Nach dem Urlaub heißt estar moreno: braun gebrannt sein." },
+    { "id": "pelirrojo", "word": "pelirrojo", "alt": ["pelirroja"], "de": "rothaarig", "pos": "adj", "example": { "text": "¿Quién es la chica pelirroja?", "de": "Wer ist das rothaarige Mädchen?", "focus": "pelirroja" } },
+    { "id": "castano", "word": "castaño", "alt": ["castaña"], "de": "braun (Haare)", "pos": "adj", "example": { "text": "Mi padre tiene el pelo castaño.", "de": "Mein Vater hat braune Haare." }, "note": "Für Haare sagt man castaño, für Augen marrón." },
+    { "id": "rizado", "word": "rizado", "alt": ["rizada"], "de": "lockig", "pos": "adj", "example": { "text": "Mi hermano tiene el pelo rizado.", "de": "Mein Bruder hat lockige Haare." } },
+    { "id": "liso", "word": "liso", "alt": ["lisa"], "de": "glatt", "pos": "adj", "example": { "text": "Tengo el pelo largo y liso.", "de": "Ich habe lange, glatte Haare." } },
+    { "id": "largo", "word": "largo", "alt": ["larga"], "de": "lang", "pos": "adj", "example": { "text": "Me gustan los vestidos largos.", "de": "Mir gefallen lange Kleider.", "focus": "largos" }, "note": "Vorsicht: largo heißt lang, nicht groß!" },
+    { "id": "corto", "word": "corto", "alt": ["corta"], "de": "kurz", "pos": "adj", "example": { "text": "Diego lleva el pelo muy corto.", "de": "Diego trägt die Haare sehr kurz." } },
+    { "id": "barba", "word": "barba", "article": "la", "gender": "f", "plural": "las barbas", "de": "der Bart", "pos": "noun", "example": { "text": "Mi padre tiene barba.", "de": "Mein Vater hat einen Bart." } },
+    { "id": "bigote", "word": "bigote", "article": "el", "gender": "m", "plural": "los bigotes", "de": "der Schnurrbart", "pos": "noun", "example": { "text": "Mi abuelo tiene un bigote blanco.", "de": "Mein Großvater hat einen weißen Schnurrbart." } },
+    { "id": "gafas", "word": "gafas", "article": "las", "gender": "f", "de": "die Brille", "pos": "noun", "example": { "text": "Lucía lleva gafas para leer.", "de": "Lucía trägt eine Lesebrille." }, "note": "Immer in der Mehrzahl: las gafas. Sonnenbrille = gafas de sol." },
+    { "id": "llevar", "word": "llevar", "de": "tragen (Kleidung, Brille); mitnehmen", "pos": "verb", "forms": "llevo, llevas, lleva, llevamos, lleváis, llevan", "example": { "text": "Hoy Marta lleva un vestido rojo.", "de": "Heute trägt Marta ein rotes Kleid.", "focus": "lleva" } },
+    { "id": "parecerse-a", "word": "parecerse a", "de": "ähnlich sehen; ähneln", "pos": "verb", "forms": "me parezco, te pareces, se parece, nos parecemos, os parecéis, se parecen", "example": { "text": "Me parezco mucho a mi madre.", "de": "Ich sehe meiner Mutter sehr ähnlich.", "focus": "me parezco" } },
+    { "id": "caracter", "word": "carácter", "article": "el", "gender": "m", "plural": "los caracteres", "de": "der Charakter", "pos": "noun", "example": { "text": "¿Y cómo es de carácter?", "de": "Und wie ist er so vom Charakter her?" }, "note": "Mehrzahl ohne Akzent und mit Betonung auf -te-: los caracteres." },
+    { "id": "simpatico", "word": "simpático", "alt": ["simpática"], "de": "nett; sympathisch", "pos": "adj", "example": { "text": "Tus amigos son muy simpáticos.", "de": "Deine Freunde sind sehr nett.", "focus": "simpáticos" } },
+    { "id": "antipatico", "word": "antipático", "alt": ["antipática"], "de": "unsympathisch; unfreundlich", "pos": "adj", "example": { "text": "El vendedor fue un poco antipático.", "de": "Der Verkäufer war ein bisschen unfreundlich." } },
+    { "id": "amable", "word": "amable", "de": "freundlich; liebenswürdig", "pos": "adj", "example": { "text": "Gracias, es usted muy amable.", "de": "Danke, das ist sehr freundlich von Ihnen." } },
+    { "id": "divertido", "word": "divertido", "alt": ["divertida"], "de": "lustig; witzig", "pos": "adj", "example": { "text": "Mi tío es muy divertido.", "de": "Mein Onkel ist sehr lustig." } },
+    { "id": "aburrido", "word": "aburrido", "alt": ["aburrida"], "de": "langweilig; gelangweilt (mit estar)", "pos": "adj", "example": { "text": "La película es aburrida.", "de": "Der Film ist langweilig.", "focus": "aburrida" } },
+    { "id": "timido", "word": "tímido", "alt": ["tímida"], "de": "schüchtern", "pos": "adj", "example": { "text": "Mi hermano pequeño es muy tímido.", "de": "Mein kleiner Bruder ist sehr schüchtern." } },
+    { "id": "serio", "word": "serio", "alt": ["seria"], "de": "ernst", "pos": "adj", "example": { "text": "Mi padre parece serio, pero es muy divertido.", "de": "Mein Vater wirkt ernst, aber er ist sehr lustig." } },
+    { "id": "listo", "word": "listo", "alt": ["lista"], "de": "klug; fertig (mit estar)", "pos": "adj", "example": { "text": "Tu hermana es muy lista.", "de": "Deine Schwester ist sehr klug.", "focus": "lista" }, "note": "Mit estar heißt listo „fertig, bereit“: ¿Estás listo? = Bist du fertig?" },
+    { "id": "inteligente", "word": "inteligente", "de": "intelligent; klug", "pos": "adj", "example": { "text": "Tu hija es muy inteligente.", "de": "Deine Tochter ist sehr klug." } },
+    { "id": "vago", "word": "vago", "alt": ["vaga"], "de": "faul", "pos": "adj", "example": { "text": "No soy vago, ¡estoy cansado!", "de": "Ich bin nicht faul, ich bin müde!" } },
+    { "id": "trabajador", "word": "trabajador", "alt": ["trabajadora"], "de": "fleißig", "pos": "adj", "example": { "text": "Diego es muy trabajador.", "de": "Diego ist sehr fleißig." } },
+    { "id": "generoso", "word": "generoso", "alt": ["generosa"], "de": "großzügig", "pos": "adj", "example": { "text": "Mi abuela es muy generosa.", "de": "Meine Großmutter ist sehr großzügig.", "focus": "generosa" } },
+    { "id": "hablador", "word": "hablador", "alt": ["habladora"], "de": "gesprächig", "pos": "adj", "example": { "text": "Lucía es muy habladora.", "de": "Lucía ist sehr gesprächig.", "focus": "habladora" } },
+    { "id": "alegre", "word": "alegre", "de": "fröhlich", "pos": "adj", "example": { "text": "Marta es una persona muy alegre.", "de": "Marta ist ein sehr fröhlicher Mensch." } },
+    { "id": "triste", "word": "triste", "de": "traurig", "pos": "adj", "example": { "text": "Hoy Lucía está un poco triste.", "de": "Heute ist Lucía ein bisschen traurig." } },
+    { "id": "nervioso", "word": "nervioso", "alt": ["nerviosa"], "de": "nervös; aufgeregt", "pos": "adj", "example": { "text": "Estoy nerviosa porque hoy conozco a sus padres.", "de": "Ich bin nervös, weil ich heute seine Eltern kennenlerne.", "focus": "nerviosa" } },
+    { "id": "contento", "word": "contento", "alt": ["contenta"], "de": "froh; zufrieden", "pos": "adj", "example": { "text": "Estoy muy contenta con mi piso nuevo.", "de": "Ich bin sehr zufrieden mit meiner neuen Wohnung.", "focus": "contenta" } },
+    { "id": "chico", "word": "chico", "article": "el", "gender": "m", "plural": "los chicos", "de": "der Junge; der junge Mann", "pos": "noun", "example": { "text": "Pablo es un chico muy simpático.", "de": "Pablo ist ein sehr netter junger Mann." }, "note": "la chica = das Mädchen; die junge Frau. ¡Chicos! = Leute!" },
+    { "id": "bastante", "word": "bastante", "de": "ziemlich; genug", "pos": "adv", "example": { "text": "Mi hermano es bastante alto.", "de": "Mein Bruder ist ziemlich groß." } }
+  ],
+  "grammar": [
+    {
+      "id": "describir-aspecto",
+      "title": "Aussehen beschreiben: ser, tener und llevar",
+      "blocks": [
+        { "type": "p", "text": "Für das Aussehen brauchst du drei Verben: Mit ser beschreibst du Größe, Figur und Haarfarbe, mit tener Haare und Augen, mit llevar alles, was man trägt – Kleidung, Brille, auch eine Frisur." },
+        { "type": "table", "head": ["Verb", "Spanisch", "Deutsch"], "rows": [["ser + Adjektiv", "Es alto y delgado.", "Er ist groß und schlank."], ["ser + Adjektiv", "Es rubia / morena / pelirroja.", "Sie ist blond / dunkelhaarig / rothaarig."], ["tener + el pelo …", "Tiene el pelo largo y rizado.", "Sie hat lange, lockige Haare."], ["tener + los ojos …", "Tiene los ojos azules.", "Er hat blaue Augen."], ["tener / llevar", "Tiene barba y lleva gafas.", "Er hat einen Bart und trägt eine Brille."]] },
+        { "type": "tip", "text": "Das Adjektiv richtet sich nach dem Nomen: el pelo rizado, los ojos verdes, una chica alta. Haare stehen im Spanischen in der Einzahl: el pelo = die Haare." },
+        { "type": "tip", "text": "Bei Haaren und Augen steht der bestimmte Artikel: Tiene el pelo corto (nicht: tiene pelo corto). Bei barba und gafas steht meist kein Artikel: Lleva gafas. Tiene barba." },
+        { "type": "p", "text": "Mit muy, bastante und un poco machst du eine Aussage stärker oder schwächer: muy alto (sehr groß), bastante alto (ziemlich groß), un poco bajo (etwas klein)." },
+        { "type": "tip", "text": "Un poco benutzt man vor allem bei Eigenschaften, die nicht so positiv sind: un poco tímido, un poco serio. „Ein bisschen nett“ sagt man so nicht – dann lieber bastante simpático." },
+        { "type": "examples", "items": [{ "text": "¿Cómo es tu novio? – Es alto, moreno y tiene los ojos verdes.", "de": "Wie sieht dein Freund aus? – Er ist groß, dunkelhaarig und hat grüne Augen." }, { "text": "Mi abuela es baja y tiene el pelo blanco.", "de": "Meine Großmutter ist klein und hat weiße Haare." }, { "text": "Diego lleva el pelo corto y tiene barba.", "de": "Diego trägt die Haare kurz und hat einen Bart." }, { "text": "Marta es bastante alta y lleva gafas.", "de": "Marta ist ziemlich groß und trägt eine Brille." }, { "text": "Los dos hermanos tienen los ojos azules.", "de": "Die beiden Geschwister haben blaue Augen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mi hermano ___ el pelo rizado.", "answers": ["tiene"], "de": "Mein Bruder hat lockige Haare.", "hint": "tener" },
+        { "type": "cloze", "text": "Lucía ___ gafas para leer.", "answers": ["lleva"], "de": "Lucía trägt eine Lesebrille.", "hint": "llevar" },
+        { "type": "cloze", "text": "Mis padres ___ bastante altos.", "answers": ["son"], "de": "Meine Eltern sind ziemlich groß.", "hint": "ser" },
+        { "type": "cloze", "text": "Marta tiene el pelo ___ y liso.", "answers": ["rubio"], "de": "Marta hat blonde, glatte Haare.", "hint": "blond" },
+        { "type": "cloze", "text": "Mi novia tiene los ojos ___.", "answers": ["verdes"], "de": "Meine Freundin hat grüne Augen.", "hint": "grün" },
+        { "type": "cloze", "text": "Mi hermana es ___ y delgada.", "answers": ["alta"], "de": "Meine Schwester ist groß und schlank.", "hint": "groß" },
+        { "type": "translate", "de": "Er hat kurze Haare und trägt eine Brille.", "answers": ["Tiene el pelo corto y lleva gafas.", "Él tiene el pelo corto y lleva gafas.", "Lleva el pelo corto y lleva gafas.", "Tiene el pelo corto y usa gafas."] },
+        { "type": "order", "de": "Meine Mutter hat blaue Augen.", "answer": "Mi madre tiene los ojos azules.", "distractors": ["es"] }
+      ]
+    },
+    {
+      "id": "ser-estar-personas",
+      "title": "Ser oder estar? – Eigenschaften und Zustände",
+      "blocks": [
+        { "type": "p", "text": "Bei Personen sagt ser, wie jemand ist – Charakter, Aussehen, typische Eigenschaften. Estar sagt, wie es jemandem gerade geht – Stimmung und Zustand im Moment." },
+        { "type": "table", "head": ["ser – wie jemand ist", "estar – wie es jemandem gerade geht"], "rows": [["Es simpático. – Er ist nett.", "Está contento. – Er ist (gerade) froh."], ["Es tranquila. – Sie ist ein ruhiger Mensch.", "Está nerviosa. – Sie ist (gerade) nervös."], ["Es alto. – Er ist groß.", "Está cansado. – Er ist müde."], ["Es guapa. – Sie ist hübsch.", "Está muy guapa hoy. – Sie sieht heute toll aus."]] },
+        { "type": "tip", "text": "Manche Adjektive ändern mit ser oder estar ihre Bedeutung: Es aburrido. = Er ist langweilig. Está aburrido. = Er langweilt sich. Genauso: Es listo. = Er ist klug. Está listo. = Er ist fertig." },
+        { "type": "p", "text": "„Ähnlich sehen“ heißt parecerse a. Das Verb ist reflexiv und bekommt in der ich-Form ein z: me parezco, te pareces, se parece, nos parecemos, os parecéis, se parecen." },
+        { "type": "examples", "items": [{ "text": "Me parezco mucho a mi padre.", "de": "Ich sehe meinem Vater sehr ähnlich." }, { "text": "¿A quién te pareces tú?", "de": "Wem siehst du ähnlich?" }, { "text": "Lucía y Pablo se parecen mucho.", "de": "Lucía und Pablo sehen sich sehr ähnlich." }, { "text": "Jonas es muy tranquilo, pero hoy está nervioso.", "de": "Jonas ist sehr ruhig, aber heute ist er nervös." }, { "text": "Mi abuela es muy alegre, pero hoy está cansada.", "de": "Meine Großmutter ist sehr fröhlich, aber heute ist sie müde." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Marta ___ muy simpática.", "answers": ["es"], "de": "Marta ist sehr nett.", "hint": "ser oder estar?" },
+        { "type": "cloze", "text": "Hoy Diego ___ cansado.", "answers": ["está"], "de": "Heute ist Diego müde.", "hint": "ser oder estar?" },
+        { "type": "cloze", "text": "La película ___ aburrida.", "answers": ["es"], "de": "Der Film ist langweilig.", "hint": "ser oder estar?" },
+        { "type": "cloze", "text": "Mis hermanos ___ aburridos en casa.", "answers": ["están"], "de": "Meine Geschwister langweilen sich zu Hause.", "hint": "ser oder estar?" },
+        { "type": "cloze", "text": "Pablo ___ parece mucho a su padre.", "answers": ["se"], "de": "Pablo sieht seinem Vater sehr ähnlich." },
+        { "type": "cloze", "text": "Yo me ___ a mi abuela.", "answers": ["parezco"], "de": "Ich sehe meiner Großmutter ähnlich.", "hint": "parecerse" },
+        { "type": "translate", "de": "Ich bin heute nervös.", "answers": ["Hoy estoy nervioso.", "Hoy estoy nerviosa.", "Estoy nervioso hoy.", "Estoy nerviosa hoy.", "Yo estoy nervioso hoy.", "Yo estoy nerviosa hoy.", "Hoy yo estoy nervioso.", "Hoy yo estoy nerviosa.", "Yo hoy estoy nervioso.", "Yo hoy estoy nerviosa."] },
+        { "type": "choice", "prompt": "„Sie sieht heute toll aus.“ – Welcher Satz passt?", "options": ["Es muy guapa hoy.", "Está muy guapa hoy."], "answer": 1, "explain": "Es geht um heute, nicht um immer – deshalb estar." }
+      ]
+    },
+    {
+      "id": "superlativo",
+      "title": "Der Größte, die Netteste: el más … de",
+      "blocks": [
+        { "type": "p", "text": "Den Superlativ bildest du mit dem bestimmten Artikel + más + Adjektiv. Die Gruppe, mit der du vergleichst, kommt mit de dazu: Pablo es el más alto de la familia. = Pablo ist der Größte in der Familie." },
+        { "type": "table", "head": ["", "männlich", "weiblich"], "rows": [["Einzahl", "el más alto", "la más alta"], ["Mehrzahl", "los más altos", "las más altas"], ["mit Nomen", "el chico más simpático", "la chica más simpática"]] },
+        { "type": "tip", "text": "Mit Nomen steht más hinter dem Nomen: la persona más alegre de la clase = der fröhlichste Mensch in der Klasse. Für „in“ sagt man hier de, nicht en." },
+        { "type": "p", "text": "Wie beim Komparativ (Lektion 4) gibt es unregelmäßige Formen: el mejor (der Beste), el peor (der Schlechteste), el mayor (der Älteste), el menor (der Jüngste). Mejor und peor stehen vor dem Nomen: mi mejor amiga = meine beste Freundin." },
+        { "type": "p", "text": "Das Gegenteil bildest du mit menos: Es el menos tímido de todos. = Er ist von allen am wenigsten schüchtern." },
+        { "type": "tip", "text": "Für „sehr, sehr …“ hängst du -ísimo an das Adjektiv (ohne den Endvokal): guapo → guapísimo, alta → altísima, rico → riquísimo. Das hört man in Spanien ständig: ¡La paella está riquísima!" },
+        { "type": "examples", "items": [{ "text": "Mi abuela es la persona más generosa de la familia.", "de": "Meine Großmutter ist der großzügigste Mensch in der Familie." }, { "text": "Pablo es el más alto de la familia.", "de": "Pablo ist der Größte in der Familie." }, { "text": "Marta es la mejor amiga de Lucía.", "de": "Marta ist Lucías beste Freundin." }, { "text": "Diego es el mayor de sus hermanos.", "de": "Diego ist der Älteste seiner Geschwister." }, { "text": "Es la película más aburrida del año.", "de": "Das ist der langweiligste Film des Jahres." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Pablo es el ___ alto de la familia.", "answers": ["más"], "de": "Pablo ist der Größte in der Familie." },
+        { "type": "cloze", "text": "Marta es la más alegre ___ la clase.", "answers": ["de"], "de": "Marta ist die Fröhlichste in der Klasse." },
+        { "type": "cloze", "text": "Diego es el ___ de sus hermanos.", "answers": ["mayor"], "de": "Diego ist der Älteste seiner Geschwister.", "hint": "der Älteste" },
+        { "type": "cloze", "text": "Lucía es mi ___ amiga.", "answers": ["mejor"], "de": "Lucía ist meine beste Freundin.", "hint": "beste" },
+        { "type": "cloze", "text": "Mis abuelos son las personas más ___ de la familia.", "answers": ["generosas"], "de": "Meine Großeltern sind die großzügigsten Menschen in der Familie.", "hint": "generoso" },
+        { "type": "translate", "de": "Jonas ist der Ruhigste in der Klasse.", "answers": ["Jonas es el más tranquilo de la clase.", "Jonas es el chico más tranquilo de la clase."] },
+        { "type": "translate", "de": "Das ist der langweiligste Film des Jahres.", "answers": ["Es la película más aburrida del año.", "Esta es la película más aburrida del año.", "Esa es la película más aburrida del año."] },
+        { "type": "order", "de": "Meine Schwester ist die Jüngste in der Familie.", "answer": "Mi hermana es la menor de la familia.", "distractors": ["mayor"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿Cómo es tu hermano?",
+    "title_de": "Wie sieht dein Bruder aus?",
+    "lines": [
+      { "speaker": "Lucía", "text": "Marta, ¿puedes ir a buscar a mi hermano a la estación? Yo tengo que trabajar hasta las ocho.", "de": "Marta, kannst du meinen Bruder vom Bahnhof abholen? Ich muss bis acht arbeiten." },
+      { "speaker": "Marta", "text": "Claro. Pero no lo conozco. ¿Cómo es?", "de": "Klar. Aber ich kenne ihn nicht. Wie sieht er aus?" },
+      { "speaker": "Lucía", "text": "Es alto y bastante delgado. Tiene el pelo corto y rizado, y lleva gafas.", "de": "Er ist groß und ziemlich schlank. Er hat kurze, lockige Haare und trägt eine Brille." },
+      { "speaker": "Marta", "text": "¿Es moreno como tú?", "de": "Ist er dunkelhaarig wie du?" },
+      { "speaker": "Lucía", "text": "Sí, y tiene los ojos marrones. Nos parecemos mucho.", "de": "Ja, und er hat braune Augen. Wir sehen uns sehr ähnlich." },
+      { "speaker": "Marta", "text": "¿Y cómo es de carácter?", "de": "Und wie ist er so vom Charakter her?" },
+      { "speaker": "Lucía", "text": "Es muy simpático y divertido. Es el más hablador de la familia, pero con gente nueva es un poco tímido.", "de": "Er ist sehr nett und lustig. Er ist der Gesprächigste in der Familie, aber bei neuen Leuten ist er ein bisschen schüchtern." },
+      { "speaker": "Marta", "text": "Vale, voy ahora a la estación.", "de": "Okay, ich fahre jetzt zum Bahnhof." },
+      { "speaker": "Marta", "text": "Lucía, ya estoy aquí. Veo a un chico alto con barba. ¿Es él?", "de": "Lucía, ich bin jetzt da. Ich sehe einen großen jungen Mann mit Bart. Ist er das?" },
+      { "speaker": "Lucía", "text": "No, Pablo no tiene barba.", "de": "Nein, Pablo hat keinen Bart." },
+      { "speaker": "Marta", "text": "Hay otro chico con gafas y el pelo rizado… pero está muy serio.", "de": "Da ist noch ein junger Mann mit Brille und lockigen Haaren … aber er schaut sehr ernst." },
+      { "speaker": "Lucía", "text": "¡Es él! Está serio porque está cansado: el tren ha llegado con retraso.", "de": "Das ist er! Er schaut ernst, weil er müde ist: Der Zug ist mit Verspätung angekommen." },
+      { "speaker": "Marta", "text": "¡Hola! ¿Eres Pablo? Soy Marta, la amiga de Lucía.", "de": "Hallo! Bist du Pablo? Ich bin Marta, Lucías Freundin." },
+      { "speaker": "Pablo", "text": "¡Hola, Marta! Encantado. Perdona, estoy un poco cansado.", "de": "Hallo, Marta! Freut mich. Entschuldige, ich bin ein bisschen müde." },
+      { "speaker": "Marta", "text": "No pasa nada. ¡Vamos! Lucía está muy contenta: ¡por fin viene su hermano!", "de": "Kein Problem. Komm, gehen wir! Lucía freut sich sehr: Endlich kommt ihr Bruder!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["rubio", "blond"], ["moreno", "dunkelhaarig"], ["pelirrojo", "rothaarig"], ["rizado", "lockig"], ["liso", "glatt"]] },
+    { "type": "match", "pairs": [["simpático", "nett"], ["tímido", "schüchtern"], ["vago", "faul"], ["generoso", "großzügig"], ["hablador", "gesprächig"], ["serio", "ernst"]] },
+    { "type": "translate", "de": "Wie ist deine Schwester?", "answers": ["¿Cómo es tu hermana?"] },
+    { "type": "translate", "de": "Marta hat lange, glatte Haare.", "answers": ["Marta tiene el pelo largo y liso.", "Marta lleva el pelo largo y liso."] },
+    { "type": "translate", "de": "Er ist ziemlich groß und trägt eine Brille.", "answers": ["Es bastante alto y lleva gafas.", "Él es bastante alto y lleva gafas.", "Es bastante alto y usa gafas.", "Él es bastante alto y usa gafas."] },
+    { "type": "translate", "de": "Ich sehe meiner Mutter ähnlich.", "answers": ["Me parezco a mi madre.", "Yo me parezco a mi madre."] },
+    { "type": "order", "de": "Mein Großvater hat einen weißen Bart.", "answer": "Mi abuelo tiene una barba blanca.", "distractors": ["blanco"] },
+    { "type": "order", "de": "Sie ist die Netteste in der Familie.", "answer": "Es la más simpática de la familia.", "distractors": ["en"] },
+    { "type": "cloze", "text": "Mi primo es muy ___: nunca hace nada en casa.", "answers": ["vago"], "de": "Mein Cousin ist sehr faul: Er macht nie etwas zu Hause." },
+    { "type": "cloze", "text": "En Madrid la ___ es muy abierta.", "answers": ["gente"], "de": "In Madrid sind die Leute sehr offen." },
+    { "type": "cloze", "text": "Gracias, es usted muy ___.", "answers": ["amable"], "de": "Danke, das ist sehr freundlich von Ihnen." },
+    { "type": "listen", "text": "Mi hermana es rubia y tiene los ojos verdes.", "de": "Meine Schwester ist blond und hat grüne Augen." },
+    { "type": "listen", "text": "Pablo es muy simpático, pero hoy está cansado.", "de": "Pablo ist sehr nett, aber heute ist er müde." },
+    { "type": "listen", "text": "Lleva gafas y tiene el pelo corto y rizado.", "de": "Er trägt eine Brille und hat kurze, lockige Haare." }
+  ]
+}

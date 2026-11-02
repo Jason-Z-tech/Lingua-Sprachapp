@@ -1,0 +1,173 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-03",
+  "lang": "it",
+  "level": "A2",
+  "number": 3,
+  "title": "Come ti senti?",
+  "title_de": "Gesundheit",
+  "topic": "Körper, Beschwerden und beim Arzt",
+  "goals": [
+    "Du kannst die wichtigsten Körperteile benennen – auch mit unregelmäßiger Mehrzahl wie le mani und le braccia.",
+    "Du kannst sagen, was dir wehtut und wie es dir geht: Mi fa male la testa. Ho la febbre.",
+    "Du kannst Ratschläge geben: Bevi tanta acqua! Riposati! Dovresti andare dal medico.",
+    "Du kommst beim Arzt zurecht."
+  ],
+  "vocab": [
+    { "id": "corpo", "word": "corpo", "article": "il", "gender": "m", "plural": "i corpi", "de": "der Körper", "pos": "noun", "example": { "text": "Lo sport fa bene al corpo.", "de": "Sport tut dem Körper gut." } },
+    { "id": "testa", "word": "testa", "article": "la", "gender": "f", "plural": "le teste", "de": "der Kopf", "pos": "noun", "example": { "text": "Mi fa male la testa.", "de": "Mir tut der Kopf weh." } },
+    { "id": "occhio", "word": "occhio", "article": "l'", "gender": "m", "plural": "gli occhi", "de": "das Auge", "pos": "noun", "example": { "text": "Mi fanno male gli occhi: lavoro troppo al computer.", "de": "Mir tun die Augen weh: Ich arbeite zu viel am Computer.", "focus": "occhi" } },
+    { "id": "orecchio", "word": "orecchio", "article": "l'", "gender": "m", "plural": "le orecchie", "de": "das Ohr", "pos": "noun", "example": { "text": "Mi fa male l'orecchio.", "de": "Mir tut das Ohr weh." }, "note": "Die Mehrzahl ist weiblich: le orecchie." },
+    { "id": "naso", "word": "naso", "article": "il", "gender": "m", "plural": "i nasi", "de": "die Nase", "pos": "noun", "example": { "text": "Ho il naso chiuso.", "de": "Meine Nase ist zu." } },
+    { "id": "bocca", "word": "bocca", "article": "la", "gender": "f", "plural": "le bocche", "de": "der Mund", "pos": "noun", "example": { "text": "Apra la bocca, per favore.", "de": "Öffnen Sie bitte den Mund." } },
+    { "id": "dente", "word": "dente", "article": "il", "gender": "m", "plural": "i denti", "de": "der Zahn", "pos": "noun", "example": { "text": "Mi fa male un dente.", "de": "Mir tut ein Zahn weh." } },
+    { "id": "gola", "word": "gola", "article": "la", "gender": "f", "plural": "le gole", "de": "der Hals (innen); die Kehle", "pos": "noun", "example": { "text": "Ho mal di gola.", "de": "Ich habe Halsschmerzen." }, "note": "Gemeint ist der Hals innen – beim Schlucken." },
+    { "id": "schiena", "word": "schiena", "article": "la", "gender": "f", "plural": "le schiene", "de": "der Rücken", "pos": "noun", "example": { "text": "Dopo il lavoro mi fa male la schiena.", "de": "Nach der Arbeit tut mir der Rücken weh." } },
+    { "id": "pancia", "word": "pancia", "article": "la", "gender": "f", "plural": "le pance", "de": "der Bauch", "pos": "noun", "example": { "text": "Ho mangiato troppo e adesso mi fa male la pancia.", "de": "Ich habe zu viel gegessen, und jetzt tut mir der Bauch weh." } },
+    { "id": "braccio", "word": "braccio", "article": "il", "gender": "m", "plural": "le braccia", "de": "der Arm", "pos": "noun", "example": { "text": "Mi fa male il braccio sinistro.", "de": "Mir tut der linke Arm weh." }, "note": "Unregelmäßige Mehrzahl, weiblich: le braccia." },
+    { "id": "mano", "word": "mano", "article": "la", "gender": "f", "plural": "le mani", "de": "die Hand", "pos": "noun", "example": { "text": "Lavati le mani prima di mangiare!", "de": "Wasch dir vor dem Essen die Hände!", "focus": "mani" }, "note": "Weiblich, obwohl es auf -o endet. Mehrzahl: le mani." },
+    { "id": "dito", "word": "dito", "article": "il", "gender": "m", "plural": "le dita", "de": "der Finger", "pos": "noun", "example": { "text": "Mi fa male un dito.", "de": "Mir tut ein Finger weh." }, "note": "Unregelmäßige Mehrzahl, weiblich: le dita. Der Zeh: il dito del piede." },
+    { "id": "gamba", "word": "gamba", "article": "la", "gender": "f", "plural": "le gambe", "de": "das Bein", "pos": "noun", "example": { "text": "Dopo la palestra mi fanno male le gambe.", "de": "Nach dem Fitnessstudio tun mir die Beine weh.", "focus": "gambe" } },
+    { "id": "ginocchio", "word": "ginocchio", "article": "il", "gender": "m", "plural": "le ginocchia", "de": "das Knie", "pos": "noun", "example": { "text": "Dopo la partita mi fa male il ginocchio.", "de": "Nach dem Spiel tut mir das Knie weh." }, "note": "Unregelmäßige Mehrzahl, weiblich: le ginocchia." },
+    { "id": "piede", "word": "piede", "article": "il", "gender": "m", "plural": "i piedi", "de": "der Fuß", "pos": "noun", "example": { "text": "Sono andata in centro a piedi e adesso mi fanno male i piedi.", "de": "Ich bin zu Fuß ins Zentrum gegangen, und jetzt tun mir die Füße weh.", "focus": "piedi" } },
+    { "id": "mi-fa-male", "word": "mi fa male", "de": "es tut mir weh", "pos": "phrase", "example": { "text": "Mi fa male qui, dottoressa.", "de": "Hier tut es mir weh, Frau Doktor." }, "note": "Bei Mehrzahl: mi fanno male – Mi fanno male i piedi." },
+    { "id": "mal-di-testa", "word": "mal di testa", "de": "Kopfschmerzen", "pos": "phrase", "example": { "text": "Ho mal di testa da ieri.", "de": "Ich habe seit gestern Kopfschmerzen." }, "note": "Genauso: mal di gola, mal di pancia, mal di denti, mal di schiena – immer mit avere: ho mal di …" },
+    { "id": "febbre", "word": "febbre", "article": "la", "gender": "f", "plural": "le febbri", "de": "das Fieber", "pos": "noun", "example": { "text": "Ho la febbre a trentotto.", "de": "Ich habe 38 Grad Fieber." }, "note": "avere la febbre = Fieber haben." },
+    { "id": "raffreddore", "word": "raffreddore", "article": "il", "gender": "m", "plural": "i raffreddori", "de": "die Erkältung; der Schnupfen", "pos": "noun", "example": { "text": "Ho il raffreddore.", "de": "Ich bin erkältet." } },
+    { "id": "tosse", "word": "tosse", "article": "la", "gender": "f", "de": "der Husten", "pos": "noun", "example": { "text": "Ho la tosse da tre giorni.", "de": "Ich habe seit drei Tagen Husten." } },
+    { "id": "influenza", "word": "influenza", "article": "l'", "gender": "f", "de": "die Grippe", "pos": "noun", "example": { "text": "Sara ha l'influenza e resta a letto.", "de": "Sara hat die Grippe und bleibt im Bett." } },
+    { "id": "malato", "word": "malato", "alt": ["malata"], "de": "krank", "pos": "adj", "example": { "text": "Oggi Lena è malata.", "de": "Heute ist Lena krank.", "focus": "malata" } },
+    { "id": "sano", "word": "sano", "alt": ["sana"], "de": "gesund", "pos": "adj", "example": { "text": "La verdura è molto sana.", "de": "Gemüse ist sehr gesund.", "focus": "sana" } },
+    { "id": "salute", "word": "salute", "article": "la", "gender": "f", "de": "die Gesundheit", "pos": "noun", "example": { "text": "Lo sport è importante per la salute.", "de": "Sport ist wichtig für die Gesundheit." }, "note": "Salute! sagt man, wenn jemand niest – und beim Anstoßen." },
+    { "id": "sentirsi", "word": "sentirsi", "de": "sich fühlen", "pos": "verb", "forms": "mi sento, ti senti, si sente, ci sentiamo, vi sentite, si sentono", "example": { "text": "Come ti senti oggi?", "de": "Wie fühlst du dich heute?", "focus": "ti senti" } },
+    { "id": "meglio", "word": "meglio", "de": "besser", "pos": "adv", "example": { "text": "Oggi mi sento meglio.", "de": "Heute fühle ich mich besser." }, "note": "Das Gegenteil: peggio (schlechter, schlimmer)." },
+    { "id": "dolore", "word": "dolore", "article": "il", "gender": "m", "plural": "i dolori", "de": "der Schmerz", "pos": "noun", "example": { "text": "Ho dei dolori alla schiena.", "de": "Ich habe Rückenschmerzen.", "focus": "dolori" } },
+    { "id": "grave", "word": "grave", "de": "schlimm; ernst", "pos": "adj", "example": { "text": "Non è niente di grave.", "de": "Es ist nichts Schlimmes." } },
+    { "id": "guarire", "word": "guarire", "de": "gesund werden; heilen", "pos": "verb", "forms": "guarisco, guarisci, guarisce, guariamo, guarite, guariscono", "example": { "text": "Guarisci presto!", "de": "Gute Besserung!", "focus": "guarisci" }, "note": "Mit -isc- wie finire. Guarisci presto! = Werd schnell gesund!" },
+    { "id": "riposarsi", "word": "riposarsi", "de": "sich ausruhen", "pos": "verb", "forms": "mi riposo, ti riposi, si riposa …", "example": { "text": "Riposati un po'!", "de": "Ruh dich ein bisschen aus!", "focus": "riposati" } },
+    { "id": "dovresti", "word": "dovresti", "de": "du solltest", "pos": "verb", "example": { "text": "Dovresti andare dal medico.", "de": "Du solltest zum Arzt gehen." }, "note": "Eine feste Form für Ratschläge. Höflich (Lei): dovrebbe." },
+    { "id": "non-ti-preoccupare", "word": "non ti preoccupare", "alt": ["non preoccuparti"], "de": "mach dir keine Sorgen", "pos": "phrase", "example": { "text": "Non ti preoccupare, non è niente di grave.", "de": "Mach dir keine Sorgen, es ist nichts Schlimmes." }, "note": "Genauso richtig: non preoccuparti. Höflich (Lei): non si preoccupi." },
+    { "id": "visita", "word": "visita", "article": "la", "gender": "f", "plural": "le visite", "de": "die Untersuchung; der Arztbesuch", "pos": "noun", "example": { "text": "Dopo la visita vado in farmacia.", "de": "Nach der Untersuchung gehe ich in die Apotheke." } },
+    { "id": "appuntamento", "word": "appuntamento", "article": "l'", "gender": "m", "plural": "gli appuntamenti", "de": "der Termin", "pos": "noun", "example": { "text": "Ho un appuntamento dal medico alle tre.", "de": "Ich habe um drei einen Termin beim Arzt." }, "note": "dal medico = beim Arzt / zum Arzt (da + il)." },
+    { "id": "ricetta", "word": "ricetta", "article": "la", "gender": "f", "plural": "le ricette", "de": "das Rezept", "pos": "noun", "example": { "text": "Ecco la ricetta per la medicina.", "de": "Hier ist das Rezept für das Medikament." }, "note": "Auch das Kochrezept heißt la ricetta." },
+    { "id": "medicina", "word": "medicina", "article": "la", "gender": "f", "plural": "le medicine", "de": "das Medikament; die Medizin", "pos": "noun", "example": { "text": "Prendi la medicina tre volte al giorno.", "de": "Nimm das Medikament dreimal am Tag." } },
+    { "id": "compressa", "word": "compressa", "article": "la", "gender": "f", "plural": "le compresse", "de": "die Tablette", "pos": "noun", "example": { "text": "Prenda una compressa la mattina e una la sera.", "de": "Nehmen Sie morgens und abends eine Tablette." }, "note": "Man sagt auch la pastiglia." },
+    { "id": "sciroppo", "word": "sciroppo", "article": "lo", "gender": "m", "plural": "gli sciroppi", "de": "der Sirup; der Hustensaft", "pos": "noun", "example": { "text": "Per la tosse prendi questo sciroppo.", "de": "Gegen den Husten nimm diesen Sirup." } },
+    { "id": "pronto-soccorso", "word": "pronto soccorso", "article": "il", "gender": "m", "de": "die Notaufnahme", "pos": "noun", "example": { "text": "Ieri sera siamo andati al pronto soccorso.", "de": "Gestern Abend sind wir in die Notaufnahme gefahren." } }
+  ],
+  "grammar": [
+    {
+      "id": "corpo-plurali",
+      "title": "Der Körper: unregelmäßige Mehrzahl (le mani, le braccia …)",
+      "blocks": [
+        { "type": "p", "text": "Die meisten Körperteile bilden die Mehrzahl ganz normal: la testa → le teste, il piede → i piedi, l'occhio → gli occhi. Einige wichtige Wörter sind aber unregelmäßig: Sie sind in der Einzahl männlich und werden in der Mehrzahl weiblich, oft mit der Endung -a." },
+        { "type": "table", "head": ["Einzahl", "Mehrzahl", "Deutsch"], "rows": [["il braccio", "le braccia", "der Arm – die Arme"], ["il dito", "le dita", "der Finger – die Finger"], ["il ginocchio", "le ginocchia", "das Knie – die Knie"], ["l'orecchio", "le orecchie", "das Ohr – die Ohren"], ["la mano", "le mani", "die Hand – die Hände"]] },
+        { "type": "tip", "text": "Kennst du schon: l'uovo → le uova. Die Mehrzahl auf -a ist weiblich – deshalb le braccia, le dita, und das Adjektiv passt sich an: le braccia stanche." },
+        { "type": "tip", "text": "La mano ist weiblich, obwohl es auf -o endet. Die Mehrzahl ist le mani." },
+        { "type": "p", "text": "Bei Körperteilen steht im Italienischen meistens der Artikel statt mein oder dein: Mi fa male la testa. = Mein Kopf tut weh. Lavati le mani! = Wasch dir die Hände!" },
+        { "type": "examples", "items": [{ "text": "Mi fanno male le braccia.", "de": "Mir tun die Arme weh." }, { "text": "Ho le mani fredde.", "de": "Ich habe kalte Hände." }, { "text": "Dopo la partita mi fanno male le ginocchia.", "de": "Nach dem Spiel tun mir die Knie weh." }, { "text": "Lavati le mani!", "de": "Wasch dir die Hände!" }, { "text": "Ho dieci dita.", "de": "Ich habe zehn Finger." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mi fanno male le ___.", "answers": ["braccia"], "de": "Mir tun die Arme weh.", "hint": "il braccio" },
+        { "type": "cloze", "text": "Ho le ___ fredde.", "answers": ["mani"], "de": "Ich habe kalte Hände.", "hint": "la mano" },
+        { "type": "cloze", "text": "Ho dieci ___.", "answers": ["dita"], "de": "Ich habe zehn Finger.", "hint": "il dito" },
+        { "type": "cloze", "text": "Dopo la palestra mi fanno male le ___.", "answers": ["ginocchia"], "de": "Nach dem Fitnessstudio tun mir die Knie weh.", "hint": "il ginocchio" },
+        { "type": "cloze", "text": "Mi fanno male le ___.", "answers": ["orecchie"], "de": "Mir tun die Ohren weh.", "hint": "l'orecchio" },
+        { "type": "cloze", "text": "Sono andata in centro a piedi e adesso mi fanno male i ___.", "answers": ["piedi"], "de": "Ich bin zu Fuß ins Zentrum gegangen, und jetzt tun mir die Füße weh.", "hint": "il piede" },
+        { "type": "match", "pairs": [["la testa", "der Kopf"], ["la schiena", "der Rücken"], ["la gola", "der Hals"], ["la pancia", "der Bauch"], ["il naso", "die Nase"], ["la bocca", "der Mund"]] },
+        { "type": "translate", "de": "Mir tun die Hände weh.", "answers": ["Mi fanno male le mani."] },
+        { "type": "listen", "text": "Ho due mani, dieci dita e due orecchie.", "de": "Ich habe zwei Hände, zehn Finger und zwei Ohren." }
+      ]
+    },
+    {
+      "id": "mi-fa-male",
+      "title": "Was tut weh? – mi fa male, ho mal di …, ho la febbre",
+      "blocks": [
+        { "type": "p", "text": "„Es tut mir weh“ heißt mi fa male (wörtlich: es macht mir weh). Das Verb richtet sich nach dem Körperteil: Einzahl fa, Mehrzahl fanno." },
+        { "type": "table", "head": ["Einzahl", "Mehrzahl"], "rows": [["Mi fa male la testa.", "Mi fanno male i piedi."], ["Mi fa male il braccio.", "Mi fanno male le braccia."], ["Ti fa male la schiena?", "Ti fanno male gli occhi?"]] },
+        { "type": "p", "text": "Für typische Schmerzen gibt es avere mal di … (ohne Artikel):" },
+        { "type": "list", "items": ["ho mal di testa – ich habe Kopfschmerzen", "ho mal di gola – ich habe Halsschmerzen", "ho mal di pancia – ich habe Bauchschmerzen", "ho mal di denti – ich habe Zahnschmerzen", "ho mal di schiena – ich habe Rückenschmerzen"] },
+        { "type": "p", "text": "Krankheiten stehen mit avere und Artikel:" },
+        { "type": "table", "head": ["Italienisch", "Deutsch"], "rows": [["Ho la febbre.", "Ich habe Fieber."], ["Ho il raffreddore.", "Ich bin erkältet."], ["Ho la tosse.", "Ich habe Husten."], ["Ho l'influenza.", "Ich habe die Grippe."], ["Sono malato / malata.", "Ich bin krank."]] },
+        { "type": "tip", "text": "Wenn jemand krank ist, fragt man oft: Come ti senti? (höflich: Come si sente?) Antworten: Mi sento male. – Mi sento meglio. – Sto meglio." },
+        { "type": "tip", "text": "Beim Arzt hörst du die höfliche Form: Le fa male qui? = Tut es Ihnen hier weh?" },
+        { "type": "examples", "items": [{ "text": "Ho mal di testa e mi fa male la gola.", "de": "Ich habe Kopfschmerzen, und mein Hals tut weh." }, { "text": "Ti fanno male gli occhi?", "de": "Tun dir die Augen weh?" }, { "text": "Marco ha la febbre e resta a casa.", "de": "Marco hat Fieber und bleibt zu Hause." }, { "text": "Come ti senti? – Oggi mi sento meglio, grazie.", "de": "Wie fühlst du dich? – Heute fühle ich mich besser, danke." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mi ___ male la testa.", "answers": ["fa"], "de": "Mir tut der Kopf weh." },
+        { "type": "cloze", "text": "Mi ___ male i piedi.", "answers": ["fanno"], "de": "Mir tun die Füße weh." },
+        { "type": "cloze", "text": "Ho mal ___ gola.", "answers": ["di"], "de": "Ich habe Halsschmerzen." },
+        { "type": "cloze", "text": "Ho ___ febbre.", "answers": ["la"], "de": "Ich habe Fieber." },
+        { "type": "cloze", "text": "Ho ___ raffreddore.", "answers": ["il"], "de": "Ich bin erkältet." },
+        { "type": "cloze", "text": "Come ti ___ oggi?", "answers": ["senti"], "de": "Wie fühlst du dich heute?", "hint": "sentirsi" },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["Mi fa male le gambe.", "Mi fanno male le gambe.", "Ho male le gambe."], "answer": 1, "explain": "le gambe ist Mehrzahl – deshalb fanno: Mi fanno male le gambe." },
+        { "type": "translate", "de": "Ich habe Kopfschmerzen.", "answers": ["Ho mal di testa.", "Mi fa male la testa.", "Io ho mal di testa."] },
+        { "type": "translate", "de": "Sara hat Husten und Fieber.", "answers": ["Sara ha la tosse e la febbre.", "Sara ha la febbre e la tosse."] },
+        { "type": "listen", "text": "Mi fa male la schiena e ho un po' di febbre.", "de": "Mir tut der Rücken weh, und ich habe ein bisschen Fieber." }
+      ]
+    },
+    {
+      "id": "consigli",
+      "title": "Ratschläge geben: prendi, bevi, riposati – und dovresti",
+      "blocks": [
+        { "type": "p", "text": "Ratschläge gibst du Freunden mit dem Imperativ für tu, den du schon vom Wegbeschreiben kennst: Verben auf -are enden auf -a, Verben auf -ere und -ire auf -i." },
+        { "type": "table", "head": ["Infinitiv", "tu", "Deutsch"], "rows": [["mangiare", "mangia", "iss"], ["restare", "resta", "bleib"], ["prendere", "prendi", "nimm"], ["bere", "bevi", "trink"], ["dormire", "dormi", "schlaf"], ["fare", "fai (fa')", "mach"], ["andare", "vai (va')", "geh"], ["riposarsi", "riposati", "ruh dich aus"]] },
+        { "type": "p", "text": "Bei reflexiven Verben hängt das Pronomen hinten an: Riposati! (Ruh dich aus!), Lavati le mani! (Wasch dir die Hände!)." },
+        { "type": "tip", "text": "Verbieten wie beim Wegbeschreiben: non + Infinitiv. Non uscire! = Geh nicht raus! Non lavorare troppo! = Arbeite nicht zu viel! Bei reflexiven Verben: Non ti preoccupare! oder Non preoccuparti! = Mach dir keine Sorgen!" },
+        { "type": "p", "text": "Freundlicher klingt dovresti + Infinitiv (du solltest). Merk dir die Form einfach als festen Ausdruck. Für Lei heißt sie dovrebbe." },
+        { "type": "examples", "items": [{ "text": "Bevi tanta acqua e riposati!", "de": "Trink viel Wasser und ruh dich aus!" }, { "text": "Prendi questa medicina.", "de": "Nimm dieses Medikament." }, { "text": "Non andare al lavoro oggi!", "de": "Geh heute nicht zur Arbeit!" }, { "text": "Dovresti andare dal medico.", "de": "Du solltest zum Arzt gehen." }, { "text": "Signora, dovrebbe restare a letto due giorni.", "de": "Sie sollten zwei Tage im Bett bleiben." }] },
+        { "type": "tip", "text": "Beim Arzt hörst du den Imperativ mit Lei: Prenda queste compresse, beva molta acqua e si riposi! = Nehmen Sie diese Tabletten, trinken Sie viel Wasser und ruhen Sie sich aus! Und: Non si preoccupi! = Machen Sie sich keine Sorgen!" },
+        { "type": "tip", "text": "Zum Arzt gehen heißt andare dal medico (da + il), beim Arzt sein: essere dal medico." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hai la febbre? ___ a letto!", "answers": ["resta", "rimani", "stai", "sta'"], "de": "Hast du Fieber? Bleib im Bett!", "hint": "restare" },
+        { "type": "cloze", "text": "___ tanta acqua!", "answers": ["bevi"], "de": "Trink viel Wasser!", "hint": "bere" },
+        { "type": "cloze", "text": "Sei stanca: ___ un po'!", "answers": ["riposati"], "de": "Du bist müde: Ruh dich ein bisschen aus!", "hint": "riposarsi" },
+        { "type": "cloze", "text": "Hai la febbre: non ___ di casa!", "answers": ["uscire"], "de": "Du hast Fieber: Geh nicht aus dem Haus!" },
+        { "type": "cloze", "text": "___ andare dal medico.", "answers": ["dovresti"], "de": "Du solltest zum Arzt gehen." },
+        { "type": "cloze", "text": "Hai mal di gola? ___ questo sciroppo.", "answers": ["prendi"], "de": "Hast du Halsschmerzen? Nimm diesen Sirup.", "hint": "prendere" },
+        { "type": "cloze", "text": "Non ti ___, non è niente di grave.", "answers": ["preoccupare"], "de": "Mach dir keine Sorgen, es ist nichts Schlimmes." },
+        { "type": "order", "de": "Du solltest weniger arbeiten.", "answer": "Dovresti lavorare meno." },
+        { "type": "translate", "de": "Ruh dich aus!", "answers": ["Riposati!"] },
+        { "type": "translate", "de": "Du solltest viel Wasser trinken.", "answers": ["Dovresti bere molta acqua.", "Dovresti bere tanta acqua.", "Tu dovresti bere molta acqua.", "Tu dovresti bere tanta acqua."] },
+        { "type": "listen", "text": "Prendi la medicina e non andare al lavoro.", "de": "Nimm das Medikament und geh nicht zur Arbeit." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dalla dottoressa",
+    "title_de": "Bei der Ärztin",
+    "lines": [
+      { "speaker": "Dottoressa", "text": "Buongiorno! Prego, entri. Come si sente?", "de": "Guten Tag! Kommen Sie herein. Wie fühlen Sie sich?" },
+      { "speaker": "Lena", "text": "Buongiorno, dottoressa. Mi sento male: ho mal di testa e mi fa male la gola.", "de": "Guten Tag, Frau Doktor. Mir geht es schlecht: Ich habe Kopfschmerzen, und mein Hals tut weh." },
+      { "speaker": "Dottoressa", "text": "Da quando?", "de": "Seit wann?" },
+      { "speaker": "Lena", "text": "Da due giorni. E ieri sera ho avuto la febbre.", "de": "Seit zwei Tagen. Und gestern Abend hatte ich Fieber." },
+      { "speaker": "Dottoressa", "text": "Ha anche la tosse?", "de": "Haben Sie auch Husten?" },
+      { "speaker": "Lena", "text": "Sì, un po'. E mi fanno male anche le braccia e le gambe.", "de": "Ja, ein bisschen. Und mir tun auch die Arme und die Beine weh." },
+      { "speaker": "Dottoressa", "text": "Apra la bocca, per favore… Sì, la gola è rossa.", "de": "Öffnen Sie bitte den Mund … Ja, der Hals ist rot." },
+      { "speaker": "Lena", "text": "È grave?", "de": "Ist es schlimm?" },
+      { "speaker": "Dottoressa", "text": "No, non si preoccupi, non è niente di grave: è l'influenza.", "de": "Nein, keine Sorge, es ist nichts Schlimmes: Es ist die Grippe." },
+      { "speaker": "Lena", "text": "E cosa devo fare?", "de": "Und was soll ich tun?" },
+      { "speaker": "Dottoressa", "text": "Deve restare a letto tre giorni e bere molta acqua. Ecco la ricetta: prenda queste compresse due volte al giorno.", "de": "Sie müssen drei Tage im Bett bleiben und viel Wasser trinken. Hier ist das Rezept: Nehmen Sie diese Tabletten zweimal am Tag." },
+      { "speaker": "Lena", "text": "Io lavoro da casa. Posso lavorare al computer?", "de": "Ich arbeite von zu Hause. Darf ich am Computer arbeiten?" },
+      { "speaker": "Dottoressa", "text": "No, signora! Dovrebbe riposarsi. Niente computer per tre giorni!", "de": "Nein, auf keinen Fall! Sie sollten sich ausruhen. Drei Tage lang kein Computer!" },
+      { "speaker": "Lena", "text": "Va bene. E per la tosse?", "de": "In Ordnung. Und gegen den Husten?" },
+      { "speaker": "Dottoressa", "text": "Prenda anche uno sciroppo: è sulla ricetta. Arrivederci, e si riposi!", "de": "Nehmen Sie auch einen Hustensaft – er steht auf dem Rezept. Auf Wiedersehen, und ruhen Sie sich aus!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["il braccio", "der Arm"], ["la mano", "die Hand"], ["il dito", "der Finger"], ["il ginocchio", "das Knie"], ["il piede", "der Fuß"], ["la gamba", "das Bein"]] },
+    { "type": "match", "pairs": [["la febbre", "das Fieber"], ["la tosse", "der Husten"], ["il raffreddore", "die Erkältung"], ["la ricetta", "das Rezept"], ["la compressa", "die Tablette"]] },
+    { "type": "translate", "de": "Mir tut der Rücken weh.", "answers": ["Mi fa male la schiena.", "Ho mal di schiena."] },
+    { "type": "translate", "de": "Ich bin erkältet.", "answers": ["Ho il raffreddore.", "Io ho il raffreddore."] },
+    { "type": "translate", "de": "Wie fühlst du dich?", "answers": ["Come ti senti?", "Tu come ti senti?"] },
+    { "type": "translate", "de": "Heute fühle ich mich besser.", "answers": ["Oggi mi sento meglio.", "Mi sento meglio oggi.", "Oggi sto meglio.", "Oggi io mi sento meglio.", "Sto meglio oggi."] },
+    { "type": "cloze", "text": "Ho un ___ dal medico alle tre.", "answers": ["appuntamento"], "de": "Ich habe um drei einen Termin beim Arzt." },
+    { "type": "cloze", "text": "Lena è ___: ha l'influenza.", "answers": ["malata"], "de": "Lena ist krank: Sie hat die Grippe." },
+    { "type": "cloze", "text": "Mi fanno male gli ___.", "answers": ["occhi"], "de": "Mir tun die Augen weh." },
+    { "type": "order", "de": "Du solltest zum Arzt gehen.", "answer": "Dovresti andare dal medico." },
+    { "type": "order", "de": "Trink viel Wasser und ruh dich aus!", "answer": "Bevi molta acqua e riposati!" },
+    { "type": "listen", "text": "Ho la febbre e mi fa male tutto il corpo.", "de": "Ich habe Fieber, und mir tut der ganze Körper weh." },
+    { "type": "listen", "text": "Non ti preoccupare, non è niente di grave.", "de": "Mach dir keine Sorgen, es ist nichts Schlimmes." }
+  ]
+}

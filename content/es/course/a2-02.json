@@ -1,0 +1,172 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-02",
+  "lang": "es",
+  "level": "A2",
+  "number": 2,
+  "title": "Mi trabajo",
+  "title_de": "Arbeit und Beruf",
+  "topic": "Berufe und Arbeitsalltag",
+  "goals": [
+    "Du kannst sagen, was du beruflich machst, und andere danach fragen: ¿A qué te dedicas? Trabajo de / como / en …",
+    "Du kannst Berufe in der männlichen und in der weiblichen Form benutzen (el médico, la médica, el/la periodista).",
+    "Du kannst sagen, was du tun musst oder kannst – mit tener que, hay que und poder.",
+    "Du kannst mit estar + Gerundium sagen, was gerade passiert: Estoy trabajando."
+  ],
+  "vocab": [
+    { "id": "trabajo", "word": "trabajo", "article": "el", "gender": "m", "plural": "los trabajos", "de": "die Arbeit; der Job; die Stelle", "pos": "noun", "example": { "text": "Tengo un trabajo nuevo.", "de": "Ich habe einen neuen Job." }, "note": "Kommt von trabajar (arbeiten). Ir al trabajo = zur Arbeit gehen." },
+    { "id": "profesion", "word": "profesión", "article": "la", "gender": "f", "plural": "las profesiones", "de": "der Beruf", "pos": "noun", "example": { "text": "Mi profesión es muy interesante.", "de": "Mein Beruf ist sehr interessant." } },
+    { "id": "empresa", "word": "empresa", "article": "la", "gender": "f", "plural": "las empresas", "de": "die Firma; das Unternehmen", "pos": "noun", "example": { "text": "Trabajo en una empresa alemana.", "de": "Ich arbeite in einer deutschen Firma." } },
+    { "id": "oficina", "word": "oficina", "article": "la", "gender": "f", "plural": "las oficinas", "de": "das Büro", "pos": "noun", "example": { "text": "Hoy no voy a la oficina: trabajo desde casa.", "de": "Heute gehe ich nicht ins Büro: Ich arbeite von zu Hause aus." } },
+    { "id": "jefe", "word": "jefe", "article": "el", "gender": "m", "plural": "los jefes", "de": "der Chef; der Vorgesetzte", "pos": "noun", "example": { "text": "Mañana tengo una reunión con mi jefe.", "de": "Morgen habe ich eine Besprechung mit meinem Chef." }, "note": "Die Chefin = la jefa." },
+    { "id": "companero", "word": "compañero", "article": "el", "gender": "m", "plural": "los compañeros", "de": "der Kollege; der Mitschüler", "pos": "noun", "example": { "text": "Como con mis compañeros de trabajo.", "de": "Ich esse mit meinen Arbeitskollegen zu Mittag.", "focus": "compañeros" }, "note": "Die Kollegin = la compañera. Compañero de piso = Mitbewohner." },
+    { "id": "cliente", "word": "cliente", "article": "el", "gender": "m", "plural": "los clientes", "de": "der Kunde", "pos": "noun", "example": { "text": "Hoy tengo una reunión con un cliente.", "de": "Heute habe ich eine Besprechung mit einem Kunden." }, "note": "Die Kundin = la cliente oder la clienta." },
+    { "id": "reunion", "word": "reunión", "article": "la", "gender": "f", "plural": "las reuniones", "de": "die Besprechung; das Meeting", "pos": "noun", "example": { "text": "La reunión empieza a las diez.", "de": "Die Besprechung fängt um zehn an." } },
+    { "id": "ordenador", "word": "ordenador", "article": "el", "gender": "m", "plural": "los ordenadores", "de": "der Computer", "pos": "noun", "example": { "text": "Trabajo todo el día con el ordenador.", "de": "Ich arbeite den ganzen Tag am Computer." }, "note": "In Lateinamerika sagt man la computadora." },
+    { "id": "horario", "word": "horario", "article": "el", "gender": "m", "plural": "los horarios", "de": "die Arbeitszeit; der Zeitplan", "pos": "noun", "example": { "text": "Mi horario es de ocho a tres.", "de": "Meine Arbeitszeit ist von acht bis drei." } },
+    { "id": "sueldo", "word": "sueldo", "article": "el", "gender": "m", "plural": "los sueldos", "de": "das Gehalt; der Lohn", "pos": "noun", "example": { "text": "Mi hermano gana un buen sueldo.", "de": "Mein Bruder verdient gut." } },
+    { "id": "dinero", "word": "dinero", "article": "el", "gender": "m", "de": "das Geld", "pos": "noun", "example": { "text": "Quiero ganar más dinero.", "de": "Ich möchte mehr Geld verdienen." } },
+    { "id": "persona", "word": "persona", "article": "la", "gender": "f", "plural": "las personas", "de": "die Person; der Mensch", "pos": "noun", "example": { "text": "En mi empresa trabajan cincuenta personas.", "de": "In meiner Firma arbeiten fünfzig Menschen.", "focus": "personas" }, "note": "Immer weiblich, auch wenn ein Mann gemeint ist: Diego es una persona muy tranquila." },
+    { "id": "medico", "word": "médico", "article": "el", "gender": "m", "plural": "los médicos", "de": "der Arzt", "pos": "noun", "example": { "text": "Mi padre es médico y mi madre también.", "de": "Mein Vater ist Arzt und meine Mutter auch." }, "note": "Die Ärztin = la médica. Zum Arzt gehen = ir al médico." },
+    { "id": "enfermero", "word": "enfermero", "article": "el", "gender": "m", "plural": "los enfermeros", "de": "der Krankenpfleger", "pos": "noun", "example": { "text": "Diego es enfermero en un hospital.", "de": "Diego ist Krankenpfleger in einem Krankenhaus." }, "note": "La enfermera = die Krankenpflegerin, die Krankenschwester." },
+    { "id": "profesor", "word": "profesor", "article": "el", "gender": "m", "plural": "los profesores", "de": "der Lehrer", "pos": "noun", "example": { "text": "Mi profesor de español es de Madrid.", "de": "Mein Spanischlehrer ist aus Madrid." }, "note": "Die Lehrerin = la profesora. An der Uni auch: der Professor." },
+    { "id": "periodista", "word": "periodista", "article": "el", "gender": "m", "plural": "los periodistas", "de": "der Journalist", "pos": "noun", "example": { "text": "Lucía es periodista.", "de": "Lucía ist Journalistin." }, "note": "Gleiche Form für Frauen: la periodista." },
+    { "id": "cocinero", "word": "cocinero", "article": "el", "gender": "m", "plural": "los cocineros", "de": "der Koch", "pos": "noun", "example": { "text": "El cocinero prepara una tortilla.", "de": "Der Koch macht eine Tortilla." }, "note": "Die Köchin = la cocinera. Das Verb cocinar kennst du schon." },
+    { "id": "dependiente", "word": "dependiente", "article": "el", "gender": "m", "plural": "los dependientes", "de": "der Verkäufer (im Geschäft)", "pos": "noun", "example": { "text": "Trabajo de dependiente en una tienda de ropa.", "de": "Ich arbeite als Verkäufer in einem Kleidungsgeschäft." }, "note": "Die Verkäuferin = la dependienta." },
+    { "id": "abogado", "word": "abogado", "article": "el", "gender": "m", "plural": "los abogados", "de": "der Anwalt", "pos": "noun", "example": { "text": "Mi tío es abogado.", "de": "Mein Onkel ist Anwalt." }, "note": "Die Anwältin = la abogada." },
+    { "id": "ingeniero", "word": "ingeniero", "article": "el", "gender": "m", "plural": "los ingenieros", "de": "der Ingenieur", "pos": "noun", "example": { "text": "Mi hermano es ingeniero y trabaja en Alemania.", "de": "Mein Bruder ist Ingenieur und arbeitet in Deutschland." }, "note": "Die Ingenieurin = la ingeniera." },
+    { "id": "policia", "word": "policía", "article": "el", "gender": "m", "plural": "los policías", "de": "der Polizist", "pos": "noun", "example": { "text": "Mi prima es policía.", "de": "Meine Cousine ist Polizistin." }, "note": "Die Polizistin = la policía. La policía heißt auch „die Polizei“." },
+    { "id": "informatico", "word": "informático", "article": "el", "gender": "m", "plural": "los informáticos", "de": "der Informatiker; der IT-Fachmann", "pos": "noun", "example": { "text": "Jonas es informático.", "de": "Jonas ist Informatiker." }, "note": "Die Informatikerin = la informática. La informática heißt auch „die Informatik“." },
+    { "id": "estudiante", "word": "estudiante", "article": "el", "gender": "m", "plural": "los estudiantes", "de": "der Student; der Schüler", "pos": "noun", "example": { "text": "Anna, la hermana de Jonas, es estudiante.", "de": "Anna, Jonas’ Schwester, ist Studentin." }, "note": "Gleiche Form für Frauen: la estudiante." },
+    { "id": "periodico", "word": "periódico", "article": "el", "gender": "m", "plural": "los periódicos", "de": "die Zeitung", "pos": "noun", "example": { "text": "Lucía trabaja en un periódico.", "de": "Lucía arbeitet bei einer Zeitung." } },
+    { "id": "ganar", "word": "ganar", "de": "verdienen; gewinnen", "pos": "verb", "example": { "text": "Gano poco, pero me gusta mi trabajo.", "de": "Ich verdiene wenig, aber ich mag meine Arbeit.", "focus": "gano" } },
+    { "id": "empezar", "word": "empezar", "de": "anfangen; beginnen", "pos": "verb", "forms": "empiezo, empiezas, empieza, empezamos, empezáis, empiezan", "example": { "text": "Empiezo a trabajar a las ocho.", "de": "Ich fange um acht an zu arbeiten.", "focus": "empiezo" }, "note": "e → ie. Anfangen, etwas zu tun = empezar a + Infinitiv." },
+    { "id": "ayudar", "word": "ayudar", "de": "helfen", "pos": "verb", "example": { "text": "Diego ayuda a los médicos.", "de": "Diego hilft den Ärzten.", "focus": "ayuda" }, "note": "Bei Personen steht a: ayudar a alguien." },
+    { "id": "preparar", "word": "preparar", "de": "vorbereiten; zubereiten", "pos": "verb", "example": { "text": "Lucía está preparando una reunión.", "de": "Lucía bereitet gerade eine Besprechung vor.", "focus": "preparando" } },
+    { "id": "enviar", "word": "enviar", "de": "schicken; senden", "pos": "verb", "forms": "envío, envías, envía, enviamos, enviáis, envían", "example": { "text": "Envío muchos correos todos los días.", "de": "Ich schicke jeden Tag viele E-Mails.", "focus": "envío" }, "note": "Achte auf den Akzent: envío, envías … Gleiche Bedeutung: mandar." },
+    { "id": "poder", "word": "poder", "de": "können; dürfen", "pos": "verb", "forms": "puedo, puedes, puede, podemos, podéis, pueden", "example": { "text": "¿Puedo trabajar desde casa?", "de": "Kann ich von zu Hause aus arbeiten?", "focus": "puedo" }, "note": "o → ue. Nach poder steht der Infinitiv." },
+    { "id": "tener-que", "word": "tener que", "de": "müssen", "pos": "phrase", "example": { "text": "Tengo que trabajar el sábado.", "de": "Ich muss am Samstag arbeiten.", "focus": "tengo que" }, "note": "tener que + Infinitiv. Nur tener wird konjugiert." },
+    { "id": "hay-que", "word": "hay que", "de": "man muss", "pos": "phrase", "example": { "text": "En el hospital hay que trabajar también los domingos.", "de": "Im Krankenhaus muss man auch sonntags arbeiten." }, "note": "Unpersönlich – die Form ändert sich nie." },
+    { "id": "estar-en-paro", "word": "estar en paro", "de": "arbeitslos sein", "pos": "phrase", "example": { "text": "Mi primo está en paro.", "de": "Mein Cousin ist arbeitslos.", "focus": "está en paro" }, "note": "El paro = die Arbeitslosigkeit. Sehr typisch für Spanien." },
+    { "id": "ahora-mismo", "word": "ahora mismo", "de": "gerade; im Moment; sofort", "pos": "phrase", "example": { "text": "Ahora mismo estoy trabajando.", "de": "Ich arbeite gerade." } },
+    { "id": "en-este-momento", "word": "en este momento", "de": "in diesem Moment; gerade", "pos": "phrase", "example": { "text": "En este momento no puedo hablar.", "de": "Gerade kann ich nicht sprechen." } },
+    { "id": "jubilado", "word": "jubilado", "alt": [ "jubilada" ], "de": "in Rente; pensioniert", "pos": "adj", "example": { "text": "Mis abuelos están jubilados.", "de": "Meine Großeltern sind in Rente.", "focus": "jubilados" }, "note": "Auch als Nomen: un jubilado / una jubilada = ein Rentner / eine Rentnerin." },
+    { "id": "ocupado", "word": "ocupado", "alt": [ "ocupada" ], "de": "beschäftigt; besetzt", "pos": "adj", "example": { "text": "Hoy estoy muy ocupada.", "de": "Heute bin ich sehr beschäftigt.", "focus": "ocupada" }, "note": "Ein Zustand – deshalb mit estar." },
+    { "id": "interesante", "word": "interesante", "de": "interessant", "pos": "adj", "example": { "text": "Mi trabajo es muy interesante.", "de": "Meine Arbeit ist sehr interessant." }, "note": "Gleiche Form für männlich und weiblich." },
+    { "id": "dificil", "word": "difícil", "de": "schwierig; schwer", "pos": "adj", "example": { "text": "El trabajo de enfermero es difícil.", "de": "Die Arbeit als Krankenpfleger ist schwierig." } },
+    { "id": "facil", "word": "fácil", "de": "leicht; einfach", "pos": "adj", "example": { "text": "Este trabajo no es fácil.", "de": "Diese Arbeit ist nicht leicht." } },
+    { "id": "otro", "word": "otro", "alt": [ "otra" ], "de": "andere(r, s); noch ein(e)", "pos": "adj", "example": { "text": "Busco otro trabajo.", "de": "Ich suche eine andere Stelle." }, "note": "Nie mit un davor: otro café = noch ein Kaffee / ein anderer Kaffee." }
+  ],
+  "grammar": [
+    {
+      "id": "profesiones", "title": "Berufe: männlich und weiblich, trabajar de / como / en",
+      "blocks": [
+        { "type": "p", "text": "Die meisten Berufe haben eine männliche und eine weibliche Form. An der Endung siehst du, wie die weibliche Form aussieht:" },
+        { "type": "table", "head": [ "Endung", "männlich", "weiblich", "Deutsch" ], "rows": [ [ "-o → -a", "el médico", "la médica", "Arzt / Ärztin" ], [ "-o → -a", "el enfermero", "la enfermera", "Krankenpfleger / Krankenpflegerin" ], [ "-or → -ora", "el profesor", "la profesora", "Lehrer / Lehrerin" ], [ "-e → -a", "el jefe", "la jefa", "Chef / Chefin" ], [ "-e → -a", "el dependiente", "la dependienta", "Verkäufer / Verkäuferin" ], [ "-ista (gleich)", "el periodista", "la periodista", "Journalist / Journalistin" ], [ "-ante (gleich)", "el estudiante", "la estudiante", "Student / Studentin" ], [ "gleich", "el policía", "la policía", "Polizist / Polizistin" ] ] },
+        { "type": "tip", "text": "Nach ser steht beim Beruf kein Artikel: Soy enfermero. Lucía es periodista. (Nicht: Soy un enfermero.) Kommt ein Adjektiv dazu, steht der Artikel wieder: Es un profesor muy interesante." },
+        { "type": "p", "text": "So fragst du nach dem Beruf und antwortest:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "¿A qué te dedicas?", "Was machst du beruflich?" ], [ "¿En qué trabajas?", "Als was arbeitest du?" ], [ "Soy informático.", "Ich bin Informatiker." ], [ "Trabajo de camarero. / Trabajo como camarero.", "Ich arbeite als Kellner." ], [ "Trabajo en un hospital. / Trabajo en una empresa.", "Ich arbeite in einem Krankenhaus. / Ich arbeite in einer Firma." ], [ "Trabajo para una empresa alemana.", "Ich arbeite für eine deutsche Firma." ], [ "Estoy en paro. / Estoy jubilado.", "Ich bin arbeitslos. / Ich bin in Rente." ] ] },
+        { "type": "tip", "text": "Trabajar de und trabajar como bedeuten dasselbe: „arbeiten als“ – danach kommt der Beruf ohne Artikel. Trabajar en steht vor dem Ort oder der Firma." },
+        { "type": "examples", "items": [ { "text": "Lucía es periodista y trabaja en un periódico.", "de": "Lucía ist Journalistin und arbeitet bei einer Zeitung." }, { "text": "Diego trabaja de enfermero en el hospital.", "de": "Diego arbeitet als Krankenpfleger im Krankenhaus." }, { "text": "Mi madre es profesora de inglés.", "de": "Meine Mutter ist Englischlehrerin." }, { "text": "¿A qué te dedicas? – Soy abogada.", "de": "Was machst du beruflich? – Ich bin Anwältin." }, { "text": "Mi hermana trabaja como dependienta en una tienda de ropa.", "de": "Meine Schwester arbeitet als Verkäuferin in einem Kleidungsgeschäft." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mi madre es ___ en el hospital.", "answers": [ "médica" ], "de": "Meine Mutter ist Ärztin im Krankenhaus.", "hint": "médico – weiblich" },
+        { "type": "cloze", "text": "Lucía es ___ y trabaja en un periódico.", "answers": [ "periodista" ], "de": "Lucía ist Journalistin und arbeitet bei einer Zeitung." },
+        { "type": "cloze", "text": "Mi hermana es ___ de inglés.", "answers": [ "profesora" ], "de": "Meine Schwester ist Englischlehrerin.", "hint": "profesor – weiblich" },
+        { "type": "cloze", "text": "Diego trabaja ___ enfermero.", "answers": [ "de", "como" ], "de": "Diego arbeitet als Krankenpfleger." },
+        { "type": "cloze", "text": "Trabajo ___ una empresa alemana.", "answers": [ "en" ], "de": "Ich arbeite in einer deutschen Firma." },
+        { "type": "cloze", "text": "¿A qué te ___?", "answers": [ "dedicas" ], "de": "Was machst du beruflich?", "hint": "dedicarse – tú" },
+        { "type": "cloze", "text": "Mi jefa es ___.", "answers": [ "abogada" ], "de": "Meine Chefin ist Anwältin.", "hint": "abogado – weiblich" },
+        { "type": "translate", "de": "Ich bin Krankenpflegerin.", "answers": [ "Soy enfermera.", "Yo soy enfermera." ] },
+        { "type": "translate", "de": "Er arbeitet als Kellner.", "answers": [ "Trabaja de camarero.", "Trabaja como camarero.", "Él trabaja de camarero.", "Él trabaja como camarero." ] },
+        { "type": "choice", "prompt": "Wie sagst du „Ich bin Lehrer“?", "options": [ "Soy profesor.", "Soy un profesor.", "Estoy profesor." ], "answer": 0, "explain": "Beim Beruf nach ser steht kein Artikel. Und für den Beruf nimmst du ser, nicht estar." }
+      ]
+    },
+    {
+      "id": "tener-que-hay-que", "title": "Müssen und können: tener que, hay que, poder",
+      "blocks": [
+        { "type": "p", "text": "Was du tun musst, sagst du mit tener que + Infinitiv. Nur tener wird konjugiert, que und der Infinitiv bleiben immer gleich." },
+        { "type": "table", "head": [ "Person", "tener que + Infinitiv", "Deutsch" ], "rows": [ [ "yo", "tengo que trabajar", "ich muss arbeiten" ], [ "tú", "tienes que trabajar", "du musst arbeiten" ], [ "él / ella / usted", "tiene que trabajar", "er / sie muss arbeiten; Sie müssen arbeiten" ], [ "nosotros / nosotras", "tenemos que trabajar", "wir müssen arbeiten" ], [ "vosotros / vosotras", "tenéis que trabajar", "ihr müsst arbeiten" ], [ "ellos / ellas / ustedes", "tienen que trabajar", "sie müssen arbeiten; Sie müssen arbeiten" ] ] },
+        { "type": "p", "text": "Hay que + Infinitiv ist unpersönlich und heißt „man muss“. Es gilt allgemein, für alle – und die Form ändert sich nie: En esta empresa hay que hablar inglés." },
+        { "type": "tip", "text": "Achtung: No tener que heißt „nicht müssen“: No tienes que trabajar el sábado. = Du musst am Samstag nicht arbeiten. „Nicht dürfen“ heißt no poder: Aquí no puedes comer. = Hier darfst du nicht essen." },
+        { "type": "p", "text": "Poder (können, dürfen) steht auch mit dem Infinitiv. Der Stamm wird zu ue – außer bei nosotros und vosotros:" },
+        { "type": "table", "head": [ "Person", "poder", "Beispiel" ], "rows": [ [ "yo", "puedo", "¿Puedo trabajar desde casa?" ], [ "tú", "puedes", "¿Puedes ayudar a Diego?" ], [ "él / ella / usted", "puede", "Diego no puede salir." ], [ "nosotros / nosotras", "podemos", "Podemos tomar algo." ], [ "vosotros / vosotras", "podéis", "¿Podéis trabajar el sábado?" ], [ "ellos / ellas / ustedes", "pueden", "Mis padres no pueden ir." ] ] },
+        { "type": "tip", "text": "So sagst du höflich ab: No puedo, tengo que trabajar. = Ich kann nicht, ich muss arbeiten." },
+        { "type": "examples", "items": [ { "text": "Mañana tengo que madrugar.", "de": "Morgen muss ich früh aufstehen." }, { "text": "Diego tiene que trabajar el domingo.", "de": "Diego muss am Sonntag arbeiten." }, { "text": "En esta empresa hay que hablar inglés.", "de": "In dieser Firma muss man Englisch sprechen." }, { "text": "¿Tenéis que ir a la oficina todos los días?", "de": "Müsst ihr jeden Tag ins Büro?" }, { "text": "No podemos ir: tenemos que preparar una reunión.", "de": "Wir können nicht hingehen: Wir müssen eine Besprechung vorbereiten." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Mañana ___ que madrugar.", "answers": [ "tengo" ], "de": "Morgen muss ich früh aufstehen.", "hint": "tener – yo" },
+        { "type": "cloze", "text": "Diego ___ que trabajar el domingo.", "answers": [ "tiene" ], "de": "Diego muss am Sonntag arbeiten.", "hint": "tener" },
+        { "type": "cloze", "text": "¿Vosotros ___ que ir a la oficina?", "answers": [ "tenéis" ], "de": "Müsst ihr ins Büro?", "hint": "tener" },
+        { "type": "cloze", "text": "En el hospital ___ que trabajar también por la noche.", "answers": [ "hay" ], "de": "Im Krankenhaus muss man auch nachts arbeiten." },
+        { "type": "cloze", "text": "Hoy no ___ ir al cine. Tengo que trabajar.", "answers": [ "puedo" ], "de": "Heute kann ich nicht ins Kino gehen. Ich muss arbeiten.", "hint": "poder – yo" },
+        { "type": "cloze", "text": "¿___ trabajar desde casa?", "answers": [ "Puedes" ], "de": "Kannst du von zu Hause aus arbeiten?", "hint": "poder – tú" },
+        { "type": "cloze", "text": "Mis compañeros no ___ venir a la reunión.", "answers": [ "pueden" ], "de": "Meine Kollegen können nicht zur Besprechung kommen.", "hint": "poder" },
+        { "type": "translate", "de": "Ich muss am Samstag arbeiten.", "answers": [ "Tengo que trabajar el sábado.", "El sábado tengo que trabajar.", "Yo tengo que trabajar el sábado." ] },
+        { "type": "translate", "de": "Man muss viel lernen.", "answers": [ "Hay que estudiar mucho.", "Hay que aprender mucho." ] },
+        { "type": "order", "de": "Wir müssen eine Besprechung vorbereiten.", "answer": "Tenemos que preparar una reunión.", "distractors": [ "hay" ] }
+      ]
+    },
+    {
+      "id": "estar-gerundio", "title": "Was gerade passiert: estar + Gerundium",
+      "blocks": [
+        { "type": "p", "text": "Was du gerade in diesem Moment machst, sagst du mit estar + Gerundium – wie im Englischen „I’m working“. Im Deutschen sagt man meist „gerade“: Estoy trabajando. = Ich arbeite gerade." },
+        { "type": "table", "head": [ "Infinitiv", "Endung", "Gerundium" ], "rows": [ [ "trabajar", "-ar → -ando", "trabajando" ], [ "preparar", "-ar → -ando", "preparando" ], [ "comer", "-er → -iendo", "comiendo" ], [ "hacer", "-er → -iendo", "haciendo" ], [ "escribir", "-ir → -iendo", "escribiendo" ], [ "salir", "-ir → -iendo", "saliendo" ] ] },
+        { "type": "table", "head": [ "Person", "estar", "+ Gerundium" ], "rows": [ [ "yo", "estoy", "trabajando" ], [ "tú", "estás", "comiendo" ], [ "él / ella / usted", "está", "escribiendo" ], [ "nosotros / nosotras", "estamos", "hablando" ], [ "vosotros / vosotras", "estáis", "preparando" ], [ "ellos / ellas / ustedes", "están", "haciendo" ] ] },
+        { "type": "tip", "text": "Einige Formen sind besonders: leer → leyendo, dormir → durmiendo, decir → diciendo. Das Gerundium selbst ändert sich nie – keine weibliche Form, keine Mehrzahl." },
+        { "type": "tip", "text": "Reflexivpronomen stehen vor estar oder hängen am Gerundium (dann mit Akzent): Me estoy duchando. = Estoy duchándome." },
+        { "type": "p", "text": "Für Gewohnheiten und Berufe nimmst du das normale Präsens: Trabajo en un hospital. (Das ist mein Job.) Für den Moment: Ahora estoy trabajando. (Ich bin gerade bei der Arbeit.)" },
+        { "type": "examples", "items": [ { "text": "¿Qué estás haciendo? – Estoy escribiendo un correo.", "de": "Was machst du gerade? – Ich schreibe gerade eine E-Mail." }, { "text": "Lucía está preparando una reunión.", "de": "Lucía bereitet gerade eine Besprechung vor." }, { "text": "Ahora mismo estamos comiendo.", "de": "Wir essen gerade." }, { "text": "Mi hermana está durmiendo.", "de": "Meine Schwester schläft gerade." }, { "text": "¿Estáis viendo el partido?", "de": "Schaut ihr gerade das Spiel?" } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Ahora mismo ___ trabajando.", "answers": [ "estoy" ], "de": "Ich arbeite gerade.", "hint": "estar – yo" },
+        { "type": "cloze", "text": "¿Qué estás ___? – Estoy leyendo.", "answers": [ "haciendo" ], "de": "Was machst du gerade? – Ich lese.", "hint": "hacer" },
+        { "type": "cloze", "text": "Lucía está ___ un correo a su jefe.", "answers": [ "escribiendo" ], "de": "Lucía schreibt gerade eine E-Mail an ihren Chef.", "hint": "escribir" },
+        { "type": "cloze", "text": "Mi hermana está ___ en su habitación.", "answers": [ "durmiendo" ], "de": "Meine Schwester schläft gerade in ihrem Zimmer.", "hint": "dormir" },
+        { "type": "cloze", "text": "Estamos ___ la reunión.", "answers": [ "preparando" ], "de": "Wir bereiten gerade die Besprechung vor.", "hint": "preparar" },
+        { "type": "cloze", "text": "Jonas está ___ un libro en el sofá.", "answers": [ "leyendo" ], "de": "Jonas liest gerade auf dem Sofa ein Buch.", "hint": "leer" },
+        { "type": "cloze", "text": "Mis padres ___ viendo la tele.", "answers": [ "están" ], "de": "Meine Eltern sehen gerade fern.", "hint": "estar" },
+        { "type": "translate", "de": "Was machst du gerade?", "answers": [ "¿Qué estás haciendo?", "¿Qué estás haciendo ahora?", "¿Qué estás haciendo ahora mismo?", "¿Qué haces ahora?", "¿Qué haces?" ] },
+        { "type": "translate", "de": "Wir essen gerade.", "answers": [ "Estamos comiendo.", "Ahora estamos comiendo.", "Ahora mismo estamos comiendo.", "Nosotros estamos comiendo.", "Estamos comiendo ahora." ] },
+        { "type": "order", "de": "Diego arbeitet gerade im Krankenhaus.", "answer": "Diego está trabajando en el hospital.", "distractors": [ "trabaja" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿A qué te dedicas?",
+    "title_de": "Was machst du beruflich?",
+    "lines": [
+      { "speaker": "Jonas", "text": "¡Hola, Diego! Estás cansado, ¿no?", "de": "Hallo, Diego! Du bist müde, oder?" },
+      { "speaker": "Diego", "text": "Sí, un poco. Hoy he trabajado desde las siete de la mañana.", "de": "Ja, ein bisschen. Ich habe heute ab sieben Uhr morgens gearbeitet." },
+      { "speaker": "Jonas", "text": "¿Dónde trabajas?", "de": "Wo arbeitest du?" },
+      { "speaker": "Diego", "text": "Soy enfermero. Trabajo en el hospital del barrio. ¿Y tú? ¿A qué te dedicas?", "de": "Ich bin Krankenpfleger. Ich arbeite im Krankenhaus hier im Viertel. Und du? Was machst du beruflich?" },
+      { "speaker": "Jonas", "text": "Soy informático. Trabajo para una empresa de Viena, pero desde casa.", "de": "Ich bin Informatiker. Ich arbeite für eine Firma aus Wien, aber von zu Hause aus." },
+      { "speaker": "Diego", "text": "¡Qué bien! ¿No tienes que ir a la oficina?", "de": "Wie schön! Musst du nicht ins Büro?" },
+      { "speaker": "Jonas", "text": "No, nunca. Pero tengo muchas reuniones con mi jefe y con los clientes.", "de": "Nein, nie. Aber ich habe viele Besprechungen mit meinem Chef und mit den Kunden." },
+      { "speaker": "Diego", "text": "En el hospital hay que trabajar también por la noche y los fines de semana.", "de": "Im Krankenhaus muss man auch nachts und am Wochenende arbeiten." },
+      { "speaker": "Jonas", "text": "Uf, es un trabajo difícil, ¿verdad?", "de": "Uff, das ist eine schwierige Arbeit, oder?" },
+      { "speaker": "Diego", "text": "Sí, pero me encanta. Ayudo a muchas personas y mis compañeros son geniales.", "de": "Ja, aber ich liebe sie. Ich helfe vielen Menschen, und meine Kollegen sind super." },
+      { "speaker": "Jonas", "text": "Oye, ¿y dónde está Lucía?", "de": "Sag mal, und wo ist Lucía?" },
+      { "speaker": "Diego", "text": "Está en el periódico. Ahora mismo está escribiendo un artículo.", "de": "Sie ist bei der Zeitung. Sie schreibt gerade einen Artikel." },
+      { "speaker": "Jonas", "text": "Los periodistas siempre están ocupados.", "de": "Journalisten sind immer beschäftigt." },
+      { "speaker": "Diego", "text": "¡Y los enfermeros también! Bueno, ¿tomamos algo?", "de": "Und Krankenpfleger auch! Na gut, trinken wir etwas?" },
+      { "speaker": "Jonas", "text": "Vale, pero a las cinco tengo una reunión con un cliente.", "de": "Okay, aber um fünf habe ich eine Besprechung mit einem Kunden." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "médico", "Arzt" ], [ "enfermera", "Krankenpflegerin" ], [ "profesora", "Lehrerin" ], [ "periodista", "Journalist" ], [ "cocinero", "Koch" ], [ "abogada", "Anwältin" ] ] },
+    { "type": "match", "pairs": [ [ "empresa", "Firma" ], [ "oficina", "Büro" ], [ "jefe", "Chef" ], [ "reunión", "Besprechung" ], [ "ordenador", "Computer" ], [ "sueldo", "Gehalt" ] ] },
+    { "type": "translate", "de": "Was machst du beruflich?", "answers": [ "¿A qué te dedicas?", "¿En qué trabajas?", "¿De qué trabajas?", "¿Cuál es tu profesión?" ] },
+    { "type": "translate", "de": "Mein Vater ist Ingenieur und arbeitet in einer großen Firma.", "answers": [ "Mi padre es ingeniero y trabaja en una empresa grande.", "Mi padre es ingeniero y trabaja en una gran empresa." ] },
+    { "type": "translate", "de": "Ich kann heute nicht, ich muss arbeiten.", "answers": [ "Hoy no puedo, tengo que trabajar.", "No puedo hoy, tengo que trabajar.", "Hoy no puedo porque tengo que trabajar.", "No puedo hoy porque tengo que trabajar." ] },
+    { "type": "translate", "de": "Meine Großeltern sind in Rente.", "answers": [ "Mis abuelos están jubilados.", "Mis abuelos son jubilados." ] },
+    { "type": "order", "de": "Lucía schreibt gerade eine E-Mail.", "answer": "Lucía está escribiendo un correo.", "distractors": [ "escribe" ] },
+    { "type": "order", "de": "Im Büro muss man Englisch sprechen.", "answer": "En la oficina hay que hablar inglés.", "distractors": [ "tiene" ] },
+    { "type": "cloze", "text": "Mi primo está en ___ y busca trabajo.", "answers": [ "paro" ], "de": "Mein Cousin ist arbeitslos und sucht Arbeit." },
+    { "type": "cloze", "text": "Empiezo ___ trabajar a las ocho.", "answers": [ "a" ], "de": "Ich fange um acht an zu arbeiten." },
+    { "type": "cloze", "text": "Jonas ___ para una empresa de Viena.", "answers": [ "trabaja" ], "de": "Jonas arbeitet für eine Firma aus Wien.", "hint": "trabajar" },
+    { "type": "listen", "text": "Soy enfermero y trabajo en un hospital.", "de": "Ich bin Krankenpfleger und arbeite in einem Krankenhaus." },
+    { "type": "listen", "text": "Ahora mismo estoy preparando una reunión.", "de": "Ich bereite gerade eine Besprechung vor." },
+    { "type": "listen", "text": "En mi trabajo hay que hablar mucho por teléfono.", "de": "In meinem Job muss man viel telefonieren." }
+  ]
+}

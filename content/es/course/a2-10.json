@@ -1,0 +1,164 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-10",
+  "lang": "es",
+  "level": "A2",
+  "number": 10,
+  "title": "Planes para el futuro",
+  "title_de": "Pläne",
+  "topic": "Über die Zukunft sprechen",
+  "goals": [
+    "Du kannst mit dem futuro simple über Pläne, Vorhersagen und Versprechen sprechen.",
+    "Du kannst Bedingungen ausdrücken: Si tengo tiempo, te llamaré.",
+    "Du kannst sagen, was du vorhast und was du dir wünschst – mit pensar und me gustaría.",
+    "Du verstehst Zeitangaben wie el año que viene und dentro de dos semanas."
+  ],
+  "vocab": [
+    { "id": "futuro", "word": "futuro", "article": "el", "gender": "m", "de": "die Zukunft", "pos": "noun", "example": { "text": "¿Qué planes tienes para el futuro?", "de": "Welche Pläne hast du für die Zukunft?" }, "note": "Auch die Zeitform heißt so: el futuro simple." },
+    { "id": "plan", "word": "plan", "article": "el", "gender": "m", "plural": "los planes", "de": "der Plan", "pos": "noun", "example": { "text": "Tengo muchos planes para el verano.", "de": "Ich habe viele Pläne für den Sommer.", "focus": "planes" } },
+    { "id": "pensar", "word": "pensar", "de": "denken; vorhaben (+ Infinitiv)", "pos": "verb", "forms": "pienso, piensas, piensa, pensamos, pensáis, piensan", "example": { "text": "Pienso estudiar en Madrid.", "de": "Ich habe vor, in Madrid zu studieren.", "focus": "pienso" }, "note": "e → ie. pensar + Infinitiv = vorhaben; pensar en = denken an." },
+    { "id": "me-gustaria", "word": "me gustaría", "de": "ich würde gern; ich möchte gern", "pos": "phrase", "example": { "text": "Me gustaría vivir en el extranjero.", "de": "Ich würde gern im Ausland leben." }, "note": "Funktioniert wie gustar: te gustaría, le gustaría, nos gustaría …" },
+    { "id": "el-ano-que-viene", "word": "el año que viene", "de": "nächstes Jahr", "pos": "phrase", "example": { "text": "El año que viene terminaré mis estudios.", "de": "Nächstes Jahr werde ich mein Studium abschließen." }, "note": "Genauso: la semana que viene, el mes que viene. Auch möglich: el próximo año." },
+    { "id": "dentro-de", "word": "dentro de", "de": "in (zeitlich)", "pos": "prep", "example": { "text": "Volveré dentro de dos semanas.", "de": "Ich komme in zwei Wochen zurück." }, "note": "Für die Zukunft: dentro de dos días = in zwei Tagen." },
+    { "id": "pronto", "word": "pronto", "de": "bald", "pos": "adv", "example": { "text": "¡Hasta pronto!", "de": "Bis bald!" }, "note": "In Spanien heißt pronto auch „früh“: Me levanto pronto." },
+    { "id": "algun-dia", "word": "algún día", "de": "eines Tages; irgendwann", "pos": "phrase", "example": { "text": "Algún día viajaré por todo el mundo.", "de": "Eines Tages werde ich durch die ganze Welt reisen." } },
+    { "id": "a-lo-mejor", "word": "a lo mejor", "de": "vielleicht", "pos": "phrase", "example": { "text": "A lo mejor voy a Italia en agosto.", "de": "Vielleicht fahre ich im August nach Italien." }, "note": "Danach steht ganz normal das Präsens oder Futur." },
+    { "id": "seguro", "word": "seguro", "alt": ["segura"], "de": "sicher; bestimmt", "pos": "adj", "example": { "text": "Seguro que lo pasaréis muy bien.", "de": "Ihr werdet bestimmt viel Spaß haben." }, "note": "seguro que … = bestimmt …; estoy seguro = ich bin sicher." },
+    { "id": "si", "word": "si", "de": "wenn; falls; ob", "pos": "conj", "example": { "text": "Si tengo tiempo, te llamaré.", "de": "Wenn ich Zeit habe, rufe ich dich an." }, "note": "Ohne Akzent! Mit Akzent heißt sí „ja“." },
+    { "id": "mudarse", "word": "mudarse", "de": "umziehen", "pos": "verb", "forms": "me mudo, te mudas, se muda, nos mudamos, os mudáis, se mudan", "example": { "text": "Nos mudaremos a Barcelona en otoño.", "de": "Im Herbst ziehen wir nach Barcelona.", "focus": "nos mudaremos" } },
+    { "id": "juntos", "word": "juntos", "alt": ["juntas"], "de": "zusammen", "pos": "adj", "example": { "text": "El año que viene viviremos juntos.", "de": "Nächstes Jahr werden wir zusammen wohnen." } },
+    { "id": "ahorrar", "word": "ahorrar", "de": "sparen", "pos": "verb", "example": { "text": "Estoy ahorrando para un viaje.", "de": "Ich spare für eine Reise.", "focus": "ahorrando" } },
+    { "id": "proyecto", "word": "proyecto", "article": "el", "gender": "m", "plural": "los proyectos", "de": "das Projekt; das Vorhaben", "pos": "noun", "example": { "text": "Tengo un proyecto nuevo: aprender a tocar el piano.", "de": "Ich habe ein neues Vorhaben: Klavier spielen lernen." } },
+    { "id": "objetivo", "word": "objetivo", "article": "el", "gender": "m", "plural": "los objetivos", "de": "das Ziel", "pos": "noun", "example": { "text": "Mi objetivo es hablar español muy bien.", "de": "Mein Ziel ist es, sehr gut Spanisch zu sprechen." } },
+    { "id": "curso", "word": "curso", "article": "el", "gender": "m", "plural": "los cursos", "de": "der Kurs; das Schuljahr", "pos": "noun", "example": { "text": "Haré un curso de cocina.", "de": "Ich werde einen Kochkurs machen." } },
+    { "id": "estudios", "word": "estudios", "article": "los", "gender": "m", "de": "das Studium; die Ausbildung", "pos": "noun", "example": { "text": "Después de los estudios, buscaré trabajo.", "de": "Nach dem Studium werde ich mir eine Arbeit suchen." } },
+    { "id": "examen", "word": "examen", "article": "el", "gender": "m", "plural": "los exámenes", "de": "die Prüfung", "pos": "noun", "example": { "text": "Mañana tengo un examen de español.", "de": "Morgen habe ich eine Spanischprüfung." }, "note": "Mehrzahl mit Akzent: los exámenes." },
+    { "id": "aprobar", "word": "aprobar", "de": "bestehen (Prüfung)", "pos": "verb", "forms": "apruebo, apruebas, aprueba, aprobamos, aprobáis, aprueban", "example": { "text": "Si estudias, aprobarás el examen.", "de": "Wenn du lernst, bestehst du die Prüfung.", "focus": "aprobarás" }, "note": "o → ue. Das Gegenteil: suspender (durchfallen)." },
+    { "id": "suspender", "word": "suspender", "de": "durchfallen (Prüfung); nicht bestehen", "pos": "verb", "example": { "text": "Si no estudias, suspenderás el examen.", "de": "Wenn du nicht lernst, fällst du durch die Prüfung.", "focus": "suspenderás" } },
+    { "id": "nota", "word": "nota", "article": "la", "gender": "f", "plural": "las notas", "de": "die (Schul-)Note; die Notiz", "pos": "noun", "example": { "text": "Si estudio mucho, sacaré buenas notas.", "de": "Wenn ich viel lerne, bekomme ich gute Noten.", "focus": "notas" } },
+    { "id": "carne-de-conducir", "word": "carné de conducir", "article": "el", "gender": "m", "plural": "los carnés de conducir", "de": "der Führerschein", "pos": "noun", "example": { "text": "Este verano me sacaré el carné de conducir.", "de": "Diesen Sommer mache ich den Führerschein." } },
+    { "id": "sacar", "word": "sacar", "de": "herausholen; (Geld) abheben; (Führerschein, Note) bekommen", "pos": "verb", "example": { "text": "Voy a sacar dinero del cajero.", "de": "Ich hebe am Automaten Geld ab." }, "note": "sacarse el carné = den Führerschein machen; sacar una buena nota = eine gute Note bekommen." },
+    { "id": "conseguir", "word": "conseguir", "de": "erreichen; schaffen; bekommen", "pos": "verb", "forms": "consigo, consigues, consigue, conseguimos, conseguís, consiguen", "example": { "text": "¡Seguro que lo conseguirás!", "de": "Du schaffst das bestimmt!", "focus": "conseguirás" }, "note": "e → i wie pedir." },
+    { "id": "intentar", "word": "intentar", "de": "versuchen", "pos": "verb", "example": { "text": "Intentaré llegar a las ocho.", "de": "Ich versuche, um acht da zu sein.", "focus": "intentaré" } },
+    { "id": "decidir", "word": "decidir", "de": "entscheiden; beschließen", "pos": "verb", "example": { "text": "Todavía no he decidido qué voy a estudiar.", "de": "Ich habe noch nicht entschieden, was ich studieren werde.", "focus": "decidido" } },
+    { "id": "prometer", "word": "prometer", "de": "versprechen", "pos": "verb", "example": { "text": "Te prometo que te escribiré.", "de": "Ich verspreche dir, dass ich dir schreibe.", "focus": "prometo" } },
+    { "id": "jubilarse", "word": "jubilarse", "de": "in Rente gehen", "pos": "verb", "example": { "text": "Mi padre se jubilará dentro de tres años.", "de": "Mein Vater geht in drei Jahren in Rente.", "focus": "se jubilará" } },
+    { "id": "propio", "word": "propio", "alt": ["propia"], "de": "eigen", "pos": "adj", "example": { "text": "Algún día tendré mi propia casa.", "de": "Eines Tages werde ich mein eigenes Haus haben.", "focus": "propia" } },
+    { "id": "dar-la-vuelta-al-mundo", "word": "dar la vuelta al mundo", "de": "eine Weltreise machen", "pos": "phrase", "example": { "text": "Nuestro sueño es dar la vuelta al mundo.", "de": "Unser Traum ist eine Weltreise." } },
+    { "id": "sueno", "word": "sueño", "article": "el", "gender": "m", "plural": "los sueños", "de": "der Traum", "pos": "noun", "example": { "text": "Mi sueño es vivir cerca del mar.", "de": "Mein Traum ist es, in der Nähe vom Meer zu leben." }, "note": "Auch: der Schlaf. Tener sueño = müde sein." },
+    { "id": "deseo", "word": "deseo", "article": "el", "gender": "m", "plural": "los deseos", "de": "der Wunsch", "pos": "noun", "example": { "text": "Tengo un deseo: aprender a bailar flamenco.", "de": "Ich habe einen Wunsch: Flamenco tanzen lernen." } },
+    { "id": "idea", "word": "idea", "article": "la", "gender": "f", "plural": "las ideas", "de": "die Idee", "pos": "noun", "example": { "text": "¡Qué buena idea!", "de": "Was für eine gute Idee!" } },
+    { "id": "mundo", "word": "mundo", "article": "el", "gender": "m", "plural": "los mundos", "de": "die Welt", "pos": "noun", "example": { "text": "Hay muchos países bonitos en el mundo.", "de": "Es gibt viele schöne Länder auf der Welt." }, "note": "Achtung: todo el mundo heißt meistens „alle Leute“." }
+  ],
+  "grammar": [
+    {
+      "id": "futuro-simple",
+      "title": "Das Futur: viajaré, comeré, viviré",
+      "blocks": [
+        { "type": "p", "text": "Mit dem futuro simple sprichst du über die Zukunft: Pläne, Vorhersagen und Versprechen. Es ist leicht zu bilden: Du nimmst den ganzen Infinitiv und hängst die Endungen an. Sie sind für alle drei Verbgruppen gleich." },
+        { "type": "table", "head": ["Person", "Endung", "viajar", "comer", "vivir"], "rows": [["yo", "-é", "viajaré", "comeré", "viviré"], ["tú", "-ás", "viajarás", "comerás", "vivirás"], ["él / ella / usted", "-á", "viajará", "comerá", "vivirá"], ["nosotros / nosotras", "-emos", "viajaremos", "comeremos", "viviremos"], ["vosotros / vosotras", "-éis", "viajaréis", "comeréis", "viviréis"], ["ellos / ellas / ustedes", "-án", "viajarán", "comerán", "vivirán"]] },
+        { "type": "tip", "text": "Alle Formen außer der wir-Form haben einen Akzent auf der Endung: viajaré, viajarás … aber viajaremos." },
+        { "type": "p", "text": "Einige wichtige Verben haben einen unregelmäßigen Stamm. Die Endungen bleiben gleich:" },
+        { "type": "table", "head": ["Infinitiv", "Stamm", "yo", "Deutsch"], "rows": [["tener", "tendr-", "tendré", "ich werde haben"], ["hacer", "har-", "haré", "ich werde machen"], ["poder", "podr-", "podré", "ich werde können"], ["salir", "saldr-", "saldré", "ich werde ausgehen / abfahren"], ["venir", "vendr-", "vendré", "ich werde kommen"], ["decir", "dir-", "diré", "ich werde sagen"]] },
+        { "type": "tip", "text": "Hay wird im Futur zu habrá: En la fiesta habrá mucha gente. = Auf dem Fest werden viele Leute sein." },
+        { "type": "p", "text": "Futur oder ir a + Infinitiv (A1)? Für feste Pläne in der nahen Zukunft sagt man meist ir a: Esta noche voy a cenar con Marta. Das Futur klingt weiter weg oder weniger sicher und passt gut für Vorhersagen und Versprechen: Algún día viviré en Barcelona. Te llamaré mañana." },
+        { "type": "tip", "text": "Im Deutschen sagt man oft einfach das Präsens: „Ich rufe dich morgen an.“ Im Spanischen ist das Futur hier ganz normal." },
+        { "type": "examples", "items": [{ "text": "El año que viene viajaré a Argentina.", "de": "Nächstes Jahr reise ich nach Argentinien." }, { "text": "¿Qué harás después del curso?", "de": "Was machst du nach dem Kurs?" }, { "text": "Mañana no podré venir.", "de": "Morgen kann ich nicht kommen." }, { "text": "Mis padres vendrán en Navidad.", "de": "Meine Eltern kommen an Weihnachten." }, { "text": "Saldremos de casa a las siete.", "de": "Wir fahren um sieben von zu Hause los." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "El año que viene ___ en Barcelona.", "answers": ["viviré"], "de": "Nächstes Jahr werde ich in Barcelona wohnen.", "hint": "vivir – yo" },
+        { "type": "cloze", "text": "¿Qué ___ este verano?", "answers": ["harás"], "de": "Was wirst du diesen Sommer machen?", "hint": "hacer – tú" },
+        { "type": "cloze", "text": "Mañana no ___ venir, lo siento.", "answers": ["podré"], "de": "Morgen werde ich nicht kommen können, tut mir leid.", "hint": "poder – yo" },
+        { "type": "cloze", "text": "Mis primos ___ en agosto.", "answers": ["vendrán"], "de": "Meine Cousins werden im August kommen.", "hint": "venir – ellos" },
+        { "type": "cloze", "text": "Nosotros ___ a las siete.", "answers": ["saldremos"], "de": "Wir werden um sieben losfahren.", "hint": "salir – nosotros" },
+        { "type": "cloze", "text": "Algún día ___ una casa en el campo.", "answers": ["tendré"], "de": "Eines Tages werde ich ein Haus auf dem Land haben.", "hint": "tener – yo" },
+        { "type": "cloze", "text": "¿Qué les ___ a tus padres?", "answers": ["dirás"], "de": "Was wirst du deinen Eltern sagen?", "hint": "decir – tú" },
+        { "type": "translate", "de": "Ich werde dich morgen anrufen.", "answers": ["Te llamaré mañana.", "Mañana te llamaré.", "Yo te llamaré mañana.", "Mañana yo te llamaré.", "Mañana te voy a llamar.", "Te voy a llamar mañana.", "Mañana voy a llamarte.", "Voy a llamarte mañana."] },
+        { "type": "order", "de": "Was werdet ihr am Wochenende machen?", "answer": "¿Qué haréis el fin de semana?", "distractors": ["harán"] }
+      ]
+    },
+    {
+      "id": "si-futuro",
+      "title": "Wenn …, dann …: si + Präsens, Futur",
+      "blocks": [
+        { "type": "p", "text": "Für Bedingungen, die gut möglich sind, nimmst du si + Präsens im Wenn-Teil und das Futur (oder ir a + Infinitiv) im Dann-Teil: Si tengo tiempo, te llamaré. = Wenn ich Zeit habe, rufe ich dich an." },
+        { "type": "table", "head": ["si + Präsens", "Futur", "Deutsch"], "rows": [["Si llueve,", "nos quedaremos en casa.", "Wenn es regnet, bleiben wir zu Hause."], ["Si apruebo el examen,", "haré una fiesta.", "Wenn ich die Prüfung bestehe, mache ich eine Party."], ["Si ahorras,", "podrás viajar.", "Wenn du sparst, kannst du reisen."], ["Si vienes a Madrid,", "te enseñaré la ciudad.", "Wenn du nach Madrid kommst, zeige ich dir die Stadt."]] },
+        { "type": "tip", "text": "Nach si steht nie das Futur! Falsch: Si tendré tiempo … Richtig: Si tengo tiempo …" },
+        { "type": "tip", "text": "Der si-Teil darf auch hinten stehen – dann meist ohne Komma: Te llamaré si tengo tiempo." },
+        { "type": "tip", "text": "Si ohne Akzent heißt „wenn, falls“. Sí mit Akzent heißt „ja“." },
+        { "type": "examples", "items": [{ "text": "Si hace buen tiempo, iremos a la playa.", "de": "Wenn das Wetter schön ist, fahren wir an den Strand." }, { "text": "Si no estudias, no aprobarás.", "de": "Wenn du nicht lernst, bestehst du nicht." }, { "text": "¿Qué harás si pierdes el tren?", "de": "Was machst du, wenn du den Zug verpasst?" }, { "text": "Si tenemos dinero, nos mudaremos a un piso más grande.", "de": "Wenn wir Geld haben, ziehen wir in eine größere Wohnung." }, { "text": "Te escribiré si llego tarde.", "de": "Ich schreibe dir, wenn ich zu spät komme." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Si ___ tiempo, iré al cine.", "answers": ["tengo"], "de": "Wenn ich Zeit habe, gehe ich ins Kino.", "hint": "tener – Präsens" },
+        { "type": "cloze", "text": "Si llueve, nos ___ en casa.", "answers": ["quedaremos"], "de": "Wenn es regnet, bleiben wir zu Hause.", "hint": "quedarse – Futur" },
+        { "type": "cloze", "text": "Si ___ el examen, haré una fiesta.", "answers": ["apruebo"], "de": "Wenn ich die Prüfung bestehe, mache ich eine Party.", "hint": "aprobar – Präsens" },
+        { "type": "cloze", "text": "Si ahorras, ___ comprarte un coche.", "answers": ["podrás"], "de": "Wenn du sparst, wirst du dir ein Auto kaufen können.", "hint": "poder – Futur" },
+        { "type": "cloze", "text": "___ vienes a Viena, te enseñaré la ciudad.", "answers": ["Si"], "de": "Wenn du nach Wien kommst, zeige ich dir die Stadt." },
+        { "type": "cloze", "text": "Si no salimos ahora, ___ el tren.", "answers": ["perderemos"], "de": "Wenn wir jetzt nicht losgehen, verpassen wir den Zug.", "hint": "perder – Futur" },
+        { "type": "translate", "de": "Wenn ich Geld habe, reise ich nach Japan.", "answers": ["Si tengo dinero, viajaré a Japón.", "Viajaré a Japón si tengo dinero.", "Si tengo dinero, iré a Japón.", "Iré a Japón si tengo dinero.", "Si tengo dinero, voy a viajar a Japón.", "Voy a viajar a Japón si tengo dinero.", "Si tengo dinero, viajo a Japón."] },
+        { "type": "order", "de": "Was machst du, wenn du den Zug verpasst?", "answer": "¿Qué harás si pierdes el tren?", "distractors": ["perderás"] }
+      ]
+    },
+    {
+      "id": "planes-deseos",
+      "title": "Pläne und Wünsche: pensar, me gustaría, dentro de …",
+      "blocks": [
+        { "type": "p", "text": "Was du vorhast, sagst du mit pensar + Infinitiv: Pienso estudiar medicina. = Ich habe vor, Medizin zu studieren. Pensar ist ein Stiefelverb: e → ie (pienso, piensas … aber pensamos, pensáis)." },
+        { "type": "p", "text": "Wünsche drückst du mit me gustaría + Infinitiv aus – wie „ich würde gern“. Es funktioniert wie gustar: me gustaría, te gustaría, le gustaría, nos gustaría, os gustaría, les gustaría." },
+        { "type": "table", "head": ["Ausdruck", "Spanisch", "Deutsch"], "rows": [["pensar + Infinitiv", "Pienso mudarme a Valencia.", "Ich habe vor, nach Valencia zu ziehen."], ["me gustaría + Infinitiv", "Me gustaría aprender a cocinar.", "Ich würde gern kochen lernen."], ["querer + Infinitiv", "Quiero sacarme el carné.", "Ich will den Führerschein machen."], ["ir a + Infinitiv", "Voy a ahorrar más.", "Ich werde mehr sparen."]] },
+        { "type": "p", "text": "Zeitangaben für die Zukunft:" },
+        { "type": "list", "items": ["mañana, pasado mañana = morgen, übermorgen", "la semana que viene = nächste Woche", "el mes que viene, el año que viene = nächsten Monat, nächstes Jahr", "dentro de dos semanas = in zwei Wochen", "pronto = bald; algún día = eines Tages"] },
+        { "type": "tip", "text": "„In zwei Wochen“ heißt dentro de dos semanas. En dos semanas bedeutet eher „innerhalb von zwei Wochen“." },
+        { "type": "examples", "items": [{ "text": "¿Qué piensas hacer el año que viene?", "de": "Was hast du nächstes Jahr vor?" }, { "text": "Me gustaría vivir en el extranjero.", "de": "Ich würde gern im Ausland leben." }, { "text": "A Marta le gustaría tocar la guitarra en un concierto.", "de": "Marta würde gern bei einem Konzert Gitarre spielen." }, { "text": "Dentro de un mes empezaré un curso de inglés.", "de": "In einem Monat fange ich einen Englischkurs an." }, { "text": "Pensamos casarnos pronto.", "de": "Wir haben vor, bald zu heiraten." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿Qué ___ hacer este verano?", "answers": ["piensas"], "de": "Was hast du diesen Sommer vor?", "hint": "pensar – tú" },
+        { "type": "cloze", "text": "Nosotros ___ ir a la costa en agosto.", "answers": ["pensamos"], "de": "Wir haben vor, im August an die Küste zu fahren.", "hint": "pensar – nosotros" },
+        { "type": "cloze", "text": "Me ___ vivir cerca del mar.", "answers": ["gustaría"], "de": "Ich würde gern in der Nähe vom Meer wohnen." },
+        { "type": "cloze", "text": "¿___ gustaría venir conmigo?", "answers": ["Te"], "de": "Würdest du gern mit mir kommen?" },
+        { "type": "cloze", "text": "Te llamo ___ de diez minutos.", "answers": ["dentro"], "de": "Ich rufe dich in zehn Minuten an." },
+        { "type": "cloze", "text": "El año que ___ terminaré mis estudios.", "answers": ["viene"], "de": "Nächstes Jahr werde ich mein Studium abschließen." },
+        { "type": "translate", "de": "Ich würde gern Japanisch lernen.", "answers": ["Me gustaría aprender japonés.", "A mí me gustaría aprender japonés."] },
+        { "type": "order", "de": "Was hast du nächstes Jahr vor?", "answer": "¿Qué piensas hacer el año que viene?", "distractors": ["pienso"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Planes para el verano",
+    "title_de": "Pläne für den Sommer",
+    "lines": [
+      { "speaker": "Diego", "text": "Marta, tu curso de español termina pronto, ¿no? ¿Qué piensas hacer después?", "de": "Marta, dein Spanischkurs ist bald zu Ende, oder? Was hast du danach vor?" },
+      { "speaker": "Marta", "text": "Primero volveré a Zúrich. Mis padres me esperan en julio.", "de": "Zuerst fahre ich zurück nach Zürich. Meine Eltern erwarten mich im Juli." },
+      { "speaker": "Diego", "text": "¿Y vendrás otra vez a Madrid?", "de": "Und kommst du wieder nach Madrid?" },
+      { "speaker": "Marta", "text": "Sí, en septiembre. Si consigo un trabajo aquí, me quedaré un año más.", "de": "Ja, im September. Wenn ich hier eine Stelle bekomme, bleibe ich noch ein Jahr." },
+      { "speaker": "Diego", "text": "¡Qué bien! Seguro que lo conseguirás.", "de": "Super! Das schaffst du bestimmt." },
+      { "speaker": "Marta", "text": "¿Y tú? ¿Tienes planes para el verano?", "de": "Und du? Hast du Pläne für den Sommer?" },
+      { "speaker": "Diego", "text": "Este verano me sacaré por fin el carné de conducir. Y en otoño me mudaré a un piso nuevo con mi novia.", "de": "Diesen Sommer mache ich endlich den Führerschein. Und im Herbst ziehe ich mit meiner Freundin in eine neue Wohnung." },
+      { "speaker": "Marta", "text": "¿Vais a vivir juntos? ¡Qué bien!", "de": "Ihr zieht zusammen? Wie schön!" },
+      { "speaker": "Diego", "text": "Sí, ya lo hemos decidido. Estamos ahorrando porque el piso es un poco caro.", "de": "Ja, wir haben es schon beschlossen. Wir sparen, weil die Wohnung ein bisschen teuer ist." },
+      { "speaker": "Marta", "text": "¿Y os casaréis?", "de": "Und werdet ihr heiraten?" },
+      { "speaker": "Diego", "text": "¡A lo mejor! Algún día… Pero primero nos gustaría viajar. Nuestro sueño es dar la vuelta al mundo.", "de": "Vielleicht! Irgendwann … Aber zuerst würden wir gern reisen. Unser Traum ist eine Weltreise." },
+      { "speaker": "Marta", "text": "Si hacéis ese viaje, ¿me escribiréis desde todos los países?", "de": "Wenn ihr diese Reise macht, schreibt ihr mir dann aus allen Ländern?" },
+      { "speaker": "Diego", "text": "¡Te lo prometo!", "de": "Versprochen!" },
+      { "speaker": "Marta", "text": "Y si un día venís a Zúrich, os enseñaré la ciudad.", "de": "Und wenn ihr eines Tages nach Zürich kommt, zeige ich euch die Stadt." },
+      { "speaker": "Diego", "text": "¡Vale! ¿Y vendrás a nuestro piso nuevo antes de volver a Suiza?", "de": "Abgemacht! Und kommst du vor deiner Rückkehr in die Schweiz noch in unsere neue Wohnung?" },
+      { "speaker": "Marta", "text": "¡Claro! Y llevaré una tarta.", "de": "Klar! Und ich bringe einen Kuchen mit." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["el futuro", "die Zukunft"], ["el sueño", "der Traum"], ["el deseo", "der Wunsch"], ["el carné de conducir", "der Führerschein"], ["el examen", "die Prüfung"]] },
+    { "type": "match", "pairs": [["mudarse", "umziehen"], ["ahorrar", "sparen"], ["suspender", "durchfallen"], ["jubilarse", "in Rente gehen"], ["prometer", "versprechen"]] },
+    { "type": "translate", "de": "Nächstes Jahr werde ich in Spanien arbeiten.", "answers": ["El año que viene trabajaré en España.", "Trabajaré en España el año que viene.", "El año que viene yo trabajaré en España.", "Yo trabajaré en España el año que viene.", "El próximo año trabajaré en España.", "El año que viene voy a trabajar en España.", "Voy a trabajar en España el año que viene."] },
+    { "type": "translate", "de": "Ich habe vor, nach Valencia zu ziehen.", "answers": ["Pienso mudarme a Valencia.", "Yo pienso mudarme a Valencia.", "Pienso irme a vivir a Valencia."] },
+    { "type": "translate", "de": "Wenn es regnet, bleibe ich zu Hause.", "answers": ["Si llueve, me quedaré en casa.", "Me quedaré en casa si llueve.", "Si llueve, me quedo en casa.", "Me quedo en casa si llueve.", "Si llueve, voy a quedarme en casa.", "Si llueve, me voy a quedar en casa."] },
+    { "type": "translate", "de": "Ich verspreche dir, dass ich dir schreibe.", "answers": ["Te prometo que te escribiré.", "Te prometo que te voy a escribir.", "Te prometo que voy a escribirte.", "Te prometo que te escribo."] },
+    { "type": "order", "de": "Eines Tages werde ich eine Weltreise machen.", "answer": "Algún día daré la vuelta al mundo.", "distractors": ["haré"] },
+    { "type": "order", "de": "Würdest du gern in Madrid wohnen?", "answer": "¿Te gustaría vivir en Madrid?", "distractors": ["me"] },
+    { "type": "cloze", "text": "Tengo que ___ dinero para el viaje.", "answers": ["ahorrar"], "de": "Ich muss für die Reise Geld sparen." },
+    { "type": "cloze", "text": "Mi abuelo se ___ el año que viene.", "answers": ["jubilará"], "de": "Mein Großvater geht nächstes Jahr in Rente.", "hint": "jubilarse – Futur" },
+    { "type": "cloze", "text": "¡Hasta ___!", "answers": ["pronto"], "de": "Bis bald!" },
+    { "type": "listen", "text": "Dentro de dos semanas haré el examen de español.", "de": "In zwei Wochen mache ich die Spanischprüfung." },
+    { "type": "listen", "text": "Si consigo trabajo, me quedaré en Madrid.", "de": "Wenn ich Arbeit finde, bleibe ich in Madrid." },
+    { "type": "listen", "text": "Algún día me gustaría vivir cerca del mar.", "de": "Eines Tages würde ich gern in der Nähe vom Meer wohnen." }
+  ]
+}

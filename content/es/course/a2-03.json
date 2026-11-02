@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-03",
+  "lang": "es",
+  "level": "A2",
+  "number": 3,
+  "title": "En el médico",
+  "title_de": "Gesundheit",
+  "topic": "Körper, Beschwerden und beim Arzt",
+  "goals": [
+    "Du kannst Körperteile benennen und sagen, was dir wehtut: me duele la cabeza, me duelen los pies.",
+    "Du kannst beschreiben, wie es dir geht: tengo fiebre, estoy enfermo, me siento mal.",
+    "Du kannst Ratschläge geben – mit deber, tener que und dem Imperativ (toma, bebe, descansa).",
+    "Du kannst beim Arzt deine Beschwerden erklären und verstehen, was du tun sollst."
+  ],
+  "vocab": [
+    { "id": "cuerpo", "word": "cuerpo", "article": "el", "gender": "m", "plural": "los cuerpos", "de": "der Körper", "pos": "noun", "example": { "text": "Me duele todo el cuerpo.", "de": "Mir tut alles weh." } },
+    { "id": "cabeza", "word": "cabeza", "article": "la", "gender": "f", "plural": "las cabezas", "de": "der Kopf", "pos": "noun", "example": { "text": "Me duele la cabeza.", "de": "Ich habe Kopfschmerzen." } },
+    { "id": "ojo", "word": "ojo", "article": "el", "gender": "m", "plural": "los ojos", "de": "das Auge", "pos": "noun", "example": { "text": "Me duelen los ojos.", "de": "Mir tun die Augen weh.", "focus": "ojos" }, "note": "¡Ojo! heißt auch „Achtung! Pass auf!“" },
+    { "id": "oido", "word": "oído", "article": "el", "gender": "m", "plural": "los oídos", "de": "das Ohr (innen); das Gehör", "pos": "noun", "example": { "text": "Me duele el oído.", "de": "Ich habe Ohrenschmerzen." }, "note": "Das äußere Ohr heißt la oreja. Bei Ohrenschmerzen sagt man el oído." },
+    { "id": "nariz", "word": "nariz", "article": "la", "gender": "f", "plural": "las narices", "de": "die Nase", "pos": "noun", "example": { "text": "Con el resfriado tengo la nariz roja.", "de": "Wegen der Erkältung habe ich eine rote Nase." } },
+    { "id": "boca", "word": "boca", "article": "la", "gender": "f", "plural": "las bocas", "de": "der Mund", "pos": "noun", "example": { "text": "Abre la boca, por favor.", "de": "Mach bitte den Mund auf." } },
+    { "id": "diente", "word": "diente", "article": "el", "gender": "m", "plural": "los dientes", "de": "der Zahn", "pos": "noun", "example": { "text": "Me duelen los dientes.", "de": "Mir tun die Zähne weh.", "focus": "dientes" }, "note": "Der Zahnarzt = el dentista, die Zahnärztin = la dentista." },
+    { "id": "garganta", "word": "garganta", "article": "la", "gender": "f", "plural": "las gargantas", "de": "der Hals (innen); die Kehle", "pos": "noun", "example": { "text": "Me duele la garganta.", "de": "Ich habe Halsschmerzen." }, "note": "Den Hals von außen nennt man el cuello." },
+    { "id": "cuello", "word": "cuello", "article": "el", "gender": "m", "plural": "los cuellos", "de": "der Hals; der Nacken", "pos": "noun", "example": { "text": "Tengo dolor de cuello.", "de": "Ich habe Nackenschmerzen." } },
+    { "id": "espalda", "word": "espalda", "article": "la", "gender": "f", "plural": "las espaldas", "de": "der Rücken", "pos": "noun", "example": { "text": "Trabajo todo el día con el ordenador y me duele la espalda.", "de": "Ich arbeite den ganzen Tag am Computer, und mir tut der Rücken weh." } },
+    { "id": "brazo", "word": "brazo", "article": "el", "gender": "m", "plural": "los brazos", "de": "der Arm", "pos": "noun", "example": { "text": "Me duele el brazo.", "de": "Mir tut der Arm weh." } },
+    { "id": "mano", "word": "mano", "article": "la", "gender": "f", "plural": "las manos", "de": "die Hand", "pos": "noun", "example": { "text": "Lávate las manos.", "de": "Wasch dir die Hände.", "focus": "manos" }, "note": "Achtung: la mano ist weiblich, obwohl es auf -o endet." },
+    { "id": "dedo", "word": "dedo", "article": "el", "gender": "m", "plural": "los dedos", "de": "der Finger; der Zeh", "pos": "noun", "example": { "text": "Me duele un dedo de la mano.", "de": "Mir tut ein Finger weh." } },
+    { "id": "pierna", "word": "pierna", "article": "la", "gender": "f", "plural": "las piernas", "de": "das Bein", "pos": "noun", "example": { "text": "Después del partido me duelen las piernas.", "de": "Nach dem Spiel tun mir die Beine weh.", "focus": "piernas" } },
+    { "id": "rodilla", "word": "rodilla", "article": "la", "gender": "f", "plural": "las rodillas", "de": "das Knie", "pos": "noun", "example": { "text": "Corro mucho y ahora me duele la rodilla.", "de": "Ich laufe viel, und jetzt tut mir das Knie weh." } },
+    { "id": "pie", "word": "pie", "article": "el", "gender": "m", "plural": "los pies", "de": "der Fuß", "pos": "noun", "example": { "text": "Me duelen los pies.", "de": "Mir tun die Füße weh.", "focus": "pies" }, "note": "A pie (zu Fuß) kennst du schon." },
+    { "id": "estomago", "word": "estómago", "article": "el", "gender": "m", "plural": "los estómagos", "de": "der Magen; der Bauch", "pos": "noun", "example": { "text": "Me duele el estómago.", "de": "Ich habe Bauchschmerzen." }, "note": "Umgangssprachlich auch: la barriga, la tripa." },
+    { "id": "doler", "word": "doler", "de": "wehtun; schmerzen", "pos": "verb", "forms": "me duele, me duelen, te duele, le duele … (o → ue)", "example": { "text": "¿Te duele mucho?", "de": "Tut es dir sehr weh?", "focus": "duele" }, "note": "Funktioniert wie gustar. Mehr dazu in der Grammatik." },
+    { "id": "dolor", "word": "dolor", "article": "el", "gender": "m", "plural": "los dolores", "de": "der Schmerz", "pos": "noun", "example": { "text": "Tengo dolor de cabeza.", "de": "Ich habe Kopfschmerzen." }, "note": "dolor de + Körperteil ohne Artikel: dolor de espalda = Rückenschmerzen." },
+    { "id": "fiebre", "word": "fiebre", "article": "la", "gender": "f", "de": "das Fieber", "pos": "noun", "example": { "text": "¿Tienes fiebre?", "de": "Hast du Fieber?" } },
+    { "id": "tos", "word": "tos", "article": "la", "gender": "f", "de": "der Husten", "pos": "noun", "example": { "text": "Tengo tos desde el lunes.", "de": "Ich habe seit Montag Husten." } },
+    { "id": "gripe", "word": "gripe", "article": "la", "gender": "f", "de": "die Grippe", "pos": "noun", "example": { "text": "Diego tiene gripe y no puede trabajar.", "de": "Diego hat Grippe und kann nicht arbeiten." } },
+    { "id": "resfriado", "word": "resfriado", "article": "el", "gender": "m", "plural": "los resfriados", "de": "die Erkältung", "pos": "noun", "example": { "text": "Tengo un resfriado.", "de": "Ich habe eine Erkältung." }, "note": "Auch als Adjektiv: Estoy resfriado / resfriada. = Ich bin erkältet." },
+    { "id": "enfermo", "word": "enfermo", "alt": [ "enferma" ], "de": "krank", "pos": "adj", "example": { "text": "Hoy no voy a trabajar, estoy enfermo.", "de": "Heute gehe ich nicht zur Arbeit, ich bin krank." }, "note": "Krank sein ist ein Zustand: estar enfermo. Als Nomen: el enfermo, la enferma = der/die Kranke." },
+    { "id": "sano", "word": "sano", "alt": [ "sana" ], "de": "gesund", "pos": "adj", "example": { "text": "La fruta es muy sana.", "de": "Obst ist sehr gesund.", "focus": "sana" } },
+    { "id": "salud", "word": "salud", "article": "la", "gender": "f", "de": "die Gesundheit", "pos": "noun", "example": { "text": "Hacer deporte es bueno para la salud.", "de": "Sport ist gut für die Gesundheit." }, "note": "¡Salud! sagt man beim Anstoßen (Prost!) und wenn jemand niest (Gesundheit!)." },
+    { "id": "centro-de-salud", "word": "centro de salud", "article": "el", "gender": "m", "plural": "los centros de salud", "de": "das Gesundheitszentrum; die Hausarztpraxis", "pos": "noun", "example": { "text": "Mañana voy al centro de salud.", "de": "Morgen gehe ich zum Hausarzt." }, "note": "In Spanien arbeiten die Hausärzte meist in einem centro de salud." },
+    { "id": "cita", "word": "cita", "article": "la", "gender": "f", "plural": "las citas", "de": "der Termin", "pos": "noun", "example": { "text": "Tengo cita con el médico a las diez.", "de": "Ich habe um zehn einen Termin beim Arzt." }, "note": "Einen Termin vereinbaren = pedir cita. Una cita kann auch ein Date sein." },
+    { "id": "receta", "word": "receta", "article": "la", "gender": "f", "plural": "las recetas", "de": "das Rezept", "pos": "noun", "example": { "text": "Con esta receta puedes comprar las pastillas en la farmacia.", "de": "Mit diesem Rezept kannst du die Tabletten in der Apotheke kaufen." }, "note": "Auch das Kochrezept heißt receta." },
+    { "id": "pastilla", "word": "pastilla", "article": "la", "gender": "f", "plural": "las pastillas", "de": "die Tablette", "pos": "noun", "example": { "text": "Toma una pastilla después de comer.", "de": "Nimm nach dem Essen eine Tablette." } },
+    { "id": "deber", "word": "deber", "de": "sollen; müssen", "pos": "verb", "forms": "debo, debes, debe, debemos, debéis, deben", "example": { "text": "Debes beber mucha agua.", "de": "Du solltest viel Wasser trinken.", "focus": "debes" }, "note": "Regelmäßig wie comer. No debes … = du sollst nicht …" },
+    { "id": "sentirse", "word": "sentirse", "de": "sich fühlen", "pos": "verb", "forms": "me siento, te sientes, se siente, nos sentimos, os sentís, se sienten", "example": { "text": "Hoy me siento mal.", "de": "Heute fühle ich mich schlecht.", "focus": "siento" }, "note": "e → ie wie bei preferir." },
+    { "id": "cuidarse", "word": "cuidarse", "de": "auf sich aufpassen; sich schonen", "pos": "verb", "example": { "text": "¡Cuídate mucho!", "de": "Pass gut auf dich auf!", "focus": "cuídate" }, "note": "Typischer Abschied, wenn jemand krank ist: ¡Cuídate!" },
+    { "id": "que-te-mejores", "word": "¡que te mejores!", "de": "gute Besserung!", "pos": "phrase", "example": { "text": "Adiós, Jonas, ¡que te mejores!", "de": "Tschüss, Jonas, gute Besserung!" }, "note": "Zu jemandem, den du siezt: ¡Que se mejore!" },
+    { "id": "que-te-pasa", "word": "¿qué te pasa?", "de": "was hast du?; was ist los?", "pos": "phrase", "example": { "text": "¿Qué te pasa? ¿Estás enfermo?", "de": "Was hast du? Bist du krank?" }, "note": "Gesiezt: ¿Qué le pasa?" },
+    { "id": "fatal", "word": "fatal", "de": "sehr schlecht; furchtbar", "pos": "adv", "example": { "text": "Hoy me siento fatal.", "de": "Heute fühle ich mich furchtbar." }, "note": "Auch als Adjektiv: Es una película fatal. = Der Film ist furchtbar." },
+    { "id": "grave", "word": "grave", "de": "schlimm; ernst", "pos": "adj", "example": { "text": "No es grave, es un resfriado.", "de": "Das ist nicht schlimm, es ist eine Erkältung." } }
+  ],
+  "grammar": [
+    {
+      "id": "doler", "title": "Was tut weh? me duele, me duelen",
+      "blocks": [
+        { "type": "p", "text": "Doler (wehtun) funktioniert wie gustar: Der Körperteil ist das Subjekt, die Person steht davor als me, te, le … Tut ein Körperteil weh, heißt es duele, tun mehrere weh, heißt es duelen." },
+        { "type": "table", "head": [ "Person", "ein Körperteil", "mehrere Körperteile" ], "rows": [ [ "(a mí)", "me duele la cabeza", "me duelen los pies" ], [ "(a ti)", "te duele la cabeza", "te duelen los pies" ], [ "(a él / ella / usted)", "le duele la cabeza", "le duelen los pies" ], [ "(a nosotros / nosotras)", "nos duele la cabeza", "nos duelen los pies" ], [ "(a vosotros / vosotras)", "os duele la cabeza", "os duelen los pies" ], [ "(a ellos / ellas / ustedes)", "les duele la cabeza", "les duelen los pies" ] ] },
+        { "type": "tip", "text": "Bei Körperteilen steht im Spanischen der bestimmte Artikel, nicht mein oder dein: Me duele la cabeza. (Nicht: mi cabeza.) Wem es wehtut, zeigt schon das me." },
+        { "type": "p", "text": "Genauso oft sagt man tener dolor de + Körperteil – hier ohne Artikel:" },
+        { "type": "table", "head": [ "Deutsch", "mit doler", "mit tener dolor de" ], "rows": [ [ "Kopfschmerzen", "Me duele la cabeza.", "Tengo dolor de cabeza." ], [ "Bauchschmerzen", "Me duele el estómago.", "Tengo dolor de estómago." ], [ "Rückenschmerzen", "Me duele la espalda.", "Tengo dolor de espalda." ], [ "Halsschmerzen", "Me duele la garganta.", "Tengo dolor de garganta." ], [ "Zahnschmerzen", "Me duelen los dientes.", "Tengo dolor de muelas." ] ] },
+        { "type": "tip", "text": "Bei Zahnschmerzen sagt man meistens dolor de muelas (la muela = der Backenzahn). Mit Namen kommt a dazu: A Diego le duele la rodilla." },
+        { "type": "examples", "items": [ { "text": "¿Qué te duele? – Me duele el oído.", "de": "Was tut dir weh? – Ich habe Ohrenschmerzen." }, { "text": "A Diego le duelen las piernas después del partido.", "de": "Diego tun nach dem Spiel die Beine weh." }, { "text": "¿Os duele la cabeza?", "de": "Habt ihr Kopfschmerzen?" }, { "text": "A mis abuelos les duele la espalda.", "de": "Meinen Großeltern tut der Rücken weh." }, { "text": "No me duele nada.", "de": "Mir tut nichts weh." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Me ___ la cabeza.", "answers": [ "duele" ], "de": "Ich habe Kopfschmerzen.", "hint": "doler" },
+        { "type": "cloze", "text": "Me ___ los pies.", "answers": [ "duelen" ], "de": "Mir tun die Füße weh.", "hint": "doler" },
+        { "type": "cloze", "text": "¿Te ___ la garganta?", "answers": [ "duele" ], "de": "Tut dir der Hals weh?", "hint": "doler" },
+        { "type": "cloze", "text": "A Diego ___ duele la espalda.", "answers": [ "le" ], "de": "Diego tut der Rücken weh." },
+        { "type": "cloze", "text": "A mis abuelos ___ duelen las rodillas.", "answers": [ "les" ], "de": "Meinen Großeltern tun die Knie weh." },
+        { "type": "cloze", "text": "Tengo dolor ___ estómago.", "answers": [ "de" ], "de": "Ich habe Bauchschmerzen." },
+        { "type": "cloze", "text": "¿Qué te ___? – El brazo.", "answers": [ "duele" ], "de": "Was tut dir weh? – Der Arm.", "hint": "doler" },
+        { "type": "translate", "de": "Mir tut der Bauch weh.", "answers": [ "Me duele el estómago.", "A mí me duele el estómago.", "Me duele la barriga.", "Me duele la tripa.", "Tengo dolor de estómago." ] },
+        { "type": "translate", "de": "Tun dir die Augen weh?", "answers": [ "¿Te duelen los ojos?", "¿A ti te duelen los ojos?" ] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": [ "Me duele mi cabeza.", "Me duele la cabeza.", "Me duelo la cabeza." ], "answer": 1, "explain": "Bei Körperteilen steht der Artikel (la cabeza), nicht mi. Die Person steckt schon in me." }
+      ]
+    },
+    {
+      "id": "sintomas", "title": "Wie geht es dir? tener fiebre, estar enfermo, sentirse mal",
+      "blocks": [
+        { "type": "p", "text": "Für Beschwerden und Krankheiten nimmst du oft tener – meist ohne Artikel:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "tener fiebre", "Fieber haben" ], [ "tener tos", "Husten haben" ], [ "tener gripe", "Grippe haben" ], [ "tener un resfriado", "eine Erkältung haben" ], [ "tener dolor de cabeza", "Kopfschmerzen haben" ] ] },
+        { "type": "p", "text": "Wie du dich fühlst, ist ein Zustand – deshalb steht estar (wie bei cansado): estoy enfermo, estoy cansada, estoy resfriado. Oder du benutzt sentirse (sich fühlen): me siento bien / mal / fatal." },
+        { "type": "table", "head": [ "Person", "estar + Adjektiv", "sentirse" ], "rows": [ [ "yo", "estoy enfermo / enferma", "me siento mal" ], [ "tú", "estás cansado / cansada", "te sientes bien" ], [ "él / ella / usted", "está resfriado / resfriada", "se siente fatal" ], [ "nosotros / nosotras", "estamos enfermos / enfermas", "nos sentimos bien" ], [ "vosotros / vosotras", "estáis cansados / cansadas", "os sentís mal" ], [ "ellos / ellas / ustedes", "están sanos / sanas", "se sienten bien" ] ] },
+        { "type": "tip", "text": "Das Adjektiv passt sich an die Person an: Jonas está enfermo. Lucía está enferma. Mis padres están enfermos." },
+        { "type": "tip", "text": "So fragst du: ¿Qué te pasa? (Was hast du?) – ¿Cómo te sientes? (Wie fühlst du dich?) – ¿Estás bien? (Geht es dir gut?)" },
+        { "type": "examples", "items": [ { "text": "¿Qué te pasa? – Tengo fiebre y me duele la cabeza.", "de": "Was hast du? – Ich habe Fieber und Kopfschmerzen." }, { "text": "Lucía está resfriada y tiene tos.", "de": "Lucía ist erkältet und hat Husten." }, { "text": "Hoy me siento fatal.", "de": "Heute fühle ich mich furchtbar." }, { "text": "No es grave: Diego tiene un resfriado.", "de": "Es ist nicht schlimm: Diego hat eine Erkältung." }, { "text": "Mi padre está enfermo y no puede trabajar.", "de": "Mein Vater ist krank und kann nicht arbeiten." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Tengo ___ y me duele la garganta.", "answers": [ "tos" ], "de": "Ich habe Husten und mir tut der Hals weh." },
+        { "type": "cloze", "text": "Lucía ___ enferma.", "answers": [ "está" ], "de": "Lucía ist krank.", "hint": "estar" },
+        { "type": "cloze", "text": "Mis padres están ___.", "answers": [ "resfriados" ], "de": "Meine Eltern sind erkältet.", "hint": "resfriado" },
+        { "type": "cloze", "text": "Hoy me ___ fatal.", "answers": [ "siento" ], "de": "Heute fühle ich mich furchtbar.", "hint": "sentirse" },
+        { "type": "cloze", "text": "¿Cómo te ___? – Bien, gracias.", "answers": [ "sientes" ], "de": "Wie fühlst du dich? – Gut, danke.", "hint": "sentirse – tú" },
+        { "type": "cloze", "text": "Jonas tiene ___ y está en la cama.", "answers": [ "fiebre" ], "de": "Jonas hat Fieber und liegt im Bett." },
+        { "type": "cloze", "text": "Marta y Lucía están ___.", "answers": [ "enfermas" ], "de": "Marta und Lucía sind krank.", "hint": "enfermo" },
+        { "type": "translate", "de": "Ich bin krank.", "answers": [ "Estoy enfermo.", "Estoy enferma.", "Yo estoy enfermo.", "Yo estoy enferma." ] },
+        { "type": "translate", "de": "Was hast du? – Ich habe Grippe.", "answers": [ "¿Qué te pasa? – Tengo gripe.", "¿Qué te pasa? – Tengo la gripe.", "¿Qué tienes? – Tengo gripe.", "¿Qué tienes? – Tengo la gripe." ] }
+      ]
+    },
+    {
+      "id": "consejos", "title": "Ratschläge: deber, tener que und der Imperativ",
+      "blocks": [
+        { "type": "p", "text": "Ratschläge gibst du mit deber + Infinitiv (sollen) oder tener que + Infinitiv (müssen). Deber ist ein regelmäßiges Verb auf -er." },
+        { "type": "table", "head": [ "Person", "deber", "Beispiel" ], "rows": [ [ "yo", "debo", "Debo descansar." ], [ "tú", "debes", "Debes beber agua." ], [ "él / ella / usted", "debe", "Debe ir al médico." ], [ "nosotros / nosotras", "debemos", "Debemos dormir más." ], [ "vosotros / vosotras", "debéis", "Debéis comer fruta." ], [ "ellos / ellas / ustedes", "deben", "Deben tomar las pastillas." ] ] },
+        { "type": "tip", "text": "No debes … heißt „du sollst nicht …“: No debes trabajar con fiebre. Achtung: No tienes que … heißt „du musst nicht …“: No tienes que ir al médico." },
+        { "type": "p", "text": "Noch direkter ist der Imperativ. Die tú-Form kennst du schon aus den Wegbeschreibungen (gira, sigue, cruza): Sie sieht aus wie die er/sie-Form im Präsens." },
+        { "type": "table", "head": [ "Infinitiv", "Imperativ (tú)", "Ratschlag" ], "rows": [ [ "tomar", "toma", "Toma una pastilla." ], [ "beber", "bebe", "Bebe mucha agua." ], [ "descansar", "descansa", "Descansa un poco." ], [ "dormir", "duerme", "Duerme mucho." ], [ "comer", "come", "Come fruta." ], [ "abrir", "abre", "Abre la boca." ] ] },
+        { "type": "p", "text": "Einige wichtige Verben haben eine kurze, unregelmäßige Form:" },
+        { "type": "table", "head": [ "Infinitiv", "Imperativ (tú)", "Beispiel" ], "rows": [ [ "ir", "ve", "Ve al médico." ], [ "hacer", "haz", "Haz deporte." ], [ "tener", "ten", "¡Ten cuidado!" ], [ "decir", "di", "Di la verdad." ], [ "venir", "ven", "Ven aquí." ] ] },
+        { "type": "tip", "text": "Bei reflexiven Verben hängt das Pronomen hinten am Imperativ, und es kommt ein Akzent dazu: cuidarse → cuídate, quedarse → quédate, acostarse → acuéstate." },
+        { "type": "examples", "items": [ { "text": "Tienes fiebre: quédate en la cama y descansa.", "de": "Du hast Fieber: Bleib im Bett und ruh dich aus." }, { "text": "Debes ir al médico.", "de": "Du solltest zum Arzt gehen." }, { "text": "Bebe mucha agua y toma estas pastillas.", "de": "Trink viel Wasser und nimm diese Tabletten." }, { "text": "No debes trabajar con fiebre.", "de": "Du sollst nicht mit Fieber arbeiten." }, { "text": "Haz deporte, es bueno para la salud.", "de": "Mach Sport, das ist gut für die Gesundheit." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "___ mucha agua.", "answers": [ "Bebe" ], "de": "Trink viel Wasser.", "hint": "beber – Imperativ" },
+        { "type": "cloze", "text": "___ un poco, estás muy cansado.", "answers": [ "Descansa" ], "de": "Ruh dich ein bisschen aus, du bist sehr müde.", "hint": "descansar – Imperativ" },
+        { "type": "cloze", "text": "___ una pastilla después de comer.", "answers": [ "Toma" ], "de": "Nimm nach dem Essen eine Tablette.", "hint": "tomar – Imperativ" },
+        { "type": "cloze", "text": "Tienes fiebre: ___ en casa.", "answers": [ "quédate" ], "de": "Du hast Fieber: Bleib zu Hause.", "hint": "quedarse – Imperativ" },
+        { "type": "cloze", "text": "___ al médico.", "answers": [ "Ve" ], "de": "Geh zum Arzt.", "hint": "ir – Imperativ" },
+        { "type": "cloze", "text": "No ___ trabajar hoy.", "answers": [ "debes" ], "de": "Du solltest heute nicht arbeiten.", "hint": "deber – tú" },
+        { "type": "cloze", "text": "___ deporte, es bueno para la salud.", "answers": [ "Haz" ], "de": "Mach Sport, das ist gut für die Gesundheit.", "hint": "hacer – Imperativ" },
+        { "type": "translate", "de": "Du solltest mehr schlafen.", "answers": [ "Debes dormir más.", "Tienes que dormir más.", "Tú debes dormir más.", "Deberías dormir más." ] },
+        { "type": "translate", "de": "Bleib im Bett und ruh dich aus.", "answers": [ "Quédate en la cama y descansa." ] },
+        { "type": "order", "de": "Du musst zum Arzt gehen.", "answer": "Tienes que ir al médico.", "distractors": [ "hay" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "En el centro de salud",
+    "title_de": "In der Arztpraxis",
+    "lines": [
+      { "speaker": "Médica", "text": "Buenos días, Jonas. ¿Qué te pasa?", "de": "Guten Morgen, Jonas. Was fehlt dir?" },
+      { "speaker": "Jonas", "text": "Buenos días, doctora. Me siento fatal. Me duele mucho la cabeza y tengo tos.", "de": "Guten Morgen, Frau Doktor. Ich fühle mich furchtbar. Ich habe starke Kopfschmerzen und Husten." },
+      { "speaker": "Médica", "text": "¿Tienes fiebre?", "de": "Hast du Fieber?" },
+      { "speaker": "Jonas", "text": "Sí, esta mañana he tenido treinta y ocho y medio.", "de": "Ja, heute Morgen hatte ich 38,5." },
+      { "speaker": "Médica", "text": "A ver, abre la boca… Sí, tienes la garganta muy roja. ¿Te duele?", "de": "Mal sehen, mach den Mund auf … Ja, dein Hals ist sehr rot. Tut er weh?" },
+      { "speaker": "Jonas", "text": "Sí, mucho. Y también me duele todo el cuerpo.", "de": "Ja, sehr. Und mir tut auch alles weh." },
+      { "speaker": "Médica", "text": "Tienes gripe. No es grave, pero tienes que descansar.", "de": "Du hast Grippe. Das ist nicht schlimm, aber du musst dich ausruhen." },
+      { "speaker": "Jonas", "text": "¿Puedo trabajar? Tengo muchas reuniones esta semana.", "de": "Kann ich arbeiten? Ich habe diese Woche viele Besprechungen." },
+      { "speaker": "Médica", "text": "No, debes quedarte en casa tres o cuatro días. Duerme mucho y bebe mucha agua.", "de": "Nein, du solltest drei oder vier Tage zu Hause bleiben. Schlaf viel und trink viel Wasser." },
+      { "speaker": "Jonas", "text": "Vale. ¿Y tengo que tomar pastillas?", "de": "Okay. Und muss ich Tabletten nehmen?" },
+      { "speaker": "Médica", "text": "Sí, toma estas pastillas tres veces al día, después de comer. Aquí tienes la receta.", "de": "Ja, nimm diese Tabletten dreimal am Tag nach dem Essen. Hier hast du das Rezept." },
+      { "speaker": "Jonas", "text": "Muchas gracias, doctora.", "de": "Vielen Dank, Frau Doktor." },
+      { "speaker": "Médica", "text": "De nada. Cuídate mucho y ¡que te mejores!", "de": "Gern geschehen. Pass gut auf dich auf und gute Besserung!" },
+      { "speaker": "Lucía", "text": "Jonas, ¿qué tal? ¿Qué ha dicho la médica?", "de": "Jonas, wie geht’s? Was hat die Ärztin gesagt?" },
+      { "speaker": "Jonas", "text": "Tengo gripe. Tengo que quedarme en la cama unos días.", "de": "Ich habe Grippe. Ich muss ein paar Tage im Bett bleiben." },
+      { "speaker": "Lucía", "text": "¡Ay, pobre! Pues descansa mucho y bebe agua.", "de": "Ach, du Armer! Dann ruh dich gut aus und trink Wasser." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "cabeza", "Kopf" ], [ "ojo", "Auge" ], [ "boca", "Mund" ], [ "mano", "Hand" ], [ "pierna", "Bein" ], [ "pie", "Fuß" ], [ "espalda", "Rücken" ] ] },
+    { "type": "match", "pairs": [ [ "fiebre", "Fieber" ], [ "tos", "Husten" ], [ "gripe", "Grippe" ], [ "resfriado", "Erkältung" ], [ "receta", "Rezept" ], [ "pastilla", "Tablette" ] ] },
+    { "type": "translate", "de": "Mir tut der Rücken weh.", "answers": [ "Me duele la espalda.", "A mí me duele la espalda.", "Tengo dolor de espalda." ] },
+    { "type": "translate", "de": "Ich habe Fieber und Husten.", "answers": [ "Tengo fiebre y tos.", "Yo tengo fiebre y tos.", "Tengo tos y fiebre." ] },
+    { "type": "translate", "de": "Du solltest zum Arzt gehen.", "answers": [ "Debes ir al médico.", "Tienes que ir al médico.", "Deberías ir al médico.", "Debes ir a la médica.", "Tú debes ir al médico." ] },
+    { "type": "translate", "de": "Gute Besserung!", "answers": [ "¡Que te mejores!", "¡Que se mejore!", "¡Que te mejores pronto!" ] },
+    { "type": "order", "de": "Heute fühle ich mich sehr schlecht.", "answer": "Hoy me siento muy mal.", "distractors": [ "siente" ] },
+    { "type": "order", "de": "Ich habe um zehn einen Termin beim Arzt.", "answer": "Tengo cita con el médico a las diez." },
+    { "type": "cloze", "text": "A Jonas le ___ los ojos.", "answers": [ "duelen" ], "de": "Jonas tun die Augen weh.", "hint": "doler" },
+    { "type": "cloze", "text": "___ mucho, Jonas. ¡Que te mejores!", "answers": [ "Cuídate" ], "de": "Pass gut auf dich auf, Jonas. Gute Besserung!", "hint": "cuidarse – Imperativ" },
+    { "type": "cloze", "text": "No es ___, solo es un resfriado.", "answers": [ "grave" ], "de": "Es ist nicht schlimm, es ist nur eine Erkältung." },
+    { "type": "listen", "text": "Me duele la garganta y tengo un poco de fiebre.", "de": "Mir tut der Hals weh und ich habe ein bisschen Fieber." },
+    { "type": "listen", "text": "Debes beber mucha agua y descansar.", "de": "Du solltest viel Wasser trinken und dich ausruhen." },
+    { "type": "listen", "text": "¿Qué te pasa? ¿Estás enfermo?", "de": "Was hast du? Bist du krank?" }
+  ]
+}

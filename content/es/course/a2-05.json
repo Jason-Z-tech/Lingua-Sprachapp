@@ -1,0 +1,167 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-05",
+  "lang": "es",
+  "level": "A2",
+  "number": 5,
+  "title": "¿Te apetece venir?",
+  "title_de": "Feste und Einladungen",
+  "topic": "Einladen, zusagen und absagen",
+  "goals": [
+    "Du kannst jemanden einladen oder etwas vorschlagen: ¿Quieres venir a …? ¿Te apetece …?",
+    "Du kannst eine Einladung annehmen oder höflich absagen und einen Grund nennen: Lo siento, no puedo. Es que …",
+    "Du kannst mit lo, la, los, las (und me, te, nos, os) Wörter ersetzen, die du nicht wiederholen willst.",
+    "Du kannst zu Festen gratulieren und kennst wichtige Feste in Spanien."
+  ],
+  "vocab": [
+    { "id": "fiesta", "word": "fiesta", "article": "la", "gender": "f", "plural": "las fiestas", "de": "das Fest; die Party", "pos": "noun", "example": { "text": "El sábado hago una fiesta en mi casa.", "de": "Am Samstag mache ich bei mir eine Party." }, "note": "Las fiestas heißen auch die Feiertage oder die Stadtfeste." },
+    { "id": "cumpleanos", "word": "cumpleaños", "article": "el", "gender": "m", "plural": "los cumpleaños", "de": "der Geburtstag", "pos": "noun", "example": { "text": "Mi cumpleaños es el catorce de junio.", "de": "Mein Geburtstag ist am vierzehnten Juni." }, "note": "Gleich in Einzahl und Mehrzahl." },
+    { "id": "boda", "word": "boda", "article": "la", "gender": "f", "plural": "las bodas", "de": "die Hochzeit", "pos": "noun", "example": { "text": "La boda de mi prima es en septiembre.", "de": "Die Hochzeit meiner Cousine ist im September." }, "note": "Bei der Hochzeit heißen Braut und Bräutigam los novios." },
+    { "id": "navidad", "word": "Navidad", "article": "la", "gender": "f", "plural": "las Navidades", "de": "Weihnachten", "pos": "noun", "example": { "text": "En Navidad vuelvo a Viena.", "de": "An Weihnachten fahre ich zurück nach Wien." }, "note": "Großgeschrieben. Die Weihnachtszeit heißt auch las Navidades." },
+    { "id": "nochebuena", "word": "Nochebuena", "article": "la", "gender": "f", "de": "der Heiligabend", "pos": "noun", "example": { "text": "En Nochebuena cenamos con toda la familia.", "de": "An Heiligabend essen wir mit der ganzen Familie zu Abend." }, "note": "Die Geschenke bringen in Spanien oft erst die Heiligen Drei Könige am 6. Januar (los Reyes)." },
+    { "id": "nochevieja", "word": "Nochevieja", "article": "la", "gender": "f", "de": "Silvester", "pos": "noun", "example": { "text": "¿Qué haces en Nochevieja?", "de": "Was machst du an Silvester?" }, "note": "Um Mitternacht isst man in Spanien zwölf Weintrauben (las uvas) – eine bei jedem Glockenschlag." },
+    { "id": "regalo", "word": "regalo", "article": "el", "gender": "m", "plural": "los regalos", "de": "das Geschenk", "pos": "noun", "example": { "text": "¿Has comprado el regalo para Lucía?", "de": "Hast du das Geschenk für Lucía gekauft?" } },
+    { "id": "tarta", "word": "tarta", "article": "la", "gender": "f", "plural": "las tartas", "de": "die Torte; der Kuchen", "pos": "noun", "example": { "text": "La tarta de cumpleaños es de chocolate.", "de": "Die Geburtstagstorte ist aus Schokolade." } },
+    { "id": "sorpresa", "word": "sorpresa", "article": "la", "gender": "f", "plural": "las sorpresas", "de": "die Überraschung", "pos": "noun", "example": { "text": "¡Qué sorpresa!", "de": "Was für eine Überraschung!" }, "note": "Una fiesta sorpresa = eine Überraschungsparty." },
+    { "id": "invitacion", "word": "invitación", "article": "la", "gender": "f", "plural": "las invitaciones", "de": "die Einladung", "pos": "noun", "example": { "text": "Gracias por la invitación.", "de": "Danke für die Einladung." } },
+    { "id": "invitado", "word": "invitado", "article": "el", "gender": "m", "plural": "los invitados", "de": "der Gast", "pos": "noun", "example": { "text": "Hay veinte invitados en la fiesta.", "de": "Auf der Party sind zwanzig Gäste.", "focus": "invitados" }, "note": "Der weibliche Gast = la invitada. Auch Partizip: Estás invitado. = Du bist eingeladen." },
+    { "id": "gente", "word": "gente", "article": "la", "gender": "f", "de": "die Leute", "pos": "noun", "example": { "text": "En la fiesta hay mucha gente.", "de": "Auf der Party sind viele Leute." }, "note": "Gente ist Einzahl: La gente baila. = Die Leute tanzen." },
+    { "id": "pareja", "word": "pareja", "article": "la", "gender": "f", "plural": "las parejas", "de": "der Partner, die Partnerin; das Paar", "pos": "noun", "example": { "text": "¿Vienes con tu pareja?", "de": "Kommst du mit deinem Partner / deiner Partnerin?" }, "note": "Immer weiblich, auch wenn ein Mann gemeint ist." },
+    { "id": "invitar", "word": "invitar", "de": "einladen", "pos": "verb", "example": { "text": "Te invito a mi fiesta.", "de": "Ich lade dich zu meiner Party ein.", "focus": "invito" }, "note": "invitar a alguien a algo. Te invito heißt auch: Ich lade dich ein (ich bezahle)." },
+    { "id": "celebrar", "word": "celebrar", "de": "feiern", "pos": "verb", "example": { "text": "¿Dónde vas a celebrar tu cumpleaños?", "de": "Wo feierst du deinen Geburtstag?" } },
+    { "id": "felicitar", "word": "felicitar", "de": "gratulieren", "pos": "verb", "example": { "text": "Felicito a Lucía por su cumpleaños.", "de": "Ich gratuliere Lucía zum Geburtstag.", "focus": "felicito" }, "note": "felicitar a alguien por algo." },
+    { "id": "cumplir", "word": "cumplir", "de": "(ein Alter) werden; erfüllen", "pos": "verb", "example": { "text": "Mañana cumplo treinta años.", "de": "Morgen werde ich dreißig.", "focus": "cumplo" }, "note": "¿Cuántos años cumples? = Wie alt wirst du?" },
+    { "id": "venir", "word": "venir", "de": "kommen", "pos": "verb", "forms": "vengo, vienes, viene, venimos, venís, vienen", "example": { "text": "¿Quieres venir a mi fiesta?", "de": "Willst du zu meiner Party kommen?" }, "note": "La semana que viene (nächste Woche) kennst du schon." },
+    { "id": "apetecer", "word": "apetecer", "de": "Lust haben (auf)", "pos": "verb", "forms": "me apetece, te apetece, le apetece …", "example": { "text": "¿Te apetece ir al cine?", "de": "Hast du Lust, ins Kino zu gehen?", "focus": "apetece" }, "note": "Funktioniert wie gustar: Die Sache ist das Subjekt. Sehr typisch für Spanien." },
+    { "id": "casarse", "word": "casarse", "de": "heiraten", "pos": "verb", "example": { "text": "Mi hermano se casa en mayo.", "de": "Mein Bruder heiratet im Mai.", "focus": "se casa" }, "note": "casarse con alguien = jemanden heiraten. Nicht verwechseln mit la casa!" },
+    { "id": "organizar", "word": "organizar", "de": "organisieren; planen", "pos": "verb", "example": { "text": "Estoy organizando una fiesta sorpresa.", "de": "Ich organisiere gerade eine Überraschungsparty.", "focus": "organizando" } },
+    { "id": "brindar", "word": "brindar", "de": "anstoßen", "pos": "verb", "example": { "text": "¡Vamos a brindar por Lucía!", "de": "Lasst uns auf Lucía anstoßen!" }, "note": "brindar por alguien = auf jemanden anstoßen. Dabei sagt man: ¡Salud!" },
+    { "id": "recibir", "word": "recibir", "de": "bekommen; erhalten", "pos": "verb", "example": { "text": "He recibido muchos regalos.", "de": "Ich habe viele Geschenke bekommen.", "focus": "recibido" } },
+    { "id": "lo-siento", "word": "lo siento", "de": "es tut mir leid", "pos": "phrase", "example": { "text": "Lo siento, no puedo ir.", "de": "Es tut mir leid, ich kann nicht hingehen." } },
+    { "id": "es-que", "word": "es que", "de": "weißt du, …; nämlich", "pos": "phrase", "example": { "text": "No puedo ir. Es que tengo que trabajar.", "de": "Ich kann nicht kommen. Ich muss nämlich arbeiten." }, "note": "Mit es que leitest du eine Erklärung oder Entschuldigung ein – sehr typisch beim Absagen." },
+    { "id": "que-pena", "word": "¡qué pena!", "de": "wie schade!", "pos": "phrase", "example": { "text": "¿No puedes venir? ¡Qué pena!", "de": "Du kannst nicht kommen? Wie schade!" } },
+    { "id": "otro-dia", "word": "otro día", "de": "ein andermal; an einem anderen Tag", "pos": "phrase", "example": { "text": "Hoy no puedo, pero otro día sí.", "de": "Heute kann ich nicht, aber ein andermal gern." } },
+    { "id": "la-proxima-vez", "word": "la próxima vez", "de": "das nächste Mal", "pos": "phrase", "example": { "text": "¡La próxima vez voy contigo!", "de": "Das nächste Mal gehe ich mit dir!" } },
+    { "id": "por-supuesto", "word": "por supuesto", "de": "selbstverständlich; natürlich", "pos": "phrase", "example": { "text": "¿Puedo venir con mi pareja? – ¡Por supuesto!", "de": "Darf ich mit meinem Partner kommen? – Selbstverständlich!" } },
+    { "id": "de-acuerdo", "word": "de acuerdo", "de": "einverstanden; in Ordnung", "pos": "phrase", "example": { "text": "¿Quedamos a las nueve? – De acuerdo.", "de": "Treffen wir uns um neun? – In Ordnung." } },
+    { "id": "me-encantaria", "word": "me encantaría", "de": "das würde ich sehr gern; liebend gern", "pos": "phrase", "example": { "text": "¿Quieres venir? – ¡Me encantaría!", "de": "Willst du kommen? – Sehr gern!" }, "note": "Begeisterte, höfliche Zusage. Encantar kennst du schon: me encanta." },
+    { "id": "felicidades", "word": "¡felicidades!", "de": "herzlichen Glückwunsch!; alles Gute!", "pos": "interj", "example": { "text": "¡Felicidades, Lucía!", "de": "Alles Gute, Lucía!" }, "note": "Passt zum Geburtstag, zur Hochzeit, zu Weihnachten …" },
+    { "id": "feliz", "word": "feliz", "de": "glücklich; froh", "pos": "adj", "example": { "text": "¡Feliz cumpleaños!", "de": "Alles Gute zum Geburtstag!" }, "note": "¡Feliz Navidad! = Frohe Weihnachten! ¡Feliz Año Nuevo! = Frohes neues Jahr! Mehrzahl: felices." },
+    { "id": "conmigo", "word": "conmigo", "de": "mit mir", "pos": "pron", "example": { "text": "¿Quieres venir conmigo al cine?", "de": "Willst du mit mir ins Kino gehen?" }, "note": "Nicht con mí, sondern conmigo." },
+    { "id": "contigo", "word": "contigo", "de": "mit dir", "pos": "pron", "example": { "text": "Sí, voy contigo.", "de": "Ja, ich gehe mit dir." }, "note": "Nicht con ti, sondern contigo. Aber: con él, con ella, con usted …" }
+  ],
+  "grammar": [
+    {
+      "id": "invitar", "title": "Einladen, zusagen, absagen",
+      "blocks": [
+        { "type": "p", "text": "So lädst du jemanden ein oder schlägst etwas vor:" },
+        { "type": "table", "head": [ "Spanisch", "Deutsch" ], "rows": [ [ "¿Quieres venir a mi fiesta?", "Willst du zu meiner Party kommen?" ], [ "¿Te apetece ir al cine?", "Hast du Lust, ins Kino zu gehen?" ], [ "¿Vienes conmigo?", "Kommst du mit (mir)?" ], [ "¿Por qué no vamos a la playa?", "Warum fahren wir nicht an den Strand?" ], [ "Te invito a mi cumpleaños.", "Ich lade dich zu meinem Geburtstag ein." ] ] },
+        { "type": "tip", "text": "Apetecer funktioniert wie gustar: ¿Te apetece un café? ¿Te apetecen unas tapas? ¿Os apetece bailar? Das hört man in Spanien ständig." },
+        { "type": "p", "text": "Venir (kommen) ist unregelmäßig:" },
+        { "type": "table", "head": [ "Person", "venir" ], "rows": [ [ "yo", "vengo" ], [ "tú", "vienes" ], [ "él / ella / usted", "viene" ], [ "nosotros / nosotras", "venimos" ], [ "vosotros / vosotras", "venís" ], [ "ellos / ellas / ustedes", "vienen" ] ] },
+        { "type": "p", "text": "So sagst du zu oder ab:" },
+        { "type": "table", "head": [ "zusagen", "absagen" ], "rows": [ [ "¡Claro! / ¡Por supuesto!", "Lo siento, no puedo." ], [ "¡Vale! / De acuerdo.", "¡Qué pena! Es que tengo que trabajar." ], [ "¡Me encantaría!", "Hoy no puedo, pero otro día sí." ], [ "¡Qué buena idea!", "Esta vez no, pero la próxima vez sí." ] ] },
+        { "type": "tip", "text": "Beim Absagen nennt man in Spanien fast immer einen Grund – oft mit es que: Lo siento, es que el sábado tengo una boda. Ein einfaches „Nein“ klingt unhöflich." },
+        { "type": "examples", "items": [ { "text": "¿Te apetece venir a la fiesta de Lucía? – ¡Claro!", "de": "Hast du Lust, zu Lucías Party zu kommen? – Klar!" }, { "text": "¿Quieres cenar conmigo el viernes? – Lo siento, no puedo. Es que tengo que trabajar.", "de": "Willst du am Freitag mit mir zu Abend essen? – Tut mir leid, ich kann nicht. Ich muss nämlich arbeiten." }, { "text": "Mis padres vienen a la boda.", "de": "Meine Eltern kommen zur Hochzeit." }, { "text": "¿Venís a mi cumpleaños? – ¡Por supuesto!", "de": "Kommt ihr zu meinem Geburtstag? – Selbstverständlich!" }, { "text": "Hoy no me apetece salir.", "de": "Heute habe ich keine Lust auszugehen." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿Te ___ ir al cine esta noche?", "answers": [ "apetece" ], "de": "Hast du Lust, heute Abend ins Kino zu gehen?", "hint": "apetecer" },
+        { "type": "cloze", "text": "¿Quieres ___ a mi fiesta?", "answers": [ "venir" ], "de": "Willst du zu meiner Party kommen?" },
+        { "type": "cloze", "text": "Yo ___ a las nueve.", "answers": [ "vengo" ], "de": "Ich komme um neun.", "hint": "venir – yo" },
+        { "type": "cloze", "text": "¿___ vosotros a la boda?", "answers": [ "Venís" ], "de": "Kommt ihr zur Hochzeit?", "hint": "venir" },
+        { "type": "cloze", "text": "Lo ___, no puedo. Tengo que trabajar.", "answers": [ "siento" ], "de": "Es tut mir leid, ich kann nicht. Ich muss arbeiten." },
+        { "type": "cloze", "text": "No puedo ir. ___ que tengo gripe.", "answers": [ "Es" ], "de": "Ich kann nicht kommen. Ich habe nämlich Grippe." },
+        { "type": "cloze", "text": "¿Vienes ___ al concierto?", "answers": [ "conmigo" ], "de": "Kommst du mit mir zum Konzert?" },
+        { "type": "translate", "de": "Hast du Lust, einen Kaffee zu trinken?", "answers": [ "¿Te apetece tomar un café?", "¿Te apetece un café?", "¿Te apetece beber un café?", "¿Quieres tomar un café?" ] },
+        { "type": "translate", "de": "Wie schade! Ein andermal.", "answers": [ "¡Qué pena! Otro día.", "¡Qué pena! Otro día será.", "¡Qué lástima! Otro día." ] }
+      ]
+    },
+    {
+      "id": "pronombres-objeto-directo", "title": "Direkte Objektpronomen: lo, la, los, las",
+      "blocks": [
+        { "type": "p", "text": "Damit du ein Wort nicht wiederholen musst, ersetzt du es durch ein Pronomen – wie im Deutschen „ihn, sie, es“. Das Pronomen richtet sich nach dem Geschlecht und der Zahl des Wortes, das es ersetzt." },
+        { "type": "table", "head": [ "ersetzt", "Pronomen", "Beispiel" ], "rows": [ [ "el regalo (männlich, Einzahl)", "lo", "¿El regalo? Lo compro yo." ], [ "la tarta (weiblich, Einzahl)", "la", "¿La tarta? La hace Pablo." ], [ "los libros (männlich, Mehrzahl)", "los", "¿Los libros? Los tengo aquí." ], [ "las invitaciones (weiblich, Mehrzahl)", "las", "¿Las invitaciones? Las escribo hoy." ] ] },
+        { "type": "p", "text": "Das Pronomen steht vor dem konjugierten Verb – im Perfekt also vor haber, bei der Verneinung nach no:" },
+        { "type": "examples", "items": [ { "text": "¿Has comprado la tarta? – Sí, la he comprado.", "de": "Hast du die Torte gekauft? – Ja, ich habe sie gekauft." }, { "text": "¿Tienes las fotos? – No, no las tengo.", "de": "Hast du die Fotos? – Nein, ich habe sie nicht." }, { "text": "¿Conoces a Diego? – Sí, lo conozco.", "de": "Kennst du Diego? – Ja, ich kenne ihn." }, { "text": "¿Dónde está el vino? – Lo tiene Jonas.", "de": "Wo ist der Wein? – Jonas hat ihn." } ] },
+        { "type": "tip", "text": "Mit Infinitiv oder Gerundium darf das Pronomen auch hinten anhängen: La voy a comprar. = Voy a comprarla. Lo estoy preparando. = Estoy preparándolo." },
+        { "type": "tip", "text": "Steht das Wort am Satzanfang, wiederholt man es mit dem Pronomen: La tarta la hace Pablo. = Die Torte macht Pablo." },
+        { "type": "p", "text": "Für Personen gibt es außerdem me (mich), te (dich), nos (uns) und os (euch):" },
+        { "type": "table", "head": [ "Deutsch", "Pronomen", "Beispiel" ], "rows": [ [ "mich", "me", "Lucía me invita." ], [ "dich", "te", "Te invito a mi fiesta." ], [ "ihn / Sie (Mann)", "lo", "A Jonas lo conozco bien." ], [ "sie / Sie (Frau)", "la", "A Marta la invito también." ], [ "uns", "nos", "Lucía nos invita." ], [ "euch", "os", "Os invito a cenar." ], [ "sie (Mehrzahl)", "los / las", "Los invito a todos." ] ] },
+        { "type": "tip", "text": "In Spanien hört man bei Männern oft le statt lo: A Diego le conozco. Das ist bei Personen auch richtig." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿El regalo? ___ he comprado esta mañana.", "answers": [ "Lo" ], "de": "Das Geschenk? Das habe ich heute Morgen gekauft." },
+        { "type": "cloze", "text": "¿La tarta? ___ hace mi hermano.", "answers": [ "La" ], "de": "Die Torte? Die macht mein Bruder." },
+        { "type": "cloze", "text": "¿Tienes las invitaciones? – Sí, ___ tengo aquí.", "answers": [ "las" ], "de": "Hast du die Einladungen? – Ja, ich habe sie hier." },
+        { "type": "cloze", "text": "¿Has visto a Diego? – No, no ___ he visto.", "answers": [ "lo", "le" ], "de": "Hast du Diego gesehen? – Nein, ich habe ihn nicht gesehen." },
+        { "type": "cloze", "text": "¿Dónde están mis libros? – ___ tienes en la mesa.", "answers": [ "Los" ], "de": "Wo sind meine Bücher? – Du hast sie auf dem Tisch." },
+        { "type": "cloze", "text": "Lucía ___ invita a su fiesta: a ti y a mí.", "answers": [ "nos" ], "de": "Lucía lädt uns zu ihrer Party ein: dich und mich." },
+        { "type": "cloze", "text": "¡___ invito a mi cumpleaños, Jonas!", "answers": [ "Te" ], "de": "Ich lade dich zu meinem Geburtstag ein, Jonas!" },
+        { "type": "translate", "de": "Das Geschenk? Ich kaufe es morgen.", "answers": [ "¿El regalo? Lo compro mañana.", "¿El regalo? Mañana lo compro.", "¿El regalo? Lo voy a comprar mañana.", "¿El regalo? Voy a comprarlo mañana.", "¿El regalo? Mañana lo voy a comprar.", "¿El regalo? Mañana voy a comprarlo." ] },
+        { "type": "translate", "de": "Kennst du Marta? – Ja, ich kenne sie.", "answers": [ "¿Conoces a Marta? – Sí, la conozco.", "¿Conoces a Marta? – Sí, yo la conozco.", "¿Tú conoces a Marta? – Sí, la conozco." ] },
+        { "type": "order", "de": "Ich habe sie schon gekauft.", "answer": "Ya la he comprado.", "distractors": [ "lo" ] }
+      ]
+    },
+    {
+      "id": "fiestas-felicitar", "title": "Feste feiern und gratulieren",
+      "blocks": [
+        { "type": "p", "text": "Zum Gratulieren sagst du ¡Felicidades! – das passt fast immer. Oder du sagst feliz + Fest:" },
+        { "type": "table", "head": [ "Anlass", "Glückwunsch", "Deutsch" ], "rows": [ [ "el cumpleaños", "¡Feliz cumpleaños! / ¡Felicidades!", "Alles Gute zum Geburtstag!" ], [ "la boda", "¡Felicidades! / ¡Enhorabuena!", "Herzlichen Glückwunsch!" ], [ "la Navidad", "¡Feliz Navidad!", "Frohe Weihnachten!" ], [ "la Nochevieja", "¡Feliz Año Nuevo!", "Frohes neues Jahr!" ], [ "beim Anstoßen", "¡Salud!", "Prost!" ] ] },
+        { "type": "tip", "text": "¡Enhorabuena! sagt man, wenn jemand etwas geschafft hat: Hochzeit, Prüfung, neue Stelle. Zum Geburtstag passt ¡Felicidades! besser." },
+        { "type": "p", "text": "Felicitar heißt „gratulieren“. Die Person steht mit a, der Anlass mit por: Felicito a Lucía por su cumpleaños. Mit Pronomen: La felicito. Te felicito." },
+        { "type": "p", "text": "Mit cumplir sagst du, wie alt jemand wird: ¿Cuántos años cumples? – Cumplo treinta. (Wie alt wirst du? – Ich werde dreißig.)" },
+        { "type": "table", "head": [ "Fest", "Datum", "Was passiert?" ], "rows": [ [ "la Nochebuena", "el 24 de diciembre", "Die Familie isst zusammen zu Abend." ], [ "la Navidad", "el 25 de diciembre", "Weihnachtstag, oft wieder ein großes Essen." ], [ "la Nochevieja", "el 31 de diciembre", "Um Mitternacht isst man zwölf Weintrauben." ], [ "el Día de Reyes", "el 6 de enero", "Die Heiligen Drei Könige bringen den Kindern Geschenke." ] ] },
+        { "type": "examples", "items": [ { "text": "¡Feliz cumpleaños, Lucía! ¿Cuántos años cumples?", "de": "Alles Gute zum Geburtstag, Lucía! Wie alt wirst du?" }, { "text": "Hemos felicitado a Diego por su trabajo nuevo.", "de": "Wir haben Diego zu seiner neuen Stelle gratuliert." }, { "text": "En Nochebuena cenamos con toda la familia.", "de": "An Heiligabend essen wir mit der ganzen Familie zu Abend." }, { "text": "¿Dónde celebras la Nochevieja?", "de": "Wo feierst du Silvester?" }, { "text": "¡Vamos a brindar por los novios!", "de": "Lasst uns auf das Brautpaar anstoßen!" } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¡Feliz ___, Lucía!", "answers": [ "cumpleaños" ], "de": "Alles Gute zum Geburtstag, Lucía!" },
+        { "type": "cloze", "text": "Mañana ___ treinta años.", "answers": [ "cumplo" ], "de": "Morgen werde ich dreißig.", "hint": "cumplir – yo" },
+        { "type": "cloze", "text": "¿Cuántos años ___ tu abuela?", "answers": [ "cumple" ], "de": "Wie alt wird deine Oma?", "hint": "cumplir" },
+        { "type": "cloze", "text": "Felicito a Diego ___ su cumpleaños.", "answers": [ "por" ], "de": "Ich gratuliere Diego zum Geburtstag." },
+        { "type": "cloze", "text": "En ___ comemos doce uvas.", "answers": [ "Nochevieja" ], "de": "An Silvester essen wir zwölf Weintrauben." },
+        { "type": "cloze", "text": "Mi hermano se ___ en mayo.", "answers": [ "casa" ], "de": "Mein Bruder heiratet im Mai.", "hint": "casarse" },
+        { "type": "cloze", "text": "¿Dónde vas a ___ tu cumpleaños?", "answers": [ "celebrar" ], "de": "Wo feierst du deinen Geburtstag?" },
+        { "type": "translate", "de": "Frohe Weihnachten!", "answers": [ "¡Feliz Navidad!", "¡Felices Navidades!", "¡Felices fiestas!" ] },
+        { "type": "translate", "de": "Wo feierst du deinen Geburtstag?", "answers": [ "¿Dónde celebras tu cumpleaños?", "¿Dónde vas a celebrar tu cumpleaños?", "¿Dónde celebras el cumpleaños?", "¿Tú dónde celebras tu cumpleaños?" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "La fiesta de Lucía",
+    "title_de": "Lucías Party",
+    "lines": [
+      { "speaker": "Lucía", "text": "¡Hola, Jonas! ¿Ya estás mejor?", "de": "Hallo, Jonas! Geht es dir schon besser?" },
+      { "speaker": "Jonas", "text": "Sí, ya estoy bien, gracias. ¿Y tú? ¿Qué tal?", "de": "Ja, mir geht es wieder gut, danke. Und dir? Wie geht’s?" },
+      { "speaker": "Lucía", "text": "Muy bien. Oye, el sábado cumplo treinta años y hago una fiesta en mi casa. ¿Te apetece venir?", "de": "Sehr gut. Hör mal, am Samstag werde ich dreißig und mache eine Party bei mir. Hast du Lust zu kommen?" },
+      { "speaker": "Jonas", "text": "¡Claro! ¡Me encantaría! ¿A qué hora?", "de": "Klar! Sehr gern! Um wie viel Uhr?" },
+      { "speaker": "Lucía", "text": "A las nueve. Vienen mis compañeros del periódico, mi hermano Pablo y su pareja.", "de": "Um neun. Es kommen meine Kollegen von der Zeitung, mein Bruder Pablo und seine Partnerin." },
+      { "speaker": "Jonas", "text": "¿Y Marta? ¿La has invitado?", "de": "Und Marta? Hast du sie eingeladen?" },
+      { "speaker": "Lucía", "text": "Sí, la he invitado, pero no puede venir. Es que el sábado tiene una boda en Zúrich.", "de": "Ja, ich habe sie eingeladen, aber sie kann nicht kommen. Sie ist am Samstag nämlich auf einer Hochzeit in Zürich." },
+      { "speaker": "Jonas", "text": "¡Qué pena! ¿Y Diego?", "de": "Wie schade! Und Diego?" },
+      { "speaker": "Lucía", "text": "Diego trabaja hasta las diez, pero viene después.", "de": "Diego arbeitet bis zehn, aber er kommt danach." },
+      { "speaker": "Jonas", "text": "¿Compro algo? ¿Una tarta?", "de": "Soll ich etwas kaufen? Eine Torte?" },
+      { "speaker": "Lucía", "text": "No, gracias. La tarta la hace Pablo. ¡Es cocinero!", "de": "Nein, danke. Die Torte macht Pablo. Er ist Koch!" },
+      { "speaker": "Jonas", "text": "Vale. ¿Y el vino? ¿Lo compro yo?", "de": "Okay. Und der Wein? Soll ich ihn kaufen?" },
+      { "speaker": "Lucía", "text": "¡Perfecto, gracias!", "de": "Perfekt, danke!" },
+      { "speaker": "Jonas", "text": "¿Y qué quieres de regalo?", "de": "Und was wünschst du dir als Geschenk?" },
+      { "speaker": "Lucía", "text": "¡Nada! Solo quiero verte en la fiesta.", "de": "Nichts! Ich will dich einfach nur auf der Party sehen." },
+      { "speaker": "Jonas", "text": "¡Qué bonito! Pues hasta el sábado, Lucía.", "de": "Wie schön! Dann bis Samstag, Lucía." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "cumpleaños", "Geburtstag" ], [ "boda", "Hochzeit" ], [ "Navidad", "Weihnachten" ], [ "Nochevieja", "Silvester" ], [ "regalo", "Geschenk" ], [ "tarta", "Torte" ] ] },
+    { "type": "match", "pairs": [ [ "lo siento", "es tut mir leid" ], [ "¡qué pena!", "wie schade!" ], [ "por supuesto", "selbstverständlich" ], [ "de acuerdo", "einverstanden" ], [ "otro día", "ein andermal" ], [ "me encantaría", "sehr gern" ] ] },
+    { "type": "translate", "de": "Willst du zu meiner Party kommen?", "answers": [ "¿Quieres venir a mi fiesta?", "¿Te apetece venir a mi fiesta?", "¿Vienes a mi fiesta?", "¿Tú quieres venir a mi fiesta?" ] },
+    { "type": "translate", "de": "Es tut mir leid, ich kann nicht. Ich muss nämlich arbeiten.", "answers": [ "Lo siento, no puedo. Es que tengo que trabajar.", "Lo siento, no puedo porque tengo que trabajar." ] },
+    { "type": "translate", "de": "Alles Gute zum Geburtstag!", "answers": [ "¡Feliz cumpleaños!", "¡Felicidades!", "¡Muchas felicidades!" ] },
+    { "type": "translate", "de": "Hast du das Geschenk gekauft? – Ja, ich habe es gekauft.", "answers": [ "¿Has comprado el regalo? – Sí, lo he comprado.", "¿Has comprado el regalo? – Sí, ya lo he comprado.", "¿Tú has comprado el regalo? – Sí, lo he comprado." ] },
+    { "type": "order", "de": "Ich lade dich zu meinem Geburtstag ein.", "answer": "Te invito a mi cumpleaños.", "distractors": [ "lo" ] },
+    { "type": "order", "de": "Auf der Party sind viele Leute.", "answer": "En la fiesta hay mucha gente.", "distractors": [ "muy" ] },
+    { "type": "cloze", "text": "¿___ a la fiesta conmigo?", "answers": [ "Vienes" ], "de": "Kommst du mit mir zur Party?", "hint": "venir – tú" },
+    { "type": "cloze", "text": "¿Las invitaciones? Ya ___ he escrito.", "answers": [ "las" ], "de": "Die Einladungen? Die habe ich schon geschrieben." },
+    { "type": "cloze", "text": "¡Vamos a ___ por Lucía! ¡Salud!", "answers": [ "brindar" ], "de": "Lasst uns auf Lucía anstoßen! Prost!" },
+    { "type": "listen", "text": "¿Te apetece venir a mi fiesta de cumpleaños?", "de": "Hast du Lust, zu meiner Geburtstagsparty zu kommen?" },
+    { "type": "listen", "text": "Lo siento, no puedo. Es que tengo una boda.", "de": "Es tut mir leid, ich kann nicht. Ich bin nämlich auf einer Hochzeit." },
+    { "type": "listen", "text": "En Nochebuena cenamos con toda la familia.", "de": "An Heiligabend essen wir mit der ganzen Familie zu Abend." }
+  ]
+}

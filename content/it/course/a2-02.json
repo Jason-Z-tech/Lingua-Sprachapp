@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-02",
+  "lang": "it",
+  "level": "A2",
+  "number": 2,
+  "title": "Che lavoro fai?",
+  "title_de": "Arbeit und Beruf",
+  "topic": "Berufe und Arbeitsalltag",
+  "goals": [
+    "Du kannst sagen, was du beruflich machst, und andere nach ihrem Beruf fragen.",
+    "Du kennst männliche und weibliche Berufsbezeichnungen: il cuoco / la cuoca, l'attore / l'attrice, il giornalista / la giornalista.",
+    "Du kannst sagen, was gerade passiert: Sto lavorando.",
+    "Du kannst mit bisogna sagen, was man tun muss."
+  ],
+  "vocab": [
+    { "id": "professione", "word": "professione", "article": "la", "gender": "f", "plural": "le professioni", "de": "der Beruf", "pos": "noun", "example": { "text": "La mia professione è molto interessante.", "de": "Mein Beruf ist sehr interessant." }, "note": "Im Alltag fragt man meistens: Che lavoro fai?" },
+    { "id": "che-lavoro-fai", "word": "che lavoro fai?", "alt": ["che lavoro fa?"], "de": "was arbeitest du?; was bist du von Beruf?", "pos": "phrase", "example": { "text": "Che lavoro fai, Marco?", "de": "Was arbeitest du, Marco?" }, "note": "Höflich (Lei): Che lavoro fa? Man hört auch: Cosa fai nella vita?" },
+    { "id": "medico", "word": "medico", "article": "il", "gender": "m", "plural": "i medici", "de": "der Arzt; die Ärztin", "pos": "noun", "example": { "text": "Mio padre fa il medico.", "de": "Mein Vater ist Arzt." }, "note": "il medico sagt man auch für Frauen. Als Anrede: dottore / dottoressa." },
+    { "id": "dottoressa", "word": "dottoressa", "article": "la", "gender": "f", "plural": "le dottoresse", "de": "die Ärztin (Anrede); die Doktorin", "pos": "noun", "example": { "text": "Buongiorno, dottoressa!", "de": "Guten Tag, Frau Doktor!" }, "note": "Männlich: il dottore. So redet man in Italien Ärztinnen an – und auch Frauen mit Uni-Abschluss." },
+    { "id": "infermiere", "word": "infermiere", "alt": ["infermiera"], "article": "l'", "gender": "m", "plural": "gli infermieri", "de": "der Krankenpfleger; die Krankenpflegerin", "pos": "noun", "example": { "text": "Sara fa l'infermiera in ospedale.", "de": "Sara ist Krankenpflegerin im Krankenhaus.", "focus": "infermiera" }, "note": "Frau: l'infermiera, Mehrzahl le infermiere." },
+    { "id": "insegnante", "word": "insegnante", "article": "l'", "gender": "m", "plural": "gli insegnanti", "de": "der Lehrer; die Lehrerin", "pos": "noun", "example": { "text": "Il nostro insegnante è molto bravo.", "de": "Unser Lehrer ist sehr gut." }, "note": "Für Männer und Frauen gleich: l'insegnante. Am Gymnasium sagt man oft il professore / la professoressa." },
+    { "id": "impiegato", "word": "impiegato", "alt": ["impiegata"], "article": "l'", "gender": "m", "plural": "gli impiegati", "de": "der Angestellte; die Angestellte", "pos": "noun", "example": { "text": "Mio fratello è impiegato in banca.", "de": "Mein Bruder ist Bankangestellter." }, "note": "Frau: l'impiegata." },
+    { "id": "commesso", "word": "commesso", "article": "il", "gender": "m", "plural": "i commessi", "de": "der Verkäufer", "pos": "noun", "example": { "text": "Mio cugino fa il commesso in un negozio di scarpe.", "de": "Mein Cousin arbeitet als Verkäufer in einem Schuhgeschäft." }, "note": "Frau: la commessa." },
+    { "id": "cuoco", "word": "cuoco", "article": "il", "gender": "m", "plural": "i cuochi", "de": "der Koch", "pos": "noun", "example": { "text": "Marco fa il cuoco in un ristorante.", "de": "Marco ist Koch in einem Restaurant." }, "note": "Frau: la cuoca. Mehrzahl mit h: i cuochi, le cuoche." },
+    { "id": "giornalista", "word": "giornalista", "article": "il", "gender": "m", "plural": "i giornalisti", "de": "der Journalist; die Journalistin", "pos": "noun", "example": { "text": "La giornalista scrive per un giornale di Bologna.", "de": "Die Journalistin schreibt für eine Zeitung aus Bologna." }, "note": "Wörter auf -ista sind für Männer und Frauen gleich: il giornalista, la giornalista. Mehrzahl: i giornalisti, le giornaliste." },
+    { "id": "farmacista", "word": "farmacista", "article": "il", "gender": "m", "plural": "i farmacisti", "de": "der Apotheker; die Apothekerin", "pos": "noun", "example": { "text": "Il farmacista lavora in farmacia.", "de": "Der Apotheker arbeitet in der Apotheke." }, "note": "Wie giornalista: il farmacista, la farmacista." },
+    { "id": "avvocato", "word": "avvocato", "article": "l'", "gender": "m", "plural": "gli avvocati", "de": "der Anwalt; die Anwältin", "pos": "noun", "example": { "text": "Mia zia fa l'avvocato a Milano.", "de": "Meine Tante ist Anwältin in Mailand." }, "note": "Viele sagen l'avvocato auch für Frauen. Man hört auch l'avvocata oder l'avvocatessa." },
+    { "id": "ingegnere", "word": "ingegnere", "article": "l'", "gender": "m", "plural": "gli ingegneri", "de": "der Ingenieur; die Ingenieurin", "pos": "noun", "example": { "text": "Lena fa l'ingegnere per un'azienda tedesca.", "de": "Lena ist Ingenieurin bei einer deutschen Firma." }, "note": "Für Männer und Frauen: l'ingegnere." },
+    { "id": "traduttore", "word": "traduttore", "article": "il", "gender": "m", "plural": "i traduttori", "de": "der Übersetzer", "pos": "noun", "example": { "text": "Il traduttore lavora da casa.", "de": "Der Übersetzer arbeitet von zu Hause." }, "note": "Frau: la traduttrice – wie l'attore und l'attrice." },
+    { "id": "attore", "word": "attore", "alt": ["attrice"], "article": "l'", "gender": "m", "plural": "gli attori", "de": "der Schauspieler; die Schauspielerin", "pos": "noun", "example": { "text": "Mia cugina fa l'attrice a Roma.", "de": "Meine Cousine ist Schauspielerin in Rom.", "focus": "attrice" }, "note": "Frau: l'attrice, Mehrzahl le attrici." },
+    { "id": "studente", "word": "studente", "article": "lo", "gender": "m", "plural": "gli studenti", "de": "der Student; der Schüler", "pos": "noun", "example": { "text": "Luca non lavora: è studente.", "de": "Luca arbeitet nicht: Er ist Student." }, "note": "Frau: la studentessa. Lo vor s + Konsonant: lo studente." },
+    { "id": "operaio", "word": "operaio", "alt": ["operaia"], "article": "l'", "gender": "m", "plural": "gli operai", "de": "der Arbeiter; die Arbeiterin", "pos": "noun", "example": { "text": "Mio nonno ha fatto l'operaio per quarant'anni.", "de": "Mein Opa hat vierzig Jahre lang als Arbeiter gearbeitet." }, "note": "Frau: l'operaia." },
+    { "id": "ufficio", "word": "ufficio", "article": "l'", "gender": "m", "plural": "gli uffici", "de": "das Büro", "pos": "noun", "example": { "text": "Lavoro in un ufficio in centro.", "de": "Ich arbeite in einem Büro im Zentrum." }, "note": "Ohne Artikel: Sono in ufficio. = Ich bin im Büro." },
+    { "id": "azienda", "word": "azienda", "article": "l'", "gender": "f", "plural": "le aziende", "de": "die Firma; das Unternehmen", "pos": "noun", "example": { "text": "Lena lavora per un'azienda tedesca.", "de": "Lena arbeitet für eine deutsche Firma." } },
+    { "id": "collega", "word": "collega", "article": "il", "gender": "m", "plural": "i colleghi", "de": "der Kollege; die Kollegin", "pos": "noun", "example": { "text": "A mezzogiorno mangio con i miei colleghi.", "de": "Mittags esse ich mit meinen Kollegen.", "focus": "colleghi" }, "note": "Frau: la collega. Mehrzahl: i colleghi, le colleghe." },
+    { "id": "capo", "word": "capo", "article": "il", "gender": "m", "plural": "i capi", "de": "der Chef; die Chefin", "pos": "noun", "example": { "text": "Il mio capo arriva sempre alle otto.", "de": "Mein Chef kommt immer um acht." }, "note": "Auch für Frauen: il capo oder la capo." },
+    { "id": "riunione", "word": "riunione", "article": "la", "gender": "f", "plural": "le riunioni", "de": "die Besprechung; das Meeting", "pos": "noun", "example": { "text": "Alle dieci ho una riunione.", "de": "Um zehn habe ich eine Besprechung." } },
+    { "id": "stipendio", "word": "stipendio", "article": "lo", "gender": "m", "plural": "gli stipendi", "de": "das Gehalt", "pos": "noun", "example": { "text": "Il lavoro è faticoso, ma lo stipendio è buono.", "de": "Die Arbeit ist anstrengend, aber das Gehalt ist gut." } },
+    { "id": "cliente", "word": "cliente", "article": "il", "gender": "m", "plural": "i clienti", "de": "der Kunde; die Kundin", "pos": "noun", "example": { "text": "Oggi ho parlato con tre clienti.", "de": "Heute habe ich mit drei Kunden gesprochen.", "focus": "clienti" }, "note": "Frau: la cliente. Im Restaurant sind i clienti die Gäste." },
+    { "id": "pausa", "word": "pausa", "article": "la", "gender": "f", "plural": "le pause", "de": "die Pause", "pos": "noun", "example": { "text": "All'una faccio una pausa.", "de": "Um eins mache ich eine Pause." }, "note": "la pausa pranzo = die Mittagspause." },
+    { "id": "computer", "word": "computer", "article": "il", "gender": "m", "plural": "i computer", "de": "der Computer", "pos": "noun", "example": { "text": "Lavoro tutto il giorno al computer.", "de": "Ich arbeite den ganzen Tag am Computer." }, "note": "Im Plural unverändert: i computer." },
+    { "id": "disoccupato", "word": "disoccupato", "alt": ["disoccupata"], "de": "arbeitslos", "pos": "adj", "example": { "text": "Mio cugino è disoccupato.", "de": "Mein Cousin ist arbeitslos." } },
+    { "id": "in-pensione", "word": "in pensione", "de": "in Rente; im Ruhestand", "pos": "phrase", "example": { "text": "I miei nonni sono in pensione.", "de": "Meine Großeltern sind in Rente." }, "note": "andare in pensione = in Rente gehen." },
+    { "id": "a-tempo-pieno", "word": "a tempo pieno", "de": "Vollzeit", "pos": "phrase", "example": { "text": "Lavoro a tempo pieno.", "de": "Ich arbeite Vollzeit." }, "note": "Teilzeit: part-time oder a tempo parziale." },
+    { "id": "guadagnare", "word": "guadagnare", "de": "verdienen", "pos": "verb", "forms": "guadagno, guadagni, guadagna …", "example": { "text": "Un infermiere non guadagna molto.", "de": "Ein Krankenpfleger verdient nicht viel.", "focus": "guadagna" } },
+    { "id": "insegnare", "word": "insegnare", "de": "unterrichten; beibringen", "pos": "verb", "forms": "insegno, insegni, insegna …", "example": { "text": "Giulia insegna inglese a scuola.", "de": "Giulia unterrichtet Englisch an der Schule.", "focus": "insegna" } },
+    { "id": "aiutare", "word": "aiutare", "de": "helfen", "pos": "verb", "forms": "aiuto, aiuti, aiuta …", "example": { "text": "In negozio aiuto i clienti.", "de": "Im Geschäft helfe ich den Kunden.", "focus": "aiuto" }, "note": "Ohne Präposition: aiutare qualcuno – Aiuto Sara. = Ich helfe Sara." },
+    { "id": "bisogna", "word": "bisogna", "de": "man muss; es ist nötig", "pos": "verb", "example": { "text": "Bisogna lavorare molto.", "de": "Man muss viel arbeiten." }, "note": "Bleibt immer gleich. Danach kommt ein Infinitiv." },
+    { "id": "adesso", "word": "adesso", "de": "jetzt", "pos": "adv", "example": { "text": "Adesso sto lavorando.", "de": "Jetzt arbeite ich gerade." }, "note": "ora heißt dasselbe." },
+    { "id": "in-questo-momento", "word": "in questo momento", "de": "in diesem Moment; gerade", "pos": "phrase", "example": { "text": "In questo momento sono in riunione.", "de": "Ich bin gerade in einer Besprechung." } },
+    { "id": "stressante", "word": "stressante", "de": "stressig", "pos": "adj", "example": { "text": "Il mio lavoro è stressante.", "de": "Meine Arbeit ist stressig." } },
+    { "id": "faticoso", "word": "faticoso", "alt": ["faticosa"], "de": "anstrengend", "pos": "adj", "example": { "text": "Fare il cuoco è faticoso.", "de": "Als Koch zu arbeiten ist anstrengend." } },
+    { "id": "difficile", "word": "difficile", "de": "schwierig; schwer", "pos": "adj", "example": { "text": "Il lavoro dell'infermiere è difficile.", "de": "Die Arbeit als Krankenpfleger ist schwer." } },
+    { "id": "contento", "word": "contento", "alt": ["contenta"], "de": "zufrieden; froh", "pos": "adj", "example": { "text": "Sono contenta del mio lavoro.", "de": "Ich bin zufrieden mit meiner Arbeit.", "focus": "contenta" }, "note": "contento di qualcosa = zufrieden mit etwas." }
+  ],
+  "grammar": [
+    {
+      "id": "professioni",
+      "title": "Berufe: männlich und weiblich",
+      "blocks": [
+        { "type": "p", "text": "Viele Berufe haben eine männliche und eine weibliche Form. An der Endung erkennst du, wie die weibliche Form aussieht:" },
+        { "type": "table", "head": ["Endung", "männlich", "weiblich"], "rows": [["-o → -a", "il cuoco, l'impiegato", "la cuoca, l'impiegata"], ["-iere → -iera", "il cameriere, l'infermiere", "la cameriera, l'infermiera"], ["-tore → -trice", "l'attore, il traduttore", "l'attrice, la traduttrice"], ["-ista (gleich)", "il giornalista, il farmacista", "la giornalista, la farmacista"], ["-e (gleich)", "l'insegnante, il cliente", "l'insegnante, la cliente"], ["-e → -essa", "il dottore, lo studente", "la dottoressa, la studentessa"]] },
+        { "type": "tip", "text": "Il medico, l'ingegnere und l'avvocato benutzt man oft auch für Frauen: Mia madre è medico. Als Anrede sagst du aber: Buongiorno, dottoressa!" },
+        { "type": "p", "text": "Nach dem Beruf fragst du: Che lavoro fai? (höflich: Che lavoro fa?). Antworten kannst du auf zwei Arten:" },
+        { "type": "list", "items": ["fare + Artikel + Beruf: Faccio il cuoco. Faccio l'infermiera.", "essere + Beruf ohne Artikel: Sono cuoco. Sono infermiera."] },
+        { "type": "tip", "text": "Mehrzahl: -ista wird zu -isti (männlich) oder -iste (weiblich): i giornalisti, le giornaliste. Il collega wird zu i colleghi, la collega zu le colleghe." },
+        { "type": "examples", "items": [{ "text": "Che lavoro fai? – Faccio la giornalista.", "de": "Was arbeitest du? – Ich bin Journalistin." }, { "text": "Marco fa il cuoco.", "de": "Marco ist Koch." }, { "text": "Giulia è insegnante.", "de": "Giulia ist Lehrerin." }, { "text": "Mia cugina fa l'attrice.", "de": "Meine Cousine ist Schauspielerin." }, { "text": "I miei genitori sono in pensione.", "de": "Meine Eltern sind in Rente." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Marco fa ___ cuoco.", "answers": ["il"], "de": "Marco ist Koch." },
+        { "type": "cloze", "text": "Sara fa l'___ in ospedale.", "answers": ["infermiera"], "de": "Sara ist Krankenpflegerin im Krankenhaus.", "hint": "Krankenpflegerin" },
+        { "type": "cloze", "text": "Mio fratello è attore e mia sorella è ___.", "answers": ["attrice"], "de": "Mein Bruder ist Schauspieler und meine Schwester ist Schauspielerin." },
+        { "type": "cloze", "text": "Lui è studente e lei è ___.", "answers": ["studentessa"], "de": "Er ist Student und sie ist Studentin." },
+        { "type": "cloze", "text": "Mia madre fa la ___.", "answers": ["giornalista"], "de": "Meine Mutter ist Journalistin.", "hint": "Journalistin" },
+        { "type": "cloze", "text": "Che lavoro ___, signora?", "answers": ["fa"], "de": "Was arbeiten Sie?", "hint": "fare (Lei)" },
+        { "type": "match", "pairs": [["il cuoco", "der Koch"], ["la cuoca", "die Köchin"], ["l'attrice", "die Schauspielerin"], ["la farmacista", "die Apothekerin"], ["il traduttore", "der Übersetzer"]] },
+        { "type": "translate", "de": "Ich bin Krankenpfleger.", "answers": ["Sono infermiere.", "Faccio l'infermiere.", "Io sono infermiere.", "Io faccio l'infermiere.", "Sono un infermiere."] },
+        { "type": "translate", "de": "Was arbeitest du?", "answers": ["Che lavoro fai?", "Tu che lavoro fai?", "Che lavoro fai tu?", "Cosa fai nella vita?", "Che cosa fai nella vita?"] },
+        { "type": "listen", "text": "Mia cugina fa la farmacista a Vienna.", "de": "Meine Cousine ist Apothekerin in Wien." }
+      ]
+    },
+    {
+      "id": "lavorare-bisogna",
+      "title": "Über die Arbeit sprechen: lavorare come, in, per, da – und bisogna",
+      "blocks": [
+        { "type": "p", "text": "Mit lavorare sagst du genauer, als was, wo und für wen du arbeitest:" },
+        { "type": "table", "head": ["Ausdruck", "Bedeutung", "Beispiel"], "rows": [["lavorare come + Beruf", "als … arbeiten", "Lavoro come cameriera."], ["lavorare in + Ort", "in / bei … arbeiten", "Lavoro in banca. Lavoro in un ufficio."], ["lavorare per + Firma", "für … arbeiten", "Lavoro per un'azienda tedesca."], ["lavorare da casa", "von zu Hause arbeiten", "Il lunedì lavoro da casa."], ["lavorare da + Person", "bei jemandem arbeiten", "Lavoro da un avvocato."], ["lavorare a tempo pieno", "Vollzeit arbeiten", "Sara lavora a tempo pieno."]] },
+        { "type": "tip", "text": "Bei vielen Orten steht in ohne Artikel: in banca, in ufficio, in farmacia, in ospedale. Mit un / una aber: in un ufficio, in una scuola." },
+        { "type": "p", "text": "Bisogna + Infinitiv heißt „man muss“ oder „es ist nötig“. Bisogna bleibt immer gleich – es nennt keine bestimmte Person." },
+        { "type": "examples", "items": [{ "text": "Per fare il medico bisogna studiare molto.", "de": "Um Arzt zu werden, muss man viel lernen." }, { "text": "In questo lavoro bisogna parlare bene l'inglese.", "de": "In diesem Job muss man gut Englisch sprechen." }, { "text": "Domani bisogna arrivare alle otto.", "de": "Morgen muss man um acht da sein." }, { "text": "Non bisogna arrivare in ritardo.", "de": "Man darf nicht zu spät kommen." }] },
+        { "type": "tip", "text": "Bisogna ist allgemein: man muss. Wenn eine bestimmte Person etwas muss, nimmst du dovere: Devo lavorare. = Ich muss arbeiten." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Lavoro ___ cameriere in un bar.", "answers": ["come"], "de": "Ich arbeite als Kellner in einer Bar." },
+        { "type": "cloze", "text": "Mia madre lavora ___ banca.", "answers": ["in"], "de": "Meine Mutter arbeitet bei der Bank." },
+        { "type": "cloze", "text": "Lena lavora ___ un'azienda tedesca.", "answers": ["per"], "de": "Lena arbeitet für eine deutsche Firma." },
+        { "type": "cloze", "text": "Il venerdì lavoro ___ casa.", "answers": ["da"], "de": "Freitags arbeite ich von zu Hause." },
+        { "type": "cloze", "text": "Per fare l'insegnante ___ studiare molto.", "answers": ["bisogna"], "de": "Um Lehrer zu werden, muss man viel lernen." },
+        { "type": "cloze", "text": "Non bisogna ___ in ritardo.", "answers": ["arrivare"], "de": "Man darf nicht zu spät kommen." },
+        { "type": "order", "de": "Man muss gut Englisch sprechen.", "answer": "Bisogna parlare bene l'inglese." },
+        { "type": "translate", "de": "Ich arbeite für eine italienische Firma.", "answers": ["Lavoro per un'azienda italiana.", "Io lavoro per un'azienda italiana."] },
+        { "type": "translate", "de": "Man muss früh aufstehen.", "answers": ["Bisogna alzarsi presto."] },
+        { "type": "listen", "text": "Lavoro come commessa in un negozio in centro.", "de": "Ich arbeite als Verkäuferin in einem Geschäft im Zentrum." }
+      ]
+    },
+    {
+      "id": "stare-gerundio",
+      "title": "Gerade jetzt: stare + Gerundium (sto lavorando)",
+      "blocks": [
+        { "type": "p", "text": "Wenn etwas genau jetzt passiert, nimmst du stare + Gerundium: Sto lavorando. = Ich arbeite gerade. Die Formen von stare kennst du schon." },
+        { "type": "table", "head": ["Infinitiv", "Endung", "Gerundium"], "rows": [["lavorare", "-are → -ando", "lavorando"], ["scrivere", "-ere → -endo", "scrivendo"], ["dormire", "-ire → -endo", "dormendo"], ["fare", "unregelmäßig", "facendo"], ["bere", "unregelmäßig", "bevendo"], ["dire", "unregelmäßig", "dicendo"]] },
+        { "type": "table", "head": ["Person", "stare + Gerundium"], "rows": [["io", "sto lavorando"], ["tu", "stai lavorando"], ["lui / lei / Lei", "sta lavorando"], ["noi", "stiamo lavorando"], ["voi", "state lavorando"], ["loro", "stanno lavorando"]] },
+        { "type": "tip", "text": "Das Gerundium bleibt immer gleich, nur stare ändert sich: Sara sta dormendo, noi stiamo mangiando." },
+        { "type": "tip", "text": "Im Deutschen sagst du dafür oft „gerade“: Cosa stai facendo? = Was machst du gerade?" },
+        { "type": "examples", "items": [{ "text": "Cosa stai facendo? – Sto scrivendo un messaggio.", "de": "Was machst du gerade? – Ich schreibe gerade eine Nachricht." }, { "text": "Scusa, adesso non posso: sto lavorando.", "de": "Entschuldige, jetzt kann ich nicht: Ich arbeite gerade." }, { "text": "Marco sta cucinando per i clienti.", "de": "Marco kocht gerade für die Gäste." }, { "text": "I miei colleghi stanno bevendo un caffè.", "de": "Meine Kollegen trinken gerade einen Kaffee." }, { "text": "Cosa sta dicendo il capo?", "de": "Was sagt der Chef gerade?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Scusa, adesso ___ lavorando.", "answers": ["sto"], "de": "Entschuldige, ich arbeite gerade." },
+        { "type": "cloze", "text": "Cosa stai ___?", "answers": ["facendo"], "de": "Was machst du gerade?", "hint": "fare" },
+        { "type": "cloze", "text": "Sara sta ___ un messaggio.", "answers": ["scrivendo"], "de": "Sara schreibt gerade eine Nachricht.", "hint": "scrivere" },
+        { "type": "cloze", "text": "I clienti stanno ___ un caffè.", "answers": ["bevendo"], "de": "Die Kunden trinken gerade einen Kaffee.", "hint": "bere" },
+        { "type": "cloze", "text": "Noi ___ mangiando.", "answers": ["stiamo"], "de": "Wir essen gerade." },
+        { "type": "cloze", "text": "Marco sta ___: non chiamare!", "answers": ["dormendo"], "de": "Marco schläft gerade: Ruf nicht an!", "hint": "dormire" },
+        { "type": "translate", "de": "Was machst du gerade?", "answers": ["Cosa stai facendo?", "Che cosa stai facendo?", "Che stai facendo?", "Tu cosa stai facendo?", "Cosa stai facendo adesso?", "Cosa stai facendo ora?"] },
+        { "type": "order", "de": "Ich arbeite gerade am Computer.", "answer": "Sto lavorando al computer." },
+        { "type": "listen", "text": "In questo momento il capo sta parlando con un cliente.", "de": "In diesem Moment spricht der Chef mit einem Kunden." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dopo il lavoro",
+    "title_de": "Nach der Arbeit",
+    "lines": [
+      { "speaker": "Marco", "text": "Ciao, Lena! Cosa stai facendo qui?", "de": "Hallo, Lena! Was machst du denn hier?" },
+      { "speaker": "Lena", "text": "Ciao, Marco! Sto aspettando Sara. E tu? Non lavori oggi?", "de": "Hallo, Marco! Ich warte auf Sara. Und du? Arbeitest du heute nicht?" },
+      { "speaker": "Marco", "text": "Ho appena finito. Lavoro in un ristorante qui vicino: faccio il cuoco.", "de": "Ich habe gerade Feierabend gemacht. Ich arbeite in einem Restaurant hier in der Nähe – ich bin Koch." },
+      { "speaker": "Lena", "text": "Il cuoco! E ti piace il tuo lavoro?", "de": "Koch! Und gefällt dir deine Arbeit?" },
+      { "speaker": "Marco", "text": "Sì, molto, ma è faticoso. Bisogna lavorare anche la sera e il fine settimana.", "de": "Ja, sehr, aber sie ist anstrengend. Man muss auch abends und am Wochenende arbeiten." },
+      { "speaker": "Lena", "text": "E Giulia che lavoro fa?", "de": "Und was arbeitet Giulia?" },
+      { "speaker": "Marco", "text": "Giulia è insegnante. Insegna inglese in una scuola in centro. E tu, Lena? Che lavoro fai?", "de": "Giulia ist Lehrerin. Sie unterrichtet Englisch an einer Schule im Zentrum. Und du, Lena? Was arbeitest du?" },
+      { "speaker": "Lena", "text": "Faccio l'ingegnere. Lavoro per un'azienda tedesca, ma da casa, al computer.", "de": "Ich bin Ingenieurin. Ich arbeite für eine deutsche Firma, aber von zu Hause aus, am Computer." },
+      { "speaker": "Marco", "text": "Da casa? Che bello! E i tuoi colleghi?", "de": "Von zu Hause? Wie schön! Und deine Kollegen?" },
+      { "speaker": "Lena", "text": "Sono a Monaco. Ogni lunedì facciamo una riunione al computer.", "de": "Die sind in München. Jeden Montag haben wir eine Besprechung am Computer." },
+      { "speaker": "Sara", "text": "Ciao, ragazzi! Scusate, sono in ritardo.", "de": "Hallo, ihr zwei! Entschuldigt, ich bin spät dran." },
+      { "speaker": "Marco", "text": "Ciao, Sara! Tu dove lavori?", "de": "Hallo, Sara! Wo arbeitest du eigentlich?" },
+      { "speaker": "Sara", "text": "In ospedale: faccio l'infermiera. Oggi due colleghi non sono venuti e ho lavorato dieci ore. Una giornata stressante!", "de": "Im Krankenhaus – ich bin Krankenpflegerin. Heute sind zwei Kollegen nicht gekommen, und ich habe zehn Stunden gearbeitet. Ein stressiger Tag!" },
+      { "speaker": "Lena", "text": "Povera Sara! Cosa prendi? Noi stiamo bevendo uno spritz.", "de": "Arme Sara! Was nimmst du? Wir trinken gerade einen Spritz." },
+      { "speaker": "Sara", "text": "Uno spritz anche per me, grazie! Adesso sono contenta.", "de": "Einen Spritz auch für mich, danke! Jetzt bin ich zufrieden." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["l'ufficio", "das Büro"], ["lo stipendio", "das Gehalt"], ["la riunione", "die Besprechung"], ["il collega", "der Kollege"], ["la pausa", "die Pause"]] },
+    { "type": "match", "pairs": [["l'impiegato", "der Angestellte"], ["il commesso", "der Verkäufer"], ["l'avvocato", "der Anwalt"], ["l'operaio", "der Arbeiter"], ["il medico", "der Arzt"]] },
+    { "type": "translate", "de": "Marco ist Koch.", "answers": ["Marco fa il cuoco.", "Marco è cuoco.", "Marco è un cuoco."] },
+    { "type": "translate", "de": "Ich arbeite von zu Hause.", "answers": ["Lavoro da casa.", "Io lavoro da casa."] },
+    { "type": "translate", "de": "Wir trinken gerade einen Kaffee.", "answers": ["Stiamo bevendo un caffè.", "Noi stiamo bevendo un caffè.", "Stiamo prendendo un caffè.", "Noi stiamo prendendo un caffè."] },
+    { "type": "translate", "de": "Meine Großeltern sind in Rente.", "answers": ["I miei nonni sono in pensione."] },
+    { "type": "cloze", "text": "Il lavoro è faticoso, ma lo ___ è buono.", "answers": ["stipendio"], "de": "Die Arbeit ist anstrengend, aber das Gehalt ist gut." },
+    { "type": "cloze", "text": "Alle dieci ho una ___ con il capo.", "answers": ["riunione"], "de": "Um zehn habe ich eine Besprechung mit dem Chef." },
+    { "type": "cloze", "text": "Giulia ___ inglese in una scuola.", "answers": ["insegna"], "de": "Giulia unterrichtet Englisch an einer Schule.", "hint": "insegnare" },
+    { "type": "order", "de": "Was macht ihr gerade?", "answer": "Cosa state facendo?" },
+    { "type": "order", "de": "Um Arzt zu werden, muss man viel lernen.", "answer": "Per fare il medico bisogna studiare molto." },
+    { "type": "choice", "prompt": "Wie sagst du „Sie ist Schauspielerin“?", "options": ["Fa l'attore.", "Fa l'attrice.", "Fa la attrice."], "answer": 1, "explain": "-tore wird bei Frauen zu -trice. Vor einem Vokal wird la zu l': l'attrice." },
+    { "type": "listen", "text": "Sara fa l'infermiera e lavora a tempo pieno.", "de": "Sara ist Krankenpflegerin und arbeitet Vollzeit." },
+    { "type": "listen", "text": "Adesso non posso parlare: sto lavorando.", "de": "Jetzt kann ich nicht sprechen: Ich arbeite gerade." }
+  ]
+}

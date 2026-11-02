@@ -1,0 +1,168 @@
+{
+  "formatVersion": 1,
+  "id": "es-a2-01",
+  "lang": "es",
+  "level": "A2",
+  "number": 1,
+  "title": "¿Qué has hecho?",
+  "title_de": "Was hast du gemacht?",
+  "topic": "Von gestern und vom Wochenende erzählen",
+  "goals": [
+    "Du kannst erzählen, was du heute, diese Woche oder am Wochenende gemacht hast – mit dem pretérito perfecto (he comido, has visto …).",
+    "Du kennst die wichtigsten unregelmäßigen Partizipien: hecho, visto, escrito, puesto, vuelto, dicho, abierto.",
+    "Du kannst mit ya, todavía no und alguna vez sagen, ob du etwas schon gemacht hast.",
+    "Du kannst von Aktivitäten am Wochenende erzählen und sagen, wie es war."
+  ],
+  "vocab": [
+    { "id": "haber", "word": "haber", "de": "haben (Hilfsverb für das Perfekt)", "pos": "verb", "forms": "he, has, ha, hemos, habéis, han", "example": { "text": "Hoy he trabajado mucho.", "de": "Heute habe ich viel gearbeitet.", "focus": "he" }, "note": "Nur als Hilfsverb: he comido = ich habe gegessen. Etwas besitzen heißt tener. Auch hay (es gibt) kommt von haber." },
+    { "id": "hoy", "word": "hoy", "de": "heute", "pos": "adv", "example": { "text": "Hoy he comido con mi familia.", "de": "Heute habe ich mit meiner Familie gegessen." } },
+    { "id": "esta-manana", "word": "esta mañana", "de": "heute Morgen; heute Vormittag", "pos": "phrase", "example": { "text": "Esta mañana me he levantado temprano.", "de": "Heute Morgen bin ich früh aufgestanden." }, "note": "Genauso: esta tarde (heute Nachmittag), esta noche (heute Abend)." },
+    { "id": "esta-semana", "word": "esta semana", "de": "diese Woche", "pos": "phrase", "example": { "text": "Esta semana he trabajado mucho.", "de": "Diese Woche habe ich viel gearbeitet." } },
+    { "id": "este-fin-de-semana", "word": "este fin de semana", "de": "dieses Wochenende; am (letzten) Wochenende", "pos": "phrase", "example": { "text": "¿Qué has hecho este fin de semana?", "de": "Was hast du am Wochenende gemacht?" }, "note": "Am Montag fragt man in Spanien so nach dem Wochenende, das gerade vorbei ist." },
+    { "id": "ya", "word": "ya", "de": "schon; bereits", "pos": "adv", "example": { "text": "Ya he comido, gracias.", "de": "Ich habe schon gegessen, danke." }, "note": "Ya steht meistens vor haber: Ya he terminado." },
+    { "id": "todavia-no", "word": "todavía no", "de": "noch nicht", "pos": "phrase", "example": { "text": "Todavía no he visto la película.", "de": "Ich habe den Film noch nicht gesehen." }, "note": "Auch möglich: No he visto la película todavía. Todavía allein heißt „noch“." },
+    { "id": "alguna-vez", "word": "alguna vez", "de": "schon einmal; jemals", "pos": "phrase", "example": { "text": "¿Has estado alguna vez en Sevilla?", "de": "Warst du schon einmal in Sevilla?" }, "note": "Antwort: Sí, una vez / dos veces … oder No, nunca." },
+    { "id": "por-fin", "word": "por fin", "de": "endlich", "pos": "phrase", "example": { "text": "Por fin he terminado el libro.", "de": "Endlich bin ich mit dem Buch fertig." } },
+    { "id": "un-rato", "word": "un rato", "de": "eine Weile; ein bisschen (Zeit)", "pos": "phrase", "example": { "text": "He leído un rato en el parque.", "de": "Ich habe eine Weile im Park gelesen." } },
+    { "id": "por-que", "word": "¿por qué?", "de": "warum?", "pos": "adv", "example": { "text": "¿Por qué no has llamado a tu madre?", "de": "Warum hast du deine Mutter nicht angerufen?", "focus": "por qué" } },
+    { "id": "porque", "word": "porque", "de": "weil; denn", "pos": "conj", "example": { "text": "No he salido porque estoy cansada.", "de": "Ich bin nicht ausgegangen, weil ich müde bin." }, "note": "¿Por qué? (zwei Wörter, mit Akzent) fragt, porque (ein Wort, ohne Akzent) antwortet." },
+    { "id": "cosa", "word": "cosa", "article": "la", "gender": "f", "plural": "las cosas", "de": "die Sache; das Ding", "pos": "noun", "example": { "text": "Hoy he hecho muchas cosas.", "de": "Heute habe ich viele Sachen gemacht.", "focus": "cosas" } },
+    { "id": "abrir", "word": "abrir", "de": "öffnen; aufmachen", "pos": "verb", "forms": "abro, abres, abre … – Partizip: abierto", "example": { "text": "¿Quién ha abierto la ventana?", "de": "Wer hat das Fenster aufgemacht?", "focus": "abierto" }, "note": "Das Partizip abierto kennst du schon als Adjektiv: la puerta está abierta." },
+    { "id": "decir", "word": "decir", "de": "sagen", "pos": "verb", "forms": "digo, dices, dice, decimos, decís, dicen – Partizip: dicho", "example": { "text": "¿Qué has dicho?", "de": "Was hast du gesagt?", "focus": "dicho" }, "note": "e → i, und die ich-Form ist digo." },
+    { "id": "descansar", "word": "descansar", "de": "sich ausruhen; Pause machen", "pos": "verb", "example": { "text": "Este fin de semana he descansado mucho.", "de": "Am Wochenende habe ich mich viel ausgeruht.", "focus": "descansado" } },
+    { "id": "limpiar", "word": "limpiar", "de": "putzen; sauber machen", "pos": "verb", "example": { "text": "Hoy he limpiado la cocina.", "de": "Heute habe ich die Küche geputzt.", "focus": "limpiado" }, "note": "Passt zu limpio (sauber)." },
+    { "id": "ordenar", "word": "ordenar", "de": "aufräumen", "pos": "verb", "example": { "text": "¿Has ordenado tu habitación?", "de": "Hast du dein Zimmer aufgeräumt?", "focus": "ordenado" } },
+    { "id": "lavar", "word": "lavar", "de": "waschen", "pos": "verb", "example": { "text": "Esta mañana he lavado la ropa.", "de": "Heute Morgen habe ich die Wäsche gewaschen.", "focus": "lavado" }, "note": "Sich waschen = lavarse." },
+    { "id": "hacer-la-compra", "word": "hacer la compra", "de": "(Lebensmittel) einkaufen", "pos": "phrase", "example": { "text": "Ya he hecho la compra.", "de": "Ich habe schon eingekauft.", "focus": "hecho la compra" }, "note": "Für den Wocheneinkauf. Kleidung einkaufen gehen = ir de compras." },
+    { "id": "dormir", "word": "dormir", "de": "schlafen", "pos": "verb", "forms": "duermo, duermes, duerme, dormimos, dormís, duermen", "example": { "text": "Hoy he dormido diez horas.", "de": "Heute habe ich zehn Stunden geschlafen.", "focus": "dormido" }, "note": "o → ue wie bei volver." },
+    { "id": "madrugar", "word": "madrugar", "de": "früh aufstehen", "pos": "verb", "example": { "text": "Los sábados no me gusta madrugar.", "de": "Samstags stehe ich nicht gern früh auf." } },
+    { "id": "quedarse-en-casa", "word": "quedarse en casa", "de": "zu Hause bleiben", "pos": "phrase", "example": { "text": "Hoy me he quedado en casa.", "de": "Heute bin ich zu Hause geblieben.", "focus": "quedado en casa" }, "note": "quedarse = bleiben. Ohne se heißt quedar „sich verabreden“: ¿Quedamos?" },
+    { "id": "pasarlo-bien", "word": "pasarlo bien", "de": "Spaß haben; eine schöne Zeit haben", "pos": "phrase", "example": { "text": "¡Lo hemos pasado muy bien!", "de": "Wir hatten richtig viel Spaß!", "focus": "lo hemos pasado muy bien" }, "note": "Gegenteil: pasarlo mal. Lo bleibt immer gleich: Lo he pasado genial." },
+    { "id": "pasar", "word": "pasar", "de": "passieren; verbringen (Zeit)", "pos": "verb", "example": { "text": "¿Qué ha pasado?", "de": "Was ist passiert?", "focus": "pasado" }, "note": "He pasado el fin de semana en Madrid. = Ich habe das Wochenende in Madrid verbracht." },
+    { "id": "conocer", "word": "conocer", "de": "kennenlernen; kennen", "pos": "verb", "forms": "conozco, conoces, conoce, conocemos, conocéis, conocen", "example": { "text": "Hoy he conocido a la hermana de Diego.", "de": "Heute habe ich Diegos Schwester kennengelernt.", "focus": "conocido" }, "note": "Bei Personen steht a: Conozco a Marta." },
+    { "id": "olvidar", "word": "olvidar", "de": "vergessen", "pos": "verb", "example": { "text": "He olvidado las llaves en casa.", "de": "Ich habe die Schlüssel zu Hause vergessen.", "focus": "olvidado" } },
+    { "id": "perder", "word": "perder", "de": "verlieren; verpassen", "pos": "verb", "forms": "pierdo, pierdes, pierde, perdemos, perdéis, pierden", "example": { "text": "Hemos perdido el tren.", "de": "Wir haben den Zug verpasst.", "focus": "perdido" } },
+    { "id": "encontrar", "word": "encontrar", "de": "finden", "pos": "verb", "forms": "encuentro, encuentras, encuentra, encontramos, encontráis, encuentran", "example": { "text": "¡He encontrado mi móvil!", "de": "Ich habe mein Handy gefunden!", "focus": "encontrado" } },
+    { "id": "terminar", "word": "terminar", "de": "beenden; fertig werden; zu Ende sein", "pos": "verb", "example": { "text": "¿Ya has terminado?", "de": "Bist du schon fertig?", "focus": "terminado" } },
+    { "id": "llamar", "word": "llamar", "de": "anrufen; rufen", "pos": "verb", "example": { "text": "Esta semana he llamado dos veces a mis padres.", "de": "Diese Woche habe ich meine Eltern zweimal angerufen.", "focus": "llamado" }, "note": "llamar a alguien = jemanden anrufen. llamarse = heißen." },
+    { "id": "tomar-algo", "word": "tomar algo", "de": "etwas trinken gehen", "pos": "phrase", "example": { "text": "¿Tomamos algo después de clase?", "de": "Gehen wir nach dem Unterricht etwas trinken?", "focus": "tomamos algo" }, "note": "Typisch spanisch: Man trifft sich in einer Bar zum tomar algo – oft mit Tapas." },
+    { "id": "excursion", "word": "excursión", "article": "la", "gender": "f", "plural": "las excursiones", "de": "der Ausflug", "pos": "noun", "example": { "text": "Hemos hecho una excursión a la montaña.", "de": "Wir haben einen Ausflug in die Berge gemacht." }, "note": "Einen Ausflug machen = hacer una excursión." },
+    { "id": "exposicion", "word": "exposición", "article": "la", "gender": "f", "plural": "las exposiciones", "de": "die Ausstellung", "pos": "noun", "example": { "text": "¿Has visto la exposición del museo?", "de": "Hast du die Ausstellung im Museum gesehen?" } },
+    { "id": "partido", "word": "partido", "article": "el", "gender": "m", "plural": "los partidos", "de": "das Spiel (Sport); das Match", "pos": "noun", "example": { "text": "¿Has visto el partido de fútbol?", "de": "Hast du das Fußballspiel gesehen?" } },
+    { "id": "serie", "word": "serie", "article": "la", "gender": "f", "plural": "las series", "de": "die Serie", "pos": "noun", "example": { "text": "Este fin de semana he visto una serie nueva.", "de": "Am Wochenende habe ich eine neue Serie angeschaut." } },
+    { "id": "correo", "word": "correo", "article": "el", "gender": "m", "plural": "los correos", "de": "die E-Mail; die Post", "pos": "noun", "example": { "text": "Esta mañana he escrito tres correos.", "de": "Heute Morgen habe ich drei E-Mails geschrieben.", "focus": "correos" }, "note": "Auch: el correo electrónico. Correos (mit großem C) ist die spanische Post." },
+    { "id": "verdad", "word": "verdad", "article": "la", "gender": "f", "de": "die Wahrheit", "pos": "noun", "example": { "text": "¿Es verdad?", "de": "Stimmt das?" }, "note": "Am Satzende heißt ¿verdad? „nicht wahr?, oder?“: Has descansado, ¿verdad?" },
+    { "id": "genial", "word": "genial", "de": "super; toll; genial", "pos": "adj", "example": { "text": "¡La excursión ha sido genial!", "de": "Der Ausflug war super!" }, "note": "Gleiche Form für männlich und weiblich. Mehrzahl: geniales." },
+    { "id": "tranquilo", "word": "tranquilo", "alt": [ "tranquila" ], "de": "ruhig; entspannt", "pos": "adj", "example": { "text": "Ha sido un fin de semana muy tranquilo.", "de": "Es war ein sehr ruhiges Wochenende." }, "note": "¡Tranquilo! / ¡Tranquila! = Keine Sorge! Ganz ruhig!" },
+    { "id": "menos-mal", "word": "menos mal", "de": "zum Glück; Gott sei Dank", "pos": "phrase", "example": { "text": "He encontrado las llaves. – ¡Menos mal!", "de": "Ich habe die Schlüssel gefunden. – Zum Glück!" } }
+  ],
+  "grammar": [
+    {
+      "id": "preterito-perfecto", "title": "Das pretérito perfecto: he hablado, has comido",
+      "blocks": [
+        { "type": "p", "text": "Mit dem pretérito perfecto erzählst du, was du gemacht hast. Es wird wie das deutsche Perfekt gebildet: eine Form von haber (haben) + Partizip. Anders als im Deutschen gibt es nur ein Hilfsverb – auch bei ir, salir oder levantarse nimmst du haber: He ido. = Ich bin gegangen." },
+        { "type": "table", "head": [ "Person", "haber + Partizip", "Deutsch" ], "rows": [ [ "yo", "he hablado", "ich habe gesprochen" ], [ "tú", "has comido", "du hast gegessen" ], [ "él / ella / usted", "ha vivido", "er / sie hat gewohnt; Sie haben gewohnt" ], [ "nosotros / nosotras", "hemos trabajado", "wir haben gearbeitet" ], [ "vosotros / vosotras", "habéis salido", "ihr seid ausgegangen" ], [ "ellos / ellas / ustedes", "han llegado", "sie sind angekommen; Sie sind angekommen" ] ] },
+        { "type": "p", "text": "So bildest du das Partizip: Verben auf -ar bekommen -ado, Verben auf -er und -ir bekommen -ido." },
+        { "type": "table", "head": [ "Infinitiv", "Partizip", "Beispiel" ], "rows": [ [ "hablar", "hablado", "He hablado con Lucía." ], [ "trabajar", "trabajado", "Hoy he trabajado mucho." ], [ "comer", "comido", "¿Has comido ya?" ], [ "tener", "tenido", "Hoy he tenido clase." ], [ "salir", "salido", "Mis amigos han salido." ], [ "ser", "sido", "Ha sido genial." ], [ "estar", "estado", "¿Has estado en Sevilla?" ], [ "ir", "ido", "Hemos ido al cine." ] ] },
+        { "type": "tip", "text": "Das Partizip ändert sich nie: Lucía ha comido. Mis padres han comido. Zwischen haber und Partizip darf nichts stehen – Verneinung und Pronomen kommen davor: No he comido. Me he levantado." },
+        { "type": "p", "text": "Wann benutzt man es? In Spanien für alles, was in einem Zeitraum passiert ist, der noch nicht vorbei ist oder gerade erst zu Ende ging: heute, heute Morgen, diese Woche, dieses Wochenende. Außerdem für Erfahrungen im Leben: ¿Has estado alguna vez en Madrid?" },
+        { "type": "tip", "text": "Für gestern (ayer) und abgeschlossene Zeiträume wie „letztes Jahr“ benutzt man in Spanien meist eine andere Vergangenheitsform, das indefinido. Das lernst du in Lektion 7. In Lateinamerika hört man das perfecto seltener." },
+        { "type": "examples", "items": [ { "text": "Hoy he trabajado mucho.", "de": "Heute habe ich viel gearbeitet." }, { "text": "¿Has comido ya?", "de": "Hast du schon gegessen?" }, { "text": "Esta mañana nos hemos levantado a las siete.", "de": "Heute Morgen sind wir um sieben aufgestanden." }, { "text": "Mis padres han viajado a Italia esta semana.", "de": "Meine Eltern sind diese Woche nach Italien gereist." }, { "text": "¿Habéis estado alguna vez en Madrid?", "de": "Wart ihr schon einmal in Madrid?" }, { "text": "Jonas no ha ido a clase hoy.", "de": "Jonas ist heute nicht zum Unterricht gegangen." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hoy ___ trabajado mucho.", "answers": [ "he" ], "de": "Heute habe ich viel gearbeitet.", "hint": "haber – yo" },
+        { "type": "cloze", "text": "¿___ comido ya?", "answers": [ "Has" ], "de": "Hast du schon gegessen?", "hint": "haber – tú" },
+        { "type": "cloze", "text": "Lucía ___ llamado a su madre.", "answers": [ "ha" ], "de": "Lucía hat ihre Mutter angerufen.", "hint": "haber" },
+        { "type": "cloze", "text": "Esta semana hemos ___ mucho.", "answers": [ "estudiado" ], "de": "Diese Woche haben wir viel gelernt.", "hint": "estudiar" },
+        { "type": "cloze", "text": "¿Vosotros ___ estado alguna vez en Sevilla?", "answers": [ "habéis" ], "de": "Wart ihr schon einmal in Sevilla?", "hint": "haber" },
+        { "type": "cloze", "text": "Esta mañana me he ___ a las seis.", "answers": [ "levantado" ], "de": "Heute Morgen bin ich um sechs aufgestanden.", "hint": "levantarse" },
+        { "type": "cloze", "text": "Mis amigos han ___ a las diez.", "answers": [ "salido" ], "de": "Meine Freunde sind um zehn losgegangen.", "hint": "salir" },
+        { "type": "translate", "de": "Heute habe ich mit Marta gegessen.", "answers": [ "Hoy he comido con Marta.", "He comido con Marta hoy.", "Hoy yo he comido con Marta.", "Yo hoy he comido con Marta." ] },
+        { "type": "translate", "de": "Wir sind ins Kino gegangen.", "answers": [ "Hemos ido al cine.", "Nosotros hemos ido al cine.", "Nosotras hemos ido al cine." ] },
+        { "type": "order", "de": "Heute Morgen habe ich nicht gefrühstückt.", "answer": "Esta mañana no he desayunado." },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": [ "No he comido.", "He no comido.", "No comido he." ], "answer": 0, "explain": "Die Verneinung steht vor haber. Zwischen he und comido darf nichts stehen." }
+      ]
+    },
+    {
+      "id": "participios-irregulares", "title": "Unregelmäßige Partizipien: hecho, visto, dicho …",
+      "blocks": [
+        { "type": "p", "text": "Einige wichtige Verben haben ein unregelmäßiges Partizip. Diese Formen musst du auswendig lernen – zum Glück sind es nicht viele, und du brauchst sie ständig." },
+        { "type": "table", "head": [ "Infinitiv", "Partizip", "Beispiel", "Deutsch" ], "rows": [ [ "hacer", "hecho", "¿Qué has hecho hoy?", "Was hast du heute gemacht?" ], [ "ver", "visto", "He visto una película.", "Ich habe einen Film gesehen." ], [ "escribir", "escrito", "Lucía ha escrito un correo.", "Lucía hat eine E-Mail geschrieben." ], [ "poner", "puesto", "¿Dónde has puesto las llaves?", "Wo hast du die Schlüssel hingelegt?" ], [ "volver", "vuelto", "Jonas ha vuelto a casa.", "Jonas ist nach Hause zurückgekommen." ], [ "decir", "dicho", "¿Qué ha dicho Diego?", "Was hat Diego gesagt?" ], [ "abrir", "abierto", "He abierto la ventana.", "Ich habe das Fenster aufgemacht." ], [ "romper", "roto", "Mi hermano ha roto la lámpara.", "Mein Bruder hat die Lampe kaputt gemacht." ] ] },
+        { "type": "tip", "text": "Merkhilfe: Die meisten enden auf -to (abierto, escrito, puesto, roto, visto, vuelto), zwei auf -cho (dicho, hecho)." },
+        { "type": "p", "text": "Poner heißt „stellen, legen, setzen“ – du kennst es aus dem Café: ¿Qué le pongo? Me pone un café. Abierto kennst du schon als Adjektiv (la puerta está abierta). Mit haber bleibt es aber immer bei -o: He abierto la puerta." },
+        { "type": "examples", "items": [ { "text": "¿Has visto a Diego hoy?", "de": "Hast du Diego heute gesehen?" }, { "text": "Todavía no he escrito a mi abuela.", "de": "Ich habe meiner Oma noch nicht geschrieben." }, { "text": "¿Dónde has puesto mi móvil?", "de": "Wo hast du mein Handy hingelegt?" }, { "text": "Mis padres ya han vuelto de Italia.", "de": "Meine Eltern sind schon aus Italien zurückgekommen." }, { "text": "No has dicho la verdad.", "de": "Du hast nicht die Wahrheit gesagt." }, { "text": "Este fin de semana hemos hecho muchas cosas.", "de": "Am Wochenende haben wir viele Sachen gemacht." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿Qué has ___ este fin de semana?", "answers": [ "hecho" ], "de": "Was hast du am Wochenende gemacht?", "hint": "hacer" },
+        { "type": "cloze", "text": "Ya he ___ la película.", "answers": [ "visto" ], "de": "Ich habe den Film schon gesehen.", "hint": "ver" },
+        { "type": "cloze", "text": "Lucía ha ___ un correo a su hermano.", "answers": [ "escrito" ], "de": "Lucía hat ihrem Bruder eine E-Mail geschrieben.", "hint": "escribir" },
+        { "type": "cloze", "text": "¿Dónde has ___ las llaves?", "answers": [ "puesto" ], "de": "Wo hast du die Schlüssel hingelegt?", "hint": "poner" },
+        { "type": "cloze", "text": "Mis padres ya han ___ de Italia.", "answers": [ "vuelto" ], "de": "Meine Eltern sind schon aus Italien zurückgekommen.", "hint": "volver" },
+        { "type": "cloze", "text": "¿Qué ha ___ Diego?", "answers": [ "dicho" ], "de": "Was hat Diego gesagt?", "hint": "decir" },
+        { "type": "cloze", "text": "¿Quién ha ___ la ventana?", "answers": [ "abierto" ], "de": "Wer hat das Fenster aufgemacht?", "hint": "abrir" },
+        { "type": "translate", "de": "Was hast du heute gemacht?", "answers": [ "¿Qué has hecho hoy?", "¿Qué has hecho tú hoy?", "¿Hoy qué has hecho?" ] },
+        { "type": "translate", "de": "Wir haben einen Film gesehen.", "answers": [ "Hemos visto una película.", "Nosotros hemos visto una película.", "Nosotras hemos visto una película." ] }
+      ]
+    },
+    {
+      "id": "ya-todavia-alguna-vez", "title": "Schon, noch nicht, schon einmal: Zeitangaben beim perfecto",
+      "blocks": [
+        { "type": "p", "text": "Diese Zeitangaben stehen typischerweise mit dem pretérito perfecto. Sie zeigen: Der Zeitraum ist noch nicht vorbei oder gerade erst zu Ende." },
+        { "type": "table", "head": [ "Spanisch", "Deutsch", "Beispiel" ], "rows": [ [ "hoy", "heute", "Hoy he madrugado." ], [ "esta mañana", "heute Morgen", "Esta mañana he hecho la compra." ], [ "esta tarde", "heute Nachmittag", "Esta tarde he dormido un rato." ], [ "esta semana", "diese Woche", "Esta semana he trabajado mucho." ], [ "este fin de semana", "dieses Wochenende", "Este fin de semana he descansado." ], [ "este año", "dieses Jahr", "Este año he viajado mucho." ] ] },
+        { "type": "p", "text": "Mit ya, todavía no und alguna vez fragst und sagst du, ob etwas schon passiert ist:" },
+        { "type": "table", "head": [ "Frage", "Ja", "Nein" ], "rows": [ [ "¿Ya has comido?", "Sí, ya he comido.", "No, todavía no (he comido)." ], [ "¿Has terminado ya?", "Sí, ya he terminado.", "No, todavía no." ], [ "¿Has estado alguna vez en Madrid?", "Sí, una vez. / Sí, muchas veces.", "No, nunca. / No, no he estado nunca." ] ] },
+        { "type": "tip", "text": "Ya steht meistens vor haber oder am Satzende: Ya he terminado. = He terminado ya. Todavía no steht vor haber, oder no … todavía umrahmt den Satz: Todavía no he terminado. = No he terminado todavía." },
+        { "type": "tip", "text": "Nunca kennst du schon: Nunca he estado en Sevilla. = No he estado nunca en Sevilla. = Ich war noch nie in Sevilla." },
+        { "type": "examples", "items": [ { "text": "¿Has visto ya la exposición? – Sí, esta mañana.", "de": "Hast du die Ausstellung schon gesehen? – Ja, heute Morgen." }, { "text": "Todavía no he hecho la compra.", "de": "Ich habe noch nicht eingekauft." }, { "text": "¿Has estado alguna vez en España? – Sí, dos veces.", "de": "Warst du schon einmal in Spanien? – Ja, zweimal." }, { "text": "Nunca he comido churros.", "de": "Ich habe noch nie Churros gegessen." }, { "text": "Por fin he terminado.", "de": "Endlich bin ich fertig." } ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "¿Has comido ___? – Sí, a las dos.", "answers": [ "ya" ], "de": "Hast du schon gegessen? – Ja, um zwei." },
+        { "type": "cloze", "text": "No, ___ no he visto la serie.", "answers": [ "todavía", "aún" ], "de": "Nein, die Serie habe ich noch nicht gesehen." },
+        { "type": "cloze", "text": "¿Has estado alguna ___ en Valencia?", "answers": [ "vez" ], "de": "Warst du schon einmal in Valencia?" },
+        { "type": "cloze", "text": "___ he estado en Sevilla.", "answers": [ "Nunca" ], "de": "Ich war noch nie in Sevilla." },
+        { "type": "cloze", "text": "Esta ___ he dormido mucho.", "answers": [ "semana" ], "de": "Diese Woche habe ich viel geschlafen." },
+        { "type": "cloze", "text": "___ fin he encontrado mi móvil.", "answers": [ "Por" ], "de": "Endlich habe ich mein Handy gefunden." },
+        { "type": "translate", "de": "Ich habe noch nicht gefrühstückt.", "answers": [ "Todavía no he desayunado.", "No he desayunado todavía.", "Yo todavía no he desayunado.", "Aún no he desayunado.", "No he desayunado aún." ] },
+        { "type": "translate", "de": "Warst du schon einmal in Spanien?", "answers": [ "¿Has estado alguna vez en España?", "¿Alguna vez has estado en España?", "¿Has estado en España alguna vez?", "¿Tú has estado alguna vez en España?", "¿Has estado ya en España?" ] },
+        { "type": "order", "de": "Ich habe schon eingekauft.", "answer": "Ya he hecho la compra." },
+        { "type": "order", "de": "Endlich habe ich mein Handy gefunden.", "answer": "Por fin he encontrado mi móvil.", "distractors": [ "porque" ] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "¿Qué tal el fin de semana?",
+    "title_de": "Wie war dein Wochenende?",
+    "lines": [
+      { "speaker": "Lucía", "text": "¡Hola, Jonas! ¿Qué tal el fin de semana?", "de": "Hallo, Jonas! Wie war dein Wochenende?" },
+      { "speaker": "Jonas", "text": "¡Genial! Lo he pasado muy bien.", "de": "Super! Ich hatte richtig viel Spaß." },
+      { "speaker": "Lucía", "text": "¿Ah, sí? ¿Qué has hecho?", "de": "Ach ja? Was hast du gemacht?" },
+      { "speaker": "Jonas", "text": "He hecho una excursión a la montaña con Diego. Hemos madrugado mucho: ¡a las seis!", "de": "Ich habe mit Diego einen Ausflug in die Berge gemacht. Wir sind sehr früh aufgestanden: um sechs!" },
+      { "speaker": "Lucía", "text": "¡Uf, qué temprano! ¿Y qué tal la excursión?", "de": "Uff, wie früh! Und wie war der Ausflug?" },
+      { "speaker": "Jonas", "text": "Muy bonita. Hemos comido en un pueblo pequeño y hemos vuelto a casa por la noche. ¿Y tú? ¿Qué has hecho?", "de": "Sehr schön. Wir haben in einem kleinen Dorf gegessen und sind abends nach Hause zurückgekommen. Und du? Was hast du gemacht?" },
+      { "speaker": "Lucía", "text": "Yo me he quedado en casa, porque esta semana he trabajado mucho.", "de": "Ich bin zu Hause geblieben, weil ich diese Woche viel gearbeitet habe." },
+      { "speaker": "Lucía", "text": "He limpiado el piso, he hecho la compra y he descansado un rato.", "de": "Ich habe die Wohnung geputzt, eingekauft und mich eine Weile ausgeruht." },
+      { "speaker": "Jonas", "text": "Un fin de semana tranquilo, ¿verdad?", "de": "Ein ruhiges Wochenende, oder?" },
+      { "speaker": "Lucía", "text": "Sí, muy tranquilo. Y por fin he visto la exposición nueva del museo. ¿Tú has ido ya?", "de": "Ja, sehr ruhig. Und endlich habe ich die neue Ausstellung im Museum gesehen. Warst du schon dort?" },
+      { "speaker": "Jonas", "text": "No, todavía no. ¿Cómo es?", "de": "Nein, noch nicht. Wie ist sie?" },
+      { "speaker": "Lucía", "text": "¡Me ha encantado! Hay muchos cuadros de Madrid.", "de": "Sie hat mir total gut gefallen! Es gibt viele Bilder von Madrid." },
+      { "speaker": "Jonas", "text": "¡Ay, no! He olvidado mi libro de español en el coche de Diego.", "de": "Oh nein! Ich habe mein Spanischbuch in Diegos Auto vergessen." },
+      { "speaker": "Lucía", "text": "Tranquilo. ¿Por qué no llamas a Diego? Vive muy cerca.", "de": "Keine Sorge. Warum rufst du Diego nicht an? Er wohnt ganz in der Nähe." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [ [ "hecho", "gemacht" ], [ "visto", "gesehen" ], [ "dicho", "gesagt" ], [ "escrito", "geschrieben" ], [ "vuelto", "zurückgekommen" ], [ "abierto", "geöffnet" ] ] },
+    { "type": "match", "pairs": [ [ "hoy", "heute" ], [ "ya", "schon" ], [ "todavía no", "noch nicht" ], [ "alguna vez", "schon einmal" ], [ "por fin", "endlich" ], [ "un rato", "eine Weile" ] ] },
+    { "type": "translate", "de": "Was hast du am Wochenende gemacht?", "answers": [ "¿Qué has hecho este fin de semana?", "¿Qué has hecho tú este fin de semana?", "Este fin de semana, ¿qué has hecho?", "¿Qué has hecho el fin de semana?" ] },
+    { "type": "translate", "de": "Ich bin zu Hause geblieben und habe mich ausgeruht.", "answers": [ "Me he quedado en casa y he descansado.", "Yo me he quedado en casa y he descansado." ] },
+    { "type": "translate", "de": "Wir haben den Zug verpasst.", "answers": [ "Hemos perdido el tren.", "Nosotros hemos perdido el tren.", "Nosotras hemos perdido el tren." ] },
+    { "type": "translate", "de": "Hast du deine Mutter angerufen?", "answers": [ "¿Has llamado a tu madre?", "¿Tú has llamado a tu madre?" ] },
+    { "type": "order", "de": "Heute Morgen habe ich die Küche geputzt.", "answer": "Esta mañana he limpiado la cocina." },
+    { "type": "order", "de": "Warum hast du nichts gesagt?", "answer": "¿Por qué no has dicho nada?", "distractors": [ "porque" ] },
+    { "type": "cloze", "text": "Lo hemos ___ muy bien en la excursión.", "answers": [ "pasado" ], "de": "Wir hatten auf dem Ausflug viel Spaß.", "hint": "pasar" },
+    { "type": "cloze", "text": "Hoy Lucía ha ___ el piso.", "answers": [ "limpiado" ], "de": "Heute hat Lucía die Wohnung geputzt.", "hint": "limpiar" },
+    { "type": "cloze", "text": "No he salido ___ estoy cansado.", "answers": [ "porque" ], "de": "Ich bin nicht ausgegangen, weil ich müde bin." },
+    { "type": "listen", "text": "¿Has estado alguna vez en Sevilla?", "de": "Warst du schon einmal in Sevilla?" },
+    { "type": "listen", "text": "Este fin de semana me he quedado en casa.", "de": "Am Wochenende bin ich zu Hause geblieben." },
+    { "type": "listen", "text": "Todavía no he hecho la compra.", "de": "Ich habe noch nicht eingekauft." }
+  ]
+}

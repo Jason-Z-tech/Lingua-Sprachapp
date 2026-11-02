@@ -1,0 +1,171 @@
+{
+  "formatVersion": 1,
+  "id": "it-a2-05",
+  "lang": "it",
+  "level": "A2",
+  "number": 5,
+  "title": "Vieni alla mia festa?",
+  "title_de": "Feste und Einladungen",
+  "topic": "Einladen, zusagen und absagen",
+  "goals": [
+    "Du kannst jemanden einladen: Ti va di …? Vieni a …?",
+    "Du kannst zusagen und freundlich absagen – mit Grund: Volentieri! Mi dispiace, non posso perché …",
+    "Du benutzt die Objektpronomen lo, la, li, le – auch im passato prossimo: L'ho visto.",
+    "Du kannst gratulieren und über Feste sprechen: Buon compleanno! Tanti auguri!"
+  ],
+  "vocab": [
+    { "id": "festa", "word": "festa", "article": "la", "gender": "f", "plural": "le feste", "de": "das Fest; die Party", "pos": "noun", "example": { "text": "Sabato faccio una festa a casa mia.", "de": "Am Samstag mache ich eine Party bei mir zu Hause." } },
+    { "id": "compleanno", "word": "compleanno", "article": "il", "gender": "m", "plural": "i compleanni", "de": "der Geburtstag", "pos": "noun", "example": { "text": "Buon compleanno, Sara!", "de": "Alles Gute zum Geburtstag, Sara!" }, "note": "Wann hast du Geburtstag? = Quando è il tuo compleanno?" },
+    { "id": "matrimonio", "word": "matrimonio", "article": "il", "gender": "m", "plural": "i matrimoni", "de": "die Hochzeit", "pos": "noun", "example": { "text": "A giugno andiamo al matrimonio di mio cugino.", "de": "Im Juni gehen wir auf die Hochzeit meines Cousins." } },
+    { "id": "natale", "word": "Natale", "article": "il", "gender": "m", "de": "Weihnachten", "pos": "noun", "example": { "text": "Buon Natale a tutti!", "de": "Frohe Weihnachten euch allen!" }, "note": "An Weihnachten = a Natale. Sprichwort: Natale con i tuoi, Pasqua con chi vuoi. – Weihnachten mit der Familie, Ostern mit wem du willst." },
+    { "id": "pasqua", "word": "Pasqua", "article": "la", "gender": "f", "de": "Ostern", "pos": "noun", "example": { "text": "Buona Pasqua!", "de": "Frohe Ostern!" }, "note": "An Ostern = a Pasqua." },
+    { "id": "capodanno", "word": "Capodanno", "article": "il", "gender": "m", "de": "Silvester; Neujahr", "pos": "noun", "example": { "text": "Cosa fai a Capodanno?", "de": "Was machst du an Silvester?" }, "note": "Um Mitternacht wünscht man sich: Buon anno!" },
+    { "id": "tanti-auguri", "word": "tanti auguri!", "alt": ["auguri!"], "de": "herzlichen Glückwunsch!; alles Gute!", "pos": "interj", "example": { "text": "Tanti auguri, Marco!", "de": "Herzlichen Glückwunsch, Marco!" }, "note": "Passt zu fast jedem Fest: zum Geburtstag, zur Hochzeit, zu Weihnachten." },
+    { "id": "fare-gli-auguri", "word": "fare gli auguri", "de": "gratulieren; Glück wünschen", "pos": "phrase", "example": { "text": "Ieri ho fatto gli auguri a Sara.", "de": "Gestern habe ich Sara gratuliert.", "focus": "fatto gli auguri" }, "note": "Jemandem gratulieren: fare gli auguri a qualcuno." },
+    { "id": "regalo", "word": "regalo", "article": "il", "gender": "m", "plural": "i regali", "de": "das Geschenk", "pos": "noun", "example": { "text": "Ho comprato un regalo per Sara.", "de": "Ich habe ein Geschenk für Sara gekauft." } },
+    { "id": "torta", "word": "torta", "article": "la", "gender": "f", "plural": "le torte", "de": "die Torte; der Kuchen", "pos": "noun", "example": { "text": "Chi ha fatto la torta?", "de": "Wer hat die Torte gemacht?" } },
+    { "id": "candelina", "word": "candelina", "article": "la", "gender": "f", "plural": "le candeline", "de": "die Geburtstagskerze", "pos": "noun", "example": { "text": "Sulla torta ci sono trenta candeline.", "de": "Auf der Torte sind dreißig Kerzen.", "focus": "candeline" }, "note": "Die Kerzen auspusten: spegnere le candeline." },
+    { "id": "invito", "word": "invito", "article": "l'", "gender": "m", "plural": "gli inviti", "de": "die Einladung", "pos": "noun", "example": { "text": "Grazie per l'invito!", "de": "Danke für die Einladung!" } },
+    { "id": "invitare", "word": "invitare", "de": "einladen", "pos": "verb", "forms": "invito, inviti, invita …", "example": { "text": "Voglio invitare tutti i miei amici.", "de": "Ich will alle meine Freunde einladen." } },
+    { "id": "festeggiare", "word": "festeggiare", "de": "feiern", "pos": "verb", "forms": "festeggio, festeggi, festeggia …", "example": { "text": "Come festeggi il tuo compleanno?", "de": "Wie feierst du deinen Geburtstag?", "focus": "festeggi" } },
+    { "id": "regalare", "word": "regalare", "de": "schenken", "pos": "verb", "forms": "regalo, regali, regala …", "example": { "text": "Cosa regaliamo a Giulia?", "de": "Was schenken wir Giulia?", "focus": "regaliamo" } },
+    { "id": "ospite", "word": "ospite", "article": "l'", "gender": "m", "plural": "gli ospiti", "de": "der Gast", "pos": "noun", "example": { "text": "Alla festa ci sono venti ospiti.", "de": "Auf der Party sind zwanzig Gäste.", "focus": "ospiti" }, "note": "Für Männer und Frauen gleich: l'ospite." },
+    { "id": "ti-va-di", "word": "ti va di …?", "alt": ["ti va di"], "de": "hast du Lust …?", "pos": "phrase", "example": { "text": "Ti va di venire al cinema?", "de": "Hast du Lust, ins Kino zu kommen?" }, "note": "Danach kommt ein Infinitiv. Höflich (Lei): Le va di …?" },
+    { "id": "avere-voglia-di", "word": "avere voglia di", "de": "Lust haben auf; Lust haben zu", "pos": "phrase", "example": { "text": "Hai voglia di uscire stasera?", "de": "Hast du Lust, heute Abend auszugehen?", "focus": "voglia di" }, "note": "Mit Nomen oder Infinitiv: Ho voglia di un gelato. Ho voglia di ballare." },
+    { "id": "volentieri", "word": "volentieri", "de": "gern", "pos": "adv", "example": { "text": "Vengo volentieri!", "de": "Ich komme gern!" } },
+    { "id": "con-piacere", "word": "con piacere", "de": "mit Vergnügen; sehr gern", "pos": "phrase", "example": { "text": "Sì, con piacere!", "de": "Ja, sehr gern!" } },
+    { "id": "mi-dispiace", "word": "mi dispiace", "de": "es tut mir leid", "pos": "phrase", "example": { "text": "Mi dispiace, sabato non posso.", "de": "Es tut mir leid, am Samstag kann ich nicht." } },
+    { "id": "purtroppo", "word": "purtroppo", "de": "leider", "pos": "adv", "example": { "text": "Purtroppo devo lavorare.", "de": "Leider muss ich arbeiten." } },
+    { "id": "perche", "word": "perché", "de": "weil; warum", "pos": "conj", "example": { "text": "Non posso venire perché lavoro.", "de": "Ich kann nicht kommen, weil ich arbeite." }, "note": "Als Frage: Perché? = Warum? Die Antwort beginnt auch mit perché: Perché lavoro. = Weil ich arbeite." },
+    { "id": "d-accordo", "word": "d'accordo", "de": "einverstanden; in Ordnung", "pos": "phrase", "example": { "text": "D'accordo, ci vediamo alle otto!", "de": "Einverstanden, wir sehen uns um acht!" } },
+    { "id": "peccato", "word": "peccato", "de": "schade", "pos": "interj", "example": { "text": "Non puoi venire? Che peccato!", "de": "Du kannst nicht kommen? Wie schade!" }, "note": "Peccato! oder Che peccato! = Schade!" },
+    { "id": "magari", "word": "magari", "de": "vielleicht; gern (als Antwort)", "pos": "adv", "example": { "text": "Oggi no, magari un'altra volta.", "de": "Heute nicht, vielleicht ein anderes Mal." }, "note": "Als Antwort auf einen Vorschlag heißt Magari! auch „Das wäre schön!“." },
+    { "id": "un-altra-volta", "word": "un'altra volta", "de": "ein anderes Mal", "pos": "phrase", "example": { "text": "Stasera non posso, ma un'altra volta vengo volentieri.", "de": "Heute Abend kann ich nicht, aber ein anderes Mal komme ich gern." } },
+    { "id": "impegno", "word": "impegno", "article": "l'", "gender": "m", "plural": "gli impegni", "de": "die Verpflichtung; etwas, das man vorhat", "pos": "noun", "example": { "text": "Mi dispiace, domenica ho già un impegno.", "de": "Es tut mir leid, am Sonntag habe ich schon etwas vor." }, "note": "ho un impegno = ich habe schon etwas vor (eine Verabredung, einen Termin)." },
+    { "id": "stasera", "word": "stasera", "de": "heute Abend", "pos": "adv", "example": { "text": "Cosa fai stasera?", "de": "Was machst du heute Abend?" } },
+    { "id": "sposarsi", "word": "sposarsi", "de": "heiraten", "pos": "verb", "forms": "mi sposo, ti sposi, si sposa …", "example": { "text": "Mia cugina si sposa a settembre.", "de": "Meine Cousine heiratet im September.", "focus": "si sposa" }, "note": "Wen? sposarsi con qualcuno: Si sposa con Anna." },
+    { "id": "brindare", "word": "brindare", "de": "anstoßen", "pos": "verb", "forms": "brindo, brindi, brinda …", "example": { "text": "Brindiamo a Sara! Cin cin!", "de": "Lasst uns auf Sara anstoßen! Prost!", "focus": "brindiamo" }, "note": "Beim Anstoßen sagt man Cin cin! oder Salute!" },
+    { "id": "sorpresa", "word": "sorpresa", "article": "la", "gender": "f", "plural": "le sorprese", "de": "die Überraschung", "pos": "noun", "example": { "text": "È una festa a sorpresa!", "de": "Es ist eine Überraschungsparty!" } },
+    { "id": "spumante", "word": "spumante", "article": "lo", "gender": "m", "plural": "gli spumanti", "de": "der Sekt", "pos": "noun", "example": { "text": "Porto una bottiglia di spumante.", "de": "Ich bringe eine Flasche Sekt mit." } },
+    { "id": "fiore", "word": "fiore", "article": "il", "gender": "m", "plural": "i fiori", "de": "die Blume", "pos": "noun", "example": { "text": "Per la festa porto dei fiori.", "de": "Zur Party bringe ich Blumen mit.", "focus": "fiori" } },
+    { "id": "ricevere", "word": "ricevere", "de": "bekommen; erhalten", "pos": "verb", "forms": "ricevo, ricevi, riceve … – Partizip: ricevuto", "example": { "text": "Ho ricevuto un invito per un matrimonio.", "de": "Ich habe eine Einladung zu einer Hochzeit bekommen.", "focus": "ricevuto" } },
+    { "id": "conoscere", "word": "conoscere", "de": "kennen; kennenlernen", "pos": "verb", "forms": "conosco, conosci, conosce, conosciamo, conoscete, conoscono", "example": { "text": "Conosci Chiara? – No, non la conosco.", "de": "Kennst du Chiara? – Nein, ich kenne sie nicht.", "focus": "conosco" }, "note": "Aussprache: conosco mit „sk“, conosci und conosce mit „sch“." },
+    { "id": "accettare", "word": "accettare", "de": "annehmen", "pos": "verb", "forms": "accetto, accetti, accetta …", "example": { "text": "Accetto volentieri l'invito.", "de": "Ich nehme die Einladung gern an.", "focus": "accetto" } },
+    { "id": "organizzare", "word": "organizzare", "de": "organisieren", "pos": "verb", "forms": "organizzo, organizzi, organizza …", "example": { "text": "Chi organizza la festa?", "de": "Wer organisiert die Party?", "focus": "organizza" } },
+    { "id": "dimenticare", "word": "dimenticare", "de": "vergessen", "pos": "verb", "forms": "dimentico, dimentichi, dimentica …", "example": { "text": "Ho dimenticato il regalo a casa!", "de": "Ich habe das Geschenk zu Hause vergessen!", "focus": "dimenticato" } }
+  ],
+  "grammar": [
+    {
+      "id": "invitare",
+      "title": "Einladen, zusagen, absagen",
+      "blocks": [
+        { "type": "p", "text": "So lädst du jemanden ein oder machst einen Vorschlag:" },
+        { "type": "table", "head": ["Italienisch", "Deutsch"], "rows": [["Ti va di venire al cinema?", "Hast du Lust, ins Kino zu kommen?"], ["Hai voglia di uscire stasera?", "Hast du Lust, heute Abend auszugehen?"], ["Vieni alla mia festa?", "Kommst du zu meiner Party?"], ["Vieni a cena da me?", "Kommst du zu mir zum Abendessen?"], ["Perché non facciamo una gita?", "Warum machen wir nicht einen Ausflug?"], ["Andiamo a ballare?", "Gehen wir tanzen?"]] },
+        { "type": "tip", "text": "Höflich (Lei): Le va di …? = Hätten Sie Lust …? Vuole venire …? = Möchten Sie … kommen?" },
+        { "type": "p", "text": "Zusagen:" },
+        { "type": "list", "items": ["Volentieri! / Con piacere! – Gern! / Sehr gern!", "Certo! / Perché no? – Klar! / Warum nicht?", "D'accordo! / Va bene! – Einverstanden! / In Ordnung!"] },
+        { "type": "p", "text": "Absagen – am besten mit einem Grund (perché = weil):" },
+        { "type": "list", "items": ["Mi dispiace, non posso perché lavoro. – Tut mir leid, ich kann nicht, weil ich arbeite.", "Purtroppo ho già un impegno. – Leider habe ich schon etwas vor.", "Magari un'altra volta! – Vielleicht ein anderes Mal!"] },
+        { "type": "tip", "text": "Nach perché bleibt die Satzstellung ganz normal – das Verb wandert nicht ans Ende wie im Deutschen: … perché devo lavorare. = … weil ich arbeiten muss." },
+        { "type": "examples", "items": [{ "text": "Ti va di venire alla mia festa sabato? – Sì, volentieri!", "de": "Hast du Lust, am Samstag zu meiner Party zu kommen? – Ja, gern!" }, { "text": "Hai voglia di andare al cinema stasera? – Mi dispiace, non posso: sono stanca.", "de": "Hast du Lust, heute Abend ins Kino zu gehen? – Tut mir leid, ich kann nicht: Ich bin müde." }, { "text": "Vieni a cena da noi domenica? – Purtroppo no, ho già un impegno.", "de": "Kommst du am Sonntag zu uns zum Abendessen? – Leider nicht, ich habe schon etwas vor." }, { "text": "Perché non vieni? – Perché devo lavorare.", "de": "Warum kommst du nicht? – Weil ich arbeiten muss." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Ti ___ di venire al cinema?", "answers": ["va"], "de": "Hast du Lust, ins Kino zu kommen?" },
+        { "type": "cloze", "text": "Hai ___ di uscire stasera?", "answers": ["voglia"], "de": "Hast du Lust, heute Abend auszugehen?" },
+        { "type": "cloze", "text": "Mi ___, non posso venire.", "answers": ["dispiace"], "de": "Es tut mir leid, ich kann nicht kommen." },
+        { "type": "cloze", "text": "Non posso ___ devo lavorare.", "answers": ["perché"], "de": "Ich kann nicht, weil ich arbeiten muss." },
+        { "type": "cloze", "text": "Vengo ___!", "answers": ["volentieri", "con piacere"], "de": "Ich komme gern!" },
+        { "type": "cloze", "text": "Oggi non posso. Magari un'___ volta!", "answers": ["altra"], "de": "Heute kann ich nicht. Vielleicht ein anderes Mal!" },
+        { "type": "match", "pairs": [["Volentieri!", "Gern!"], ["Mi dispiace.", "Es tut mir leid."], ["Purtroppo no.", "Leider nicht."], ["D'accordo!", "Einverstanden!"], ["Che peccato!", "Wie schade!"]] },
+        { "type": "translate", "de": "Hast du Lust, heute Abend zu tanzen?", "answers": ["Ti va di ballare stasera?", "Hai voglia di ballare stasera?", "Stasera ti va di ballare?", "Stasera hai voglia di ballare?"] },
+        { "type": "translate", "de": "Leider kann ich nicht, weil ich arbeite.", "answers": ["Purtroppo non posso perché lavoro.", "Purtroppo non posso perché devo lavorare.", "Purtroppo io non posso perché lavoro.", "Purtroppo non posso perché io lavoro."] },
+        { "type": "listen", "text": "Grazie per l'invito, vengo con piacere!", "de": "Danke für die Einladung, ich komme sehr gern!" }
+      ]
+    },
+    {
+      "id": "pronomi-diretti",
+      "title": "Direkte Objektpronomen: lo, la, li, le",
+      "blocks": [
+        { "type": "p", "text": "Damit du ein Nomen nicht wiederholen musst, ersetzt du es durch ein Pronomen: Conosci Marco? – Sì, lo conosco. (Ja, ich kenne ihn.) Das Pronomen steht vor dem konjugierten Verb." },
+        { "type": "table", "head": ["Deutsch", "Pronomen", "Beispiel"], "rows": [["mich", "mi", "Mi inviti?"], ["dich", "ti", "Ti chiamo stasera."], ["ihn (männlich)", "lo", "Marco? Lo conosco bene."], ["sie (weiblich); Sie (höflich)", "la", "Giulia? La invito sabato."], ["uns", "ci", "Ci aspetti?"], ["euch", "vi", "Vi invito alla festa."], ["sie (Mehrzahl, männlich)", "li", "I fiori? Li porto io."], ["sie (Mehrzahl, weiblich)", "le", "Le candeline? Le compra Sara."]] },
+        { "type": "tip", "text": "Lo und la stehen auch für Sachen: Il regalo? Lo compro io. = Das Geschenk? Das kaufe ich. La torta? La faccio io. = Die Torte? Die mache ich." },
+        { "type": "tip", "text": "Verneint: non + Pronomen + Verb – Non lo conosco. = Ich kenne ihn nicht." },
+        { "type": "p", "text": "Mit einem Infinitiv (zum Beispiel nach volere, potere, dovere) hast du zwei Möglichkeiten: Das Pronomen steht vor dem konjugierten Verb, oder du hängst es an den Infinitiv. Der Infinitiv verliert dann sein -e: Lo voglio invitare. = Voglio invitarlo." },
+        { "type": "examples", "items": [{ "text": "Conosci Giulia? – Sì, la conosco bene.", "de": "Kennst du Giulia? – Ja, ich kenne sie gut." }, { "text": "Il regalo? Lo compro domani.", "de": "Das Geschenk? Das kaufe ich morgen." }, { "text": "Inviti anche i tuoi colleghi? – Sì, li invito tutti.", "de": "Lädst du auch deine Kollegen ein? – Ja, ich lade sie alle ein." }, { "text": "Le candeline? Non le trovo!", "de": "Die Kerzen? Ich finde sie nicht!" }, { "text": "Marco? Voglio invitarlo alla festa.", "de": "Marco? Ich will ihn zur Party einladen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Conosci Marco? – Sì, ___ conosco.", "answers": ["lo"], "de": "Kennst du Marco? – Ja, ich kenne ihn." },
+        { "type": "cloze", "text": "La torta? ___ faccio io.", "answers": ["la"], "de": "Die Torte? Die mache ich." },
+        { "type": "cloze", "text": "I fiori? ___ porta Lena.", "answers": ["li"], "de": "Die Blumen? Die bringt Lena mit." },
+        { "type": "cloze", "text": "Le candeline? Non ___ trovo.", "answers": ["le"], "de": "Die Kerzen? Ich finde sie nicht." },
+        { "type": "cloze", "text": "Sara, ___ chiamo stasera!", "answers": ["ti"], "de": "Sara, ich rufe dich heute Abend an!" },
+        { "type": "cloze", "text": "Ragazzi, ___ invito alla mia festa!", "answers": ["vi"], "de": "Leute, ich lade euch zu meiner Party ein!" },
+        { "type": "cloze", "text": "Lo spumante? Posso ___ io.", "answers": ["portarlo"], "de": "Den Sekt? Den kann ich mitbringen.", "hint": "portare + lo" },
+        { "type": "order", "de": "Ich kenne sie nicht.", "answer": "Non la conosco." },
+        { "type": "translate", "de": "Kennst du Sara? – Ja, ich kenne sie.", "answers": ["Conosci Sara? Sì, la conosco.", "Tu conosci Sara? Sì, la conosco.", "Conosci Sara? Sì, io la conosco."] },
+        { "type": "listen", "text": "Il regalo per Sara? Lo compro domani in centro.", "de": "Das Geschenk für Sara? Das kaufe ich morgen im Zentrum." }
+      ]
+    },
+    {
+      "id": "pronomi-passato",
+      "title": "Pronomen im passato prossimo: l'ho visto, l'ho vista",
+      "blocks": [
+        { "type": "p", "text": "Im passato prossimo steht das Pronomen vor avere. Lo und la werden vor ho, hai, ha, abbiamo … zu l': l'ho visto, l'abbiamo invitata." },
+        { "type": "p", "text": "Wichtig: Das Partizip passt sich an das Pronomen an – auch mit avere! Wie bei essere bekommt es die Endung -o, -a, -i oder -e." },
+        { "type": "table", "head": ["Frage", "Antwort"], "rows": [["Hai visto Marco?", "Sì, l'ho visto."], ["Hai visto Giulia?", "Sì, l'ho vista."], ["Hai invitato i tuoi colleghi?", "Sì, li ho invitati."], ["Hai comprato le candeline?", "Sì, le ho comprate."]] },
+        { "type": "tip", "text": "Li und le werden nie zu l' verkürzt: li ho visti, le ho viste." },
+        { "type": "tip", "text": "Verneint: Non l'ho visto. = Ich habe ihn nicht gesehen. Non le ho ancora comprate. = Ich habe sie noch nicht gekauft." },
+        { "type": "examples", "items": [{ "text": "La torta? L'ha fatta Sara.", "de": "Die Torte? Die hat Sara gemacht." }, { "text": "Il regalo? L'ho dimenticato a casa!", "de": "Das Geschenk? Das habe ich zu Hause vergessen!" }, { "text": "Gli inviti? Li abbiamo mandati ieri.", "de": "Die Einladungen? Die haben wir gestern verschickt." }, { "text": "Hai già chiamato Lena? – No, non l'ho ancora chiamata.", "de": "Hast du Lena schon angerufen? – Nein, ich habe sie noch nicht angerufen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Hai visto Marco? – Sì, l'ho ___.", "answers": ["visto"], "de": "Hast du Marco gesehen? – Ja, ich habe ihn gesehen." },
+        { "type": "cloze", "text": "Hai visto Giulia? – Sì, l'ho ___.", "answers": ["vista"], "de": "Hast du Giulia gesehen? – Ja, ich habe sie gesehen." },
+        { "type": "cloze", "text": "La torta? L'ha ___ Sara.", "answers": ["fatta"], "de": "Die Torte? Die hat Sara gemacht." },
+        { "type": "cloze", "text": "I fiori? Li ho ___ io.", "answers": ["comprati"], "de": "Die Blumen? Die habe ich gekauft.", "hint": "comprare" },
+        { "type": "cloze", "text": "Le foto? Le ho ___ a tutti.", "answers": ["mandate"], "de": "Die Fotos? Die habe ich allen geschickt.", "hint": "mandare" },
+        { "type": "cloze", "text": "Hai invitato Paolo? – No, non l'ho ancora ___.", "answers": ["invitato"], "de": "Hast du Paolo eingeladen? – Nein, ich habe ihn noch nicht eingeladen." },
+        { "type": "choice", "prompt": "„Die Kerzen? Die habe ich vergessen.“ Was ist richtig?", "options": ["Le candeline? L'ho dimenticate.", "Le candeline? Le ho dimenticate.", "Le candeline? Le ho dimenticato."], "answer": 1, "explain": "le wird nicht verkürzt, und das Partizip passt sich an: le ho dimenticate." },
+        { "type": "translate", "de": "Die Torte? Die habe ich gemacht.", "answers": ["La torta? L'ho fatta io.", "La torta? L'ho fatta.", "La torta l'ho fatta io.", "La torta? Io l'ho fatta."] },
+        { "type": "order", "de": "Ich habe ihn gestern gesehen.", "answer": "L'ho visto ieri." },
+        { "type": "listen", "text": "Hai comprato le candeline? – Sì, le ho comprate stamattina.", "de": "Hast du die Kerzen gekauft? – Ja, ich habe sie heute Morgen gekauft." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Una festa a sorpresa",
+    "title_de": "Eine Überraschungsparty",
+    "lines": [
+      { "speaker": "Lena", "text": "Marco, sabato è il compleanno di Sara. Organizziamo una festa a sorpresa?", "de": "Marco, am Samstag hat Sara Geburtstag. Organisieren wir eine Überraschungsparty?" },
+      { "speaker": "Marco", "text": "Che bella idea! La facciamo da me? Il mio appartamento è grande.", "de": "Was für eine schöne Idee! Machen wir sie bei mir? Meine Wohnung ist groß." },
+      { "speaker": "Lena", "text": "Perfetto! Chi invitiamo?", "de": "Perfekt! Wen laden wir ein?" },
+      { "speaker": "Marco", "text": "Giulia, Luca, Paolo… e i colleghi di Sara. Li conosci?", "de": "Giulia, Luca, Paolo … und Saras Kollegen. Kennst du sie?" },
+      { "speaker": "Lena", "text": "Sì, li conosco. Li invito io domani.", "de": "Ja, ich kenne sie. Ich lade sie morgen ein." },
+      { "speaker": "Marco", "text": "E la torta?", "de": "Und die Torte?" },
+      { "speaker": "Lena", "text": "La faccio io! Tu compri lo spumante e le candeline, d'accordo?", "de": "Die mache ich! Du kaufst den Sekt und die Kerzen, einverstanden?" },
+      { "speaker": "Marco", "text": "D'accordo. Ma è una sorpresa: non dire niente a Sara!", "de": "Einverstanden. Aber es ist eine Überraschung: Sag Sara nichts!" },
+      { "speaker": "Sara", "text": "Ciao, ragazzi! Di cosa parlate?", "de": "Hallo, ihr zwei! Worüber redet ihr?" },
+      { "speaker": "Lena", "text": "Di… niente! Senti, Sara, ti va di venire al cinema con me sabato sera?", "de": "Über … nichts! Hör mal, Sara, hast du Lust, am Samstagabend mit mir ins Kino zu gehen?" },
+      { "speaker": "Sara", "text": "Sabato è il mio compleanno… ma d'accordo, vengo volentieri!", "de": "Am Samstag ist mein Geburtstag … aber gut, ich komme gern mit!" },
+      { "speaker": "Marco", "text": "Il tuo compleanno? Allora tanti auguri!", "de": "Dein Geburtstag? Dann alles Gute!" },
+      { "speaker": "Sara", "text": "No, Marco! Gli auguri prima del compleanno portano sfortuna!", "de": "Nein, Marco! Glückwünsche vor dem Geburtstag bringen Unglück!" },
+      { "speaker": "Lena", "text": "Allora facciamo gli auguri sabato!", "de": "Dann gratulieren wir am Samstag!" },
+      { "speaker": "Sara", "text": "Va bene. A sabato, allora!", "de": "Okay. Dann bis Samstag!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["il compleanno", "der Geburtstag"], ["il matrimonio", "die Hochzeit"], ["il Natale", "Weihnachten"], ["la Pasqua", "Ostern"], ["il Capodanno", "Silvester"]] },
+    { "type": "match", "pairs": [["il regalo", "das Geschenk"], ["la torta", "die Torte"], ["l'invito", "die Einladung"], ["l'ospite", "der Gast"], ["la sorpresa", "die Überraschung"]] },
+    { "type": "translate", "de": "Alles Gute zum Geburtstag!", "answers": ["Buon compleanno!", "Tanti auguri!", "Tanti auguri di buon compleanno!", "Auguri!"] },
+    { "type": "translate", "de": "Hast du Lust, ins Kino zu gehen?", "answers": ["Ti va di andare al cinema?", "Hai voglia di andare al cinema?"] },
+    { "type": "translate", "de": "Es tut mir leid, ich habe schon etwas vor.", "answers": ["Mi dispiace, ho già un impegno.", "Mi dispiace, ho già un altro impegno."] },
+    { "type": "translate", "de": "Den Sekt? Den habe ich vergessen!", "answers": ["Lo spumante? L'ho dimenticato!", "Lo spumante? L'ho dimenticato io!", "Lo spumante l'ho dimenticato!"] },
+    { "type": "cloze", "text": "Grazie per l'___!", "answers": ["invito"], "de": "Danke für die Einladung!" },
+    { "type": "cloze", "text": "Sulla torta ci sono trenta ___.", "answers": ["candeline"], "de": "Auf der Torte sind dreißig Kerzen." },
+    { "type": "cloze", "text": "Come ___ il tuo compleanno?", "answers": ["festeggi"], "de": "Wie feierst du deinen Geburtstag?", "hint": "festeggiare" },
+    { "type": "cloze", "text": "Non puoi venire? Che ___!", "answers": ["peccato"], "de": "Du kannst nicht kommen? Wie schade!" },
+    { "type": "order", "de": "Gestern habe ich Sara gratuliert.", "answer": "Ieri ho fatto gli auguri a Sara." },
+    { "type": "order", "de": "Kommst du zu meiner Party?", "answer": "Vieni alla mia festa?" },
+    { "type": "listen", "text": "Sabato faccio una festa per il mio compleanno: vieni anche tu?", "de": "Am Samstag mache ich eine Party zu meinem Geburtstag: Kommst du auch?" },
+    { "type": "listen", "text": "Mi dispiace, non posso venire perché lavoro fino a tardi.", "de": "Es tut mir leid, ich kann nicht kommen, weil ich bis spät arbeite." }
+  ]
+}
