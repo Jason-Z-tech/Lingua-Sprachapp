@@ -1,0 +1,99 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-03",
+  "lang": "es",
+  "level": "A1",
+  "title": "En el mercado",
+  "title_de": "Auf dem Markt",
+  "setting_de": "Du kaufst auf dem Mercado Central in Valencia an einem Obst- und Gemüsestand ein. Sag, wie viel du möchtest, wähl Größe und Farbe und frag nach dem Preis.",
+  "partner": "Vendedora",
+  "steps": [
+    {
+      "partner": "¡Buenos días! ¿Qué le pongo?",
+      "de": "Guten Morgen! Was darf es sein?",
+      "hint_de": "Bestell eine Menge Obst oder Gemüse.",
+      "replies": [
+        { "text": "Un kilo de tomates, por favor.", "de": "Ein Kilo Tomaten, bitte." },
+        { "text": "Medio kilo de fresas, por favor.", "de": "Ein halbes Kilo Erdbeeren, bitte." },
+        { "text": "Quería un kilo de naranjas.", "de": "Ich hätte gern ein Kilo Orangen." }
+      ]
+    },
+    {
+      "partner": "Aquí tiene. ¿Algo más?",
+      "de": "Bitte schön. Noch etwas?",
+      "hint_de": "Du möchtest noch eine Melone.",
+      "replies": [
+        { "text": "Sí, un melón, por favor.", "de": "Ja, eine Melone, bitte." },
+        { "text": "¿Tiene melones?", "de": "Haben Sie Melonen?" },
+        { "text": "Sí, quería también un melón.", "de": "Ja, ich hätte auch gern eine Melone." }
+      ]
+    },
+    {
+      "partner": "Sí, claro. ¿Lo quiere grande o pequeño?",
+      "de": "Ja, natürlich. Darf es eine große oder eine kleine sein?",
+      "hint_de": "Sag, welche Größe du möchtest.",
+      "replies": [
+        { "text": "Uno grande, por favor.", "de": "Eine große, bitte." },
+        { "text": "Uno pequeño, por favor.", "de": "Eine kleine, bitte." }
+      ]
+    },
+    {
+      "partner": "Aquí tiene. Mire, hoy también tengo manzanas muy buenas, rojas y verdes.",
+      "de": "Bitte schön. Schauen Sie, heute habe ich auch sehr gute Äpfel, rote und grüne.",
+      "hint_de": "Frag, was die Äpfel kosten.",
+      "replies": [
+        { "text": "¿A cuánto están?", "de": "Was kosten sie?" },
+        { "text": "¿Cuánto cuesta el kilo?", "de": "Was kostet das Kilo?" },
+        { "text": "¿Cuánto cuestan las manzanas?", "de": "Was kosten die Äpfel?" }
+      ]
+    },
+    {
+      "partner": "Están a dos euros el kilo.",
+      "de": "Das Kilo kostet zwei Euro.",
+      "hint_de": "Bestell Äpfel – sag, wie viele und welche Farbe.",
+      "replies": [
+        { "text": "Medio kilo de manzanas rojas, por favor.", "de": "Ein halbes Kilo rote Äpfel, bitte." },
+        { "text": "Un kilo de las verdes, por favor.", "de": "Ein Kilo von den grünen, bitte." },
+        { "text": "Vale, cuatro rojas, por favor.", "de": "Okay, vier rote, bitte." }
+      ]
+    },
+    {
+      "partner": "Aquí las tiene. ¿Le pongo algo más?",
+      "de": "Bitte schön. Darf es noch etwas sein?",
+      "hint_de": "Sag, dass das alles ist, und frag nach dem Preis.",
+      "replies": [
+        { "text": "No, nada más. ¿Cuánto es?", "de": "Nein, sonst nichts. Wie viel macht das?" },
+        { "text": "No, gracias. ¿Cuánto es todo?", "de": "Nein, danke. Wie viel macht alles zusammen?" },
+        { "text": "Nada más, gracias. ¿Qué le debo?", "de": "Sonst nichts, danke. Was bin ich Ihnen schuldig?" }
+      ]
+    },
+    {
+      "partner": "Pues son ocho euros con setenta.",
+      "de": "Dann macht das acht Euro siebzig.",
+      "hint_de": "Bezahl – bar oder mit Karte.",
+      "replies": [
+        { "text": "Aquí tiene diez euros.", "de": "Hier sind zehn Euro." },
+        { "text": "¿Puedo pagar con tarjeta?", "de": "Kann ich mit Karte zahlen?" }
+      ]
+    },
+    {
+      "partner": "Perfecto. ¡Muchas gracias y hasta la próxima!",
+      "de": "Perfekt. Vielen Dank und bis zum nächsten Mal!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "Gracias a usted. ¡Adiós!", "de": "Ich danke Ihnen. Auf Wiedersehen!" },
+        { "text": "¡Hasta pronto!", "de": "Bis bald!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "¿Qué le pongo?", "de": "Was darf es sein?" },
+    { "text": "un kilo de …", "de": "ein Kilo …" },
+    { "text": "medio kilo", "de": "ein halbes Kilo" },
+    { "text": "¿A cuánto están?", "de": "Was kosten sie? (auf dem Markt)" },
+    { "text": "¿Cuánto cuesta …?", "de": "Was kostet …?" },
+    { "text": "grande / pequeño", "de": "groß / klein" },
+    { "text": "rojo / verde", "de": "rot / grün" },
+    { "text": "la manzana", "de": "der Apfel" }
+  ]
+}

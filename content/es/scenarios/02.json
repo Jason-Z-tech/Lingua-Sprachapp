@@ -1,0 +1,90 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-02",
+  "lang": "es",
+  "level": "A1",
+  "title": "¿Por dónde se va?",
+  "title_de": "Nach dem Weg fragen",
+  "setting_de": "Du bist zum ersten Mal in Sevilla und schaust ratlos auf deinen Stadtplan. Eine Frau spricht dich an – frag sie nach dem Weg und bedank dich.",
+  "partner": "Transeúnte",
+  "steps": [
+    {
+      "partner": "Perdone, ¿busca algo? ¿Le puedo ayudar?",
+      "de": "Entschuldigung, suchen Sie etwas? Kann ich Ihnen helfen?",
+      "hint_de": "Sag, wohin du möchtest: zum Bahnhof, ins Museum oder zur U-Bahn.",
+      "replies": [
+        { "text": "Sí, por favor. ¿Dónde está la estación de tren?", "de": "Ja, bitte. Wo ist der Bahnhof?" },
+        { "text": "Sí, gracias. Busco el Museo de Bellas Artes.", "de": "Ja, danke. Ich suche das Kunstmuseum." },
+        { "text": "Sí. ¿Hay una estación de metro por aquí?", "de": "Ja. Gibt es hier in der Nähe eine U-Bahn-Station?" }
+      ]
+    },
+    {
+      "partner": "Sí, claro. Siga todo recto por esta calle y luego gire a la izquierda.",
+      "de": "Ja, klar. Gehen Sie diese Straße geradeaus und biegen Sie dann links ab.",
+      "hint_de": "Du hast nicht alles verstanden. Bitte darum, es zu wiederholen – oder frag nach.",
+      "replies": [
+        { "text": "Perdone, ¿puede repetir, por favor?", "de": "Entschuldigung, können Sie das bitte wiederholen?" },
+        { "text": "Más despacio, por favor.", "de": "Etwas langsamer, bitte." },
+        { "text": "¿Todo recto y luego a la izquierda?", "de": "Geradeaus und dann links?" }
+      ]
+    },
+    {
+      "partner": "Claro. Primero todo recto… y luego, a la izquierda.",
+      "de": "Klar. Zuerst geradeaus … und dann links.",
+      "hint_de": "Frag, ob es weit ist.",
+      "replies": [
+        { "text": "¿Está lejos?", "de": "Ist es weit?" },
+        { "text": "¿Está cerca de aquí?", "de": "Ist es hier in der Nähe?" },
+        { "text": "¿Puedo ir a pie?", "de": "Kann ich zu Fuß gehen?" }
+      ]
+    },
+    {
+      "partner": "Está muy cerca, a unos diez minutos a pie.",
+      "de": "Es ist ganz nah, etwa zehn Minuten zu Fuß.",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "¡Muchas gracias! Muy amable.", "de": "Vielen Dank! Sehr freundlich." },
+        { "text": "Vale, muchas gracias.", "de": "Okay, vielen Dank." },
+        { "text": "¡Perfecto! Mil gracias.", "de": "Perfekt! Tausend Dank." }
+      ]
+    },
+    {
+      "partner": "De nada. Por cierto, ¿de dónde es usted?",
+      "de": "Gern geschehen. Woher kommen Sie eigentlich?",
+      "hint_de": "Sag, woher du kommst.",
+      "replies": [
+        { "text": "Soy de Alemania.", "de": "Ich komme aus Deutschland." },
+        { "text": "Soy de Austria, de Viena.", "de": "Ich komme aus Österreich, aus Wien." },
+        { "text": "Soy de Suiza.", "de": "Ich komme aus der Schweiz." }
+      ]
+    },
+    {
+      "partner": "¡Ah, qué bien! Pues habla usted muy bien español.",
+      "de": "Ah, wie schön! Sie sprechen aber sehr gut Spanisch.",
+      "hint_de": "Reagiere auf das Kompliment.",
+      "replies": [
+        { "text": "Gracias, pero solo hablo un poco.", "de": "Danke, aber ich spreche nur ein bisschen." },
+        { "text": "Muchas gracias. Estoy aprendiendo.", "de": "Vielen Dank. Ich lerne es gerade." }
+      ]
+    },
+    {
+      "partner": "Bueno, ¡que disfrute de Sevilla! Adiós.",
+      "de": "Na dann, viel Spaß in Sevilla! Auf Wiedersehen.",
+      "hint_de": "Bedank dich noch einmal und verabschiede dich.",
+      "replies": [
+        { "text": "Gracias otra vez. ¡Adiós!", "de": "Nochmals danke. Auf Wiedersehen!" },
+        { "text": "¡Gracias! Hasta luego.", "de": "Danke! Tschüss!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "¿Dónde está …?", "de": "Wo ist …?" },
+    { "text": "la estación de tren", "de": "der Bahnhof" },
+    { "text": "¿Hay … por aquí?", "de": "Gibt es hier in der Nähe …?" },
+    { "text": "todo recto", "de": "geradeaus" },
+    { "text": "a la derecha / a la izquierda", "de": "nach rechts / nach links" },
+    { "text": "¿Puede repetir, por favor?", "de": "Können Sie das bitte wiederholen?" },
+    { "text": "cerca / lejos", "de": "nah / weit" },
+    { "text": "a pie", "de": "zu Fuß" }
+  ]
+}

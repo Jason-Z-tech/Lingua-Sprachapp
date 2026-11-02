@@ -1,0 +1,79 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-01",
+  "lang": "it",
+  "level": "A1",
+  "title": "Al bar",
+  "title_de": "Im Café",
+  "setting_de": "Du sitzt an einem Tisch in einem Café in Rom – in Italien heißt das „bar“. Der Kellner kommt zu dir: Bestell etwas zu trinken und zu essen und bezahle.",
+  "partner": "Cameriere",
+  "steps": [
+    {
+      "partner": "Buongiorno! Cosa Le porto?",
+      "de": "Guten Morgen! Was darf ich Ihnen bringen?",
+      "hint_de": "Bestell ein Getränk.",
+      "replies": [
+        { "text": "Un cappuccino, per favore.", "de": "Einen Cappuccino, bitte." },
+        { "text": "Vorrei un caffè, per favore.", "de": "Ich hätte gern einen Espresso, bitte." },
+        { "text": "Un'acqua minerale, per favore.", "de": "Ein Mineralwasser, bitte." }
+      ]
+    },
+    {
+      "partner": "Benissimo. Desidera anche qualcosa da mangiare?",
+      "de": "Sehr gut. Möchten Sie auch etwas essen?",
+      "hint_de": "Sag, was du essen möchtest – oder dass du nichts möchtest.",
+      "replies": [
+        { "text": "Sì, un cornetto, per favore.", "de": "Ja, ein Croissant, bitte." },
+        { "text": "Sì, vorrei un panino al prosciutto.", "de": "Ja, ich hätte gern ein Schinkenbrötchen." },
+        { "text": "No, grazie. Va bene così.", "de": "Nein, danke. Das ist alles." }
+      ]
+    },
+    {
+      "partner": "Perfetto, arrivo subito!",
+      "de": "Perfekt, kommt sofort!",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "Grazie mille.", "de": "Vielen Dank." },
+        { "text": "Grazie, molto gentile.", "de": "Danke, sehr freundlich." }
+      ]
+    },
+    {
+      "partner": "Ecco a Lei. Desidera altro?",
+      "de": "Bitte schön. Darf es noch etwas sein?",
+      "hint_de": "Sag, dass du nichts mehr möchtest, und frag nach der Rechnung.",
+      "replies": [
+        { "text": "No, grazie. Il conto, per favore.", "de": "Nein, danke. Die Rechnung, bitte." },
+        { "text": "No, grazie. Quanto pago?", "de": "Nein, danke. Was macht das?" },
+        { "text": "Posso avere il conto, per favore?", "de": "Kann ich bitte die Rechnung haben?" }
+      ]
+    },
+    {
+      "partner": "Sono sei euro e cinquanta.",
+      "de": "Das macht sechs Euro fünfzig.",
+      "hint_de": "Frag, ob du mit Karte oder bar zahlen kannst.",
+      "replies": [
+        { "text": "Posso pagare con la carta?", "de": "Kann ich mit Karte zahlen?" },
+        { "text": "Posso pagare in contanti?", "de": "Kann ich bar zahlen?" }
+      ]
+    },
+    {
+      "partner": "Sì, certo, nessun problema. Grazie e buona giornata!",
+      "de": "Ja, klar, kein Problem. Danke und einen schönen Tag noch!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "Grazie, altrettanto. Arrivederci!", "de": "Danke, gleichfalls. Auf Wiedersehen!" },
+        { "text": "Anche a Lei! Arrivederci!", "de": "Ihnen auch! Auf Wiedersehen!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Cosa Le porto?", "de": "Was darf ich Ihnen bringen?" },
+    { "text": "vorrei …", "de": "ich hätte gern … (höflich)" },
+    { "text": "un caffè", "de": "ein Espresso (in Italien)" },
+    { "text": "il cornetto", "de": "das Croissant, das Hörnchen" },
+    { "text": "Va bene così.", "de": "Das ist alles; das passt so." },
+    { "text": "il conto", "de": "die Rechnung" },
+    { "text": "pagare con la carta / in contanti", "de": "mit Karte / bar zahlen" },
+    { "text": "altrettanto", "de": "gleichfalls" }
+  ]
+}

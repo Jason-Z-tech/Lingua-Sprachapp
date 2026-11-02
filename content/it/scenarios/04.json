@@ -1,0 +1,85 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-04",
+  "lang": "it",
+  "level": "A1",
+  "title": "In albergo",
+  "title_de": "Im Hotel",
+  "setting_de": "Du kommst am Abend in deinem Hotel in Venedig an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+  "partner": "Receptionist",
+  "steps": [
+    {
+      "partner": "Buonasera! Come posso aiutarLa?",
+      "de": "Guten Abend! Wie kann ich Ihnen helfen?",
+      "hint_de": "Sag, dass du ein Zimmer reserviert hast.",
+      "replies": [
+        { "text": "Buonasera. Ho una prenotazione.", "de": "Guten Abend. Ich habe eine Reservierung." },
+        { "text": "Buonasera. Ho prenotato una camera.", "de": "Guten Abend. Ich habe ein Zimmer reserviert." }
+      ]
+    },
+    {
+      "partner": "Benissimo. A che nome?",
+      "de": "Sehr gut. Auf welchen Namen?",
+      "hint_de": "Nenne den Namen, auf den du reserviert hast.",
+      "replies": [
+        { "text": "A nome Weber.", "de": "Auf den Namen Weber." },
+        { "text": "Il mio cognome è Weber.", "de": "Mein Nachname ist Weber." }
+      ]
+    },
+    {
+      "partner": "Sì, ecco: una camera singola per tre notti, giusto?",
+      "de": "Ja, hier: ein Einzelzimmer für drei Nächte, richtig?",
+      "hint_de": "Bestätige die Reservierung.",
+      "replies": [
+        { "text": "Sì, esatto.", "de": "Ja, genau." },
+        { "text": "Sì, giusto. Tre notti.", "de": "Ja, richtig. Drei Nächte." }
+      ]
+    },
+    {
+      "partner": "Perfetto. Mi dà un documento, per favore?",
+      "de": "Perfekt. Kann ich bitte Ihren Ausweis haben?",
+      "hint_de": "Gib deinen Personalausweis oder Reisepass.",
+      "replies": [
+        { "text": "Sì, ecco la mia carta d'identità.", "de": "Ja, hier ist mein Personalausweis." },
+        { "text": "Certo, ecco il passaporto.", "de": "Natürlich, hier ist mein Reisepass." }
+      ]
+    },
+    {
+      "partner": "Grazie. Ecco la chiave: camera dodici, al primo piano.",
+      "de": "Danke. Hier ist der Schlüssel: Zimmer zwölf, im ersten Stock.",
+      "hint_de": "Frag, wann es Frühstück gibt.",
+      "replies": [
+        { "text": "Grazie. A che ora è la colazione?", "de": "Danke. Um wie viel Uhr gibt es Frühstück?" },
+        { "text": "Quando c'è la colazione?", "de": "Wann gibt es Frühstück?" }
+      ]
+    },
+    {
+      "partner": "La colazione è dalle sette alle dieci, nella sala qui a destra.",
+      "de": "Frühstück gibt es von sieben bis zehn Uhr, im Raum hier rechts.",
+      "hint_de": "Frag nach dem WLAN.",
+      "replies": [
+        { "text": "C'è il wi-fi in camera?", "de": "Gibt es WLAN im Zimmer?" },
+        { "text": "Qual è la password del wi-fi?", "de": "Wie ist das WLAN-Passwort?" }
+      ]
+    },
+    {
+      "partner": "Certo: la password è qui, sul foglio. Buon soggiorno!",
+      "de": "Klar: Das Passwort steht hier auf dem Zettel. Einen schönen Aufenthalt!",
+      "hint_de": "Bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "Grazie mille. Buonasera!", "de": "Vielen Dank. Einen schönen Abend noch!" },
+        { "text": "Grazie, molto gentile. Buonanotte!", "de": "Danke, sehr freundlich. Gute Nacht!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "la prenotazione", "de": "die Reservierung" },
+    { "text": "A che nome?", "de": "Auf welchen Namen?" },
+    { "text": "la camera singola / doppia", "de": "das Einzelzimmer / das Doppelzimmer" },
+    { "text": "la carta d'identità", "de": "der Personalausweis" },
+    { "text": "la chiave", "de": "der Schlüssel" },
+    { "text": "al primo piano", "de": "im ersten Stock" },
+    { "text": "la colazione", "de": "das Frühstück" },
+    { "text": "Buon soggiorno!", "de": "Einen schönen Aufenthalt!" }
+  ]
+}

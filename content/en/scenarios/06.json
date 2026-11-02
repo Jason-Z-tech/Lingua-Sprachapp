@@ -1,0 +1,102 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-06",
+  "lang": "en",
+  "level": "A2",
+  "title": "At the Pharmacy",
+  "title_de": "In der Apotheke",
+  "setting_de": "Du bist auf Reisen in Los Angeles und fühlst dich krank. In einer Apotheke (pharmacy) beschreibst du deine Beschwerden und bekommst ein Mittel ohne Rezept.",
+  "partner": "Pharmacist",
+  "steps": [
+    {
+      "partner": "Hi there. How can I help you today?",
+      "de": "Hallo. Wie kann ich Ihnen heute helfen?",
+      "hint_de": "Sag, dass du dich nicht gut fühlst.",
+      "replies": [
+        { "text": "Hi. I don't feel very well.", "de": "Hallo. Ich fühle mich nicht so gut." },
+        { "text": "I think I have a bad cold.", "de": "Ich glaube, ich habe eine starke Erkältung." },
+        { "text": "I need something for a sore throat.", "de": "Ich brauche etwas gegen Halsschmerzen." }
+      ]
+    },
+    {
+      "partner": "Oh, I'm sorry to hear that. What are your symptoms?",
+      "de": "Oh, das tut mir leid. Welche Beschwerden haben Sie?",
+      "hint_de": "Beschreib deine Beschwerden.",
+      "replies": [
+        { "text": "I have a sore throat and a headache.", "de": "Ich habe Halsschmerzen und Kopfschmerzen." },
+        { "text": "My throat hurts, and I'm coughing a lot.", "de": "Mein Hals tut weh, und ich huste viel." },
+        { "text": "I have a runny nose and a bad cough.", "de": "Ich habe Schnupfen und starken Husten." }
+      ]
+    },
+    {
+      "partner": "I see. How long have you had these symptoms?",
+      "de": "Verstehe. Seit wann haben Sie diese Beschwerden?",
+      "hint_de": "Sag, seit wann du die Beschwerden hast.",
+      "replies": [
+        { "text": "Since yesterday morning.", "de": "Seit gestern Morgen." },
+        { "text": "For two days now.", "de": "Seit zwei Tagen." },
+        { "text": "It started on Sunday.", "de": "Es hat am Sonntag angefangen." }
+      ]
+    },
+    {
+      "partner": "Do you have a fever?",
+      "de": "Haben Sie Fieber?",
+      "hint_de": "Sag, ob du Fieber hast.",
+      "replies": [
+        { "text": "No, I don't think so.", "de": "Nein, ich glaube nicht." },
+        { "text": "Yes, a little.", "de": "Ja, ein bisschen." },
+        { "text": "I'm not sure. I feel hot.", "de": "Ich weiß nicht genau. Mir ist heiß." }
+      ]
+    },
+    {
+      "partner": "Okay. If it gets worse, please see a doctor. Are you allergic to any medications?",
+      "de": "Okay. Wenn es schlimmer wird, gehen Sie bitte zum Arzt. Sind Sie gegen irgendwelche Medikamente allergisch?",
+      "hint_de": "Sag, ob du Allergien hast.",
+      "replies": [
+        { "text": "No, I'm not.", "de": "Nein, bin ich nicht." },
+        { "text": "No, I don't have any allergies.", "de": "Nein, ich habe keine Allergien." },
+        { "text": "Yes, I'm allergic to penicillin.", "de": "Ja, ich bin gegen Penicillin allergisch." }
+      ]
+    },
+    {
+      "partner": "All right. Then I recommend this cold medicine.",
+      "de": "Gut. Dann empfehle ich Ihnen dieses Erkältungsmittel.",
+      "hint_de": "Frag, wie du das Medikament nehmen sollst.",
+      "replies": [
+        { "text": "How often should I take it?", "de": "Wie oft soll ich es nehmen?" },
+        { "text": "Thank you. How do I take it?", "de": "Danke. Wie nehme ich es ein?" },
+        { "text": "How many pills do I take?", "de": "Wie viele Tabletten muss ich nehmen?" }
+      ]
+    },
+    {
+      "partner": "Take one pill three times a day, after meals. And drink lots of water.",
+      "de": "Nehmen Sie dreimal täglich eine Tablette nach dem Essen. Und trinken Sie viel Wasser.",
+      "hint_de": "Frag nach dem Preis.",
+      "replies": [
+        { "text": "Okay, thank you. How much is it?", "de": "Okay, danke. Was kostet das?" },
+        { "text": "Got it. How much does it cost?", "de": "Verstanden. Wie viel kostet es?" },
+        { "text": "Thanks. How much is that?", "de": "Danke. Was macht das?" }
+      ]
+    },
+    {
+      "partner": "That's eight dollars and ninety-nine cents. Feel better soon!",
+      "de": "Das macht acht Dollar neunundneunzig. Gute Besserung!",
+      "hint_de": "Bezahl, bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "Here you go. Thank you so much!", "de": "Bitte schön. Vielen Dank!" },
+        { "text": "Thank you for your help!", "de": "Danke für Ihre Hilfe!" },
+        { "text": "Thanks. Have a nice day!", "de": "Danke. Einen schönen Tag noch!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "I don't feel well.", "de": "Ich fühle mich nicht gut." },
+    { "text": "a sore throat / a headache", "de": "Halsschmerzen / Kopfschmerzen" },
+    { "text": "a cough / a runny nose", "de": "Husten / Schnupfen" },
+    { "text": "a fever", "de": "Fieber" },
+    { "text": "since yesterday / for two days", "de": "seit gestern / seit zwei Tagen (since + Zeitpunkt, for + Zeitraum)" },
+    { "text": "I'm allergic to …", "de": "Ich bin allergisch gegen …" },
+    { "text": "three times a day", "de": "dreimal täglich" },
+    { "text": "Feel better soon!", "de": "Gute Besserung!" }
+  ]
+}

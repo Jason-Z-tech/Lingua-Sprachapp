@@ -1,0 +1,96 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-06",
+  "lang": "it",
+  "level": "A2",
+  "title": "In farmacia",
+  "title_de": "In der Apotheke",
+  "setting_de": "Du bist im Urlaub in Neapel und fühlst dich nicht gut. In einer Apotheke beschreibst du deine Beschwerden und lässt dich beraten.",
+  "partner": "Farmacista",
+  "steps": [
+    {
+      "partner": "Buongiorno! Mi dica.",
+      "de": "Guten Tag! Was kann ich für Sie tun?",
+      "hint_de": "Beschreib deine Beschwerden.",
+      "replies": [
+        { "text": "Buongiorno. Ho mal di gola.", "de": "Guten Tag. Ich habe Halsschmerzen." },
+        { "text": "Ho mal di testa e un po' di febbre.", "de": "Ich habe Kopfschmerzen und etwas Fieber." },
+        { "text": "Non mi sento bene. Ho la tosse.", "de": "Ich fühle mich nicht gut. Ich habe Husten." }
+      ]
+    },
+    {
+      "partner": "Mi dispiace. Da quando ha questi disturbi?",
+      "de": "Das tut mir leid. Seit wann haben Sie diese Beschwerden?",
+      "hint_de": "Sag, seit wann du die Beschwerden hast.",
+      "replies": [
+        { "text": "Da ieri.", "de": "Seit gestern." },
+        { "text": "Da due giorni.", "de": "Seit zwei Tagen." },
+        { "text": "Più o meno da ieri sera.", "de": "Ungefähr seit gestern Abend." }
+      ]
+    },
+    {
+      "partner": "Ha già preso qualche medicina?",
+      "de": "Haben Sie schon ein Medikament genommen?",
+      "hint_de": "Sag, ob du schon etwas genommen hast.",
+      "replies": [
+        { "text": "No, non ho preso niente.", "de": "Nein, ich habe nichts genommen." },
+        { "text": "Sì, ieri ho preso un'aspirina.", "de": "Ja, gestern habe ich eine Aspirin genommen." }
+      ]
+    },
+    {
+      "partner": "Va bene. Ha delle allergie?",
+      "de": "In Ordnung. Haben Sie Allergien?",
+      "hint_de": "Sag, ob du Allergien hast.",
+      "replies": [
+        { "text": "No, non ho allergie.", "de": "Nein, ich habe keine Allergien." },
+        { "text": "Sì, ho un'allergia alla penicillina.", "de": "Ja, ich habe eine Penicillinallergie." }
+      ]
+    },
+    {
+      "partner": "D'accordo. Allora Le do queste compresse. Non serve la ricetta.",
+      "de": "Gut. Dann gebe ich Ihnen diese Tabletten. Dafür brauchen Sie kein Rezept.",
+      "hint_de": "Frag, wie du die Tabletten nehmen sollst.",
+      "replies": [
+        { "text": "Quante volte al giorno le prendo?", "de": "Wie oft am Tag nehme ich sie?" },
+        { "text": "Come le devo prendere?", "de": "Wie muss ich sie nehmen?" }
+      ]
+    },
+    {
+      "partner": "Una compressa tre volte al giorno, dopo i pasti. E beva molta acqua.",
+      "de": "Eine Tablette dreimal täglich nach dem Essen. Und trinken Sie viel Wasser.",
+      "hint_de": "Frag, was du tun sollst, wenn es nicht besser wird.",
+      "replies": [
+        { "text": "E se non passa?", "de": "Und wenn es nicht besser wird?" },
+        { "text": "E se tra tre giorni sto ancora male?", "de": "Und wenn es mir in drei Tagen immer noch schlecht geht?" }
+      ]
+    },
+    {
+      "partner": "Allora è meglio andare dal medico. Ma vedrà che passa presto.",
+      "de": "Dann gehen Sie besser zum Arzt. Aber Sie werden sehen, das geht bald vorbei.",
+      "hint_de": "Bedank dich und frag, was es kostet.",
+      "replies": [
+        { "text": "Va bene, grazie. Quanto costa?", "de": "In Ordnung, danke. Was kostet das?" },
+        { "text": "Capito, grazie. Quanto Le devo?", "de": "Verstanden, danke. Was bin ich Ihnen schuldig?" }
+      ]
+    },
+    {
+      "partner": "Sono otto euro e cinquanta. Buona guarigione!",
+      "de": "Das macht acht Euro fünfzig. Gute Besserung!",
+      "hint_de": "Bezahl, bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "Ecco a Lei. Grazie e arrivederci!", "de": "Bitte schön. Danke und auf Wiedersehen!" },
+        { "text": "Grazie mille, arrivederci!", "de": "Vielen Dank, auf Wiedersehen!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Mi dica.", "de": "Was kann ich für Sie tun? (wörtlich: Sagen Sie mir.)" },
+    { "text": "Ho mal di testa / di gola.", "de": "Ich habe Kopfschmerzen / Halsschmerzen." },
+    { "text": "la febbre / la tosse", "de": "das Fieber / der Husten" },
+    { "text": "Da quando …?", "de": "Seit wann …?" },
+    { "text": "la compressa", "de": "die Tablette" },
+    { "text": "tre volte al giorno", "de": "dreimal am Tag" },
+    { "text": "la ricetta", "de": "das Rezept" },
+    { "text": "Buona guarigione!", "de": "Gute Besserung!" }
+  ]
+}

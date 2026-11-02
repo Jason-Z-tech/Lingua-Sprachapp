@@ -1,0 +1,77 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-01",
+  "lang": "es",
+  "level": "A1",
+  "title": "En la cafetería",
+  "title_de": "Im Café",
+  "setting_de": "Du sitzt in einem Café in Madrid. Der Kellner kommt an deinen Tisch – bestell etwas zu trinken und zu essen und bezahle.",
+  "partner": "Camarero",
+  "steps": [
+    {
+      "partner": "¡Buenos días! ¿Qué le pongo?",
+      "de": "Guten Morgen! Was darf ich Ihnen bringen?",
+      "hint_de": "Bestell ein Getränk.",
+      "replies": [
+        { "text": "Un café con leche, por favor.", "de": "Einen Milchkaffee, bitte." },
+        { "text": "Quería un té, por favor.", "de": "Ich hätte gern einen Tee, bitte." },
+        { "text": "Un zumo de naranja, por favor.", "de": "Einen Orangensaft, bitte." }
+      ]
+    },
+    {
+      "partner": "Muy bien. ¿Algo para comer?",
+      "de": "Sehr gut. Etwas zu essen?",
+      "hint_de": "Sag, was du essen möchtest – oder dass du nichts möchtest.",
+      "replies": [
+        { "text": "Sí, una tostada con tomate, por favor.", "de": "Ja, einen Toast mit Tomate, bitte." },
+        { "text": "Sí, un croissant, por favor.", "de": "Ja, ein Croissant, bitte." },
+        { "text": "No, gracias. Nada más.", "de": "Nein, danke. Sonst nichts." }
+      ]
+    },
+    {
+      "partner": "Perfecto. Ahora mismo se lo traigo.",
+      "de": "Perfekt. Ich bringe es Ihnen sofort.",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "Muchas gracias.", "de": "Vielen Dank." },
+        { "text": "Gracias, muy amable.", "de": "Danke, sehr freundlich." }
+      ]
+    },
+    {
+      "partner": "Aquí tiene. ¿Algo más?",
+      "de": "Bitte schön. Noch etwas?",
+      "hint_de": "Frag nach der Rechnung.",
+      "replies": [
+        { "text": "No, gracias. La cuenta, por favor.", "de": "Nein, danke. Die Rechnung, bitte." },
+        { "text": "¿Cuánto es?", "de": "Wie viel macht das?" }
+      ]
+    },
+    {
+      "partner": "Son cuatro euros con cincuenta.",
+      "de": "Das macht vier Euro fünfzig.",
+      "hint_de": "Frag, ob du mit Karte zahlen kannst – oder gib das Geld.",
+      "replies": [
+        { "text": "¿Puedo pagar con tarjeta?", "de": "Kann ich mit Karte zahlen?" },
+        { "text": "Aquí tiene. Quédese con el cambio.", "de": "Bitte schön. Stimmt so." }
+      ]
+    },
+    {
+      "partner": "Sí, claro. ¡Muchas gracias y que tenga un buen día!",
+      "de": "Ja, natürlich. Vielen Dank und einen schönen Tag noch!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "Gracias, igualmente. ¡Adiós!", "de": "Danke, gleichfalls. Tschüss!" },
+        { "text": "¡Hasta luego!", "de": "Bis später!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "¿Qué le pongo?", "de": "Was darf ich Ihnen bringen?" },
+    { "text": "quería …", "de": "ich hätte gern … (höflich)" },
+    { "text": "la tostada", "de": "der Toast" },
+    { "text": "el zumo", "de": "der Saft" },
+    { "text": "la cuenta", "de": "die Rechnung" },
+    { "text": "pagar con tarjeta", "de": "mit Karte zahlen" },
+    { "text": "igualmente", "de": "gleichfalls" }
+  ]
+}

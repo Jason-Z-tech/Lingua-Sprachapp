@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-04",
+  "lang": "es",
+  "level": "A1",
+  "title": "En el hotel",
+  "title_de": "Im Hotel",
+  "setting_de": "Du kommst am Abend in deinem Hotel in Granada an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+  "partner": "Recepcionista",
+  "steps": [
+    {
+      "partner": "Buenas noches. ¿En qué puedo ayudarle?",
+      "de": "Guten Abend. Wie kann ich Ihnen helfen?",
+      "hint_de": "Sag, dass du ein Zimmer reserviert hast.",
+      "replies": [
+        { "text": "Buenas noches. Tengo una reserva.", "de": "Guten Abend. Ich habe eine Reservierung." },
+        { "text": "Hola, tengo una habitación reservada.", "de": "Hallo, ich habe ein Zimmer reserviert." },
+        { "text": "Buenas noches. Tengo una reserva para hoy.", "de": "Guten Abend. Ich habe für heute reserviert." }
+      ]
+    },
+    {
+      "partner": "Muy bien. ¿A nombre de quién?",
+      "de": "Sehr gut. Auf welchen Namen?",
+      "hint_de": "Nenn den Namen, auf den du reserviert hast.",
+      "replies": [
+        { "text": "A nombre de Weber.", "de": "Auf den Namen Weber." },
+        { "text": "A nombre de Anna Weber.", "de": "Auf den Namen Anna Weber." },
+        { "text": "Me llamo Jonas Weber.", "de": "Ich heiße Jonas Weber." }
+      ]
+    },
+    {
+      "partner": "Un momento, por favor… Sí, aquí está: una habitación individual para tres noches.",
+      "de": "Einen Moment, bitte … Ja, hier ist sie: ein Einzelzimmer für drei Nächte.",
+      "hint_de": "Bestätige die Reservierung.",
+      "replies": [
+        { "text": "Sí, eso es.", "de": "Ja, genau." },
+        { "text": "Sí, correcto.", "de": "Ja, richtig." },
+        { "text": "Perfecto, gracias.", "de": "Perfekt, danke." }
+      ]
+    },
+    {
+      "partner": "¿Me deja su pasaporte o su carné de identidad, por favor?",
+      "de": "Darf ich bitte Ihren Reisepass oder Ihren Personalausweis sehen?",
+      "hint_de": "Gib deinen Ausweis.",
+      "replies": [
+        { "text": "Sí, claro. Aquí tiene.", "de": "Ja, natürlich. Bitte schön." },
+        { "text": "Aquí tiene mi pasaporte.", "de": "Hier ist mein Reisepass." },
+        { "text": "Aquí tiene mi carné.", "de": "Hier ist mein Ausweis." }
+      ]
+    },
+    {
+      "partner": "Gracias. Su habitación es la doce, en la primera planta. Aquí tiene la llave.",
+      "de": "Danke. Ihr Zimmer ist die Nummer zwölf im ersten Stock. Hier ist Ihr Schlüssel.",
+      "hint_de": "Frag nach dem Frühstück.",
+      "replies": [
+        { "text": "¿A qué hora es el desayuno?", "de": "Um wie viel Uhr gibt es Frühstück?" },
+        { "text": "¿El desayuno está incluido?", "de": "Ist das Frühstück inklusive?" },
+        { "text": "¿Dónde es el desayuno?", "de": "Wo gibt es Frühstück?" }
+      ]
+    },
+    {
+      "partner": "El desayuno está incluido. Es de siete a diez, en el comedor.",
+      "de": "Das Frühstück ist inklusive – von sieben bis zehn Uhr im Speisesaal.",
+      "hint_de": "Frag nach dem WLAN.",
+      "replies": [
+        { "text": "¿Hay wifi en la habitación?", "de": "Gibt es WLAN im Zimmer?" },
+        { "text": "¿Cuál es la contraseña del wifi?", "de": "Wie lautet das WLAN-Passwort?" },
+        { "text": "¿Tienen wifi gratis?", "de": "Haben Sie kostenloses WLAN?" }
+      ]
+    },
+    {
+      "partner": "Sí, el wifi es gratis. La contraseña está en esta tarjeta. ¿Necesita algo más?",
+      "de": "Ja, das WLAN ist kostenlos. Das Passwort steht auf dieser Karte. Brauchen Sie noch etwas?",
+      "hint_de": "Sag, dass du nichts mehr brauchst, und bedank dich.",
+      "replies": [
+        { "text": "No, nada más. Muchas gracias.", "de": "Nein, sonst nichts. Vielen Dank." },
+        { "text": "No, gracias. Muy amable.", "de": "Nein, danke. Sehr freundlich." }
+      ]
+    },
+    {
+      "partner": "De nada. ¡Que descanse!",
+      "de": "Gern geschehen. Schlafen Sie gut!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "Gracias. ¡Buenas noches!", "de": "Danke. Gute Nacht!" },
+        { "text": "Gracias, hasta mañana.", "de": "Danke, bis morgen." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Tengo una reserva.", "de": "Ich habe eine Reservierung." },
+    { "text": "a nombre de …", "de": "auf den Namen …" },
+    { "text": "la habitación individual / doble", "de": "das Einzelzimmer / Doppelzimmer" },
+    { "text": "el carné de identidad", "de": "der Personalausweis" },
+    { "text": "la llave", "de": "der Schlüssel" },
+    { "text": "el desayuno", "de": "das Frühstück" },
+    { "text": "¿A qué hora …?", "de": "Um wie viel Uhr …?" },
+    { "text": "la contraseña", "de": "das Passwort" }
+  ]
+}

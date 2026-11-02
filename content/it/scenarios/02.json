@@ -1,0 +1,86 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-02",
+  "lang": "it",
+  "level": "A1",
+  "title": "Chiedere la strada",
+  "title_de": "Nach dem Weg fragen",
+  "setting_de": "Du bist zum ersten Mal in Florenz und schaust etwas ratlos auf dein Handy. Eine Passantin spricht dich an – frag sie nach dem Weg zum Bahnhof oder zum Museum.",
+  "partner": "Passante",
+  "steps": [
+    {
+      "partner": "Buongiorno! Ha bisogno di aiuto?",
+      "de": "Guten Tag! Brauchen Sie Hilfe?",
+      "hint_de": "Sag ja und frag nach dem Bahnhof oder dem Museum.",
+      "replies": [
+        { "text": "Sì, grazie. Dov'è la stazione?", "de": "Ja, danke. Wo ist der Bahnhof?" },
+        { "text": "Sì, per favore. Cerco il museo.", "de": "Ja, bitte. Ich suche das Museum." }
+      ]
+    },
+    {
+      "partner": "Allora… vada sempre dritto e poi giri a destra.",
+      "de": "Also … gehen Sie immer geradeaus und dann biegen Sie rechts ab.",
+      "hint_de": "Wiederhole die Wegbeschreibung – oder bitte die Frau, es noch einmal oder langsamer zu sagen.",
+      "replies": [
+        { "text": "Sempre dritto e poi a destra?", "de": "Immer geradeaus und dann rechts?" },
+        { "text": "Scusi, può ripetere, per favore?", "de": "Entschuldigung, können Sie das bitte wiederholen?" },
+        { "text": "Scusi, può parlare più piano?", "de": "Entschuldigung, können Sie langsamer sprechen?" }
+      ]
+    },
+    {
+      "partner": "Sì: sempre dritto fino alla piazza, e lì giri a destra.",
+      "de": "Ja: immer geradeaus bis zum Platz, und dort biegen Sie rechts ab.",
+      "hint_de": "Frag, ob es weit ist.",
+      "replies": [
+        { "text": "Va bene. È lontano?", "de": "Okay. Ist es weit?" },
+        { "text": "Quanto tempo ci vuole a piedi?", "de": "Wie lange braucht man zu Fuß?" }
+      ]
+    },
+    {
+      "partner": "Mah, a piedi sono circa venti minuti.",
+      "de": "Na ja, zu Fuß sind es etwa zwanzig Minuten.",
+      "hint_de": "Frag, ob es auch einen Bus gibt.",
+      "replies": [
+        { "text": "C'è anche un autobus?", "de": "Gibt es auch einen Bus?" },
+        { "text": "Posso prendere l'autobus?", "de": "Kann ich auch den Bus nehmen?" }
+      ]
+    },
+    {
+      "partner": "Sì, il numero dodici. La fermata è lì, davanti alla farmacia.",
+      "de": "Ja, die Nummer zwölf. Die Haltestelle ist da drüben, vor der Apotheke.",
+      "hint_de": "Frag, wo du eine Fahrkarte kaufen kannst.",
+      "replies": [
+        { "text": "Dove compro il biglietto?", "de": "Wo kaufe ich die Fahrkarte?" },
+        { "text": "Posso comprare il biglietto sull'autobus?", "de": "Kann ich die Fahrkarte im Bus kaufen?" }
+      ]
+    },
+    {
+      "partner": "Meglio in tabaccheria: ce n'è una qui all'angolo.",
+      "de": "Am besten im Tabakladen – hier an der Ecke gibt es einen.",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "Grazie mille, molto gentile!", "de": "Vielen Dank, sehr freundlich!" },
+        { "text": "Perfetto, grazie per l'aiuto!", "de": "Perfekt, danke für die Hilfe!" }
+      ]
+    },
+    {
+      "partner": "Prego, si figuri! Buona permanenza a Firenze!",
+      "de": "Gern geschehen, keine Ursache! Einen schönen Aufenthalt in Florenz!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "Grazie, buona giornata! Arrivederci!", "de": "Danke, einen schönen Tag noch! Auf Wiedersehen!" },
+        { "text": "Grazie ancora! Arrivederci!", "de": "Nochmals danke! Auf Wiedersehen!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Dov'è …?", "de": "Wo ist …?" },
+    { "text": "sempre dritto", "de": "immer geradeaus" },
+    { "text": "a destra / a sinistra", "de": "rechts / links" },
+    { "text": "Può ripetere, per favore?", "de": "Können Sie das bitte wiederholen?" },
+    { "text": "È lontano?", "de": "Ist es weit?" },
+    { "text": "a piedi", "de": "zu Fuß" },
+    { "text": "la fermata", "de": "die Haltestelle" },
+    { "text": "la tabaccheria", "de": "der Tabakladen (dort gibt es auch Fahrkarten)" }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-04",
+  "lang": "en",
+  "level": "A1",
+  "title": "Checking In at the Hotel",
+  "title_de": "Im Hotel einchecken",
+  "setting_de": "Du kommst abends in deinem Hotel in New York an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+  "partner": "Receptionist",
+  "steps": [
+    {
+      "partner": "Good evening! Welcome to the Park Hotel. How can I help you?",
+      "de": "Guten Abend! Willkommen im Park Hotel. Wie kann ich Ihnen helfen?",
+      "hint_de": "Sag, dass du reserviert hast und einchecken möchtest.",
+      "replies": [
+        { "text": "Hi. I have a reservation.", "de": "Hallo. Ich habe reserviert." },
+        { "text": "Good evening. I'd like to check in, please.", "de": "Guten Abend. Ich möchte bitte einchecken." },
+        { "text": "Hello. I have a reservation for two nights.", "de": "Hallo. Ich habe für zwei Nächte reserviert." }
+      ]
+    },
+    {
+      "partner": "Of course. May I have your name, please?",
+      "de": "Natürlich. Wie ist Ihr Name, bitte?",
+      "hint_de": "Nenne deinen Namen.",
+      "replies": [
+        { "text": "My name is Anna Wagner.", "de": "Ich heiße Anna Wagner." },
+        { "text": "It's Max Wagner.", "de": "Max Wagner." },
+        { "text": "The reservation is under Wagner.", "de": "Die Reservierung läuft auf den Namen Wagner." }
+      ]
+    },
+    {
+      "partner": "Thank you. Yes, here it is: one room for two nights. May I see your passport and a credit card, please?",
+      "de": "Danke. Ja, hier ist sie: ein Zimmer für zwei Nächte. Darf ich bitte Ihren Reisepass und eine Kreditkarte sehen?",
+      "hint_de": "Bestätige und gib deinen Pass und deine Karte.",
+      "replies": [
+        { "text": "Yes, that's right. Here you go.", "de": "Ja, das stimmt. Bitte schön." },
+        { "text": "Sure. Here they are.", "de": "Klar. Hier, bitte." },
+        { "text": "Of course. Here's my passport and my card.", "de": "Natürlich. Hier sind mein Pass und meine Karte." }
+      ]
+    },
+    {
+      "partner": "Thank you. You're in room four-twelve, on the fourth floor. Here's your key card.",
+      "de": "Danke. Sie haben Zimmer 412 im dritten Stock. Hier ist Ihre Schlüsselkarte.",
+      "hint_de": "Frag nach dem Frühstück.",
+      "replies": [
+        { "text": "Thank you. What time is breakfast?", "de": "Danke. Um wie viel Uhr gibt es Frühstück?" },
+        { "text": "Is breakfast included?", "de": "Ist das Frühstück inklusive?" },
+        { "text": "Thanks. When is breakfast?", "de": "Danke. Wann gibt es Frühstück?" }
+      ]
+    },
+    {
+      "partner": "Breakfast is included. It's from seven to ten in the morning, in the restaurant.",
+      "de": "Das Frühstück ist inklusive. Es gibt es von sieben bis zehn Uhr im Restaurant.",
+      "hint_de": "Frag nach dem WLAN (Wi-Fi).",
+      "replies": [
+        { "text": "Great. What's the Wi-Fi password?", "de": "Super. Wie lautet das WLAN-Passwort?" },
+        { "text": "Is there Wi-Fi in the room?", "de": "Gibt es WLAN im Zimmer?" },
+        { "text": "Thanks. Do you have free Wi-Fi?", "de": "Danke. Haben Sie kostenloses WLAN?" }
+      ]
+    },
+    {
+      "partner": "The Wi-Fi is free, and the password is on your key card.",
+      "de": "Das WLAN ist kostenlos, und das Passwort steht auf Ihrer Schlüsselkarte.",
+      "hint_de": "Bedank dich und frag, wo der Aufzug ist.",
+      "replies": [
+        { "text": "Thank you. Where is the elevator?", "de": "Danke. Wo ist der Aufzug?" },
+        { "text": "Great, thanks. Where's the elevator?", "de": "Super, danke. Wo ist der Aufzug?" },
+        { "text": "Thanks! And where is the elevator, please?", "de": "Danke! Und wo ist bitte der Aufzug?" }
+      ]
+    },
+    {
+      "partner": "It's right over there, on the left. Enjoy your stay!",
+      "de": "Er ist gleich dort drüben auf der linken Seite. Einen schönen Aufenthalt!",
+      "hint_de": "Bedank dich und verabschiede dich für die Nacht.",
+      "replies": [
+        { "text": "Thank you. Good night!", "de": "Danke. Gute Nacht!" },
+        { "text": "Thanks a lot. Good night!", "de": "Vielen Dank. Gute Nacht!" },
+        { "text": "Thank you very much. Bye!", "de": "Vielen Dank. Tschüss!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "I have a reservation.", "de": "Ich habe reserviert." },
+    { "text": "check in", "de": "einchecken" },
+    { "text": "for two nights", "de": "für zwei Nächte" },
+    { "text": "the key card", "de": "die Schlüsselkarte" },
+    { "text": "the fourth floor", "de": "der dritte Stock (in den USA ist das Erdgeschoss der first floor)" },
+    { "text": "Is breakfast included?", "de": "Ist das Frühstück inklusive?" },
+    { "text": "the elevator", "de": "der Aufzug (britisch: the lift)" },
+    { "text": "Enjoy your stay!", "de": "Einen schönen Aufenthalt!" }
+  ]
+}

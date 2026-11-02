@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "lang": "es",
+  "scenarios": [
+    {
+      "id": "es-sc-01",
+      "file": "01.json",
+      "level": "A1",
+      "title": "En la cafetería",
+      "title_de": "Im Café",
+      "setting_de": "Du sitzt in einem Café in Madrid. Der Kellner kommt an deinen Tisch – bestell etwas zu trinken und zu essen und bezahle.",
+      "steps": 6
+    },
+    {
+      "id": "es-sc-02",
+      "file": "02.json",
+      "level": "A1",
+      "title": "¿Por dónde se va?",
+      "title_de": "Nach dem Weg fragen",
+      "setting_de": "Du bist zum ersten Mal in Sevilla und schaust ratlos auf deinen Stadtplan. Eine Frau spricht dich an – frag sie nach dem Weg und bedank dich.",
+      "steps": 7
+    },
+    {
+      "id": "es-sc-03",
+      "file": "03.json",
+      "level": "A1",
+      "title": "En el mercado",
+      "title_de": "Auf dem Markt",
+      "setting_de": "Du kaufst auf dem Mercado Central in Valencia an einem Obst- und Gemüsestand ein. Sag, wie viel du möchtest, wähl Größe und Farbe und frag nach dem Preis.",
+      "steps": 8
+    },
+    {
+      "id": "es-sc-04",
+      "file": "04.json",
+      "level": "A1",
+      "title": "En el hotel",
+      "title_de": "Im Hotel",
+      "setting_de": "Du kommst am Abend in deinem Hotel in Granada an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+      "steps": 8
+    },
+    {
+      "id": "es-sc-05",
+      "file": "05.json",
+      "level": "A1",
+      "title": "En un intercambio de idiomas",
+      "title_de": "Beim Sprachtandem",
+      "setting_de": "Du bist bei einem Sprachtandem-Treffen (intercambio) in einer Bar in Salamanca. Pablo, ein spanischer Student, setzt sich zu dir – hier duzt man sich.",
+      "steps": 8
+    },
+    {
+      "id": "es-sc-06",
+      "file": "06.json",
+      "level": "A2",
+      "title": "En la farmacia",
+      "title_de": "In der Apotheke",
+      "setting_de": "Du machst Urlaub in Málaga und fühlst dich nicht gut. In der Apotheke beschreibst du deine Beschwerden und fragst nach einem Medikament.",
+      "steps": 8
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-03",
+  "lang": "en",
+  "level": "A1",
+  "title": "At the Clothing Store",
+  "title_de": "Im Kleidungsgeschäft",
+  "setting_de": "Du bist in einem Kleidungsgeschäft in San Francisco und suchst ein neues Oberteil. Achtung: Auf dem Preisschild steht in den USA meist der Preis ohne Umsatzsteuer – sie kommt erst an der Kasse dazu.",
+  "partner": "Sales Clerk",
+  "steps": [
+    {
+      "partner": "Hi there! Can I help you?",
+      "de": "Hallo! Kann ich Ihnen helfen?",
+      "hint_de": "Sag, was du suchst.",
+      "replies": [
+        { "text": "Yes, I'm looking for a T-shirt.", "de": "Ja, ich suche ein T-Shirt." },
+        { "text": "Yes, please. I need a sweater.", "de": "Ja, bitte. Ich brauche einen Pullover." },
+        { "text": "Hi. Do you have T-shirts?", "de": "Hallo. Haben Sie T-Shirts?" }
+      ]
+    },
+    {
+      "partner": "Sure! What size are you?",
+      "de": "Gern! Welche Größe haben Sie?",
+      "hint_de": "Sag deine Größe.",
+      "replies": [
+        { "text": "Medium, please.", "de": "M, bitte." },
+        { "text": "I'm a small.", "de": "Ich habe S." },
+        { "text": "Large, I think.", "de": "L, glaube ich." }
+      ]
+    },
+    {
+      "partner": "Okay. And what color would you like?",
+      "de": "Okay. Und welche Farbe hätten Sie gern?",
+      "hint_de": "Sag, welche Farbe du möchtest.",
+      "replies": [
+        { "text": "Blue, please.", "de": "Blau, bitte." },
+        { "text": "Do you have it in black?", "de": "Haben Sie das auch in Schwarz?" },
+        { "text": "Something in green, please.", "de": "Etwas in Grün, bitte." }
+      ]
+    },
+    {
+      "partner": "Sure, here you go. The fitting room is over there.",
+      "de": "Gern, bitte schön. Die Umkleidekabine ist dort drüben.",
+      "hint_de": "Frag, was es kostet.",
+      "replies": [
+        { "text": "Thank you. How much is it?", "de": "Danke. Wie viel kostet das?" },
+        { "text": "Great. What's the price?", "de": "Super. Was kostet es?" },
+        { "text": "How much is this one?", "de": "Wie viel kostet dieses hier?" }
+      ]
+    },
+    {
+      "partner": "It's fifteen dollars, plus tax.",
+      "de": "Es kostet fünfzehn Dollar plus Steuer.",
+      "hint_de": "Sag, wie viele du nimmst.",
+      "replies": [
+        { "text": "Okay, I'll take it.", "de": "Okay, ich nehme es." },
+        { "text": "Great. I'll take two, please.", "de": "Super. Ich nehme zwei, bitte." },
+        { "text": "That's a good price. I'll take two.", "de": "Das ist ein guter Preis. Ich nehme zwei." }
+      ]
+    },
+    {
+      "partner": "Perfect. Will that be cash or card?",
+      "de": "Perfekt. Zahlen Sie bar oder mit Karte?",
+      "hint_de": "Sag, wie du bezahlst.",
+      "replies": [
+        { "text": "Card, please.", "de": "Mit Karte, bitte." },
+        { "text": "Cash, please.", "de": "Bar, bitte." },
+        { "text": "I'll pay by card.", "de": "Ich zahle mit Karte." }
+      ]
+    },
+    {
+      "partner": "Here's your receipt. Have a great day!",
+      "de": "Hier ist Ihr Kassenbon. Einen schönen Tag noch!",
+      "hint_de": "Bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "Thank you. You too!", "de": "Danke. Ihnen auch!" },
+        { "text": "Thanks. Bye!", "de": "Danke. Tschüss!" },
+        { "text": "Thanks, have a nice day!", "de": "Danke, einen schönen Tag noch!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "I'm looking for …", "de": "ich suche …" },
+    { "text": "What size are you?", "de": "Welche Größe haben Sie?" },
+    { "text": "small / medium / large", "de": "S / M / L (klein / mittel / groß)" },
+    { "text": "Do you have it in black?", "de": "Haben Sie das auch in Schwarz?" },
+    { "text": "the fitting room", "de": "die Umkleidekabine" },
+    { "text": "How much is it?", "de": "Wie viel kostet das?" },
+    { "text": "plus tax", "de": "plus Steuer (kommt in den USA an der Kasse dazu)" },
+    { "text": "the receipt", "de": "der Kassenbon; die Quittung (das p spricht man nicht)" }
+  ]
+}

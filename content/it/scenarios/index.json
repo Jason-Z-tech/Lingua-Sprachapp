@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "lang": "it",
+  "scenarios": [
+    {
+      "id": "it-sc-01",
+      "file": "01.json",
+      "level": "A1",
+      "title": "Al bar",
+      "title_de": "Im Café",
+      "setting_de": "Du sitzt an einem Tisch in einem Café in Rom – in Italien heißt das „bar“. Der Kellner kommt zu dir: Bestell etwas zu trinken und zu essen und bezahle.",
+      "steps": 6
+    },
+    {
+      "id": "it-sc-02",
+      "file": "02.json",
+      "level": "A1",
+      "title": "Chiedere la strada",
+      "title_de": "Nach dem Weg fragen",
+      "setting_de": "Du bist zum ersten Mal in Florenz und schaust etwas ratlos auf dein Handy. Eine Passantin spricht dich an – frag sie nach dem Weg zum Bahnhof oder zum Museum.",
+      "steps": 7
+    },
+    {
+      "id": "it-sc-03",
+      "file": "03.json",
+      "level": "A1",
+      "title": "Al mercato",
+      "title_de": "Auf dem Markt",
+      "setting_de": "Samstagmorgen auf dem Markt in Bologna. Am Obststand kaufst du Äpfel und Pfirsiche – wähle Farbe, Größe und Menge und bezahle.",
+      "steps": 8
+    },
+    {
+      "id": "it-sc-04",
+      "file": "04.json",
+      "level": "A1",
+      "title": "In albergo",
+      "title_de": "Im Hotel",
+      "setting_de": "Du kommst am Abend in deinem Hotel in Venedig an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+      "steps": 7
+    },
+    {
+      "id": "it-sc-05",
+      "file": "05.json",
+      "level": "A1",
+      "title": "Piacere di conoscerti!",
+      "title_de": "Jemanden kennenlernen",
+      "setting_de": "Du bist bei einem Sprachtandem-Abend in Turin. Matteo setzt sich zu dir – stellt euch vor und erzählt, woher ihr kommt, was ihr macht und was ihr gern tut.",
+      "steps": 7
+    },
+    {
+      "id": "it-sc-06",
+      "file": "06.json",
+      "level": "A2",
+      "title": "In farmacia",
+      "title_de": "In der Apotheke",
+      "setting_de": "Du bist im Urlaub in Neapel und fühlst dich nicht gut. In einer Apotheke beschreibst du deine Beschwerden und lässt dich beraten.",
+      "steps": 8
+    }
+  ]
+}

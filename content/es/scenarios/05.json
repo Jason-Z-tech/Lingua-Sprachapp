@@ -1,0 +1,102 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-05",
+  "lang": "es",
+  "level": "A1",
+  "title": "En un intercambio de idiomas",
+  "title_de": "Beim Sprachtandem",
+  "setting_de": "Du bist bei einem Sprachtandem-Treffen (intercambio) in einer Bar in Salamanca. Pablo, ein spanischer Student, setzt sich zu dir – hier duzt man sich.",
+  "partner": "Pablo",
+  "steps": [
+    {
+      "partner": "¡Hola! Soy Pablo. ¿Y tú? ¿Cómo te llamas?",
+      "de": "Hallo! Ich bin Pablo. Und du? Wie heißt du?",
+      "hint_de": "Stell dich vor.",
+      "replies": [
+        { "text": "Hola, me llamo Anna.", "de": "Hallo, ich heiße Anna." },
+        { "text": "Hola, Pablo. Yo soy Jonas.", "de": "Hallo, Pablo. Ich bin Jonas." },
+        { "text": "Me llamo Lena. Mucho gusto.", "de": "Ich heiße Lena. Freut mich." }
+      ]
+    },
+    {
+      "partner": "Encantado. ¿De dónde eres?",
+      "de": "Freut mich. Woher kommst du?",
+      "hint_de": "Sag, woher du kommst.",
+      "replies": [
+        { "text": "Soy de Alemania, de Berlín.", "de": "Ich komme aus Deutschland, aus Berlin." },
+        { "text": "Soy de Austria, de Viena.", "de": "Ich komme aus Österreich, aus Wien." },
+        { "text": "Soy de Suiza, de Zúrich.", "de": "Ich komme aus der Schweiz, aus Zürich." }
+      ]
+    },
+    {
+      "partner": "¡Qué bien! ¿Y vives aquí, en Salamanca?",
+      "de": "Wie schön! Und wohnst du hier in Salamanca?",
+      "hint_de": "Sag, ob du hier wohnst oder nur zu Besuch bist.",
+      "replies": [
+        { "text": "Sí, ahora vivo aquí.", "de": "Ja, jetzt wohne ich hier." },
+        { "text": "Sí, vivo aquí desde octubre.", "de": "Ja, ich wohne seit Oktober hier." },
+        { "text": "No, solo estoy aquí un mes.", "de": "Nein, ich bin nur einen Monat hier." }
+      ]
+    },
+    {
+      "partner": "Ah, muy bien. ¿Y qué haces? ¿Estudias o trabajas?",
+      "de": "Ah, sehr gut. Und was machst du? Studierst du oder arbeitest du?",
+      "hint_de": "Sag, was du studierst oder wo du arbeitest.",
+      "replies": [
+        { "text": "Soy estudiante de arquitectura.", "de": "Ich studiere Architektur." },
+        { "text": "Trabajo en un banco.", "de": "Ich arbeite in einer Bank." },
+        { "text": "Estudio medicina.", "de": "Ich studiere Medizin." }
+      ]
+    },
+    {
+      "partner": "¡Qué interesante! Yo estudio Historia. ¿Y qué te gusta hacer en tu tiempo libre?",
+      "de": "Wie interessant! Ich studiere Geschichte. Und was machst du gern in deiner Freizeit?",
+      "hint_de": "Erzähl von deinen Hobbys.",
+      "replies": [
+        { "text": "Me gusta mucho leer.", "de": "Ich lese sehr gern." },
+        { "text": "Me gusta viajar y cocinar.", "de": "Ich reise und koche gern." },
+        { "text": "Juego al tenis y escucho música.", "de": "Ich spiele Tennis und höre Musik." }
+      ]
+    },
+    {
+      "partner": "¡Qué bien! Por cierto, yo estoy aprendiendo alemán, pero es muy difícil.",
+      "de": "Wie schön! Übrigens lerne ich gerade Deutsch, aber es ist sehr schwer.",
+      "hint_de": "Mach Pablo Mut oder biete ihm Hilfe an.",
+      "replies": [
+        { "text": "No es tan difícil. ¡Ánimo!", "de": "So schwer ist es nicht. Nur Mut!" },
+        { "text": "Si quieres, te ayudo.", "de": "Wenn du willst, helfe ich dir." },
+        { "text": "Poco a poco. ¡Ya verás!", "de": "Nach und nach. Du wirst sehen!" }
+      ]
+    },
+    {
+      "partner": "¡Gracias! Oye, ¿quedamos otro día para practicar?",
+      "de": "Danke! Sag mal, wollen wir uns mal wieder zum Üben treffen?",
+      "hint_de": "Sag zu – und schlag einen Tag vor, wenn du magst.",
+      "replies": [
+        { "text": "¡Sí, claro! Buena idea.", "de": "Ja, klar! Gute Idee." },
+        { "text": "Vale. ¿El sábado?", "de": "Okay. Am Samstag?" },
+        { "text": "Sí. ¿Me das tu número?", "de": "Ja. Gibst du mir deine Nummer?" }
+      ]
+    },
+    {
+      "partner": "¡Genial! Mira, este es mi número. ¡Hasta pronto!",
+      "de": "Super! Schau, das ist meine Nummer. Bis bald!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "¡Hasta pronto, Pablo!", "de": "Bis bald, Pablo!" },
+        { "text": "¡Gracias! Hasta luego.", "de": "Danke! Tschüss!" },
+        { "text": "¡Adiós! Nos vemos.", "de": "Tschüss! Wir sehen uns." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "¿Cómo te llamas?", "de": "Wie heißt du?" },
+    { "text": "¿De dónde eres?", "de": "Woher kommst du?" },
+    { "text": "¿Estudias o trabajas?", "de": "Studierst du oder arbeitest du?" },
+    { "text": "el tiempo libre", "de": "die Freizeit" },
+    { "text": "me gusta leer", "de": "ich lese gern" },
+    { "text": "por cierto", "de": "übrigens" },
+    { "text": "¿Quedamos?", "de": "Treffen wir uns?" },
+    { "text": "¡Hasta pronto!", "de": "Bis bald!" }
+  ]
+}

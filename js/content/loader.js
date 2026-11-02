@@ -144,3 +144,17 @@ export async function loadAvailableLessons(code) {
   const metas = index.levels.flatMap((level) => level.lessons.filter((l) => l.available));
   return Promise.all(metas.map((m) => loadLesson(code, m.file)));
 }
+
+// ---------- Sprechen ----------
+
+export async function loadScenariosIndex(code) {
+  try {
+    return await loadJson(`${code}/scenarios/index.json`);
+  } catch {
+    return { formatVersion: 1, lang: code, scenarios: [] };
+  }
+}
+
+export function loadScenario(code, file) {
+  return loadJson(`${code}/scenarios/${file}`);
+}

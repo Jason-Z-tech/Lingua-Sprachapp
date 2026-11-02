@@ -26,28 +26,28 @@
           "file": "a1-03.json",
           "title_de": "Meine Familie",
           "topic": "Familie, Alter und was man hat",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-04",
           "file": "a1-04.json",
           "title_de": "Essen und Trinken",
           "topic": "Im Café bestellen",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-05",
           "file": "a1-05.json",
           "title_de": "Mein Tag",
           "topic": "Uhrzeit und Tagesablauf",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-06",
           "file": "a1-06.json",
           "title_de": "Zu Hause",
           "topic": "Wohnung, Zimmer und Möbel",
-          "available": false
+          "available": true
         },
         {
           "id": "es-a1-07",

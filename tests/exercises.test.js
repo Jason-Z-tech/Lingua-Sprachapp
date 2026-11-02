@@ -152,8 +152,9 @@ test('Startpunkt hängt von Niveau und Kana-Kenntnissen ab', () => {
 });
 
 test('Empfehlung, Status und weiche Sperre', () => {
+  // feste Annahme für den Test: nur Lektion 1 und 2 sind verfügbar
   const index = JSON.parse(JSON.stringify(esIndex));
-  index.levels[0].lessons[1].available = true;
+  index.levels.forEach((level) => level.lessons.forEach((l, i) => (l.available = level.id === 'A1' && i < 2)));
   const seq = courseSequence(index);
   const p = createLangProfile('es', { level: 'beginner' });
   assert.equal(recommended(p, seq).item.id, 'es-a1-01');

@@ -1,0 +1,81 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-02",
+  "lang": "en",
+  "level": "A1",
+  "title": "Asking for Directions",
+  "title_de": "Nach dem Weg fragen",
+  "setting_de": "Du bist zum ersten Mal in Boston und suchst den Bahnhof oder das Kunstmuseum. Eine Frau sieht, dass du ratlos auf deinen Stadtplan schaust, und spricht dich an.",
+  "partner": "Passerby",
+  "steps": [
+    {
+      "partner": "Hi! Are you lost? Can I help you?",
+      "de": "Hallo! Haben Sie sich verlaufen? Kann ich Ihnen helfen?",
+      "hint_de": "Sag, was du suchst – den Bahnhof oder das Museum.",
+      "replies": [
+        { "text": "Yes, please. Where is the train station?", "de": "Ja, bitte. Wo ist der Bahnhof?" },
+        { "text": "Yes. I'm looking for the art museum.", "de": "Ja. Ich suche das Kunstmuseum." },
+        { "text": "Excuse me, how do I get to the station?", "de": "Entschuldigung, wie komme ich zum Bahnhof?" }
+      ]
+    },
+    {
+      "partner": "Sure. Go straight down this street, and then turn left at the bank.",
+      "de": "Klar. Gehen Sie diese Straße geradeaus entlang und biegen Sie dann an der Bank links ab.",
+      "hint_de": "Das war zu schnell – bitte darum, es noch einmal zu sagen.",
+      "replies": [
+        { "text": "Sorry, can you say that again?", "de": "Entschuldigung, können Sie das noch einmal sagen?" },
+        { "text": "Sorry, more slowly, please.", "de": "Entschuldigung, bitte langsamer." },
+        { "text": "Excuse me, can you repeat that, please?", "de": "Entschuldigung, können Sie das bitte wiederholen?" }
+      ]
+    },
+    {
+      "partner": "No problem. Go straight. Then turn left at the bank.",
+      "de": "Kein Problem. Gehen Sie geradeaus. Dann biegen Sie an der Bank links ab.",
+      "hint_de": "Wiederhole den Weg, um sicherzugehen.",
+      "replies": [
+        { "text": "Straight, then left at the bank?", "de": "Geradeaus, dann an der Bank links?" },
+        { "text": "Okay. Straight and then left.", "de": "Okay. Geradeaus und dann links." },
+        { "text": "Left at the bank. Got it.", "de": "An der Bank links. Alles klar." }
+      ]
+    },
+    {
+      "partner": "Yes, exactly. Then it's on the right, next to the park.",
+      "de": "Ja, genau. Dann ist es auf der rechten Seite, neben dem Park.",
+      "hint_de": "Frag, ob es weit ist.",
+      "replies": [
+        { "text": "Is it far?", "de": "Ist es weit?" },
+        { "text": "How far is it?", "de": "Wie weit ist es?" },
+        { "text": "Can I walk there?", "de": "Kann ich zu Fuß hingehen?" }
+      ]
+    },
+    {
+      "partner": "It's about ten minutes on foot. Or you can take the bus.",
+      "de": "Zu Fuß sind es ungefähr zehn Minuten. Oder Sie nehmen den Bus.",
+      "hint_de": "Bedank dich für die Hilfe.",
+      "replies": [
+        { "text": "I'll walk. Thank you so much!", "de": "Ich gehe zu Fuß. Vielen Dank!" },
+        { "text": "Thank you for your help!", "de": "Danke für Ihre Hilfe!" },
+        { "text": "Great. Thanks a lot!", "de": "Super. Danke schön!" }
+      ]
+    },
+    {
+      "partner": "You're welcome. Have a nice day!",
+      "de": "Gern geschehen. Einen schönen Tag noch!",
+      "hint_de": "Verabschiede dich.",
+      "replies": [
+        { "text": "You too. Bye!", "de": "Ihnen auch. Tschüss!" },
+        { "text": "Thanks, you too!", "de": "Danke, gleichfalls!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Excuse me, where is …?", "de": "Entschuldigung, wo ist …?" },
+    { "text": "How do I get to …?", "de": "Wie komme ich zu …?" },
+    { "text": "the train station", "de": "der Bahnhof" },
+    { "text": "go straight", "de": "geradeaus gehen" },
+    { "text": "turn left / turn right", "de": "links / rechts abbiegen" },
+    { "text": "next to", "de": "neben" },
+    { "text": "on foot", "de": "zu Fuß" },
+    { "text": "Can you say that again?", "de": "Können Sie das noch einmal sagen?" }
+  ]
+}

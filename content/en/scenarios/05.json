@@ -1,0 +1,92 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-05",
+  "lang": "en",
+  "level": "A1",
+  "title": "Meeting New People",
+  "title_de": "Neue Leute kennenlernen",
+  "setting_de": "Du bist auf einer Party bei Freunden in Seattle. Eine junge Frau kommt zu dir und stellt sich vor – erzähl ihr, wer du bist, woher du kommst und was du gern machst.",
+  "partner": "Megan",
+  "steps": [
+    {
+      "partner": "Hi! I'm Megan. What's your name?",
+      "de": "Hallo! Ich bin Megan. Wie heißt du?",
+      "hint_de": "Stell dich vor.",
+      "replies": [
+        { "text": "Hi, Megan. I'm Lena.", "de": "Hallo, Megan. Ich bin Lena." },
+        { "text": "Hi! My name is Jonas.", "de": "Hallo! Ich heiße Jonas." },
+        { "text": "Hello. I'm Anna. Nice to meet you.", "de": "Hallo. Ich bin Anna. Freut mich." }
+      ]
+    },
+    {
+      "partner": "Nice to meet you! Where are you from?",
+      "de": "Freut mich! Woher kommst du?",
+      "hint_de": "Sag, woher du kommst.",
+      "replies": [
+        { "text": "I'm from Germany, from Munich.", "de": "Ich komme aus Deutschland, aus München." },
+        { "text": "I'm from Austria.", "de": "Ich komme aus Österreich." },
+        { "text": "I'm from Switzerland, from Zurich.", "de": "Ich komme aus der Schweiz, aus Zürich." }
+      ]
+    },
+    {
+      "partner": "Oh, cool! Your English is really good.",
+      "de": "Oh, cool! Dein Englisch ist richtig gut.",
+      "hint_de": "Bedank dich für das Kompliment.",
+      "replies": [
+        { "text": "Thank you! I'm still learning.", "de": "Danke! Ich lerne noch." },
+        { "text": "Thanks! I speak a little English.", "de": "Danke! Ich spreche ein bisschen Englisch." },
+        { "text": "Oh, thanks. That's very nice.", "de": "Oh, danke. Das ist sehr nett." }
+      ]
+    },
+    {
+      "partner": "So, what do you do? Are you a student?",
+      "de": "Und was machst du beruflich? Studierst du?",
+      "hint_de": "Sag, was du studierst oder was du beruflich machst.",
+      "replies": [
+        { "text": "Yes, I study biology.", "de": "Ja, ich studiere Biologie." },
+        { "text": "No, I work in a hospital.", "de": "Nein, ich arbeite in einem Krankenhaus." },
+        { "text": "No, I'm a teacher.", "de": "Nein, ich bin Lehrer(in)." }
+      ]
+    },
+    {
+      "partner": "Oh, interesting! I'm a designer. And what do you do for fun?",
+      "de": "Oh, interessant! Ich bin Designerin. Und was machst du gern in deiner Freizeit?",
+      "hint_de": "Erzähl von deinen Hobbys.",
+      "replies": [
+        { "text": "I like soccer and music.", "de": "Ich mag Fußball und Musik." },
+        { "text": "I love cooking and reading.", "de": "Ich koche und lese sehr gern." },
+        { "text": "I play the guitar.", "de": "Ich spiele Gitarre." }
+      ]
+    },
+    {
+      "partner": "That's great! I love hiking. Do you want to come with us on Saturday?",
+      "de": "Toll! Ich wandere total gern. Willst du am Samstag mitkommen?",
+      "hint_de": "Nimm die Einladung an.",
+      "replies": [
+        { "text": "Sure, I'd love to!", "de": "Klar, sehr gern!" },
+        { "text": "Yes, that sounds great!", "de": "Ja, das klingt super!" },
+        { "text": "Sounds fun! What time?", "de": "Klingt gut! Um wie viel Uhr?" }
+      ]
+    },
+    {
+      "partner": "Awesome! Let's meet at nine. Here's my number.",
+      "de": "Super! Treffen wir uns um neun. Hier ist meine Nummer.",
+      "hint_de": "Bedank dich und verabschiede dich bis Samstag.",
+      "replies": [
+        { "text": "Thanks! See you on Saturday!", "de": "Danke! Bis Samstag!" },
+        { "text": "Great. See you then!", "de": "Super. Bis dann!" },
+        { "text": "Thank you. It was nice meeting you.", "de": "Danke. Schön, dich kennengelernt zu haben." }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "What's your name?", "de": "Wie heißt du?" },
+    { "text": "Nice to meet you.", "de": "Freut mich (dich kennenzulernen)." },
+    { "text": "Where are you from?", "de": "Woher kommst du?" },
+    { "text": "What do you do?", "de": "Was machst du beruflich?" },
+    { "text": "I study …", "de": "ich studiere …" },
+    { "text": "What do you do for fun?", "de": "Was machst du gern in deiner Freizeit?" },
+    { "text": "I'd love to!", "de": "Sehr gern!" },
+    { "text": "See you then!", "de": "Bis dann!" }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-03",
+  "lang": "it",
+  "level": "A1",
+  "title": "Al mercato",
+  "title_de": "Auf dem Markt",
+  "setting_de": "Samstagmorgen auf dem Markt in Bologna. Am Obststand kaufst du Äpfel und Pfirsiche – wähle Farbe, Größe und Menge und bezahle.",
+  "partner": "Fruttivendolo",
+  "steps": [
+    {
+      "partner": "Buongiorno! Cosa Le do?",
+      "de": "Guten Morgen! Was darf's sein?",
+      "hint_de": "Frag nach Äpfeln.",
+      "replies": [
+        { "text": "Buongiorno! Vorrei delle mele, per favore.", "de": "Guten Morgen! Ich hätte gern Äpfel, bitte." },
+        { "text": "Avete delle mele?", "de": "Haben Sie Äpfel?" }
+      ]
+    },
+    {
+      "partner": "Certo! Le vuole rosse o verdi?",
+      "de": "Natürlich! Möchten Sie rote oder grüne?",
+      "hint_de": "Sag, welche Farbe du möchtest.",
+      "replies": [
+        { "text": "Rosse, per favore.", "de": "Rote, bitte." },
+        { "text": "Quelle verdi, grazie.", "de": "Die grünen, danke." }
+      ]
+    },
+    {
+      "partner": "Benissimo. Quante ne vuole?",
+      "de": "Sehr gut. Wie viele möchten Sie?",
+      "hint_de": "Sag, wie viel du möchtest.",
+      "replies": [
+        { "text": "Un chilo, per favore.", "de": "Ein Kilo, bitte." },
+        { "text": "Mezzo chilo, per favore.", "de": "Ein halbes Kilo, bitte." }
+      ]
+    },
+    {
+      "partner": "Ecco qua. Altro?",
+      "de": "Bitte sehr. Sonst noch etwas?",
+      "hint_de": "Frag, was die Pfirsiche kosten.",
+      "replies": [
+        { "text": "Sì. Quanto costano le pesche?", "de": "Ja. Was kosten die Pfirsiche?" },
+        { "text": "Anche delle pesche. Quanto costano?", "de": "Noch Pfirsiche. Was kosten die?" }
+      ]
+    },
+    {
+      "partner": "Quelle grandi tre euro al chilo, quelle piccole due.",
+      "de": "Die großen drei Euro das Kilo, die kleinen zwei.",
+      "hint_de": "Sag, welche Größe und wie viel du nimmst.",
+      "replies": [
+        { "text": "Un chilo di quelle grandi, per favore.", "de": "Ein Kilo von den großen, bitte." },
+        { "text": "Mezzo chilo di quelle piccole.", "de": "Ein halbes Kilo von den kleinen." }
+      ]
+    },
+    {
+      "partner": "Ecco le pesche. Nient'altro?",
+      "de": "Hier sind die Pfirsiche. Sonst nichts?",
+      "hint_de": "Sag, dass das alles ist, und frag, was es kostet.",
+      "replies": [
+        { "text": "No, basta così. Quant'è?", "de": "Nein, das ist alles. Was macht das?" },
+        { "text": "No, grazie. Quanto pago?", "de": "Nein, danke. Was bekommen Sie?" }
+      ]
+    },
+    {
+      "partner": "Allora… sono cinque euro e venti.",
+      "de": "Also … das macht fünf Euro zwanzig.",
+      "hint_de": "Bezahl.",
+      "replies": [
+        { "text": "Ecco dieci euro.", "de": "Hier sind zehn Euro." },
+        { "text": "Ecco a Lei.", "de": "Bitte schön." },
+        { "text": "Ha il resto di venti euro?", "de": "Können Sie auf zwanzig Euro herausgeben?" }
+      ]
+    },
+    {
+      "partner": "Grazie! Ecco il resto. Buona giornata!",
+      "de": "Danke! Hier ist Ihr Wechselgeld. Einen schönen Tag noch!",
+      "hint_de": "Bedank dich und verabschiede dich.",
+      "replies": [
+        { "text": "Grazie, altrettanto!", "de": "Danke, gleichfalls!" },
+        { "text": "Grazie, arrivederci!", "de": "Danke, auf Wiedersehen!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Cosa Le do?", "de": "Was darf's sein?" },
+    { "text": "rosso / verde", "de": "rot / grün" },
+    { "text": "un chilo / mezzo chilo", "de": "ein Kilo / ein halbes Kilo" },
+    { "text": "Quanto costano …?", "de": "Was kosten …?" },
+    { "text": "quelle grandi / quelle piccole", "de": "die großen / die kleinen" },
+    { "text": "Basta così.", "de": "Das ist alles; das reicht." },
+    { "text": "Quant'è?", "de": "Was macht das?" },
+    { "text": "il resto", "de": "das Wechselgeld" }
+  ]
+}

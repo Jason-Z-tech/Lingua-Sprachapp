@@ -17,10 +17,10 @@ import { readerView } from './views/reader.js';
 import { reviewView } from './views/review.js';
 import { onboardingView } from './views/onboarding.js';
 import { placementView } from './views/placement-route.js';
-import { placeholderView } from './views/placeholder.js';
 import { progressView } from './views/progress.js';
 import { settingsView } from './views/settings.js';
 import { syncView } from './views/sync.js';
+import { speakView } from './views/speak.js';
 
 const NAV = [
   { route: 'start', label: 'Start', icon: 'home' },
@@ -39,7 +39,7 @@ const ROUTES = {
   kana: { view: kanaView, title: 'Kana', nav: 'kurs' },
   lesen: { view: (main, ctx) => (ctx.params[0] ? readerView(main, ctx) : libraryView(main, ctx)), title: 'Lesen' },
   wiederholen: { view: reviewView, title: 'Wiederholen' },
-  sprechen: { view: placeholderView('sprechen'), title: 'Sprechen' },
+  sprechen: { view: speakView, title: 'Sprechen' },
   fortschritt: { view: progressView, title: 'Fortschritt' },
   einstellungen: { view: settingsView, title: 'Einstellungen', public: true },
   sichern: { view: syncView, title: 'Sichern & Übertragen', public: true, nav: 'einstellungen' },

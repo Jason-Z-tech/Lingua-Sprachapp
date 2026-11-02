@@ -1,0 +1,89 @@
+{
+  "formatVersion": 1,
+  "id": "it-sc-05",
+  "lang": "it",
+  "level": "A1",
+  "title": "Piacere di conoscerti!",
+  "title_de": "Jemanden kennenlernen",
+  "setting_de": "Du bist bei einem Sprachtandem-Abend in Turin. Matteo setzt sich zu dir – stellt euch vor und erzählt, woher ihr kommt, was ihr macht und was ihr gern tut.",
+  "partner": "Matteo",
+  "steps": [
+    {
+      "partner": "Ciao! Io sono Matteo. E tu come ti chiami?",
+      "de": "Hallo! Ich bin Matteo. Und wie heißt du?",
+      "hint_de": "Sag, wie du heißt.",
+      "replies": [
+        { "text": "Ciao, Matteo! Mi chiamo Anna.", "de": "Hallo, Matteo! Ich heiße Anna." },
+        { "text": "Piacere! Io sono Jonas.", "de": "Freut mich! Ich bin Jonas." }
+      ]
+    },
+    {
+      "partner": "Piacere! Di dove sei?",
+      "de": "Freut mich! Woher kommst du?",
+      "hint_de": "Sag, woher du kommst – und frag ruhig zurück.",
+      "replies": [
+        { "text": "Sono tedesca, di Amburgo. E tu?", "de": "Ich bin Deutsche, aus Hamburg. Und du?" },
+        { "text": "Sono austriaco, di Vienna.", "de": "Ich bin Österreicher, aus Wien." },
+        { "text": "Sono di Zurigo, in Svizzera.", "de": "Ich komme aus Zürich in der Schweiz." }
+      ]
+    },
+    {
+      "partner": "Io sono di qui, di Torino. E cosa fai? Studi o lavori?",
+      "de": "Ich bin von hier, aus Turin. Und was machst du? Studierst du oder arbeitest du?",
+      "hint_de": "Erzähl, ob du studierst oder arbeitest.",
+      "replies": [
+        { "text": "Studio economia all'università.", "de": "Ich studiere Wirtschaft an der Uni." },
+        { "text": "Lavoro come ingegnere.", "de": "Ich arbeite als Ingenieur." },
+        { "text": "Sono insegnante.", "de": "Ich bin Lehrerin." }
+      ]
+    },
+    {
+      "partner": "Interessante! E da quanto tempo impari l'italiano?",
+      "de": "Interessant! Und seit wann lernst du Italienisch?",
+      "hint_de": "Sag, seit wann du Italienisch lernst.",
+      "replies": [
+        { "text": "Da un anno, più o meno.", "de": "Seit ungefähr einem Jahr." },
+        { "text": "Da sei mesi.", "de": "Seit sechs Monaten." },
+        { "text": "Solo da qualche mese.", "de": "Erst seit ein paar Monaten." }
+      ]
+    },
+    {
+      "partner": "Davvero? Parli già molto bene!",
+      "de": "Wirklich? Du sprichst schon sehr gut!",
+      "hint_de": "Reagiere auf das Kompliment.",
+      "replies": [
+        { "text": "Grazie, sei molto gentile!", "de": "Danke, das ist sehr nett von dir!" },
+        { "text": "Grazie! Ma parlo solo un po'.", "de": "Danke! Aber ich spreche nur ein bisschen." }
+      ]
+    },
+    {
+      "partner": "Ma no, davvero! E nel tempo libero cosa ti piace fare?",
+      "de": "Ach was, wirklich! Und was machst du gern in deiner Freizeit?",
+      "hint_de": "Erzähl von deinen Hobbys.",
+      "replies": [
+        { "text": "Mi piace leggere e cucinare.", "de": "Ich lese und koche gern." },
+        { "text": "Gioco a calcio e ascolto musica.", "de": "Ich spiele Fußball und höre Musik." },
+        { "text": "Mi piace molto viaggiare. E a te?", "de": "Ich reise sehr gern. Und du?" }
+      ]
+    },
+    {
+      "partner": "Bello! Io suono la chitarra. Senti, ci vediamo giovedì al prossimo tandem?",
+      "de": "Schön! Ich spiele Gitarre. Sag mal, sehen wir uns am Donnerstag beim nächsten Tandem?",
+      "hint_de": "Sag zu und verabschiede dich.",
+      "replies": [
+        { "text": "Sì, volentieri! A giovedì!", "de": "Ja, gern! Bis Donnerstag!" },
+        { "text": "Certo! Ciao, a presto!", "de": "Klar! Tschüss, bis bald!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "Come ti chiami?", "de": "Wie heißt du?" },
+    { "text": "Di dove sei?", "de": "Woher kommst du?" },
+    { "text": "Studi o lavori?", "de": "Studierst du oder arbeitest du?" },
+    { "text": "da un anno", "de": "seit einem Jahr" },
+    { "text": "nel tempo libero", "de": "in der Freizeit" },
+    { "text": "Mi piace leggere.", "de": "Ich lese gern." },
+    { "text": "E a te?", "de": "Und dir? (Und du?)" },
+    { "text": "Ci vediamo!", "de": "Wir sehen uns!" }
+  ]
+}

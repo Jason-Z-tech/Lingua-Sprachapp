@@ -91,6 +91,7 @@ export function createLangProfile(code, { level = 'beginner', interests = [], op
     course: {}, // Lektion -> Fortschritt
     read: {}, // gelesene Texte
     lessons: {}, // eigene Lektionen (KI / Kopier-Modus)
+    speaking: {}, // Sprech-Szenarien: id -> { best, last, times, at }
   };
 }
 
@@ -106,6 +107,7 @@ const PROFILE_DEFAULTS = {
   course: {},
   read: {},
   lessons: {},
+  speaking: {},
 };
 
 function normalizeLangProfile(code, profile) {

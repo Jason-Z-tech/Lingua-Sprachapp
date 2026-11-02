@@ -2,7 +2,7 @@
 
 Alle Inhalte liegen als JSON-Dateien in `content/`. Die App lädt sie direkt –
 es gibt keinen Build-Schritt. Diese Beschreibung wächst mit den Etappen
-(Sprech-Szenarien folgen).
+(alle Inhaltsarten sind beschrieben).
 
 Nach jeder Änderung prüft `npm test`, ob alle Dateien zum Format passen.
 
@@ -18,9 +18,11 @@ content/
     ├── course/
     │   ├── index.json    # Kursübersicht: A1, A2, B1 mit je 10 Lektionen
     │   └── a1-01.json …  # eine Datei pro Lektion
-    └── stories/
-        ├── index.json    # wird erzeugt: node tools/build-story-index.mjs
-        └── a1-01.json …  # Geschichten und Lese-Dialoge
+    ├── stories/
+    │   ├── index.json    # wird erzeugt: node tools/build-story-index.mjs
+    │   └── a1-01.json …  # Geschichten und Lese-Dialoge
+    └── scenarios/
+        └── 01.json …     # Sprech-Szenarien (mindestens 5)
 content/ja/
     ├── kana.json         # Kana-Kurs (Hiragana, Katakana)
     ├── kanji.json        # Kanji mit Bedeutung, Lesungen, Beispielen
@@ -284,6 +286,44 @@ im Text steht, ohne Lesung und ohne Satzzeichen (`"学生"`, `"です"`, `"は"`
 Wörterbuchform in Furigana-Schreibweise (`"食[た]べる"`).
 
 Nach dem Hinzufügen von Geschichten: `node tools/build-story-index.mjs` erzeugt die `index.json`.
+
+## Sprech-Szenarien `scenarios/01.json`
+
+Vollständiges Beispiel: [`es/scenarios/01.json`](es/scenarios/01.json). Dateien heißen `01.json`, `02.json` …,
+die `id` ist `<sprache>-sc-<nr>`.
+
+```json
+{
+  "formatVersion": 1,
+  "id": "es-sc-01",
+  "lang": "es",
+  "level": "A1",
+  "title": "En la cafetería",
+  "title_de": "Im Café",
+  "setting_de": "Du sitzt in einem Café in Madrid …",
+  "partner": "Camarero",
+  "steps": [
+    {
+      "partner": "¡Buenos días! ¿Qué le pongo?",
+      "de": "Guten Morgen! Was darf ich Ihnen bringen?",
+      "hint_de": "Bestell ein Getränk.",
+      "replies": [
+        { "text": "Un café con leche, por favor.", "de": "Einen Milchkaffee, bitte." }
+      ]
+    }
+  ],
+  "vocab": [{ "text": "la cuenta", "de": "die Rechnung" }]
+}
+```
+
+| Feld | Bedeutung |
+| --- | --- |
+| `partner` | Rolle des Gesprächspartners (wird angezeigt) |
+| `steps` | 5–10 Schritte: Was der Partner sagt (`partner`, `de`), ein Hinweis (`hint_de`) und 1–4 Antwortvorschläge (`replies`) |
+| `vocab` | nützliche Ausdrücke für die Vorbereitung |
+
+Beim Sprechen vergleicht die App das Erkannte mit dem ähnlichsten Antwortvorschlag.
+Japanisch: alle japanischen Texte in Furigana-Schreibweise.
 
 ## Eine neue Sprache hinzufügen
 

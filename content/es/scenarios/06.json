@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "id": "es-sc-06",
+  "lang": "es",
+  "level": "A2",
+  "title": "En la farmacia",
+  "title_de": "In der Apotheke",
+  "setting_de": "Du machst Urlaub in Málaga und fühlst dich nicht gut. In der Apotheke beschreibst du deine Beschwerden und fragst nach einem Medikament.",
+  "partner": "Farmacéutica",
+  "steps": [
+    {
+      "partner": "Buenos días. ¿Qué le pasa?",
+      "de": "Guten Morgen. Was fehlt Ihnen?",
+      "hint_de": "Beschreib, was dir wehtut.",
+      "replies": [
+        { "text": "Me duele mucho la cabeza.", "de": "Ich habe starke Kopfschmerzen." },
+        { "text": "Me duele la garganta.", "de": "Mir tut der Hals weh." },
+        { "text": "Tengo dolor de cabeza y de garganta.", "de": "Ich habe Kopf- und Halsschmerzen." }
+      ]
+    },
+    {
+      "partner": "Vaya, lo siento. ¿Desde cuándo le duele?",
+      "de": "Oh, das tut mir leid. Seit wann tut es weh?",
+      "hint_de": "Sag, seit wann du die Beschwerden hast.",
+      "replies": [
+        { "text": "Desde ayer.", "de": "Seit gestern." },
+        { "text": "Desde hace dos días.", "de": "Seit zwei Tagen." },
+        { "text": "Desde el domingo por la noche.", "de": "Seit Sonntagabend." }
+      ]
+    },
+    {
+      "partner": "¿Y tiene fiebre?",
+      "de": "Und haben Sie Fieber?",
+      "hint_de": "Sag, ob du Fieber hast.",
+      "replies": [
+        { "text": "Sí, un poco. Treinta y ocho.", "de": "Ja, ein bisschen. 38 Grad." },
+        { "text": "No, fiebre no.", "de": "Nein, Fieber nicht." },
+        { "text": "Creo que no.", "de": "Ich glaube nicht." }
+      ]
+    },
+    {
+      "partner": "Vale. ¿Tiene alergia a algún medicamento?",
+      "de": "Gut. Sind Sie gegen ein Medikament allergisch?",
+      "hint_de": "Sag, ob du Allergien hast.",
+      "replies": [
+        { "text": "No, a ninguno.", "de": "Nein, gegen keins." },
+        { "text": "No, que yo sepa.", "de": "Nicht, dass ich wüsste." },
+        { "text": "Sí, a la penicilina.", "de": "Ja, gegen Penicillin." }
+      ]
+    },
+    {
+      "partner": "Entonces le doy paracetamol. Es bueno para el dolor y para la fiebre.",
+      "de": "Dann gebe ich Ihnen Paracetamol. Das hilft gegen Schmerzen und gegen Fieber.",
+      "hint_de": "Frag, wie du das Medikament nehmen sollst.",
+      "replies": [
+        { "text": "¿Cuántas veces al día lo tomo?", "de": "Wie oft am Tag nehme ich es?" },
+        { "text": "¿Cómo tengo que tomarlo?", "de": "Wie muss ich es einnehmen?" },
+        { "text": "¿Lo tomo antes o después de comer?", "de": "Nehme ich es vor oder nach dem Essen?" }
+      ]
+    },
+    {
+      "partner": "Tome una pastilla cada ocho horas, después de comer. Como máximo, tres al día.",
+      "de": "Nehmen Sie alle acht Stunden eine Tablette, nach dem Essen. Höchstens drei am Tag.",
+      "hint_de": "Frag, was du tun sollst, wenn es nicht besser wird.",
+      "replies": [
+        { "text": "¿Y si no estoy mejor?", "de": "Und wenn es mir nicht besser geht?" },
+        { "text": "¿Tengo que ir al médico?", "de": "Muss ich zum Arzt gehen?" },
+        { "text": "¿Y si mañana sigo igual?", "de": "Und wenn es morgen noch genauso ist?" }
+      ]
+    },
+    {
+      "partner": "Si en dos o tres días no mejora, vaya al médico. Y beba mucha agua.",
+      "de": "Wenn es in zwei, drei Tagen nicht besser wird, gehen Sie zum Arzt. Und trinken Sie viel Wasser.",
+      "hint_de": "Bedank dich und frag, was es kostet.",
+      "replies": [
+        { "text": "Vale, muchas gracias. ¿Cuánto es?", "de": "Okay, vielen Dank. Wie viel macht das?" },
+        { "text": "Entendido. ¿Qué le debo?", "de": "Verstanden. Was bin ich Ihnen schuldig?" }
+      ]
+    },
+    {
+      "partner": "Son tres euros con veinte. ¡Que se mejore!",
+      "de": "Das macht drei Euro zwanzig. Gute Besserung!",
+      "hint_de": "Bezahl und verabschiede dich.",
+      "replies": [
+        { "text": "Aquí tiene. ¡Muchas gracias!", "de": "Bitte schön. Vielen Dank!" },
+        { "text": "Gracias por todo. ¡Adiós!", "de": "Danke für alles. Auf Wiedersehen!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "¿Qué le pasa?", "de": "Was fehlt Ihnen?" },
+    { "text": "me duele la cabeza / la garganta", "de": "ich habe Kopfschmerzen / Halsschmerzen" },
+    { "text": "tener fiebre", "de": "Fieber haben" },
+    { "text": "¿Desde cuándo?", "de": "Seit wann?" },
+    { "text": "desde hace dos días", "de": "seit zwei Tagen" },
+    { "text": "la pastilla", "de": "die Tablette" },
+    { "text": "cada ocho horas", "de": "alle acht Stunden" },
+    { "text": "¡Que se mejore!", "de": "Gute Besserung!" }
+  ]
+}

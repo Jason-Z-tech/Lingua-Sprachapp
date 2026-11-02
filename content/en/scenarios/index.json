@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "lang": "en",
+  "scenarios": [
+    {
+      "id": "en-sc-01",
+      "file": "01.json",
+      "level": "A1",
+      "title": "At the Diner",
+      "title_de": "Im Diner",
+      "setting_de": "Du sitzt in einem Diner in Chicago, einem typisch amerikanischen Restaurant. Die Bedienung kommt an deinen Tisch – bestell etwas zu trinken und zu essen und bezahle.",
+      "steps": 7
+    },
+    {
+      "id": "en-sc-02",
+      "file": "02.json",
+      "level": "A1",
+      "title": "Asking for Directions",
+      "title_de": "Nach dem Weg fragen",
+      "setting_de": "Du bist zum ersten Mal in Boston und suchst den Bahnhof oder das Kunstmuseum. Eine Frau sieht, dass du ratlos auf deinen Stadtplan schaust, und spricht dich an.",
+      "steps": 6
+    },
+    {
+      "id": "en-sc-03",
+      "file": "03.json",
+      "level": "A1",
+      "title": "At the Clothing Store",
+      "title_de": "Im Kleidungsgeschäft",
+      "setting_de": "Du bist in einem Kleidungsgeschäft in San Francisco und suchst ein neues Oberteil. Achtung: Auf dem Preisschild steht in den USA meist der Preis ohne Umsatzsteuer – sie kommt erst an der Kasse dazu.",
+      "steps": 7
+    },
+    {
+      "id": "en-sc-04",
+      "file": "04.json",
+      "level": "A1",
+      "title": "Checking In at the Hotel",
+      "title_de": "Im Hotel einchecken",
+      "setting_de": "Du kommst abends in deinem Hotel in New York an. An der Rezeption checkst du ein und fragst nach Frühstück und WLAN.",
+      "steps": 7
+    },
+    {
+      "id": "en-sc-05",
+      "file": "05.json",
+      "level": "A1",
+      "title": "Meeting New People",
+      "title_de": "Neue Leute kennenlernen",
+      "setting_de": "Du bist auf einer Party bei Freunden in Seattle. Eine junge Frau kommt zu dir und stellt sich vor – erzähl ihr, wer du bist, woher du kommst und was du gern machst.",
+      "steps": 7
+    },
+    {
+      "id": "en-sc-06",
+      "file": "06.json",
+      "level": "A2",
+      "title": "At the Pharmacy",
+      "title_de": "In der Apotheke",
+      "setting_de": "Du bist auf Reisen in Los Angeles und fühlst dich krank. In einer Apotheke (pharmacy) beschreibst du deine Beschwerden und bekommst ein Mittel ohne Rezept.",
+      "steps": 8
+    }
+  ]
+}

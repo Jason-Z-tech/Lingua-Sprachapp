@@ -2121,3 +2121,149 @@ rt {
   word-break: break-all;
   resize: vertical;
 }
+
+/* =========================================================
+   Sprechen
+   ========================================================= */
+
+.chat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.chat-bubble {
+  max-width: 85%;
+  padding: var(--space-3) var(--space-4);
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.chat-bubble.from-partner {
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+.chat-bubble.from-you {
+  align-self: flex-end;
+  background: var(--accent-soft);
+  border-color: transparent;
+  border-bottom-right-radius: 4px;
+}
+
+.chat-who {
+  color: var(--text-faint);
+  font-weight: 600;
+}
+
+.chat-bubble .ja-text,
+.chat-bubble > .row {
+  font-size: 1.1rem;
+}
+
+.btn-small {
+  min-height: 28px;
+  padding: 0 var(--space-2);
+  font-size: 0.8rem;
+  align-self: flex-start;
+}
+
+.speak-hint {
+  font-weight: 600;
+  margin: 0;
+}
+
+.reply-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.reply-card {
+  padding: var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.reply-card.is-chosen {
+  border-color: var(--accent);
+}
+
+.reply-text {
+  font-size: 1.12rem;
+  font-weight: 550;
+}
+
+.type-instead summary {
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: var(--space-2);
+}
+
+.type-instead .answer-input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.speak-result {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.speak-result p {
+  margin: 0;
+}
+
+.fb-great {
+  background: var(--good-soft);
+}
+
+.fb-good,
+.fb-ok {
+  background: var(--warn-soft);
+}
+
+.fb-retry {
+  background: var(--danger-soft);
+}
+
+.speak-heard {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.speak-target {
+  font-size: 1.15rem;
+}
+
+.w-ok {
+  color: var(--good);
+  font-weight: 600;
+}
+
+.w-miss {
+  color: var(--danger);
+  font-weight: 600;
+  text-decoration: underline wavy;
+  text-underline-offset: 3px;
+}
+
+audio {
+  width: 100%;
+  max-width: 420px;
+}

@@ -1,0 +1,91 @@
+{
+  "formatVersion": 1,
+  "id": "en-sc-01",
+  "lang": "en",
+  "level": "A1",
+  "title": "At the Diner",
+  "title_de": "Im Diner",
+  "setting_de": "Du sitzt in einem Diner in Chicago, einem typisch amerikanischen Restaurant. Die Bedienung kommt an deinen Tisch – bestell etwas zu trinken und zu essen und bezahle.",
+  "partner": "Server",
+  "steps": [
+    {
+      "partner": "Hi there! What can I get you to drink?",
+      "de": "Hallo! Was darf ich Ihnen zu trinken bringen?",
+      "hint_de": "Bestell ein Getränk.",
+      "replies": [
+        { "text": "A coffee, please.", "de": "Einen Kaffee, bitte." },
+        { "text": "I'd like an orange juice, please.", "de": "Ich hätte gern einen Orangensaft, bitte." },
+        { "text": "Just water, please.", "de": "Nur Wasser, bitte." }
+      ]
+    },
+    {
+      "partner": "Sure. And what would you like to eat?",
+      "de": "Gern. Und was möchten Sie essen?",
+      "hint_de": "Bestell etwas zu essen.",
+      "replies": [
+        { "text": "I'll have the pancakes, please.", "de": "Ich nehme die Pfannkuchen, bitte." },
+        { "text": "Eggs and toast, please.", "de": "Eier und Toast, bitte." },
+        { "text": "A cheeseburger and fries, please.", "de": "Einen Cheeseburger mit Pommes, bitte." }
+      ]
+    },
+    {
+      "partner": "Here's your food. Enjoy your meal!",
+      "de": "Hier ist Ihr Essen. Guten Appetit!",
+      "hint_de": "Bedank dich.",
+      "replies": [
+        { "text": "Thank you very much.", "de": "Vielen Dank." },
+        { "text": "Thanks! It looks great.", "de": "Danke! Das sieht toll aus." }
+      ]
+    },
+    {
+      "partner": "So, how is everything?",
+      "de": "Und, schmeckt alles?",
+      "hint_de": "Sag, dass es dir schmeckt.",
+      "replies": [
+        { "text": "Everything is great, thanks.", "de": "Alles bestens, danke." },
+        { "text": "It's really good!", "de": "Es ist richtig gut!" },
+        { "text": "It's delicious, thank you.", "de": "Es ist köstlich, danke." }
+      ]
+    },
+    {
+      "partner": "Glad to hear it! Can I get you anything else?",
+      "de": "Das freut mich! Darf ich Ihnen noch etwas bringen?",
+      "hint_de": "Sag, dass du nichts mehr möchtest, und bitte um die Rechnung.",
+      "replies": [
+        { "text": "No, thank you. Just the check, please.", "de": "Nein, danke. Nur die Rechnung, bitte." },
+        { "text": "Can I have the check, please?", "de": "Kann ich bitte die Rechnung haben?" },
+        { "text": "No, thanks. How much is it?", "de": "Nein, danke. Was macht das?" }
+      ]
+    },
+    {
+      "partner": "Sure. Here's your check. That's twelve dollars and fifty cents.",
+      "de": "Gern. Hier ist Ihre Rechnung. Das macht zwölf Dollar fünfzig.",
+      "hint_de": "Frag, ob du mit Karte oder bar zahlen kannst.",
+      "replies": [
+        { "text": "Can I pay by card?", "de": "Kann ich mit Karte zahlen?" },
+        { "text": "Do you take credit cards?", "de": "Nehmen Sie Kreditkarten?" },
+        { "text": "Is cash okay?", "de": "Geht auch bar?" }
+      ]
+    },
+    {
+      "partner": "Sure, no problem. Thanks so much, and have a great day!",
+      "de": "Klar, kein Problem. Vielen Dank und einen schönen Tag noch!",
+      "hint_de": "Bedank dich und verabschiede dich – und denk an das Trinkgeld!",
+      "replies": [
+        { "text": "Thanks, you too!", "de": "Danke, gleichfalls!" },
+        { "text": "Thank you. Goodbye!", "de": "Danke. Auf Wiedersehen!" },
+        { "text": "Thanks! Have a nice day!", "de": "Danke! Einen schönen Tag noch!" }
+      ]
+    }
+  ],
+  "vocab": [
+    { "text": "What can I get you?", "de": "Was darf ich Ihnen bringen?" },
+    { "text": "I'll have …", "de": "ich nehme … (beim Bestellen)" },
+    { "text": "I'd like …", "de": "ich hätte gern …" },
+    { "text": "Enjoy your meal!", "de": "Guten Appetit!" },
+    { "text": "the check", "de": "die Rechnung (im Restaurant; britisch: the bill)" },
+    { "text": "pay by card", "de": "mit Karte zahlen" },
+    { "text": "the tip", "de": "das Trinkgeld (in den USA sind 15–20 % üblich)" },
+    { "text": "You too!", "de": "Gleichfalls!; Ebenfalls!" }
+  ]
+}
