@@ -1,0 +1,167 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-04",
+  "lang": "en",
+  "level": "A2",
+  "number": 4,
+  "title": "Weather and Seasons",
+  "title_de": "Wetter und Jahreszeiten",
+  "topic": "Über das Wetter sprechen",
+  "goals": [
+    "Du kannst über das Wetter sprechen: It's sunny. It's raining. What's the weather like?",
+    "Du kannst Monate und Jahreszeiten nennen und ein Datum sagen: My birthday is on May 3rd.",
+    "Du kannst mit -er/-est, more/most und as … as vergleichen: Boston is colder than Miami. July is the hottest month."
+  ],
+  "vocab": [
+    { "id": "weather", "word": "weather", "de": "das Wetter", "pos": "noun", "example": { "text": "What's the weather like today?", "de": "Wie ist das Wetter heute?" }, "note": "Nicht zählbar, also ohne a: nice weather (schönes Wetter)." },
+    { "id": "sunny", "word": "sunny", "de": "sonnig", "pos": "adj", "example": { "text": "Tomorrow it's going to be sunny.", "de": "Morgen wird es sonnig." } },
+    { "id": "cloudy", "word": "cloudy", "de": "bewölkt", "pos": "adj", "example": { "text": "It's cloudy, but it isn't raining.", "de": "Es ist bewölkt, aber es regnet nicht." } },
+    { "id": "windy", "word": "windy", "de": "windig", "pos": "adj", "example": { "text": "It's very windy at the beach.", "de": "Am Strand ist es sehr windig." } },
+    { "id": "rain", "word": "rain", "de": "regnen; der Regen", "pos": "verb", "example": { "text": "It's raining again!", "de": "Es regnet schon wieder!", "focus": "raining" }, "note": "It's raining. = Es regnet (gerade). It rains a lot in April. = Im April regnet es viel." },
+    { "id": "snow", "word": "snow", "de": "schneien; der Schnee", "pos": "verb", "example": { "text": "It snowed all night.", "de": "Es hat die ganze Nacht geschneit.", "focus": "snowed" } },
+    { "id": "storm", "word": "storm", "plural": "storms", "de": "der Sturm; das Gewitter", "pos": "noun", "example": { "text": "There was a big storm last night.", "de": "Gestern Abend gab es ein starkes Gewitter." } },
+    { "id": "warm", "word": "warm", "de": "warm", "pos": "adj", "example": { "text": "It's warm today. We can swim in the lake.", "de": "Heute ist es warm. Wir können im See schwimmen." } },
+    { "id": "cool", "word": "cool", "de": "kühl; cool", "pos": "adj", "example": { "text": "It's cool in the morning.", "de": "Morgens ist es kühl." }, "note": "Umgangssprachlich auch: cool = super. That's cool!" },
+    { "id": "humid", "word": "humid", "de": "schwül; feucht", "pos": "adj", "example": { "text": "It's hot and humid today.", "de": "Heute ist es heiß und schwül." } },
+    { "id": "wet", "word": "wet", "de": "nass", "pos": "adj", "example": { "text": "My shoes are wet.", "de": "Meine Schuhe sind nass." } },
+    { "id": "temperature", "word": "temperature", "de": "die Temperatur", "pos": "noun", "example": { "text": "The temperature is 75 degrees.", "de": "Die Temperatur liegt bei 75 Grad Fahrenheit." }, "note": "In den USA misst man in Fahrenheit: 32 °F = 0 °C, 50 °F = 10 °C, 68 °F = 20 °C, 86 °F = 30 °C." },
+    { "id": "degree", "word": "degree", "plural": "degrees", "de": "der Grad", "pos": "noun", "example": { "text": "It's 90 degrees in Miami!", "de": "In Miami sind es 90 Grad Fahrenheit!", "focus": "degrees" } },
+    { "id": "umbrella", "word": "umbrella", "plural": "umbrellas", "de": "der Regenschirm", "pos": "noun", "example": { "text": "Take an umbrella. It's going to rain.", "de": "Nimm einen Regenschirm mit. Es wird regnen." } },
+    { "id": "forecast", "word": "forecast", "alt": ["weather forecast"], "de": "die Wettervorhersage", "pos": "noun", "example": { "text": "The forecast says it's going to snow.", "de": "Laut Wettervorhersage wird es schneien." }, "note": "Auch: weather forecast." },
+    { "id": "outside", "word": "outside", "de": "draußen; nach draußen", "pos": "adv", "example": { "text": "It's cold outside.", "de": "Draußen ist es kalt." } },
+    { "id": "season", "word": "season", "plural": "seasons", "de": "die Jahreszeit", "pos": "noun", "example": { "text": "What's your favorite season?", "de": "Was ist deine Lieblingsjahreszeit?" } },
+    { "id": "spring", "word": "spring", "de": "der Frühling", "pos": "noun", "example": { "text": "In spring the parks are green.", "de": "Im Frühling sind die Parks grün." } },
+    { "id": "summer", "word": "summer", "de": "der Sommer", "pos": "noun", "example": { "text": "Summer in New York is hot.", "de": "Der Sommer in New York ist heiß." } },
+    { "id": "fall", "word": "fall", "alt": ["autumn"], "de": "der Herbst", "pos": "noun", "example": { "text": "I love the colors in fall.", "de": "Ich liebe die Farben im Herbst." }, "note": "Amerikanisch: fall, britisch: autumn. Das Verb fall heißt außerdem „fallen“." },
+    { "id": "winter", "word": "winter", "de": "der Winter", "pos": "noun", "example": { "text": "It snows a lot in winter.", "de": "Im Winter schneit es viel." } },
+    { "id": "month", "word": "month", "plural": "months", "de": "der Monat", "pos": "noun", "example": { "text": "I'm going to visit Austria next month.", "de": "Nächsten Monat besuche ich Österreich." } },
+    { "id": "january", "word": "January", "de": "der Januar", "pos": "noun", "example": { "text": "It's very cold in January.", "de": "Im Januar ist es sehr kalt." }, "note": "Monate schreibt man immer groß. Im Januar = in January." },
+    { "id": "february", "word": "February", "de": "der Februar", "pos": "noun", "example": { "text": "February has 28 days.", "de": "Der Februar hat 28 Tage." }, "note": "Aussprache: [ˈfɛbjuɛri] – das erste r spricht man meistens nicht." },
+    { "id": "march", "word": "March", "de": "der März", "pos": "noun", "example": { "text": "Spring starts in March.", "de": "Der Frühling beginnt im März." } },
+    { "id": "april", "word": "April", "de": "der April", "pos": "noun", "example": { "text": "It rains a lot in April.", "de": "Im April regnet es viel." } },
+    { "id": "may", "word": "May", "de": "der Mai", "pos": "noun", "example": { "text": "My birthday is on May 3rd.", "de": "Ich habe am 3. Mai Geburtstag." } },
+    { "id": "june", "word": "June", "de": "der Juni", "pos": "noun", "example": { "text": "We're going to the beach in June.", "de": "Im Juni fahren wir an den Strand." } },
+    { "id": "july", "word": "July", "de": "der Juli", "pos": "noun", "example": { "text": "July is the hottest month.", "de": "Der Juli ist der heißeste Monat." } },
+    { "id": "august", "word": "August", "de": "der August", "pos": "noun", "example": { "text": "In August we go on vacation.", "de": "Im August fahren wir in Urlaub." } },
+    { "id": "september", "word": "September", "de": "der September", "pos": "noun", "example": { "text": "Fall starts in September.", "de": "Im September beginnt der Herbst." } },
+    { "id": "october", "word": "October", "de": "der Oktober", "pos": "noun", "example": { "text": "Halloween is on October 31st.", "de": "Halloween ist am 31. Oktober." } },
+    { "id": "november", "word": "November", "de": "der November", "pos": "noun", "example": { "text": "Thanksgiving is in November.", "de": "Thanksgiving ist im November." } },
+    { "id": "december", "word": "December", "de": "der Dezember", "pos": "noun", "example": { "text": "December is my favorite month.", "de": "Der Dezember ist mein Lieblingsmonat." } },
+    { "id": "date", "word": "date", "plural": "dates", "de": "das Datum", "pos": "noun", "example": { "text": "What's the date today? – It's March 2nd.", "de": "Welches Datum ist heute? – Der 2. März." }, "note": "date heißt auch „Verabredung“, „Date“." },
+    { "id": "birthday", "word": "birthday", "plural": "birthdays", "de": "der Geburtstag", "pos": "noun", "example": { "text": "When's your birthday?", "de": "Wann hast du Geburtstag?" } },
+    { "id": "than", "word": "than", "de": "als (beim Vergleich)", "pos": "conj", "example": { "text": "Miami is warmer than Boston.", "de": "Miami ist wärmer als Boston." }, "note": "Nicht mit then (dann) verwechseln!" }
+  ],
+  "grammar": [
+    {
+      "id": "weather",
+      "title": "Wie ist das Wetter? It's sunny – it's raining",
+      "blocks": [
+        { "type": "p", "text": "Über das Wetter sprichst du mit it – wie im Deutschen mit „es“: It's sunny. (Es ist sonnig.) Nach dem Wetter fragst du mit What's the weather like? oder How's the weather?" },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["It's sunny.", "Es ist sonnig."], ["It's cloudy.", "Es ist bewölkt."], ["It's windy.", "Es ist windig."], ["It's warm.", "Es ist warm."], ["It's hot.", "Es ist heiß."], ["It's cool.", "Es ist kühl."], ["It's cold.", "Es ist kalt."], ["It's humid.", "Es ist schwül."], ["It's nice.", "Es ist schön."]] },
+        { "type": "p", "text": "Für Regen und Schnee gibt es Verben. Was gerade passiert, steht im present continuous, was normalerweise passiert, im present simple, und was gestern war, im simple past:" },
+        { "type": "table", "head": ["jetzt gerade", "normalerweise", "gestern"], "rows": [["It's raining.", "It rains a lot in April.", "It rained yesterday."], ["It's snowing.", "It snows in winter.", "It snowed last night."]] },
+        { "type": "tip", "text": "rain und snow sind auch Nomen: the rain (der Regen), the snow (der Schnee). Davon kommen die Adjektive rainy (regnerisch) und snowy (verschneit): a rainy day." },
+        { "type": "p", "text": "Die Temperatur misst man in den USA in Fahrenheit (°F): It's 70 degrees. (Es sind 70 Grad.) Faustregel: 50 °F sind 10 °C, 70 °F etwa 21 °C, 90 °F etwa 32 °C. Unter 32 °F friert es." },
+        { "type": "tip", "text": "Für die Zukunft nimmst du going to (A1, Lektion 10): It's going to rain. (Es wird regnen.) It's going to be sunny tomorrow. (Morgen wird es sonnig.)" },
+        { "type": "examples", "items": [{ "text": "What's the weather like in Boston? – It's cold and windy.", "de": "Wie ist das Wetter in Boston? – Kalt und windig." }, { "text": "It's raining. Take an umbrella!", "de": "Es regnet. Nimm einen Regenschirm mit!" }, { "text": "It snowed a lot last winter.", "de": "Letzten Winter hat es viel geschneit." }, { "text": "It's 85 degrees and humid today.", "de": "Heute sind es 85 Grad Fahrenheit, und es ist schwül." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "What's the weather ___ today?", "answers": ["like"], "de": "Wie ist das Wetter heute?" },
+        { "type": "cloze", "text": "Look outside! It's ___.", "answers": ["snowing"], "de": "Schau mal raus! Es schneit.", "hint": "snow" },
+        { "type": "cloze", "text": "It ___ a lot in April.", "answers": ["rains"], "de": "Im April regnet es viel.", "hint": "rain" },
+        { "type": "cloze", "text": "It ___ all day yesterday.", "answers": ["rained"], "de": "Gestern hat es den ganzen Tag geregnet.", "hint": "rain" },
+        { "type": "cloze", "text": "It's ___ today.", "answers": ["sunny"], "de": "Heute ist es sonnig.", "hint": "sonnig" },
+        { "type": "cloze", "text": "It's going to ___ tomorrow. Take an umbrella!", "answers": ["rain"], "de": "Morgen wird es regnen. Nimm einen Regenschirm mit!" },
+        { "type": "translate", "de": "Es ist kalt und windig.", "answers": ["It's cold and windy.", "It is cold and windy."] },
+        { "type": "translate", "de": "Es regnet.", "answers": ["It's raining.", "It is raining."] },
+        { "type": "order", "de": "Wie ist das Wetter in New York?", "answer": "What's the weather like in New York?", "distractors": ["How"] }
+      ]
+    },
+    {
+      "id": "months-dates",
+      "title": "Monate, Jahreszeiten und das Datum",
+      "blocks": [
+        { "type": "p", "text": "Monate schreibt man im Englischen immer groß. Vor Monaten, Jahreszeiten und Jahren steht in: in May (im Mai), in summer oder in the summer (im Sommer), in 2025." },
+        { "type": "table", "head": ["Englisch", "Deutsch", "Abkürzung"], "rows": [["January", "Januar", "Jan."], ["February", "Februar", "Feb."], ["March", "März", "Mar."], ["April", "April", "Apr."], ["May", "Mai", "May"], ["June", "Juni", "Jun."], ["July", "Juli", "Jul."], ["August", "August", "Aug."], ["September", "September", "Sep."], ["October", "Oktober", "Oct."], ["November", "November", "Nov."], ["December", "Dezember", "Dec."]] },
+        { "type": "table", "head": ["Jahreszeit", "Deutsch", "Monate"], "rows": [["spring", "Frühling", "March, April, May"], ["summer", "Sommer", "June, July, August"], ["fall", "Herbst", "September, October, November"], ["winter", "Winter", "December, January, February"]] },
+        { "type": "p", "text": "Für das Datum brauchst du Ordnungszahlen (der erste, der zweite …). Meistens hängst du -th an die Zahl: fourth, sixth, tenth, fifteenth. Wichtige Ausnahmen:" },
+        { "type": "table", "head": ["Zahl", "Ordnungszahl", "kurz"], "rows": [["one", "first", "1st"], ["two", "second", "2nd"], ["three", "third", "3rd"], ["four", "fourth", "4th"], ["five", "fifth", "5th"], ["eight", "eighth", "8th"], ["nine", "ninth", "9th"], ["twelve", "twelfth", "12th"], ["twenty", "twentieth", "20th"], ["twenty-one", "twenty-first", "21st"], ["twenty-two", "twenty-second", "22nd"], ["thirty-one", "thirty-first", "31st"]] },
+        { "type": "p", "text": "Beim Datum steht on – und im amerikanischen Englisch zuerst der Monat: on May 3rd (gesprochen: on May third) = am 3. Mai. Geschrieben auch: May 3." },
+        { "type": "tip", "text": "Achtung: Schreibt man das Datum in Zahlen, steht in den USA der Monat vorn! 5/3/2026 ist der 3. Mai 2026 – nicht der 5. März." },
+        { "type": "tip", "text": "in, on oder at? in + Monat, Jahreszeit, Jahr (in July, in winter, in 2024) · on + Tag oder Datum (on Monday, on July 4th) · at + Uhrzeit (at seven)." },
+        { "type": "examples", "items": [{ "text": "When's your birthday? – It's on May 3rd.", "de": "Wann hast du Geburtstag? – Am 3. Mai." }, { "text": "What's the date today? – It's October 21st.", "de": "Welches Datum ist heute? – Der 21. Oktober." }, { "text": "We're going to visit Austria in the summer.", "de": "Im Sommer besuchen wir Österreich." }, { "text": "Christmas is on December 25th.", "de": "Weihnachten ist am 25. Dezember." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "My birthday is ___ June 12th.", "answers": ["on"], "de": "Ich habe am 12. Juni Geburtstag." },
+        { "type": "cloze", "text": "It snows a lot ___ January.", "answers": ["in"], "de": "Im Januar schneit es viel." },
+        { "type": "cloze", "text": "Independence Day is on the ___ of July.", "answers": ["Fourth", "4th"], "de": "Der Unabhängigkeitstag ist am 4. Juli." },
+        { "type": "cloze", "text": "Today is March ___.", "answers": ["first", "1st"], "de": "Heute ist der 1. März.", "hint": "1." },
+        { "type": "cloze", "text": "Christmas is on December twenty-___.", "answers": ["fifth"], "de": "Weihnachten ist am 25. Dezember." },
+        { "type": "cloze", "text": "In the US, ___ starts in September.", "answers": ["fall", "autumn"], "de": "In den USA beginnt der Herbst im September." },
+        { "type": "translate", "de": "Wann hast du Geburtstag?", "answers": ["When's your birthday?", "When is your birthday?"] },
+        { "type": "translate", "de": "Mein Geburtstag ist am 3. Mai.", "answers": ["My birthday is on May 3rd.", "My birthday is on May third.", "My birthday is on May 3.", "My birthday is on the third of May.", "My birthday is on 3rd May.", "My birthday is May 3rd.", "My birthday is May third.", "My birthday's on May 3rd.", "My birthday's on May third."] },
+        { "type": "match", "pairs": [["first", "erste/r"], ["second", "zweite/r"], ["third", "dritte/r"], ["fifth", "fünfte/r"], ["twelfth", "zwölfte/r"]] }
+      ]
+    },
+    {
+      "id": "comparatives",
+      "title": "Vergleichen: colder, the coldest, more, most und as … as",
+      "blocks": [
+        { "type": "p", "text": "Wenn du zwei Dinge vergleichst, brauchst du den Komparativ und than (als): Miami is warmer than Boston. Für „am …-sten“ nimmst du den Superlativ mit the: July is the hottest month." },
+        { "type": "table", "head": ["Regel", "Grundform", "Komparativ", "Superlativ"], "rows": [["kurze Adjektive: -er / -est", "cold", "colder", "the coldest"], ["Endung -e: nur -r / -st", "nice", "nicer", "the nicest"], ["kurzer Vokal + Konsonant: verdoppeln", "hot, big", "hotter, bigger", "the hottest, the biggest"], ["Konsonant + y: -ier / -iest", "sunny, easy", "sunnier, easier", "the sunniest, the easiest"], ["lange Adjektive: more / most", "expensive", "more expensive", "the most expensive"], ["unregelmäßig", "good", "better", "the best"], ["unregelmäßig", "bad", "worse", "the worst"]] },
+        { "type": "tip", "text": "Lange Adjektive (meist ab drei Silben) bekommen kein -er: more expensive, more important, the most beautiful. Nicht: expensiver! Auch einige zweisilbige gehen mit more: more humid, more tired." },
+        { "type": "p", "text": "Mit as … as sagst du, dass zwei Dinge gleich sind: Boston is as cold as New York. (Boston ist genauso kalt wie New York.) Verneint heißt es „nicht so … wie“: Spring isn't as hot as summer." },
+        { "type": "tip", "text": "Bei as … as steht die Grundform: as warm as (nicht: as warmer as). Und Vorsicht: than = als, then = dann." },
+        { "type": "examples", "items": [{ "text": "Today is colder than yesterday.", "de": "Heute ist es kälter als gestern." }, { "text": "February is the shortest month.", "de": "Der Februar ist der kürzeste Monat." }, { "text": "Summer in Osaka is more humid than in New York.", "de": "Der Sommer in Osaka ist schwüler als in New York." }, { "text": "The weather this week is better than last week.", "de": "Das Wetter ist diese Woche besser als letzte Woche." }, { "text": "Vienna isn't as hot as Miami.", "de": "Wien ist nicht so heiß wie Miami." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Boston is ___ than Miami.", "answers": ["colder"], "de": "Boston ist kälter als Miami.", "hint": "cold" },
+        { "type": "cloze", "text": "July is the ___ month of the year.", "answers": ["hottest"], "de": "Der Juli ist der heißeste Monat des Jahres.", "hint": "hot" },
+        { "type": "cloze", "text": "Your job is ___ than my job.", "answers": ["easier"], "de": "Deine Arbeit ist leichter als meine.", "hint": "easy" },
+        { "type": "cloze", "text": "The weather today is ___ than yesterday.", "answers": ["better"], "de": "Das Wetter ist heute besser als gestern.", "hint": "good" },
+        { "type": "cloze", "text": "This is the ___ expensive hotel in town.", "answers": ["most"], "de": "Das ist das teuerste Hotel in der Stadt." },
+        { "type": "cloze", "text": "Spring isn't as warm ___ summer.", "answers": ["as"], "de": "Der Frühling ist nicht so warm wie der Sommer." },
+        { "type": "cloze", "text": "Miami is warmer ___ New York.", "answers": ["than"], "de": "Miami ist wärmer als New York." },
+        { "type": "translate", "de": "Heute ist es kälter als gestern.", "answers": ["Today is colder than yesterday.", "It's colder today than yesterday.", "It is colder today than yesterday.", "Today it's colder than yesterday.", "Today it is colder than yesterday.", "It's colder today than it was yesterday.", "It is colder today than it was yesterday."] },
+        { "type": "order", "de": "Der Herbst ist die beste Jahreszeit.", "answer": "Fall is the best season.", "distractors": ["better"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["The museum is more expensive than the movie theater.", "The museum is expensiver than the movie theater.", "The museum is more expensiver than the movie theater."], "answer": 0, "explain": "Lange Adjektive steigert man mit more: more expensive." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "What's the Weather Like?",
+    "title_de": "Wie ist das Wetter?",
+    "lines": [
+      { "speaker": "Yuki", "text": "Brrr! It's really cold today. And so windy!", "de": "Brrr! Heute ist es echt kalt. Und so windig!" },
+      { "speaker": "Lena", "text": "Yes, it's 45 degrees. And the forecast says it's going to rain tonight.", "de": "Ja, es sind 45 Grad Fahrenheit. Und laut Wettervorhersage wird es heute Abend regnen." },
+      { "speaker": "Yuki", "text": "Is it colder in Vienna in October?", "de": "Ist es in Wien im Oktober kälter?" },
+      { "speaker": "Lena", "text": "No, it's as cold as here. But in New York the winter is windier.", "de": "Nein, es ist genauso kalt wie hier. Aber in New York ist der Winter windiger." },
+      { "speaker": "Yuki", "text": "In Osaka, October is my favorite month. It's warm and sunny, and it doesn't rain a lot.", "de": "In Osaka ist der Oktober mein Lieblingsmonat. Es ist warm und sonnig, und es regnet nicht viel." },
+      { "speaker": "Lena", "text": "Nice! And what's the hottest month there?", "de": "Schön! Und welcher Monat ist dort am heißesten?" },
+      { "speaker": "Yuki", "text": "August. It's hotter and more humid than New York – sometimes 95 degrees!", "de": "Der August. Da ist es heißer und schwüler als in New York – manchmal 95 Grad Fahrenheit!" },
+      { "speaker": "Lena", "text": "Wow! My favorite season is winter. I love snow!", "de": "Wow! Meine Lieblingsjahreszeit ist der Winter. Ich liebe Schnee!" },
+      { "speaker": "Yuki", "text": "Really? I hate cold weather! My favorite season is spring.", "de": "Wirklich? Ich hasse kaltes Wetter! Meine Lieblingsjahreszeit ist der Frühling." },
+      { "speaker": "Lena", "text": "Spring? Is your birthday in spring?", "de": "Frühling? Hast du im Frühling Geburtstag?" },
+      { "speaker": "Yuki", "text": "Yes, it's on April 2nd. And when's your birthday?", "de": "Ja, am 2. April. Und wann hast du Geburtstag?" },
+      { "speaker": "Lena", "text": "It's on December 15th. A winter birthday!", "de": "Am 15. Dezember. Ein Wintergeburtstag!" },
+      { "speaker": "Yuki", "text": "Ha! Oh no, look – it's raining. The forecast was wrong!", "de": "Ha! Oh nein, schau – es regnet. Die Wettervorhersage hat nicht gestimmt!" },
+      { "speaker": "Lena", "text": "And I don't have an umbrella!", "de": "Und ich habe keinen Regenschirm dabei!" },
+      { "speaker": "Yuki", "text": "We can go to that café. It's warmer than the park!", "de": "Wir können in das Café da gehen. Da ist es wärmer als im Park!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["sunny", "sonnig"], ["cloudy", "bewölkt"], ["windy", "windig"], ["humid", "schwül"], ["wet", "nass"], ["cool", "kühl"]] },
+    { "type": "match", "pairs": [["March", "März"], ["May", "Mai"], ["June", "Juni"], ["July", "Juli"], ["October", "Oktober"], ["December", "Dezember"]] },
+    { "type": "translate", "de": "Im Winter schneit es viel.", "answers": ["It snows a lot in winter.", "It snows a lot in the winter.", "In winter it snows a lot.", "In the winter it snows a lot."] },
+    { "type": "translate", "de": "Was ist deine Lieblingsjahreszeit?", "answers": ["What's your favorite season?", "What is your favorite season?", "What's your favourite season?", "What is your favourite season?", "Which season is your favorite?", "Which is your favorite season?"] },
+    { "type": "translate", "de": "Nimm einen Regenschirm mit!", "answers": ["Take an umbrella!", "Take an umbrella with you!", "Bring an umbrella!", "Take your umbrella!"] },
+    { "type": "translate", "de": "Der Sommer in Miami ist heißer als in Boston.", "answers": ["Summer in Miami is hotter than in Boston.", "The summer in Miami is hotter than in Boston.", "Summer in Miami is hotter than summer in Boston.", "Summers in Miami are hotter than in Boston.", "In Miami the summer is hotter than in Boston.", "In Miami summer is hotter than in Boston."] },
+    { "type": "cloze", "text": "What's the ___ today? – It's May 5th.", "answers": ["date"], "de": "Welches Datum ist heute? – Der 5. Mai." },
+    { "type": "cloze", "text": "The ___ says it's going to be sunny.", "answers": ["forecast", "weather forecast"], "de": "Laut Wettervorhersage wird es sonnig." },
+    { "type": "cloze", "text": "My shoes are ___ because it's raining.", "answers": ["wet"], "de": "Meine Schuhe sind nass, weil es regnet." },
+    { "type": "order", "de": "Gestern Abend gab es einen Sturm.", "answer": "There was a storm last night.", "distractors": ["were"] },
+    { "type": "order", "de": "New York ist im Winter genauso kalt wie Wien.", "answer": "New York is as cold as Vienna in winter.", "distractors": ["than"] },
+    { "type": "listen", "text": "It was cloudy in the morning, but in the afternoon it was sunny.", "de": "Am Morgen war es bewölkt, aber am Nachmittag war es sonnig." },
+    { "type": "listen", "text": "My birthday is in February, the coldest month of the year.", "de": "Ich habe im Februar Geburtstag, im kältesten Monat des Jahres." }
+  ]
+}

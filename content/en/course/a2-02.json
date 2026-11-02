@@ -93,7 +93,7 @@
         { "type": "examples", "items": [{ "text": "I usually start at nine, but today I'm starting at eight.", "de": "Normalerweise fange ich um neun an, aber heute fange ich um acht an." }, { "text": "My boss isn't working today. It's her day off.", "de": "Meine Chefin arbeitet heute nicht. Sie hat ihren freien Tag." }, { "text": "These days we're working on a big project.", "de": "Zurzeit arbeiten wir an einem großen Projekt." }, { "text": "Do you usually work on Saturdays?", "de": "Arbeitest du normalerweise samstags?" }] }
       ],
       "exercises": [
-        { "type": "cloze", "text": "I usually ___ work at nine.", "answers": ["start"], "de": "Normalerweise fange ich um neun mit der Arbeit an.", "hint": "start" },
+        { "type": "cloze", "text": "I usually ___ work at nine.", "answers": ["start"], "de": "Normalerweise fange ich um neun mit der Arbeit an.", "hint": "anfangen" },
         { "type": "cloze", "text": "This week I'm ___ from home.", "answers": ["working"], "de": "Diese Woche arbeite ich von zu Hause.", "hint": "work" },
         { "type": "cloze", "text": "Carlos ___ for a small company.", "answers": ["works"], "de": "Carlos arbeitet für eine kleine Firma.", "hint": "work" },
         { "type": "cloze", "text": "At the moment she ___ working on a new project.", "answers": ["is"], "de": "Im Moment arbeitet sie an einem neuen Projekt." },

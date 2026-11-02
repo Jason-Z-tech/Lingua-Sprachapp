@@ -894,6 +894,7 @@
             "We have just arrived.",
             "We just arrived.",
             "We've just got here.",
+            "We've just gotten here.",
             "We just got here."
           ]
         }
@@ -1069,7 +1070,7 @@
       {
         "speaker": "Receptionist",
         "text": "Yes, here it is. Could I see your passport, please?",
-        "de": "Ja, hier ist es. Könnte ich bitte Ihren Reisepass sehen?"
+        "de": "Ja, hier ist die Reservierung. Könnte ich bitte Ihren Reisepass sehen?"
       },
       {
         "speaker": "Lena",

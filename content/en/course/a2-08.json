@@ -83,16 +83,15 @@
       "note": "Nicht zählbar: She has long hair. – nicht „long hairs“ und ohne a."
     },
     {
-      "id": "eye",
-      "word": "eye",
-      "plural": "eyes",
-      "de": "das Auge",
-      "pos": "noun",
+      "id": "bald",
+      "word": "bald",
+      "de": "glatzköpfig; kahl",
+      "pos": "adj",
       "example": {
-        "text": "He has blue eyes.",
-        "de": "Er hat blaue Augen.",
-        "focus": "eyes"
-      }
+        "text": "My uncle is bald, but he has a big beard.",
+        "de": "Mein Onkel hat eine Glatze, aber einen großen Bart."
+      },
+      "note": "He's bald. = Er hat eine Glatze."
     },
     {
       "id": "long",
@@ -408,16 +407,6 @@
       }
     },
     {
-      "id": "tired",
-      "word": "tired",
-      "de": "müde",
-      "pos": "adj",
-      "example": {
-        "text": "I'm so tired. I didn't sleep last night.",
-        "de": "Ich bin so müde. Ich habe letzte Nacht nicht geschlafen."
-      }
-    },
-    {
       "id": "tiring",
       "word": "tiring",
       "de": "anstrengend; ermüdend",
@@ -425,7 +414,19 @@
       "example": {
         "text": "The flight was long and tiring.",
         "de": "Der Flug war lang und anstrengend."
-      }
+      },
+      "note": "Wer etwas Anstrengendes gemacht hat, ist danach tired (müde)."
+    },
+    {
+      "id": "surprised",
+      "word": "surprised",
+      "de": "überrascht",
+      "pos": "adj",
+      "example": {
+        "text": "I was really surprised to see you!",
+        "de": "Ich war echt überrascht, dich zu sehen!"
+      },
+      "note": "Was überrascht, ist surprising: surprising news (eine überraschende Nachricht)."
     },
     {
       "id": "excited",
@@ -813,16 +814,16 @@
           "answers": [
             "What's she like? – She's pretty funny.",
             "What's she like? – She's quite funny.",
-            "What's she like? – She's really funny.",
+            "What's she like? – She's fairly funny.",
             "What's she like? – She is pretty funny.",
             "What's she like? – She is quite funny.",
-            "What's she like? – She is really funny.",
+            "What's she like? – She is fairly funny.",
             "What is she like? – She's pretty funny.",
             "What is she like? – She's quite funny.",
-            "What is she like? – She's really funny.",
+            "What is she like? – She's fairly funny.",
             "What is she like? – She is pretty funny.",
             "What is she like? – She is quite funny.",
-            "What is she like? – She is really funny."
+            "What is she like? – She is fairly funny."
           ]
         },
         {

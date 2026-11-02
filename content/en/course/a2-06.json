@@ -492,15 +492,15 @@
       "note": "Vor allem in Fragen und verneinten Sätzen."
     },
     {
-      "id": "a-lot-of",
-      "word": "a lot of",
-      "de": "viel; viele",
-      "pos": "phrase",
+      "id": "enough",
+      "word": "enough",
+      "de": "genug; genügend",
+      "pos": "other",
       "example": {
-        "text": "There are a lot of people here!",
-        "de": "Hier sind viele Leute!"
+        "text": "Do we have enough plates for everyone?",
+        "de": "Haben wir genug Teller für alle?"
       },
-      "note": "Passt zu zählbaren und nicht zählbaren Nomen – vor allem in positiven Sätzen. Locker auch: lots of."
+      "note": "Passt zu zählbaren und nicht zählbaren Nomen und steht vor dem Nomen: enough chairs, enough time."
     },
     {
       "id": "a-few",
@@ -991,7 +991,7 @@
         },
         {
           "type": "p",
-          "text": "much und many stehen vor allem in Fragen und verneinten Sätzen. In positiven Sätzen klingt a lot of natürlicher – und es passt zu beiden Arten von Nomen."
+          "text": "much und many stehen vor allem in Fragen und verneinten Sätzen. In positiven Sätzen klingt a lot of natürlicher (a lot kennst du schon aus Lektion 1) – und es passt zu beiden Arten von Nomen."
         },
         {
           "type": "table",
@@ -1029,6 +1029,10 @@
         {
           "type": "tip",
           "text": "How much …? fragt nach dem Preis (How much is the steak?) – oder vor einem Nomen nach der Menge: How much bread do we need?"
+        },
+        {
+          "type": "tip",
+          "text": "enough (genug) passt zu beiden Arten von Nomen und steht davor: enough chairs, enough time. Verneint: There isn't enough bread. (Es gibt nicht genug Brot.)"
         },
         {
           "type": "examples",
@@ -1097,6 +1101,15 @@
           ],
           "de": "Nur ein bisschen Milch in meinen Kaffee, bitte.",
           "hint": "few / little"
+        },
+        {
+          "type": "cloze",
+          "text": "Sorry, we don't have ___ chairs for eight people.",
+          "answers": [
+            "enough"
+          ],
+          "de": "Tut mir leid, wir haben nicht genug Stühle für acht Personen.",
+          "hint": "genug"
         },
         {
           "type": "translate",

@@ -1,0 +1,163 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-05",
+  "lang": "en",
+  "level": "A2",
+  "number": 5,
+  "title": "Parties and Invitations",
+  "title_de": "Feste und Einladungen",
+  "topic": "Einladen, zusagen und absagen",
+  "goals": [
+    "Du kannst jemanden einladen: Would you like to come to my party? Do you want to come over tonight?",
+    "Du kannst Einladungen annehmen und höflich absagen: I'd love to! / I'm afraid I can't.",
+    "Du kannst die Objektpronomen me, him, her, us und them benutzen: Can you call him?",
+    "Du kannst über Feste und Feiertage in den USA sprechen: Thanksgiving, the Fourth of July."
+  ],
+  "vocab": [
+    { "id": "invite", "word": "invite", "de": "einladen", "pos": "verb", "example": { "text": "Emma invited us to her party.", "de": "Emma hat uns zu ihrer Party eingeladen.", "focus": "invited" } },
+    { "id": "invitation", "word": "invitation", "plural": "invitations", "de": "die Einladung", "pos": "noun", "example": { "text": "Thanks for the invitation!", "de": "Danke für die Einladung!" } },
+    { "id": "party", "word": "party", "plural": "parties", "de": "die Party; die Feier", "pos": "noun", "example": { "text": "We're having a party on Saturday.", "de": "Am Samstag machen wir eine Party." }, "note": "Eine Party machen = have a party oder throw a party." },
+    { "id": "celebrate", "word": "celebrate", "de": "feiern", "pos": "verb", "example": { "text": "We celebrated my grandmother's eightieth birthday.", "de": "Wir haben den achtzigsten Geburtstag meiner Großmutter gefeiert.", "focus": "celebrated" } },
+    { "id": "holiday", "word": "holiday", "plural": "holidays", "de": "der Feiertag", "pos": "noun", "example": { "text": "Thanksgiving is my favorite holiday.", "de": "Thanksgiving ist mein Lieblingsfeiertag." }, "note": "Amerikanisch: holiday = Feiertag. Urlaub heißt vacation (A1)." },
+    { "id": "wedding", "word": "wedding", "plural": "weddings", "de": "die Hochzeit", "pos": "noun", "example": { "text": "My cousin's wedding is in June.", "de": "Die Hochzeit meiner Cousine ist im Juni." } },
+    { "id": "thanksgiving", "word": "Thanksgiving", "de": "Thanksgiving (Erntedankfest in den USA)", "pos": "noun", "example": { "text": "On Thanksgiving, families eat turkey together.", "de": "An Thanksgiving essen Familien zusammen Truthahn." }, "note": "Am vierten Donnerstag im November. Die ganze Familie trifft sich zu einem großen Essen." },
+    { "id": "fourth-of-july", "word": "Fourth of July", "alt": ["the Fourth of July", "Independence Day"], "de": "der 4. Juli (Unabhängigkeitstag der USA)", "pos": "noun", "example": { "text": "On the Fourth of July we watch the fireworks.", "de": "Am 4. Juli schauen wir uns das Feuerwerk an." }, "note": "Auch: Independence Day. Typisch: Feuerwerk, Paraden und Grillfeste." },
+    { "id": "christmas", "word": "Christmas", "de": "Weihnachten", "pos": "noun", "example": { "text": "Merry Christmas!", "de": "Frohe Weihnachten!" }, "note": "Gefeiert wird vor allem am 25. Dezember. Heiligabend = Christmas Eve." },
+    { "id": "new-years-eve", "word": "New Year's Eve", "de": "Silvester", "pos": "noun", "example": { "text": "What are you doing on New Year's Eve?", "de": "Was machst du an Silvester?" }, "note": "Neujahr = New Year's Day. Um Mitternacht ruft man: Happy New Year!" },
+    { "id": "halloween", "word": "Halloween", "de": "Halloween", "pos": "noun", "example": { "text": "Kids wear costumes on Halloween.", "de": "An Halloween tragen Kinder Kostüme." }, "note": "Am 31. Oktober." },
+    { "id": "costume", "word": "costume", "plural": "costumes", "de": "das Kostüm; die Verkleidung", "pos": "noun", "example": { "text": "Max is wearing a cat costume.", "de": "Max trägt ein Katzenkostüm." } },
+    { "id": "fireworks", "word": "fireworks", "de": "das Feuerwerk", "pos": "noun", "example": { "text": "The fireworks were great!", "de": "Das Feuerwerk war toll!" }, "note": "Meistens in der Mehrzahl: fireworks." },
+    { "id": "parade", "word": "parade", "plural": "parades", "de": "die Parade; der Umzug", "pos": "noun", "example": { "text": "We watched the parade downtown.", "de": "Wir haben uns in der Innenstadt die Parade angeschaut." } },
+    { "id": "barbecue", "word": "barbecue", "alt": ["BBQ"], "plural": "barbecues", "de": "das Grillfest; der Grill", "pos": "noun", "example": { "text": "We're having a barbecue in the yard.", "de": "Wir machen im Garten ein Grillfest." }, "note": "Kurz geschrieben: BBQ. Als Verb heißt es „grillen“." },
+    { "id": "turkey", "word": "turkey", "de": "der Truthahn", "pos": "noun", "example": { "text": "Who's cooking the turkey this year?", "de": "Wer macht dieses Jahr den Truthahn?" } },
+    { "id": "gift", "word": "gift", "alt": ["present"], "plural": "gifts", "de": "das Geschenk", "pos": "noun", "example": { "text": "I bought a gift for Yuki.", "de": "Ich habe ein Geschenk für Yuki gekauft." }, "note": "Genauso häufig: present." },
+    { "id": "card", "word": "card", "plural": "cards", "de": "die Karte; die Glückwunschkarte", "pos": "noun", "example": { "text": "Did you get my card?", "de": "Hast du meine Karte bekommen?" } },
+    { "id": "candle", "word": "candle", "plural": "candles", "de": "die Kerze", "pos": "noun", "example": { "text": "There are thirty candles on the cake!", "de": "Auf dem Kuchen sind dreißig Kerzen!", "focus": "candles" } },
+    { "id": "guest", "word": "guest", "plural": "guests", "de": "der Gast", "pos": "noun", "example": { "text": "We have twenty guests.", "de": "Wir haben zwanzig Gäste.", "focus": "guests" } },
+    { "id": "bring", "word": "bring", "de": "mitbringen; bringen", "pos": "verb", "forms": "brought", "example": { "text": "Can I bring something?", "de": "Soll ich etwas mitbringen?" } },
+    { "id": "give", "word": "give", "de": "geben; schenken", "pos": "verb", "forms": "gave", "example": { "text": "What did you give him for his birthday?", "de": "Was hast du ihm zum Geburtstag geschenkt?" }, "note": "schenken = give: I gave her a card. (Ich habe ihr eine Karte geschenkt.)" },
+    { "id": "come-over", "word": "come over", "de": "vorbeikommen; rüberkommen", "pos": "verb", "forms": "came over", "example": { "text": "Do you want to come over tonight?", "de": "Willst du heute Abend vorbeikommen?" } },
+    { "id": "want", "word": "want", "de": "wollen; möchten", "pos": "verb", "forms": "I want, she wants", "example": { "text": "Do you want to go to the movies?", "de": "Willst du ins Kino gehen?" }, "note": "want to + Verb = etwas tun wollen. Höflicher: would like to." },
+    { "id": "would-you-like", "word": "would you like …?", "de": "Möchtest du …?; Hättest du Lust …?", "pos": "phrase", "example": { "text": "Would you like to come to my party?", "de": "Möchtest du zu meiner Party kommen?" }, "note": "Mit to + Verb (etwas tun) oder mit Nomen: Would you like some cake?" },
+    { "id": "id-love-to", "word": "I'd love to", "alt": ["I would love to"], "de": "sehr gern!", "pos": "phrase", "example": { "text": "Would you like to come? – I'd love to!", "de": "Möchtest du kommen? – Sehr gern!" } },
+    { "id": "im-afraid-i-cant", "word": "I'm afraid I can't", "alt": ["I am afraid I can't"], "de": "leider kann ich nicht", "pos": "phrase", "example": { "text": "I'm afraid I can't. I have to work.", "de": "Leider kann ich nicht. Ich muss arbeiten." }, "note": "I'm afraid heißt hier nicht „Ich habe Angst“, sondern „leider“." },
+    { "id": "sounds-great", "word": "sounds great", "alt": ["that sounds great"], "de": "klingt super; hört sich toll an", "pos": "phrase", "example": { "text": "A barbecue on Saturday? Sounds great!", "de": "Ein Grillfest am Samstag? Klingt super!" }, "note": "Genauso: Sounds good! (Klingt gut!)" },
+    { "id": "maybe-another-time", "word": "maybe another time", "de": "vielleicht ein andermal", "pos": "phrase", "example": { "text": "Sorry, I'm busy. Maybe another time?", "de": "Tut mir leid, ich habe keine Zeit. Vielleicht ein andermal?" } },
+    { "id": "of-course", "word": "of course", "de": "natürlich; selbstverständlich", "pos": "phrase", "example": { "text": "Can I bring my sister? – Of course!", "de": "Kann ich meine Schwester mitbringen? – Natürlich!" } },
+    { "id": "lets", "word": "let's", "de": "lass uns …; wollen wir …", "pos": "phrase", "example": { "text": "Let's have a party!", "de": "Lass uns eine Party machen!" }, "note": "let's = let us. Danach die Grundform ohne to: Let's go!" },
+    { "id": "congratulations", "word": "congratulations", "de": "herzlichen Glückwunsch", "pos": "interj", "example": { "text": "Congratulations on your wedding!", "de": "Herzlichen Glückwunsch zur Hochzeit!" }, "note": "Mit on: congratulations on … Zum Geburtstag sagt man aber Happy birthday!" },
+    { "id": "happy-birthday", "word": "happy birthday", "de": "alles Gute zum Geburtstag", "pos": "phrase", "example": { "text": "Happy birthday, Yuki!", "de": "Alles Gute zum Geburtstag, Yuki!" } },
+    { "id": "surprise", "word": "surprise", "plural": "surprises", "de": "die Überraschung", "pos": "noun", "example": { "text": "It's a surprise party!", "de": "Das ist eine Überraschungsparty!" } },
+    { "id": "dress-up", "word": "dress up", "de": "sich schick anziehen; sich verkleiden", "pos": "verb", "example": { "text": "Do we have to dress up?", "de": "Müssen wir uns schick anziehen?" } },
+    { "id": "him", "word": "him", "de": "ihn; ihm", "pos": "pron", "example": { "text": "I called him yesterday.", "de": "Ich habe ihn gestern angerufen." } },
+    { "id": "us", "word": "us", "de": "uns", "pos": "pron", "example": { "text": "Can you help us?", "de": "Kannst du uns helfen?" } },
+    { "id": "them", "word": "them", "de": "sie; ihnen", "pos": "pron", "example": { "text": "I invited them, too.", "de": "Ich habe sie auch eingeladen." } }
+  ],
+  "grammar": [
+    {
+      "id": "invitations",
+      "title": "Einladen: Would you like to …? und Do you want to …?",
+      "blocks": [
+        { "type": "p", "text": "Für Einladungen und Vorschläge gibt es mehrere Möglichkeiten. Would you like to …? ist höflich und passt immer. Do you want to …? ist lockerer – unter Freunden ganz normal." },
+        { "type": "table", "head": ["Englisch", "Deutsch", "Ton"], "rows": [["Would you like to come to my party?", "Möchtest du zu meiner Party kommen?", "höflich"], ["Do you want to come over tonight?", "Willst du heute Abend vorbeikommen?", "locker"], ["How about dinner on Friday?", "Wie wäre es mit einem Abendessen am Freitag?", "locker"], ["Let's go to the parade!", "Lass uns zur Parade gehen!", "Vorschlag"], ["Are you free on Saturday?", "Hast du am Samstag Zeit?", "Vorfrage"]] },
+        { "type": "tip", "text": "Nach would like und want steht to + Verb: Would you like to dance? Do you want to come? Nach let's steht das Verb ohne to: Let's dance!" },
+        { "type": "p", "text": "Verwechsle nicht: Would you like …? = Möchtest du …? (eine Einladung, ein Angebot). Do you like …? = Magst du …? (eine Vorliebe, A1, Lektion 9)." },
+        { "type": "table", "head": ["Frage", "Bedeutung", "Antwort"], "rows": [["Would you like some cake?", "Möchtest du Kuchen?", "Yes, please! / No, thank you."], ["Do you like cake?", "Magst du Kuchen?", "Yes, I do. / No, I don't."]] },
+        { "type": "tip", "text": "'d ist die Kurzform von would: I'd like … (A1) = I would like … Mit einem Nomen steht kein to: Would you like a cup of tea?" },
+        { "type": "examples", "items": [{ "text": "Would you like to have dinner with us on Saturday?", "de": "Möchtest du am Samstag mit uns zu Abend essen?" }, { "text": "Do you want to go to the fireworks?", "de": "Willst du zum Feuerwerk gehen?" }, { "text": "Would you like some tea? – Yes, please.", "de": "Möchtest du Tee? – Ja, gern." }, { "text": "Let's celebrate!", "de": "Lass uns feiern!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Would you like ___ come to my party?", "answers": ["to"], "de": "Möchtest du zu meiner Party kommen?" },
+        { "type": "cloze", "text": "___ you want to come over tonight?", "answers": ["Do"], "de": "Willst du heute Abend vorbeikommen?" },
+        { "type": "cloze", "text": "___ you like some cake? – Yes, please!", "answers": ["Would"], "de": "Möchtest du Kuchen? – Ja, gern!" },
+        { "type": "cloze", "text": "___ go to the parade!", "answers": ["Let's", "Let us"], "de": "Lass uns zur Parade gehen!" },
+        { "type": "cloze", "text": "Does she want ___ dance?", "answers": ["to"], "de": "Will sie tanzen?" },
+        { "type": "translate", "de": "Möchtest du am Samstag zu meiner Party kommen?", "answers": ["Would you like to come to my party on Saturday?", "Do you want to come to my party on Saturday?", "Would you like to come to my party Saturday?", "Do you want to come to my party Saturday?"] },
+        { "type": "order", "de": "Willst du heute Abend vorbeikommen?", "answer": "Do you want to come over tonight?", "distractors": ["wants"] },
+        { "type": "choice", "prompt": "Du bietest Kuchen an. Was sagst du?", "options": ["Would you like some cake?", "Do you like some cake?", "Are you like some cake?"], "answer": 0, "explain": "Ein Angebot machst du mit Would you like …? Do you like …? fragt, ob jemand etwas grundsätzlich mag." }
+      ]
+    },
+    {
+      "id": "accept-decline",
+      "title": "Zusagen und absagen",
+      "blocks": [
+        { "type": "p", "text": "Auf eine Einladung antwortest du am besten freundlich – und wenn du absagst, mit einem kurzen Grund." },
+        { "type": "table", "head": ["zusagen", "Deutsch"], "rows": [["I'd love to!", "Sehr gern!"], ["Sure! Sounds great.", "Klar! Klingt super."], ["Yes, of course!", "Ja, natürlich!"], ["Thanks! What time?", "Danke! Um wie viel Uhr?"], ["Can I bring something?", "Soll ich etwas mitbringen?"]] },
+        { "type": "table", "head": ["absagen", "Deutsch"], "rows": [["I'm afraid I can't.", "Leider kann ich nicht."], ["Sorry, I can't. I have to work.", "Tut mir leid, ich kann nicht. Ich muss arbeiten."], ["I'd love to, but I'm busy on Saturday.", "Ich würde gern, aber am Samstag habe ich keine Zeit."], ["Thanks for the invitation, but …", "Danke für die Einladung, aber …"], ["Maybe another time?", "Vielleicht ein andermal?"]] },
+        { "type": "tip", "text": "Ein knappes No. klingt im Englischen sehr unhöflich. Sag lieber I'm afraid I can't oder Sorry, I can't und nenne einen Grund – zum Beispiel mit have to (Lektion 2) oder because (Lektion 1)." },
+        { "type": "tip", "text": "I'd love to kann allein stehen: Would you like to come? – I'd love to! Du kannst aber auch das Verb wiederholen: I'd love to come!" },
+        { "type": "examples", "items": [{ "text": "Would you like to come to the barbecue? – I'd love to! What time?", "de": "Möchtest du zum Grillfest kommen? – Sehr gern! Um wie viel Uhr?" }, { "text": "Do you want to go dancing tonight? – I'm afraid I can't. I have to get up early.", "de": "Willst du heute Abend tanzen gehen? – Leider kann ich nicht. Ich muss früh aufstehen." }, { "text": "Thanks for the invitation, but I'm busy on Friday. Maybe another time?", "de": "Danke für die Einladung, aber am Freitag habe ich keine Zeit. Vielleicht ein andermal?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Would you like to come? – I'd ___ to!", "answers": ["love"], "de": "Möchtest du kommen? – Sehr gern!" },
+        { "type": "cloze", "text": "I'm ___ I can't. I have to work.", "answers": ["afraid"], "de": "Leider kann ich nicht. Ich muss arbeiten." },
+        { "type": "cloze", "text": "A party? Sounds ___!", "answers": ["great", "good"], "de": "Eine Party? Klingt super!" },
+        { "type": "cloze", "text": "Thanks for the ___!", "answers": ["invitation"], "de": "Danke für die Einladung!" },
+        { "type": "cloze", "text": "Sorry, I'm busy. Maybe ___ time?", "answers": ["another"], "de": "Tut mir leid, ich habe keine Zeit. Vielleicht ein andermal?" },
+        { "type": "translate", "de": "Sehr gern! Soll ich etwas mitbringen?", "answers": ["I'd love to! Can I bring something?", "I would love to! Can I bring something?", "I'd love to! Should I bring something?", "I would love to! Should I bring something?", "I'd love to! Can I bring anything?", "I'd love to! Should I bring anything?"] },
+        { "type": "translate", "de": "Leider kann ich nicht. Ich muss arbeiten.", "answers": ["I'm afraid I can't. I have to work.", "I am afraid I can't. I have to work.", "I'm afraid I cannot. I have to work.", "Sorry, I can't. I have to work.", "Unfortunately I can't. I have to work."] },
+        { "type": "order", "de": "Danke für die Einladung, aber ich habe keine Zeit.", "answer": "Thanks for the invitation, but I'm busy.", "distractors": ["invite"] }
+      ]
+    },
+    {
+      "id": "object-pronouns",
+      "title": "Objektpronomen: me, him, her, us, them",
+      "blocks": [
+        { "type": "p", "text": "Ist eine Person nicht das Subjekt, sondern das Objekt im Satz (mich, ihn, ihm, uns …), brauchst du ein Objektpronomen. Das Englische unterscheidet dabei nicht zwischen „ihn“ und „ihm“ – es gibt nur eine Form." },
+        { "type": "table", "head": ["Subjekt", "Objekt", "Deutsch"], "rows": [["I", "me", "mich, mir"], ["you", "you", "dich, dir; euch; Sie, Ihnen"], ["he", "him", "ihn, ihm"], ["she", "her", "sie, ihr"], ["it", "it", "es, ihn, sie (Sachen)"], ["we", "us", "uns"], ["they", "them", "sie, ihnen"]] },
+        { "type": "tip", "text": "Objektpronomen stehen nach dem Verb und nach Präpositionen: Call me! I'm going with them. This gift is for you." },
+        { "type": "tip", "text": "her hat zwei Aufgaben: Objekt (I invited her. = Ich habe sie eingeladen.) und Besitz (her party = ihre Party, A1, Lektion 3)." },
+        { "type": "p", "text": "Für Sachen nimmst du it – auch wenn es im Deutschen „ihn“ oder „sie“ heißt: Where's the cake? – Max ate it! (Max hat ihn gegessen!)" },
+        { "type": "p", "text": "Bei give (geben, schenken) steht die Person meistens direkt nach dem Verb: I gave him a card. (Ich habe ihm eine Karte geschenkt.) Mit to geht es auch: I gave a card to him." },
+        { "type": "examples", "items": [{ "text": "Do you know Jake? – Yes, I met him at Emma's party.", "de": "Kennst du Jake? – Ja, ich habe ihn auf Emmas Party kennengelernt." }, { "text": "Lena and Carlos are coming. I invited them on Monday.", "de": "Lena und Carlos kommen. Ich habe sie am Montag eingeladen." }, { "text": "Can you call us at the train station?", "de": "Kannst du uns am Bahnhof anrufen?" }, { "text": "This gift is for her.", "de": "Dieses Geschenk ist für sie." }, { "text": "Yuki gave me a card.", "de": "Yuki hat mir eine Karte geschenkt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Carlos is my friend. I invited ___.", "answers": ["him"], "de": "Carlos ist mein Freund. Ich habe ihn eingeladen." },
+        { "type": "cloze", "text": "It's Emma's birthday. Let's give ___ a gift.", "answers": ["her"], "de": "Emma hat Geburtstag. Lass uns ihr ein Geschenk machen." },
+        { "type": "cloze", "text": "My parents are coming. Can you call ___?", "answers": ["them"], "de": "Meine Eltern kommen. Kannst du sie anrufen?" },
+        { "type": "cloze", "text": "We need help. Can you help ___?", "answers": ["us"], "de": "Wir brauchen Hilfe. Kannst du uns helfen?" },
+        { "type": "cloze", "text": "Is this card for ___? – Yes, it's for you!", "answers": ["me"], "de": "Ist diese Karte für mich? – Ja, sie ist für dich!" },
+        { "type": "cloze", "text": "I bought a cake, but Max ate ___.", "answers": ["it"], "de": "Ich habe einen Kuchen gekauft, aber Max hat ihn gegessen." },
+        { "type": "translate", "de": "Ich habe ihm eine Karte geschenkt.", "answers": ["I gave him a card.", "I gave a card to him."] },
+        { "type": "translate", "de": "Kannst du uns helfen?", "answers": ["Can you help us?", "Could you help us?"] },
+        { "type": "order", "de": "Ruf mich morgen an!", "answer": "Call me tomorrow!", "distractors": ["I"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An Invitation for Thanksgiving",
+    "title_de": "Eine Einladung zu Thanksgiving",
+    "lines": [
+      { "speaker": "Emma", "text": "Hi, Lena! Are you free next Thursday?", "de": "Hallo, Lena! Hast du nächsten Donnerstag Zeit?" },
+      { "speaker": "Lena", "text": "Next Thursday? Yes, it's my day off.", "de": "Nächsten Donnerstag? Ja, da habe ich frei." },
+      { "speaker": "Emma", "text": "It's Thanksgiving! Would you like to have dinner with my family?", "de": "Da ist Thanksgiving! Möchtest du mit meiner Familie zu Abend essen?" },
+      { "speaker": "Lena", "text": "Oh, I'd love to! Thanks for the invitation! It's my first Thanksgiving.", "de": "Oh, sehr gern! Danke für die Einladung! Das ist mein erstes Thanksgiving." },
+      { "speaker": "Emma", "text": "Great! My parents are cooking a big turkey, and my grandparents are coming, too.", "de": "Super! Meine Eltern machen einen großen Truthahn, und meine Großeltern kommen auch." },
+      { "speaker": "Lena", "text": "Sounds great! Can I bring something?", "de": "Klingt super! Soll ich etwas mitbringen?" },
+      { "speaker": "Emma", "text": "How about a cake? My mom loves cake.", "de": "Wie wäre es mit einem Kuchen? Meine Mutter liebt Kuchen." },
+      { "speaker": "Lena", "text": "Of course! I can bake an Austrian apple cake.", "de": "Natürlich! Ich kann einen österreichischen Apfelkuchen backen." },
+      { "speaker": "Emma", "text": "Perfect! Oh, and do you want to invite Carlos? We have a lot of food.", "de": "Perfekt! Ach, und willst du Carlos einladen? Wir haben viel Essen." },
+      { "speaker": "Lena", "text": "Sure! I can call him tonight.", "de": "Klar! Ich kann ihn heute Abend anrufen." },
+      { "speaker": "Lena", "text": "Hi, Carlos! Emma invited us to Thanksgiving dinner. Would you like to come?", "de": "Hallo, Carlos! Emma hat uns zum Thanksgiving-Essen eingeladen. Möchtest du mitkommen?" },
+      { "speaker": "Carlos", "text": "Oh, I'm afraid I can't. My parents are visiting me from Madrid next week.", "de": "Oh, leider kann ich nicht. Meine Eltern besuchen mich nächste Woche aus Madrid." },
+      { "speaker": "Lena", "text": "Really? Then bring them, too! Emma's family loves guests.", "de": "Wirklich? Dann bring sie doch mit! Emmas Familie hat gern Gäste." },
+      { "speaker": "Carlos", "text": "That's so nice! Can you tell Emma? We'd love to come!", "de": "Das ist so nett! Kannst du es Emma sagen? Wir kommen sehr gern!" },
+      { "speaker": "Lena", "text": "Of course! I'm going to call her now. See you on Thursday!", "de": "Natürlich! Ich rufe sie gleich an. Bis Donnerstag!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["wedding", "Hochzeit"], ["holiday", "Feiertag"], ["New Year's Eve", "Silvester"], ["Christmas", "Weihnachten"], ["fireworks", "Feuerwerk"], ["turkey", "Truthahn"]] },
+    { "type": "match", "pairs": [["me", "mich; mir"], ["him", "ihn; ihm"], ["her", "sie; ihr"], ["us", "uns"], ["them", "sie; ihnen"]] },
+    { "type": "translate", "de": "Möchtest du heute Abend vorbeikommen?", "answers": ["Would you like to come over tonight?", "Do you want to come over tonight?", "Would you like to come over this evening?", "Do you want to come over this evening?"] },
+    { "type": "translate", "de": "Herzlichen Glückwunsch zur Hochzeit!", "answers": ["Congratulations on your wedding!", "Congratulations on the wedding!"] },
+    { "type": "translate", "de": "Wir haben dreißig Gäste eingeladen.", "answers": ["We invited thirty guests.", "We invited 30 guests.", "We've invited thirty guests.", "We have invited thirty guests.", "We've invited 30 guests.", "We have invited 30 guests."] },
+    { "type": "translate", "de": "Lass uns feiern!", "answers": ["Let's celebrate!", "Let us celebrate!"] },
+    { "type": "cloze", "text": "Max is two. There are two ___ on his cake.", "answers": ["candles"], "de": "Max ist zwei. Auf seinem Kuchen sind zwei Kerzen." },
+    { "type": "cloze", "text": "Do we have to dress ___ for the wedding?", "answers": ["up"], "de": "Müssen wir uns für die Hochzeit schick anziehen?" },
+    { "type": "cloze", "text": "I ___ Yuki a card for her birthday.", "answers": ["gave"], "de": "Ich habe Yuki eine Karte zum Geburtstag geschenkt.", "hint": "give" },
+    { "type": "order", "de": "Wir machen am Samstag ein Grillfest.", "answer": "We're having a barbecue on Saturday.", "distractors": ["have"] },
+    { "type": "order", "de": "Kannst du ihn anrufen?", "answer": "Can you call him?", "distractors": ["he"] },
+    { "type": "listen", "text": "Would you like to come to my birthday party on Saturday?", "de": "Möchtest du am Samstag zu meiner Geburtstagsparty kommen?" },
+    { "type": "listen", "text": "Thanks for the invitation, but I'm afraid I can't. I have to work.", "de": "Danke für die Einladung, aber leider kann ich nicht. Ich muss arbeiten." }
+  ]
+}

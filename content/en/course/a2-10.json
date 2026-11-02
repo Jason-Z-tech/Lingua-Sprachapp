@@ -1,0 +1,1228 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-10",
+  "lang": "en",
+  "level": "A2",
+  "number": 10,
+  "title": "Making Plans",
+  "title_de": "Pläne",
+  "topic": "Über die Zukunft sprechen",
+  "goals": [
+    "Du kannst über deine Pläne sprechen und weißt, wann du will, going to oder das present continuous benutzt.",
+    "Du kannst mit dem first conditional sagen, was passiert, wenn …: If it rains, I'll stay home.",
+    "Du kannst mit might, maybe und probably ausdrücken, wie sicher du dir bist.",
+    "Du kannst Zeitangaben für die Zukunft benutzen: next year, in two weeks, someday."
+  ],
+  "vocab": [
+    {
+      "id": "will",
+      "word": "will",
+      "de": "werden (Zukunft)",
+      "pos": "verb",
+      "forms": "I'll, you'll, he'll, she'll, we'll, they'll",
+      "example": {
+        "text": "I think it will rain tomorrow.",
+        "de": "Ich glaube, morgen regnet es."
+      },
+      "note": "will + Grundform, für alle Personen gleich: I will go, she will go."
+    },
+    {
+      "id": "wont",
+      "word": "won't",
+      "alt": [
+        "will not"
+      ],
+      "de": "werde nicht; wird nicht",
+      "pos": "verb",
+      "example": {
+        "text": "Don't worry, I won't be late.",
+        "de": "Keine Sorge, ich komme nicht zu spät."
+      },
+      "note": "Kurzform von will not."
+    },
+    {
+      "id": "might",
+      "word": "might",
+      "de": "könnte (vielleicht)",
+      "pos": "verb",
+      "example": {
+        "text": "I might go to the party, but I'm not sure.",
+        "de": "Vielleicht gehe ich zur Party, aber ich bin nicht sicher."
+      },
+      "note": "might + Grundform, ohne to: She might come. Verneint: might not."
+    },
+    {
+      "id": "maybe",
+      "word": "maybe",
+      "de": "vielleicht",
+      "pos": "adv",
+      "example": {
+        "text": "Maybe we'll go to Canada next summer.",
+        "de": "Vielleicht fahren wir nächsten Sommer nach Kanada."
+      },
+      "note": "Steht meist am Satzanfang. In einem Wort geschrieben!"
+    },
+    {
+      "id": "probably",
+      "word": "probably",
+      "de": "wahrscheinlich",
+      "pos": "adv",
+      "example": {
+        "text": "I'll probably stay home tonight.",
+        "de": "Ich bleibe heute Abend wahrscheinlich zu Hause."
+      },
+      "note": "Steht nach will, aber vor won't: I'll probably … – I probably won't …"
+    },
+    {
+      "id": "definitely",
+      "word": "definitely",
+      "de": "auf jeden Fall; bestimmt",
+      "pos": "adv",
+      "example": {
+        "text": "I'll definitely come to your party!",
+        "de": "Ich komme auf jeden Fall zu deiner Party!"
+      },
+      "note": "Schwierig zu schreiben: defin-I-tely."
+    },
+    {
+      "id": "if",
+      "word": "if",
+      "de": "wenn; falls",
+      "pos": "conj",
+      "example": {
+        "text": "If it rains, we'll stay home.",
+        "de": "Wenn es regnet, bleiben wir zu Hause."
+      },
+      "note": "Nach if steht kein will: If it rains … (nicht: If it will rain …)"
+    },
+    {
+      "id": "future",
+      "word": "future",
+      "de": "die Zukunft",
+      "pos": "noun",
+      "example": {
+        "text": "What do you want to do in the future?",
+        "de": "Was willst du in Zukunft machen?"
+      },
+      "note": "in Zukunft = in the future."
+    },
+    {
+      "id": "next-year",
+      "word": "next year",
+      "de": "nächstes Jahr",
+      "pos": "phrase",
+      "example": {
+        "text": "Next year, I'm going to study in Berlin.",
+        "de": "Nächstes Jahr werde ich in Berlin studieren."
+      },
+      "note": "Ohne the und ohne in: next year, next week, next month."
+    },
+    {
+      "id": "in-two-weeks",
+      "word": "in two weeks",
+      "de": "in zwei Wochen",
+      "pos": "phrase",
+      "example": {
+        "text": "My brother is getting married in two weeks.",
+        "de": "Mein Bruder heiratet in zwei Wochen."
+      },
+      "note": "in + Zeitraum = in … (von jetzt an): in two days, in a month, in five minutes."
+    },
+    {
+      "id": "the-day-after-tomorrow",
+      "word": "the day after tomorrow",
+      "de": "übermorgen",
+      "pos": "phrase",
+      "example": {
+        "text": "We're leaving the day after tomorrow.",
+        "de": "Wir fahren übermorgen ab."
+      }
+    },
+    {
+      "id": "soon",
+      "word": "soon",
+      "de": "bald",
+      "pos": "adv",
+      "example": {
+        "text": "See you soon!",
+        "de": "Bis bald!"
+      }
+    },
+    {
+      "id": "someday",
+      "word": "someday",
+      "alt": [
+        "one day",
+        "some day"
+      ],
+      "de": "eines Tages; irgendwann",
+      "pos": "adv",
+      "example": {
+        "text": "Someday I'd like to live abroad.",
+        "de": "Eines Tages würde ich gern im Ausland leben."
+      },
+      "note": "Auch: one day."
+    },
+    {
+      "id": "hope",
+      "word": "hope",
+      "de": "hoffen; die Hoffnung",
+      "pos": "verb",
+      "example": {
+        "text": "I hope you can come.",
+        "de": "Ich hoffe, du kannst kommen."
+      },
+      "note": "I hope so. = Hoffentlich. I hope not. = Hoffentlich nicht."
+    },
+    {
+      "id": "decide",
+      "word": "decide",
+      "de": "(sich) entscheiden; beschließen",
+      "pos": "verb",
+      "example": {
+        "text": "I've decided to learn Spanish.",
+        "de": "Ich habe beschlossen, Spanisch zu lernen.",
+        "focus": "decided"
+      },
+      "note": "decide + to + Grundform: decide to stay (beschließen zu bleiben)."
+    },
+    {
+      "id": "learn",
+      "word": "learn",
+      "de": "lernen",
+      "pos": "verb",
+      "example": {
+        "text": "I want to learn to drive.",
+        "de": "Ich will Auto fahren lernen."
+      },
+      "note": "learn = etwas Neues lernen (learn to swim). study = für die Schule oder Uni lernen, studieren."
+    },
+    {
+      "id": "promise",
+      "word": "promise",
+      "de": "versprechen; das Versprechen",
+      "pos": "verb",
+      "example": {
+        "text": "I promise I'll call you.",
+        "de": "Ich verspreche dir, dass ich anrufe."
+      },
+      "note": "I promise! = Versprochen!"
+    },
+    {
+      "id": "dream",
+      "word": "dream",
+      "plural": "dreams",
+      "de": "der Traum; träumen",
+      "pos": "noun",
+      "example": {
+        "text": "My dream is to travel around the world.",
+        "de": "Mein Traum ist es, um die Welt zu reisen."
+      },
+      "note": "Auch als Verb: I dream about … (Ich träume von …)."
+    },
+    {
+      "id": "graduate",
+      "word": "graduate",
+      "de": "den Abschluss machen",
+      "pos": "verb",
+      "example": {
+        "text": "Yuki will graduate from college next week.",
+        "de": "Yuki macht nächste Woche ihren College-Abschluss."
+      },
+      "note": "graduate from high school = den Schulabschluss machen, graduate from college = das Studium abschließen."
+    },
+    {
+      "id": "college",
+      "word": "college",
+      "plural": "colleges",
+      "de": "das College; die Uni",
+      "pos": "noun",
+      "example": {
+        "text": "My sister wants to go to college in Boston.",
+        "de": "Meine Schwester will in Boston studieren."
+      },
+      "note": "In den USA sagt man für die Uni meistens college: go to college = studieren."
+    },
+    {
+      "id": "exam",
+      "word": "exam",
+      "plural": "exams",
+      "de": "die Prüfung",
+      "pos": "noun",
+      "example": {
+        "text": "I have an important exam on Friday.",
+        "de": "Ich habe am Freitag eine wichtige Prüfung."
+      },
+      "note": "Auch üblich: test. Eine Prüfung machen = take an exam."
+    },
+    {
+      "id": "pass",
+      "word": "pass",
+      "de": "bestehen (Prüfung)",
+      "pos": "verb",
+      "example": {
+        "text": "If I pass the exam, I'll be so happy!",
+        "de": "Wenn ich die Prüfung bestehe, bin ich so glücklich!"
+      },
+      "note": "Achtung: pass heißt nicht „passen“! Das ist fit: The jacket fits."
+    },
+    {
+      "id": "fail",
+      "word": "fail",
+      "de": "durchfallen; nicht bestehen",
+      "pos": "verb",
+      "example": {
+        "text": "Don't worry, you won't fail.",
+        "de": "Keine Sorge, du fällst nicht durch."
+      }
+    },
+    {
+      "id": "nervous",
+      "word": "nervous",
+      "de": "nervös; aufgeregt",
+      "pos": "adj",
+      "example": {
+        "text": "Are you nervous about the test?",
+        "de": "Bist du wegen der Prüfung nervös?"
+      },
+      "note": "nervous about = nervös wegen."
+    },
+    {
+      "id": "ready",
+      "word": "ready",
+      "de": "bereit; fertig",
+      "pos": "adj",
+      "example": {
+        "text": "Are you ready? The taxi is here.",
+        "de": "Bist du fertig? Das Taxi ist da."
+      }
+    },
+    {
+      "id": "good-luck",
+      "word": "good luck",
+      "de": "viel Glück",
+      "pos": "phrase",
+      "example": {
+        "text": "Good luck on your exam!",
+        "de": "Viel Glück bei deiner Prüfung!"
+      },
+      "note": "Glück haben (Zufall) = be lucky. Glücklich sein = be happy."
+    },
+    {
+      "id": "drivers-license",
+      "word": "driver's license",
+      "alt": [
+        "driver's licence",
+        "driving licence"
+      ],
+      "de": "der Führerschein",
+      "pos": "noun",
+      "example": {
+        "text": "Jake is going to get his driver's license.",
+        "de": "Jake macht seinen Führerschein."
+      },
+      "note": "Amerikanisch: driver's license. Britisch: driving licence."
+    },
+    {
+      "id": "save",
+      "word": "save",
+      "de": "sparen; speichern; retten",
+      "pos": "verb",
+      "example": {
+        "text": "I'm saving money for a new car.",
+        "de": "Ich spare Geld für ein neues Auto.",
+        "focus": "saving"
+      }
+    },
+    {
+      "id": "change",
+      "word": "change",
+      "de": "(sich) ändern; wechseln; die Veränderung",
+      "pos": "verb",
+      "example": {
+        "text": "I'd like to change jobs next year.",
+        "de": "Ich würde nächstes Jahr gern den Job wechseln."
+      }
+    },
+    {
+      "id": "go-back",
+      "word": "go back",
+      "de": "zurückgehen; zurückkehren",
+      "pos": "verb",
+      "forms": "go back – went back – gone back",
+      "example": {
+        "text": "Someday I'll go back to Japan.",
+        "de": "Eines Tages gehe ich zurück nach Japan."
+      }
+    },
+    {
+      "id": "worry",
+      "word": "worry",
+      "de": "sich Sorgen machen",
+      "pos": "verb",
+      "example": {
+        "text": "Don't worry, everything will be OK.",
+        "de": "Mach dir keine Sorgen, alles wird gut."
+      },
+      "note": "sich Sorgen machen um = worry about: I worry about my grandma."
+    },
+    {
+      "id": "im-not-sure",
+      "word": "I'm not sure",
+      "alt": [
+        "I am not sure"
+      ],
+      "de": "ich bin nicht sicher; ich weiß nicht genau",
+      "pos": "phrase",
+      "example": {
+        "text": "I'm not sure. Maybe I'll stay home.",
+        "de": "Ich weiß nicht genau. Vielleicht bleibe ich zu Hause."
+      }
+    },
+    {
+      "id": "i-think-so",
+      "word": "I think so",
+      "de": "ich glaube schon; ich denke schon",
+      "pos": "phrase",
+      "example": {
+        "text": "Will Carlos come? – I think so.",
+        "de": "Kommt Carlos? – Ich glaube schon."
+      }
+    },
+    {
+      "id": "i-dont-think-so",
+      "word": "I don't think so",
+      "alt": [
+        "I do not think so"
+      ],
+      "de": "ich glaube nicht",
+      "pos": "phrase",
+      "example": {
+        "text": "Will it snow tomorrow? – I don't think so.",
+        "de": "Schneit es morgen? – Ich glaube nicht."
+      }
+    },
+    {
+      "id": "stay-in-touch",
+      "word": "stay in touch",
+      "alt": [
+        "keep in touch"
+      ],
+      "de": "in Kontakt bleiben",
+      "pos": "phrase",
+      "example": {
+        "text": "Let's stay in touch!",
+        "de": "Lass uns in Kontakt bleiben!"
+      }
+    },
+    {
+      "id": "text",
+      "word": "text",
+      "de": "eine Nachricht schreiben; simsen",
+      "pos": "verb",
+      "example": {
+        "text": "I'll text you after the meeting.",
+        "de": "Ich schreibe dir nach dem Meeting."
+      },
+      "note": "Als Nomen: a text (eine Nachricht, SMS). Send me a text!"
+    },
+    {
+      "id": "until",
+      "word": "until",
+      "de": "bis (zeitlich)",
+      "pos": "conj",
+      "example": {
+        "text": "I'll wait until you're ready.",
+        "de": "Ich warte, bis du fertig bist."
+      },
+      "note": "Nur für die Zeit. Für Orte heißt „bis“ to: from New York to Boston."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "future-forms",
+      "title": "Zukunft: will, going to oder present continuous?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Im Englischen gibt es mehrere Wege, über die Zukunft zu sprechen. Welche Form du nimmst, hängt davon ab, ob etwas schon geplant ist oder nicht."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Form",
+            "wofür?",
+            "Beispiel",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "present continuous",
+              "feste Verabredung: Zeit und Ort stehen fest",
+              "I'm meeting Jake at six.",
+              "Ich treffe mich um sechs mit Jake."
+            ],
+            [
+              "going to",
+              "Plan oder Absicht: schon vorher beschlossen",
+              "I'm going to learn Spanish.",
+              "Ich will Spanisch lernen."
+            ],
+            [
+              "will",
+              "spontane Entscheidung, Angebot, Versprechen",
+              "I'll help you!",
+              "Ich helfe dir!"
+            ],
+            [
+              "will",
+              "Vermutung über die Zukunft",
+              "It will be cold tomorrow.",
+              "Morgen wird es kalt."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "will bildest du ganz einfach: will + Grundform – für alle Personen gleich. Kurzform: I'll, you'll, she'll … Verneint: won't (= will not)."
+        },
+        {
+          "type": "table",
+          "head": [
+            "positiv",
+            "verneint",
+            "Frage"
+          ],
+          "rows": [
+            [
+              "I'll call you.",
+              "I won't call you.",
+              "Will you call me?"
+            ],
+            [
+              "She'll be late.",
+              "She won't be late.",
+              "Will she be late?"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Spontan oder geplant? Das Telefon klingelt: I'll get it! (Ich geh ran! – spontan). Aber: I'm going to call my mom tonight. (Das hatte ich schon vor.)"
+        },
+        {
+          "type": "tip",
+          "text": "Für Verabredungen mit Termin nehmen Muttersprachler meist das present continuous: What are you doing on Saturday? – I'm having dinner with my parents."
+        },
+        {
+          "type": "tip",
+          "text": "Vermutungen klingen mit I think … will natürlich: I think it'll rain. Verneint sagt man meist I don't think … will: I don't think he'll come. (Ich glaube nicht, dass er kommt.)"
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "I'm flying to Chicago on Friday.",
+              "de": "Am Freitag fliege ich nach Chicago."
+            },
+            {
+              "text": "We're going to save money for a new car.",
+              "de": "Wir wollen für ein neues Auto sparen."
+            },
+            {
+              "text": "We don't have any milk. – I'll buy some!",
+              "de": "Wir haben keine Milch mehr. – Ich kaufe welche!"
+            },
+            {
+              "text": "I promise I won't forget.",
+              "de": "Ich verspreche, dass ich es nicht vergesse."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "It's cold in here. – I'll ___ the window.",
+          "answers": [
+            "close",
+            "shut"
+          ],
+          "de": "Hier ist es kalt. – Ich mache das Fenster zu.",
+          "hint": "schließen"
+        },
+        {
+          "type": "cloze",
+          "text": "Don't worry, I ___ be late.",
+          "answers": [
+            "won't",
+            "will not"
+          ],
+          "de": "Keine Sorge, ich komme nicht zu spät.",
+          "hint": "will / won't"
+        },
+        {
+          "type": "cloze",
+          "text": "What are you ___ on Saturday? – I'm meeting Emma for lunch.",
+          "answers": [
+            "doing"
+          ],
+          "de": "Was machst du am Samstag? – Ich treffe mich mit Emma zum Mittagessen."
+        },
+        {
+          "type": "cloze",
+          "text": "Next year, I'm ___ to learn Japanese.",
+          "answers": [
+            "going"
+          ],
+          "de": "Nächstes Jahr will ich Japanisch lernen."
+        },
+        {
+          "type": "cloze",
+          "text": "I think it ___ rain tomorrow.",
+          "answers": [
+            "will"
+          ],
+          "de": "Ich glaube, morgen regnet es."
+        },
+        {
+          "type": "translate",
+          "de": "Ich treffe mich heute Abend mit Yuki.",
+          "answers": [
+            "I'm meeting Yuki tonight.",
+            "I'm meeting Yuki this evening.",
+            "I'm meeting with Yuki tonight.",
+            "I'm meeting with Yuki this evening.",
+            "I am meeting Yuki tonight.",
+            "I am meeting Yuki this evening.",
+            "I am meeting with Yuki tonight.",
+            "I am meeting with Yuki this evening.",
+            "I'm going to meet Yuki tonight.",
+            "I'm going to meet Yuki this evening.",
+            "I'm going to meet with Yuki tonight.",
+            "I'm going to meet with Yuki this evening.",
+            "I am going to meet Yuki tonight.",
+            "I am going to meet Yuki this evening.",
+            "I am going to meet with Yuki tonight.",
+            "I am going to meet with Yuki this evening.",
+            "I'll meet Yuki tonight.",
+            "I'll meet Yuki this evening.",
+            "I'll meet with Yuki tonight.",
+            "I'll meet with Yuki this evening.",
+            "I will meet Yuki tonight.",
+            "I will meet Yuki this evening.",
+            "I will meet with Yuki tonight.",
+            "I will meet with Yuki this evening."
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Ich verspreche, ich rufe dich morgen an.",
+          "answer": "I promise I'll call you tomorrow.",
+          "distractors": [
+            "going"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Das Telefon klingelt. Was sagst du?",
+          "options": [
+            "I'll get it!",
+            "I'm going to get it!",
+            "I get it!"
+          ],
+          "answer": 0,
+          "explain": "Eine spontane Entscheidung im Moment: will. I get it heißt übrigens „Ich verstehe“."
+        }
+      ]
+    },
+    {
+      "id": "first-conditional",
+      "title": "Wenn …, dann …: der first conditional",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mit dem first conditional sprichst du über etwas, das in der Zukunft wirklich passieren kann – und was dann die Folge ist."
+        },
+        {
+          "type": "table",
+          "head": [
+            "if + simple present",
+            "will + Grundform"
+          ],
+          "rows": [
+            [
+              "If it rains,",
+              "we'll stay home."
+            ],
+            [
+              "If you're tired,",
+              "I'll drive."
+            ],
+            [
+              "If I pass the exam,",
+              "I'll be really happy."
+            ],
+            [
+              "If we don't hurry,",
+              "we'll miss the bus."
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Die wichtigste Regel: Nach if steht kein will! Richtig: If it rains, … – Falsch: If it will rain, … Im Deutschen ist es genauso: Wenn es regnet, … (nicht: Wenn es regnen wird, …)"
+        },
+        {
+          "type": "p",
+          "text": "Du kannst die beiden Teile auch tauschen. Steht if in der Mitte, brauchst du kein Komma: We'll stay home if it rains."
+        },
+        {
+          "type": "tip",
+          "text": "Statt will kann im Hauptsatz auch might stehen (vielleicht) – oder ein Imperativ: If you see Jake, tell him to call me. (Wenn du Jake siehst, sag ihm, er soll mich anrufen.)"
+        },
+        {
+          "type": "tip",
+          "text": "„wenn“ hat im Englischen zwei Übersetzungen: if (falls – vielleicht passiert es) und when (sobald – es passiert sicher): When I get home, I'll text you."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "If it's sunny tomorrow, we'll go to the beach.",
+              "de": "Wenn es morgen sonnig ist, fahren wir an den Strand."
+            },
+            {
+              "text": "If you don't have time, I'll do it.",
+              "de": "Wenn du keine Zeit hast, mache ich es."
+            },
+            {
+              "text": "You'll be tired if you stay up late.",
+              "de": "Du wirst müde sein, wenn du lange aufbleibst."
+            },
+            {
+              "text": "If I save enough money, I might buy a car.",
+              "de": "Wenn ich genug Geld spare, kaufe ich mir vielleicht ein Auto."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "If it ___ tomorrow, we'll stay home.",
+          "answers": [
+            "rains"
+          ],
+          "de": "Wenn es morgen regnet, bleiben wir zu Hause.",
+          "hint": "rain"
+        },
+        {
+          "type": "cloze",
+          "text": "If you're hungry, I ___ make some pasta.",
+          "answers": [
+            "will"
+          ],
+          "de": "Wenn du Hunger hast, mache ich Pasta."
+        },
+        {
+          "type": "cloze",
+          "text": "___ I pass the exam, I'll buy a new bike.",
+          "answers": [
+            "If"
+          ],
+          "de": "Wenn ich die Prüfung bestehe, kaufe ich mir ein neues Fahrrad."
+        },
+        {
+          "type": "cloze",
+          "text": "If we don't leave now, we ___ miss the train.",
+          "answers": [
+            "will"
+          ],
+          "de": "Wenn wir jetzt nicht losgehen, verpassen wir den Zug."
+        },
+        {
+          "type": "cloze",
+          "text": "If you ___ Jake, tell him to call me.",
+          "answers": [
+            "see"
+          ],
+          "de": "Wenn du Jake siehst, sag ihm, er soll mich anrufen.",
+          "hint": "see"
+        },
+        {
+          "type": "translate",
+          "de": "Wenn es regnet, bleiben wir zu Hause.",
+          "answers": [
+            "If it rains, we'll stay home.",
+            "If it rains, we'll stay at home.",
+            "If it rains, we will stay home.",
+            "If it rains, we will stay at home.",
+            "We'll stay home if it rains.",
+            "We'll stay at home if it rains.",
+            "We will stay home if it rains.",
+            "We will stay at home if it rains."
+          ]
+        },
+        {
+          "type": "order",
+          "de": "Wenn du müde bist, fahre ich.",
+          "answer": "If you're tired, I'll drive.",
+          "distractors": [
+            "will"
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": [
+            "If it will rain, we'll stay home.",
+            "If it rains, we'll stay home.",
+            "If it rain, we'll stay home."
+          ],
+          "answer": 1,
+          "explain": "Nach if steht das simple present (it rains), im Hauptsatz will."
+        }
+      ]
+    },
+    {
+      "id": "might-maybe-time",
+      "title": "Vielleicht: might, maybe, probably – und Zeitangaben",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn du dir nicht sicher bist, machst du deine Aussage mit might, maybe oder probably vorsichtiger."
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch",
+            "wie sicher?"
+          ],
+          "rows": [
+            [
+              "I'll definitely come.",
+              "Ich komme auf jeden Fall.",
+              "100 %"
+            ],
+            [
+              "I'll probably come.",
+              "Ich komme wahrscheinlich.",
+              "ca. 80 %"
+            ],
+            [
+              "I might come. / Maybe I'll come.",
+              "Vielleicht komme ich.",
+              "ca. 50 %"
+            ],
+            [
+              "I probably won't come.",
+              "Ich komme wahrscheinlich nicht.",
+              "ca. 20 %"
+            ],
+            [
+              "I won't come.",
+              "Ich komme nicht.",
+              "0 %"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "might + Grundform, für alle Personen gleich und ohne to: She might move to Chicago. Verneint: might not – I might not have time. (Vielleicht habe ich keine Zeit.)"
+        },
+        {
+          "type": "tip",
+          "text": "maybe steht meist am Satzanfang: Maybe it'll snow. probably steht nach will, aber vor won't: It'll probably snow. – It probably won't snow."
+        },
+        {
+          "type": "p",
+          "text": "Diese Zeitangaben brauchst du für die Zukunft:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Englisch",
+            "Deutsch"
+          ],
+          "rows": [
+            [
+              "tomorrow / the day after tomorrow",
+              "morgen / übermorgen"
+            ],
+            [
+              "this weekend / this summer",
+              "dieses Wochenende / diesen Sommer"
+            ],
+            [
+              "next week / next month / next year",
+              "nächste Woche / nächsten Monat / nächstes Jahr"
+            ],
+            [
+              "in two days / in two weeks / in a year",
+              "in zwei Tagen / in zwei Wochen / in einem Jahr"
+            ],
+            [
+              "soon / later / someday",
+              "bald / später / eines Tages"
+            ]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Vor next steht kein the und kein in: next year (nicht: the next year oder in next year). in + Zeitraum heißt „in … von jetzt an“: in two weeks = in zwei Wochen."
+        },
+        {
+          "type": "examples",
+          "items": [
+            {
+              "text": "I might go back to Japan next year.",
+              "de": "Vielleicht gehe ich nächstes Jahr zurück nach Japan."
+            },
+            {
+              "text": "Maybe we'll see you this weekend.",
+              "de": "Vielleicht sehen wir uns dieses Wochenende."
+            },
+            {
+              "text": "The train will probably be late.",
+              "de": "Der Zug hat wahrscheinlich Verspätung."
+            },
+            {
+              "text": "My parents are coming in two weeks.",
+              "de": "Meine Eltern kommen in zwei Wochen."
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "I'm not sure. I ___ go to the party.",
+          "answers": [
+            "might"
+          ],
+          "de": "Ich bin nicht sicher. Vielleicht gehe ich zur Party.",
+          "hint": "vielleicht"
+        },
+        {
+          "type": "cloze",
+          "text": "___ we'll go to Canada next summer.",
+          "answers": [
+            "Maybe",
+            "Perhaps"
+          ],
+          "de": "Vielleicht fahren wir nächsten Sommer nach Kanada.",
+          "hint": "vielleicht"
+        },
+        {
+          "type": "cloze",
+          "text": "She'll ___ be late. The traffic is terrible.",
+          "answers": [
+            "probably"
+          ],
+          "de": "Sie kommt wahrscheinlich zu spät. Der Verkehr ist schrecklich."
+        },
+        {
+          "type": "cloze",
+          "text": "We're moving to Boston ___ two weeks.",
+          "answers": [
+            "in"
+          ],
+          "de": "Wir ziehen in zwei Wochen nach Boston."
+        },
+        {
+          "type": "cloze",
+          "text": "___ year, I'm going to graduate from college.",
+          "answers": [
+            "Next"
+          ],
+          "de": "Nächstes Jahr mache ich meinen College-Abschluss."
+        },
+        {
+          "type": "translate",
+          "de": "Vielleicht regnet es morgen.",
+          "answers": [
+            "It might rain tomorrow.",
+            "It may rain tomorrow.",
+            "Maybe it'll rain tomorrow.",
+            "Maybe it will rain tomorrow.",
+            "Perhaps it'll rain tomorrow.",
+            "Perhaps it will rain tomorrow.",
+            "Tomorrow it might rain."
+          ]
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "the day after tomorrow",
+              "übermorgen"
+            ],
+            [
+              "next year",
+              "nächstes Jahr"
+            ],
+            [
+              "in two weeks",
+              "in zwei Wochen"
+            ],
+            [
+              "soon",
+              "bald"
+            ],
+            [
+              "someday",
+              "eines Tages"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Big Plans",
+    "title_de": "Große Pläne",
+    "lines": [
+      {
+        "speaker": "Jake",
+        "text": "Hey, Yuki! What are you doing this weekend?",
+        "de": "Hey, Yuki! Was machst du dieses Wochenende?"
+      },
+      {
+        "speaker": "Yuki",
+        "text": "I'm meeting my parents at the airport on Saturday. They're coming from Osaka!",
+        "de": "Am Samstag hole ich meine Eltern vom Flughafen ab. Sie kommen aus Osaka!"
+      },
+      {
+        "speaker": "Jake",
+        "text": "Oh right, you're graduating from college next week! What are you going to do after that?",
+        "de": "Ach ja, du machst ja nächste Woche deinen College-Abschluss! Was hast du danach vor?"
+      },
+      {
+        "speaker": "Yuki",
+        "text": "I'm not sure yet. I might stay in New York, or I might go back to Japan.",
+        "de": "Ich weiß es noch nicht genau. Vielleicht bleibe ich in New York, vielleicht gehe ich auch zurück nach Japan."
+      },
+      {
+        "speaker": "Jake",
+        "text": "Oh no, I'll miss you if you go back!",
+        "de": "Oh nein, ich werde dich vermissen, wenn du zurückgehst!"
+      },
+      {
+        "speaker": "Yuki",
+        "text": "Don't worry. If I find a good job here, I'll stay. I have a job interview on Monday!",
+        "de": "Keine Sorge. Wenn ich hier eine gute Stelle finde, bleibe ich. Am Montag habe ich ein Vorstellungsgespräch!"
+      },
+      {
+        "speaker": "Jake",
+        "text": "Good luck! I'm sure you'll get it.",
+        "de": "Viel Glück! Ich bin sicher, du bekommst die Stelle."
+      },
+      {
+        "speaker": "Yuki",
+        "text": "Thanks! And you? Any plans for the summer?",
+        "de": "Danke! Und du? Hast du Pläne für den Sommer?"
+      },
+      {
+        "speaker": "Jake",
+        "text": "Yes! I'm going to get my driver's license. The test is in two weeks.",
+        "de": "Ja! Ich mache den Führerschein. Die Prüfung ist in zwei Wochen."
+      },
+      {
+        "speaker": "Yuki",
+        "text": "Wow! Are you nervous?",
+        "de": "Wow! Bist du nervös?"
+      },
+      {
+        "speaker": "Jake",
+        "text": "A little. If I pass, I'll rent a car and drive to California with my brother.",
+        "de": "Ein bisschen. Wenn ich bestehe, miete ich ein Auto und fahre mit meinem Bruder nach Kalifornien."
+      },
+      {
+        "speaker": "Yuki",
+        "text": "That sounds amazing! But it'll probably take a week.",
+        "de": "Das klingt toll! Aber das dauert wahrscheinlich eine Woche."
+      },
+      {
+        "speaker": "Jake",
+        "text": "Maybe longer! We're going to stop at a lot of national parks. Someday I want to see all of them.",
+        "de": "Vielleicht länger! Wir wollen an vielen Nationalparks halten. Eines Tages will ich sie alle sehen."
+      },
+      {
+        "speaker": "Yuki",
+        "text": "Can I come with you? If I don't find a job, I'll have a lot of free time!",
+        "de": "Kann ich mitkommen? Wenn ich keine Stelle finde, habe ich viel Zeit!"
+      },
+      {
+        "speaker": "Jake",
+        "text": "Ha! Sure. But I hope you get the job. Let's stay in touch, OK?",
+        "de": "Ha! Klar. Aber ich hoffe, du bekommst die Stelle. Lass uns in Kontakt bleiben, ja?"
+      },
+      {
+        "speaker": "Yuki",
+        "text": "Definitely! I'll text you after the interview. I promise!",
+        "de": "Auf jeden Fall! Ich schreibe dir nach dem Gespräch. Versprochen!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "hope",
+          "hoffen"
+        ],
+        [
+          "decide",
+          "sich entscheiden"
+        ],
+        [
+          "promise",
+          "versprechen"
+        ],
+        [
+          "save",
+          "sparen"
+        ],
+        [
+          "worry",
+          "sich Sorgen machen"
+        ],
+        [
+          "pass",
+          "bestehen"
+        ]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "college",
+          "das College"
+        ],
+        [
+          "exam",
+          "die Prüfung"
+        ],
+        [
+          "driver's license",
+          "der Führerschein"
+        ],
+        [
+          "dream",
+          "der Traum"
+        ],
+        [
+          "future",
+          "die Zukunft"
+        ],
+        [
+          "good luck",
+          "viel Glück"
+        ]
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich hoffe, du kommst zu meiner Party.",
+      "answers": [
+        "I hope you'll come to my party.",
+        "I hope you will come to my party.",
+        "I hope you come to my party.",
+        "I hope you'll be at my party.",
+        "I hope you will be at my party.",
+        "I hope you can come to my party."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Keine Sorge, ich helfe dir.",
+      "answers": [
+        "Don't worry, I'll help you.",
+        "Don't worry, I will help you.",
+        "Do not worry, I'll help you.",
+        "Do not worry, I will help you.",
+        "No worries, I'll help you.",
+        "No worries, I will help you."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich glaube nicht.",
+      "answers": [
+        "I don't think so.",
+        "I do not think so."
+      ]
+    },
+    {
+      "type": "translate",
+      "de": "Ich spare Geld für ein neues Fahrrad.",
+      "answers": [
+        "I'm saving money for a new bike.",
+        "I'm saving money for a new bicycle.",
+        "I'm saving up for a new bike.",
+        "I'm saving up for a new bicycle.",
+        "I'm saving for a new bike.",
+        "I'm saving for a new bicycle.",
+        "I am saving money for a new bike.",
+        "I am saving money for a new bicycle.",
+        "I am saving up for a new bike.",
+        "I am saving up for a new bicycle.",
+        "I am saving for a new bike.",
+        "I am saving for a new bicycle.",
+        "I save money for a new bike.",
+        "I save money for a new bicycle."
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Good ___ on your exam!",
+      "answers": [
+        "luck"
+      ],
+      "de": "Viel Glück bei deiner Prüfung!"
+    },
+    {
+      "type": "cloze",
+      "text": "My sister will ___ from college next year.",
+      "answers": [
+        "graduate"
+      ],
+      "de": "Meine Schwester macht nächstes Jahr ihren College-Abschluss."
+    },
+    {
+      "type": "cloze",
+      "text": "Let's stay in ___!",
+      "answers": [
+        "touch"
+      ],
+      "de": "Lass uns in Kontakt bleiben!"
+    },
+    {
+      "type": "order",
+      "de": "Ich habe beschlossen, Spanisch zu lernen.",
+      "answer": "I've decided to learn Spanish.",
+      "distractors": [
+        "learning"
+      ]
+    },
+    {
+      "type": "order",
+      "de": "Wenn ich die Prüfung bestehe, bekomme ich meinen Führerschein.",
+      "answer": "If I pass the test, I'll get my driver's license."
+    },
+    {
+      "type": "listen",
+      "text": "I'm not sure yet, but I might go back to Japan next year.",
+      "de": "Ich weiß es noch nicht genau, aber vielleicht gehe ich nächstes Jahr zurück nach Japan."
+    },
+    {
+      "type": "listen",
+      "text": "If it's sunny on Sunday, we'll have a picnic in the park.",
+      "de": "Wenn es am Sonntag sonnig ist, machen wir ein Picknick im Park."
+    }
+  ]
+}

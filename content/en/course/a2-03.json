@@ -1,0 +1,172 @@
+{
+  "formatVersion": 1,
+  "id": "en-a2-03",
+  "lang": "en",
+  "level": "A2",
+  "number": 3,
+  "title": "Health",
+  "title_de": "Gesundheit",
+  "topic": "Körper, Beschwerden und beim Arzt",
+  "goals": [
+    "Du kannst die wichtigsten Körperteile nennen und sagen, was dir wehtut: My back hurts.",
+    "Du kannst Beschwerden beschreiben: I have a headache. I have a cold.",
+    "Du kannst mit should und shouldn't Ratschläge geben: You should stay in bed.",
+    "Du kannst in der Arztpraxis einen Termin machen und Anweisungen verstehen: Take this medicine three times a day."
+  ],
+  "vocab": [
+    { "id": "health", "word": "health", "de": "die Gesundheit", "pos": "noun", "example": { "text": "Sleep is important for your health.", "de": "Schlaf ist wichtig für deine Gesundheit." } },
+    { "id": "healthy", "word": "healthy", "de": "gesund", "pos": "adj", "example": { "text": "Fruit and vegetables are healthy.", "de": "Obst und Gemüse sind gesund." } },
+    { "id": "body", "word": "body", "plural": "bodies", "de": "der Körper", "pos": "noun", "example": { "text": "Exercise is good for your body.", "de": "Bewegung ist gut für deinen Körper." } },
+    { "id": "head", "word": "head", "plural": "heads", "de": "der Kopf", "pos": "noun", "example": { "text": "She's wearing a hat on her head.", "de": "Sie trägt eine Mütze auf dem Kopf." } },
+    { "id": "eye", "word": "eye", "plural": "eyes", "de": "das Auge", "pos": "noun", "example": { "text": "I have something in my eye.", "de": "Ich habe etwas im Auge." } },
+    { "id": "ear", "word": "ear", "plural": "ears", "de": "das Ohr", "pos": "noun", "example": { "text": "Her left ear hurts.", "de": "Ihr linkes Ohr tut weh." } },
+    { "id": "nose", "word": "nose", "plural": "noses", "de": "die Nase", "pos": "noun", "example": { "text": "My nose is red because I have a cold.", "de": "Meine Nase ist rot, weil ich erkältet bin." } },
+    { "id": "mouth", "word": "mouth", "plural": "mouths", "de": "der Mund", "pos": "noun", "example": { "text": "Open your mouth, please.", "de": "Mach bitte den Mund auf." } },
+    { "id": "tooth", "word": "tooth", "plural": "teeth", "de": "der Zahn", "pos": "noun", "example": { "text": "Max has his first tooth!", "de": "Max hat seinen ersten Zahn!" }, "note": "Mehrzahl: teeth." },
+    { "id": "throat", "word": "throat", "plural": "throats", "de": "der Hals (innen); die Kehle", "pos": "noun", "example": { "text": "My throat hurts when I eat.", "de": "Mein Hals tut weh, wenn ich esse." }, "note": "throat ist der Hals innen. Außen heißt er neck." },
+    { "id": "arm", "word": "arm", "plural": "arms", "de": "der Arm", "pos": "noun", "example": { "text": "Jake hurt his arm yesterday.", "de": "Jake hat sich gestern am Arm verletzt." } },
+    { "id": "hand", "word": "hand", "plural": "hands", "de": "die Hand", "pos": "noun", "example": { "text": "My hands are cold.", "de": "Meine Hände sind kalt.", "focus": "hands" } },
+    { "id": "leg", "word": "leg", "plural": "legs", "de": "das Bein", "pos": "noun", "example": { "text": "My legs hurt after the hike.", "de": "Nach der Wanderung tun mir die Beine weh.", "focus": "legs" } },
+    { "id": "foot", "word": "foot", "plural": "feet", "de": "der Fuß", "pos": "noun", "example": { "text": "My feet hurt in these shoes.", "de": "In diesen Schuhen tun mir die Füße weh.", "focus": "feet" }, "note": "Mehrzahl: feet. zu Fuß = on foot (A1)." },
+    { "id": "back", "word": "back", "de": "der Rücken", "pos": "noun", "example": { "text": "My back hurts after work.", "de": "Nach der Arbeit tut mir der Rücken weh." } },
+    { "id": "stomach", "word": "stomach", "de": "der Magen; der Bauch", "pos": "noun", "example": { "text": "My stomach hurts. I ate a lot of cake yesterday.", "de": "Mir tut der Bauch weh. Ich habe gestern viel Kuchen gegessen." }, "note": "Aussprache: [ˈstʌmək] – am Ende ein k." },
+    { "id": "hurt", "word": "hurt", "de": "wehtun; verletzen", "pos": "verb", "forms": "hurts; simple past: hurt", "example": { "text": "Where does it hurt?", "de": "Wo tut es weh?" }, "note": "My head hurts (Einzahl mit -s). My feet hurt (Mehrzahl ohne -s)." },
+    { "id": "feel", "word": "feel", "de": "sich fühlen", "pos": "verb", "forms": "felt", "example": { "text": "How do you feel today?", "de": "Wie fühlst du dich heute?" }, "note": "I feel sick. (Mir ist schlecht. / Ich fühle mich krank.) I feel better. (Mir geht es besser.)" },
+    { "id": "sick", "word": "sick", "de": "krank; übel", "pos": "adj", "example": { "text": "I'm sick today. I can't go to work.", "de": "Ich bin heute krank. Ich kann nicht zur Arbeit gehen." }, "note": "Im amerikanischen Englisch ist sick das normale Wort für „krank“." },
+    { "id": "bad", "word": "bad", "de": "schlecht; schlimm; stark (bei Krankheiten)", "pos": "adj", "example": { "text": "Smoking is bad for your health.", "de": "Rauchen ist schlecht für deine Gesundheit." }, "note": "Bei Krankheiten: a bad cold = eine starke Erkältung, a bad cough = starker Husten." },
+    { "id": "tired", "word": "tired", "de": "müde", "pos": "adj", "example": { "text": "I'm tired because I stayed up late.", "de": "Ich bin müde, weil ich lange aufgeblieben bin." } },
+    { "id": "headache", "word": "headache", "plural": "headaches", "de": "die Kopfschmerzen", "pos": "noun", "example": { "text": "I have a headache.", "de": "Ich habe Kopfschmerzen." }, "note": "Mit a! I have a headache. Genauso: a stomachache, a toothache, a backache." },
+    { "id": "stomachache", "word": "stomachache", "plural": "stomachaches", "de": "die Bauchschmerzen", "pos": "noun", "example": { "text": "Max has a stomachache.", "de": "Max hat Bauchschmerzen." } },
+    { "id": "toothache", "word": "toothache", "plural": "toothaches", "de": "die Zahnschmerzen", "pos": "noun", "example": { "text": "I have a toothache.", "de": "Ich habe Zahnschmerzen." } },
+    { "id": "have-a-cold", "word": "have a cold", "de": "erkältet sein; eine Erkältung haben", "pos": "phrase", "example": { "text": "Lena has a cold.", "de": "Lena ist erkältet.", "focus": "has a cold" }, "note": "cold heißt auch „kalt“ (A1). Mit a ist es die Erkältung: a cold." },
+    { "id": "fever", "word": "fever", "de": "das Fieber", "pos": "noun", "example": { "text": "Do you have a fever?", "de": "Hast du Fieber?" }, "note": "Auch hier mit a: I have a fever." },
+    { "id": "cough", "word": "cough", "de": "der Husten; husten", "pos": "noun", "example": { "text": "I have a bad cough.", "de": "Ich habe starken Husten." }, "note": "Aussprache: [kɔːf]." },
+    { "id": "sore-throat", "word": "sore throat", "de": "die Halsschmerzen", "pos": "noun", "example": { "text": "I have a sore throat.", "de": "Ich habe Halsschmerzen." } },
+    { "id": "flu", "word": "flu", "de": "die Grippe", "pos": "noun", "example": { "text": "Yuki has the flu.", "de": "Yuki hat die Grippe." }, "note": "Mit the: have the flu." },
+    { "id": "whats-wrong", "word": "what's wrong?", "de": "Was ist los?; Was fehlt dir?", "pos": "phrase", "example": { "text": "What's wrong? – I feel sick.", "de": "Was ist los? – Mir ist schlecht." }, "note": "Genauso: What's the matter?" },
+    { "id": "should", "word": "should", "de": "sollte; solltest", "pos": "verb", "forms": "should, shouldn't", "example": { "text": "You should drink a lot of water.", "de": "Du solltest viel Wasser trinken." }, "note": "Nach should steht die Grundform ohne to: You should rest." },
+    { "id": "rest", "word": "rest", "de": "sich ausruhen; die Ruhe", "pos": "verb", "example": { "text": "Rest and drink a lot of tea.", "de": "Ruh dich aus und trink viel Tee." } },
+    { "id": "stay-in-bed", "word": "stay in bed", "de": "im Bett bleiben", "pos": "phrase", "example": { "text": "The doctor said I have to stay in bed.", "de": "Die Ärztin hat gesagt, ich muss im Bett bleiben." } },
+    { "id": "exercise", "word": "exercise", "de": "Sport treiben; sich bewegen", "pos": "verb", "example": { "text": "I exercise three times a week.", "de": "Ich treibe dreimal pro Woche Sport." }, "note": "Auch Nomen: Exercise is healthy. (Bewegung ist gesund.)" },
+    { "id": "smoke", "word": "smoke", "de": "rauchen", "pos": "verb", "example": { "text": "My uncle smokes a lot.", "de": "Mein Onkel raucht viel.", "focus": "smokes" } },
+    { "id": "doctor", "word": "doctor", "plural": "doctors", "de": "der Arzt; die Ärztin", "pos": "noun", "example": { "text": "I have to go to the doctor.", "de": "Ich muss zum Arzt." }, "note": "zum Arzt gehen = go to the doctor, beim Arzt = at the doctor's. Als Titel: Dr. Miller." },
+    { "id": "dentist", "word": "dentist", "plural": "dentists", "de": "der Zahnarzt; die Zahnärztin", "pos": "noun", "example": { "text": "I go to the dentist two times a year.", "de": "Ich gehe zweimal im Jahr zum Zahnarzt." } },
+    { "id": "appointment", "word": "appointment", "plural": "appointments", "de": "der Termin", "pos": "noun", "example": { "text": "I'd like to make an appointment.", "de": "Ich möchte einen Termin vereinbaren." }, "note": "einen Termin machen = make an appointment." },
+    { "id": "prescription", "word": "prescription", "plural": "prescriptions", "de": "das Rezept (vom Arzt)", "pos": "noun", "example": { "text": "Here's your prescription.", "de": "Hier ist Ihr Rezept." }, "note": "Ein Kochrezept heißt recipe." },
+    { "id": "medicine", "word": "medicine", "de": "das Medikament; die Medizin", "pos": "noun", "example": { "text": "Take this medicine three times a day.", "de": "Nimm dieses Medikament dreimal am Tag." } },
+    { "id": "pill", "word": "pill", "plural": "pills", "de": "die Tablette", "pos": "noun", "example": { "text": "Take one pill after breakfast.", "de": "Nimm eine Tablette nach dem Frühstück." } },
+    { "id": "pharmacy", "word": "pharmacy", "plural": "pharmacies", "de": "die Apotheke", "pos": "noun", "example": { "text": "You can get the medicine at the pharmacy.", "de": "Das Medikament bekommst du in der Apotheke." }, "note": "In den USA ist die Apotheke oft ein Schalter im drugstore (A1)." },
+    { "id": "open", "word": "open", "de": "öffnen; aufmachen", "pos": "verb", "example": { "text": "The pharmacy opens at nine.", "de": "Die Apotheke öffnet um neun.", "focus": "opens" }, "note": "Auch Adjektiv: open = offen, geöffnet." },
+    { "id": "get-well-soon", "word": "get well soon", "de": "Gute Besserung!", "pos": "phrase", "example": { "text": "Get well soon, Lena!", "de": "Gute Besserung, Lena!" } }
+  ],
+  "grammar": [
+    {
+      "id": "aches-hurt",
+      "title": "Was fehlt dir? I have a headache – my back hurts",
+      "blocks": [
+        { "type": "p", "text": "Wenn du sagen willst, was dir fehlt, hast du im Englischen zwei Möglichkeiten: I have + Beschwerde (I have a headache) oder Körperteil + hurts (My back hurts)." },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["I have a headache.", "Ich habe Kopfschmerzen."], ["I have a stomachache.", "Ich habe Bauchschmerzen."], ["I have a toothache.", "Ich habe Zahnschmerzen."], ["I have a backache.", "Ich habe Rückenschmerzen."], ["I have an earache.", "Ich habe Ohrenschmerzen."], ["I have a sore throat.", "Ich habe Halsschmerzen."], ["I have a cold.", "Ich bin erkältet."], ["I have a fever.", "Ich habe Fieber."], ["I have a cough.", "Ich habe Husten."], ["I have the flu.", "Ich habe die Grippe."]] },
+        { "type": "tip", "text": "Anders als im Deutschen steht hier fast immer a oder an: a headache, a cold, a fever. Nur bei der Grippe heißt es the flu. Und: „Schmerzen“ ist im Deutschen Mehrzahl – headache ist Einzahl." },
+        { "type": "p", "text": "Mit hurt (wehtun) sagst du, welcher Körperteil schmerzt. Im Englischen ist der Körperteil das Subjekt, und statt „mir“ benutzt du my." },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["My head hurts.", "Mir tut der Kopf weh."], ["My throat hurts.", "Mir tut der Hals weh."], ["My eyes hurt.", "Mir tun die Augen weh."], ["My feet hurt.", "Mir tun die Füße weh."], ["Does your arm hurt?", "Tut dir der Arm weh?"], ["Where does it hurt?", "Wo tut es weh?"]] },
+        { "type": "tip", "text": "Einzahl mit -s: My leg hurts. Mehrzahl ohne -s: My legs hurt. Im simple past bleibt hurt gleich: My back hurt all day." },
+        { "type": "p", "text": "Nach dem Befinden fragst du mit What's wrong? oder What's the matter? (Was ist los?) und How do you feel? (Wie fühlst du dich?). Antworten: I feel sick. I feel terrible. I'm tired. I feel better today." },
+        { "type": "examples", "items": [{ "text": "What's the matter? – I have a terrible headache.", "de": "Was ist los? – Ich habe schreckliche Kopfschmerzen." }, { "text": "Max has a fever, and his ear hurts.", "de": "Max hat Fieber, und sein Ohr tut weh." }, { "text": "I feel better today, thanks.", "de": "Heute geht es mir besser, danke." }, { "text": "Jake can't play soccer because his leg hurts.", "de": "Jake kann nicht Fußball spielen, weil ihm das Bein wehtut." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I have ___ headache.", "answers": ["a"], "de": "Ich habe Kopfschmerzen." },
+        { "type": "cloze", "text": "My feet ___.", "answers": ["hurt"], "de": "Mir tun die Füße weh." },
+        { "type": "cloze", "text": "My stomach ___.", "answers": ["hurts"], "de": "Mir tut der Bauch weh." },
+        { "type": "cloze", "text": "Yuki has ___ flu.", "answers": ["the"], "de": "Yuki hat die Grippe." },
+        { "type": "cloze", "text": "I have a sore ___.", "answers": ["throat"], "de": "Ich habe Halsschmerzen." },
+        { "type": "cloze", "text": "What's ___? – I feel sick.", "answers": ["wrong", "the matter"], "de": "Was ist los? – Mir ist schlecht." },
+        { "type": "translate", "de": "Mir tut der Rücken weh.", "answers": ["My back hurts.", "I have a backache.", "I have back pain.", "My back is hurting."] },
+        { "type": "translate", "de": "Ich bin erkältet und habe Fieber.", "answers": ["I have a cold and a fever.", "I have a cold and I have a fever.", "I have a cold and have a fever.", "I've got a cold and a fever."] },
+        { "type": "order", "de": "Wo tut es weh?", "answer": "Where does it hurt?", "distractors": ["hurts"] }
+      ]
+    },
+    {
+      "id": "should",
+      "title": "Ratschläge geben: should und shouldn't",
+      "blocks": [
+        { "type": "p", "text": "Mit should gibst du einen Rat – im Deutschen „solltest“ oder „sollte“. Nach should steht die Grundform des Verbs. should ist für alle Personen gleich: kein -s bei he, she, it und kein do in Fragen." },
+        { "type": "table", "head": ["Person", "bejaht", "verneint"], "rows": [["I", "I should rest.", "I shouldn't go to work."], ["you", "You should rest.", "You shouldn't go to work."], ["he / she / it", "She should rest.", "She shouldn't go to work."], ["we", "We should rest.", "We shouldn't go to work."], ["they", "They should rest.", "They shouldn't go to work."]] },
+        { "type": "tip", "text": "shouldn't ist die Kurzform von should not. Falsch wäre: He shoulds stay home. / He should to stay home." },
+        { "type": "p", "text": "Für Fragen rückt should nach vorn: Should I go to the doctor? – Yes, you should. / No, you shouldn't. Mit Fragewort: What should I do? (Was soll ich tun?)" },
+        { "type": "tip", "text": "Etwas weicher klingt der Rat mit I think: I think you should go home. (Ich finde, du solltest nach Hause gehen.)" },
+        { "type": "examples", "items": [{ "text": "You have a fever. You should stay in bed.", "de": "Du hast Fieber. Du solltest im Bett bleiben." }, { "text": "You shouldn't smoke. It isn't healthy.", "de": "Du solltest nicht rauchen. Das ist nicht gesund." }, { "text": "My tooth hurts. What should I do? – You should go to the dentist.", "de": "Mein Zahn tut weh. Was soll ich tun? – Du solltest zum Zahnarzt gehen." }, { "text": "We should exercise more.", "de": "Wir sollten mehr Sport treiben." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "You have a cold. You ___ drink a lot of tea.", "answers": ["should"], "de": "Du bist erkältet. Du solltest viel Tee trinken." },
+        { "type": "cloze", "text": "You ___ go to work with a fever.", "answers": ["shouldn't", "should not"], "de": "Mit Fieber solltest du nicht zur Arbeit gehen." },
+        { "type": "cloze", "text": "___ I take a pill?", "answers": ["Should"], "de": "Soll ich eine Tablette nehmen?" },
+        { "type": "cloze", "text": "He should ___ in bed.", "answers": ["stay", "rest"], "de": "Er sollte im Bett bleiben." },
+        { "type": "cloze", "text": "My back hurts. What should I ___?", "answers": ["do"], "de": "Mir tut der Rücken weh. Was soll ich tun?" },
+        { "type": "translate", "de": "Du solltest zum Arzt gehen.", "answers": ["You should go to the doctor.", "You should see a doctor.", "You should go to a doctor.", "You should see the doctor.", "I think you should go to the doctor.", "I think you should see a doctor."] },
+        { "type": "translate", "de": "Sie sollte nicht rauchen.", "answers": ["She shouldn't smoke.", "She should not smoke."] },
+        { "type": "order", "de": "Du solltest mehr Wasser trinken.", "answer": "You should drink more water.", "distractors": ["to"] },
+        { "type": "choice", "prompt": "Welcher Satz ist richtig?", "options": ["She should rest.", "She shoulds rest.", "She should to rest."], "answer": 0, "explain": "Nach should kommt die Grundform ohne to, und should hat nie ein -s." }
+      ]
+    },
+    {
+      "id": "at-the-doctors",
+      "title": "In der Arztpraxis: Termin, Rezept und Anweisungen",
+      "blocks": [
+        { "type": "p", "text": "In den USA rufst du meistens zuerst in der Praxis an und machst einen Termin (make an appointment). Diese Sätze helfen dir dabei:" },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["I'd like to make an appointment, please.", "Ich möchte bitte einen Termin vereinbaren."], ["Can I see the doctor today?", "Kann ich heute zum Arzt kommen?"], ["What's the problem?", "Was fehlt Ihnen?"], ["Is two thirty OK?", "Passt Ihnen halb drei?"], ["Can I have your name, please?", "Wie ist Ihr Name, bitte?"], ["Do you have insurance?", "Sind Sie krankenversichert?"]] },
+        { "type": "p", "text": "Der Arzt oder die Ärztin gibt dir Anweisungen – meistens im Imperativ (A1, Lektion 7), also ohne Subjekt:" },
+        { "type": "table", "head": ["Englisch", "Deutsch"], "rows": [["Open your mouth, please.", "Machen Sie bitte den Mund auf."], ["Take this medicine three times a day.", "Nehmen Sie dieses Medikament dreimal am Tag."], ["Take one pill before bed.", "Nehmen Sie vor dem Schlafengehen eine Tablette."], ["Don't go to work for two days.", "Gehen Sie zwei Tage lang nicht zur Arbeit."], ["Drink a lot of water.", "Trinken Sie viel Wasser."], ["Come back next week.", "Kommen Sie nächste Woche wieder."]] },
+        { "type": "tip", "text": "Wie oft? once a day (einmal am Tag), twice a day oder two times a day (zweimal am Tag), three times a day (dreimal am Tag). Wie lange? for three days (drei Tage lang), for a week (eine Woche lang)." },
+        { "type": "tip", "text": "Mit dem Rezept (prescription) gehst du in die Apotheke (pharmacy). Im Notfall rufst du in den USA 911 an (nine-one-one)." },
+        { "type": "examples", "items": [{ "text": "I'd like to make an appointment for tomorrow morning.", "de": "Ich möchte einen Termin für morgen Vormittag." }, { "text": "Take two pills twice a day for five days.", "de": "Nehmen Sie fünf Tage lang zweimal am Tag zwei Tabletten." }, { "text": "Here's your prescription. Get well soon!", "de": "Hier ist Ihr Rezept. Gute Besserung!" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "I'd like to ___ an appointment, please.", "answers": ["make"], "de": "Ich möchte bitte einen Termin vereinbaren." },
+        { "type": "cloze", "text": "Take this medicine three ___ a day.", "answers": ["times"], "de": "Nehmen Sie dieses Medikament dreimal am Tag." },
+        { "type": "cloze", "text": "Take one pill ___ a day.", "answers": ["once"], "de": "Nehmen Sie einmal am Tag eine Tablette." },
+        { "type": "cloze", "text": "Don't go to work ___ three days.", "answers": ["for"], "de": "Gehen Sie drei Tage lang nicht zur Arbeit." },
+        { "type": "cloze", "text": "Get well ___!", "answers": ["soon"], "de": "Gute Besserung!" },
+        { "type": "translate", "de": "Hier ist Ihr Rezept.", "answers": ["Here's your prescription.", "Here is your prescription."] },
+        { "type": "order", "de": "Ich möchte einen Termin für morgen vereinbaren.", "answer": "I'd like to make an appointment for tomorrow.", "distractors": ["do"] },
+        { "type": "match", "pairs": [["appointment", "Termin"], ["prescription", "Rezept"], ["pharmacy", "Apotheke"], ["medicine", "Medikament"], ["pill", "Tablette"]] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the Doctor's",
+    "title_de": "In der Arztpraxis",
+    "lines": [
+      { "speaker": "Receptionist", "text": "Good morning, Dr. Miller's office. How can I help you?", "de": "Guten Morgen, Praxis Dr. Miller. Was kann ich für Sie tun?" },
+      { "speaker": "Lena", "text": "Hello. I'd like to make an appointment, please. I feel really sick.", "de": "Hallo. Ich möchte bitte einen Termin vereinbaren. Ich fühle mich richtig krank." },
+      { "speaker": "Receptionist", "text": "I'm sorry. What's wrong?", "de": "Das tut mir leid. Was fehlt Ihnen?" },
+      { "speaker": "Lena", "text": "I have a sore throat and a bad cough, and my head hurts.", "de": "Ich habe Halsschmerzen und starken Husten, und mir tut der Kopf weh." },
+      { "speaker": "Receptionist", "text": "Is eleven thirty OK?", "de": "Passt Ihnen halb zwölf?" },
+      { "speaker": "Lena", "text": "Yes, that's fine. Thank you.", "de": "Ja, das passt. Danke." },
+      { "speaker": "Dr. Miller", "text": "Hello, Lena. So, how do you feel?", "de": "Hallo, Lena. Also, wie fühlen Sie sich?" },
+      { "speaker": "Lena", "text": "Terrible. I'm tired, and my throat hurts when I eat.", "de": "Furchtbar. Ich bin müde, und mein Hals tut weh, wenn ich esse." },
+      { "speaker": "Dr. Miller", "text": "Do you have a fever?", "de": "Haben Sie Fieber?" },
+      { "speaker": "Lena", "text": "Yes, last night I had a fever, and I didn't sleep a lot.", "de": "Ja, gestern Abend hatte ich Fieber, und ich habe nicht viel geschlafen." },
+      { "speaker": "Dr. Miller", "text": "OK. Open your mouth, please. Hmm, it isn't a cold. You have the flu.", "de": "In Ordnung. Machen Sie bitte den Mund auf. Hm, das ist keine Erkältung. Sie haben die Grippe." },
+      { "speaker": "Lena", "text": "Oh no! What should I do? Should I take something?", "de": "Oje! Was soll ich tun? Soll ich etwas nehmen?" },
+      { "speaker": "Dr. Miller", "text": "Here's a prescription. Take this medicine three times a day. And you should rest and drink a lot of water.", "de": "Hier ist ein Rezept. Nehmen Sie dieses Medikament dreimal am Tag. Und Sie sollten sich ausruhen und viel Wasser trinken." },
+      { "speaker": "Lena", "text": "Can I go to work tomorrow?", "de": "Kann ich morgen zur Arbeit gehen?" },
+      { "speaker": "Dr. Miller", "text": "No, you shouldn't. Stay in bed for three days. Get well soon!", "de": "Nein, das sollten Sie nicht. Bleiben Sie drei Tage im Bett. Gute Besserung!" },
+      { "speaker": "Lena", "text": "Thank you, Dr. Miller!", "de": "Danke, Dr. Miller!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["head", "Kopf"], ["eye", "Auge"], ["ear", "Ohr"], ["nose", "Nase"], ["mouth", "Mund"], ["tooth", "Zahn"]] },
+    { "type": "match", "pairs": [["back", "Rücken"], ["leg", "Bein"], ["foot", "Fuß"], ["stomach", "Bauch"], ["throat", "Hals"]] },
+    { "type": "translate", "de": "Ich habe Kopfschmerzen.", "answers": ["I have a headache.", "I've got a headache.", "My head hurts."] },
+    { "type": "translate", "de": "Du solltest im Bett bleiben.", "answers": ["You should stay in bed.", "You should rest in bed.", "I think you should stay in bed."] },
+    { "type": "translate", "de": "Ich möchte bitte einen Termin vereinbaren.", "answers": ["I'd like to make an appointment, please.", "I would like to make an appointment, please.", "I'd like to make an appointment.", "I would like to make an appointment.", "Can I make an appointment, please?", "Could I make an appointment, please?"] },
+    { "type": "translate", "de": "Wie fühlst du dich heute?", "answers": ["How do you feel today?", "How are you feeling today?"] },
+    { "type": "cloze", "text": "My uncle ___ a lot. He should stop.", "answers": ["smokes"], "de": "Mein Onkel raucht viel. Er sollte damit aufhören.", "hint": "smoke" },
+    { "type": "cloze", "text": "Take the prescription to the ___.", "answers": ["pharmacy", "drugstore"], "de": "Bring das Rezept in die Apotheke." },
+    { "type": "cloze", "text": "I have a toothache. I should go to the ___.", "answers": ["dentist"], "de": "Ich habe Zahnschmerzen. Ich sollte zum Zahnarzt gehen." },
+    { "type": "order", "de": "Mir tun die Beine weh.", "answer": "My legs hurt.", "distractors": ["hurts"] },
+    { "type": "order", "de": "Er sollte nicht zur Arbeit gehen.", "answer": "He shouldn't go to work.", "distractors": ["doesn't"] },
+    { "type": "listen", "text": "I'm not going to work today because I have a bad cold.", "de": "Ich gehe heute nicht zur Arbeit, weil ich stark erkältet bin." },
+    { "type": "listen", "text": "The doctor said I should rest and drink a lot of tea.", "de": "Die Ärztin hat gesagt, ich soll mich ausruhen und viel Tee trinken." }
+  ]
+}
