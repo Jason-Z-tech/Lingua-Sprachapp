@@ -1,0 +1,203 @@
+{
+  "formatVersion": 1,
+  "lang": "it",
+  "stories": [
+    {
+      "id": "it-st-a1-01",
+      "file": "a1-01.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Colazione al bar",
+      "title_de": "Frühstück in der Bar",
+      "topics": [
+        "essen",
+        "alltag"
+      ],
+      "summary_de": "Lena aus München frühstückt wie jeden Morgen in einer kleinen Bar in Bologna: Cappuccino und Cornetto an der Theke.",
+      "words": 128
+    },
+    {
+      "id": "it-st-a1-02",
+      "file": "a1-02.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "Un biglietto per Firenze",
+      "title_de": "Eine Fahrkarte nach Florenz",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Jonas kauft am Bahnhof in Bologna eine Fahrkarte nach Florenz und fragt nach Zügen, Preis und Gleis.",
+      "words": 120
+    },
+    {
+      "id": "it-st-a1-03",
+      "file": "a1-03.json",
+      "level": "A1",
+      "type": "story",
+      "title": "La famiglia di Sofia",
+      "title_de": "Sofias Familie",
+      "topics": [
+        "alltag"
+      ],
+      "summary_de": "Die zwölfjährige Sofia aus Verona stellt ihre Eltern, ihre Geschwister, ihren Hund, ihre Katze und ihre Großeltern vor.",
+      "words": 155
+    },
+    {
+      "id": "it-st-a1-04",
+      "file": "a1-04.json",
+      "level": "A1",
+      "type": "story",
+      "title": "La partita della domenica",
+      "title_de": "Das Fußballspiel am Sonntag",
+      "topics": [
+        "sport"
+      ],
+      "summary_de": "Marco spielt wie jeden Sonntag mit seinen Freunden im Park Fußball und schießt in der letzten Minute das Siegtor.",
+      "words": 130
+    },
+    {
+      "id": "it-st-a1-05",
+      "file": "a1-05.json",
+      "level": "A1",
+      "type": "story",
+      "title": "Pippo al parco",
+      "title_de": "Pippo im Park",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Elena geht mit ihrem Hund Pippo bei Sonnenschein in den Park, doch Pippo jagt eine Katze und dann kommt der Regen.",
+      "words": 129
+    },
+    {
+      "id": "it-st-a1-06",
+      "file": "a1-06.json",
+      "level": "A1",
+      "type": "dialog",
+      "title": "Che musica ascolti?",
+      "title_de": "Was für Musik hörst du?",
+      "topics": [
+        "musik"
+      ],
+      "summary_de": "Giulia und Marco erzählen sich, welche Musik sie mögen und welches Instrument sie spielen, und Giulia kommt zu Marcos Konzert.",
+      "words": 106
+    },
+    {
+      "id": "it-st-a2-01",
+      "file": "a2-01.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Il primo giorno di lavoro",
+      "title_de": "Der erste Arbeitstag",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Lena erzählt von ihrem ersten Tag in einem Reisebüro in Bologna: nervöser Start, nette Kollegen, Mittagessen in der Trattoria und der erste Kunde.",
+      "words": 240
+    },
+    {
+      "id": "it-st-a2-02",
+      "file": "a2-02.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Una sera al cinema",
+      "title_de": "Ein Abend im Kino",
+      "topics": [
+        "filme"
+      ],
+      "summary_de": "Ein junger Mann erzählt, wie er mit seiner Freundin Marta einen Krimi im Kino gesehen hat und warum sie danach beim Pizzaessen ganz unterschiedlicher Meinung sind.",
+      "words": 223
+    },
+    {
+      "id": "it-st-a2-03",
+      "file": "a2-03.json",
+      "level": "A2",
+      "type": "dialog",
+      "title": "Dal medico e in farmacia",
+      "title_de": "Beim Arzt und in der Apotheke",
+      "topics": [
+        "gesundheit"
+      ],
+      "summary_de": "Luca hat Halsschmerzen und Fieber, geht zur Ärztin und holt danach mit dem Rezept seine Medikamente in der Apotheke.",
+      "words": 213
+    },
+    {
+      "id": "it-st-a2-04",
+      "file": "a2-04.json",
+      "level": "A2",
+      "type": "story",
+      "title": "Il telefono perso",
+      "title_de": "Das verlorene Handy",
+      "topics": [
+        "technik"
+      ],
+      "summary_de": "Giulia verliert nach einem Abend in der Stadt ihr Handy, findet es mit einer Ortungs-App wieder und holt es im Fundbüro ab.",
+      "words": 226
+    },
+    {
+      "id": "it-st-a2-05",
+      "file": "a2-05.json",
+      "level": "A2",
+      "type": "story",
+      "title": "La sagra della castagna",
+      "title_de": "Das Kastanienfest",
+      "topics": [
+        "kultur"
+      ],
+      "summary_de": "Die deutsche Studentin Anna besucht mit ihrer Freundin Chiara ein Kastanienfest in einem kleinen Bergdorf und tanzt dort zum ersten Mal zu italienischer Volksmusik.",
+      "words": 216
+    },
+    {
+      "id": "it-st-b1-01",
+      "file": "b1-01.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Un viaggio pieno di sorprese",
+      "title_de": "Eine Reise voller Überraschungen",
+      "topics": [
+        "reisen"
+      ],
+      "summary_de": "Paolo und Martas Wochenende in Neapel beginnt mit einem Bahnstreik, einer Reifenpanne und einem verlorenen Hotelzimmer – und wird trotzdem das schönste des Jahres.",
+      "words": 302
+    },
+    {
+      "id": "it-st-b1-02",
+      "file": "b1-02.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Un fiume da salvare",
+      "title_de": "Ein Fluss, der gerettet werden muss",
+      "topics": [
+        "natur"
+      ],
+      "summary_de": "Ein Foto in den sozialen Medien bringt einen kleinen Ort dazu, seinen Fluss zu säubern – doch über den nächsten Schritt, ein autofreies Zentrum, gehen die Meinungen auseinander.",
+      "words": 323
+    },
+    {
+      "id": "it-st-b1-03",
+      "file": "b1-03.json",
+      "level": "B1",
+      "type": "dialog",
+      "title": "Una partita di troppo",
+      "title_de": "Ein Spiel zu viel",
+      "topics": [
+        "spiele",
+        "technik"
+      ],
+      "summary_de": "Tommaso hat die halbe Nacht online gespielt, und seine Freundin Giada diskutiert mit ihm über Vor- und Nachteile von Videospielen und Bildschirmzeit, bis die beiden einen Kompromiss finden.",
+      "words": 289
+    },
+    {
+      "id": "it-st-b1-04",
+      "file": "b1-04.json",
+      "level": "B1",
+      "type": "story",
+      "title": "Casa o ufficio?",
+      "title_de": "Zuhause oder Büro?",
+      "topics": [
+        "arbeit"
+      ],
+      "summary_de": "Die Grafikerin Francesca und ihr Kollege Davide wägen Vor- und Nachteile von Homeoffice und Büro ab, als ihr Chef alle wieder fast die ganze Woche ins Büro holen will.",
+      "words": 354
+    }
+  ]
+}

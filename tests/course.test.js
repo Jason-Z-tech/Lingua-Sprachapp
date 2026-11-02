@@ -318,3 +318,25 @@ test('Furigana-Schreibweise wird richtig zerlegt', () => {
   assert.ok(validateRuby('学生[gakusei]').length > 0, 'Lesung in Rōmaji wird erkannt');
   assert.ok(!hasKanji('ひらがな'));
 });
+
+for (const lang of languages) {
+  const indexPath = `../content/${lang}/course/index.json`;
+  if (!exists(indexPath)) continue;
+  test(`${lang}: keine Vokabel wird in zwei Lektionen neu eingeführt`, () => {
+    const index = readJson(indexPath);
+    const seen = new Map();
+    const doubles = [];
+    for (const level of index.levels) {
+      for (const meta of level.lessons) {
+        if (!meta.available) continue;
+        const lesson = readJson(`../content/${lang}/course/${meta.file}`);
+        for (const v of lesson.vocab) {
+          const key = plainText(v.word, lang).toLowerCase();
+          if (seen.has(key)) doubles.push(`${key} (${seen.get(key)} und ${meta.id})`);
+          else seen.set(key, meta.id);
+        }
+      }
+    }
+    assert.deepEqual(doubles, [], 'doppelte Vokabeln – in der späteren Lektion entfernen oder ersetzen');
+  });
+}

@@ -42,7 +42,22 @@ function fallbackSegments(text) {
  */
 export function tokenize(text, lang, { elision = false } = {}) {
   if (lang === 'ja') {
-    return parseRuby(text).map((t) => {
+    // öffnende Klammern/Anführungszeichen vorne abtrennen: 「今日 -> 「 + 今日
+    const leading = [];
+    for (const t of parseRuby(text)) {
+      const m = t.surface.match(/^([「『（(]+)(.+)$/u);
+      if (m && t.segments.length && t.segments[0].reading === undefined && t.segments[0].text.startsWith(m[1])) {
+        const segs = [...t.segments];
+        const rest = segs[0].text.slice(m[1].length);
+        if (rest) segs[0] = { text: rest };
+        else segs.shift();
+        leading.push({ surface: m[1], segments: [{ text: m[1] }], reading: m[1] });
+        leading.push({ surface: m[2], segments: segs, reading: t.reading.slice(m[1].length) });
+      } else {
+        leading.push(t);
+      }
+    }
+    return leading.map((t) => {
       const isWord = /[぀-ヿ㐀-鿿々ー]/.test(t.surface);
       // Satzzeichen am Wortende abtrennen (です。 -> です + 。)
       const m = t.surface.match(/^(.*?)([。、！？!?「」『』…・（）()]*)$/u);
