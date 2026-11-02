@@ -1,0 +1,242 @@
+{
+  "formatVersion": 1,
+  "lang": "ja",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "A1 – Grundlagen",
+      "description": "Erste Schritte: dich vorstellen, einkaufen, nach dem Weg fragen.",
+      "lessons": [
+        {
+          "id": "ja-a1-01",
+          "file": "a1-01.json",
+          "title_de": "Hallo!",
+          "topic": "Begrüßen, verabschieden und sich vorstellen",
+          "available": false
+        },
+        {
+          "id": "ja-a1-02",
+          "file": "a1-02.json",
+          "title_de": "Woher kommst du?",
+          "topic": "Länder, Sprachen und Zahlen bis 20",
+          "available": false
+        },
+        {
+          "id": "ja-a1-03",
+          "file": "a1-03.json",
+          "title_de": "Meine Familie",
+          "topic": "Familie, Alter und was man hat",
+          "available": false
+        },
+        {
+          "id": "ja-a1-04",
+          "file": "a1-04.json",
+          "title_de": "Essen und Trinken",
+          "topic": "Im Café bestellen",
+          "available": false
+        },
+        {
+          "id": "ja-a1-05",
+          "file": "a1-05.json",
+          "title_de": "Mein Tag",
+          "topic": "Uhrzeit und Tagesablauf",
+          "available": false
+        },
+        {
+          "id": "ja-a1-06",
+          "file": "a1-06.json",
+          "title_de": "Zu Hause",
+          "topic": "Wohnung, Zimmer und Möbel",
+          "available": false
+        },
+        {
+          "id": "ja-a1-07",
+          "file": "a1-07.json",
+          "title_de": "In der Stadt",
+          "topic": "Orte und nach dem Weg fragen",
+          "available": false
+        },
+        {
+          "id": "ja-a1-08",
+          "file": "a1-08.json",
+          "title_de": "Einkaufen",
+          "topic": "Lebensmittel, Preise und Kleidung",
+          "available": false
+        },
+        {
+          "id": "ja-a1-09",
+          "file": "a1-09.json",
+          "title_de": "Freizeit",
+          "topic": "Hobbys, Vorlieben und Wochentage",
+          "available": false
+        },
+        {
+          "id": "ja-a1-10",
+          "file": "a1-10.json",
+          "title_de": "Unterwegs",
+          "topic": "Verkehrsmittel und Reisen",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "title": "A2 – Alltag sicher meistern",
+      "description": "Erzählen, was war, und in Alltagssituationen gut zurechtkommen.",
+      "lessons": [
+        {
+          "id": "ja-a2-01",
+          "file": "a2-01.json",
+          "title_de": "Was hast du gemacht?",
+          "topic": "Von gestern und vom Wochenende erzählen",
+          "available": false
+        },
+        {
+          "id": "ja-a2-02",
+          "file": "a2-02.json",
+          "title_de": "Arbeit und Beruf",
+          "topic": "Berufe und Arbeitsalltag",
+          "available": false
+        },
+        {
+          "id": "ja-a2-03",
+          "file": "a2-03.json",
+          "title_de": "Gesundheit",
+          "topic": "Körper, Beschwerden und beim Arzt",
+          "available": false
+        },
+        {
+          "id": "ja-a2-04",
+          "file": "a2-04.json",
+          "title_de": "Wetter und Jahreszeiten",
+          "topic": "Über das Wetter sprechen",
+          "available": false
+        },
+        {
+          "id": "ja-a2-05",
+          "file": "a2-05.json",
+          "title_de": "Feste und Einladungen",
+          "topic": "Einladen, zusagen und absagen",
+          "available": false
+        },
+        {
+          "id": "ja-a2-06",
+          "file": "a2-06.json",
+          "title_de": "Im Restaurant",
+          "topic": "Reservieren, bestellen und bezahlen",
+          "available": false
+        },
+        {
+          "id": "ja-a2-07",
+          "file": "a2-07.json",
+          "title_de": "Urlaub",
+          "topic": "Hotel und Reiseplanung",
+          "available": false
+        },
+        {
+          "id": "ja-a2-08",
+          "file": "a2-08.json",
+          "title_de": "Menschen beschreiben",
+          "topic": "Aussehen und Charakter",
+          "available": false
+        },
+        {
+          "id": "ja-a2-09",
+          "file": "a2-09.json",
+          "title_de": "Früher",
+          "topic": "Kindheit und Erinnerungen",
+          "available": false
+        },
+        {
+          "id": "ja-a2-10",
+          "file": "a2-10.json",
+          "title_de": "Pläne",
+          "topic": "Über die Zukunft sprechen",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "title": "B1 – Selbstständig sprechen",
+      "description": "Meinungen äußern, Erlebnisse erzählen, über vertraute Themen sprechen.",
+      "lessons": [
+        {
+          "id": "ja-b1-01",
+          "file": "b1-01.json",
+          "title_de": "Meine Meinung",
+          "topic": "Meinungen äußern und begründen",
+          "available": false
+        },
+        {
+          "id": "ja-b1-02",
+          "file": "b1-02.json",
+          "title_de": "Medien und Technik",
+          "topic": "Handy, Internet und Nachrichten",
+          "available": false
+        },
+        {
+          "id": "ja-b1-03",
+          "file": "b1-03.json",
+          "title_de": "Umwelt",
+          "topic": "Natur, Klima und Umweltschutz",
+          "available": false
+        },
+        {
+          "id": "ja-b1-04",
+          "file": "b1-04.json",
+          "title_de": "Zusammenleben",
+          "topic": "Wohnen, Nachbarn und Mitbewohner",
+          "available": false
+        },
+        {
+          "id": "ja-b1-05",
+          "file": "b1-05.json",
+          "title_de": "Lernen",
+          "topic": "Schule, Studium und Weiterbildung",
+          "available": false
+        },
+        {
+          "id": "ja-b1-06",
+          "file": "b1-06.json",
+          "title_de": "Bewerbung",
+          "topic": "Lebenslauf und Vorstellungsgespräch",
+          "available": false
+        },
+        {
+          "id": "ja-b1-07",
+          "file": "b1-07.json",
+          "title_de": "Kultur",
+          "topic": "Musik, Film und Bücher",
+          "available": false
+        },
+        {
+          "id": "ja-b1-08",
+          "file": "b1-08.json",
+          "title_de": "Erlebnisse",
+          "topic": "Von einer Reise erzählen",
+          "available": false
+        },
+        {
+          "id": "ja-b1-09",
+          "file": "b1-09.json",
+          "title_de": "Gesellschaft",
+          "topic": "Alltag und Zusammenhalt",
+          "available": false
+        },
+        {
+          "id": "ja-b1-10",
+          "file": "b1-10.json",
+          "title_de": "Ziele",
+          "topic": "Träume und Wünsche",
+          "available": false
+        }
+      ]
+    }
+  ],
+  "script": {
+    "title": "Schrift – Hiragana und Katakana",
+    "description": "Bevor es mit Lektion 1 losgeht, lernst du die beiden Silbenschriften. Kanji kommen danach Schritt für Schritt in den Lektionen dazu.",
+    "file": "../kana.json"
+  }
+}

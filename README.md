@@ -10,9 +10,13 @@ Zielsprachen: **Englisch, Spanisch, Italienisch, Japanisch** (inkl. Hiragana, Ka
 Die App ist eine reine statische Website (HTML, CSS, JavaScript-Module) ohne Build-Schritt,
 ohne Server, ohne Konto. Der Lernstand bleibt im Browser.
 
-> **Stand:** in Entwicklung, Etappe 1 von 11 fertig (Grundgerüst, Speicherung,
-> mehrere Sprachen, Einstufungstest). Ein ausführliches README mit Anleitung für
-> GitHub Pages und den API-Schlüssel folgt zum Schluss.
+> **Stand:** in Entwicklung, Etappe 2 von 11 fertig.
+> - Etappe 1: Grundgerüst, Speicherung, mehrere Sprachen, Einstufungstest
+> - Etappe 2: Kurs mit Lektionen (Vokabeln, Grammatik, Dialog, Übungen, Test),
+>   die ersten zwei A1-Lektionen in allen vier Sprachen, kompletter Kana-Kurs
+>   (Hiragana und Katakana) mit Strichfolge und Nachzeichnen
+>
+> Ein ausführliches README mit Anleitung für GitHub Pages und den API-Schlüssel folgt zum Schluss.
 
 ## Lokal starten
 
@@ -39,7 +43,10 @@ npm test
 | --- | --- |
 | `index.html`, `css/` | Seite und Gestaltung (hell/dunkel) |
 | `js/store/` | Lernstand: Schema mit Versionsnummer, Migrationen, IndexedDB, Sicherungen |
-| `js/lang/` | Einstufungstest, Wortschatz- und Abdeckungsschätzung |
+| `js/lang/` | Einstufungstest, Wortschatzschätzung, Antwortprüfung, Rōmaji → Kana, Furigana-Schreibweise |
+| `js/course/` | Kursreihenfolge, Fortschritt, Übungen aus Lektionsinhalten |
+| `js/ja/` | Strichfolge und Nachzeichnen für Kana und Kanji |
+| `js/speech/` | Vorlesen (Sprachausgabe des Browsers) |
 | `js/views/` | Ansichten (Start, Einstieg, Fortschritt, Einstellungen …) |
 | `js/ui/` | DOM-Bausteine (ohne innerHTML), Symbole, Dialoge |
 | `content/` | Inhalte pro Sprache, Format siehe [`content/FORMAT.md`](content/FORMAT.md) |
@@ -53,5 +60,11 @@ npm test
   [wordfreq](https://github.com/rspeer/wordfreq) von Robyn Speer u. a.,
   Daten unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
   Wordfreq bündelt u. a. Wikipedia, Untertitel (OpenSubtitles), Bücher, Nachrichten und Webtexte.
-- Die japanischen Lesungen wurden beim Erzeugen mit UniDic (über `fugashi`/`unidic-lite`, BSD-Lizenz)
+- Strichfolgen (`content/ja/strokes.json`): aus [KanjiVG](https://kanjivg.tagaini.net)
+  von Ulrich Apel, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+  Erzeugt mit `tools/build_strokes.py`.
+- Lektionen, Kana-Kurs und Kanji-Beschreibungen wurden für dieses Projekt geschrieben
+  (mit KI-Unterstützung) und automatisch auf Vollständigkeit geprüft, aber nicht von
+  Muttersprachlern Korrektur gelesen. Hinweise auf Fehler sind willkommen.
+- Die japanischen Lesungen der Häufigkeitsliste wurden beim Erzeugen mit UniDic (über `fugashi`/`unidic-lite`, BSD-Lizenz)
   bestimmt; das Wörterbuch selbst ist nicht Teil des Repos.

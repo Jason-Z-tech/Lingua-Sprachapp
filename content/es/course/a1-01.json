@@ -1,0 +1,179 @@
+{
+  "formatVersion": 1,
+  "id": "es-a1-01",
+  "lang": "es",
+  "level": "A1",
+  "number": 1,
+  "title": "¡Hola!",
+  "title_de": "Hallo!",
+  "topic": "Begrüßen, verabschieden und sich vorstellen",
+  "goals": [
+    "Du kannst jemanden begrüßen und dich verabschieden.",
+    "Du kannst sagen, wie du heißt, und andere nach ihrem Namen fragen.",
+    "Du kannst fragen, wie es jemandem geht, und darauf antworten."
+  ],
+  "vocab": [
+    { "id": "hola", "word": "hola", "de": "hallo", "pos": "interj",
+      "example": { "text": "¡Hola, Marta! ¿Qué tal?", "de": "Hallo, Marta! Wie geht's?" } },
+    { "id": "buenos-dias", "word": "buenos días", "de": "guten Morgen; guten Tag (vormittags)", "pos": "phrase",
+      "example": { "text": "Buenos días, señora López.", "de": "Guten Morgen, Frau López." } },
+    { "id": "buenas-tardes", "word": "buenas tardes", "de": "guten Tag (nachmittags)", "pos": "phrase",
+      "example": { "text": "Buenas tardes, ¿qué tal?", "de": "Guten Tag, wie geht's?" } },
+    { "id": "buenas-noches", "word": "buenas noches", "de": "guten Abend; gute Nacht", "pos": "phrase",
+      "example": { "text": "Buenas noches, hasta mañana.", "de": "Gute Nacht, bis morgen." } },
+    { "id": "adios", "word": "adiós", "de": "tschüss; auf Wiedersehen", "pos": "interj",
+      "example": { "text": "Adiós, Pedro.", "de": "Tschüss, Pedro." } },
+    { "id": "hasta-luego", "word": "hasta luego", "de": "bis später; tschüss", "pos": "phrase",
+      "example": { "text": "Hasta luego, Carmen.", "de": "Bis später, Carmen." } },
+    { "id": "hasta-manana", "word": "hasta mañana", "de": "bis morgen", "pos": "phrase",
+      "example": { "text": "¡Hasta mañana, Carlos!", "de": "Bis morgen, Carlos!" } },
+    { "id": "que-tal", "word": "¿qué tal?", "de": "wie geht's?", "pos": "phrase",
+      "example": { "text": "Hola, Ana. ¿Qué tal?", "de": "Hallo, Ana. Wie geht's?" } },
+    { "id": "bien", "word": "bien", "de": "gut", "pos": "adv",
+      "example": { "text": "Estoy bien, gracias.", "de": "Mir geht es gut, danke." },
+      "note": "Estoy bien = Mir geht es gut. Estar lernst du in einer späteren Lektion genauer kennen." },
+    { "id": "muy", "word": "muy", "de": "sehr", "pos": "adv",
+      "example": { "text": "Muy bien, ¿y tú?", "de": "Sehr gut, und dir?" } },
+    { "id": "mal", "word": "mal", "de": "schlecht", "pos": "adv",
+      "example": { "text": "Hoy estoy mal.", "de": "Heute geht es mir schlecht." } },
+    { "id": "regular", "word": "regular", "de": "so lala; mittelmäßig", "pos": "adv",
+      "example": { "text": "¿Qué tal? – Regular.", "de": "Wie geht's? – So lala." } },
+    { "id": "gracias", "word": "gracias", "de": "danke", "pos": "interj",
+      "example": { "text": "Muy bien, gracias.", "de": "Sehr gut, danke." } },
+    { "id": "por-favor", "word": "por favor", "de": "bitte (wenn man um etwas bittet)", "pos": "phrase",
+      "example": { "text": "Tu nombre, por favor.", "de": "Deinen Namen, bitte." } },
+    { "id": "de-nada", "word": "de nada", "de": "gern geschehen; bitte (als Antwort auf danke)", "pos": "phrase",
+      "example": { "text": "–Gracias. –De nada.", "de": "–Danke. –Gern geschehen." } },
+    { "id": "si", "word": "sí", "de": "ja", "pos": "adv",
+      "example": { "text": "Sí, soy Pedro.", "de": "Ja, ich bin Pedro." },
+      "note": "Mit Akzent: sí = ja. Ohne Akzent: si = wenn, falls." },
+    { "id": "no", "word": "no", "de": "nein; nicht", "pos": "adv",
+      "example": { "text": "No, no soy Ana.", "de": "Nein, ich bin nicht Ana." } },
+    { "id": "y", "word": "y", "de": "und", "pos": "conj",
+      "example": { "text": "Ana y Pedro son amigos.", "de": "Ana und Pedro sind Freunde." } },
+    { "id": "yo", "word": "yo", "de": "ich", "pos": "pron",
+      "example": { "text": "Yo soy Lucía.", "de": "Ich bin Lucía." } },
+    { "id": "tu", "word": "tú", "de": "du", "pos": "pron",
+      "example": { "text": "¿Tú eres Pablo?", "de": "Bist du Pablo?" },
+      "note": "Mit Akzent: tú = du. Ohne Akzent: tu = dein." },
+    { "id": "el", "word": "él", "de": "er", "pos": "pron",
+      "example": { "text": "Él es Javier.", "de": "Er ist Javier." } },
+    { "id": "ella", "word": "ella", "de": "sie (Einzahl)", "pos": "pron",
+      "example": { "text": "Ella es mi amiga.", "de": "Sie ist meine Freundin." } },
+    { "id": "usted", "word": "usted", "de": "Sie (höfliche Anrede)", "pos": "pron",
+      "example": { "text": "¿Es usted el señor García?", "de": "Sind Sie Herr García?" } },
+    { "id": "ser", "word": "ser", "de": "sein", "pos": "verb", "forms": "soy, eres, es, somos, sois, son",
+      "example": { "text": "Yo soy Ana y ella es Marta.", "de": "Ich bin Ana und sie ist Marta.", "focus": "soy" },
+      "note": "Unregelmäßig – die Formen findest du in der Grammatik dieser Lektion." },
+    { "id": "llamarse", "word": "llamarse", "de": "heißen", "pos": "verb", "forms": "me llamo, te llamas, se llama",
+      "example": { "text": "Me llamo Carmen.", "de": "Ich heiße Carmen.", "focus": "llamo" } },
+    { "id": "nombre", "word": "nombre", "article": "el", "gender": "m", "plural": "los nombres", "de": "der Name", "pos": "noun",
+      "example": { "text": "Mi nombre es Laura.", "de": "Mein Name ist Laura." } },
+    { "id": "senor", "word": "señor", "article": "el", "gender": "m", "plural": "los señores", "de": "der Herr; Herr (Anrede)", "pos": "noun",
+      "example": { "text": "Buenos días, señor Pérez.", "de": "Guten Morgen, Herr Pérez." } },
+    { "id": "senora", "word": "señora", "article": "la", "gender": "f", "plural": "las señoras", "de": "die Frau; Frau (Anrede)", "pos": "noun",
+      "example": { "text": "Buenas tardes, señora Ruiz.", "de": "Guten Tag, Frau Ruiz." } },
+    { "id": "encantado", "word": "encantado", "alt": ["encantada"], "de": "sehr erfreut", "pos": "adj",
+      "example": { "text": "Encantado, Marta.", "de": "Sehr erfreut, Marta." },
+      "note": "Ein Mann sagt „encantado“, eine Frau „encantada“." },
+    { "id": "mucho-gusto", "word": "mucho gusto", "de": "freut mich", "pos": "phrase",
+      "example": { "text": "Soy Pablo. – Mucho gusto.", "de": "Ich bin Pablo. – Freut mich." } },
+    { "id": "como", "word": "¿cómo?", "de": "wie?", "pos": "adv",
+      "example": { "text": "¿Cómo te llamas?", "de": "Wie heißt du?", "focus": "cómo" } },
+    { "id": "amigo", "word": "amigo", "article": "el", "gender": "m", "plural": "los amigos", "de": "der Freund", "pos": "noun",
+      "example": { "text": "Pedro es mi amigo.", "de": "Pedro ist mein Freund." },
+      "note": "Die Freundin = la amiga." },
+    { "id": "tambien", "word": "también", "de": "auch", "pos": "adv",
+      "example": { "text": "Yo también estoy bien.", "de": "Mir geht es auch gut." } }
+  ],
+  "grammar": [
+    {
+      "id": "ser",
+      "title": "Das Verb ser (sein)",
+      "blocks": [
+        { "type": "p", "text": "Ser bedeutet „sein“. Wie im Deutschen ist das Verb unregelmäßig – die Formen lernst du am besten auswendig." },
+        { "type": "table", "head": ["Person", "ser", "Deutsch"], "rows": [
+          ["yo", "soy", "ich bin"],
+          ["tú", "eres", "du bist"],
+          ["él / ella / usted", "es", "er / sie ist; Sie sind"],
+          ["nosotros / nosotras", "somos", "wir sind"],
+          ["vosotros / vosotras", "sois", "ihr seid"],
+          ["ellos / ellas / ustedes", "son", "sie sind; Sie sind (mehrere)"]
+        ] },
+        { "type": "tip", "text": "Die Personalpronomen lässt man meistens weg, weil die Verbform schon zeigt, wer gemeint ist: Soy Ana. = Ich bin Ana." },
+        { "type": "tip", "text": "Usted (Sie) ist die höfliche Anrede. Das Verb steht dann in der 3. Person: ¿Es usted el señor García?" },
+        { "type": "examples", "items": [
+          { "text": "Soy Lucía.", "de": "Ich bin Lucía." },
+          { "text": "¿Eres Pablo?", "de": "Bist du Pablo?" },
+          { "text": "Somos amigos.", "de": "Wir sind Freunde." },
+          { "text": "Ellos son Ana y Pedro.", "de": "Das sind Ana und Pedro." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Yo ___ Marta.", "answers": ["soy"], "de": "Ich bin Marta.", "hint": "ser" },
+        { "type": "cloze", "text": "¿Tú ___ Pedro?", "answers": ["eres"], "de": "Bist du Pedro?", "hint": "ser" },
+        { "type": "cloze", "text": "Ella ___ mi amiga.", "answers": ["es"], "de": "Sie ist meine Freundin.", "hint": "ser" },
+        { "type": "cloze", "text": "Nosotros ___ amigos.", "answers": ["somos"], "de": "Wir sind Freunde.", "hint": "ser" },
+        { "type": "cloze", "text": "¿Vosotros ___ Ana y Luis?", "answers": ["sois"], "de": "Seid ihr Ana und Luis?", "hint": "ser" },
+        { "type": "cloze", "text": "Ellos ___ Carmen y Javier.", "answers": ["son"], "de": "Das sind Carmen und Javier.", "hint": "ser" },
+        { "type": "choice", "prompt": "Wie fragst du Herrn García höflich, ob er es ist?",
+          "options": ["¿Eres tú el señor García?", "¿Es usted el señor García?", "¿Son ustedes el señor García?"],
+          "answer": 1, "explain": "Bei usted steht das Verb in der 3. Person Einzahl: es." }
+      ]
+    },
+    {
+      "id": "llamarse",
+      "title": "Wie heißt du? – llamarse",
+      "blocks": [
+        { "type": "p", "text": "Um zu sagen, wie man heißt, benutzt man llamarse. Wörtlich bedeutet das „sich nennen“: Me llamo Ana. = Ich nenne mich Ana." },
+        { "type": "table", "head": ["Person", "llamarse", "Deutsch"], "rows": [
+          ["yo", "me llamo", "ich heiße"],
+          ["tú", "te llamas", "du heißt"],
+          ["él / ella / usted", "se llama", "er / sie heißt; Sie heißen"]
+        ] },
+        { "type": "p", "text": "Fragen beginnen im Spanischen mit einem umgedrehten Fragezeichen, Ausrufe mit einem umgedrehten Ausrufezeichen: ¿Cómo te llamas? ¡Hola!" },
+        { "type": "examples", "items": [
+          { "text": "¿Cómo te llamas?", "de": "Wie heißt du?" },
+          { "text": "¿Cómo se llama usted?", "de": "Wie heißen Sie?" },
+          { "text": "Me llamo Diego.", "de": "Ich heiße Diego." },
+          { "text": "Ella se llama Sofía.", "de": "Sie heißt Sofía." }
+        ] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Me ___ Daniel.", "answers": ["llamo"], "de": "Ich heiße Daniel.", "hint": "llamarse" },
+        { "type": "cloze", "text": "¿Cómo te ___?", "answers": ["llamas"], "de": "Wie heißt du?", "hint": "llamarse" },
+        { "type": "cloze", "text": "Él se ___ Marcos.", "answers": ["llama"], "de": "Er heißt Marcos.", "hint": "llamarse" },
+        { "type": "cloze", "text": "¿Cómo ___ llama usted?", "answers": ["se"], "de": "Wie heißen Sie?" },
+        { "type": "order", "de": "Wie heißt du?", "answer": "¿Cómo te llamas?" },
+        { "type": "order", "de": "Ich heiße Elena.", "answer": "Me llamo Elena." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "El primer día",
+    "title_de": "Der erste Tag",
+    "lines": [
+      { "speaker": "Lucía", "text": "¡Hola! Buenos días.", "de": "Hallo! Guten Morgen." },
+      { "speaker": "Diego", "text": "Buenos días. ¿Cómo te llamas?", "de": "Guten Morgen. Wie heißt du?" },
+      { "speaker": "Lucía", "text": "Me llamo Lucía. ¿Y tú?", "de": "Ich heiße Lucía. Und du?" },
+      { "speaker": "Diego", "text": "Yo me llamo Diego. Mucho gusto.", "de": "Ich heiße Diego. Freut mich." },
+      { "speaker": "Lucía", "text": "Encantada. ¿Qué tal?", "de": "Sehr erfreut. Wie geht's?" },
+      { "speaker": "Diego", "text": "Muy bien, gracias. ¿Y tú?", "de": "Sehr gut, danke. Und dir?" },
+      { "speaker": "Lucía", "text": "Bien, gracias. Mira, ella es Marta. Es mi amiga.", "de": "Gut, danke. Schau, das ist Marta. Sie ist meine Freundin." },
+      { "speaker": "Marta", "text": "Hola, Diego. Encantada.", "de": "Hallo, Diego. Sehr erfreut." },
+      { "speaker": "Diego", "text": "Encantado, Marta. Bueno, hasta luego.", "de": "Sehr erfreut, Marta. Also, bis später." },
+      { "speaker": "Marta", "text": "¡Adiós, Diego! ¡Hasta mañana!", "de": "Tschüss, Diego! Bis morgen!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["hola", "hallo"], ["adiós", "tschüss"], ["gracias", "danke"], ["por favor", "bitte"], ["de nada", "gern geschehen"]] },
+    { "type": "translate", "de": "Guten Morgen, Frau López.", "answers": ["Buenos días, señora López."] },
+    { "type": "translate", "de": "Ich heiße Pablo. Und du?", "answers": ["Me llamo Pablo. ¿Y tú?", "Yo me llamo Pablo. ¿Y tú?"] },
+    { "type": "translate", "de": "Sehr gut, danke.", "answers": ["Muy bien, gracias."] },
+    { "type": "translate", "de": "Wir sind Freunde.", "answers": ["Somos amigos.", "Nosotros somos amigos.", "Somos amigas.", "Nosotras somos amigas."] },
+    { "type": "order", "de": "Bis morgen, Carlos!", "answer": "¡Hasta mañana, Carlos!" },
+    { "type": "order", "de": "Sind Sie Herr García?", "answer": "¿Es usted el señor García?" },
+    { "type": "listen", "text": "Buenas tardes, ¿qué tal?", "de": "Guten Tag, wie geht's?" },
+    { "type": "listen", "text": "Me llamo Ana y ella es Marta.", "de": "Ich heiße Ana und sie ist Marta." }
+  ]
+}

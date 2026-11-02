@@ -79,3 +79,47 @@ export function prepareFrequency(raw) {
     readings: raw.readings || {},
   };
 }
+
+// ---------- Kurs ----------
+
+export function loadCourseIndex(code) {
+  return loadJson(`${code}/course/index.json`);
+}
+
+export function loadLesson(code, file) {
+  return loadJson(`${code}/course/${file}`);
+}
+
+/** Lektion anhand der id (z. B. "es-a1-01") finden und laden. */
+export async function loadLessonById(id) {
+  const code = id.split('-')[0];
+  const index = await loadCourseIndex(code);
+  for (const level of index.levels) {
+    const meta = level.lessons.find((l) => l.id === id);
+    if (meta) {
+      if (!meta.available) return { index, level, meta, lesson: null };
+      return { index, level, meta, lesson: await loadLesson(code, meta.file) };
+    }
+  }
+  return null;
+}
+
+export function loadKana() {
+  return loadJson('ja/kana.json');
+}
+
+export async function loadKanji() {
+  try {
+    return await loadJson('ja/kanji.json');
+  } catch {
+    return { formatVersion: 1, kanji: [] };
+  }
+}
+
+export async function loadStrokes() {
+  try {
+    return await loadJson('ja/strokes.json');
+  } catch {
+    return { strokes: {} };
+  }
+}

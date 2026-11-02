@@ -8,7 +8,10 @@ import { applyTheme } from './ui/theme.js';
 import { loadLanguages } from './content/loader.js';
 import { getState, initState, isReadOnly, onSaveError, setActiveLanguage, subscribe } from './store/state.js';
 import { errorCard } from './views/common.js';
+import { courseView } from './views/course.js';
 import { homeView } from './views/home.js';
+import { kanaView } from './views/kana.js';
+import { lessonView } from './views/lesson.js';
 import { onboardingView } from './views/onboarding.js';
 import { placementView } from './views/placement-route.js';
 import { placeholderView } from './views/placeholder.js';
@@ -27,7 +30,9 @@ const ROUTES = {
   start: { view: homeView, title: 'Start' },
   willkommen: { view: onboardingView, title: 'Willkommen', public: true },
   einstufung: { view: placementView, title: 'Einstufungstest' },
-  kurs: { view: placeholderView('kurs'), title: 'Kurs' },
+  kurs: { view: courseView, title: 'Kurs' },
+  lektion: { view: lessonView, title: 'Lektion', nav: 'kurs' },
+  kana: { view: kanaView, title: 'Kana', nav: 'kurs' },
   lesen: { view: placeholderView('lesen'), title: 'Lesen' },
   wiederholen: { view: placeholderView('wiederholen'), title: 'Wiederholen' },
   sprechen: { view: placeholderView('sprechen'), title: 'Sprechen' },
@@ -70,7 +75,8 @@ export function navigate(route, { replace = false } = {}) {
 function renderHeader() {
   const state = getState();
   const profiles = Object.values(state.langs).sort((a, b) => a.addedAt.localeCompare(b.addedAt));
-  const { name } = parseHash();
+  const parsed = parseHash();
+  const name = (ROUTES[parsed.name] && ROUTES[parsed.name].nav) || parsed.name;
 
   let switcher = null;
   if (profiles.length > 0) {

@@ -936,3 +936,763 @@ h1[tabindex="-1"]:focus-visible {
     align-self: stretch;
   }
 }
+
+/* =========================================================
+   Kurs, Lektionen, Übungen
+   ========================================================= */
+
+.badge-good {
+  background: var(--good-soft);
+  color: var(--good);
+}
+
+.badge-muted {
+  background: transparent;
+  color: var(--text-faint);
+  border: 1px dashed var(--border-strong);
+}
+
+ruby {
+  ruby-position: over;
+}
+
+rt {
+  font-size: 0.5em;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.ja-text {
+  line-height: 2;
+}
+
+.kanji-inline {
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+}
+
+/* Kursübersicht */
+.next-card h2 {
+  margin-bottom: var(--space-2);
+}
+
+.next-card .btn {
+  margin-top: var(--space-2);
+}
+
+.lesson-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.lesson-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lesson-row:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+
+.lesson-row:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.lesson-row.is-recommended {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.lesson-num {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.is-done .lesson-num {
+  background: var(--good-soft);
+  color: var(--good);
+}
+
+.is-recommended .lesson-num {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.lesson-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.lesson-title {
+  font-weight: 600;
+}
+
+.lesson-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex: none;
+}
+
+@media (max-width: 520px) {
+  .lesson-meta .badge {
+    font-size: 0.7rem;
+  }
+}
+
+/* Lektion */
+.lesson-subtitle {
+  margin: calc(-1 * var(--space-3)) 0 var(--space-4);
+  font-size: 1.05rem;
+}
+
+.section-tabs {
+  margin: 0 calc(-1 * var(--space-4)) var(--space-5);
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.section-tabs ul {
+  display: flex;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--space-4);
+  white-space: nowrap;
+}
+
+.section-tabs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: var(--space-2) var(--space-3);
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+}
+
+.section-tabs a[aria-current='page'] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.section-tabs .icon {
+  width: 16px;
+  height: 16px;
+  color: var(--good);
+}
+
+.bullets {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.bullets li + li {
+  margin-top: var(--space-1);
+}
+
+.steps-list {
+  margin: 0;
+  padding-left: 1.4em;
+}
+
+.steps-list li {
+  padding: var(--space-1) 0;
+}
+
+.steps-list li a {
+  margin-right: var(--space-2);
+}
+
+.vocab-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+}
+
+.vocab-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.vocab-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.vocab-word {
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
+.vocab-de {
+  font-weight: 500;
+}
+
+.vocab-example {
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border);
+}
+
+.btn-speak {
+  min-height: 34px;
+  min-width: 34px;
+  color: var(--accent);
+}
+
+.btn-speak .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.grammar-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.grammar-table th,
+.grammar-table td {
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.grammar-table th {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.grammar-table td:nth-child(2) {
+  font-weight: 650;
+}
+
+.examples {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.examples li {
+  padding-left: var(--space-3);
+  border-left: 3px solid var(--border-strong);
+}
+
+.tip p::before {
+  content: '💡 ';
+}
+
+.dialogue {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.dialogue-line {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: var(--space-3);
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+}
+
+.dialogue-line.is-speaking {
+  background: var(--accent-soft);
+}
+
+.speaker {
+  font-weight: 650;
+  color: var(--text-muted);
+  padding-top: 4px;
+}
+
+@media (max-width: 520px) {
+  .dialogue-line {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+/* Übungsrunde */
+.session {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.session-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.session-card {
+  min-height: 200px;
+}
+
+.prompt-de {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.prompt-target {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.prompt-kana {
+  font-size: clamp(3rem, 14vw, 5rem);
+  text-align: center;
+  line-height: 1.2;
+  padding: var(--space-3) 0;
+}
+
+.gap {
+  display: inline-block;
+  margin: 0 0.25em;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+.answer-input {
+  width: 100%;
+  font-size: 1.2rem;
+  min-height: 52px;
+}
+
+.answer-input:disabled {
+  opacity: 0.85;
+}
+
+.char-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.char-btn {
+  min-width: 38px;
+  min-height: 38px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.session-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.feedback:empty {
+  display: none;
+}
+
+.feedback-box {
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.feedback-box p {
+  margin: 0;
+}
+
+.feedback-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 1.1rem;
+}
+
+.feedback-good {
+  background: var(--good-soft);
+  border-color: color-mix(in srgb, var(--good) 35%, transparent);
+}
+
+.feedback-good .feedback-head {
+  color: var(--good);
+}
+
+.feedback-almost {
+  background: var(--warn-soft);
+  border-color: color-mix(in srgb, var(--warn) 35%, transparent);
+}
+
+.feedback-almost .feedback-head {
+  color: var(--warn);
+}
+
+.feedback-bad {
+  background: var(--danger-soft);
+  border-color: color-mix(in srgb, var(--danger) 35%, transparent);
+}
+
+.feedback-bad .feedback-head {
+  color: var(--danger);
+}
+
+.feedback-context {
+  padding-top: var(--space-2);
+  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+}
+
+.context-target {
+  font-weight: 550;
+}
+
+.listen-row .btn-lg {
+  min-width: 11rem;
+}
+
+.choice-option {
+  font-size: 1.05rem;
+}
+
+.choice-option.is-correct,
+.match-item.is-correct {
+  border-color: var(--good);
+  background: var(--good-soft);
+  opacity: 1;
+}
+
+.choice-option.is-wrong,
+.match-item.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  opacity: 1;
+}
+
+.match-item.is-selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.choice-kana {
+  font-size: 2rem;
+  align-items: center;
+}
+
+.match {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.match-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.match-item {
+  padding: var(--space-3);
+  min-height: 52px;
+  justify-content: center;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  min-height: 52px;
+  align-items: center;
+}
+
+.tiles-answer {
+  padding: var(--space-2);
+  border-bottom: 2px solid var(--border-strong);
+}
+
+.tile {
+  min-height: 44px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.05rem;
+  cursor: pointer;
+  box-shadow: 0 1px 0 var(--border-strong);
+}
+
+.tile:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.tiles-answer .tile {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+/* Kana */
+.kana-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
+  gap: var(--space-2);
+}
+
+.kana-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: var(--space-3) var(--space-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.kana-card:hover,
+.kana-card.is-selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.kana-char {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.kana-romaji {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.kana-big {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.word-preview {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-2);
+}
+
+.word-preview li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.word-kana {
+  font-size: 1.3rem;
+}
+
+/* Schreiben */
+.writing-svg {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  touch-action: none;
+}
+
+.writing-pad {
+  max-width: 320px;
+  cursor: crosshair;
+  border: 1px solid var(--border-strong);
+}
+
+.writing-guides rect {
+  fill: none;
+  stroke: var(--border-strong);
+  stroke-width: 0.8;
+}
+
+.writing-guides line {
+  stroke: var(--border);
+  stroke-width: 0.6;
+  stroke-dasharray: 2 2;
+}
+
+.writing-ghost path {
+  fill: none;
+  stroke: var(--surface-3);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.writing-ink path {
+  fill: none;
+  stroke: var(--text);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.writing-hint {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+  opacity: 0.7;
+}
+
+.writing-user {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.writing-layout {
+  display: grid;
+  grid-template-columns: minmax(120px, 200px) minmax(200px, 320px);
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.writing-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+@media (max-width: 560px) {
+  .writing-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .writing-layout .writing-svg:not(.writing-pad) {
+    max-width: 140px;
+  }
+
+  .writing-pad {
+    max-width: 100%;
+  }
+}
+
+.writing-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.writing-panel .writing-svg {
+  max-width: 150px;
+}
+
+/* Kanji in Lektionen */
+.kanji-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+}
+
+.kanji-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.kanji-top {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.kanji-char {
+  font-size: 3.4rem;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.kanji-de {
+  font-weight: 650;
+}
+
+.kanji-writing {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.kanji-writing .writing-svg {
+  max-width: 140px;
+}
+
+.kanji-writing .writing-pad {
+  max-width: 260px;
+}

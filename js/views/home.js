@@ -5,6 +5,9 @@ import { getProfile, getState, setActiveLanguage } from '../store/state.js';
 import { LEVEL_INFO } from '../store/schema.js';
 import { vocabularySummary } from '../lang/vocab.js';
 import { knowledgeSentences, pageHead } from './common.js';
+import { loadCourseContext } from '../course/context.js';
+import { lessonProgress, recommended } from '../course/progress.js';
+import { itemHref, itemTitle } from './course.js';
 
 export async function homeView(main, { navigate }) {
   const state = getState();
@@ -82,6 +85,35 @@ export async function homeView(main, { navigate }) {
   );
   const canAdd = languages.some((l) => !state.langs[l.code]);
 
+  // --- Als Nächstes ---
+  const cc = await loadCourseContext(profile.code);
+  const rec = cc ? recommended(profile, cc.seq) : null;
+  let nextCard;
+  if (rec && !rec.waiting) {
+    const t = itemTitle(rec.item);
+    nextCard = el(
+      'section',
+      { class: 'card stack next-card' },
+      el('div', { class: 'eyebrow' }, 'Als Nächstes'),
+      el('h2', null, `${t.eyebrow}: ${t.title}`),
+      rec.item.kind === 'lesson' ? el('p', { class: 'muted' }, rec.item.meta.topic) : null,
+      el(
+        'div',
+        { class: 'row' },
+        el('a', { class: 'btn btn-primary', href: itemHref(rec.item) }, lessonProgress(profile, rec.item.id) ? 'Weitermachen' : 'Starten', icon('arrowRight')),
+        el('a', { class: 'btn btn-quiet', href: '#/kurs' }, 'Alle Lektionen'),
+      ),
+    );
+  } else {
+    nextCard = el(
+      'section',
+      { class: 'card stack' },
+      el('h2', null, 'Als Nächstes'),
+      el('p', { class: 'muted' }, 'Die nächste Lektion ist noch in Vorbereitung. Bis dahin lohnt es sich, die bisherigen Wörter zu wiederholen.'),
+      el('a', { class: 'btn', href: '#/kurs' }, icon('course'), 'Zum Kurs'),
+    );
+  }
+
   mount(
     main,
     pageHead({
@@ -93,19 +125,7 @@ export async function homeView(main, { navigate }) {
       'div',
       { class: 'stack' },
       el('section', { class: 'card stack' }, el('h2', null, 'Dein Stand'), ...standContent),
-      el(
-        'section',
-        { class: 'card stack' },
-        el('h2', null, 'Als Nächstes'),
-        el(
-          'p',
-          { class: 'muted' },
-          isJa && kana !== 'both'
-            ? 'Der Kana-Kurs und die ersten Lektionen sind gerade in Arbeit. Bis dahin kannst du dich in Ruhe umsehen.'
-            : 'Die Lektionen sind gerade in Arbeit. Bis dahin kannst du dich in Ruhe umsehen.',
-        ),
-        el('a', { class: 'btn', href: '#/kurs' }, icon('course'), 'Zum Kurs'),
-      ),
+      nextCard,
       el(
         'section',
         { class: 'card stack' },

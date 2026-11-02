@@ -22,6 +22,10 @@ SOFTWARE.
 
 ---
 
-Ausnahme: Die Häufigkeitslisten in content/*/frequency.json stammen aus
-wordfreq (Robyn Speer u. a.) und stehen unter CC BY-SA 4.0
-(https://creativecommons.org/licenses/by-sa/4.0/).
+Ausnahmen:
+- Die Häufigkeitslisten in content/*/frequency.json stammen aus wordfreq
+  (Robyn Speer u. a.) und stehen unter CC BY-SA 4.0
+  (https://creativecommons.org/licenses/by-sa/4.0/).
+- Die Strichfolgen in content/ja/strokes.json stammen aus KanjiVG
+  (© Ulrich Apel, https://kanjivg.tagaini.net) und stehen unter CC BY-SA 3.0
+  (https://creativecommons.org/licenses/by-sa/3.0/).

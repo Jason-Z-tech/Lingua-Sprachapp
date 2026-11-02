@@ -59,6 +59,68 @@ export async function settingsView(main, { rerender }) {
     ),
   );
 
+  // --- Lernen ---
+  const RATES = [
+    { value: 0.7, label: 'Langsam' },
+    { value: 0.9, label: 'Normal' },
+    { value: 1.05, label: 'Schnell' },
+  ];
+  const currentRate = RATES.reduce((best, r) => (Math.abs(r.value - state.settings.ttsRate) < Math.abs(best.value - state.settings.ttsRate) ? r : best), RATES[1]);
+  const rateGroup = el(
+    'div',
+    { class: 'radio-row', role: 'radiogroup', 'aria-label': 'Vorlesetempo' },
+    RATES.map((r) =>
+      el(
+        'label',
+        { class: 'radio-pill' },
+        el('input', {
+          type: 'radio',
+          name: 'rate',
+          checked: r === currentRate,
+          disabled: readOnly,
+          on: {
+            change: () =>
+              update((s) => {
+                s.settings.ttsRate = r.value;
+              }, 'tts'),
+          },
+        }),
+        el('span', null, r.label),
+      ),
+    ),
+  );
+  const jaProfile = state.langs.ja;
+  const FURIGANA = [
+    { value: 'unknown', label: 'Nur über neuen Kanji' },
+    { value: 'all', label: 'Immer' },
+    { value: 'none', label: 'Nie' },
+  ];
+  const furiganaGroup = jaProfile
+    ? el(
+        'div',
+        { class: 'radio-row', role: 'radiogroup', 'aria-label': 'Furigana' },
+        FURIGANA.map((f) =>
+          el(
+            'label',
+            { class: 'radio-pill' },
+            el('input', {
+              type: 'radio',
+              name: 'furigana',
+              checked: ((jaProfile.options && jaProfile.options.furigana) || 'unknown') === f.value,
+              disabled: readOnly,
+              on: {
+                change: () =>
+                  update((s) => {
+                    s.langs.ja.options = { ...(s.langs.ja.options || {}), furigana: f.value };
+                  }, 'furigana'),
+              },
+            }),
+            el('span', null, f.label),
+          ),
+        ),
+      )
+    : null;
+
   // --- Sprachen ---
   const profiles = Object.values(state.langs).sort((a, b) => a.addedAt.localeCompare(b.addedAt));
   const langItems = profiles.map((p) => {
@@ -218,6 +280,24 @@ export async function settingsView(main, { rerender }) {
           )
         : null,
       section('Darstellung', el('div', { class: 'field' }, el('span', { class: 'muted small' }, 'Farbschema'), themeGroup)),
+      section(
+        'Lernen',
+        el('div', { class: 'field' }, el('span', { class: 'muted small' }, 'Vorlesetempo'), rateGroup),
+        furiganaGroup
+          ? el(
+              'div',
+              { class: 'field' },
+              el('span', { class: 'muted small' }, 'Japanisch: Lesehilfe (Furigana) über Kanji'),
+              furiganaGroup,
+              el('span', { class: 'small faint' }, '„Nur über neuen Kanji“: Sobald du die Lektion zu einem Kanji abgeschlossen hast, verschwindet die Lesehilfe darüber.'),
+            )
+          : null,
+        el(
+          'p',
+          { class: 'small muted' },
+          'Vorlesen nutzt die Stimmen deines Geräts. Manche Browser (z. B. Chrome mit „Google“-Stimmen) schicken den Text dafür an einen Server – Lingua bevorzugt Stimmen, die direkt auf dem Gerät laufen.',
+        ),
+      ),
       section(
         'Sprachen',
         profiles.length

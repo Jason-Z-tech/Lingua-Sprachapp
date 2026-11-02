@@ -74,3 +74,11 @@ test('keine API-Schlüssel im Repository-Code', () => {
     assert.ok(!/sk-ant-[a-zA-Z0-9_-]{10,}/.test(src), `${file}: sieht aus wie ein API-Schlüssel`);
   }
 });
+
+test('keine style-Attribute (würden von der CSP blockiert)', () => {
+  for (const file of appFiles) {
+    const src = readFileSync(file, 'utf8');
+    assert.ok(!/setAttribute\(\s*['"]style['"]/.test(src), `${file}: setAttribute('style') – bitte node.style benutzen`);
+    assert.ok(!/style:\s*['"`][a-z-]+\s*:/.test(src), `${file}: style-Text als Attribut – bitte node.style oder el(…, { style: { … } })`);
+  }
+});

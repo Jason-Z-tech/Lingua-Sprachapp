@@ -68,6 +68,7 @@ export function svg(tag, attrs = {}, ...children) {
   for (const [key, value] of Object.entries(attrs)) {
     if (value === undefined || value === null) continue;
     if (/^on/i.test(key)) throw new Error('Keine Event-Attribute in SVG.');
+    if (key === 'style') throw new Error('style-Attribute blockiert die CSP – bitte node.style benutzen.');
     node.setAttribute(key, String(value));
   }
   appendChildren(node, children);

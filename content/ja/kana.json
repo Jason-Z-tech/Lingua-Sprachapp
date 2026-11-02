@@ -1,0 +1,2286 @@
+{
+ "formatVersion": 1,
+ "source": "Zeichen und Rōmaji nach dem Hepburn-System; Strichfolgen siehe strokes.json (KanjiVG, CC BY-SA 3.0)",
+ "scripts": {
+  "hiragana": {
+   "title": "Hiragana",
+   "description": "Die Grundschrift des Japanischen. Mit ihr schreibt man Endungen, kleine Wörter und alles, wofür man (noch) kein Kanji kennt.",
+   "lessons": [
+    {
+     "id": "ja-kana-h01",
+     "title": "Vokale: あ い う え お",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Japanisch benutzt drei Schriften: Hiragana, Katakana und Kanji. Hiragana ist die Grundschrift – damit schreibst du Endungen, kleine Wörter wie Partikeln und alles, wofür du (noch) kein Kanji kennst. Jedes Zeichen steht für eine Silbe und klingt fast immer gleich. Alle anderen Zeichen bauen auf den fünf Vokalen auf, darum kommen sie zuerst."
+      },
+      {
+       "type": "list",
+       "items": [
+        "あ (a) wie in „Mann“",
+        "い (i) wie in „Kino“, aber kurz",
+        "う (u) kurz und mit lockeren Lippen – siehe Tipp",
+        "え (e) etwa wie in „Bett“",
+        "お (o) etwa wie in „Post“"
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "う ist kein deutsches „u“: Runde die Lippen nicht und schieb sie nicht nach vorn. Es klingt flacher und kürzer, fast wie ein „u“ mit entspanntem Mund."
+      },
+      {
+       "type": "tip",
+       "text": "Zwei gleiche Vokale hintereinander sprichst du doppelt so lang: いい (ii, gut) ist ein langes „i“, おおい (ooi, viele) ein langes „o“. Die Länge kann die Bedeutung ändern."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "あ",
+       "romaji": "a"
+      },
+      {
+       "kana": "い",
+       "romaji": "i"
+      },
+      {
+       "kana": "う",
+       "romaji": "u"
+      },
+      {
+       "kana": "え",
+       "romaji": "e"
+      },
+      {
+       "kana": "お",
+       "romaji": "o"
+      }
+     ],
+     "words": [
+      {
+       "kana": "あい",
+       "romaji": "ai",
+       "de": "Liebe"
+      },
+      {
+       "kana": "あお",
+       "romaji": "ao",
+       "de": "Blau"
+      },
+      {
+       "kana": "あおい",
+       "romaji": "aoi",
+       "de": "blau"
+      },
+      {
+       "kana": "いえ",
+       "romaji": "ie",
+       "de": "Haus"
+      },
+      {
+       "kana": "うえ",
+       "romaji": "ue",
+       "de": "oben"
+      },
+      {
+       "kana": "いいえ",
+       "romaji": "iie",
+       "de": "nein"
+      },
+      {
+       "kana": "いい",
+       "romaji": "ii",
+       "de": "gut"
+      },
+      {
+       "kana": "あう",
+       "romaji": "au",
+       "de": "treffen"
+      },
+      {
+       "kana": "おおい",
+       "romaji": "ooi",
+       "de": "viele"
+      },
+      {
+       "kana": "え",
+       "romaji": "e",
+       "de": "Bild"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h02",
+     "title": "K-Reihe: か き く け こ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Ab jetzt kombinierst du Konsonant und Vokal: か = k + a. So funktioniert fast die ganze Hiragana-Tabelle – pro Reihe lernst du nur einen neuen Konsonanten, die Vokale kennst du schon."
+      },
+      {
+       "type": "tip",
+       "text": "Jede Silbe ist ungefähr gleich lang. Betone keine Silbe so stark wie im Deutschen: えき (Bahnhof) ist „e-ki“, gleichmäßig gesprochen."
+      },
+      {
+       "type": "tip",
+       "text": "Genau hinsehen: こ besteht aus zwei waagerechten Strichen, い aus zwei senkrechten. き hat zwei Querstriche – das ähnliche さ (nächste Lektion) nur einen."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "か",
+       "romaji": "ka"
+      },
+      {
+       "kana": "き",
+       "romaji": "ki"
+      },
+      {
+       "kana": "く",
+       "romaji": "ku"
+      },
+      {
+       "kana": "け",
+       "romaji": "ke"
+      },
+      {
+       "kana": "こ",
+       "romaji": "ko"
+      }
+     ],
+     "words": [
+      {
+       "kana": "かお",
+       "romaji": "kao",
+       "de": "Gesicht"
+      },
+      {
+       "kana": "えき",
+       "romaji": "eki",
+       "de": "Bahnhof"
+      },
+      {
+       "kana": "ここ",
+       "romaji": "koko",
+       "de": "hier"
+      },
+      {
+       "kana": "あき",
+       "romaji": "aki",
+       "de": "Herbst"
+      },
+      {
+       "kana": "こえ",
+       "romaji": "koe",
+       "de": "Stimme"
+      },
+      {
+       "kana": "いく",
+       "romaji": "iku",
+       "de": "gehen"
+      },
+      {
+       "kana": "きく",
+       "romaji": "kiku",
+       "de": "hören; fragen"
+      },
+      {
+       "kana": "かう",
+       "romaji": "kau",
+       "de": "kaufen"
+      },
+      {
+       "kana": "あかい",
+       "romaji": "akai",
+       "de": "rot"
+      },
+      {
+       "kana": "おおきい",
+       "romaji": "ookii",
+       "de": "groß"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h03",
+     "title": "S-Reihe: さ し す せ そ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Die S-Reihe hat eine Ausnahme: し spricht man „schi“ (in Rōmaji shi), nicht „si“. Das „sch“ ist weicher als im Deutschen – die Lippen bleiben dabei ungerundet."
+      },
+      {
+       "type": "tip",
+       "text": "Das japanische s ist immer scharf wie das ss in „Wasser“, nie summend wie in „Sonne“. Sprich すし also mit scharfem s – nicht wie das deutsche „Suschi“."
+      },
+      {
+       "type": "tip",
+       "text": "Das u in す wird oft fast verschluckt, besonders am Wortende und zwischen k, s, t, h oder p: すき klingt fast wie „ski“."
+      },
+      {
+       "type": "tip",
+       "text": "Je nach Schriftart sehen Zeichen etwas anders aus: Bei き und さ ist der untere Bogen mal abgesetzt, mal verbunden, und そ gibt es in einem Zug oder mit abgesetztem Strich oben. Beides ist richtig."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "さ",
+       "romaji": "sa"
+      },
+      {
+       "kana": "し",
+       "romaji": "shi",
+       "alt": [
+        "si"
+       ]
+      },
+      {
+       "kana": "す",
+       "romaji": "su"
+      },
+      {
+       "kana": "せ",
+       "romaji": "se"
+      },
+      {
+       "kana": "そ",
+       "romaji": "so"
+      }
+     ],
+     "words": [
+      {
+       "kana": "すし",
+       "romaji": "sushi",
+       "de": "Sushi"
+      },
+      {
+       "kana": "おいしい",
+       "romaji": "oishii",
+       "de": "lecker"
+      },
+      {
+       "kana": "あさ",
+       "romaji": "asa",
+       "de": "Morgen"
+      },
+      {
+       "kana": "いす",
+       "romaji": "isu",
+       "de": "Stuhl"
+      },
+      {
+       "kana": "かさ",
+       "romaji": "kasa",
+       "de": "Regenschirm"
+      },
+      {
+       "kana": "しお",
+       "romaji": "shio",
+       "de": "Salz"
+      },
+      {
+       "kana": "あし",
+       "romaji": "ashi",
+       "de": "Fuß; Bein"
+      },
+      {
+       "kana": "そこ",
+       "romaji": "soko",
+       "de": "dort"
+      },
+      {
+       "kana": "すき",
+       "romaji": "suki",
+       "de": "gern; mögen"
+      },
+      {
+       "kana": "すこし",
+       "romaji": "sukoshi",
+       "de": "ein bisschen"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h04",
+     "title": "T-Reihe: た ち つ て と",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Auch die T-Reihe hat Ausnahmen: ち spricht man „tschi“ (chi) und つ „tsu“. た, て und と klingen ganz regelmäßig."
+      },
+      {
+       "type": "tip",
+       "text": "つ fällt Deutschen leicht: Es ist einfach ein „zu“ wie in „zu Hause“ – nur mit dem lockeren japanischen u."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: さ und ち sind fast spiegelbildlich. Bei さ ist der untere Bogen nach rechts offen (wie ein c), bei ち nach links – wie bei つ."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "た",
+       "romaji": "ta"
+      },
+      {
+       "kana": "ち",
+       "romaji": "chi",
+       "alt": [
+        "ti"
+       ]
+      },
+      {
+       "kana": "つ",
+       "romaji": "tsu",
+       "alt": [
+        "tu"
+       ]
+      },
+      {
+       "kana": "て",
+       "romaji": "te"
+      },
+      {
+       "kana": "と",
+       "romaji": "to"
+      }
+     ],
+     "words": [
+      {
+       "kana": "あした",
+       "romaji": "ashita",
+       "de": "morgen"
+      },
+      {
+       "kana": "いつ",
+       "romaji": "itsu",
+       "de": "wann"
+      },
+      {
+       "kana": "くち",
+       "romaji": "kuchi",
+       "de": "Mund"
+      },
+      {
+       "kana": "て",
+       "romaji": "te",
+       "de": "Hand"
+      },
+      {
+       "kana": "した",
+       "romaji": "shita",
+       "de": "unten"
+      },
+      {
+       "kana": "そと",
+       "romaji": "soto",
+       "de": "draußen"
+      },
+      {
+       "kana": "つくえ",
+       "romaji": "tsukue",
+       "de": "Schreibtisch"
+      },
+      {
+       "kana": "とけい",
+       "romaji": "tokei",
+       "de": "Uhr"
+      },
+      {
+       "kana": "たかい",
+       "romaji": "takai",
+       "de": "hoch; teuer"
+      },
+      {
+       "kana": "ちいさい",
+       "romaji": "chiisai",
+       "de": "klein"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h05",
+     "title": "N-Reihe: な に ぬ ね の",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Die N-Reihe ist ganz regelmäßig: na, ni, nu, ne, no. の wirst du ständig sehen – als Partikel verbindet es Wörter und zeigt, wem oder wozu etwas gehört, ähnlich wie „von“."
+      },
+      {
+       "type": "tip",
+       "text": "Merkhilfe: に sieht aus wie こ mit einem senkrechten Strich davor."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: ぬ endet unten rechts mit einer kleinen Schlaufe. Das sehr ähnliche め (Lektion 7) hat keine Schlaufe."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "な",
+       "romaji": "na"
+      },
+      {
+       "kana": "に",
+       "romaji": "ni"
+      },
+      {
+       "kana": "ぬ",
+       "romaji": "nu"
+      },
+      {
+       "kana": "ね",
+       "romaji": "ne"
+      },
+      {
+       "kana": "の",
+       "romaji": "no"
+      }
+     ],
+     "words": [
+      {
+       "kana": "いぬ",
+       "romaji": "inu",
+       "de": "Hund"
+      },
+      {
+       "kana": "ねこ",
+       "romaji": "neko",
+       "de": "Katze"
+      },
+      {
+       "kana": "さかな",
+       "romaji": "sakana",
+       "de": "Fisch"
+      },
+      {
+       "kana": "なに",
+       "romaji": "nani",
+       "de": "was"
+      },
+      {
+       "kana": "なつ",
+       "romaji": "natsu",
+       "de": "Sommer"
+      },
+      {
+       "kana": "にく",
+       "romaji": "niku",
+       "de": "Fleisch"
+      },
+      {
+       "kana": "くに",
+       "romaji": "kuni",
+       "de": "Land"
+      },
+      {
+       "kana": "おかね",
+       "romaji": "okane",
+       "de": "Geld"
+      },
+      {
+       "kana": "あなた",
+       "romaji": "anata",
+       "de": "du; Sie"
+      },
+      {
+       "kana": "きのう",
+       "romaji": "kinou",
+       "de": "gestern"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h06",
+     "title": "H-Reihe: は ひ ふ へ ほ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "ふ ist kein deutsches f: Die Zähne berühren die Unterlippe nicht. Du bläst die Luft nur leicht durch die fast geschlossenen Lippen, wie beim sanften Auspusten einer Kerze – ein Laut zwischen „f“ und „h“. ひ klingt wie das „ch“ in „ich“, nur ganz leicht."
+      },
+      {
+       "type": "tip",
+       "text": "Das h sprichst du immer hörbar aus, auch mitten im Wort: はは ist „ha-ha“, ひこうき „hi-koo-ki“."
+      },
+      {
+       "type": "tip",
+       "text": "は als Partikel: Wenn は das Thema eines Satzes markiert, liest man es „wa“, z. B. in こんにちは (konnichiwa). In Wörtern wie はな bleibt es „ha“."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: ほ hat rechts oben einen Querstrich mehr als は. へ sieht in Hiragana und Katakana (ヘ) fast gleich aus."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "は",
+       "romaji": "ha"
+      },
+      {
+       "kana": "ひ",
+       "romaji": "hi"
+      },
+      {
+       "kana": "ふ",
+       "romaji": "fu",
+       "alt": [
+        "hu"
+       ]
+      },
+      {
+       "kana": "へ",
+       "romaji": "he"
+      },
+      {
+       "kana": "ほ",
+       "romaji": "ho"
+      }
+     ],
+     "words": [
+      {
+       "kana": "はい",
+       "romaji": "hai",
+       "de": "ja"
+      },
+      {
+       "kana": "ひと",
+       "romaji": "hito",
+       "de": "Mensch; Person"
+      },
+      {
+       "kana": "はな",
+       "romaji": "hana",
+       "de": "Blume; Nase"
+      },
+      {
+       "kana": "はし",
+       "romaji": "hashi",
+       "de": "Essstäbchen; Brücke"
+      },
+      {
+       "kana": "ほし",
+       "romaji": "hoshi",
+       "de": "Stern"
+      },
+      {
+       "kana": "ふね",
+       "romaji": "fune",
+       "de": "Schiff"
+      },
+      {
+       "kana": "ふく",
+       "romaji": "fuku",
+       "de": "Kleidung"
+      },
+      {
+       "kana": "はは",
+       "romaji": "haha",
+       "de": "(meine) Mutter"
+      },
+      {
+       "kana": "ひこうき",
+       "romaji": "hikouki",
+       "de": "Flugzeug"
+      },
+      {
+       "kana": "へた",
+       "romaji": "heta",
+       "de": "ungeschickt; schlecht in etwas"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h07",
+     "title": "M-Reihe: ま み む め も",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Die M-Reihe ist wieder ganz regelmäßig: ma, mi, mu, me, mo."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: め und ぬ – ぬ hat am Ende eine Schlaufe, め nicht. ま und ほ – ほ hat links einen senkrechten Strich, ま nicht."
+      },
+      {
+       "type": "tip",
+       "text": "Die Schrift zeigt nicht alles: あめ heißt „Regen“, mit anderer Tonhöhe auch „Bonbon“. Hör dir neue Wörter darum immer auch an."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ま",
+       "romaji": "ma"
+      },
+      {
+       "kana": "み",
+       "romaji": "mi"
+      },
+      {
+       "kana": "む",
+       "romaji": "mu"
+      },
+      {
+       "kana": "め",
+       "romaji": "me"
+      },
+      {
+       "kana": "も",
+       "romaji": "mo"
+      }
+     ],
+     "words": [
+      {
+       "kana": "いま",
+       "romaji": "ima",
+       "de": "jetzt"
+      },
+      {
+       "kana": "なまえ",
+       "romaji": "namae",
+       "de": "Name"
+      },
+      {
+       "kana": "め",
+       "romaji": "me",
+       "de": "Auge"
+      },
+      {
+       "kana": "あたま",
+       "romaji": "atama",
+       "de": "Kopf"
+      },
+      {
+       "kana": "うみ",
+       "romaji": "umi",
+       "de": "Meer"
+      },
+      {
+       "kana": "あめ",
+       "romaji": "ame",
+       "de": "Regen"
+      },
+      {
+       "kana": "みせ",
+       "romaji": "mise",
+       "de": "Laden; Geschäft"
+      },
+      {
+       "kana": "のむ",
+       "romaji": "nomu",
+       "de": "trinken"
+      },
+      {
+       "kana": "さむい",
+       "romaji": "samui",
+       "de": "kalt"
+      },
+      {
+       "kana": "もも",
+       "romaji": "momo",
+       "de": "Pfirsich"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h08",
+     "title": "Y, W und N: や ゆ よ わ を ん",
+     "intro": [
+      {
+       "type": "p",
+       "text": "や, ゆ und よ klingen wie „ja“, „ju“ und „jo“ – das y in Rōmaji ist ein deutsches j. わ ist ein weiches w wie im englischen „water“, nicht wie im deutschen „Wasser“."
+      },
+      {
+       "type": "tip",
+       "text": "を liest man wie お (o). Es kommt nur als Partikel vor und markiert das Objekt eines Satzes: ほんをよむ (hon o yomu) = ein Buch lesen. In Wörtern schreibt man immer お."
+      },
+      {
+       "type": "tip",
+       "text": "ん ist das einzige Zeichen ohne Vokal, zählt aber als eigene, gleich lange Silbe: にほん = ni-ho-n. Vor b, p und m klingt es wie m, vor k und g wie das „ng“ in „lang“."
+      },
+      {
+       "type": "tip",
+       "text": "Beim Tippen: Vor einem Vokal oder y schreibst du ん als nn, damit es nicht mit な, に … verwechselt wird."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "や",
+       "romaji": "ya"
+      },
+      {
+       "kana": "ゆ",
+       "romaji": "yu"
+      },
+      {
+       "kana": "よ",
+       "romaji": "yo"
+      },
+      {
+       "kana": "わ",
+       "romaji": "wa"
+      },
+      {
+       "kana": "を",
+       "romaji": "wo",
+       "alt": [
+        "o"
+       ]
+      },
+      {
+       "kana": "ん",
+       "romaji": "n",
+       "alt": [
+        "nn"
+       ]
+      }
+     ],
+     "words": [
+      {
+       "kana": "わたし",
+       "romaji": "watashi",
+       "de": "ich"
+      },
+      {
+       "kana": "やま",
+       "romaji": "yama",
+       "de": "Berg"
+      },
+      {
+       "kana": "ゆき",
+       "romaji": "yuki",
+       "de": "Schnee"
+      },
+      {
+       "kana": "へや",
+       "romaji": "heya",
+       "de": "Zimmer"
+      },
+      {
+       "kana": "よむ",
+       "romaji": "yomu",
+       "de": "lesen"
+      },
+      {
+       "kana": "ほん",
+       "romaji": "hon",
+       "de": "Buch"
+      },
+      {
+       "kana": "にほん",
+       "romaji": "nihon",
+       "de": "Japan"
+      },
+      {
+       "kana": "こんにちは",
+       "romaji": "konnichiwa",
+       "de": "Guten Tag; Hallo"
+      },
+      {
+       "kana": "すみません",
+       "romaji": "sumimasen",
+       "de": "Entschuldigung"
+      },
+      {
+       "kana": "ふゆ",
+       "romaji": "fuyu",
+       "de": "Winter"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h09",
+     "title": "R-Reihe: ら り る れ ろ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Das japanische r liegt zwischen l und r: Die Zungenspitze tippt einmal ganz kurz hinter die oberen Schneidezähne. Stell dir ein gerolltes Zungen-r vor, aber nur mit einem einzigen Schlag – fast schon ein l. Kein Rachen-r wie im deutschen „rot“."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: る hat unten eine kleine Schlaufe, ろ nicht. Auch ね, れ und わ sehen sich ähnlich: ね endet mit einer Schlaufe, れ mit einem Strich nach außen, わ mit einem runden Bogen."
+      },
+      {
+       "type": "tip",
+       "text": "これ, それ und あれ brauchst du ständig: これ ist das hier (bei mir), それ das da (bei dir), あれ das dort drüben."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ら",
+       "romaji": "ra"
+      },
+      {
+       "kana": "り",
+       "romaji": "ri"
+      },
+      {
+       "kana": "る",
+       "romaji": "ru"
+      },
+      {
+       "kana": "れ",
+       "romaji": "re"
+      },
+      {
+       "kana": "ろ",
+       "romaji": "ro"
+      }
+     ],
+     "words": [
+      {
+       "kana": "これ",
+       "romaji": "kore",
+       "de": "das (hier)"
+      },
+      {
+       "kana": "それ",
+       "romaji": "sore",
+       "de": "das (da)"
+      },
+      {
+       "kana": "くるま",
+       "romaji": "kuruma",
+       "de": "Auto"
+      },
+      {
+       "kana": "さくら",
+       "romaji": "sakura",
+       "de": "Kirschblüte"
+      },
+      {
+       "kana": "はる",
+       "romaji": "haru",
+       "de": "Frühling"
+      },
+      {
+       "kana": "よる",
+       "romaji": "yoru",
+       "de": "Nacht; Abend"
+      },
+      {
+       "kana": "とり",
+       "romaji": "tori",
+       "de": "Vogel"
+      },
+      {
+       "kana": "いろ",
+       "romaji": "iro",
+       "de": "Farbe"
+      },
+      {
+       "kana": "おもしろい",
+       "romaji": "omoshiroi",
+       "de": "interessant; lustig"
+      },
+      {
+       "kana": "わかる",
+       "romaji": "wakaru",
+       "de": "verstehen"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h10",
+     "title": "Stimmhafte Laute: が ざ だ ば ぱ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Mit zwei kleinen Strichen oben rechts (゛, Dakuten) werden Laute stimmhaft. Ein kleiner Kreis (゜, Handakuten) macht aus der H-Reihe die P-Reihe."
+      },
+      {
+       "type": "list",
+       "items": [
+        "か → が: ga gi gu ge go",
+        "さ → ざ: za ji zu ze zo",
+        "た → だ: da ji zu de do",
+        "は → ば: ba bi bu be bo",
+        "は → ぱ (mit Kreis): pa pi pu pe po"
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Achtung beim Lesen der Rōmaji: z ist ein summendes s wie in „Sonne“, kein deutsches z wie in „Zeit“ (das wäre つ). じ (ji) klingt wie „dschi“."
+      },
+      {
+       "type": "tip",
+       "text": "ぢ und づ klingen genau wie じ und ず und kommen nur in wenigen Wörtern vor, z. B. つづく (weitergehen). Beim Tippen schreibst du sie als di und du."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "が",
+       "romaji": "ga"
+      },
+      {
+       "kana": "ぎ",
+       "romaji": "gi"
+      },
+      {
+       "kana": "ぐ",
+       "romaji": "gu"
+      },
+      {
+       "kana": "げ",
+       "romaji": "ge"
+      },
+      {
+       "kana": "ご",
+       "romaji": "go"
+      },
+      {
+       "kana": "ざ",
+       "romaji": "za"
+      },
+      {
+       "kana": "じ",
+       "romaji": "ji",
+       "alt": [
+        "zi"
+       ]
+      },
+      {
+       "kana": "ず",
+       "romaji": "zu"
+      },
+      {
+       "kana": "ぜ",
+       "romaji": "ze"
+      },
+      {
+       "kana": "ぞ",
+       "romaji": "zo"
+      },
+      {
+       "kana": "だ",
+       "romaji": "da"
+      },
+      {
+       "kana": "ぢ",
+       "romaji": "ji",
+       "alt": [
+        "di"
+       ]
+      },
+      {
+       "kana": "づ",
+       "romaji": "zu",
+       "alt": [
+        "du"
+       ]
+      },
+      {
+       "kana": "で",
+       "romaji": "de"
+      },
+      {
+       "kana": "ど",
+       "romaji": "do"
+      },
+      {
+       "kana": "ば",
+       "romaji": "ba"
+      },
+      {
+       "kana": "び",
+       "romaji": "bi"
+      },
+      {
+       "kana": "ぶ",
+       "romaji": "bu"
+      },
+      {
+       "kana": "べ",
+       "romaji": "be"
+      },
+      {
+       "kana": "ぼ",
+       "romaji": "bo"
+      },
+      {
+       "kana": "ぱ",
+       "romaji": "pa"
+      },
+      {
+       "kana": "ぴ",
+       "romaji": "pi"
+      },
+      {
+       "kana": "ぷ",
+       "romaji": "pu"
+      },
+      {
+       "kana": "ぺ",
+       "romaji": "pe"
+      },
+      {
+       "kana": "ぽ",
+       "romaji": "po"
+      }
+     ],
+     "words": [
+      {
+       "kana": "ありがとう",
+       "romaji": "arigatou",
+       "de": "danke"
+      },
+      {
+       "kana": "ともだち",
+       "romaji": "tomodachi",
+       "de": "Freund; Freundin"
+      },
+      {
+       "kana": "にほんご",
+       "romaji": "nihongo",
+       "de": "Japanisch (Sprache)"
+      },
+      {
+       "kana": "ごはん",
+       "romaji": "gohan",
+       "de": "Reis; Essen"
+      },
+      {
+       "kana": "みず",
+       "romaji": "mizu",
+       "de": "Wasser"
+      },
+      {
+       "kana": "じかん",
+       "romaji": "jikan",
+       "de": "Zeit"
+      },
+      {
+       "kana": "でんわ",
+       "romaji": "denwa",
+       "de": "Telefon"
+      },
+      {
+       "kana": "たべる",
+       "romaji": "taberu",
+       "de": "essen"
+      },
+      {
+       "kana": "えんぴつ",
+       "romaji": "enpitsu",
+       "de": "Bleistift"
+      },
+      {
+       "kana": "さんぽ",
+       "romaji": "sanpo",
+       "de": "Spaziergang"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h11",
+     "title": "Kombinationen: きゃ しゅ ちょ …",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Ein kleines ゃ, ゅ oder ょ hinter einer i-Silbe (き, し, ち, に, ひ, み, り, ぎ, じ, び, ぴ) verschmilzt mit ihr zu einer einzigen Silbe: き + ゃ = きゃ (kya). Das i fällt dabei weg, und wieder gilt: y ist ein deutsches j – きょ klingt wie „kjo“."
+      },
+      {
+       "type": "tip",
+       "text": "Bei し, ち und じ sieht die Rōmaji-Schreibung anders aus: しゃ = sha („scha“), ちゃ = cha („tscha“), じゃ = ja („dscha“)."
+      },
+      {
+       "type": "tip",
+       "text": "Die Größe macht den Unterschied: びょういん (Krankenhaus) und びよういん (Friseursalon) unterscheiden sich nur durch das kleine ょ."
+      },
+      {
+       "type": "tip",
+       "text": "In ょう und ゅう ist der Vokal lang: きょう (heute) klingt wie „kjoo“. Mehr zu langen Vokalen in der nächsten Lektion."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "きゃ",
+       "romaji": "kya"
+      },
+      {
+       "kana": "きゅ",
+       "romaji": "kyu"
+      },
+      {
+       "kana": "きょ",
+       "romaji": "kyo"
+      },
+      {
+       "kana": "しゃ",
+       "romaji": "sha",
+       "alt": [
+        "sya"
+       ]
+      },
+      {
+       "kana": "しゅ",
+       "romaji": "shu",
+       "alt": [
+        "syu"
+       ]
+      },
+      {
+       "kana": "しょ",
+       "romaji": "sho",
+       "alt": [
+        "syo"
+       ]
+      },
+      {
+       "kana": "ちゃ",
+       "romaji": "cha",
+       "alt": [
+        "tya"
+       ]
+      },
+      {
+       "kana": "ちゅ",
+       "romaji": "chu",
+       "alt": [
+        "tyu"
+       ]
+      },
+      {
+       "kana": "ちょ",
+       "romaji": "cho",
+       "alt": [
+        "tyo"
+       ]
+      },
+      {
+       "kana": "にゃ",
+       "romaji": "nya"
+      },
+      {
+       "kana": "にゅ",
+       "romaji": "nyu"
+      },
+      {
+       "kana": "にょ",
+       "romaji": "nyo"
+      },
+      {
+       "kana": "ひゃ",
+       "romaji": "hya"
+      },
+      {
+       "kana": "ひゅ",
+       "romaji": "hyu"
+      },
+      {
+       "kana": "ひょ",
+       "romaji": "hyo"
+      },
+      {
+       "kana": "みゃ",
+       "romaji": "mya"
+      },
+      {
+       "kana": "みゅ",
+       "romaji": "myu"
+      },
+      {
+       "kana": "みょ",
+       "romaji": "myo"
+      },
+      {
+       "kana": "りゃ",
+       "romaji": "rya"
+      },
+      {
+       "kana": "りゅ",
+       "romaji": "ryu"
+      },
+      {
+       "kana": "りょ",
+       "romaji": "ryo"
+      },
+      {
+       "kana": "ぎゃ",
+       "romaji": "gya"
+      },
+      {
+       "kana": "ぎゅ",
+       "romaji": "gyu"
+      },
+      {
+       "kana": "ぎょ",
+       "romaji": "gyo"
+      },
+      {
+       "kana": "じゃ",
+       "romaji": "ja",
+       "alt": [
+        "zya",
+        "jya"
+       ]
+      },
+      {
+       "kana": "じゅ",
+       "romaji": "ju",
+       "alt": [
+        "zyu",
+        "jyu"
+       ]
+      },
+      {
+       "kana": "じょ",
+       "romaji": "jo",
+       "alt": [
+        "zyo",
+        "jyo"
+       ]
+      },
+      {
+       "kana": "びゃ",
+       "romaji": "bya"
+      },
+      {
+       "kana": "びゅ",
+       "romaji": "byu"
+      },
+      {
+       "kana": "びょ",
+       "romaji": "byo"
+      },
+      {
+       "kana": "ぴゃ",
+       "romaji": "pya"
+      },
+      {
+       "kana": "ぴゅ",
+       "romaji": "pyu"
+      },
+      {
+       "kana": "ぴょ",
+       "romaji": "pyo"
+      }
+     ],
+     "words": [
+      {
+       "kana": "おちゃ",
+       "romaji": "ocha",
+       "de": "Tee (meist grüner Tee)"
+      },
+      {
+       "kana": "でんしゃ",
+       "romaji": "densha",
+       "de": "Zug"
+      },
+      {
+       "kana": "しゃしん",
+       "romaji": "shashin",
+       "de": "Foto"
+      },
+      {
+       "kana": "きょう",
+       "romaji": "kyou",
+       "de": "heute"
+      },
+      {
+       "kana": "べんきょう",
+       "romaji": "benkyou",
+       "de": "Lernen"
+      },
+      {
+       "kana": "りょこう",
+       "romaji": "ryokou",
+       "de": "Reise"
+      },
+      {
+       "kana": "びょういん",
+       "romaji": "byouin",
+       "de": "Krankenhaus"
+      },
+      {
+       "kana": "ひゃく",
+       "romaji": "hyaku",
+       "de": "hundert"
+      },
+      {
+       "kana": "ぎゅうにゅう",
+       "romaji": "gyuunyuu",
+       "de": "Milch"
+      },
+      {
+       "kana": "じょうず",
+       "romaji": "jouzu",
+       "de": "gut in etwas; geschickt"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-h12",
+     "title": "Kleines っ und lange Vokale",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Das kleine っ ist kein eigener Laut, sondern eine kurze Pause: Du hältst den folgenden Konsonanten kurz an, wie das lange t in „Betttuch“. きって (Briefmarke) sprichst du „kit-te“, きて (komm!) dagegen ohne Pause. In Rōmaji wird der Konsonant verdoppelt: kitte, gakkou."
+      },
+      {
+       "type": "p",
+       "text": "Lange Vokale sind doppelt so lang wie kurze – und das ändert die Bedeutung: おばさん (Tante) und おばあさん (Großmutter) unterscheiden sich nur in der Länge. So schreibt man sie:"
+      },
+      {
+       "type": "list",
+       "items": [
+        "langes a: + あ, z. B. おかあさん (okaasan)",
+        "langes i: + い, z. B. おにいさん (oniisan)",
+        "langes u: + う, z. B. くうき (kuuki, Luft)",
+        "langes e: meistens + い, z. B. せんせい (sensei, gesprochen „sensee“); selten + え wie in おねえさん",
+        "langes o: meistens + う, z. B. とうきょう (toukyou, gesprochen „tookjoo“); selten + お wie in おおきい"
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Beim Tippen schreibst du lange Vokale so, wie sie in Kana stehen (okaasan, toukyou, sensei) und Doppelkonsonanten doppelt (kitte, chotto)."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "っ",
+       "romaji": "(Doppelkonsonant)"
+      }
+     ],
+     "words": [
+      {
+       "kana": "きって",
+       "romaji": "kitte",
+       "de": "Briefmarke"
+      },
+      {
+       "kana": "きっぷ",
+       "romaji": "kippu",
+       "de": "Fahrkarte"
+      },
+      {
+       "kana": "がっこう",
+       "romaji": "gakkou",
+       "de": "Schule"
+      },
+      {
+       "kana": "ちょっと",
+       "romaji": "chotto",
+       "de": "ein bisschen; kurz"
+      },
+      {
+       "kana": "ざっし",
+       "romaji": "zasshi",
+       "de": "Zeitschrift"
+      },
+      {
+       "kana": "おかあさん",
+       "romaji": "okaasan",
+       "de": "Mutter"
+      },
+      {
+       "kana": "おとうさん",
+       "romaji": "otousan",
+       "de": "Vater"
+      },
+      {
+       "kana": "おにいさん",
+       "romaji": "oniisan",
+       "de": "älterer Bruder"
+      },
+      {
+       "kana": "とうきょう",
+       "romaji": "toukyou",
+       "de": "Tokio"
+      },
+      {
+       "kana": "せんせい",
+       "romaji": "sensei",
+       "de": "Lehrer; Lehrerin"
+      }
+     ]
+    }
+   ]
+  },
+  "katakana": {
+   "title": "Katakana",
+   "description": "Die zweite Silbenschrift – vor allem für Wörter aus anderen Sprachen (Lehnwörter), Namen und Betonung.",
+   "lessons": [
+    {
+     "id": "ja-kana-k01",
+     "title": "ア bis コ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Katakana ist die zweite Silbenschrift. Sie hat genau dieselben Laute wie Hiragana, sieht aber eckiger aus. Du brauchst sie vor allem für Lehnwörter aus anderen Sprachen, für ausländische Namen und Länder – auch deinen eigenen Namen – und zur Hervorhebung, ähnlich wie Kursivschrift."
+      },
+      {
+       "type": "tip",
+       "text": "Lange Vokale schreibt man in Katakana mit einem Strich: ー. ケーキ (Kuchen) ist „ke-e-ki“. In Rōmaji schreiben wir den Vokal doppelt: keeki."
+      },
+      {
+       "type": "tip",
+       "text": "Lehnwörter werden an die japanischen Silben angepasst. Weil fast jede Silbe auf einen Vokal endet, wird oft ein u oder o eingeschoben: Aus „test“ wird später テスト (te-su-to)."
+      },
+      {
+       "type": "tip",
+       "text": "Manche Katakana ähneln ihren Hiragana-Partnern, z. B. か und カ oder き und キ. Andere sehen ganz anders aus – lerne sie wie neue Zeichen."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ア",
+       "romaji": "a"
+      },
+      {
+       "kana": "イ",
+       "romaji": "i"
+      },
+      {
+       "kana": "ウ",
+       "romaji": "u"
+      },
+      {
+       "kana": "エ",
+       "romaji": "e"
+      },
+      {
+       "kana": "オ",
+       "romaji": "o"
+      },
+      {
+       "kana": "カ",
+       "romaji": "ka"
+      },
+      {
+       "kana": "キ",
+       "romaji": "ki"
+      },
+      {
+       "kana": "ク",
+       "romaji": "ku"
+      },
+      {
+       "kana": "ケ",
+       "romaji": "ke"
+      },
+      {
+       "kana": "コ",
+       "romaji": "ko"
+      }
+     ],
+     "words": [
+      {
+       "kana": "ケーキ",
+       "romaji": "keeki",
+       "de": "Kuchen"
+      },
+      {
+       "kana": "ココア",
+       "romaji": "kokoa",
+       "de": "Kakao (Getränk)"
+      },
+      {
+       "kana": "カカオ",
+       "romaji": "kakao",
+       "de": "Kakao (Bohne)"
+      },
+      {
+       "kana": "キウイ",
+       "romaji": "kiui",
+       "de": "Kiwi"
+      },
+      {
+       "kana": "オーケー",
+       "romaji": "ookee",
+       "de": "okay"
+      },
+      {
+       "kana": "エコ",
+       "romaji": "eko",
+       "de": "öko; umweltfreundlich"
+      },
+      {
+       "kana": "キー",
+       "romaji": "kii",
+       "de": "Taste; Schlüssel"
+      },
+      {
+       "kana": "ケア",
+       "romaji": "kea",
+       "de": "Pflege"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-k02",
+     "title": "サ bis ト",
+     "intro": [
+      {
+       "type": "p",
+       "text": "In dieser Lektion steckt das bekannteste Katakana-Paar: シ (shi) und ツ (tsu). Achte auf die Richtung der Striche:"
+      },
+      {
+       "type": "list",
+       "items": [
+        "シ (shi): Die zwei kurzen Striche liegen eher waagerecht links untereinander, der lange Strich geht von unten nach oben.",
+        "ツ (tsu): Die zwei kurzen Striche stehen eher senkrecht oben nebeneinander, der lange Strich geht von oben nach unten.",
+        "Genauso unterscheiden sich ソ (so) und ン (n, kommt in Lektion 4): ソ ist wie ツ geschrieben, ン wie シ."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Das u in ス wird oft kaum gesprochen, besonders am Wortende: テスト klingt fast wie „testo“, アイス wie „ais“."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "サ",
+       "romaji": "sa"
+      },
+      {
+       "kana": "シ",
+       "romaji": "shi",
+       "alt": [
+        "si"
+       ]
+      },
+      {
+       "kana": "ス",
+       "romaji": "su"
+      },
+      {
+       "kana": "セ",
+       "romaji": "se"
+      },
+      {
+       "kana": "ソ",
+       "romaji": "so"
+      },
+      {
+       "kana": "タ",
+       "romaji": "ta"
+      },
+      {
+       "kana": "チ",
+       "romaji": "chi",
+       "alt": [
+        "ti"
+       ]
+      },
+      {
+       "kana": "ツ",
+       "romaji": "tsu",
+       "alt": [
+        "tu"
+       ]
+      },
+      {
+       "kana": "テ",
+       "romaji": "te"
+      },
+      {
+       "kana": "ト",
+       "romaji": "to"
+      }
+     ],
+     "words": [
+      {
+       "kana": "タクシー",
+       "romaji": "takushii",
+       "de": "Taxi"
+      },
+      {
+       "kana": "アイス",
+       "romaji": "aisu",
+       "de": "Eis (Speiseeis)"
+      },
+      {
+       "kana": "スキー",
+       "romaji": "sukii",
+       "de": "Ski; Skifahren"
+      },
+      {
+       "kana": "テスト",
+       "romaji": "tesuto",
+       "de": "Test; Prüfung"
+      },
+      {
+       "kana": "トースト",
+       "romaji": "toosuto",
+       "de": "Toast"
+      },
+      {
+       "kana": "ソース",
+       "romaji": "soosu",
+       "de": "Soße"
+      },
+      {
+       "kana": "スイス",
+       "romaji": "suisu",
+       "de": "Schweiz"
+      },
+      {
+       "kana": "セーター",
+       "romaji": "seetaa",
+       "de": "Pullover"
+      },
+      {
+       "kana": "スーツ",
+       "romaji": "suutsu",
+       "de": "Anzug"
+      },
+      {
+       "kana": "サーカス",
+       "romaji": "saakasu",
+       "de": "Zirkus"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-k03",
+     "title": "ナ bis ホ",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Einige Zeichen kennst du fast schon: ニ ist wie に ohne den Strich links, ヘ sieht genauso aus wie へ. フ ist wie ス ohne den kleinen Strich unten rechts."
+      },
+      {
+       "type": "tip",
+       "text": "Verwechslungsgefahr: ヌ und ス – bei ヌ kreuzt der zweite Strich den ersten, bei ス setzt er nur an."
+      },
+      {
+       "type": "tip",
+       "text": "Auch in Lehnwörtern ist フ kein deutsches f: Sprich es mit lockeren Lippen wie ふ. ヒ klingt wie das „ch“ in „ich“."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ナ",
+       "romaji": "na"
+      },
+      {
+       "kana": "ニ",
+       "romaji": "ni"
+      },
+      {
+       "kana": "ヌ",
+       "romaji": "nu"
+      },
+      {
+       "kana": "ネ",
+       "romaji": "ne"
+      },
+      {
+       "kana": "ノ",
+       "romaji": "no"
+      },
+      {
+       "kana": "ハ",
+       "romaji": "ha"
+      },
+      {
+       "kana": "ヒ",
+       "romaji": "hi"
+      },
+      {
+       "kana": "フ",
+       "romaji": "fu",
+       "alt": [
+        "hu"
+       ]
+      },
+      {
+       "kana": "ヘ",
+       "romaji": "he"
+      },
+      {
+       "kana": "ホ",
+       "romaji": "ho"
+      }
+     ],
+     "words": [
+      {
+       "kana": "コーヒー",
+       "romaji": "koohii",
+       "de": "Kaffee"
+      },
+      {
+       "kana": "ナイフ",
+       "romaji": "naifu",
+       "de": "Messer"
+      },
+      {
+       "kana": "ノート",
+       "romaji": "nooto",
+       "de": "Heft; Notizbuch"
+      },
+      {
+       "kana": "テニス",
+       "romaji": "tenisu",
+       "de": "Tennis"
+      },
+      {
+       "kana": "ネクタイ",
+       "romaji": "nekutai",
+       "de": "Krawatte"
+      },
+      {
+       "kana": "スニーカー",
+       "romaji": "suniikaa",
+       "de": "Turnschuhe; Sneaker"
+      },
+      {
+       "kana": "ヒーター",
+       "romaji": "hiitaa",
+       "de": "Heizgerät; Heizung"
+      },
+      {
+       "kana": "ハート",
+       "romaji": "haato",
+       "de": "Herz (Symbol)"
+      },
+      {
+       "kana": "カヌー",
+       "romaji": "kanuu",
+       "de": "Kanu"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-k04",
+     "title": "マ bis ン",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Mit dieser Lektion kennst du alle Grundzeichen der Katakana. Jetzt kommt auch ン – und damit das zweite berühmte Paar: Bei ン liegt der kurze Strich eher waagerecht und der lange geht von unten nach oben (wie bei シ). Bei ソ steht der kurze Strich eher senkrecht und der lange geht von oben nach unten (wie bei ツ)."
+      },
+      {
+       "type": "list",
+       "items": [
+        "ワ (wa) und ウ (u): ウ hat oben einen kleinen Strich mehr.",
+        "ク (ku) und タ (ta): タ hat innen einen Strich mehr.",
+        "ル (ru) und レ (re): ル hat links einen Strich mehr.",
+        "ロ (ro) ist ein einfaches Quadrat."
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Aus l wird in Lehnwörtern die R-Reihe: ホテル (hoteru), レモン (remon). ヲ brauchst du fast nie – die Partikel を schreibt man in Hiragana."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "マ",
+       "romaji": "ma"
+      },
+      {
+       "kana": "ミ",
+       "romaji": "mi"
+      },
+      {
+       "kana": "ム",
+       "romaji": "mu"
+      },
+      {
+       "kana": "メ",
+       "romaji": "me"
+      },
+      {
+       "kana": "モ",
+       "romaji": "mo"
+      },
+      {
+       "kana": "ヤ",
+       "romaji": "ya"
+      },
+      {
+       "kana": "ユ",
+       "romaji": "yu"
+      },
+      {
+       "kana": "ヨ",
+       "romaji": "yo"
+      },
+      {
+       "kana": "ラ",
+       "romaji": "ra"
+      },
+      {
+       "kana": "リ",
+       "romaji": "ri"
+      },
+      {
+       "kana": "ル",
+       "romaji": "ru"
+      },
+      {
+       "kana": "レ",
+       "romaji": "re"
+      },
+      {
+       "kana": "ロ",
+       "romaji": "ro"
+      },
+      {
+       "kana": "ワ",
+       "romaji": "wa"
+      },
+      {
+       "kana": "ヲ",
+       "romaji": "wo",
+       "alt": [
+        "o"
+       ]
+      },
+      {
+       "kana": "ン",
+       "romaji": "n",
+       "alt": [
+        "nn"
+       ]
+      }
+     ],
+     "words": [
+      {
+       "kana": "ホテル",
+       "romaji": "hoteru",
+       "de": "Hotel"
+      },
+      {
+       "kana": "カメラ",
+       "romaji": "kamera",
+       "de": "Kamera"
+      },
+      {
+       "kana": "レストラン",
+       "romaji": "resutoran",
+       "de": "Restaurant"
+      },
+      {
+       "kana": "トイレ",
+       "romaji": "toire",
+       "de": "Toilette"
+      },
+      {
+       "kana": "ラーメン",
+       "romaji": "raamen",
+       "de": "Ramen (Nudelsuppe)"
+      },
+      {
+       "kana": "ワイン",
+       "romaji": "wain",
+       "de": "Wein"
+      },
+      {
+       "kana": "レモン",
+       "romaji": "remon",
+       "de": "Zitrone"
+      },
+      {
+       "kana": "ユーロ",
+       "romaji": "yuuro",
+       "de": "Euro"
+      },
+      {
+       "kana": "アイスクリーム",
+       "romaji": "aisukuriimu",
+       "de": "Eiscreme"
+      },
+      {
+       "kana": "オーストリア",
+       "romaji": "oosutoria",
+       "de": "Österreich"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-k05",
+     "title": "Stimmhafte Laute und Kombinationen",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Dakuten (゛) und Handakuten (゜) funktionieren genau wie bei Hiragana: カ → ガ, サ → ザ, タ → ダ, ハ → バ und パ. Auch die Kombinationen mit kleinem ャ, ュ, ョ kennst du schon: キャ, シュ, チョ …"
+      },
+      {
+       "type": "tip",
+       "text": "Ein v wird in Lehnwörtern meistens zur B-Reihe: テレビ (terebi) kommt von „television“."
+      },
+      {
+       "type": "tip",
+       "text": "Kleine ャ, ュ, ョ können auch hinter anderen i-Silben stehen, z. B. ニュ in メニュー (Speisekarte)."
+      },
+      {
+       "type": "tip",
+       "text": "Manche Lehnwörter sind schon sehr alt: パン (Brot) kommt aus dem Portugiesischen „pão“, ドイツ (Deutschland) aus dem Niederländischen „Duits“."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ガ",
+       "romaji": "ga"
+      },
+      {
+       "kana": "ギ",
+       "romaji": "gi"
+      },
+      {
+       "kana": "グ",
+       "romaji": "gu"
+      },
+      {
+       "kana": "ゲ",
+       "romaji": "ge"
+      },
+      {
+       "kana": "ゴ",
+       "romaji": "go"
+      },
+      {
+       "kana": "ザ",
+       "romaji": "za"
+      },
+      {
+       "kana": "ジ",
+       "romaji": "ji",
+       "alt": [
+        "zi"
+       ]
+      },
+      {
+       "kana": "ズ",
+       "romaji": "zu"
+      },
+      {
+       "kana": "ゼ",
+       "romaji": "ze"
+      },
+      {
+       "kana": "ゾ",
+       "romaji": "zo"
+      },
+      {
+       "kana": "ダ",
+       "romaji": "da"
+      },
+      {
+       "kana": "デ",
+       "romaji": "de"
+      },
+      {
+       "kana": "ド",
+       "romaji": "do"
+      },
+      {
+       "kana": "バ",
+       "romaji": "ba"
+      },
+      {
+       "kana": "ビ",
+       "romaji": "bi"
+      },
+      {
+       "kana": "ブ",
+       "romaji": "bu"
+      },
+      {
+       "kana": "ベ",
+       "romaji": "be"
+      },
+      {
+       "kana": "ボ",
+       "romaji": "bo"
+      },
+      {
+       "kana": "パ",
+       "romaji": "pa"
+      },
+      {
+       "kana": "ピ",
+       "romaji": "pi"
+      },
+      {
+       "kana": "プ",
+       "romaji": "pu"
+      },
+      {
+       "kana": "ペ",
+       "romaji": "pe"
+      },
+      {
+       "kana": "ポ",
+       "romaji": "po"
+      },
+      {
+       "kana": "キャ",
+       "romaji": "kya"
+      },
+      {
+       "kana": "キュ",
+       "romaji": "kyu"
+      },
+      {
+       "kana": "キョ",
+       "romaji": "kyo"
+      },
+      {
+       "kana": "シャ",
+       "romaji": "sha",
+       "alt": [
+        "sya"
+       ]
+      },
+      {
+       "kana": "シュ",
+       "romaji": "shu",
+       "alt": [
+        "syu"
+       ]
+      },
+      {
+       "kana": "ショ",
+       "romaji": "sho",
+       "alt": [
+        "syo"
+       ]
+      },
+      {
+       "kana": "チャ",
+       "romaji": "cha",
+       "alt": [
+        "tya"
+       ]
+      },
+      {
+       "kana": "チュ",
+       "romaji": "chu",
+       "alt": [
+        "tyu"
+       ]
+      },
+      {
+       "kana": "チョ",
+       "romaji": "cho",
+       "alt": [
+        "tyo"
+       ]
+      },
+      {
+       "kana": "ジャ",
+       "romaji": "ja",
+       "alt": [
+        "zya",
+        "jya"
+       ]
+      },
+      {
+       "kana": "ジュ",
+       "romaji": "ju",
+       "alt": [
+        "zyu",
+        "jyu"
+       ]
+      },
+      {
+       "kana": "ジョ",
+       "romaji": "jo",
+       "alt": [
+        "zyo",
+        "jyo"
+       ]
+      }
+     ],
+     "words": [
+      {
+       "kana": "ドイツ",
+       "romaji": "doitsu",
+       "de": "Deutschland"
+      },
+      {
+       "kana": "パン",
+       "romaji": "pan",
+       "de": "Brot"
+      },
+      {
+       "kana": "ビール",
+       "romaji": "biiru",
+       "de": "Bier"
+      },
+      {
+       "kana": "テレビ",
+       "romaji": "terebi",
+       "de": "Fernseher"
+      },
+      {
+       "kana": "バス",
+       "romaji": "basu",
+       "de": "Bus"
+      },
+      {
+       "kana": "ジュース",
+       "romaji": "juusu",
+       "de": "Saft"
+      },
+      {
+       "kana": "チーズ",
+       "romaji": "chiizu",
+       "de": "Käse"
+      },
+      {
+       "kana": "シャワー",
+       "romaji": "shawaa",
+       "de": "Dusche"
+      },
+      {
+       "kana": "チョコレート",
+       "romaji": "chokoreeto",
+       "de": "Schokolade"
+      },
+      {
+       "kana": "メニュー",
+       "romaji": "menyuu",
+       "de": "Speisekarte"
+      }
+     ]
+    },
+    {
+     "id": "ja-kana-k06",
+     "title": "Langer Vokal ー, kleines ッ und Sonderzeichen",
+     "intro": [
+      {
+       "type": "p",
+       "text": "Das kleine ッ funktioniert wie das Hiragana っ: eine kurze Pause, der folgende Konsonant wird verdoppelt. In Lehnwörtern ist es sehr häufig: ベッド (beddo, Bett), サッカー (sakkaa, Fußball). Lange Vokale schreibst du weiter mit ー."
+      },
+      {
+       "type": "p",
+       "text": "Für Laute, die es im Japanischen eigentlich nicht gibt, kombiniert man Katakana mit kleinen Vokalen (ァ, ィ, ェ, ォ):"
+      },
+      {
+       "type": "list",
+       "items": [
+        "ファ, フィ, フェ, フォ = fa, fi, fe, fo – z. B. カフェ (Café), フォーク (Gabel)",
+        "ティ, ディ = ti, di – z. B. パーティー (Party)",
+        "ウィ, ウェ, ウォ = wi, we, wo – z. B. ウィーン (Wien)",
+        "シェ, ジェ, チェ = sche, dsche, tsche – z. B. シェフ (Küchenchef)",
+        "ヴ = v – selten, meistens schreibt man stattdessen die B-Reihe"
+       ]
+      },
+      {
+       "type": "tip",
+       "text": "Achte auf die Größe: Kleines ッ ist eine Pause, großes ツ ist „tsu“. Ein kleines ァ verschmilzt mit フ zu einer Silbe (ファ = fa), ein großes ア wäre eine eigene Silbe."
+      }
+     ],
+     "chars": [
+      {
+       "kana": "ッ",
+       "romaji": "(Doppelkonsonant)"
+      },
+      {
+       "kana": "ファ",
+       "romaji": "fa"
+      },
+      {
+       "kana": "フィ",
+       "romaji": "fi"
+      },
+      {
+       "kana": "フェ",
+       "romaji": "fe"
+      },
+      {
+       "kana": "フォ",
+       "romaji": "fo"
+      },
+      {
+       "kana": "ティ",
+       "romaji": "ti",
+       "alt": [
+        "thi"
+       ]
+      },
+      {
+       "kana": "ディ",
+       "romaji": "di",
+       "alt": [
+        "dhi"
+       ]
+      },
+      {
+       "kana": "ウィ",
+       "romaji": "wi"
+      },
+      {
+       "kana": "ウェ",
+       "romaji": "we"
+      },
+      {
+       "kana": "ウォ",
+       "romaji": "wo"
+      },
+      {
+       "kana": "シェ",
+       "romaji": "she"
+      },
+      {
+       "kana": "ジェ",
+       "romaji": "je"
+      },
+      {
+       "kana": "チェ",
+       "romaji": "che"
+      },
+      {
+       "kana": "ヴ",
+       "romaji": "vu"
+      }
+     ],
+     "words": [
+      {
+       "kana": "サッカー",
+       "romaji": "sakkaa",
+       "de": "Fußball"
+      },
+      {
+       "kana": "チケット",
+       "romaji": "chiketto",
+       "de": "Ticket; Eintrittskarte"
+      },
+      {
+       "kana": "ベッド",
+       "romaji": "beddo",
+       "de": "Bett"
+      },
+      {
+       "kana": "ヨーロッパ",
+       "romaji": "yooroppa",
+       "de": "Europa"
+      },
+      {
+       "kana": "パーティー",
+       "romaji": "paatii",
+       "de": "Party"
+      },
+      {
+       "kana": "カフェ",
+       "romaji": "kafe",
+       "de": "Café"
+      },
+      {
+       "kana": "フォーク",
+       "romaji": "fooku",
+       "de": "Gabel"
+      },
+      {
+       "kana": "ソファ",
+       "romaji": "sofa",
+       "de": "Sofa"
+      },
+      {
+       "kana": "シェフ",
+       "romaji": "shefu",
+       "de": "Küchenchef; Küchenchefin"
+      },
+      {
+       "kana": "ウィーン",
+       "romaji": "wiin",
+       "de": "Wien"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
