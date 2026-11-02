@@ -64,7 +64,7 @@
         { "type": "table", "head": ["Form", "Japanisch", "Deutsch"], "rows": [["jetzt", "読[よ]んで います", "liest gerade"], ["verneint", "読[よ]んで いません", "liest gerade nicht"], ["Vergangenheit", "読[よ]んで いました", "war gerade am Lesen"], ["Vergangenheit verneint", "読[よ]んで いませんでした", "war nicht am Lesen"]] },
         { "type": "examples", "items": [{ "text": "今[いま] 何[なに] を して います か。", "de": "Was machst du gerade?" }, { "text": "メール を 書[か]いて います。", "de": "Ich schreibe gerade eine E-Mail." }, { "text": "社長[しゃちょう] は 今[いま] 電話[でんわ] して います。", "de": "Der Chef telefoniert gerade." }, { "text": "子[こ]ども が 公園[こうえん] で 遊[あそ]んで います。", "de": "Die Kinder spielen im Park." }, { "text": "きのう の 夜[よる] 九時[くじ] ごろ は ドラマ を 見[み]て いました。", "de": "Gestern Abend gegen neun habe ich gerade eine Serie geschaut." }] },
         { "type": "p", "text": "〜て います beschreibt auch Gewohnheiten und Tätigkeiten über längere Zeit – vor allem mit まいにち oder bei Beruf und Studium:" },
-        { "type": "examples", "items": [{ "text": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] に 通[かよ]って います。", "de": "Ich fahre jeden Tag mit dem Zug zur Arbeit." }, { "text": "アンナ さん は 大学[だいがく] で 日本語[にほんご] を 勉強[べんきょう] して います。", "de": "Anna studiert an der Uni Japanisch." }, { "text": "毎朝[まいあさ] 公園[こうえん] を 走[はし]って います。", "de": "Ich jogge jeden Morgen im Park." }] },
+        { "type": "examples", "items": [{ "text": "毎日[まいにち] 電車[でんしゃ] で 会社[かいしゃ] に 通[かよ]って います。", "de": "Ich fahre jeden Tag mit dem Zug zur Arbeit." }, { "text": "アンナ さん は 大学[だいがく] で 日本語[にほんご] を 勉強[べんきょう] して います。", "de": "Anna studiert an der Uni Japanisch." }, { "text": "毎[まい]朝[あさ] 公園[こうえん] を 走[はし]って います。", "de": "Ich jogge jeden Morgen im Park." }] },
         { "type": "tip", "text": "Gesprochen fällt das い oft weg: よんでます, はたらいてます. Das hörst du überall – schreib aber erst einmal die volle Form." }
       ],
       "exercises": [
@@ -111,7 +111,7 @@
         { "type": "table", "head": ["Japanisch", "Deutsch"], "rows": [["会社員[かいしゃいん]", "Angestellte/r"], ["先生[せんせい]", "Lehrer/in"], ["医者[いしゃ]", "Arzt; Ärztin"], ["かんごし", "Krankenpfleger/in"], ["エンジニア", "Ingenieur/in"], ["べんごし", "Anwalt; Anwältin"], ["店[てん]員[いん]", "Verkäufer/in"], ["公務[こうむ]員[いん]", "Beamter; Beamtin"], ["しゅふ", "Hausfrau; Hausmann"]] },
         { "type": "tip", "text": "Über dich selbst sagst du nie せんせい – das ist eine respektvolle Anrede für andere. Als Lehrerin sagst du zum Beispiel: こうこうで えいごを おしえて います." },
         { "type": "tip", "text": "Im Berufsleben stellt man sich in Japan oft mit der Firma vor: さくらぎんこうの さとうです (Sato von der Sakura-Bank). Dazu gibt man die めいし." },
-        { "type": "examples", "items": [{ "text": "お仕事[しごと] は 何[なん] です か。", "de": "Was machst du beruflich?" }, { "text": "会社員[かいしゃいん] です。 車[くるま] の 会社[かいしゃ] で 働[はたら]いて います。", "de": "Ich bin Angestellter. Ich arbeite bei einer Autofirma." }, { "text": "どこ で 働[はたら]いて います か。", "de": "Wo arbeitest du?" }, { "text": "父[ちち] は 高校[こうこう] で 英語[えいご] を 教[おし]えて います。", "de": "Mein Vater unterrichtet Englisch an einer Oberschule." }, { "text": "大学[だいがく] の 先生[せんせい] です か。 すごい です ね！", "de": "Du bist Dozentin an der Uni? Toll!" }] }
+        { "type": "examples", "items": [{ "text": "お仕事[しごと] は 何[なん] です か。", "de": "Was machst du beruflich?" }, { "text": "会社員[かいしゃいん] です。 車[くるま] の 会社[かいしゃ] で 働[はたら]いて います。", "de": "Ich bin Angestellter. Ich arbeite bei einer Autofirma." }, { "text": "どこ で 働[はたら]いて います か。", "de": "Wo arbeitest du?" }, { "text": "父[ちち] は 高校[こうこう] で 英[えい]語[ご] を 教[おし]えて います。", "de": "Mein Vater unterrichtet Englisch an einer Oberschule." }, { "text": "大学[だいがく] の 先生[せんせい] です か。 すごい です ね！", "de": "Du bist Dozentin an der Uni? Toll!" }] }
       ],
       "exercises": [
         { "type": "cloze", "text": "病院[びょういん] ___ 働[はたら]いて います。", "answers": ["で"], "de": "Ich arbeite im Krankenhaus." },
@@ -120,7 +120,7 @@
         { "type": "match", "pairs": [["店[てん]員[いん]", "Verkäufer/in"], ["かんごし", "Krankenpfleger/in"], ["べんごし", "Anwalt; Anwältin"], ["けいさつかん", "Polizist/in"], ["公務[こうむ]員[いん]", "Beamter; Beamtin"], ["うんてんしゅ", "Fahrer/in"]] },
         { "type": "translate", "de": "Mein Vater arbeitet in einer Fabrik.", "answers": ["私[わたし] の 父[ちち] は 工場[こうじょう] で 働[はたら]いて います。", "父[ちち] は 工場[こうじょう] で 働[はたら]いて います。"] },
         { "type": "translate", "de": "Wo arbeitest du?", "answers": ["どこ で 働[はたら]いて います か。", "どちら で 働[はたら]いて います か。", "どこ で 仕事[しごと] を して います か。", "どちら で 仕事[しごと] を して います か。"] },
-        { "type": "order", "de": "Meine Mutter unterrichtet Englisch an einer Oberschule.", "answer": "母[はは] は 高校[こうこう] で 英語[えいご] を 教[おし]えて います。", "distractors": ["に"] }
+        { "type": "order", "de": "Meine Mutter unterrichtet Englisch an einer Oberschule.", "answer": "母[はは] は 高校[こうこう] で 英[えい]語[ご] を 教[おし]えて います。", "distractors": ["に"] }
       ]
     }
   ],
@@ -137,10 +137,10 @@
       { "speaker": "たなか", "text": "そう です か。 たいへん です ね。", "de": "Ach so. Das ist bestimmt anstrengend." },
       { "speaker": "アンナ", "text": "いいえ、 楽[たの]しい です よ。 たなか さん は どんな 仕事[しごと] を して います か。", "de": "Nein, das macht Spaß! Was für eine Arbeit machst du, Frau Tanaka?" },
       { "speaker": "たなか", "text": "私[わたし] は エンジニア です。 毎日[まいにち] パソコン で 新[あたら]しい 車[くるま] の ソフト を 作[つく]って います。", "de": "Ich bin Ingenieurin. Ich entwickle jeden Tag am Computer Software für neue Autos." },
-      { "speaker": "けん", "text": "たなか さん は いつも いそがしい です。 毎晩[まいばん] ざんぎょう して います。", "de": "Frau Tanaka hat immer viel zu tun. Sie macht jeden Abend Überstunden." },
-      { "speaker": "たなか", "text": "毎晩[まいばん] じゃ ありません よ。 でも、 来週[らいしゅう] は 大[おお]阪[さか] へ 出[しゅっ]張[ちょう] です。", "de": "Nicht jeden Abend! Aber nächste Woche habe ich eine Dienstreise nach Osaka." },
+      { "speaker": "けん", "text": "たなか さん は いつも いそがしい です。 毎[まい]晩[ばん] ざんぎょう して います。", "de": "Frau Tanaka hat immer viel zu tun. Sie macht jeden Abend Überstunden." },
+      { "speaker": "たなか", "text": "毎[まい]晩[ばん] じゃ ありません よ。 でも、 来週[らいしゅう] は 大[おお]阪[さか] へ 出[しゅっ]張[ちょう] です。", "de": "Nicht jeden Abend! Aber nächste Woche habe ich eine Dienstreise nach Osaka." },
       { "speaker": "アンナ", "text": "たなか さん は どこ に 住[す]んで います か。", "de": "Wo wohnst du, Frau Tanaka?" },
-      { "speaker": "たなか", "text": "横浜[よこはま] に 住[す]んで います。 結婚[けっこん] して います。 おっと は 高校[こうこう] で 数学[すうがく] を 教[おし]えて います。", "de": "In Yokohama. Ich bin verheiratet. Mein Mann unterrichtet Mathe an einer Oberschule." },
+      { "speaker": "たなか", "text": "横浜[よこはま] に 住[す]んで います。 結婚[けっこん] して います。 おっと は 高校[こうこう] で 数[すう]学[がく] を 教[おし]えて います。", "de": "In Yokohama. Ich bin verheiratet. Mein Mann unterrichtet Mathe an einer Oberschule." },
       { "speaker": "アンナ", "text": "そう です か。 先生[せんせい] の 仕事[しごと] も たいへん です ね。", "de": "Ach so. Die Arbeit als Lehrer ist auch anstrengend." },
       { "speaker": "たなか", "text": "ええ。 あ、 もう 十時[じゅうじ] です ね。 じゃあ、 お先[さき] に しつれいします。", "de": "Ja. Oh, es ist schon zehn. Dann gehe ich schon mal." },
       { "speaker": "けん", "text": "おつかれさま でした。 また 月[げつ]曜日[ようび] に！", "de": "Schönen Feierabend! Bis Montag!" }
