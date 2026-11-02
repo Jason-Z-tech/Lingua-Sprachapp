@@ -258,11 +258,12 @@
       "example": { "text": "In quel momento ho visto Jonas.", "de": "In dem Moment habe ich Jonas gesehen." }
     },
     {
-      "id": "nel-frattempo",
-      "word": "nel frattempo",
-      "de": "inzwischen; in der Zwischenzeit",
-      "pos": "phrase",
-      "example": { "text": "Nel frattempo Jonas mi aspettava alla stazione.", "de": "Inzwischen wartete Jonas am Bahnhof auf mich." }
+      "id": "intanto",
+      "word": "intanto",
+      "de": "inzwischen; währenddessen",
+      "pos": "adv",
+      "example": { "text": "Io compro i biglietti, tu intanto prendi un caffè.", "de": "Ich kaufe die Fahrkarten, du trinkst inzwischen einen Kaffee." },
+      "note": "Gleiche Bedeutung: nel frattempo."
     },
     {
       "id": "il-giorno-dopo",
@@ -534,7 +535,7 @@
             ["mentre", "während"],
             ["all'improvviso / a un certo punto", "plötzlich / irgendwann"],
             ["in quel momento", "in dem Moment"],
-            ["nel frattempo", "inzwischen"],
+            ["nel frattempo / intanto", "inzwischen"],
             ["allora / quindi", "also / deshalb"],
             ["il giorno dopo", "am nächsten Tag"],
             ["alla fine", "am Ende"]
@@ -698,7 +699,7 @@
       "pairs": [
         ["all'improvviso", "plötzlich"],
         ["alla fine", "am Ende"],
-        ["nel frattempo", "inzwischen"],
+        ["intanto", "inzwischen"],
         ["il giorno dopo", "am nächsten Tag"],
         ["durante", "während"],
         ["a causa di", "wegen"]

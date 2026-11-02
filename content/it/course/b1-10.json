@@ -1,0 +1,788 @@
+{
+  "formatVersion": 1,
+  "id": "it-b1-10",
+  "lang": "it",
+  "level": "B1",
+  "number": 10,
+  "title": "Se potessi…",
+  "title_de": "Ziele",
+  "topic": "Träume und Wünsche",
+  "goals": [
+    "Du kannst über Träume, Wünsche und Ziele sprechen: Il mio obiettivo è …, spero di …, ho deciso di …",
+    "Du kennst die wichtigsten Formen des congiuntivo imperfetto: avessi, fossi, potessi, facessi …",
+    "Du bildest Bedingungssätze der Möglichkeit: Se avessi più tempo, viaggerei di più."
+  ],
+  "vocab": [
+    {
+      "id": "vita",
+      "word": "vita",
+      "article": "la",
+      "gender": "f",
+      "plural": "le vite",
+      "de": "das Leben",
+      "pos": "noun",
+      "example": { "text": "Voglio cambiare vita e vivere in campagna.", "de": "Ich will mein Leben ändern und auf dem Land leben." },
+      "note": "Che bella vita! = Was für ein schönes Leben!"
+    },
+    {
+      "id": "obiettivo",
+      "word": "obiettivo",
+      "article": "l'",
+      "gender": "m",
+      "plural": "gli obiettivi",
+      "de": "das Ziel",
+      "pos": "noun",
+      "example": {
+        "text": "Il mio obiettivo è parlare benissimo l'italiano entro un anno.",
+        "de": "Mein Ziel ist es, in einem Jahr sehr gut Italienisch zu sprechen."
+      }
+    },
+    {
+      "id": "desiderio",
+      "word": "desiderio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i desideri",
+      "de": "der Wunsch",
+      "pos": "noun",
+      "example": { "text": "Il mio desiderio più grande è vedere il mondo.", "de": "Mein größter Wunsch ist es, die Welt zu sehen." }
+    },
+    {
+      "id": "raggiungere",
+      "word": "raggiungere",
+      "de": "erreichen",
+      "pos": "verb",
+      "forms": "raggiungo, raggiungi, raggiunge, raggiungiamo, raggiungete, raggiungono",
+      "example": { "text": "Per raggiungere i tuoi obiettivi devi avere pazienza.", "de": "Um deine Ziele zu erreichen, musst du Geduld haben." },
+      "note": "Partizip: raggiunto. Auch: nachkommen – Ti raggiungo al bar. = Ich komme in die Bar nach."
+    },
+    {
+      "id": "vincere",
+      "word": "vincere",
+      "de": "gewinnen",
+      "pos": "verb",
+      "forms": "vinco, vinci, vince, vinciamo, vincete, vincono",
+      "example": { "text": "Il Bologna ha vinto la partita.", "de": "Bologna hat das Spiel gewonnen.", "focus": "vinto" },
+      "note": "Partizip: vinto. Das Gegenteil: perdere."
+    },
+    {
+      "id": "lotteria",
+      "word": "lotteria",
+      "article": "la",
+      "gender": "f",
+      "plural": "le lotterie",
+      "de": "die Lotterie; das Lotto",
+      "pos": "noun",
+      "example": { "text": "Mio nonno gioca alla lotteria ogni settimana.", "de": "Mein Großvater spielt jede Woche Lotto." },
+      "note": "Vincere alla lotteria = im Lotto gewinnen."
+    },
+    {
+      "id": "ricco",
+      "word": "ricco",
+      "de": "reich",
+      "pos": "adj",
+      "example": { "text": "Se fossi ricco, aprirei un ristorante.", "de": "Wenn ich reich wäre, würde ich ein Restaurant eröffnen." },
+      "note": "Mehrzahl: ricchi, ricche."
+    },
+    {
+      "id": "giro-del-mondo",
+      "word": "giro del mondo",
+      "article": "il",
+      "gender": "m",
+      "de": "die Weltreise",
+      "pos": "noun",
+      "example": { "text": "Il mio sogno è fare il giro del mondo.", "de": "Mein Traum ist es, eine Weltreise zu machen." }
+    },
+    {
+      "id": "felicita",
+      "word": "felicità",
+      "article": "la",
+      "gender": "f",
+      "de": "das Glück; das Glücklichsein",
+      "pos": "noun",
+      "example": { "text": "I soldi non fanno la felicità.", "de": "Geld macht nicht glücklich." },
+      "note": "Glück im Sinne von Zufall oder Erfolg: la fortuna."
+    },
+    {
+      "id": "liberta",
+      "word": "libertà",
+      "article": "la",
+      "gender": "f",
+      "de": "die Freiheit",
+      "pos": "noun",
+      "example": { "text": "Per me la libertà è la cosa più importante.", "de": "Für mich ist Freiheit das Wichtigste." }
+    },
+    {
+      "id": "pace",
+      "word": "pace",
+      "article": "la",
+      "gender": "f",
+      "de": "der Frieden; die Ruhe",
+      "pos": "noun",
+      "example": { "text": "Vorrei vivere in pace in una piccola casa al mare.", "de": "Ich würde gern in Ruhe in einem kleinen Haus am Meer leben." },
+      "note": "Lasciami in pace! = Lass mich in Ruhe!"
+    },
+    {
+      "id": "coraggio",
+      "word": "coraggio",
+      "article": "il",
+      "gender": "m",
+      "de": "der Mut",
+      "pos": "noun",
+      "example": { "text": "Ci vuole coraggio per cambiare vita.", "de": "Es braucht Mut, sein Leben zu ändern." },
+      "note": "Coraggio! = Nur Mut!"
+    },
+    {
+      "id": "rischiare",
+      "word": "rischiare",
+      "de": "riskieren; Gefahr laufen",
+      "pos": "verb",
+      "forms": "rischio, rischi, rischia, rischiamo, rischiate, rischiano",
+      "example": { "text": "Ho paura di rischiare.", "de": "Ich habe Angst, etwas zu riskieren." },
+      "note": "Rischiare di + Infinitiv = Gefahr laufen: Rischiamo di perdere il treno!"
+    },
+    {
+      "id": "rinunciare",
+      "word": "rinunciare",
+      "de": "verzichten; aufgeben",
+      "pos": "verb",
+      "forms": "rinuncio, rinunci, rinuncia, rinunciamo, rinunciate, rinunciano",
+      "example": { "text": "Non voglio rinunciare ai miei sogni.", "de": "Ich will nicht auf meine Träume verzichten." },
+      "note": "Mit a: rinunciare a qualcosa."
+    },
+    {
+      "id": "smettere",
+      "word": "smettere",
+      "de": "aufhören",
+      "pos": "verb",
+      "forms": "smetto, smetti, smette, smettiamo, smettete, smettono",
+      "example": {
+        "text": "Se potessi, smetterei di lavorare il venerdì.",
+        "de": "Wenn ich könnte, würde ich freitags nicht mehr arbeiten.",
+        "focus": "smetterei"
+      },
+      "note": "Mit di + Infinitiv. Partizip: smesso."
+    },
+    {
+      "id": "migliorare",
+      "word": "migliorare",
+      "de": "verbessern; besser werden",
+      "pos": "verb",
+      "forms": "miglioro, migliori, migliora, miglioriamo, migliorate, migliorano",
+      "example": { "text": "Voglio migliorare il mio italiano.", "de": "Ich will mein Italienisch verbessern." }
+    },
+    {
+      "id": "preferire",
+      "word": "preferire",
+      "de": "lieber mögen; vorziehen",
+      "pos": "verb",
+      "forms": "preferisco, preferisci, preferisce, preferiamo, preferite, preferiscono",
+      "example": { "text": "Preferirei vivere in una città piccola.", "de": "Ich würde lieber in einer kleinen Stadt leben.", "focus": "preferirei" },
+      "note": "Wie finire mit -isc-. Das Adjektiv kennst du schon: preferito = Lieblings-."
+    },
+    {
+      "id": "immaginare",
+      "word": "immaginare",
+      "de": "sich vorstellen",
+      "pos": "verb",
+      "forms": "immagino, immagini, immagina, immaginiamo, immaginate, immaginano",
+      "example": {
+        "text": "Immagina di avere un anno libero: cosa faresti?",
+        "de": "Stell dir vor, du hättest ein Jahr frei: Was würdest du tun?",
+        "focus": "immagina"
+      },
+      "note": "Betonung: immàgino. Immagino! = Das kann ich mir vorstellen!"
+    },
+    {
+      "id": "impegnarsi",
+      "word": "impegnarsi",
+      "de": "sich anstrengen; sich einsetzen",
+      "pos": "verb",
+      "forms": "mi impegno, ti impegni, si impegna, ci impegniamo, vi impegnate, si impegnano",
+      "example": { "text": "Mi impegno molto nel mio lavoro.", "de": "Ich strenge mich bei meiner Arbeit sehr an.", "focus": "impegno" }
+    },
+    {
+      "id": "avverarsi",
+      "word": "avverarsi",
+      "de": "in Erfüllung gehen; wahr werden",
+      "pos": "verb",
+      "forms": "si avvera, si avverano (meist 3. Person)",
+      "example": { "text": "Spero che il tuo desiderio si avveri.", "de": "Ich hoffe, dass dein Wunsch in Erfüllung geht.", "focus": "avveri" },
+      "note": "Passato prossimo mit essere: Il mio sogno si è avverato!"
+    },
+    {
+      "id": "farcela",
+      "word": "farcela",
+      "de": "es schaffen",
+      "pos": "verb",
+      "forms": "ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno",
+      "example": { "text": "Non ti preoccupare, ce la fai!", "de": "Keine Sorge, du schaffst das!", "focus": "ce la fai" },
+      "note": "Passato prossimo: ce l'ho fatta = ich habe es geschafft."
+    },
+    {
+      "id": "cambiamento",
+      "word": "cambiamento",
+      "article": "il",
+      "gender": "m",
+      "plural": "i cambiamenti",
+      "de": "die Veränderung",
+      "pos": "noun",
+      "example": { "text": "Nella mia vita ci sono stati tanti cambiamenti.", "de": "In meinem Leben gab es viele Veränderungen.", "focus": "cambiamenti" }
+    },
+    {
+      "id": "possibilita",
+      "word": "possibilità",
+      "article": "la",
+      "gender": "f",
+      "plural": "le possibilità",
+      "de": "die Möglichkeit",
+      "pos": "noun",
+      "example": { "text": "Se avessi la possibilità, vivrei un anno all'estero.", "de": "Wenn ich die Möglichkeit hätte, würde ich ein Jahr im Ausland leben." }
+    },
+    {
+      "id": "occasione",
+      "word": "occasione",
+      "article": "l'",
+      "gender": "f",
+      "plural": "le occasioni",
+      "de": "die Gelegenheit; der Anlass",
+      "pos": "noun",
+      "example": { "text": "Non perdere questa occasione!", "de": "Lass dir diese Gelegenheit nicht entgehen!" }
+    },
+    {
+      "id": "scelta",
+      "word": "scelta",
+      "article": "la",
+      "gender": "f",
+      "plural": "le scelte",
+      "de": "die Wahl; die Entscheidung",
+      "pos": "noun",
+      "example": { "text": "Trasferirmi a Bologna è stata la scelta giusta.", "de": "Nach Bologna zu ziehen war die richtige Entscheidung." },
+      "note": "Kommt von scegliere (wählen)."
+    },
+    {
+      "id": "realta",
+      "word": "realtà",
+      "article": "la",
+      "gender": "f",
+      "plural": "le realtà",
+      "de": "die Wirklichkeit; die Realität",
+      "pos": "noun",
+      "example": { "text": "Il mio sogno è diventato realtà!", "de": "Mein Traum ist Wirklichkeit geworden!" },
+      "note": "In realtà = eigentlich, in Wirklichkeit."
+    },
+    {
+      "id": "ambizioso",
+      "word": "ambizioso",
+      "de": "ehrgeizig",
+      "pos": "adj",
+      "example": { "text": "Sara è molto ambiziosa: vuole aprire tre bar!", "de": "Sara ist sehr ehrgeizig: Sie will drei Bars eröffnen!", "focus": "ambiziosa" }
+    },
+    {
+      "id": "indipendente",
+      "word": "indipendente",
+      "de": "unabhängig; selbstständig",
+      "pos": "adj",
+      "example": { "text": "Voglio essere indipendente dai miei genitori.", "de": "Ich will unabhängig von meinen Eltern sein." }
+    },
+    {
+      "id": "stabile",
+      "word": "stabile",
+      "de": "stabil; fest",
+      "pos": "adj",
+      "example": { "text": "Vorrei un lavoro stabile e una casa mia.", "de": "Ich hätte gern eine feste Arbeit und eine eigene Wohnung." }
+    },
+    {
+      "id": "orgoglioso",
+      "word": "orgoglioso",
+      "de": "stolz",
+      "pos": "adj",
+      "example": { "text": "Sono orgogliosa di te!", "de": "Ich bin stolz auf dich!", "focus": "orgogliosa" },
+      "note": "Stolz auf = orgoglioso di."
+    },
+    {
+      "id": "piuttosto",
+      "word": "piuttosto",
+      "de": "eher; lieber; ziemlich",
+      "pos": "adv",
+      "example": { "text": "Piuttosto che lavorare in ufficio, preferirei fare la cuoca.", "de": "Statt im Büro zu arbeiten, wäre ich lieber Köchin." },
+      "note": "Piuttosto che = anstatt, lieber als. Vor Adjektiven: ziemlich – piuttosto stanco."
+    },
+    {
+      "id": "prima-di-tutto",
+      "word": "prima di tutto",
+      "de": "vor allem; zuallererst",
+      "pos": "phrase",
+      "example": { "text": "Prima di tutto voglio finire l'università.", "de": "Zuallererst will ich die Uni abschließen." }
+    },
+    {
+      "id": "da-grande",
+      "word": "da grande",
+      "de": "als Erwachsener; wenn ich groß bin",
+      "pos": "phrase",
+      "example": { "text": "Cosa volevi fare da grande?", "de": "Was wolltest du als Kind werden?" }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "congiuntivo-imperfetto",
+      "title": "Der congiuntivo imperfetto: avessi, fossi, potessi …",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Für Wünsche und Vorstellungen, die (noch) nicht wirklich sind, brauchst du eine neue Form: den congiuntivo imperfetto. Zum Glück ist er sehr regelmäßig: Infinitiv ohne -re + -ssi, -ssi, -sse, -ssimo, -ste, -ssero."
+        },
+        {
+          "type": "table",
+          "head": ["Person", "parlare", "avere", "partire"],
+          "rows": [
+            ["(se) io", "parlassi", "avessi", "partissi"],
+            ["(se) tu", "parlassi", "avessi", "partissi"],
+            ["(se) lui / lei", "parlasse", "avesse", "partisse"],
+            ["(se) noi", "parlassimo", "avessimo", "partissimo"],
+            ["(se) voi", "parlaste", "aveste", "partiste"],
+            ["(se) loro", "parlassero", "avessero", "partissero"]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Die Formen für io und tu sind gleich (avessi). Deshalb sagt man oft das Pronomen dazu: se tu avessi … Die Betonung liegt immer auf der Silbe vor -ss-: parlàssi, avèssi, partìssimo."
+        },
+        {
+          "type": "p",
+          "text": "Ganz regelmäßig (und deshalb leicht) sind auch potere → potessi, volere → volessi, dovere → dovessi, andare → andassi, venire → venissi, vivere → vivessi. Nur wenige wichtige Verben sind unregelmäßig:"
+        },
+        {
+          "type": "table",
+          "head": ["Infinitiv", "io / tu", "lui / lei", "noi"],
+          "rows": [
+            ["essere", "fossi", "fosse", "fossimo"],
+            ["fare", "facessi", "facesse", "facessimo"],
+            ["stare", "stessi", "stesse", "stessimo"],
+            ["dare", "dessi", "desse", "dessimo"],
+            ["dire", "dicessi", "dicesse", "dicessimo"],
+            ["bere", "bevessi", "bevesse", "bevessimo"]
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Se avessi tempo, verrei con te.", "de": "Wenn ich Zeit hätte, würde ich mitkommen." },
+            { "text": "Se fossi in te, accetterei.", "de": "Wenn ich du wäre, würde ich annehmen." },
+            { "text": "Se facesse bel tempo, andremmo al mare.", "de": "Wenn das Wetter schön wäre, würden wir ans Meer fahren." },
+            { "text": "Magari fosse vero!", "de": "Schön wär's, wenn das stimmen würde!" }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Se ___ più soldi, comprerei una casa al mare.",
+          "answers": ["avessi"],
+          "de": "Wenn ich mehr Geld hätte, würde ich ein Haus am Meer kaufen.",
+          "hint": "avere"
+        },
+        {
+          "type": "cloze",
+          "text": "Se ___ ricca, farei il giro del mondo.",
+          "answers": ["fossi"],
+          "de": "Wenn ich reich wäre, würde ich eine Weltreise machen.",
+          "hint": "essere"
+        },
+        {
+          "type": "cloze",
+          "text": "Se Marco ___ il cuoco in un grande ristorante, sarebbe felice.",
+          "answers": ["facesse"],
+          "de": "Wenn Marco Koch in einem großen Restaurant wäre, wäre er glücklich.",
+          "hint": "fare"
+        },
+        {
+          "type": "cloze",
+          "text": "Se noi ___ andare in vacanza, andremmo in Sicilia.",
+          "answers": ["potessimo"],
+          "de": "Wenn wir in Urlaub fahren könnten, würden wir nach Sizilien fahren.",
+          "hint": "potere"
+        },
+        {
+          "type": "cloze",
+          "text": "Se tu ___ in Italia, parleresti italiano tutti i giorni.",
+          "answers": ["vivessi", "abitassi", "stessi"],
+          "de": "Wenn du in Italien leben würdest, würdest du jeden Tag Italienisch sprechen.",
+          "hint": "vivere"
+        },
+        {
+          "type": "cloze",
+          "text": "Se i miei genitori ___ qui, sarebbero orgogliosi di me.",
+          "answers": ["fossero"],
+          "de": "Wenn meine Eltern hier wären, wären sie stolz auf mich.",
+          "hint": "essere"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["avessi", "(wenn) ich hätte"],
+            ["fossi", "(wenn) ich wäre"],
+            ["potessi", "(wenn) ich könnte"],
+            ["dovessi", "(wenn) ich müsste"],
+            ["facessimo", "(wenn) wir machen würden"]
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Wenn ich du wäre, würde ich das Praktikum machen.",
+          "answers": [
+            "Se fossi in te, farei lo stage.",
+            "Se io fossi in te, farei lo stage.",
+            "Farei lo stage se fossi in te.",
+            "Io, se fossi in te, farei lo stage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "periodo-ipotetico",
+      "title": "Wenn ich könnte …: se + congiuntivo imperfetto + condizionale",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wenn eine Bedingung möglich, aber nicht wirklich ist (ich habe gerade keine Zeit, ich bin nicht reich), steht im se-Satz der congiuntivo imperfetto und im Hauptsatz der condizionale presente – wie im Deutschen: Wenn ich … hätte, würde ich …"
+        },
+        {
+          "type": "table",
+          "head": ["se + congiuntivo imperfetto", "condizionale presente", "Deutsch"],
+          "rows": [
+            ["Se avessi più tempo,", "leggerei di più.", "Wenn ich mehr Zeit hätte, würde ich mehr lesen."],
+            ["Se fossi ricco,", "non lavorerei più.", "Wenn ich reich wäre, würde ich nicht mehr arbeiten."],
+            ["Se potessimo,", "andremmo a vivere al mare.", "Wenn wir könnten, würden wir ans Meer ziehen."],
+            ["Se Sara aprisse un bar,", "ci andrei ogni giorno.", "Wenn Sara eine Bar eröffnen würde, würde ich jeden Tag hingehen."]
+          ]
+        },
+        {
+          "type": "tip",
+          "text": "Nie zweimal condizionale! Im se-Satz steht nie avrei oder sarei: Se avessi tempo … (nicht: Se avrei tempo …). Die Reihenfolge ist frei: Leggerei di più se avessi più tempo."
+        },
+        { "type": "p", "text": "Vergleiche die beiden Arten von Bedingungen:" },
+        {
+          "type": "table",
+          "head": ["Bedingung", "Beispiel"],
+          "rows": [
+            ["wirklich oder wahrscheinlich: se + Präsens / futuro", "Se ho tempo, vengo. / Se avrò tempo, verrò."],
+            ["möglich, aber nicht wirklich: se + congiuntivo imperfetto", "Se avessi tempo, verrei."]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Se fossi in te … = Wenn ich du wäre … / An deiner Stelle …",
+            "Cosa faresti se …? = Was würdest du tun, wenn …?",
+            "Magari + congiuntivo imperfetto = Wenn doch nur …! – Magari avessi più tempo!"
+          ]
+        },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Cosa faresti se vincessi alla lotteria?", "de": "Was würdest du tun, wenn du im Lotto gewinnen würdest?" },
+            { "text": "Se fossi in te, accetterei il lavoro.", "de": "Wenn ich du wäre, würde ich die Stelle annehmen." },
+            { "text": "Magari potessi venire con voi!", "de": "Wenn ich doch nur mit euch kommen könnte!" },
+            { "text": "Se non piovesse, andremmo al mare.", "de": "Wenn es nicht regnen würde, würden wir ans Meer fahren." }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "type": "cloze",
+          "text": "Se avessi più tempo, ___ di più.",
+          "answers": ["viaggerei"],
+          "de": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.",
+          "hint": "viaggiare"
+        },
+        {
+          "type": "cloze",
+          "text": "Se fossi in te, ___ subito.",
+          "answers": ["accetterei"],
+          "de": "Wenn ich du wäre, würde ich sofort annehmen.",
+          "hint": "accettare"
+        },
+        {
+          "type": "cloze",
+          "text": "Cosa ___ se vincessi alla lotteria?",
+          "answers": ["faresti"],
+          "de": "Was würdest du tun, wenn du im Lotto gewinnen würdest?",
+          "hint": "fare"
+        },
+        {
+          "type": "cloze",
+          "text": "Se ___ bel tempo, faremmo una gita.",
+          "answers": ["facesse"],
+          "de": "Wenn schönes Wetter wäre, würden wir einen Ausflug machen.",
+          "hint": "fare"
+        },
+        {
+          "type": "cloze",
+          "text": "Se Jonas ___ in Italia, lo vedrei più spesso.",
+          "answers": ["abitasse", "vivesse"],
+          "de": "Wenn Jonas in Italien wohnen würde, würde ich ihn öfter sehen.",
+          "hint": "abitare"
+        },
+        {
+          "type": "choice",
+          "prompt": "Welcher Satz ist richtig?",
+          "options": ["Se avrei tempo, verrei.", "Se avessi tempo, verrei.", "Se avessi tempo, venissi."],
+          "answer": 1,
+          "explain": "Im se-Satz steht der congiuntivo imperfetto (avessi), im Hauptsatz der condizionale (verrei)."
+        },
+        {
+          "type": "translate",
+          "de": "Wenn ich reich wäre, würde ich eine Weltreise machen.",
+          "answers": [
+            "Se fossi ricco, farei il giro del mondo.",
+            "Se fossi ricca, farei il giro del mondo.",
+            "Se io fossi ricco, farei il giro del mondo.",
+            "Se io fossi ricca, farei il giro del mondo.",
+            "Farei il giro del mondo se fossi ricco.",
+            "Farei il giro del mondo se fossi ricca."
+          ]
+        },
+        {
+          "type": "translate",
+          "de": "Was würdest du tun, wenn du mehr Zeit hättest?",
+          "answers": [
+            "Cosa faresti se avessi più tempo?",
+            "Che cosa faresti se avessi più tempo?",
+            "Che faresti se avessi più tempo?",
+            "Se avessi più tempo, cosa faresti?",
+            "Se avessi più tempo, che cosa faresti?",
+            "Cosa faresti se tu avessi più tempo?",
+            "Se tu avessi più tempo, cosa faresti?"
+          ]
+        },
+        { "type": "order", "de": "Wenn ich könnte, würde ich in Italien bleiben.", "answer": "Se potessi, resterei in Italia." }
+      ]
+    },
+    {
+      "id": "sperare-di",
+      "title": "Wünsche und Ziele: sperare di, decidere di, riuscire a …",
+      "blocks": [
+        { "type": "p", "text": "Bei Wünschen und Zielen folgt oft ein Infinitiv. Achte auf die Präposition:" },
+        {
+          "type": "table",
+          "head": ["Verb", "Beispiel", "Deutsch"],
+          "rows": [
+            ["sperare di", "Spero di trovare un lavoro stabile.", "Ich hoffe, eine feste Arbeit zu finden."],
+            ["sognare di", "Sogno di vivere al mare.", "Ich träume davon, am Meer zu leben."],
+            ["cercare di", "Cerco di studiare ogni giorno.", "Ich versuche, jeden Tag zu lernen."],
+            ["decidere di", "Ho deciso di restare a Bologna.", "Ich habe beschlossen, in Bologna zu bleiben."],
+            ["smettere di", "Ho smesso di lavorare il sabato.", "Ich habe aufgehört, samstags zu arbeiten."],
+            ["riuscire a", "Sono riuscita a superare l'esame.", "Ich habe es geschafft, die Prüfung zu bestehen."],
+            ["cominciare a", "Ho cominciato a studiare lo spagnolo.", "Ich habe angefangen, Spanisch zu lernen."]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sperare di + Infinitiv nimmst du, wenn du selbst das Subjekt bist. Hoffst du etwas für eine andere Person, brauchst du spero che + congiuntivo presente:"
+        },
+        {
+          "type": "table",
+          "head": ["gleiche Person", "andere Person"],
+          "rows": [
+            ["Spero di venire. (Ich hoffe, dass ich komme.)", "Spero che tu venga. (Ich hoffe, dass du kommst.)"],
+            ["Spero di trovare lavoro.", "Spero che Lena trovi lavoro."],
+            ["Speriamo di vincere!", "Speriamo che vinca il Bologna!"]
+          ]
+        },
+        { "type": "tip", "text": "Kurze Antworten: Spero di sì! = Hoffentlich! Spero di no! = Hoffentlich nicht!" },
+        {
+          "type": "examples",
+          "items": [
+            { "text": "Spero di vederti presto.", "de": "Ich hoffe, dich bald zu sehen." },
+            { "text": "Ho deciso di smettere di lavorare la domenica.", "de": "Ich habe beschlossen, sonntags nicht mehr zu arbeiten." },
+            { "text": "Spero che il tuo sogno si avveri.", "de": "Ich hoffe, dass dein Traum in Erfüllung geht." }
+          ]
+        }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Spero ___ vederti presto!", "answers": ["di"], "de": "Ich hoffe, dich bald zu sehen!" },
+        { "type": "cloze", "text": "Non sono riuscita ___ dormire.", "answers": ["a"], "de": "Ich habe es nicht geschafft zu schlafen." },
+        { "type": "cloze", "text": "Ho deciso ___ cambiare lavoro.", "answers": ["di"], "de": "Ich habe beschlossen, die Arbeit zu wechseln." },
+        {
+          "type": "cloze",
+          "text": "Spero che tu ___ il lavoro dei tuoi sogni!",
+          "answers": ["trovi"],
+          "de": "Ich hoffe, dass du die Arbeit deiner Träume findest!",
+          "hint": "trovare"
+        },
+        {
+          "type": "cloze",
+          "text": "Spero che i tuoi genitori ___ venire a trovarti.",
+          "answers": ["possano"],
+          "de": "Ich hoffe, dass deine Eltern dich besuchen kommen können.",
+          "hint": "potere"
+        },
+        {
+          "type": "translate",
+          "de": "Ich hoffe, eine feste Arbeit zu finden.",
+          "answers": ["Spero di trovare un lavoro stabile.", "Io spero di trovare un lavoro stabile.", "Spero di trovare un lavoro fisso."]
+        },
+        { "type": "translate", "de": "Hoffentlich!", "answers": ["Spero di sì!", "Speriamo!", "Lo spero!", "Speriamo di sì!"] },
+        { "type": "order", "de": "Ich habe beschlossen, ein Jahr im Ausland zu leben.", "answer": "Ho deciso di vivere un anno all'estero." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Cosa fareste se …?",
+    "title_de": "Was würdet ihr tun, wenn …?",
+    "lines": [
+      {
+        "speaker": "Marco",
+        "text": "Ragazze, ho comprato un biglietto della lotteria. Cosa fareste se vincessimo?",
+        "de": "Mädels, ich habe ein Lotterielos gekauft. Was würdet ihr tun, wenn wir gewinnen würden?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Facile! Tornerei a Napoli e aprirei finalmente il mio bar vicino al mare.",
+        "de": "Ganz einfach! Ich würde nach Neapel zurückgehen und endlich meine Bar am Meer eröffnen."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Io farei il giro del mondo. E poi comprerei una piccola casa qui a Bologna.",
+        "de": "Ich würde eine Weltreise machen. Und dann würde ich mir eine kleine Wohnung hier in Bologna kaufen."
+      },
+      {
+        "speaker": "Marco",
+        "text": "E tu, Sara, se fossi ricca, lavoreresti ancora?",
+        "de": "Und du, Sara, wenn du reich wärst, würdest du dann noch arbeiten?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Certo! Il bar per me non è un lavoro, è un sogno. E tu, Marco?",
+        "de": "Klar! Die Bar ist für mich keine Arbeit, sie ist ein Traum. Und du, Marco?"
+      },
+      {
+        "speaker": "Marco",
+        "text": "Se avessi tanti soldi, aprirei un ristorante tutto mio. Non per i soldi, ma per la libertà!",
+        "de": "Wenn ich viel Geld hätte, würde ich ein eigenes Restaurant eröffnen. Nicht wegen des Geldes, sondern wegen der Freiheit!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Ma i sogni si possono realizzare anche senza la lotteria, no?",
+        "de": "Aber Träume kann man auch ohne Lotto verwirklichen, oder?"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Hai ragione. Il mio obiettivo è aprire il bar entro cinque anni. Sto già risparmiando.",
+        "de": "Du hast recht. Mein Ziel ist es, die Bar innerhalb von fünf Jahren zu eröffnen. Ich spare schon."
+      },
+      {
+        "speaker": "Marco",
+        "text": "Brava! Ci vuole coraggio. Io invece ho sempre paura di rischiare.",
+        "de": "Super! Dazu gehört Mut. Ich dagegen habe immer Angst, etwas zu riskieren."
+      },
+      {
+        "speaker": "Lena",
+        "text": "Anch'io avevo paura quando mi sono trasferita a Bologna. E adesso ho un lavoro, degli amici… Il mio sogno si è avverato!",
+        "de": "Ich hatte auch Angst, als ich nach Bologna gezogen bin. Und jetzt habe ich eine Arbeit, Freunde … Mein Traum ist wahr geworden!"
+      },
+      { "speaker": "Sara", "text": "E se potessi cambiare una cosa della tua vita?", "de": "Und wenn du eine Sache in deinem Leben ändern könntest?" },
+      {
+        "speaker": "Lena",
+        "text": "Mmm… Se potessi, vedrei più spesso la mia famiglia. Mi mancano tanto.",
+        "de": "Hm … Wenn ich könnte, würde ich meine Familie öfter sehen. Sie fehlen mir sehr."
+      },
+      {
+        "speaker": "Marco",
+        "text": "E io, se avessi più tempo libero, imparerei il tedesco. Così potrei parlare con Jonas!",
+        "de": "Und ich würde Deutsch lernen, wenn ich mehr Freizeit hätte. Dann könnte ich mit Jonas reden!"
+      },
+      {
+        "speaker": "Sara",
+        "text": "Magari! Così non dovrei più fare la traduttrice per voi due!",
+        "de": "Schön wär's! Dann müsste ich nicht mehr für euch zwei dolmetschen!"
+      },
+      {
+        "speaker": "Lena",
+        "text": "Allora facciamo così: tra un anno torniamo qui e vediamo chi ha raggiunto i suoi obiettivi!",
+        "de": "Dann machen wir es so: In einem Jahr kommen wir wieder hierher und schauen, wer seine Ziele erreicht hat!"
+      },
+      {
+        "speaker": "Marco",
+        "text": "Promesso! E speriamo di festeggiare con lo spumante… della lotteria!",
+        "de": "Versprochen! Und hoffen wir, dass wir mit Sekt feiern … vom Lottogewinn!"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "match",
+      "pairs": [
+        ["l'obiettivo", "das Ziel"],
+        ["il desiderio", "der Wunsch"],
+        ["la libertà", "die Freiheit"],
+        ["il coraggio", "der Mut"],
+        ["la felicità", "das Glück"],
+        ["l'occasione", "die Gelegenheit"]
+      ]
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["raggiungere", "erreichen"],
+        ["rinunciare", "verzichten"],
+        ["rischiare", "riskieren"],
+        ["smettere", "aufhören"],
+        ["migliorare", "verbessern"],
+        ["vincere", "gewinnen"]
+      ]
+    },
+    {
+      "type": "cloze",
+      "text": "Il mio ___ è parlare benissimo l'italiano.",
+      "answers": ["obiettivo", "sogno", "desiderio"],
+      "de": "Mein Ziel ist es, sehr gut Italienisch zu sprechen."
+    },
+    { "type": "cloze", "text": "Per cambiare vita ci vuole ___.", "answers": ["coraggio"], "de": "Um sein Leben zu ändern, braucht man Mut." },
+    {
+      "type": "cloze",
+      "text": "Finalmente il mio sogno è diventato ___!",
+      "answers": ["realtà"],
+      "de": "Endlich ist mein Traum Wirklichkeit geworden!"
+    },
+    { "type": "cloze", "text": "Non voglio ___ ai miei sogni.", "answers": ["rinunciare"], "de": "Ich will nicht auf meine Träume verzichten." },
+    {
+      "type": "translate",
+      "de": "Wenn ich mehr Mut hätte, würde ich die Arbeit wechseln.",
+      "answers": ["Se avessi più coraggio, cambierei lavoro.", "Se io avessi più coraggio, cambierei lavoro.", "Cambierei lavoro se avessi più coraggio."]
+    },
+    {
+      "type": "translate",
+      "de": "Ich hoffe, dass mein Wunsch in Erfüllung geht.",
+      "answers": ["Spero che il mio desiderio si avveri.", "Io spero che il mio desiderio si avveri."]
+    },
+    {
+      "type": "translate",
+      "de": "Was wolltest du als Kind werden?",
+      "answers": [
+        "Cosa volevi fare da grande?",
+        "Che cosa volevi fare da grande?",
+        "Che volevi fare da grande?",
+        "Cosa volevi diventare da grande?",
+        "Che cosa volevi diventare da grande?"
+      ]
+    },
+    {
+      "type": "order",
+      "de": "Ich will bis zum Jahresende mein Italienisch verbessern.",
+      "answer": "Voglio migliorare il mio italiano entro la fine dell'anno."
+    },
+    { "type": "order", "de": "Wenn wir mehr Zeit hätten, würden wir öfter reisen.", "answer": "Se avessimo più tempo, viaggeremmo più spesso." },
+    {
+      "type": "listen",
+      "text": "Se potessi scegliere, vivrei in una piccola casa in campagna.",
+      "de": "Wenn ich wählen könnte, würde ich in einem kleinen Haus auf dem Land leben."
+    },
+    {
+      "type": "listen",
+      "text": "Il mio obiettivo è trovare un lavoro stabile e diventare indipendente.",
+      "de": "Mein Ziel ist es, eine feste Arbeit zu finden und unabhängig zu werden."
+    }
+  ]
+}

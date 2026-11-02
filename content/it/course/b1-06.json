@@ -65,24 +65,29 @@
       "note": "Sich bewerben um = candidarsi per. Betonung: mi càndido. Passato prossimo mit essere: mi sono candidata."
     },
     {
-      "id": "domanda",
-      "word": "domanda",
-      "article": "la",
-      "gender": "f",
-      "plural": "le domande",
-      "de": "die Frage; der Antrag",
+      "id": "candidato",
+      "word": "candidato",
+      "article": "il",
+      "gender": "m",
+      "plural": "i candidati",
+      "de": "der Bewerber; der Kandidat",
       "pos": "noun",
-      "example": { "text": "Scusi, avrei una domanda.", "de": "Entschuldigung, ich hätte eine Frage." },
-      "note": "Fare domanda (per un lavoro) = sich (um eine Stelle) bewerben. Fare una domanda = eine Frage stellen."
+      "example": { "text": "Per questo posto ci sono venti candidati.", "de": "Für diese Stelle gibt es zwanzig Bewerber.", "focus": "candidati" },
+      "note": "Für eine Frau: la candidata. Auch: fare domanda per un posto = sich um eine Stelle bewerben."
     },
     {
-      "id": "ripetere",
-      "word": "ripetere",
-      "de": "wiederholen",
-      "pos": "verb",
-      "forms": "ripeto, ripeti, ripete, ripetiamo, ripetete, ripetono",
-      "example": { "text": "Scusi, può ripetere la domanda?", "de": "Entschuldigung, können Sie die Frage wiederholen?", "focus": "ripetere" },
-      "note": "Betonung: ripèto. Höflicher: Potrebbe ripetere, per favore?"
+      "id": "sfida",
+      "word": "sfida",
+      "article": "la",
+      "gender": "f",
+      "plural": "le sfide",
+      "de": "die Herausforderung",
+      "pos": "noun",
+      "example": {
+        "text": "Un nuovo lavoro in un altro paese è una bella sfida.",
+        "de": "Eine neue Arbeit in einem anderen Land ist eine schöne Herausforderung."
+      },
+      "note": "Mi piacciono le sfide. = Ich mag Herausforderungen."
     },
     {
       "id": "lettera-di-presentazione",

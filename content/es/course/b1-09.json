@@ -1,0 +1,169 @@
+{
+  "formatVersion": 1,
+  "id": "es-b1-09",
+  "lang": "es",
+  "level": "B1",
+  "number": 9,
+  "title": "Echar una mano",
+  "title_de": "Gesellschaft",
+  "topic": "Alltag und Zusammenhalt",
+  "goals": [
+    "Du kannst wiedergeben, was andere gesagt oder gefragt haben: Dice que …, Me dijo que …, Me preguntó si …",
+    "Du verstehst und benutzt das Passiv mit se und mit ser + Partizip: Se organizan cursos. La asociación fue fundada en 2015.",
+    "Du kannst Umfragen und Entwicklungen beschreiben: la mayoría de, la mitad de, cada vez más, casi nadie.",
+    "Du kannst über Ehrenamt, Nachbarschaftshilfe und Zusammenhalt sprechen."
+  ],
+  "vocab": [
+    { "id": "sociedad", "word": "sociedad", "article": "la", "gender": "f", "plural": "las sociedades", "de": "die Gesellschaft", "pos": "noun", "example": { "text": "La sociedad española ha cambiado mucho en los últimos años.", "de": "Die spanische Gesellschaft hat sich in den letzten Jahren stark verändert." } },
+    { "id": "ciudadano", "word": "ciudadano", "article": "el", "gender": "m", "plural": "los ciudadanos", "de": "der Bürger", "pos": "noun", "example": { "text": "El ayuntamiento quiere escuchar a los ciudadanos.", "de": "Die Stadtverwaltung will den Bürgern zuhören." }, "note": "la ciudadana = die Bürgerin." },
+    { "id": "ayuntamiento", "word": "ayuntamiento", "article": "el", "gender": "m", "plural": "los ayuntamientos", "de": "die Stadtverwaltung; das Rathaus", "pos": "noun", "example": { "text": "El ayuntamiento ha abierto un centro para personas mayores.", "de": "Die Stadt hat ein Zentrum für Senioren eröffnet." }, "note": "Gemeint ist die Gemeinde als Verwaltung und auch das Gebäude." },
+    { "id": "asociacion", "word": "asociación", "article": "la", "gender": "f", "plural": "las asociaciones", "de": "der Verein; die Vereinigung", "pos": "noun", "example": { "text": "Diego colabora con una asociación de vecinos.", "de": "Diego hilft bei einem Nachbarschaftsverein mit." }, "note": "Mehrzahl ohne Akzent: las asociaciones." },
+    { "id": "presidente", "word": "presidente", "article": "el", "gender": "m", "plural": "los presidentes", "de": "der Vorsitzende; der Präsident", "pos": "noun", "example": { "text": "La presidenta de la asociación se llama Pilar.", "de": "Die Vorsitzende des Vereins heißt Pilar.", "focus": "presidenta" }, "note": "la presidenta = die Vorsitzende, die Präsidentin." },
+    { "id": "voluntario", "word": "voluntario", "article": "el", "gender": "m", "plural": "los voluntarios", "de": "der Freiwillige; der Ehrenamtliche", "pos": "noun", "example": { "text": "Los sábados Diego trabaja de voluntario.", "de": "Samstags arbeitet Diego ehrenamtlich." }, "note": "la voluntaria. Als Adjektiv: freiwillig." },
+    { "id": "voluntariado", "word": "voluntariado", "article": "el", "gender": "m", "de": "die Freiwilligenarbeit; das Ehrenamt", "pos": "noun", "example": { "text": "El voluntariado es muy importante para la asociación.", "de": "Die Freiwilligenarbeit ist für den Verein sehr wichtig." }, "note": "hacer voluntariado = ehrenamtlich arbeiten." },
+    { "id": "solidario", "word": "solidario", "alt": ["solidaria"], "de": "solidarisch; hilfsbereit", "pos": "adj", "example": { "text": "Los vecinos de este barrio son muy solidarios.", "de": "Die Nachbarn in diesem Viertel sind sehr hilfsbereit.", "focus": "solidarios" } },
+    { "id": "solidaridad", "word": "solidaridad", "article": "la", "gender": "f", "de": "die Solidarität; der Zusammenhalt", "pos": "noun", "example": { "text": "En la crisis hubo mucha solidaridad entre los vecinos.", "de": "In der Krise gab es viel Zusammenhalt unter den Nachbarn." } },
+    { "id": "confianza", "word": "confianza", "article": "la", "gender": "f", "de": "das Vertrauen", "pos": "noun", "example": { "text": "Entre los vecinos hay mucha confianza.", "de": "Unter den Nachbarn gibt es viel Vertrauen." } },
+    { "id": "echar-una-mano", "word": "echar una mano", "de": "helfen; mit anpacken", "pos": "phrase", "example": { "text": "¿Me echas una mano con las bolsas?", "de": "Hilfst du mir mit den Taschen?", "focus": "echas una mano" }, "note": "Wörtlich: „eine Hand werfen“. Sehr häufig im Alltag." },
+    { "id": "colaborar", "word": "colaborar", "de": "mitarbeiten; mithelfen", "pos": "verb", "example": { "text": "Muchos estudiantes colaboran con la asociación.", "de": "Viele Studenten helfen im Verein mit.", "focus": "colaboran" } },
+    { "id": "participar", "word": "participar", "de": "teilnehmen; mitmachen", "pos": "verb", "example": { "text": "Más de cien vecinos participaron en la fiesta del barrio.", "de": "Über hundert Nachbarn haben beim Stadtteilfest mitgemacht.", "focus": "participaron" }, "note": "participar en algo = bei etwas mitmachen." },
+    { "id": "apoyar", "word": "apoyar", "de": "unterstützen", "pos": "verb", "example": { "text": "El ayuntamiento apoya a las asociaciones del barrio.", "de": "Die Stadt unterstützt die Vereine im Viertel.", "focus": "apoya" } },
+    { "id": "donar", "word": "donar", "de": "spenden", "pos": "verb", "example": { "text": "Mucha gente dona ropa y comida.", "de": "Viele Leute spenden Kleidung und Essen.", "focus": "dona" } },
+    { "id": "banco-de-alimentos", "word": "banco de alimentos", "article": "el", "gender": "m", "plural": "los bancos de alimentos", "de": "die Tafel (Lebensmittelhilfe)", "pos": "noun", "example": { "text": "Los voluntarios del banco de alimentos recogen comida en los supermercados.", "de": "Die Freiwilligen der Tafel sammeln in Supermärkten Lebensmittel." }, "note": "los alimentos = die Lebensmittel." },
+    { "id": "recoger", "word": "recoger", "de": "sammeln; abholen; aufräumen", "pos": "verb", "forms": "recojo, recoges, recoge, recogemos, recogéis, recogen", "example": { "text": "Mañana recojo a mi abuela en la estación.", "de": "Morgen hole ich meine Oma am Bahnhof ab.", "focus": "recojo" }, "note": "g → j in der ich-Form, damit die Aussprache gleich bleibt." },
+    { "id": "acompanar", "word": "acompañar", "de": "begleiten", "pos": "verb", "example": { "text": "¿Me acompañas a la estación?", "de": "Begleitest du mich zum Bahnhof?", "focus": "acompañas" } },
+    { "id": "soledad", "word": "soledad", "article": "la", "gender": "f", "de": "die Einsamkeit", "pos": "noun", "example": { "text": "La soledad es un problema para muchas personas mayores.", "de": "Einsamkeit ist für viele ältere Menschen ein Problem." } },
+    { "id": "solo", "word": "solo", "alt": ["sola"], "de": "allein; einsam", "pos": "adj", "example": { "text": "Mi vecina vive sola desde hace diez años.", "de": "Meine Nachbarin lebt seit zehn Jahren allein.", "focus": "sola" }, "note": "Als Adverb heißt solo „nur“: Solo tengo diez euros." },
+    { "id": "nieto", "word": "nieto", "article": "el", "gender": "m", "plural": "los nietos", "de": "der Enkel", "pos": "noun", "example": { "text": "Pilar tiene cuatro nietos.", "de": "Pilar hat vier Enkel." }, "note": "la nieta = die Enkelin." },
+    { "id": "costumbre", "word": "costumbre", "article": "la", "gender": "f", "plural": "las costumbres", "de": "die Gewohnheit; der Brauch", "pos": "noun", "example": { "text": "Comer en familia los domingos es una costumbre muy española.", "de": "Sonntags mit der Familie zu essen ist ein sehr spanischer Brauch." }, "note": "tener la costumbre de … = die Gewohnheit haben, … zu" },
+    { "id": "poblacion", "word": "población", "article": "la", "gender": "f", "plural": "las poblaciones", "de": "die Bevölkerung; die Einwohnerzahl", "pos": "noun", "example": { "text": "Madrid tiene una población de más de tres millones de personas.", "de": "Madrid hat über drei Millionen Einwohner." } },
+    { "id": "segun", "word": "según", "de": "laut; gemäß; je nach", "pos": "prep", "example": { "text": "Según el periódico, el barrio necesita más voluntarios.", "de": "Laut der Zeitung braucht das Viertel mehr Freiwillige." }, "note": "Según tú … = Deiner Meinung nach … Und als Antwort: Según. = Kommt darauf an." },
+    { "id": "encuesta", "word": "encuesta", "article": "la", "gender": "f", "plural": "las encuestas", "de": "die Umfrage", "pos": "noun", "example": { "text": "El periódico ha hecho una encuesta en el barrio.", "de": "Die Zeitung hat im Viertel eine Umfrage gemacht." } },
+    { "id": "mayoria", "word": "mayoría", "article": "la", "gender": "f", "de": "die Mehrheit; die meisten", "pos": "noun", "example": { "text": "La mayoría de mis amigos vive en el centro.", "de": "Die meisten meiner Freunde wohnen im Zentrum." }, "note": "Nach la mayoría de + Mehrzahl steht das Verb meist in der Einzahl – die Mehrzahl hört man aber auch oft." },
+    { "id": "minoria", "word": "minoría", "article": "la", "gender": "f", "de": "die Minderheit", "pos": "noun", "example": { "text": "Solo una minoría no quiere participar.", "de": "Nur eine Minderheit will nicht mitmachen." } },
+    { "id": "por-ciento", "word": "por ciento", "de": "Prozent", "pos": "phrase", "example": { "text": "El veinte por ciento de los voluntarios son estudiantes.", "de": "Zwanzig Prozent der Freiwilligen sind Studenten." }, "note": "Man schreibt auch 20 %. Davor steht el: el veinte por ciento." },
+    { "id": "cada-vez-mas", "word": "cada vez más", "de": "immer mehr", "pos": "phrase", "example": { "text": "El barrio es cada vez más caro.", "de": "Das Viertel wird immer teurer." }, "note": "Das Gegenteil: cada vez menos = immer weniger." },
+    { "id": "nadie", "word": "nadie", "de": "niemand", "pos": "pron", "example": { "text": "En la fiesta no conocía a nadie.", "de": "Auf der Party kannte ich niemanden." }, "note": "Steht nadie hinter dem Verb, braucht man zusätzlich no. Vor dem Verb nicht: Nadie me ayudó." },
+    { "id": "alguien", "word": "alguien", "de": "jemand", "pos": "pron", "example": { "text": "¿Conoces a alguien con tiempo libre?", "de": "Kennst du jemanden, der Zeit hat?" }, "note": "Das Gegenteil: nadie. Als Objekt bei Personen mit a: Busco a alguien." },
+    { "id": "fundar", "word": "fundar", "de": "gründen", "pos": "verb", "example": { "text": "Cinco vecinas fundaron la asociación.", "de": "Fünf Nachbarinnen haben den Verein gegründet.", "focus": "fundaron" } },
+    { "id": "construir", "word": "construir", "de": "bauen", "pos": "verb", "forms": "construyo, construyes, construye, construimos, construís, construyen", "example": { "text": "El puente fue construido en 1920.", "de": "Die Brücke wurde 1920 gebaut.", "focus": "construido" }, "note": "Indefinido: construyó, construyeron." },
+    { "id": "inaugurar", "word": "inaugurar", "de": "(feierlich) eröffnen", "pos": "verb", "example": { "text": "El nuevo centro se inauguró ayer.", "de": "Das neue Zentrum wurde gestern eröffnet.", "focus": "inauguró" } },
+    { "id": "aumentar", "word": "aumentar", "de": "steigen; zunehmen; erhöhen", "pos": "verb", "example": { "text": "El número de voluntarios ha aumentado mucho.", "de": "Die Zahl der Freiwilligen ist stark gestiegen.", "focus": "aumentado" } },
+    { "id": "preguntar", "word": "preguntar", "de": "fragen", "pos": "verb", "example": { "text": "Me preguntó si quería ayudar.", "de": "Sie fragte mich, ob ich helfen wolle.", "focus": "preguntó" }, "note": "preguntar por alguien = nach jemandem fragen. Die Frage = la pregunta (Lektion 5)." },
+    { "id": "comentar", "word": "comentar", "de": "erwähnen; (beiläufig) sagen; kommentieren", "pos": "verb", "example": { "text": "Diego me comentó que necesitan más voluntarios.", "de": "Diego hat mir erzählt, dass sie mehr Freiwillige brauchen.", "focus": "comentó" } },
+    { "id": "asegurar", "word": "asegurar", "de": "versichern; behaupten", "pos": "verb", "example": { "text": "Pilar asegura que el barrio ha cambiado mucho.", "de": "Pilar versichert, dass sich das Viertel sehr verändert hat.", "focus": "asegura" }, "note": "Auch: versichern im Sinn von Versicherung (el seguro)." },
+    { "id": "anadir", "word": "añadir", "de": "hinzufügen", "pos": "verb", "example": { "text": "Luego añadió que estaba muy contenta.", "de": "Dann fügte sie hinzu, dass sie sehr zufrieden sei.", "focus": "añadió" } },
+    { "id": "por-cierto", "word": "por cierto", "de": "übrigens", "pos": "phrase", "example": { "text": "Por cierto, ¿sabes que Diego es voluntario?", "de": "Übrigens, weißt du, dass Diego ehrenamtlich arbeitet?" } }
+  ],
+  "grammar": [
+    {
+      "id": "estilo-indirecto",
+      "title": "Was andere sagen: dice que …, dijo que …, me preguntó si …",
+      "blocks": [
+        { "type": "p", "text": "In der indirekten Rede gibst du wieder, was jemand gesagt hat. Im Spanischen brauchst du dafür keinen besonderen Konjunktiv wie im Deutschen („sie sagt, sie habe …“), sondern que und die passende Zeit." },
+        { "type": "p", "text": "Steht das Einleitungsverb im Präsens (dice que, explica que …), bleibt die Zeit gleich – nur die Personen ändern sich: Pilar: Vivo sola. → Pilar dice que vive sola." },
+        { "type": "p", "text": "Steht es in der Vergangenheit (dijo que, me contó que, me explicó que …), gehen die Zeiten einen Schritt zurück:" },
+        { "type": "table", "head": ["direkt", "indirekt: dijo que …", "Beispiel"], "rows": [["Präsens: vivo", "Imperfecto: vivía", "Dijo que vivía sola."], ["Perfecto / Indefinido: he trabajado, trabajé", "Pluscuamperfecto: había trabajado", "Dijo que había trabajado en un hospital."], ["Futur: vendré", "Konditional: vendría", "Dijo que vendría el sábado."], ["ir a: voy a ayudar", "iba a + Infinitiv", "Dijo que iba a ayudar."], ["Imperfecto: era", "bleibt: era", "Dijo que antes el barrio era muy tranquilo."]] },
+        { "type": "tip", "text": "Auch Pronomen und Possessive ändern sich: Pilar: Mi hija vive en Valencia. → Pilar dijo que su hija vivía en Valencia. Decir im Indefinido: dije, dijiste, dijo, dijimos, dijisteis, dijeron." },
+        { "type": "p", "text": "Fragen gibst du mit si (ob) oder mit dem Fragewort wieder:" },
+        { "type": "table", "head": ["direkte Frage", "indirekte Frage", "Deutsch"], "rows": [["¿Tienes tiempo?", "Me preguntó si tenía tiempo.", "Sie fragte mich, ob ich Zeit hätte."], ["¿Quieres ayudar?", "Me preguntó si quería ayudar.", "Sie fragte mich, ob ich helfen wolle."], ["¿Dónde vives?", "Me preguntó dónde vivía.", "Er fragte mich, wo ich wohne."], ["¿Cuándo empezaste?", "Le pregunté cuándo había empezado.", "Ich fragte ihn, wann er angefangen habe."]] },
+        { "type": "tip", "text": "Das Fragewort behält seinen Akzent: Me preguntó dónde vivía. Si (ob) hat keinen Akzent." },
+        { "type": "examples", "items": [{ "text": "Diego dice que necesitan más voluntarios.", "de": "Diego sagt, dass sie mehr Freiwillige brauchen." }, { "text": "Pilar me dijo que vivía sola desde hacía diez años.", "de": "Pilar sagte mir, dass sie seit zehn Jahren allein lebe." }, { "text": "La presidenta me explicó que la asociación había empezado con cinco vecinas.", "de": "Die Vorsitzende erklärte mir, dass der Verein mit fünf Nachbarinnen angefangen habe." }, { "text": "Jonas dijo que vendría el sábado.", "de": "Jonas sagte, er werde am Samstag kommen." }, { "text": "Me preguntaron si quería colaborar.", "de": "Sie fragten mich, ob ich mithelfen wolle." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "Pilar: Vivo sola. → Pilar dice que ___ sola.", "answers": ["vive"], "de": "Pilar sagt, dass sie allein lebt.", "hint": "vivir – Präsens" },
+        { "type": "cloze", "text": "Pilar: Vivo sola. → Pilar dijo que ___ sola.", "answers": ["vivía"], "de": "Pilar sagte, dass sie allein lebe.", "hint": "vivir – Imperfecto" },
+        { "type": "cloze", "text": "Diego: Vendré el sábado. → Diego dijo que ___ el sábado.", "answers": ["vendría"], "de": "Diego sagte, er werde am Samstag kommen.", "hint": "venir – Konditional" },
+        { "type": "cloze", "text": "Lucía: He escrito un artículo. → Lucía dijo que ___ escrito un artículo.", "answers": ["había"], "de": "Lucía sagte, sie habe einen Artikel geschrieben." },
+        { "type": "cloze", "text": "¿Tienes tiempo? → Me preguntó ___ tenía tiempo.", "answers": ["si"], "de": "Er fragte mich, ob ich Zeit hätte." },
+        { "type": "cloze", "text": "¿Dónde trabajas? → Me preguntó dónde ___.", "answers": ["trabajaba"], "de": "Sie fragte mich, wo ich arbeite.", "hint": "trabajar – Imperfecto" },
+        { "type": "cloze", "text": "Ayer Marta me ___ que estaba muy contenta en el hotel.", "answers": ["dijo", "contó", "comentó"], "de": "Gestern hat Marta mir gesagt, dass sie im Hotel sehr zufrieden ist.", "hint": "decir – Indefinido" },
+        { "type": "translate", "de": "Diego sagt, dass er am Samstag hilft.", "answers": ["Diego dice que ayuda el sábado.", "Diego dice que el sábado ayuda.", "Diego dice que va a ayudar el sábado.", "Diego dice que ayudará el sábado."] },
+        { "type": "translate", "de": "Sie fragte mich, ob ich Freiwillige werden möchte.", "answers": ["Me preguntó si quería ser voluntaria.", "Me preguntó si quería ser voluntario.", "Ella me preguntó si quería ser voluntaria.", "Ella me preguntó si quería ser voluntario.", "Me preguntó si me gustaría ser voluntaria.", "Me preguntó si me gustaría ser voluntario."] },
+        { "type": "order", "de": "Pilar sagte, dass ihre Tochter in Valencia lebe.", "answer": "Pilar dijo que su hija vivía en Valencia.", "distractors": ["vive"] }
+      ]
+    },
+    {
+      "id": "pasiva",
+      "title": "Das Passiv: se organizan cursos – fue fundada en 2015",
+      "blocks": [
+        { "type": "p", "text": "Wenn es nicht wichtig ist, wer etwas tut, benutzt man im Spanischen meist se + Verb in der 3. Person. Das kennst du schon vom unpersönlichen se (se recicla, se puede – Lektion 3). Das Verb richtet sich nach dem Ding: Einzahl oder Mehrzahl." },
+        { "type": "table", "head": ["Einzahl", "Mehrzahl", "Deutsch"], "rows": [["Se organiza una fiesta.", "Se organizan fiestas.", "Ein Fest wird organisiert. / Feste werden organisiert."], ["Se recoge comida.", "Se recogen alimentos.", "Essen wird gesammelt. / Lebensmittel werden gesammelt."], ["Se busca voluntario.", "Se buscan voluntarios.", "Freiwilliger gesucht. / Freiwillige gesucht."], ["Se habla español.", "Se hablan cinco idiomas.", "Hier wird Spanisch gesprochen. / Hier werden fünf Sprachen gesprochen."]] },
+        { "type": "tip", "text": "Se buscan voluntarios. oder Se alquila piso. liest du oft auf Schildern und in Anzeigen." },
+        { "type": "p", "text": "Das Passiv mit ser + Partizip („wurde gegründet“) ist eher schriftlich: in Zeitungen, Geschichtsbüchern, offiziellen Texten. Wer es getan hat, steht mit por. Das Partizip passt sich an wie ein Adjektiv:" },
+        { "type": "table", "head": ["Spanisch", "Deutsch"], "rows": [["La asociación fue fundada en 2015.", "Der Verein wurde 2015 gegründet."], ["El centro fue construido por los vecinos.", "Das Zentrum wurde von den Nachbarn gebaut."], ["Las casas fueron construidas en 1950.", "Die Häuser wurden 1950 gebaut."], ["El artículo fue escrito por Lucía.", "Der Artikel wurde von Lucía geschrieben."]] },
+        { "type": "tip", "text": "Im Gespräch sagt man lieber se oder aktiv: La asociación se fundó en 2015. / Unas vecinas fundaron la asociación en 2015." },
+        { "type": "examples", "items": [{ "text": "En este barrio se organizan muchas actividades.", "de": "In diesem Viertel werden viele Aktivitäten organisiert." }, { "text": "Cada sábado se reparten cien kilos de comida.", "de": "Jeden Samstag werden hundert Kilo Essen verteilt." }, { "text": "El centro de mayores fue inaugurado por el ayuntamiento.", "de": "Das Seniorenzentrum wurde von der Stadt eröffnet." }, { "text": "¿Cuándo se construyó este puente?", "de": "Wann wurde diese Brücke gebaut?" }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "En la asociación se ___ cursos de informática.", "answers": ["organizan", "ofrecen"], "de": "Im Verein werden EDV-Kurse organisiert.", "hint": "organizar – Mehrzahl" },
+        { "type": "cloze", "text": "Se ___ voluntarios para el sábado.", "answers": ["buscan", "necesitan"], "de": "Freiwillige für Samstag gesucht.", "hint": "buscar" },
+        { "type": "cloze", "text": "Cada semana se ___ comida a cien familias.", "answers": ["reparte"], "de": "Jede Woche wird an hundert Familien Essen verteilt.", "hint": "repartir – Einzahl" },
+        { "type": "cloze", "text": "La asociación fue ___ en 2015.", "answers": ["fundada"], "de": "Der Verein wurde 2015 gegründet.", "hint": "fundar – Partizip" },
+        { "type": "cloze", "text": "Estas casas ___ construidas en 1950.", "answers": ["fueron"], "de": "Diese Häuser wurden 1950 gebaut.", "hint": "ser – Indefinido" },
+        { "type": "cloze", "text": "El artículo fue escrito ___ Lucía.", "answers": ["por"], "de": "Der Artikel wurde von Lucía geschrieben." },
+        { "type": "translate", "de": "Hier wird Deutsch gesprochen.", "answers": ["Aquí se habla alemán.", "Se habla alemán aquí.", "Se habla alemán."] },
+        { "type": "order", "de": "Das Zentrum wurde von den Nachbarn gebaut.", "answer": "El centro fue construido por los vecinos.", "distractors": ["construida"] }
+      ]
+    },
+    {
+      "id": "cantidades",
+      "title": "Wie viele? la mayoría de, la mitad de, cada vez más, casi nadie",
+      "blocks": [
+        { "type": "p", "text": "Mit diesen Ausdrücken beschreibst du Umfragen, Zahlen und Entwicklungen:" },
+        { "type": "table", "head": ["Ausdruck", "Deutsch", "Beispiel"], "rows": [["todos / todas", "alle", "Todos los vecinos se conocen."], ["casi todos", "fast alle", "Casi todos tienen móvil."], ["la mayoría de", "die meisten, die Mehrheit", "La mayoría de los jóvenes usa las redes sociales."], ["la mitad de", "die Hälfte", "La mitad de los voluntarios son jubilados."], ["el treinta por ciento de", "dreißig Prozent", "El treinta por ciento de los vecinos vive solo."], ["muchos / pocos", "viele / wenige", "Pocas personas conocen la asociación."], ["casi nadie", "fast niemand", "Casi nadie escribe cartas."], ["nadie", "niemand", "No vino nadie."]] },
+        { "type": "tip", "text": "Steht nadie hinter dem Verb, braucht man zusätzlich no: No conozco a nadie. Vor dem Verb nicht: Nadie me ayudó." },
+        { "type": "p", "text": "Entwicklungen beschreibst du mit cada vez más und cada vez menos (immer mehr, immer weniger) oder mit aumentar (steigen):" },
+        { "type": "examples", "items": [{ "text": "Cada vez más personas viven solas.", "de": "Immer mehr Menschen leben allein." }, { "text": "Cada vez menos jóvenes ven la tele.", "de": "Immer weniger junge Leute sehen fern." }, { "text": "El barrio es cada vez más caro.", "de": "Das Viertel wird immer teurer." }, { "text": "Según la encuesta, la mayoría de los vecinos quiere más zonas verdes.", "de": "Laut der Umfrage wünscht sich die Mehrheit der Nachbarn mehr Grünflächen." }] },
+        { "type": "tip", "text": "Nach la mayoría de und la mitad de steht das Verb meistens in der Einzahl (la mayoría vive …). Die Mehrzahl hört man aber auch oft (la mayoría de los vecinos viven …). Beides ist richtig." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "La ___ de los vecinos está de acuerdo.", "answers": ["mayoría"], "de": "Die meisten Nachbarn sind einverstanden." },
+        { "type": "cloze", "text": "La ___ de los voluntarios son estudiantes.", "answers": ["mitad"], "de": "Die Hälfte der Freiwilligen sind Studenten." },
+        { "type": "cloze", "text": "Hoy casi ___ escribe cartas.", "answers": ["nadie"], "de": "Heute schreibt fast niemand mehr Briefe." },
+        { "type": "cloze", "text": "No conozco a ___ en este barrio.", "answers": ["nadie"], "de": "Ich kenne niemanden in diesem Viertel." },
+        { "type": "cloze", "text": "Cada vez ___ personas viven solas.", "answers": ["más"], "de": "Immer mehr Menschen leben allein." },
+        { "type": "translate", "de": "Immer weniger junge Leute lesen Zeitung.", "answers": ["Cada vez menos jóvenes leen el periódico.", "Cada vez menos jóvenes leen periódicos."] },
+        { "type": "translate", "de": "Laut der Umfrage hilft die Hälfte der Nachbarn mit.", "answers": ["Según la encuesta, la mitad de los vecinos ayuda.", "Según la encuesta, la mitad de los vecinos ayudan.", "Según la encuesta, la mitad de los vecinos colabora.", "Según la encuesta, la mitad de los vecinos colaboran."] },
+        { "type": "order", "de": "Fast niemand kennt seine Nachbarn.", "answer": "Casi nadie conoce a sus vecinos.", "distractors": ["nada"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Vecinos que ayudan",
+    "title_de": "Nachbarn, die helfen",
+    "lines": [
+      { "speaker": "Jonas", "text": "¿Qué estás escribiendo, Lucía?", "de": "Was schreibst du gerade, Lucía?" },
+      { "speaker": "Lucía", "text": "Un artículo sobre la asociación Barrio Vivo. Ayer le hice una entrevista a la presidenta, Pilar.", "de": "Einen Artikel über den Verein Barrio Vivo. Gestern habe ich die Vorsitzende, Pilar, interviewt." },
+      { "speaker": "Jonas", "text": "¿Y qué te contó?", "de": "Und was hat sie dir erzählt?" },
+      { "speaker": "Lucía", "text": "Me explicó que la asociación fue fundada hace diez años por cinco vecinas jubiladas. Al principio solo querían organizar fiestas en el barrio.", "de": "Sie hat mir erklärt, dass der Verein vor zehn Jahren von fünf Nachbarinnen im Ruhestand gegründet wurde. Am Anfang wollten sie nur Feste im Viertel organisieren." },
+      { "speaker": "Jonas", "text": "¿Y ahora?", "de": "Und jetzt?" },
+      { "speaker": "Lucía", "text": "Ahora tienen más de cien voluntarios. Se recoge comida para el banco de alimentos, se organizan cursos y, sobre todo, se acompaña a personas mayores que viven solas.", "de": "Jetzt haben sie über hundert Freiwillige. Es werden Lebensmittel für die Tafel gesammelt, Kurse organisiert und vor allem ältere Menschen begleitet, die allein leben." },
+      { "speaker": "Jonas", "text": "¡Qué buena idea! Dicen que la soledad es un gran problema en las ciudades.", "de": "Was für eine gute Idee! Man sagt ja, dass Einsamkeit in den Städten ein großes Problem ist." },
+      { "speaker": "Lucía", "text": "Sí. Según una encuesta de la asociación, casi la mitad de los mayores del barrio pasa días enteros sin hablar con nadie.", "de": "Ja. Laut einer Umfrage des Vereins verbringt fast die Hälfte der älteren Menschen im Viertel ganze Tage, ohne mit jemandem zu sprechen." },
+      { "speaker": "Jonas", "text": "¡Qué triste! ¿Y quiénes son los voluntarios?", "de": "Wie traurig! Und wer sind die Freiwilligen?" },
+      { "speaker": "Lucía", "text": "Hay de todo: estudiantes, jubilados, familias… Pilar dijo que cada vez más jóvenes participan. Por cierto, ¡Diego es uno de ellos!", "de": "Alles Mögliche: Studenten, Rentner, Familien … Pilar sagte, dass immer mehr junge Leute mitmachen. Übrigens: Diego ist einer von ihnen!" },
+      { "speaker": "Jonas", "text": "¿Diego? Nunca me lo había dicho.", "de": "Diego? Das hatte er mir nie erzählt." },
+      { "speaker": "Lucía", "text": "Pues sí. Los sábados acompaña a una señora al médico y le hace la compra. La señora me dijo que Diego era como un nieto para ella.", "de": "Doch. Samstags begleitet er eine Dame zum Arzt und kauft für sie ein. Die Dame hat mir gesagt, Diego sei für sie wie ein Enkel." },
+      { "speaker": "Jonas", "text": "¡Qué bonito! Oye, ¿y crees que necesitan más gente?", "de": "Wie schön! Sag mal, glaubst du, sie brauchen noch mehr Leute?" },
+      { "speaker": "Lucía", "text": "Claro. Pilar me preguntó si conocía a alguien con tiempo libre, y le dije que te lo preguntaría a ti.", "de": "Klar. Pilar hat mich gefragt, ob ich jemanden mit freier Zeit kenne, und ich habe ihr gesagt, dass ich dich fragen würde." },
+      { "speaker": "Jonas", "text": "Pues dile que sí. Los sábados por la mañana podría echar una mano.", "de": "Dann sag ihr zu. Samstagvormittags könnte ich mit anpacken." },
+      { "speaker": "Lucía", "text": "¡Genial! Se lo diré hoy mismo.", "de": "Super! Ich sage es ihr noch heute." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["la encuesta", "die Umfrage"], ["la mayoría", "die Mehrheit"], ["la minoría", "die Minderheit"], ["la soledad", "die Einsamkeit"], ["el ayuntamiento", "die Stadtverwaltung"]] },
+    { "type": "match", "pairs": [["colaborar", "mitarbeiten"], ["donar", "spenden"], ["apoyar", "unterstützen"], ["acompañar", "begleiten"], ["fundar", "gründen"]] },
+    { "type": "translate", "de": "Hilfst du mir kurz?", "answers": ["¿Me echas una mano?", "¿Me ayudas?", "¿Me puedes echar una mano?", "¿Puedes echarme una mano?", "¿Me ayudas un momento?"] },
+    { "type": "translate", "de": "Meine Nachbarin lebt allein.", "answers": ["Mi vecina vive sola."] },
+    { "type": "translate", "de": "Laut der Zeitung machen immer mehr junge Leute Freiwilligenarbeit.", "answers": ["Según el periódico, cada vez más jóvenes hacen voluntariado.", "Según el periódico, cada vez más jóvenes son voluntarios.", "Según el periódico, cada vez más jóvenes trabajan de voluntarios."] },
+    { "type": "order", "de": "Lucía fragte Jonas, ob er Zeit habe.", "answer": "Lucía le preguntó a Jonas si tenía tiempo.", "distractors": ["tiene"] },
+    { "type": "order", "de": "Der Verein wurde von fünf Nachbarinnen gegründet.", "answer": "La asociación fue fundada por cinco vecinas.", "distractors": ["fundado"] },
+    { "type": "cloze", "text": "Diego trabaja de ___ los sábados.", "answers": ["voluntario"], "de": "Diego arbeitet samstags ehrenamtlich." },
+    { "type": "cloze", "text": "Muchas personas ___ ropa y comida a la asociación.", "answers": ["donan", "dan"], "de": "Viele Menschen spenden dem Verein Kleidung und Essen." },
+    { "type": "cloze", "text": "Diego ___ a una señora al médico.", "answers": ["acompaña", "lleva"], "de": "Diego begleitet eine Dame zum Arzt." },
+    { "type": "cloze", "text": "¿Conoces a ___ con tiempo libre?", "answers": ["alguien"], "de": "Kennst du jemanden, der Zeit hat?" },
+    { "type": "listen", "text": "Se buscan voluntarios para el banco de alimentos.", "de": "Freiwillige für die Tafel gesucht." },
+    { "type": "listen", "text": "Pilar me dijo que vivía sola desde hacía diez años.", "de": "Pilar hat mir erzählt, dass sie seit zehn Jahren allein lebt." }
+  ]
+}

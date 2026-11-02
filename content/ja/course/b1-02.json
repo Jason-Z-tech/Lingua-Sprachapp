@@ -1,0 +1,166 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-02",
+  "lang": "ja",
+  "level": "B1",
+  "number": 2,
+  "title": "スマホ で 何[なに] が でき ます か。",
+  "title_de": "Medien und Technik",
+  "topic": "Handy, Internet und Nachrichten",
+  "goals": [
+    "Du kannst die Potentialform bilden (つかえる, みられる, こられる) und sagen, was du kannst und was möglich ist.",
+    "Du kannst mit 〜かた sagen, wie man etwas macht (つかいかた), und mit 〜ながら zwei Dinge gleichzeitig tun.",
+    "Du kannst mit 〜ように なりました erzählen, was du jetzt kannst oder was sich verändert hat.",
+    "Du kannst über Handy, Apps, Videos und Nachrichten sprechen."
+  ],
+  "kanji": ["使", "用", "動", "画", "送", "知", "文"],
+  "vocab": [
+    { "id": "douga", "word": "動画[どうが]", "de": "das Video", "pos": "noun", "example": { "text": "毎[まい]晩[ばん] スマホ で 動画[どうが] を 見[み] ます。", "de": "Jeden Abend schaue ich Videos auf dem Smartphone." } },
+    { "id": "gamen", "word": "画[が]面[めん]", "de": "der Bildschirm", "pos": "noun", "example": { "text": "この パソコン は 画[が]面[めん] が 大[おお]きい です。", "de": "Dieser Computer hat einen großen Bildschirm." } },
+    { "id": "bun", "word": "文[ぶん]", "de": "der Satz", "pos": "noun", "example": { "text": "次[つぎ] の 文[ぶん] を 読[よ]んで ください。", "de": "Lies bitte den nächsten Satz." } },
+    { "id": "bunshou", "word": "文[ぶん]章[しょう]", "de": "der Text", "pos": "noun", "example": { "text": "この 文[ぶん]章[しょう] は ちょっと 長[なが]い です ね。", "de": "Dieser Text ist ein bisschen lang." }, "note": "ぶん = ein einzelner Satz, ぶんしょう = ein Text aus mehreren Sätzen." },
+    { "id": "oshirase", "word": "お知[し]らせ", "de": "die Mitteilung; die Benachrichtigung", "pos": "noun", "example": { "text": "アプリ から お知[し]らせ が 来[き] ました。", "de": "Ich habe eine Benachrichtigung von der App bekommen." } },
+    { "id": "tsukaikata", "word": "使[つか]い方[かた]", "de": "die Bedienung; wie man etwas benutzt", "pos": "noun", "example": { "text": "この アプリ の 使[つか]い方[かた] を 教[おし]えて ください。", "de": "Zeig mir bitte, wie man diese App benutzt." } },
+    { "id": "riyou", "word": "利[り]用[よう] し ます", "de": "nutzen; verwenden", "pos": "verb", "forms": "Wörterbuchform りようする · て-Form りようして", "example": { "text": "毎日[まいにち] 電車[でんしゃ] の 中[なか] で ネット を 利[り]用[よう] し ます。", "de": "Jeden Tag nutze ich im Zug das Internet." }, "note": "Etwas förmlicher als つかいます – oft für Dienste und Einrichtungen." },
+    { "id": "housou", "word": "放[ほう]送[そう]", "de": "die Sendung; die Übertragung", "pos": "noun", "example": { "text": "サッカー の 試合[しあい] は 夜[よる] 九時[くじ] から 放[ほう]送[そう] し ます。", "de": "Das Fußballspiel wird ab neun Uhr abends übertragen." }, "note": "ほうそうします = senden, übertragen." },
+    { "id": "ugokimasu", "word": "動[うご]き ます", "de": "sich bewegen; laufen (Gerät)", "pos": "verb", "forms": "Wörterbuchform うごく · て-Form うごいて · ない-Form うごかない", "example": { "text": "古[ふる]い パソコン が 動[うご]き ません。", "de": "Der alte Computer geht nicht mehr.", "focus": "動[うご]き ません" } },
+    { "id": "intaanetto", "word": "インターネット", "de": "das Internet", "pos": "noun", "example": { "text": "インターネット で 何[なん] でも 調[しら]べられ ます。", "de": "Im Internet kann man alles nachschlagen." }, "note": "Kurz: ネット." },
+    { "id": "apuri", "word": "アプリ", "de": "die App", "pos": "noun", "example": { "text": "この アプリ は 無[む]料[りょう] で 使[つか]え ます。", "de": "Diese App kann man kostenlos benutzen." } },
+    { "id": "saito", "word": "サイト", "de": "die Webseite", "pos": "noun", "example": { "text": "駅[えき] の サイト で 時[じ]間[かん] を 調[しら]べ ました。", "de": "Ich habe auf der Webseite des Bahnhofs die Zeiten nachgeschaut." } },
+    { "id": "pasuwaado", "word": "パスワード", "de": "das Passwort", "pos": "noun", "example": { "text": "パスワード を 忘[わす]れ ました。", "de": "Ich habe mein Passwort vergessen." } },
+    { "id": "daunroodo", "word": "ダウンロード し ます", "de": "herunterladen", "pos": "verb", "forms": "Wörterbuchform ダウンロードする · て-Form ダウンロードして", "example": { "text": "新[あたら]しい アプリ を ダウンロード し ました。", "de": "Ich habe eine neue App heruntergeladen.", "focus": "ダウンロード し ました" } },
+    { "id": "appu", "word": "アップ し ます", "de": "hochladen; posten", "pos": "verb", "forms": "Wörterbuchform アップする · て-Form アップして", "example": { "text": "旅行[りょこう] の 写真[しゃしん] を ネット に アップ し ました。", "de": "Ich habe die Reisefotos ins Netz gestellt.", "focus": "アップ し ました" } },
+    { "id": "messeeji", "word": "メッセージ", "de": "die Nachricht (Chat, SMS)", "pos": "noun", "example": { "text": "けん さん に メッセージ を 送[おく]り ました。", "de": "Ich habe Ken eine Nachricht geschickt." } },
+    { "id": "henji", "word": "返[へん]事[じ]", "de": "die Antwort (auf eine Nachricht oder einen Brief)", "pos": "noun", "example": { "text": "ソフィー さん から まだ 返[へん]事[じ] が 来[き]ません。", "de": "Von Sophie kommt noch keine Antwort." }, "note": "へんじを します = antworten. こたえ (Lektion 1) ist die Antwort auf eine Frage." },
+    { "id": "renraku", "word": "連絡[れんらく] し ます", "de": "sich melden; Bescheid geben", "pos": "verb", "forms": "Wörterbuchform れんらくする · て-Form れんらくして", "example": { "text": "あした、 また 連絡[れんらく] し ます。", "de": "Ich melde mich morgen wieder." }, "note": "Bei wem man sich meldet, markiert に: ははに れんらくします." },
+    { "id": "jouhou", "word": "情報[じょうほう]", "de": "die Information(en)", "pos": "noun", "example": { "text": "ネット に は いろいろ な 情報[じょうほう] が あり ます。", "de": "Im Internet gibt es alle möglichen Informationen." } },
+    { "id": "nyuusu", "word": "ニュース", "de": "die Nachrichten", "pos": "noun", "example": { "text": "毎[まい]朝[あさ] スマホ で ニュース を 読[よ]み ます。", "de": "Jeden Morgen lese ich die Nachrichten auf dem Handy." } },
+    { "id": "kiji", "word": "記[き]事[じ]", "de": "der Artikel", "pos": "noun", "example": { "text": "新[しん]聞[ぶん] で おもしろい 記[き]事[じ] を 読[よ]み ました。", "de": "Ich habe in der Zeitung einen interessanten Artikel gelesen." } },
+    { "id": "bangumi", "word": "番組[ばんぐみ]", "de": "die Sendung (Fernsehen, Radio)", "pos": "noun", "example": { "text": "どんな テレビ 番組[ばんぐみ] が 好[す]き です か。", "de": "Was für Fernsehsendungen magst du?" } },
+    { "id": "juuden", "word": "充[じゅう]電[でん] し ます", "de": "aufladen (Akku)", "pos": "verb", "forms": "Wörterbuchform じゅうでんする · て-Form じゅうでんして", "example": { "text": "寝[ね]る 前[まえ] に スマホ を 充[じゅう]電[でん] し ます。", "de": "Vor dem Schlafen lade ich mein Handy auf." } },
+    { "id": "kowaremasu", "word": "こわれ ます", "de": "kaputtgehen", "pos": "verb", "forms": "Wörterbuchform こわれる · て-Form こわれて · た-Form こわれた", "example": { "text": "父[ちち] の パソコン が こわれ ました。", "de": "Der Computer meines Vaters ist kaputtgegangen.", "focus": "こわれ ました" }, "note": "Kanji: 壊れる. Etwas kaputt machen: こわします." },
+    { "id": "naoshimasu", "word": "直[なお]し ます", "de": "reparieren; korrigieren", "pos": "verb", "forms": "Wörterbuchform なおす · て-Form なおして", "example": { "text": "兄[あに] が 私[わたし] の パソコン を 直[なお]して くれ ました。", "de": "Mein Bruder hat meinen Computer repariert.", "focus": "直[なお]して" }, "note": "Auch: Fehler verbessern – さくぶんを なおします. Nicht verwechseln mit なおります (gesund werden, A2)." },
+    { "id": "fuben", "word": "不便[ふべん]", "de": "unpraktisch; umständlich", "pos": "adj", "example": { "text": "この 町[まち] は 駅[えき] が 遠[とお]くて 不便[ふべん] です。", "de": "Diese Stadt ist unpraktisch, weil der Bahnhof weit weg ist." }, "note": "Das Gegenteil von べんり." },
+    { "id": "kantan", "word": "簡単[かんたん]", "de": "einfach; leicht", "pos": "adj", "example": { "text": "この アプリ の 使[つか]い方[かた] は 簡単[かんたん] です。", "de": "Diese App ist einfach zu bedienen." } },
+    { "id": "saikin", "word": "最近[さいきん]", "de": "in letzter Zeit; neulich", "pos": "adv", "example": { "text": "最近[さいきん]、 日本[にほん] の ドラマ を よく 見[み] ます。", "de": "In letzter Zeit schaue ich oft japanische Serien." } },
+    { "id": "kikai", "word": "機械[きかい]", "de": "das Gerät; die Maschine; der Automat", "pos": "noun", "example": { "text": "この 機械[きかい] で 切符[きっぷ] が 買[か]え ます。", "de": "An diesem Automaten kann man Fahrkarten kaufen." } },
+    { "id": "oshimasu", "word": "押[お]し ます", "de": "drücken", "pos": "verb", "forms": "Wörterbuchform おす · て-Form おして", "example": { "text": "この ボタン を 押[お]して ください。", "de": "Drück bitte diesen Knopf.", "focus": "押[お]して" } },
+    { "id": "keshimasu", "word": "消[け]し ます", "de": "ausschalten; löschen", "pos": "verb", "forms": "Wörterbuchform けす · て-Form けして", "example": { "text": "寝[ね]る 前[まえ] に テレビ を 消[け]し ます。", "de": "Vor dem Schlafen schalte ich den Fernseher aus." }, "note": "Auch: löschen – しゃしんを けします." },
+    { "id": "tsukemasu", "word": "つけ ます", "de": "einschalten; anmachen", "pos": "verb", "forms": "Wörterbuchform つける · て-Form つけて", "example": { "text": "暗[くら]い です ね。 電気[でんき] を つけ ましょう か。", "de": "Es ist dunkel. Soll ich das Licht anmachen?", "focus": "つけ ましょう" } },
+    { "id": "choushi", "word": "調[ちょう]子[し]", "de": "der Zustand; die Verfassung", "pos": "noun", "example": { "text": "最近[さいきん]、 スマホ の 調[ちょう]子[し] が 悪[わる]い です。", "de": "In letzter Zeit funktioniert mein Handy nicht richtig." }, "note": "Auch für Menschen: ちょうしが いい = gut in Form sein." },
+    { "id": "shiriai", "word": "知[し]り合[あ]い", "de": "der/die Bekannte", "pos": "noun", "example": { "text": "東[とう]京[きょう] に 知[し]り合[あ]い が い ます か。", "de": "Hast du Bekannte in Tokio?" }, "note": "しりあいに なります = sich kennenlernen." },
+    { "id": "itsudemo", "word": "いつでも", "de": "jederzeit; immer", "pos": "adv", "example": { "text": "この 動画[どうが] は いつでも 見[み]られ ます。", "de": "Dieses Video kann man jederzeit anschauen." } },
+    { "id": "dokodemo", "word": "どこでも", "de": "überall", "pos": "adv", "example": { "text": "今[いま] は どこでも ネット が 使[つか]え ます。", "de": "Heute kann man überall das Internet nutzen." } },
+    { "id": "nagara", "word": "〜ながら", "de": "während; gleichzeitig", "pos": "conj", "example": { "text": "音楽[おんがく] を 聞[き]き ながら 勉強[べんきょう] し ます。", "de": "Ich lerne und höre dabei Musik.", "focus": "ながら" } }
+  ],
+  "grammar": [
+    {
+      "id": "kanoukei",
+      "title": "Die Potentialform: können – つかえる, みられる, こられる",
+      "blocks": [
+        { "type": "p", "text": "„Können“ kennst du schon als 〜ことが できます (A2, Lektion 9). Kürzer und viel häufiger ist die Potentialform: Das Verb selbst bekommt eine Endung. つかう (benutzen) → つかえる (benutzen können)." },
+        { "type": "p", "text": "Gruppe 1: Der u-Laut am Ende wird zum e-Laut, dann kommt る dazu. Höflich: 〜えます." },
+        { "type": "table", "head": ["Wörterbuchform", "Potentialform", "höflich", "Deutsch"], "rows": [["使[つか]う", "使[つか]える", "使[つか]え ます", "benutzen können"], ["書[か]く", "書[か]ける", "書[か]け ます", "schreiben können"], ["およぐ", "およげる", "およげ ます", "schwimmen können"], ["話[はな]す", "話[はな]せる", "話[はな]せ ます", "sprechen können"], ["待[ま]つ", "待[ま]てる", "待[ま]て ます", "warten können"], ["遊[あそ]ぶ", "遊[あそ]べる", "遊[あそ]べ ます", "spielen können"], ["読[よ]む", "読[よ]める", "読[よ]め ます", "lesen können"], ["帰[かえ]る", "帰[かえ]れる", "帰[かえ]れ ます", "nach Hause gehen können"]] },
+        { "type": "p", "text": "Gruppe 2: る weg, られる dran. Gruppe 3 ist unregelmäßig: する wird zu できる, くる zu こられる." },
+        { "type": "table", "head": ["Gruppe", "Wörterbuchform", "Potentialform", "höflich"], "rows": [["2", "見[み]る", "見[み]られる", "見[み]られ ます"], ["2", "食[た]べる", "食[た]べられる", "食[た]べられ ます"], ["2", "起[お]きる", "起[お]きられる", "起[お]きられ ます"], ["3", "する", "できる", "でき ます"], ["3", "来[く]る", "来[こ]られる", "来[こ]られ ます"], ["3", "運転[うんてん] する", "運転[うんてん] できる", "運転[うんてん] でき ます"]] },
+        { "type": "p", "text": "Die Potentialform ist selbst ein Verb der Gruppe 2. Verneinung und Vergangenheit bildest du also wie bei たべる: つかえない, つかえた, つかえなかった – höflich つかえません, つかえました, つかえませんでした." },
+        { "type": "tip", "text": "Das Objekt bekommt bei der Potentialform meist が statt を: にほんごが はなせます, かんじが よめます. を hörst du aber auch, besonders in längeren Sätzen." },
+        { "type": "tip", "text": "Im Alltag hörst du oft みれる und これる statt みられる und こられる (ohne ら). Das ist umgangssprachlich – in Prüfungen und höflichen Situationen sag besser みられる und こられる." },
+        { "type": "p", "text": "Die Potentialform sagt nicht nur, was jemand gelernt hat (Fähigkeit), sondern auch, was möglich ist: ここで しゃしんが とれます = Hier kann man fotografieren." },
+        { "type": "examples", "items": [{ "text": "アンナ さん は 漢[かん]字[じ] が たくさん 読[よ]め ます。", "de": "Anna kann viele Kanji lesen." }, { "text": "この アプリ で 日本[にほん] の テレビ が 見[み]られ ます。", "de": "Mit dieser App kann man japanisches Fernsehen sehen." }, { "text": "あした は 仕事[しごと] が ある ので、 パーティー に 来[こ]られ ません。", "de": "Morgen muss ich arbeiten, deshalb kann ich nicht zur Party kommen." }, { "text": "けん さん は ドイツ語[ご] が 少[すこ]し 話[はな]せ ます。", "de": "Ken kann ein bisschen Deutsch sprechen." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "アンナ さん は 日本[にほん] の 新[しん]聞[ぶん] が ___。", "answers": ["読[よ]め ます"], "de": "Anna kann japanische Zeitungen lesen.", "hint": "よむ → können" },
+        { "type": "cloze", "text": "この 店[みせ] で は カード が ___。", "answers": ["使[つか]え ます"], "de": "In diesem Laden kann man mit Karte bezahlen.", "hint": "つかう → können" },
+        { "type": "cloze", "text": "あした、 朝[あさ] 六時[ろくじ] に ___ か。", "answers": ["起[お]きられ ます", "起[お]きれ ます"], "de": "Kannst du morgen um sechs Uhr aufstehen?", "hint": "おきる → können" },
+        { "type": "cloze", "text": "すみません、 あした は ___。", "answers": ["来[こ]られ ません", "来[こ]れ ません", "行[い]け ません"], "de": "Entschuldigung, morgen kann ich nicht kommen.", "hint": "くる → können, verneint" },
+        { "type": "cloze", "text": "けん さん は 車[くるま] の 運転[うんてん] が ___。", "answers": ["でき ます"], "de": "Ken kann Auto fahren." },
+        { "type": "match", "pairs": [["話[はな]せる", "sprechen können"], ["見[み]られる", "sehen können"], ["来[こ]られる", "kommen können"], ["できる", "machen können"], ["読[よ]める", "lesen können"], ["待[ま]てる", "warten können"]] },
+        { "type": "translate", "de": "Ich kann ein bisschen Japanisch sprechen.", "answers": ["私[わたし] は 日本語[にほんご] が 少[すこ]し 話[はな]せ ます。", "日本語[にほんご] が 少[すこ]し 話[はな]せ ます。", "私[わたし] は 少[すこ]し 日本語[にほんご] が 話[はな]せ ます。", "少[すこ]し 日本語[にほんご] が 話[はな]せ ます。", "私[わたし] は 日本語[にほんご] を 少[すこ]し 話[はな]せ ます。", "日本語[にほんご] を 少[すこ]し 話[はな]せ ます。", "私[わたし] は 日本語[にほんご] が 少[すこ]し でき ます。", "日本語[にほんご] が 少[すこ]し でき ます。"] },
+        { "type": "translate", "de": "Hier kann man nicht fotografieren.", "answers": ["ここ で は 写真[しゃしん] が とれ ません。", "ここ で は 写真[しゃしん] を とれ ません。", "ここ で 写真[しゃしん] が とれ ません。", "ここ で 写真[しゃしん] を とれ ません。", "ここ で は 写真[しゃしん] を とる こと が でき ません。", "ここ で 写真[しゃしん] を とる こと が でき ません。"] },
+        { "type": "order", "de": "Mit dieser App kann man auch deutsche Nachrichten sehen.", "answer": "この アプリ で ドイツ の ニュース も 見[み]られ ます。", "distractors": ["見[み]ます"] }
+      ]
+    },
+    {
+      "id": "kata-nagara",
+      "title": "Wie man etwas macht: 〜かた – und gleichzeitig: 〜ながら",
+      "blocks": [
+        { "type": "p", "text": "Mit 〜かた (方) sagst du „die Art, etwas zu tun“: Nimm die ます-Form ohne ます und hänge かた an. Das Ergebnis ist ein Nomen." },
+        { "type": "table", "head": ["ます-Form", "+ かた", "Deutsch"], "rows": [["使[つか]い ます", "使[つか]い方[かた]", "die Bedienung; wie man es benutzt"], ["読[よ]み ます", "読[よ]み方[かた]", "die Lesung; wie man es liest"], ["書[か]き ます", "書[か]き方[かた]", "die Schreibweise"], ["作[つく]り ます", "作[つく]り方[かた]", "das Rezept; wie man es macht"], ["行[い]き ます", "行[い]き方[かた]", "der Weg dorthin"], ["勉強[べんきょう] し ます", "勉強[べんきょう] の し方[かた]", "die Lernmethode"]] },
+        { "type": "tip", "text": "Weil 〜かた ein Nomen ist, steht davor の statt を: アプリの つかいかた (nicht: アプリを つかいかた). Bei する-Verben: べんきょうの しかた." },
+        { "type": "p", "text": "〜ながら heißt „während, gleichzeitig“: Eine Person macht zwei Dinge zur selben Zeit. Auch hier nimmst du die ます-Form ohne ます. Die Hauptsache steht am Ende, die Nebensache vor ながら." },
+        { "type": "table", "head": ["Nebensache + ながら", "Hauptsache", "Deutsch"], "rows": [["音楽[おんがく] を 聞[き]き ながら", "勉強[べんきょう] し ます。", "Ich lerne und höre dabei Musik."], ["歩[ある]き ながら", "電話[でんわ] し ます。", "Ich telefoniere beim Gehen."], ["テレビ を 見[み] ながら", "ご飯[はん] を 食[た]べ ます。", "Ich esse beim Fernsehen."], ["働[はたら]き ながら", "大学[だいがく] に 通[かよ]って い ます。", "Ich studiere neben der Arbeit."]] },
+        { "type": "tip", "text": "Zeit und Höflichkeit stehen nur am Satzende: ラジオを ききながら りょうりを しました. Beide Handlungen macht dieselbe Person." },
+        { "type": "examples", "items": [{ "text": "スマホ を 見[み] ながら 歩[ある]か ないで ください。", "de": "Lauf bitte nicht herum, während du aufs Handy schaust." }, { "text": "コーヒー を 飲[の]み ながら 新[しん]聞[ぶん] を 読[よ]み ます。", "de": "Ich lese die Zeitung und trinke dabei Kaffee." }, { "text": "駅[えき] まで の 行[い]き方[かた] が わかり ません。", "de": "Ich weiß nicht, wie man zum Bahnhof kommt." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "この 機械[きかい] の ___ が わかり ません。", "answers": ["使[つか]い方[かた]"], "de": "Ich weiß nicht, wie man dieses Gerät bedient." },
+        { "type": "cloze", "text": "この 漢[かん]字[じ] の 読[よ]み___ を 教[おし]えて ください。", "answers": ["方[かた]", "かた"], "de": "Sag mir bitte, wie man dieses Kanji liest." },
+        { "type": "cloze", "text": "音楽[おんがく] を 聞[き]き ___ 料理[りょうり] を し ます。", "answers": ["ながら"], "de": "Ich koche und höre dabei Musik." },
+        { "type": "cloze", "text": "お茶[ちゃ] を ___ ながら 話[はな]し ましょう。", "answers": ["飲[の]み"], "de": "Lass uns bei einem Tee reden." },
+        { "type": "translate", "de": "Zeig mir bitte, wie man diesen Kuchen macht.", "answers": ["この ケーキ の 作[つく]り方[かた] を 教[おし]えて ください。"] },
+        { "type": "translate", "de": "Ich lerne und höre dabei Musik.", "answers": ["私[わたし] は 音楽[おんがく] を 聞[き]き ながら 勉強[べんきょう] し ます。", "音楽[おんがく] を 聞[き]き ながら 勉強[べんきょう] し ます。"] },
+        { "type": "order", "de": "Lauf bitte nicht herum, während du aufs Handy schaust.", "answer": "スマホ を 見[み] ながら 歩[ある]か ないで ください。", "distractors": ["見[み]て"] }
+      ]
+    },
+    {
+      "id": "you-ni-narimashita",
+      "title": "Veränderungen: 〜ように なりました / 〜なく なりました",
+      "blocks": [
+        { "type": "p", "text": "〜く なります und 〜に なります kennst du für Adjektive und Nomen (A2, Lektion 4). Für Verben brauchst du 〜ように なります: Wörterbuchform + ように なりました = „jetzt (endlich) …“, „inzwischen …“." },
+        { "type": "p", "text": "Besonders oft steht davor die Potentialform: So erzählst du, was du durch Übung jetzt kannst." },
+        { "type": "table", "head": ["vorher", "jetzt", "Deutsch"], "rows": [["漢[かん]字[じ] が 読[よ]め ません でした。", "漢[かん]字[じ] が 読[よ]める ように なり ました。", "Jetzt kann ich Kanji lesen."], ["およげ ません でした。", "およげる ように なり ました。", "Ich kann jetzt schwimmen."], ["ニュース を 見[み] ません でした。", "毎[まい]朝[あさ] ニュース を 見[み]る ように なり ました。", "Inzwischen schaue ich jeden Morgen Nachrichten."], ["祖[そ]母[ぼ] は スマホ が 使[つか]え ません でした。", "祖[そ]母[ぼ] も スマホ が 使[つか]える ように なり ました。", "Auch meine Oma kann jetzt ein Smartphone benutzen."]] },
+        { "type": "p", "text": "Für das Gegenteil („nicht mehr“) nimmst du die ない-Form: ない wird zu なく なりました." },
+        { "type": "table", "head": ["ない-Form", "〜なく なりました", "Deutsch"], "rows": [["読[よ]まない", "新[しん]聞[ぶん] を 読[よ]まなく なり ました。", "Ich lese keine Zeitung mehr."], ["見[み]ない", "テレビ を 見[み]なく なり ました。", "Ich sehe nicht mehr fern."], ["動[うご]かない", "パソコン が 動[うご]かなく なり ました。", "Der Computer geht nicht mehr."], ["使[つか]えない", "この アプリ は 使[つか]えなく なり ました。", "Diese App kann man nicht mehr benutzen."]] },
+        { "type": "tip", "text": "Mit さいきん („in letzter Zeit“), だんだん („allmählich“) oder やっと („endlich“) klingt die Veränderung ganz natürlich: さいきん、 ドラマが わかるように なりました." },
+        { "type": "examples", "items": [{ "text": "最近[さいきん]、 日本語[にほんご] の ニュース が わかる ように なり ました。", "de": "In letzter Zeit verstehe ich die japanischen Nachrichten." }, { "text": "子[こ]ども は 十[じゅっ]さい ぐらい で 自[じ]分[ぶん] の スマホ を 使[つか]う ように なり ます。", "de": "Mit etwa zehn fangen Kinder an, ein eigenes Smartphone zu benutzen." }, { "text": "スマホ で 新[しん]聞[ぶん] を 読[よ]む ので、 紙[かみ] の 新[しん]聞[ぶん] は 買[か]わなく なり ました。", "de": "Weil ich die Zeitung auf dem Handy lese, kaufe ich keine gedruckte mehr." }] }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "日本語[にほんご] の ドラマ が わかる ___ なり ました。", "answers": ["ように"], "de": "Inzwischen verstehe ich japanische Serien." },
+        { "type": "cloze", "text": "やっと 自転[じてん]車[しゃ] に ___ ように なり ました。", "answers": ["乗[の]れる"], "de": "Endlich kann ich Fahrrad fahren.", "hint": "のる → können" },
+        { "type": "cloze", "text": "最近[さいきん]、 テレビ を 見[み]___ なり ました。", "answers": ["なく"], "de": "In letzter Zeit sehe ich nicht mehr fern." },
+        { "type": "cloze", "text": "毎[まい]朝[あさ] 新[しん]聞[ぶん] を 読[よ]む ように ___。", "answers": ["なり ました"], "de": "Inzwischen lese ich jeden Morgen Zeitung." },
+        { "type": "translate", "de": "Ich kann jetzt Kanji lesen.", "answers": ["私[わたし] は 漢[かん]字[じ] が 読[よ]める ように なり ました。", "私[わたし] は 漢[かん]字[じ] を 読[よ]める ように なり ました。", "漢[かん]字[じ] が 読[よ]める ように なり ました。", "漢[かん]字[じ] を 読[よ]める ように なり ました。"] },
+        { "type": "translate", "de": "Mein Computer geht nicht mehr.", "answers": ["私[わたし] の パソコン が 動[うご]かなく なり ました。", "パソコン が 動[うご]かなく なり ました。"] },
+        { "type": "order", "de": "Auch meine Großmutter kann jetzt Nachrichten schicken.", "answer": "祖[そ]母[ぼ] も メッセージ が 送[おく]れる ように なり ました。", "distractors": ["送[おく]り"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "おばあさん の スマホ",
+    "title_de": "Omas Smartphone",
+    "lines": [
+      { "speaker": "けん", "text": "アンナ さん、 この アプリ の 使[つか]い方[かた] が よく わかり ません。 ちょっと 教[おし]えて ください。", "de": "Anna, ich verstehe nicht richtig, wie diese App funktioniert. Kannst du es mir kurz zeigen?" },
+      { "speaker": "アンナ", "text": "いい です よ。 何[なん] の アプリ です か。", "de": "Klar. Was für eine App ist das?" },
+      { "speaker": "けん", "text": "ビデオ 電話[でんわ] の アプリ です。 これ で 長[なが]野[の] の 祖[そ]母[ぼ] と 話[はな]せ ます。", "de": "Eine App für Videoanrufe. Damit kann ich mit meiner Oma in Nagano sprechen." },
+      { "speaker": "アンナ", "text": "へえ、 おばあさん も スマホ が 使[つか]え ます か。", "de": "Oh, kann deine Oma auch ein Smartphone benutzen?" },
+      { "speaker": "けん", "text": "はい。 前[まえ] は ぜんぜん 使[つか]え ません でした が、 最近[さいきん] メッセージ が 送[おく]れる ように なり ました。", "de": "Ja. Früher konnte sie es überhaupt nicht, aber in letzter Zeit kann sie Nachrichten schicken." },
+      { "speaker": "アンナ", "text": "すごい です ね！ じゃあ、 まず この ボタン を 押[お]して ください。", "de": "Toll! Dann drück zuerst diesen Knopf." },
+      { "speaker": "けん", "text": "はい。 あ、 祖[そ]母[ぼ] の 名前[なまえ] が あり ます。", "de": "Okay. Ah, da ist der Name meiner Oma." },
+      { "speaker": "アンナ", "text": "その 名前[なまえ] を 押[お]して、 少[すこ]し 待[ま]って ください。", "de": "Drück auf den Namen und warte kurz." },
+      { "speaker": "けん", "text": "あれ？ 動[うご]き ません ね。", "de": "Hm? Es tut sich nichts." },
+      { "speaker": "アンナ", "text": "あ、 充[じゅう]電[でん] が もう 少[すく]ない です よ。 充[じゅう]電[でん] し ながら 使[つか]って ください。", "de": "Ah, dein Akku ist fast leer. Benutz es, während es lädt." },
+      { "speaker": "けん", "text": "本[ほん]当[とう] だ。 …あ、 祖[そ]母[ぼ] が 画[が]面[めん] に 出[で]ました！", "de": "Stimmt. … Oh, da ist meine Oma auf dem Bildschirm!" },
+      { "speaker": "アンナ", "text": "よかった です ね。 これ で いつでも 話[はな]せ ます よ。", "de": "Super! Jetzt könnt ihr jederzeit reden." },
+      { "speaker": "けん", "text": "ありがとう ございます。 ドイツ で も この アプリ が 使[つか]え ます か。", "de": "Danke! Kann ich diese App auch in Deutschland benutzen?" },
+      { "speaker": "アンナ", "text": "もちろん です。 ネット が 使[つか]える 所[ところ] なら、 どこでも 使[つか]え ます。", "de": "Natürlich. Überall, wo es Internet gibt." },
+      { "speaker": "けん", "text": "よかった。 じゃあ、 ミュンヘン から 毎週[まいしゅう] 家族[かぞく] に 連絡[れんらく] し ます！", "de": "Gut. Dann melde ich mich jede Woche aus München bei meiner Familie!" },
+      { "speaker": "アンナ", "text": "おばあさん も きっと 喜[よろこ]ぶ と 思[おも]い ます。", "de": "Deine Oma freut sich bestimmt." }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["動画[どうが]", "das Video"], ["画[が]面[めん]", "der Bildschirm"], ["記[き]事[じ]", "der Artikel"], ["番組[ばんぐみ]", "die Sendung"], ["情報[じょうほう]", "die Information"], ["返[へん]事[じ]", "die Antwort (auf eine Nachricht)"]] },
+    { "type": "match", "pairs": [["押[お]し ます", "drücken"], ["消[け]し ます", "ausschalten"], ["つけ ます", "einschalten"], ["直[なお]し ます", "reparieren"], ["こわれ ます", "kaputtgehen"]] },
+    { "type": "translate", "de": "Kann man hier das Internet benutzen?", "answers": ["ここ で は インターネット が 使[つか]え ます か。", "ここ で は インターネット を 使[つか]え ます か。", "ここ で は ネット が 使[つか]え ます か。", "ここ で は ネット を 使[つか]え ます か。", "ここ で インターネット が 使[つか]え ます か。", "ここ で インターネット を 使[つか]え ます か。", "ここ で ネット が 使[つか]え ます か。", "ここ で ネット を 使[つか]え ます か。", "ここ で は インターネット が 利[り]用[よう] でき ます か。", "ここ で は ネット が 利[り]用[よう] でき ます か。", "ここ で インターネット が 利[り]用[よう] でき ます か。", "ここ で ネット が 利[り]用[よう] でき ます か。"] },
+    { "type": "translate", "de": "Ich habe Sophie eine Nachricht geschickt, aber es kommt keine Antwort.", "answers": ["ソフィー さん に メッセージ を 送[おく]り ました が、 まだ 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]り ました が、 まだ 返[へん]事[じ] が あり ません。", "ソフィー さん に メッセージ を 送[おく]り ました が、 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]り ました が、 返[へん]事[じ] が あり ません。", "ソフィー さん に メッセージ を 送[おく]り ました けど、 まだ 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]り ました けど、 まだ 返[へん]事[じ] が あり ません。", "ソフィー さん に メッセージ を 送[おく]り ました けど、 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]り ました けど、 返[へん]事[じ] が あり ません。", "ソフィー さん に メッセージ を 送[おく]った けど、 まだ 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]った けど、 まだ 返[へん]事[じ] が あり ません。", "ソフィー さん に メッセージ を 送[おく]った けど、 返[へん]事[じ] が 来[き]ません。", "ソフィー さん に メッセージ を 送[おく]った けど、 返[へん]事[じ] が あり ません。"] },
+    { "type": "translate", "de": "In letzter Zeit funktioniert mein Handy nicht richtig.", "answers": ["最近[さいきん]、 私[わたし] の スマホ の 調[ちょう]子[し] が 悪[わる]い です。", "最近[さいきん]、 スマホ の 調[ちょう]子[し] が 悪[わる]い です。", "最近[さいきん] 私[わたし] の スマホ の 調[ちょう]子[し] が 悪[わる]い です。", "最近[さいきん] スマホ の 調[ちょう]子[し] が 悪[わる]い です。"] },
+    { "type": "translate", "de": "Ich schaue Videos, während ich koche.", "answers": ["私[わたし] は 料理[りょうり] を し ながら 動画[どうが] を 見[み] ます。", "私[わたし] は 料理[りょうり] し ながら 動画[どうが] を 見[み] ます。", "料理[りょうり] を し ながら 動画[どうが] を 見[み] ます。", "料理[りょうり] し ながら 動画[どうが] を 見[み] ます。"] },
+    { "type": "order", "de": "Ich melde mich morgen wieder.", "answer": "あした また 連絡[れんらく] し ます。", "distractors": ["でした"] },
+    { "type": "order", "de": "Sag mir bitte, wie man diesen Satz liest.", "answer": "この 文[ぶん] の 読[よ]み方[かた] を 教[おし]えて ください。", "distractors": ["読[よ]み ます"] },
+    { "type": "cloze", "text": "寝[ね]る 前[まえ] に スマホ を ___ し ます。", "answers": ["充[じゅう]電[でん]"], "de": "Vor dem Schlafen lade ich das Handy auf." },
+    { "type": "cloze", "text": "この 機械[きかい] で 切符[きっぷ] が ___。", "answers": ["買[か]え ます"], "de": "An diesem Automaten kann man Fahrkarten kaufen.", "hint": "かう → können" },
+    { "type": "listen", "text": "最近[さいきん]、 日本語[にほんご] の ニュース が 少[すこ]し わかる ように なり ました。", "de": "In letzter Zeit verstehe ich die japanischen Nachrichten ein bisschen." },
+    { "type": "listen", "text": "この アプリ は 簡単[かんたん] で、 だれ でも 使[つか]え ます。", "de": "Diese App ist einfach, jeder kann sie benutzen." },
+    { "type": "choice", "prompt": "Welche Potentialform gehört zu くる (kommen)?", "options": ["来[こ]られる", "来[き]られる", "来[く]れる"], "answer": 0, "explain": "くる ist unregelmäßig: こられる (höflich こられます). Umgangssprachlich auch これる." }
+  ]
+}

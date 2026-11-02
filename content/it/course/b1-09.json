@@ -310,17 +310,15 @@
       "note": "Wie raccogliere: accolgo, accolgono. Partizip: accolto. Mi hanno accolto benissimo. = Sie haben mich sehr herzlich aufgenommen."
     },
     {
-      "id": "spiegare",
-      "word": "spiegare",
-      "de": "erklären",
-      "pos": "verb",
-      "forms": "spiego, spieghi, spiega, spieghiamo, spiegate, spiegano",
-      "example": {
-        "text": "Giulia ci ha spiegato come funziona l'associazione.",
-        "de": "Giulia hat uns erklärt, wie der Verein funktioniert.",
-        "focus": "spiegato"
-      },
-      "note": "Bei -gare kommt ein h dazu: spieghi, spieghiamo."
+      "id": "pregiudizio",
+      "word": "pregiudizio",
+      "article": "il",
+      "gender": "m",
+      "plural": "i pregiudizi",
+      "de": "das Vorurteil",
+      "pos": "noun",
+      "example": { "text": "Non bisogna avere pregiudizi sugli stranieri.", "de": "Man sollte keine Vorurteile über Ausländer haben.", "focus": "pregiudizi" },
+      "note": "Avere pregiudizi = Vorurteile haben."
     },
     {
       "id": "qualcuno",

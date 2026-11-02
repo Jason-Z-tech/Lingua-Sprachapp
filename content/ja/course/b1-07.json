@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "ja-b1-07",
+  "lang": "ja",
+  "level": "B1",
+  "number": 7,
+  "title": "好[す]き な 映画[えいが]、 好[す]き な 本[ほん]",
+  "title_de": "Kultur",
+  "topic": "Musik, Film und Bücher",
+  "goals": [
+    "Du kannst Nomen mit ganzen Sätzen genauer beschreiben: きのう みた えいが, やまだせんせいが かいた ほん.",
+    "Du kannst mit 〜と いう Namen und Titel nennen und nach der Bedeutung von Wörtern fragen.",
+    "Du kannst weitergeben, was du gehört oder gelesen hast, und Vermutungen äußern: 〜そうです, 〜らしい, 〜みたい.",
+    "Du kannst über Filme, Musik, Bücher und japanische Kultur sprechen."
+  ],
+  "kanji": ["映", "館", "美", "術", "物", "図", "洋"],
+  "vocab": [
+    { "id": "bijutsu", "word": "美術[びじゅつ]", "de": "die (bildende) Kunst", "pos": "noun", "example": { "text": "高校[こうこう] の とき、 美術[びじゅつ] の 授[じゅ]業[ぎょう] が 大[だい]好[す]き でした。", "de": "In der Oberschule mochte ich den Kunstunterricht sehr." }, "note": "びじゅつかん (Kunstmuseum) kennst du schon – jetzt kannst du es auch schreiben: 美術館." },
+    { "id": "utsukushii", "word": "美[うつく]しい", "de": "schön; wunderschön", "pos": "adj", "example": { "text": "京[きょう]都[と] の 秋[あき] は 本[ほん]当[とう] に 美[うつく]しい です。", "de": "Der Herbst in Kyoto ist wirklich wunderschön." }, "note": "Gehobener als きれい – für Landschaften, Kunst und Musik." },
+    { "id": "geijutsu", "word": "芸[げい]術[じゅつ]", "de": "die Kunst (allgemein)", "pos": "noun", "example": { "text": "パリ は 芸[げい]術[じゅつ] の 町[まち] です。", "de": "Paris ist eine Stadt der Kunst." }, "note": "げいじゅつ umfasst alle Künste (Musik, Theater, Literatur …), びじゅつ nur die bildende Kunst." },
+    { "id": "hakubutsukan", "word": "博[はく]物館[ぶつかん]", "de": "das Museum", "pos": "noun", "example": { "text": "上[うえ]野[の] に は 大[おお]きい 博[はく]物館[ぶつかん] が あり ます。", "de": "In Ueno gibt es ein großes Museum." }, "note": "はくぶつかん = Museum für Geschichte, Natur oder Technik. Für Kunst sagt man びじゅつかん." },
+    { "id": "tenrankai", "word": "展[てん]覧[らん]会[かい]", "de": "die Ausstellung", "pos": "noun", "example": { "text": "美術館[びじゅつかん] で ゴッホ の 展[てん]覧[らん]会[かい] を やって い ます。", "de": "Im Kunstmuseum läuft gerade eine Van-Gogh-Ausstellung." } },
+    { "id": "sakuhin", "word": "作[さく]品[ひん]", "de": "das Werk (Kunst, Literatur)", "pos": "noun", "example": { "text": "この 画家[がか] の 作[さく]品[ひん] は 世界[せかい]中[じゅう] で 人気[にんき] が あり ます。", "de": "Die Werke dieses Malers sind auf der ganzen Welt beliebt." } },
+    { "id": "sakka", "word": "作家[さっか]", "de": "Schriftsteller/in", "pos": "noun", "example": { "text": "村[むら]上[かみ]春[はる]樹[き] は 有名[ゆうめい] な 作家[さっか] です。", "de": "Haruki Murakami ist ein berühmter Schriftsteller." } },
+    { "id": "gaka", "word": "画家[がか]", "de": "Maler/in", "pos": "noun", "example": { "text": "祖[そ]父[ふ] は 画家[がか] で、 毎日[まいにち] 絵[え] を かいて い ました。", "de": "Mein Großvater war Maler und hat jeden Tag gemalt." } },
+    { "id": "e", "word": "絵[え]", "de": "das Bild; das Gemälde", "pos": "noun", "example": { "text": "これ は 私[わたし] が かいた 絵[え] です。", "de": "Das ist ein Bild, das ich gemalt habe." }, "note": "Ein Bild malen: えを かきます (das Kanji 描く schreibt man meist in Kana)." },
+    { "id": "shousetsu", "word": "小説[しょうせつ]", "de": "der Roman", "pos": "noun", "example": { "text": "寝[ね]る 前[まえ] に 小説[しょうせつ] を 読[よ]む の が 好[す]き です。", "de": "Ich lese gern vor dem Schlafen Romane." } },
+    { "id": "monogatari", "word": "物語[ものがたり]", "de": "die Erzählung; die Geschichte", "pos": "noun", "example": { "text": "これ は 小[ちい]さい 村[むら] の 家族[かぞく] の 物語[ものがたり] です。", "de": "Das ist die Geschichte einer Familie in einem kleinen Dorf." }, "note": "„げんじものがたり“ (Die Geschichte vom Prinzen Genji) gilt als einer der ältesten Romane der Welt." },
+    { "id": "mukashibanashi", "word": "昔[むかし]話[ばなし]", "de": "das Märchen; die alte Volkserzählung", "pos": "noun", "example": { "text": "「ももたろう」 は 日本[にほん] で いちばん 有名[ゆうめい] な 昔[むかし]話[ばなし] です。", "de": "„Momotaro“ ist das bekannteste Märchen Japans." } },
+    { "id": "jinbutsu", "word": "人物[じんぶつ]", "de": "die Person; die Figur (in einer Geschichte)", "pos": "noun", "example": { "text": "この 小説[しょうせつ] は 人物[じんぶつ] が 多[おお]くて、 少[すこ]し むずかしい です。", "de": "In diesem Roman gibt es viele Figuren, deshalb ist er etwas schwer." } },
+    { "id": "kimono", "word": "着[き]物[もの]", "de": "der Kimono", "pos": "noun", "example": { "text": "お正月[しょうがつ] に 着[き]物[もの] を 着[き]て、 神[じん]社[じゃ] に 行[い]き ました。", "de": "Zu Neujahr habe ich einen Kimono angezogen und bin zum Schrein gegangen." }, "note": "Wörtlich „Ding zum Anziehen“. Den leichten Sommer-Kimono ゆかた kennst du schon." },
+    { "id": "seiyou", "word": "西洋[せいよう]", "de": "der Westen (Europa und Amerika)", "pos": "noun", "example": { "text": "明[めい]治[じ] 時[じ]代[だい] に 西洋[せいよう] の 文[ぶん]化[か] が 日本[にほん] に 入[はい]って き ました。", "de": "In der Meiji-Zeit kam die westliche Kultur nach Japan." }, "note": "Das Gegenstück ist とうよう (der Osten, Asien)." },
+    { "id": "youfuku", "word": "洋[よう]服[ふく]", "de": "die (westliche) Kleidung", "pos": "noun", "example": { "text": "今[いま] は 着[き]物[もの] より 洋[よう]服[ふく] を 着[き]る 人[ひと] が ずっと 多[おお]い です。", "de": "Heute tragen viel mehr Menschen westliche Kleidung als Kimonos." } },
+    { "id": "youshoku", "word": "洋食[ようしょく]", "de": "westliches Essen", "pos": "noun", "example": { "text": "和[わ]食[しょく] と 洋食[ようしょく]、 どちら が 好[す]き です か。", "de": "Was magst du lieber, japanisches oder westliches Essen?" }, "note": "わしょく = japanisches Essen. わ (和) bedeutet „japanisch“ – wie in わしつ." },
+    { "id": "bunka", "word": "文[ぶん]化[か]", "de": "die Kultur", "pos": "noun", "example": { "text": "日本[にほん] の 文[ぶん]化[か] に 興[きょう]味[み] が あり ます。", "de": "Ich interessiere mich für die japanische Kultur." }, "note": "〜に きょうみが あります = sich für … interessieren." },
+    { "id": "dentou", "word": "伝統[でんとう]", "de": "die Tradition", "pos": "noun", "example": { "text": "お茶[ちゃ] や お花[はな] は 日本[にほん] の 伝統[でんとう] 文[ぶん]化[か] です。", "de": "Teezeremonie und Ikebana gehören zur traditionellen Kultur Japans." }, "note": "でんとうてきな = traditionell." },
+    { "id": "shodou", "word": "書[しょ]道[どう]", "de": "die Kalligrafie", "pos": "noun", "example": { "text": "毎週[まいしゅう] 土[ど]曜日[ようび] に 書[しょ]道[どう] を 習[なら]って い ます。", "de": "Jeden Samstag nehme ich Kalligrafieunterricht." } },
+    { "id": "sadou", "word": "茶[さ]道[どう]", "alt": ["茶[ちゃ]道[どう]"], "de": "die Teezeremonie", "pos": "noun", "example": { "text": "茶[さ]道[どう] で は お茶[ちゃ] の 飲[の]み方[かた] に も ルール が あり ます。", "de": "Bei der Teezeremonie gibt es sogar Regeln, wie man den Tee trinkt." }, "note": "Man liest es さどう oder ちゃどう." },
+    { "id": "kabuki", "word": "かぶき", "de": "das Kabuki (klassisches Theater)", "pos": "noun", "example": { "text": "かぶき で は 男[おとこ] の 人[ひと] が 女[おんな] の 役[やく] も し ます。", "de": "Beim Kabuki spielen Männer auch die Frauenrollen." }, "note": "Kanji: 歌舞伎 (Gesang, Tanz, Kunst)." },
+    { "id": "kantoku", "word": "監督[かんとく]", "de": "der Regisseur; die Regisseurin", "pos": "noun", "example": { "text": "この 映画[えいが] の 監督[かんとく] は だれ です か。", "de": "Wer ist der Regisseur dieses Films?" }, "note": "Auch der Trainer im Sport: サッカーの かんとく." },
+    { "id": "haiyuu", "word": "俳優[はいゆう]", "de": "der Schauspieler; die Schauspielerin", "pos": "noun", "example": { "text": "あの 俳優[はいゆう] は ドラマ でも 映画[えいが] でも 人気[にんき] が あり ます。", "de": "Der Schauspieler ist in Serien genauso beliebt wie im Kino." } },
+    { "id": "jimaku", "word": "字[じ]幕[まく]", "de": "die Untertitel", "pos": "noun", "example": { "text": "日本[にほん] の 映画[えいが] を 日本[にほん]語[ご] の 字[じ]幕[まく] で 見[み] ます。", "de": "Ich schaue japanische Filme mit japanischen Untertiteln." } },
+    { "id": "kyoku", "word": "曲[きょく]", "de": "das Musikstück; der Song", "pos": "noun", "example": { "text": "この 曲[きょく] を 聞[き]く と、 夏[なつ] を 思[おも]い出[だ]し ます。", "de": "Wenn ich dieses Lied höre, denke ich an den Sommer." } },
+    { "id": "ensou", "word": "演奏[えんそう]", "de": "das (musikalische) Spiel; der Vortrag", "pos": "noun", "example": { "text": "きのう の コンサート で、 ピアノ の 演奏[えんそう] に 感[かん]動[どう] し ました。", "de": "Beim Konzert gestern hat mich das Klavierspiel tief bewegt." }, "note": "えんそうします = (ein Instrument) spielen, vortragen." },
+    { "id": "kandou", "word": "感[かん]動[どう]", "de": "die Rührung; das Ergriffensein", "pos": "noun", "example": { "text": "あの 映画[えいが] を 見[み]て、 とても 感[かん]動[どう] し ました。", "de": "Der Film hat mich sehr bewegt." }, "note": "かんどうします = gerührt, tief beeindruckt sein." },
+    { "id": "honyaku", "word": "翻訳[ほんやく]", "de": "die Übersetzung (schriftlich)", "pos": "noun", "example": { "text": "この 小説[しょうせつ] は ドイツ語[ご] の 翻訳[ほんやく] も あり ます。", "de": "Diesen Roman gibt es auch auf Deutsch." }, "note": "ほんやく = schriftlich, つうやく (Lektion 6) = mündlich." },
+    { "id": "niyoruto", "word": "〜に よると", "alt": ["に よると"], "de": "laut …; nach Angaben von …", "pos": "phrase", "example": { "text": "天気[てんき]予報[よほう] に よると、 あした は 雨[あめ] だ そう です。", "de": "Laut Wetterbericht soll es morgen regnen.", "focus": "に よると" } },
+    { "id": "uwasa", "word": "うわさ", "de": "das Gerücht", "pos": "noun", "example": { "text": "あの 二人[ふたり] は 結婚[けっこん] する と いう うわさ です。", "de": "Es gibt das Gerücht, dass die beiden heiraten." } },
+    { "id": "fan", "word": "ファン", "de": "der Fan", "pos": "noun", "example": { "text": "私[わたし] は この バンド の 大[だい] ファン です。", "de": "Ich bin ein großer Fan dieser Band." } },
+    { "id": "anime", "word": "アニメ", "de": "der Anime; der Zeichentrickfilm", "pos": "noun", "example": { "text": "子[こ]ども の とき、 日本[にほん] の アニメ を よく 見[み]て い ました。", "de": "Als Kind habe ich oft japanische Animes geschaut." } },
+    { "id": "naiyou", "word": "内容[ないよう]", "de": "der Inhalt", "pos": "noun", "example": { "text": "この 本[ほん] は どんな 内容[ないよう] です か。", "de": "Worum geht es in diesem Buch?" } },
+    { "id": "toiu", "word": "〜と いう", "alt": ["と いう"], "de": "namens …; mit dem Namen …", "pos": "phrase", "example": { "text": "「さくら」 と いう 歌[うた] を 知[し]って い ます か。", "de": "Kennst du das Lied „Sakura“?", "focus": "と いう" } },
+    { "id": "rashii", "word": "〜らしい", "alt": ["らしい"], "de": "anscheinend; es heißt, dass …", "pos": "other", "example": { "text": "あの 店[みせ] は 来月[らいげつ] 閉[し]まる らしい です。", "de": "Der Laden macht anscheinend nächsten Monat zu.", "focus": "らしい" } },
+    { "id": "mitai", "word": "〜みたい", "alt": ["みたい"], "de": "scheint …; sieht so aus, als …", "pos": "other", "example": { "text": "けん さん は 今日[きょう] 元[げん]気[き] が ない みたい です。", "de": "Ken scheint heute nicht gut drauf zu sein.", "focus": "みたい" } }
+  ],
+  "grammar": [
+    {
+      "id": "meishi-shuushoku",
+      "title": "Sätze vor Nomen: きのう 見た 映画",
+      "blocks": [
+        { "type": "p", "text": "Im Deutschen steht ein Relativsatz hinter dem Nomen: „der Film, den ich gestern gesehen habe“. Im Japanischen steht die Beschreibung immer VOR dem Nomen – und es gibt kein Wort wie „der, den, das“. Man stellt einfach einen Satz in einfacher Form vor das Nomen: きのう みた えいが = der Film, den ich gestern gesehen habe." },
+        { "type": "table", "head": ["Satz", "vor einem Nomen", "Deutsch"], "rows": [["きのう 映画[えいが] を 見[み] ました。", "きのう 見[み]た 映画[えいが]", "der Film, den ich gestern gesehen habe"], ["山田[やまだ] 先生[せんせい] が 本[ほん] を 書[か]き ました。", "山田[やまだ] 先生[せんせい] が 書[か]いた 本[ほん]", "das Buch, das Frau Yamada geschrieben hat"], ["あの 人[ひと] は めがね を かけて い ます。", "めがね を かけて いる 人[ひと]", "die Person, die eine Brille trägt"], ["この 曲[きょく] は 日本[にほん] で 人気[にんき] が あり ます。", "日本[にほん] で 人気[にんき] が ある 曲[きょく]", "ein Lied, das in Japan beliebt ist"], ["まだ 読[よ]んで い ません。", "まだ 読[よ]んで いない 小説[しょうせつ]", "ein Roman, den ich noch nicht gelesen habe"]] },
+        { "type": "p", "text": "Vor dem Nomen stehen nur einfache Formen: Präsens (みる), Vergangenheit (みた), verneint (みない, みなかった), 〜て いる. Bei Adjektiven kennst du das schon: おもしろい えいが, ゆうめいな さっか." },
+        { "type": "tip", "text": "Das Subjekt im Beschreibungssatz bekommt が, nicht は: ははが つくった りょうり = das Essen, das meine Mutter gekocht hat. Oft geht auch の: ははの つくった りょうり." },
+        { "type": "examples", "items": [{ "text": "これ は 母[はは] が 作[つく]った ケーキ です。", "de": "Das ist ein Kuchen, den meine Mutter gebacken hat." }, { "text": "きのう 見[み]た 映画[えいが] は とても おもしろかった です。", "de": "Der Film, den ich gestern gesehen habe, war sehr spannend." }, { "text": "あそこ で ギター を ひいて いる 人[ひと] は だれ です か。", "de": "Wer ist die Person, die dort Gitarre spielt?" }, { "text": "アンナ さん が 好[す]き な 作家[さっか] は だれ です か。", "de": "Wer ist deine Lieblingsautorin, Anna?" }] },
+        { "type": "tip", "text": "So sagst du auch „Lieblings-…“: すきな えいが = Lieblingsfilm, よく きく きょく = ein Lied, das ich oft höre." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "これ は 父[ちち] が ___ 絵[え] です。", "answers": ["かいた"], "de": "Das ist ein Bild, das mein Vater gemalt hat.", "hint": "かきます → た-Form" },
+        { "type": "cloze", "text": "きのう ___ 映画[えいが] は おもしろかった です。", "answers": ["見[み]た"], "de": "Der Film, den ich gestern gesehen habe, war spannend." },
+        { "type": "cloze", "text": "めがね を かけて ___ 人[ひと] が 山田[やまだ] 先生[せんせい] です。", "answers": ["いる"], "de": "Die Person mit der Brille ist Frau Yamada." },
+        { "type": "order", "de": "Das ist das Buch, das ich gestern gekauft habe.", "answer": "これ は きのう 買[か]った 本[ほん] です。", "distractors": ["買[か]い"] },
+        { "type": "translate", "de": "Wer ist die Person, die dort Kaffee trinkt?", "answers": ["あそこ で コーヒー を 飲[の]んで いる 人[ひと] は だれ です か。", "あそこ で コーヒー を 飲[の]んで いる 人[ひと] は どなた です か。"] },
+        { "type": "translate", "de": "Das Essen, das meine Mutter kocht, ist am leckersten.", "answers": ["母[はは] が 作[つく]る 料理[りょうり] が いちばん おいしい です。", "母[はは] が 作[つく]る 料理[りょうり] は いちばん おいしい です。", "母[はは] の 作[つく]る 料理[りょうり] が いちばん おいしい です。", "母[はは] の 作[つく]る 料理[りょうり] は いちばん おいしい です。"] },
+        { "type": "translate", "de": "Ich habe ein Buch gelesen, das Frau Yamada geschrieben hat.", "answers": ["私[わたし] は 山田[やまだ] 先生[せんせい] が 書[か]いた 本[ほん] を 読[よ]み ました。", "私[わたし] は 山田[やまだ] 先生[せんせい] の 書[か]いた 本[ほん] を 読[よ]み ました。", "私[わたし] は 山田[やまだ] さん が 書[か]いた 本[ほん] を 読[よ]み ました。", "私[わたし] は 山田[やまだ] さん の 書[か]いた 本[ほん] を 読[よ]み ました。", "山田[やまだ] 先生[せんせい] が 書[か]いた 本[ほん] を 読[よ]み ました。", "山田[やまだ] 先生[せんせい] の 書[か]いた 本[ほん] を 読[よ]み ました。", "山田[やまだ] さん が 書[か]いた 本[ほん] を 読[よ]み ました。", "山田[やまだ] さん の 書[か]いた 本[ほん] を 読[よ]み ました。"] }
+      ]
+    },
+    {
+      "id": "toiu",
+      "title": "Namen und Bedeutungen: 〜と いう",
+      "blocks": [
+        { "type": "p", "text": "Mit Name + と いう + Nomen sagst du, wie etwas oder jemand heißt – besonders, wenn der andere es vielleicht nicht kennt: 「ゆき」と いう えいが = ein Film namens „Yuki“." },
+        { "type": "examples", "items": [{ "text": "「さくら」 と いう 歌[うた] を 知[し]って い ます か。", "de": "Kennst du ein Lied namens „Sakura“?" }, { "text": "鈴[すず]木[き] と いう 人[ひと] から 電話[でんわ] が あり ました。", "de": "Ein gewisser Herr Suzuki hat angerufen." }, { "text": "きのう、 「海[うみ] の 声[こえ]」 と いう 小説[しょうせつ] を 読[よ]み ました。", "de": "Gestern habe ich einen Roman namens „Die Stimme des Meeres“ gelesen." }] },
+        { "type": "p", "text": "Nach der Bedeutung eines Wortes fragst du mit 〜は どういう いみですか. Die Antwort lautet 〜と いう いみです. Locker sagt man statt と いう oft って." },
+        { "type": "table", "head": ["Frage", "Antwort"], "rows": [["「和[わ]食[しょく]」 は どういう 意[い]味[み] です か。", "日本[にほん] の 料理[りょうり] と いう 意[い]味[み] です。"], ["「洋[よう]服[ふく]」 って 何[なん] です か。", "西洋[せいよう] の 服[ふく] の こと です。"]] },
+        { "type": "p", "text": "Auch ganze Sätze können vor と いう stehen. So gibst du den Inhalt einer Nachricht, eines Gerüchts oder einer Idee an: らいげつ けっこんする と いう うわさ = das Gerücht, dass er nächsten Monat heiratet." },
+        { "type": "examples", "items": [{ "text": "あの 店[みせ] が 閉[し]まる と いう ニュース を 聞[き]き ました。", "de": "Ich habe die Nachricht gehört, dass der Laden schließt." }, { "text": "日本[にほん] で 働[はたら]き たい と いう 夢[ゆめ] が あり ます。", "de": "Ich habe den Traum, in Japan zu arbeiten." }] },
+        { "type": "tip", "text": "こういう / そういう / ああいう / どういう = solch ein … / was für ein …: そういう えいがが すきです (Solche Filme mag ich)." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "「ゆき」 ___ 映画[えいが] を 見[み]た こと が あり ます か。", "answers": ["と いう", "って いう"], "de": "Hast du schon den Film „Yuki“ gesehen?" },
+        { "type": "cloze", "text": "「茶[さ]道[どう]」 は どういう ___ です か。", "answers": ["意[い]味[み]"], "de": "Was bedeutet „sadō“?" },
+        { "type": "cloze", "text": "鈴[すず]木[き] と ___ 人[ひと] から 電話[でんわ] が あり ました。", "answers": ["いう"], "de": "Ein gewisser Herr Suzuki hat angerufen." },
+        { "type": "order", "de": "Kennst du ein Lied namens „Sakura“?", "answer": "「さくら」 と いう 歌[うた] を 知[し]って い ます か。", "distractors": ["が"] },
+        { "type": "translate", "de": "Was bedeutet „yōshoku“?", "answers": ["「洋食[ようしょく]」 は どういう 意[い]味[み] です か。", "「洋食[ようしょく]」 は どんな 意[い]味[み] です か。", "「洋食[ようしょく]」 って 何[なん] です か。", "「洋食[ようしょく]」 って どういう 意[い]味[み] です か。", "「洋食[ようしょく]」 は 何[なん] です か。"] },
+        { "type": "translate", "de": "Ich habe das Gerücht gehört, dass Ken nach Deutschland geht.", "answers": ["けん さん が ドイツ に 行[い]く と いう うわさ を 聞[き]き ました。", "けん さん が ドイツ に 行[い]く って いう うわさ を 聞[き]き ました。", "けん さん が ドイツ へ 行[い]く と いう うわさ を 聞[き]き ました。", "けん さん が ドイツ へ 行[い]く って いう うわさ を 聞[き]き ました。"] }
+      ]
+    },
+    {
+      "id": "denbun",
+      "title": "Gehört, gelesen, vermutet: 〜そうです, 〜らしい, 〜みたい",
+      "blocks": [
+        { "type": "p", "text": "Wenn du weitergibst, was du gehört oder gelesen hast, benutzt du einfache Form + そうです: あした あめが ふる そうです = Morgen soll es regnen (habe ich gehört). Die Quelle nennst du mit 〜に よると (laut …)." },
+        { "type": "tip", "text": "Achtung, Verwechslungsgefahr! Aus A2 kennst du そう für „sieht aus wie“: おいしそうです (sieht lecker aus) – dort steht der ます-Stamm oder das Adjektiv ohne い. Das Hörensagen-そう steht nach der VOLLEN einfachen Form: おいしい そうです = Es soll lecker sein." },
+        { "type": "table", "head": ["Wortart", "„sieht aus wie“ (A2)", "Hörensagen"], "rows": [["Verb", "雨[あめ] が 降[ふ]りそう です", "雨[あめ] が 降[ふ]る そう です"], ["い-Adjektiv", "おいしそう です", "おいしい そう です"], ["な-Adjektiv", "ひまそう です", "ひま だ そう です"], ["Nomen", "–", "学生[がくせい] だ そう です"]] },
+        { "type": "p", "text": "らしい und みたい drücken eine Vermutung aus. らしい stützt sich meist auf Informationen von außen (gehört, gelesen): „anscheinend, es heißt“. みたい ist umgangssprachlicher und kann auch auf eigenen Beobachtungen beruhen: „scheint so, sieht so aus“. Bei Nomen und な-Adjektiven fällt だ weg: がくせい らしい, ひま みたい." },
+        { "type": "table", "head": ["Ausdruck", "Verb / い-Adjektiv", "Nomen / な-Adjektiv"], "rows": [["そう です (gehört)", "来[く]る そう です / 高[たか]い そう です", "雨[あめ] だ そう です / 有名[ゆうめい] だ そう です"], ["らしい です", "来[く]る らしい です / 高[たか]い らしい です", "雨[あめ] らしい です / 有名[ゆうめい] らしい です"], ["みたい です", "来[く]る みたい です / 高[たか]い みたい です", "雨[あめ] みたい です / 有名[ゆうめい] みたい です"]] },
+        { "type": "examples", "items": [{ "text": "ニュース に よると、 あの 歌手[かしゅ] は 来年[らいねん] 日本[にほん] に 来[く]る そう です。", "de": "Laut den Nachrichten kommt die Sängerin nächstes Jahr nach Japan." }, { "text": "ソフィー さん に よると、 あの 映画[えいが] は とても こわい そう です。", "de": "Laut Sophie soll der Film sehr gruselig sein." }, { "text": "その 作家[さっか] の 新[あたら]しい 小説[しょうせつ] は 来月[らいげつ] 出[で]る らしい です。", "de": "Der neue Roman dieser Schriftstellerin erscheint anscheinend nächsten Monat." }, { "text": "電気[でんき] が ついて いない。 だれ も いない みたい です。", "de": "Das Licht ist aus. Es scheint niemand da zu sein." }] },
+        { "type": "tip", "text": "みたい ist eher Umgangssprache. In Texten und Nachrichten liest du らしい oder ようです – das bedeutet dasselbe, klingt aber etwas förmlicher." }
+      ],
+      "exercises": [
+        { "type": "cloze", "text": "天気[てんき]予報[よほう] に よると、 あした は 雪[ゆき] が 降[ふ]る ___。", "answers": ["そう です", "らしい です"], "de": "Laut Wetterbericht soll es morgen schneien." },
+        { "type": "cloze", "text": "ソフィー さん に よると、 あの 映画[えいが] は おもしろい ___ です。", "answers": ["そう", "らしい"], "de": "Laut Sophie soll der Film spannend sein." },
+        { "type": "cloze", "text": "あの 作家[さっか] は ドイツ で も 有名[ゆうめい] ___ そう です。", "answers": ["だ"], "de": "Die Schriftstellerin soll auch in Deutschland bekannt sein." },
+        { "type": "cloze", "text": "けん さん は 今日[きょう] つかれて いる ___ です。", "answers": ["みたい", "らしい"], "de": "Ken scheint heute müde zu sein." },
+        { "type": "choice", "prompt": "„Der Kuchen soll lecker sein (habe ich gehört).“ Welcher Satz passt?", "options": ["この ケーキ は おいしい そう です。", "この ケーキ は おいしそう です。", "この ケーキ は おいしかった です。"], "answer": 0, "explain": "Hörensagen: volle Form + そうです (おいしい そうです). おいしそうです heißt „sieht lecker aus“." },
+        { "type": "translate", "de": "Laut Ken soll das Restaurant teuer sein.", "answers": ["けん さん に よると、 その レストラン は 高[たか]い そう です。", "けん さん に よると、 その レストラン は 高[たか]い らしい です。", "けん さん に よると、 あの レストラン は 高[たか]い そう です。", "けん さん に よると、 あの レストラン は 高[たか]い らしい です。", "けん さん に よると、 この レストラン は 高[たか]い そう です。", "けん さん に よると、 この レストラン は 高[たか]い らしい です。"] },
+        { "type": "translate", "de": "Es scheint niemand da zu sein.", "answers": ["だれ も いない みたい です。", "だれ も いない らしい です。"] }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "文[ぶん]化[か] の 週[しゅう]末[まつ]",
+    "title_de": "Ein Kultur-Wochenende",
+    "lines": [
+      { "speaker": "ソフィー", "text": "アンナ、 今[こん]度[ど] の 週[しゅう]末[まつ]、 何[なに] か 予定[よてい] が あり ます か。", "de": "Anna, hast du am kommenden Wochenende schon etwas vor?" },
+      { "speaker": "アンナ", "text": "いいえ、 特[とく]に あり ません。 どうして です か。", "de": "Nein, nichts Besonderes. Warum?" },
+      { "speaker": "ソフィー", "text": "上[うえ]野[の] の 美術館[びじゅつかん] で、 モネ と いう 画家[がか] の 展[てん]覧[らん]会[かい] を やって いる ん です。 いっしょに 行[い]き ません か。", "de": "Im Kunstmuseum in Ueno läuft eine Ausstellung über einen Maler namens Monet. Wollen wir zusammen hingehen?" },
+      { "speaker": "アンナ", "text": "モネ！ 大[だい]好[す]き です。 でも、 その 展[てん]覧[らん]会[かい] は すごく 込[こ]んで いる らしい です よ。", "de": "Monet! Den liebe ich. Aber die Ausstellung soll total überfüllt sein." },
+      { "speaker": "ソフィー", "text": "そう です か。 じゃあ、 朝[あさ] 早[はや]く 行[い]けば 大[だい]丈夫[じょうぶ] かもしれません ね。", "de": "Ach so. Dann ist es vielleicht okay, wenn wir morgens früh hingehen." },
+      { "speaker": "アンナ", "text": "そう です ね。 それ から、 日[にち]曜日[ようび] は 映画[えいが] は どう です か。 けん さん に よると、 「海[うみ] の 声[こえ]」 と いう 映画[えいが] が とても いい そう です。", "de": "Gute Idee. Und wie wäre es am Sonntag mit Kino? Laut Ken soll ein Film namens „Die Stimme des Meeres“ sehr gut sein." },
+      { "speaker": "ソフィー", "text": "あ、 それ は 有名[ゆうめい] な 小説[しょうせつ] の 映画[えいが] です ね。 私[わたし] は 去[きょ]年[ねん]、 ドイツ語[ご] の 翻訳[ほんやく] で 読[よ]み ました。", "de": "Ah, das ist doch die Verfilmung eines berühmten Romans. Ich habe ihn letztes Jahr auf Deutsch gelesen." },
+      { "speaker": "アンナ", "text": "どんな 内容[ないよう] です か。", "de": "Worum geht es?" },
+      { "speaker": "ソフィー", "text": "小[ちい]さい 島[しま] に 住[す]んで いる おじいさん と、 東[とう]京[きょう] から 来[き]た 女[おんな] の 子[こ] の 物語[ものがたり] です。 最[さい]後[ご] は 本[ほん]当[とう] に 感[かん]動[どう] し ました。", "de": "Es ist die Geschichte eines alten Mannes, der auf einer kleinen Insel lebt, und eines Mädchens aus Tokio. Das Ende hat mich wirklich bewegt." },
+      { "speaker": "アンナ", "text": "おもしろそう です ね。 監督[かんとく] は だれ です か。", "de": "Klingt spannend. Wer ist der Regisseur?" },
+      { "speaker": "ソフィー", "text": "よく 知[し]り ません が、 若[わか]い 女[おんな] の 監督[かんとく] らしい です。 おじいさん を やって いる 俳優[はいゆう] も 有名[ゆうめい] です よ。", "de": "Ich weiß es nicht genau, aber es soll eine junge Regisseurin sein. Auch der Schauspieler, der den alten Mann spielt, ist berühmt." },
+      { "speaker": "アンナ", "text": "字[じ]幕[まく] は あり ます か。 私[わたし] の 日本[にほん]語[ご] で 全[ぜん]部[ぶ] わかる か、 ちょっと 心[しん]配[ぱい] です。", "de": "Gibt es Untertitel? Ich mache mir ein bisschen Sorgen, ob ich mit meinem Japanisch alles verstehe." },
+      { "speaker": "ソフィー", "text": "日本[にほん]語[ご] の 字[じ]幕[まく] が ある 映画館[えいがかん] も ある みたい です よ。 スマホ で 調[しら]べ ましょう。", "de": "Es scheint auch Kinos zu geben, die den Film mit japanischen Untertiteln zeigen. Lass uns auf dem Handy nachschauen." },
+      { "speaker": "アンナ", "text": "あ、 あり ました。 渋谷[しぶや] の 映画館[えいがかん] で、 日[にち]曜日[ようび] の 二時[にじ] から です。", "de": "Ah, gefunden. In einem Kino in Shibuya, am Sonntag um zwei." },
+      { "speaker": "ソフィー", "text": "じゃあ、 土[ど]曜日[ようび] は 美術館[びじゅつかん]、 日[にち]曜日[ようび] は 映画[えいが] です ね。 文[ぶん]化[か] の 週[しゅう]末[まつ] です！", "de": "Dann Samstag Museum und Sonntag Kino. Ein Kultur-Wochenende!" },
+      { "speaker": "アンナ", "text": "いい です ね。 楽[たの]しみ です！", "de": "Super. Ich freue mich!" }
+    ]
+  },
+  "exercises": [
+    { "type": "match", "pairs": [["美術[びじゅつ]", "die bildende Kunst"], ["作家[さっか]", "Schriftsteller/in"], ["画家[がか]", "Maler/in"], ["小説[しょうせつ]", "der Roman"], ["字[じ]幕[まく]", "die Untertitel"], ["俳優[はいゆう]", "Schauspieler/in"]] },
+    { "type": "match", "pairs": [["着[き]物[もの]", "der Kimono"], ["洋[よう]服[ふく]", "westliche Kleidung"], ["洋食[ようしょく]", "westliches Essen"], ["書[しょ]道[どう]", "die Kalligrafie"], ["茶[さ]道[どう]", "die Teezeremonie"]] },
+    { "type": "translate", "de": "Im Kunstmuseum läuft gerade eine Ausstellung.", "answers": ["今[いま] 美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] を やって い ます。", "今[いま] 美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] を して い ます。", "今[いま] 美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] が あり ます。", "美術館[びじゅつかん] で 今[いま] 展[てん]覧[らん]会[かい] を やって い ます。", "美術館[びじゅつかん] で 今[いま] 展[てん]覧[らん]会[かい] を して い ます。", "美術館[びじゅつかん] で 今[いま] 展[てん]覧[らん]会[かい] が あり ます。", "美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] を やって い ます。", "美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] を して い ます。", "美術館[びじゅつかん] で 展[てん]覧[らん]会[かい] が あり ます。"] },
+    { "type": "translate", "de": "Ich interessiere mich für die japanische Kultur.", "answers": ["私[わたし] は 日本[にほん] の 文[ぶん]化[か] に 興[きょう]味[み] が あり ます。", "日本[にほん] の 文[ぶん]化[か] に 興[きょう]味[み] が あり ます。"] },
+    { "type": "translate", "de": "Der Film, den ich gestern gesehen habe, hat mich sehr bewegt.", "answers": ["きのう 見[み]た 映画[えいが] に は とても 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] に は すごく 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] に は 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] に とても 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] に すごく 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] に 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] で とても 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] で すごく 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] で 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] は とても 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] は すごく 感[かん]動[どう] し ました。", "きのう 見[み]た 映画[えいが] は 感[かん]動[どう] し ました。"] },
+    { "type": "translate", "de": "Laut Wetterbericht soll es morgen regnen.", "answers": ["天気[てんき]予報[よほう] に よると、 あした は 雨[あめ] だ そう です。", "天気[てんき]予報[よほう] に よると、 あした は 雨[あめ] らしい です。", "天気[てんき]予報[よほう] に よると、 あした 雨[あめ] だ そう です。", "天気[てんき]予報[よほう] に よると、 あした 雨[あめ] らしい です。", "天気[てんき]予報[よほう] に よると、 あした は 雨[あめ] が 降[ふ]る そう です。", "天気[てんき]予報[よほう] に よると、 あした は 雨[あめ] が 降[ふ]る らしい です。", "天気[てんき]予報[よほう] に よると、 あした 雨[あめ] が 降[ふ]る そう です。", "天気[てんき]予報[よほう] に よると、 あした 雨[あめ] が 降[ふ]る らしい です。"] },
+    { "type": "order", "de": "Worum geht es in diesem Roman?", "answer": "この 小説[しょうせつ] は どんな 内容[ないよう] です か。", "distractors": ["何[なに]"] },
+    { "type": "order", "de": "Kennst du einen Schriftsteller namens Murakami?", "answer": "村[むら]上[かみ] と いう 作家[さっか] を 知[し]って い ます か。", "distractors": ["が"] },
+    { "type": "cloze", "text": "お正月[しょうがつ] に ___ を 着[き]て、 神[じん]社[じゃ] に 行[い]き ました。", "answers": ["着[き]物[もの]"], "de": "Zu Neujahr bin ich im Kimono zum Schrein gegangen." },
+    { "type": "cloze", "text": "この 曲[きょく] を 聞[き]く と、 夏[なつ] を ___。", "answers": ["思[おも]い出[だ]し ます"], "de": "Wenn ich dieses Lied höre, denke ich an den Sommer." },
+    { "type": "listen", "text": "ソフィー さん に よると、 あの 展[てん]覧[らん]会[かい] は とても 込[こ]んで いる そう です。", "de": "Laut Sophie soll die Ausstellung sehr voll sein." },
+    { "type": "listen", "text": "これ は 祖[そ]父[ふ] が かいた 絵[え] です。", "de": "Das ist ein Bild, das mein Großvater gemalt hat." },
+    { "type": "listen", "text": "日本[にほん] の 映画[えいが] を 字[じ]幕[まく] なし で 見[み]られる よう に なり たい です。", "de": "Ich möchte japanische Filme ohne Untertitel schauen können." },
+    { "type": "listen", "text": "図書館[としょかん] で 西洋[せいよう] の 美術[びじゅつ] の 本[ほん] を 借[か]り ました。", "de": "In der Bibliothek habe ich ein Buch über westliche Kunst ausgeliehen." }
+  ]
+}
